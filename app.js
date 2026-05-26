@@ -1,0 +1,1612 @@
+// ============================================================================
+// Flugtheorie — Swiss Paragliding Theory Trainer
+// ============================================================================
+
+// ---- State & persistence ----------------------------------------------------
+const LS_KEY = 'flugtheorie-state-v2';
+
+const DEFAULT_STATE = {
+  view: 'dashboard',                    // current view
+  theme: 'auto',                        // 'light' | 'dark' | 'auto'
+  cards: {},                            // per-card: { box, reviews, lastSeen, lastResult }
+  // flashcards UI
+  fc: { category: 'all', mode: 'flashcards', index: 0, shuffle: false, query: '' },
+  // mock exam
+  exam: {
+    active: false,
+    startedAt: 0,
+    durationSec: 90 * 60,
+    cards: [],                          // ids
+    answers: [],                        // user answer indexes (null = skipped)
+    choices: [],                        // per-question choices arrays
+    flagged: [],                        // set of indexes
+    current: 0,
+    history: []                         // past exam summaries
+  },
+  // guide
+  guide: { partId: null, chapterId: null }
+};
+
+let state = loadState();
+function loadState() {
+  try {
+    const raw = localStorage.getItem(LS_KEY);
+    if (!raw) return JSON.parse(JSON.stringify(DEFAULT_STATE));
+    const parsed = JSON.parse(raw);
+    // merge defaults defensively
+    return {
+      ...JSON.parse(JSON.stringify(DEFAULT_STATE)),
+      ...parsed,
+      fc: { ...DEFAULT_STATE.fc, ...(parsed.fc || {}) },
+      exam: { ...DEFAULT_STATE.exam, ...(parsed.exam || {}) },
+      guide: { ...DEFAULT_STATE.guide, ...(parsed.guide || {}) }
+    };
+  } catch { return JSON.parse(JSON.stringify(DEFAULT_STATE)); }
+}
+function saveState() {
+  try { localStorage.setItem(LS_KEY, JSON.stringify(state)); } catch {}
+}
+
+// ---- Data accessors ---------------------------------------------------------
+const CATEGORIES = ['Legislation', 'Equipment', 'Meteorology', 'Flight Practice', 'Aerodynamics'];
+const CATEGORY_META = {
+  'Legislation':     { color: '#3b82f6', icon: '⚖️', short: 'Law' },
+  'Equipment':       { color: '#f59e0b', icon: '🪂', short: 'Equip' },
+  'Meteorology':     { color: '#06b6d4', icon: '🌦️', short: 'Meteo' },
+  'Flight Practice': { color: '#10b981', icon: '✈️', short: 'Prac' },
+  'Aerodynamics':    { color: '#a855f7', icon: '📐', short: 'Aero' }
+};
+
+const PART_TO_CATEGORY = {
+  part1: 'Aerodynamics',
+  part2: 'Meteorology',
+  part3: 'Legislation',
+  part4: 'Equipment',
+  part5: 'Flight Practice'
+};
+
+function getCards() { return window.CARDS || []; }
+function getGuide() { return window.GUIDE || { parts: [] }; }
+function getTipsMd() { return window.TIPS_MD || ''; }
+
+function cardsForCategory(cat) {
+  if (cat === 'all') return getCards();
+  return getCards().filter(c => c.category === cat);
+}
+function getCardById(id) {
+  return getCards().find(c => c.id === id);
+}
+
+function cardProgress(id) {
+  return state.cards[id] || { box: 0, reviews: 0, right: 0, wrong: 0, lastSeen: 0 };
+}
+function totalProgressFor(cat) {
+  const list = cardsForCategory(cat);
+  let mastered = 0, seen = 0;
+  list.forEach(c => {
+    const p = state.cards[c.id];
+    if (p) {
+      seen++;
+      if (p.box >= 3) mastered++;
+    }
+  });
+  return { total: list.length, seen, mastered };
+}
+
+// ---- Spaced repetition (simple Leitner) -------------------------------------
+// Boxes: 0 (new/again) → 4 (mastered). Each correct answer moves up; wrong resets.
+function recordSrs(cardId, grade) {
+  // grade: 'again' | 'hard' | 'good' | 'easy'
+  const p = state.cards[cardId] || { box: 0, reviews: 0, right: 0, wrong: 0, lastSeen: 0 };
+  p.reviews++;
+  p.lastSeen = Date.now();
+  p.lastResult = grade;
+  switch (grade) {
+    case 'again': p.box = 0; p.wrong++; break;
+    case 'hard':  p.box = Math.max(0, p.box); p.right++; break;
+    case 'good':  p.box = Math.min(4, p.box + 1); p.right++; break;
+    case 'easy':  p.box = Math.min(4, p.box + 2); p.right++; break;
+  }
+  state.cards[cardId] = p;
+  saveState();
+}
+
+// ---- Markdown rendering (simple) --------------------------------------------
+function renderMarkdown(md) {
+  if (!md) return '';
+  // Very small markdown subset
+  let html = md.replace(/\r/g, '');
+  // escape HTML
+  html = html.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+  // code spans
+  html = html.replace(/`([^`\n]+)`/g, '<code>$1</code>');
+  // links [text](url)
+  html = html.replace(/\[([^\]]+)\]\((https?:\/\/[^)\s]+)\)/g, '<a href="$2" target="_blank" rel="noopener">$1</a>');
+  // strong **
+  html = html.replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>');
+  // em *
+  html = html.replace(/(?<!\*)\*(?!\*)([^*]+)\*(?!\*)/g, '<em>$1</em>');
+  // headers
+  html = html.replace(/^### (.+)$/gm, '<h3>$1</h3>');
+  html = html.replace(/^## (.+)$/gm, '<h2>$1</h2>');
+  html = html.replace(/^# (.+)$/gm, '<h1>$1</h1>');
+  // lists
+  const lines = html.split('\n');
+  const out = [];
+  let inList = false;
+  for (const line of lines) {
+    if (/^\s*-\s+/.test(line)) {
+      if (!inList) { out.push('<ul>'); inList = true; }
+      out.push('<li>' + line.replace(/^\s*-\s+/, '') + '</li>');
+    } else {
+      if (inList) { out.push('</ul>'); inList = false; }
+      out.push(line);
+    }
+  }
+  if (inList) out.push('</ul>');
+  html = out.join('\n');
+  // paragraphs (split blank lines)
+  html = html.split(/\n\n+/).map(b => {
+    if (b.startsWith('<h') || b.startsWith('<ul') || b.startsWith('<li') || !b.trim()) return b;
+    return '<p>' + b.replace(/\n/g, ' ') + '</p>';
+  }).join('\n');
+  return html;
+}
+
+// ---- Helpers ----------------------------------------------------------------
+function escapeHtml(s) {
+  return String(s == null ? '' : s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'})[c]);
+}
+function shuffle(arr) {
+  const out = [...arr];
+  for (let i = out.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [out[i], out[j]] = [out[j], out[i]];
+  }
+  return out;
+}
+function pickN(arr, n, excludeId) {
+  const pool = arr.filter(c => c.id !== excludeId);
+  return shuffle(pool).slice(0, n);
+}
+function fmtTime(secs) {
+  const m = Math.floor(secs / 60).toString().padStart(2, '0');
+  const s = Math.floor(secs % 60).toString().padStart(2, '0');
+  return `${m}:${s}`;
+}
+function normalizeText(s) {
+  return (s || '').toLowerCase()
+    .replace(/[äöüß]/g, m => ({ä:'ae',ö:'oe',ü:'ue',ß:'ss'}[m]))
+    .replace(/[^\p{L}\p{N}\s]/gu, ' ')
+    .replace(/\s+/g, ' ')
+    .trim();
+}
+function gradeFreeText(user, correct) {
+  const u = normalizeText(user);
+  const c = normalizeText(correct);
+  if (!u) return { kind: 'bad', pct: 0 };
+  if (u === c) return { kind: 'good', pct: 100 };
+  const uWords = new Set(u.split(' ').filter(w => w.length >= 3));
+  const cWords = new Set(c.split(' ').filter(w => w.length >= 3));
+  if (cWords.size === 0) {
+    return u.includes(c) || c.includes(u) ? { kind: 'good', pct: 100 } : { kind: 'bad', pct: 0 };
+  }
+  let hits = 0;
+  cWords.forEach(w => { if (uWords.has(w)) hits++; });
+  const pct = Math.round(100 * hits / cWords.size);
+  if (pct >= 70) return { kind: 'good', pct };
+  if (pct >= 40) return { kind: 'warn', pct };
+  return { kind: 'bad', pct };
+}
+
+// Cross-link "Question NNN" references inside guide text → flashcard ID lookup
+function findCardByQuestionNumber(partId, questionNumber) {
+  const cat = PART_TO_CATEGORY[partId];
+  if (!cat) return null;
+  return getCards().find(c => c.category === cat && c.original_id === questionNumber);
+}
+
+// ---- Theme ------------------------------------------------------------------
+function applyTheme() {
+  const root = document.documentElement;
+  if (state.theme === 'dark') root.setAttribute('data-theme', 'dark');
+  else if (state.theme === 'light') root.setAttribute('data-theme', 'light');
+  else root.removeAttribute('data-theme');
+}
+
+// ---- Routing ----------------------------------------------------------------
+const VIEWS = ['dashboard', 'flashcards', 'quiz', 'exam', 'guide', 'cheatsheet', 'tips'];
+function navigate(view) {
+  if (!VIEWS.includes(view)) view = 'dashboard';
+  if (state.view !== view) {
+    state.view = view;
+    saveState();
+  }
+  render();
+  // close mobile sidebar
+  document.getElementById('sidebar').classList.remove('open');
+  document.getElementById('sidebar-backdrop').classList.remove('show');
+  window.scrollTo(0, 0);
+}
+
+// ============================================================================
+// VIEW: Dashboard
+// ============================================================================
+function renderDashboard() {
+  const total = getCards().length;
+  let seen = 0, mastered = 0, hard = 0;
+  let allReviews = 0, allRight = 0, allWrong = 0;
+  getCards().forEach(c => {
+    const p = state.cards[c.id];
+    if (p) {
+      seen++;
+      if (p.box >= 3) mastered++;
+      if (p.box === 0 && p.reviews > 0) hard++;
+      allReviews += p.reviews;
+      allRight += p.right || 0;
+      allWrong += p.wrong || 0;
+    }
+  });
+  const accuracy = allReviews > 0 ? Math.round(100 * allRight / (allRight + allWrong)) : 0;
+  const masteryPct = total > 0 ? Math.round(100 * mastered / total) : 0;
+  const seenPct = total > 0 ? Math.round(100 * seen / total) : 0;
+  const lastExam = state.exam.history[state.exam.history.length - 1];
+
+  return `
+    <div class="page-header">
+      <h1>Welcome back ✈️</h1>
+      <p class="page-subtitle">Your training overview for the Swiss SHV/FSVL paragliding theory exam.</p>
+    </div>
+
+    <div class="stat-grid">
+      <div class="stat">
+        <div class="stat-label">Total cards</div>
+        <div class="stat-value tabnum">${total}</div>
+        <div class="stat-sub">across 5 categories</div>
+      </div>
+      <div class="stat accent">
+        <div class="stat-label">Studied</div>
+        <div class="stat-value tabnum">${seen}/${total}</div>
+        <div class="stat-sub">${seenPct}% covered</div>
+        <div class="progress"><div class="progress-fill" style="width:${seenPct}%"></div></div>
+      </div>
+      <div class="stat good">
+        <div class="stat-label">Mastered</div>
+        <div class="stat-value tabnum">${mastered}</div>
+        <div class="stat-sub">box 3 or higher</div>
+        <div class="progress good"><div class="progress-fill" style="width:${masteryPct}%"></div></div>
+      </div>
+      <div class="stat ${accuracy >= 80 ? 'good' : accuracy >= 60 ? 'warn' : 'bad'}">
+        <div class="stat-label">Accuracy</div>
+        <div class="stat-value tabnum">${accuracy}%</div>
+        <div class="stat-sub">${allRight} right · ${allWrong} wrong</div>
+      </div>
+    </div>
+
+    <div class="card" style="margin-bottom:20px;">
+      <div class="card-header">
+        <h2 class="card-title">Progress by topic</h2>
+        <a href="#" data-nav="flashcards" class="btn small">Study cards →</a>
+      </div>
+      ${CATEGORIES.map(cat => {
+        const p = totalProgressFor(cat);
+        const pct = p.total > 0 ? Math.round(100 * p.seen / p.total) : 0;
+        const mpct = p.total > 0 ? Math.round(100 * p.mastered / p.total) : 0;
+        const m = CATEGORY_META[cat];
+        return `
+          <div class="progress-row">
+            <div>
+              <div class="pr-label">
+                <span class="cat-dot" style="background:${m.color}"></span>${m.icon} ${cat}
+              </div>
+              <div class="pr-meta">${p.seen}/${p.total} studied · ${p.mastered} mastered (${mpct}%)</div>
+            </div>
+            <div class="badge ${mpct >= 80 ? 'good' : mpct >= 50 ? 'warn' : 'bad'}">${mpct}%</div>
+            <div class="pr-track">
+              <div class="progress ${mpct >= 80 ? 'good' : ''}"><div class="progress-fill" style="width:${pct}%; background:${m.color}; opacity:0.55"></div></div>
+              <div class="progress good" style="margin-top:2px;"><div class="progress-fill" style="width:${mpct}%; background:${m.color}"></div></div>
+            </div>
+          </div>
+        `;
+      }).join('')}
+    </div>
+
+    <div class="stat-grid">
+      <div class="stat warn">
+        <div class="stat-label">Need review</div>
+        <div class="stat-value tabnum">${hard}</div>
+        <div class="stat-sub">cards in box 0 after review</div>
+      </div>
+      <div class="stat">
+        <div class="stat-label">Total reviews</div>
+        <div class="stat-value tabnum">${allReviews}</div>
+        <div class="stat-sub">all-time</div>
+      </div>
+      <div class="stat">
+        <div class="stat-label">Last mock exam</div>
+        <div class="stat-value tabnum">${lastExam ? lastExam.scorePct + '%' : '—'}</div>
+        <div class="stat-sub">${lastExam ? (lastExam.passed ? 'Passed ✓' : 'Failed') : 'not yet attempted'}</div>
+      </div>
+    </div>
+
+    <div class="card">
+      <h2 class="card-title" style="margin-bottom:12px;">Quick actions</h2>
+      <div class="row">
+        <button class="btn primary" data-nav="flashcards">📇 Study flashcards</button>
+        <button class="btn" data-nav="quiz">📝 Take a quiz</button>
+        <button class="btn" data-nav="exam">⏱️ Start mock exam</button>
+        <button class="btn" data-nav="guide">📚 Study guide</button>
+        <button class="btn" data-nav="cheatsheet">⚡ Cheat sheet</button>
+      </div>
+      <div class="muted" style="margin-top:16px; font-size:13px;">
+        Tip: press <span class="kbd">← →</span> to navigate, <span class="kbd">Space</span> to flip a flashcard, <span class="kbd">1-4</span> to grade an SRS card.
+      </div>
+    </div>
+  `;
+}
+
+// ============================================================================
+// VIEW: Flashcards (with SRS, MC, Type, Browse)
+// ============================================================================
+let _fcReveal = false;
+let _fcQuiz = null;       // {choices, answer}
+let _fcTypeFeedback = null;
+let _fcDeck = null;       // computed deck (after shuffle + category)
+
+function recomputeFcDeck() {
+  const list = cardsForCategory(state.fc.category === 'all' ? 'all' : state.fc.category);
+  if (state.fc.mode === 'review') {
+    // Hardest cards first: box 0, then 1, then most-recent wrong
+    const scored = list.map(c => {
+      const p = state.cards[c.id];
+      const box = p ? p.box : 0;
+      const wrong = p ? p.wrong : 0;
+      const recency = p ? (Date.now() - p.lastSeen) : Infinity;
+      return { c, score: box * 1000 - wrong * 10 + Math.min(recency / (3600*1000), 100) };
+    });
+    scored.sort((a, b) => a.score - b.score);
+    _fcDeck = scored.map(x => x.c);
+  } else if (state.fc.shuffle) {
+    _fcDeck = shuffle(list);
+  } else {
+    _fcDeck = [...list];
+  }
+}
+function currentFcCard() {
+  if (!_fcDeck) recomputeFcDeck();
+  if (_fcDeck.length === 0) return null;
+  if (state.fc.index >= _fcDeck.length) state.fc.index = 0;
+  return _fcDeck[state.fc.index];
+}
+function setFcIndex(i) {
+  if (!_fcDeck) recomputeFcDeck();
+  const len = _fcDeck.length || 1;
+  state.fc.index = (i + len) % len;
+  saveState();
+}
+
+function renderFlashcards() {
+  const cat = state.fc.category;
+  const mode = state.fc.mode;
+  const catList = cardsForCategory(cat === 'all' ? 'all' : cat);
+
+  const subtabsHtml = `
+    <div class="subtabs">
+      <button class="subtab ${cat === 'all' ? 'active' : ''}" data-fc-cat="all">All <span class="count">${getCards().length}</span></button>
+      ${CATEGORIES.map(c => {
+        const list = cardsForCategory(c);
+        const m = CATEGORY_META[c];
+        return `<button class="subtab ${cat === c ? 'active' : ''}" data-fc-cat="${c}">${m.icon} ${c} <span class="count">${list.length}</span></button>`;
+      }).join('')}
+    </div>`;
+
+  const modeBar = `
+    <div class="controls-bar">
+      <div class="left">
+        <div class="pill-toggle">
+          ${['flashcards','quiz','type','review','browse'].map(m => {
+            const label = { flashcards:'Flashcards', quiz:'Multiple choice', type:'Type answer', review:'Smart review', browse:'Browse' }[m];
+            return `<button class="pill ${mode === m ? 'active' : ''}" data-fc-mode="${m}">${label}</button>`;
+          }).join('')}
+        </div>
+      </div>
+      <div class="right">
+        ${mode !== 'browse' && mode !== 'review' ? `
+          <label class="toggle"><input type="checkbox" id="fc-shuffle" ${state.fc.shuffle ? 'checked' : ''}> Shuffle</label>
+        ` : ''}
+      </div>
+    </div>
+  `;
+
+  let body = '';
+  if (mode === 'browse') {
+    body = renderBrowse(catList);
+  } else if (mode === 'flashcards' || mode === 'review') {
+    body = renderFlashcardMode(mode);
+  } else if (mode === 'quiz') {
+    body = renderFcQuiz();
+  } else if (mode === 'type') {
+    body = renderFcType();
+  }
+
+  return `
+    <div class="page-header">
+      <h1>Flashcards</h1>
+      <p class="page-subtitle">${getCards().length} cards across ${CATEGORIES.length} categories · 50 m vertical, 100 m horizontal in your head 🌥️</p>
+    </div>
+    ${subtabsHtml}
+    ${modeBar}
+    ${body}
+  `;
+}
+
+function renderFlashcardMode(mode) {
+  const card = currentFcCard();
+  if (!card) return `<div class="empty"><div class="emoji">🎉</div><div>No cards in this view.</div></div>`;
+  const i = state.fc.index;
+  const total = _fcDeck.length;
+  const meta = CATEGORY_META[card.category];
+  const prog = cardProgress(card.id);
+  const boxLabel = ['New', 'Learning', 'Familiar', 'Known', 'Mastered'][prog.box];
+
+  return `
+    <div class="flashcard">
+      <div class="fc-meta">
+        <div><span class="cat-dot" style="background:${meta.color}"></span>${meta.icon} ${card.category}${mode === 'review' ? ' · Smart Review' : ''}</div>
+        <div>Card ${i + 1} / ${total} · <span class="badge ${prog.box >= 3 ? 'good' : prog.box >= 1 ? 'info' : ''}">${boxLabel}</span></div>
+      </div>
+      <div class="fc-question">
+        <span class="lang-tag">EN</span>${escapeHtml(card.q_en)}
+        <span class="q-de"><span class="lang-tag">DE</span>${escapeHtml(card.q_de)}</span>
+      </div>
+      ${_fcReveal ? `
+        <div class="fc-answer">
+          <span class="lang-tag">A</span>${escapeHtml(card.a_en)}
+          <span class="a-de"><span class="lang-tag">DE</span>${escapeHtml(card.a_de)}</span>
+        </div>
+      ` : `<button class="reveal-btn" id="reveal-btn">Show answer · <span class="kbd" style="color:white; background:rgba(255,255,255,0.2); border-color:transparent;">Space</span></button>`}
+      ${_fcReveal ? `
+        <div class="srs-controls">
+          <button class="srs-btn srs-again" data-srs="again"><span class="srs-emoji">😵</span>Again<span class="srs-sub">1</span></button>
+          <button class="srs-btn srs-hard" data-srs="hard"><span class="srs-emoji">🤔</span>Hard<span class="srs-sub">2</span></button>
+          <button class="srs-btn srs-good" data-srs="good"><span class="srs-emoji">👍</span>Good<span class="srs-sub">3</span></button>
+          <button class="srs-btn srs-easy" data-srs="easy"><span class="srs-emoji">🎯</span>Easy<span class="srs-sub">4</span></button>
+        </div>
+      ` : ''}
+    </div>
+    <div class="nav-controls">
+      <button class="btn" id="prev-btn" ${i === 0 ? 'disabled' : ''}>← Previous</button>
+      <button class="btn primary" id="next-btn">Next →</button>
+    </div>
+  `;
+}
+
+function renderFcQuiz() {
+  const card = currentFcCard();
+  if (!card) return `<div class="empty">No cards.</div>`;
+  if (!_fcQuiz || _fcQuiz.cardId !== card.id) {
+    const distractors = pickN(cardsForCategory(card.category), 3, card.id).map(c => c.a_en);
+    _fcQuiz = { cardId: card.id, choices: shuffle([card.a_en, ...distractors]), answer: null };
+  }
+  const i = state.fc.index;
+  const total = _fcDeck.length;
+  const meta = CATEGORY_META[card.category];
+  const markers = ['A', 'B', 'C', 'D'];
+
+  return `
+    <div class="flashcard">
+      <div class="fc-meta">
+        <div><span class="cat-dot" style="background:${meta.color}"></span>${meta.icon} ${card.category}</div>
+        <div>Question ${i + 1} / ${total}</div>
+      </div>
+      <div class="fc-question">
+        <span class="lang-tag">EN</span>${escapeHtml(card.q_en)}
+        <span class="q-de"><span class="lang-tag">DE</span>${escapeHtml(card.q_de)}</span>
+      </div>
+      <div class="choices">
+        ${_fcQuiz.choices.map((c, idx) => {
+          let cls = 'choice';
+          let icon = '';
+          if (_fcQuiz.answer !== null) {
+            if (c === card.a_en) { cls += ' correct'; icon = '✓'; }
+            else if (idx === _fcQuiz.answer) { cls += ' incorrect'; icon = '✗'; }
+          }
+          return `<button class="${cls}" data-choice="${idx}" ${_fcQuiz.answer !== null ? 'disabled' : ''}>
+            <span class="marker">${markers[idx]}</span>${escapeHtml(c)}${icon ? `<span class="check-icon">${icon}</span>` : ''}
+          </button>`;
+        }).join('')}
+      </div>
+      ${_fcQuiz.answer !== null ? `
+        <div class="fc-answer">
+          <span class="lang-tag">DE Answer</span>${escapeHtml(card.a_de)}
+        </div>
+      ` : ''}
+    </div>
+    <div class="nav-controls">
+      <button class="btn" id="prev-btn" ${i === 0 ? 'disabled' : ''}>← Previous</button>
+      <button class="btn primary" id="next-btn">Next →</button>
+    </div>
+  `;
+}
+
+function renderFcType() {
+  const card = currentFcCard();
+  if (!card) return `<div class="empty">No cards.</div>`;
+  const i = state.fc.index;
+  const total = _fcDeck.length;
+  const meta = CATEGORY_META[card.category];
+
+  return `
+    <div class="flashcard">
+      <div class="fc-meta">
+        <div><span class="cat-dot" style="background:${meta.color}"></span>${meta.icon} ${card.category}</div>
+        <div>Card ${i + 1} / ${total}</div>
+      </div>
+      <div class="fc-question">
+        <span class="lang-tag">EN</span>${escapeHtml(card.q_en)}
+        <span class="q-de"><span class="lang-tag">DE</span>${escapeHtml(card.q_de)}</span>
+      </div>
+      <textarea class="textarea" id="type-input" placeholder="Type your answer in your own words (English or German)…"></textarea>
+      ${_fcTypeFeedback ? `
+        <div class="feedback ${_fcTypeFeedback.kind}">
+          ${_fcTypeFeedback.kind === 'good' ? `✓ Looks right (${_fcTypeFeedback.pct}% keyword match)` :
+            _fcTypeFeedback.kind === 'warn' ? `~ Partial (${_fcTypeFeedback.pct}% match) — review correct answer below` :
+            `✗ Not quite (${_fcTypeFeedback.pct}% match) — see correct answer below`}
+        </div>
+        <div class="fc-answer">
+          <span class="lang-tag">A</span>${escapeHtml(card.a_en)}
+          <span class="a-de"><span class="lang-tag">DE</span>${escapeHtml(card.a_de)}</span>
+        </div>
+      ` : `<button class="reveal-btn" id="check-btn">Check answer</button>`}
+    </div>
+    <div class="nav-controls">
+      <button class="btn" id="prev-btn" ${i === 0 ? 'disabled' : ''}>← Previous</button>
+      <button class="btn primary" id="next-btn">Next →</button>
+    </div>
+  `;
+}
+
+function renderBrowse(list) {
+  const q = state.fc.query.trim().toLowerCase();
+  const filtered = q ? list.filter(c =>
+    c.q_en.toLowerCase().includes(q) ||
+    c.q_de.toLowerCase().includes(q) ||
+    c.a_en.toLowerCase().includes(q) ||
+    c.a_de.toLowerCase().includes(q)
+  ) : list;
+  return `
+    <input class="search-input" id="browse-q" type="search" placeholder="Search English or German…" value="${escapeHtml(state.fc.query)}" />
+    <div class="muted" style="margin-bottom:12px; font-size:13px;">Showing <strong>${filtered.length}</strong> of ${list.length} cards</div>
+    <div id="browse-list">
+      ${filtered.map(c => {
+        const meta = CATEGORY_META[c.category];
+        const p = cardProgress(c.id);
+        const boxLabel = ['New', 'Learning', 'Familiar', 'Known', 'Mastered'][p.box];
+        const badgeCls = p.box >= 3 ? 'good' : p.box >= 1 ? 'info' : '';
+        return `
+          <div class="browse-card">
+            <div class="bc-meta">
+              <span class="cat-dot" style="background:${meta.color}"></span>
+              <span class="muted">${meta.icon} ${c.category}</span>
+              <span class="bc-num">#${c.original_id}</span>
+              ${p.reviews > 0 ? `<span class="badge ${badgeCls}">${boxLabel}</span>` : ''}
+            </div>
+            <div class="bc-q">${escapeHtml(c.q_en)}</div>
+            <div class="bc-q-de">${escapeHtml(c.q_de)}</div>
+            <div class="bc-a">${escapeHtml(c.a_en)}</div>
+            <div class="bc-a-de">${escapeHtml(c.a_de)}</div>
+          </div>
+        `;
+      }).join('')}
+    </div>
+  `;
+}
+
+function attachFlashcardsEvents() {
+  document.querySelectorAll('[data-fc-cat]').forEach(b => b.onclick = () => {
+    state.fc.category = b.dataset.fcCat;
+    state.fc.index = 0;
+    _fcDeck = null;
+    _fcReveal = false; _fcQuiz = null; _fcTypeFeedback = null;
+    saveState();
+    render();
+  });
+  document.querySelectorAll('[data-fc-mode]').forEach(b => b.onclick = () => {
+    state.fc.mode = b.dataset.fcMode;
+    state.fc.index = 0;
+    _fcDeck = null;
+    _fcReveal = false; _fcQuiz = null; _fcTypeFeedback = null;
+    saveState();
+    render();
+  });
+  const sh = document.getElementById('fc-shuffle');
+  if (sh) sh.onchange = (e) => {
+    state.fc.shuffle = e.target.checked;
+    state.fc.index = 0;
+    _fcDeck = null;
+    saveState();
+    render();
+  };
+
+  const reveal = document.getElementById('reveal-btn');
+  if (reveal) reveal.onclick = () => { _fcReveal = true; render(); };
+
+  document.querySelectorAll('[data-srs]').forEach(b => b.onclick = () => {
+    const card = currentFcCard();
+    if (!card) return;
+    recordSrs(card.id, b.dataset.srs);
+    _fcReveal = false;
+    if (state.fc.mode === 'review') {
+      _fcDeck = null;
+      state.fc.index = 0;
+      saveState();
+    } else {
+      setFcIndex(state.fc.index + 1);
+    }
+    render();
+  });
+
+  document.querySelectorAll('[data-choice]').forEach(b => b.onclick = () => {
+    if (!_fcQuiz || _fcQuiz.answer !== null) return;
+    const idx = parseInt(b.dataset.choice, 10);
+    _fcQuiz.answer = idx;
+    const card = getCardById(_fcQuiz.cardId);
+    const correct = _fcQuiz.choices[idx] === card.a_en;
+    recordSrs(card.id, correct ? 'good' : 'again');
+    render();
+  });
+
+  const checkBtn = document.getElementById('check-btn');
+  if (checkBtn) checkBtn.onclick = () => {
+    const val = document.getElementById('type-input').value;
+    const card = currentFcCard();
+    _fcTypeFeedback = gradeFreeText(val, card.a_en);
+    recordSrs(card.id, _fcTypeFeedback.kind === 'good' ? 'good' : _fcTypeFeedback.kind === 'warn' ? 'hard' : 'again');
+    render();
+  };
+
+  const prev = document.getElementById('prev-btn');
+  const next = document.getElementById('next-btn');
+  if (prev) prev.onclick = () => { setFcIndex(state.fc.index - 1); _fcReveal = false; _fcQuiz = null; _fcTypeFeedback = null; render(); };
+  if (next) next.onclick = () => { setFcIndex(state.fc.index + 1); _fcReveal = false; _fcQuiz = null; _fcTypeFeedback = null; render(); };
+
+  const bq = document.getElementById('browse-q');
+  if (bq) {
+    bq.oninput = (e) => {
+      state.fc.query = e.target.value;
+      saveState();
+      render();
+      const inp = document.getElementById('browse-q');
+      if (inp) {
+        inp.focus();
+        inp.setSelectionRange(state.fc.query.length, state.fc.query.length);
+      }
+    };
+  }
+}
+
+// ============================================================================
+// VIEW: Quiz (focused MC drill with score)
+// ============================================================================
+let _quizCat = 'all';
+let _quizQueue = null;
+let _quizPos = 0;
+let _quizChoices = null;
+let _quizAnswer = null;
+let _quizScore = { right: 0, wrong: 0 };
+
+function renderQuiz() {
+  if (!_quizQueue || _quizQueue._cat !== _quizCat) {
+    const list = cardsForCategory(_quizCat === 'all' ? 'all' : _quizCat);
+    _quizQueue = shuffle(list);
+    _quizQueue._cat = _quizCat;
+    _quizPos = 0;
+    _quizChoices = null;
+    _quizAnswer = null;
+    _quizScore = { right: 0, wrong: 0 };
+  }
+  const card = _quizQueue[_quizPos];
+  if (!card) {
+    return `
+      <div class="page-header"><h1>Quiz complete</h1></div>
+      <div class="card">
+        <h2 class="card-title">Final score</h2>
+        <p>${_quizScore.right}/${_quizScore.right + _quizScore.wrong} (${Math.round(100 * _quizScore.right / (_quizScore.right + _quizScore.wrong || 1))}%)</p>
+        <div class="row" style="margin-top:14px;">
+          <button class="btn primary" id="quiz-restart">Restart</button>
+          <button class="btn" data-nav="dashboard">Dashboard</button>
+        </div>
+      </div>
+    `;
+  }
+  if (!_quizChoices || _quizChoices.cardId !== card.id) {
+    const distractors = pickN(cardsForCategory(card.category), 3, card.id).map(c => c.a_en);
+    _quizChoices = { cardId: card.id, list: shuffle([card.a_en, ...distractors]) };
+    _quizAnswer = null;
+  }
+  const meta = CATEGORY_META[card.category];
+  const markers = ['A', 'B', 'C', 'D'];
+  return `
+    <div class="page-header">
+      <h1>Quiz</h1>
+      <p class="page-subtitle">Drill yourself with random multiple-choice questions. Tracks your score for this session.</p>
+    </div>
+    <div class="subtabs">
+      <button class="subtab ${_quizCat === 'all' ? 'active' : ''}" data-quiz-cat="all">All <span class="count">${getCards().length}</span></button>
+      ${CATEGORIES.map(c => `<button class="subtab ${_quizCat === c ? 'active' : ''}" data-quiz-cat="${c}">${CATEGORY_META[c].icon} ${c} <span class="count">${cardsForCategory(c).length}</span></button>`).join('')}
+    </div>
+    <div class="controls-bar">
+      <div class="left">
+        <span class="badge good">✓ ${_quizScore.right}</span>
+        <span class="badge bad">✗ ${_quizScore.wrong}</span>
+        <span class="muted" style="font-size:12px;">${_quizPos + 1} / ${_quizQueue.length}</span>
+      </div>
+      <div class="right">
+        <button class="btn ghost small" id="quiz-restart">Restart</button>
+      </div>
+    </div>
+    <div class="flashcard">
+      <div class="fc-meta">
+        <div><span class="cat-dot" style="background:${meta.color}"></span>${meta.icon} ${card.category}</div>
+      </div>
+      <div class="fc-question">
+        <span class="lang-tag">EN</span>${escapeHtml(card.q_en)}
+        <span class="q-de"><span class="lang-tag">DE</span>${escapeHtml(card.q_de)}</span>
+      </div>
+      <div class="choices">
+        ${_quizChoices.list.map((c, idx) => {
+          let cls = 'choice';
+          let icon = '';
+          if (_quizAnswer !== null) {
+            if (c === card.a_en) { cls += ' correct'; icon = '✓'; }
+            else if (idx === _quizAnswer) { cls += ' incorrect'; icon = '✗'; }
+          }
+          return `<button class="${cls}" data-q-choice="${idx}" ${_quizAnswer !== null ? 'disabled' : ''}>
+            <span class="marker">${markers[idx]}</span>${escapeHtml(c)}${icon ? `<span class="check-icon">${icon}</span>` : ''}
+          </button>`;
+        }).join('')}
+      </div>
+      ${_quizAnswer !== null ? `
+        <div class="fc-answer">
+          <span class="lang-tag">DE</span>${escapeHtml(card.a_de)}
+        </div>
+      ` : ''}
+    </div>
+    <div class="nav-controls">
+      <button class="btn" id="quiz-skip">Skip ↷</button>
+      <button class="btn primary" id="quiz-next">${_quizAnswer !== null ? 'Next →' : 'Reveal'}</button>
+    </div>
+  `;
+}
+
+function attachQuizEvents() {
+  document.querySelectorAll('[data-quiz-cat]').forEach(b => b.onclick = () => {
+    _quizCat = b.dataset.quizCat;
+    _quizQueue = null;
+    render();
+  });
+  document.querySelectorAll('[data-q-choice]').forEach(b => b.onclick = () => {
+    if (_quizAnswer !== null) return;
+    const idx = parseInt(b.dataset.qChoice, 10);
+    _quizAnswer = idx;
+    const card = _quizQueue[_quizPos];
+    const right = _quizChoices.list[idx] === card.a_en;
+    if (right) _quizScore.right++; else _quizScore.wrong++;
+    recordSrs(card.id, right ? 'good' : 'again');
+    render();
+  });
+  const restart = document.getElementById('quiz-restart');
+  if (restart) restart.onclick = () => { _quizQueue = null; render(); };
+  const skip = document.getElementById('quiz-skip');
+  if (skip) skip.onclick = () => { _quizPos++; _quizChoices = null; _quizAnswer = null; render(); };
+  const nxt = document.getElementById('quiz-next');
+  if (nxt) nxt.onclick = () => {
+    if (_quizAnswer === null) {
+      // reveal w/o picking
+      _quizAnswer = -1;
+      const card = _quizQueue[_quizPos];
+      _quizScore.wrong++;
+      recordSrs(card.id, 'again');
+      render();
+    } else {
+      _quizPos++; _quizChoices = null; _quizAnswer = null; render();
+    }
+  };
+}
+
+// ============================================================================
+// VIEW: Mock Exam (100 questions, 90 min, per-section grading)
+// ============================================================================
+let _examTimer = null;
+
+function buildExamSet() {
+  const ids = [];
+  const choices = [];
+  CATEGORIES.forEach(cat => {
+    const list = shuffle(cardsForCategory(cat)).slice(0, 20);
+    list.forEach(c => {
+      ids.push(c.id);
+      const distractors = pickN(cardsForCategory(cat), 3, c.id).map(d => d.a_en);
+      choices.push(shuffle([c.a_en, ...distractors]));
+    });
+  });
+  // Shuffle question order
+  const idxs = ids.map((_, i) => i);
+  const shuffled = shuffle(idxs);
+  return {
+    cards: shuffled.map(i => ids[i]),
+    choices: shuffled.map(i => choices[i])
+  };
+}
+
+function startExam() {
+  const built = buildExamSet();
+  state.exam = {
+    ...state.exam,
+    active: true,
+    startedAt: Date.now(),
+    durationSec: 90 * 60,
+    cards: built.cards,
+    choices: built.choices,
+    answers: new Array(built.cards.length).fill(null),
+    flagged: [],
+    current: 0
+  };
+  saveState();
+  startExamTimer();
+  render();
+}
+
+function startExamTimer() {
+  if (_examTimer) clearInterval(_examTimer);
+  _examTimer = setInterval(() => {
+    const elapsed = Math.floor((Date.now() - state.exam.startedAt) / 1000);
+    const remaining = Math.max(0, state.exam.durationSec - elapsed);
+    const t = document.getElementById('exam-timer');
+    if (t) {
+      t.textContent = fmtTime(remaining);
+      t.classList.toggle('warning', remaining < 10 * 60);
+      t.classList.toggle('critical', remaining < 60);
+    }
+    if (remaining <= 0) {
+      stopExamTimer();
+      finishExam();
+    }
+  }, 250);
+}
+function stopExamTimer() {
+  if (_examTimer) { clearInterval(_examTimer); _examTimer = null; }
+}
+
+function finishExam() {
+  stopExamTimer();
+  const sections = {};
+  CATEGORIES.forEach(c => { sections[c] = { total: 0, right: 0 }; });
+  let totalRight = 0;
+  state.exam.cards.forEach((cid, i) => {
+    const card = getCardById(cid);
+    if (!card) return;
+    sections[card.category].total++;
+    const ans = state.exam.answers[i];
+    const correct = ans !== null && state.exam.choices[i][ans] === card.a_en;
+    if (correct) { sections[card.category].right++; totalRight++; }
+  });
+  const passed = CATEGORIES.every(c => sections[c].right >= 16);
+  const result = {
+    finishedAt: Date.now(),
+    duration: Math.floor((Date.now() - state.exam.startedAt) / 1000),
+    totalRight,
+    totalCount: state.exam.cards.length,
+    scorePct: Math.round(100 * totalRight / state.exam.cards.length),
+    passed,
+    sections
+  };
+  state.exam.history.push(result);
+  state.exam.active = false;
+  state.exam.lastResult = result;
+  saveState();
+  render();
+}
+
+function renderExam() {
+  if (!state.exam.active && state.exam.lastResult) {
+    return renderExamResult(state.exam.lastResult);
+  }
+  if (!state.exam.active) {
+    const last = state.exam.history[state.exam.history.length - 1];
+    return `
+      <div class="page-header">
+        <h1>Mock Exam</h1>
+        <p class="page-subtitle">Simulate the real SHV/FSVL theory exam: 100 questions across all 5 categories, 90 minutes max, 80% per section to pass.</p>
+      </div>
+      <div class="card elevated">
+        <h2 class="card-title">Ready to start?</h2>
+        <ul class="checklist">
+          <li><strong>100 questions</strong> — 20 randomly drawn from each of the 5 categories.</li>
+          <li><strong>90 minutes</strong> — that's 54 seconds per question on average.</li>
+          <li><strong>Pass: ≥16/20 in every section.</strong> Missing even one section means you fail the exam.</li>
+          <li>You can flag questions and return to them — use the question dots at the top.</li>
+          <li>Once you submit you'll see a per-section breakdown.</li>
+        </ul>
+        <div class="row" style="margin-top:18px;">
+          <button class="btn primary large" id="exam-start">⏱️ Start exam</button>
+          ${last ? `<button class="btn" id="exam-view-last">View last result</button>` : ''}
+        </div>
+      </div>
+      ${state.exam.history.length > 0 ? `
+        <div class="card" style="margin-top:18px;">
+          <h2 class="card-title">Past attempts</h2>
+          ${state.exam.history.slice(-5).reverse().map((r, i) => `
+            <div class="exam-section-row" style="border-bottom:1px solid var(--border);">
+              <div class="name">${new Date(r.finishedAt).toLocaleString()}</div>
+              <div class="score">${r.totalRight}/${r.totalCount}</div>
+              <div class="verdict ${r.passed ? 'pass' : 'fail'}">${r.passed ? '✓ Passed' : '✗ Failed'}</div>
+            </div>
+          `).join('')}
+        </div>
+      ` : ''}
+    `;
+  }
+  // active exam
+  const i = state.exam.current;
+  const cardId = state.exam.cards[i];
+  const card = getCardById(cardId);
+  const choices = state.exam.choices[i];
+  const answer = state.exam.answers[i];
+  const meta = CATEGORY_META[card.category];
+  const markers = ['A', 'B', 'C', 'D'];
+  const elapsed = Math.floor((Date.now() - state.exam.startedAt) / 1000);
+  const remaining = Math.max(0, state.exam.durationSec - elapsed);
+  const answered = state.exam.answers.filter(a => a !== null).length;
+
+  return `
+    <div class="exam-header">
+      <div>
+        <strong>Mock Exam</strong> · <span class="muted">${answered}/${state.exam.cards.length} answered</span>
+      </div>
+      <div class="exam-timer" id="exam-timer">${fmtTime(remaining)}</div>
+    </div>
+    <div class="exam-progress">
+      ${state.exam.cards.map((_, idx) => {
+        let cls = 'dot';
+        if (idx === i) cls += ' current';
+        else if (state.exam.answers[idx] !== null) cls += ' answered';
+        if (state.exam.flagged.includes(idx)) cls += ' flagged';
+        return `<button class="${cls}" data-exam-jump="${idx}">${idx + 1}</button>`;
+      }).join('')}
+    </div>
+    <div class="flashcard">
+      <div class="fc-meta">
+        <div><span class="cat-dot" style="background:${meta.color}"></span>${meta.icon} ${card.category}</div>
+        <div>
+          <button class="btn small ${state.exam.flagged.includes(i) ? 'primary' : ''}" id="exam-flag">${state.exam.flagged.includes(i) ? '🚩 Flagged' : '🚩 Flag'}</button>
+        </div>
+      </div>
+      <div class="fc-question">
+        <span class="lang-tag">Q ${i+1}</span>${escapeHtml(card.q_en)}
+        <span class="q-de"><span class="lang-tag">DE</span>${escapeHtml(card.q_de)}</span>
+      </div>
+      <div class="choices">
+        ${choices.map((c, idx) => {
+          const selected = answer === idx;
+          return `<button class="choice ${selected ? 'correct' : ''}" data-exam-choice="${idx}" style="${selected ? 'background:var(--accent-soft); border-color:var(--accent); color:var(--accent);' : ''}">
+            <span class="marker">${markers[idx]}</span>${escapeHtml(c)}
+          </button>`;
+        }).join('')}
+      </div>
+    </div>
+    <div class="nav-controls">
+      <button class="btn" id="exam-prev" ${i === 0 ? 'disabled' : ''}>← Previous</button>
+      ${i === state.exam.cards.length - 1
+        ? `<button class="btn primary" id="exam-finish">Finish exam</button>`
+        : `<button class="btn primary" id="exam-next">Next →</button>`}
+    </div>
+    <div class="row" style="margin-top:14px; justify-content:center;">
+      <button class="btn ghost danger small" id="exam-abort">Abort exam</button>
+    </div>
+  `;
+}
+
+function renderExamResult(r) {
+  const dur = fmtTime(r.duration);
+  const circumference = 2 * Math.PI * 60;
+  const dashOffset = circumference - circumference * r.scorePct / 100;
+  return `
+    <div class="page-header">
+      <h1>${r.passed ? '🎉 Exam passed!' : '✗ Exam not passed'}</h1>
+      <p class="page-subtitle">Finished in ${dur}. Score: ${r.totalRight}/${r.totalCount} (${r.scorePct}%)</p>
+    </div>
+    <div class="card elevated" style="display:flex; gap:24px; align-items:center; flex-wrap:wrap;">
+      <div class="donut">
+        <svg viewBox="0 0 140 140">
+          <circle class="donut-bg" cx="70" cy="70" r="60"></circle>
+          <circle class="donut-fg" cx="70" cy="70" r="60"
+            stroke="${r.passed ? 'var(--good)' : 'var(--bad)'}"
+            stroke-dasharray="${circumference}"
+            stroke-dashoffset="${dashOffset}"></circle>
+        </svg>
+        <div class="donut-label">
+          <div class="big" style="color:${r.passed ? 'var(--good)' : 'var(--bad)'}">${r.scorePct}%</div>
+          <div class="small">${r.totalRight}/${r.totalCount}</div>
+        </div>
+      </div>
+      <div style="flex:1; min-width:240px;">
+        <h3 style="margin-top:0;">Per-section breakdown</h3>
+        ${CATEGORIES.map(c => {
+          const s = r.sections[c];
+          const pass = s.right >= 16;
+          return `
+            <div class="exam-section-row">
+              <div class="name">${CATEGORY_META[c].icon} ${c}</div>
+              <div class="score">${s.right}/${s.total}</div>
+              <div class="verdict ${pass ? 'pass' : 'fail'}">${pass ? '✓' : '✗'} ${pass ? 'Pass' : 'Fail'}</div>
+            </div>
+          `;
+        }).join('')}
+        <div class="muted" style="font-size:12px; margin-top:10px;">Pass criteria: ≥16/20 (80%) in every section.</div>
+      </div>
+    </div>
+    <div class="row" style="margin-top:18px;">
+      <button class="btn primary" id="exam-new">↻ New exam</button>
+      <button class="btn" data-nav="flashcards">📇 Practice weak topics</button>
+      <button class="btn ghost" id="exam-clear">Clear result</button>
+    </div>
+  `;
+}
+
+function attachExamEvents() {
+  const startBtn = document.getElementById('exam-start');
+  if (startBtn) startBtn.onclick = () => { state.exam.lastResult = null; startExam(); };
+
+  const viewLastBtn = document.getElementById('exam-view-last');
+  if (viewLastBtn) viewLastBtn.onclick = () => {
+    state.exam.lastResult = state.exam.history[state.exam.history.length - 1];
+    render();
+  };
+
+  document.querySelectorAll('[data-exam-choice]').forEach(b => b.onclick = () => {
+    const i = state.exam.current;
+    state.exam.answers[i] = parseInt(b.dataset.examChoice, 10);
+    saveState();
+    render();
+  });
+  document.querySelectorAll('[data-exam-jump]').forEach(b => b.onclick = () => {
+    state.exam.current = parseInt(b.dataset.examJump, 10);
+    saveState();
+    render();
+  });
+  const prev = document.getElementById('exam-prev');
+  if (prev) prev.onclick = () => { state.exam.current--; saveState(); render(); };
+  const next = document.getElementById('exam-next');
+  if (next) next.onclick = () => { state.exam.current++; saveState(); render(); };
+  const flag = document.getElementById('exam-flag');
+  if (flag) flag.onclick = () => {
+    const i = state.exam.current;
+    const set = new Set(state.exam.flagged);
+    if (set.has(i)) set.delete(i); else set.add(i);
+    state.exam.flagged = [...set];
+    saveState();
+    render();
+  };
+  const fin = document.getElementById('exam-finish');
+  if (fin) fin.onclick = () => {
+    const unanswered = state.exam.answers.filter(a => a === null).length;
+    const msg = unanswered > 0
+      ? `You have ${unanswered} unanswered questions. Finish anyway?`
+      : 'Finish exam and see results?';
+    if (confirm(msg)) finishExam();
+  };
+  const abort = document.getElementById('exam-abort');
+  if (abort) abort.onclick = () => {
+    if (confirm('Abort the current exam? Progress will be lost.')) {
+      stopExamTimer();
+      state.exam.active = false;
+      state.exam.lastResult = null;
+      saveState();
+      render();
+    }
+  };
+  const newBtn = document.getElementById('exam-new');
+  if (newBtn) newBtn.onclick = () => { state.exam.lastResult = null; startExam(); };
+  const clr = document.getElementById('exam-clear');
+  if (clr) clr.onclick = () => { state.exam.lastResult = null; saveState(); render(); };
+}
+
+// ============================================================================
+// VIEW: Study Guide
+// ============================================================================
+function ensureGuideSelection() {
+  const g = getGuide();
+  if (!g.parts || g.parts.length === 0) return;
+  let part = g.parts.find(p => p.id === state.guide.partId);
+  if (!part) {
+    part = g.parts[0];
+    state.guide.partId = part.id;
+    state.guide.chapterId = null;
+  }
+  if (!part.chapters.find(c => c.id === state.guide.chapterId)) {
+    state.guide.chapterId = part.chapters[0].id;
+  }
+  saveState();
+}
+
+function renderGuide() {
+  const g = getGuide();
+  if (!g.parts || g.parts.length === 0) {
+    return `<div class="empty"><div class="emoji">📚</div><div>Study guide not loaded.</div></div>`;
+  }
+  ensureGuideSelection();
+  const part = g.parts.find(p => p.id === state.guide.partId) || g.parts[0];
+  const chapter = part.chapters.find(c => c.id === state.guide.chapterId) || part.chapters[0];
+  state.guide.partId = part.id;
+  state.guide.chapterId = chapter.id;
+
+  // Build a list of pages for this chapter
+  const partNum = part.id; // "part1" etc.
+  const pages = [];
+  for (let p = chapter.startPage; p <= chapter.endPage; p++) {
+    pages.push({ part: partNum, page: p, url: `assets/pages/${partNum}-${String(p).padStart(2, '0')}.jpg` });
+  }
+
+  // Cross-link Question NNN references
+  const textWithLinks = (chapter.text || '').replace(/Question[s]?\s+(\d{1,3})(?:\s*(?:[,–-]|and|to)\s*(\d{1,3}))?/g, (match, q1, q2) => {
+    const refs = q2 ? `${q1}–${q2}` : q1;
+    return `<span class="q-ref">Q${refs}</span>`;
+  });
+
+  // Related flashcards
+  const related = (chapter.questions || []).map(q => findCardByQuestionNumber(part.id, q)).filter(Boolean);
+
+  // Paragraph-ize text
+  const paragraphs = textWithLinks.split(/\n\n+/).map(p => `<p>${p.replace(/\n/g, '<br>')}</p>`).join('');
+
+  return `
+    <div class="page-header">
+      <h1>Study Guide</h1>
+      <p class="page-subtitle">Official SHV/FSVL theory commentary by J. Oberson & A. Piers — soaringmeteo.org</p>
+    </div>
+    <div class="guide-layout">
+      <aside class="guide-toc">
+        ${g.parts.map(p => `
+          <div class="guide-toc-part">${p.title}</div>
+          ${p.chapters.map(c => `
+            <button class="guide-toc-chapter ${c.id === state.guide.chapterId ? 'active' : ''}" data-guide-chap="${p.id}|${c.id}">
+              ${escapeHtml(c.title)}
+            </button>
+          `).join('')}
+        `).join('')}
+      </aside>
+      <div class="guide-content">
+        <div class="guide-chapter-header">
+          <div class="guide-chapter-title">${escapeHtml(chapter.title)}</div>
+          <div class="guide-chapter-meta">${escapeHtml(part.title)} · pages ${chapter.startPage}–${chapter.endPage} · ${(chapter.questions || []).length} exam questions covered</div>
+        </div>
+        ${(chapter.key_points && chapter.key_points.length > 0) ? `
+          <div class="guide-keypoints">
+            <h4>Key takeaways</h4>
+            <ul>${chapter.key_points.map(kp => `<li>${escapeHtml(kp)}</li>`).join('')}</ul>
+          </div>
+        ` : ''}
+        <div class="guide-text">${paragraphs}</div>
+
+        <div class="guide-pages">
+          <div class="guide-pages-head">
+            <h3 style="margin:0;">Original pages</h3>
+            <span class="muted" style="font-size:12px;">${pages.length} pages · click any to enlarge</span>
+          </div>
+          <div class="guide-pages-imgs">
+            ${pages.map(p => `
+              <div class="guide-page-thumb" data-lightbox="${p.url}" data-lb-list="${pages.map(pp => pp.url).join('|')}">
+                <img src="${p.url}" loading="lazy" alt="Page ${p.page}" />
+                <div class="pp-label">p. ${p.page}</div>
+              </div>
+            `).join('')}
+          </div>
+        </div>
+
+        ${related.length > 0 ? `
+          <div class="guide-related">
+            <h4>Related flashcards (${related.length})</h4>
+            ${related.map(c => `<button class="flash-link" data-flash-jump="${c.id}">${CATEGORY_META[c.category].icon} #${c.original_id} · ${escapeHtml(c.q_en.slice(0, 60))}${c.q_en.length > 60 ? '…' : ''}</button>`).join('')}
+          </div>
+        ` : ''}
+      </div>
+    </div>
+  `;
+}
+function attachGuideEvents() {
+  document.querySelectorAll('[data-guide-chap]').forEach(b => b.onclick = () => {
+    const [partId, chapterId] = b.dataset.guideChap.split('|');
+    state.guide.partId = partId;
+    state.guide.chapterId = chapterId;
+    saveState();
+    render();
+  });
+  document.querySelectorAll('[data-lightbox]').forEach(b => b.onclick = () => {
+    const list = b.dataset.lbList.split('|');
+    openLightbox(list, list.indexOf(b.dataset.lightbox));
+  });
+  document.querySelectorAll('[data-flash-jump]').forEach(b => b.onclick = () => {
+    const id = b.dataset.flashJump;
+    const card = getCardById(id);
+    if (!card) return;
+    state.fc.category = card.category;
+    state.fc.mode = 'flashcards';
+    const list = cardsForCategory(card.category);
+    state.fc.index = list.findIndex(c => c.id === id);
+    state.fc.shuffle = false;
+    _fcDeck = null;
+    _fcReveal = false;
+    saveState();
+    navigate('flashcards');
+  });
+}
+
+// ---- Lightbox ----------------------------------------------------------------
+let _lbList = [], _lbIndex = 0;
+function openLightbox(list, idx) {
+  _lbList = list; _lbIndex = idx;
+  const lb = document.getElementById('lightbox');
+  document.getElementById('lb-img').src = list[idx];
+  lb.classList.add('show');
+}
+function closeLightbox() {
+  document.getElementById('lightbox').classList.remove('show');
+}
+function lightboxNav(d) {
+  _lbIndex = (_lbIndex + d + _lbList.length) % _lbList.length;
+  document.getElementById('lb-img').src = _lbList[_lbIndex];
+}
+
+// ============================================================================
+// VIEW: Cheat Sheet
+// ============================================================================
+function renderCheatsheet() {
+  const sections = [
+    {
+      title: 'Standard atmosphere (ISA)',
+      icon: '🌡️',
+      rows: [
+        ['Sea-level pressure', '1013.25 hPa'],
+        ['Sea-level temperature', '15 °C'],
+        ['Lapse rate', '6.5 °C / 1000 m'],
+        ['1 hPa ≈', '8.3 m / 27 ft'],
+        ['Density halves at', '6600 m AMSL'],
+        ['Pressure halves at', '5500 m AMSL']
+      ]
+    },
+    {
+      title: 'Unit conversions',
+      icon: '🔢',
+      rows: [
+        ['FL × 30', '≈ meters'],
+        ['FL × 100', '= feet'],
+        ['1 m', '3.28 ft'],
+        ['1 km/h', '0.54 kt'],
+        ['1 m/s × 3.6', '= km/h'],
+        ['1 ft', '30.5 cm']
+      ]
+    },
+    {
+      title: 'Swiss airspace ceilings',
+      icon: '🗺️',
+      rows: [
+        ['G (uncontrolled)', 'GND → 600 m AGL'],
+        ['E Mittelland/Jura', '600 AGL → FL100 (3050 m)'],
+        ['E Alps MIL-ON', '600 AGL → FL130 (3950 m)'],
+        ['E Alps MIL-OFF', '600 AGL → FL150 (4550 m)'],
+        ['C above E', 'up to FL195 (5900 m)']
+      ],
+      note: 'Glider Map (GLDK) new every March.'
+    },
+    {
+      title: 'Visibility & cloud clearance',
+      icon: '☁️',
+      rows: [
+        ['Below 300 AGL', '1.5 km vis, clear of cloud'],
+        ['300 AGL – FL100 (Class E/G)', '5 km vis · 1500 m H · 300 m V'],
+        ['Above FL100 (Class E)', '8 km vis · 1500 m H · 300 m V'],
+        ['LSR for gliders (Mar–Oct)', '5–8 km vis · 100 m H · 50 m V']
+      ]
+    },
+    {
+      title: 'MIL-ON times (Mon–Fri)',
+      icon: '⏰',
+      rows: [
+        ['Morning', '07:30 – 12:05 LT'],
+        ['Afternoon', '13:15 – 17:05 LT'],
+        ['Ceiling MIL-ON', 'FL130 (3950 m)'],
+        ['Ceiling MIL-OFF', 'FL150 (4550 m)']
+      ],
+      note: 'Weekends & Swiss public holidays = MIL-OFF.'
+    },
+    {
+      title: 'Radio frequencies',
+      icon: '📻',
+      rows: [
+        ['Emergency / Rega', '161.300 MHz'],
+        ['Glider–glider air-to-air', '130.930 MHz'],
+        ['Hang-glider training', '123.430 MHz'],
+        ['Aviation band', '118.000 – 136.975 MHz']
+      ]
+    },
+    {
+      title: 'Insurance & docs',
+      icon: '📋',
+      rows: [
+        ['Solo liability minimum', 'CHF 1 million'],
+        ['Tandem passenger', 'CHF 5 million'],
+        ['Theory ↔ practical max gap', '36 months'],
+        ['Re-sit minimum gap', '12 days'],
+        ['Appeal deadline', '30 days']
+      ]
+    },
+    {
+      title: 'Hazards: Föhn warning signs',
+      icon: '💨',
+      rows: [
+        ['Pressure diff Lugano–Zürich', '≥ 4 hPa → expect Föhn'],
+        ['Sky', 'Deep blue, abnormally clear'],
+        ['Distant mountains', 'Cloud-veiled'],
+        ['Clouds', 'Lenticularis at/behind peaks'],
+        ['Wind', 'Variable / freshening SW']
+      ]
+    },
+    {
+      title: 'Polar curve key points',
+      icon: '📈',
+      rows: [
+        ['Trim speed (hands up)', 'BEST GLIDE'],
+        ['20–30% brake', 'MINIMUM SINK'],
+        ['Full brake', 'STALL POINT'],
+        ['Speed bar', 'For headwind / sink'],
+        ['Light brake', 'For tailwind / lift']
+      ]
+    },
+    {
+      title: 'Wing certification (EN)',
+      icon: '🪂',
+      rows: [
+        ['A', 'School wing — auto-recovery'],
+        ['B', 'Most pilots fly these'],
+        ['C', 'Intermediate, pilot input needed'],
+        ['D', 'Advanced / acro-tolerant']
+      ],
+      note: 'EN tests: 8 G shock load minimum (real wings 12-16 G).'
+    },
+    {
+      title: 'Aerodynamics shortcuts',
+      icon: '📐',
+      rows: [
+        ['Drag ∝ v²', 'Double speed → 4× drag'],
+        ['Drag ∝ area', 'Linear'],
+        ['Drag ∝ density', 'Linear'],
+        ['Density at 1100/2200/3300/4400 m', '90/80/70/60% of MSL'],
+        ['Load factor at 70° bank', '≈ 3 G'],
+        ['Stall speed × √(load factor)', 'In turns']
+      ]
+    },
+    {
+      title: 'Phase changes (energy)',
+      icon: '💧',
+      rows: [
+        ['Melting (solid → liquid)', 'ABSORBS heat'],
+        ['Evaporation (liquid → gas)', 'ABSORBS heat'],
+        ['Condensation (gas → liquid)', 'RELEASES heat'],
+        ['Freezing (liquid → solid)', 'RELEASES heat']
+      ]
+    },
+    {
+      title: '5-Point pre-launch check',
+      icon: '✅',
+      rows: [
+        ['1', 'Harness & personal gear'],
+        ['2', 'Risers / lines free'],
+        ['3', 'Wing leading edge open'],
+        ['4', 'Wind direction & strength'],
+        ['5', 'Takeoff & airspace clear']
+      ]
+    },
+    {
+      title: 'Emergency action: shock',
+      icon: '🆘',
+      rows: [
+        ['Signs', 'Pale, blue lips, cold sweat, weak fast pulse'],
+        ['Position', 'As comfortable as possible'],
+        ['Protect', 'From weather'],
+        ['Do NOT', 'Give drinks or food']
+      ],
+      note: 'Call Rega: 1414 (Swiss-wide) or 161.300 MHz radio.'
+    },
+    {
+      title: 'Useful map symbols',
+      icon: '🧭',
+      rows: [
+        ['Heliport', 'Violet circle + H · 2.5 km radius'],
+        ['Civil airfield', 'Violet circle + line · 5 km'],
+        ['MIL+Civil', 'Violet two circles · 5 km'],
+        ['Military', 'RED two circles · 5 km'],
+        ['Overflight min altitude', '600 m above ref point']
+      ]
+    },
+    {
+      title: 'Acronym dump',
+      icon: '🔤',
+      rows: [
+        ['AGL / AMSL', 'Above Ground / Mean Sea Level'],
+        ['VFR / IFR', 'Visual / Instrument Flight Rules'],
+        ['FL', 'Flight Level (×30 ≈ m)'],
+        ['CTR / TMA', 'Control Zone / Terminal Area'],
+        ['AWY / FIZ / RMZ', 'Airway / Flight Info Zone / Radio Mandatory'],
+        ['LS-R / LS-D / LS-P', 'Restricted / Danger / Prohibited'],
+        ['BAZL / OFAC', 'Federal Office of Civil Aviation'],
+        ['SHV / FSVL', 'Swiss Hang Gliding Federation'],
+        ['VLK / OACS', 'Special-Category Aircraft Ordinance'],
+        ['NOTAM', 'Notice to Airmen'],
+        ['DABS', 'Daily Airspace Bulletin Switzerland'],
+        ['QNH', 'Sea-level pressure setting'],
+        ['ISA', 'International Standard Atmosphere'],
+        ['EN-A / B / C / D', 'Glider certification class']
+      ]
+    }
+  ];
+
+  return `
+    <div class="page-header">
+      <h1>Cheat Sheet</h1>
+      <p class="page-subtitle">Must-memorize facts in one place. Print-friendly · use on test day morning.</p>
+    </div>
+    <div class="cheat-grid">
+      ${sections.map(s => `
+        <div class="cheat-card">
+          <h3><span class="icon">${s.icon}</span>${escapeHtml(s.title)}</h3>
+          ${s.rows.map(([k, v]) => `<div class="cheat-row"><span class="cheat-key">${escapeHtml(k)}</span><span class="cheat-value">${escapeHtml(v)}</span></div>`).join('')}
+          ${s.note ? `<div class="cheat-note">${escapeHtml(s.note)}</div>` : ''}
+        </div>
+      `).join('')}
+    </div>
+    <div class="row" style="margin-top:24px; justify-content:center;">
+      <button class="btn" onclick="window.print()">🖨️ Print cheat sheet</button>
+    </div>
+  `;
+}
+
+// ============================================================================
+// VIEW: Tips & Strategy
+// ============================================================================
+function renderTips() {
+  return `
+    <div class="page-header">
+      <h1>Exam Tips & Strategy</h1>
+      <p class="page-subtitle">Research-backed advice for the SHV/FSVL theory exam.</p>
+    </div>
+    <div class="tips-content">
+      ${renderMarkdown(getTipsMd())}
+    </div>
+  `;
+}
+
+// ============================================================================
+// Main render
+// ============================================================================
+function render() {
+  applyTheme();
+  // sidebar
+  const sb = document.getElementById('sidebar-nav');
+  const navItems = [
+    { id: 'dashboard',  icon: '📊', label: 'Dashboard' },
+    { id: 'flashcards', icon: '📇', label: 'Flashcards', badge: getCards().length },
+    { id: 'quiz',       icon: '📝', label: 'Quiz' },
+    { id: 'exam',       icon: '⏱️', label: 'Mock Exam' },
+    { id: 'guide',      icon: '📚', label: 'Study Guide' },
+    { id: 'cheatsheet', icon: '⚡', label: 'Cheat Sheet' },
+    { id: 'tips',       icon: '💡', label: 'Tips' }
+  ];
+  sb.innerHTML = navItems.map(n => `
+    <button class="nav-item ${state.view === n.id ? 'active' : ''}" data-nav="${n.id}">
+      <span class="nav-icon">${n.icon}</span>
+      <span>${n.label}</span>
+      ${n.badge ? `<span class="nav-badge">${n.badge}</span>` : ''}
+    </button>
+  `).join('');
+
+  // theme indicator
+  const themeBtn = document.getElementById('theme-toggle');
+  themeBtn.innerHTML = state.theme === 'dark' ? '🌙 Dark' : state.theme === 'light' ? '☀️ Light' : '🖥 Auto theme';
+
+  // content
+  const app = document.getElementById('app');
+  let html = '';
+  switch (state.view) {
+    case 'dashboard':  html = renderDashboard(); break;
+    case 'flashcards': html = renderFlashcards(); break;
+    case 'quiz':       html = renderQuiz(); break;
+    case 'exam':       html = renderExam(); break;
+    case 'guide':      html = renderGuide(); break;
+    case 'cheatsheet': html = renderCheatsheet(); break;
+    case 'tips':       html = renderTips(); break;
+    default:           html = renderDashboard();
+  }
+  app.innerHTML = html;
+
+  // Attach generic nav handlers
+  document.querySelectorAll('[data-nav]').forEach(b => {
+    b.onclick = (e) => { e.preventDefault(); navigate(b.dataset.nav); };
+  });
+
+  // View-specific
+  if (state.view === 'flashcards') attachFlashcardsEvents();
+  if (state.view === 'quiz') attachQuizEvents();
+  if (state.view === 'exam') {
+    attachExamEvents();
+    if (state.exam.active) startExamTimer(); else stopExamTimer();
+  } else {
+    stopExamTimer();
+  }
+  if (state.view === 'guide') attachGuideEvents();
+}
+
+// ============================================================================
+// Init
+// ============================================================================
+function init() {
+  // Theme toggle
+  document.getElementById('theme-toggle').onclick = () => {
+    state.theme = state.theme === 'auto' ? 'light' : state.theme === 'light' ? 'dark' : 'auto';
+    saveState();
+    render();
+  };
+
+  // Mobile menu
+  document.getElementById('mobile-menu').onclick = () => {
+    document.getElementById('sidebar').classList.toggle('open');
+    document.getElementById('sidebar-backdrop').classList.toggle('show');
+  };
+  document.getElementById('sidebar-backdrop').onclick = () => {
+    document.getElementById('sidebar').classList.remove('open');
+    document.getElementById('sidebar-backdrop').classList.remove('show');
+  };
+
+  // Lightbox
+  document.getElementById('lb-close').onclick = closeLightbox;
+  document.getElementById('lb-prev').onclick = () => lightboxNav(-1);
+  document.getElementById('lb-next').onclick = () => lightboxNav(1);
+  document.getElementById('lightbox').addEventListener('click', (e) => {
+    if (e.target.id === 'lightbox') closeLightbox();
+  });
+
+  // Keyboard shortcuts
+  document.addEventListener('keydown', (e) => {
+    if (e.target.tagName === 'INPUT' || e.target.tagName === 'TEXTAREA') return;
+    // Lightbox shortcuts
+    if (document.getElementById('lightbox').classList.contains('show')) {
+      if (e.key === 'Escape') closeLightbox();
+      else if (e.key === 'ArrowLeft') lightboxNav(-1);
+      else if (e.key === 'ArrowRight') lightboxNav(1);
+      return;
+    }
+    if (state.view === 'flashcards' && (state.fc.mode === 'flashcards' || state.fc.mode === 'review')) {
+      if (e.key === ' ' && !_fcReveal) { e.preventDefault(); _fcReveal = true; render(); return; }
+      if (_fcReveal && ['1','2','3','4'].includes(e.key)) {
+        const map = { '1':'again', '2':'hard', '3':'good', '4':'easy' };
+        const card = currentFcCard();
+        if (card) {
+          recordSrs(card.id, map[e.key]);
+          _fcReveal = false;
+          setFcIndex(state.fc.index + 1);
+          if (state.fc.mode === 'review') _fcDeck = null;
+          render();
+        }
+        return;
+      }
+      if (e.key === 'ArrowLeft') { setFcIndex(state.fc.index - 1); _fcReveal = false; render(); return; }
+      if (e.key === 'ArrowRight') { setFcIndex(state.fc.index + 1); _fcReveal = false; render(); return; }
+    }
+  });
+
+  // Initial render
+  render();
+}
+
+// Boot when data is loaded
+window.addEventListener('DOMContentLoaded', init);

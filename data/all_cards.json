@@ -1,0 +1,2981 @@
+[
+ {
+  "id": "law-1",
+  "category": "Legislation",
+  "original_id": 1,
+  "q_de": "Welche Publikation gibt Auskunft über den genauen Verlauf der Trennlinie zwischen den beiden Gebieten Jura/Mittelland und Alpen?",
+  "a_de": "Segelflugkarte (GLDK)",
+  "q_en": "Which publication shows the exact boundary line between the two regions Jura/Mittelland and the Alps?",
+  "a_en": "The Glider Map (GLDK / Segelflugkarte)."
+ },
+ {
+  "id": "law-2",
+  "category": "Legislation",
+  "original_id": 2,
+  "q_de": "Was bedeutet die grüne Trennlinie auf der Segelflugkarte?",
+  "a_de": "Trennlinie auf Segelflugkarte in grün ist Trennung Mittelland/Jura (Jura & Flachland darf bis 3050m geflogen werden) & den Alpen bis 4550m - C Grenze (wenn Militär nicht aktiv - sonst MIL-ON, nur bis 3950 in Alpen). In den Alpen darf man höher fliegen, weil Grund (Alpen) höher - deswegen auf Luftraum höher. Jedes Jahr neue Segelflugkarte im März.",
+  "q_en": "What does the green dividing line on the Glider Map mean?",
+  "a_en": "It separates the Mittelland/Jura region (Jura & lowlands, ceiling 3050 m) from the Alps (ceiling 4550 m — the lower limit of airspace C, when military is off; with MIL-ON only up to 3950 m in the Alps). You can fly higher in the Alps because the ground itself is higher, so the airspace above is raised. A new Glider Map is published every year in March."
+ },
+ {
+  "id": "law-3",
+  "category": "Legislation",
+  "original_id": 3,
+  "q_de": "Wie hoch darf man in den Alpen über die Berge fliegen?",
+  "a_de": "Eigentlich nur bis 4550 - aber wenn Berg z.B. 4200M hoch ist, dann darf man nochmals 600 Meter darüber fliegen, also ca. 4800. MIL-ON: 3950 / MIL-OFF: 4550",
+  "q_en": "How high may you fly over the mountains in the Alps?",
+  "a_en": "Normally up to 4550 m — but if a peak is e.g. 4200 m high, you may fly another 600 m above it (≈ 4800 m). With MIL-ON: 3950 m. With MIL-OFF: 4550 m."
+ },
+ {
+  "id": "law-4",
+  "category": "Legislation",
+  "original_id": 4,
+  "q_de": "Zeiten von MIL-ON?",
+  "a_de": "Bei MIL-ON (in Alpen) bis auf 3950m fliegen. Zeiten: Mo-Fr Vormittag: 7:30 - 12.05, Nachmittag: 13.15 - 17.05",
+  "q_en": "What are the MIL-ON times (Swiss military airspace activation)?",
+  "a_en": "During MIL-ON (in the Alps) you may only fly up to 3950 m. Times: Monday–Friday, mornings 07:30–12:05 and afternoons 13:15–17:05."
+ },
+ {
+  "id": "law-5",
+  "category": "Legislation",
+  "original_id": 5,
+  "q_de": "LSR",
+  "a_de": "Restricted Luftraum",
+  "q_en": "What does LS-R stand for?",
+  "a_en": "LS-R = Restricted airspace (Luftraumbeschränkungsgebiet)."
+ },
+ {
+  "id": "law-6",
+  "category": "Legislation",
+  "original_id": 6,
+  "q_de": "Welches ist der Unterschied zwischen grünen und roten LS-R auf der Segelflugkarte?",
+  "a_de": "Je nach Aktivierungszustand und Benützungsbedingungen darf in die rote LS-R Zone nicht eingeflogen werden. (in GLDK ersichtlich - Aktualität in DABS checken, aktiv = verboten). Die grünen LS-R Zonen stellen je nach Aktivierungszustand eine Erleichterung dar.",
+  "q_en": "What's the difference between green and red LS-R zones on the Glider Map?",
+  "a_en": "Red LS-R zones cannot be entered when active — check the DABS for current status (active = forbidden). Green LS-R zones, depending on activation status, actually represent a relaxation of the normal rules (\"LS-R for gliders\")."
+ },
+ {
+  "id": "law-7",
+  "category": "Legislation",
+  "original_id": 7,
+  "q_de": "Grüne LSR — Regeln?",
+  "a_de": "In den LSR for gliders (ehemalige Segelflug zonen) gelten verminderte Wolkenabstände von vertikal 50 m und horizontal 100 m. Die Flugsicht bleibt indessen unverändert 5 km resp. 8 km. Obwohl LSR for gliders eine Erleichterung darstellen, werden sie als LS-R (Luftraumbeschränkungsgebiet) qualifiziert. Die Einschränkungen beziehen sich auf den darin verbotenen IFR-Verkehr. Sie sind vom 1. März bis 31. Oktober von Sonnenaufgang bis Sonnenuntergang aktiv. Achtung: NUR WOLKENABSTÄNDE - betrifft nie Flughöhe. Spezialfall LSR grün mit \"MO\" = Nur aktiv bei Mill-Off. Spezialfall LSR grün mit \"MA\" = kann auch bei Mill-On aktiv sein, nachfragen.",
+  "q_en": "What rules apply in green LS-R zones (\"LSR for gliders\")?",
+  "a_en": "Inside an LSR for gliders (former glider zones) reduced cloud clearances apply: 50 m vertical, 100 m horizontal. Flight visibility stays the same (5 km / 8 km). They're classified as LS-R because IFR traffic is forbidden inside them. Active 1 March – 31 October from sunrise to sunset.\n\nIMPORTANT: This only affects cloud clearance, never altitude limits.\n• \"MO\" suffix = only active when MIL-OFF.\n• \"MA\" suffix = may also be active during MIL-ON — check by radio/phone."
+ },
+ {
+  "id": "law-8",
+  "category": "Legislation",
+  "original_id": 8,
+  "q_de": "Regeln bei LSR for Gliders?",
+  "a_de": "Spezial von Wolke Abstand 50 M Vertikal und 100 Horizontal - ab 2500 wieder die grossen Wolkenabstände",
+  "q_en": "Special rules in LSR for Gliders?",
+  "a_en": "Reduced cloud clearance: 50 m vertical, 100 m horizontal. From 2500 m AMSL upward the normal larger cloud clearances apply again."
+ },
+ {
+  "id": "law-9",
+  "category": "Legislation",
+  "original_id": 9,
+  "q_de": "LSD",
+  "a_de": "Danger im Luftraum, Vorsicht - z.B. Schiessübungen, nicht empfohlen dort reinzufliegen",
+  "q_en": "What does LS-D stand for?",
+  "a_en": "LS-D = Danger area. Caution — e.g. live firing exercises. Strongly recommended not to fly into it."
+ },
+ {
+  "id": "law-10",
+  "category": "Legislation",
+  "original_id": 10,
+  "q_de": "NOTAM",
+  "a_de": "Nachrichten für Luftfahrer (Notice to Airmen) - täglich aktualisiert über Hindernisse (sollte man rechtlich auch täglich checken, DABS reicht aber \"eigentlich\")",
+  "q_en": "What is a NOTAM?",
+  "a_en": "Notice to Airmen — daily updates on hazards and obstacles. Legally you should check it daily; in practice the DABS usually suffices for free-flight pilots."
+ },
+ {
+  "id": "law-11",
+  "category": "Legislation",
+  "original_id": 11,
+  "q_de": "DABS — Daily Airspace Bulletin Switzerland",
+  "a_de": "Das DABS (Daily Airspace Bulletin Switzerland) stellt Luftraumeinschränkungen in der Schweiz graphisch dar. Achtung: Zeit ist wichtig - UTC im Winter 1h dazu rechnen und Sommer 2h dazurechnen. Auf www.skybriefing.com täglich um 16.00 Uhr für den Folgetag. Bsp: WEF auf zweiter Seite nur schriftlich z.B. Militärzeiten ausgedehnt.",
+  "q_en": "What is the DABS (Daily Airspace Bulletin Switzerland)?",
+  "a_en": "The DABS shows Swiss airspace restrictions graphically. Times are in UTC — add 1 h in winter, 2 h in summer for local time. Published daily at 16:00 on www.skybriefing.com for the following day. Note: special items (e.g. extended military hours during WEF) appear in text on page 2."
+ },
+ {
+  "id": "law-12",
+  "category": "Legislation",
+  "original_id": 12,
+  "q_de": "AIP",
+  "a_de": "Luftfahrthandbuch",
+  "q_en": "What is the AIP?",
+  "a_en": "Aeronautical Information Publication — the official aviation handbook."
+ },
+ {
+  "id": "law-13",
+  "category": "Legislation",
+  "original_id": 13,
+  "q_de": "CTR",
+  "a_de": "Controlled Traffic Region (Kontrollzone) - Luftraumklasse nicht G obwohl ab Boden - Kontrollzonen (CTR), welche bis zum Boden reichen. CTR's werden mit gestrichelten Linien und einer transparenten blauen Füllung dargestellt. Sie reichen vom Boden (GND) bis zu einer bestimmten Höhe, welche im dazugehörigen Kästchen (tag) ersichtlich ist.",
+  "q_en": "What is a CTR?",
+  "a_en": "Control Zone (Kontrollzone). Although it starts at the ground it is NOT Class G — it's a controlled airspace. CTRs are shown on the map with dashed lines and transparent blue fill; they extend from ground (GND) up to a specific altitude listed in the box."
+ },
+ {
+  "id": "law-14",
+  "category": "Legislation",
+  "original_id": 14,
+  "q_de": "Eine CTR …",
+  "a_de": "erstreckt sich um Flughafen, von Boden bis Segelflugkartehöhe",
+  "q_en": "A CTR…",
+  "a_en": "…surrounds an airport and extends from the ground up to the altitude given on the Glider Map."
+ },
+ {
+  "id": "law-15",
+  "category": "Legislation",
+  "original_id": 15,
+  "q_de": "TMA",
+  "a_de": "Terminal Maneuvering Area (Nahkontrollbezirk / Anflugsschneisen, um grosse Flugplätze) Klasse C (nur Zürich, Bern, Basel, Genf) oder D. Verlaufen nie bis zu Boden, können unterflogen werden. Jura - gilt Untergrenze auf Karte. Alpen: Untergrenze Karte oder 300AGL (jeweils höheres).",
+  "q_en": "What is a TMA?",
+  "a_en": "Terminal Maneuvering Area — approach corridors around major airports. Class C (Zürich, Bern, Basel, Geneva) or D. Never extends all the way to ground, so you can fly underneath. In the Jura: respect the lower limit on the map. In the Alps: the lower limit is whichever is higher — the limit on the map OR 300 m AGL."
+ },
+ {
+  "id": "law-16",
+  "category": "Legislation",
+  "original_id": 16,
+  "q_de": "Welches ist die minimale Untergrenze einer TMA im Alpenraum?",
+  "a_de": "300 AGL oder die angegebene Untergrenze - je nachdem was mehr Höhe ergibt. Nördlich der Trennlinie: immer angegebene Untergrenze",
+  "q_en": "What is the minimum lower limit of a TMA in the Alpine region?",
+  "a_en": "300 m AGL or the published lower limit — whichever gives the greater altitude. North of the dividing line (Jura/Mittelland): always the published lower limit."
+ },
+ {
+  "id": "law-17",
+  "category": "Legislation",
+  "original_id": 17,
+  "q_de": "Eine TMA (Höhenangaben)?",
+  "a_de": "Befindet sich im *weiteren* Bereich eines Flugplatzes. Ausdehnung und Untergrenze sind in der Segelflugkarte ersichtlich (in Alpen darf man 300m unterfliegen). Tiefer wäre CTR, bis Boden - und Airway Verbindung der Flughäfen, mit Grenzen Angaben Karte)",
+  "q_en": "A TMA (altitude data)?",
+  "a_en": "Located in the wider area around an airport. Extent and lower limit are shown on the Glider Map (in the Alps you may fly 300 m below the published limit). Below a TMA would be the CTR (down to ground), and connecting them between airports are the Airways — limits shown on the map."
+ },
+ {
+  "id": "law-18",
+  "category": "Legislation",
+  "original_id": 18,
+  "q_de": "Was bedeutet die Abkürzung „HX\"?",
+  "a_de": "Keine Betriebszeiten, Aktivierung jederzeit möglich. Die TMA's und CTR's der Landesflughäfen Zürich, Genf und Basel sind permanent, also 24 Stunden (H24) täglich aktiv. Die meisten CTR's und TMA's aber tragen den Zusatz «HX», was bedeutet, dass diese über keine bestimmten Betriebszeiten verfügen, sondern sehr kurzfristig aktiviert werden können. Dies bedeutet für uns, dass wir grundsätzlich davon ausgehen müssen, dass sie aktiv sind. Es gibt aber Möglichkeiten via Flugfunk und teilweise via Telefontonband zu erfahren, ob und wie lange sie aktiv sind oder nicht. Sind sie es nicht, gelten die Benutzungsbedingungen des umgebenden Luftraums der Klassen G und E.",
+  "q_en": "What does the abbreviation \"HX\" mean?",
+  "a_en": "No fixed operating times — can be activated at any time. The TMAs/CTRs of Zürich, Geneva and Basel are permanent (H24). Most other CTRs/TMAs carry an \"HX\" suffix, meaning they have no scheduled hours and can be activated on short notice. We must assume they are active by default. You can check actual status via radio or recorded phone messages. If inactive, the rules of the surrounding airspace (G or E) apply."
+ },
+ {
+  "id": "law-19",
+  "category": "Legislation",
+  "original_id": 19,
+  "q_de": "HX =",
+  "a_de": "Zu unbestimmten Zeiten aktiviert. - per Telefonband abfragen oder Funk (Frequenz immer aufgeführt) - 30 Min Regel. Falls nichts steht = HX24 - immer aktiv. (z.B. LSZH). Temporäre: Sind im NOTAM / DABS (nur Alpnach und Sion - sind dünner eingezeichnet auf Karte)",
+  "q_en": "HX =",
+  "a_en": "Activated at unscheduled times. Check by phone recording or radio (frequency is always listed). 30-minute rule applies. If nothing is noted = H24 (always active, e.g. LSZH). Temporary activations appear in NOTAM/DABS (only Alpnach and Sion — drawn with thinner lines on the map)."
+ },
+ {
+  "id": "law-20",
+  "category": "Legislation",
+  "original_id": 20,
+  "q_de": "kein HX =",
+  "a_de": "Info über Aktivierung im DABS (temporär)",
+  "q_en": "No HX label =",
+  "a_en": "Information about (temporary) activation can be found in the DABS."
+ },
+ {
+  "id": "law-21",
+  "category": "Legislation",
+  "original_id": 21,
+  "q_de": "AWY",
+  "a_de": "Airway (Luftstrasse) - längere Lufträume und Hauptverbindungsstrecken von grossen Flughäfen. Auf der GLDK sehen wir nur eine, die zwischen Zürich und Milano. Sie ist der Luftraumklasse C zugeteilt und ist permanent in Betrieb.",
+  "q_en": "What is an AWY?",
+  "a_en": "Airway (Luftstrasse) — long, narrow corridors connecting major airports. On the Glider Map only one is visible: Zürich–Milan. Class C airspace, permanently active."
+ },
+ {
+  "id": "law-22",
+  "category": "Legislation",
+  "original_id": 22,
+  "q_de": "FIZ steht für",
+  "a_de": "Fluginformationszone (nur in Samedan - Funkkontakt obligatorisch - MA gibt Auskunft)",
+  "q_en": "FIZ stands for…",
+  "a_en": "Flight Information Zone. In Switzerland only at Samedan — radio contact is mandatory; the flight information officer provides traffic information."
+ },
+ {
+  "id": "law-23",
+  "category": "Legislation",
+  "original_id": 23,
+  "q_de": "In einer FIZ gelten folgende Regeln:",
+  "a_de": "Einflug nur nach vorgängig erstellten Funkkontakt auf der entsprechenden Frequenz. Um den Flugplatz Samedan ist eine Fluginformationszone (FIZ) eingerichtet. In dieser ist Funkverkehr mit dem Fluginformationsdienst am Flugplatz Samedan erforderlich. Der Luftraum erfährt deswegen aber keine Klassenänderung (bleibt G und E) und der Mitarbeiter am Funk darf auch keine Freigaben erteilen, sondern nur Verkehrshinweise geben. Trotzdem muss man sich vor dem Einflug in eine FIZ per Funk anmelden. Im Gegensatz dazu wird in einer RMZ (Radio Mandatory Zone) niemand antworten. Dort muss der einfliegende Pilot seine Position und Absichten auf der entsprechenden Frequenz melden (Blindmeldungen), um andere Luftfahrtteilnehmer entsprechend zu informieren.",
+  "q_en": "What rules apply in a FIZ?",
+  "a_en": "Entry only after establishing radio contact on the appropriate frequency. Around Samedan airfield there is a FIZ where radio contact with the flight information service is required. The airspace class itself does not change (stays G or E), and the FIS operator cannot issue clearances — only traffic advisories. Still, you must announce yourself before entry.\n\nContrast with RMZ (Radio Mandatory Zone): no-one answers there. The entering pilot must blind-broadcast position and intentions on the published frequency to inform other traffic."
+ },
+ {
+  "id": "law-24",
+  "category": "Legislation",
+  "original_id": 24,
+  "q_de": "In einer RMZ gelten folgende Regeln",
+  "a_de": "Einflug nur mit Hörbereitschaft und Blindmeldungen auf der entsprechenden Frequenz",
+  "q_en": "What rules apply in an RMZ?",
+  "a_en": "Entry only with listening watch and self-announcement (blind broadcasts) on the appropriate frequency."
+ },
+ {
+  "id": "law-25",
+  "category": "Legislation",
+  "original_id": 25,
+  "q_de": "FL 150 ist (Alpen auf MIL-OFF)",
+  "a_de": "4550 Meter über Meer",
+  "q_en": "FL 150 corresponds to (Alps with MIL-OFF)?",
+  "a_en": "≈ 4550 m above sea level."
+ },
+ {
+  "id": "law-26",
+  "category": "Legislation",
+  "original_id": 26,
+  "q_de": "Auf welcher Höhe befindet sich FL 100 ca.?",
+  "a_de": "3050 Meter über Meer",
+  "q_en": "At what altitude is FL 100 approximately?",
+  "a_en": "≈ 3050 m above sea level."
+ },
+ {
+  "id": "law-27",
+  "category": "Legislation",
+  "original_id": 27,
+  "q_de": "FL - Flightlevel wird immer nach Druck angepasst",
+  "a_de": "1013.25 hPa (Standartdruck). Grund: Höhenmesser misst Druck - schwankt jeden Tag - Druck wird Höhe zugeordnet. Druck verändert sich auch während dem Tag, auch wenn Höhenmesser am Morgen kalibriert wurde. Deshalb Lösung = Flight Level, also nach Standartdruck messen.",
+  "q_en": "FL — Flight Level is always referenced to which pressure?",
+  "a_en": "1013.25 hPa (standard pressure). Why: altimeters measure pressure, but pressure varies day-to-day and even within a day. Even if you calibrate in the morning it will drift. Solution = Flight Level: a uniform reference based on standard pressure."
+ },
+ {
+  "id": "law-28",
+  "category": "Legislation",
+  "original_id": 28,
+  "q_de": "Bei Hochdruck darf wie viel höher geflogen werden?",
+  "a_de": "Über 1037: +200M / 1032-1036: +150M / 1026-1031: +100M / 1020-1025: +50M / 1010-1019: 0M. Tiefdruck würde abgezogen, aber da fliegen wir eh eher nicht :) Hohes Hoch also bspw. +200M Spielraum. AMSL stimmen nur bei Standartatmosphäre.",
+  "q_en": "How much higher may you fly in high-pressure conditions?",
+  "a_en": "Above 1037 hPa: +200 m  •  1032–1036: +150 m  •  1026–1031: +100 m  •  1020–1025: +50 m  •  1010–1019: 0 m. (In low pressure you'd subtract — but we generally don't fly in low pressure anyway.) AMSL altitudes are exact only under standard atmosphere; high-pressure days give you extra headroom (up to +200 m)."
+ },
+ {
+  "id": "law-29",
+  "category": "Legislation",
+  "original_id": 29,
+  "q_de": "Die schweizerischen Gesetzesbestimmungen, welche den Hängegleitersport betreffen, finden sich insbesondere…",
+  "a_de": "Verordnungs Luftfahrzeuge besonderer Kategorie VLK 24. Nov 1994",
+  "q_en": "The Swiss legal provisions covering hang-gliding / paragliding are found especially in…",
+  "a_en": "The Ordinance on Aircraft of Special Categories (VLK / OACS), 24 November 1994."
+ },
+ {
+  "id": "law-30",
+  "category": "Legislation",
+  "original_id": 30,
+  "q_de": "In der Schweiz relevante Luftraumklassen sind:",
+  "a_de": "7 Luftraumklassen = A, B, C, D, E, F, G - 4 davon in der Schweiz. Schweiz: G + E = Einflug frei. Schweiz: C + D nur mit Freigabe und Funkkontakt. G: Grund bis 600m - unkontrolliert. Bis 300AGL: 1.5km Sicht, ausserhalb Wolken / ab 300AGL 5km Sicht, 1.5km Wolkenabstand horizontal, 300 vertikal. E: bis 3050 / 3950 & 4550 AMSL - bis 3050: 5km Sicht, 1.5km Wolkenabstand horizontal und 300 vertikal. Oberhalb 3050 AMSL: 8km Sicht, 1.5 Wolkenabstand horizontal, 300 vertikal. C: Untergrenze 3050/3950/4550 AMSL - Obergrenze: 18'300 AMSL (kontrolliert, 8km Sicht, 1.5 Wolken horizontal, 300 vertikal). D: Vor allem bei Flugplätzen.",
+  "q_en": "Which airspace classes are relevant in Switzerland?",
+  "a_en": "7 classes globally (A–G), 4 used in Switzerland.\n• G & E — entry is free.\n• C & D — entry only with clearance and radio contact.\n\nG: ground to 600 m AGL, uncontrolled. Below 300 AGL: 1.5 km visibility, clear of cloud. From 300 AGL: 5 km vis, 1.5 km horizontal / 300 m vertical cloud clearance.\n\nE: up to 3050 / 3950 / 4550 m AMSL. Below 3050: 5 km vis, 1.5/300 cloud clearance. Above 3050: 8 km vis, 1.5/300 cloud clearance.\n\nC: lower limit 3050/3950/4550 AMSL — upper limit 18,300 AMSL (controlled; 8 km vis, 1.5/300).\n\nD: mostly around airports."
+ },
+ {
+  "id": "law-31",
+  "category": "Legislation",
+  "original_id": 31,
+  "q_de": "In welchen Luftraumklassen ist kein ständiger Funkkontakt vorgeschrieben?",
+  "a_de": "G & E",
+  "q_en": "In which airspace classes is continuous radio contact NOT required?",
+  "a_en": "G and E."
+ },
+ {
+  "id": "law-32",
+  "category": "Legislation",
+  "original_id": 32,
+  "q_de": "Die obere Begrenzung der Luftraumklasse G ist in der Schweiz auf",
+  "a_de": "600 AGL (Beispiel Berg 4200 Meter + 600M)",
+  "q_en": "The upper limit of airspace class G in Switzerland is set at…",
+  "a_en": "600 m AGL (example: a 4200 m peak + 600 m = up to 4800 m on top)."
+ },
+ {
+  "id": "law-33",
+  "category": "Legislation",
+  "original_id": 33,
+  "q_de": "Von Grund bis 300 AGL gelten Regeln: (Luftraum G)",
+  "a_de": "1.5km Sicht, ausserhalb Wolken",
+  "q_en": "From ground up to 300 AGL the rules are: (airspace G)",
+  "a_en": "1.5 km visibility, clear of cloud."
+ },
+ {
+  "id": "law-34",
+  "category": "Legislation",
+  "original_id": 34,
+  "q_de": "Regeln für Fliegen bis 300m?",
+  "a_de": "Bis zu 300 Meter (nicht 600 Meter wie im G), gibt es kein Abstand (Dabei muss man immer den Boden sehen und 1.5km horizontal)",
+  "q_en": "Rules for flying up to 300 m AGL?",
+  "a_en": "Up to 300 m (not 600 m as in the rest of G), no cloud-clearance distances apply — but you must always have ground in sight and at least 1.5 km horizontal visibility."
+ },
+ {
+  "id": "law-35",
+  "category": "Legislation",
+  "original_id": 35,
+  "q_de": "Welche Distanzen bezüglich Sicht und Wolkenabstand gelten grundsätzlich mittwochs um 14.30 Uhr in den Alpen auf 200 m AGL / 3'800 m AMSL? Sicht / Abstand horizontal / Abstand vertikal",
+  "a_de": "1.5km und Bodensicht / ausserhalb / ausserhalb (weil 200 über Grund)",
+  "q_en": "What visibility and cloud-clearance distances apply on a Wednesday at 14:30 in the Alps at 200 m AGL / 3800 m AMSL?",
+  "a_en": "1.5 km visibility with ground in sight / clear of cloud horizontally / clear of cloud vertically (because still below 300 AGL)."
+ },
+ {
+  "id": "law-36",
+  "category": "Legislation",
+  "original_id": 36,
+  "q_de": "Ab 300 AGL gelten Regeln: (Luftraum G)",
+  "a_de": "5km Sicht, 1.5km Wolkenabstand horizontal, 300 vertikal",
+  "q_en": "From 300 AGL upward the rules are: (airspace G)",
+  "a_en": "5 km visibility, 1.5 km horizontal cloud clearance, 300 m vertical cloud clearance."
+ },
+ {
+  "id": "law-37",
+  "category": "Legislation",
+  "original_id": 37,
+  "q_de": "Regeln fliegen über 300m?",
+  "a_de": "Die Sicht muss 5 Km sein. Wolkenabstand: 300 / 300 sowie 1.5 horizontal",
+  "q_en": "Rules for flying above 300 m AGL?",
+  "a_en": "Visibility must be 5 km. Cloud clearance: 300 m vertical, 1.5 km horizontal."
+ },
+ {
+  "id": "law-38",
+  "category": "Legislation",
+  "original_id": 38,
+  "q_de": "Bis 3050 AGL gelten Regeln: (Luftraum E)",
+  "a_de": "5km Sicht, 1.5km Wolkenabstand horizontal und 300 vertikal.",
+  "q_en": "Up to 3050 AMSL the rules are: (airspace E)",
+  "a_en": "5 km visibility, 1.5 km horizontal cloud clearance, 300 m vertical."
+ },
+ {
+  "id": "law-39",
+  "category": "Legislation",
+  "original_id": 39,
+  "q_de": "Ab 3050 AGL gelten Regeln: (Luftraum E)",
+  "a_de": "8km Sicht, 1.5 Wolkenabstand horizontal, 300 vertikal",
+  "q_en": "From 3050 AMSL upward the rules are: (airspace E)",
+  "a_en": "8 km visibility, 1.5 km horizontal cloud clearance, 300 m vertical."
+ },
+ {
+  "id": "law-40",
+  "category": "Legislation",
+  "original_id": 40,
+  "q_de": "Ab 4550 AGL gelten Regeln: (Luftraum C)",
+  "a_de": "Achtung kontrolliert: 8km Sicht, 1.5 Wolken horizontal, 300 vertikal (nur mit Freigabe und Funkkontakt)",
+  "q_en": "From 4550 AMSL upward the rules are: (airspace C)",
+  "a_en": "Caution — controlled airspace. 8 km visibility, 1.5 km horizontal / 300 m vertical cloud clearance. Entry only with clearance and radio contact."
+ },
+ {
+  "id": "law-41",
+  "category": "Legislation",
+  "original_id": 41,
+  "q_de": "Lufträume mit TAGS",
+  "a_de": "Unter und Obergrenze - gerade Zahl über Grund AGL - Kursiv über Meer AMSL - obere Zahl ist blau, Höhe nach Standartatmosphäre - weil auf Meereshöhe gleicher Druck. - Weisse Zahl ist effektive Höhe z.B. GPS - rot hinterlegt: nach STD, kann schwanken)",
+  "q_en": "Airspace tags on the map — how to read them?",
+  "a_en": "Lower and upper limit are stacked in the box.\n• Plain numbers = AGL.\n• Italic numbers = AMSL.\n• Blue upper number = altitude per standard atmosphere (because at sea level pressure is constant).\n• White number = effective altitude (e.g. GPS).\n• Red-shaded = standard pressure-based, may vary."
+ },
+ {
+  "id": "law-42",
+  "category": "Legislation",
+  "original_id": 42,
+  "q_de": "LS",
+  "a_de": "Lower Europe Switzerland - Beispiel: LSZR - ALTENRHEIN, LSZH- Zürich",
+  "q_en": "\"LS\" prefix in ICAO codes?",
+  "a_en": "Switzerland (Lower Europe — Switzerland). Examples: LSZR Altenrhein, LSZH Zürich."
+ },
+ {
+  "id": "law-43",
+  "category": "Legislation",
+  "original_id": 43,
+  "q_de": "VFR",
+  "a_de": "Visual Flight Rules (Sichtflugregeln Gleitschirm)",
+  "q_en": "VFR?",
+  "a_en": "Visual Flight Rules — what paragliders fly under."
+ },
+ {
+  "id": "law-44",
+  "category": "Legislation",
+  "original_id": 44,
+  "q_de": "IFR",
+  "a_de": "Instrument Flight Rules - für Flugobjekte mit ganzer Ausrüstung, die wir nicht haben (Gleitschirm hier nicht reinfliegen)",
+  "q_en": "IFR?",
+  "a_en": "Instrument Flight Rules — for aircraft equipped to fly without outside visual references. Paragliders should never enter IFR conditions."
+ },
+ {
+  "id": "law-45",
+  "category": "Legislation",
+  "original_id": 45,
+  "q_de": "Regeln bei Heliports:",
+  "a_de": "Radius 2.5 km / 5km bei Flugplätzen - 600 Meter oberhalb okay (manchmal lokale Bestimmungen Ausnahmen - hilft bei Streckenflügen)",
+  "q_en": "Rules around heliports?",
+  "a_en": "Stay 2.5 km away (5 km for airfields). Above 600 m over the reference point is OK. Local exceptions sometimes apply — useful to know for XC flights."
+ },
+ {
+  "id": "law-46",
+  "category": "Legislation",
+  "original_id": 46,
+  "q_de": "Welche 5 Fragen stelle ich mir bei der Planung in einem Fluggebiet?",
+  "a_de": "- Jahreszeit (März - Oktober = Wolkenabstände)? - Wochentag und Uhrzeit wegen Militär? - Nördlich oder Südlich von Trennlinie? - Höhe? - Standort: Heliport in Nähe?",
+  "q_en": "Which 5 questions do I ask when planning a flight in a region?",
+  "a_en": "1. Season? (March–October → glider-cloud-clearance rules apply)\n2. Day of week and time? (military activity?)\n3. North or south of the dividing line?\n4. Altitude limits?\n5. Location — is there a heliport nearby?"
+ },
+ {
+  "id": "law-47",
+  "category": "Legislation",
+  "original_id": 47,
+  "q_de": "Im Fluggebiet, was mache ich als Vorbereitung?",
+  "a_de": "Landeplatzbesichtigung, Landevolte, Hindernisse. Flugplanung, Notlandeplätze, Turbulenzen, Überlegungen Umwelt, Wild, etc. Lokale Begebenheiten beachten. Info Tafel lesen",
+  "q_en": "On site at the flying area, what's your preparation?",
+  "a_en": "Inspect the landing field, plan the landing circuit, note obstacles. Plan the flight, emergency landing options, expected turbulence. Consider environment and wildlife. Respect local rules. Read the info board."
+ },
+ {
+  "id": "law-48",
+  "category": "Legislation",
+  "original_id": 48,
+  "q_de": "1 Feet / Fuss für Umrechnung sind",
+  "a_de": "30.5 Zentimeter",
+  "q_en": "1 foot (for conversion) equals…",
+  "a_en": "≈ 30.5 cm."
+ },
+ {
+  "id": "law-49",
+  "category": "Legislation",
+  "original_id": 49,
+  "q_de": "Flugplätze & Heliports Abstände:",
+  "a_de": "Heliport Radius: 2.5km (violett, Kreis und H) Flugplatz Zivil: 5km (violett, 1 Kreis und Strich) Flugplatz MIL & Zivil: 5km (violett, zwei Kreise und Strich) Flugplatz MIL: 5km (rot, zwei Kreise und Strich). Mindesthöhe beim Überlfiegen 600M - über Bezugspunkt",
+  "q_en": "Distances around airfields and heliports?",
+  "a_en": "• Heliport: 2.5 km radius (violet, circle + H).\n• Civil airfield: 5 km (violet, one circle + line).\n• Joint civil/military: 5 km (violet, two circles + line).\n• Military airfield: 5 km (red, two circles + line).\nMinimum altitude when overflying: 600 m above the reference point."
+ },
+ {
+  "id": "law-50",
+  "category": "Legislation",
+  "original_id": 50,
+  "q_de": "Welcher minimale horizontale Abstand muss zu den Pisten eines für Flugzeuge bestimmten militärischen Flugplatzes ohne Kontrollzone (CTR) und bei Flugplätzen mit CTR, wenn diese inaktiv ist, bis 600 über dem Platz eingehalten werden?",
+  "a_de": "5km, aber nur während militärischen Betriebszeiten",
+  "q_en": "What minimum horizontal distance must you keep from the runways of a military airfield (no CTR, or with CTR but inactive) below 600 m above the field?",
+  "a_en": "5 km — but only during military operating hours."
+ },
+ {
+  "id": "law-51",
+  "category": "Legislation",
+  "original_id": 51,
+  "q_de": "Menschenansammlungen im Freien, Gebäude, öffentliche Strassen und Skipisten, öffentliche Transportanlagen sowie elektrische Freileitungen und andere Kabel…",
+  "a_de": "sind mit einem Abstand zu umfliegen oder überfliegen, der genügend Sicherheit gewährt.",
+  "q_en": "Outdoor crowds, buildings, public roads, ski slopes, public transport infrastructure, overhead power lines and other cables…",
+  "a_en": "…must be flown around or over at a distance that provides sufficient safety."
+ },
+ {
+  "id": "law-52",
+  "category": "Legislation",
+  "original_id": 52,
+  "q_de": "Gemäss Verordnung über Luftfahrzeuge besonderer Kategorie (VLK) muss die Lufttüchtigkeit eines Hängegleiters…",
+  "a_de": "von keiner Instanz geprüft werden - ich als Pilotin bin selbst dafür verantwortlich (regelmässiger Check empfohlen).",
+  "q_en": "According to the VLK ordinance, the airworthiness of a hang-glider/paraglider must…",
+  "a_en": "…not be checked by any official body — I as the pilot am personally responsible. Regular inspections are recommended."
+ },
+ {
+  "id": "law-53",
+  "category": "Legislation",
+  "original_id": 53,
+  "q_de": "Das Schleppen von Hängegleitern mit Winden oder Fahrzeugen",
+  "a_de": "bis 150m erlaubt, danach Bewilligung",
+  "q_en": "Towing hang-gliders/paragliders with winches or vehicles",
+  "a_en": "Permitted up to 150 m AGL; above that requires authorisation."
+ },
+ {
+  "id": "law-54",
+  "category": "Legislation",
+  "original_id": 54,
+  "q_de": "Starts und Landungen auf öffentlichen Gewässern",
+  "a_de": "Bewilligung von kantonalem Schifffahrtamt",
+  "q_en": "Take-offs and landings on public waters?",
+  "a_en": "Authorisation from the cantonal navigation office is required."
+ },
+ {
+  "id": "law-55",
+  "category": "Legislation",
+  "original_id": 55,
+  "q_de": "Ausbildungsflüge dürfen nur unter der unmittelbaren Aufsicht von Personen ausgeführt werden,",
+  "a_de": "gültiger Fluglehrerausweis",
+  "q_en": "Training flights may be conducted only under the direct supervision of persons holding…",
+  "a_en": "…a valid flight-instructor license."
+ },
+ {
+  "id": "law-56",
+  "category": "Legislation",
+  "original_id": 56,
+  "q_de": "Welche Art von Versicherung ist während Hängegleiterflügen gesetzlich vorgeschrieben?",
+  "a_de": "Hängegleiterhaftpflicht (deckt 1Mio.)",
+  "q_en": "Which type of insurance is legally required during hang-glider/paraglider flights?",
+  "a_en": "Free-flight liability insurance (minimum cover CHF 1 million)."
+ },
+ {
+  "id": "law-57",
+  "category": "Legislation",
+  "original_id": 57,
+  "q_de": "Kommerzielle Flüge mit einer Begleitperson ohne fliegerische Vorkenntnisse im Bereich des Hängegleitens",
+  "a_de": "Doppelsitzer 3 Ausweis",
+  "q_en": "Commercial tandem flights with a passenger having no flying background — what license is required?",
+  "a_en": "Tandem license (Doppelsitzer 3 / License A)."
+ },
+ {
+  "id": "law-58",
+  "category": "Legislation",
+  "original_id": 58,
+  "q_de": "Die Abkürzung \"FL\" steht für",
+  "a_de": "Flugfläche",
+  "q_en": "The abbreviation \"FL\" stands for…",
+  "a_en": "Flight Level (Flugfläche)."
+ },
+ {
+  "id": "law-59",
+  "category": "Legislation",
+  "original_id": 59,
+  "q_de": "Wie gross ist der Durchmesser des Zielkreises anlässlich der praktischen Teilprüfung zum Erwerb des Hängegleiterpilotenausweis?",
+  "a_de": "Gleitschirm 30 / Delta 80",
+  "q_en": "What is the diameter of the target circle in the practical exam for the paragliding pilot license?",
+  "a_en": "Paraglider: 30 m. Hang glider (delta): 80 m."
+ },
+ {
+  "id": "law-60",
+  "category": "Legislation",
+  "original_id": 60,
+  "q_de": "Wer kann gesetzliche Bestimmungen über die Benützung des schweizerischen Luftraums erlassen?",
+  "a_de": "Nur Bund",
+  "q_en": "Who can issue legal provisions on the use of Swiss airspace?",
+  "a_en": "Only the Confederation (federal government)."
+ },
+ {
+  "id": "law-61",
+  "category": "Legislation",
+  "original_id": 61,
+  "q_de": "Welche Flugfunkfrequenz ist speziell für die Hängegleiterschulung reserviert?",
+  "a_de": "123.430",
+  "q_en": "Which radio frequency is reserved for hang-gliding training?",
+  "a_en": "123.430 MHz."
+ },
+ {
+  "id": "law-62",
+  "category": "Legislation",
+  "original_id": 62,
+  "q_de": "Welche Flugfunkfrequenz ist speziell für die Funkverbindung zwischen Hängegleitern im Flug reserviert?",
+  "a_de": "130.930",
+  "q_en": "Which radio frequency is reserved for hang-glider/paraglider air-to-air communication?",
+  "a_en": "130.930 MHz."
+ },
+ {
+  "id": "law-63",
+  "category": "Legislation",
+  "original_id": 63,
+  "q_de": "Zur Benützung des Flugfunks auf der Frequenz 130.930 MHz",
+  "a_de": "Keine Ausbildung erforderlich",
+  "q_en": "To use the 130.930 MHz radio frequency…",
+  "a_en": "…no training/certification is required."
+ },
+ {
+  "id": "law-64",
+  "category": "Legislation",
+  "original_id": 64,
+  "q_de": "Wieviel Zeit darf gemäss den Weisungen über die Fähigkeitsprüfung für Hängegleiterpiloten höchstens zwischen theoretischer und praktischer Teilprüfung liegen?",
+  "a_de": "36 Monate",
+  "q_en": "What is the maximum time allowed between the theory and practical parts of the pilot exam?",
+  "a_en": "36 months."
+ },
+ {
+  "id": "law-65",
+  "category": "Legislation",
+  "original_id": 65,
+  "q_de": "Gemäss den Weisungen über die Fähigkeitsprüfung für Hängegleiterpiloten kann eine nichtbestandene theoretische und praktische Teilprüfung frühestens nach einer erneuten Vorbereitungszeit von",
+  "a_de": "12 Tagen wiederholt werden",
+  "q_en": "How long after failing the theory or practical part of the exam may you re-sit it?",
+  "a_en": "At the earliest after 12 days of further preparation."
+ },
+ {
+  "id": "law-66",
+  "category": "Legislation",
+  "original_id": 66,
+  "q_de": "Wo kann ein Prüfungsteilnehmer rekurrieren, wenn er der Meinung ist, dass der Prüfungsentscheid des Sachverständigen nicht weisungskonform zustande gekommen ist?",
+  "a_de": "Bundesverwaltungsgericht",
+  "q_en": "Where can an examinee appeal if they believe the examiner's decision was not in line with the regulations?",
+  "a_en": "The Federal Administrative Court (Bundesverwaltungsgericht)."
+ },
+ {
+  "id": "law-67",
+  "category": "Legislation",
+  "original_id": 67,
+  "q_de": "Hängegleiter fliegen nach welchen Regeln?",
+  "a_de": "ausschliesslich unter VFR (Sichtflug) Richtlinien",
+  "q_en": "Hang-gliders/paragliders fly under which flight rules?",
+  "a_en": "Exclusively under VFR (visual flight rules)."
+ },
+ {
+  "id": "law-68",
+  "category": "Legislation",
+  "original_id": 68,
+  "q_de": "Hängegleiter mit Elektroantrieb dürfen",
+  "a_de": "Nur auf Flugfeldern starten",
+  "q_en": "Hang-gliders/paragliders with electric propulsion may…",
+  "a_en": "…only take off from airfields."
+ },
+ {
+  "id": "law-69",
+  "category": "Legislation",
+  "original_id": 69,
+  "q_de": "Hängegleiter dürfen nur benützt werden, wenn eine Haftpflichtversicherung Schäden deckt,",
+  "a_de": "die Unbeteiligten auf der Erde (nur Boden, nicht Luft) zugefügt werden",
+  "q_en": "Hang-gliders/paragliders may only be used if liability insurance covers damage…",
+  "a_en": "…caused to uninvolved third parties on the ground (ground only — not in the air)."
+ },
+ {
+  "id": "law-70",
+  "category": "Legislation",
+  "original_id": 70,
+  "q_de": "Jeder Hängegleiter muss in der Schweiz wie folgt beschriftet sein:",
+  "a_de": "SHV Kennzeichen (6677X) & Herstellerschild",
+  "q_en": "Every hang-glider/paraglider in Switzerland must be marked with:",
+  "a_en": "The SHV identification number (e.g. 6677X) and the manufacturer's plaque."
+ },
+ {
+  "id": "law-71",
+  "category": "Legislation",
+  "original_id": 71,
+  "q_de": "Innerhalb welcher Frist hat ein Prüfungsteilnehmer das Rekursrecht wahrzunehmen…?",
+  "a_de": "30 Tage",
+  "q_en": "Within what deadline must an examinee file an appeal?",
+  "a_en": "30 days."
+ },
+ {
+  "id": "law-72",
+  "category": "Legislation",
+  "original_id": 72,
+  "q_de": "Sofern keine Waren, aber die erforderlichen Papiere mitgeführt werden, ist es mit einem Hängegleiter…",
+  "a_de": "Laut VLK gestattet (in CH rein und raus - Achtung Rechte / Regeln im Ausland!)",
+  "q_en": "Provided no goods are carried but the necessary documents are, with a hang-glider/paraglider it is…",
+  "a_en": "…permitted under the VLK to cross the Swiss border. Note: laws in other countries may differ — respect them."
+ },
+ {
+  "id": "law-73",
+  "category": "Legislation",
+  "original_id": 73,
+  "q_de": "Durch wen lässt der Bund die direkte Aufsicht über den zivilen Luftverkehr ausüben?",
+  "a_de": "BAZL (Reihenfolge ist: 1. Bund - Gesetze, 2. BAZL - Aufsicht, 3. SHV - Ausführung. Zusätzlich VLK - Gesetzesbestimmungen für Luftfahrzeuge besonderer Kategorien)",
+  "q_en": "Through whom does the Confederation exercise direct supervision of civil aviation?",
+  "a_en": "BAZL (Federal Office of Civil Aviation). Chain: 1. Confederation — makes laws  •  2. BAZL — supervises  •  3. SHV — implements. The VLK adds the legal provisions for special-category aircraft."
+ },
+ {
+  "id": "law-74",
+  "category": "Legislation",
+  "original_id": 74,
+  "q_de": "Unterscheidung Lufträume auf GLDK?",
+  "a_de": "Dunkelblaue Linien stehen für permanente, hellblau und dünnere für temporäre Lufträume.",
+  "q_en": "How are airspaces visually distinguished on the Glider Map?",
+  "a_en": "Dark-blue lines = permanent airspaces. Light-blue / thinner lines = temporary airspaces."
+ },
+ {
+  "id": "law-75",
+  "category": "Legislation",
+  "original_id": 75,
+  "q_de": "Hängegleiter sind mit gut sichtbarem Schild zu versehen mit:",
+  "a_de": "Hersteller, Baumuster, Baujahr, Hersteller Info zu minimaler und maximaler Zuladung.",
+  "q_en": "Hang-gliders/paragliders must carry a clearly visible plaque showing:",
+  "a_en": "Manufacturer, type/model, year of manufacture, manufacturer's information on minimum and maximum load."
+ },
+ {
+  "id": "law-76",
+  "category": "Legislation",
+  "original_id": 76,
+  "q_de": "LSP",
+  "a_de": "Sperrgebiete (in der CH aktuell keine auf der Segelflugkarte",
+  "q_en": "What does LS-P mean?",
+  "a_en": "Prohibited area (Sperrgebiet). Currently none are shown on the Swiss Glider Map."
+ },
+ {
+  "id": "law-77",
+  "category": "Legislation",
+  "original_id": 77,
+  "q_de": "Welche Publikation macht Angaben über die militärischen Flugdienstzeiten?",
+  "a_de": "DABS",
+  "q_en": "Which publication shows military flight-service hours?",
+  "a_en": "The DABS."
+ },
+ {
+  "id": "law-78",
+  "category": "Legislation",
+  "original_id": 78,
+  "q_de": "Eine LS-R for gliders mit dem Zusatz „MA\" ist von März bis zum 31. Oktober",
+  "a_de": "Bei Mil-off aktiv. Bei MIL-ON kann sie auf Anfrage bei der entsprechenden Stelle aktiviert werden",
+  "q_en": "An LS-R for gliders with suffix \"MA\" — what's its activation status March–31 Oct?",
+  "a_en": "Active when MIL-OFF. When MIL-ON, it can be activated on request with the relevant agency."
+ },
+ {
+  "id": "law-79",
+  "category": "Legislation",
+  "original_id": 79,
+  "q_de": "Welche Personengruppe darf selbständig gelegentliche Hängegleiterflüge im schweizerischen Luftraum absolvieren, ohne im Besitz des schweizerischen amtlichen Hängegleiterpilotenausweises zu sein?",
+  "a_de": "Hängegleiterpiloten mit Wohnsitz im Ausland, welche Inhaber eines gleichwärtigen ausländischen Ausweises sind",
+  "q_en": "Which group may occasionally fly hang-gliders/paragliders in Swiss airspace without holding the Swiss license?",
+  "a_en": "Pilots resident abroad who hold an equivalent foreign license (or international IPPI)."
+ },
+ {
+  "id": "law-80",
+  "category": "Legislation",
+  "original_id": 80,
+  "q_de": "Der Inhalt der Prüfungen zum Erwerb von amtlichen Ausweisen",
+  "a_de": "festgelegt vom Bundesamt für Zivilfahrt genehmigten Weisungen des SHV",
+  "q_en": "The content of the exams for official pilot licenses is…",
+  "a_en": "…laid down in the SHV directives, approved by BAZL (Federal Office of Civil Aviation)."
+ },
+ {
+  "id": "law-81",
+  "category": "Legislation",
+  "original_id": 81,
+  "q_de": "Eine AWY",
+  "a_de": "verbindet verschiedene Flughäfen miteinander und hat klar definierte Seiten- und Untergrenzen",
+  "q_en": "An AWY (Airway)…",
+  "a_en": "…connects different airports and has clearly defined lateral and lower limits."
+ },
+ {
+  "id": "law-82",
+  "category": "Legislation",
+  "original_id": 82,
+  "q_de": "Welche Publikation macht Angaben über die militärischen Flugdienstzeiten?",
+  "a_de": "GLDK",
+  "q_en": "Which publication shows the framework for military flight-service hours (alongside DABS)?",
+  "a_en": "The Glider Map (GLDK) lists the standard times; the DABS shows daily activation."
+ },
+ {
+  "id": "law-83",
+  "category": "Legislation",
+  "original_id": 83,
+  "q_de": "5 Punkte Check für praktische Prüfung",
+  "a_de": "1. Gurtzeug & persönliche Ausrüstung: a) Beingurten geschlossen und angezogen, b) Bauch - und Brustgurt geschlossen, Helm geschlossen c) Rettungsschirm check, d) Beschleuniger check, e) Karabiner geschlossen und verriegelt. 2. Tragegurte/Leinen: Tragegurte nicht verdreht, korrekter Verlauf aller Leinen vorgängig gecheckt, mindestens die mittleren A-Leinen liegen frei und spannen sich, freier Verlauf der Bremsleinen. 3. Schirm: Eintrittskante offen. Die Kalotte liegt wunschgemäss. 4. Wind: Stimmen Windrichtung und Windstärke. 5. Start/Luftraum frei: Rundumblick, ob am Boden und in der Luft alles frei ist. Letzte Startabbruchmöglichkeit nochmals in Erinnerung rufen.",
+  "q_en": "The 5-point pre-launch check for the practical exam:",
+  "a_en": "1. Harness & personal gear: leg straps fastened and tight, belly+chest strap closed, helmet closed, reserve checked, speedbar checked, carabiners locked.\n\n2. Risers/lines: risers not twisted, line layout pre-checked, at least the middle A-lines lying free and under tension, brake lines run freely.\n\n3. Wing: leading edge open, canopy laid out as desired.\n\n4. Wind: correct direction and acceptable strength.\n\n5. Take-off / airspace clear: 360° look-around — ground and air clear. Mentally rehearse last possible abort point."
+ },
+ {
+  "id": "eq-1",
+  "category": "Equipment",
+  "original_id": 1,
+  "q_de": "Basics über die verschiedenen Schirme",
+  "a_de": "Schirm A (Schulungsschirm, kompakt und nicht stark gestreckt, Sicherheit Prio - etwas passiert, Pilot lässt los, Schirm stabilisiert sich wieder, Gleitleistung weniger wichtig - 8km weit), B Schirme - haben die meisten Piloten, C und D wird mit Prüfungen festgelegt - Accroschirme, sehr robust für G Kräfte. Speedflyer: Klein und leicht, mit Ski",
+  "q_en": "Basics about the different paraglider classes",
+  "a_en": "• A — school glider: compact, low aspect ratio, safety first. If something happens and the pilot lets go, it self-stabilises. Glide performance secondary (~8 km).\n• B — what most pilots fly.\n• C / D — certified through dedicated tests; includes acro wings, very robust against G-loads.\n• Speedflyer: small and light, used with skis."
+ },
+ {
+  "id": "eq-2",
+  "category": "Equipment",
+  "original_id": 2,
+  "q_de": "Wie werden Schirme geprüft?",
+  "a_de": "Gütesiegel nach EN Norm für Schirme: Geprüft auf - Schockbelastungstest 2x mit Auto auf 8G, Minimum - meist 12-16 G mittlerweile im Angebot, Leinenfestigkeitstest und Knickprüfung = Briefbericht, danach Flugtest - Bremsweg - 0 bis 30/60 Meter. Manöver werden geflogen, Experte und Testpilot bewerten, Manöver wird 5 Mal geflogen. Kann 4 Mal B sein, einmal A - dann A",
+  "q_en": "How are paragliders tested?",
+  "a_en": "EN-standard quality certification: shock-load test (twice, dragged by a car) at minimum 8 G — modern gliders are usually tested at 12–16 G. Line-strength and kink tests are documented in a paper report. Then a flight test: brake travel measured from 0 to 30/60 m. Manoeuvres are flown 5 times each, judged by an expert and a test pilot. If 4 of 5 are B and one is A → the wing is rated A (worst-case rules)."
+ },
+ {
+  "id": "eq-3",
+  "category": "Equipment",
+  "original_id": 3,
+  "q_de": "Material am Schirm?",
+  "a_de": "- Schirme sind aus Nylon - Barrieren im Tuch, Ribstop (damit es nicht reisst) - Gewicht Tuch 49gramm Quadratmeter (Blatt A4 hat 80g), 17gramm sind die Leichten Schirme - Karabiner aus Aluminium oder Stahl, müssen alle 5 Jahre gewechselt werden - Obersegel robuster als Untersegel (wegen Schutz, Sonne / Regen)",
+  "q_en": "What material is a paraglider made of?",
+  "a_en": "• Canopy: nylon, with ripstop barriers to prevent tear propagation.\n• Cloth weight ~49 g/m² (an A4 sheet of paper is 80 g); lightweight wings use 17 g/m².\n• Carabiners: aluminium or steel — must be replaced every 5 years.\n• Upper sail is more robust than the lower sail (sun/rain protection)."
+ },
+ {
+  "id": "eq-4",
+  "category": "Equipment",
+  "original_id": 4,
+  "q_de": "Material der Leinen?",
+  "a_de": "Leine aus Polyester - ist ummantelt als Schutz vor mechanischer Belastung (Stein etc.) und für farbige Trennung vor allem bei Schulschirmen. Macht Leinen jedoch dicker. Gibt auch nicht ummantelte Leinen für weniger Widerstand. Dyneema - ist ein Kunsstoff (Innenteil der Leine). Dehnt bei Belastung - 80% der Belastung A & B Ebene. Bei C & D manchmal schrumpfen. Aramid Leine wird weniger gedehnt, ist bräunlich, knickempfindlich. Meist Mix Dyneema & Aramid für Dehnung im Griff behalten. UV- Belastung ist heikel - deshalb Ummantelung gut. Leinen können schrumpfen oder dehnen über die Jahre",
+  "q_en": "What material are the lines made of?",
+  "a_en": "Outer sheath: polyester — protects against mechanical wear (stones etc.) and allows colour coding (used on school wings). Makes the line thicker; unsheathed lines have lower drag.\n\nCore: Dyneema — stretches under load (A & B classes ~80% load tolerance). Dyneema can sometimes shrink on C/D wings.\n\nAramid lines stretch less, are brownish, and kink-sensitive. Most modern wings use a Dyneema/Aramid mix to balance properties.\n\nUV exposure is critical → the sheath helps. Lines can shrink or stretch over the years."
+ },
+ {
+  "id": "eq-5",
+  "category": "Equipment",
+  "original_id": 5,
+  "q_de": "Material & Infos zu Notschirm?",
+  "a_de": "Notschirm (auch Nylon, dünner gewebt, darf dehnen) - Kreuzkappe (aktuell, pendelstabil), Rundkappe (älter, Pendel) und Dreieck Notschirm ist steuerbar (für Profis). Wenn man Notschirm zieht sinkt man mit 5.5m in der Sekunde = 1.5 - 2.3 m springen (Haben viel Gewicht dabei, mit Ausrüstung). Notschirm Landung: Beine, nicht auf Protektor!",
+  "q_en": "Material & info on reserve parachutes?",
+  "a_en": "Reserves are also nylon — woven thinner, allowed to stretch.\n• Square (cruciform) — current standard, pendulum-stable.\n• Round — older design, prone to pendulum motion.\n• Triangular (steerable) — for experienced users.\n\nAfter deployment you descend at ~5.5 m/s — equivalent to jumping from 1.5–2.3 m (and you carry a lot of weight with all the gear).\n\nLanding under a reserve: land on your legs, NOT on the back protector!"
+ },
+ {
+  "id": "eq-6",
+  "category": "Equipment",
+  "original_id": 6,
+  "q_de": "Infos zu Gurtzeugs:",
+  "a_de": "Gurtzeug: Airbags (füllt mit Luft, aber beim Start kein Schutz), Schaumstoff - schwer aber schon gefüllt, Wendegurtzeug: Wird stark beanstrucht. Gurtzeug zum Aufblasen beim Start. Liegegurtzeug: Aerodynamischer, bequemer, Platz für Elektronik, manövrierunfähiger, kein direkter Blick nach unten. Hike & Fly Gurtzeug ist Leichtgurtzeug ohne Schutz.",
+  "q_en": "Harness information?",
+  "a_en": "• Airbag harness: protector inflates during flight — no protection during launch.\n• Foam protector: always inflated, but heavier.\n• Reversible (convertible) harness: takes a lot of stress; pre-inflate on launch.\n• Reclined (pod) harness: more aerodynamic, comfortable, room for instruments — but less manoeuvrable and no direct view straight down.\n• Hike & Fly harness: ultralight, no protection."
+ },
+ {
+  "id": "eq-7",
+  "category": "Equipment",
+  "original_id": 7,
+  "q_de": "Zusatzinfos zu Material (Leinenverlängerung, Lagerung, Luftdurchlässigkeit, Alterung):",
+  "a_de": "Bei Leinenverlängerung: Wir bei Messverfahren geprüft und dann korrigiert (nachgetrimmt). Wenn man viel G Kräfte fliegt, wird der Schirm schneller alt. UV Strahlung in der Luft nicht vermeidbar, am Boden verpacken und in Schatten stellen. Leinen schrumpfen wenn viel nass - Schirm trocknen lassen wenn nass, trocken wieder verpacken (schlimm nasser Schirm in heissem Auto). Poröser (ohne Beschichtung) mehr Luftdurchlässig = weniger Leistung. Beschichtung schützt auch.",
+  "q_en": "Extra info: line stretch, storage, porosity, ageing",
+  "a_en": "• Line stretch is checked by measurement and corrected (re-trimmed).\n• Flying lots of G-forces ages the wing faster.\n• UV exposure in flight is unavoidable — on the ground, pack the wing and keep it in the shade.\n• Lines shrink when very wet — let the wing dry before packing (a wet wing in a hot car is bad).\n• Porous fabric (uncoated) = more air leakage = less performance. The coating also protects."
+ },
+ {
+  "id": "eq-8",
+  "category": "Equipment",
+  "original_id": 8,
+  "q_de": "Profilnase & Hinterkante",
+  "a_de": "Profilnase vorn. Hinterkante (dort wo Bremsen sind)",
+  "q_en": "Leading edge & trailing edge?",
+  "a_en": "Leading edge = front (Profilnase). Trailing edge = rear, where the brake lines attach (Hinterkante)."
+ },
+ {
+  "id": "eq-9",
+  "category": "Equipment",
+  "original_id": 9,
+  "q_de": "Folgen einer Verkürzung der D-Leinen?",
+  "a_de": "Der Anstellwinkel wird grösser, das Profil und das Flugverhalten werden verändert.",
+  "q_en": "What's the consequence of shortening the D-lines?",
+  "a_en": "Angle of attack increases; profile shape and flight behaviour are altered."
+ },
+ {
+  "id": "eq-10",
+  "category": "Equipment",
+  "original_id": 10,
+  "q_de": "Der Altimeter erhält seine Informationen durch?",
+  "a_de": "atmosphärischen Druck",
+  "q_en": "An altimeter gets its information from…",
+  "a_en": "…atmospheric pressure."
+ },
+ {
+  "id": "eq-11",
+  "category": "Equipment",
+  "original_id": 11,
+  "q_de": "Gurtzeuge mit hohen Aufhängepunkten lassen die Turbulenzen…",
+  "a_de": "weniger spüren, behindern aber beim Starten das Beschleunigen mit Vorlage",
+  "q_en": "Harnesses with high attachment points let turbulence be…",
+  "a_en": "…felt less, but they hamper acceleration during launch when leaning forward."
+ },
+ {
+  "id": "eq-12",
+  "category": "Equipment",
+  "original_id": 12,
+  "q_de": "Das Nähen der Schlaufen an den Leinenenden…",
+  "a_de": "kann vor allem bei Aramidleinen zu einem Festigkeitsverlust von 40% führen",
+  "q_en": "Sewing loops at the line ends…",
+  "a_en": "…can cause up to a 40% loss of strength, especially with aramid lines."
+ },
+ {
+  "id": "eq-13",
+  "category": "Equipment",
+  "original_id": 13,
+  "q_de": "Vorteil bei Leinen geschlauft anstatt genäht?",
+  "a_de": "Einfacher zu warten, ohne grossen Aufwand ersetzt",
+  "q_en": "Advantage of looped (spliced) lines vs. sewn?",
+  "a_en": "Easier to service and replace without much effort."
+ },
+ {
+  "id": "eq-14",
+  "category": "Equipment",
+  "original_id": 14,
+  "q_de": "Was sind Alterserscheinungen beim Tuch?",
+  "a_de": "- Porösität nimmt zu - Strömung reisst bei höherer Geschwindigkeit ab - sackfluganfälliger",
+  "q_en": "Signs of fabric ageing?",
+  "a_en": "• Porosity increases.\n• Airflow separates (stalls) at higher speeds.\n• More prone to parachutal stall (Sackflug)."
+ },
+ {
+  "id": "eq-15",
+  "category": "Equipment",
+  "original_id": 15,
+  "q_de": "Qualität der Beschichtung leidet wenn…",
+  "a_de": "Packen auf Teer oder Betonfläche",
+  "q_en": "The coating quality suffers when…",
+  "a_en": "…you pack the wing on tarmac or concrete."
+ },
+ {
+  "id": "eq-16",
+  "category": "Equipment",
+  "original_id": 16,
+  "q_de": "Welche Anforderungen werden an die Gesamtkonstruktion eines Rettungsschirms gestellt?",
+  "a_de": "Hohe Festigkeit und Elastizität im umschriebenen Rahmen",
+  "q_en": "What overall design requirements apply to a reserve parachute?",
+  "a_en": "High strength and elasticity, within the specified design envelope."
+ },
+ {
+  "id": "eq-17",
+  "category": "Equipment",
+  "original_id": 17,
+  "q_de": "Liegt der Befestigungspunkt der Hauptleine eines Rettungsschirms am Gurtzeug nahe am Körperschwerpunkt so…",
+  "a_de": "…muss der Körper vor der Landung bewusst aufgerichtet werden",
+  "q_en": "If the reserve's main attachment is near the body's centre of gravity, then…",
+  "a_en": "…you must consciously sit up before landing to land on your feet."
+ },
+ {
+  "id": "eq-18",
+  "category": "Equipment",
+  "original_id": 18,
+  "q_de": "Ein Gurtzeug mit stark diagonal verstrebter Aufhängung lässt die Turbulenzen…",
+  "a_de": "weniger spüren, hindert aber am Steuern mittels Gewichtsverlagerung",
+  "q_en": "A harness with heavily diagonal cross-bracing lets turbulence be…",
+  "a_en": "…felt less, but hinders steering through weight-shift."
+ },
+ {
+  "id": "eq-19",
+  "category": "Equipment",
+  "original_id": 19,
+  "q_de": "Zu welchem Zweck werden diagonale V-Rippen / Zellwände in die Gleitschirmkalotte eingebaut?",
+  "a_de": "Dadurch werden Zugkräfte des Obersegels auf weniger Leinen übertragen, um Luftwiderstand klein zu halten",
+  "q_en": "Why are diagonal V-ribs / cell walls built into a paraglider canopy?",
+  "a_en": "They transfer the load of the upper sail to fewer lines — minimising drag."
+ },
+ {
+  "id": "eq-20",
+  "category": "Equipment",
+  "original_id": 20,
+  "q_de": "Wird ein Material mit seinem maximalen Zugfestigkeit belastet, so kann davon ausgegangen werden…",
+  "a_de": "dass das Material nach der Belastung bezüglich Dimension und Zugfestigkeit nicht mehr dem ursprünglichen Zustand entspricht",
+  "q_en": "If a material is loaded to its maximum tensile strength, then…",
+  "a_en": "…afterward its dimensions and tensile strength will no longer match the original state."
+ },
+ {
+  "id": "eq-21",
+  "category": "Equipment",
+  "original_id": 21,
+  "q_de": "Trimmtabs oder Trimmer gestatten es…",
+  "a_de": "die Traggurtlänge und damit das Flugverhalten zu ändern. Ein Gerät mit Trimmern gilt nur als typengeprüft anerkannt, wenn es mit Trimmern homologiert wurde.",
+  "q_en": "Trim tabs/trimmers allow you to…",
+  "a_en": "…change the riser length and therefore the flight behaviour. A wing with trimmers is only considered type-tested if it was homologated WITH the trimmers."
+ },
+ {
+  "id": "eq-22",
+  "category": "Equipment",
+  "original_id": 22,
+  "q_de": "Trimmtabs oder Trimmer variieren in der Regel die Länge des…",
+  "a_de": "hinterstes Tragegurts",
+  "q_en": "Trim tabs/trimmers usually vary the length of the…",
+  "a_en": "…rearmost riser (the back riser)."
+ },
+ {
+  "id": "eq-23",
+  "category": "Equipment",
+  "original_id": 23,
+  "q_de": "Die Länge der Brems- und Steuerleinen sollte so eingestellt sein, dass…",
+  "a_de": "der ganze Geschwindigkeitsbereich des Geräts problemlos erfolgen werden kann",
+  "q_en": "Brake/steering-line length should be set so that…",
+  "a_en": "…the wing's entire speed range can be flown without issues."
+ },
+ {
+  "id": "eq-24",
+  "category": "Equipment",
+  "original_id": 24,
+  "q_de": "Die Belastung der Zellwände ist am grössten im Bereich",
+  "a_de": "der Leinenbefestigungspunkte der vorderen Flügelhälfte",
+  "q_en": "Cell-wall stress is greatest in the area of…",
+  "a_en": "…the line attachment points on the front half of the wing."
+ },
+ {
+  "id": "eq-25",
+  "category": "Equipment",
+  "original_id": 25,
+  "q_de": "Die Anerkennung der Typenprüfung gemäss der EN-Normen sagt etwas über…",
+  "a_de": "Strukturfestigkeit und Flugverhalten eines bestimmten Gleitschirmmodells in Neuzustand",
+  "q_en": "EN-standard type certification tells you about…",
+  "a_en": "…the structural strength and flight behaviour of a specific paraglider model when new."
+ },
+ {
+  "id": "eq-26",
+  "category": "Equipment",
+  "original_id": 26,
+  "q_de": "Durch das beschichten des Gleitschirmtuches wird…",
+  "a_de": "deren Elastizität verringert",
+  "q_en": "Coating the paraglider fabric…",
+  "a_en": "…reduces its elasticity."
+ },
+ {
+  "id": "eq-27",
+  "category": "Equipment",
+  "original_id": 27,
+  "q_de": "Wer bestimmt die Normen für die SHV Typenprüfung?",
+  "a_de": "CEN",
+  "q_en": "Who sets the norms for SHV type certification?",
+  "a_en": "CEN (European Committee for Standardisation)."
+ },
+ {
+  "id": "eq-28",
+  "category": "Equipment",
+  "original_id": 28,
+  "q_de": "Wer legt fest, in welchen Intervallen der Pilot den Gleitschirm vom Hersteller oder seinem Vertreter überprüfen lassen sollte?",
+  "a_de": "Hersteller",
+  "q_en": "Who specifies the inspection intervals for the wing?",
+  "a_en": "The manufacturer."
+ },
+ {
+  "id": "eq-29",
+  "category": "Equipment",
+  "original_id": 29,
+  "q_de": "Das Variometer informiert den Piloten während dem Flug über…",
+  "a_de": "vertikale Geschwindigkeit",
+  "q_en": "The variometer tells the pilot in flight about…",
+  "a_en": "…vertical speed (climb/sink rate)."
+ },
+ {
+  "id": "eq-30",
+  "category": "Equipment",
+  "original_id": 30,
+  "q_de": "Bester Helm gegen Kopfverletzungen",
+  "a_de": "Integralhelm",
+  "q_en": "Best helmet against head injuries?",
+  "a_en": "Full-face (integral) helmet."
+ },
+ {
+  "id": "eq-31",
+  "category": "Equipment",
+  "original_id": 31,
+  "q_de": "Welche der folgenden Faktoren können die Öffnungszeit des Rettungssystems verlängern:",
+  "a_de": "Lange Packintervalle, statische Aufladung, zu lange Verbindungsleine.",
+  "q_en": "Which factors can prolong reserve deployment time?",
+  "a_en": "Long repack intervals, static charge, an overly long connecting line (bridle)."
+ },
+ {
+  "id": "eq-32",
+  "category": "Equipment",
+  "original_id": 32,
+  "q_de": "Die Druckausgleichsöffnungen (Crossports) in den Zellwänden…",
+  "a_de": "ermöglichen das Füllen von Zellen, deren Eintrittsöffnung eingeklappt oder nicht vorhanden ist",
+  "q_en": "Pressure-equalisation openings (crossports) in the cell walls…",
+  "a_en": "…allow cells whose intake is collapsed (or absent) to still inflate from neighbouring cells."
+ },
+ {
+  "id": "eq-33",
+  "category": "Equipment",
+  "original_id": 33,
+  "q_de": "In welchem Fall können Zellwände unten einer auftretenden Belastung leiden?",
+  "a_de": "B-Stall",
+  "q_en": "In which manoeuvre can cell walls suffer downward loads?",
+  "a_en": "B-line stall."
+ },
+ {
+  "id": "eq-34",
+  "category": "Equipment",
+  "original_id": 34,
+  "q_de": "Welche Traggurte werden bei einem stabilen Geradeausflug am wenigsten belastet?",
+  "a_de": "D-Gurte",
+  "q_en": "Which risers are least loaded in stable straight-and-level flight?",
+  "a_en": "The D-risers."
+ },
+ {
+  "id": "eq-35",
+  "category": "Equipment",
+  "original_id": 35,
+  "q_de": "Das Hoch über Mitteleuropa wird allmählich flach. In der Schweiz muss damit gerechnet werden, dass die Anzeige eines am Morgen justierten Altimeters am Nachmittag…",
+  "a_de": "zu hoch ist",
+  "q_en": "The high over central Europe is gradually weakening. In Switzerland, the reading of an altimeter calibrated in the morning will, by afternoon, read…",
+  "a_en": "…too high."
+ },
+ {
+  "id": "eq-36",
+  "category": "Equipment",
+  "original_id": 36,
+  "q_de": "Trimmtabs oder Trimmer werden im Schnellflug gelöst…",
+  "a_de": "damit sich der Anstellwinkel verkleinert und sich das Profil im hinterem Bereich nach oben biegt.",
+  "q_en": "Trimmers are released in fast flight…",
+  "a_en": "…so the angle of attack decreases and the trailing edge of the profile bends upward."
+ },
+ {
+  "id": "eq-37",
+  "category": "Equipment",
+  "original_id": 37,
+  "q_de": "Rettungsschirme sind aus?",
+  "a_de": "Polyamid (Nylon)",
+  "q_en": "Reserves are made of?",
+  "a_en": "Polyamide (nylon)."
+ },
+ {
+  "id": "eq-38",
+  "category": "Equipment",
+  "original_id": 38,
+  "q_de": "Wofür dienen Zellwände und Zellzwischenwände?",
+  "a_de": "Zur gleichmässigen Übertragung der Last von Leinen auf das Obersegel",
+  "q_en": "What is the purpose of cell walls and inter-cell walls?",
+  "a_en": "To evenly distribute the load from the lines onto the upper sail."
+ },
+ {
+  "id": "eq-39",
+  "category": "Equipment",
+  "original_id": 39,
+  "q_de": "Mit welcher Technik können die Leinenenden nicht ummantelter Leinen mit Schlaufen versehen werden, ohne die Festigkeit einer Aramid-Leine merklich in Mitleidenschaft zu ziehen?",
+  "a_de": "Fingertreppen / Spleissen",
+  "q_en": "How can you fit loops to unsheathed aramid line ends without significantly weakening them?",
+  "a_en": "By splicing (\"finger-trapping\" technique)."
+ },
+ {
+  "id": "eq-40",
+  "category": "Equipment",
+  "original_id": 40,
+  "q_de": "Gewebe werden für den Gebrauch im Gleitschirmbereich beschichtet weil…",
+  "a_de": "Porosität und Elastizität zu verringern",
+  "q_en": "Paraglider fabrics are coated because…",
+  "a_en": "…it reduces porosity and elasticity."
+ },
+ {
+  "id": "eq-41",
+  "category": "Equipment",
+  "original_id": 41,
+  "q_de": "Werden Trimmer im stabilen Geradeausflug gelöst, so…",
+  "a_de": "vergrössert sich die Tendenz zum Einklappen und die Steuerwege werden länger",
+  "q_en": "Releasing trimmers in stable straight-and-level flight…",
+  "a_en": "…increases the tendency to collapse, and brake travel becomes longer."
+ },
+ {
+  "id": "eq-42",
+  "category": "Equipment",
+  "original_id": 42,
+  "q_de": "Grundsatz für Platzierung des Rettungssystems…",
+  "a_de": "Auslösegriff muss für Piloten gut sichtbar und leicht erreichbar sein",
+  "q_en": "Principle for reserve-handle placement?",
+  "a_en": "The handle must be clearly visible and easily reachable for the pilot."
+ },
+ {
+  "id": "eq-43",
+  "category": "Equipment",
+  "original_id": 43,
+  "q_de": "Wird der Abstand zwischen den beiden Aufhängepunkten eines Gurtzeugs vermindert so lässt dies die Turbulenzen…",
+  "a_de": "…weniger spüren, aber erhöht die Gefahr des Twistens",
+  "q_en": "Reducing the distance between the two harness attachment points lets turbulence be…",
+  "a_en": "…felt less, but increases the risk of twisting (twister)."
+ },
+ {
+  "id": "eq-44",
+  "category": "Equipment",
+  "original_id": 44,
+  "q_de": "Anemometer misst…",
+  "a_de": "Geschwindigkeit gegenüber Umgebungsluft",
+  "q_en": "An anemometer measures…",
+  "a_en": "…speed relative to the surrounding air."
+ },
+ {
+  "id": "eq-45",
+  "category": "Equipment",
+  "original_id": 45,
+  "q_de": "Welche Flächenbelastung im Gleitschirmbereich an modernen intermediate Schirmen ist (bezogen auf ausgelegte Fläche)… zu tief? normal? am oberen Limit?",
+  "a_de": "zu tief: 2 kg/m2 / normal: 3.5 kg/m2 / am oberen Limit: 4.5 kg/m2",
+  "q_en": "Typical wing loading values for a modern intermediate paraglider (referred to projected area)?",
+  "a_en": "Too low: 2 kg/m²  •  Normal: 3.5 kg/m²  •  Upper limit: 4.5 kg/m²."
+ },
+ {
+  "id": "eq-46",
+  "category": "Equipment",
+  "original_id": 46,
+  "q_de": "A-Leinen verkürzt: / A-Leinen verlängert:",
+  "a_de": "A-Leinen verkürzt: Anstellwinkel verkleinert, fliegt schneller, Flugverhalten und Profil wird verändert, lässt sich leichter aufziehen, Frontklapper Tendenz ja, Sackflug Neigung nimmt ab. A-Leinen verlängert: grösserer Anstellwinkel, langsamer, Schwerer aufzuziehen, Frontklapper Tendenz nein, Neigung zum Sackflug nimmt zu",
+  "q_en": "Effect of shortening / lengthening the A-lines?",
+  "a_en": "A-lines SHORTENED: smaller angle of attack, faster flight, profile and behaviour altered, easier to launch, MORE prone to frontal collapses, LESS prone to parachutal stall.\n\nA-lines LENGTHENED: larger angle of attack, slower, harder to launch, no frontal-collapse tendency, MORE prone to parachutal stall."
+ },
+ {
+  "id": "eq-47",
+  "category": "Equipment",
+  "original_id": 47,
+  "q_de": "D-Leinen verkürzt: / D-Leinen verlängert:",
+  "a_de": "D-Leinen verkürzt: Schwerer aufzuziehen, grösserer Anstellwinkel, langsamer, Frontklapper Tendenz nein, Neigung zum Sackflug nimmt zu. D-Leinen verlängert: leichter aufziehen, kleinerer Anstellwinkel, schneller, Frontklapper Tendenz ja, Sackflug Neigung nimmt ab",
+  "q_en": "Effect of shortening / lengthening the D-lines?",
+  "a_en": "D-lines SHORTENED: harder to launch, larger angle of attack, slower, no frontal tendency, MORE prone to parachutal stall.\n\nD-lines LENGTHENED: easier launch, smaller angle of attack, faster, MORE prone to frontal collapses, LESS prone to parachutal stall."
+ },
+ {
+  "id": "eq-48",
+  "category": "Equipment",
+  "original_id": 48,
+  "q_de": "Wird ein Gerät mässig angebremst geflogen, so können D-Leinen evtl. nicht unter Zug sein und lose durchhängen - was heisst das?",
+  "a_de": "Brems- und Steuerleinen entlasten die D-Leinen was in mässig angebremsten Flug normal sein kann",
+  "q_en": "With moderate brake input, the D-lines may not be under tension and sag — what does that mean?",
+  "a_en": "The brake/control lines are unloading the D-lines, which can be normal in moderately braked flight."
+ },
+ {
+  "id": "eq-49",
+  "category": "Equipment",
+  "original_id": 49,
+  "q_de": "Verkürzung der B-Leinen bei Schulschirm kann…",
+  "a_de": "Anstellwinkel bleibt gleich. Profil und Flugverhalten wird verändert",
+  "q_en": "Shortening the B-lines on a school wing…",
+  "a_en": "Angle of attack stays the same. Profile and flight behaviour are altered."
+ },
+ {
+  "id": "met-1",
+  "category": "Meteorology",
+  "original_id": 1,
+  "q_de": "Windstärke auf Druckkarte interpretieren",
+  "a_de": "Kleiner als die Schweiz = Stark. Grösser als die Schweiz schwach. Gleiche Grösse = Mittelstark",
+  "q_en": "Reading wind strength from a pressure map (isobar spacing)?",
+  "a_en": "Reference scale: Switzerland on the map.\n• Isobar cells smaller than Switzerland → strong wind.\n• Larger than Switzerland → weak wind.\n• Roughly the same size → moderate wind."
+ },
+ {
+  "id": "met-2",
+  "category": "Meteorology",
+  "original_id": 2,
+  "q_de": "Windrichtungen in Grad?",
+  "a_de": "Nordwind/Föhn 360 Grad, Bise 90 Grad, Süd 180 Grad, 270 Westwind",
+  "q_en": "Wind directions in degrees?",
+  "a_en": "North (incl. Nordföhn) = 360°/0°  •  Bise (E) = 90°  •  South (Südföhn) = 180°  •  West = 270°."
+ },
+ {
+  "id": "met-3",
+  "category": "Meteorology",
+  "original_id": 3,
+  "q_de": "Knoten berechnen (Windstärke in seltenen Fällen)? Bsp. 10 Kt.",
+  "a_de": "10 x 2 = 20 - 10% = 18kmh (Verdoppeln dann -10%)",
+  "q_en": "How to convert knots to km/h quickly? E.g. 10 kt.",
+  "a_en": "Double, then subtract 10%. Example: 10 kt × 2 = 20, −10% = 18 km/h."
+ },
+ {
+  "id": "met-4",
+  "category": "Meteorology",
+  "original_id": 4,
+  "q_de": "Was ist ein Venturi Effekt?",
+  "a_de": "Wind wird stärker bei einer Verengung in einem Tal oder wenn der Wind über Bergspitze / Kamm weht.",
+  "q_en": "What is the Venturi effect?",
+  "a_en": "Wind accelerates where its path narrows — e.g. in a narrowing valley, or as it crosses a peak or ridge."
+ },
+ {
+  "id": "met-5",
+  "category": "Meteorology",
+  "original_id": 5,
+  "q_de": "Wie lange und wie schnell: Warmfront?",
+  "a_de": "Warmfront ca. 15-25 km/h. 12h bis 24h bis über gesamte CH. Weniger gefährlich. Kommt als Keil - zuerst oben, dann am Boden. Auf Karte mit Halbkreisen",
+  "q_en": "Warm front — how long and how fast?",
+  "a_en": "Warm front moves at ~15–25 km/h. Takes 12–24 h to cross all of Switzerland. Less dangerous than a cold front. It moves as a wedge — arriving aloft first, then at the surface. On charts: half-circles (semicircles)."
+ },
+ {
+  "id": "met-6",
+  "category": "Meteorology",
+  "original_id": 6,
+  "q_de": "Was sieht man 1h vor Eintreffen einer Warmfront?",
+  "a_de": "Schlechte Sicht, Regen, gleichmässiger Wind, tiefe Wolkenbasis.",
+  "q_en": "What do you see one hour before a warm front arrives?",
+  "a_en": "Poor visibility, rain, steady wind, low cloud base."
+ },
+ {
+  "id": "met-7",
+  "category": "Meteorology",
+  "original_id": 7,
+  "q_de": "Wie lange und wie schnell: Kaltfront?",
+  "a_de": "Kaltfront ca. 40-70kmh. Gefährlicher weil viel schneller. Kann Warmfront einholen = Okklusion (eine Mischfront). braucht 6-12h über die Schweiz. Auf Karte mit Dreieck. Kommt zuerst am Boden, dann in der Höhe",
+  "q_en": "Cold front — how long and how fast?",
+  "a_en": "Cold front moves at ~40–70 km/h — more dangerous because faster. Can catch up to a warm front → occlusion (mixed front). Takes only 6–12 h to cross Switzerland. On charts: triangles. Arrives at the surface first, then aloft."
+ },
+ {
+  "id": "met-8",
+  "category": "Meteorology",
+  "original_id": 8,
+  "q_de": "Okklusion",
+  "a_de": "Wenn Kaltfront die Warmfront einholt und der Strich der auf Skizze an Boden geht dominiert = Okklusion mit Warm- oder Kaltfront Charakter. Auf Karte mit Dreieck und Halbkreisen",
+  "q_en": "Occlusion?",
+  "a_en": "Occurs when a cold front catches up to a warm front. Depending on which surface line dominates, it has either warm-front or cold-front character. On charts: triangles AND half-circles on the same line."
+ },
+ {
+  "id": "met-9",
+  "category": "Meteorology",
+  "original_id": 9,
+  "q_de": "Wolkenübersicht",
+  "a_de": "1: Höhe von xx Cirro = Cirrocumulus oder Cirrostratus / 2: Höhe von xx Alto = Altostratus oder Altocumulus / 3: Höhe von xx = Cumulus oder Stratos (auch Nimbostratos - Gewitterwolke). Cirrus = (Schleierstreifen). Lenticularis = Linsenwolke, viel Wind, bleibend. Cumulus Congestus & Cumulusnimbus = Hagelschlag. Stratus: Schichtung (auch Nebel, geschlossene Decke). Cumulus: Häufchen Wolken (Info zu 8/8 geschlossen, 2/8 Cumulus wenig Wolken, 3-4/8 ideal für Thermikflüge)",
+  "q_en": "Cloud overview — types and altitude levels?",
+  "a_en": "3 altitude levels:\n1. High (\"Cirro-\") — Cirrocumulus, Cirrostratus\n2. Mid (\"Alto-\") — Altostratus, Altocumulus\n3. Low — Cumulus, Stratus (also Nimbostratus → storm clouds)\n\nKey types:\n• Cirrus = wispy streaks\n• Lenticularis = lens-shaped, lots of wind, stationary (lee wave!)\n• Cumulus Congestus / Cumulonimbus = potential hail\n• Stratus = layered (also fog, full overcast)\n• Cumulus = puffy. 8/8 coverage = overcast; 2/8 = sparse; 3–4/8 = ideal for thermal flying."
+ },
+ {
+  "id": "met-10",
+  "category": "Meteorology",
+  "original_id": 10,
+  "q_de": "Warum gibt es Bodeninversion?",
+  "a_de": "Durch die nächtliche Abstrahlung des Bodens bei klarem Himmel.",
+  "q_en": "Why does ground (radiation) inversion form?",
+  "a_en": "Due to nocturnal radiative cooling of the ground under a clear sky."
+ },
+ {
+  "id": "met-11",
+  "category": "Meteorology",
+  "original_id": 11,
+  "q_de": "Inversion",
+  "a_de": "Oben wärmer als unten - z.B. Nebelmeer in den Bergen. Unten kalt und grau, oben warm und sonnig (klassische Höheninversion)",
+  "q_en": "Inversion?",
+  "a_en": "Warmer air above, cooler below — e.g. a sea of fog in the mountains. Cold and grey below, warm and sunny above (classic altitude inversion)."
+ },
+ {
+  "id": "met-12",
+  "category": "Meteorology",
+  "original_id": 12,
+  "q_de": "Isothermie",
+  "a_de": "Wenn Temperatur gleich bleibend auf einer Ebene",
+  "q_en": "Isothermal layer?",
+  "a_en": "A layer in which temperature stays constant with height."
+ },
+ {
+  "id": "met-13",
+  "category": "Meteorology",
+  "original_id": 13,
+  "q_de": "Umkehrthermik",
+  "a_de": "Abends, Hänge kühlen aus, Luftmasse - abkühlende Luft unter Warmluft, schiebt sich nach oben",
+  "q_en": "Reverse thermal (\"Umkehrthermik\")?",
+  "a_en": "In the evening, slopes cool down. Cooled air slides under warmer air and pushes it upward, creating evening lift."
+ },
+ {
+  "id": "met-14",
+  "category": "Meteorology",
+  "original_id": 14,
+  "q_de": "Was bedeutet adiabatisch?",
+  "a_de": "Luftmasse kühlt sich ab, aber nicht mit Austausch der Umgebungsluft, nur durch Ausdehnung",
+  "q_en": "What does \"adiabatic\" mean?",
+  "a_en": "An air mass cools without exchanging heat with its surroundings — only through expansion (and warms through compression)."
+ },
+ {
+  "id": "met-15",
+  "category": "Meteorology",
+  "original_id": 15,
+  "q_de": "Trockenadiabatische Abkühlung",
+  "a_de": "1 Grad pro 100 Meter (Abkühlung)",
+  "q_en": "Dry adiabatic lapse rate?",
+  "a_en": "1 °C cooling per 100 m of ascent."
+ },
+ {
+  "id": "met-16",
+  "category": "Meteorology",
+  "original_id": 16,
+  "q_de": "Feuchtadiabatische Abkühlung",
+  "a_de": "0.6-0.9 Grad pro 100 Meter (sehr feucht eher 0.6 - trocken eher 0.9)",
+  "q_en": "Moist (wet) adiabatic lapse rate?",
+  "a_en": "0.6–0.9 °C per 100 m (closer to 0.6 in very humid air, closer to 0.9 in drier air)."
+ },
+ {
+  "id": "met-17",
+  "category": "Meteorology",
+  "original_id": 17,
+  "q_de": "Höhe Tropopause?",
+  "a_de": "Bei uns 11'000 - sonst bis 13'000m",
+  "q_en": "Altitude of the tropopause?",
+  "a_en": "Over us: about 11,000 m. Globally up to 13,000 m."
+ },
+ {
+  "id": "met-18",
+  "category": "Meteorology",
+  "original_id": 18,
+  "q_de": "Wovon hängt der Temperaturgradient feucht aufsteigender Luft ab?",
+  "a_de": "Von der Menge Wasserdampf, die kondensiert",
+  "q_en": "What determines the lapse rate of moist rising air?",
+  "a_en": "The amount of water vapour that condenses (releasing latent heat)."
+ },
+ {
+  "id": "met-19",
+  "category": "Meteorology",
+  "original_id": 19,
+  "q_de": "Wenn zwei Winde aufeinander treffen ist es eine",
+  "a_de": "scherungsbedingte Turbulenz",
+  "q_en": "When two winds meet head-on, it's…",
+  "a_en": "…shear-induced turbulence (wind-shear turbulence)."
+ },
+ {
+  "id": "met-20",
+  "category": "Meteorology",
+  "original_id": 20,
+  "q_de": "Bei Gebäuden etc. ist es eine",
+  "a_de": "mechanische Turbulenz",
+  "q_en": "Turbulence caused by buildings etc. is…",
+  "a_en": "…mechanical turbulence."
+ },
+ {
+  "id": "met-21",
+  "category": "Meteorology",
+  "original_id": 21,
+  "q_de": "Schwingungen durch Gelände (Berge)",
+  "a_de": "orografische oder Föhnturbulenz",
+  "q_en": "Wave motion caused by terrain (mountains)?",
+  "a_en": "Orographic or Föhn turbulence."
+ },
+ {
+  "id": "met-22",
+  "category": "Meteorology",
+  "original_id": 22,
+  "q_de": "Lufttemperatur Abnahme in Höhe",
+  "a_de": "Pro 100 Meter mit ca. 0.65 Grad (je nach Schichtung)",
+  "q_en": "Decrease of air temperature with altitude (standard)?",
+  "a_en": "About 0.65 °C per 100 m (varies with stratification)."
+ },
+ {
+  "id": "met-23",
+  "category": "Meteorology",
+  "original_id": 23,
+  "q_de": "Isothermie und Inversion sind",
+  "a_de": "Sperrschichten für thermisch aufsteigende Luftmassen",
+  "q_en": "Isothermal layers and inversions are…",
+  "a_en": "…capping layers that block thermally rising air masses."
+ },
+ {
+  "id": "met-24",
+  "category": "Meteorology",
+  "original_id": 24,
+  "q_de": "Sonniges Wetter in höheren Lagen und Nebel in tieferen Lagen sind Anzeichen für…",
+  "a_de": "eine grosse Stabilität der Schichtung im unteren Bereich der Troposphäre",
+  "q_en": "Sunny weather at altitude with fog in the valleys indicates…",
+  "a_en": "…high stability in the lower troposphere."
+ },
+ {
+  "id": "met-25",
+  "category": "Meteorology",
+  "original_id": 25,
+  "q_de": "Eine Luftmasse mit Frontenbildung bezeichnet man als warm wenn die Temperatur…",
+  "a_de": "…höher ist als die der benachbarten Luftmasse",
+  "q_en": "In frontal formation, an air mass is called \"warm\" when its temperature is…",
+  "a_en": "…higher than the adjacent air mass."
+ },
+ {
+  "id": "met-26",
+  "category": "Meteorology",
+  "original_id": 26,
+  "q_de": "Auf gleicher Höhe über Meer ist Luft…",
+  "a_de": "…warme Luft weniger dicht als kalte Luft",
+  "q_en": "At the same altitude AMSL, air is…",
+  "a_en": "…less dense when warm than when cold."
+ },
+ {
+  "id": "met-27",
+  "category": "Meteorology",
+  "original_id": 27,
+  "q_de": "Stabile Schichtungen bedeuten fürs Fliegen…",
+  "a_de": "keine Thermik",
+  "q_en": "What does stable stratification mean for flying?",
+  "a_en": "No thermals."
+ },
+ {
+  "id": "met-28",
+  "category": "Meteorology",
+  "original_id": 28,
+  "q_de": "Was ist ein Outflow?",
+  "a_de": "Quasi ein Abfluss. Outflow Gewitter ist gefährlich: schwere kalte Luft geht runter, sehr starke Turbulenzen (neben Gewitter)",
+  "q_en": "What is an outflow?",
+  "a_en": "Essentially a downdraft/outburst. A thunderstorm outflow is dangerous: heavy cold air rushes down, causing very strong turbulence around the storm."
+ },
+ {
+  "id": "met-29",
+  "category": "Meteorology",
+  "original_id": 29,
+  "q_de": "Wann ist der Talwind stark?",
+  "a_de": "Stark & gefährlich im Frühling (Juni am Stärksten) - Rheintal, Rhonetal, (nur bei Talboden, 500 Meter über Boden heikel - Lösung: Top landen)",
+  "q_en": "When is the valley wind strongest?",
+  "a_en": "Strong and dangerous in spring — peak in June — especially in the Rhine and Rhone valleys. Strongest near the valley floor; gusty up to ~500 m AGL. Solution: top-land instead of bottom-landing."
+ },
+ {
+  "id": "met-30",
+  "category": "Meteorology",
+  "original_id": 30,
+  "q_de": "3 Punkte wenn es heikel ist zum Fliegen?",
+  "a_de": "Föhn, Talwind, Gewitter",
+  "q_en": "3 conditions that are dangerous to fly in?",
+  "a_en": "Föhn, valley wind, thunderstorm."
+ },
+ {
+  "id": "met-31",
+  "category": "Meteorology",
+  "original_id": 31,
+  "q_de": "Was braucht es für Föhn?",
+  "a_de": "grosser Gebirgszug & Druckunterschied",
+  "q_en": "What is needed for a Föhn (foehn) wind?",
+  "a_en": "A large mountain range AND a pressure difference across it."
+ },
+ {
+  "id": "met-32",
+  "category": "Meteorology",
+  "original_id": 32,
+  "q_de": "Für was stehen diese Merkmale? Starker Wind, Luftfeuchtigkeit und braucht Gebirge. Bei Berggipfel oder direkt dahinter (Lee) - ist ein Windalarmzeichen",
+  "a_de": "Lenticularis",
+  "q_en": "What do these signs indicate? Strong wind, humidity, mountains required; appears at or behind (lee of) peaks — a wind warning sign.",
+  "a_en": "Lenticularis (lenticular clouds — lee waves)."
+ },
+ {
+  "id": "met-33",
+  "category": "Meteorology",
+  "original_id": 33,
+  "q_de": "Bei welchen folgenden Wetterlagen ist in den Alpentälern am ehesten mit Südföhn zu rechnen?",
+  "a_de": "Die Schweiz befindet sich im Warmsektor, eine Kaltfront erreicht den Jura",
+  "q_en": "Under which synoptic situation is Südföhn most likely in Alpine valleys?",
+  "a_en": "Switzerland is in the warm sector, and a cold front is approaching the Jura."
+ },
+ {
+  "id": "met-34",
+  "category": "Meteorology",
+  "original_id": 34,
+  "q_de": "Bei welcher Wetterlage ist die Bildung von Bodennebel (Strahlungsnebel) wahrscheinlich?",
+  "a_de": "Klarer Himmel, Windstille, kleine Temperatur-Taupunkt-Differenz",
+  "q_en": "Under what conditions is ground fog (radiation fog) likely to form?",
+  "a_en": "Clear sky, no wind, small temperature–dew-point spread."
+ },
+ {
+  "id": "met-35",
+  "category": "Meteorology",
+  "original_id": 35,
+  "q_de": "Der Begriff Taupunkt steht in der Meteorologie für…",
+  "a_de": "die Temperatur, auf welche sich Luft abkühlen muss, damit der enthaltene Wasserdampf zu kondensieren beginnt",
+  "q_en": "In meteorology, the dew point is…",
+  "a_en": "…the temperature to which air must cool for the water vapour it contains to begin condensing."
+ },
+ {
+  "id": "met-36",
+  "category": "Meteorology",
+  "original_id": 36,
+  "q_de": "Mit welchem Wind muss in den Alpentälern des Tessins gerechnet werden, wenn sich das Azorenhoch gegen Mitteleuropa ausdehnt?",
+  "a_de": "Nordföhn",
+  "q_en": "Which wind appears in Ticino Alpine valleys when the Azores high extends towards central Europe?",
+  "a_en": "Nordföhn (north foehn)."
+ },
+ {
+  "id": "met-37",
+  "category": "Meteorology",
+  "original_id": 37,
+  "q_de": "Welches sind günstige Voraussetzungen für eine Nordföhnlage im Tessin?",
+  "a_de": "Die Schweiz befindet sich auf der Rückseite einer Kaltfront, aus Nordwesten wird mässig feuchte Kaltluft gegen die Alpen geführt.",
+  "q_en": "Favourable conditions for a Nordföhn situation in Ticino?",
+  "a_en": "Switzerland is on the back side of a cold front; moderately humid cold air is pushed from the northwest against the Alps."
+ },
+ {
+  "id": "met-38",
+  "category": "Meteorology",
+  "original_id": 38,
+  "q_de": "Der Talwind nimmt mit abnehmender Höhe…",
+  "a_de": "zu. (500 Meter am stärksten).",
+  "q_en": "Valley wind with decreasing altitude…",
+  "a_en": "…increases (strongest around 500 m above the valley floor)."
+ },
+ {
+  "id": "met-39",
+  "category": "Meteorology",
+  "original_id": 39,
+  "q_de": "Wie verändert sich die Temperatur eines Luftpakets, welches sich vom Boden ablöst und in die Höhe steigt ohne eine Wolke zu bilden?",
+  "a_de": "Die Temperatur nimmt pro 100hm 1 Grad ab, da der Druck mit zunehmender Höhe nachlässt.",
+  "q_en": "How does the temperature of an air parcel change as it rises from the ground without forming a cloud?",
+  "a_en": "It cools by 1 °C per 100 m (dry adiabatic), because pressure decreases with altitude."
+ },
+ {
+  "id": "met-40",
+  "category": "Meteorology",
+  "original_id": 40,
+  "q_de": "Die Bodenwinde wehen über dem Flachland…",
+  "a_de": "ungefähr parallel zu den Isobaren vom Hochdruck ind Tiefdruckzentrum.",
+  "q_en": "Surface winds over flat terrain blow…",
+  "a_en": "…approximately parallel to the isobars, from high pressure toward low pressure."
+ },
+ {
+  "id": "met-41",
+  "category": "Meteorology",
+  "original_id": 41,
+  "q_de": "Altocumulus Castellanus-Wolken zwei Stunden nach Sonnenaufgang sind ein Zeichen für…",
+  "a_de": "eine instabile Schichtung auf Höhe der Wolken",
+  "q_en": "Altocumulus castellanus clouds two hours after sunrise signal…",
+  "a_en": "…unstable stratification at cloud level — often a precursor to thunderstorms later in the day."
+ },
+ {
+  "id": "met-42",
+  "category": "Meteorology",
+  "original_id": 42,
+  "q_de": "Im Hochdruckgebiet bei uns…",
+  "a_de": "drehen sich die Luftmassen im Uhrzeigersinn um dessen Zentrum und sinken grossräumig ab",
+  "q_en": "In a high-pressure region in our hemisphere…",
+  "a_en": "…air masses rotate clockwise around its centre and sink (subsidence) over a wide area."
+ },
+ {
+  "id": "met-43",
+  "category": "Meteorology",
+  "original_id": 43,
+  "q_de": "Welche Veränderung des Aggregatszustandes eines Stoffes setzt Energie in Form von Wärme frei?",
+  "a_de": "Übergang von flüssigem in festen Zustand.",
+  "q_en": "Which phase change releases energy as heat?",
+  "a_en": "Transition from liquid to solid (freezing)."
+ },
+ {
+  "id": "met-44",
+  "category": "Meteorology",
+  "original_id": 44,
+  "q_de": "Wo findet sich typischerweise eine Inversion?",
+  "a_de": "An der Grenze zwischen dunstiger Bodenluft und klarer Höhenluft.",
+  "q_en": "Where is an inversion typically found?",
+  "a_en": "At the boundary between hazy surface air and clear air aloft."
+ },
+ {
+  "id": "met-45",
+  "category": "Meteorology",
+  "original_id": 45,
+  "q_de": "Warum verändert sich die Temperatur eines aufsteigenden Luftpaketes?",
+  "a_de": "Weil der Druck in der Atmosphäre in zunehmender Höhe sinkt, dehnt sich das Luftpaket aus, wodurch die Luft Energie in Form von Wärme verliert",
+  "q_en": "Why does the temperature of a rising air parcel change?",
+  "a_en": "Because atmospheric pressure decreases with altitude, the parcel expands and loses energy in the form of heat."
+ },
+ {
+  "id": "met-46",
+  "category": "Meteorology",
+  "original_id": 46,
+  "q_de": "Wolken entstehen…",
+  "a_de": "wenn die Luft, meist durch Hebung, bis zum Erreichen des Taupunktes abgekühlt wird",
+  "q_en": "Clouds form when…",
+  "a_en": "…air (usually being lifted) cools down to its dew point."
+ },
+ {
+  "id": "met-47",
+  "category": "Meteorology",
+  "original_id": 47,
+  "q_de": "Hat die Tageszeit einen Einfluss auf das Entstehen von Frontgewittern?",
+  "a_de": "Nein",
+  "q_en": "Does time of day affect the formation of frontal thunderstorms?",
+  "a_en": "No (unlike heat thunderstorms, which need solar heating)."
+ },
+ {
+  "id": "met-48",
+  "category": "Meteorology",
+  "original_id": 48,
+  "q_de": "Zu welcher Tageszeit muss in Alpentälern mit einem ausgeprägten Talwindsystem im Juli bei schönem Wetter in der Regel mit thermischen, weniger aber mit mechanischen oder scherungsbedingten Turbulenzen gerechnet werden?",
+  "a_de": "Ca. 11.00 Uhr",
+  "q_en": "At what time of day in July, in Alpine valleys with strong valley winds and fair weather, do you mainly encounter thermal turbulence (not mechanical or shear)?",
+  "a_en": "Around 11:00."
+ },
+ {
+  "id": "met-49",
+  "category": "Meteorology",
+  "original_id": 49,
+  "q_de": "Wodurch wird eine Bodeninversion zum Verschwinden gebracht?",
+  "a_de": "Durch die Erwärmung der bodennahen Luftschichten im Verlaufe des Tages",
+  "q_en": "What dissolves a ground inversion?",
+  "a_en": "Solar heating of the near-ground air layers during the course of the day."
+ },
+ {
+  "id": "met-50",
+  "category": "Meteorology",
+  "original_id": 50,
+  "q_de": "Der Begriff thermische Turbulenz bedeutet",
+  "a_de": "Wenn sich Warmluftblasen vom Boden ablösen und aufsteigen",
+  "q_en": "What does \"thermal turbulence\" mean?",
+  "a_en": "Warm-air bubbles detach from the ground and rise."
+ },
+ {
+  "id": "met-51",
+  "category": "Meteorology",
+  "original_id": 51,
+  "q_de": "Ein Ballon von Volumen 5dm3 steigt ab Meereshöhe auf 5'500 Meter. Welches Volumen hat der Ballon auf 5'500?",
+  "a_de": "10dm3 (Volumen dehnt sich in Höhe aus - Druck halbiert sich)",
+  "q_en": "A balloon of 5 dm³ rises from sea level to 5500 m. What's its volume at 5500 m?",
+  "a_en": "≈ 10 dm³ — the volume doubles because pressure halves at ~5500 m."
+ },
+ {
+  "id": "met-52",
+  "category": "Meteorology",
+  "original_id": 52,
+  "q_de": "Der atmosphärische Druck ist auf Meereshöhe nicht immer gleich…",
+  "a_de": "weil auf der Erdoberfläche Temperaturschwankungen auftreten, welche eine Erwärmung ODER Abkühlung der Luft und damit eine unterschiedliche Luftdichte verursachen",
+  "q_en": "Atmospheric pressure at sea level is not always the same because…",
+  "a_en": "…surface temperature variations cause the air to warm or cool, resulting in different air densities."
+ },
+ {
+  "id": "met-53",
+  "category": "Meteorology",
+  "original_id": 53,
+  "q_de": "Was brauchts für Föhnlage in Alpentälern?",
+  "a_de": "Grosses Druckgefälle zwischen Alpensüd und Nordseite",
+  "q_en": "What's required for a Föhn situation in Alpine valleys?",
+  "a_en": "A large pressure gradient between the south and north sides of the Alps."
+ },
+ {
+  "id": "met-54",
+  "category": "Meteorology",
+  "original_id": 54,
+  "q_de": "Lenticularis können entstehen wenn…",
+  "a_de": "… Luftmassen mit einer gewissen Geschwindigkeit über das Relief strömen",
+  "q_en": "Lenticularis clouds can form when…",
+  "a_en": "…air masses flow over terrain at a certain speed (creating standing lee waves)."
+ },
+ {
+  "id": "met-55",
+  "category": "Meteorology",
+  "original_id": 55,
+  "q_de": "Weshalb kühlt sich feucht aufsteigende Luft weniger schnell ab als trockene?",
+  "a_de": "Weil durch die Kondensation freigesetzte Wärme die Temperatur der Luftmasse beeinflusst.",
+  "q_en": "Why does moist rising air cool more slowly than dry air?",
+  "a_en": "Because the latent heat released by condensation slows the temperature drop of the air mass."
+ },
+ {
+  "id": "met-56",
+  "category": "Meteorology",
+  "original_id": 56,
+  "q_de": "Zeichen aus der Ferne, dass Cumulus Congestus oder Cumulus Nimbus Niederschläge verursacht?",
+  "a_de": "Von der Wolkenbasis zieht sich ein grauer Vorhang Richtung Erdoberfläche.",
+  "q_en": "Sign from a distance that a Cumulus Congestus or Cumulonimbus is producing precipitation?",
+  "a_en": "A grey curtain (\"virga\" or rain shaft) reaches from the cloud base down toward the ground."
+ },
+ {
+  "id": "met-57",
+  "category": "Meteorology",
+  "original_id": 57,
+  "q_de": "Sonniges Wetter in den höheren Lagen und gleichzeitig in tieferen Lagen ist ein Anzeichen für…",
+  "a_de": "… eine stabile Schichtung im unteren Bereich der Troposphäre.",
+  "q_en": "Simultaneous sunny weather at altitude AND in the valleys signals…",
+  "a_en": "…a stable layer in the lower troposphere."
+ },
+ {
+  "id": "met-58",
+  "category": "Meteorology",
+  "original_id": 58,
+  "q_de": "Luftdruck ist eine Folge der…",
+  "a_de": "Schwerkraft",
+  "q_en": "Air pressure is a result of…",
+  "a_en": "…gravity."
+ },
+ {
+  "id": "met-59",
+  "category": "Meteorology",
+  "original_id": 59,
+  "q_de": "Was versteht man in der Meteorologie unter Luftmasse?",
+  "a_de": "Ein Luftvolumen mit einheitlichen Merkmalen",
+  "q_en": "What is an \"air mass\" in meteorology?",
+  "a_en": "A body of air with uniform properties (temperature and humidity)."
+ },
+ {
+  "id": "met-60",
+  "category": "Meteorology",
+  "original_id": 60,
+  "q_de": "Ein Talwind entsteht weil sich die Luft…",
+  "a_de": "tagsüber im Gebirge schneller erwärmt als im Flachland",
+  "q_en": "A valley wind develops because air…",
+  "a_en": "…heats up faster in the mountains than over the flat lowlands during the day."
+ },
+ {
+  "id": "met-61",
+  "category": "Meteorology",
+  "original_id": 61,
+  "q_de": "Mit Blau-Thermik ist zu rechnen wenn…",
+  "a_de": "die Temperatur-Taupunkt-Differenz der aufsteigenden Luftmasse so gross ist, dass der Taupunkt nicht erreicht wird",
+  "q_en": "\"Blue thermals\" (no cumulus marker) occur when…",
+  "a_en": "…the temperature–dew point spread of the rising air mass is so large that the dew point is never reached."
+ },
+ {
+  "id": "met-62",
+  "category": "Meteorology",
+  "original_id": 62,
+  "q_de": "Bei Talwind gibt es im Sommer in den Alpentälern am meisten Turbulenzen um folgende Zeit:",
+  "a_de": "15.00 Uhr",
+  "q_en": "In summer Alpine valleys with valley winds, turbulence peaks around…",
+  "a_en": "15:00."
+ },
+ {
+  "id": "met-63",
+  "category": "Meteorology",
+  "original_id": 63,
+  "q_de": "Welches sind die besten Voraussetzungen für das Entstehen von thermischen Aufwinden über Land?",
+  "a_de": "Windgeschützt und trocken",
+  "q_en": "What are the best conditions for thermals to form over land?",
+  "a_en": "Sheltered from wind, and dry ground."
+ },
+ {
+  "id": "met-64",
+  "category": "Meteorology",
+  "original_id": 64,
+  "q_de": "Die Quellwolkenbasis ist die…",
+  "a_de": "Wolkenuntergrenze und befindet sich auf Höhe, bei der die Temperatur aufsteigender Luft ihren Taupunkt erreicht",
+  "q_en": "The cumulus cloud base is…",
+  "a_en": "…the lower edge of the cloud — at the altitude where rising air cools to its dew point."
+ },
+ {
+  "id": "met-65",
+  "category": "Meteorology",
+  "original_id": 65,
+  "q_de": "Welche Anzeichen deuten auf der Alpennordseite auf Südföhn hin?",
+  "a_de": "Die Berge am Horizont sind mit Wolken verhangen, im blauen Teil des Himmels Cumulus und Lenticularis, in bodennähe Wind aus wechselnder Richtungen, auffrischender Südwestwind am Startplatz",
+  "q_en": "What signs of Südföhn appear on the north side of the Alps?",
+  "a_en": "• Distant mountains covered in cloud.\n• Cumulus and lenticularis clouds against the blue sky.\n• Variable surface winds near the ground.\n• A freshening southwest wind at the launch site."
+ },
+ {
+  "id": "met-66",
+  "category": "Meteorology",
+  "original_id": 66,
+  "q_de": "Der Temperaturgradient einer Isothermie beträgt",
+  "a_de": "0 Grad auf 100m (weil gleichbleibend)",
+  "q_en": "The lapse rate of an isothermal layer is…",
+  "a_en": "0 °C per 100 m (constant temperature)."
+ },
+ {
+  "id": "met-67",
+  "category": "Meteorology",
+  "original_id": 67,
+  "q_de": "Welche Wetterlage begünstigt das Entstehen in grosser Höhe reichender thermischer Aufwinde im Alpenraum stark?",
+  "a_de": "Ein flaches Hoch mit Zentrum über dem Alpenraum",
+  "q_en": "Which weather situation strongly favours high-reaching thermals over the Alps?",
+  "a_en": "A weak (flat) high with its centre over the Alps."
+ },
+ {
+  "id": "met-68",
+  "category": "Meteorology",
+  "original_id": 68,
+  "q_de": "Welche Veränderung des Aggregatszustandes eines Stoffes benötigt Energie in Form von Wärme?",
+  "a_de": "von flüssigem in gasförmigen Zustand",
+  "q_en": "Which phase change consumes energy (heat)?",
+  "a_en": "Liquid → gas (evaporation/vaporisation)."
+ },
+ {
+  "id": "met-69",
+  "category": "Meteorology",
+  "original_id": 69,
+  "q_de": "Wie erwärmt sich die Luft 100 M über Grund während des Tages hauptsächlich?",
+  "a_de": "Die bodennahe Luftschicht erwärmt sich und steigt auf, während kühle Höhenluft auf den Boden sinkt, wo sie aufgeheizt wird",
+  "q_en": "How does the air 100 m above ground mainly warm up during the day?",
+  "a_en": "The near-ground layer heats up and rises, while cooler air aloft sinks to the surface where it is then heated — a convective exchange."
+ },
+ {
+  "id": "met-70",
+  "category": "Meteorology",
+  "original_id": 70,
+  "q_de": "In welchem Monat reichen in den Alpen die thermisch bedingten Aufwinde am höchsten hinauf?",
+  "a_de": "August",
+  "q_en": "In which month do thermals in the Alps reach the highest altitudes?",
+  "a_en": "August."
+ },
+ {
+  "id": "met-71",
+  "category": "Meteorology",
+  "original_id": 71,
+  "q_de": "Welche Veränderung des Aggregatzustandes setzt Energie in Form von Wärme frei?",
+  "a_de": "Gasförmig zu flüssig.",
+  "q_en": "Which phase change releases energy as heat?",
+  "a_en": "Gas → liquid (condensation)."
+ },
+ {
+  "id": "met-72",
+  "category": "Meteorology",
+  "original_id": 72,
+  "q_de": "Welche Veränderung des Aggregatzustandes benötigt Energie in Form von Wärme?",
+  "a_de": "fest in flüssig",
+  "q_en": "Which phase change consumes energy?",
+  "a_en": "Solid → liquid (melting)."
+ },
+ {
+  "id": "met-73",
+  "category": "Meteorology",
+  "original_id": 73,
+  "q_de": "Warmfront =",
+  "a_de": "Niederschläge enden mit Front",
+  "q_en": "Warm front =",
+  "a_en": "Precipitation ENDS with the passage of the front."
+ },
+ {
+  "id": "met-74",
+  "category": "Meteorology",
+  "original_id": 74,
+  "q_de": "Kaltfront =",
+  "a_de": "Niederschläge beginnen mit Front",
+  "q_en": "Cold front =",
+  "a_en": "Precipitation BEGINS with the passage of the front."
+ },
+ {
+  "id": "met-75",
+  "category": "Meteorology",
+  "original_id": 75,
+  "q_de": "Kalte Luft =",
+  "a_de": "sinkt an Boden (weil schwerer) = höherer Druck",
+  "q_en": "Cold air =",
+  "a_en": "Sinks to the ground (because heavier) → higher pressure."
+ },
+ {
+  "id": "met-76",
+  "category": "Meteorology",
+  "original_id": 76,
+  "q_de": "Warme Luft =",
+  "a_de": "steigt auf (weil leichter) = weniger Druck",
+  "q_en": "Warm air =",
+  "a_en": "Rises (because lighter) → lower pressure."
+ },
+ {
+  "id": "met-77",
+  "category": "Meteorology",
+  "original_id": 77,
+  "q_de": "LUV =",
+  "a_de": "windzugewandt",
+  "q_en": "Luv =",
+  "a_en": "Windward (facing into the wind)."
+ },
+ {
+  "id": "met-78",
+  "category": "Meteorology",
+  "original_id": 78,
+  "q_de": "LEE =",
+  "a_de": "windabgewandt",
+  "q_en": "Lee =",
+  "a_en": "Leeward (sheltered side, downwind of an obstacle)."
+ },
+ {
+  "id": "prc-1",
+  "category": "Flight Practice",
+  "original_id": 1,
+  "q_de": "Strecke anhand von Gleitzahl berechnen?",
+  "a_de": "Gleitzahl 9 - Höhenmeter 1000 heisst komme 9km weit.",
+  "q_en": "How to calculate range from glide ratio?",
+  "a_en": "Glide ratio × altitude = distance. Example: glide ratio 9, altitude 1000 m → you can travel ≈ 9 km."
+ },
+ {
+  "id": "prc-2",
+  "category": "Flight Practice",
+  "original_id": 2,
+  "q_de": "Ein Gleitschirmpilot befindet sich auf dem Flug zum Landeplatz, der genau südlich seiner Position liegt. Er bemerkt, dass ein mässiger Westwind von 25 km/h weht. Wie soll er sich verhalten, um möglichst hoch über dem Landeplatz anzukommen?",
+  "a_de": "Gerät in Richtung Südwesten orientieren und so schnell als möglich fliegen.",
+  "q_en": "You're flying south to your landing field. You notice a moderate west wind of 25 km/h. How do you arrive highest above the landing?",
+  "a_en": "Aim southwest (crab into the wind) and fly as fast as possible."
+ },
+ {
+  "id": "prc-3",
+  "category": "Flight Practice",
+  "original_id": 3,
+  "q_de": "Im Startgelände weht ein konstanter Aufwind von 15 km/h. Womit ist bezüglich Startstrecke und -geschwindigkeit zu rechnen?",
+  "a_de": "Startstrecke kurz, Laufgeschwindigkeit niedrig.",
+  "q_en": "A steady 15 km/h headwind on takeoff. What can you expect for launch run and speed?",
+  "a_en": "Short launch run, low running speed."
+ },
+ {
+  "id": "prc-4",
+  "category": "Flight Practice",
+  "original_id": 4,
+  "q_de": "Ein Pilot durchfliegt eine turbulente Zone, wobei der Gleitschirm um Quer- und Längsachse leicht zu pendeln beginnt. Welches ist die richtige Reaktion?",
+  "a_de": "Locker im Gurtzeug sitzen, leicht anbremsen, Pendeln nicht ausgleichen wollen",
+  "q_en": "You enter turbulence and the glider starts to swing slightly around the pitch and roll axes. Correct reaction?",
+  "a_en": "Sit relaxed in the harness, apply light brake, do NOT try to actively counteract the oscillations."
+ },
+ {
+  "id": "prc-5",
+  "category": "Flight Practice",
+  "original_id": 5,
+  "q_de": "Zürich-Kloten meldet einen QNH von 1'015. Was bedeutet diese Angabe?",
+  "a_de": "ICAO-Standartatmosphäre berechneter Druck auf Meereshöhe ist 1015 hPa.",
+  "q_en": "Zurich-Kloten reports QNH 1015. What does this mean?",
+  "a_en": "The pressure reduced to sea level (using ICAO standard atmosphere) is 1015 hPa. Setting an altimeter to this QNH will read sea-level zero."
+ },
+ {
+  "id": "prc-6",
+  "category": "Flight Practice",
+  "original_id": 6,
+  "q_de": "Der Begriff \"Vrille\" steht für",
+  "a_de": "schnelles Drehen des Gerätes um die Hochachse, wobei eine Flügelachse vorwärts dreht und die andere rückwärts.",
+  "q_en": "What does \"Vrille\" (spin / negative spin) mean?",
+  "a_en": "Rapid rotation around the vertical axis: one wing half moves forward while the other moves backward (one side has stalled flow)."
+ },
+ {
+  "id": "prc-7",
+  "category": "Flight Practice",
+  "original_id": 7,
+  "q_de": "Unmittelbar nach dem Start stellt ein Gleitschirmpilot fest, dass er das Gerät rechts stark anbremsen muss, damit es geradeaus fliegt. Welches könnte die Ursache sein?",
+  "a_de": "Knoten zwischen Leinen links",
+  "q_en": "Just after launch you must brake hard right to fly straight. Probable cause?",
+  "a_en": "A knot in the lines on the LEFT side (it shortens the left side, so the glider tries to turn right — you compensate with right brake)."
+ },
+ {
+  "id": "prc-8",
+  "category": "Flight Practice",
+  "original_id": 8,
+  "q_de": "Unmittelbar nach dem Start stellt ein Gleitschirmpilot fest, dass er das Gerät rechts stark anbremsen muss, damit es geradeaus fliegt und entdeckt links einen Knoten zwischen den D-Leinen und Bremsleinen. Welches sind die Folgen für den Weiterflug?",
+  "a_de": "Sackfluganfälligkeit gross, bei Rechtsdrehung evtl. Strömungsabriss",
+  "q_en": "You have a knot between the D-lines and the brake lines on the left side. Consequences for continued flight?",
+  "a_en": "Higher risk of parachutal stall, and a right turn may cause flow separation/stall on the affected side."
+ },
+ {
+  "id": "prc-9",
+  "category": "Flight Practice",
+  "original_id": 9,
+  "q_de": "Aus welcher Position ergibt sich während des Flugs die grösste Kollisionsgefahr zwischen einem Delta und einem Gleitschirm, weil keiner der beiden Piloten den anderen sieht?",
+  "a_de": "Delta nähert sich Gleitschirm von hinten / unten",
+  "q_en": "From which position is the collision risk between a hang glider (delta) and a paraglider greatest, with neither pilot seeing the other?",
+  "a_en": "The delta approaches the paraglider from BEHIND and BELOW (paraglider can't see down/back; delta has limited upward visibility)."
+ },
+ {
+  "id": "prc-10",
+  "category": "Flight Practice",
+  "original_id": 10,
+  "q_de": "Ein am Gleitschirm-Landeplatz ca. 6 x 6 Meter grosses rotes Tuch das über beide Diagonalen ein gelbes Kreuz aufweist bedeutet:",
+  "a_de": "Landeverbot für Luftfahrzeuge - anderen Landeplatz suchen.",
+  "q_en": "At the landing field, a ~6×6 m red cloth with a yellow X across both diagonals means…",
+  "a_en": "…landing is FORBIDDEN. Find another landing site."
+ },
+ {
+  "id": "prc-11",
+  "category": "Flight Practice",
+  "original_id": 11,
+  "q_de": "Welche Konsequenzen kann es haben, wenn ein Gleitschirm im Kurvenflug zu stark angebremst wird?",
+  "a_de": "Strömung reisst einseitig ab, Gerät dreht über abgerissene Seite weg und beginnt zu trudeln",
+  "q_en": "What can happen if you over-brake the paraglider in a turn?",
+  "a_en": "Flow separates on the inside wing; the glider drops over the stalled side and enters a spin (Vrille)."
+ },
+ {
+  "id": "prc-12",
+  "category": "Flight Practice",
+  "original_id": 12,
+  "q_de": "Ein Pilot erreicht unmittelbar vor zwei weiteren mit einem horizontalen Abstand von 50 m fliegenden Hängegleitern den Landeplatz. Es herrscht Windstille, der Anflug ist auf allen Seiten hindernisfrei und es bestehen keine Abmachungen bezüglich Voltendrehrichtung. Wie muss der Landeplatz angeflogen werden?",
+  "a_de": "Der zuerst Landende kann die Landerichtung frei wählen, muss aber Linksvolte fliegen",
+  "q_en": "You reach the landing field just before two other gliders flying 50 m apart. No wind, no obstacles, no local rule on circuit direction. How do you approach?",
+  "a_en": "The first to land chooses the direction freely BUT must fly a LEFT-hand circuit."
+ },
+ {
+  "id": "prc-13",
+  "category": "Flight Practice",
+  "original_id": 13,
+  "q_de": "Welche Konsequenzen kann es haben, wenn an einem Gleitschirm zum Beschleunigen nur die A-Traggurten gezogen werden?",
+  "a_de": "Gerät klappt frontal ein, Flügelende überholen Schirmmitte, Gerät klappt zusammen",
+  "q_en": "What happens if you accelerate by pulling ONLY the A-risers down?",
+  "a_en": "Frontal collapse: the wingtips overshoot the middle of the canopy and the glider folds up."
+ },
+ {
+  "id": "prc-14",
+  "category": "Flight Practice",
+  "original_id": 14,
+  "q_de": "Fliegt ein Hängegleiter mit 32 km/h in einer Luftmasse mit einer Temperatur von 2°C, so ist unter diesen Bedingungen die kühlende Wirkung des Windes auf den Körper gleich gross wie bei ruhiger Luft mit einer Temperatur von",
+  "a_de": "-11 Grad",
+  "q_en": "At 32 km/h in 2 °C air, the wind-chill on the body equals still air at…",
+  "a_en": "−11 °C."
+ },
+ {
+  "id": "prc-15",
+  "category": "Flight Practice",
+  "original_id": 15,
+  "q_de": "Ein Hängegleiterpilot trifft auf eine aufsteigende Luftmasse und versucht darin zu kreisen. Nach 90° zeigt das Vario Sinken. Welches ist das beste Manöver?",
+  "a_de": "Nach Drehung von 180°, kurzer Geradeausflug, da sich aufsteigende Luftmasse nun vor Pilot befinden muss, dann neues zentrieren",
+  "q_en": "You hit lift, start to circle. After 90° the vario shows sink. Best manoeuvre?",
+  "a_en": "Complete a 180° turn, then fly straight briefly — the lift should now be ahead of you. Then re-centre the thermal."
+ },
+ {
+  "id": "prc-16",
+  "category": "Flight Practice",
+  "original_id": 16,
+  "q_de": "Die Grösse des Vorhaltewinkels hängt ab von",
+  "a_de": "Fluggeschwindigkeit, Windstärke, Windrichtung",
+  "q_en": "The crab angle (Vorhaltewinkel) depends on…",
+  "a_en": "…airspeed, wind strength, and wind direction."
+ },
+ {
+  "id": "prc-17",
+  "category": "Flight Practice",
+  "original_id": 17,
+  "q_de": "In einem Tal bei einem Talwind von 25 km/h muss aus der Luft ein geeigneter Landeplatz ausgewählt werden. Welche der folgenden Anforderungen an den Landeplatz ist die wichtigste, um eine sichere Landung zu gewährleisten?",
+  "a_de": "Luvseitiges Gelände muss eben sein, frei von Bäumen und Gebäuden",
+  "q_en": "Choosing a landing field from the air in a 25 km/h valley wind. Most important requirement for a safe landing?",
+  "a_en": "The terrain on the windward (upwind) side must be flat and free of trees and buildings."
+ },
+ {
+  "id": "prc-18",
+  "category": "Flight Practice",
+  "original_id": 18,
+  "q_de": "Welche Konsequenzen kann es haben, wenn ein Gleitschirm über 50% seitlich einklappt und der Pilot das Gerät völlig ungebremst weiterfliegen lässt?",
+  "a_de": "immer steiler werdende Spirale",
+  "q_en": "Consequence of a >50% asymmetric collapse if the pilot does nothing (no brake input)?",
+  "a_en": "An ever-steepening spiral dive."
+ },
+ {
+  "id": "prc-19",
+  "category": "Flight Practice",
+  "original_id": 19,
+  "q_de": "Unmittelbar nach dem Start entdeckt ein Gleitschirmpilot auf der linken Flügelseite einen Knoten in den vorderen Leinen. Welches sind die Folgen für den Weiterflug?",
+  "a_de": "Anfälliger für Turbulenzen und klappt links schneller ein",
+  "q_en": "Just after launch you find a knot in the front lines on the LEFT side. Consequences?",
+  "a_en": "More susceptible to turbulence; the left side will collapse more easily."
+ },
+ {
+  "id": "prc-20",
+  "category": "Flight Practice",
+  "original_id": 20,
+  "q_de": "Wird der menschliche Körper während längerer Zeit einer Luftströmung ausgesetzt, so erhöht sich",
+  "a_de": "Flüssigkeitsbedarf",
+  "q_en": "Long exposure to airflow increases the body's…",
+  "a_en": "…fluid requirements (you dehydrate faster — drink!)."
+ },
+ {
+  "id": "prc-21",
+  "category": "Flight Practice",
+  "original_id": 21,
+  "q_de": "Am Landeplatz weht ein Wind von 25 km/h. Sobald die Füsse des Piloten bei der Landung den Boden berühren,",
+  "a_de": "180° Grad drehen, B,C, oder Steuerleinen durchziehen",
+  "q_en": "Wind at the landing field is 25 km/h. As soon as your feet touch the ground, you must…",
+  "a_en": "…immediately turn 180° (facing the wing) and pull B-, C- or brake lines fully to depower the canopy (prevent being dragged)."
+ },
+ {
+  "id": "prc-22",
+  "category": "Flight Practice",
+  "original_id": 22,
+  "q_de": "Der Vorhaltewinkel wird",
+  "a_de": "mit zunehmendem Seitenwind vergrössert",
+  "q_en": "The crab angle…",
+  "a_en": "…increases with stronger crosswind."
+ },
+ {
+  "id": "prc-23",
+  "category": "Flight Practice",
+  "original_id": 23,
+  "q_de": "Bei einem Start aus einer Waldschneise oder Waldlichtung muss unter Umständen damit gerechnet werden, dass",
+  "a_de": "am Boden Windstille herrscht, obwohl auf Wipfelhöhe Wind herrscht, was auf Wipfelhöhe Turbulenzen bedeutet",
+  "q_en": "Launching from a forest clearing/gap, you may encounter…",
+  "a_en": "…calm at the ground while wind is blowing at treetop height — meaning turbulence at treetop height as you climb out."
+ },
+ {
+  "id": "prc-24",
+  "category": "Flight Practice",
+  "original_id": 24,
+  "q_de": "Hängegleiterpilot A fliegt mit 35 km/h, Hängegleiterpilot B mit 50 km/h. Beide fliegen dieselbe Strecke und sind demselben Seitenwind ausgesetzt.",
+  "a_de": "A muss einen höheren Vorhaltewinkel wählen als B",
+  "q_en": "Pilot A flies at 35 km/h, Pilot B at 50 km/h. Same route, same crosswind.",
+  "a_en": "A must choose a LARGER crab angle than B (slower airspeed needs more crab to compensate for the same crosswind)."
+ },
+ {
+  "id": "prc-25",
+  "category": "Flight Practice",
+  "original_id": 25,
+  "q_de": "Bis zu welcher Höhe vermag sich in der Regel ein gesunder Organismus im Ruhezustand den sich mit zunehmender Höhe ändernden Bedingungen anzupassen?",
+  "a_de": "4000 Meter",
+  "q_en": "To what altitude can a healthy body at rest typically adapt to the changing conditions?",
+  "a_en": "≈ 4000 m."
+ },
+ {
+  "id": "prc-26",
+  "category": "Flight Practice",
+  "original_id": 26,
+  "q_de": "Bei welchen Anzeichen muss am ehesten damit gerechnet werden, dass sich ein Startplatz im Lee befindet?",
+  "a_de": "Abrupte Änderungen von Windgeschwindigkeit und Windrichtung",
+  "q_en": "Which signs suggest a launch site is in the lee (downwind of an obstacle)?",
+  "a_en": "Abrupt changes in wind speed AND wind direction (rotor-like behaviour)."
+ },
+ {
+  "id": "prc-27",
+  "category": "Flight Practice",
+  "original_id": 27,
+  "q_de": "Wie soll sich ein Gleitschirmpilot verhalten, um bei Windstille möglichst lang in der Luft bleiben?",
+  "a_de": "20-30% angebremst fliegen",
+  "q_en": "How to stay airborne longest in calm air?",
+  "a_en": "Fly with 20–30% brake applied (minimum sink speed)."
+ },
+ {
+  "id": "prc-28",
+  "category": "Flight Practice",
+  "original_id": 28,
+  "q_de": "Ein Pilot erreicht unmittelbar vor zwei weiteren mit einem horizontalen Abstand von 50 m fliegenden Hängegleitern den Landeplatz. Es herrscht Windstille. Er entscheidet sich für eine Linksvolte mit Landung Richtung Westen. Im Queranflug stellt er fest, dass am Landeplatz ein leichter Ostwind (2 - 5 km/h) herrscht. Was ist zu unternehmen?",
+  "a_de": "Endanflug fortsetzen und Endanflugwinkel flacher planen",
+  "q_en": "You're flying a left-hand circuit, landing west. On base leg you notice a light east wind (2–5 km/h) at the field. What do you do?",
+  "a_en": "Continue the approach as planned and adjust the final approach for a flatter descent (the slight tailwind doesn't justify changing direction — but you'll come in faster/flatter)."
+ },
+ {
+  "id": "prc-29",
+  "category": "Flight Practice",
+  "original_id": 29,
+  "q_de": "Ein Gleitschirm hängt nach einer Baumlandung in der Krone. Auf welche Weise kann vermieden werden, dass das Gerät beim Heruntenehmen beschädigt wird?",
+  "a_de": "Leinenschlösser und Knoten der Bremsschlaufen lösen",
+  "q_en": "After a tree landing the glider hangs in the canopy. How do you avoid damaging the glider when retrieving it?",
+  "a_en": "Release the line locks and the brake-loop knots so the lines can move freely as you lower it."
+ },
+ {
+  "id": "prc-30",
+  "category": "Flight Practice",
+  "original_id": 30,
+  "q_de": "Beim Absteigen mittels Steilspirale gilt es zu beachten, dass",
+  "a_de": "es in turbulenter Luft viel Können von Piloten verlangt und den Körper belastet",
+  "q_en": "For descending by spiral dive, note that…",
+  "a_en": "…in turbulent air it requires considerable pilot skill, and it puts significant load on the body."
+ },
+ {
+  "id": "prc-31",
+  "category": "Flight Practice",
+  "original_id": 31,
+  "q_de": "Der Begriff \"Wingover\" steht für",
+  "a_de": "schneller Kurvenwechsel und kurzzeitige 90° Querneigung",
+  "q_en": "What does \"wingover\" mean?",
+  "a_en": "Rapid alternating turns with brief 90° bank angles."
+ },
+ {
+  "id": "prc-32",
+  "category": "Flight Practice",
+  "original_id": 32,
+  "q_de": "Beim Ausklappen der Ohren gilt es zu beachten, dass die Ohren",
+  "a_de": "in geringer Höhe über Grund nicht aktiv geöffnet werden sollten",
+  "q_en": "When releasing big-ears, note that the ears…",
+  "a_en": "…should NOT be actively re-opened (pumped open) at low altitude — let them open spontaneously."
+ },
+ {
+  "id": "prc-33",
+  "category": "Flight Practice",
+  "original_id": 33,
+  "q_de": "Ein Gleitschirm befindet sich 500 m über dem Landeplatz im stabilen Sackflug. Wie ist zu reagieren?",
+  "a_de": "A-Gurte nach Vorne drücken oder Beschleuniger - bis Normalflug",
+  "q_en": "Stable parachutal stall, 500 m above the landing field. How do you react?",
+  "a_en": "Push the A-risers forward, or apply the speedbar — until normal flight is restored."
+ },
+ {
+  "id": "prc-34",
+  "category": "Flight Practice",
+  "original_id": 34,
+  "q_de": "Welche Folgen hat es, wenn die Kalotte nass ist?",
+  "a_de": "Kalotte lässt sich schwerer füllen und aufziehen, Strömung kann bei weniger als üblichem Bremseinsatz abreissen",
+  "q_en": "Consequences of a wet canopy?",
+  "a_en": "Harder to inflate and launch; flow can separate at less brake input than normal (higher stall risk)."
+ },
+ {
+  "id": "prc-35",
+  "category": "Flight Practice",
+  "original_id": 35,
+  "q_de": "Beim Absteigen mit eingeklappten Ohren gilt es zu beachten, dass das Gerät",
+  "a_de": "mit grösserem Anstellwinkel fliegt und beim Ausleiten höhere Sackflugegefahr besteht",
+  "q_en": "When descending with big-ears, note that the glider…",
+  "a_en": "…is flying at a larger angle of attack, so there's a higher risk of parachutal stall when exiting the manoeuvre."
+ },
+ {
+  "id": "prc-36",
+  "category": "Flight Practice",
+  "original_id": 36,
+  "q_de": "Das Absteigen mittels Einklappen der Ohren hat den Vorteil, dass",
+  "a_de": "der Körper nicht belastet wird und sich auch während der Dauer des Manövers ein bestimmtes Ziel anfliegen lässt",
+  "q_en": "Advantage of descending via big-ears?",
+  "a_en": "No physical load on the body, and you can keep flying toward a specific target throughout the manoeuvre."
+ },
+ {
+  "id": "prc-37",
+  "category": "Flight Practice",
+  "original_id": 37,
+  "q_de": "Lugano meldet einen QNH von 1'015, Zürich-Kloten einen QNH von 1'007. Was heisst das?",
+  "a_de": "Druckgefälle erzeugt starke Südströmung mit Staubbewölkung auf der Alpensüd- und Südföhn auf der Alpennordseite",
+  "q_en": "Lugano reports QNH 1015, Zurich-Kloten reports 1007. What does this mean?",
+  "a_en": "Strong pressure gradient → strong southerly flow with congested cloud (\"dust cloud\") on the south side of the Alps and Südföhn on the north side."
+ },
+ {
+  "id": "prc-38",
+  "category": "Flight Practice",
+  "original_id": 38,
+  "q_de": "Im Startgelände weht ein konstanter Aufwind von 20 km/h. Welches ist die wichtigste Anforderung an einen geeigneten Startplatz?",
+  "a_de": "VIEL WIND = Das Gelände hinter dem Schirm muss frei von Hindernissen sein (Bsp. Fiesch im August 23)",
+  "q_en": "Steady 20 km/h headwind at launch. Most important requirement for a suitable launch site?",
+  "a_en": "Lots of wind → the terrain BEHIND the wing must be free of obstacles (you can be lifted/dragged backward)."
+ },
+ {
+  "id": "prc-39",
+  "category": "Flight Practice",
+  "original_id": 39,
+  "q_de": "Ein Hängegleiterpilot kreist im thermischen Aufwind. Es herrscht ein Wind von 270°/10 kt, wodurch sich der Aufwindschlauch mit zunehmender Höhe nach Osten neigt. Um den Schlauch nicht zu verlieren, kreist der Hängegleiterpilot im Schlauch…",
+  "a_de": "luvseitig",
+  "q_en": "Circling in a thermal with 270°/10 kt wind tilting the thermal eastward. Where in the thermal do you circle to stay with it?",
+  "a_en": "On the WINDWARD (luv / west) side of the thermal."
+ },
+ {
+  "id": "prc-40",
+  "category": "Flight Practice",
+  "original_id": 40,
+  "q_de": "Wo bauen Steinadler in den Alpen ihre Horste?",
+  "a_de": "In steilen Felswänden unterhalb der Waldgrenze",
+  "q_en": "Where do golden eagles in the Alps build their nests?",
+  "a_en": "In steep rock faces below the treeline (avoid disturbing them)."
+ },
+ {
+  "id": "prc-41",
+  "category": "Flight Practice",
+  "original_id": 41,
+  "q_de": "Welche Konsequenzen kann es haben, wenn an einem Gleitschirm im Geradeausflug abrupt eine Kurve eingeleitet wird?",
+  "a_de": "Strömung reisst einseitig ab, das Gerät dreht über die abgerissene Seite weg und beginnt zu trudeln",
+  "q_en": "Consequence of an abrupt turn initiation from straight flight?",
+  "a_en": "One-sided flow separation → the glider dives over the stalled side and starts to spin (Vrille)."
+ },
+ {
+  "id": "prc-42",
+  "category": "Flight Practice",
+  "original_id": 42,
+  "q_de": "Ein Pilot befindet sich im Endanflug und stellt fest, dass er geringfügig zu hoch fliegt. Welches Verhalten ist korrekt?",
+  "a_de": "Das Gerät anbremsen, Gleitleistung vermindern, frühzeitig aufrichten, Luftwiderstand erhöhen",
+  "q_en": "On final approach you realise you're slightly too high. Correct action?",
+  "a_en": "Apply brake to reduce glide performance, sit up early (and use big-ears or S-turns if needed) to increase drag."
+ },
+ {
+  "id": "prc-43",
+  "category": "Flight Practice",
+  "original_id": 43,
+  "q_de": "Ein Hängegleiterpilot fliegt gegen den Wind und kommt unter einer Cumuluswolke an. Wo kann er einen aufsteigenden Luftstrom erwarten?",
+  "a_de": "Luvseite der Cumulus",
+  "q_en": "Flying upwind, you reach a cumulus cloud. Where do you expect rising air?",
+  "a_en": "On the WINDWARD side of the cumulus."
+ },
+ {
+  "id": "prc-44",
+  "category": "Flight Practice",
+  "original_id": 44,
+  "q_de": "Der Vorhaltewinkel wird verkleinert wenn,",
+  "a_de": "die Fluggeschwindigkeit erhöht wird",
+  "q_en": "The crab angle decreases when…",
+  "a_en": "…airspeed is increased."
+ },
+ {
+  "id": "prc-45",
+  "category": "Flight Practice",
+  "original_id": 45,
+  "q_de": "Mit welchen Folgen muss ein stark erkälteter Hängegleiterpilot mit Ohrenentzündung während des Flugs in erster Linie rechnen?",
+  "a_de": "Plötzliche starke Kopfschmerzen",
+  "q_en": "A pilot with a heavy cold and middle-ear infection. What's the primary risk in flight?",
+  "a_en": "Sudden, severe headaches (pressure inability to equalise through blocked Eustachian tubes)."
+ },
+ {
+  "id": "prc-46",
+  "category": "Flight Practice",
+  "original_id": 46,
+  "q_de": "Der Vorhaltewinkel ist der Winkel zwischen",
+  "a_de": "Längsachse Gerät und Flugweg",
+  "q_en": "The crab angle is the angle between…",
+  "a_en": "…the glider's longitudinal axis and the actual flight path (track over ground)."
+ },
+ {
+  "id": "prc-47",
+  "category": "Flight Practice",
+  "original_id": 47,
+  "q_de": "Während des Fluges klappt der Gleitschirm plötzlich seitlich ein. Welches ist die richtige Reaktion?",
+  "a_de": "Gewünschte Flugrichtung durch Gewichtsverlagerung und leichtes anbremsen auf Gegenseite stabilisieren und wenn nötig mitteln Pumpen eingeklappte Seite öffnen",
+  "q_en": "The paraglider asymmetrically collapses. Correct reaction?",
+  "a_en": "1. Stabilise heading: weight-shift to the open side and apply gentle brake on the open side.\n2. If needed, pump the collapsed side to reinflate it."
+ },
+ {
+  "id": "prc-48",
+  "category": "Flight Practice",
+  "original_id": 48,
+  "q_de": "Ein Hängegleiter kreist während 10 min. in der Thermik. Sein Standort gegenüber dem Boden verschiebt sich während dieser Zeit um 3 km. Welche Aussage lässt sich über die Windstärke machen?",
+  "a_de": "18kmh",
+  "q_en": "You circle in a thermal for 10 min. Your position over the ground shifts 3 km. What's the wind speed?",
+  "a_en": "3 km in 10 min = 18 km/h."
+ },
+ {
+  "id": "prc-49",
+  "category": "Flight Practice",
+  "original_id": 49,
+  "q_de": "Ein Pilot merkt beim Kreisen, dass die Strömung einseitig am Gleitschirm abreisst. Welches ist die richtige Reaktion?",
+  "a_de": "Beide Bremsen lösen",
+  "q_en": "While circling, you notice one-sided flow separation on the wing. Correct reaction?",
+  "a_en": "Release BOTH brakes (let the wing accelerate to restore attached flow)."
+ },
+ {
+  "id": "prc-50",
+  "category": "Flight Practice",
+  "original_id": 50,
+  "q_de": "Wo leben in den Alpen Gemsen und Steinböcke im Winter und Frühling?",
+  "a_de": "In Südexponierten Bergflanken",
+  "q_en": "Where do chamois and ibex live in the Alps during winter and spring?",
+  "a_en": "On south-facing mountain slopes (avoid disturbing them — wildlife protection)."
+ },
+ {
+  "id": "prc-51",
+  "category": "Flight Practice",
+  "original_id": 51,
+  "q_de": "Welches ist ein Anzeichen dafür, dass die Strömung am Gleitschirm einseitig abreisst?",
+  "a_de": "Zug der kurveninneren Bremse lässt nach, lässt sich ohne Kraft durchdrücken",
+  "q_en": "Sign of one-sided flow separation?",
+  "a_en": "The pull on the inside brake suddenly slackens — it can be pulled down with no resistance."
+ },
+ {
+  "id": "prc-52",
+  "category": "Flight Practice",
+  "original_id": 52,
+  "q_de": "Ein Gleitschirmpilot will bei einem Rückenwind von 20 km/h möglichst weit fliegen. Wie soll er sich verhalten?",
+  "a_de": "Leicht anbremsen",
+  "q_en": "With a 20 km/h tailwind you want to fly as far as possible. What do you do?",
+  "a_en": "Apply light brake (better glide ratio is irrelevant — you want to stay aloft longer with the wind pushing you)."
+ },
+ {
+  "id": "prc-53",
+  "category": "Flight Practice",
+  "original_id": 53,
+  "q_de": "Ein Hängegleiterpilot kreist im thermischen Aufwind. Es herrscht ein Wind von 270°/10 kt, wodurch sich der Aufwindschlauch mit zunehmender Höhe nach Osten neigt. Wo in der Umgebung des Schlauchs ist in der Regel der stärkste Abwind zu erwarten?",
+  "a_de": "Leeseite",
+  "q_en": "Same scenario as before: 270°/10 kt wind tilts the thermal east. Where is the strongest sink expected?",
+  "a_en": "On the LEE (downwind / east) side of the thermal."
+ },
+ {
+  "id": "prc-54",
+  "category": "Flight Practice",
+  "original_id": 54,
+  "q_de": "Ein Gleitschirmpilot fliegt in einem grossräumigen Aufwindschlauch, in dem die Luft mit 3 m/s steigt. Wie soll er sich verhalten, um möglichst viel Höhe zu gewinnen?",
+  "a_de": "20-30% angebremst fliegen",
+  "q_en": "In a large thermal climbing at 3 m/s, how do you fly to gain maximum altitude?",
+  "a_en": "With 20–30% brake applied (minimum sink rate)."
+ },
+ {
+  "id": "prc-55",
+  "category": "Flight Practice",
+  "original_id": 55,
+  "q_de": "Die Wahrscheinlichkeit eines einseitigen Strömungsabrisses lässt sich am besten vermindern, indem",
+  "a_de": "immer mit genügend Geschwindigkeitsreserve geflogen und mit Gefühl gesteuert wird",
+  "q_en": "How best to reduce the chance of one-sided flow separation?",
+  "a_en": "Always fly with a sufficient airspeed reserve and pilot with feel/finesse."
+ },
+ {
+  "id": "prc-56",
+  "category": "Flight Practice",
+  "original_id": 56,
+  "q_de": "Ein Pilot ist nach einem äusserst heftigen Bodenkontakt bleich, hat bläuliche Lippen, kalten Schweiss, einen schwachen, schnellen Puls und redet zusammenhangslos.",
+  "a_de": "Anzeichen für Schock, Lagerung nach Wunsch, vor Witterungseinflüssen schützen, nichts zu trinken geben",
+  "q_en": "After a heavy impact a pilot is pale, has bluish lips, cold sweat, weak rapid pulse, and is incoherent. Actions?",
+  "a_en": "Signs of shock: position them as comfortable as possible, protect from weather, do NOT give them anything to drink."
+ },
+ {
+  "id": "prc-57",
+  "category": "Flight Practice",
+  "original_id": 57,
+  "q_de": "Ein Gleitschirm befindet sich im Endanflug 10 m über Grund im stabilen Sackflug. Wie ist zu reagieren?",
+  "a_de": "Das Gerät im Sackflug belassen, sich aufrichten und mittels Landefalltechnik landen",
+  "q_en": "Stable parachutal stall on final approach, 10 m AGL. Correct reaction?",
+  "a_en": "LEAVE it in the stall, sit up, and land using the parachute-landing (PLF) technique. Do NOT try to recover normal flight this low."
+ },
+ {
+  "id": "prc-58",
+  "category": "Flight Practice",
+  "original_id": 58,
+  "q_de": "Ein Gleitschirmpilot will bei Windstille möglichst weit fliegen. Wie soll er sich verhalten?",
+  "a_de": "Ungebremst im Trimmspeed fliegen",
+  "q_en": "To fly as far as possible in calm air, how should you fly?",
+  "a_en": "Hands up, trim speed (best glide ratio is at trim speed)."
+ },
+ {
+  "id": "prc-59",
+  "category": "Flight Practice",
+  "original_id": 59,
+  "q_de": "Ab welcher Druckdifferenz zwischen Zürich und Lugano muss in den Alpentälern in der Regel mit Föhn gerechnet werden?",
+  "a_de": "4hPa",
+  "q_en": "From what pressure difference between Zurich and Lugano should you generally expect Föhn in Alpine valleys?",
+  "a_en": "4 hPa."
+ },
+ {
+  "id": "prc-60",
+  "category": "Flight Practice",
+  "original_id": 60,
+  "q_de": "Bei starkem Wind ist mit Bodenannäherung eine deutlichen Abnahme des Windes (Windgradient) möglich. Falls der Schirm dabei kurz durchsackt,",
+  "a_de": "nicht anbremsen, sonst evtl. Strömungsabriss.",
+  "q_en": "In strong winds the wind gradient near the ground decreases significantly. If the glider briefly settles back, …",
+  "a_en": "…do NOT apply brake — that could trigger a stall."
+ },
+ {
+  "id": "prc-61",
+  "category": "Flight Practice",
+  "original_id": 61,
+  "q_de": "Bei Landung 30 Meter Kreis, wenns knapp wird:",
+  "a_de": "Gross machen, schlechteres gleiten, mehr Widerstand. Kleine Ohren - kann man nicht mehr gut steuern. S Kurven",
+  "q_en": "Landing in a 30 m target circle, if it's getting tight, options to lose height?",
+  "a_en": "• \"Make yourself big\" — increase drag with body posture.\n• Big-ears — but you lose precise steering.\n• S-turns."
+ },
+ {
+  "id": "prc-62",
+  "category": "Flight Practice",
+  "original_id": 62,
+  "q_de": "Was gehört zu einer guten Flugvorbereitung zu Hause?",
+  "a_de": "Meine physische und psychische Verfassung. Einholen von Wetterinformationen. Gefahren erkennen FFG Regel. Wahl eines passenden Fluggebietes, Segelflugkarte, Luftraumbeschränkungen, DABS, Militärflugzeiten: MO-FR 07.30-12.05 und 13.15-17.05. Material (Batterien aufgeladen etc.). Verpflegung, Trinken, Trinken, Trinken",
+  "q_en": "What belongs to good pre-flight preparation at home?",
+  "a_en": "• Self-check: physical and mental state.\n• Gather weather information; identify hazards (FFG rule).\n• Choose a suitable flying area; check the Glider Map, airspace restrictions, DABS, military hours (Mon–Fri 07:30–12:05 and 13:15–17:05).\n• Equipment check (batteries charged, etc.).\n• Food and water — drink, drink, drink."
+ },
+ {
+  "id": "prc-63",
+  "category": "Flight Practice",
+  "original_id": 63,
+  "q_de": "DER FLUG BEGINNT BEIM LANDEPLATZ - was ist wichtig:",
+  "a_de": "im Fluggebiet: Landeplatzbesichtigung, Landevolte, Hindernisse. Flugplanung, Notlandeplätze, Turbulenzen, Überlegungen Umwelt, Wild, etc. Lokale Begebenheiten beachten. Info Tafel lesen",
+  "q_en": "\"The flight begins at the landing field\" — what's important on site?",
+  "a_en": "• Inspect the landing field, plan the landing circuit, note obstacles.\n• Plan the flight itself: emergency landing options, expected turbulence, environmental and wildlife considerations.\n• Respect local rules.\n• Read the info board."
+ },
+ {
+  "id": "aer-1",
+  "category": "Aerodynamics",
+  "original_id": 1,
+  "q_de": "Welche Kraft wirkt im stabilen Gleitflug der Gesamtgewichtskraft entgegen?",
+  "a_de": "resultierende Luftkraft",
+  "q_en": "In stable glide, which force opposes the total weight?",
+  "a_en": "The resultant aerodynamic force (vector sum of lift and drag)."
+ },
+ {
+  "id": "aer-2",
+  "category": "Aerodynamics",
+  "original_id": 2,
+  "q_de": "Der Begriff \"Flügelstreckung\" bezeichnet das Verhältnis zwischen",
+  "a_de": "Spannweite und durchschnittliche mittlere Flügeltiefe",
+  "q_en": "\"Aspect ratio\" (Flügelstreckung) is the ratio between…",
+  "a_en": "…span and mean chord (average wing depth)."
+ },
+ {
+  "id": "aer-3",
+  "category": "Aerodynamics",
+  "original_id": 3,
+  "q_de": "Geräte mit grosser Flügelstreckung haben",
+  "a_de": "grosse Spannweite, kleine mittlere Flügeltiefe",
+  "q_en": "Wings with a high aspect ratio have…",
+  "a_en": "…a large span and small mean chord."
+ },
+ {
+  "id": "aer-4",
+  "category": "Aerodynamics",
+  "original_id": 4,
+  "q_de": "Wird die Strömungsgeschwindigkeit der einen Körper umströmenden Luft vervierfacht, so",
+  "a_de": "16x Luftwiderstand",
+  "q_en": "If the airflow speed past a body is quadrupled, then…",
+  "a_en": "…drag increases 16× (drag is proportional to velocity squared)."
+ },
+ {
+  "id": "aer-5",
+  "category": "Aerodynamics",
+  "original_id": 5,
+  "q_de": "Entfernt sich ein von Luft umströmter Körper von der Erdoberfläche, so",
+  "a_de": "vermindert sich sein Luftwiderstand",
+  "q_en": "As an air-flown body moves away from Earth's surface…",
+  "a_en": "…its drag decreases (lower air density at altitude)."
+ },
+ {
+  "id": "aer-6",
+  "category": "Aerodynamics",
+  "original_id": 6,
+  "q_de": "An einem Hängegleiter heisst eine Bewegung um die Längsachse",
+  "a_de": "rollen",
+  "q_en": "Motion around the longitudinal axis of a glider is called…",
+  "a_en": "…roll."
+ },
+ {
+  "id": "aer-7",
+  "category": "Aerodynamics",
+  "original_id": 7,
+  "q_de": "Berechnung der Flügelstreckung",
+  "a_de": "Spannweite² : Fläche",
+  "q_en": "Formula for aspect ratio?",
+  "a_en": "Aspect ratio = span² ÷ wing area."
+ },
+ {
+  "id": "aer-8",
+  "category": "Aerodynamics",
+  "original_id": 8,
+  "q_de": "Auf einer Höhe von 1'100 m über Meer beträgt der Luftwiderstand eines von Luft umströmten Körpers",
+  "a_de": "90% Luftwiderstand auf Meereshöhe",
+  "q_en": "At 1100 m AMSL, the drag on an air-flown body is…",
+  "a_en": "…about 90% of the drag at sea level."
+ },
+ {
+  "id": "aer-9",
+  "category": "Aerodynamics",
+  "original_id": 9,
+  "q_de": "Die Flächenbelastung eines Hängegleiters errechnet sich wie folgt:",
+  "a_de": "Gesamtgewicht : Fläche",
+  "q_en": "How is wing loading calculated?",
+  "a_en": "Total flight weight ÷ wing area."
+ },
+ {
+  "id": "aer-10",
+  "category": "Aerodynamics",
+  "original_id": 10,
+  "q_de": "Wie heisst die graphische Darstellung des Verhältnisses zwischen Horizontal- und Sinkgeschwindigkeit über den ganzen Geschwindigkeitsbereich eines Hängegleiters hinweg?",
+  "a_de": "Geschwindigkeitspolare",
+  "q_en": "What's the name of the graph that shows horizontal vs. sink speed across a glider's entire speed range?",
+  "a_en": "The polar curve (Geschwindigkeitspolare)."
+ },
+ {
+  "id": "aer-11",
+  "category": "Aerodynamics",
+  "original_id": 11,
+  "q_de": "Auf einer Höhe von 4'400 m über Meer beträgt der Luftwiderstand eines von Luft umströmten Körpers",
+  "a_de": "64%",
+  "q_en": "At 4400 m AMSL, drag on an air-flown body is…",
+  "a_en": "…about 64% of drag at sea level."
+ },
+ {
+  "id": "aer-12",
+  "category": "Aerodynamics",
+  "original_id": 12,
+  "q_de": "Der Begriff \"Ablösepunkt\" bezeichnet",
+  "a_de": "Wo sich Strömung vom Flügel löst",
+  "q_en": "What does \"separation point\" mean?",
+  "a_en": "The point where the airflow detaches from the wing."
+ },
+ {
+  "id": "aer-13",
+  "category": "Aerodynamics",
+  "original_id": 13,
+  "q_de": "Entfernt sich ein von Luft umströmter Körper von der Erdoberfläche, so",
+  "a_de": "nimmt Luftwiderstand in unteren Luftschichten schneller ab als in grosser Höhe",
+  "q_en": "As an air-flown body rises…",
+  "a_en": "…drag decreases more rapidly in the lower atmosphere than at higher altitudes (density drops non-linearly)."
+ },
+ {
+  "id": "aer-14",
+  "category": "Aerodynamics",
+  "original_id": 14,
+  "q_de": "Wird der Widerstand eines Hängegleiters erhöht, so",
+  "a_de": "vergrössert sich der Gleitwinkel",
+  "q_en": "If drag on a glider is increased…",
+  "a_en": "…the glide angle becomes steeper (worse glide ratio)."
+ },
+ {
+  "id": "aer-15",
+  "category": "Aerodynamics",
+  "original_id": 15,
+  "q_de": "Wird ein Hängegleiter mit minimaler Zuladung geflogen, so erfolgt der Strömungsabriss",
+  "a_de": "bei tieferer Geschwindigkeit als maximale Zuladung",
+  "q_en": "When flown at minimum payload, a glider stalls…",
+  "a_en": "…at a LOWER speed than at maximum payload (less mass = less wing-loading = lower stall speed)."
+ },
+ {
+  "id": "aer-16",
+  "category": "Aerodynamics",
+  "original_id": 16,
+  "q_de": "Ob ein Flügel Auftrieb erzeugt oder nicht, hängt massgeblich ab",
+  "a_de": "Anstellwinkel",
+  "q_en": "Whether a wing generates lift depends primarily on…",
+  "a_en": "…the angle of attack."
+ },
+ {
+  "id": "aer-17",
+  "category": "Aerodynamics",
+  "original_id": 17,
+  "q_de": "Welches ist der Wert der mittleren Flügeltiefe eines Geräts mit folgenden technischen Daten? Spannweite: 10m, Fläche: 12.5m²",
+  "a_de": "1.25m",
+  "q_en": "Mean chord of a wing with 10 m span and 12.5 m² area?",
+  "a_en": "1.25 m (12.5 ÷ 10)."
+ },
+ {
+  "id": "aer-18",
+  "category": "Aerodynamics",
+  "original_id": 18,
+  "q_de": "Ein Hängegleiter, der ohne aktives Zutun des Piloten in ruhiger Luft ständig giert, ist nicht",
+  "a_de": "richtungsstabil",
+  "q_en": "A glider that yaws by itself in calm air without pilot input is not…",
+  "a_en": "…directionally stable (Richtungsstabil)."
+ },
+ {
+  "id": "aer-19",
+  "category": "Aerodynamics",
+  "original_id": 19,
+  "q_de": "Von welchen vier Faktoren ist die Grösse des Auftriebs an einem Flügel abhängig?",
+  "a_de": "Flügelfläche, Auftriebswert, Luftdichte, Strömungsgeschwindigkeit",
+  "q_en": "On which 4 factors does the lift of a wing depend?",
+  "a_en": "1. Wing area (S)\n2. Lift coefficient (CL / CA)\n3. Air density (ρ)\n4. Airspeed (v)\n\nFormula: L = ½ ρ v² S CL"
+ },
+ {
+  "id": "aer-20",
+  "category": "Aerodynamics",
+  "original_id": 20,
+  "q_de": "Der Begriff \"Flächenbelastung\" bezeichnet",
+  "a_de": "Verhältnis zwischen gesamt Fluggewicht & Flügelfläche",
+  "q_en": "\"Wing loading\" is…",
+  "a_en": "…the ratio of total flight weight to wing area."
+ },
+ {
+  "id": "aer-21",
+  "category": "Aerodynamics",
+  "original_id": 21,
+  "q_de": "Ein Hängegleiter fliegt mit 54 km/h (15 m/s) und einem Sinken von 2 m/s. Auf seiner Flugroute hat er einen Gegenwind von 18 km/h (5 m/s). Seine Gleitleistung gegenüber Grund beträgt",
+  "a_de": "5m pro s. (15-5:2)",
+  "q_en": "A glider flies at 54 km/h (15 m/s) with 2 m/s sink, against 18 km/h (5 m/s) headwind. Glide ratio over ground?",
+  "a_en": "Ground speed = 15 − 5 = 10 m/s. Glide = 10 ÷ 2 = 5 (i.e. 5 m forward per 1 m down)."
+ },
+ {
+  "id": "aer-22",
+  "category": "Aerodynamics",
+  "original_id": 22,
+  "q_de": "Halbiert sich die Luftdichte, so",
+  "a_de": "halbiert sich auch der Luftwiderstand",
+  "q_en": "If air density halves, then…",
+  "a_en": "…drag also halves (drag is proportional to density)."
+ },
+ {
+  "id": "aer-23",
+  "category": "Aerodynamics",
+  "original_id": 23,
+  "q_de": "Die Luftkraftresultierende in den beiden stabilen Gleitflugzuständen Trimmflug und voll beschleunigtem Flug",
+  "a_de": "bleibt gleich",
+  "q_en": "The resultant aerodynamic force in stable trim flight vs. fully-accelerated flight…",
+  "a_en": "…remains the same (it always equals the total weight, by definition of stable flight)."
+ },
+ {
+  "id": "aer-24",
+  "category": "Aerodynamics",
+  "original_id": 24,
+  "q_de": "Welche Kraft wirkt im stabilen Gleitflug senkrecht zum Auftrieb?",
+  "a_de": "Widerstand",
+  "q_en": "In stable glide, which force acts perpendicular to lift?",
+  "a_en": "Drag."
+ },
+ {
+  "id": "aer-25",
+  "category": "Aerodynamics",
+  "original_id": 25,
+  "q_de": "Das Gesamtgewicht eines Hängegleiters beträgt 100 kg. In einer Kurve mit grosser Querlage wird das Gerät mit 250 kg belastet. Wie gross ist das Lastvielfache?",
+  "a_de": "2.5",
+  "q_en": "Total flight weight is 100 kg. In a steeply-banked turn the wing is loaded at 250 kg. What's the load factor?",
+  "a_en": "2.5 g (250 ÷ 100)."
+ },
+ {
+  "id": "aer-26",
+  "category": "Aerodynamics",
+  "original_id": 26,
+  "q_de": "Wird der Anstellwinkel eines mit der Geschwindigkeit für die beste Gleitzahl fliegenden Hängegleiters um 2° vergrössert, so",
+  "a_de": "Erhöht sich der CA-Wert (Auftriebswert)",
+  "q_en": "At best-glide speed, increasing the angle of attack by 2°…",
+  "a_en": "…increases the lift coefficient (CL/CA)."
+ },
+ {
+  "id": "aer-27",
+  "category": "Aerodynamics",
+  "original_id": 27,
+  "q_de": "Wie ist die ungefähre Verteilung des Auftriebs, der entsteht, wenn ein Flügel mit einem positiven Anstellwinkel von 10° mit der Luft angeströmt wird?",
+  "a_de": "2/3 Flügeloberseite & 1/3 Flügelunterseite",
+  "q_en": "Approximate lift distribution at +10° angle of attack?",
+  "a_en": "2/3 from the upper surface (suction) and 1/3 from the lower surface (pressure)."
+ },
+ {
+  "id": "aer-28",
+  "category": "Aerodynamics",
+  "original_id": 28,
+  "q_de": "Auf einer Höhe von 3'300 m über Meer beträgt der Luftwiderstand eines von Luft umströmten Körpers",
+  "a_de": "72%",
+  "q_en": "At 3300 m AMSL, drag on a body is…",
+  "a_en": "…about 72% of sea-level drag."
+ },
+ {
+  "id": "aer-29",
+  "category": "Aerodynamics",
+  "original_id": 29,
+  "q_de": "Ein Hängegleiter, der im Geradeausflug ohne aktives Zutun des Piloten seine Geschwindigkeit ständig erhöht, hat",
+  "a_de": "labile Flugeigenschaften",
+  "q_en": "A glider that continuously speeds up in straight flight without pilot input has…",
+  "a_en": "…unstable (labile) flight characteristics."
+ },
+ {
+  "id": "aer-30",
+  "category": "Aerodynamics",
+  "original_id": 30,
+  "q_de": "Wovon hängt der Luftwiderstand eines Körpers massgeblich ab? (1)",
+  "a_de": "Von der Form des Körpers",
+  "q_en": "What does a body's drag depend on primarily? (1)",
+  "a_en": "The shape of the body."
+ },
+ {
+  "id": "aer-31",
+  "category": "Aerodynamics",
+  "original_id": 31,
+  "q_de": "Wovon hängt der Luftwiderstand eines Körpers massgeblich ab? (2)",
+  "a_de": "Von der Grösse des Körpers",
+  "q_en": "What does a body's drag depend on primarily? (2)",
+  "a_en": "The size (frontal area) of the body."
+ },
+ {
+  "id": "aer-32",
+  "category": "Aerodynamics",
+  "original_id": 32,
+  "q_de": "Wovon hängt der Luftwiderstand eines Körpers massgeblich ab? (3)",
+  "a_de": "Von Strömungsgeschwindigkeit",
+  "q_en": "What does a body's drag depend on primarily? (3)",
+  "a_en": "The flow velocity (drag ∝ v²)."
+ },
+ {
+  "id": "aer-33",
+  "category": "Aerodynamics",
+  "original_id": 33,
+  "q_de": "Geräte mit kleiner Flügelstreckung haben",
+  "a_de": "kleine Spannweite und grosse mittlere Flügeltiefe",
+  "q_en": "Wings with low aspect ratio have…",
+  "a_en": "…small span and large mean chord."
+ },
+ {
+  "id": "aer-34",
+  "category": "Aerodynamics",
+  "original_id": 34,
+  "q_de": "Wo sind in der Umgebung eines fliegenden Hängegleiters Wirbel anzutreffen?",
+  "a_de": "Hinter der Austrittskante",
+  "q_en": "Where are vortices found around a flying glider?",
+  "a_en": "Behind the trailing edge (wingtip vortices and trailing-edge wake)."
+ },
+ {
+  "id": "aer-35",
+  "category": "Aerodynamics",
+  "original_id": 35,
+  "q_de": "Das Verhältnis zwischen Auftrieb und Widerstand eines Flügels ist vor allem abhängig",
+  "a_de": "Anstellwinkel",
+  "q_en": "The lift-to-drag ratio of a wing depends primarily on…",
+  "a_en": "…the angle of attack."
+ },
+ {
+  "id": "aer-36",
+  "category": "Aerodynamics",
+  "original_id": 36,
+  "q_de": "Die Gleitzahl eines Hängegleiters gibt Auskunft über das Verhältnis zwischen",
+  "a_de": "CA & CW Wert eines Flügels",
+  "q_en": "The glide ratio of a glider expresses the ratio between…",
+  "a_en": "…the CL and CD (CA and CW) of the wing — i.e. lift coefficient over drag coefficient."
+ },
+ {
+  "id": "aer-37",
+  "category": "Aerodynamics",
+  "original_id": 37,
+  "q_de": "Wird der Anstellwinkel eines mit der Geschwindigkeit für die beste Gleitzahl fliegenden Hängegleiters um 2° verkleinert, so",
+  "a_de": "vermindert sich der Auftriebswert",
+  "q_en": "Reducing the angle of attack by 2° from best-glide speed…",
+  "a_en": "…decreases the lift coefficient."
+ },
+ {
+  "id": "aer-38",
+  "category": "Aerodynamics",
+  "original_id": 38,
+  "q_de": "Beim kontinuierlichen Übergang vom stabilen Geradeausflug in den Kurvenflug",
+  "a_de": "nimmt Flächenbelastung und minimale Fluggeschwindigkeit zu",
+  "q_en": "In a continuous transition from straight flight to turning flight…",
+  "a_en": "…the wing loading AND the minimum flight speed both increase (because of load factor / centrifugal force)."
+ },
+ {
+  "id": "aer-39",
+  "category": "Aerodynamics",
+  "original_id": 39,
+  "q_de": "Luftdichte halbiert sich bei",
+  "a_de": "6600m",
+  "q_en": "Air density halves at approximately…",
+  "a_en": "6600 m AMSL."
+ },
+ {
+  "id": "aer-40",
+  "category": "Aerodynamics",
+  "original_id": 40,
+  "q_de": "Luftdruck halbiert sich bei",
+  "a_de": "5500m",
+  "q_en": "Air pressure halves at approximately…",
+  "a_en": "5500 m AMSL."
+ },
+ {
+  "id": "aer-41",
+  "category": "Aerodynamics",
+  "original_id": 41,
+  "q_de": "In Höhe kann man nur mit Geschwindigkeit kompensieren, alles andere bleibt gleich.",
+  "a_de": "Gewicht, Schirm etc. Bleibt gleich. In der Höhe muss man also schneller anrennen, weitere Laufstrecke. Vorteil: Es mag bei weniger Luftdichte mehr Wind aushalten, z.B. in Höhe kann ein Start bei 30kmh Wind möglich sein.",
+  "q_en": "At altitude you can only compensate with speed — everything else stays the same. What does this mean in practice?",
+  "a_en": "Weight, wing area, etc. don't change. At altitude (lower air density) you need to run faster for launch, with a longer takeoff run. Upside: with lower density the wing tolerates more wind — a 30 km/h launch may be possible at altitude that wouldn't be at sea level."
+ },
+ {
+  "id": "aer-42",
+  "category": "Aerodynamics",
+  "original_id": 42,
+  "q_de": "Wenn ich bremse wird Anstellwinkel…",
+  "a_de": "… grösser. Kante wird herunter gezogen, weniger Geschwindigkeit, mehr sinken - CW und CA werden grösser, Stall möglich",
+  "q_en": "When I brake, the angle of attack…",
+  "a_en": "…increases. The trailing edge is pulled down, speed decreases, sink rate increases. Both CL and CD increase — and a stall becomes possible."
+ },
+ {
+  "id": "aer-43",
+  "category": "Aerodynamics",
+  "original_id": 43,
+  "q_de": "Wenn ich beschleunige wird der Anstellwinkel…",
+  "a_de": "kleiner, fliege schneller, CW und CA werden kleiner, Frontklapper möglich",
+  "q_en": "When I accelerate, the angle of attack…",
+  "a_en": "…decreases. I fly faster; both CL and CD drop. A frontal collapse becomes possible (insufficient internal pressure)."
+ },
+ {
+  "id": "aer-44",
+  "category": "Aerodynamics",
+  "original_id": 44,
+  "q_de": "Wo spürt man induzierten Widerstand, 40%?",
+  "a_de": "Induzierter Widerstand spürt man vorm vorherigen Gleitschirm wenn in Nähe. Tandem noch grösser als Soloschirm",
+  "q_en": "Where do you feel induced drag (~40%)?",
+  "a_en": "You feel induced drag (wake / wingtip vortices) directly behind a preceding paraglider when flying close to one. A tandem produces even more than a solo."
+ },
+ {
+  "id": "aer-45",
+  "category": "Aerodynamics",
+  "original_id": 45,
+  "q_de": "Höher beladen:",
+  "a_de": "Schneller und wendiger. (Bsp. Schirm Gian)",
+  "q_en": "More heavily loaded wing:",
+  "a_en": "Faster and more agile."
+ },
+ {
+  "id": "aer-46",
+  "category": "Aerodynamics",
+  "original_id": 46,
+  "q_de": "Weniger beladen:",
+  "a_de": "langsamer, sicherer zu fliegen",
+  "q_en": "Less heavily loaded wing:",
+  "a_en": "Slower and safer to fly."
+ },
+ {
+  "id": "aer-47",
+  "category": "Aerodynamics",
+  "original_id": 47,
+  "q_de": "Zuladung ist…",
+  "a_de": "Alles ausser Schirm",
+  "q_en": "\"Zuladung\" (payload) is…",
+  "a_en": "…everything except the wing itself (pilot + harness + reserve + instruments + clothing)."
+ },
+ {
+  "id": "aer-48",
+  "category": "Aerodynamics",
+  "original_id": 48,
+  "q_de": "Flächenbelastung ist…",
+  "a_de": "Inkl. Schirm - mit allem auf die Waage = Gesamt Fluggewicht",
+  "q_en": "Wing loading is calculated from…",
+  "a_en": "…total flight weight (INCLUDING the wing) ÷ wing area. Stand on the scale with everything you'll fly with."
+ },
+ {
+  "id": "aer-49",
+  "category": "Aerodynamics",
+  "original_id": 49,
+  "q_de": "Grosse Gleitzahl gut =",
+  "a_de": "kleinerer Gleitwinkel",
+  "q_en": "A high glide ratio means…",
+  "a_en": "…a smaller glide angle (flatter descent — better)."
+ },
+ {
+  "id": "aer-50",
+  "category": "Aerodynamics",
+  "original_id": 50,
+  "q_de": "Wenn Gleitwinkel gross ist dann ist die Gleitzahl",
+  "a_de": "kleiner",
+  "q_en": "If the glide ANGLE is large, then the glide RATIO is…",
+  "a_en": "…small (steep descent — bad)."
+ },
+ {
+  "id": "aer-51",
+  "category": "Aerodynamics",
+  "original_id": 51,
+  "q_de": "Wann im besten Gleiten?",
+  "a_de": "Wenn Bremsen losgelassen",
+  "q_en": "When are you at best glide?",
+  "a_en": "At trim speed (hands up, brakes released)."
+ },
+ {
+  "id": "aer-52",
+  "category": "Aerodynamics",
+  "original_id": 52,
+  "q_de": "Bei Rückenwind & Aufwind",
+  "a_de": "leicht anbremsen (ausnutzen) = bessere Gleitzahl und weiter mögliche Distanz",
+  "q_en": "With tailwind & lift, how to fly?",
+  "a_en": "Apply LIGHT brake (use the lift) — gives better glide-over-ground and longer reachable distance."
+ },
+ {
+  "id": "aer-53",
+  "category": "Aerodynamics",
+  "original_id": 53,
+  "q_de": "Bei Gegenwind & Abwind",
+  "a_de": "Beschleunigen (schnell weg) - nur bei genügend Hangabstand wegen Klappergefahr = bessere Gleitzahl und weiter mögliche Distanz",
+  "q_en": "With headwind & sink, how to fly?",
+  "a_en": "ACCELERATE (get through it fast) — only with sufficient terrain clearance because of collapse risk. Gives better glide over ground and reachable distance."
+ },
+ {
+  "id": "aer-54",
+  "category": "Aerodynamics",
+  "original_id": 54,
+  "q_de": "Querachse",
+  "a_de": "Nicken (z.b. Längestabilität auch nickstabil)",
+  "q_en": "Lateral axis (Querachse)?",
+  "a_en": "Pitch (nicken). Stability around it = pitch stability / longitudinal stability."
+ },
+ {
+  "id": "aer-55",
+  "category": "Aerodynamics",
+  "original_id": 55,
+  "q_de": "Längsachse",
+  "a_de": "Rollen (z.B. Querstabilität - auch rollstabil)",
+  "q_en": "Longitudinal axis (Längsachse)?",
+  "a_en": "Roll (rollen). Stability around it = roll/lateral stability."
+ },
+ {
+  "id": "aer-56",
+  "category": "Aerodynamics",
+  "original_id": 56,
+  "q_de": "Hochachse",
+  "a_de": "Richtungsstabilität (gieren)",
+  "q_en": "Vertical axis (Hochachse)?",
+  "a_en": "Yaw (gieren). Stability around it = directional stability."
+ },
+ {
+  "id": "aer-57",
+  "category": "Aerodynamics",
+  "original_id": 57,
+  "q_de": "M pro Sekunde in km/h",
+  "a_de": "3.6 (für Umrechnung)",
+  "q_en": "Convert m/s to km/h?",
+  "a_en": "Multiply by 3.6."
+ },
+ {
+  "id": "aer-58",
+  "category": "Aerodynamics",
+  "original_id": 58,
+  "q_de": "Wie viel G in Geradeausflug? Und wie viel bei 70° Querlage?",
+  "a_de": "Geradeaus fliegen = 1 G. 70 Grad = 3 Mal längere Achse = 3G. Im Kurvenflug nimmt Lastenvielfache zu. Minimale Geschwindigkeit nimmt auch zu. Ähnlich wie Soloschirm mit zwei Personen - auch 2G alles wird schneller (wie auch Kurvenflug) - weil Strömungsabriss kann passieren, daher braucht es auch mehr Geschwindigkeit. Trimmgeschwindigkeit nimmt auch zu.",
+  "q_en": "How many G in straight flight, and at 70° bank?",
+  "a_en": "Straight flight = 1 G.\n70° bank ≈ 3 G (load factor = 1/cos(bank angle)).\n\nIn a turn, load factor INCREASES — so minimum speed also increases (stall speed grows with √load factor). Comparable to flying solo loaded for tandem: at 2 G everything speeds up. The wing can stall, so it needs more speed. Trim speed also increases."
+ }
+]
