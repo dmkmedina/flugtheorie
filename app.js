@@ -24,7 +24,9 @@ const DEFAULT_STATE = {
     history: []                         // past exam summaries
   },
   // guide
-  guide: { partId: null, chapterId: null }
+  guide: { partId: null, chapterId: null },
+  // slide decks (Freewings)
+  slides: { deckId: null, page: 1 }
 };
 
 let state = loadState();
@@ -39,7 +41,8 @@ function loadState() {
       ...parsed,
       fc: { ...DEFAULT_STATE.fc, ...(parsed.fc || {}) },
       exam: { ...DEFAULT_STATE.exam, ...(parsed.exam || {}) },
-      guide: { ...DEFAULT_STATE.guide, ...(parsed.guide || {}) }
+      guide: { ...DEFAULT_STATE.guide, ...(parsed.guide || {}) },
+      slides: { ...DEFAULT_STATE.slides, ...(parsed.slides || {}) }
     };
   } catch { return JSON.parse(JSON.stringify(DEFAULT_STATE)); }
 }
@@ -68,6 +71,9 @@ const PART_TO_CATEGORY = {
 function getCards() { return window.CARDS || []; }
 function getGuide() { return window.GUIDE || { parts: [] }; }
 function getTipsMd() { return window.TIPS_MD || ''; }
+function getDecks() { return (window.DECKS && window.DECKS.decks) || []; }
+function getDeckById(id) { return getDecks().find(d => d.id === id); }
+function getDeckByCategory(cat) { return getDecks().find(d => d.category === cat); }
 
 function cardsForCategory(cat) {
   if (cat === 'all') return getCards();
@@ -215,7 +221,7 @@ function applyTheme() {
 }
 
 // ---- Routing ----------------------------------------------------------------
-const VIEWS = ['dashboard', 'flashcards', 'quiz', 'exam', 'guide', 'cheatsheet', 'tips'];
+const VIEWS = ['dashboard', 'flashcards', 'quiz', 'exam', 'guide', 'slides', 'cheatsheet', 'tips'];
 function navigate(view) {
   if (!VIEWS.includes(view)) view = 'dashboard';
   if (state.view !== view) {
@@ -336,6 +342,7 @@ function renderDashboard() {
         <button class="btn" data-nav="quiz">📝 Take a quiz</button>
         <button class="btn" data-nav="exam">⏱️ Start mock exam</button>
         <button class="btn" data-nav="guide">📚 Study guide</button>
+        <button class="btn" data-nav="slides">🎬 Slide decks</button>
         <button class="btn" data-nav="cheatsheet">⚡ Cheat sheet</button>
       </div>
       <div class="muted" style="margin-top:16px; font-size:13px;">
@@ -448,6 +455,7 @@ function renderFlashcardMode(mode) {
   const meta = CATEGORY_META[card.category];
   const prog = cardProgress(card.id);
   const boxLabel = ['New', 'Learning', 'Familiar', 'Known', 'Mastered'][prog.box];
+  const deck = getDeckByCategory(card.category);
 
   return `
     <div class="flashcard">
@@ -465,6 +473,12 @@ function renderFlashcardMode(mode) {
           <span class="a-de"><span class="lang-tag">DE</span>${escapeHtml(card.a_de)}</span>
         </div>
       ` : `<button class="reveal-btn" id="reveal-btn">Show answer · <span class="kbd" style="color:white; background:rgba(255,255,255,0.2); border-color:transparent;">Space</span></button>`}
+      ${_fcReveal && deck ? `
+        <div class="flashcard-slides-hint">
+          <span>🎬 Want a visual explanation?</span>
+          <button class="slides-link" data-open-deck="${deck.id}">${deck.icon} ${escapeHtml(deck.title)} deck · ${deck.pages.length} slides</button>
+        </div>
+      ` : ''}
       ${_fcReveal ? `
         <div class="srs-controls">
           <button class="srs-btn srs-again" data-srs="again"><span class="srs-emoji">😵</span>Again<span class="srs-sub">1</span></button>
@@ -631,6 +645,12 @@ function attachFlashcardsEvents() {
   const reveal = document.getElementById('reveal-btn');
   if (reveal) reveal.onclick = () => { _fcReveal = true; render(); };
 
+  document.querySelectorAll('[data-open-deck]').forEach(b => b.onclick = () => {
+    state.slides.deckId = b.dataset.openDeck;
+    state.slides.page = 1;
+    saveState();
+    navigate('slides');
+  });
   document.querySelectorAll('[data-srs]').forEach(b => b.onclick = () => {
     const card = currentFcCard();
     if (!card) return;
@@ -1204,6 +1224,16 @@ function renderGuide() {
           </div>
         </div>
 
+        ${(() => {
+          const partCat = PART_TO_CATEGORY[part.id];
+          const deck = partCat ? getDeckByCategory(partCat) : null;
+          return deck ? `
+            <div class="guide-related">
+              <h4>Visual companion — Freewings video deck</h4>
+              <button class="flash-link" data-open-deck="${deck.id}">${deck.icon} ${escapeHtml(deck.title)} deck · ${deck.pages.length} slides</button>
+            </div>
+          ` : '';
+        })()}
         ${related.length > 0 ? `
           <div class="guide-related">
             <h4>Related flashcards (${related.length})</h4>
@@ -1240,6 +1270,12 @@ function attachGuideEvents() {
     saveState();
     navigate('flashcards');
   });
+  document.querySelectorAll('[data-open-deck]').forEach(b => b.onclick = () => {
+    state.slides.deckId = b.dataset.openDeck;
+    state.slides.page = 1;
+    saveState();
+    navigate('slides');
+  });
 }
 
 // ---- Lightbox ----------------------------------------------------------------
@@ -1256,6 +1292,99 @@ function closeLightbox() {
 function lightboxNav(d) {
   _lbIndex = (_lbIndex + d + _lbList.length) % _lbList.length;
   document.getElementById('lb-img').src = _lbList[_lbIndex];
+}
+
+// ============================================================================
+// VIEW: Slide Decks (Freewings video course)
+// ============================================================================
+function ensureSlideSelection() {
+  const decks = getDecks();
+  if (decks.length === 0) return;
+  if (!state.slides.deckId || !getDeckById(state.slides.deckId)) {
+    state.slides.deckId = decks[0].id;
+    state.slides.page = 1;
+    saveState();
+  }
+}
+
+function renderSlides() {
+  const decks = getDecks();
+  if (decks.length === 0) {
+    return `<div class="empty"><div class="emoji">🎬</div><div>No slide decks loaded.</div></div>`;
+  }
+  ensureSlideSelection();
+  const deck = getDeckById(state.slides.deckId);
+  const totalPages = deck.pages.length;
+  const totalSlides = decks.reduce((acc, d) => acc + d.pages.length, 0);
+
+  // Tabs
+  const tabsHtml = `
+    <div class="subtabs">
+      ${decks.map(d => {
+        const meta = CATEGORY_META[d.category];
+        return `<button class="subtab ${state.slides.deckId === d.id ? 'active' : ''}" data-deck="${d.id}">
+          ${d.icon} ${escapeHtml(d.title)} <span class="count">${d.pages.length}</span>
+        </button>`;
+      }).join('')}
+    </div>
+  `;
+
+  // Related flashcards count (by category)
+  const relatedCards = cardsForCategory(deck.category);
+
+  // Slide grid
+  const slidesHtml = deck.pages.map(p => {
+    const num = String(p).padStart(3, '0');
+    const url = `${deck.path}/page-${num}.jpg`;
+    const allUrls = deck.pages.map(pp => `${deck.path}/page-${String(pp).padStart(3, '0')}.jpg`).join('|');
+    return `
+      <div class="slide-thumb" data-lightbox="${url}" data-lb-list="${allUrls}" data-deck-page="${p}">
+        <img src="${url}" loading="lazy" alt="Slide ${p}" />
+        <div class="pp-label">${p}</div>
+      </div>
+    `;
+  }).join('');
+
+  return `
+    <div class="page-header">
+      <h1>Slide Decks</h1>
+      <p class="page-subtitle">Freewings video-course slides — ${totalSlides} slides across ${decks.length} decks. Click any to enlarge.</p>
+    </div>
+    ${tabsHtml}
+    <div class="deck-header">
+      <div>
+        <div class="deck-title">${escapeHtml(deck.title)}</div>
+        <div class="deck-meta">${totalPages} slides · Instructor: ${escapeHtml(deck.instructor)} · Maps to <strong>${escapeHtml(deck.category)}</strong> flashcards (${relatedCards.length} cards)</div>
+      </div>
+      <button class="btn small" data-jump-cards="${deck.category}">Study ${escapeHtml(deck.category)} cards →</button>
+    </div>
+    <div class="slide-grid">
+      ${slidesHtml}
+    </div>
+  `;
+}
+
+function attachSlidesEvents() {
+  document.querySelectorAll('[data-deck]').forEach(b => b.onclick = () => {
+    state.slides.deckId = b.dataset.deck;
+    state.slides.page = 1;
+    saveState();
+    render();
+  });
+  document.querySelectorAll('[data-lightbox]').forEach(b => b.onclick = () => {
+    const list = b.dataset.lbList.split('|');
+    openLightbox(list, list.indexOf(b.dataset.lightbox));
+  });
+  document.querySelectorAll('[data-jump-cards]').forEach(b => b.onclick = () => {
+    state.fc.category = b.dataset.jumpCards;
+    state.fc.mode = 'flashcards';
+    state.fc.index = 0;
+    state.fc.shuffle = false;
+    _fcDeck = null;
+    _fcReveal = false;
+    saveState();
+    navigate('flashcards');
+  });
 }
 
 // ============================================================================
@@ -1499,6 +1628,7 @@ function render() {
     { id: 'quiz',       icon: '📝', label: 'Quiz' },
     { id: 'exam',       icon: '⏱️', label: 'Mock Exam' },
     { id: 'guide',      icon: '📚', label: 'Study Guide' },
+    { id: 'slides',     icon: '🎬', label: 'Slide Decks', badge: getDecks().reduce((a, d) => a + d.pages.length, 0) || null },
     { id: 'cheatsheet', icon: '⚡', label: 'Cheat Sheet' },
     { id: 'tips',       icon: '💡', label: 'Tips' }
   ];
@@ -1523,6 +1653,7 @@ function render() {
     case 'quiz':       html = renderQuiz(); break;
     case 'exam':       html = renderExam(); break;
     case 'guide':      html = renderGuide(); break;
+    case 'slides':     html = renderSlides(); break;
     case 'cheatsheet': html = renderCheatsheet(); break;
     case 'tips':       html = renderTips(); break;
     default:           html = renderDashboard();
@@ -1544,6 +1675,7 @@ function render() {
     stopExamTimer();
   }
   if (state.view === 'guide') attachGuideEvents();
+  if (state.view === 'slides') attachSlidesEvents();
 }
 
 // ============================================================================

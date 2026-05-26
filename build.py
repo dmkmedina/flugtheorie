@@ -18,6 +18,7 @@ def load_json(path):
 def main():
     cards = load_json('data/all_cards.json')
     guide = load_json('data/guide.json')
+    decks = load_json('data/decks.json')
     tips_md = load_file('data/study_tips.md')
 
     css = load_file('app.css')
@@ -26,17 +27,20 @@ def main():
     # Compact JSON for embedding
     cards_json = json.dumps(cards, ensure_ascii=False, separators=(',', ':'))
     guide_json = json.dumps(guide, ensure_ascii=False, separators=(',', ':'))
+    decks_json = json.dumps(decks, ensure_ascii=False, separators=(',', ':'))
 
     # Encode tips markdown as a JS string-safe literal
     # Use JSON.parse('...') trick - escape backslashes/quotes/newlines
     tips_js = json.dumps(tips_md, ensure_ascii=False)
+
+    total_slides = sum(len(d['pages']) for d in decks['decks'])
 
     html = f"""<!doctype html>
 <html lang="en">
 <head>
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
-<meta name="description" content="Swiss paragliding theory exam (SHV/FSVL) study trainer - 331 flashcards, mock exam, study guide, and cheat sheet." />
+<meta name="description" content="Swiss paragliding theory exam (SHV/FSVL) study trainer — {len(cards)} flashcards, mock exam, study guide, {total_slides} Freewings slide-deck images, and cheat sheet." />
 <meta name="theme-color" content="#0284c7" />
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='84' font-size='90'%3E%E2%9C%88%EF%B8%8F%3C/text%3E%3C/svg%3E" />
 <title>Flugtheorie — Swiss Paragliding Theory Trainer</title>
@@ -67,7 +71,7 @@ def main():
     <div class="sidebar-footer">
       <button class="theme-toggle" id="theme-toggle">🖥 Auto theme</button>
       <div style="font-size:11px; color:var(--text-dim); padding:8px 10px;">
-        331 flashcards · 43 study chapters · v1.0
+        {len(cards)} flashcards · {sum(len(p['chapters']) for p in guide['parts'])} chapters · {total_slides} slides · v1.1
       </div>
     </div>
   </aside>
@@ -89,9 +93,11 @@ def main():
 <!-- Inline data -->
 <script id="data-cards" type="application/json">{cards_json}</script>
 <script id="data-guide" type="application/json">{guide_json}</script>
+<script id="data-decks" type="application/json">{decks_json}</script>
 <script>
 window.CARDS = JSON.parse(document.getElementById('data-cards').textContent);
 window.GUIDE = JSON.parse(document.getElementById('data-guide').textContent);
+window.DECKS = JSON.parse(document.getElementById('data-decks').textContent);
 window.TIPS_MD = {tips_js};
 </script>
 
@@ -108,7 +114,7 @@ window.TIPS_MD = {tips_js};
 
     size_kb = os.path.getsize(out) / 1024
     print(f"Wrote {out} ({size_kb:.1f} KB)")
-    print(f"  Cards: {len(cards)} · Guide chapters: {sum(len(p['chapters']) for p in guide['parts'])}")
+    print(f"  Cards: {len(cards)} · Guide chapters: {sum(len(p['chapters']) for p in guide['parts'])} · Slides: {total_slides} across {len(decks['decks'])} decks")
 
 if __name__ == '__main__':
     main()
