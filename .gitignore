@@ -4,3 +4,9 @@ package.json
 __pycache__/
 *.pyc
 .DS_Store
+
+# Source PDFs — too large for git. Rasterized images live in freewings_images/.
+freewings/*.pdf
+
+# Personal Claude Code overrides
+.claude/settings.local.json
