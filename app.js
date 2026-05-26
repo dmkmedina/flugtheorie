@@ -24,7 +24,9 @@ const DEFAULT_STATE = {
     history: []                         // past exam summaries
   },
   // guide
-  guide: { partId: null, chapterId: null }
+  guide: { partId: null, chapterId: null },
+  // slide decks (Freewings)
+  slides: { deckId: null, page: 1 }
 };
 
 let state = loadState();
@@ -39,7 +41,8 @@ function loadState() {
       ...parsed,
       fc: { ...DEFAULT_STATE.fc, ...(parsed.fc || {}) },
       exam: { ...DEFAULT_STATE.exam, ...(parsed.exam || {}) },
-      guide: { ...DEFAULT_STATE.guide, ...(parsed.guide || {}) }
+      guide: { ...DEFAULT_STATE.guide, ...(parsed.guide || {}) },
+      slides: { ...DEFAULT_STATE.slides, ...(parsed.slides || {}) }
     };
   } catch { return JSON.parse(JSON.stringify(DEFAULT_STATE)); }
 }
@@ -68,6 +71,19 @@ const PART_TO_CATEGORY = {
 function getCards() { return window.CARDS || []; }
 function getGuide() { return window.GUIDE || { parts: [] }; }
 function getTipsMd() { return window.TIPS_MD || ''; }
+function getDecks() { return (window.DECKS && window.DECKS.decks) || []; }
+function getDeckById(id) { return getDecks().find(d => d.id === id); }
+function getDeckByCategory(cat) { return getDecks().find(d => d.category === cat); }
+function deckSlideCount(d) { return (d.slides || d.pages || []).length; }
+function deckSlides(d) {
+  // Back-compat shim: support both new {slides:[{page,...}]} and old {pages:[N,...]}
+  if (Array.isArray(d.slides)) return d.slides;
+  return (d.pages || []).map(p => ({ page: p, de_title: '', de_body: '', en_title: '', en_body: '' }));
+}
+function slideUrl(deck, page) {
+  const num = String(page).padStart(3, '0');
+  return `${deck.path}/page-${num}.jpg`;
+}
 
 function cardsForCategory(cat) {
   if (cat === 'all') return getCards();
@@ -215,7 +231,7 @@ function applyTheme() {
 }
 
 // ---- Routing ----------------------------------------------------------------
-const VIEWS = ['dashboard', 'flashcards', 'quiz', 'exam', 'guide', 'cheatsheet', 'tips'];
+const VIEWS = ['dashboard', 'flashcards', 'quiz', 'exam', 'guide', 'slides', 'cheatsheet', 'tips'];
 function navigate(view) {
   if (!VIEWS.includes(view)) view = 'dashboard';
   if (state.view !== view) {
@@ -336,6 +352,7 @@ function renderDashboard() {
         <button class="btn" data-nav="quiz">📝 Take a quiz</button>
         <button class="btn" data-nav="exam">⏱️ Start mock exam</button>
         <button class="btn" data-nav="guide">📚 Study guide</button>
+        <button class="btn" data-nav="slides">🎬 Slide decks</button>
         <button class="btn" data-nav="cheatsheet">⚡ Cheat sheet</button>
       </div>
       <div class="muted" style="margin-top:16px; font-size:13px;">
@@ -448,6 +465,7 @@ function renderFlashcardMode(mode) {
   const meta = CATEGORY_META[card.category];
   const prog = cardProgress(card.id);
   const boxLabel = ['New', 'Learning', 'Familiar', 'Known', 'Mastered'][prog.box];
+  const deck = getDeckByCategory(card.category);
 
   return `
     <div class="flashcard">
@@ -465,6 +483,12 @@ function renderFlashcardMode(mode) {
           <span class="a-de"><span class="lang-tag">DE</span>${escapeHtml(card.a_de)}</span>
         </div>
       ` : `<button class="reveal-btn" id="reveal-btn">Show answer · <span class="kbd" style="color:white; background:rgba(255,255,255,0.2); border-color:transparent;">Space</span></button>`}
+      ${_fcReveal && deck ? `
+        <div class="flashcard-slides-hint">
+          <span>🎬 Want a visual explanation?</span>
+          <button class="slides-link" data-open-deck="${deck.id}">${deck.icon} ${escapeHtml(deck.title)} deck · ${deckSlideCount(deck)} slides</button>
+        </div>
+      ` : ''}
       ${_fcReveal ? `
         <div class="srs-controls">
           <button class="srs-btn srs-again" data-srs="again"><span class="srs-emoji">😵</span>Again<span class="srs-sub">1</span></button>
@@ -631,6 +655,12 @@ function attachFlashcardsEvents() {
   const reveal = document.getElementById('reveal-btn');
   if (reveal) reveal.onclick = () => { _fcReveal = true; render(); };
 
+  document.querySelectorAll('[data-open-deck]').forEach(b => b.onclick = () => {
+    state.slides.deckId = b.dataset.openDeck;
+    state.slides.page = 1;
+    saveState();
+    navigate('slides');
+  });
   document.querySelectorAll('[data-srs]').forEach(b => b.onclick = () => {
     const card = currentFcCard();
     if (!card) return;
@@ -1204,6 +1234,16 @@ function renderGuide() {
           </div>
         </div>
 
+        ${(() => {
+          const partCat = PART_TO_CATEGORY[part.id];
+          const deck = partCat ? getDeckByCategory(partCat) : null;
+          return deck ? `
+            <div class="guide-related">
+              <h4>Visual companion — Freewings video deck</h4>
+              <button class="flash-link" data-open-deck="${deck.id}">${deck.icon} ${escapeHtml(deck.title)} deck · ${deckSlideCount(deck)} slides</button>
+            </div>
+          ` : '';
+        })()}
         ${related.length > 0 ? `
           <div class="guide-related">
             <h4>Related flashcards (${related.length})</h4>
@@ -1240,6 +1280,12 @@ function attachGuideEvents() {
     saveState();
     navigate('flashcards');
   });
+  document.querySelectorAll('[data-open-deck]').forEach(b => b.onclick = () => {
+    state.slides.deckId = b.dataset.openDeck;
+    state.slides.page = 1;
+    saveState();
+    navigate('slides');
+  });
 }
 
 // ---- Lightbox ----------------------------------------------------------------
@@ -1256,6 +1302,184 @@ function closeLightbox() {
 function lightboxNav(d) {
   _lbIndex = (_lbIndex + d + _lbList.length) % _lbList.length;
   document.getElementById('lb-img').src = _lbList[_lbIndex];
+}
+
+// ============================================================================
+// VIEW: Slide Decks (Freewings video course)
+// ============================================================================
+function ensureSlideSelection() {
+  const decks = getDecks();
+  if (decks.length === 0) return;
+  if (!state.slides.deckId || !getDeckById(state.slides.deckId)) {
+    state.slides.deckId = decks[0].id;
+    state.slides.page = 1;
+    saveState();
+  }
+}
+
+let _slidesQuery = '';
+function renderSlides() {
+  const decks = getDecks();
+  if (decks.length === 0) {
+    return `<div class="empty"><div class="emoji">🎬</div><div>No slide decks loaded.</div></div>`;
+  }
+  ensureSlideSelection();
+  const deck = getDeckById(state.slides.deckId);
+  const slides = deckSlides(deck);
+  const totalPages = slides.length;
+  const totalSlides = decks.reduce((acc, d) => acc + deckSlideCount(d), 0);
+
+  // Tabs
+  const tabsHtml = `
+    <div class="subtabs">
+      ${decks.map(d => {
+        return `<button class="subtab ${state.slides.deckId === d.id ? 'active' : ''}" data-deck="${d.id}">
+          ${d.icon} ${escapeHtml(d.title)} <span class="count">${deckSlideCount(d)}</span>
+        </button>`;
+      }).join('')}
+    </div>
+  `;
+
+  // Related flashcards count (by category)
+  const relatedCards = cardsForCategory(deck.category);
+
+  // Filter by query
+  const q = _slidesQuery.trim().toLowerCase();
+  const filtered = q ? slides.filter(s =>
+    (s.en_title || '').toLowerCase().includes(q) ||
+    (s.en_body || '').toLowerCase().includes(q) ||
+    (s.de_title || '').toLowerCase().includes(q) ||
+    (s.de_body || '').toLowerCase().includes(q)
+  ) : slides;
+
+  // Slide grid
+  const slidesHtml = filtered.map(s => {
+    const url = slideUrl(deck, s.page);
+    const title = s.en_title || s.de_title || '';
+    return `
+      <button class="slide-thumb" data-open-slide="${deck.id}|${s.page}">
+        <img src="${url}" loading="lazy" alt="Slide ${s.page}" />
+        <div class="pp-label">${s.page}</div>
+        ${title ? `<div class="slide-thumb-title">${escapeHtml(title)}</div>` : ''}
+      </button>
+    `;
+  }).join('');
+
+  return `
+    <div class="page-header">
+      <h1>Slide Decks</h1>
+      <p class="page-subtitle">Freewings video-course slides — ${totalSlides} slides across ${decks.length} decks. EN/DE side-by-side · click any to expand.</p>
+    </div>
+    ${tabsHtml}
+    <div class="deck-header">
+      <div>
+        <div class="deck-title">${escapeHtml(deck.title)}</div>
+        <div class="deck-meta">${totalPages} slides · Instructor: ${escapeHtml(deck.instructor)} · Maps to <strong>${escapeHtml(deck.category)}</strong> flashcards (${relatedCards.length} cards)</div>
+      </div>
+      <button class="btn small" data-jump-cards="${deck.category}">Study ${escapeHtml(deck.category)} cards →</button>
+    </div>
+    <input class="search-input" id="slides-q" type="search" placeholder="Search slide titles (EN/DE)…" value="${escapeHtml(_slidesQuery)}" />
+    ${q ? `<div class="muted" style="margin-bottom:12px; font-size:13px;">Showing <strong>${filtered.length}</strong> of ${slides.length}</div>` : ''}
+    <div class="slide-grid">
+      ${slidesHtml}
+    </div>
+  `;
+}
+
+function attachSlidesEvents() {
+  document.querySelectorAll('[data-deck]').forEach(b => b.onclick = () => {
+    state.slides.deckId = b.dataset.deck;
+    state.slides.page = 1;
+    _slidesQuery = '';
+    saveState();
+    render();
+  });
+  document.querySelectorAll('[data-open-slide]').forEach(b => b.onclick = () => {
+    const [deckId, page] = b.dataset.openSlide.split('|');
+    openSlideViewer(deckId, parseInt(page, 10));
+  });
+  document.querySelectorAll('[data-jump-cards]').forEach(b => b.onclick = () => {
+    state.fc.category = b.dataset.jumpCards;
+    state.fc.mode = 'flashcards';
+    state.fc.index = 0;
+    state.fc.shuffle = false;
+    _fcDeck = null;
+    _fcReveal = false;
+    saveState();
+    navigate('flashcards');
+  });
+  const sq = document.getElementById('slides-q');
+  if (sq) {
+    sq.oninput = (e) => {
+      _slidesQuery = e.target.value;
+      render();
+      const inp = document.getElementById('slides-q');
+      if (inp) {
+        inp.focus();
+        inp.setSelectionRange(_slidesQuery.length, _slidesQuery.length);
+      }
+    };
+  }
+}
+
+// ---- Slide Viewer (replaces lightbox for slides) ----------------------------
+let _svDeckId = null, _svPage = 1;
+function openSlideViewer(deckId, page) {
+  _svDeckId = deckId;
+  _svPage = page;
+  renderSlideViewer();
+  document.getElementById('slide-viewer').classList.add('show');
+}
+function closeSlideViewer() {
+  document.getElementById('slide-viewer').classList.remove('show');
+}
+function slideViewerNav(d) {
+  const deck = getDeckById(_svDeckId);
+  if (!deck) return;
+  const slides = deckSlides(deck);
+  const idx = slides.findIndex(s => s.page === _svPage);
+  const nextIdx = (idx + d + slides.length) % slides.length;
+  _svPage = slides[nextIdx].page;
+  renderSlideViewer();
+}
+function renderSlideViewer() {
+  const deck = getDeckById(_svDeckId);
+  if (!deck) return;
+  const slides = deckSlides(deck);
+  const slide = slides.find(s => s.page === _svPage) || slides[0];
+  const idx = slides.indexOf(slide);
+  const url = slideUrl(deck, slide.page);
+  const root = document.getElementById('slide-viewer-content');
+  const hasTrans = !!(slide.en_title || slide.en_body || slide.de_title || slide.de_body);
+  root.innerHTML = `
+    <button class="sv-close" id="sv-close">Close ✕</button>
+    <div class="sv-image-wrap">
+      <button class="sv-nav prev" id="sv-prev" aria-label="Previous">‹</button>
+      <img class="sv-image" src="${url}" alt="Slide ${slide.page}" />
+      <button class="sv-nav next" id="sv-next" aria-label="Next">›</button>
+    </div>
+    <div class="sv-panel">
+      <div class="sv-meta">
+        <span class="sv-deck">${deck.icon} ${escapeHtml(deck.title)}</span>
+        <span class="sv-counter tabnum">${idx + 1} / ${slides.length}</span>
+      </div>
+      ${hasTrans ? `
+        <div class="sv-lang">
+          <div class="sv-lang-label">English</div>
+          ${slide.en_title ? `<div class="sv-title">${escapeHtml(slide.en_title)}</div>` : ''}
+          ${slide.en_body ? `<div class="sv-body">${escapeHtml(slide.en_body)}</div>` : ''}
+        </div>
+        <div class="sv-lang sv-lang-de">
+          <div class="sv-lang-label">Deutsch</div>
+          ${slide.de_title ? `<div class="sv-title">${escapeHtml(slide.de_title)}</div>` : ''}
+          ${slide.de_body ? `<div class="sv-body">${escapeHtml(slide.de_body)}</div>` : ''}
+        </div>
+      ` : `<div class="muted" style="font-size:13px;">No transcript available for this slide — the diagram speaks for itself.</div>`}
+    </div>
+  `;
+  document.getElementById('sv-close').onclick = closeSlideViewer;
+  document.getElementById('sv-prev').onclick = () => slideViewerNav(-1);
+  document.getElementById('sv-next').onclick = () => slideViewerNav(1);
 }
 
 // ============================================================================
@@ -1499,6 +1723,7 @@ function render() {
     { id: 'quiz',       icon: '📝', label: 'Quiz' },
     { id: 'exam',       icon: '⏱️', label: 'Mock Exam' },
     { id: 'guide',      icon: '📚', label: 'Study Guide' },
+    { id: 'slides',     icon: '🎬', label: 'Slide Decks', badge: getDecks().reduce((a, d) => a + deckSlideCount(d), 0) || null },
     { id: 'cheatsheet', icon: '⚡', label: 'Cheat Sheet' },
     { id: 'tips',       icon: '💡', label: 'Tips' }
   ];
@@ -1523,6 +1748,7 @@ function render() {
     case 'quiz':       html = renderQuiz(); break;
     case 'exam':       html = renderExam(); break;
     case 'guide':      html = renderGuide(); break;
+    case 'slides':     html = renderSlides(); break;
     case 'cheatsheet': html = renderCheatsheet(); break;
     case 'tips':       html = renderTips(); break;
     default:           html = renderDashboard();
@@ -1544,6 +1770,7 @@ function render() {
     stopExamTimer();
   }
   if (state.view === 'guide') attachGuideEvents();
+  if (state.view === 'slides') attachSlidesEvents();
 }
 
 // ============================================================================
@@ -1578,6 +1805,14 @@ function init() {
   // Keyboard shortcuts
   document.addEventListener('keydown', (e) => {
     if (e.target.tagName === 'INPUT' || e.target.tagName === 'TEXTAREA') return;
+    // Slide viewer shortcuts
+    const sv = document.getElementById('slide-viewer');
+    if (sv && sv.classList.contains('show')) {
+      if (e.key === 'Escape') closeSlideViewer();
+      else if (e.key === 'ArrowLeft') slideViewerNav(-1);
+      else if (e.key === 'ArrowRight') slideViewerNav(1);
+      return;
+    }
     // Lightbox shortcuts
     if (document.getElementById('lightbox').classList.contains('show')) {
       if (e.key === 'Escape') closeLightbox();
