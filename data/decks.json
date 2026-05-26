@@ -1,311 +1,1853 @@
 {
-  "decks": [
+ "decks": [
+  {
+   "id": "aerodynamik",
+   "title": "Aerodynamik",
+   "category": "Aerodynamics",
+   "instructor": "Stefan Keller",
+   "icon": "📐",
+   "slides": [
     {
-      "id": "aerodynamik",
-      "title": "Aerodynamik",
-      "category": "Aerodynamics",
-      "instructor": "Stefan Keller",
-      "icon": "📐",
-      "pages": [
-        1,
-        2,
-        3,
-        4,
-        5,
-        6,
-        7,
-        8,
-        9,
-        10,
-        11,
-        12,
-        13,
-        14,
-        15,
-        16,
-        17,
-        18,
-        19,
-        20,
-        21,
-        22,
-        23,
-        24,
-        25,
-        26,
-        27,
-        28,
-        29,
-        30,
-        31,
-        32,
-        33,
-        34,
-        35,
-        36,
-        37,
-        38,
-        39,
-        40,
-        41,
-        42,
-        43,
-        44,
-        45,
-        46,
-        47,
-        48,
-        49,
-        50,
-        51,
-        52,
-        53,
-        54,
-        55,
-        56,
-        57,
-        58,
-        59,
-        60,
-        61,
-        62,
-        63,
-        64
-      ],
-      "path": "assets/freewings/aerodynamik"
+     "page": 1,
+     "de_title": "AERODYNAMIK",
+     "de_body": "",
+     "en_title": "Aerodynamics",
+     "en_body": ""
     },
     {
-      "id": "meteo",
-      "title": "Meteo",
-      "category": "Meteorology",
-      "instructor": "Freewings",
-      "icon": "🌦️",
-      "pages": [
-        1,
-        2,
-        3,
-        4,
-        5,
-        6,
-        7,
-        8,
-        9,
-        10,
-        11,
-        12,
-        13,
-        14,
-        15,
-        16,
-        17,
-        18,
-        19,
-        20,
-        21,
-        22,
-        23,
-        24,
-        25,
-        26,
-        27,
-        28,
-        29,
-        30,
-        31,
-        32,
-        33,
-        34,
-        35,
-        36,
-        37,
-        38,
-        39,
-        40,
-        41,
-        42,
-        43,
-        44,
-        45,
-        46,
-        47,
-        48,
-        49,
-        50,
-        51,
-        52,
-        53,
-        54,
-        55,
-        56,
-        57,
-        58,
-        59,
-        60,
-        61,
-        62,
-        63,
-        64,
-        65,
-        66,
-        67,
-        68,
-        69,
-        70,
-        71,
-        72,
-        73,
-        74,
-        75,
-        76,
-        77,
-        78,
-        79,
-        80,
-        81,
-        82,
-        83,
-        84,
-        85,
-        86,
-        87
-      ],
-      "path": "assets/freewings/meteo"
+     "page": 2,
+     "de_title": "WARUM FLIEGT EIN GLEITSCHIRM?",
+     "de_body": "",
+     "en_title": "Why does a paraglider fly?",
+     "en_body": ""
     },
     {
-      "id": "luftrecht",
-      "title": "Luftrecht",
-      "category": "Legislation",
-      "instructor": "Freewings",
-      "icon": "⚖️",
-      "pages": [
-        1,
-        2,
-        3,
-        4,
-        5,
-        6,
-        7,
-        8,
-        9,
-        10,
-        11,
-        12,
-        13,
-        14,
-        15,
-        16,
-        17,
-        18,
-        19,
-        20,
-        21,
-        22,
-        23,
-        24,
-        25,
-        26,
-        27,
-        28,
-        29,
-        30,
-        31,
-        32,
-        33,
-        34,
-        35,
-        36,
-        37,
-        38,
-        39,
-        40,
-        41,
-        42,
-        43,
-        44,
-        45,
-        46,
-        47,
-        48,
-        49,
-        50,
-        51,
-        52,
-        53,
-        54,
-        55,
-        56,
-        57,
-        58,
-        59,
-        60,
-        61,
-        62,
-        63,
-        64,
-        65,
-        66,
-        67
-      ],
-      "path": "assets/freewings/luftrecht"
+     "page": 3,
+     "de_title": "GESCHICHTE — OTTO LILIENTHAL",
+     "de_body": "Pionier des Gleitflugs.",
+     "en_title": "History — Otto Lilienthal",
+     "en_body": "Pioneer of gliding flight."
     },
     {
-      "id": "material",
-      "title": "Material",
-      "category": "Equipment",
-      "instructor": "Freewings",
-      "icon": "🪂",
-      "pages": [
-        1,
-        2,
-        3,
-        4,
-        5,
-        6,
-        7,
-        8,
-        9,
-        10,
-        11,
-        12,
-        13,
-        14,
-        15,
-        16,
-        17,
-        18,
-        19,
-        20,
-        21
-      ],
-      "path": "assets/freewings/material"
+     "page": 4,
+     "de_title": "THEORIE VON BERNOULLI",
+     "de_body": "Anströmung — schnellere Luft oben am Profil erzeugt Unterdruck (Auftrieb).",
+     "en_title": "Bernoulli's principle",
+     "en_body": "Faster airflow over the wing top creates lower pressure, generating lift."
     },
     {
-      "id": "flugpraxis",
-      "title": "Flugpraxis",
-      "category": "Flight Practice",
-      "instructor": "Sam Hochstrasser",
-      "icon": "✈️",
-      "pages": [
-        1,
-        2,
-        3,
-        4,
-        5,
-        6,
-        7,
-        8,
-        9,
-        10,
-        11,
-        12,
-        13,
-        14,
-        15,
-        16,
-        17,
-        18
-      ],
-      "path": "assets/freewings/flugpraxis"
+     "page": 5,
+     "de_title": "RÜCKSTOSSPRINZIP / AKTION = REAKTION",
+     "de_body": "Beim Autofahren Hand aus dem Fenster halten!",
+     "en_title": "Recoil principle / Action = Reaction",
+     "en_body": "Like holding your hand out of a moving car window!"
+    },
+    {
+     "page": 6,
+     "de_title": "ZIRKULATIONSSTRÖMUNG",
+     "de_body": "Umlaufende Strömung um das Profil.",
+     "en_title": "Circulation flow",
+     "en_body": "Circulating airflow around the wing profile."
+    },
+    {
+     "page": 7,
+     "de_title": "FLÜGELPROFIL",
+     "de_body": "Profildicke, Profilsehne, Eintrittskante, Austrittskante, Profiltiefe.\nBei Gleitschirmen relativ dick und asymmetrisch.",
+     "en_title": "Wing profile (airfoil)",
+     "en_body": "Profile thickness, chord line, leading edge, trailing edge, chord length.\nParaglider profiles are relatively thick and asymmetric."
+    },
+    {
+     "page": 8,
+     "de_title": "KRÄFTEADDITION — F1 + F4",
+     "de_body": "Die Kräfte F1 und F4 wirken auf einen Körper. Sie haben denselben Angriffspunkt. Welches ist die Resultierende R der beiden Kräfte?",
+     "en_title": "Adding forces — F1 + F4",
+     "en_body": "Forces F1 and F4 act on a body at the same point of application. What is the resultant R of the two forces?"
+    },
+    {
+     "page": 9,
+     "de_title": "KRÄFTEADDITION — F1 + F2",
+     "de_body": "Die Kräfte F1 und F2 wirken auf einen Körper. Sie haben denselben Angriffspunkt. Welches ist die Resultierende R der beiden Kräfte?",
+     "en_title": "Adding forces — F1 + F2",
+     "en_body": "Forces F1 and F2 act on a body at the same point of application. What is the resultant R of the two forces?"
+    },
+    {
+     "page": 10,
+     "de_title": "KRÄFTEADDITION — F1 + F3",
+     "de_body": "Die Kräfte F1 und F3 wirken auf einen Körper. Sie haben denselben Angriffspunkt. Welches ist die Resultierende R der beiden Kräfte?",
+     "en_title": "Adding forces — F1 + F3",
+     "en_body": "Forces F1 and F3 act on a body at the same point of application. What is the resultant R of the two forces?"
+    },
+    {
+     "page": 11,
+     "de_title": "KRÄFTE AM GLEITSCHIRM",
+     "de_body": "Luftkraftresultierende, Auftrieb, Widerstand, Gewichtskraft, Druckpunkt.",
+     "en_title": "Forces on a paraglider",
+     "en_body": "Resultant aerodynamic force, lift, drag, weight, centre of pressure."
+    },
+    {
+     "page": 12,
+     "de_title": "KRÄFTE AM GLEITSCHIRM — ANSTRÖMUNG",
+     "de_body": "Luftkraftresultierende, Auftrieb, Widerstand, Anströmung, Gewichtskraft, Druckpunkt.",
+     "en_title": "Forces on a paraglider — airflow",
+     "en_body": "Resultant aerodynamic force, lift, drag, incoming airflow, weight, centre of pressure."
+    },
+    {
+     "page": 13,
+     "de_title": "LUFTWIDERSTAND EINES KÖRPERS",
+     "de_body": "Beiwert (Form / Anstellwinkel), Grösse / Stirnfläche, Geschwindigkeit, Luftdichte.",
+     "en_title": "Drag of a body",
+     "en_body": "Drag coefficient (shape / angle of attack), size / frontal area, velocity, air density."
+    },
+    {
+     "page": 14,
+     "de_title": "AUFTRIEB EINES KÖRPERS",
+     "de_body": "Beiwert (Form / Anstellwinkel), Grösse / Stirnfläche, Geschwindigkeit, Luftdichte.",
+     "en_title": "Lift of a body",
+     "en_body": "Lift coefficient (shape / angle of attack), size / frontal area, velocity, air density."
+    },
+    {
+     "page": 15,
+     "de_title": "ZUSAMMENHÄNGE",
+     "de_body": "Doppelte Fläche = doppelter Auftrieb.\nHalbe Luftdichte = halber Widerstand.\nABER: Doppelte Geschwindigkeit = vierfacher Widerstand.",
+     "en_title": "Relationships",
+     "en_body": "Double the area = double the lift.\nHalf the air density = half the drag.\nBUT: double the speed = quadruple the drag."
+    },
+    {
+     "page": 16,
+     "de_title": "RECHENBEISPIEL WIDERSTAND",
+     "de_body": "Diese Berechnungen ergeben immer eine Kraft in Newton.\nWird ein Körper mit einer Stirnfläche von 0,75 m² auf Meereshöhe einem Luftstrom von 30 km/h ausgesetzt, erzeugt er einen Widerstand von 100 N (ca. 10 kp). Welchen Widerstand erzeugt derselbe Körper bei einem Luftstrom...",
+     "en_title": "Drag calculation example",
+     "en_body": "These calculations always yield a force in Newtons.\nA body with 0.75 m² frontal area at sea level in a 30 km/h airflow produces 100 N (~10 kp) of drag. What drag does the same body produce at another airflow speed?"
+    },
+    {
+     "page": 17,
+     "de_title": "LUFTDRUCK MIT DER HÖHE",
+     "de_body": "Luftdruck (hPa) nimmt mit der Höhe ab — Beispiel Mt. Everest.",
+     "en_title": "Air pressure vs altitude",
+     "en_body": "Air pressure (hPa) decreases with altitude — illustrated with Mt. Everest."
+    },
+    {
+     "page": 18,
+     "de_title": "WIDERSTANDSBEIWERTE",
+     "de_body": "Verschiedene Formen haben verschiedene Cw-Werte (z. B. Halbschale 1,3; Platte 1,1; Tropfen 0,1). Formel: W = Cw · ½ · ρ · V² · S.",
+     "en_title": "Drag coefficients (Cw)",
+     "en_body": "Different shapes have different drag coefficients (e.g. cup 1.3, plate 1.1, teardrop 0.1). Formula: W = Cw · ½ · ρ · V² · S."
+    },
+    {
+     "page": 19,
+     "de_title": "ANSTELLWINKELVERÄNDERUNGEN",
+     "de_body": "",
+     "en_title": "Changes in angle of attack",
+     "en_body": ""
+    },
+    {
+     "page": 20,
+     "de_title": "ANSTELLWINKEL WIRD GRÖSSER",
+     "de_body": "→ Schirm fliegt langsamer\n→ Cw + Ca werden grösser",
+     "en_title": "Angle of attack increases",
+     "en_body": "→ Glider flies slower\n→ Drag and lift coefficients (Cw + Ca) both increase"
+    },
+    {
+     "page": 21,
+     "de_title": "ANSTELLWINKEL WIRD KLEINER",
+     "de_body": "",
+     "en_title": "Angle of attack decreases",
+     "en_body": ""
+    },
+    {
+     "page": 22,
+     "de_title": "ANSTELLWINKEL WIRD KLEINER",
+     "de_body": "→ Schirm fliegt schneller\n→ Cw + Ca werden kleiner\nAnströmung.",
+     "en_title": "Angle of attack decreases",
+     "en_body": "→ Glider flies faster\n→ Drag and lift coefficients (Cw + Ca) both decrease\nIncoming airflow."
+    },
+    {
+     "page": 23,
+     "de_title": "STAUPUNKT UND ABLÖSEPUNKT",
+     "de_body": "Staupunkt vorne am Profil; Ablösepunkt hinten, wo die Strömung abreisst.",
+     "en_title": "Stagnation point and separation point",
+     "en_body": "Stagnation point at the front of the wing; separation point at the rear where airflow detaches."
+    },
+    {
+     "page": 24,
+     "de_title": "STAUPUNKT UND ABLÖSEPUNKT",
+     "de_body": "Bei normalem Anstellwinkel liegen Stau- und Ablösepunkt günstig.",
+     "en_title": "Stagnation and separation point",
+     "en_body": "At normal angle of attack stagnation and separation points are favourably placed."
+    },
+    {
+     "page": 25,
+     "de_title": "STAUPUNKT UND ABLÖSEPUNKT",
+     "de_body": "Bei grossem Anstellwinkel wandert der Staupunkt nach unten, der Ablösepunkt nach vorne.",
+     "en_title": "Stagnation and separation point",
+     "en_body": "At high angle of attack the stagnation point moves down and the separation point moves forward."
+    },
+    {
+     "page": 26,
+     "de_title": "STAUPUNKT UND ABLÖSEPUNKT",
+     "de_body": "Bei kleinem Anstellwinkel wandert der Staupunkt nach oben — Klappergefahr an der Eintrittskante.",
+     "en_title": "Stagnation and separation point",
+     "en_body": "At low angle of attack the stagnation point moves up — risk of collapse at the leading edge."
+    },
+    {
+     "page": 27,
+     "de_title": "RANDWIRBEL UND WIDERSTAND",
+     "de_body": "Profilwiderstand ca. 20 %\nInduzierter Widerstand ca. 40 %\nLeinen ca. 20 %\nPilot:in ca. 20 %",
+     "en_title": "Tip vortices and drag",
+     "en_body": "Profile drag ~20%\nInduced drag ~40%\nLines ~20%\nPilot ~20%"
+    },
+    {
+     "page": 28,
+     "de_title": "LIEGEGURTZEUG",
+     "de_body": "Reduzierte Stirnfläche → weniger Pilotenwiderstand.",
+     "en_title": "Reclined (pod) harness",
+     "en_body": "Reduced frontal area → less pilot drag."
+    },
+    {
+     "page": 29,
+     "de_title": "BEGRIFFSERKLÄRUNG",
+     "de_body": "Wichtige Begriffe rund um den Gleitschirm-Flügel.",
+     "en_title": "Terminology",
+     "en_body": "Key terms used to describe the paraglider wing."
+    },
+    {
+     "page": 30,
+     "de_title": "SPANNWEITE",
+     "de_body": "Abstand von einem Flügelende zum anderen.",
+     "en_title": "Wingspan",
+     "en_body": "Distance from one wing tip to the other."
+    },
+    {
+     "page": 31,
+     "de_title": "FLÜGELTIEFE / MITTLERE FLÜGELTIEFE",
+     "de_body": "Abstand zwischen Eintritts- und Austrittskante; gemittelt über die Spannweite.",
+     "en_title": "Chord / mean chord",
+     "en_body": "Distance from leading to trailing edge, averaged across the span."
+    },
+    {
+     "page": 32,
+     "de_title": "STRECKUNG (SEITENVERHÄLTNIS)",
+     "de_body": "Verhältnis zwischen Spannweite und mittlerer Flügeltiefe.\nSpannweite ÷ mittlere Flügeltiefe (Durchschnitt).\nmittlere Flügeltiefe × Spannweite = Fläche.",
+     "en_title": "Aspect ratio",
+     "en_body": "Ratio of wingspan to mean chord.\nSpan ÷ mean chord (average).\nMean chord × span = wing area."
+    },
+    {
+     "page": 33,
+     "de_title": "PROJIZIERTE FLÄCHE",
+     "de_body": "Die von oben sichtbare Schattenfläche des Schirms, kleiner als die ausgelegte Fläche.",
+     "en_title": "Projected area",
+     "en_body": "The shadow area visible from above; smaller than the flat (laid-out) area."
+    },
+    {
+     "page": 34,
+     "de_title": "ZULADUNG, GESAMTFLUGGEWICHT UND FLÄCHENBELASTUNG",
+     "de_body": "Achtung: nicht Zuladung, sondern Gesamtfluggewicht!\nFlächenbelastung = Gesamtfluggewicht ÷ projizierte Fläche.",
+     "en_title": "Payload, all-up weight and wing loading",
+     "en_body": "Note: not payload but total all-up weight!\nWing loading = total weight ÷ projected area."
+    },
+    {
+     "page": 35,
+     "de_title": "GLEITWINKEL vs. GLEITZAHL",
+     "de_body": "Gleitwinkel ist nicht dasselbe wie die Gleitzahl!\nGleitzahl = Horizontalgeschwindigkeit ÷ Vertikalgeschwindigkeit = Auftrieb ÷ Widerstand = Ca ÷ Cw.",
+     "en_title": "Glide angle vs. glide ratio",
+     "en_body": "Glide angle is not the same as glide ratio!\nGlide ratio = horizontal speed ÷ vertical speed = lift ÷ drag = Ca ÷ Cw."
+    },
+    {
+     "page": 36,
+     "de_title": "GLEITWINKEL",
+     "de_body": "→ Gleitwinkel gross bei 1 m/s Sinken bedeutet flacher Gleitwinkel.",
+     "en_title": "Glide angle",
+     "en_body": "A larger glide ratio at the same sink rate (~1 m/s) means a flatter glide path."
+    },
+    {
+     "page": 37,
+     "de_title": "GESCHWINDIGKEITSPOLARE — 4 PUNKTE",
+     "de_body": "Horizontalgeschwindigkeit (x-Achse), Vertikalgeschwindigkeit (y-Achse). Die vier Punkte: Stall, geringstes Sinken, bestes Gleiten, Vmax.",
+     "en_title": "Speed polar — 4 key points",
+     "en_body": "Horizontal speed (x-axis), vertical speed (y-axis). Four key points: Stall, minimum sink, best glide, Vmax."
+    },
+    {
+     "page": 38,
+     "de_title": "GESCHWINDIGKEITSPOLARE — bestes Gleiten",
+     "de_body": "Bestes Gleiten = Tangente vom Ursprung (Nullwind) an die Polare.",
+     "en_title": "Speed polar — best glide",
+     "en_body": "Best glide = tangent from the origin (no wind) to the polar curve."
+    },
+    {
+     "page": 39,
+     "de_title": "GESCHWINDIGKEITSPOLARE — mit Gegenwind",
+     "de_body": "Bei Gegenwind verschiebt sich der Ausgangspunkt der Tangente nach rechts → bestes Gleiten liegt bei höherer Geschwindigkeit.",
+     "en_title": "Speed polar — with headwind",
+     "en_body": "Headwind shifts the tangent origin to the right → best glide is at a higher airspeed."
+    },
+    {
+     "page": 40,
+     "de_title": "GESCHWINDIGKEITSPOLARE",
+     "de_body": "Schematische Darstellung der Polare.",
+     "en_title": "Speed polar",
+     "en_body": "Schematic of the polar curve."
+    },
+    {
+     "page": 41,
+     "de_title": "GESCHWINDIGKEITSPOLARE",
+     "de_body": "Polare mit Markierungen für die wichtigen Punkte.",
+     "en_title": "Speed polar",
+     "en_body": "Polar curve with the key operating points marked."
+    },
+    {
+     "page": 42,
+     "de_title": "GESCHWINDIGKEITSPOLARE",
+     "de_body": "Polare bei Rückenwind — Ausgangspunkt der Tangente verschiebt sich nach links.",
+     "en_title": "Speed polar",
+     "en_body": "Polar with tailwind — the tangent origin shifts to the left."
+    },
+    {
+     "page": 43,
+     "de_title": "GESCHWINDIGKEITSPOLARE — bestes Gleiten",
+     "de_body": "Bei Rückenwind liegt bestes Gleiten bei tieferer Geschwindigkeit.",
+     "en_title": "Speed polar — best glide",
+     "en_body": "With tailwind, best glide is at a slower airspeed."
+    },
+    {
+     "page": 44,
+     "de_title": "GESCHWINDIGKEITSPOLARE",
+     "de_body": "Polare bei Aufwind.",
+     "en_title": "Speed polar",
+     "en_body": "Polar in rising air."
+    },
+    {
+     "page": 45,
+     "de_title": "GESCHWINDIGKEITSPOLARE",
+     "de_body": "Polare bei Abwind.",
+     "en_title": "Speed polar",
+     "en_body": "Polar in sinking air."
+    },
+    {
+     "page": 46,
+     "de_title": "GESCHWINDIGKEITSPOLARE",
+     "de_body": "Zusammenwirken von Wind und Vertikalbewegung.",
+     "en_title": "Speed polar",
+     "en_body": "Combined effect of wind and vertical air movement."
+    },
+    {
+     "page": 47,
+     "de_title": "GESCHWINDIGKEITSPOLARE",
+     "de_body": "Beschleunigtes Fliegen bei Abwind / Gegenwind.",
+     "en_title": "Speed polar",
+     "en_body": "Accelerated flight in sink / headwind conditions."
+    },
+    {
+     "page": 48,
+     "de_title": "GESCHWINDIGKEITSPOLARE",
+     "de_body": "Angebremstes Fliegen bei Aufwind / Rückenwind.",
+     "en_title": "Speed polar",
+     "en_body": "Slightly braked flight in lift / tailwind conditions."
+    },
+    {
+     "page": 49,
+     "de_title": "GESCHWINDIGKEITSPOLARE — bestes Gleiten",
+     "de_body": "Bestes Gleiten verschiebt sich je nach Wind- und Vertikalbedingungen.",
+     "en_title": "Speed polar — best glide",
+     "en_body": "Best glide shifts depending on wind and vertical air movement."
+    },
+    {
+     "page": 50,
+     "de_title": "GESCHWINDIGKEITSPOLARE",
+     "de_body": "Übersicht über die Polare und ihre Verschiebungen.",
+     "en_title": "Speed polar",
+     "en_body": "Overview of the polar curve and its shifts."
+    },
+    {
+     "page": 51,
+     "de_title": "GESCHWINDIGKEITSPOLARE",
+     "de_body": "Zusammenfassung der Polare.",
+     "en_title": "Speed polar",
+     "en_body": "Summary of the speed polar."
+    },
+    {
+     "page": 52,
+     "de_title": "FLIEGEN BEI WIND UND VERTIKALBEWEGUNG",
+     "de_body": "Bei Abwind und Gegenwind:\n→ beschleunigt fliegen\n→ nur bei genügend Hangabstand, da erhöhte Klappergefahr!\n\nBei Aufwind und Rückenwind:\n→ leicht angebremst fliegen\n→ für bessere Gleitzahl und weitere mögliche Distanz!",
+     "en_title": "Flying with wind and vertical air movement",
+     "en_body": "In sink / headwind:\n→ fly accelerated (speed bar)\n→ only with enough terrain clearance — higher collapse risk!\n\nIn lift / tailwind:\n→ fly slightly braked\n→ for better glide ratio and more distance!"
+    },
+    {
+     "page": 53,
+     "de_title": "GLEITZAHL / GLEITWINKEL BEI WIND",
+     "de_body": "Wind verändert die Flugbahn über Grund: Gegenwind macht die Bahn steiler, Rückenwind flacher.",
+     "en_title": "Glide ratio / glide angle with wind",
+     "en_body": "Wind changes the path over ground: headwind steepens it, tailwind flattens it."
+    },
+    {
+     "page": 54,
+     "de_title": "PRÜFUNGSFRAGE — ABWIND UND GLEITZAHL",
+     "de_body": "Ein Hängegleiterpilot fliegt mit einer Geschwindigkeit von ... in ein Abwindfeld, in dem die Luft mit 1 m/s sinkt. Wenn er die Geschwindigkeit beibehält:\na) nimmt seine Gleitzahl von 10 auf 5 ab.\nb) nimmt seine Gleitzahl von 5 auf 10 zu.\nc) nehmen das Sinken und die Gleitzahl zu.\nd) nehmen das Sinken und die Gleitzahl ab.",
+     "en_title": "Exam question — sink and glide ratio",
+     "en_body": "A hang glider pilot flies at speed ... into a sink area where the air descends at 1 m/s. If they maintain their airspeed:\na) glide ratio decreases from 10 to 5.\nb) glide ratio increases from 5 to 10.\nc) sink rate increases and glide ratio increases.\nd) sink rate and glide ratio both decrease."
+    },
+    {
+     "page": 55,
+     "de_title": "BEWEGUNGEN UM DIE 3 ACHSEN",
+     "de_body": "Einführung in die drei Bewegungsachsen am Gleitschirm.",
+     "en_title": "Motion around the 3 axes",
+     "en_body": "Introduction to the three motion axes of a paraglider."
+    },
+    {
+     "page": 56,
+     "de_title": "BEWEGUNGEN UM DIE 3 ACHSEN",
+     "de_body": "Querachse → Längsstabilität, Bewegung: Nicken.",
+     "en_title": "Motion around the 3 axes",
+     "en_body": "Lateral (pitch) axis → longitudinal stability, motion: pitching."
+    },
+    {
+     "page": 57,
+     "de_title": "BEWEGUNGEN UM DIE 3 ACHSEN",
+     "de_body": "Längsachse → Querstabilität, Bewegung: Rollen.\nQuerachse → Längsstabilität, Bewegung: Nicken.",
+     "en_title": "Motion around the 3 axes",
+     "en_body": "Longitudinal (roll) axis → lateral stability, motion: rolling.\nLateral (pitch) axis → longitudinal stability, motion: pitching."
+    },
+    {
+     "page": 58,
+     "de_title": "BEWEGUNGEN UM DIE 3 ACHSEN",
+     "de_body": "Längsachse → Querstabilität, Bewegung: Rollen.\nQuerachse → Längsstabilität, Bewegung: Nicken.\nHochachse → Richtungsstabilität, Bewegung: Gieren.",
+     "en_title": "Motion around the 3 axes",
+     "en_body": "Longitudinal axis → lateral stability, rolling.\nLateral axis → longitudinal stability, pitching.\nVertical axis → directional stability, yawing."
+    },
+    {
+     "page": 59,
+     "de_title": "STABIL, LABIL, INDIFFERENT",
+     "de_body": "Drei mögliche Reaktionen eines Systems auf eine Störung.",
+     "en_title": "Stable, unstable, neutral",
+     "en_body": "Three ways a system can respond to a disturbance."
+    },
+    {
+     "page": 60,
+     "de_title": "STABIL, LABIL, INDIFFERENT",
+     "de_body": "Stabil: Schirm kehrt nach Lösen vom Beschleuniger wieder zur Trimmgeschwindigkeit zurück.",
+     "en_title": "Stable, unstable, neutral",
+     "en_body": "Stable: after releasing the speed bar, the glider returns to trim speed."
+    },
+    {
+     "page": 61,
+     "de_title": "STABIL, LABIL, INDIFFERENT",
+     "de_body": "Stabil: Schirm kehrt nach Lösen vom Beschleuniger wieder zur Trimmgeschwindigkeit zurück.\nLabil: Schirm wird immer schneller.",
+     "en_title": "Stable, unstable, neutral",
+     "en_body": "Stable: returns to trim speed after releasing the speed bar.\nUnstable: glider keeps accelerating."
+    },
+    {
+     "page": 62,
+     "de_title": "STABIL, LABIL, INDIFFERENT",
+     "de_body": "Stabil: Schirm kehrt nach Lösen vom Beschleuniger wieder zur Trimmgeschwindigkeit zurück.\nLabil: Schirm wird immer schneller.\nIndifferent: Schirm hält nach einer Störung die Fluglage bei.",
+     "en_title": "Stable, unstable, neutral",
+     "en_body": "Stable: returns to trim speed after releasing the speed bar.\nUnstable: glider keeps accelerating.\nNeutral: glider holds its attitude after a disturbance."
+    },
+    {
+     "page": 63,
+     "de_title": "KURVENFLUG",
+     "de_body": "„Im Kurvenflug nehmen das Lastenvielfache und die minimale Geschwindigkeit zu.“",
+     "en_title": "Turning flight",
+     "en_body": "\"In turning flight, both the load factor and minimum speed increase.\""
+    },
+    {
+     "page": 64,
+     "de_title": "VIELEN DANK FÜR EURE AUFMERKSAMKEIT",
+     "de_body": "FreeWings",
+     "en_title": "Thank you for your attention",
+     "en_body": "FreeWings"
     }
-  ]
+   ],
+   "path": "assets/freewings/aerodynamik"
+  },
+  {
+   "id": "meteo",
+   "title": "Meteo",
+   "category": "Meteorology",
+   "instructor": "Freewings",
+   "icon": "🌦️",
+   "slides": [
+    {
+     "page": 1,
+     "de_title": "",
+     "de_body": "",
+     "en_title": "",
+     "en_body": ""
+    },
+    {
+     "page": 2,
+     "de_title": "",
+     "de_body": "",
+     "en_title": "",
+     "en_body": ""
+    },
+    {
+     "page": 3,
+     "de_title": "",
+     "de_body": "",
+     "en_title": "",
+     "en_body": ""
+    },
+    {
+     "page": 4,
+     "de_title": "",
+     "de_body": "",
+     "en_title": "",
+     "en_body": ""
+    },
+    {
+     "page": 5,
+     "de_title": "",
+     "de_body": "",
+     "en_title": "",
+     "en_body": ""
+    },
+    {
+     "page": 6,
+     "de_title": "",
+     "de_body": "",
+     "en_title": "",
+     "en_body": ""
+    },
+    {
+     "page": 7,
+     "de_title": "",
+     "de_body": "",
+     "en_title": "",
+     "en_body": ""
+    },
+    {
+     "page": 8,
+     "de_title": "",
+     "de_body": "",
+     "en_title": "",
+     "en_body": ""
+    },
+    {
+     "page": 9,
+     "de_title": "",
+     "de_body": "",
+     "en_title": "",
+     "en_body": ""
+    },
+    {
+     "page": 10,
+     "de_title": "",
+     "de_body": "",
+     "en_title": "",
+     "en_body": ""
+    },
+    {
+     "page": 11,
+     "de_title": "",
+     "de_body": "",
+     "en_title": "",
+     "en_body": ""
+    },
+    {
+     "page": 12,
+     "de_title": "",
+     "de_body": "",
+     "en_title": "",
+     "en_body": ""
+    },
+    {
+     "page": 13,
+     "de_title": "",
+     "de_body": "",
+     "en_title": "",
+     "en_body": ""
+    },
+    {
+     "page": 14,
+     "de_title": "",
+     "de_body": "",
+     "en_title": "",
+     "en_body": ""
+    },
+    {
+     "page": 15,
+     "de_title": "",
+     "de_body": "",
+     "en_title": "",
+     "en_body": ""
+    },
+    {
+     "page": 16,
+     "de_title": "",
+     "de_body": "",
+     "en_title": "",
+     "en_body": ""
+    },
+    {
+     "page": 17,
+     "de_title": "",
+     "de_body": "",
+     "en_title": "",
+     "en_body": ""
+    },
+    {
+     "page": 18,
+     "de_title": "",
+     "de_body": "",
+     "en_title": "",
+     "en_body": ""
+    },
+    {
+     "page": 19,
+     "de_title": "",
+     "de_body": "",
+     "en_title": "",
+     "en_body": ""
+    },
+    {
+     "page": 20,
+     "de_title": "",
+     "de_body": "",
+     "en_title": "",
+     "en_body": ""
+    },
+    {
+     "page": 21,
+     "de_title": "",
+     "de_body": "",
+     "en_title": "",
+     "en_body": ""
+    },
+    {
+     "page": 22,
+     "de_title": "",
+     "de_body": "",
+     "en_title": "",
+     "en_body": ""
+    },
+    {
+     "page": 23,
+     "de_title": "",
+     "de_body": "",
+     "en_title": "",
+     "en_body": ""
+    },
+    {
+     "page": 24,
+     "de_title": "",
+     "de_body": "",
+     "en_title": "",
+     "en_body": ""
+    },
+    {
+     "page": 25,
+     "de_title": "",
+     "de_body": "",
+     "en_title": "",
+     "en_body": ""
+    },
+    {
+     "page": 26,
+     "de_title": "",
+     "de_body": "",
+     "en_title": "",
+     "en_body": ""
+    },
+    {
+     "page": 27,
+     "de_title": "",
+     "de_body": "",
+     "en_title": "",
+     "en_body": ""
+    },
+    {
+     "page": 28,
+     "de_title": "",
+     "de_body": "",
+     "en_title": "",
+     "en_body": ""
+    },
+    {
+     "page": 29,
+     "de_title": "",
+     "de_body": "",
+     "en_title": "",
+     "en_body": ""
+    },
+    {
+     "page": 30,
+     "de_title": "",
+     "de_body": "",
+     "en_title": "",
+     "en_body": ""
+    },
+    {
+     "page": 31,
+     "de_title": "",
+     "de_body": "",
+     "en_title": "",
+     "en_body": ""
+    },
+    {
+     "page": 32,
+     "de_title": "",
+     "de_body": "",
+     "en_title": "",
+     "en_body": ""
+    },
+    {
+     "page": 33,
+     "de_title": "",
+     "de_body": "",
+     "en_title": "",
+     "en_body": ""
+    },
+    {
+     "page": 34,
+     "de_title": "",
+     "de_body": "",
+     "en_title": "",
+     "en_body": ""
+    },
+    {
+     "page": 35,
+     "de_title": "",
+     "de_body": "",
+     "en_title": "",
+     "en_body": ""
+    },
+    {
+     "page": 36,
+     "de_title": "",
+     "de_body": "",
+     "en_title": "",
+     "en_body": ""
+    },
+    {
+     "page": 37,
+     "de_title": "",
+     "de_body": "",
+     "en_title": "",
+     "en_body": ""
+    },
+    {
+     "page": 38,
+     "de_title": "",
+     "de_body": "",
+     "en_title": "",
+     "en_body": ""
+    },
+    {
+     "page": 39,
+     "de_title": "",
+     "de_body": "",
+     "en_title": "",
+     "en_body": ""
+    },
+    {
+     "page": 40,
+     "de_title": "",
+     "de_body": "",
+     "en_title": "",
+     "en_body": ""
+    },
+    {
+     "page": 41,
+     "de_title": "",
+     "de_body": "",
+     "en_title": "",
+     "en_body": ""
+    },
+    {
+     "page": 42,
+     "de_title": "",
+     "de_body": "",
+     "en_title": "",
+     "en_body": ""
+    },
+    {
+     "page": 43,
+     "de_title": "",
+     "de_body": "",
+     "en_title": "",
+     "en_body": ""
+    },
+    {
+     "page": 44,
+     "de_title": "",
+     "de_body": "",
+     "en_title": "",
+     "en_body": ""
+    },
+    {
+     "page": 45,
+     "de_title": "",
+     "de_body": "",
+     "en_title": "",
+     "en_body": ""
+    },
+    {
+     "page": 46,
+     "de_title": "",
+     "de_body": "",
+     "en_title": "",
+     "en_body": ""
+    },
+    {
+     "page": 47,
+     "de_title": "",
+     "de_body": "",
+     "en_title": "",
+     "en_body": ""
+    },
+    {
+     "page": 48,
+     "de_title": "",
+     "de_body": "",
+     "en_title": "",
+     "en_body": ""
+    },
+    {
+     "page": 49,
+     "de_title": "",
+     "de_body": "",
+     "en_title": "",
+     "en_body": ""
+    },
+    {
+     "page": 50,
+     "de_title": "",
+     "de_body": "",
+     "en_title": "",
+     "en_body": ""
+    },
+    {
+     "page": 51,
+     "de_title": "",
+     "de_body": "",
+     "en_title": "",
+     "en_body": ""
+    },
+    {
+     "page": 52,
+     "de_title": "",
+     "de_body": "",
+     "en_title": "",
+     "en_body": ""
+    },
+    {
+     "page": 53,
+     "de_title": "",
+     "de_body": "",
+     "en_title": "",
+     "en_body": ""
+    },
+    {
+     "page": 54,
+     "de_title": "",
+     "de_body": "",
+     "en_title": "",
+     "en_body": ""
+    },
+    {
+     "page": 55,
+     "de_title": "",
+     "de_body": "",
+     "en_title": "",
+     "en_body": ""
+    },
+    {
+     "page": 56,
+     "de_title": "",
+     "de_body": "",
+     "en_title": "",
+     "en_body": ""
+    },
+    {
+     "page": 57,
+     "de_title": "",
+     "de_body": "",
+     "en_title": "",
+     "en_body": ""
+    },
+    {
+     "page": 58,
+     "de_title": "",
+     "de_body": "",
+     "en_title": "",
+     "en_body": ""
+    },
+    {
+     "page": 59,
+     "de_title": "",
+     "de_body": "",
+     "en_title": "",
+     "en_body": ""
+    },
+    {
+     "page": 60,
+     "de_title": "",
+     "de_body": "",
+     "en_title": "",
+     "en_body": ""
+    },
+    {
+     "page": 61,
+     "de_title": "",
+     "de_body": "",
+     "en_title": "",
+     "en_body": ""
+    },
+    {
+     "page": 62,
+     "de_title": "",
+     "de_body": "",
+     "en_title": "",
+     "en_body": ""
+    },
+    {
+     "page": 63,
+     "de_title": "",
+     "de_body": "",
+     "en_title": "",
+     "en_body": ""
+    },
+    {
+     "page": 64,
+     "de_title": "",
+     "de_body": "",
+     "en_title": "",
+     "en_body": ""
+    },
+    {
+     "page": 65,
+     "de_title": "",
+     "de_body": "",
+     "en_title": "",
+     "en_body": ""
+    },
+    {
+     "page": 66,
+     "de_title": "",
+     "de_body": "",
+     "en_title": "",
+     "en_body": ""
+    },
+    {
+     "page": 67,
+     "de_title": "",
+     "de_body": "",
+     "en_title": "",
+     "en_body": ""
+    },
+    {
+     "page": 68,
+     "de_title": "",
+     "de_body": "",
+     "en_title": "",
+     "en_body": ""
+    },
+    {
+     "page": 69,
+     "de_title": "",
+     "de_body": "",
+     "en_title": "",
+     "en_body": ""
+    },
+    {
+     "page": 70,
+     "de_title": "",
+     "de_body": "",
+     "en_title": "",
+     "en_body": ""
+    },
+    {
+     "page": 71,
+     "de_title": "",
+     "de_body": "",
+     "en_title": "",
+     "en_body": ""
+    },
+    {
+     "page": 72,
+     "de_title": "",
+     "de_body": "",
+     "en_title": "",
+     "en_body": ""
+    },
+    {
+     "page": 73,
+     "de_title": "",
+     "de_body": "",
+     "en_title": "",
+     "en_body": ""
+    },
+    {
+     "page": 74,
+     "de_title": "",
+     "de_body": "",
+     "en_title": "",
+     "en_body": ""
+    },
+    {
+     "page": 75,
+     "de_title": "",
+     "de_body": "",
+     "en_title": "",
+     "en_body": ""
+    },
+    {
+     "page": 76,
+     "de_title": "",
+     "de_body": "",
+     "en_title": "",
+     "en_body": ""
+    },
+    {
+     "page": 77,
+     "de_title": "",
+     "de_body": "",
+     "en_title": "",
+     "en_body": ""
+    },
+    {
+     "page": 78,
+     "de_title": "",
+     "de_body": "",
+     "en_title": "",
+     "en_body": ""
+    },
+    {
+     "page": 79,
+     "de_title": "",
+     "de_body": "",
+     "en_title": "",
+     "en_body": ""
+    },
+    {
+     "page": 80,
+     "de_title": "",
+     "de_body": "",
+     "en_title": "",
+     "en_body": ""
+    },
+    {
+     "page": 81,
+     "de_title": "",
+     "de_body": "",
+     "en_title": "",
+     "en_body": ""
+    },
+    {
+     "page": 82,
+     "de_title": "",
+     "de_body": "",
+     "en_title": "",
+     "en_body": ""
+    },
+    {
+     "page": 83,
+     "de_title": "",
+     "de_body": "",
+     "en_title": "",
+     "en_body": ""
+    },
+    {
+     "page": 84,
+     "de_title": "",
+     "de_body": "",
+     "en_title": "",
+     "en_body": ""
+    },
+    {
+     "page": 85,
+     "de_title": "",
+     "de_body": "",
+     "en_title": "",
+     "en_body": ""
+    },
+    {
+     "page": 86,
+     "de_title": "",
+     "de_body": "",
+     "en_title": "",
+     "en_body": ""
+    },
+    {
+     "page": 87,
+     "de_title": "",
+     "de_body": "",
+     "en_title": "",
+     "en_body": ""
+    }
+   ],
+   "path": "assets/freewings/meteo"
+  },
+  {
+   "id": "luftrecht",
+   "title": "Luftrecht",
+   "category": "Legislation",
+   "instructor": "Freewings",
+   "icon": "⚖️",
+   "slides": [
+    {
+     "page": 1,
+     "de_title": "",
+     "de_body": "",
+     "en_title": "",
+     "en_body": ""
+    },
+    {
+     "page": 2,
+     "de_title": "",
+     "de_body": "",
+     "en_title": "",
+     "en_body": ""
+    },
+    {
+     "page": 3,
+     "de_title": "",
+     "de_body": "",
+     "en_title": "",
+     "en_body": ""
+    },
+    {
+     "page": 4,
+     "de_title": "",
+     "de_body": "",
+     "en_title": "",
+     "en_body": ""
+    },
+    {
+     "page": 5,
+     "de_title": "",
+     "de_body": "",
+     "en_title": "",
+     "en_body": ""
+    },
+    {
+     "page": 6,
+     "de_title": "",
+     "de_body": "",
+     "en_title": "",
+     "en_body": ""
+    },
+    {
+     "page": 7,
+     "de_title": "",
+     "de_body": "",
+     "en_title": "",
+     "en_body": ""
+    },
+    {
+     "page": 8,
+     "de_title": "",
+     "de_body": "",
+     "en_title": "",
+     "en_body": ""
+    },
+    {
+     "page": 9,
+     "de_title": "",
+     "de_body": "",
+     "en_title": "",
+     "en_body": ""
+    },
+    {
+     "page": 10,
+     "de_title": "",
+     "de_body": "",
+     "en_title": "",
+     "en_body": ""
+    },
+    {
+     "page": 11,
+     "de_title": "",
+     "de_body": "",
+     "en_title": "",
+     "en_body": ""
+    },
+    {
+     "page": 12,
+     "de_title": "",
+     "de_body": "",
+     "en_title": "",
+     "en_body": ""
+    },
+    {
+     "page": 13,
+     "de_title": "",
+     "de_body": "",
+     "en_title": "",
+     "en_body": ""
+    },
+    {
+     "page": 14,
+     "de_title": "",
+     "de_body": "",
+     "en_title": "",
+     "en_body": ""
+    },
+    {
+     "page": 15,
+     "de_title": "",
+     "de_body": "",
+     "en_title": "",
+     "en_body": ""
+    },
+    {
+     "page": 16,
+     "de_title": "",
+     "de_body": "",
+     "en_title": "",
+     "en_body": ""
+    },
+    {
+     "page": 17,
+     "de_title": "",
+     "de_body": "",
+     "en_title": "",
+     "en_body": ""
+    },
+    {
+     "page": 18,
+     "de_title": "",
+     "de_body": "",
+     "en_title": "",
+     "en_body": ""
+    },
+    {
+     "page": 19,
+     "de_title": "",
+     "de_body": "",
+     "en_title": "",
+     "en_body": ""
+    },
+    {
+     "page": 20,
+     "de_title": "",
+     "de_body": "",
+     "en_title": "",
+     "en_body": ""
+    },
+    {
+     "page": 21,
+     "de_title": "",
+     "de_body": "",
+     "en_title": "",
+     "en_body": ""
+    },
+    {
+     "page": 22,
+     "de_title": "",
+     "de_body": "",
+     "en_title": "",
+     "en_body": ""
+    },
+    {
+     "page": 23,
+     "de_title": "",
+     "de_body": "",
+     "en_title": "",
+     "en_body": ""
+    },
+    {
+     "page": 24,
+     "de_title": "",
+     "de_body": "",
+     "en_title": "",
+     "en_body": ""
+    },
+    {
+     "page": 25,
+     "de_title": "",
+     "de_body": "",
+     "en_title": "",
+     "en_body": ""
+    },
+    {
+     "page": 26,
+     "de_title": "",
+     "de_body": "",
+     "en_title": "",
+     "en_body": ""
+    },
+    {
+     "page": 27,
+     "de_title": "",
+     "de_body": "",
+     "en_title": "",
+     "en_body": ""
+    },
+    {
+     "page": 28,
+     "de_title": "",
+     "de_body": "",
+     "en_title": "",
+     "en_body": ""
+    },
+    {
+     "page": 29,
+     "de_title": "",
+     "de_body": "",
+     "en_title": "",
+     "en_body": ""
+    },
+    {
+     "page": 30,
+     "de_title": "",
+     "de_body": "",
+     "en_title": "",
+     "en_body": ""
+    },
+    {
+     "page": 31,
+     "de_title": "",
+     "de_body": "",
+     "en_title": "",
+     "en_body": ""
+    },
+    {
+     "page": 32,
+     "de_title": "",
+     "de_body": "",
+     "en_title": "",
+     "en_body": ""
+    },
+    {
+     "page": 33,
+     "de_title": "",
+     "de_body": "",
+     "en_title": "",
+     "en_body": ""
+    },
+    {
+     "page": 34,
+     "de_title": "",
+     "de_body": "",
+     "en_title": "",
+     "en_body": ""
+    },
+    {
+     "page": 35,
+     "de_title": "",
+     "de_body": "",
+     "en_title": "",
+     "en_body": ""
+    },
+    {
+     "page": 36,
+     "de_title": "",
+     "de_body": "",
+     "en_title": "",
+     "en_body": ""
+    },
+    {
+     "page": 37,
+     "de_title": "",
+     "de_body": "",
+     "en_title": "",
+     "en_body": ""
+    },
+    {
+     "page": 38,
+     "de_title": "",
+     "de_body": "",
+     "en_title": "",
+     "en_body": ""
+    },
+    {
+     "page": 39,
+     "de_title": "",
+     "de_body": "",
+     "en_title": "",
+     "en_body": ""
+    },
+    {
+     "page": 40,
+     "de_title": "",
+     "de_body": "",
+     "en_title": "",
+     "en_body": ""
+    },
+    {
+     "page": 41,
+     "de_title": "",
+     "de_body": "",
+     "en_title": "",
+     "en_body": ""
+    },
+    {
+     "page": 42,
+     "de_title": "",
+     "de_body": "",
+     "en_title": "",
+     "en_body": ""
+    },
+    {
+     "page": 43,
+     "de_title": "",
+     "de_body": "",
+     "en_title": "",
+     "en_body": ""
+    },
+    {
+     "page": 44,
+     "de_title": "",
+     "de_body": "",
+     "en_title": "",
+     "en_body": ""
+    },
+    {
+     "page": 45,
+     "de_title": "",
+     "de_body": "",
+     "en_title": "",
+     "en_body": ""
+    },
+    {
+     "page": 46,
+     "de_title": "",
+     "de_body": "",
+     "en_title": "",
+     "en_body": ""
+    },
+    {
+     "page": 47,
+     "de_title": "",
+     "de_body": "",
+     "en_title": "",
+     "en_body": ""
+    },
+    {
+     "page": 48,
+     "de_title": "",
+     "de_body": "",
+     "en_title": "",
+     "en_body": ""
+    },
+    {
+     "page": 49,
+     "de_title": "",
+     "de_body": "",
+     "en_title": "",
+     "en_body": ""
+    },
+    {
+     "page": 50,
+     "de_title": "",
+     "de_body": "",
+     "en_title": "",
+     "en_body": ""
+    },
+    {
+     "page": 51,
+     "de_title": "",
+     "de_body": "",
+     "en_title": "",
+     "en_body": ""
+    },
+    {
+     "page": 52,
+     "de_title": "",
+     "de_body": "",
+     "en_title": "",
+     "en_body": ""
+    },
+    {
+     "page": 53,
+     "de_title": "",
+     "de_body": "",
+     "en_title": "",
+     "en_body": ""
+    },
+    {
+     "page": 54,
+     "de_title": "",
+     "de_body": "",
+     "en_title": "",
+     "en_body": ""
+    },
+    {
+     "page": 55,
+     "de_title": "",
+     "de_body": "",
+     "en_title": "",
+     "en_body": ""
+    },
+    {
+     "page": 56,
+     "de_title": "",
+     "de_body": "",
+     "en_title": "",
+     "en_body": ""
+    },
+    {
+     "page": 57,
+     "de_title": "",
+     "de_body": "",
+     "en_title": "",
+     "en_body": ""
+    },
+    {
+     "page": 58,
+     "de_title": "",
+     "de_body": "",
+     "en_title": "",
+     "en_body": ""
+    },
+    {
+     "page": 59,
+     "de_title": "",
+     "de_body": "",
+     "en_title": "",
+     "en_body": ""
+    },
+    {
+     "page": 60,
+     "de_title": "",
+     "de_body": "",
+     "en_title": "",
+     "en_body": ""
+    },
+    {
+     "page": 61,
+     "de_title": "",
+     "de_body": "",
+     "en_title": "",
+     "en_body": ""
+    },
+    {
+     "page": 62,
+     "de_title": "",
+     "de_body": "",
+     "en_title": "",
+     "en_body": ""
+    },
+    {
+     "page": 63,
+     "de_title": "",
+     "de_body": "",
+     "en_title": "",
+     "en_body": ""
+    },
+    {
+     "page": 64,
+     "de_title": "",
+     "de_body": "",
+     "en_title": "",
+     "en_body": ""
+    },
+    {
+     "page": 65,
+     "de_title": "",
+     "de_body": "",
+     "en_title": "",
+     "en_body": ""
+    },
+    {
+     "page": 66,
+     "de_title": "",
+     "de_body": "",
+     "en_title": "",
+     "en_body": ""
+    },
+    {
+     "page": 67,
+     "de_title": "",
+     "de_body": "",
+     "en_title": "",
+     "en_body": ""
+    }
+   ],
+   "path": "assets/freewings/luftrecht"
+  },
+  {
+   "id": "material",
+   "title": "Material",
+   "category": "Equipment",
+   "instructor": "Freewings",
+   "icon": "🪂",
+   "slides": [
+    {
+     "page": 1,
+     "de_title": "",
+     "de_body": "",
+     "en_title": "",
+     "en_body": ""
+    },
+    {
+     "page": 2,
+     "de_title": "",
+     "de_body": "",
+     "en_title": "",
+     "en_body": ""
+    },
+    {
+     "page": 3,
+     "de_title": "",
+     "de_body": "",
+     "en_title": "",
+     "en_body": ""
+    },
+    {
+     "page": 4,
+     "de_title": "",
+     "de_body": "",
+     "en_title": "",
+     "en_body": ""
+    },
+    {
+     "page": 5,
+     "de_title": "",
+     "de_body": "",
+     "en_title": "",
+     "en_body": ""
+    },
+    {
+     "page": 6,
+     "de_title": "",
+     "de_body": "",
+     "en_title": "",
+     "en_body": ""
+    },
+    {
+     "page": 7,
+     "de_title": "",
+     "de_body": "",
+     "en_title": "",
+     "en_body": ""
+    },
+    {
+     "page": 8,
+     "de_title": "",
+     "de_body": "",
+     "en_title": "",
+     "en_body": ""
+    },
+    {
+     "page": 9,
+     "de_title": "",
+     "de_body": "",
+     "en_title": "",
+     "en_body": ""
+    },
+    {
+     "page": 10,
+     "de_title": "",
+     "de_body": "",
+     "en_title": "",
+     "en_body": ""
+    },
+    {
+     "page": 11,
+     "de_title": "",
+     "de_body": "",
+     "en_title": "",
+     "en_body": ""
+    },
+    {
+     "page": 12,
+     "de_title": "",
+     "de_body": "",
+     "en_title": "",
+     "en_body": ""
+    },
+    {
+     "page": 13,
+     "de_title": "",
+     "de_body": "",
+     "en_title": "",
+     "en_body": ""
+    },
+    {
+     "page": 14,
+     "de_title": "",
+     "de_body": "",
+     "en_title": "",
+     "en_body": ""
+    },
+    {
+     "page": 15,
+     "de_title": "",
+     "de_body": "",
+     "en_title": "",
+     "en_body": ""
+    },
+    {
+     "page": 16,
+     "de_title": "",
+     "de_body": "",
+     "en_title": "",
+     "en_body": ""
+    },
+    {
+     "page": 17,
+     "de_title": "",
+     "de_body": "",
+     "en_title": "",
+     "en_body": ""
+    },
+    {
+     "page": 18,
+     "de_title": "",
+     "de_body": "",
+     "en_title": "",
+     "en_body": ""
+    },
+    {
+     "page": 19,
+     "de_title": "",
+     "de_body": "",
+     "en_title": "",
+     "en_body": ""
+    },
+    {
+     "page": 20,
+     "de_title": "",
+     "de_body": "",
+     "en_title": "",
+     "en_body": ""
+    },
+    {
+     "page": 21,
+     "de_title": "",
+     "de_body": "",
+     "en_title": "",
+     "en_body": ""
+    }
+   ],
+   "path": "assets/freewings/material"
+  },
+  {
+   "id": "flugpraxis",
+   "title": "Flugpraxis",
+   "category": "Flight Practice",
+   "instructor": "Sam Hochstrasser",
+   "icon": "✈️",
+   "slides": [
+    {
+     "page": 1,
+     "de_title": "",
+     "de_body": "",
+     "en_title": "",
+     "en_body": ""
+    },
+    {
+     "page": 2,
+     "de_title": "",
+     "de_body": "",
+     "en_title": "",
+     "en_body": ""
+    },
+    {
+     "page": 3,
+     "de_title": "",
+     "de_body": "",
+     "en_title": "",
+     "en_body": ""
+    },
+    {
+     "page": 4,
+     "de_title": "",
+     "de_body": "",
+     "en_title": "",
+     "en_body": ""
+    },
+    {
+     "page": 5,
+     "de_title": "",
+     "de_body": "",
+     "en_title": "",
+     "en_body": ""
+    },
+    {
+     "page": 6,
+     "de_title": "",
+     "de_body": "",
+     "en_title": "",
+     "en_body": ""
+    },
+    {
+     "page": 7,
+     "de_title": "",
+     "de_body": "",
+     "en_title": "",
+     "en_body": ""
+    },
+    {
+     "page": 8,
+     "de_title": "",
+     "de_body": "",
+     "en_title": "",
+     "en_body": ""
+    },
+    {
+     "page": 9,
+     "de_title": "",
+     "de_body": "",
+     "en_title": "",
+     "en_body": ""
+    },
+    {
+     "page": 10,
+     "de_title": "",
+     "de_body": "",
+     "en_title": "",
+     "en_body": ""
+    },
+    {
+     "page": 11,
+     "de_title": "",
+     "de_body": "",
+     "en_title": "",
+     "en_body": ""
+    },
+    {
+     "page": 12,
+     "de_title": "",
+     "de_body": "",
+     "en_title": "",
+     "en_body": ""
+    },
+    {
+     "page": 13,
+     "de_title": "",
+     "de_body": "",
+     "en_title": "",
+     "en_body": ""
+    },
+    {
+     "page": 14,
+     "de_title": "",
+     "de_body": "",
+     "en_title": "",
+     "en_body": ""
+    },
+    {
+     "page": 15,
+     "de_title": "",
+     "de_body": "",
+     "en_title": "",
+     "en_body": ""
+    },
+    {
+     "page": 16,
+     "de_title": "",
+     "de_body": "",
+     "en_title": "",
+     "en_body": ""
+    },
+    {
+     "page": 17,
+     "de_title": "",
+     "de_body": "",
+     "en_title": "",
+     "en_body": ""
+    },
+    {
+     "page": 18,
+     "de_title": "",
+     "de_body": "",
+     "en_title": "",
+     "en_body": ""
+    }
+   ],
+   "path": "assets/freewings/flugpraxis"
+  }
+ ]
 }

@@ -74,6 +74,16 @@ function getTipsMd() { return window.TIPS_MD || ''; }
 function getDecks() { return (window.DECKS && window.DECKS.decks) || []; }
 function getDeckById(id) { return getDecks().find(d => d.id === id); }
 function getDeckByCategory(cat) { return getDecks().find(d => d.category === cat); }
+function deckSlideCount(d) { return (d.slides || d.pages || []).length; }
+function deckSlides(d) {
+  // Back-compat shim: support both new {slides:[{page,...}]} and old {pages:[N,...]}
+  if (Array.isArray(d.slides)) return d.slides;
+  return (d.pages || []).map(p => ({ page: p, de_title: '', de_body: '', en_title: '', en_body: '' }));
+}
+function slideUrl(deck, page) {
+  const num = String(page).padStart(3, '0');
+  return `${deck.path}/page-${num}.jpg`;
+}
 
 function cardsForCategory(cat) {
   if (cat === 'all') return getCards();
@@ -476,7 +486,7 @@ function renderFlashcardMode(mode) {
       ${_fcReveal && deck ? `
         <div class="flashcard-slides-hint">
           <span>🎬 Want a visual explanation?</span>
-          <button class="slides-link" data-open-deck="${deck.id}">${deck.icon} ${escapeHtml(deck.title)} deck · ${deck.pages.length} slides</button>
+          <button class="slides-link" data-open-deck="${deck.id}">${deck.icon} ${escapeHtml(deck.title)} deck · ${deckSlideCount(deck)} slides</button>
         </div>
       ` : ''}
       ${_fcReveal ? `
@@ -1230,7 +1240,7 @@ function renderGuide() {
           return deck ? `
             <div class="guide-related">
               <h4>Visual companion — Freewings video deck</h4>
-              <button class="flash-link" data-open-deck="${deck.id}">${deck.icon} ${escapeHtml(deck.title)} deck · ${deck.pages.length} slides</button>
+              <button class="flash-link" data-open-deck="${deck.id}">${deck.icon} ${escapeHtml(deck.title)} deck · ${deckSlideCount(deck)} slides</button>
             </div>
           ` : '';
         })()}
@@ -1307,6 +1317,7 @@ function ensureSlideSelection() {
   }
 }
 
+let _slidesQuery = '';
 function renderSlides() {
   const decks = getDecks();
   if (decks.length === 0) {
@@ -1314,16 +1325,16 @@ function renderSlides() {
   }
   ensureSlideSelection();
   const deck = getDeckById(state.slides.deckId);
-  const totalPages = deck.pages.length;
-  const totalSlides = decks.reduce((acc, d) => acc + d.pages.length, 0);
+  const slides = deckSlides(deck);
+  const totalPages = slides.length;
+  const totalSlides = decks.reduce((acc, d) => acc + deckSlideCount(d), 0);
 
   // Tabs
   const tabsHtml = `
     <div class="subtabs">
       ${decks.map(d => {
-        const meta = CATEGORY_META[d.category];
         return `<button class="subtab ${state.slides.deckId === d.id ? 'active' : ''}" data-deck="${d.id}">
-          ${d.icon} ${escapeHtml(d.title)} <span class="count">${d.pages.length}</span>
+          ${d.icon} ${escapeHtml(d.title)} <span class="count">${deckSlideCount(d)}</span>
         </button>`;
       }).join('')}
     </div>
@@ -1332,23 +1343,32 @@ function renderSlides() {
   // Related flashcards count (by category)
   const relatedCards = cardsForCategory(deck.category);
 
+  // Filter by query
+  const q = _slidesQuery.trim().toLowerCase();
+  const filtered = q ? slides.filter(s =>
+    (s.en_title || '').toLowerCase().includes(q) ||
+    (s.en_body || '').toLowerCase().includes(q) ||
+    (s.de_title || '').toLowerCase().includes(q) ||
+    (s.de_body || '').toLowerCase().includes(q)
+  ) : slides;
+
   // Slide grid
-  const slidesHtml = deck.pages.map(p => {
-    const num = String(p).padStart(3, '0');
-    const url = `${deck.path}/page-${num}.jpg`;
-    const allUrls = deck.pages.map(pp => `${deck.path}/page-${String(pp).padStart(3, '0')}.jpg`).join('|');
+  const slidesHtml = filtered.map(s => {
+    const url = slideUrl(deck, s.page);
+    const title = s.en_title || s.de_title || '';
     return `
-      <div class="slide-thumb" data-lightbox="${url}" data-lb-list="${allUrls}" data-deck-page="${p}">
-        <img src="${url}" loading="lazy" alt="Slide ${p}" />
-        <div class="pp-label">${p}</div>
-      </div>
+      <button class="slide-thumb" data-open-slide="${deck.id}|${s.page}">
+        <img src="${url}" loading="lazy" alt="Slide ${s.page}" />
+        <div class="pp-label">${s.page}</div>
+        ${title ? `<div class="slide-thumb-title">${escapeHtml(title)}</div>` : ''}
+      </button>
     `;
   }).join('');
 
   return `
     <div class="page-header">
       <h1>Slide Decks</h1>
-      <p class="page-subtitle">Freewings video-course slides — ${totalSlides} slides across ${decks.length} decks. Click any to enlarge.</p>
+      <p class="page-subtitle">Freewings video-course slides — ${totalSlides} slides across ${decks.length} decks. EN/DE side-by-side · click any to expand.</p>
     </div>
     ${tabsHtml}
     <div class="deck-header">
@@ -1358,6 +1378,8 @@ function renderSlides() {
       </div>
       <button class="btn small" data-jump-cards="${deck.category}">Study ${escapeHtml(deck.category)} cards →</button>
     </div>
+    <input class="search-input" id="slides-q" type="search" placeholder="Search slide titles (EN/DE)…" value="${escapeHtml(_slidesQuery)}" />
+    ${q ? `<div class="muted" style="margin-bottom:12px; font-size:13px;">Showing <strong>${filtered.length}</strong> of ${slides.length}</div>` : ''}
     <div class="slide-grid">
       ${slidesHtml}
     </div>
@@ -1368,12 +1390,13 @@ function attachSlidesEvents() {
   document.querySelectorAll('[data-deck]').forEach(b => b.onclick = () => {
     state.slides.deckId = b.dataset.deck;
     state.slides.page = 1;
+    _slidesQuery = '';
     saveState();
     render();
   });
-  document.querySelectorAll('[data-lightbox]').forEach(b => b.onclick = () => {
-    const list = b.dataset.lbList.split('|');
-    openLightbox(list, list.indexOf(b.dataset.lightbox));
+  document.querySelectorAll('[data-open-slide]').forEach(b => b.onclick = () => {
+    const [deckId, page] = b.dataset.openSlide.split('|');
+    openSlideViewer(deckId, parseInt(page, 10));
   });
   document.querySelectorAll('[data-jump-cards]').forEach(b => b.onclick = () => {
     state.fc.category = b.dataset.jumpCards;
@@ -1385,6 +1408,78 @@ function attachSlidesEvents() {
     saveState();
     navigate('flashcards');
   });
+  const sq = document.getElementById('slides-q');
+  if (sq) {
+    sq.oninput = (e) => {
+      _slidesQuery = e.target.value;
+      render();
+      const inp = document.getElementById('slides-q');
+      if (inp) {
+        inp.focus();
+        inp.setSelectionRange(_slidesQuery.length, _slidesQuery.length);
+      }
+    };
+  }
+}
+
+// ---- Slide Viewer (replaces lightbox for slides) ----------------------------
+let _svDeckId = null, _svPage = 1;
+function openSlideViewer(deckId, page) {
+  _svDeckId = deckId;
+  _svPage = page;
+  renderSlideViewer();
+  document.getElementById('slide-viewer').classList.add('show');
+}
+function closeSlideViewer() {
+  document.getElementById('slide-viewer').classList.remove('show');
+}
+function slideViewerNav(d) {
+  const deck = getDeckById(_svDeckId);
+  if (!deck) return;
+  const slides = deckSlides(deck);
+  const idx = slides.findIndex(s => s.page === _svPage);
+  const nextIdx = (idx + d + slides.length) % slides.length;
+  _svPage = slides[nextIdx].page;
+  renderSlideViewer();
+}
+function renderSlideViewer() {
+  const deck = getDeckById(_svDeckId);
+  if (!deck) return;
+  const slides = deckSlides(deck);
+  const slide = slides.find(s => s.page === _svPage) || slides[0];
+  const idx = slides.indexOf(slide);
+  const url = slideUrl(deck, slide.page);
+  const root = document.getElementById('slide-viewer-content');
+  const hasTrans = !!(slide.en_title || slide.en_body || slide.de_title || slide.de_body);
+  root.innerHTML = `
+    <button class="sv-close" id="sv-close">Close ✕</button>
+    <div class="sv-image-wrap">
+      <button class="sv-nav prev" id="sv-prev" aria-label="Previous">‹</button>
+      <img class="sv-image" src="${url}" alt="Slide ${slide.page}" />
+      <button class="sv-nav next" id="sv-next" aria-label="Next">›</button>
+    </div>
+    <div class="sv-panel">
+      <div class="sv-meta">
+        <span class="sv-deck">${deck.icon} ${escapeHtml(deck.title)}</span>
+        <span class="sv-counter tabnum">${idx + 1} / ${slides.length}</span>
+      </div>
+      ${hasTrans ? `
+        <div class="sv-lang">
+          <div class="sv-lang-label">English</div>
+          ${slide.en_title ? `<div class="sv-title">${escapeHtml(slide.en_title)}</div>` : ''}
+          ${slide.en_body ? `<div class="sv-body">${escapeHtml(slide.en_body)}</div>` : ''}
+        </div>
+        <div class="sv-lang sv-lang-de">
+          <div class="sv-lang-label">Deutsch</div>
+          ${slide.de_title ? `<div class="sv-title">${escapeHtml(slide.de_title)}</div>` : ''}
+          ${slide.de_body ? `<div class="sv-body">${escapeHtml(slide.de_body)}</div>` : ''}
+        </div>
+      ` : `<div class="muted" style="font-size:13px;">No transcript available for this slide — the diagram speaks for itself.</div>`}
+    </div>
+  `;
+  document.getElementById('sv-close').onclick = closeSlideViewer;
+  document.getElementById('sv-prev').onclick = () => slideViewerNav(-1);
+  document.getElementById('sv-next').onclick = () => slideViewerNav(1);
 }
 
 // ============================================================================
@@ -1628,7 +1723,7 @@ function render() {
     { id: 'quiz',       icon: '📝', label: 'Quiz' },
     { id: 'exam',       icon: '⏱️', label: 'Mock Exam' },
     { id: 'guide',      icon: '📚', label: 'Study Guide' },
-    { id: 'slides',     icon: '🎬', label: 'Slide Decks', badge: getDecks().reduce((a, d) => a + d.pages.length, 0) || null },
+    { id: 'slides',     icon: '🎬', label: 'Slide Decks', badge: getDecks().reduce((a, d) => a + deckSlideCount(d), 0) || null },
     { id: 'cheatsheet', icon: '⚡', label: 'Cheat Sheet' },
     { id: 'tips',       icon: '💡', label: 'Tips' }
   ];
@@ -1710,6 +1805,14 @@ function init() {
   // Keyboard shortcuts
   document.addEventListener('keydown', (e) => {
     if (e.target.tagName === 'INPUT' || e.target.tagName === 'TEXTAREA') return;
+    // Slide viewer shortcuts
+    const sv = document.getElementById('slide-viewer');
+    if (sv && sv.classList.contains('show')) {
+      if (e.key === 'Escape') closeSlideViewer();
+      else if (e.key === 'ArrowLeft') slideViewerNav(-1);
+      else if (e.key === 'ArrowRight') slideViewerNav(1);
+      return;
+    }
     // Lightbox shortcuts
     if (document.getElementById('lightbox').classList.contains('show')) {
       if (e.key === 'Escape') closeLightbox();

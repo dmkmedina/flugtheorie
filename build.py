@@ -33,7 +33,7 @@ def main():
     # Use JSON.parse('...') trick - escape backslashes/quotes/newlines
     tips_js = json.dumps(tips_md, ensure_ascii=False)
 
-    total_slides = sum(len(d['pages']) for d in decks['decks'])
+    total_slides = sum(len(d.get('slides') or d.get('pages') or []) for d in decks['decks'])
 
     html = f"""<!doctype html>
 <html lang="en">
@@ -88,6 +88,11 @@ def main():
   <button class="lightbox-nav prev" id="lb-prev">‹</button>
   <button class="lightbox-nav next" id="lb-next">›</button>
   <img id="lb-img" alt="Page preview" />
+</div>
+
+<!-- Slide Viewer (side-by-side EN/DE) -->
+<div class="slide-viewer" id="slide-viewer">
+  <div class="slide-viewer-content" id="slide-viewer-content"></div>
 </div>
 
 <!-- Inline data -->

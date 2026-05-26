@@ -1,0 +1,1516 @@
+{
+  "aerodynamik": {
+    "1": {
+      "de": {
+        "title": "AERODYNAMIK",
+        "body": ""
+      },
+      "en": {
+        "title": "Aerodynamics",
+        "body": ""
+      }
+    },
+    "2": {
+      "de": {
+        "title": "WARUM FLIEGT EIN GLEITSCHIRM?",
+        "body": ""
+      },
+      "en": {
+        "title": "Why does a paraglider fly?",
+        "body": ""
+      }
+    },
+    "3": {
+      "de": {
+        "title": "GESCHICHTE — OTTO LILIENTHAL",
+        "body": "Pionier des Gleitflugs."
+      },
+      "en": {
+        "title": "History — Otto Lilienthal",
+        "body": "Pioneer of gliding flight."
+      }
+    },
+    "4": {
+      "de": {
+        "title": "THEORIE VON BERNOULLI",
+        "body": "Anströmung — schnellere Luft oben am Profil erzeugt Unterdruck (Auftrieb)."
+      },
+      "en": {
+        "title": "Bernoulli's principle",
+        "body": "Faster airflow over the wing top creates lower pressure, generating lift."
+      }
+    },
+    "5": {
+      "de": {
+        "title": "RÜCKSTOSSPRINZIP / AKTION = REAKTION",
+        "body": "Beim Autofahren Hand aus dem Fenster halten!"
+      },
+      "en": {
+        "title": "Recoil principle / Action = Reaction",
+        "body": "Like holding your hand out of a moving car window!"
+      }
+    },
+    "6": {
+      "de": {
+        "title": "ZIRKULATIONSSTRÖMUNG",
+        "body": "Umlaufende Strömung um das Profil."
+      },
+      "en": {
+        "title": "Circulation flow",
+        "body": "Circulating airflow around the wing profile."
+      }
+    },
+    "7": {
+      "de": {
+        "title": "FLÜGELPROFIL",
+        "body": "Profildicke, Profilsehne, Eintrittskante, Austrittskante, Profiltiefe.\nBei Gleitschirmen relativ dick und asymmetrisch."
+      },
+      "en": {
+        "title": "Wing profile (airfoil)",
+        "body": "Profile thickness, chord line, leading edge, trailing edge, chord length.\nParaglider profiles are relatively thick and asymmetric."
+      }
+    },
+    "8": {
+      "de": {
+        "title": "KRÄFTEADDITION — F1 + F4",
+        "body": "Die Kräfte F1 und F4 wirken auf einen Körper. Sie haben denselben Angriffspunkt. Welches ist die Resultierende R der beiden Kräfte?"
+      },
+      "en": {
+        "title": "Adding forces — F1 + F4",
+        "body": "Forces F1 and F4 act on a body at the same point of application. What is the resultant R of the two forces?"
+      }
+    },
+    "9": {
+      "de": {
+        "title": "KRÄFTEADDITION — F1 + F2",
+        "body": "Die Kräfte F1 und F2 wirken auf einen Körper. Sie haben denselben Angriffspunkt. Welches ist die Resultierende R der beiden Kräfte?"
+      },
+      "en": {
+        "title": "Adding forces — F1 + F2",
+        "body": "Forces F1 and F2 act on a body at the same point of application. What is the resultant R of the two forces?"
+      }
+    },
+    "10": {
+      "de": {
+        "title": "KRÄFTEADDITION — F1 + F3",
+        "body": "Die Kräfte F1 und F3 wirken auf einen Körper. Sie haben denselben Angriffspunkt. Welches ist die Resultierende R der beiden Kräfte?"
+      },
+      "en": {
+        "title": "Adding forces — F1 + F3",
+        "body": "Forces F1 and F3 act on a body at the same point of application. What is the resultant R of the two forces?"
+      }
+    },
+    "11": {
+      "de": {
+        "title": "KRÄFTE AM GLEITSCHIRM",
+        "body": "Luftkraftresultierende, Auftrieb, Widerstand, Gewichtskraft, Druckpunkt."
+      },
+      "en": {
+        "title": "Forces on a paraglider",
+        "body": "Resultant aerodynamic force, lift, drag, weight, centre of pressure."
+      }
+    },
+    "12": {
+      "de": {
+        "title": "KRÄFTE AM GLEITSCHIRM — ANSTRÖMUNG",
+        "body": "Luftkraftresultierende, Auftrieb, Widerstand, Anströmung, Gewichtskraft, Druckpunkt."
+      },
+      "en": {
+        "title": "Forces on a paraglider — airflow",
+        "body": "Resultant aerodynamic force, lift, drag, incoming airflow, weight, centre of pressure."
+      }
+    },
+    "13": {
+      "de": {
+        "title": "LUFTWIDERSTAND EINES KÖRPERS",
+        "body": "Beiwert (Form / Anstellwinkel), Grösse / Stirnfläche, Geschwindigkeit, Luftdichte."
+      },
+      "en": {
+        "title": "Drag of a body",
+        "body": "Drag coefficient (shape / angle of attack), size / frontal area, velocity, air density."
+      }
+    },
+    "14": {
+      "de": {
+        "title": "AUFTRIEB EINES KÖRPERS",
+        "body": "Beiwert (Form / Anstellwinkel), Grösse / Stirnfläche, Geschwindigkeit, Luftdichte."
+      },
+      "en": {
+        "title": "Lift of a body",
+        "body": "Lift coefficient (shape / angle of attack), size / frontal area, velocity, air density."
+      }
+    },
+    "15": {
+      "de": {
+        "title": "ZUSAMMENHÄNGE",
+        "body": "Doppelte Fläche = doppelter Auftrieb.\nHalbe Luftdichte = halber Widerstand.\nABER: Doppelte Geschwindigkeit = vierfacher Widerstand."
+      },
+      "en": {
+        "title": "Relationships",
+        "body": "Double the area = double the lift.\nHalf the air density = half the drag.\nBUT: double the speed = quadruple the drag."
+      }
+    },
+    "16": {
+      "de": {
+        "title": "RECHENBEISPIEL WIDERSTAND",
+        "body": "Diese Berechnungen ergeben immer eine Kraft in Newton.\nWird ein Körper mit einer Stirnfläche von 0,75 m² auf Meereshöhe einem Luftstrom von 30 km/h ausgesetzt, erzeugt er einen Widerstand von 100 N (ca. 10 kp). Welchen Widerstand erzeugt derselbe Körper bei einem Luftstrom..."
+      },
+      "en": {
+        "title": "Drag calculation example",
+        "body": "These calculations always yield a force in Newtons.\nA body with 0.75 m² frontal area at sea level in a 30 km/h airflow produces 100 N (~10 kp) of drag. What drag does the same body produce at another airflow speed?"
+      }
+    },
+    "17": {
+      "de": {
+        "title": "LUFTDRUCK MIT DER HÖHE",
+        "body": "Luftdruck (hPa) nimmt mit der Höhe ab — Beispiel Mt. Everest."
+      },
+      "en": {
+        "title": "Air pressure vs altitude",
+        "body": "Air pressure (hPa) decreases with altitude — illustrated with Mt. Everest."
+      }
+    },
+    "18": {
+      "de": {
+        "title": "WIDERSTANDSBEIWERTE",
+        "body": "Verschiedene Formen haben verschiedene Cw-Werte (z. B. Halbschale 1,3; Platte 1,1; Tropfen 0,1). Formel: W = Cw · ½ · ρ · V² · S."
+      },
+      "en": {
+        "title": "Drag coefficients (Cw)",
+        "body": "Different shapes have different drag coefficients (e.g. cup 1.3, plate 1.1, teardrop 0.1). Formula: W = Cw · ½ · ρ · V² · S."
+      }
+    },
+    "19": {
+      "de": {
+        "title": "ANSTELLWINKELVERÄNDERUNGEN",
+        "body": ""
+      },
+      "en": {
+        "title": "Changes in angle of attack",
+        "body": ""
+      }
+    },
+    "20": {
+      "de": {
+        "title": "ANSTELLWINKEL WIRD GRÖSSER",
+        "body": "→ Schirm fliegt langsamer\n→ Cw + Ca werden grösser"
+      },
+      "en": {
+        "title": "Angle of attack increases",
+        "body": "→ Glider flies slower\n→ Drag and lift coefficients (Cw + Ca) both increase"
+      }
+    },
+    "21": {
+      "de": {
+        "title": "ANSTELLWINKEL WIRD KLEINER",
+        "body": ""
+      },
+      "en": {
+        "title": "Angle of attack decreases",
+        "body": ""
+      }
+    },
+    "22": {
+      "de": {
+        "title": "ANSTELLWINKEL WIRD KLEINER",
+        "body": "→ Schirm fliegt schneller\n→ Cw + Ca werden kleiner\nAnströmung."
+      },
+      "en": {
+        "title": "Angle of attack decreases",
+        "body": "→ Glider flies faster\n→ Drag and lift coefficients (Cw + Ca) both decrease\nIncoming airflow."
+      }
+    },
+    "23": {
+      "de": {
+        "title": "STAUPUNKT UND ABLÖSEPUNKT",
+        "body": "Staupunkt vorne am Profil; Ablösepunkt hinten, wo die Strömung abreisst."
+      },
+      "en": {
+        "title": "Stagnation point and separation point",
+        "body": "Stagnation point at the front of the wing; separation point at the rear where airflow detaches."
+      }
+    },
+    "24": {
+      "de": {
+        "title": "STAUPUNKT UND ABLÖSEPUNKT",
+        "body": "Bei normalem Anstellwinkel liegen Stau- und Ablösepunkt günstig."
+      },
+      "en": {
+        "title": "Stagnation and separation point",
+        "body": "At normal angle of attack stagnation and separation points are favourably placed."
+      }
+    },
+    "25": {
+      "de": {
+        "title": "STAUPUNKT UND ABLÖSEPUNKT",
+        "body": "Bei grossem Anstellwinkel wandert der Staupunkt nach unten, der Ablösepunkt nach vorne."
+      },
+      "en": {
+        "title": "Stagnation and separation point",
+        "body": "At high angle of attack the stagnation point moves down and the separation point moves forward."
+      }
+    },
+    "26": {
+      "de": {
+        "title": "STAUPUNKT UND ABLÖSEPUNKT",
+        "body": "Bei kleinem Anstellwinkel wandert der Staupunkt nach oben — Klappergefahr an der Eintrittskante."
+      },
+      "en": {
+        "title": "Stagnation and separation point",
+        "body": "At low angle of attack the stagnation point moves up — risk of collapse at the leading edge."
+      }
+    },
+    "27": {
+      "de": {
+        "title": "RANDWIRBEL UND WIDERSTAND",
+        "body": "Profilwiderstand ca. 20 %\nInduzierter Widerstand ca. 40 %\nLeinen ca. 20 %\nPilot:in ca. 20 %"
+      },
+      "en": {
+        "title": "Tip vortices and drag",
+        "body": "Profile drag ~20%\nInduced drag ~40%\nLines ~20%\nPilot ~20%"
+      }
+    },
+    "28": {
+      "de": {
+        "title": "LIEGEGURTZEUG",
+        "body": "Reduzierte Stirnfläche → weniger Pilotenwiderstand."
+      },
+      "en": {
+        "title": "Reclined (pod) harness",
+        "body": "Reduced frontal area → less pilot drag."
+      }
+    },
+    "29": {
+      "de": {
+        "title": "BEGRIFFSERKLÄRUNG",
+        "body": "Wichtige Begriffe rund um den Gleitschirm-Flügel."
+      },
+      "en": {
+        "title": "Terminology",
+        "body": "Key terms used to describe the paraglider wing."
+      }
+    },
+    "30": {
+      "de": {
+        "title": "SPANNWEITE",
+        "body": "Abstand von einem Flügelende zum anderen."
+      },
+      "en": {
+        "title": "Wingspan",
+        "body": "Distance from one wing tip to the other."
+      }
+    },
+    "31": {
+      "de": {
+        "title": "FLÜGELTIEFE / MITTLERE FLÜGELTIEFE",
+        "body": "Abstand zwischen Eintritts- und Austrittskante; gemittelt über die Spannweite."
+      },
+      "en": {
+        "title": "Chord / mean chord",
+        "body": "Distance from leading to trailing edge, averaged across the span."
+      }
+    },
+    "32": {
+      "de": {
+        "title": "STRECKUNG (SEITENVERHÄLTNIS)",
+        "body": "Verhältnis zwischen Spannweite und mittlerer Flügeltiefe.\nSpannweite ÷ mittlere Flügeltiefe (Durchschnitt).\nmittlere Flügeltiefe × Spannweite = Fläche."
+      },
+      "en": {
+        "title": "Aspect ratio",
+        "body": "Ratio of wingspan to mean chord.\nSpan ÷ mean chord (average).\nMean chord × span = wing area."
+      }
+    },
+    "33": {
+      "de": {
+        "title": "PROJIZIERTE FLÄCHE",
+        "body": "Die von oben sichtbare Schattenfläche des Schirms, kleiner als die ausgelegte Fläche."
+      },
+      "en": {
+        "title": "Projected area",
+        "body": "The shadow area visible from above; smaller than the flat (laid-out) area."
+      }
+    },
+    "34": {
+      "de": {
+        "title": "ZULADUNG, GESAMTFLUGGEWICHT UND FLÄCHENBELASTUNG",
+        "body": "Achtung: nicht Zuladung, sondern Gesamtfluggewicht!\nFlächenbelastung = Gesamtfluggewicht ÷ projizierte Fläche."
+      },
+      "en": {
+        "title": "Payload, all-up weight and wing loading",
+        "body": "Note: not payload but total all-up weight!\nWing loading = total weight ÷ projected area."
+      }
+    },
+    "35": {
+      "de": {
+        "title": "GLEITWINKEL vs. GLEITZAHL",
+        "body": "Gleitwinkel ist nicht dasselbe wie die Gleitzahl!\nGleitzahl = Horizontalgeschwindigkeit ÷ Vertikalgeschwindigkeit = Auftrieb ÷ Widerstand = Ca ÷ Cw."
+      },
+      "en": {
+        "title": "Glide angle vs. glide ratio",
+        "body": "Glide angle is not the same as glide ratio!\nGlide ratio = horizontal speed ÷ vertical speed = lift ÷ drag = Ca ÷ Cw."
+      }
+    },
+    "36": {
+      "de": {
+        "title": "GLEITWINKEL",
+        "body": "→ Gleitwinkel gross bei 1 m/s Sinken bedeutet flacher Gleitwinkel."
+      },
+      "en": {
+        "title": "Glide angle",
+        "body": "A larger glide ratio at the same sink rate (~1 m/s) means a flatter glide path."
+      }
+    },
+    "37": {
+      "de": {
+        "title": "GESCHWINDIGKEITSPOLARE — 4 PUNKTE",
+        "body": "Horizontalgeschwindigkeit (x-Achse), Vertikalgeschwindigkeit (y-Achse). Die vier Punkte: Stall, geringstes Sinken, bestes Gleiten, Vmax."
+      },
+      "en": {
+        "title": "Speed polar — 4 key points",
+        "body": "Horizontal speed (x-axis), vertical speed (y-axis). Four key points: Stall, minimum sink, best glide, Vmax."
+      }
+    },
+    "38": {
+      "de": {
+        "title": "GESCHWINDIGKEITSPOLARE — bestes Gleiten",
+        "body": "Bestes Gleiten = Tangente vom Ursprung (Nullwind) an die Polare."
+      },
+      "en": {
+        "title": "Speed polar — best glide",
+        "body": "Best glide = tangent from the origin (no wind) to the polar curve."
+      }
+    },
+    "39": {
+      "de": {
+        "title": "GESCHWINDIGKEITSPOLARE — mit Gegenwind",
+        "body": "Bei Gegenwind verschiebt sich der Ausgangspunkt der Tangente nach rechts → bestes Gleiten liegt bei höherer Geschwindigkeit."
+      },
+      "en": {
+        "title": "Speed polar — with headwind",
+        "body": "Headwind shifts the tangent origin to the right → best glide is at a higher airspeed."
+      }
+    },
+    "40": {
+      "de": {
+        "title": "GESCHWINDIGKEITSPOLARE",
+        "body": "Schematische Darstellung der Polare."
+      },
+      "en": {
+        "title": "Speed polar",
+        "body": "Schematic of the polar curve."
+      }
+    },
+    "41": {
+      "de": {
+        "title": "GESCHWINDIGKEITSPOLARE",
+        "body": "Polare mit Markierungen für die wichtigen Punkte."
+      },
+      "en": {
+        "title": "Speed polar",
+        "body": "Polar curve with the key operating points marked."
+      }
+    },
+    "42": {
+      "de": {
+        "title": "GESCHWINDIGKEITSPOLARE",
+        "body": "Polare bei Rückenwind — Ausgangspunkt der Tangente verschiebt sich nach links."
+      },
+      "en": {
+        "title": "Speed polar",
+        "body": "Polar with tailwind — the tangent origin shifts to the left."
+      }
+    },
+    "43": {
+      "de": {
+        "title": "GESCHWINDIGKEITSPOLARE — bestes Gleiten",
+        "body": "Bei Rückenwind liegt bestes Gleiten bei tieferer Geschwindigkeit."
+      },
+      "en": {
+        "title": "Speed polar — best glide",
+        "body": "With tailwind, best glide is at a slower airspeed."
+      }
+    },
+    "44": {
+      "de": {
+        "title": "GESCHWINDIGKEITSPOLARE",
+        "body": "Polare bei Aufwind."
+      },
+      "en": {
+        "title": "Speed polar",
+        "body": "Polar in rising air."
+      }
+    },
+    "45": {
+      "de": {
+        "title": "GESCHWINDIGKEITSPOLARE",
+        "body": "Polare bei Abwind."
+      },
+      "en": {
+        "title": "Speed polar",
+        "body": "Polar in sinking air."
+      }
+    },
+    "46": {
+      "de": {
+        "title": "GESCHWINDIGKEITSPOLARE",
+        "body": "Zusammenwirken von Wind und Vertikalbewegung."
+      },
+      "en": {
+        "title": "Speed polar",
+        "body": "Combined effect of wind and vertical air movement."
+      }
+    },
+    "47": {
+      "de": {
+        "title": "GESCHWINDIGKEITSPOLARE",
+        "body": "Beschleunigtes Fliegen bei Abwind / Gegenwind."
+      },
+      "en": {
+        "title": "Speed polar",
+        "body": "Accelerated flight in sink / headwind conditions."
+      }
+    },
+    "48": {
+      "de": {
+        "title": "GESCHWINDIGKEITSPOLARE",
+        "body": "Angebremstes Fliegen bei Aufwind / Rückenwind."
+      },
+      "en": {
+        "title": "Speed polar",
+        "body": "Slightly braked flight in lift / tailwind conditions."
+      }
+    },
+    "49": {
+      "de": {
+        "title": "GESCHWINDIGKEITSPOLARE — bestes Gleiten",
+        "body": "Bestes Gleiten verschiebt sich je nach Wind- und Vertikalbedingungen."
+      },
+      "en": {
+        "title": "Speed polar — best glide",
+        "body": "Best glide shifts depending on wind and vertical air movement."
+      }
+    },
+    "50": {
+      "de": {
+        "title": "GESCHWINDIGKEITSPOLARE",
+        "body": "Übersicht über die Polare und ihre Verschiebungen."
+      },
+      "en": {
+        "title": "Speed polar",
+        "body": "Overview of the polar curve and its shifts."
+      }
+    },
+    "51": {
+      "de": {
+        "title": "GESCHWINDIGKEITSPOLARE",
+        "body": "Zusammenfassung der Polare."
+      },
+      "en": {
+        "title": "Speed polar",
+        "body": "Summary of the speed polar."
+      }
+    },
+    "52": {
+      "de": {
+        "title": "FLIEGEN BEI WIND UND VERTIKALBEWEGUNG",
+        "body": "Bei Abwind und Gegenwind:\n→ beschleunigt fliegen\n→ nur bei genügend Hangabstand, da erhöhte Klappergefahr!\n\nBei Aufwind und Rückenwind:\n→ leicht angebremst fliegen\n→ für bessere Gleitzahl und weitere mögliche Distanz!"
+      },
+      "en": {
+        "title": "Flying with wind and vertical air movement",
+        "body": "In sink / headwind:\n→ fly accelerated (speed bar)\n→ only with enough terrain clearance — higher collapse risk!\n\nIn lift / tailwind:\n→ fly slightly braked\n→ for better glide ratio and more distance!"
+      }
+    },
+    "53": {
+      "de": {
+        "title": "GLEITZAHL / GLEITWINKEL BEI WIND",
+        "body": "Wind verändert die Flugbahn über Grund: Gegenwind macht die Bahn steiler, Rückenwind flacher."
+      },
+      "en": {
+        "title": "Glide ratio / glide angle with wind",
+        "body": "Wind changes the path over ground: headwind steepens it, tailwind flattens it."
+      }
+    },
+    "54": {
+      "de": {
+        "title": "PRÜFUNGSFRAGE — ABWIND UND GLEITZAHL",
+        "body": "Ein Hängegleiterpilot fliegt mit einer Geschwindigkeit von ... in ein Abwindfeld, in dem die Luft mit 1 m/s sinkt. Wenn er die Geschwindigkeit beibehält:\na) nimmt seine Gleitzahl von 10 auf 5 ab.\nb) nimmt seine Gleitzahl von 5 auf 10 zu.\nc) nehmen das Sinken und die Gleitzahl zu.\nd) nehmen das Sinken und die Gleitzahl ab."
+      },
+      "en": {
+        "title": "Exam question — sink and glide ratio",
+        "body": "A hang glider pilot flies at speed ... into a sink area where the air descends at 1 m/s. If they maintain their airspeed:\na) glide ratio decreases from 10 to 5.\nb) glide ratio increases from 5 to 10.\nc) sink rate increases and glide ratio increases.\nd) sink rate and glide ratio both decrease."
+      }
+    },
+    "55": {
+      "de": {
+        "title": "BEWEGUNGEN UM DIE 3 ACHSEN",
+        "body": "Einführung in die drei Bewegungsachsen am Gleitschirm."
+      },
+      "en": {
+        "title": "Motion around the 3 axes",
+        "body": "Introduction to the three motion axes of a paraglider."
+      }
+    },
+    "56": {
+      "de": {
+        "title": "BEWEGUNGEN UM DIE 3 ACHSEN",
+        "body": "Querachse → Längsstabilität, Bewegung: Nicken."
+      },
+      "en": {
+        "title": "Motion around the 3 axes",
+        "body": "Lateral (pitch) axis → longitudinal stability, motion: pitching."
+      }
+    },
+    "57": {
+      "de": {
+        "title": "BEWEGUNGEN UM DIE 3 ACHSEN",
+        "body": "Längsachse → Querstabilität, Bewegung: Rollen.\nQuerachse → Längsstabilität, Bewegung: Nicken."
+      },
+      "en": {
+        "title": "Motion around the 3 axes",
+        "body": "Longitudinal (roll) axis → lateral stability, motion: rolling.\nLateral (pitch) axis → longitudinal stability, motion: pitching."
+      }
+    },
+    "58": {
+      "de": {
+        "title": "BEWEGUNGEN UM DIE 3 ACHSEN",
+        "body": "Längsachse → Querstabilität, Bewegung: Rollen.\nQuerachse → Längsstabilität, Bewegung: Nicken.\nHochachse → Richtungsstabilität, Bewegung: Gieren."
+      },
+      "en": {
+        "title": "Motion around the 3 axes",
+        "body": "Longitudinal axis → lateral stability, rolling.\nLateral axis → longitudinal stability, pitching.\nVertical axis → directional stability, yawing."
+      }
+    },
+    "59": {
+      "de": {
+        "title": "STABIL, LABIL, INDIFFERENT",
+        "body": "Drei mögliche Reaktionen eines Systems auf eine Störung."
+      },
+      "en": {
+        "title": "Stable, unstable, neutral",
+        "body": "Three ways a system can respond to a disturbance."
+      }
+    },
+    "60": {
+      "de": {
+        "title": "STABIL, LABIL, INDIFFERENT",
+        "body": "Stabil: Schirm kehrt nach Lösen vom Beschleuniger wieder zur Trimmgeschwindigkeit zurück."
+      },
+      "en": {
+        "title": "Stable, unstable, neutral",
+        "body": "Stable: after releasing the speed bar, the glider returns to trim speed."
+      }
+    },
+    "61": {
+      "de": {
+        "title": "STABIL, LABIL, INDIFFERENT",
+        "body": "Stabil: Schirm kehrt nach Lösen vom Beschleuniger wieder zur Trimmgeschwindigkeit zurück.\nLabil: Schirm wird immer schneller."
+      },
+      "en": {
+        "title": "Stable, unstable, neutral",
+        "body": "Stable: returns to trim speed after releasing the speed bar.\nUnstable: glider keeps accelerating."
+      }
+    },
+    "62": {
+      "de": {
+        "title": "STABIL, LABIL, INDIFFERENT",
+        "body": "Stabil: Schirm kehrt nach Lösen vom Beschleuniger wieder zur Trimmgeschwindigkeit zurück.\nLabil: Schirm wird immer schneller.\nIndifferent: Schirm hält nach einer Störung die Fluglage bei."
+      },
+      "en": {
+        "title": "Stable, unstable, neutral",
+        "body": "Stable: returns to trim speed after releasing the speed bar.\nUnstable: glider keeps accelerating.\nNeutral: glider holds its attitude after a disturbance."
+      }
+    },
+    "63": {
+      "de": {
+        "title": "KURVENFLUG",
+        "body": "„Im Kurvenflug nehmen das Lastenvielfache und die minimale Geschwindigkeit zu.“"
+      },
+      "en": {
+        "title": "Turning flight",
+        "body": "\"In turning flight, both the load factor and minimum speed increase.\""
+      }
+    },
+    "64": {
+      "de": {
+        "title": "VIELEN DANK FÜR EURE AUFMERKSAMKEIT",
+        "body": "FreeWings"
+      },
+      "en": {
+        "title": "Thank you for your attention",
+        "body": "FreeWings"
+      }
+    }
+  },
+  "meteo": {
+    "1": {
+      "de": {
+        "title": "METEO GRUNDKURS",
+        "body": ""
+      },
+      "en": {
+        "title": "Meteorology — basics",
+        "body": ""
+      }
+    },
+    "2": {
+      "de": {
+        "title": "2 LERN-MODI",
+        "body": "Theorie und Wetterkunde verbinden — Lernfragen und Praxis."
+      },
+      "en": {
+        "title": "2 learning modes",
+        "body": "Combining theory and weather knowledge — quiz questions and real-world practice."
+      }
+    },
+    "3": {
+      "de": {
+        "title": "THEORIE & PRAXIS FLUGWETTER",
+        "body": ""
+      },
+      "en": {
+        "title": "Flight weather — theory & practice",
+        "body": ""
+      }
+    },
+    "4": {
+      "de": {
+        "title": "UNSERE ATMOSPHÄRE",
+        "body": ""
+      },
+      "en": {
+        "title": "Our atmosphere",
+        "body": ""
+      }
+    },
+    "5": {
+      "de": {
+        "title": "TROPOSPHÄRE",
+        "body": "Aufbau der Atmosphäre: Troposphäre (bis ca. 10 km, Mt. Everest), Stratosphäre (ca. 20 km, polare Stratosphärenwolken), Mesosphäre (ca. 70–80 km, leuchtende Nachtwolken / Sprites).\nVerkehrsflugzeuge fliegen in ca. 10 km."
+      },
+      "en": {
+        "title": "Troposphere",
+        "body": "Layers of the atmosphere: troposphere (up to ~10 km, Mt. Everest), stratosphere (~20 km, polar stratospheric clouds), mesosphere (~70–80 km, noctilucent clouds / sprites).\nCommercial jets fly at ~10 km."
+      }
+    },
+    "6": {
+      "de": {
+        "title": "TROPOSPHÄRE",
+        "body": "Wetterballon-Sondierungen messen die Troposphäre. Die Ozonschicht liegt in der Stratosphäre."
+      },
+      "en": {
+        "title": "Troposphere",
+        "body": "Weather balloons sample the troposphere. The ozone layer sits in the stratosphere."
+      }
+    },
+    "7": {
+      "de": {
+        "title": "DÜNNE LUFTHÜLLE",
+        "body": "Die Atmosphäre ist im Verhältnis zur Erde extrem dünn — vergleichbar mit der Schale einer Zwiebel."
+      },
+      "en": {
+        "title": "A thin atmospheric shell",
+        "body": "The atmosphere is extremely thin compared to the Earth — about as thin as an onion skin."
+      }
+    },
+    "8": {
+      "de": {
+        "title": "TROPOSPHÄRE — ZUSAMMENSETZUNG",
+        "body": "Hauptbestandteil ist Stickstoff (ca. 78 %), gefolgt von Sauerstoff (ca. 21 %) und Spurengasen."
+      },
+      "en": {
+        "title": "Troposphere — composition",
+        "body": "Nitrogen makes up about 78%, oxygen about 21%, with trace gases for the remainder."
+      }
+    },
+    "9": {
+      "de": {
+        "title": "TROPOSPHÄRE — FAKTEN",
+        "body": "Schicht, in der das Wetter stattfindet; Temperatur nimmt mit der Höhe ab."
+      },
+      "en": {
+        "title": "Troposphere — facts",
+        "body": "The layer where weather happens; temperature decreases with altitude."
+      }
+    },
+    "10": {
+      "de": {
+        "title": "STANDARDATMOSPHÄRE",
+        "body": "Idealisierte Luftmasse als Referenz für Luftdruck, Temperatur und Dichte."
+      },
+      "en": {
+        "title": "Standard atmosphere",
+        "body": "Idealised reference atmosphere for pressure, temperature and density."
+      }
+    },
+    "11": {
+      "de": {
+        "title": "LUFTDRUCK",
+        "body": "Gewicht der Luftsäule über uns. Auf Meereshöhe ca. 1013,25 hPa."
+      },
+      "en": {
+        "title": "Air pressure",
+        "body": "Weight of the air column above us. Around 1013.25 hPa at sea level."
+      }
+    },
+    "12": {
+      "de": {
+        "title": "STANDARDATMOSPHÄRE — LUFTDRUCK",
+        "body": "Luftdruck nimmt mit der Höhe ab."
+      },
+      "en": {
+        "title": "Standard atmosphere — pressure",
+        "body": "Pressure decreases with altitude."
+      }
+    },
+    "13": {
+      "de": {
+        "title": "STANDARDATMOSPHÄRE",
+        "body": "Druck-, Temperatur- und Dichteprofile."
+      },
+      "en": {
+        "title": "Standard atmosphere",
+        "body": "Pressure, temperature and density profiles."
+      }
+    },
+    "14": {
+      "de": {
+        "title": "STANDARDATMOSPHÄRE — DIE SONNE",
+        "body": "Das wichtigste Element: Die Sonne — der Motor des Wetters."
+      },
+      "en": {
+        "title": "Standard atmosphere — the sun",
+        "body": "The most important element: the sun — the engine of weather."
+      }
+    },
+    "15": {
+      "de": {
+        "title": "ENTSTEHUNG POLARER UND TROPISCHER LUFTMASSEN & DRUCKGEBIETE",
+        "body": "Sonneneinstrahlung am Äquator ist stärker als an den Polen."
+      },
+      "en": {
+        "title": "Formation of polar and tropical air masses & pressure systems",
+        "body": "Solar radiation is much stronger at the equator than at the poles."
+      }
+    },
+    "16": {
+      "de": {
+        "title": "ENTSTEHUNG POLARER UND TROPISCHER LUFTMASSEN & DRUCKGEBIETE",
+        "body": "Unterschiedliche Luftdichte zwischen warm (Äquator) und kalt (Pole)."
+      },
+      "en": {
+        "title": "Formation of polar and tropical air masses & pressure systems",
+        "body": "Different air densities between warm equatorial and cold polar regions."
+      }
+    },
+    "17": {
+      "de": {
+        "title": "ENTSTEHUNG POLARER UND TROPISCHER LUFTMASSEN & DRUCKGEBIETE",
+        "body": "Globale Zirkulation gleicht die Temperaturunterschiede aus."
+      },
+      "en": {
+        "title": "Formation of polar and tropical air masses & pressure systems",
+        "body": "Global circulation balances the temperature differences."
+      }
+    },
+    "18": {
+      "de": {
+        "title": "ENTSTEHUNG VON THERMISCHEM HOCH- UND TIEFDRUCK",
+        "body": "Erwärmung der Erdoberfläche (Meer/Festland) erzeugt thermische Druckgebiete."
+      },
+      "en": {
+        "title": "Formation of thermal high and low pressure",
+        "body": "Heating of the surface (sea/land) creates thermal pressure systems."
+      }
+    },
+    "19": {
+      "de": {
+        "title": "ENTSTEHUNG VON THERMISCHEM HOCH- UND TIEFDRUCK",
+        "body": "Warme Luft steigt auf → Bodendruck sinkt (T). Kühlere absinkende Luft erzeugt Hochdruck (H)."
+      },
+      "en": {
+        "title": "Formation of thermal high and low pressure",
+        "body": "Warm air rises → surface pressure drops (T = low). Sinking cool air creates high pressure (H)."
+      }
+    },
+    "20": {
+      "de": {
+        "title": "ENTSTEHUNG VON WIND",
+        "body": "Sonne erwärmt Boden ungleich → Tiefdruck (T, 955 hPa, Luft steigt) und Hochdruck (H, 1035 hPa, Luft sinkt). Wind fliesst am Boden vom Hoch zum Tief."
+      },
+      "en": {
+        "title": "How wind forms",
+        "body": "Uneven solar heating creates low pressure (T, 955 hPa, air rises) and high pressure (H, 1035 hPa, air sinks). Surface winds blow from high to low."
+      }
+    },
+    "21": {
+      "de": {
+        "title": "FRONTEN AUF DER WETTERKARTE",
+        "body": "Warmfront (rot), Kaltfront (blau), Okklusion (violett) — Beispielkarte 14.04.2020."
+      },
+      "en": {
+        "title": "Fronts on the weather chart",
+        "body": "Warm front (red), cold front (blue), occlusion (purple) — example chart 14 Apr 2020."
+      }
+    },
+    "22": {
+      "de": {
+        "title": "ISOBARENKARTE LESEN LERNEN",
+        "body": "Linien gleichen Luftdrucks zeigen Druckverteilung und Wind."
+      },
+      "en": {
+        "title": "Reading an isobar chart",
+        "body": "Lines of equal pressure reveal pressure patterns and wind."
+      }
+    },
+    "23": {
+      "de": {
+        "title": "HOCH- UND TIEFDRUCK AUF EINER ISOBARENKARTE",
+        "body": "H = Hochdruckzentrum, T = Tiefdruckzentrum."
+      },
+      "en": {
+        "title": "High and low pressure on an isobar chart",
+        "body": "H = high pressure centre, T = low pressure centre."
+      }
+    },
+    "24": {
+      "de": {
+        "title": "ROTATION DURCH CORIOLISKRAFT",
+        "body": "Auf der Nordhalbkugel werden Luftbewegungen nach rechts abgelenkt — Tiefs drehen gegen, Hochs mit dem Uhrzeigersinn."
+      },
+      "en": {
+        "title": "Rotation from the Coriolis force",
+        "body": "In the Northern Hemisphere, moving air is deflected to the right — lows spin counter-clockwise, highs clockwise."
+      }
+    },
+    "25": {
+      "de": {
+        "title": "CORIOLIS — KARTENBEISPIEL",
+        "body": "Druckverteilung und Wind auf einer Wetterkarte."
+      },
+      "en": {
+        "title": "Coriolis — chart example",
+        "body": "Pressure distribution and wind shown on a weather chart."
+      }
+    },
+    "26": {
+      "de": {
+        "title": "WIND DURCH DRUCKAUSGLEICH",
+        "body": "Wind entsteht, weil Luft von Gebieten höheren Drucks zu Gebieten tieferen Drucks strömt."
+      },
+      "en": {
+        "title": "Wind from pressure equalisation",
+        "body": "Wind arises as air flows from higher to lower pressure."
+      }
+    },
+    "27": {
+      "de": {
+        "title": "WINDSTÄRKE",
+        "body": "Eng beieinander liegende Isobaren bedeuten starken Wind."
+      },
+      "en": {
+        "title": "Wind strength",
+        "body": "Closely spaced isobars indicate strong wind."
+      }
+    },
+    "28": {
+      "de": {
+        "title": "AUSPRÄGUNG VON HOCH UND TIEF",
+        "body": "Stark ausgeprägte Druckgebiete = starker Druckgradient = kräftiger Wind."
+      },
+      "en": {
+        "title": "Strength of high and low pressure systems",
+        "body": "Strongly defined pressure systems = steep pressure gradient = strong wind."
+      }
+    },
+    "29": {
+      "de": {
+        "title": "ISOBARENKARTE LESEN LERNEN",
+        "body": "Übungsbeispiele zur Isobaren-Interpretation."
+      },
+      "en": {
+        "title": "Reading an isobar chart",
+        "body": "Practice examples for interpreting isobars."
+      }
+    },
+    "30": {
+      "de": {
+        "title": "WINDRICHTUNG",
+        "body": "Nordwind, Ostwind, Südwind, Westwind — Wind wird nach der Herkunftsrichtung benannt."
+      },
+      "en": {
+        "title": "Wind direction",
+        "body": "North wind, east wind, south wind, west wind — winds are named after the direction they come from."
+      }
+    },
+    "31": {
+      "de": {
+        "title": "WINDSTÄRKE — UMRECHNUNG",
+        "body": "Knoten ↔ km/h."
+      },
+      "en": {
+        "title": "Wind strength — conversion",
+        "body": "Knots ↔ km/h."
+      }
+    },
+    "32": {
+      "de": {
+        "title": "WINDPROFIL ÜBER GRUND",
+        "body": "Stärker und laminarer in der Höhe, schwächer und turbulenter am Boden."
+      },
+      "en": {
+        "title": "Wind profile over the ground",
+        "body": "Stronger and more laminar with altitude, weaker and more turbulent near the ground."
+      }
+    },
+    "33": {
+      "de": {
+        "title": "TURBULENZEN",
+        "body": "Thermische Turbulenzen, Windscherungen, mechanische Turbulenzen (Luv/Lee)."
+      },
+      "en": {
+        "title": "Turbulence",
+        "body": "Thermal turbulence, wind shear, mechanical turbulence (windward/leeward)."
+      }
+    },
+    "34": {
+      "de": {
+        "title": "VENTURI-EFFEKT",
+        "body": "Beschleunigung der Luft in Engstellen (Täler, Pässe)."
+      },
+      "en": {
+        "title": "Venturi effect",
+        "body": "Air accelerates through narrow passages (valleys, mountain passes)."
+      }
+    },
+    "35": {
+      "de": {
+        "title": "FRONTEN",
+        "body": "Synoptische Wetterkarte mit Hochs (H), Tiefs (T), Warm-, Kalt- und Okklusionsfronten über Europa."
+      },
+      "en": {
+        "title": "Fronts",
+        "body": "Synoptic chart of Europe showing highs (H), lows (T), warm, cold and occluded fronts."
+      }
+    },
+    "36": {
+      "de": {
+        "title": "ENTSTEHUNG VON FRONTEN",
+        "body": "Globale Sonneneinstrahlung erzeugt unterschiedlich warme Luftmassen — an deren Grenzen bilden sich Fronten."
+      },
+      "en": {
+        "title": "How fronts form",
+        "body": "Differential solar heating creates air masses of different temperature — fronts form along their boundaries."
+      }
+    },
+    "37": {
+      "de": {
+        "title": "TRENNLINIE ZWEIER LUFTMASSEN",
+        "body": "Eine Front ist die Grenze zwischen zwei Luftmassen."
+      },
+      "en": {
+        "title": "Boundary between two air masses",
+        "body": "A front is the boundary between two air masses."
+      }
+    },
+    "38": {
+      "de": {
+        "title": "TRENNLINIE ZWEIER LUFTMASSEN",
+        "body": "Wenn sich die Luftmassen bewegen, wandert auch die Front."
+      },
+      "en": {
+        "title": "Boundary between two air masses",
+        "body": "When the air masses move, the front moves with them."
+      }
+    },
+    "39": {
+      "de": {
+        "title": "POLARFRONT / STATIONÄRE FRONTLINIE",
+        "body": "Halbkugel-umspannende Grenze zwischen polarer und subtropischer Luft."
+      },
+      "en": {
+        "title": "Polar front / stationary front",
+        "body": "Hemisphere-spanning boundary between polar and subtropical air."
+      }
+    },
+    "40": {
+      "de": {
+        "title": "ZYKLONALER EINFLUSS",
+        "body": "Tiefdrucksysteme verbiegen die stationäre Frontlinie."
+      },
+      "en": {
+        "title": "Cyclonic influence",
+        "body": "Low pressure systems bend the stationary front."
+      }
+    },
+    "41": {
+      "de": {
+        "title": "ENTSTEHUNG VON FRONTEN UNTER EINFLUSS EINES ZYKLONS",
+        "body": "Tief schiebt Warmluft nach Norden (Warmfront), Kaltluft nach Süden (Kaltfront)."
+      },
+      "en": {
+        "title": "Front formation under a cyclone",
+        "body": "A low pushes warm air northward (warm front) and cold air southward (cold front)."
+      }
+    },
+    "42": {
+      "de": {
+        "title": "ENTSTEHUNG VON OKKLUSION",
+        "body": "Die schnellere Kaltfront holt die Warmfront ein → Okklusion."
+      },
+      "en": {
+        "title": "Formation of an occlusion",
+        "body": "The faster-moving cold front catches up to the warm front → occlusion."
+      }
+    },
+    "43": {
+      "de": {
+        "title": "AUSGEPRÄGTE OKKLUSION",
+        "body": "Cold-Type Occlusion — die Kaltluft ist die kältere Luftmasse."
+      },
+      "en": {
+        "title": "Well-developed occlusion",
+        "body": "Cold-type occlusion — the cold air is the colder of the two masses."
+      }
+    },
+    "44": {
+      "de": {
+        "title": "KALTFRONT",
+        "body": "Frontengewitter, starke Windböen (auch für Groundhandling!).\nTeils gute Flugbedingungen vor einer Front!"
+      },
+      "en": {
+        "title": "Cold front",
+        "body": "Frontal thunderstorms, strong gusts (a hazard even for groundhandling!).\nFlight conditions can be good ahead of the front."
+      }
+    },
+    "45": {
+      "de": {
+        "title": "KALTFRONT — WOLKENBILDER",
+        "body": "Schauerlinien, Cumulonimbus, kräftige Vertikalentwicklung."
+      },
+      "en": {
+        "title": "Cold front — cloud images",
+        "body": "Shower lines, cumulonimbus, strong vertical development."
+      }
+    },
+    "46": {
+      "de": {
+        "title": "AKTIVE FRONT ODER „NUR“ STREIFUNG",
+        "body": "Hohe Aktivität vs. abgeschwächte Front — Beispiel Okklusion 14.04.2020."
+      },
+      "en": {
+        "title": "Active front vs. just a brush",
+        "body": "High activity vs. weakened front — occlusion example 14 Apr 2020."
+      }
+    },
+    "47": {
+      "de": {
+        "title": "WARMFRONT",
+        "body": "Cirrus → Cirrostratus → Altostratus → Nimbostratus. Maskierte Gewitter, Abschattungen."
+      },
+      "en": {
+        "title": "Warm front",
+        "body": "Cirrus → cirrostratus → altostratus → nimbostratus. Embedded thunderstorms possible, lots of shading."
+      }
+    },
+    "48": {
+      "de": {
+        "title": "WARMFRONT — WOLKENBILDER",
+        "body": "Cirrostratus, Altostratus."
+      },
+      "en": {
+        "title": "Warm front — cloud images",
+        "body": "Cirrostratus, altostratus."
+      }
+    },
+    "49": {
+      "de": {
+        "title": "OKKLUSION",
+        "body": "Welcher Charakter? Warm- oder Kaltfront-ähnliche Okklusion."
+      },
+      "en": {
+        "title": "Occlusion",
+        "body": "What character? Warm-type or cold-type occlusion."
+      }
+    },
+    "50": {
+      "de": {
+        "title": "OKKLUSION — WOLKENBILDER",
+        "body": "Mischung aus Warm- und Kaltfront-Wolken."
+      },
+      "en": {
+        "title": "Occlusion — cloud images",
+        "body": "A mix of warm and cold front clouds."
+      }
+    },
+    "51": {
+      "de": {
+        "title": "THERMIK",
+        "body": "Aufsteigende Warmluftpakete erzeugen Thermik und Quellwolken."
+      },
+      "en": {
+        "title": "Thermals",
+        "body": "Rising warm-air parcels create thermals and cumulus clouds."
+      }
+    },
+    "52": {
+      "de": {
+        "title": "ENTSTEHUNG VON CUMULUSWOLKEN",
+        "body": "Warme Luft steigt auf, kühlt ab, kondensiert → Cumulus."
+      },
+      "en": {
+        "title": "How cumulus clouds form",
+        "body": "Warm air rises, cools, condenses → cumulus."
+      }
+    },
+    "53": {
+      "de": {
+        "title": "KONVEKTION / LUFTDICHTE",
+        "body": "Warme Luft ist weniger dicht und steigt; kalte sinkt."
+      },
+      "en": {
+        "title": "Convection / air density",
+        "body": "Warm air is less dense and rises; cold air sinks."
+      }
+    },
+    "54": {
+      "de": {
+        "title": "DEKOMPRESSION",
+        "body": "Aufsteigende Luft expandiert und kühlt sich ab."
+      },
+      "en": {
+        "title": "Decompression (expansion)",
+        "body": "Rising air expands and cools."
+      }
+    },
+    "55": {
+      "de": {
+        "title": "THERMIK-TOP",
+        "body": "Temperaturzustandskurve und Temperaturgradient (°C pro 100 m) bestimmen, wie hoch ein Thermikbart steigt."
+      },
+      "en": {
+        "title": "Thermal top",
+        "body": "The temperature profile (lapse rate, °C per 100 m) determines how high a thermal climbs."
+      }
+    },
+    "56": {
+      "de": {
+        "title": "ADIABATISCHE VORGÄNGE",
+        "body": "Temperatur einer Luftparzelle ändert sich beim Aufsteigen/Absinken ohne Wärmeaustausch mit der Umgebung."
+      },
+      "en": {
+        "title": "Adiabatic processes",
+        "body": "An air parcel changes temperature as it rises/sinks without heat exchange with its surroundings."
+      }
+    },
+    "57": {
+      "de": {
+        "title": "LUFTFEUCHTIGKEIT / SÄTTIGUNG / TAUPUNKT",
+        "body": "Relative Feuchte, Sättigungsgrenze und Taupunkt bestimmen die Wolkenbasis."
+      },
+      "en": {
+        "title": "Humidity / saturation / dew point",
+        "body": "Relative humidity, saturation and dew point set the cloud base."
+      }
+    },
+    "58": {
+      "de": {
+        "title": "KONDENSATIONSWÄRME",
+        "body": "Bei Phasenwechseln wird Wärme frei (Kondensation) oder entzogen (Verdunstung).\nFest → flüssig → gasförmig."
+      },
+      "en": {
+        "title": "Latent heat of condensation",
+        "body": "Phase changes release heat (condensation) or absorb it (evaporation).\nSolid → liquid → gas."
+      }
+    },
+    "59": {
+      "de": {
+        "title": "KONDENSATIONSWÄRME",
+        "body": "Trockenadiabatisch vs. feuchtadiabatisch — unterschiedliche Abkühlraten."
+      },
+      "en": {
+        "title": "Latent heat of condensation",
+        "body": "Dry adiabatic vs. moist adiabatic — different cooling rates."
+      }
+    },
+    "60": {
+      "de": {
+        "title": "TROCKENADIABATISCH",
+        "body": "Trockene Luft kühlt sich beim Aufsteigen um 1 °C pro 100 m ab. Relative Feuchte steigt von z. B. 50 % → 70 % → 100 % (Kondensation = Wolkenbasis)."
+      },
+      "en": {
+        "title": "Dry adiabatic",
+        "body": "Dry air cools by 1 °C per 100 m as it rises. Relative humidity rises (e.g. 50% → 70% → 100% = condensation = cloud base)."
+      }
+    },
+    "61": {
+      "de": {
+        "title": "FEUCHTADIABATISCH",
+        "body": "Innerhalb der Wolke kühlt die Luft nur noch ca. 0,65 °C pro 100 m ab, da Kondensationswärme frei wird. Trockenadiabatisch unterhalb: 1 °C / 100 m."
+      },
+      "en": {
+        "title": "Moist adiabatic",
+        "body": "Inside the cloud air only cools at about 0.65 °C per 100 m because latent heat is released. Dry adiabatic below: 1 °C / 100 m."
+      }
+    },
+    "62": {
+      "de": {
+        "title": "WOLKENBASIS / WINDDRIFT",
+        "body": "Wolkenbasis verschiebt sich mit dem Höhenwind (Winddrift)."
+      },
+      "en": {
+        "title": "Cloud base / wind drift",
+        "body": "The cloud base drifts with the upper-level wind (wind drift)."
+      }
+    },
+    "63": {
+      "de": {
+        "title": "LEETHERMIK",
+        "body": "Thermik in der Lee-Seite eines Berges — oft turbulent."
+      },
+      "en": {
+        "title": "Lee-side thermals",
+        "body": "Thermals on the lee side of a mountain — often turbulent."
+      }
+    },
+    "64": {
+      "de": {
+        "title": "STABILE SCHICHTUNG: INVERSION / ISOTHERMIE",
+        "body": "Bei einer Inversion nimmt die Temperatur mit der Höhe zu (z. B. 6 °C → 15 °C). Thermik bleibt unter dem Deckel — Nebelmeer."
+      },
+      "en": {
+        "title": "Stable layering: inversion / isothermal",
+        "body": "In an inversion, temperature rises with altitude (e.g. 6 °C → 15 °C). Thermals stay under the cap — fog seas form."
+      }
+    },
+    "65": {
+      "de": {
+        "title": "INVERSION / ISOTHERMIE",
+        "body": "Bodeninversion (am Boden) und Höheninversion (in der Höhe)."
+      },
+      "en": {
+        "title": "Inversion / isothermal",
+        "body": "Surface inversion (at ground level) and elevated inversion (aloft)."
+      }
+    },
+    "66": {
+      "de": {
+        "title": "WOLKEN — ÜBERSICHT",
+        "body": "Cirrus (hoch), Altostratus (mittel), Nimbostratus, Cumulus, Stratus, Cumulonimbus — geordnet nach Höhe."
+      },
+      "en": {
+        "title": "Clouds — overview",
+        "body": "Cirrus (high), altostratus (mid), nimbostratus, cumulus, stratus, cumulonimbus — sorted by altitude."
+      }
+    },
+    "67": {
+      "de": {
+        "title": "WOLKENNAMEN — 2×3 RASTER",
+        "body": "Höhen-Etagen × Hauptformen ergeben das Wolken-Namensraster."
+      },
+      "en": {
+        "title": "Cloud naming — 2×3 grid",
+        "body": "Altitude bands × main shapes form the cloud naming grid."
+      }
+    },
+    "68": {
+      "de": {
+        "title": "WOLKENNAMEN / RASTER",
+        "body": "Cirro: ca. 5–13 km\nAlto: ca. 4–7 km\nBoden–3 km\nFormen: Cumulus / Stratus."
+      },
+      "en": {
+        "title": "Cloud naming / grid",
+        "body": "Cirro: ~5–13 km\nAlto: ~4–7 km\nGround–3 km\nShapes: cumulus / stratus."
+      }
+    },
+    "69": {
+      "de": {
+        "title": "WOLKENNAMEN",
+        "body": "Cirrocumulus, Cirrostratus, Cirrus.\nAltocumulus, Altostratus.\nCumulus, Stratus."
+      },
+      "en": {
+        "title": "Cloud names",
+        "body": "Cirrocumulus, cirrostratus, cirrus.\nAltocumulus, altostratus.\nCumulus, stratus."
+      }
+    },
+    "70": {
+      "de": {
+        "title": "WOLKENNAMEN",
+        "body": "Cirrocumulus, Cirrostratus.\nAltocumulus.\nCumulus, Stratus."
+      },
+      "en": {
+        "title": "Cloud names",
+        "body": "Cirrocumulus, cirrostratus.\nAltocumulus.\nCumulus, stratus."
+      }
+    },
+    "71": {
+      "de": {
+        "title": "BEWÖLKUNGSGRAD",
+        "body": "Achtel (Oktas) zur Beschreibung der Wolkendecke."
+      },
+      "en": {
+        "title": "Cloud coverage",
+        "body": "Cloud cover measured in eighths (oktas)."
+      }
+    },
+    "72": {
+      "de": {
+        "title": "THERMIK — WOLKENBILD",
+        "body": "Kräftige Cumuluswolken zeigen aktive Thermik."
+      },
+      "en": {
+        "title": "Thermals — cloud picture",
+        "body": "Vigorous cumulus clouds signal active thermal activity."
+      }
+    },
+    "73": {
+      "de": {
+        "title": "GEWITTER-ENTSTEHUNG",
+        "body": "Sonne erwärmt Berghänge → kräftige Aufwinde → erste Wolkenbildung."
+      },
+      "en": {
+        "title": "Thunderstorm formation",
+        "body": "Sun heats mountain slopes → strong updrafts → first cloud formation."
+      }
+    },
+    "74": {
+      "de": {
+        "title": "GEWITTER-ENTSTEHUNG",
+        "body": "Mit zunehmender Konvektion verschmelzen die Wolken zu einem grossen Wolkenturm (Cumulus → Cumulonimbus)."
+      },
+      "en": {
+        "title": "Thunderstorm formation",
+        "body": "As convection intensifies the clouds merge into a tall cumulonimbus tower."
+      }
+    },
+    "75": {
+      "de": {
+        "title": "GEWITTER",
+        "body": "Reife Gewitterzelle: Cumulonimbus mit Amboss, Blitze, Hagel, Sturmböen."
+      },
+      "en": {
+        "title": "Thunderstorms",
+        "body": "Mature thunderstorm cell: cumulonimbus with anvil, lightning, hail and gust fronts."
+      }
+    },
+    "76": {
+      "de": {
+        "title": "GEWITTER — GEFAHREN",
+        "body": "Sturmböen, plötzlicher Windrichtungswechsel, Hagel, Blitzschlag."
+      },
+      "en": {
+        "title": "Thunderstorms — hazards",
+        "body": "Gust fronts, sudden wind shifts, hail, lightning."
+      }
+    },
+    "77": {
+      "de": {
+        "title": "ALPINES PUMPEN / DER HERZSCHLAG DER ALPEN",
+        "body": "Tagsüber steigt warme Luft über den Alpen auf (T) → Hochdruck im Flachland (H) → Tagwind ins Gebirge."
+      },
+      "en": {
+        "title": "Alpine pumping / the heartbeat of the Alps",
+        "body": "During the day warm air rises over the Alps (T = low) → high pressure on the plains (H) → valley wind flows into the mountains."
+      }
+    },
+    "78": {
+      "de": {
+        "title": "TALWIND",
+        "body": "Tagsüber strömt die Luft talaufwärts in die erwärmten Berge."
+      },
+      "en": {
+        "title": "Valley wind (anabatic)",
+        "body": "By day, air flows up the valleys into the heated mountains."
+      }
+    },
+    "79": {
+      "de": {
+        "title": "BERGWIND",
+        "body": "Nachts kühlt das Gebirge ab → kalte Luft fliesst talabwärts (Bergwind, katabatisch)."
+      },
+      "en": {
+        "title": "Mountain wind (katabatic)",
+        "body": "At night the mountains cool → cold air drains down the valleys (mountain wind, katabatic)."
+      }
+    },
+    "80": {
+      "de": {
+        "title": "KARTE OSTSCHWEIZ — REGIONALE WINDE",
+        "body": "Übersichtskarte mit Tal- und Bergwinden in der Ostschweiz / Vorarlberg."
+      },
+      "en": {
+        "title": "Eastern Switzerland — regional winds",
+        "body": "Overview map of valley and mountain winds in eastern Switzerland / Vorarlberg."
+      }
+    },
+    "81": {
+      "de": {
+        "title": "FÖHN",
+        "body": "Anströmung über die Alpen: Stau und Niederschlag auf der Luvseite (H), warmer trockener Föhnwind auf der Leeseite (T) mit Wellen und Rotoren."
+      },
+      "en": {
+        "title": "Föhn",
+        "body": "Air forced over the Alps: stau (orographic lift) and precipitation on the windward side (H), warm dry föhn wind on the lee side (T) with waves and rotors."
+      }
+    },
+    "82": {
+      "de": {
+        "title": "FÖHNKNIE",
+        "body": "Charakteristische Knickform der Isobaren über den Alpen bei Föhnlage — Tief über den Britischen Inseln, Hoch südlich der Alpen."
+      },
+      "en": {
+        "title": "Föhn knee (Föhnknie)",
+        "body": "Characteristic kink in the isobars over the Alps during a föhn situation — low over the British Isles, high south of the Alps."
+      }
+    },
+    "83": {
+      "de": {
+        "title": "FÖHNDIAGRAMM",
+        "body": "Wochendiagramm: Südföhn (positiv), Nordföhn (negativ). Quelle: meteocentrale.ch."
+      },
+      "en": {
+        "title": "Föhn diagram",
+        "body": "Weekly chart: south föhn (positive) vs. north föhn (negative). Source: meteocentrale.ch."
+      }
+    },
+    "84": {
+      "de": {
+        "title": "FÖHNREGIONEN",
+        "body": "Föhnhäufigkeit an automatischen Stationen der Alpennordseite (1991–2000) — Brünig, Meiringen, Glarus, Ennetbürgen u. a."
+      },
+      "en": {
+        "title": "Föhn regions",
+        "body": "Föhn frequency at automatic stations on the northern slope of the Alps (1991–2000) — Brünig, Meiringen, Glarus, Ennetbürgen and others."
+      }
+    },
+    "85": {
+      "de": {
+        "title": "FÖHN — WOLKENBILDER",
+        "body": "Lenticularis-Wolken (linsenförmig) und Föhnmauer (Stau-Wolken über dem Kamm)."
+      },
+      "en": {
+        "title": "Föhn — cloud pictures",
+        "body": "Lenticular clouds (lens-shaped) and the föhn wall (stau clouds piling up over the ridge)."
+      }
+    },
+    "86": {
+      "de": {
+        "title": "LERNEN, LERNEN, LERNEN",
+        "body": "Theorie mit Praxis verknüpfen!"
+      },
+      "en": {
+        "title": "Learn, learn, learn",
+        "body": "Tie theory to practice!"
+      }
+    },
+    "87": {
+      "de": {
+        "title": "VIELEN DANK FÜR EURE AUFMERKSAMKEIT",
+        "body": "FreeWings"
+      },
+      "en": {
+        "title": "Thank you for your attention",
+        "body": "FreeWings"
+      }
+    }
+  }
+}
