@@ -467,612 +467,612 @@
    "slides": [
     {
      "page": 1,
-     "de_title": "",
+     "de_title": "METEO GRUNDKURS",
      "de_body": "",
-     "en_title": "",
+     "en_title": "Meteorology — basics",
      "en_body": ""
     },
     {
      "page": 2,
-     "de_title": "",
-     "de_body": "",
-     "en_title": "",
-     "en_body": ""
+     "de_title": "2 LERN-MODI",
+     "de_body": "Theorie und Wetterkunde verbinden — Lernfragen und Praxis.",
+     "en_title": "2 learning modes",
+     "en_body": "Combining theory and weather knowledge — quiz questions and real-world practice."
     },
     {
      "page": 3,
-     "de_title": "",
+     "de_title": "THEORIE & PRAXIS FLUGWETTER",
      "de_body": "",
-     "en_title": "",
+     "en_title": "Flight weather — theory & practice",
      "en_body": ""
     },
     {
      "page": 4,
-     "de_title": "",
+     "de_title": "UNSERE ATMOSPHÄRE",
      "de_body": "",
-     "en_title": "",
+     "en_title": "Our atmosphere",
      "en_body": ""
     },
     {
      "page": 5,
-     "de_title": "",
-     "de_body": "",
-     "en_title": "",
-     "en_body": ""
+     "de_title": "TROPOSPHÄRE",
+     "de_body": "Aufbau der Atmosphäre: Troposphäre (bis ca. 10 km, Mt. Everest), Stratosphäre (ca. 20 km, polare Stratosphärenwolken), Mesosphäre (ca. 70–80 km, leuchtende Nachtwolken / Sprites).\nVerkehrsflugzeuge fliegen in ca. 10 km.",
+     "en_title": "Troposphere",
+     "en_body": "Layers of the atmosphere: troposphere (up to ~10 km, Mt. Everest), stratosphere (~20 km, polar stratospheric clouds), mesosphere (~70–80 km, noctilucent clouds / sprites).\nCommercial jets fly at ~10 km."
     },
     {
      "page": 6,
-     "de_title": "",
-     "de_body": "",
-     "en_title": "",
-     "en_body": ""
+     "de_title": "TROPOSPHÄRE",
+     "de_body": "Wetterballon-Sondierungen messen die Troposphäre. Die Ozonschicht liegt in der Stratosphäre.",
+     "en_title": "Troposphere",
+     "en_body": "Weather balloons sample the troposphere. The ozone layer sits in the stratosphere."
     },
     {
      "page": 7,
-     "de_title": "",
-     "de_body": "",
-     "en_title": "",
-     "en_body": ""
+     "de_title": "DÜNNE LUFTHÜLLE",
+     "de_body": "Die Atmosphäre ist im Verhältnis zur Erde extrem dünn — vergleichbar mit der Schale einer Zwiebel.",
+     "en_title": "A thin atmospheric shell",
+     "en_body": "The atmosphere is extremely thin compared to the Earth — about as thin as an onion skin."
     },
     {
      "page": 8,
-     "de_title": "",
-     "de_body": "",
-     "en_title": "",
-     "en_body": ""
+     "de_title": "TROPOSPHÄRE — ZUSAMMENSETZUNG",
+     "de_body": "Hauptbestandteil ist Stickstoff (ca. 78 %), gefolgt von Sauerstoff (ca. 21 %) und Spurengasen.",
+     "en_title": "Troposphere — composition",
+     "en_body": "Nitrogen makes up about 78%, oxygen about 21%, with trace gases for the remainder."
     },
     {
      "page": 9,
-     "de_title": "",
-     "de_body": "",
-     "en_title": "",
-     "en_body": ""
+     "de_title": "TROPOSPHÄRE — FAKTEN",
+     "de_body": "Schicht, in der das Wetter stattfindet; Temperatur nimmt mit der Höhe ab.",
+     "en_title": "Troposphere — facts",
+     "en_body": "The layer where weather happens; temperature decreases with altitude."
     },
     {
      "page": 10,
-     "de_title": "",
-     "de_body": "",
-     "en_title": "",
-     "en_body": ""
+     "de_title": "STANDARDATMOSPHÄRE",
+     "de_body": "Idealisierte Luftmasse als Referenz für Luftdruck, Temperatur und Dichte.",
+     "en_title": "Standard atmosphere",
+     "en_body": "Idealised reference atmosphere for pressure, temperature and density."
     },
     {
      "page": 11,
-     "de_title": "",
-     "de_body": "",
-     "en_title": "",
-     "en_body": ""
+     "de_title": "LUFTDRUCK",
+     "de_body": "Gewicht der Luftsäule über uns. Auf Meereshöhe ca. 1013,25 hPa.",
+     "en_title": "Air pressure",
+     "en_body": "Weight of the air column above us. Around 1013.25 hPa at sea level."
     },
     {
      "page": 12,
-     "de_title": "",
-     "de_body": "",
-     "en_title": "",
-     "en_body": ""
+     "de_title": "STANDARDATMOSPHÄRE — LUFTDRUCK",
+     "de_body": "Luftdruck nimmt mit der Höhe ab.",
+     "en_title": "Standard atmosphere — pressure",
+     "en_body": "Pressure decreases with altitude."
     },
     {
      "page": 13,
-     "de_title": "",
-     "de_body": "",
-     "en_title": "",
-     "en_body": ""
+     "de_title": "STANDARDATMOSPHÄRE",
+     "de_body": "Druck-, Temperatur- und Dichteprofile.",
+     "en_title": "Standard atmosphere",
+     "en_body": "Pressure, temperature and density profiles."
     },
     {
      "page": 14,
-     "de_title": "",
-     "de_body": "",
-     "en_title": "",
-     "en_body": ""
+     "de_title": "STANDARDATMOSPHÄRE — DIE SONNE",
+     "de_body": "Das wichtigste Element: Die Sonne — der Motor des Wetters.",
+     "en_title": "Standard atmosphere — the sun",
+     "en_body": "The most important element: the sun — the engine of weather."
     },
     {
      "page": 15,
-     "de_title": "",
-     "de_body": "",
-     "en_title": "",
-     "en_body": ""
+     "de_title": "ENTSTEHUNG POLARER UND TROPISCHER LUFTMASSEN & DRUCKGEBIETE",
+     "de_body": "Sonneneinstrahlung am Äquator ist stärker als an den Polen.",
+     "en_title": "Formation of polar and tropical air masses & pressure systems",
+     "en_body": "Solar radiation is much stronger at the equator than at the poles."
     },
     {
      "page": 16,
-     "de_title": "",
-     "de_body": "",
-     "en_title": "",
-     "en_body": ""
+     "de_title": "ENTSTEHUNG POLARER UND TROPISCHER LUFTMASSEN & DRUCKGEBIETE",
+     "de_body": "Unterschiedliche Luftdichte zwischen warm (Äquator) und kalt (Pole).",
+     "en_title": "Formation of polar and tropical air masses & pressure systems",
+     "en_body": "Different air densities between warm equatorial and cold polar regions."
     },
     {
      "page": 17,
-     "de_title": "",
-     "de_body": "",
-     "en_title": "",
-     "en_body": ""
+     "de_title": "ENTSTEHUNG POLARER UND TROPISCHER LUFTMASSEN & DRUCKGEBIETE",
+     "de_body": "Globale Zirkulation gleicht die Temperaturunterschiede aus.",
+     "en_title": "Formation of polar and tropical air masses & pressure systems",
+     "en_body": "Global circulation balances the temperature differences."
     },
     {
      "page": 18,
-     "de_title": "",
-     "de_body": "",
-     "en_title": "",
-     "en_body": ""
+     "de_title": "ENTSTEHUNG VON THERMISCHEM HOCH- UND TIEFDRUCK",
+     "de_body": "Erwärmung der Erdoberfläche (Meer/Festland) erzeugt thermische Druckgebiete.",
+     "en_title": "Formation of thermal high and low pressure",
+     "en_body": "Heating of the surface (sea/land) creates thermal pressure systems."
     },
     {
      "page": 19,
-     "de_title": "",
-     "de_body": "",
-     "en_title": "",
-     "en_body": ""
+     "de_title": "ENTSTEHUNG VON THERMISCHEM HOCH- UND TIEFDRUCK",
+     "de_body": "Warme Luft steigt auf → Bodendruck sinkt (T). Kühlere absinkende Luft erzeugt Hochdruck (H).",
+     "en_title": "Formation of thermal high and low pressure",
+     "en_body": "Warm air rises → surface pressure drops (T = low). Sinking cool air creates high pressure (H)."
     },
     {
      "page": 20,
-     "de_title": "",
-     "de_body": "",
-     "en_title": "",
-     "en_body": ""
+     "de_title": "ENTSTEHUNG VON WIND",
+     "de_body": "Sonne erwärmt Boden ungleich → Tiefdruck (T, 955 hPa, Luft steigt) und Hochdruck (H, 1035 hPa, Luft sinkt). Wind fliesst am Boden vom Hoch zum Tief.",
+     "en_title": "How wind forms",
+     "en_body": "Uneven solar heating creates low pressure (T, 955 hPa, air rises) and high pressure (H, 1035 hPa, air sinks). Surface winds blow from high to low."
     },
     {
      "page": 21,
-     "de_title": "",
-     "de_body": "",
-     "en_title": "",
-     "en_body": ""
+     "de_title": "FRONTEN AUF DER WETTERKARTE",
+     "de_body": "Warmfront (rot), Kaltfront (blau), Okklusion (violett) — Beispielkarte 14.04.2020.",
+     "en_title": "Fronts on the weather chart",
+     "en_body": "Warm front (red), cold front (blue), occlusion (purple) — example chart 14 Apr 2020."
     },
     {
      "page": 22,
-     "de_title": "",
-     "de_body": "",
-     "en_title": "",
-     "en_body": ""
+     "de_title": "ISOBARENKARTE LESEN LERNEN",
+     "de_body": "Linien gleichen Luftdrucks zeigen Druckverteilung und Wind.",
+     "en_title": "Reading an isobar chart",
+     "en_body": "Lines of equal pressure reveal pressure patterns and wind."
     },
     {
      "page": 23,
-     "de_title": "",
-     "de_body": "",
-     "en_title": "",
-     "en_body": ""
+     "de_title": "HOCH- UND TIEFDRUCK AUF EINER ISOBARENKARTE",
+     "de_body": "H = Hochdruckzentrum, T = Tiefdruckzentrum.",
+     "en_title": "High and low pressure on an isobar chart",
+     "en_body": "H = high pressure centre, T = low pressure centre."
     },
     {
      "page": 24,
-     "de_title": "",
-     "de_body": "",
-     "en_title": "",
-     "en_body": ""
+     "de_title": "ROTATION DURCH CORIOLISKRAFT",
+     "de_body": "Auf der Nordhalbkugel werden Luftbewegungen nach rechts abgelenkt — Tiefs drehen gegen, Hochs mit dem Uhrzeigersinn.",
+     "en_title": "Rotation from the Coriolis force",
+     "en_body": "In the Northern Hemisphere, moving air is deflected to the right — lows spin counter-clockwise, highs clockwise."
     },
     {
      "page": 25,
-     "de_title": "",
-     "de_body": "",
-     "en_title": "",
-     "en_body": ""
+     "de_title": "CORIOLIS — KARTENBEISPIEL",
+     "de_body": "Druckverteilung und Wind auf einer Wetterkarte.",
+     "en_title": "Coriolis — chart example",
+     "en_body": "Pressure distribution and wind shown on a weather chart."
     },
     {
      "page": 26,
-     "de_title": "",
-     "de_body": "",
-     "en_title": "",
-     "en_body": ""
+     "de_title": "WIND DURCH DRUCKAUSGLEICH",
+     "de_body": "Wind entsteht, weil Luft von Gebieten höheren Drucks zu Gebieten tieferen Drucks strömt.",
+     "en_title": "Wind from pressure equalisation",
+     "en_body": "Wind arises as air flows from higher to lower pressure."
     },
     {
      "page": 27,
-     "de_title": "",
-     "de_body": "",
-     "en_title": "",
-     "en_body": ""
+     "de_title": "WINDSTÄRKE",
+     "de_body": "Eng beieinander liegende Isobaren bedeuten starken Wind.",
+     "en_title": "Wind strength",
+     "en_body": "Closely spaced isobars indicate strong wind."
     },
     {
      "page": 28,
-     "de_title": "",
-     "de_body": "",
-     "en_title": "",
-     "en_body": ""
+     "de_title": "AUSPRÄGUNG VON HOCH UND TIEF",
+     "de_body": "Stark ausgeprägte Druckgebiete = starker Druckgradient = kräftiger Wind.",
+     "en_title": "Strength of high and low pressure systems",
+     "en_body": "Strongly defined pressure systems = steep pressure gradient = strong wind."
     },
     {
      "page": 29,
-     "de_title": "",
-     "de_body": "",
-     "en_title": "",
-     "en_body": ""
+     "de_title": "ISOBARENKARTE LESEN LERNEN",
+     "de_body": "Übungsbeispiele zur Isobaren-Interpretation.",
+     "en_title": "Reading an isobar chart",
+     "en_body": "Practice examples for interpreting isobars."
     },
     {
      "page": 30,
-     "de_title": "",
-     "de_body": "",
-     "en_title": "",
-     "en_body": ""
+     "de_title": "WINDRICHTUNG",
+     "de_body": "Nordwind, Ostwind, Südwind, Westwind — Wind wird nach der Herkunftsrichtung benannt.",
+     "en_title": "Wind direction",
+     "en_body": "North wind, east wind, south wind, west wind — winds are named after the direction they come from."
     },
     {
      "page": 31,
-     "de_title": "",
-     "de_body": "",
-     "en_title": "",
-     "en_body": ""
+     "de_title": "WINDSTÄRKE — UMRECHNUNG",
+     "de_body": "Knoten ↔ km/h.",
+     "en_title": "Wind strength — conversion",
+     "en_body": "Knots ↔ km/h."
     },
     {
      "page": 32,
-     "de_title": "",
-     "de_body": "",
-     "en_title": "",
-     "en_body": ""
+     "de_title": "WINDPROFIL ÜBER GRUND",
+     "de_body": "Stärker und laminarer in der Höhe, schwächer und turbulenter am Boden.",
+     "en_title": "Wind profile over the ground",
+     "en_body": "Stronger and more laminar with altitude, weaker and more turbulent near the ground."
     },
     {
      "page": 33,
-     "de_title": "",
-     "de_body": "",
-     "en_title": "",
-     "en_body": ""
+     "de_title": "TURBULENZEN",
+     "de_body": "Thermische Turbulenzen, Windscherungen, mechanische Turbulenzen (Luv/Lee).",
+     "en_title": "Turbulence",
+     "en_body": "Thermal turbulence, wind shear, mechanical turbulence (windward/leeward)."
     },
     {
      "page": 34,
-     "de_title": "",
-     "de_body": "",
-     "en_title": "",
-     "en_body": ""
+     "de_title": "VENTURI-EFFEKT",
+     "de_body": "Beschleunigung der Luft in Engstellen (Täler, Pässe).",
+     "en_title": "Venturi effect",
+     "en_body": "Air accelerates through narrow passages (valleys, mountain passes)."
     },
     {
      "page": 35,
-     "de_title": "",
-     "de_body": "",
-     "en_title": "",
-     "en_body": ""
+     "de_title": "FRONTEN",
+     "de_body": "Synoptische Wetterkarte mit Hochs (H), Tiefs (T), Warm-, Kalt- und Okklusionsfronten über Europa.",
+     "en_title": "Fronts",
+     "en_body": "Synoptic chart of Europe showing highs (H), lows (T), warm, cold and occluded fronts."
     },
     {
      "page": 36,
-     "de_title": "",
-     "de_body": "",
-     "en_title": "",
-     "en_body": ""
+     "de_title": "ENTSTEHUNG VON FRONTEN",
+     "de_body": "Globale Sonneneinstrahlung erzeugt unterschiedlich warme Luftmassen — an deren Grenzen bilden sich Fronten.",
+     "en_title": "How fronts form",
+     "en_body": "Differential solar heating creates air masses of different temperature — fronts form along their boundaries."
     },
     {
      "page": 37,
-     "de_title": "",
-     "de_body": "",
-     "en_title": "",
-     "en_body": ""
+     "de_title": "TRENNLINIE ZWEIER LUFTMASSEN",
+     "de_body": "Eine Front ist die Grenze zwischen zwei Luftmassen.",
+     "en_title": "Boundary between two air masses",
+     "en_body": "A front is the boundary between two air masses."
     },
     {
      "page": 38,
-     "de_title": "",
-     "de_body": "",
-     "en_title": "",
-     "en_body": ""
+     "de_title": "TRENNLINIE ZWEIER LUFTMASSEN",
+     "de_body": "Wenn sich die Luftmassen bewegen, wandert auch die Front.",
+     "en_title": "Boundary between two air masses",
+     "en_body": "When the air masses move, the front moves with them."
     },
     {
      "page": 39,
-     "de_title": "",
-     "de_body": "",
-     "en_title": "",
-     "en_body": ""
+     "de_title": "POLARFRONT / STATIONÄRE FRONTLINIE",
+     "de_body": "Halbkugel-umspannende Grenze zwischen polarer und subtropischer Luft.",
+     "en_title": "Polar front / stationary front",
+     "en_body": "Hemisphere-spanning boundary between polar and subtropical air."
     },
     {
      "page": 40,
-     "de_title": "",
-     "de_body": "",
-     "en_title": "",
-     "en_body": ""
+     "de_title": "ZYKLONALER EINFLUSS",
+     "de_body": "Tiefdrucksysteme verbiegen die stationäre Frontlinie.",
+     "en_title": "Cyclonic influence",
+     "en_body": "Low pressure systems bend the stationary front."
     },
     {
      "page": 41,
-     "de_title": "",
-     "de_body": "",
-     "en_title": "",
-     "en_body": ""
+     "de_title": "ENTSTEHUNG VON FRONTEN UNTER EINFLUSS EINES ZYKLONS",
+     "de_body": "Tief schiebt Warmluft nach Norden (Warmfront), Kaltluft nach Süden (Kaltfront).",
+     "en_title": "Front formation under a cyclone",
+     "en_body": "A low pushes warm air northward (warm front) and cold air southward (cold front)."
     },
     {
      "page": 42,
-     "de_title": "",
-     "de_body": "",
-     "en_title": "",
-     "en_body": ""
+     "de_title": "ENTSTEHUNG VON OKKLUSION",
+     "de_body": "Die schnellere Kaltfront holt die Warmfront ein → Okklusion.",
+     "en_title": "Formation of an occlusion",
+     "en_body": "The faster-moving cold front catches up to the warm front → occlusion."
     },
     {
      "page": 43,
-     "de_title": "",
-     "de_body": "",
-     "en_title": "",
-     "en_body": ""
+     "de_title": "AUSGEPRÄGTE OKKLUSION",
+     "de_body": "Cold-Type Occlusion — die Kaltluft ist die kältere Luftmasse.",
+     "en_title": "Well-developed occlusion",
+     "en_body": "Cold-type occlusion — the cold air is the colder of the two masses."
     },
     {
      "page": 44,
-     "de_title": "",
-     "de_body": "",
-     "en_title": "",
-     "en_body": ""
+     "de_title": "KALTFRONT",
+     "de_body": "Frontengewitter, starke Windböen (auch für Groundhandling!).\nTeils gute Flugbedingungen vor einer Front!",
+     "en_title": "Cold front",
+     "en_body": "Frontal thunderstorms, strong gusts (a hazard even for groundhandling!).\nFlight conditions can be good ahead of the front."
     },
     {
      "page": 45,
-     "de_title": "",
-     "de_body": "",
-     "en_title": "",
-     "en_body": ""
+     "de_title": "KALTFRONT — WOLKENBILDER",
+     "de_body": "Schauerlinien, Cumulonimbus, kräftige Vertikalentwicklung.",
+     "en_title": "Cold front — cloud images",
+     "en_body": "Shower lines, cumulonimbus, strong vertical development."
     },
     {
      "page": 46,
-     "de_title": "",
-     "de_body": "",
-     "en_title": "",
-     "en_body": ""
+     "de_title": "AKTIVE FRONT ODER „NUR“ STREIFUNG",
+     "de_body": "Hohe Aktivität vs. abgeschwächte Front — Beispiel Okklusion 14.04.2020.",
+     "en_title": "Active front vs. just a brush",
+     "en_body": "High activity vs. weakened front — occlusion example 14 Apr 2020."
     },
     {
      "page": 47,
-     "de_title": "",
-     "de_body": "",
-     "en_title": "",
-     "en_body": ""
+     "de_title": "WARMFRONT",
+     "de_body": "Cirrus → Cirrostratus → Altostratus → Nimbostratus. Maskierte Gewitter, Abschattungen.",
+     "en_title": "Warm front",
+     "en_body": "Cirrus → cirrostratus → altostratus → nimbostratus. Embedded thunderstorms possible, lots of shading."
     },
     {
      "page": 48,
-     "de_title": "",
-     "de_body": "",
-     "en_title": "",
-     "en_body": ""
+     "de_title": "WARMFRONT — WOLKENBILDER",
+     "de_body": "Cirrostratus, Altostratus.",
+     "en_title": "Warm front — cloud images",
+     "en_body": "Cirrostratus, altostratus."
     },
     {
      "page": 49,
-     "de_title": "",
-     "de_body": "",
-     "en_title": "",
-     "en_body": ""
+     "de_title": "OKKLUSION",
+     "de_body": "Welcher Charakter? Warm- oder Kaltfront-ähnliche Okklusion.",
+     "en_title": "Occlusion",
+     "en_body": "What character? Warm-type or cold-type occlusion."
     },
     {
      "page": 50,
-     "de_title": "",
-     "de_body": "",
-     "en_title": "",
-     "en_body": ""
+     "de_title": "OKKLUSION — WOLKENBILDER",
+     "de_body": "Mischung aus Warm- und Kaltfront-Wolken.",
+     "en_title": "Occlusion — cloud images",
+     "en_body": "A mix of warm and cold front clouds."
     },
     {
      "page": 51,
-     "de_title": "",
-     "de_body": "",
-     "en_title": "",
-     "en_body": ""
+     "de_title": "THERMIK",
+     "de_body": "Aufsteigende Warmluftpakete erzeugen Thermik und Quellwolken.",
+     "en_title": "Thermals",
+     "en_body": "Rising warm-air parcels create thermals and cumulus clouds."
     },
     {
      "page": 52,
-     "de_title": "",
-     "de_body": "",
-     "en_title": "",
-     "en_body": ""
+     "de_title": "ENTSTEHUNG VON CUMULUSWOLKEN",
+     "de_body": "Warme Luft steigt auf, kühlt ab, kondensiert → Cumulus.",
+     "en_title": "How cumulus clouds form",
+     "en_body": "Warm air rises, cools, condenses → cumulus."
     },
     {
      "page": 53,
-     "de_title": "",
-     "de_body": "",
-     "en_title": "",
-     "en_body": ""
+     "de_title": "KONVEKTION / LUFTDICHTE",
+     "de_body": "Warme Luft ist weniger dicht und steigt; kalte sinkt.",
+     "en_title": "Convection / air density",
+     "en_body": "Warm air is less dense and rises; cold air sinks."
     },
     {
      "page": 54,
-     "de_title": "",
-     "de_body": "",
-     "en_title": "",
-     "en_body": ""
+     "de_title": "DEKOMPRESSION",
+     "de_body": "Aufsteigende Luft expandiert und kühlt sich ab.",
+     "en_title": "Decompression (expansion)",
+     "en_body": "Rising air expands and cools."
     },
     {
      "page": 55,
-     "de_title": "",
-     "de_body": "",
-     "en_title": "",
-     "en_body": ""
+     "de_title": "THERMIK-TOP",
+     "de_body": "Temperaturzustandskurve und Temperaturgradient (°C pro 100 m) bestimmen, wie hoch ein Thermikbart steigt.",
+     "en_title": "Thermal top",
+     "en_body": "The temperature profile (lapse rate, °C per 100 m) determines how high a thermal climbs."
     },
     {
      "page": 56,
-     "de_title": "",
-     "de_body": "",
-     "en_title": "",
-     "en_body": ""
+     "de_title": "ADIABATISCHE VORGÄNGE",
+     "de_body": "Temperatur einer Luftparzelle ändert sich beim Aufsteigen/Absinken ohne Wärmeaustausch mit der Umgebung.",
+     "en_title": "Adiabatic processes",
+     "en_body": "An air parcel changes temperature as it rises/sinks without heat exchange with its surroundings."
     },
     {
      "page": 57,
-     "de_title": "",
-     "de_body": "",
-     "en_title": "",
-     "en_body": ""
+     "de_title": "LUFTFEUCHTIGKEIT / SÄTTIGUNG / TAUPUNKT",
+     "de_body": "Relative Feuchte, Sättigungsgrenze und Taupunkt bestimmen die Wolkenbasis.",
+     "en_title": "Humidity / saturation / dew point",
+     "en_body": "Relative humidity, saturation and dew point set the cloud base."
     },
     {
      "page": 58,
-     "de_title": "",
-     "de_body": "",
-     "en_title": "",
-     "en_body": ""
+     "de_title": "KONDENSATIONSWÄRME",
+     "de_body": "Bei Phasenwechseln wird Wärme frei (Kondensation) oder entzogen (Verdunstung).\nFest → flüssig → gasförmig.",
+     "en_title": "Latent heat of condensation",
+     "en_body": "Phase changes release heat (condensation) or absorb it (evaporation).\nSolid → liquid → gas."
     },
     {
      "page": 59,
-     "de_title": "",
-     "de_body": "",
-     "en_title": "",
-     "en_body": ""
+     "de_title": "KONDENSATIONSWÄRME",
+     "de_body": "Trockenadiabatisch vs. feuchtadiabatisch — unterschiedliche Abkühlraten.",
+     "en_title": "Latent heat of condensation",
+     "en_body": "Dry adiabatic vs. moist adiabatic — different cooling rates."
     },
     {
      "page": 60,
-     "de_title": "",
-     "de_body": "",
-     "en_title": "",
-     "en_body": ""
+     "de_title": "TROCKENADIABATISCH",
+     "de_body": "Trockene Luft kühlt sich beim Aufsteigen um 1 °C pro 100 m ab. Relative Feuchte steigt von z. B. 50 % → 70 % → 100 % (Kondensation = Wolkenbasis).",
+     "en_title": "Dry adiabatic",
+     "en_body": "Dry air cools by 1 °C per 100 m as it rises. Relative humidity rises (e.g. 50% → 70% → 100% = condensation = cloud base)."
     },
     {
      "page": 61,
-     "de_title": "",
-     "de_body": "",
-     "en_title": "",
-     "en_body": ""
+     "de_title": "FEUCHTADIABATISCH",
+     "de_body": "Innerhalb der Wolke kühlt die Luft nur noch ca. 0,65 °C pro 100 m ab, da Kondensationswärme frei wird. Trockenadiabatisch unterhalb: 1 °C / 100 m.",
+     "en_title": "Moist adiabatic",
+     "en_body": "Inside the cloud air only cools at about 0.65 °C per 100 m because latent heat is released. Dry adiabatic below: 1 °C / 100 m."
     },
     {
      "page": 62,
-     "de_title": "",
-     "de_body": "",
-     "en_title": "",
-     "en_body": ""
+     "de_title": "WOLKENBASIS / WINDDRIFT",
+     "de_body": "Wolkenbasis verschiebt sich mit dem Höhenwind (Winddrift).",
+     "en_title": "Cloud base / wind drift",
+     "en_body": "The cloud base drifts with the upper-level wind (wind drift)."
     },
     {
      "page": 63,
-     "de_title": "",
-     "de_body": "",
-     "en_title": "",
-     "en_body": ""
+     "de_title": "LEETHERMIK",
+     "de_body": "Thermik in der Lee-Seite eines Berges — oft turbulent.",
+     "en_title": "Lee-side thermals",
+     "en_body": "Thermals on the lee side of a mountain — often turbulent."
     },
     {
      "page": 64,
-     "de_title": "",
-     "de_body": "",
-     "en_title": "",
-     "en_body": ""
+     "de_title": "STABILE SCHICHTUNG: INVERSION / ISOTHERMIE",
+     "de_body": "Bei einer Inversion nimmt die Temperatur mit der Höhe zu (z. B. 6 °C → 15 °C). Thermik bleibt unter dem Deckel — Nebelmeer.",
+     "en_title": "Stable layering: inversion / isothermal",
+     "en_body": "In an inversion, temperature rises with altitude (e.g. 6 °C → 15 °C). Thermals stay under the cap — fog seas form."
     },
     {
      "page": 65,
-     "de_title": "",
-     "de_body": "",
-     "en_title": "",
-     "en_body": ""
+     "de_title": "INVERSION / ISOTHERMIE",
+     "de_body": "Bodeninversion (am Boden) und Höheninversion (in der Höhe).",
+     "en_title": "Inversion / isothermal",
+     "en_body": "Surface inversion (at ground level) and elevated inversion (aloft)."
     },
     {
      "page": 66,
-     "de_title": "",
-     "de_body": "",
-     "en_title": "",
-     "en_body": ""
+     "de_title": "WOLKEN — ÜBERSICHT",
+     "de_body": "Cirrus (hoch), Altostratus (mittel), Nimbostratus, Cumulus, Stratus, Cumulonimbus — geordnet nach Höhe.",
+     "en_title": "Clouds — overview",
+     "en_body": "Cirrus (high), altostratus (mid), nimbostratus, cumulus, stratus, cumulonimbus — sorted by altitude."
     },
     {
      "page": 67,
-     "de_title": "",
-     "de_body": "",
-     "en_title": "",
-     "en_body": ""
+     "de_title": "WOLKENNAMEN — 2×3 RASTER",
+     "de_body": "Höhen-Etagen × Hauptformen ergeben das Wolken-Namensraster.",
+     "en_title": "Cloud naming — 2×3 grid",
+     "en_body": "Altitude bands × main shapes form the cloud naming grid."
     },
     {
      "page": 68,
-     "de_title": "",
-     "de_body": "",
-     "en_title": "",
-     "en_body": ""
+     "de_title": "WOLKENNAMEN / RASTER",
+     "de_body": "Cirro: ca. 5–13 km\nAlto: ca. 4–7 km\nBoden–3 km\nFormen: Cumulus / Stratus.",
+     "en_title": "Cloud naming / grid",
+     "en_body": "Cirro: ~5–13 km\nAlto: ~4–7 km\nGround–3 km\nShapes: cumulus / stratus."
     },
     {
      "page": 69,
-     "de_title": "",
-     "de_body": "",
-     "en_title": "",
-     "en_body": ""
+     "de_title": "WOLKENNAMEN",
+     "de_body": "Cirrocumulus, Cirrostratus, Cirrus.\nAltocumulus, Altostratus.\nCumulus, Stratus.",
+     "en_title": "Cloud names",
+     "en_body": "Cirrocumulus, cirrostratus, cirrus.\nAltocumulus, altostratus.\nCumulus, stratus."
     },
     {
      "page": 70,
-     "de_title": "",
-     "de_body": "",
-     "en_title": "",
-     "en_body": ""
+     "de_title": "WOLKENNAMEN",
+     "de_body": "Cirrocumulus, Cirrostratus.\nAltocumulus.\nCumulus, Stratus.",
+     "en_title": "Cloud names",
+     "en_body": "Cirrocumulus, cirrostratus.\nAltocumulus.\nCumulus, stratus."
     },
     {
      "page": 71,
-     "de_title": "",
-     "de_body": "",
-     "en_title": "",
-     "en_body": ""
+     "de_title": "BEWÖLKUNGSGRAD",
+     "de_body": "Achtel (Oktas) zur Beschreibung der Wolkendecke.",
+     "en_title": "Cloud coverage",
+     "en_body": "Cloud cover measured in eighths (oktas)."
     },
     {
      "page": 72,
-     "de_title": "",
-     "de_body": "",
-     "en_title": "",
-     "en_body": ""
+     "de_title": "THERMIK — WOLKENBILD",
+     "de_body": "Kräftige Cumuluswolken zeigen aktive Thermik.",
+     "en_title": "Thermals — cloud picture",
+     "en_body": "Vigorous cumulus clouds signal active thermal activity."
     },
     {
      "page": 73,
-     "de_title": "",
-     "de_body": "",
-     "en_title": "",
-     "en_body": ""
+     "de_title": "GEWITTER-ENTSTEHUNG",
+     "de_body": "Sonne erwärmt Berghänge → kräftige Aufwinde → erste Wolkenbildung.",
+     "en_title": "Thunderstorm formation",
+     "en_body": "Sun heats mountain slopes → strong updrafts → first cloud formation."
     },
     {
      "page": 74,
-     "de_title": "",
-     "de_body": "",
-     "en_title": "",
-     "en_body": ""
+     "de_title": "GEWITTER-ENTSTEHUNG",
+     "de_body": "Mit zunehmender Konvektion verschmelzen die Wolken zu einem grossen Wolkenturm (Cumulus → Cumulonimbus).",
+     "en_title": "Thunderstorm formation",
+     "en_body": "As convection intensifies the clouds merge into a tall cumulonimbus tower."
     },
     {
      "page": 75,
-     "de_title": "",
-     "de_body": "",
-     "en_title": "",
-     "en_body": ""
+     "de_title": "GEWITTER",
+     "de_body": "Reife Gewitterzelle: Cumulonimbus mit Amboss, Blitze, Hagel, Sturmböen.",
+     "en_title": "Thunderstorms",
+     "en_body": "Mature thunderstorm cell: cumulonimbus with anvil, lightning, hail and gust fronts."
     },
     {
      "page": 76,
-     "de_title": "",
-     "de_body": "",
-     "en_title": "",
-     "en_body": ""
+     "de_title": "GEWITTER — GEFAHREN",
+     "de_body": "Sturmböen, plötzlicher Windrichtungswechsel, Hagel, Blitzschlag.",
+     "en_title": "Thunderstorms — hazards",
+     "en_body": "Gust fronts, sudden wind shifts, hail, lightning."
     },
     {
      "page": 77,
-     "de_title": "",
-     "de_body": "",
-     "en_title": "",
-     "en_body": ""
+     "de_title": "ALPINES PUMPEN / DER HERZSCHLAG DER ALPEN",
+     "de_body": "Tagsüber steigt warme Luft über den Alpen auf (T) → Hochdruck im Flachland (H) → Tagwind ins Gebirge.",
+     "en_title": "Alpine pumping / the heartbeat of the Alps",
+     "en_body": "During the day warm air rises over the Alps (T = low) → high pressure on the plains (H) → valley wind flows into the mountains."
     },
     {
      "page": 78,
-     "de_title": "",
-     "de_body": "",
-     "en_title": "",
-     "en_body": ""
+     "de_title": "TALWIND",
+     "de_body": "Tagsüber strömt die Luft talaufwärts in die erwärmten Berge.",
+     "en_title": "Valley wind (anabatic)",
+     "en_body": "By day, air flows up the valleys into the heated mountains."
     },
     {
      "page": 79,
-     "de_title": "",
-     "de_body": "",
-     "en_title": "",
-     "en_body": ""
+     "de_title": "BERGWIND",
+     "de_body": "Nachts kühlt das Gebirge ab → kalte Luft fliesst talabwärts (Bergwind, katabatisch).",
+     "en_title": "Mountain wind (katabatic)",
+     "en_body": "At night the mountains cool → cold air drains down the valleys (mountain wind, katabatic)."
     },
     {
      "page": 80,
-     "de_title": "",
-     "de_body": "",
-     "en_title": "",
-     "en_body": ""
+     "de_title": "KARTE OSTSCHWEIZ — REGIONALE WINDE",
+     "de_body": "Übersichtskarte mit Tal- und Bergwinden in der Ostschweiz / Vorarlberg.",
+     "en_title": "Eastern Switzerland — regional winds",
+     "en_body": "Overview map of valley and mountain winds in eastern Switzerland / Vorarlberg."
     },
     {
      "page": 81,
-     "de_title": "",
-     "de_body": "",
-     "en_title": "",
-     "en_body": ""
+     "de_title": "FÖHN",
+     "de_body": "Anströmung über die Alpen: Stau und Niederschlag auf der Luvseite (H), warmer trockener Föhnwind auf der Leeseite (T) mit Wellen und Rotoren.",
+     "en_title": "Föhn",
+     "en_body": "Air forced over the Alps: stau (orographic lift) and precipitation on the windward side (H), warm dry föhn wind on the lee side (T) with waves and rotors."
     },
     {
      "page": 82,
-     "de_title": "",
-     "de_body": "",
-     "en_title": "",
-     "en_body": ""
+     "de_title": "FÖHNKNIE",
+     "de_body": "Charakteristische Knickform der Isobaren über den Alpen bei Föhnlage — Tief über den Britischen Inseln, Hoch südlich der Alpen.",
+     "en_title": "Föhn knee (Föhnknie)",
+     "en_body": "Characteristic kink in the isobars over the Alps during a föhn situation — low over the British Isles, high south of the Alps."
     },
     {
      "page": 83,
-     "de_title": "",
-     "de_body": "",
-     "en_title": "",
-     "en_body": ""
+     "de_title": "FÖHNDIAGRAMM",
+     "de_body": "Wochendiagramm: Südföhn (positiv), Nordföhn (negativ). Quelle: meteocentrale.ch.",
+     "en_title": "Föhn diagram",
+     "en_body": "Weekly chart: south föhn (positive) vs. north föhn (negative). Source: meteocentrale.ch."
     },
     {
      "page": 84,
-     "de_title": "",
-     "de_body": "",
-     "en_title": "",
-     "en_body": ""
+     "de_title": "FÖHNREGIONEN",
+     "de_body": "Föhnhäufigkeit an automatischen Stationen der Alpennordseite (1991–2000) — Brünig, Meiringen, Glarus, Ennetbürgen u. a.",
+     "en_title": "Föhn regions",
+     "en_body": "Föhn frequency at automatic stations on the northern slope of the Alps (1991–2000) — Brünig, Meiringen, Glarus, Ennetbürgen and others."
     },
     {
      "page": 85,
-     "de_title": "",
-     "de_body": "",
-     "en_title": "",
-     "en_body": ""
+     "de_title": "FÖHN — WOLKENBILDER",
+     "de_body": "Lenticularis-Wolken (linsenförmig) und Föhnmauer (Stau-Wolken über dem Kamm).",
+     "en_title": "Föhn — cloud pictures",
+     "en_body": "Lenticular clouds (lens-shaped) and the föhn wall (stau clouds piling up over the ridge)."
     },
     {
      "page": 86,
-     "de_title": "",
-     "de_body": "",
-     "en_title": "",
-     "en_body": ""
+     "de_title": "LERNEN, LERNEN, LERNEN",
+     "de_body": "Theorie mit Praxis verknüpfen!",
+     "en_title": "Learn, learn, learn",
+     "en_body": "Tie theory to practice!"
     },
     {
      "page": 87,
-     "de_title": "",
-     "de_body": "",
-     "en_title": "",
-     "en_body": ""
+     "de_title": "VIELEN DANK FÜR EURE AUFMERKSAMKEIT",
+     "de_body": "FreeWings",
+     "en_title": "Thank you for your attention",
+     "en_body": "FreeWings"
     }
    ],
    "path": "assets/freewings/meteo"
@@ -1086,472 +1086,472 @@
    "slides": [
     {
      "page": 1,
-     "de_title": "",
+     "de_title": "GESETZGEBUNG / LUFTRECHT",
      "de_body": "",
-     "en_title": "",
+     "en_title": "Legislation / Air law",
      "en_body": ""
     },
     {
      "page": 2,
-     "de_title": "",
-     "de_body": "",
-     "en_title": "",
-     "en_body": ""
+     "de_title": "HÄNGEGLEITER — DEFINITION",
+     "de_body": "Fussstart. Ausführungen von Gleit- und Segelflügen unmittelbar nach dem Start.",
+     "en_title": "Hang glider / paraglider — definition",
+     "en_body": "Foot-launched. Gliding and soaring flights performed directly after launch."
     },
     {
      "page": 3,
-     "de_title": "",
-     "de_body": "",
-     "en_title": "",
-     "en_body": ""
+     "de_title": "BEHÖRDEN UND REGELWERK",
+     "de_body": "Bund: Gesetzliche Bestimmungen des schweizerischen Luftraums.\nAufsicht: BAZL (Bundesamt für Zivilluftfahrt).\nAusführung: SHV (Schweizerischer Hängegleiterverband).\nGesetzesbestimmungen: VLK (Verordnung über Luftfahrzeuge besonderer Kategorien).",
+     "en_title": "Authorities and regulations",
+     "en_body": "Federation: laws governing Swiss airspace.\nOversight: BAZL (Federal Office of Civil Aviation).\nImplementation: SHV (Swiss Hang Gliding Association).\nLegal basis: VLK (Ordinance on Aircraft of Special Categories)."
     },
     {
      "page": 4,
-     "de_title": "",
-     "de_body": "",
-     "en_title": "",
-     "en_body": ""
+     "de_title": "RECHTLICHE GRUNDLAGEN HÄNGEGLEITER",
+     "de_body": "• Hängegleiter werden nicht ins Luftfahrzeugregister eingetragen.\n• Kennzeichnung auf Untersegel, 40 cm hoch.\n• Die Lufttüchtigkeit muss von keiner Instanz geprüft werden, Pilot:in ist verantwortlich.\n• Notschirm und Helm sind nur während Prüfungsflügen gesetzlich vorgeschrieben.\n  Bei Wettkämpfen: Entscheid vom Organisator.\n• Hängegleiter-Haftpflichtversicherung (Schadendeckung für unbeteiligte am Boden, 1 Mio).\n• Landen und Starten auf öffentlichen Strassen und Skipisten ist untersagt.\n• Keine jährliche Mindestanzahl von Flügen, ausser bei Tandem.",
+     "en_title": "Legal basics for hang gliders / paragliders",
+     "en_body": "• Not entered in the aircraft register.\n• Marking on the underside, 40 cm tall.\n• No authority checks airworthiness — the pilot is responsible.\n• Reserve chute and helmet are legally required only during examination flights.\n  At competitions: organiser decides.\n• Hang glider liability insurance is mandatory (covers uninvolved third parties on the ground, 1 million).\n• Landing and launching on public roads and ski slopes is forbidden.\n• No minimum number of flights per year, except for tandem pilots."
     },
     {
      "page": 5,
-     "de_title": "",
-     "de_body": "",
-     "en_title": "",
-     "en_body": ""
+     "de_title": "MAP.GEO.ADMIN.CH — WILDRUHEZONEN",
+     "de_body": "Schweizerische Eidgenossenschaft — Karten der Schweiz mit Zeichen-/Messwerkzeugen, Geokatalog und Layer „Wildruhezonen“.",
+     "en_title": "map.geo.admin.ch — wildlife reserves",
+     "en_body": "Swiss federal mapping platform with drawing/measuring tools, geocatalogue and a \"wildlife rest zones\" layer."
     },
     {
      "page": 6,
-     "de_title": "",
-     "de_body": "",
-     "en_title": "",
-     "en_body": ""
+     "de_title": "SCHWEIZERISCHER HÄNGEGLEITER-VERBAND (SHV)",
+     "de_body": "FSVL — Verband, Ausbildung, Sicherheit.",
+     "en_title": "Swiss Hang Gliding Association (SHV / FSVL)",
+     "en_body": "Federation, training and safety body."
     },
     {
      "page": 7,
-     "de_title": "",
-     "de_body": "",
-     "en_title": "",
-     "en_body": ""
+     "de_title": "HÄNGEGLEITER UND WILDTIERE",
+     "de_body": "Wildschutzvereinbarungen. SHV Airspace zeigt:\n• Eidgenössische Wildschutzgebiete\n• AuLaV-Schutzgebiete (Start- und Landeverbot nach Aussenlandeverordnung 2014)\n• Wildschutzgebiete\n• Wildruhezonen\nMerkblätter und Rechtsgrundlagen vom SHV.",
+     "en_title": "Hang gliders and wildlife",
+     "en_body": "Wildlife protection agreements. SHV Airspace shows:\n• Federal wildlife reserves\n• AuLaV protected zones (take-off/landing ban under the 2014 Outlanding Ordinance)\n• Wildlife protection areas\n• Wildlife rest zones\nFact sheets and legal basis published by SHV."
     },
     {
      "page": 8,
-     "de_title": "",
-     "de_body": "",
-     "en_title": "",
-     "en_body": ""
+     "de_title": "VORTRITTSREGELN",
+     "de_body": "• Immer Rechtsvortritt.\n• Motto: „Sehen und gesehen werden“.\n• Abstand: nicht definiert → genügend Sicherheitsabstand halten.\n• Überholen im freien Luftraum erlaubt, am Hang verboten.\n• Im Thermikschlauch im gleichen Drehsinn wie der/die Erste.",
+     "en_title": "Right-of-way rules",
+     "en_body": "• Always give way to the right.\n• Motto: \"See and be seen.\"\n• Separation is not numerically defined → keep a safe distance.\n• Overtaking is allowed in open airspace but forbidden along a ridge.\n• In a thermal column, turn in the same direction as the first pilot in the climb."
     },
     {
      "page": 9,
-     "de_title": "",
-     "de_body": "",
-     "en_title": "",
-     "en_body": ""
+     "de_title": "VORTRITTSREGELN AM HANG",
+     "de_body": "Pilot mit dem Hang zur Rechten hat Vortritt — der andere weicht hangabwärts aus.",
+     "en_title": "Ridge right-of-way",
+     "en_body": "The pilot with the slope on their right has right of way — the other pilot turns away from the ridge."
     },
     {
      "page": 10,
-     "de_title": "",
-     "de_body": "",
-     "en_title": "",
-     "en_body": ""
+     "de_title": "VORTRITTSREGELN AM HANG",
+     "de_body": "Niemals zwischen Pilot und Hang einfädeln (rote Linie = verboten).",
+     "en_title": "Ridge right-of-way",
+     "en_body": "Never wedge between another pilot and the ridge (red line = forbidden)."
     },
     {
      "page": 11,
-     "de_title": "",
-     "de_body": "",
-     "en_title": "",
-     "en_body": ""
+     "de_title": "VORTRITTSREGELN AM HANG",
+     "de_body": "Konfliktsituation beim Begegnen am Hang — wer Hang rechts hat, behält Kurs.",
+     "en_title": "Ridge right-of-way",
+     "en_body": "Conflict situation when meeting along a ridge — the pilot with the slope on their right keeps course."
     },
     {
      "page": 12,
-     "de_title": "",
-     "de_body": "",
-     "en_title": "",
-     "en_body": ""
+     "de_title": "ÜBERHOLEN / RECHTSVORTRITT",
+     "de_body": "Überholen darf nur im freien Luftraum erfolgen; Grundregel bleibt der Rechtsvortritt.",
+     "en_title": "Overtaking / right of way",
+     "en_body": "Overtake only in open airspace; the right-hand rule still applies."
     },
     {
      "page": 13,
-     "de_title": "",
-     "de_body": "",
-     "en_title": "",
-     "en_body": ""
+     "de_title": "VORTRITTSREGELN",
+     "de_body": "Rangordnung der Luftfahrzeuge nach Vortritt: Ballon → Segelflugzeug/Hängegleiter → Luftschiff → Schleppverbände → Flugzeug → Helikopter.",
+     "en_title": "Right-of-way ranking",
+     "en_body": "Right-of-way hierarchy: balloon → glider/hang glider → airship → tow combinations → aeroplane → helicopter."
     },
     {
      "page": 14,
-     "de_title": "",
-     "de_body": "",
-     "en_title": "",
-     "en_body": ""
+     "de_title": "FÜR SEGELFLUG",
+     "de_body": "→ Segelflugzeuge und Hängegleiter\n– Luftraumklassen\n– Gefahren\n– Flugbeschränkungsgebiete\n– Hindernisse\n– Segelflugzonen LS-R for Gliders\n– Militärische Flugdienstzeiten",
+     "en_title": "Soaring chapter",
+     "en_body": "→ Gliders and hang gliders\n– Airspace classes\n– Hazards\n– Restricted areas\n– Obstacles\n– Glider zones (LS-R for gliders)\n– Military operating hours"
     },
     {
      "page": 15,
-     "de_title": "",
-     "de_body": "",
-     "en_title": "",
-     "en_body": ""
+     "de_title": "ZEITUNGSARTIKEL — BEINAHE-KOLLISION",
+     "de_body": "„Swiss-Jet kollidierte fast mit Gleitschirm“ — ein Pilot flog 400 m zu hoch im Luftraum um Zürich, ein Swiss-Jumbolino kam ihm entgegen.",
+     "en_title": "News story — near miss",
+     "en_body": "\"Swiss jet nearly collided with paraglider\" — a pilot flew 400 m too high in Zurich airspace and a Swiss regional jet came directly at him."
     },
     {
      "page": 16,
-     "de_title": "",
-     "de_body": "",
-     "en_title": "",
-     "en_body": ""
+     "de_title": "SEGELFLUGKARTE — map.geo.admin.ch",
+     "de_body": "Die offizielle Schweizer Segelflugkarte ist auf map.geo.admin.ch verfügbar (Layer „Segelflugkarte“ / ch.bazl.segelflugkarte).",
+     "en_title": "Glider chart — map.geo.admin.ch",
+     "en_body": "The official Swiss glider chart is available on map.geo.admin.ch (layer \"Segelflugkarte\" / ch.bazl.segelflugkarte)."
     },
     {
      "page": 17,
-     "de_title": "",
-     "de_body": "",
-     "en_title": "",
-     "en_body": ""
+     "de_title": "ABKÜRZUNGEN",
+     "de_body": "GLDK: Segelflugkarte (Glider Chart)\nAIP: Luftfahrthandbuch (Aeronautical Information Publication)\nNOTAM: Nachrichten für Luftfahrer (Notice to Airmen)\nDABS: Daily Airspace Bulletin Switzerland",
+     "en_title": "Abbreviations",
+     "en_body": "GLDK: Swiss glider chart\nAIP: Aeronautical Information Publication\nNOTAM: Notice to Airmen\nDABS: Daily Airspace Bulletin Switzerland"
     },
     {
      "page": 18,
-     "de_title": "",
-     "de_body": "",
-     "en_title": "",
-     "en_body": ""
+     "de_title": "ABKÜRZUNGEN",
+     "de_body": "AGL: Above Ground Level (Höhe über Grund)\nAMSL: Above Mean Sea Level (Höhe über Meer)\nVFR: Visual Flight Rules (Sichtflugregeln → Gleitschirm)\nIFR: Instrument Flight Rules (Instrumentenflugregeln)\nFL: Flight Level (Flugfläche)\nCTR: Controlled Traffic Region (Kontrollzone)\nTMA: Terminal Maneuvering Area (Nahkontrollbezirk)\nAWY: Airway (Luftstrasse)\nLS…: Switzerland (LSZR, LSZH, LS-R, LS-…)",
+     "en_title": "Abbreviations",
+     "en_body": "AGL: Above Ground Level\nAMSL: Above Mean Sea Level\nVFR: Visual Flight Rules (used by paragliders)\nIFR: Instrument Flight Rules\nFL: Flight Level\nCTR: Controlled Traffic Region\nTMA: Terminal Maneuvering Area\nAWY: Airway\nLS…: ICAO prefix for Switzerland (LSZR, LSZH, LS-R, LS-…)"
     },
     {
      "page": 19,
-     "de_title": "",
-     "de_body": "",
-     "en_title": "",
-     "en_body": ""
+     "de_title": "LUFTRAUMKLASSEN",
+     "de_body": "7 Luftraumklassen nach ICAO: A, B, C, D, E, F, G.\nIn der Schweiz davon: G + E → Einflug frei.\nC + D → nur mit Freigabe und Funkkontakt.",
+     "en_title": "Airspace classes",
+     "en_body": "Seven ICAO airspace classes: A, B, C, D, E, F, G.\nUsed in Switzerland: G + E → free to enter.\nC + D → only with clearance and radio contact."
     },
     {
      "page": 20,
-     "de_title": "",
-     "de_body": "",
-     "en_title": "",
-     "en_body": ""
+     "de_title": "AUFBAU SEGELFLUGKARTE",
+     "de_body": "Beispiel für den Aufbau einer Schweizer Segelflugkarte mit Lufträumen, Höhenangaben und Hinweisen.",
+     "en_title": "Anatomy of the glider chart",
+     "en_body": "Example of how a Swiss glider chart is laid out — airspace, altitudes and notes."
     },
     {
      "page": 21,
-     "de_title": "",
-     "de_body": "",
-     "en_title": "",
-     "en_body": ""
+     "de_title": "MITTELLAND/JURA – ALPEN",
+     "de_body": "Trennlinie zwischen Mittelland/Jura und Alpenraum (grüne Linie auf der Karte) — beeinflusst Luftraum-Untergrenzen.",
+     "en_title": "Mittelland/Jura – Alps boundary",
+     "en_body": "Dividing line between the Mittelland/Jura and the Alps (green line on the chart) — affects airspace lower limits."
     },
     {
      "page": 22,
-     "de_title": "",
-     "de_body": "",
-     "en_title": "",
-     "en_body": ""
+     "de_title": "MIL OFF",
+     "de_body": "G + E: Einflug frei.\nC + D: Einflug nur mit Funk und Freigabe.",
+     "en_title": "MIL OFF",
+     "en_body": "G + E: free to enter.\nC + D: only with radio and clearance."
     },
     {
      "page": 23,
-     "de_title": "",
-     "de_body": "",
-     "en_title": "",
-     "en_body": ""
+     "de_title": "MIL OFF",
+     "de_body": "G + E: Einflug frei.\nC + D: Einflug nur mit Funk und Freigabe.",
+     "en_title": "MIL OFF",
+     "en_body": "G + E: free to enter.\nC + D: only with radio and clearance."
     },
     {
      "page": 24,
-     "de_title": "",
-     "de_body": "",
-     "en_title": "",
-     "en_body": ""
+     "de_title": "MITTELLAND/JURA – ALPEN",
+     "de_body": "Unterscheidung Mittelland/Jura vs. Alpenraum auf der Segelflugkarte.",
+     "en_title": "Mittelland/Jura – Alps",
+     "en_body": "Distinction between Mittelland/Jura and the Alps on the glider chart."
     },
     {
      "page": 25,
-     "de_title": "",
-     "de_body": "",
-     "en_title": "",
-     "en_body": ""
+     "de_title": "MITTELLAND/JURA – ALPEN",
+     "de_body": "Die Trennlinie verändert die anzuwendenden Luftraum-Untergrenzen.",
+     "en_title": "Mittelland/Jura – Alps",
+     "en_body": "The dividing line changes which airspace lower limits apply."
     },
     {
      "page": 26,
-     "de_title": "",
-     "de_body": "",
-     "en_title": "",
-     "en_body": ""
+     "de_title": "MITTELLAND/JURA – ALPEN",
+     "de_body": "Beispiele auf der Karte für die Anwendung der Trennlinie.",
+     "en_title": "Mittelland/Jura – Alps",
+     "en_body": "Chart examples illustrating use of the dividing line."
     },
     {
      "page": 27,
-     "de_title": "",
-     "de_body": "",
-     "en_title": "",
-     "en_body": ""
+     "de_title": "UNTER- UND OBERGRENZEN VON LUFTRÄUMEN",
+     "de_body": "Wie Lufträume in der Karte mit Unter- und Obergrenze angegeben werden.",
+     "en_title": "Lower and upper limits of airspace",
+     "en_body": "How airspace lower and upper limits are shown on the chart."
     },
     {
      "page": 28,
-     "de_title": "",
-     "de_body": "",
-     "en_title": "",
-     "en_body": ""
+     "de_title": "HÖHENMESSER",
+     "de_body": "Basiert auf Druckmessung — Höhe wird aus Luftdruck berechnet.",
+     "en_title": "Altimeter",
+     "en_body": "Based on pressure measurement — altitude is derived from air pressure."
     },
     {
      "page": 29,
-     "de_title": "",
-     "de_body": "",
-     "en_title": "",
-     "en_body": ""
+     "de_title": "FLIGHT LEVELS — WARUM?",
+     "de_body": "• Internationale Fliegerei.\n• Unterschiedliche Wetterlagen würden ständige Kalibrierung erfordern (Luftdruckschwankungen).\n• Standardatmosphäre: 1013,25 hPa auf Meereshöhe.\nBeispiel: FL100 (= 10 000 ft Druckhöhe nach Standard).",
+     "en_title": "Flight Levels — why?",
+     "en_body": "• International aviation.\n• Different pressures would require constant altimeter recalibration.\n• Standard atmosphere: 1013.25 hPa at sea level.\nExample: FL100 (= 10 000 ft pressure altitude in standard atmosphere)."
     },
     {
      "page": 30,
-     "de_title": "",
-     "de_body": "",
-     "en_title": "",
-     "en_body": ""
+     "de_title": "FLIGHTLEVELS / STANDARDATMOSPHÄRE",
+     "de_body": "Flugflächen werden auf die Standardatmosphäre (1013,25 hPa) bezogen.",
+     "en_title": "Flight levels / standard atmosphere",
+     "en_body": "Flight levels are referenced to the standard atmosphere (1013.25 hPa)."
     },
     {
      "page": 31,
-     "de_title": "",
-     "de_body": "",
-     "en_title": "",
-     "en_body": ""
+     "de_title": "STANDARDATMOSPHÄRE 1013,25 hPa",
+     "de_body": "Beispiel aus der Segelflugkarte: TMA LSMM 3 HX, TMA LSMM 1 HX mit Höhenangaben in FL/MA/AGL.",
+     "en_title": "Standard atmosphere 1013.25 hPa",
+     "en_body": "Glider-chart example: TMA LSMM 3 HX, TMA LSMM 1 HX shown with altitudes in FL/MA/AGL."
     },
     {
      "page": 32,
-     "de_title": "",
-     "de_body": "",
-     "en_title": "",
-     "en_body": ""
+     "de_title": "STANDARDATMOSPHÄRE",
+     "de_body": "Idealisierte Bezugsgrösse für Druck und Temperatur.",
+     "en_title": "Standard atmosphere",
+     "en_body": "Idealised reference for pressure and temperature."
     },
     {
      "page": 33,
-     "de_title": "",
-     "de_body": "",
-     "en_title": "",
-     "en_body": ""
+     "de_title": "AUSWIRKUNG AUF DIE HÖHENMESSUNG",
+     "de_body": "Abweichungen vom Standarddruck (in hPa) verändern die angezeigte Höhe.",
+     "en_title": "Effect on altitude reading",
+     "en_body": "Departures from standard pressure (in hPa) shift the indicated altitude."
     },
     {
      "page": 34,
-     "de_title": "",
-     "de_body": "",
-     "en_title": "",
-     "en_body": ""
+     "de_title": "PRÜFUNGSBEISPIEL — LUFTRAUM E",
+     "de_body": "Die Obergrenze des Luftraums Klasse E liegt über dem Jura bei einem Luftdruck von 1037 hPa auf …",
+     "en_title": "Exam example — Airspace E",
+     "en_body": "The upper limit of class E airspace over the Jura sits at 1037 hPa air pressure at …"
     },
     {
      "page": 35,
-     "de_title": "",
-     "de_body": "",
-     "en_title": "",
-     "en_body": ""
+     "de_title": "CTR / KONTROLLZONEN — LUFTRAUM D",
+     "de_body": "Kontrollzonen (CTR) sind Luftraum der Klasse D rund um grosse Flughäfen (Genève, Bern, Zürich u. a.).",
+     "en_title": "CTR / Control zones — Airspace D",
+     "en_body": "Control zones (CTR) are class D airspace around major airports (Geneva, Bern, Zurich and others)."
     },
     {
      "page": 36,
-     "de_title": "",
-     "de_body": "",
-     "en_title": "",
-     "en_body": ""
+     "de_title": "TMA / NAHKONTROLLBEZIRK",
+     "de_body": "Terminal Maneuvering Area — Luftraum oberhalb der CTR.",
+     "en_title": "TMA / Terminal Maneuvering Area",
+     "en_body": "TMA sits above the CTR."
     },
     {
      "page": 37,
-     "de_title": "",
-     "de_body": "",
-     "en_title": "",
-     "en_body": ""
+     "de_title": "UNTERFLIEGEN EINER TMA",
+     "de_body": "Hängegleiter dürfen unter den TMA-Untergrenzen fliegen, sofern die Sicht-/Abstandsregeln eingehalten werden.",
+     "en_title": "Flying below a TMA",
+     "en_body": "Hang gliders and paragliders may fly below the TMA lower limit, provided visibility and separation rules are met."
     },
     {
      "page": 38,
-     "de_title": "",
-     "de_body": "",
-     "en_title": "",
-     "en_body": ""
+     "de_title": "UNTERFLIEGEN EINER TMA",
+     "de_body": "Beispiel auf der Karte mit Höhenangaben.",
+     "en_title": "Flying below a TMA",
+     "en_body": "Chart example with altitude information."
     },
     {
      "page": 39,
-     "de_title": "",
-     "de_body": "",
-     "en_title": "",
-     "en_body": ""
+     "de_title": "AWY / LUFTSTRASSEN",
+     "de_body": "Airways (AWY) sind Luftstrassen für den Linien- und Instrumentenflugverkehr.",
+     "en_title": "AWY / Airways",
+     "en_body": "Airways are corridors for scheduled and instrument flight traffic."
     },
     {
      "page": 40,
-     "de_title": "",
-     "de_body": "",
-     "en_title": "",
-     "en_body": ""
+     "de_title": "CTR / TMA / AWY",
+     "de_body": "Übersicht über die drei kontrollierten Luftraumtypen, die Gleitschirmpilot:innen beachten müssen.",
+     "en_title": "CTR / TMA / AWY",
+     "en_body": "Overview of the three controlled airspace types paraglider pilots need to know."
     },
     {
      "page": 41,
-     "de_title": "",
-     "de_body": "",
-     "en_title": "",
-     "en_body": ""
+     "de_title": "AKTIVITÄT VON CTR UND TMA",
+     "de_body": "• Permanent aktiv.\n• Temporär (z. B. CTR LSZR HX, Anflug Rorschach).\nKartenausschnitt St. Gallen-Altenrhein.",
+     "en_title": "CTR and TMA activity",
+     "en_body": "• Permanently active.\n• Or only temporarily (e.g. CTR LSZR HX during Rorschach approach).\nChart excerpt: St. Gallen-Altenrhein."
     },
     {
      "page": 42,
-     "de_title": "",
-     "de_body": "",
-     "en_title": "",
-     "en_body": ""
+     "de_title": "HELIPORTS — RADIUS 2,5 km",
+     "de_body": "Rund um Heliports gilt ein 2,5-km-Schutzkreis.",
+     "en_title": "Heliports — 2.5 km radius",
+     "en_body": "A 2.5-km protective circle applies around heliports."
     },
     {
      "page": 43,
-     "de_title": "",
-     "de_body": "",
-     "en_title": "",
-     "en_body": ""
+     "de_title": "FLUGPLÄTZE — RADIUS 5 km",
+     "de_body": "Rund um zivile und militärische Flugplätze gilt ein 5-km-Schutzkreis. Militärflugplätze sind besonders gekennzeichnet.",
+     "en_title": "Aerodromes — 5 km radius",
+     "en_body": "Civilian and military aerodromes have a 5 km protective circle. Military fields are specially marked."
     },
     {
      "page": 44,
-     "de_title": "",
-     "de_body": "",
-     "en_title": "",
-     "en_body": ""
+     "de_title": "FLUGPLÄTZE UND HELIPORTS",
+     "de_body": "Heliport: Radius 2,5 km.\nFlugplatz zivil: Radius 5 km.\nFlugplatz Mil/Zivil: Radius 5 km.\nFlugplatz Mil: Radius 5 km.\nMindesthöhe beim Überfliegen: 600 m.",
+     "en_title": "Aerodromes and heliports",
+     "en_body": "Heliport: 2.5 km radius.\nCivil aerodrome: 5 km radius.\nCombined mil/civil aerodrome: 5 km radius.\nMilitary aerodrome: 5 km radius.\nMinimum overflight altitude: 600 m."
     },
     {
      "page": 45,
-     "de_title": "",
-     "de_body": "",
-     "en_title": "",
-     "en_body": ""
+     "de_title": "SONDERREGELUNG HÄNGEGLEITER (HELIPORT TROGEN)",
+     "de_body": "Heliport Trogen — Sonderregelung für Hängegleiter:\nDie Basisleitung bewilligt nach Art. 9 Abs. 2 VLK:\n• Der freigegebene Bereich innerhalb der 2,5-km-Zone darf mit erhöhter Vorsicht beflogen werden.\n• Innerhalb der rot markierten Zone gilt unter 1200 m ein Flugverbot.\nBetriebszeiten: täglich 07:00–19:00, Sonn-/Feiertage geschlossen. Ausserhalb der Betriebszeiten Freigabe für den gesamten Luftraum.\nPublikation: shv-fsvl.ch/sicherheit/luftraum/",
+     "en_title": "Special rule — Trogen heliport",
+     "en_body": "Trogen heliport — special rules for hang gliders:\nThe operator authorises (Art. 9 §2 VLK):\n• The released area inside the 2.5 km zone may be flown with extra caution.\n• Inside the red zone, flight below 1200 m is forbidden.\nOperating hours: daily 07:00–19:00, closed Sundays and holidays. Outside hours, the whole airspace is released.\nPublished at shv-fsvl.ch/sicherheit/luftraum/"
     },
     {
      "page": 46,
-     "de_title": "",
-     "de_body": "",
-     "en_title": "",
-     "en_body": ""
+     "de_title": "HINDERNISSE",
+     "de_body": "Hindernisse wie Seilbahnen, Antennen, Hochspannungsleitungen — auf der Karte markiert.",
+     "en_title": "Obstacles",
+     "en_body": "Obstacles such as cableways, antennas and high-voltage power lines — marked on the chart."
     },
     {
      "page": 47,
-     "de_title": "",
-     "de_body": "",
-     "en_title": "",
-     "en_body": ""
+     "de_title": "HINDERNISSE",
+     "de_body": "Weitere Beispiele: Sendemasten, Türme, Skilifte.",
+     "en_title": "Obstacles",
+     "en_body": "Further examples: transmission masts, towers, ski lifts."
     },
     {
      "page": 48,
-     "de_title": "",
-     "de_body": "",
-     "en_title": "",
-     "en_body": ""
+     "de_title": "LS-R / RESTRICTED",
+     "de_body": "Flugbeschränkungsgebiete (Restricted Areas) — gelegentlich/permanent gesperrt für Hängegleiter.",
+     "en_title": "LS-R / Restricted areas",
+     "en_body": "Restricted areas — periodically or permanently closed to hang gliders."
     },
     {
      "page": 49,
-     "de_title": "",
-     "de_body": "",
-     "en_title": "",
-     "en_body": ""
+     "de_title": "LS-D / DANGER",
+     "de_body": "Gefahrengebiete (Danger Areas) — Beflug auf eigene Gefahr, z. B. militärische Übungsgebiete.",
+     "en_title": "LS-D / Danger areas",
+     "en_body": "Danger areas — enter at your own risk, e.g. military training zones."
     },
     {
      "page": 50,
-     "de_title": "",
-     "de_body": "",
-     "en_title": "",
-     "en_body": ""
+     "de_title": "MILITÄRISCHE FLUGDIENSTZEITEN",
+     "de_body": "Kartenausschnitt mit den Schiess-/Trainingsgebieten und ihren Betriebszeiten.",
+     "en_title": "Military operating hours",
+     "en_body": "Chart excerpt with military firing/training areas and their operating hours."
     },
     {
      "page": 51,
-     "de_title": "",
-     "de_body": "",
-     "en_title": "",
-     "en_body": ""
+     "de_title": "MILITÄRISCHE FLUGDIENSTZEITEN — KARTE",
+     "de_body": "Beispielausschnitt Schweizer Mittelland/Vorarlberg mit Militärgebieten.",
+     "en_title": "Military operating hours — chart",
+     "en_body": "Sample excerpt of the Swiss Mittelland / Vorarlberg with military areas."
     },
     {
      "page": 52,
-     "de_title": "",
-     "de_body": "",
-     "en_title": "",
-     "en_body": ""
+     "de_title": "DABS — DAILY AIRSPACE BULLETIN SWITZERLAND",
+     "de_body": "Tagesaktuelle Übersicht über aktive temporäre Flugbeschränkungen, Schiessgebiete, Heli-Einsätze etc.",
+     "en_title": "DABS — Daily Airspace Bulletin Switzerland",
+     "en_body": "Daily overview of active temporary restrictions, firing areas, helicopter operations and more."
     },
     {
      "page": 53,
-     "de_title": "",
-     "de_body": "",
-     "en_title": "",
-     "en_body": ""
+     "de_title": "DABS — FIRING AREAS",
+     "de_body": "Eintrag im AIP/DABS: Firing-Nr, Lower/Upper Limit (AMSL oder FL), Center Point, Radius, NOTAM-Nummer.",
+     "en_title": "DABS — firing areas",
+     "en_body": "AIP/DABS entry: firing number, lower/upper limit (AMSL or FL), centre point, covering radius, NOTAM number."
     },
     {
      "page": 54,
-     "de_title": "",
-     "de_body": "",
-     "en_title": "",
-     "en_body": ""
+     "de_title": "TMA TEMPORÄR SION / ALPNACH",
+     "de_body": "Aktivität von CTR und TMA: permanent aktiv oder temporär. Beispiele Sion und Alpnach im Wallis/Innerschweiz.",
+     "en_title": "Temporary TMA Sion / Alpnach",
+     "en_body": "CTR and TMA activity: either permanent or temporary. Examples Sion and Alpnach in the Valais / Central Switzerland."
     },
     {
      "page": 55,
-     "de_title": "",
-     "de_body": "",
-     "en_title": "",
-     "en_body": ""
+     "de_title": "LS-R FOR GLIDERS",
+     "de_body": "Spezielle Segelflugzonen LS-R: vom 1. März bis 31. Oktober für Segelflug und Hängegleiter freigegeben (grün) oder gesperrt (rot).",
+     "en_title": "LS-R for gliders",
+     "en_body": "Special glider zones (LS-R): released for gliders and hang gliders (green) or closed (red) from 1 March to 31 October."
     },
     {
      "page": 56,
-     "de_title": "",
-     "de_body": "",
-     "en_title": "",
-     "en_body": ""
+     "de_title": "LS-R FOR GLIDERS",
+     "de_body": "Detailansicht der Segelflugzonen auf der Karte.",
+     "en_title": "LS-R for gliders",
+     "en_body": "Detailed view of the glider zones on the chart."
     },
     {
      "page": 57,
-     "de_title": "",
-     "de_body": "",
-     "en_title": "",
-     "en_body": ""
+     "de_title": "LS-R FOR GLIDERS — OSTSCHWEIZ",
+     "de_body": "Beispielausschnitt St. Gallen / Appenzellerland mit LS-R-Zonen.",
+     "en_title": "LS-R for gliders — Eastern Switzerland",
+     "en_body": "Sample excerpt of St. Gallen / Appenzell area with LS-R zones."
     },
     {
      "page": 58,
-     "de_title": "",
-     "de_body": "",
-     "en_title": "",
-     "en_body": ""
+     "de_title": "WOLKENABSTÄNDE — LUFTRAUM G BIS 300 m",
+     "de_body": "Im Luftraum G bis 300 m AGL:\nAbstand zu Wolken: ausserhalb.\nSicht: 1,5 km / Bodensicht.\n\nAchtung neu (im Video falsch erklärt):\n• Sicht ist im ganzen Luftraum G 1,5 km.\n• Wolkenabstände unter 300 m: ausserhalb.\n• Wolkenabstände über 300 m: 300 m vertikal / 1500 m horizontal.",
+     "en_title": "Cloud distances — Airspace G below 300 m",
+     "en_body": "In airspace G up to 300 m AGL:\nDistance from clouds: clear of clouds.\nVisibility: 1.5 km / ground in sight.\n\nNote — updated (video is wrong):\n• Visibility throughout airspace G is 1.5 km.\n• Below 300 m: clear of clouds.\n• Above 300 m: 300 m vertical / 1500 m horizontal cloud separation."
     },
     {
      "page": 59,
-     "de_title": "",
-     "de_body": "",
-     "en_title": "",
-     "en_body": ""
+     "de_title": "WOLKENABSTÄNDE / SICHT (LUFTRAUM E)",
+     "de_body": "Über 300 m AGL: 8 km Sicht (über FL100), 5 km darunter.\n\nAchtung neu (im Video falsch erklärt):\n• Sicht ist im ganzen Luftraum G 1,5 km.\n• Wolkenabstände unter 300 m: ausserhalb.\n• Wolkenabstände über 300 m: 300 m vertikal / 1500 m horizontal.",
+     "en_title": "Cloud distances / visibility (Airspace E)",
+     "en_body": "Above 300 m AGL: 8 km visibility (above FL100), 5 km below.\n\nNote — updated (video is wrong):\n• Visibility throughout airspace G is 1.5 km.\n• Below 300 m: clear of clouds.\n• Above 300 m: 300 m vertical / 1500 m horizontal."
     },
     {
      "page": 60,
-     "de_title": "",
-     "de_body": "",
-     "en_title": "",
-     "en_body": ""
+     "de_title": "PRAXISBEISPIEL — KARTENAUSSCHNITT",
+     "de_body": "Übung: Welche Lufträume und Höhen gelten an diesem Ort auf der Segelflugkarte?",
+     "en_title": "Practice example — chart excerpt",
+     "en_body": "Exercise: which airspaces and altitudes apply at this point on the glider chart?"
     },
     {
      "page": 61,
-     "de_title": "",
-     "de_body": "",
-     "en_title": "",
-     "en_body": ""
+     "de_title": "UNTER- UND OBERGRENZEN — BEISPIEL",
+     "de_body": "Obergrenze und Untergrenze eines Luftraums werden in m AMSL oder als FL angegeben.",
+     "en_title": "Lower and upper limits — example",
+     "en_body": "Upper and lower limits are given in m AMSL or as flight levels."
     },
     {
      "page": 62,
-     "de_title": "",
-     "de_body": "",
-     "en_title": "",
-     "en_body": ""
+     "de_title": "SPEZIALFALL LS-R",
+     "de_body": "Beispiel LS-R 34/A: 3950 MO (Montag aktiv) / 3200 MA (mittlere Aktivierung) / 600 AGL.",
+     "en_title": "Special case LS-R",
+     "en_body": "Example LS-R 34/A: 3950 MO (active Monday) / 3200 MA / 600 AGL."
     },
     {
      "page": 63,
-     "de_title": "",
-     "de_body": "",
-     "en_title": "",
-     "en_body": ""
+     "de_title": "PRÜFUNGSFRAGE — LUFTRAUM, SONNTAG 14 UHR (1)",
+     "de_body": "Welche Regeln gelten für Hängegleiter am mit × bezeichneten Ort auf 2700 m AMSL an einem Sonntag um 14 Uhr im August?\na) Max. 4550 m AMSL, Sicht 8 km, Wolkenabstände 1500 m horizontal / 300 m vertikal.\nb) Max. 3050 m AMSL, Sicht 5 km, Wolkenabstände 1500 m / 300 m vertikal.\nc) Max. 3050 m AMSL, Sicht 1,5 km, ausserhalb von Wolken, Bodensicht.\nd) Fliegen verboten.",
+     "en_title": "Exam question — airspace, Sunday 14:00 (1)",
+     "en_body": "What rules apply to a hang glider at the × point at 2700 m AMSL on a Sunday at 14:00 in August?\na) Max 4550 m AMSL, visibility 8 km, separation 1500 m horizontal / 300 m vertical.\nb) Max 3050 m AMSL, visibility 5 km, 1500 m / 300 m vertical.\nc) Max 3050 m AMSL, visibility 1.5 km, clear of clouds, ground in sight.\nd) Flight forbidden."
     },
     {
      "page": 64,
-     "de_title": "",
-     "de_body": "",
-     "en_title": "",
-     "en_body": ""
+     "de_title": "PRÜFUNGSFRAGE — LUFTRAUM, SONNTAG 14 UHR (2)",
+     "de_body": "Gleiche Frage wie zuvor, weiterführendes Beispiel mit Lösungswegen.",
+     "en_title": "Exam question — airspace, Sunday 14:00 (2)",
+     "en_body": "Same question as before, follow-up example with worked solutions."
     },
     {
      "page": 65,
-     "de_title": "",
-     "de_body": "",
-     "en_title": "",
-     "en_body": ""
+     "de_title": "PRÜFUNGSFRAGE — 150 m AGL, FREITAG IM SEPTEMBER",
+     "de_body": "Welche Regeln gelten für Hängegleiter am × auf 150 m AGL (≈ 1850 m AMSL) an einem Freitag um 14 Uhr im September, wenn gemäss Telefonanfrage TMA LSMM 1 HX aktiv ist?\na) Max. 3950 m AMSL, Sicht 5 km, 1500 m / 300 m.\nb) Max. 300 m AGL, Sicht 5 km, 1500 m / 300 m.\nc) Max. 300 m AGL, Sicht 1,5 km, ausserhalb von Wolken, Bodensicht.",
+     "en_title": "Exam question — 150 m AGL, Friday in September",
+     "en_body": "What rules apply at the × point at 150 m AGL (~1850 m AMSL) on a Friday at 14:00 in September, when (per phone check) TMA LSMM 1 HX is active?\na) Max 3950 m AMSL, visibility 5 km, 1500 m / 300 m.\nb) Max 300 m AGL, visibility 5 km, 1500 m / 300 m.\nc) Max 300 m AGL, visibility 1.5 km, clear of clouds, ground in sight."
     },
     {
      "page": 66,
-     "de_title": "",
-     "de_body": "",
-     "en_title": "",
-     "en_body": ""
+     "de_title": "UNTERGRENZEN TMA UND AWY",
+     "de_body": "Nördlich der Trennlinie Mittelland-Jura/Alpen gelten die auf der Karte angegebenen Untergrenzen.\nSüdlich der Trennlinie gelten die Karten-Untergrenzen oder 300 m AGL — je nachdem, was die grössere Höhe ergibt.",
+     "en_title": "Lower limits — TMA and AWY",
+     "en_body": "North of the Mittelland-Jura/Alps line: chart lower limits apply.\nSouth of the line: chart limits or 300 m AGL — whichever is higher."
     },
     {
      "page": 67,
-     "de_title": "",
-     "de_body": "",
-     "en_title": "",
-     "en_body": ""
+     "de_title": "VIELEN DANK FÜR EURE AUFMERKSAMKEIT",
+     "de_body": "FreeWings",
+     "en_title": "Thank you for your attention",
+     "en_body": "FreeWings"
     }
    ],
    "path": "assets/freewings/luftrecht"
@@ -1565,150 +1565,150 @@
    "slides": [
     {
      "page": 1,
-     "de_title": "",
+     "de_title": "MATERIALKUNDE",
      "de_body": "",
-     "en_title": "",
+     "en_title": "Equipment",
      "en_body": ""
     },
     {
      "page": 2,
-     "de_title": "",
-     "de_body": "",
-     "en_title": "",
-     "en_body": ""
+     "de_title": "ZIELE VON HEUTE",
+     "de_body": "• Kennenlernen vom Fluggerät\n• Gleitschirmtypen\n• Funktionsweise Gleitschirm\n• Gurtzeuge\n• Notschirm\n• Materialien",
+     "en_title": "Today's goals",
+     "en_body": "• Get to know the equipment\n• Paraglider types\n• How a paraglider works\n• Harnesses\n• Reserve parachute\n• Materials"
     },
     {
      "page": 3,
-     "de_title": "",
-     "de_body": "",
-     "en_title": "",
-     "en_body": ""
+     "de_title": "GLEITSCHIRMKATEGORIEN",
+     "de_body": "Verschiedene Schirmtypen: Schulschirm, Acro/Reverse, Speedflyer/Mini-Wing, Wettkampf-/Hochleistungsschirm.",
+     "en_title": "Paraglider categories",
+     "en_body": "Different wing types: school glider, acro/reverse, speedflyer/mini-wing, competition/high-performance."
     },
     {
      "page": 4,
-     "de_title": "",
-     "de_body": "",
-     "en_title": "",
-     "en_body": ""
+     "de_title": "HOMOLOGATION",
+     "de_body": "A: Schulschirme, hohe passive Sicherheit. Selbstständig in Geradeausflug zurück.\nB: Anfänger – Intermediate, mässige passive Sicherheit.\nC: Anspruchsvolle Intermediate-Schirme.\nD: Hochleistungsschirme, sehr anspruchsvoll.",
+     "en_title": "EN homologation",
+     "en_body": "A: school wings, high passive safety. Return to straight flight on their own.\nB: beginner – intermediate, moderate passive safety.\nC: demanding intermediate wings.\nD: high-performance wings, very demanding."
     },
     {
      "page": 5,
-     "de_title": "",
-     "de_body": "",
-     "en_title": "",
-     "en_body": ""
+     "de_title": "DER WEG ZUM GÜTESIEGEL",
+     "de_body": "• Schockbelastung am Seil mit Sollbruchstelle\n• Statische Belastung 8 G\n• Leinenfestigkeit / Leinenknickprüfung\n• Prüfbericht aller Materialien etc.\n• Flugtest allgemein (Bremsweg etc.)\n• Manöver: 24 Stk., 90 Einzelpunkte, immer mit min. und max. Belastung — gemessen nach Gefühl und Augenmass.\n• Das Manöver kann 5× wiederholt werden, bei nur einem Erfolg gilt es als erfolgreich.",
+     "en_title": "The road to certification",
+     "en_body": "• Shock load test on a line with a designed break point\n• 8 G static load\n• Line strength / line kink test\n• Test report covering all materials etc.\n• General flight test (brake travel etc.)\n• 24 manoeuvres, 90 individual scoring points, performed at both min. and max. load — judged by feel and visual estimate.\n• Each manoeuvre may be attempted up to 5 times; a single success counts as passed."
     },
     {
      "page": 6,
-     "de_title": "",
-     "de_body": "",
-     "en_title": "",
-     "en_body": ""
+     "de_title": "MATERIAL — GLEITSCHIRMTUCH",
+     "de_body": "• Wichtigste Faser ist Polyamid (Handelsname Nylon), zu Ripstop-Gewebe verarbeitet.\n• Kette-und-Schuss-Webtechnik.\n• Weiterreissfestigkeit.\n• Sehr gutes Gewichts-/Stabilitätsverhältnis.\n• Leichtes Tuch ca. 17 g/m².",
+     "en_title": "Material — sail cloth",
+     "en_body": "• Main fibre is polyamide (trade name Nylon), woven into ripstop fabric.\n• Warp-and-weft weaving.\n• Tear resistance.\n• Excellent weight-to-stability ratio.\n• Lightweight cloth around 17 g/m²."
     },
     {
      "page": 7,
-     "de_title": "",
-     "de_body": "",
-     "en_title": "",
-     "en_body": ""
+     "de_title": "MATERIALIEN",
+     "de_body": "Schirm: Nylon.\nLeinen: Dyneema, Technora.\nNotschirm: Nylon.\nKarabiner: Stahl oder Aluminium.",
+     "en_title": "Materials overview",
+     "en_body": "Wing: nylon.\nLines: Dyneema, Technora.\nReserve: nylon.\nKarabiners: steel or aluminium."
     },
     {
      "page": 8,
-     "de_title": "",
-     "de_body": "",
-     "en_title": "",
-     "en_body": ""
+     "de_title": "MATERIAL — LEINENMANTEL",
+     "de_body": "Polyester.\nVorteil:\n– Scheuerfestigkeit\n– Mechanische Belastbarkeit\n– UV-Schutz für den Leinenkern\n– Farbliche Trennung\nNachteil:\n– Schrumpft mit der Zeit\n– Leine wird dicker → mehr Luftwiderstand",
+     "en_title": "Material — line sheath",
+     "en_body": "Polyester.\nAdvantages:\n– Abrasion resistance\n– Mechanical strength\n– UV protection for the core\n– Colour coding\nDrawbacks:\n– Shrinks over time\n– Line becomes thicker → more drag"
     },
     {
      "page": 9,
-     "de_title": "",
-     "de_body": "",
-     "en_title": "",
-     "en_body": ""
+     "de_title": "MATERIAL — LEINENKERN (POLYETHYLEN)",
+     "de_body": "Polyethylen (weiss) — Markenname Dyneema.\nVorteil:\n– Bestes Verhältnis Gewicht/Festigkeit\n– UV-Beständigkeit\n– Alterungsbeständig\n– Gute Verarbeitbarkeit\nNachteil:\n– Dehnung bei Belastung\n– Schrumpft bei Nicht-Belastung\n– Tiefer Schmelzpunkt",
+     "en_title": "Material — line core (polyethylene)",
+     "en_body": "Polyethylene (white) — brand name Dyneema.\nAdvantages:\n– Best weight-to-strength ratio\n– UV resistant\n– Ages well\n– Easy to process\nDrawbacks:\n– Stretches under load\n– Shrinks when unloaded\n– Low melting point"
     },
     {
      "page": 10,
-     "de_title": "",
-     "de_body": "",
-     "en_title": "",
-     "en_body": ""
+     "de_title": "MATERIAL — LEINENKERN (ARAMID)",
+     "de_body": "Aramid — Markennamen Technora, Kevlar.\nVorteil:\n– Geringe Dehnung\n– Längenstabil\n– Hoher Schmelzpunkt\nNachteil:\n– Wasseraufnahme\n– Alterung",
+     "en_title": "Material — line core (aramid)",
+     "en_body": "Aramid — brand names Technora, Kevlar.\nAdvantages:\n– Low stretch\n– Dimensionally stable\n– High melting point\nDrawbacks:\n– Absorbs water\n– Ages over time"
     },
     {
      "page": 11,
-     "de_title": "",
-     "de_body": "",
-     "en_title": "",
-     "en_body": ""
+     "de_title": "RETTUNGSSCHIRM",
+     "de_body": "Funktion, Bauart und Verpackung des Notschirms.",
+     "en_title": "Reserve parachute",
+     "en_body": "Function, construction and packing of the reserve."
     },
     {
      "page": 12,
-     "de_title": "",
-     "de_body": "",
-     "en_title": "",
-     "en_body": ""
+     "de_title": "RETTUNGSSCHIRM",
+     "de_body": "Sprunghöhe und Sinkgeschwindigkeit sind die wichtigsten Kennwerte.",
+     "en_title": "Reserve parachute",
+     "en_body": "Minimum deployment height and sink rate are the key figures."
     },
     {
      "page": 13,
-     "de_title": "",
-     "de_body": "",
-     "en_title": "",
-     "en_body": ""
+     "de_title": "STANDARD-GURTZEUG",
+     "de_body": "Sitzgurtzeug — Klassisches, ergonomisches Gurtzeug für Schulung und Sport.",
+     "en_title": "Standard harness",
+     "en_body": "Seat harness — the classic, ergonomic harness for training and recreational flying."
     },
     {
      "page": 14,
-     "de_title": "",
-     "de_body": "",
-     "en_title": "",
-     "en_body": ""
+     "de_title": "HIKE&FLY-GURTZEUGE",
+     "de_body": "Leichte, kompakte Gurtzeuge für lange Aufstiege.",
+     "en_title": "Hike & Fly harnesses",
+     "en_body": "Lightweight, compact harnesses optimised for long hike-up approaches."
     },
     {
      "page": 15,
-     "de_title": "",
-     "de_body": "",
-     "en_title": "",
-     "en_body": ""
+     "de_title": "LIEGE-GURTZEUGE",
+     "de_body": "Pod-Gurtzeuge mit reduzierter Stirnfläche für maximale Performance auf langen Streckenflügen.",
+     "en_title": "Reclined (pod) harnesses",
+     "en_body": "Pod harnesses with reduced frontal area for maximum cross-country performance."
     },
     {
      "page": 16,
-     "de_title": "",
-     "de_body": "",
-     "en_title": "",
-     "en_body": ""
+     "de_title": "AUFBAU DES GLEITSCHIRMS",
+     "de_body": "Ober- und Untersegel mit Zellen und Profilrippen, von den Leinen gespannt.",
+     "en_title": "Wing construction",
+     "en_body": "Upper and lower sail with cells and ribs, held in shape by the lines."
     },
     {
      "page": 17,
-     "de_title": "",
-     "de_body": "",
-     "en_title": "",
-     "en_body": ""
+     "de_title": "GLEITSCHIRM — BAUTEILE",
+     "de_body": "Profilnase, Hinterkante, Obersegel, Untersegel, Bremsleine, Ankerpunkt, Handschlaufe, Tragegurte.",
+     "en_title": "Wing components",
+     "en_body": "Leading edge, trailing edge, upper sail, lower sail, brake line, anchor point, brake handle, risers."
     },
     {
      "page": 18,
-     "de_title": "",
-     "de_body": "",
-     "en_title": "",
-     "en_body": ""
+     "de_title": "TRAGEGURTE",
+     "de_body": "Bremsleine, Beschleuniger, Hauptaufhängung.",
+     "en_title": "Risers",
+     "en_body": "Brake line, speed bar, main attachment."
     },
     {
      "page": 19,
-     "de_title": "",
-     "de_body": "",
-     "en_title": "",
-     "en_body": ""
+     "de_title": "TRIMMUNG",
+     "de_body": "Anstellwinkel (α) zwischen Profilsehne und Flugbahn. Trimm bestimmt die Geschwindigkeit ohne Bremseinsatz.",
+     "en_title": "Trim",
+     "en_body": "Angle of attack (α) between chord line and flight path. Trim sets the speed without brake input."
     },
     {
      "page": 20,
-     "de_title": "",
-     "de_body": "",
-     "en_title": "",
-     "en_body": ""
+     "de_title": "BELASTUNG FÜR MATERIAL",
+     "de_body": "• Mechanische Belastung\n• UV-Strahlung\n• Nässe\n• Temperatur\n• Säure (Kuhdung, Reinigungsmittel)",
+     "en_title": "Stress on the equipment",
+     "en_body": "• Mechanical load\n• UV radiation\n• Moisture\n• Temperature\n• Acid (cow dung, cleaning agents)"
     },
     {
      "page": 21,
-     "de_title": "",
-     "de_body": "",
-     "en_title": "",
-     "en_body": ""
+     "de_title": "VIELEN DANK FÜR EURE AUFMERKSAMKEIT",
+     "de_body": "FreeWings",
+     "en_title": "Thank you for your attention",
+     "en_body": "FreeWings"
     }
    ],
    "path": "assets/freewings/material"
@@ -1722,129 +1722,129 @@
    "slides": [
     {
      "page": 1,
-     "de_title": "",
+     "de_title": "FLUGPRAXIS",
      "de_body": "",
-     "en_title": "",
+     "en_title": "Flight practice",
      "en_body": ""
     },
     {
      "page": 2,
-     "de_title": "",
-     "de_body": "",
-     "en_title": "",
-     "en_body": ""
+     "de_title": "ZIELE",
+     "de_body": "• Fragen klären für die Theorieprüfung.\n• Das „Warum“ verstehen.\n• Zusammenhänge verstehen: Pilot / Schirm / Umgebung.",
+     "en_title": "Goals",
+     "en_body": "• Clarify questions for the theory exam.\n• Understand the \"why\".\n• Understand the relationships pilot / wing / environment."
     },
     {
      "page": 3,
-     "de_title": "",
-     "de_body": "",
-     "en_title": "",
-     "en_body": ""
+     "de_title": "FLUGVORBEREITUNG — ZU HAUSE",
+     "de_body": "Was gehört zu einer guten Flugvorbereitung zu Hause:\n• Meine physische und psychische Verfassung.\n• Einholen von Wetterinformationen. Gefahren erkennen (FFG-Regel).\n• Wahl eines passenden Fluggebietes, Segelflugkarte, Luftraumbeschränkungen, DABS, Militärflugzeiten (MO–FR).\n• Material (Batterien aufgeladen etc.).\n• Verpflegung, Trinken, Trinken, Trinken.",
+     "en_title": "Flight preparation — at home",
+     "en_body": "Part of good preparation at home:\n• My physical and mental state.\n• Gathering weather info. Recognising hazards (FFG rule).\n• Choosing a suitable site, glider chart, airspace restrictions, DABS, military operating hours (Mon–Fri).\n• Gear (batteries charged etc.).\n• Food, drink, drink, drink."
     },
     {
      "page": 4,
-     "de_title": "",
-     "de_body": "",
-     "en_title": "",
-     "en_body": ""
+     "de_title": "DER FLUG BEGINNT BEIM LANDEPLATZ",
+     "de_body": "Im Fluggebiet:\n• Landeplatzbesichtigung, Landevolte, Hindernisse.\n• Flugplanung, Notlandeplätze, Turbulenzen.\n• Überlegungen Umwelt, Wild etc.\n• Lokale Begebenheiten beachten — Info-Tafel lesen.",
+     "en_title": "The flight starts at the landing field",
+     "en_body": "At the site:\n• Inspect the landing field, circuit pattern, obstacles.\n• Flight planning, emergency landings, turbulence.\n• Environmental considerations, wildlife etc.\n• Note local specifics — read the info board."
     },
     {
      "page": 5,
-     "de_title": "",
-     "de_body": "",
-     "en_title": "",
-     "en_body": ""
+     "de_title": "DER FLUG BEGINNT BEIM STARTPLATZ",
+     "de_body": "Startplatzwahl — Leitsatz: Ein Startabbruch muss jederzeit gefahrlos möglich sein.\n• Unterschiedliche Kriterien bei verschiedenen Windbedingungen.\n• Entspricht der Startplatz mit den vorherrschenden Bedingungen meinen Fähigkeiten?",
+     "en_title": "The flight starts at the launch",
+     "en_body": "Choosing the launch — guiding principle: aborting the take-off must remain safe at any moment.\n• Different criteria for different wind conditions.\n• Does the launch in the current conditions match my skills?"
     },
     {
      "page": 6,
-     "de_title": "",
-     "de_body": "",
-     "en_title": "",
-     "en_body": ""
+     "de_title": "FÜNF-PUNKTE-CHECK",
+     "de_body": "Punkt 1: Notschirm-Verschlusssplinten kontrolliert. Gurtzeug, Karabiner, Helm geschlossen und gesichert. Funk (Schulung).\nPunkt 2: Traggurte nicht verdreht, Leinen laufen frei.\nPunkt 3: Schirm liegt wunschgemäss.\nPunkt 4: Windrichtung und -stärke.\nPunkt 5: Startbahn und Luftraum frei.\nWichtig: Beim Aufziehen rückwärts muss Punkt 5 nochmals unmittelbar vor dem Start kontrolliert werden.",
+     "en_title": "Five-point pre-flight check",
+     "en_body": "1. Reserve handle pins checked. Harness, karabiners, helmet closed and secured. Radio (during training).\n2. Risers not twisted, lines run freely.\n3. Wing laid out as intended.\n4. Wind direction and strength.\n5. Take-off run and airspace clear.\nImportant: when launching reverse, check point 5 again right before take-off."
     },
     {
      "page": 7,
-     "de_title": "",
-     "de_body": "",
-     "en_title": "",
-     "en_body": ""
+     "de_title": "3-PHASEN-START",
+     "de_body": "• Aufziehphase\n• Kontroll- und Korrekturphase\n• Beschleunigungsphase",
+     "en_title": "3-phase launch",
+     "en_body": "• Inflation phase\n• Check & correct phase\n• Acceleration / run phase"
     },
     {
      "page": 8,
-     "de_title": "",
-     "de_body": "",
-     "en_title": "",
-     "en_body": ""
+     "de_title": "NACH DEM START",
+     "de_body": "Die Flugrichtung weg vom Berg muss Priorität haben.\n• Nach dem Start dürfen die Bremsen nicht losgelassen werden!\n• Zieht der Schirm in eine ungewünschte Richtung (Kurve), Ruhe bewahren! Gegenmassnahmen ergreifen, Gewichtsverlagerung und falls nötig dosiertes Gegensteuern.\n• In den freien Luftraum fliegen.\n• Den Grund für die ungewollte Richtungsänderung evaluieren: Knoten, Seitenwind etc. Evtl. Knoten lösen, Pumpen, Stabiloleine, Klapper machen.\n• Gefahren: Knoten im hinteren Schirmbereich = Erhöhung des Anstellwinkels, also Gefahr eines Strömungsabrisses oder Sackflugs.\n• Blockierte Bremsen = Steuern mit den hintersten Tragegurten.\n• Entscheid: Kann der Flug inkl. Landung sicher geflogen werden? Wenn nein → über grosser Fläche fliegen und Notschirm ziehen.",
+     "en_title": "After take-off",
+     "en_body": "Priority is to fly away from the mountain.\n• After launch, never release the brakes!\n• If the wing pulls in an unwanted direction (a turn), stay calm: counter with weight shift and, if needed, dosed opposite brake.\n• Fly into clear airspace.\n• Diagnose the cause of the unwanted turn: line knot, crosswind etc. Try to clear a knot, pump the brake, pull the stabilo line, induce a controlled collapse if appropriate.\n• Danger: knot in the rear of the wing = increased angle of attack, risk of stall or parachutal stall (Sackflug).\n• Blocked brakes = steer with the rearmost risers.\n• Decision: can the flight including landing be flown safely? If not → fly over a clear area and throw the reserve."
     },
     {
      "page": 9,
-     "de_title": "",
-     "de_body": "",
-     "en_title": "",
-     "en_body": ""
+     "de_title": "HUNDSKURVE / VORHALTEWINKEL",
+     "de_body": "Hundskurve: Flugbahn bei Seitenwind über das Gelände. Vorhaltewinkel ist nötig, um auf direkter Linie zum Landeplatz zu bleiben.",
+     "en_title": "\"Dog leg\" path / crab angle",
+     "en_body": "Crosswind ground track between launch and landing. A crab (heading) angle is needed to track a straight line to the landing field."
     },
     {
      "page": 10,
-     "de_title": "",
-     "de_body": "",
-     "en_title": "",
-     "en_body": ""
+     "de_title": "LANDEVOLTE",
+     "de_body": "Grundidee aller Luftrechts-Regelungen: die sichere, ungefährliche, gleichzeitige Bewegung von Luftfahrzeugen und Luftsportgeräten in der Luft. Dazu zählen Start, Flug und Landung.\nWie schon in der Luft sind auch beim Landemanöver besondere Rücksichtnahme und eindeutige Richtungsvorgaben für eine sichere und ungestörte Landung aller Luftsportler wichtig.",
+     "en_title": "Landing circuit",
+     "en_body": "The underlying idea of all air-law rules: the safe, unimpeded, simultaneous movement of aircraft and air-sport devices. That covers take-off, flight and landing.\nAs in flight, the landing manoeuvre demands courtesy and unambiguous direction so that everyone can land safely."
     },
     {
      "page": 11,
-     "de_title": "",
-     "de_body": "",
-     "en_title": "",
-     "en_body": ""
+     "de_title": "LANDEVOLTE — AUFBAU",
+     "de_body": "• Abbauraum (Positionskreise) in Drehrichtung der Volte\n• Gegenanflug (mit Windrichtung)\n• Queranflug\n• Endanflug (in den Wind)\nAchtung: wenn aufgerichtet oder kleine Ohren gemacht werden, ist die Steuerung über das Körpergewicht eingeschränkt.",
+     "en_title": "Landing circuit — pattern",
+     "en_body": "• Holding pattern (position circles) in the direction of the circuit\n• Downwind leg (with wind)\n• Base leg\n• Final approach (into wind)\nNote: when upright or with \"big ears\", weight-shift steering becomes limited."
     },
     {
      "page": 12,
-     "de_title": "",
-     "de_body": "",
-     "en_title": "",
-     "en_body": ""
+     "de_title": "BESONDERE LANDESITUATIONEN",
+     "de_body": "• Rückenwind: brüskes Durchziehen der Bremsen aus voller Fahrt in ca. 2 – 1,5 m Höhe.\n• Hanglandung: immer parallel zum Hang.\n• Kollisionslandung: Bremsen = Energie abbauen.\n• Baumlandung: Bremsen, Kopf mit Armen schützen, Nadelbäume vorziehen — grösste Gefahr ist der Sturz bei der Bergung.\n• Wasserlandung: lebensgefährlich! Gurtzeug vor der Landung soweit als möglich öffnen.",
+     "en_title": "Special landing situations",
+     "en_body": "• Tailwind: brisk full-brake flare from full speed at ~2 – 1.5 m above the ground.\n• Slope landing: always parallel to the slope.\n• Collision landing: brake = bleed off energy.\n• Tree landing: brake, protect head with arms, prefer conifers — biggest danger is the fall during rescue.\n• Water landing: life-threatening! Open the harness as much as possible before touching down."
     },
     {
      "page": 13,
-     "de_title": "",
-     "de_body": "",
-     "en_title": "",
-     "en_body": ""
+     "de_title": "FLUGTECHNIK GESCHWINDIGKEIT",
+     "de_body": "Steuerleinen / Beschleuniger.\nTrimm = bestes Gleiten — Bremsen auf Kontakt 15 ± 5 cm: 35 – 40 km/h.\nBeschleunigt 2. Stufe voll getreten: 45 – 50 km/h.",
+     "en_title": "Flight technique — speeds",
+     "en_body": "Brakes / speed bar.\nTrim = best glide — brakes just on contact (15 ± 5 cm): 35 – 40 km/h.\nFull second-stage speed bar: 45 – 50 km/h."
     },
     {
      "page": 14,
-     "de_title": "",
-     "de_body": "",
-     "en_title": "",
-     "en_body": ""
+     "de_title": "SOARING",
+     "de_body": "• Abstand zum Gelände halten.\n• Immer weg vom Hang drehen.\n• Turbulenzen durch andere Hängegleiter beachten.\n• Vortrittsregeln einhalten.",
+     "en_title": "Ridge soaring",
+     "en_body": "• Keep clearance from terrain.\n• Always turn away from the slope.\n• Watch for turbulence from other gliders.\n• Respect right-of-way rules."
     },
     {
      "page": 15,
-     "de_title": "",
-     "de_body": "",
-     "en_title": "",
-     "en_body": ""
+     "de_title": "THERMIKFLUG",
+     "de_body": "Wohin fliege ich: Wolke, Luv/Lee, Steilwand, Flachland.\nWie verhalten in der Thermik: locker und mit Gewichtsverlagerung arbeiten.\nAufwind verlassen, wenn ich sicher mein Wunschziel erreiche.",
+     "en_title": "Thermalling",
+     "en_body": "Where to fly: cloud, windward/lee, cliff, flatland.\nIn the thermal: stay relaxed and steer mainly with weight shift.\nLeave the lift once you can safely reach your intended target."
     },
     {
      "page": 16,
-     "de_title": "",
-     "de_body": "",
-     "en_title": "",
-     "en_body": ""
+     "de_title": "FLUGMANÖVER / ABSTIEGSMANÖVER",
+     "de_body": "Kleine Ohren / grosse Ohren / Sackflug / Seitenklapper / B-Stall / Steilspirale / Klapperspirale / Vrille / Twist / Wingover / Nicken.",
+     "en_title": "Manoeuvres / rapid-descent techniques",
+     "en_body": "Small ears / big ears / parachutal stall (Sackflug) / asymmetric collapse / B-stall / steep spiral / cascading collapse / spin / twist / wingover / pitching."
     },
     {
      "page": 17,
-     "de_title": "",
-     "de_body": "",
-     "en_title": "",
-     "en_body": ""
+     "de_title": "RETTUNGSSYSTEM — DEINE ZWEITE CHANCE",
+     "de_body": "• Gründe für einen Rettungswurf.\n• Grundsatz: Immer, wenn die Situation als unkontrollierbar erscheint.\n• Zusammenstoss.\n• Medizinisches Problem.\n• Materialbruch.",
+     "en_title": "Reserve parachute — your second chance",
+     "en_body": "• Reasons to throw the reserve.\n• Principle: whenever the situation seems uncontrollable.\n• Mid-air collision.\n• Medical issue.\n• Equipment failure."
     },
     {
      "page": 18,
-     "de_title": "",
-     "de_body": "",
-     "en_title": "",
-     "en_body": ""
+     "de_title": "VIELEN DANK FÜR EURE AUFMERKSAMKEIT",
+     "de_body": "FreeWings",
+     "en_title": "Thank you for your attention",
+     "en_body": "FreeWings"
     }
    ],
    "path": "assets/freewings/flugpraxis"

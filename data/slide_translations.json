@@ -1512,5 +1512,1071 @@
         "body": "FreeWings"
       }
     }
+  },
+  "luftrecht": {
+    "1": {
+      "de": {
+        "title": "GESETZGEBUNG / LUFTRECHT",
+        "body": ""
+      },
+      "en": {
+        "title": "Legislation / Air law",
+        "body": ""
+      }
+    },
+    "2": {
+      "de": {
+        "title": "HÄNGEGLEITER — DEFINITION",
+        "body": "Fussstart. Ausführungen von Gleit- und Segelflügen unmittelbar nach dem Start."
+      },
+      "en": {
+        "title": "Hang glider / paraglider — definition",
+        "body": "Foot-launched. Gliding and soaring flights performed directly after launch."
+      }
+    },
+    "3": {
+      "de": {
+        "title": "BEHÖRDEN UND REGELWERK",
+        "body": "Bund: Gesetzliche Bestimmungen des schweizerischen Luftraums.\nAufsicht: BAZL (Bundesamt für Zivilluftfahrt).\nAusführung: SHV (Schweizerischer Hängegleiterverband).\nGesetzesbestimmungen: VLK (Verordnung über Luftfahrzeuge besonderer Kategorien)."
+      },
+      "en": {
+        "title": "Authorities and regulations",
+        "body": "Federation: laws governing Swiss airspace.\nOversight: BAZL (Federal Office of Civil Aviation).\nImplementation: SHV (Swiss Hang Gliding Association).\nLegal basis: VLK (Ordinance on Aircraft of Special Categories)."
+      }
+    },
+    "4": {
+      "de": {
+        "title": "RECHTLICHE GRUNDLAGEN HÄNGEGLEITER",
+        "body": "• Hängegleiter werden nicht ins Luftfahrzeugregister eingetragen.\n• Kennzeichnung auf Untersegel, 40 cm hoch.\n• Die Lufttüchtigkeit muss von keiner Instanz geprüft werden, Pilot:in ist verantwortlich.\n• Notschirm und Helm sind nur während Prüfungsflügen gesetzlich vorgeschrieben.\n  Bei Wettkämpfen: Entscheid vom Organisator.\n• Hängegleiter-Haftpflichtversicherung (Schadendeckung für unbeteiligte am Boden, 1 Mio).\n• Landen und Starten auf öffentlichen Strassen und Skipisten ist untersagt.\n• Keine jährliche Mindestanzahl von Flügen, ausser bei Tandem."
+      },
+      "en": {
+        "title": "Legal basics for hang gliders / paragliders",
+        "body": "• Not entered in the aircraft register.\n• Marking on the underside, 40 cm tall.\n• No authority checks airworthiness — the pilot is responsible.\n• Reserve chute and helmet are legally required only during examination flights.\n  At competitions: organiser decides.\n• Hang glider liability insurance is mandatory (covers uninvolved third parties on the ground, 1 million).\n• Landing and launching on public roads and ski slopes is forbidden.\n• No minimum number of flights per year, except for tandem pilots."
+      }
+    },
+    "5": {
+      "de": {
+        "title": "MAP.GEO.ADMIN.CH — WILDRUHEZONEN",
+        "body": "Schweizerische Eidgenossenschaft — Karten der Schweiz mit Zeichen-/Messwerkzeugen, Geokatalog und Layer „Wildruhezonen“."
+      },
+      "en": {
+        "title": "map.geo.admin.ch — wildlife reserves",
+        "body": "Swiss federal mapping platform with drawing/measuring tools, geocatalogue and a \"wildlife rest zones\" layer."
+      }
+    },
+    "6": {
+      "de": {
+        "title": "SCHWEIZERISCHER HÄNGEGLEITER-VERBAND (SHV)",
+        "body": "FSVL — Verband, Ausbildung, Sicherheit."
+      },
+      "en": {
+        "title": "Swiss Hang Gliding Association (SHV / FSVL)",
+        "body": "Federation, training and safety body."
+      }
+    },
+    "7": {
+      "de": {
+        "title": "HÄNGEGLEITER UND WILDTIERE",
+        "body": "Wildschutzvereinbarungen. SHV Airspace zeigt:\n• Eidgenössische Wildschutzgebiete\n• AuLaV-Schutzgebiete (Start- und Landeverbot nach Aussenlandeverordnung 2014)\n• Wildschutzgebiete\n• Wildruhezonen\nMerkblätter und Rechtsgrundlagen vom SHV."
+      },
+      "en": {
+        "title": "Hang gliders and wildlife",
+        "body": "Wildlife protection agreements. SHV Airspace shows:\n• Federal wildlife reserves\n• AuLaV protected zones (take-off/landing ban under the 2014 Outlanding Ordinance)\n• Wildlife protection areas\n• Wildlife rest zones\nFact sheets and legal basis published by SHV."
+      }
+    },
+    "8": {
+      "de": {
+        "title": "VORTRITTSREGELN",
+        "body": "• Immer Rechtsvortritt.\n• Motto: „Sehen und gesehen werden“.\n• Abstand: nicht definiert → genügend Sicherheitsabstand halten.\n• Überholen im freien Luftraum erlaubt, am Hang verboten.\n• Im Thermikschlauch im gleichen Drehsinn wie der/die Erste."
+      },
+      "en": {
+        "title": "Right-of-way rules",
+        "body": "• Always give way to the right.\n• Motto: \"See and be seen.\"\n• Separation is not numerically defined → keep a safe distance.\n• Overtaking is allowed in open airspace but forbidden along a ridge.\n• In a thermal column, turn in the same direction as the first pilot in the climb."
+      }
+    },
+    "9": {
+      "de": {
+        "title": "VORTRITTSREGELN AM HANG",
+        "body": "Pilot mit dem Hang zur Rechten hat Vortritt — der andere weicht hangabwärts aus."
+      },
+      "en": {
+        "title": "Ridge right-of-way",
+        "body": "The pilot with the slope on their right has right of way — the other pilot turns away from the ridge."
+      }
+    },
+    "10": {
+      "de": {
+        "title": "VORTRITTSREGELN AM HANG",
+        "body": "Niemals zwischen Pilot und Hang einfädeln (rote Linie = verboten)."
+      },
+      "en": {
+        "title": "Ridge right-of-way",
+        "body": "Never wedge between another pilot and the ridge (red line = forbidden)."
+      }
+    },
+    "11": {
+      "de": {
+        "title": "VORTRITTSREGELN AM HANG",
+        "body": "Konfliktsituation beim Begegnen am Hang — wer Hang rechts hat, behält Kurs."
+      },
+      "en": {
+        "title": "Ridge right-of-way",
+        "body": "Conflict situation when meeting along a ridge — the pilot with the slope on their right keeps course."
+      }
+    },
+    "12": {
+      "de": {
+        "title": "ÜBERHOLEN / RECHTSVORTRITT",
+        "body": "Überholen darf nur im freien Luftraum erfolgen; Grundregel bleibt der Rechtsvortritt."
+      },
+      "en": {
+        "title": "Overtaking / right of way",
+        "body": "Overtake only in open airspace; the right-hand rule still applies."
+      }
+    },
+    "13": {
+      "de": {
+        "title": "VORTRITTSREGELN",
+        "body": "Rangordnung der Luftfahrzeuge nach Vortritt: Ballon → Segelflugzeug/Hängegleiter → Luftschiff → Schleppverbände → Flugzeug → Helikopter."
+      },
+      "en": {
+        "title": "Right-of-way ranking",
+        "body": "Right-of-way hierarchy: balloon → glider/hang glider → airship → tow combinations → aeroplane → helicopter."
+      }
+    },
+    "14": {
+      "de": {
+        "title": "FÜR SEGELFLUG",
+        "body": "→ Segelflugzeuge und Hängegleiter\n– Luftraumklassen\n– Gefahren\n– Flugbeschränkungsgebiete\n– Hindernisse\n– Segelflugzonen LS-R for Gliders\n– Militärische Flugdienstzeiten"
+      },
+      "en": {
+        "title": "Soaring chapter",
+        "body": "→ Gliders and hang gliders\n– Airspace classes\n– Hazards\n– Restricted areas\n– Obstacles\n– Glider zones (LS-R for gliders)\n– Military operating hours"
+      }
+    },
+    "15": {
+      "de": {
+        "title": "ZEITUNGSARTIKEL — BEINAHE-KOLLISION",
+        "body": "„Swiss-Jet kollidierte fast mit Gleitschirm“ — ein Pilot flog 400 m zu hoch im Luftraum um Zürich, ein Swiss-Jumbolino kam ihm entgegen."
+      },
+      "en": {
+        "title": "News story — near miss",
+        "body": "\"Swiss jet nearly collided with paraglider\" — a pilot flew 400 m too high in Zurich airspace and a Swiss regional jet came directly at him."
+      }
+    },
+    "16": {
+      "de": {
+        "title": "SEGELFLUGKARTE — map.geo.admin.ch",
+        "body": "Die offizielle Schweizer Segelflugkarte ist auf map.geo.admin.ch verfügbar (Layer „Segelflugkarte“ / ch.bazl.segelflugkarte)."
+      },
+      "en": {
+        "title": "Glider chart — map.geo.admin.ch",
+        "body": "The official Swiss glider chart is available on map.geo.admin.ch (layer \"Segelflugkarte\" / ch.bazl.segelflugkarte)."
+      }
+    },
+    "17": {
+      "de": {
+        "title": "ABKÜRZUNGEN",
+        "body": "GLDK: Segelflugkarte (Glider Chart)\nAIP: Luftfahrthandbuch (Aeronautical Information Publication)\nNOTAM: Nachrichten für Luftfahrer (Notice to Airmen)\nDABS: Daily Airspace Bulletin Switzerland"
+      },
+      "en": {
+        "title": "Abbreviations",
+        "body": "GLDK: Swiss glider chart\nAIP: Aeronautical Information Publication\nNOTAM: Notice to Airmen\nDABS: Daily Airspace Bulletin Switzerland"
+      }
+    },
+    "18": {
+      "de": {
+        "title": "ABKÜRZUNGEN",
+        "body": "AGL: Above Ground Level (Höhe über Grund)\nAMSL: Above Mean Sea Level (Höhe über Meer)\nVFR: Visual Flight Rules (Sichtflugregeln → Gleitschirm)\nIFR: Instrument Flight Rules (Instrumentenflugregeln)\nFL: Flight Level (Flugfläche)\nCTR: Controlled Traffic Region (Kontrollzone)\nTMA: Terminal Maneuvering Area (Nahkontrollbezirk)\nAWY: Airway (Luftstrasse)\nLS…: Switzerland (LSZR, LSZH, LS-R, LS-…)"
+      },
+      "en": {
+        "title": "Abbreviations",
+        "body": "AGL: Above Ground Level\nAMSL: Above Mean Sea Level\nVFR: Visual Flight Rules (used by paragliders)\nIFR: Instrument Flight Rules\nFL: Flight Level\nCTR: Controlled Traffic Region\nTMA: Terminal Maneuvering Area\nAWY: Airway\nLS…: ICAO prefix for Switzerland (LSZR, LSZH, LS-R, LS-…)"
+      }
+    },
+    "19": {
+      "de": {
+        "title": "LUFTRAUMKLASSEN",
+        "body": "7 Luftraumklassen nach ICAO: A, B, C, D, E, F, G.\nIn der Schweiz davon: G + E → Einflug frei.\nC + D → nur mit Freigabe und Funkkontakt."
+      },
+      "en": {
+        "title": "Airspace classes",
+        "body": "Seven ICAO airspace classes: A, B, C, D, E, F, G.\nUsed in Switzerland: G + E → free to enter.\nC + D → only with clearance and radio contact."
+      }
+    },
+    "20": {
+      "de": {
+        "title": "AUFBAU SEGELFLUGKARTE",
+        "body": "Beispiel für den Aufbau einer Schweizer Segelflugkarte mit Lufträumen, Höhenangaben und Hinweisen."
+      },
+      "en": {
+        "title": "Anatomy of the glider chart",
+        "body": "Example of how a Swiss glider chart is laid out — airspace, altitudes and notes."
+      }
+    },
+    "21": {
+      "de": {
+        "title": "MITTELLAND/JURA – ALPEN",
+        "body": "Trennlinie zwischen Mittelland/Jura und Alpenraum (grüne Linie auf der Karte) — beeinflusst Luftraum-Untergrenzen."
+      },
+      "en": {
+        "title": "Mittelland/Jura – Alps boundary",
+        "body": "Dividing line between the Mittelland/Jura and the Alps (green line on the chart) — affects airspace lower limits."
+      }
+    },
+    "22": {
+      "de": {
+        "title": "MIL OFF",
+        "body": "G + E: Einflug frei.\nC + D: Einflug nur mit Funk und Freigabe."
+      },
+      "en": {
+        "title": "MIL OFF",
+        "body": "G + E: free to enter.\nC + D: only with radio and clearance."
+      }
+    },
+    "23": {
+      "de": {
+        "title": "MIL OFF",
+        "body": "G + E: Einflug frei.\nC + D: Einflug nur mit Funk und Freigabe."
+      },
+      "en": {
+        "title": "MIL OFF",
+        "body": "G + E: free to enter.\nC + D: only with radio and clearance."
+      }
+    },
+    "24": {
+      "de": {
+        "title": "MITTELLAND/JURA – ALPEN",
+        "body": "Unterscheidung Mittelland/Jura vs. Alpenraum auf der Segelflugkarte."
+      },
+      "en": {
+        "title": "Mittelland/Jura – Alps",
+        "body": "Distinction between Mittelland/Jura and the Alps on the glider chart."
+      }
+    },
+    "25": {
+      "de": {
+        "title": "MITTELLAND/JURA – ALPEN",
+        "body": "Die Trennlinie verändert die anzuwendenden Luftraum-Untergrenzen."
+      },
+      "en": {
+        "title": "Mittelland/Jura – Alps",
+        "body": "The dividing line changes which airspace lower limits apply."
+      }
+    },
+    "26": {
+      "de": {
+        "title": "MITTELLAND/JURA – ALPEN",
+        "body": "Beispiele auf der Karte für die Anwendung der Trennlinie."
+      },
+      "en": {
+        "title": "Mittelland/Jura – Alps",
+        "body": "Chart examples illustrating use of the dividing line."
+      }
+    },
+    "27": {
+      "de": {
+        "title": "UNTER- UND OBERGRENZEN VON LUFTRÄUMEN",
+        "body": "Wie Lufträume in der Karte mit Unter- und Obergrenze angegeben werden."
+      },
+      "en": {
+        "title": "Lower and upper limits of airspace",
+        "body": "How airspace lower and upper limits are shown on the chart."
+      }
+    },
+    "28": {
+      "de": {
+        "title": "HÖHENMESSER",
+        "body": "Basiert auf Druckmessung — Höhe wird aus Luftdruck berechnet."
+      },
+      "en": {
+        "title": "Altimeter",
+        "body": "Based on pressure measurement — altitude is derived from air pressure."
+      }
+    },
+    "29": {
+      "de": {
+        "title": "FLIGHT LEVELS — WARUM?",
+        "body": "• Internationale Fliegerei.\n• Unterschiedliche Wetterlagen würden ständige Kalibrierung erfordern (Luftdruckschwankungen).\n• Standardatmosphäre: 1013,25 hPa auf Meereshöhe.\nBeispiel: FL100 (= 10 000 ft Druckhöhe nach Standard)."
+      },
+      "en": {
+        "title": "Flight Levels — why?",
+        "body": "• International aviation.\n• Different pressures would require constant altimeter recalibration.\n• Standard atmosphere: 1013.25 hPa at sea level.\nExample: FL100 (= 10 000 ft pressure altitude in standard atmosphere)."
+      }
+    },
+    "30": {
+      "de": {
+        "title": "FLIGHTLEVELS / STANDARDATMOSPHÄRE",
+        "body": "Flugflächen werden auf die Standardatmosphäre (1013,25 hPa) bezogen."
+      },
+      "en": {
+        "title": "Flight levels / standard atmosphere",
+        "body": "Flight levels are referenced to the standard atmosphere (1013.25 hPa)."
+      }
+    },
+    "31": {
+      "de": {
+        "title": "STANDARDATMOSPHÄRE 1013,25 hPa",
+        "body": "Beispiel aus der Segelflugkarte: TMA LSMM 3 HX, TMA LSMM 1 HX mit Höhenangaben in FL/MA/AGL."
+      },
+      "en": {
+        "title": "Standard atmosphere 1013.25 hPa",
+        "body": "Glider-chart example: TMA LSMM 3 HX, TMA LSMM 1 HX shown with altitudes in FL/MA/AGL."
+      }
+    },
+    "32": {
+      "de": {
+        "title": "STANDARDATMOSPHÄRE",
+        "body": "Idealisierte Bezugsgrösse für Druck und Temperatur."
+      },
+      "en": {
+        "title": "Standard atmosphere",
+        "body": "Idealised reference for pressure and temperature."
+      }
+    },
+    "33": {
+      "de": {
+        "title": "AUSWIRKUNG AUF DIE HÖHENMESSUNG",
+        "body": "Abweichungen vom Standarddruck (in hPa) verändern die angezeigte Höhe."
+      },
+      "en": {
+        "title": "Effect on altitude reading",
+        "body": "Departures from standard pressure (in hPa) shift the indicated altitude."
+      }
+    },
+    "34": {
+      "de": {
+        "title": "PRÜFUNGSBEISPIEL — LUFTRAUM E",
+        "body": "Die Obergrenze des Luftraums Klasse E liegt über dem Jura bei einem Luftdruck von 1037 hPa auf …"
+      },
+      "en": {
+        "title": "Exam example — Airspace E",
+        "body": "The upper limit of class E airspace over the Jura sits at 1037 hPa air pressure at …"
+      }
+    },
+    "35": {
+      "de": {
+        "title": "CTR / KONTROLLZONEN — LUFTRAUM D",
+        "body": "Kontrollzonen (CTR) sind Luftraum der Klasse D rund um grosse Flughäfen (Genève, Bern, Zürich u. a.)."
+      },
+      "en": {
+        "title": "CTR / Control zones — Airspace D",
+        "body": "Control zones (CTR) are class D airspace around major airports (Geneva, Bern, Zurich and others)."
+      }
+    },
+    "36": {
+      "de": {
+        "title": "TMA / NAHKONTROLLBEZIRK",
+        "body": "Terminal Maneuvering Area — Luftraum oberhalb der CTR."
+      },
+      "en": {
+        "title": "TMA / Terminal Maneuvering Area",
+        "body": "TMA sits above the CTR."
+      }
+    },
+    "37": {
+      "de": {
+        "title": "UNTERFLIEGEN EINER TMA",
+        "body": "Hängegleiter dürfen unter den TMA-Untergrenzen fliegen, sofern die Sicht-/Abstandsregeln eingehalten werden."
+      },
+      "en": {
+        "title": "Flying below a TMA",
+        "body": "Hang gliders and paragliders may fly below the TMA lower limit, provided visibility and separation rules are met."
+      }
+    },
+    "38": {
+      "de": {
+        "title": "UNTERFLIEGEN EINER TMA",
+        "body": "Beispiel auf der Karte mit Höhenangaben."
+      },
+      "en": {
+        "title": "Flying below a TMA",
+        "body": "Chart example with altitude information."
+      }
+    },
+    "39": {
+      "de": {
+        "title": "AWY / LUFTSTRASSEN",
+        "body": "Airways (AWY) sind Luftstrassen für den Linien- und Instrumentenflugverkehr."
+      },
+      "en": {
+        "title": "AWY / Airways",
+        "body": "Airways are corridors for scheduled and instrument flight traffic."
+      }
+    },
+    "40": {
+      "de": {
+        "title": "CTR / TMA / AWY",
+        "body": "Übersicht über die drei kontrollierten Luftraumtypen, die Gleitschirmpilot:innen beachten müssen."
+      },
+      "en": {
+        "title": "CTR / TMA / AWY",
+        "body": "Overview of the three controlled airspace types paraglider pilots need to know."
+      }
+    },
+    "41": {
+      "de": {
+        "title": "AKTIVITÄT VON CTR UND TMA",
+        "body": "• Permanent aktiv.\n• Temporär (z. B. CTR LSZR HX, Anflug Rorschach).\nKartenausschnitt St. Gallen-Altenrhein."
+      },
+      "en": {
+        "title": "CTR and TMA activity",
+        "body": "• Permanently active.\n• Or only temporarily (e.g. CTR LSZR HX during Rorschach approach).\nChart excerpt: St. Gallen-Altenrhein."
+      }
+    },
+    "42": {
+      "de": {
+        "title": "HELIPORTS — RADIUS 2,5 km",
+        "body": "Rund um Heliports gilt ein 2,5-km-Schutzkreis."
+      },
+      "en": {
+        "title": "Heliports — 2.5 km radius",
+        "body": "A 2.5-km protective circle applies around heliports."
+      }
+    },
+    "43": {
+      "de": {
+        "title": "FLUGPLÄTZE — RADIUS 5 km",
+        "body": "Rund um zivile und militärische Flugplätze gilt ein 5-km-Schutzkreis. Militärflugplätze sind besonders gekennzeichnet."
+      },
+      "en": {
+        "title": "Aerodromes — 5 km radius",
+        "body": "Civilian and military aerodromes have a 5 km protective circle. Military fields are specially marked."
+      }
+    },
+    "44": {
+      "de": {
+        "title": "FLUGPLÄTZE UND HELIPORTS",
+        "body": "Heliport: Radius 2,5 km.\nFlugplatz zivil: Radius 5 km.\nFlugplatz Mil/Zivil: Radius 5 km.\nFlugplatz Mil: Radius 5 km.\nMindesthöhe beim Überfliegen: 600 m."
+      },
+      "en": {
+        "title": "Aerodromes and heliports",
+        "body": "Heliport: 2.5 km radius.\nCivil aerodrome: 5 km radius.\nCombined mil/civil aerodrome: 5 km radius.\nMilitary aerodrome: 5 km radius.\nMinimum overflight altitude: 600 m."
+      }
+    },
+    "45": {
+      "de": {
+        "title": "SONDERREGELUNG HÄNGEGLEITER (HELIPORT TROGEN)",
+        "body": "Heliport Trogen — Sonderregelung für Hängegleiter:\nDie Basisleitung bewilligt nach Art. 9 Abs. 2 VLK:\n• Der freigegebene Bereich innerhalb der 2,5-km-Zone darf mit erhöhter Vorsicht beflogen werden.\n• Innerhalb der rot markierten Zone gilt unter 1200 m ein Flugverbot.\nBetriebszeiten: täglich 07:00–19:00, Sonn-/Feiertage geschlossen. Ausserhalb der Betriebszeiten Freigabe für den gesamten Luftraum.\nPublikation: shv-fsvl.ch/sicherheit/luftraum/"
+      },
+      "en": {
+        "title": "Special rule — Trogen heliport",
+        "body": "Trogen heliport — special rules for hang gliders:\nThe operator authorises (Art. 9 §2 VLK):\n• The released area inside the 2.5 km zone may be flown with extra caution.\n• Inside the red zone, flight below 1200 m is forbidden.\nOperating hours: daily 07:00–19:00, closed Sundays and holidays. Outside hours, the whole airspace is released.\nPublished at shv-fsvl.ch/sicherheit/luftraum/"
+      }
+    },
+    "46": {
+      "de": {
+        "title": "HINDERNISSE",
+        "body": "Hindernisse wie Seilbahnen, Antennen, Hochspannungsleitungen — auf der Karte markiert."
+      },
+      "en": {
+        "title": "Obstacles",
+        "body": "Obstacles such as cableways, antennas and high-voltage power lines — marked on the chart."
+      }
+    },
+    "47": {
+      "de": {
+        "title": "HINDERNISSE",
+        "body": "Weitere Beispiele: Sendemasten, Türme, Skilifte."
+      },
+      "en": {
+        "title": "Obstacles",
+        "body": "Further examples: transmission masts, towers, ski lifts."
+      }
+    },
+    "48": {
+      "de": {
+        "title": "LS-R / RESTRICTED",
+        "body": "Flugbeschränkungsgebiete (Restricted Areas) — gelegentlich/permanent gesperrt für Hängegleiter."
+      },
+      "en": {
+        "title": "LS-R / Restricted areas",
+        "body": "Restricted areas — periodically or permanently closed to hang gliders."
+      }
+    },
+    "49": {
+      "de": {
+        "title": "LS-D / DANGER",
+        "body": "Gefahrengebiete (Danger Areas) — Beflug auf eigene Gefahr, z. B. militärische Übungsgebiete."
+      },
+      "en": {
+        "title": "LS-D / Danger areas",
+        "body": "Danger areas — enter at your own risk, e.g. military training zones."
+      }
+    },
+    "50": {
+      "de": {
+        "title": "MILITÄRISCHE FLUGDIENSTZEITEN",
+        "body": "Kartenausschnitt mit den Schiess-/Trainingsgebieten und ihren Betriebszeiten."
+      },
+      "en": {
+        "title": "Military operating hours",
+        "body": "Chart excerpt with military firing/training areas and their operating hours."
+      }
+    },
+    "51": {
+      "de": {
+        "title": "MILITÄRISCHE FLUGDIENSTZEITEN — KARTE",
+        "body": "Beispielausschnitt Schweizer Mittelland/Vorarlberg mit Militärgebieten."
+      },
+      "en": {
+        "title": "Military operating hours — chart",
+        "body": "Sample excerpt of the Swiss Mittelland / Vorarlberg with military areas."
+      }
+    },
+    "52": {
+      "de": {
+        "title": "DABS — DAILY AIRSPACE BULLETIN SWITZERLAND",
+        "body": "Tagesaktuelle Übersicht über aktive temporäre Flugbeschränkungen, Schiessgebiete, Heli-Einsätze etc."
+      },
+      "en": {
+        "title": "DABS — Daily Airspace Bulletin Switzerland",
+        "body": "Daily overview of active temporary restrictions, firing areas, helicopter operations and more."
+      }
+    },
+    "53": {
+      "de": {
+        "title": "DABS — FIRING AREAS",
+        "body": "Eintrag im AIP/DABS: Firing-Nr, Lower/Upper Limit (AMSL oder FL), Center Point, Radius, NOTAM-Nummer."
+      },
+      "en": {
+        "title": "DABS — firing areas",
+        "body": "AIP/DABS entry: firing number, lower/upper limit (AMSL or FL), centre point, covering radius, NOTAM number."
+      }
+    },
+    "54": {
+      "de": {
+        "title": "TMA TEMPORÄR SION / ALPNACH",
+        "body": "Aktivität von CTR und TMA: permanent aktiv oder temporär. Beispiele Sion und Alpnach im Wallis/Innerschweiz."
+      },
+      "en": {
+        "title": "Temporary TMA Sion / Alpnach",
+        "body": "CTR and TMA activity: either permanent or temporary. Examples Sion and Alpnach in the Valais / Central Switzerland."
+      }
+    },
+    "55": {
+      "de": {
+        "title": "LS-R FOR GLIDERS",
+        "body": "Spezielle Segelflugzonen LS-R: vom 1. März bis 31. Oktober für Segelflug und Hängegleiter freigegeben (grün) oder gesperrt (rot)."
+      },
+      "en": {
+        "title": "LS-R for gliders",
+        "body": "Special glider zones (LS-R): released for gliders and hang gliders (green) or closed (red) from 1 March to 31 October."
+      }
+    },
+    "56": {
+      "de": {
+        "title": "LS-R FOR GLIDERS",
+        "body": "Detailansicht der Segelflugzonen auf der Karte."
+      },
+      "en": {
+        "title": "LS-R for gliders",
+        "body": "Detailed view of the glider zones on the chart."
+      }
+    },
+    "57": {
+      "de": {
+        "title": "LS-R FOR GLIDERS — OSTSCHWEIZ",
+        "body": "Beispielausschnitt St. Gallen / Appenzellerland mit LS-R-Zonen."
+      },
+      "en": {
+        "title": "LS-R for gliders — Eastern Switzerland",
+        "body": "Sample excerpt of St. Gallen / Appenzell area with LS-R zones."
+      }
+    },
+    "58": {
+      "de": {
+        "title": "WOLKENABSTÄNDE — LUFTRAUM G BIS 300 m",
+        "body": "Im Luftraum G bis 300 m AGL:\nAbstand zu Wolken: ausserhalb.\nSicht: 1,5 km / Bodensicht.\n\nAchtung neu (im Video falsch erklärt):\n• Sicht ist im ganzen Luftraum G 1,5 km.\n• Wolkenabstände unter 300 m: ausserhalb.\n• Wolkenabstände über 300 m: 300 m vertikal / 1500 m horizontal."
+      },
+      "en": {
+        "title": "Cloud distances — Airspace G below 300 m",
+        "body": "In airspace G up to 300 m AGL:\nDistance from clouds: clear of clouds.\nVisibility: 1.5 km / ground in sight.\n\nNote — updated (video is wrong):\n• Visibility throughout airspace G is 1.5 km.\n• Below 300 m: clear of clouds.\n• Above 300 m: 300 m vertical / 1500 m horizontal cloud separation."
+      }
+    },
+    "59": {
+      "de": {
+        "title": "WOLKENABSTÄNDE / SICHT (LUFTRAUM E)",
+        "body": "Über 300 m AGL: 8 km Sicht (über FL100), 5 km darunter.\n\nAchtung neu (im Video falsch erklärt):\n• Sicht ist im ganzen Luftraum G 1,5 km.\n• Wolkenabstände unter 300 m: ausserhalb.\n• Wolkenabstände über 300 m: 300 m vertikal / 1500 m horizontal."
+      },
+      "en": {
+        "title": "Cloud distances / visibility (Airspace E)",
+        "body": "Above 300 m AGL: 8 km visibility (above FL100), 5 km below.\n\nNote — updated (video is wrong):\n• Visibility throughout airspace G is 1.5 km.\n• Below 300 m: clear of clouds.\n• Above 300 m: 300 m vertical / 1500 m horizontal."
+      }
+    },
+    "60": {
+      "de": {
+        "title": "PRAXISBEISPIEL — KARTENAUSSCHNITT",
+        "body": "Übung: Welche Lufträume und Höhen gelten an diesem Ort auf der Segelflugkarte?"
+      },
+      "en": {
+        "title": "Practice example — chart excerpt",
+        "body": "Exercise: which airspaces and altitudes apply at this point on the glider chart?"
+      }
+    },
+    "61": {
+      "de": {
+        "title": "UNTER- UND OBERGRENZEN — BEISPIEL",
+        "body": "Obergrenze und Untergrenze eines Luftraums werden in m AMSL oder als FL angegeben."
+      },
+      "en": {
+        "title": "Lower and upper limits — example",
+        "body": "Upper and lower limits are given in m AMSL or as flight levels."
+      }
+    },
+    "62": {
+      "de": {
+        "title": "SPEZIALFALL LS-R",
+        "body": "Beispiel LS-R 34/A: 3950 MO (Montag aktiv) / 3200 MA (mittlere Aktivierung) / 600 AGL."
+      },
+      "en": {
+        "title": "Special case LS-R",
+        "body": "Example LS-R 34/A: 3950 MO (active Monday) / 3200 MA / 600 AGL."
+      }
+    },
+    "63": {
+      "de": {
+        "title": "PRÜFUNGSFRAGE — LUFTRAUM, SONNTAG 14 UHR (1)",
+        "body": "Welche Regeln gelten für Hängegleiter am mit × bezeichneten Ort auf 2700 m AMSL an einem Sonntag um 14 Uhr im August?\na) Max. 4550 m AMSL, Sicht 8 km, Wolkenabstände 1500 m horizontal / 300 m vertikal.\nb) Max. 3050 m AMSL, Sicht 5 km, Wolkenabstände 1500 m / 300 m vertikal.\nc) Max. 3050 m AMSL, Sicht 1,5 km, ausserhalb von Wolken, Bodensicht.\nd) Fliegen verboten."
+      },
+      "en": {
+        "title": "Exam question — airspace, Sunday 14:00 (1)",
+        "body": "What rules apply to a hang glider at the × point at 2700 m AMSL on a Sunday at 14:00 in August?\na) Max 4550 m AMSL, visibility 8 km, separation 1500 m horizontal / 300 m vertical.\nb) Max 3050 m AMSL, visibility 5 km, 1500 m / 300 m vertical.\nc) Max 3050 m AMSL, visibility 1.5 km, clear of clouds, ground in sight.\nd) Flight forbidden."
+      }
+    },
+    "64": {
+      "de": {
+        "title": "PRÜFUNGSFRAGE — LUFTRAUM, SONNTAG 14 UHR (2)",
+        "body": "Gleiche Frage wie zuvor, weiterführendes Beispiel mit Lösungswegen."
+      },
+      "en": {
+        "title": "Exam question — airspace, Sunday 14:00 (2)",
+        "body": "Same question as before, follow-up example with worked solutions."
+      }
+    },
+    "65": {
+      "de": {
+        "title": "PRÜFUNGSFRAGE — 150 m AGL, FREITAG IM SEPTEMBER",
+        "body": "Welche Regeln gelten für Hängegleiter am × auf 150 m AGL (≈ 1850 m AMSL) an einem Freitag um 14 Uhr im September, wenn gemäss Telefonanfrage TMA LSMM 1 HX aktiv ist?\na) Max. 3950 m AMSL, Sicht 5 km, 1500 m / 300 m.\nb) Max. 300 m AGL, Sicht 5 km, 1500 m / 300 m.\nc) Max. 300 m AGL, Sicht 1,5 km, ausserhalb von Wolken, Bodensicht."
+      },
+      "en": {
+        "title": "Exam question — 150 m AGL, Friday in September",
+        "body": "What rules apply at the × point at 150 m AGL (~1850 m AMSL) on a Friday at 14:00 in September, when (per phone check) TMA LSMM 1 HX is active?\na) Max 3950 m AMSL, visibility 5 km, 1500 m / 300 m.\nb) Max 300 m AGL, visibility 5 km, 1500 m / 300 m.\nc) Max 300 m AGL, visibility 1.5 km, clear of clouds, ground in sight."
+      }
+    },
+    "66": {
+      "de": {
+        "title": "UNTERGRENZEN TMA UND AWY",
+        "body": "Nördlich der Trennlinie Mittelland-Jura/Alpen gelten die auf der Karte angegebenen Untergrenzen.\nSüdlich der Trennlinie gelten die Karten-Untergrenzen oder 300 m AGL — je nachdem, was die grössere Höhe ergibt."
+      },
+      "en": {
+        "title": "Lower limits — TMA and AWY",
+        "body": "North of the Mittelland-Jura/Alps line: chart lower limits apply.\nSouth of the line: chart limits or 300 m AGL — whichever is higher."
+      }
+    },
+    "67": {
+      "de": {
+        "title": "VIELEN DANK FÜR EURE AUFMERKSAMKEIT",
+        "body": "FreeWings"
+      },
+      "en": {
+        "title": "Thank you for your attention",
+        "body": "FreeWings"
+      }
+    }
+  },
+  "material": {
+    "1": {
+      "de": {
+        "title": "MATERIALKUNDE",
+        "body": ""
+      },
+      "en": {
+        "title": "Equipment",
+        "body": ""
+      }
+    },
+    "2": {
+      "de": {
+        "title": "ZIELE VON HEUTE",
+        "body": "• Kennenlernen vom Fluggerät\n• Gleitschirmtypen\n• Funktionsweise Gleitschirm\n• Gurtzeuge\n• Notschirm\n• Materialien"
+      },
+      "en": {
+        "title": "Today's goals",
+        "body": "• Get to know the equipment\n• Paraglider types\n• How a paraglider works\n• Harnesses\n• Reserve parachute\n• Materials"
+      }
+    },
+    "3": {
+      "de": {
+        "title": "GLEITSCHIRMKATEGORIEN",
+        "body": "Verschiedene Schirmtypen: Schulschirm, Acro/Reverse, Speedflyer/Mini-Wing, Wettkampf-/Hochleistungsschirm."
+      },
+      "en": {
+        "title": "Paraglider categories",
+        "body": "Different wing types: school glider, acro/reverse, speedflyer/mini-wing, competition/high-performance."
+      }
+    },
+    "4": {
+      "de": {
+        "title": "HOMOLOGATION",
+        "body": "A: Schulschirme, hohe passive Sicherheit. Selbstständig in Geradeausflug zurück.\nB: Anfänger – Intermediate, mässige passive Sicherheit.\nC: Anspruchsvolle Intermediate-Schirme.\nD: Hochleistungsschirme, sehr anspruchsvoll."
+      },
+      "en": {
+        "title": "EN homologation",
+        "body": "A: school wings, high passive safety. Return to straight flight on their own.\nB: beginner – intermediate, moderate passive safety.\nC: demanding intermediate wings.\nD: high-performance wings, very demanding."
+      }
+    },
+    "5": {
+      "de": {
+        "title": "DER WEG ZUM GÜTESIEGEL",
+        "body": "• Schockbelastung am Seil mit Sollbruchstelle\n• Statische Belastung 8 G\n• Leinenfestigkeit / Leinenknickprüfung\n• Prüfbericht aller Materialien etc.\n• Flugtest allgemein (Bremsweg etc.)\n• Manöver: 24 Stk., 90 Einzelpunkte, immer mit min. und max. Belastung — gemessen nach Gefühl und Augenmass.\n• Das Manöver kann 5× wiederholt werden, bei nur einem Erfolg gilt es als erfolgreich."
+      },
+      "en": {
+        "title": "The road to certification",
+        "body": "• Shock load test on a line with a designed break point\n• 8 G static load\n• Line strength / line kink test\n• Test report covering all materials etc.\n• General flight test (brake travel etc.)\n• 24 manoeuvres, 90 individual scoring points, performed at both min. and max. load — judged by feel and visual estimate.\n• Each manoeuvre may be attempted up to 5 times; a single success counts as passed."
+      }
+    },
+    "6": {
+      "de": {
+        "title": "MATERIAL — GLEITSCHIRMTUCH",
+        "body": "• Wichtigste Faser ist Polyamid (Handelsname Nylon), zu Ripstop-Gewebe verarbeitet.\n• Kette-und-Schuss-Webtechnik.\n• Weiterreissfestigkeit.\n• Sehr gutes Gewichts-/Stabilitätsverhältnis.\n• Leichtes Tuch ca. 17 g/m²."
+      },
+      "en": {
+        "title": "Material — sail cloth",
+        "body": "• Main fibre is polyamide (trade name Nylon), woven into ripstop fabric.\n• Warp-and-weft weaving.\n• Tear resistance.\n• Excellent weight-to-stability ratio.\n• Lightweight cloth around 17 g/m²."
+      }
+    },
+    "7": {
+      "de": {
+        "title": "MATERIALIEN",
+        "body": "Schirm: Nylon.\nLeinen: Dyneema, Technora.\nNotschirm: Nylon.\nKarabiner: Stahl oder Aluminium."
+      },
+      "en": {
+        "title": "Materials overview",
+        "body": "Wing: nylon.\nLines: Dyneema, Technora.\nReserve: nylon.\nKarabiners: steel or aluminium."
+      }
+    },
+    "8": {
+      "de": {
+        "title": "MATERIAL — LEINENMANTEL",
+        "body": "Polyester.\nVorteil:\n– Scheuerfestigkeit\n– Mechanische Belastbarkeit\n– UV-Schutz für den Leinenkern\n– Farbliche Trennung\nNachteil:\n– Schrumpft mit der Zeit\n– Leine wird dicker → mehr Luftwiderstand"
+      },
+      "en": {
+        "title": "Material — line sheath",
+        "body": "Polyester.\nAdvantages:\n– Abrasion resistance\n– Mechanical strength\n– UV protection for the core\n– Colour coding\nDrawbacks:\n– Shrinks over time\n– Line becomes thicker → more drag"
+      }
+    },
+    "9": {
+      "de": {
+        "title": "MATERIAL — LEINENKERN (POLYETHYLEN)",
+        "body": "Polyethylen (weiss) — Markenname Dyneema.\nVorteil:\n– Bestes Verhältnis Gewicht/Festigkeit\n– UV-Beständigkeit\n– Alterungsbeständig\n– Gute Verarbeitbarkeit\nNachteil:\n– Dehnung bei Belastung\n– Schrumpft bei Nicht-Belastung\n– Tiefer Schmelzpunkt"
+      },
+      "en": {
+        "title": "Material — line core (polyethylene)",
+        "body": "Polyethylene (white) — brand name Dyneema.\nAdvantages:\n– Best weight-to-strength ratio\n– UV resistant\n– Ages well\n– Easy to process\nDrawbacks:\n– Stretches under load\n– Shrinks when unloaded\n– Low melting point"
+      }
+    },
+    "10": {
+      "de": {
+        "title": "MATERIAL — LEINENKERN (ARAMID)",
+        "body": "Aramid — Markennamen Technora, Kevlar.\nVorteil:\n– Geringe Dehnung\n– Längenstabil\n– Hoher Schmelzpunkt\nNachteil:\n– Wasseraufnahme\n– Alterung"
+      },
+      "en": {
+        "title": "Material — line core (aramid)",
+        "body": "Aramid — brand names Technora, Kevlar.\nAdvantages:\n– Low stretch\n– Dimensionally stable\n– High melting point\nDrawbacks:\n– Absorbs water\n– Ages over time"
+      }
+    },
+    "11": {
+      "de": {
+        "title": "RETTUNGSSCHIRM",
+        "body": "Funktion, Bauart und Verpackung des Notschirms."
+      },
+      "en": {
+        "title": "Reserve parachute",
+        "body": "Function, construction and packing of the reserve."
+      }
+    },
+    "12": {
+      "de": {
+        "title": "RETTUNGSSCHIRM",
+        "body": "Sprunghöhe und Sinkgeschwindigkeit sind die wichtigsten Kennwerte."
+      },
+      "en": {
+        "title": "Reserve parachute",
+        "body": "Minimum deployment height and sink rate are the key figures."
+      }
+    },
+    "13": {
+      "de": {
+        "title": "STANDARD-GURTZEUG",
+        "body": "Sitzgurtzeug — Klassisches, ergonomisches Gurtzeug für Schulung und Sport."
+      },
+      "en": {
+        "title": "Standard harness",
+        "body": "Seat harness — the classic, ergonomic harness for training and recreational flying."
+      }
+    },
+    "14": {
+      "de": {
+        "title": "HIKE&FLY-GURTZEUGE",
+        "body": "Leichte, kompakte Gurtzeuge für lange Aufstiege."
+      },
+      "en": {
+        "title": "Hike & Fly harnesses",
+        "body": "Lightweight, compact harnesses optimised for long hike-up approaches."
+      }
+    },
+    "15": {
+      "de": {
+        "title": "LIEGE-GURTZEUGE",
+        "body": "Pod-Gurtzeuge mit reduzierter Stirnfläche für maximale Performance auf langen Streckenflügen."
+      },
+      "en": {
+        "title": "Reclined (pod) harnesses",
+        "body": "Pod harnesses with reduced frontal area for maximum cross-country performance."
+      }
+    },
+    "16": {
+      "de": {
+        "title": "AUFBAU DES GLEITSCHIRMS",
+        "body": "Ober- und Untersegel mit Zellen und Profilrippen, von den Leinen gespannt."
+      },
+      "en": {
+        "title": "Wing construction",
+        "body": "Upper and lower sail with cells and ribs, held in shape by the lines."
+      }
+    },
+    "17": {
+      "de": {
+        "title": "GLEITSCHIRM — BAUTEILE",
+        "body": "Profilnase, Hinterkante, Obersegel, Untersegel, Bremsleine, Ankerpunkt, Handschlaufe, Tragegurte."
+      },
+      "en": {
+        "title": "Wing components",
+        "body": "Leading edge, trailing edge, upper sail, lower sail, brake line, anchor point, brake handle, risers."
+      }
+    },
+    "18": {
+      "de": {
+        "title": "TRAGEGURTE",
+        "body": "Bremsleine, Beschleuniger, Hauptaufhängung."
+      },
+      "en": {
+        "title": "Risers",
+        "body": "Brake line, speed bar, main attachment."
+      }
+    },
+    "19": {
+      "de": {
+        "title": "TRIMMUNG",
+        "body": "Anstellwinkel (α) zwischen Profilsehne und Flugbahn. Trimm bestimmt die Geschwindigkeit ohne Bremseinsatz."
+      },
+      "en": {
+        "title": "Trim",
+        "body": "Angle of attack (α) between chord line and flight path. Trim sets the speed without brake input."
+      }
+    },
+    "20": {
+      "de": {
+        "title": "BELASTUNG FÜR MATERIAL",
+        "body": "• Mechanische Belastung\n• UV-Strahlung\n• Nässe\n• Temperatur\n• Säure (Kuhdung, Reinigungsmittel)"
+      },
+      "en": {
+        "title": "Stress on the equipment",
+        "body": "• Mechanical load\n• UV radiation\n• Moisture\n• Temperature\n• Acid (cow dung, cleaning agents)"
+      }
+    },
+    "21": {
+      "de": {
+        "title": "VIELEN DANK FÜR EURE AUFMERKSAMKEIT",
+        "body": "FreeWings"
+      },
+      "en": {
+        "title": "Thank you for your attention",
+        "body": "FreeWings"
+      }
+    }
+  },
+  "flugpraxis": {
+    "1": {
+      "de": {
+        "title": "FLUGPRAXIS",
+        "body": ""
+      },
+      "en": {
+        "title": "Flight practice",
+        "body": ""
+      }
+    },
+    "2": {
+      "de": {
+        "title": "ZIELE",
+        "body": "• Fragen klären für die Theorieprüfung.\n• Das „Warum“ verstehen.\n• Zusammenhänge verstehen: Pilot / Schirm / Umgebung."
+      },
+      "en": {
+        "title": "Goals",
+        "body": "• Clarify questions for the theory exam.\n• Understand the \"why\".\n• Understand the relationships pilot / wing / environment."
+      }
+    },
+    "3": {
+      "de": {
+        "title": "FLUGVORBEREITUNG — ZU HAUSE",
+        "body": "Was gehört zu einer guten Flugvorbereitung zu Hause:\n• Meine physische und psychische Verfassung.\n• Einholen von Wetterinformationen. Gefahren erkennen (FFG-Regel).\n• Wahl eines passenden Fluggebietes, Segelflugkarte, Luftraumbeschränkungen, DABS, Militärflugzeiten (MO–FR).\n• Material (Batterien aufgeladen etc.).\n• Verpflegung, Trinken, Trinken, Trinken."
+      },
+      "en": {
+        "title": "Flight preparation — at home",
+        "body": "Part of good preparation at home:\n• My physical and mental state.\n• Gathering weather info. Recognising hazards (FFG rule).\n• Choosing a suitable site, glider chart, airspace restrictions, DABS, military operating hours (Mon–Fri).\n• Gear (batteries charged etc.).\n• Food, drink, drink, drink."
+      }
+    },
+    "4": {
+      "de": {
+        "title": "DER FLUG BEGINNT BEIM LANDEPLATZ",
+        "body": "Im Fluggebiet:\n• Landeplatzbesichtigung, Landevolte, Hindernisse.\n• Flugplanung, Notlandeplätze, Turbulenzen.\n• Überlegungen Umwelt, Wild etc.\n• Lokale Begebenheiten beachten — Info-Tafel lesen."
+      },
+      "en": {
+        "title": "The flight starts at the landing field",
+        "body": "At the site:\n• Inspect the landing field, circuit pattern, obstacles.\n• Flight planning, emergency landings, turbulence.\n• Environmental considerations, wildlife etc.\n• Note local specifics — read the info board."
+      }
+    },
+    "5": {
+      "de": {
+        "title": "DER FLUG BEGINNT BEIM STARTPLATZ",
+        "body": "Startplatzwahl — Leitsatz: Ein Startabbruch muss jederzeit gefahrlos möglich sein.\n• Unterschiedliche Kriterien bei verschiedenen Windbedingungen.\n• Entspricht der Startplatz mit den vorherrschenden Bedingungen meinen Fähigkeiten?"
+      },
+      "en": {
+        "title": "The flight starts at the launch",
+        "body": "Choosing the launch — guiding principle: aborting the take-off must remain safe at any moment.\n• Different criteria for different wind conditions.\n• Does the launch in the current conditions match my skills?"
+      }
+    },
+    "6": {
+      "de": {
+        "title": "FÜNF-PUNKTE-CHECK",
+        "body": "Punkt 1: Notschirm-Verschlusssplinten kontrolliert. Gurtzeug, Karabiner, Helm geschlossen und gesichert. Funk (Schulung).\nPunkt 2: Traggurte nicht verdreht, Leinen laufen frei.\nPunkt 3: Schirm liegt wunschgemäss.\nPunkt 4: Windrichtung und -stärke.\nPunkt 5: Startbahn und Luftraum frei.\nWichtig: Beim Aufziehen rückwärts muss Punkt 5 nochmals unmittelbar vor dem Start kontrolliert werden."
+      },
+      "en": {
+        "title": "Five-point pre-flight check",
+        "body": "1. Reserve handle pins checked. Harness, karabiners, helmet closed and secured. Radio (during training).\n2. Risers not twisted, lines run freely.\n3. Wing laid out as intended.\n4. Wind direction and strength.\n5. Take-off run and airspace clear.\nImportant: when launching reverse, check point 5 again right before take-off."
+      }
+    },
+    "7": {
+      "de": {
+        "title": "3-PHASEN-START",
+        "body": "• Aufziehphase\n• Kontroll- und Korrekturphase\n• Beschleunigungsphase"
+      },
+      "en": {
+        "title": "3-phase launch",
+        "body": "• Inflation phase\n• Check & correct phase\n• Acceleration / run phase"
+      }
+    },
+    "8": {
+      "de": {
+        "title": "NACH DEM START",
+        "body": "Die Flugrichtung weg vom Berg muss Priorität haben.\n• Nach dem Start dürfen die Bremsen nicht losgelassen werden!\n• Zieht der Schirm in eine ungewünschte Richtung (Kurve), Ruhe bewahren! Gegenmassnahmen ergreifen, Gewichtsverlagerung und falls nötig dosiertes Gegensteuern.\n• In den freien Luftraum fliegen.\n• Den Grund für die ungewollte Richtungsänderung evaluieren: Knoten, Seitenwind etc. Evtl. Knoten lösen, Pumpen, Stabiloleine, Klapper machen.\n• Gefahren: Knoten im hinteren Schirmbereich = Erhöhung des Anstellwinkels, also Gefahr eines Strömungsabrisses oder Sackflugs.\n• Blockierte Bremsen = Steuern mit den hintersten Tragegurten.\n• Entscheid: Kann der Flug inkl. Landung sicher geflogen werden? Wenn nein → über grosser Fläche fliegen und Notschirm ziehen."
+      },
+      "en": {
+        "title": "After take-off",
+        "body": "Priority is to fly away from the mountain.\n• After launch, never release the brakes!\n• If the wing pulls in an unwanted direction (a turn), stay calm: counter with weight shift and, if needed, dosed opposite brake.\n• Fly into clear airspace.\n• Diagnose the cause of the unwanted turn: line knot, crosswind etc. Try to clear a knot, pump the brake, pull the stabilo line, induce a controlled collapse if appropriate.\n• Danger: knot in the rear of the wing = increased angle of attack, risk of stall or parachutal stall (Sackflug).\n• Blocked brakes = steer with the rearmost risers.\n• Decision: can the flight including landing be flown safely? If not → fly over a clear area and throw the reserve."
+      }
+    },
+    "9": {
+      "de": {
+        "title": "HUNDSKURVE / VORHALTEWINKEL",
+        "body": "Hundskurve: Flugbahn bei Seitenwind über das Gelände. Vorhaltewinkel ist nötig, um auf direkter Linie zum Landeplatz zu bleiben."
+      },
+      "en": {
+        "title": "\"Dog leg\" path / crab angle",
+        "body": "Crosswind ground track between launch and landing. A crab (heading) angle is needed to track a straight line to the landing field."
+      }
+    },
+    "10": {
+      "de": {
+        "title": "LANDEVOLTE",
+        "body": "Grundidee aller Luftrechts-Regelungen: die sichere, ungefährliche, gleichzeitige Bewegung von Luftfahrzeugen und Luftsportgeräten in der Luft. Dazu zählen Start, Flug und Landung.\nWie schon in der Luft sind auch beim Landemanöver besondere Rücksichtnahme und eindeutige Richtungsvorgaben für eine sichere und ungestörte Landung aller Luftsportler wichtig."
+      },
+      "en": {
+        "title": "Landing circuit",
+        "body": "The underlying idea of all air-law rules: the safe, unimpeded, simultaneous movement of aircraft and air-sport devices. That covers take-off, flight and landing.\nAs in flight, the landing manoeuvre demands courtesy and unambiguous direction so that everyone can land safely."
+      }
+    },
+    "11": {
+      "de": {
+        "title": "LANDEVOLTE — AUFBAU",
+        "body": "• Abbauraum (Positionskreise) in Drehrichtung der Volte\n• Gegenanflug (mit Windrichtung)\n• Queranflug\n• Endanflug (in den Wind)\nAchtung: wenn aufgerichtet oder kleine Ohren gemacht werden, ist die Steuerung über das Körpergewicht eingeschränkt."
+      },
+      "en": {
+        "title": "Landing circuit — pattern",
+        "body": "• Holding pattern (position circles) in the direction of the circuit\n• Downwind leg (with wind)\n• Base leg\n• Final approach (into wind)\nNote: when upright or with \"big ears\", weight-shift steering becomes limited."
+      }
+    },
+    "12": {
+      "de": {
+        "title": "BESONDERE LANDESITUATIONEN",
+        "body": "• Rückenwind: brüskes Durchziehen der Bremsen aus voller Fahrt in ca. 2 – 1,5 m Höhe.\n• Hanglandung: immer parallel zum Hang.\n• Kollisionslandung: Bremsen = Energie abbauen.\n• Baumlandung: Bremsen, Kopf mit Armen schützen, Nadelbäume vorziehen — grösste Gefahr ist der Sturz bei der Bergung.\n• Wasserlandung: lebensgefährlich! Gurtzeug vor der Landung soweit als möglich öffnen."
+      },
+      "en": {
+        "title": "Special landing situations",
+        "body": "• Tailwind: brisk full-brake flare from full speed at ~2 – 1.5 m above the ground.\n• Slope landing: always parallel to the slope.\n• Collision landing: brake = bleed off energy.\n• Tree landing: brake, protect head with arms, prefer conifers — biggest danger is the fall during rescue.\n• Water landing: life-threatening! Open the harness as much as possible before touching down."
+      }
+    },
+    "13": {
+      "de": {
+        "title": "FLUGTECHNIK GESCHWINDIGKEIT",
+        "body": "Steuerleinen / Beschleuniger.\nTrimm = bestes Gleiten — Bremsen auf Kontakt 15 ± 5 cm: 35 – 40 km/h.\nBeschleunigt 2. Stufe voll getreten: 45 – 50 km/h."
+      },
+      "en": {
+        "title": "Flight technique — speeds",
+        "body": "Brakes / speed bar.\nTrim = best glide — brakes just on contact (15 ± 5 cm): 35 – 40 km/h.\nFull second-stage speed bar: 45 – 50 km/h."
+      }
+    },
+    "14": {
+      "de": {
+        "title": "SOARING",
+        "body": "• Abstand zum Gelände halten.\n• Immer weg vom Hang drehen.\n• Turbulenzen durch andere Hängegleiter beachten.\n• Vortrittsregeln einhalten."
+      },
+      "en": {
+        "title": "Ridge soaring",
+        "body": "• Keep clearance from terrain.\n• Always turn away from the slope.\n• Watch for turbulence from other gliders.\n• Respect right-of-way rules."
+      }
+    },
+    "15": {
+      "de": {
+        "title": "THERMIKFLUG",
+        "body": "Wohin fliege ich: Wolke, Luv/Lee, Steilwand, Flachland.\nWie verhalten in der Thermik: locker und mit Gewichtsverlagerung arbeiten.\nAufwind verlassen, wenn ich sicher mein Wunschziel erreiche."
+      },
+      "en": {
+        "title": "Thermalling",
+        "body": "Where to fly: cloud, windward/lee, cliff, flatland.\nIn the thermal: stay relaxed and steer mainly with weight shift.\nLeave the lift once you can safely reach your intended target."
+      }
+    },
+    "16": {
+      "de": {
+        "title": "FLUGMANÖVER / ABSTIEGSMANÖVER",
+        "body": "Kleine Ohren / grosse Ohren / Sackflug / Seitenklapper / B-Stall / Steilspirale / Klapperspirale / Vrille / Twist / Wingover / Nicken."
+      },
+      "en": {
+        "title": "Manoeuvres / rapid-descent techniques",
+        "body": "Small ears / big ears / parachutal stall (Sackflug) / asymmetric collapse / B-stall / steep spiral / cascading collapse / spin / twist / wingover / pitching."
+      }
+    },
+    "17": {
+      "de": {
+        "title": "RETTUNGSSYSTEM — DEINE ZWEITE CHANCE",
+        "body": "• Gründe für einen Rettungswurf.\n• Grundsatz: Immer, wenn die Situation als unkontrollierbar erscheint.\n• Zusammenstoss.\n• Medizinisches Problem.\n• Materialbruch."
+      },
+      "en": {
+        "title": "Reserve parachute — your second chance",
+        "body": "• Reasons to throw the reserve.\n• Principle: whenever the situation seems uncontrollable.\n• Mid-air collision.\n• Medical issue.\n• Equipment failure."
+      }
+    },
+    "18": {
+      "de": {
+        "title": "VIELEN DANK FÜR EURE AUFMERKSAMKEIT",
+        "body": "FreeWings"
+      },
+      "en": {
+        "title": "Thank you for your attention",
+        "body": "FreeWings"
+      }
+    }
   }
 }
