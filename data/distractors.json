@@ -240,9 +240,9 @@
     "Stay at trim speed — neither braked nor accelerated."
   ],
   "aer-53": [
-    "Apply 50% brake to fly at minimum sink and let the wind help carry you.",
-    "Stay at trim speed — neither braked nor accelerated.",
-    "Apply full brake to descend rapidly and exit the sinking air."
+    "Apply 50% brake to fly at minimum sink rate, letting the wind carry you through faster. This combines lift and reduced drag for maximum reachable distance — best in zones with significant terrain clearance.",
+    "Stay at trim speed (hands up) — neither braked nor accelerated. The wing flies most efficiently at trim, so glide ratio over ground is maximised regardless of conditions. Works in both lift and sink.",
+    "Apply full brake to descend rapidly and exit the sinking air. Once clear of the sink the wing recovers normal glide. This is the safest approach as it prevents collapse, even with low terrain clearance."
   ],
   "aer-54": [
     "Roll (rollen). Stability around it = directional stability.",
@@ -345,9 +345,9 @@
     "They reduce wing weight by replacing some of the lower-surface cloth."
   ],
   "eq-2": [
-    "EN testing consists of a wind-tunnel measurement at sea level only — no flight tests are required for certification.",
-    "BAZL conducts an annual structural inspection of every certified wing model; pilots receive a renewed sticker.",
-    "Manufacturer self-certification — a paper report covering material specs and pilot weight range suffices; no test flights are required."
+    "EN testing consists of a wind-tunnel measurement at sea level only — no flight tests are required for certification. Brake travel is measured from 0 to 100 m. Manoeuvres are simulated by a computer model, judged by an expert. If 4 of 5 simulations are A and one is B → the wing is rated B (best-case rules).",
+    "BAZL conducts an annual structural inspection of every certified wing model; pilots receive a renewed sticker each spring. Line strength, kink resistance and porosity are measured in a paper report. No flight test is performed — only static load is checked. Manoeuvre ratings are decided by a test pilot alone.",
+    "Manufacturer self-certification — a paper report covering material specs and pilot weight range suffices; no test flights are required. The wing is dropped from 100 m by a crane to simulate shock load. If any line breaks the wing is rated D. If none break it is rated A regardless of in-flight handling."
   ],
   "eq-20": [
     "…it returns elastically to its original dimensions and strength once unloaded.",
@@ -455,9 +455,9 @@
     "Knotting using a double figure-eight."
   ],
   "eq-4": [
-    "Outer sheath is dyneema; the core is polyester. Lines never stretch or shrink, regardless of UV exposure.",
-    "Lines are made entirely of stainless-steel braid — UV-proof and dimensionally stable but heavy.",
-    "Outer sheath of nylon; core of carbon fibre. Carbon is brittle and must be inspected before every flight."
+    "Outer sheath is dyneema; the core is polyester. Lines never stretch or shrink, regardless of UV exposure. Polyester is brittle and kink-sensitive, so school wings use a sheath of aramid to balance the properties. Most modern wings have UV-stable lines that last 10+ years without re-trimming.",
+    "Lines are made entirely of stainless-steel braid — UV-proof and dimensionally stable but heavy. Sheath is optional and only used on school wings for colour coding. Steel lines can shrink slightly in cold weather but stretch in heat. Most acro wings use a stainless/aramid mix.",
+    "Outer sheath of nylon; core of carbon fibre. Carbon is brittle and must be inspected before every flight. Carbon lines stretch under load on A & B classes (~80% load tolerance). Aramid is used as a backup for the core only. UV exposure has no effect because the sheath blocks all radiation."
   ],
   "eq-40": [
     "…it increases porosity and elasticity for better flight characteristics.",
@@ -540,9 +540,9 @@
     "The NOTAM bulletin for free-flight pilots."
   ],
   "law-10": [
-    "Notice to All Members — SHV's weekly safety bulletin.",
-    "Network of Aviation Tracking and Monitoring — radar-based traffic info.",
-    "Notice on Terrain and Mountains — annual hazard map."
+    "Notice to All Members — SHV's weekly safety bulletin covering accident reports and rule changes. Members receive it by email; you should check it before every flight, especially XC.",
+    "Network of Aviation Tracking and Monitoring — daily radar-based traffic info for VFR pilots. Published every morning by Skyguide; primarily covers the major airports and their TMAs.",
+    "Notice on Terrain and Mountains — an annual hazard map showing newly identified obstacles. Updated each spring; legally you should consult it once per season, and it is provided free by BAZL."
   ],
   "law-11": [
     "A weekly publication that lists all permanent CTRs and TMAs in Switzerland in tabular form. Times are in local time (no UTC conversion needed). Published every Monday at 08:00 on www.bazl.admin.ch for the current week.",
@@ -635,9 +635,9 @@
     "Local sea-level pressure as broadcast by ATIS in millibars (mb). Why: FL is calculated dynamically from the current QNH. This ensures pilots always read the same height for the same location, regardless of weather."
   ],
   "law-28": [
-    "Above 1037 hPa: +50 m  •  1032–1036: +100 m  •  1026–1031: +150 m  •  1020–1025: +200 m.",
-    "+100 m for every 5 hPa above standard pressure (1013), no upper cap.",
-    "Always +300 m above the GLDK ceiling, regardless of pressure value."
+    "Above 1037 hPa: +50 m  •  1032–1036: +100 m  •  1026–1031: +150 m  •  1020–1025: +200 m  •  1010–1019: +250 m. (In low pressure you'd subtract — but we generally don't fly in low pressure anyway.) High-pressure days give you extra headroom (up to +250 m).",
+    "Above 1037 hPa: +100 m  •  1030–1036: +75 m  •  1020–1029: +50 m  •  1015–1019: +25 m. (In low pressure: subtract proportionally.) AMSL altitudes are exact under standard atmosphere; high-pressure offers up to +100 m of extra headroom.",
+    "Above 1030 hPa: +300 m  •  1020–1029: +200 m  •  1015–1019: +100 m  •  1010–1014: 0 m. (In low pressure subtract.) AMSL altitudes are exact only under standard atmosphere; on a strong-high day you get up to +300 m of additional ceiling."
   ],
   "law-29": [
     "The Federal Aviation Act (Luftfahrtgesetz LFG), 21 December 1948.",
@@ -740,9 +740,9 @@
     "1. Weather forecast? 2. Glide ratio? 3. Wing loading? 4. Fuel? 5. Passenger weight?"
   ],
   "law-47": [
-    "Check the wing for porosity, replace any worn lines, repack the reserve. Inspect the harness for wear, calibrate the variometer, charge all batteries. Brief any passenger about emergency procedures and confirm their insurance.",
-    "Submit a flight plan to BAZL and obtain clearance from the nearest CTR controller. Verify the active NOTAM, confirm MIL-ON status by phone, and double-check that the DABS shows no restrictions. Carry a printed copy of your SHV license.",
-    "Inflate the harness airbag, brief the passenger, verify SHV insurance certificate. Set the altimeter to QNH, confirm GPS waypoints, and check that the speedbar is properly attached. Submit a flight plan if crossing a CTR."
+    "Check the wing for porosity, replace any worn lines, repack the reserve. Inspect the harness for wear, calibrate the variometer, charge all batteries. Brief any passenger about emergency procedures.",
+    "Submit a flight plan to BAZL and obtain clearance from the nearest CTR controller. Verify the active NOTAM, confirm MIL-ON status by phone, and double-check that the DABS shows no restrictions. Carry a printed SHV license.",
+    "Inflate the harness airbag, brief the passenger, verify SHV insurance certificate. Set the altimeter to QNH, confirm GPS waypoints, and check that the speedbar is attached. Submit a flight plan if crossing a CTR."
   ],
   "law-48": [
     "≈ 25.4 cm.",
@@ -940,9 +940,9 @@
     "The NOTAM bulletin is the only authoritative source for military timings."
   ],
   "law-83": [
-    "1. Wind  •  2. Weather  •  3. Wing  •  4. Witnesses  •  5. Way out.",
-    "1. Glider class  •  2. Pilot certificate  •  3. Insurance  •  4. Reserve  •  5. Altimeter.",
-    "1. Pre-flight weather briefing  •  2. NOTAM check  •  3. DABS check  •  4. Equipment  •  5. Passenger briefing."
+    "1. Wind: correct direction and acceptable strength.\n\n2. Weather: visibility, cloud base and dew-point spread acceptable.\n\n3. Wing: leading edge open, lines visible, no twists.\n\n4. Witnesses: another pilot has checked your setup and gives green light.\n\n5. Way out: emergency landing planned in case of abort.",
+    "1. Glider class: confirm wing matches current license level.\n\n2. Pilot certificate: SHV license valid and date checked.\n\n3. Insurance: proof of CHF 1 million liability cover on hand.\n\n4. Reserve: deployment handle accessible and not snagged.\n\n5. Altimeter: set to local QNH and zero-checked on the ground.",
+    "1. Pre-flight weather briefing: MeteoSwiss bulletin reviewed for the day.\n\n2. NOTAM check: confirm no military or temporary restriction is active.\n\n3. DABS check: cross-reference daily airspace bulletin for current restrictions.\n\n4. Equipment: harness, helmet and reserve checked individually.\n\n5. Passenger briefing: brief any passenger about reserve and landing posture."
   ],
   "law-9": [
     "LS-D = Designated free-flight area for paragliders.",
