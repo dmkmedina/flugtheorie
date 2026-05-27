@@ -787,7 +787,7 @@ def law_book() -> dict:
                 "No take-off/landing on public roads, ski slopes, water; 5 km from runways, 2.5 km from heliports.",
             ]},
         ],
-        "quiz": ["law-29", "law-50", "law-51", "law-54", "law-56", "law-57", "law-60", "law-61", "law-62", "law-63", "law-68", "law-69", "law-70", "law-73", "law-75", "law-79"],
+        "quiz": ["law-29", "law-50", "law-51", "law-54", "law-56", "law-57", "law-60", "law-61", "law-62", "law-63", "law-68", "law-69", "law-70", "law-72", "law-75", "law-79"],
     })
 
     # 2. Abbreviations -------------------------------------------------------
@@ -800,7 +800,7 @@ def law_book() -> dict:
         "estimated_min": 3,
         "sections": [
             {"kind": "h2", "text": "Airspace abbreviations"},
-            {"kind": "p", "text": "CTR is the Control Zone, the controlled airspace around an airport's runway. TMA stands for Terminal Maneuvering Area, the controlled airspace above and around the CTR. AWY is an airway: a corridor of controlled airspace connecting TMAs. FIZ is a Flight Information Zone, and RMZ is a Radio Mandatory Zone."},
+            {"kind": "p", "text": "CTR is the Control Zone, the controlled airspace from the ground up around an airport's runway. TMA stands for Terminal Maneuvering Area, the controlled airspace above and around the CTR, with stepped lower limits. AWY is an Airway: a corridor of controlled airspace connecting TMAs, with an upper limit of FL195. FIZ is a Flight Information Zone, and RMZ is a Radio Mandatory Zone — in neither is radio contact strictly required for VFR free flight, but local rules apply."},
             {"kind": "image", "deck": "luftrecht", "page": 17, "caption": "Abbreviations on the glider chart."},
             {"kind": "image", "deck": "luftrecht", "page": 18, "caption": "More abbreviations — controlled and restricted zones."},
             {"kind": "h2", "text": "Restricted areas"},
@@ -818,7 +818,7 @@ def law_book() -> dict:
                 "FL = pressure altitude in hundreds of feet (QNE).",
             ]},
         ],
-        "quiz": ["law-5", "law-9", "law-10", "law-11", "law-12", "law-13", "law-15", "law-21", "law-22", "law-23", "law-24", "law-42", "law-43", "law-44", "law-58", "law-76", "law-81"],
+        "quiz": ["law-5", "law-9", "law-10", "law-11", "law-15", "law-21", "law-22", "law-23", "law-24", "law-42", "law-43", "law-44", "law-58", "law-81"],
     })
 
     # 3. Airspace structure -------------------------------------------------
@@ -836,7 +836,8 @@ def law_book() -> dict:
             {"kind": "h2", "text": "Airspace G — close to the ground"},
             {"kind": "p", "text": "Airspace G runs from the ground up to 600 m AGL across the entire country. It is uncontrolled — no clearance required — but VFR rules still apply. Within G, the rules below and above 300 m AGL differ in the visibility and cloud-clearance distances required. Because the upper limit is in AGL, the absolute height of the G ceiling rises and falls with the terrain — a useful detail when flying close to the ridges."},
             {"kind": "h2", "text": "Airspace E — above G"},
-            {"kind": "p", "text": "Airspace E begins above G and extends upward to a varying ceiling. On the Jura and Plateau the upper limit is FL100 (about 3050 m AMSL). In the Alps the upper limit depends on military activity: FL130 (about 3950 m) when military airspace is active (MIL ON), FL150 (about 4600 m) when MIL OFF."},
+            {"kind": "p", "text": "Airspace E ('Echo') sits above G. Its upper limit varies. On the Jura and the Plateau the upper limit of E is FL100, about 3050 m AMSL. In the Alps the upper limit depends on the time and season: during military flight hours (MIL ON) it is FL130, about 3950 m AMSL; outside military hours (MIL OFF) it rises to FL150, about 4600 m AMSL. The exact dividing line between Jura/Plateau and Alps is shown on the glider chart and in the AIP."},
+            {"kind": "p", "text": "In the Alps, airspace D extends from the upper limit of E up to FL195, and airspace C extends from FL195 to FL600. On the Plateau and Jura there is no D and C begins directly at FL100. Knowing these vertical limits is more useful than the labels: a paraglider that climbs through the E ceiling has, by definition, entered controlled airspace without clearance."},
             {"kind": "image", "deck": "luftrecht", "page": 27, "caption": "Lower and upper limits of the various airspaces."},
             {"kind": "image", "deck": "luftrecht", "page": 21, "caption": "Mittelland/Jura — Alps boundary on the glider chart."},
             {"kind": "h2", "text": "MIL ON hours"},
@@ -859,7 +860,7 @@ def law_book() -> dict:
                 "CTR/TMA/AWY: controlled — clearance required.",
             ]},
         ],
-        "quiz": ["law-3", "law-4", "law-13", "law-14", "law-15", "law-16", "law-17", "law-18", "law-19", "law-20", "law-25", "law-26", "law-27", "law-28", "law-30", "law-31", "law-32", "law-41", "law-49", "law-74"],
+        "quiz": ["law-3", "law-4", "law-13", "law-14", "law-16", "law-17", "law-18", "law-19", "law-20", "law-25", "law-26", "law-32", "law-45", "law-77"],
     })
 
     # 4. Sources of information --------------------------------------------
@@ -873,11 +874,13 @@ def law_book() -> dict:
         "sections": [
             {"kind": "h2", "text": "The glider chart"},
             {"kind": "p", "text": "The Swiss Glider Chart is the basic reference for free-flight airspace. It shows airspace boundaries (CTR, TMA, AWY, LS-R, LS-D, LS-P), the upper and lower limits of every zone, the military operating hours, the Mittelland/Jura–Alps boundary and the cable obstacles that paragliders must avoid. Many pilots also use the online map.geo.admin.ch viewer, which carries the same information in layered form along with wildlife reserves and protected areas."},
+            {"kind": "p", "text": "The chart is reprinted every year by the SHV/FSVL with the latest airspace and operating-hour information. The colours, symbols and abbreviations have a fixed convention — green for gliding zones, red for restricted zones, hatched lines for danger zones, double lines for boundaries. Spend an evening with the legend before your first flight in unfamiliar terrain."},
+            {"kind": "p", "text": "If you fly outside Switzerland, remember that every country publishes its own glider chart with its own conventions and abbreviations. The four-letter ICAO codes are international, but airspace classes, operating hours and local restrictions all vary. Always read the local chart legend before flying somewhere new."},
             {"kind": "p", "text": "The chart is reprinted every year by the SHV/FSVL with the latest airspace and operating-hour information. The colours, symbols and abbreviations have a fixed convention: green for gliding zones, red for restricted zones, hatched lines for danger zones, double lines for boundaries. Spend an evening with the legend before your first flight in unfamiliar terrain."},
             {"kind": "image", "deck": "luftrecht", "page": 16, "caption": "Glider chart — map.geo.admin.ch viewer."},
             {"kind": "image", "deck": "luftrecht", "page": 20, "caption": "Anatomy of the glider chart."},
             {"kind": "h2", "text": "DABS — Daily Airspace Bulletin Switzerland"},
-            {"kind": "p", "text": "The DABS is published every day and lists temporary changes to Swiss airspace: actual MIL ON times, active LS-R restrictions, temporary TMA extensions (Sion, Alpnach), firing area activations and similar. Always check DABS before flying — never rely on the glider chart's general operating hours alone."},
+            {"kind": "p", "text": "The DABS is published every day and lists temporary changes to Swiss airspace: actual MIL ON times for the day, active LS-R restrictions, temporary TMA extensions (e.g. Sion, Alpnach), firing area activations and similar. Always check DABS before flying — never rely on the glider chart's general operating hours alone. The DABS is short, free, available online and via smartphone app, and is the only source that reflects what is happening today."},
             {"kind": "image", "deck": "luftrecht", "page": 52, "caption": "DABS — Daily Airspace Bulletin Switzerland."},
             {"kind": "image", "deck": "luftrecht", "page": 53, "caption": "DABS — example showing active firing areas."},
             {"kind": "h2", "text": "AIP and NOTAMs"},
@@ -891,7 +894,7 @@ def law_book() -> dict:
                 "AIP for the master long-form description.",
             ]},
         ],
-        "quiz": ["law-1", "law-2", "law-6", "law-7", "law-8", "law-11", "law-12", "law-46", "law-47", "law-77", "law-78", "law-82"],
+        "quiz": ["law-1", "law-2", "law-6", "law-7", "law-8", "law-12", "law-41", "law-46", "law-47", "law-48", "law-49", "law-74", "law-76", "law-78", "law-82"],
     })
 
     # 5. Flight rules (VFR) ------------------------------------------------
@@ -928,7 +931,7 @@ def law_book() -> dict:
                 "Ridge with ridge on right has priority; same direction in any thermal.",
             ]},
         ],
-        "quiz": ["law-33", "law-34", "law-35", "law-36", "law-37", "law-38", "law-39", "law-40", "law-45", "law-48", "law-67", "law-72"],
+        "quiz": ["law-27", "law-28", "law-30", "law-31", "law-33", "law-34", "law-35", "law-36", "law-37", "law-38", "law-39", "law-40", "law-67"],
     })
 
     # 6. Examination and licensing -----------------------------------------
@@ -941,7 +944,8 @@ def law_book() -> dict:
         "estimated_min": 4,
         "sections": [
             {"kind": "h2", "text": "Ages and validity"},
-            {"kind": "p", "text": "The minimum age for a Swiss free-flight licence is 16. You may start instruction from age 15. The licence has unlimited duration — no medical examination is required, and there is no minimum number of flights per year to maintain it."},
+            {"kind": "p", "text": "The minimum age for a Swiss free-flight licence is 16. You may start formal instruction at flight school from age 15. The licence has unlimited duration — no medical examination is required, either prior to or during a pilot's flying career, and there is no minimum number of flights per year to maintain it. Once licensed, pilots are also not required to keep a flight log."},
+            {"kind": "p", "text": "Pilots domiciled in Switzerland — Swiss or foreign — must hold a Swiss licence to fly there. Only foreign pilots domiciled abroad, who hold an equivalent foreign licence or an IPPI (International Pilot Proficiency Identification of the FAI), may occasionally fly in Swiss airspace without a Swiss licence."},
             {"kind": "h2", "text": "Examination structure"},
             {"kind": "p", "text": "The pilot examination has two parts: theoretical and practical. The theoretical part covers aerodynamics, meteorology, equipment, legislation and flight practice. The practical part includes a series of supervised flights with specific tasks — among them a precision landing in a 30 m diameter target circle and a 5-point pre-launch check performed in the correct order. The exam content and standards are defined by federal regulation."},
             {"kind": "h2", "text": "Timing and re-sits"},
@@ -959,7 +963,7 @@ def law_book() -> dict:
                 "Re-sit after 30 days; appeal within 30 days to FOCA.",
             ]},
         ],
-        "quiz": ["law-52", "law-53", "law-55", "law-59", "law-64", "law-65", "law-66", "law-71", "law-80", "law-83"],
+        "quiz": ["law-52", "law-53", "law-55", "law-59", "law-64", "law-65", "law-66", "law-71", "law-73", "law-80", "law-83"],
     })
 
     return {
@@ -991,6 +995,9 @@ def equip_book() -> dict:
             {"kind": "image", "deck": "material", "page": 18, "caption": "Risers — A/B/C/D and the speed system."},
             {"kind": "p", "text": "The harness is what the pilot wears and what attaches via two karabiners to the riser ends. It includes the seat, the back protection (foam, airbag or both), the leg and chest straps, and the container for the reserve parachute. The reserve parachute is the last piece of the system: a redundant canopy stored in or on the harness and deployed by hand if the main wing becomes uncontrollable."},
             {"kind": "p", "text": "Each part is engineered and certified for a particular wing model — they are not freely interchangeable. Modifying, swapping or repairing a part with non-original components changes the certification of the whole system, with consequences for both safety and insurance. The pilot's pre-flight check covers all five parts in order, every flight, every time."},
+            {"kind": "p", "text": "A complete paraglider rig — wing, lines, risers, harness and reserve — typically weighs between 12 and 18 kg in its pack and unfolds into a flying machine of 25 to 30 m². The whole assembly hangs from two karabiners on the harness and is controlled by two brake handles and (usually) a foot speed bar. Compared with any other aircraft, this is a remarkably simple piece of engineering — which is why pilots can carry their entire flying machine on their backs."},
+            {"kind": "p", "text": "Care for the system as a unit. Repairs to one part can affect the trim or certification of the whole; replacement parts must come from the manufacturer; storage conditions affect every component, not just the wing. A well-cared-for system can fly hundreds of hours over many years; a neglected one can become unsafe in a single season."},
+            {"kind": "p", "text": "The pilot's pre-flight check covers all five parts in order, every flight: equipment first (helmet, harness, leg straps, reserve handle), then risers and lines, then the wing itself, then the wind, and finally the airspace. We will cover each part of the system in the chapters that follow."},
             {"kind": "callout", "title": "Five parts to remember", "items": [
                 "Wing — the canopy with its cells, ribs and profile.",
                 "Lines — connect wing to risers.",
@@ -1114,6 +1121,7 @@ def equip_book() -> dict:
             {"kind": "p", "text": "Two main systems are used. Foam back protectors work immediately on impact and require no preparation. Airbag systems use ram-air inflation in flight; they are more effective once filled but need time to inflate, so a take-off failure offers little protection. Many modern harnesses combine foam and airbag elements to give the best of both worlds — and a small added weight penalty in return."},
             {"kind": "h2", "text": "Cross-bracing and attachment geometry"},
             {"kind": "p", "text": "A heavily cross-braced (lattice) harness is stable in roll and feels reassuring, but it dampens feedback from the wing and reduces the effect of weight steering. A harness with little or no cross-brace gives a livelier feel and easier weight steering at the cost of stability. The choice depends on the pilot's experience and preferred style."},
+            {"kind": "p", "text": "The distance between the two karabiners — the bridle width — is another design choice that shapes the harness feel. A narrow bridle gives a smoother, more damped ride and is often chosen for cross-country and long flights. A wider bridle transmits more turbulence to the pilot, who can then react earlier, at the cost of comfort. Pre-flight: always check that both karabiners are correctly screwed shut and that the leg straps and chest strap are buckled."},
             {"kind": "image", "deck": "material", "page": 15, "caption": "Reclined (pod) harnesses — low drag, more twist risk."},
             {"kind": "p", "text": "Karabiner geometry matters. Karabiners high and close together damp the turbulence transmitted to the wing — useful for relaxed flying. Karabiners low and far apart give the pilot more feedback, less risk of twisting on launch, and a stronger lean forward into the wing. Reclined (pod) harnesses present lower drag but, because the pilot is more horizontal, carry a higher risk of twisting if the wing collapses asymmetrically."},
             {"kind": "p", "text": "The distance between the two karabiners (the bridle width) is one of the design choices that shape the feel of the harness. A narrow bridle gives a smoother, more damped ride and is often chosen for cross-country and long flights. A wider bridle transmits more turbulence to the pilot, who can then react earlier — at the cost of comfort. Pre-flight: always check that both karabiners are correctly screwed shut and that the leg straps and chest strap are buckled."},
@@ -1148,6 +1156,7 @@ def equip_book() -> dict:
             {"kind": "p", "text": "Repack the reserve every 4 to 6 months, with 24 hours of airing before each repack. The whole system (container, bridle, canopy) must be checked at the same time. Skipping repack intervals is one of the most common causes of slow or failed deployments — the carefully folded fabric inside the container slowly compresses over time, making the eventual extraction harder."},
             {"kind": "h2", "text": "Deployment sequence"},
             {"kind": "p", "text": "The standard deployment sequence is: locate the handle, grasp it firmly, pull it fully out of the container, identify free air to the rear, and throw with full force. Once the reserve is open, neutralise the main wing by pulling it toward you on the B or C risers so that it does not interfere with the reserve canopy. Reserve deployment is required when the wing is uncontrollable or after a collision."},
+            {"kind": "p", "text": "Train the deployment sequence on the ground, with eyes closed, until it becomes automatic. In flight there will be no time to think through the steps — you will rely on muscle memory. SIV courses provide a controlled environment to practise actual reserve throws over water, which is the only safe way to find out how your particular handle, container and bridle behave under load."},
             {"kind": "callout", "title": "Reserve discipline", "items": [
                 "Attach high on shoulder straps — pilot must hang upright.",
                 "Sink ~5–6 m/s, plan a PLF landing.",
@@ -1174,6 +1183,9 @@ def equip_book() -> dict:
             {"kind": "p", "text": "A variometer tells the pilot the vertical speed — climb or sink — by detecting changes in static pressure over a short time interval. It is the pilot's primary instrument for finding and centring thermals. Modern varios usually include altimeter and GPS functions, audible tones (rising pitch for lift, falling for sink) and configurable thresholds. Some advanced varios add total-energy compensation and wind calculation."},
             {"kind": "h2", "text": "Anemometer and GPS"},
             {"kind": "p", "text": "An anemometer measures wind speed — typically a small handheld unit used at take-off and landing fields. It does not measure direction directly; you read direction from windsocks, vegetation movement or simply feel. A GPS gives ground speed, ground track, and (combined with vario data) wind speed and direction in flight. None of these instruments measures airspeed directly on a paraglider — airspeed has to be inferred from the wing's behaviour or estimated from ground speed and known wind."},
+            {"kind": "p", "text": "Modern combined varios bundle altimeter, variometer and GPS into a single device, with audible tones (rising pitch for lift, falling for sink), configurable thresholds and airspace alarms. Some add total-energy compensation, wind calculation and even live tracking. Whatever you fly with, learn its menus on the ground — fiddling with an instrument in flight is a known cause of accidents."},
+            {"kind": "p", "text": "Two more carry items worth a sentence each. A knife — sharp, accessible, with a one-handed opening — lets you cut tangled lines or a fouled reserve bridle. A short whistle on a lanyard makes you findable in dense vegetation if you have landed in a remote spot and lost your phone. Both weigh nothing and may save your evening."},
+            {"kind": "p", "text": "Other items every alpine pilot should carry include a small first-aid kit, a charged mobile phone (with the European emergency number 112 and Swiss alpine rescue 1414 pre-stored), a warm layer in case of an unscheduled cold landing, a knife to cut tangled lines or a stuck reserve bridle, and water for hydration on longer flights."},
             {"kind": "callout", "title": "Instrument basics", "items": [
                 "Altimeter: from static pressure; check the setting.",
                 "Variometer: vertical speed; thermals up, sink down.",
@@ -1204,6 +1216,8 @@ def equip_book() -> dict:
             {"kind": "p", "text": "The EN standard itself is set at the European level. In Switzerland, the SHV / FSVL sets additional national norms for SHV-certified types. Wing inspection intervals are specified by the manufacturer, typically every 24 months or every 200 flight hours, whichever comes first. The owner is responsible for having inspections done on time — flying an overdue wing voids the certification and the insurance."},
             {"kind": "h2", "text": "General care"},
             {"kind": "p", "text": "Stress is highest on the equipment during launches, hard landings and extreme manoeuvres. Repeated heavy launches concentrate wear on the cell walls near the line attachments. Trim-tabs released in stable straight-and-level flight have a small effect on the wing's behaviour; engaged, they reduce collapse-proneness but lower top speed."},
+            {"kind": "p", "text": "Routine pilot maintenance is simple: dry the wing if it gets wet (never store damp), keep it cool and dark, pack it without sharp creases at the leading edge, and inspect lines for cuts before each flight. Anything beyond visual inspection — a porosity check, a line trim measurement, a fabric strength test — belongs at a certified service centre."},
+            {"kind": "p", "text": "Wing inspection intervals are specified by the manufacturer, typically every 24 months or every 200 flight hours, whichever comes first. The owner is responsible for having inspections done on time — flying an overdue wing voids the certification and the insurance. After major incidents (heavy impact, full stall sequence in turbulent air, water landing) an inspection is recommended even outside the regular interval."},
             {"kind": "image", "deck": "material", "page": 20, "caption": "Stress on the equipment — where wear concentrates."},
             {"kind": "callout", "title": "Certification reminders", "items": [
                 "EN A → D + CCC, with rising pilot demands.",
@@ -1343,6 +1357,7 @@ def skills_book() -> dict:
             {"kind": "h2", "text": "After take-off"},
             {"kind": "p", "text": "Once you are airborne, wait until you are safely clear of the slope before releasing the brakes to slide back into the seated position of the harness. Sliding into the harness near terrain leaves no time to recover from a turbulence event. Maintain straight flight away from the launch and look around for other traffic before you turn."},
             {"kind": "p", "text": "A launch in a forest clearing or gap deserves special care: the surrounding trees produce strong mechanical turbulence on the lee side, and a sudden lift just at the edge of the clearing can produce an over-pitched wing. Be ready with the brakes, accelerate firmly through the lift band and avoid hesitating once committed."},
+            {"kind": "p", "text": "Just after launch you may also notice the wing pulling hard to one side, forcing you to brake the opposite side just to fly straight. This is a sign that the wing is asymmetric — through a hidden line problem, residual moisture or wing damage — and you should land as soon as it is safe to inspect. A clean wing that suddenly needs heavy correction has something wrong with it; do not continue the flight in the hope that it sorts itself out."},
             {"kind": "image", "deck": "flugpraxis", "page": 8, "caption": "After take-off — clear the slope before relaxing into the harness."},
             {"kind": "callout", "title": "Special-case rules", "items": [
                 "Wet wing: heavier, longer run, more stall-prone on take-off.",
@@ -1351,7 +1366,7 @@ def skills_book() -> dict:
                 "A-knot → turns toward knot, collapse side.",
             ]},
         ],
-        "quiz": ["prc-8", "prc-19", "prc-7", "prc-34", "prc-3"],
+        "quiz": ["prc-7", "prc-8", "prc-19", "prc-23", "prc-26"],
     })
 
     # 5. Range, speed-to-fly, lateral drift ---------------------------------
@@ -1384,7 +1399,7 @@ def skills_book() -> dict:
                 "Climb increasing → ease turn; decreasing → tighten.",
             ]},
         ],
-        "quiz": ["prc-1", "prc-2", "prc-16", "prc-22", "prc-24", "prc-27", "prc-39", "prc-43", "prc-44", "prc-46", "prc-48", "prc-52", "prc-53", "prc-54", "prc-58", "prc-60"],
+        "quiz": ["prc-1", "prc-2", "prc-16", "prc-22", "prc-24", "prc-27", "prc-44", "prc-46", "prc-52", "prc-58", "prc-60"],
     })
 
     # 6. Ridge soaring and thermalling --------------------------------------
@@ -1400,10 +1415,12 @@ def skills_book() -> dict:
             {"kind": "p", "text": "Wind hitting a ridge is forced upward; if it is strong enough and the ridge is steep enough, the lift is great enough to sustain a glider. The pilot flies back and forth along the ridge in the lift band on the windward side. The key rule: always turn away from the ridge into the wind — never turn toward the ridge, where loss of altitude could put you into rotor or rock."},
             {"kind": "image", "deck": "flugpraxis", "page": 14, "caption": "Ridge soaring — fly the windward face, turn into the wind."},
             {"kind": "p", "text": "Right-of-way at the ridge is governed by a simple rule: the aircraft with the ridge on its right has priority. The other pilot must yield by turning away. This rule applies regardless of climb rates and avoids head-on conflicts when many pilots are working the same lift band."},
+            {"kind": "p", "text": "The lift band on a ridge is usually narrow — typically only a few wingspans wide — and concentrated on the windward face above the slope. Fly close enough to the ridge to stay in the lift, but far enough that a sudden sink will not put you into the rock. The same wind that gives ridge lift also produces rotor on the lee side: never cross to the back of the ridge in soarable wind."},
             {"kind": "h2", "text": "Thermalling"},
             {"kind": "p", "text": "A thermal is a column or bubble of warmer air rising from the ground. A pilot finds one, banks the wing and circles inside it, using the climb to gain altitude. Climb rate is rarely uniform around the circle — adjust by tightening or easing the turn as described in the previous chapter. Use a moderate bank angle: too flat and you lose contact with the core; too steep and the load factor climbs (with stall risk on the inside wingtip)."},
             {"kind": "image", "deck": "flugpraxis", "page": 15, "caption": "Thermalling — circle the column of rising air."},
             {"kind": "p", "text": "In an occupied thermal, all gliders circle the same way — the direction chosen by the first pilot to enter. Joining in the opposite direction is forbidden and is the cause of most thermal collisions. Watch other pilots inside and outside the thermal at all times. Lost the thermal? A sharp 180° turn back to where it was is usually the quickest way to re-find it."},
+            {"kind": "p", "text": "Thermal columns drift downwind as they rise. The strongest lift is therefore upwind of any visible cumulus marker, while the strongest sink is downwind of it. If you find yourself drifting downwind faster than expected, the thermal is leaning; consider tightening or moving the centre of your circles slightly upwind. Climb rate decreases near the top of the thermal as the rising air approaches its equilibrium with the surrounding atmosphere — that is when to leave the thermal and glide to the next target."},
             {"kind": "callout", "title": "Soaring discipline", "items": [
                 "Ridge: turn AWAY from the ridge, into the wind.",
                 "Ridge right-of-way: ridge on your right = priority.",
@@ -1411,7 +1428,7 @@ def skills_book() -> dict:
                 "Watch climb rate around the circle — ease or tighten.",
             ]},
         ],
-        "quiz": ["prc-15", "prc-39", "prc-48", "prc-53", "prc-54"],
+        "quiz": ["prc-11", "prc-15", "prc-39", "prc-43", "prc-48", "prc-53", "prc-54"],
     })
 
     # 7. Flight incidents and recovery --------------------------------------
@@ -1447,7 +1464,7 @@ def skills_book() -> dict:
                 "Asymmetric → brake & weight on open side; frontal → brake-release pulse.",
             ]},
         ],
-        "quiz": ["prc-4", "prc-6", "prc-11", "prc-18", "prc-30", "prc-31", "prc-32", "prc-33", "prc-35", "prc-36", "prc-41", "prc-47", "prc-49", "prc-51", "prc-55"],
+        "quiz": ["prc-4", "prc-6", "prc-18", "prc-30", "prc-31", "prc-32", "prc-35", "prc-36", "prc-41", "prc-47", "prc-49", "prc-51", "prc-55"],
     })
 
     # 8. Landing -----------------------------------------------------------
@@ -1481,7 +1498,7 @@ def skills_book() -> dict:
                 "Emergencies: tree > sloped roof > water; unclip before water contact.",
             ]},
         ],
-        "quiz": ["prc-5", "prc-9", "prc-10", "prc-12", "prc-13", "prc-17", "prc-21", "prc-28", "prc-29", "prc-34", "prc-37", "prc-42", "prc-57", "prc-61"],
+        "quiz": ["prc-5", "prc-9", "prc-10", "prc-12", "prc-13", "prc-17", "prc-21", "prc-28", "prc-29", "prc-33", "prc-34", "prc-37", "prc-42", "prc-57", "prc-61"],
     })
 
     return {
