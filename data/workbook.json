@@ -3268,7 +3268,7 @@
             },
             {
               "kind": "p",
-              "text": "The reserve must attach high on the shoulder straps of the harness so that, when it deploys, it pulls the pilot upright into the suspended position. Attaching the reserve bridle to the riser karabiners instead leaves the pilot seated in the harness — a poor body position for the deceleration and landing roll."
+              "text": "The reserve must attach high on the shoulder straps of the harness so that, when it deploys, it pulls the pilot upright into the suspended position under the open canopy. Attaching the reserve bridle to the riser karabiners instead leaves the pilot seated in the harness — a poor body position for the deceleration and landing roll. Reserve handle placement should always allow the pilot to find and grasp the handle with one hand in any flight orientation."
             },
             {
               "kind": "image",
@@ -3288,7 +3288,7 @@
             },
             {
               "kind": "p",
-              "text": "Reserve fabric is elastic nylon ripstop, unlike the inelastic wing fabric. The elasticity softens the opening shock, which would otherwise injure the pilot. Target sink rate for a deployed reserve is about 5 to 6 m/s — equivalent to dropping from about 1.5 m. The pilot should land with a parachute landing roll (PLF)."
+              "text": "Reserve fabric is elastic nylon ripstop, unlike the inelastic wing fabric. The elasticity softens the opening shock, which would otherwise injure the pilot. The target sink rate for a deployed reserve is about 5 to 6 m/s — equivalent to dropping from about 1.5 m. The pilot should land with a parachute landing roll (PLF) to absorb the impact through the entire body rather than just the legs."
             },
             {
               "kind": "h2",
@@ -3296,7 +3296,7 @@
             },
             {
               "kind": "p",
-              "text": "A pull-down apex design (a cord that pulls the centre of the parachute downward in flight) lowers the sink rate but makes the canopy slightly less stable. Opening time improves with: low fabric porosity, short repack intervals, more relative airflow, and smaller canopy area. It worsens with: high porosity, long intervals between repacks, slow airspeed at deployment, and large canopy."
+              "text": "A pull-down apex design (a cord that pulls the centre of the parachute downward in flight) lowers the sink rate but makes the canopy slightly less stable. Opening time improves with low fabric porosity, short repack intervals, more relative airflow at deployment, and smaller canopy area. It worsens with high porosity, long intervals between repacks, slow airspeed at deployment, and large canopy area."
             },
             {
               "kind": "h2",
@@ -3304,7 +3304,7 @@
             },
             {
               "kind": "p",
-              "text": "Repack the reserve every 4 to 6 months, with 24 hours of airing before each repack. The whole system (container, bridle, canopy) must be checked at the same time. Skipping repack intervals is one of the most common causes of slow or failed deployments."
+              "text": "Repack the reserve every 4 to 6 months, with 24 hours of airing before each repack. The whole system (container, bridle, canopy) must be checked at the same time. Skipping repack intervals is one of the most common causes of slow or failed deployments — the carefully folded fabric inside the container slowly compresses over time, making the eventual extraction harder."
             },
             {
               "kind": "h2",
@@ -3312,7 +3312,7 @@
             },
             {
               "kind": "p",
-              "text": "The standard sequence is: locate the handle, grasp it firmly, pull it fully out of its container, identify free air to the rear, and throw with full force. Once the reserve is open, neutralise the main wing by pulling it toward you on the B or C risers so it does not interfere with the reserve canopy."
+              "text": "The standard deployment sequence is: locate the handle, grasp it firmly, pull it fully out of the container, identify free air to the rear, and throw with full force. Once the reserve is open, neutralise the main wing by pulling it toward you on the B or C risers so that it does not interfere with the reserve canopy. Reserve deployment is required when the wing is uncontrollable or after a collision."
             },
             {
               "kind": "callout",
@@ -3350,7 +3350,11 @@
             },
             {
               "kind": "p",
-              "text": "An altimeter reads altitude by measuring static air pressure and converting it via the standard atmosphere model. Its setting matters: with QNH it shows altitude above mean sea level; with the standard 1013.25 hPa setting it shows Flight Levels. Because pressure varies day to day, a reading taken in the morning at a high-pressure site will drift as a depression approaches: if the system is weakening, the altitude reading at a fixed location will gradually increase even though you have not moved."
+              "text": "An altimeter reads altitude by measuring static air pressure and converting it via the standard atmosphere model. Its setting matters: with QNH it shows altitude above mean sea level; with the standard 1013.25 hPa setting it shows Flight Levels. Because pressure varies day to day, a reading taken in the morning at a high-pressure site will drift as a depression approaches: if the high is weakening, the altitude reading at a fixed location will gradually increase over the day even though you have not moved."
+            },
+            {
+              "kind": "p",
+              "text": "The altimeter is the basic safety instrument for respecting airspace limits. Before any flight, set the QNH from a nearby reported airfield or from your own measurement at a known point of elevation."
             },
             {
               "kind": "h2",
@@ -3358,7 +3362,7 @@
             },
             {
               "kind": "p",
-              "text": "A variometer tells the pilot the vertical speed — climb or sink — by detecting changes in static pressure over a short time interval. It is the pilot's primary instrument for finding and centring thermals. Modern varios usually include altimeter and GPS functions, audible tones and configurable thresholds."
+              "text": "A variometer tells the pilot the vertical speed — climb or sink — by detecting changes in static pressure over a short time interval. It is the pilot's primary instrument for finding and centring thermals. Modern varios usually include altimeter and GPS functions, audible tones (rising pitch for lift, falling for sink) and configurable thresholds. Some advanced varios add total-energy compensation and wind calculation."
             },
             {
               "kind": "h2",
@@ -3366,7 +3370,7 @@
             },
             {
               "kind": "p",
-              "text": "An anemometer measures wind speed — typically a small handheld used at take-off and landing fields. A GPS gives ground speed, ground track, and (combined with vario data) wind speed and direction in flight. None of these instruments measures airspeed directly on a paraglider — airspeed has to be inferred from the wing's behaviour or estimated from ground speed and known wind."
+              "text": "An anemometer measures wind speed — typically a small handheld unit used at take-off and landing fields. It does not measure direction directly; you read direction from windsocks, vegetation movement or simply feel. A GPS gives ground speed, ground track, and (combined with vario data) wind speed and direction in flight. None of these instruments measures airspeed directly on a paraglider — airspeed has to be inferred from the wing's behaviour or estimated from ground speed and known wind."
             },
             {
               "kind": "callout",
@@ -3395,7 +3399,7 @@
           "sourced_from": [
             "p4-certification"
           ],
-          "estimated_min": 4,
+          "estimated_min": 5,
           "sections": [
             {
               "kind": "h2",
@@ -3423,7 +3427,7 @@
             },
             {
               "kind": "p",
-              "text": "EN homologation is a test programme in which the wing is subjected to a standardised series of manoeuvres — collapses, stalls, spirals — and graded on its recovery behaviour from A (most docile) to D (demanding). The certification applies to a specific wing model, size and weight range; flying outside the certified weight range invalidates the certification. Certification tells the buyer about the wing's behaviour in tested manoeuvres — not its performance or its absolute safety."
+              "text": "EN homologation is a test programme in which the wing is subjected to a standardised series of manoeuvres — collapses, stalls, spirals — and graded on its recovery behaviour from A (most docile) to D (most demanding). The certification applies to a specific wing model, size and weight range; flying outside the certified weight range invalidates the certification. Certification tells the buyer about the wing's behaviour in tested manoeuvres — not its absolute performance and not its absolute safety."
             },
             {
               "kind": "image",
@@ -3437,7 +3441,7 @@
             },
             {
               "kind": "p",
-              "text": "The EN standard itself is set at the European level. In Switzerland, the SHV / FSVL sets additional national norms for SHV-certified types. Wing inspection intervals are specified by the manufacturer, typically every 24 months or every 200 flight hours, whichever comes first. The owner is responsible for having inspections done on time."
+              "text": "The EN standard itself is set at the European level. In Switzerland, the SHV / FSVL sets additional national norms for SHV-certified types. Wing inspection intervals are specified by the manufacturer, typically every 24 months or every 200 flight hours, whichever comes first. The owner is responsible for having inspections done on time — flying an overdue wing voids the certification and the insurance."
             },
             {
               "kind": "h2",
@@ -3445,7 +3449,7 @@
             },
             {
               "kind": "p",
-              "text": "Stress is highest on the equipment during launches, hard landings, and extreme manoeuvres. Repeated heavy launches concentrate wear on the cell walls near the line attachments. Trim-tabs released in stable flight have a small effect on the wing's behaviour; engaged, they reduce collapse-proneness but lower top speed."
+              "text": "Stress is highest on the equipment during launches, hard landings and extreme manoeuvres. Repeated heavy launches concentrate wear on the cell walls near the line attachments. Trim-tabs released in stable straight-and-level flight have a small effect on the wing's behaviour; engaged, they reduce collapse-proneness but lower top speed."
             },
             {
               "kind": "image",
@@ -3498,11 +3502,11 @@
             },
             {
               "kind": "p",
-              "text": "Three forms of hypoxia matter for pilots. Instantaneous hypoxia begins from about 4000 m AMSL: the first symptom is often euphoria — followed by fatigue, slowed thinking, convulsions, coma and death by about 7000 m. Acute mountain sickness develops over 5 to 10 hours after climbing to 2800–3500 m: headache, nausea, occasional edema. Chronic hypoxia is the adaptation seen in long-term high-altitude residents — not the pilot's problem."
+              "text": "Three forms of hypoxia matter for pilots. Instantaneous hypoxia begins from about 4000 m AMSL: the first symptom is often euphoria — a deceptive sense of well-being — followed by fatigue, slowed thinking, convulsions, coma and death by about 7000 m. Acute mountain sickness develops over 5 to 10 hours after climbing to 2800–3500 m: headache, nausea, occasional edema. Chronic hypoxia is the adaptation seen in long-term high-altitude residents — not the pilot's problem on a normal flight."
             },
             {
               "kind": "p",
-              "text": "The treatment for hypoxia is one thing only: lose altitude rapidly. Sensitivity is increased by lack of fitness, medication, alcohol, tobacco, fatigue and lack of sleep. It is reduced by endurance training and by gradual acclimatisation over days to weeks. A healthy resting body can typically adapt to changes up to about 4000 m AMSL without issue."
+              "text": "The treatment for hypoxia is one thing only: lose altitude rapidly. Sensitivity to hypoxia is increased by lack of fitness, medication, alcohol, tobacco, fatigue and lack of sleep. It is reduced by endurance training and by gradual acclimatisation over days to weeks. A healthy resting body can typically adapt to changes up to about 4000 m AMSL without issue."
             },
             {
               "kind": "h2",
@@ -3510,7 +3514,7 @@
             },
             {
               "kind": "p",
-              "text": "Sinus and ear pressure pain during altitude change occur when the Eustachian tubes cannot equalise pressure — typically because of a cold, sinusitis or ear infection. A pilot flying with a heavy cold and middle-ear infection risks barotrauma, severe pain and damage to the eardrum."
+              "text": "Sinus and ear pressure pain during altitude change occur when the Eustachian tubes cannot equalise pressure — typically because of a cold, sinusitis or ear infection. A pilot flying with a heavy cold and middle-ear infection risks barotrauma, severe pain and damage to the eardrum. The safe rule is to not fly with any condition affecting your sinuses or ears."
             },
             {
               "kind": "h2",
@@ -3530,7 +3534,7 @@
             },
             {
               "kind": "p",
-              "text": "Signs of severe shock include pale skin, bluish lips, cold sweat, weak rapid pulse and partial unresponsiveness. For helicopter rescue, all flying activity in the area must stop and any loose fabric (paragliders, clothing) must be cleared from the landing zone before approach."
+              "text": "Signs of severe shock include pale skin, bluish lips, cold sweat, weak rapid pulse and partial unresponsiveness. For helicopter rescue, all flying activity in the area must stop and any loose fabric — paragliders, clothing — must be cleared from the landing zone before the helicopter approaches."
             },
             {
               "kind": "callout",
@@ -3567,7 +3571,7 @@
             },
             {
               "kind": "p",
-              "text": "Good preparation at home covers four areas: weather (synoptic, local forecast, expected wind and instability), legal and airspace situation (active LS-R, DABS, MIL hours), obstacles and terrain (cables, antennas, terrain steepness, alternate landings), and wildlife (nesting areas, seasonal restrictions). All four are interconnected — a weather change can suddenly make a previously safe landing into a hazardous one."
+              "text": "Good preparation at home covers four areas. Weather: synoptic situation, local forecast, expected wind, instability and risk of thunderstorms. Legal and airspace situation: active LS-R, DABS, MIL hours and any temporary changes. Obstacles and terrain: cables, antennas, terrain steepness, possible alternate landings. Wildlife: nesting areas, seasonal restrictions for chamois and ibex. All four interact — a weather change can suddenly turn a previously safe landing into a hazardous one."
             },
             {
               "kind": "image",
@@ -3581,7 +3585,7 @@
             },
             {
               "kind": "p",
-              "text": "QNH is the sea-level-corrected pressure reading reported by an airport. For example, Zurich-Kloten at 432 m AMSL might read 950 hPa actual but 1015 hPa QNH. A pressure difference between stations indicates the slope of the isobars — a north-south difference between Zurich and Lugano of more than 4 hPa, with higher pressure in the north, is the classic threshold for Nordföhn risk in Ticino. Higher pressure in the south is the threshold for Südföhn risk in the north of the Alps."
+              "text": "QNH is the sea-level-corrected pressure reading reported by an airport. For example, Zurich-Kloten at about 432 m AMSL might read 950 hPa actual but 1015 hPa QNH. The pressure difference between stations indicates the slope of the isobars — a north-south difference between Zurich and Lugano of more than 4 hPa, with higher pressure in the north, is the classic threshold for Nordföhn risk in Ticino. Higher pressure in the south is the threshold for Südföhn risk on the north side of the Alps."
             },
             {
               "kind": "h2",
@@ -3589,7 +3593,7 @@
             },
             {
               "kind": "p",
-              "text": "The most important reference documents for flight planning are the Swiss Glider Chart (airspaces, hours, frequencies, cable obstacles), the AIP, the VFR-NOTAM (active CTRs/TMAs), the KOSIF (military shooting) and the DABS. None of them replaces the others — each carries information the others do not."
+              "text": "The most important reference documents for flight planning are the Swiss Glider Chart (airspaces, hours, frequencies, cable obstacles), the AIP, the VFR-NOTAM (active CTRs/TMAs), the KOSIF (military shooting framework) and the DABS. None of them replaces the others — each carries information the others do not. Cross-check all of them before any flight in unfamiliar terrain."
             },
             {
               "kind": "h2",
@@ -3597,7 +3601,7 @@
             },
             {
               "kind": "p",
-              "text": "On arrival, pre-inspect the take-off and landing fields, identify possible landing wind directions, and note all obstacles. No flight registration is required, but you should be familiar with the cable and antenna positions, ridge profile and obstacles that may channel wind. Many pilots like to say the flight starts at the landing field, because that is where you assess wind, traffic and alternate options before going up to launch."
+              "text": "On arrival, pre-inspect the take-off and landing fields, identify possible landing wind directions, and note all obstacles. No flight registration is required, but you should be familiar with cable and antenna positions, ridge profiles and obstacles that may channel wind. Pilots like to say the flight starts at the landing field, because that is where you assess wind, traffic and alternate options before going up to launch."
             },
             {
               "kind": "image",
@@ -3617,7 +3621,7 @@
             },
             {
               "kind": "p",
-              "text": "Golden eagles in the Alps nest between March and May. Avoid flying near nesting cliffs in spring. A territorial golden eagle marks its area with a characteristic undulating flight. Eagles mature at five years and remain monogamous for life, defending a territory of about 100 km². Chamois and ibex live on south slopes in winter and spring and retreat to shaded cliffs in summer — keep distance especially in cold months when energy reserves are critical."
+              "text": "Golden eagles in the Alps nest between March and May. Avoid flying near nesting cliffs in spring. A territorial golden eagle marks its area with a characteristic undulating flight. Eagles mature at five years and remain monogamous for life, defending a territory of about 100 km². Chamois and ibex live on south slopes in winter and spring, and retreat to shaded cliffs in summer — keep distance especially in cold months when their energy reserves are critical."
             },
             {
               "kind": "h2",
@@ -3625,7 +3629,7 @@
             },
             {
               "kind": "p",
-              "text": "Across years of accident data, the strongest and most prevalent danger for paraglider pilots is strong wind combined with turbulence — especially in alpine terrain. Conservative wind limits, early decisions and the willingness to walk down are the single most important habits of long-flying pilots."
+              "text": "Across years of accident data, the strongest and most prevalent danger for paraglider pilots is strong wind combined with turbulence — especially in alpine terrain. Conservative wind limits, early decisions and the willingness to walk down are the single most important habits of long-flying pilots. No flight is worth a serious injury."
             },
             {
               "kind": "callout",
@@ -3654,7 +3658,7 @@
           "sourced_from": [
             "p5-take-off"
           ],
-          "estimated_min": 5,
+          "estimated_min": 6,
           "sections": [
             {
               "kind": "h2",
@@ -3662,7 +3666,7 @@
             },
             {
               "kind": "p",
-              "text": "The five-point check must be performed in order, every flight. First, equipment: harness leg straps closed, chest strap closed, helmet, reserve handle in place. Second, risers and lines: lines untwisted and free, brake handles in hand, risers correctly attached. Third, wing: shape correct, no twists, leading edge open. Fourth, wind: direction, speed, gusts and consistency. Fifth, airspace: take-off and approach lanes clear of other traffic."
+              "text": "The five-point check must be performed in order, every flight. First, equipment: harness leg straps closed, chest strap closed, helmet on, reserve handle in place and unobstructed. Second, risers and lines: lines untwisted and free, brake handles in hand, risers correctly attached. Third, wing: shape correct, no twists, leading edge open and facing the wind. Fourth, wind: direction, speed, gusts and consistency. Fifth, airspace: take-off and approach lanes clear of other traffic."
             },
             {
               "kind": "image",
@@ -3676,7 +3680,7 @@
             },
             {
               "kind": "p",
-              "text": "Lay the wing in a slight arc, not a straight line, so that the centre lines tension first when you raise it. This gives a symmetric inflation. Sort the lines so that brakes are accessible and risers are not crossed. In strong wind, lay out smaller and more carefully — strong wind launches succeed or fail in the first second."
+              "text": "Lay the wing in a slight arc, not a straight line, so that the centre lines tension first when you raise it. This gives a symmetric inflation. Sort the lines so that brakes are accessible and risers are not crossed. In strong wind, lay out smaller and more carefully — strong-wind launches succeed or fail in the first second."
             },
             {
               "kind": "h2",
@@ -3684,7 +3688,7 @@
             },
             {
               "kind": "p",
-              "text": "Every paraglider launch has the same three phases. Phase 1: inflation and raising the wing — pull the A risers to inflate the cells, let the wing come up overhead. Phase 2: check and correct — verify the wing is symmetric, level, fully inflated, and that no lines are knotted. Phase 3: accelerate and lift off — commit forward, accelerate to take-off speed, and let the wing lift you off."
+              "text": "Every paraglider launch has the same three phases. Phase 1: inflation and raising the wing — pull the A risers to inflate the cells and let the wing come up overhead. Phase 2: check and correct — verify the wing is symmetric, level, fully inflated, and that no lines are knotted. Phase 3: accelerate and lift off — commit forward, accelerate to take-off speed, and let the wing lift you off."
             },
             {
               "kind": "image",
@@ -3698,7 +3702,7 @@
             },
             {
               "kind": "p",
-              "text": "Each launch slope has two virtual lines. The decision line is the last point at which you can comfortably abort: if the wing is not right by this point, stop. The point of no return — sometimes called the life line — is the last point before you must be airborne; beyond it, you cannot safely stop. Make the abort decision before phase 3 begins."
+              "text": "Each launch slope has two virtual lines. The decision line is the last point at which you can comfortably abort: if the wing is not right by this point, stop. The point of no return — sometimes called the life line — is the last point before you must be airborne; beyond it, you cannot safely stop. The abort decision must be made before phase 3 begins."
             },
             {
               "kind": "h2",
@@ -3706,7 +3710,11 @@
             },
             {
               "kind": "p",
-              "text": "Ideal headwind for a forward launch is around 15 km/h. A light tailwind of more than 5 km/h should normally cause an abort: ground speed is too high for safe ground handling and insufficient relative airflow for the wing. A sidewind requires inflating the wing into the wind and then pivoting toward the slope. Strong headwind, 20 to 25 km/h, calls for a reverse (back-to-slope) launch; be aware of cliffs or steep drops behind you — strong wind can pull you backward."
+              "text": "Ideal headwind for a forward launch is around 15 km/h. A light tailwind of more than 5 km/h should normally cause an abort: ground speed is too high for safe ground handling and there is insufficient relative airflow over the wing. A sidewind requires inflating the wing into the wind and then pivoting toward the slope. Strong headwind of 20 to 25 km/h calls for a reverse (back-to-slope) launch; be aware of cliffs or steep drops behind you, as strong wind can pull you backward."
+            },
+            {
+              "kind": "p",
+              "text": "Just after launch, you may have to brake hard on one side to fly straight, which is a sign that the wing is asymmetric — either through a line problem or wing damage. Investigate before flying further. After a successful clean launch, wait until safely clear of the slope before relaxing into the harness or making large pilot inputs."
             },
             {
               "kind": "callout",
@@ -3744,7 +3752,7 @@
             },
             {
               "kind": "p",
-              "text": "A wet wing weighs several kg more than a dry one. It is harder to inflate, needs a longer run and is more prone to stall during the take-off run. Its stability characteristics in stable flight, however, are not significantly changed once you are airborne. Avoid launching a wet wing in marginal conditions: the stall risk is concentrated in the launch and first seconds of flight."
+              "text": "A wet wing weighs several kilograms more than a dry one. It is harder to inflate, needs a longer run and is more prone to stall during the take-off run. Its stability characteristics in stable flight, however, are not significantly changed once you are airborne. Avoid launching a wet wing in marginal conditions: the stall risk is concentrated in the launch itself and the first seconds of flight."
             },
             {
               "kind": "h2",
@@ -3752,7 +3760,7 @@
             },
             {
               "kind": "p",
-              "text": "Air is thinner at altitude. To generate the same lift the wing needs a higher airspeed — which means a faster run and a longer take-off distance. Plan for it: choose a steeper slope, accept a longer ground roll, and do not over-brake on lift-off."
+              "text": "Air is thinner at altitude. To generate the same lift the wing needs a higher airspeed — which means a faster run and a longer take-off distance. Plan for it: choose a steeper slope, accept a longer ground roll, and do not over-brake on lift-off. At very high altitudes, even moderate fitness can be enough to keep the airspeed needed for a clean launch."
             },
             {
               "kind": "h2",
@@ -3764,7 +3772,7 @@
             },
             {
               "kind": "p",
-              "text": "A knot on the front (A) lines reduces the angle of attack on that side. The wing is prone to collapse on the affected side. The consequence is a sudden asymmetric collapse soon after launch, with a turn toward the knotted side."
+              "text": "A knot on the front (A) lines reduces the angle of attack on that side. The wing is prone to collapse on the affected side. The consequence is a sudden asymmetric collapse soon after launch, with a turn toward the knotted side. In both cases, if altitude allows, land as soon as possible to inspect and clear the knot."
             },
             {
               "kind": "h2",
@@ -3807,7 +3815,7 @@
           "sourced_from": [
             "p5-range-optimization"
           ],
-          "estimated_min": 5,
+          "estimated_min": 6,
           "sections": [
             {
               "kind": "h2",
@@ -3815,7 +3823,7 @@
             },
             {
               "kind": "p",
-              "text": "To fly the farthest in calm air, fly at maximum glide ratio — usually arms up, occasionally a very light brake. To stay airborne the longest, fly at minimum sink — typically 20–30 percent brake. Maximum distance equals glide ratio multiplied by altitude lost: a glide ratio of 6 from 1200 m gives 7.2 km."
+              "text": "To fly the farthest in calm air, fly at maximum glide ratio — usually arms up, occasionally a very light brake. To stay airborne the longest, fly at minimum sink — typically 20 to 30 percent brake. Maximum distance equals glide ratio multiplied by altitude lost: a glide ratio of 6 from 1200 m gives 7.2 km."
             },
             {
               "kind": "image",
@@ -3829,7 +3837,7 @@
             },
             {
               "kind": "p",
-              "text": "Pilot drag is a significant fraction of total system drag. The best aerodynamic position is reclined, with arms down behind the risers, elbows in close to the body, and legs symmetric and tucked. Crossed or extended legs add drag and reduce glide ratio. The position matters most at speed — when flying fast, your shape is a major contributor to total drag."
+              "text": "Pilot drag is a significant fraction of total system drag. The best aerodynamic position is reclined, with arms down behind the risers, elbows in close to the body, and legs symmetric and tucked. Crossed or extended legs add drag and reduce glide ratio. The position matters most at speed: when flying fast, the pilot's shape is a major contributor to total drag."
             },
             {
               "kind": "h2",
@@ -3921,7 +3929,7 @@
             },
             {
               "kind": "p",
-              "text": "Right-of-way at the ridge is governed by a simple rule: the aircraft with the ridge on its right has priority. The other pilot must yield by turning away."
+              "text": "Right-of-way at the ridge is governed by a simple rule: the aircraft with the ridge on its right has priority. The other pilot must yield by turning away. This rule applies regardless of climb rates and avoids head-on conflicts when many pilots are working the same lift band."
             },
             {
               "kind": "h2",
@@ -3929,7 +3937,7 @@
             },
             {
               "kind": "p",
-              "text": "A thermal is a column or bubble of warmer air rising from the ground. A pilot finds one, banks the wing and circles inside it, using the climb to gain altitude. Climb rate is rarely uniform around the circle — adjust by tightening or easing the turn as described in the previous chapter. Use a moderate bank angle: too flat and you lose contact with the core; too steep and load factor climbs (with stall risk on the inside wingtip)."
+              "text": "A thermal is a column or bubble of warmer air rising from the ground. A pilot finds one, banks the wing and circles inside it, using the climb to gain altitude. Climb rate is rarely uniform around the circle — adjust by tightening or easing the turn as described in the previous chapter. Use a moderate bank angle: too flat and you lose contact with the core; too steep and the load factor climbs (with stall risk on the inside wingtip)."
             },
             {
               "kind": "image",
@@ -3939,7 +3947,7 @@
             },
             {
               "kind": "p",
-              "text": "In an occupied thermal, all gliders circle the same way — the direction chosen by the first pilot to enter. Joining in the opposite direction is forbidden and is the cause of most thermal collisions. Watch other pilots inside and outside the thermal at all times."
+              "text": "In an occupied thermal, all gliders circle the same way — the direction chosen by the first pilot to enter. Joining in the opposite direction is forbidden and is the cause of most thermal collisions. Watch other pilots inside and outside the thermal at all times. Lost the thermal? A sharp 180° turn back to where it was is usually the quickest way to re-find it."
             },
             {
               "kind": "callout",
@@ -3968,7 +3976,7 @@
           "sourced_from": [
             "p5-flight-patterns"
           ],
-          "estimated_min": 6,
+          "estimated_min": 7,
           "sections": [
             {
               "kind": "h2",
@@ -3990,7 +3998,7 @@
             },
             {
               "kind": "p",
-              "text": "Big ears are made by pulling the outer A lines on each side symmetrically. The wingtips collapse inward, reducing area and increasing sink to 3–4 m/s while keeping horizontal flight. There is no load factor increase. On release, the wing returns to normal flight, with a slight parachutal stall risk during the transition. Combined with the speed bar, big ears give an even faster descent."
+              "text": "Big ears are made by pulling the outer A lines on each side symmetrically. The wingtips collapse inward, reducing area and increasing sink to 3 to 4 m/s while keeping horizontal flight. There is no load-factor increase. On release, the wing returns to normal flight, with a slight parachutal stall risk during the transition. Combined with the speed bar, big ears give an even faster descent rate."
             },
             {
               "kind": "h2",
@@ -3998,7 +4006,7 @@
             },
             {
               "kind": "p",
-              "text": "Pulling the B risers symmetrically breaks the airflow on the upper surface; the wing stops flying horizontally and descends nearly vertically at over 5 m/s. There is no load factor increase. The exit must be quick and decisive: release the B risers fully — slowly releasing them creates a parachutal stall risk that can be hard to exit, especially close to the ground."
+              "text": "Pulling the B risers symmetrically breaks the airflow on the upper surface; the wing stops flying horizontally and descends nearly vertically at over 5 m/s. There is no load-factor increase. The exit must be quick and decisive: release the B risers fully — slowly releasing them creates a parachutal-stall risk that can be hard to exit, especially close to the ground."
             },
             {
               "kind": "h2",
@@ -4006,7 +4014,7 @@
             },
             {
               "kind": "p",
-              "text": "A full stall (brakes pulled too far) makes the wing lose its arch and deflate — extremely dangerous and only to be practised over water under SIV instruction. A parachutal stall is a state in which the wing keeps its shape but no air flows on the leading edge: brakes feel slack, lower surface goes slightly concave, vertical descent is high but airspeed is almost zero. Recover by pulling the A risers to surge into normal flight; near the ground, prepare for a parachute landing."
+              "text": "A full stall (brakes pulled too far) makes the wing lose its arch and deflate — extremely dangerous, only to be practised over water under SIV instruction. A parachutal stall is a state in which the wing keeps its shape but no air flows on the leading edge: brakes feel slack, lower surface goes slightly concave, vertical descent is high but airspeed is almost zero. Recover by pulling the A risers to surge the wing into normal flight; near the ground, prepare for a parachute landing."
             },
             {
               "kind": "h2",
@@ -4034,7 +4042,7 @@
             },
             {
               "kind": "p",
-              "text": "Reserve deployment is indicated when the wing is uncontrollable or after a collision. Throw the reserve, then pull the B or C lines on the main wing to stop it from flying and tangling with the reserve. Sink rate under reserve is about 5–6 m/s — equivalent to a 1.5 m drop — and you should land with a parachute landing roll."
+              "text": "Reserve deployment is indicated when the wing is uncontrollable or after a collision. Throw the reserve, then pull the B or C lines on the main wing to stop it from flying and tangling with the reserve. Sink rate under reserve is about 5 to 6 m/s — equivalent to a 1.5 m drop — and you should land with a parachute landing roll."
             },
             {
               "kind": "image",
@@ -4079,7 +4087,7 @@
           "sourced_from": [
             "p5-landing"
           ],
-          "estimated_min": 5,
+          "estimated_min": 6,
           "sections": [
             {
               "kind": "h2",
@@ -4145,7 +4153,7 @@
             },
             {
               "kind": "p",
-              "text": "Emergency landing priorities, best to worst: tree, sloped roof, water. Tree landings: stay roped or secured until rescue — falling from branches is the leading cause of injury after a tree landing. Water unavoidable: unclip the harness before touching the water."
+              "text": "Emergency landing priorities, best to worst: tree, sloped roof, water. Tree landings: stay roped or secured until rescue — falling from branches is the leading cause of injury after a tree landing. Water unavoidable: unclip the harness before touching the water. Power lines and crops are also better than open water."
             },
             {
               "kind": "callout",
