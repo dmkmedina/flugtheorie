@@ -1797,7 +1797,7 @@
         {
           "id": "meteo-08-turbulence",
           "title": "Turbulence",
-          "subtitle": "Mechanical, thermal and wave",
+          "subtitle": "Mechanical, shear and thermal",
           "intro": "Almost every paragliding incident has turbulence somewhere in its causal chain. Knowing the four main types — and where to expect each — is the difference between a routine flight and a frightening one.",
           "sourced_from": [
             "p2-turbulence"
@@ -1810,7 +1810,7 @@
             },
             {
               "kind": "p",
-              "text": "Turbulence is an air motion that is irregular in direction and speed. It is the air's response to anything that disturbs smooth, laminar flow: surface roughness, obstacles, heating differences, wind shear or interaction with terrain. For a paraglider — a low-speed, low-inertia aircraft — turbulence is the main source of collapses."
+              "text": "Turbulence is the local variation, eddying and abrupt change in wind direction and speed that the atmosphere produces when smooth flow is disturbed. It is fundamentally driven by wind: the stronger the wind, the greater the chance of turbulence and the more violent it can be. Flying in strong winds, or in areas prone to strong winds (a narrowing or a curve of a valley), is therefore unwise. Storms are particularly bad because they are often associated with episodes of strong, irregular gusts; pilots should land quickly when storms approach."
             },
             {
               "kind": "image",
@@ -1819,12 +1819,20 @@
               "caption": "Turbulence — air motion irregular in speed and direction."
             },
             {
+              "kind": "p",
+              "text": "Meteorologists classify turbulence into three types according to origin: mechanical turbulence (wind meeting solid obstacles), shear turbulence (between layers of different wind speed or direction) and thermal turbulence (between warm rising and cool descending air)."
+            },
+            {
               "kind": "h2",
               "text": "Mechanical turbulence"
             },
             {
               "kind": "p",
-              "text": "Mechanical turbulence is generated when wind hits an obstacle — buildings, hangars, trees, ridges. Eddies and rotors form on the downwind (lee) side and extend many times the obstacle's height downwind before they dissipate. Wind passing through a narrow gap accelerates: this is the Venturi effect, a strong contributor to turbulence around mountain passes and ridgelines."
+              "text": "Mechanical turbulence is the result of conflict between solid obstacles and wind. Objects upwind of a reference point are described as 'windward'; objects downwind are 'leeward'. The air leeward of an obstacle has the most marked turbulence — rotor flow that may extend horizontally up to ten times the obstacle's height downwind. It is therefore dangerous to fly leeward of a mountain, a building or any tall obstacle, and this should be avoided at all costs, including in the choice of landing sites."
+            },
+            {
+              "kind": "p",
+              "text": "Where wind is forced over a relief, there is a constriction in the airflow above and just behind the edge, and the air is forced to increase its speed. This phenomenon of increased air speed where the flow area decreases is the Venturi effect. The Venturi effect does not only occur above and behind mountain peaks but also wherever wind is forced into a narrow valley or around a ridge — a strong contributor to turbulence around mountain passes and gaps."
             },
             {
               "kind": "image",
@@ -1834,28 +1842,36 @@
             },
             {
               "kind": "h2",
+              "text": "Shear turbulence"
+            },
+            {
+              "kind": "p",
+              "text": "Shear turbulence occurs close to the boundary between two air masses subjected to winds of different speed or direction. A typical example: a 10–15 knot north-easterly wind at 1000 and 2000 m, with a southwesterly 10 knots at 3000 and 4000 m — between 2000 and 3000 m there is a sharp change of direction that produces shear turbulence at the boundary."
+            },
+            {
+              "kind": "p",
+              "text": "When wind speed alone decreases without changing direction, the result is a 'gradient wind' — most marked near a flat surface where the wind a few centimetres above the ground is hampered by friction while the wind tens of metres above is much stronger. The wind gradient near the ground can therefore be a source of significant shear turbulence on take-off and landing."
+            },
+            {
+              "kind": "h2",
               "text": "Thermal turbulence"
             },
             {
               "kind": "p",
-              "text": "Thermal turbulence is caused by columns and bubbles of warmer air rising at different rates from the ground. The boundary between rising warm air and surrounding cooler air is sharp and gusty: entering and leaving a thermal is itself a source of strong air movement. Thermal turbulence is strongest where sun and shadow alternate, and in valleys where the valley wind meets thermals."
-            },
-            {
-              "kind": "h2",
-              "text": "Wave and convergence"
+              "text": "Thermal turbulence occurs at the boundary between warm, rising air and cool, descending air. It is also strong at the top of the convective layer, where rising thermals meet stable air aloft. Thermal turbulence is therefore strongest at the times and places where convection is most active — typically mid-afternoon on sunny days, where sun and shadow alternate, and in valleys where the valley wind meets thermals from south-facing slopes."
             },
             {
               "kind": "p",
-              "text": "When stable air flows over a mountain it forms a series of standing waves downwind of the ridge — the same way water flows over a stone in a stream. The crests and troughs of these mountain waves can extend many kilometres downwind. Lenticular clouds mark the wave crests. Convergence is a different phenomenon: when two winds meet head-on, the air is forced to rise where they collide — typically a smooth, strong lift but unpredictable in location."
+              "text": "In a typical alpine summer afternoon you may meet all three kinds of turbulence in a single hour. Near the ground (within 20 m): mainly mechanical from terrain and vegetation. Around 500 m above a valley with a developed valley wind: shear turbulence between the valley wind and the prevailing wind aloft. Above a south slope at 2800 m on a sunny day: thermal turbulence dominates."
             },
             {
               "kind": "callout",
               "title": "Turbulence types",
               "items": [
-                "Mechanical: wind + obstacles → rotors downwind.",
+                "Mechanical: wind + obstacles → rotors downwind, up to 10× obstacle height.",
+                "Shear: layers with different wind speed/direction → boundary turbulence.",
                 "Thermal: rising bubbles → gusts in convective sky.",
-                "Wave: stable air over mountains → standing waves, lenticularis.",
-                "Convergence: two winds meeting → rising air at the collision line."
+                "Venturi: wind accelerated through narrow gaps."
               ]
             }
           ],
@@ -1885,7 +1901,11 @@
             },
             {
               "kind": "p",
-              "text": "An air mass is a very large body of air, hundreds or thousands of kilometres across, with relatively uniform temperature and humidity. It takes its character from the region where it sat for several days — polar, tropical, maritime or continental. When two air masses meet they do not mix readily; instead a sloped boundary forms between them — a front."
+              "text": "An air mass is an extensive body of air — a continental scale of hundreds or thousands of kilometres — with relatively uniform characteristics, especially temperature and humidity, extending horizontally to its boundaries. Examples are a polar maritime air mass (cold and wet) or a tropical continental one (hot and dry). An air mass is described as 'warm' when its temperature is higher than that of its neighbours, regardless of what an absolute thermometer says."
+            },
+            {
+              "kind": "p",
+              "text": "Air masses do not mix easily. There is a relatively clear separation between two distinct air masses, called a front. Fronts are found mainly in temperate regions like Europe, where cold polar and warm tropical air masses meet. In polar, equatorial or tropical regions, fronts are essentially absent because all the air is of the same character."
             },
             {
               "kind": "image",
@@ -1896,8 +1916,46 @@
             {
               "kind": "image",
               "deck": "meteo",
+              "page": 16,
+              "caption": "Polar and tropical air mass formation — global picture."
+            },
+            {
+              "kind": "image",
+              "deck": "meteo",
               "page": 37,
               "caption": "Boundary between two air masses — sloped, not vertical."
+            },
+            {
+              "kind": "image",
+              "deck": "meteo",
+              "page": 38,
+              "caption": "Boundary between air masses — a closer look."
+            },
+            {
+              "kind": "h2",
+              "text": "How fronts form in a depression"
+            },
+            {
+              "kind": "p",
+              "text": "At our latitudes, depressions and frontal systems usually move from west to east at a few kilometres per hour. The anti-clockwise rotation of winds around a depression, combined with the eastern trajectory of the depression itself, drives the cold air west of the depression toward the southeast — forming a cold front — while warm air on the east side heads north, forming a warm front. Both fronts slant toward the cold air."
+            },
+            {
+              "kind": "image",
+              "deck": "meteo",
+              "page": 36,
+              "caption": "How fronts form — cyclone rotation drives both fronts."
+            },
+            {
+              "kind": "image",
+              "deck": "meteo",
+              "page": 40,
+              "caption": "Cyclonic influence — depressions drive the front system."
+            },
+            {
+              "kind": "image",
+              "deck": "meteo",
+              "page": 41,
+              "caption": "Front formation under a cyclone — close-up."
             },
             {
               "kind": "h2",
@@ -1905,7 +1963,11 @@
             },
             {
               "kind": "p",
-              "text": "A warm front forms where warm air advances against retreating colder air. The warm air slides up over the cold air on a gentle slope (typically 1:200). Cloud builds from very high cirrus, lowering through cirrostratus, altostratus and nimbostratus to drizzling stratus right at the front itself. The whole sequence can stretch over hundreds of kilometres; the precipitation lasts for hours."
+              "text": "A warm front occurs when warm, less dense air moves over the top of retreating cold air, sliding gently up the slope. Because the slope is gentle and the air mass is slow, an observer on the ground first sees the warm front high overhead, then watches it descend as the front passes. Cool air rises by expansion, water vapour saturates, clouds form and rain falls."
+            },
+            {
+              "kind": "p",
+              "text": "The cloud sequence in front of a warm front is a textbook display: high cirrus first, then cirrostratus and stratus, then altocumulus, and finally nimbostratus with rain at the front itself. Just before the warm front arrives on the ground, clouds are low and produce rain, visibility is poor and the wind strength increases. The whole sequence can stretch over hundreds of kilometres; the precipitation lasts for hours."
             },
             {
               "kind": "image",
@@ -1925,7 +1987,11 @@
             },
             {
               "kind": "p",
-              "text": "A cold front advances when cold air pushes under warm air. The boundary is steep (about 1:50), and the warm air is shoved violently upward. Cloud is shorter in horizontal extent but much taller: large cumulus and often cumulonimbus, with heavy showers, possible thunderstorms, sharp gusts and rapid temperature drop. The passage is brutal but brief — typically minutes to an hour at any point."
+              "text": "A cold front occurs when cold, denser air slides violently under warm air it encounters. The boundary is much steeper than for a warm front; the warm air is shoved abruptly upward. Cloud is shorter in horizontal extent but much taller. The front is characterised by a barrier of cumulonimbus coming from the west, often with thunderstorms, sharp gusts and rapid temperature drop. The passage is brutal but brief — typically minutes to an hour at any point."
+            },
+            {
+              "kind": "p",
+              "text": "The hours before a cold front can be calm and even sunny, then the front and its barrier of cumulonimbus arrive, sometimes with lightning, thunder and hail. Behind the cold front the trailing air is fresher, with good visibility and stratocumulus or shallow cumulus at modest altitude. Cumulonimbus and thunderstorms are more likely in summer cold fronts than winter ones, because the lower atmosphere is warmer. Meteorological forecasts that mention 'fresh polar air arriving in a hot stuffy summer' usually mean a cold-front passage with thunderstorms, hail and gusty winds."
             },
             {
               "kind": "image",
@@ -1940,12 +2006,22 @@
               "caption": "Cold front cloud sequence."
             },
             {
+              "kind": "image",
+              "deck": "meteo",
+              "page": 46,
+              "caption": "Active front vs. just a brush — how to tell."
+            },
+            {
               "kind": "h2",
               "text": "Occlusion"
             },
             {
               "kind": "p",
-              "text": "Cold fronts travel faster than warm fronts. Eventually the cold front catches the warm front, lifting the warm air entirely off the ground. The composite boundary is called an occluded front. Weather at an occlusion combines the steady rain of the warm front with the showers and instability of the cold front, but is usually less intense than either alone."
+              "text": "The cold front moves slightly faster than the warm front. Eventually the cold front catches up with the warm front and the two merge — this is called an occlusion. Depending on the relative temperature of the cold air behind the cold front and the cold air ahead of the warm front, an occlusion presents either warm-front or cold-front characteristics at ground level."
+            },
+            {
+              "kind": "p",
+              "text": "If the cold air behind the cold front is warmer than the cold air ahead of the warm front, the cold front slides over the warm front and the conditions at ground level remain warm-front in character. If the situation is reversed and the trailing cold air is colder, the cold front slips under the warm front and the occlusion presents cold-front character at ground level."
             },
             {
               "kind": "image",
@@ -1956,15 +2032,33 @@
             {
               "kind": "image",
               "deck": "meteo",
+              "page": 43,
+              "caption": "Well-developed occlusion — composite weather."
+            },
+            {
+              "kind": "image",
+              "deck": "meteo",
               "page": 49,
               "caption": "Occlusion — combined warm+cold front character."
+            },
+            {
+              "kind": "image",
+              "deck": "meteo",
+              "page": 50,
+              "caption": "Occlusion — cloud images of the merged front."
+            },
+            {
+              "kind": "image",
+              "deck": "meteo",
+              "page": 39,
+              "caption": "Polar front / stationary front — when fronts don't move."
             },
             {
               "kind": "callout",
               "title": "Front facts",
               "items": [
-                "Warm front: gentle slope (1:200), high cirrus first, long steady rain.",
-                "Cold front: steep slope (1:50), towering Cb, brief violent passage.",
+                "Warm front: gentle slope, high cirrus first, long steady rain.",
+                "Cold front: steep slope, towering Cb, brief violent passage.",
                 "Cold fronts move faster than warm fronts.",
                 "Occlusion = cold front catches up with warm front."
               ]
@@ -2000,7 +2094,11 @@
             },
             {
               "kind": "p",
-              "text": "Heat thunderstorms form in moist, unstable air on a hot day. A normal cumulus humilis grows into cumulus mediocris, then congestus, then a fully developed cumulonimbus — typically in the afternoon, after the ground has had hours of sun to fuel convection. They are local, often isolated, but extremely dangerous to anyone within tens of kilometres because of strong inflow, downdrafts and gust fronts."
+              "text": "For strong thermals to develop over a land surface, two ingredients are needed. First, strong solar radiation arriving essentially perpendicular to the surface — for instance mountain faces in the morning, southern slopes around noon, western slopes in the afternoon. Second, ground that absorbs solar radiation efficiently: dark, rough, dry surfaces warm the air well; reflective surfaces such as snow waste much of the incoming light; wet ground spends a large fraction of the energy on evaporation."
+            },
+            {
+              "kind": "p",
+              "text": "Powerful convection in a humid atmosphere can build cumulus humilis through mediocris into a cumulus congestus and then a cumulonimbus producing rain, gusts and thunder — a heat storm. Heat storms usually develop in late afternoon, when the ground has had hours of sun to fuel convection. They are local, often isolated, but extremely dangerous within tens of kilometres because of strong inflow, downdrafts and gust fronts."
             },
             {
               "kind": "image",
@@ -2011,12 +2109,28 @@
             {
               "kind": "image",
               "deck": "meteo",
+              "page": 74,
+              "caption": "Thunderstorm formation — second stage of growth."
+            },
+            {
+              "kind": "image",
+              "deck": "meteo",
+              "page": 75,
+              "caption": "Thunderstorms — mature and decaying stages."
+            },
+            {
+              "kind": "image",
+              "deck": "meteo",
               "page": 76,
               "caption": "Thunderstorm hazards — gusts, hail, lightning."
             },
             {
               "kind": "p",
-              "text": "Frontal thunderstorms, by contrast, are not tied to the time of day. They are triggered by the violent uplift of warm humid air at a cold front and can occur day or night."
+              "text": "A 'blue thermal' is convection that does not result in cumulus at the top. It occurs when the air is very dry — a low humidity or a wide gap between temperature and dew point — so condensation does not happen at the thermal top. Frontal thunderstorms, by contrast, are not tied to time of day. They are triggered by the violent uplift of warm humid air at a cold front and can occur day or night."
+            },
+            {
+              "kind": "p",
+              "text": "Convective activity in Europe is best from April to August because solar radiation is stronger and the days are longer. Differences in average altitude shift the peak: snowmelt and thermals come earlier in the pre-Alps than in the Alps, so thermals are best in May in the pre-Alps and in August in the Alps."
             },
             {
               "kind": "h2",
@@ -2024,7 +2138,7 @@
             },
             {
               "kind": "p",
-              "text": "A synoptic map summarises the pressure pattern, the air masses and the fronts across a continent. Highs are marked with H, lows with L. The line patterns showing warm, cold and occluded fronts tell a pilot what to expect over the coming day. Reading European synoptic maps is the first step in any serious flight planning."
+              "text": "A synoptic chart summarises the state of various meteorological features at a given time — pressure as isobars, fronts as marked lines, and sometimes wind, temperature and cloud. The letter H marks the centre of a high (anticyclone), the letter L the centre of a low (depression). The line styles distinguish warm fronts, cold fronts and occlusions. Pressures shown on the map are corrected to sea level."
             },
             {
               "kind": "image",
@@ -2039,16 +2153,36 @@
               "caption": "Fronts — schematic of warm, cold and occluded boundaries."
             },
             {
+              "kind": "p",
+              "text": "Three things on a synoptic map answer most flying questions. Isobar spacing indicates the pressure gradient and therefore the wind strength. Centres of action (H and L) determine the wind rotation: clockwise round a high, anti-clockwise round a low (northern hemisphere). The position and movement of fronts determine the next 24 hours of weather."
+            },
+            {
               "kind": "h2",
               "text": "Typical Swiss situations"
             },
             {
               "kind": "p",
-              "text": "A few synoptic configurations repeat in Switzerland. Strong south-north pressure gradients drive Föhn (south higher → Südföhn from the south; north higher → Nordföhn). Westerly flow with cold fronts brings rain and gusty weather to the whole country. A barometric swamp gives light winds and good thermals, but with increasing thunderstorm risk in the afternoon."
+              "text": "From the synoptic maps over Europe we can identify six weather patterns typical for Switzerland. An anticyclone centred on the Alps gives stable weather: in winter, pressures of 1030–1040 hPa, often with strong inversion and stratus on the plateau; in summer, around 1020–1025 hPa, with usable thermals in the Alps and possible local thunderstorms. A barometric plateau gives light winds and good thermals but a real thunderstorm risk in the afternoon."
+            },
+            {
+              "kind": "p",
+              "text": "The Bise is a pronounced wind from the north-east on the central plateau around 2000 m, caused by a high pressure centred north of Germany. Westerly flow comes with a depression over Scandinavia: short periods of good weather alternate with disturbances, often with strong winds. The two Föhn situations — Südföhn (depression northwest, high over northern Italy, with south wind across the Alps) and Nordföhn (Azores high extending east, with north wind across the Alps) — are characterised by strong south-north pressure differences and dangerous turbulence."
             },
             {
               "kind": "p",
               "text": "Sunny weather at altitude with fog in the valleys is a classic high-pressure morning: an anticyclone with descending air, an inversion in the lower layers and pooled cool moist air below. Simultaneous sunshine at altitude and in the valleys is the signature of a stable, well-developed anticyclone."
+            },
+            {
+              "kind": "image",
+              "deck": "meteo",
+              "page": 17,
+              "caption": "Polar and tropical air mass formation in pressure systems."
+            },
+            {
+              "kind": "image",
+              "deck": "meteo",
+              "page": 19,
+              "caption": "Thermal high and low pressure formation."
             },
             {
               "kind": "callout",
