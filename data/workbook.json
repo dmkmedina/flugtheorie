@@ -227,6 +227,10 @@
               "text": "Air pressure follows the same general pattern but is not numerically identical to density. Pressure halves at approximately 5500 m AMSL; density does too but at a slightly different rate because temperature also changes with altitude. For exam purposes the density table at 1100, 2200, 3300 and 4400 m is what matters."
             },
             {
+              "kind": "p",
+              "text": "Two more practical consequences follow. The first: stall speed rises with altitude. The wing has to fly faster to keep generating enough lift, so the minimum airspeed shifts up. The second: at altitude you can only compensate for the thinner air with speed — everything else (wing area, profile, your weight) stays the same. Choose a steeper launch and run harder, and do not over-brake the wing in the first moments after lift-off."
+            },
+            {
               "kind": "callout",
               "title": "Memory aid",
               "items": [
@@ -2258,7 +2262,11 @@
             },
             {
               "kind": "p",
-              "text": "Every paraglider must be clearly marked with two items. An identification number — 40 cm tall digits on the lower surface of the wing — matching the insurance certificate. And a manufacturer's plate stating the manufacturer's name, the model, the year of manufacture, and the minimum and maximum take-off weights."
+              "text": "Every slope glider must carry two sets of markings: an identification number and a manufacturer's plaque. The identification number is composed of five or more digits, must be easily recognisable, and is affixed to the underside of the wing. The digits are usually adhered to the fabric and each must measure 40 cm in height. The SHV/FSVL manages and allocates these numbers; in practice the number is usually the same as the pilot's SHV/FSVL licence number."
+            },
+            {
+              "kind": "p",
+              "text": "The manufacturer's plaque is a small piece of fabric sewn into an edge or wingtip and must include the manufacturer's name, the type of wing, the year of manufacture, and the minimum and maximum loads specified by the manufacturer. Other items such as serial numbers or class certification are not mandatory. All wings flown by the same pilot must carry the same identification number — identical to the number on the certificate of liability insurance, which the pilot must carry on every flight."
             },
             {
               "kind": "image",
@@ -2372,7 +2380,11 @@
             },
             {
               "kind": "p",
-              "text": "A NOTAM (Notice to Airmen) is an official short-term notice about changes to airspace, hazards or operations. The DABS (Daily Airspace Bulletin Switzerland) lists daily Swiss airspace activations. The AIP (Aeronautical Information Publication) is the master reference document for the Swiss airspace structure."
+              "text": "A NOTAM (Notice to Airmen) is an official short-term notice about changes to airspace, hazards or operations. The DABS (Daily Airspace Bulletin Switzerland) lists daily Swiss airspace activations and is read by virtually every Swiss pilot before flying. The AIP (Aeronautical Information Publication) is the master reference document for the Swiss airspace structure. The HX suffix on an airspace label means the airspace is active on demand, not by a fixed schedule."
+            },
+            {
+              "kind": "p",
+              "text": "Three additional acronyms turn up regularly. FIZ is a Flight Information Zone — radio contact recommended, not strictly mandatory. RMZ is a Radio Mandatory Zone — radio contact required. ATIS is the Automatic Terminal Information Service, the recorded weather broadcast for an airport that pilots tune in before any controlled-airspace contact."
             },
             {
               "kind": "h2",
@@ -2380,7 +2392,11 @@
             },
             {
               "kind": "p",
-              "text": "FL stands for Flight Level — altitude in hundreds of feet referenced to the standard pressure of 1013.25 hPa. VFR means Visual Flight Rules; IFR means Instrument Flight Rules. The 'LS' prefix in ICAO codes refers to Switzerland — every Swiss aerodrome's identifier begins with LS (LSZH = Zurich, LSGG = Geneva)."
+              "text": "FL stands for Flight Level — altitude in hundreds of feet referenced to the standard pressure of 1013.25 hPa. To convert a Flight Level to approximate metres, multiply the number by 30: FL30 ≈ 900 m, FL100 ≈ 3000 m, FL150 ≈ 4500 m, FL195 ≈ 5900 m. VFR means Visual Flight Rules: see and avoid is the pilot's job. IFR means Instrument Flight Rules — paragliders never fly IFR. The 'LS' prefix in ICAO codes refers to Switzerland — every Swiss aerodrome's identifier begins with LS (LSZH = Zurich, LSGG = Geneva)."
+            },
+            {
+              "kind": "p",
+              "text": "Two more altitude references are vital: AGL stands for Above Ground Level, used for the 600 m upper limit of airspace G. AMSL stands for Above Mean Sea Level, used for almost every other altitude. The HX suffix on an airspace label means the airspace is active on demand, not by default. GND simply means Ground."
             },
             {
               "kind": "callout",
@@ -2429,7 +2445,7 @@
             },
             {
               "kind": "p",
-              "text": "Switzerland uses four ICAO airspace classes: C, D, E and G. Paragliders, being uncontrolled traffic without a transponder, may only fly in the uncontrolled airspaces E and G. C and D require a controller's clearance. A useful memory aid: 'Ceiling Defines Every Glide.'"
+              "text": "ICAO has legally defined seven airspace classes in the troposphere, designated by the letters A to G. In Switzerland only four of these classes apply: C, D, E and G. The spaces E and G are uncontrolled — they are the only airspaces a paraglider may use without permission and without radio contact. The spaces C and D are controlled airspace, requiring prior authorisation and continuous radio contact, and paragliders should not use them. A useful memory aid: 'Ceiling Defines Every Glide.'"
             },
             {
               "kind": "image",
@@ -2443,7 +2459,7 @@
             },
             {
               "kind": "p",
-              "text": "Airspace G runs from the ground up to 600 m AGL across the entire country. It is uncontrolled — no clearance required — but VFR rules still apply. Within G, the rules below and above 300 m AGL differ in the visibility and cloud-clearance distances required."
+              "text": "Airspace G runs from the ground up to 600 m AGL across the entire country. It is uncontrolled — no clearance required — but VFR rules still apply. Within G, the rules below and above 300 m AGL differ in the visibility and cloud-clearance distances required. Because the upper limit is in AGL, the absolute height of the G ceiling rises and falls with the terrain — a useful detail when flying close to the ridges."
             },
             {
               "kind": "h2",
@@ -2581,7 +2597,11 @@
             },
             {
               "kind": "p",
-              "text": "The Swiss Glider Chart is the basic reference for free-flight airspace. It shows airspace boundaries (CTR, TMA, AWY, LS-R, LS-D, LS-P), the upper and lower limits of every zone, the military operating hours and the Mittelland/Jura–Alps boundary. Many pilots also use the online map.geo.admin.ch which carries the same information in a layered viewer."
+              "text": "The Swiss Glider Chart is the basic reference for free-flight airspace. It shows airspace boundaries (CTR, TMA, AWY, LS-R, LS-D, LS-P), the upper and lower limits of every zone, the military operating hours, the Mittelland/Jura–Alps boundary and the cable obstacles that paragliders must avoid. Many pilots also use the online map.geo.admin.ch viewer, which carries the same information in layered form along with wildlife reserves and protected areas."
+            },
+            {
+              "kind": "p",
+              "text": "The chart is reprinted every year by the SHV/FSVL with the latest airspace and operating-hour information. The colours, symbols and abbreviations have a fixed convention: green for gliding zones, red for restricted zones, hatched lines for danger zones, double lines for boundaries. Spend an evening with the legend before your first flight in unfamiliar terrain."
             },
             {
               "kind": "image",
@@ -2621,7 +2641,15 @@
             },
             {
               "kind": "p",
-              "text": "The AIP is the official Aeronautical Information Publication: the long-form reference describing the structure of every airspace, navaid and aerodrome. NOTAMs are short-term operational notices about temporary changes — short closures, special events, hazards. The VFR-NOTAM and KOSIF publications focus on items relevant to VFR (and military) flying."
+              "text": "The AIP is the official Aeronautical Information Publication: the long-form reference describing the structure of every airspace, navaid and aerodrome in Switzerland. It is the master document that the glider chart summarises in visual form. NOTAMs (Notices to Airmen) are short-term operational notices about temporary changes — short closures, special events, hazards, runway works. The VFR-NOTAM and KOSIF publications focus on items relevant to VFR and to military flying respectively."
+            },
+            {
+              "kind": "h2",
+              "text": "Aerodromes and heliports"
+            },
+            {
+              "kind": "p",
+              "text": "Aerodromes and heliports are marked on the chart with their exclusion circles: paragliders may not take off or land within 5 km of an aerodrome's runway (without CTR clearance) and within 2.5 km of a heliport. A small number of heliports have special rules — for instance Trogen, where the protective radius is set differently from the default."
             },
             {
               "kind": "callout",
@@ -2665,7 +2693,7 @@
             },
             {
               "kind": "p",
-              "text": "VFR requires the pilot to see and avoid other aircraft and terrain. In airspace G below 300 m AGL the minimum is 1500 m flight visibility and the pilot must remain clear of cloud, with the ground in sight. Above 300 m AGL in G, the requirement increases: 5 km visibility, 1.5 km horizontal from cloud and 300 m vertically below or 150 m above cloud."
+              "text": "VFR requires the pilot to see and avoid other aircraft and terrain. In airspace G below 300 m AGL the minimum is 1500 m flight visibility and the pilot must remain clear of cloud, with the ground in sight. Above 300 m AGL in G the requirement increases: 5 km visibility, 1.5 km horizontal from cloud, 300 m vertically below cloud or 150 m above cloud. These thresholds exist so that other VFR traffic — a sailplane, a helicopter, a light aircraft — can see you in time to avoid a collision."
             },
             {
               "kind": "image",
@@ -2737,7 +2765,15 @@
             },
             {
               "kind": "p",
-              "text": "In a thermal, all gliders circle the same direction — the one used by the first arrival. Joining a thermal in the opposite direction is forbidden and the most common cause of collisions in soaring."
+              "text": "In a thermal, all gliders circle the same direction — the one used by the first arrival. Joining a thermal in the opposite direction is forbidden and the most common cause of collisions in soaring. Watch other pilots inside and outside the thermal at all times."
+            },
+            {
+              "kind": "h2",
+              "text": "Altimetry"
+            },
+            {
+              "kind": "p",
+              "text": "Below the transition altitude, altimeters are set to QNH and altitudes are read in metres or feet AMSL. Above that, altimeters are set to the standard pressure 1013.25 hPa and the indication is called a Flight Level. A change of 1 hPa equals about 8 m or 28 ft. With QNH 1015 reported (above standard), you actually fly slightly higher than your altimeter shows when set to 1013."
             },
             {
               "kind": "callout",
@@ -2789,7 +2825,7 @@
             },
             {
               "kind": "p",
-              "text": "The pilot examination has a theoretical and a practical part. The theoretical part covers aerodynamics, meteorology, equipment, legislation and flight practice. The practical part includes a series of supervised flights with specific tasks — among them a precision landing in a 30 m diameter target circle."
+              "text": "The pilot examination has two parts: theoretical and practical. The theoretical part covers aerodynamics, meteorology, equipment, legislation and flight practice. The practical part includes a series of supervised flights with specific tasks — among them a precision landing in a 30 m diameter target circle and a 5-point pre-launch check performed in the correct order. The exam content and standards are defined by federal regulation."
             },
             {
               "kind": "h2",
@@ -2811,7 +2847,11 @@
             },
             {
               "kind": "p",
-              "text": "The OACS makes pilots responsible for respecting wildlife. The map.geo.admin.ch viewer shows wildlife reserves where flight is restricted. Pilots are expected to keep clear of golden eagle nesting areas (especially in spring) and to avoid chamois and ibex on south slopes in winter and spring."
+              "text": "The OACS makes pilots responsible for respecting wildlife. The map.geo.admin.ch viewer shows wildlife reserves where flight is restricted. Pilots are expected to keep clear of golden eagle nesting areas — especially March to May, when the eagles are raising young — and to avoid chamois and ibex on south slopes in winter and spring, when their energy reserves are critical for survival. A territorial golden eagle marks its area with a characteristic undulating flight pattern; if you see one, give it space."
+            },
+            {
+              "kind": "p",
+              "text": "Beyond wildlife, the OACS sets a small number of common-sense rules that apply on every flight: do not fly over outdoor crowds, do not fly over public roads or ski slopes at low altitude, do not take off or land on water surfaces. The penalties for breaches range from fines to licence withdrawal, and most importantly any incident will be investigated against these rules."
             },
             {
               "kind": "image",
@@ -2874,7 +2914,7 @@
             },
             {
               "kind": "p",
-              "text": "A complete paraglider system consists of five main parts: the wing (the canopy, including the cells, ribs and airfoil), the lines connecting wing to risers, the risers (the strong webbing that takes the load and ends in attachment loops), the harness with its back and seat protection, and the reserve parachute installed inside or on the harness."
+              "text": "A complete paraglider system consists of five main parts. The wing is the canopy itself: a fabric airfoil with internal cells, ribs and Mylar reinforcements at the leading edge. The lines connect the wing to the risers — sheathed thin cords arranged in groups A (front), B, C and sometimes D (rear), plus the steering lines that run to the brake handles. The risers are strong webbing strips ending in karabiner attachment loops; they are where the lines collect together before they meet the pilot."
             },
             {
               "kind": "image",
@@ -2896,7 +2936,11 @@
             },
             {
               "kind": "p",
-              "text": "Each part is engineered and certified for a particular wing model — they are not freely interchangeable. Modifying, swapping or repairing a part with non-original components changes the certification of the whole system."
+              "text": "The harness is what the pilot wears and what attaches via two karabiners to the riser ends. It includes the seat, the back protection (foam, airbag or both), the leg and chest straps, and the container for the reserve parachute. The reserve parachute is the last piece of the system: a redundant canopy stored in or on the harness and deployed by hand if the main wing becomes uncontrollable."
+            },
+            {
+              "kind": "p",
+              "text": "Each part is engineered and certified for a particular wing model — they are not freely interchangeable. Modifying, swapping or repairing a part with non-original components changes the certification of the whole system, with consequences for both safety and insurance. The pilot's pre-flight check covers all five parts in order, every flight, every time."
             },
             {
               "kind": "callout",
@@ -2984,7 +3028,11 @@
             },
             {
               "kind": "p",
-              "text": "Anterior cell walls near the openings are often reinforced with Mylar to keep the leading edge shape rigid. Mylar is stiff but brittle — repeated folding bends and eventually breaks it, which is why you should never pack a wing with sharp creases at the leading edge."
+              "text": "Anterior cell walls near the openings are often reinforced with Mylar to keep the leading edge shape rigid even when not flying. Mylar is stiff but brittle — repeated folding bends and eventually breaks it, which is why you should never pack a wing with sharp creases at the leading edge."
+            },
+            {
+              "kind": "p",
+              "text": "Cell walls can suffer downward loads in certain manoeuvres — for instance during a B-stall, where the cells lose internal pressure and can deform negatively. Diagonal V-ribs (sometimes called Diagonals) carry load from one rib to another, reducing the number of attachment points and lines needed for the same span and the same load-distribution accuracy."
             },
             {
               "kind": "callout",
@@ -3072,7 +3120,11 @@
             },
             {
               "kind": "p",
-              "text": "Lines stretch over their lifetime; some materials, especially aramid, can also shrink. UV exposure and repeated loading both degrade the core. With moderate brake input the D-lines may be loose (not under tension) — this is normal and means the wing is in a brake-induced angle-of-attack range where lift has shifted forward. Sustained sagging beyond expectation, however, can indicate a stretch problem."
+              "text": "Lines stretch over their lifetime; some materials, especially aramid, can also shrink. UV exposure and repeated loading both degrade the core. With moderate brake input the D-lines may be loose (not under tension) — this is normal and means the wing is in a brake-induced angle-of-attack range where lift has shifted forward toward the leading edge. Sustained sagging beyond expectation, however, can indicate a stretch problem that warrants a workshop check."
+            },
+            {
+              "kind": "p",
+              "text": "Routine line check before flight: scan each line from riser to wing for cuts, abrasions, missing sheath, or knots. A nick that exposes the core is enough to scrap the line. Lines that have been heavily exposed to sun and seawater age much faster than the wing itself; on coastal or tropical wings, lines are often the first part to need replacement."
             },
             {
               "kind": "callout",
@@ -3212,7 +3264,7 @@
             },
             {
               "kind": "p",
-              "text": "Two main systems are used. Foam back protectors work immediately on impact and require no preparation. Airbag systems use ram-air inflation in flight; they are more effective once filled but need time to inflate, so a take-off failure offers little protection. Many modern harnesses combine foam and airbag elements."
+              "text": "Two main systems are used. Foam back protectors work immediately on impact and require no preparation. Airbag systems use ram-air inflation in flight; they are more effective once filled but need time to inflate, so a take-off failure offers little protection. Many modern harnesses combine foam and airbag elements to give the best of both worlds — and a small added weight penalty in return."
             },
             {
               "kind": "h2",
@@ -3231,6 +3283,10 @@
             {
               "kind": "p",
               "text": "Karabiner geometry matters. Karabiners high and close together damp the turbulence transmitted to the wing — useful for relaxed flying. Karabiners low and far apart give the pilot more feedback, less risk of twisting on launch, and a stronger lean forward into the wing. Reclined (pod) harnesses present lower drag but, because the pilot is more horizontal, carry a higher risk of twisting if the wing collapses asymmetrically."
+            },
+            {
+              "kind": "p",
+              "text": "The distance between the two karabiners (the bridle width) is one of the design choices that shape the feel of the harness. A narrow bridle gives a smoother, more damped ride and is often chosen for cross-country and long flights. A wider bridle transmits more turbulence to the pilot, who can then react earlier — at the cost of comfort. Pre-flight: always check that both karabiners are correctly screwed shut and that the leg straps and chest strap are buckled."
             },
             {
               "kind": "callout",
@@ -3537,6 +3593,10 @@
               "text": "Signs of severe shock include pale skin, bluish lips, cold sweat, weak rapid pulse and partial unresponsiveness. For helicopter rescue, all flying activity in the area must stop and any loose fabric — paragliders, clothing — must be cleared from the landing zone before the helicopter approaches."
             },
             {
+              "kind": "p",
+              "text": "Carrying a basic first-aid kit, a charged mobile phone with the European emergency number 112 and the Swiss alpine rescue number 1414, and warm clothing for an injured friend, are simple precautions every alpine pilot should take. After any non-trivial accident, document the conditions and circumstances while they are fresh — they help both the official investigation and your own learning."
+            },
+            {
               "kind": "callout",
               "title": "Physiology key points",
               "items": [
@@ -3783,6 +3843,10 @@
               "text": "Once you are airborne, wait until you are safely clear of the slope before releasing the brakes to slide back into the seated position of the harness. Sliding into the harness near terrain leaves no time to recover from a turbulence event. Maintain straight flight away from the launch and look around for other traffic before you turn."
             },
             {
+              "kind": "p",
+              "text": "A launch in a forest clearing or gap deserves special care: the surrounding trees produce strong mechanical turbulence on the lee side, and a sudden lift just at the edge of the clearing can produce an over-pitched wing. Be ready with the brakes, accelerate firmly through the lift band and avoid hesitating once committed."
+            },
+            {
               "kind": "image",
               "deck": "flugpraxis",
               "page": 8,
@@ -3872,6 +3936,10 @@
             {
               "kind": "p",
               "text": "You can estimate the wind speed from your drift while circling: a drift of 3 km in 10 minutes corresponds to a wind of about 18 km/h. On cross-country flights, only leave a thermal once the next target is chosen and you have enough altitude to reach it. Wake turbulence (wingtip vortices) trails any glider — be careful when flying close behind another, especially near the ground."
+            },
+            {
+              "kind": "p",
+              "text": "On a long flight, a few habits add up. Keep a running mental list of alternate landings reachable from your current altitude. Track the wind direction from drift, vegetation and water surfaces, and update it every time you climb. Drink water regularly — dehydration makes you slow and irritable. And keep a margin: an attempted glide that just barely works in still air will fail with the slightest unexpected sink."
             },
             {
               "kind": "callout",

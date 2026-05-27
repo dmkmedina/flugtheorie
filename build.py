@@ -44,7 +44,7 @@ def main():
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
 <meta name="description" content="Swiss paragliding theory exam (SHV/FSVL) study trainer — {len(cards)} flashcards, mock exam, study guide, {total_slides} Freewings slide-deck images, and cheat sheet." />
 <meta name="theme-color" content="#0284c7" />
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='84' font-size='90'%3E%E2%9C%88%EF%B8%8F%3C/text%3E%3C/svg%3E" />
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='84' font-size='90'%3E%F0%9F%AA%82%3C/text%3E%3C/svg%3E" />
 <title>Flugtheorie — Swiss Paragliding Theory Trainer</title>
 <style>
 {css}
@@ -54,7 +54,7 @@ def main():
 <div class="mobile-bar">
   <button class="menu-btn" id="mobile-menu">☰</button>
   <div class="brand">
-    <span style="display:inline-block; width:24px; height:24px; background:linear-gradient(135deg,#0ea5e9,#6366f1); border-radius:6px; line-height:24px; text-align:center; font-size:14px;">✈️</span>
+    <span style="display:inline-block; width:24px; height:24px; background:linear-gradient(135deg,#0ea5e9,#6366f1); border-radius:6px; line-height:24px; text-align:center; font-size:14px;">🪂</span>
     Flugtheorie
   </div>
 </div>
@@ -62,7 +62,7 @@ def main():
 <div class="shell">
   <aside class="sidebar" id="sidebar">
     <div class="sidebar-brand">
-      <span class="logo">✈️</span>
+      <span class="logo">🪂</span>
       <div>
         Flugtheorie
         <span class="sub">SHV/FSVL Trainer</span>
