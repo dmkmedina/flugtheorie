@@ -66,7 +66,7 @@ const CATEGORY_META = {
   'Legislation':     { color: '#3b82f6', icon: '⚖️', short: 'Law' },
   'Equipment':       { color: '#f59e0b', icon: '🪂', short: 'Equip' },
   'Meteorology':     { color: '#06b6d4', icon: '🌦️', short: 'Meteo' },
-  'Flight Practice': { color: '#10b981', icon: '✈️', short: 'Prac' },
+  'Flight Practice': { color: '#10b981', icon: '🪂', short: 'Prac' },
   'Aerodynamics':    { color: '#a855f7', icon: '📐', short: 'Aero' }
 };
 
@@ -286,7 +286,7 @@ function renderDashboard() {
 
   return `
     <div class="page-header">
-      <h1>Welcome back ✈️</h1>
+      <h1>Welcome back 🪂</h1>
       <p class="page-subtitle">Your training overview for the Swiss SHV/FSVL paragliding theory exam.</p>
     </div>
 

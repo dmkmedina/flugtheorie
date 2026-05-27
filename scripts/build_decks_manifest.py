@@ -39,7 +39,7 @@ META = {
         "title": "Flugpraxis",
         "category": "Flight Practice",
         "instructor": "Sam Hochstrasser",
-        "icon": "✈️",
+        "icon": "🪂",
     },
 }
 
