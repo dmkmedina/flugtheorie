@@ -52,7 +52,7 @@ def aero_book() -> dict:
                 "Only add vectors of the same type — never a force with a speed.",
             ]},
         ],
-        "quiz": ["aer-1", "aer-24"],
+        "quiz": ["aer-1", "aer-24", "aer-23", "aer-57", "aer-25"],
     })
 
     # 2. Drag — what affects it -----------------------------------------------
@@ -356,26 +356,32 @@ def meteo_book() -> dict:
         "estimated_min": 4,
         "sections": [
             {"kind": "h2", "text": "Layers of the atmosphere"},
-            {"kind": "p", "text": "The atmosphere is the gaseous envelope around the Earth. From the surface upward it is divided into the troposphere, the stratosphere, the mesosphere, the thermosphere and the exosphere. Almost all weather happens in the troposphere — the lowest layer. Its top, the tropopause, lies at about 8 km over the poles and about 16 km over the equator."},
+            {"kind": "p", "text": "The atmosphere is the envelope of air that surrounds the Earth. It is densest at sea level and thins out gradually until it reaches the vacuum of space. Meteorologists divide it into several layers. For paragliding we only need to concern ourselves with the troposphere — the layer in direct contact with the Earth, where essentially all weather happens. The higher layers (stratosphere, mesosphere, thermosphere) do not concern us directly."},
             {"kind": "image", "deck": "meteo", "page": 4, "caption": "Layers of the atmosphere — paragliders fly entirely in the troposphere."},
             {"kind": "image", "deck": "meteo", "page": 5, "caption": "The troposphere — almost all weather phenomena occur here."},
-            {"kind": "p", "text": "Compared to the Earth's radius the atmosphere is a remarkably thin shell. Roughly three quarters of its mass lies in the lowest 11 km, the part we share with thunderstorms and weather fronts."},
+            {"kind": "p", "text": "The troposphere is bounded above by the tropopause. In the northern latitudes this is at around 11,000 m above sea level. The tropopause is slightly lower in winter, when the air is colder and denser, and slightly higher in summer when the air is warmer. The exact height also depends on latitude — it is lower over the poles and higher over the equator."},
             {"kind": "image", "deck": "meteo", "page": 7, "caption": "A thin atmospheric shell relative to the Earth."},
             {"kind": "h2", "text": "What air is made of"},
-            {"kind": "p", "text": "Dry air is about 78 % nitrogen and 21 % oxygen, with the remaining 1 % made up of argon and trace gases such as carbon dioxide. Suspended in this mix are variable amounts of water vapour, dust, pollen and aerosols — the ingredients of cloud, mist and pollution."},
+            {"kind": "p", "text": "Dry air is about 78 percent nitrogen and 21 percent oxygen. The remaining 1 percent is made up of carbon dioxide, water vapour and rare gases such as argon and helium. Suspended in this mix are variable amounts of water vapour, dust, pollen and aerosols — the ingredients of cloud, mist and pollution."},
             {"kind": "image", "deck": "meteo", "page": 8, "caption": "Composition of the troposphere — roughly 78/21 nitrogen/oxygen."},
+            {"kind": "image", "deck": "meteo", "page": 9, "caption": "Troposphere — basic facts about the layer that contains our weather."},
             {"kind": "h2", "text": "Atmospheric pressure"},
-            {"kind": "p", "text": "Atmospheric pressure at any altitude is the weight of the column of air pressing down on that level. At sea level the standard reference value is 1013.25 hPa. Pressure decreases with altitude — fast at first, more slowly higher up — because the air thins."},
+            {"kind": "p", "text": "Atmospheric pressure is due to the effect of gravity on the air mass — it is the weight of the column of air pressing down. It is typically measured in hectopascals (hPa); one atmosphere is approximately 1000 hPa. The standard reference value at sea level is 1013.25 hPa, with a corresponding standard temperature of 15 °C and an average temperature gradient of 0.65 °C per 100 m."},
             {"kind": "image", "deck": "meteo", "page": 11, "caption": "Air pressure — the weight of the air column above us."},
-            {"kind": "p", "text": "Pressure at a given location is not constant over time. Warming, cooling and the movement of air masses make it rise and fall. This is why pressure readings on weather maps are always corrected to sea level (QNH) so they can be compared between locations at different altitudes."},
+            {"kind": "p", "text": "Because air is a compressible gas, the higher you go the lower the pressure. The decrease is not linear. Two reference points are useful to remember. At 5500 m AMSL the atmospheric pressure is about half its sea-level value. At 11000 m the pressure is about a quarter of sea level. So if sea-level pressure is 980 hPa, at 5500 m it would be 490 hPa."},
+            {"kind": "image", "deck": "meteo", "page": 12, "caption": "Standard atmosphere — how pressure changes with altitude."},
+            {"kind": "p", "text": "There is also a useful gas-law relationship: if pressure halves, volume doubles. A balloon of 5 dm³ at sea level rises to 5500 m (pressure halved) and becomes 10 dm³. Take it to 11000 m (pressure quartered) and it becomes 20 dm³. Altimeters use the standard atmosphere as a reference: pressure 1013.25 hPa at sea level, temperature 15 °C, lapse rate 0.65 °C / 100 m."},
+            {"kind": "p", "text": "Pressure at a given location is not constant over time. Warming and cooling of land surfaces, and the movement of air masses around the Earth, make pressure rise and fall. This is why pressure readings on weather maps are always corrected to sea level (QNH) so they can be compared between locations at different altitudes."},
+            {"kind": "image", "deck": "meteo", "page": 13, "caption": "Standard atmosphere — the reference for altimetry."},
             {"kind": "callout", "title": "Atmosphere essentials", "items": [
                 "Troposphere = the layer that contains essentially all weather.",
-                "Tropopause: ~8 km poles, ~16 km equator.",
+                "Tropopause: ~11000 m at our latitudes.",
                 "78 % nitrogen, 21 % oxygen, 1 % trace gases (plus variable water).",
                 "Standard pressure at sea level = 1013.25 hPa.",
+                "Pressure halves at 5500 m, quartered at 11000 m.",
             ]},
         ],
-        "quiz": ["met-17", "met-51", "met-52", "met-58"],
+        "quiz": ["met-17", "met-51", "met-52", "met-58", "met-22", "met-26", "met-75"],
     })
 
     # 2. Air temperature, warming and lapse rate -----------------------------
@@ -388,21 +394,28 @@ def meteo_book() -> dict:
         "estimated_min": 5,
         "sections": [
             {"kind": "h2", "text": "An indirect heating process"},
-            {"kind": "p", "text": "Solar radiation passes through the atmosphere almost transparently. It is absorbed by the ground, which warms up; the ground then warms the air immediately above it. Local pockets of warmer air become less dense than their surroundings, become buoyant and rise as thermals."},
+            {"kind": "p", "text": "The Sun does not warm the atmosphere directly. Solar radiation passes through the air with very little absorption. It is absorbed by the ground, which warms up; the ground then warms the layer of air immediately above it by conduction and convection. Local pockets of this warmed air, less dense than their cooler surroundings, become buoyant and rise as thermals."},
             {"kind": "image", "deck": "meteo", "page": 14, "caption": "Standard atmosphere — the Sun warms ground first, air second."},
+            {"kind": "image", "deck": "meteo", "page": 53, "caption": "Convection and air density — warm air is less dense and rises."},
             {"kind": "h2", "text": "Which ground heats best"},
-            {"kind": "p", "text": "Dark, dry, rough ground absorbs sunlight efficiently and warms the air strongly. Wet ground — swamps, irrigated fields, forests with damp soil — wastes much of the incoming energy on evaporating water. Smooth, bright surfaces such as snow or pale rock reflect a large fraction of the sunlight straight back: poor thermal generators."},
+            {"kind": "p", "text": "Not all ground heats the air equally. Dark, dry, rough ground (rock, soil, asphalt) absorbs sunlight efficiently and warms the air strongly. Wet ground — swamps, irrigated fields, forests with damp soil — wastes much of the incoming energy on evaporating water, which absorbs heat instead of warming the air. Smooth, bright surfaces such as snow or pale rock reflect a large fraction of the sunlight straight back without absorbing it: they are poor thermal generators."},
+            {"kind": "p", "text": "The orientation of the surface relative to the Sun also matters enormously. Strong thermals develop where solar radiation arrives essentially perpendicular to the surface — mountain faces in the morning, southern slopes around noon, western slopes in the afternoon. A surface that catches grazing light at a low angle absorbs much less energy than one with the Sun overhead."},
             {"kind": "image", "deck": "meteo", "page": 51, "caption": "Thermals — bubbles of warmer air released from the ground."},
             {"kind": "h2", "text": "The dry adiabatic lapse rate"},
-            {"kind": "p", "text": "An air parcel that moves vertically without exchanging heat with its surroundings is said to be adiabatic. As long as no water condenses inside it, a rising air parcel cools by 1 °C for every 100 m of altitude gained — and warms by the same amount on the way down. This 1 °C/100 m dry adiabatic lapse rate is a constant property of dry air; it does not depend on the ambient temperature."},
+            {"kind": "p", "text": "An air parcel that moves vertically without exchanging heat with its surroundings is said to behave adiabatically. As long as no water condenses inside it, a rising adiabatic air parcel cools by 1 °C for every 100 m of altitude gained — and warms by the same amount on the way down. This 1 °C / 100 m dry adiabatic lapse rate is a constant property of dry air; it does not depend on the ambient temperature."},
+            {"kind": "p", "text": "The reason for the cooling is that, as the parcel rises into thinner air, it expands against the lower pressure outside. Expansion uses up the parcel's internal energy and the temperature drops. The reverse holds on descent: compression converts work back into temperature, and the parcel warms."},
             {"kind": "image", "deck": "meteo", "page": 60, "caption": "Dry adiabatic — 1 °C per 100 m of vertical motion."},
+            {"kind": "image", "deck": "meteo", "page": 54, "caption": "Decompression on the way up — expansion cools the parcel."},
             {"kind": "h2", "text": "Ambient temperature and the emagram"},
-            {"kind": "p", "text": "The actual temperature of the atmosphere at each altitude is not constant; it varies day to day and even hour to hour. An emagram (or temp diagram) plots measured ambient temperature against altitude. The contrast between this measured curve and the constant 1 °C / 100 m adiabatic line determines whether the air is stable or unstable — and how high thermals can climb."},
-            {"kind": "p", "text": "A standard atmosphere lapse rate is around 0.65 °C per 100 m for the lower troposphere. For thermals to develop strongly, the actual lapse rate near the ground should be steeper than the adiabatic: roughly 0.6 to 0.8 °C per 100 m between the surface and around 3000 m, with no strong inversion above."},
+            {"kind": "p", "text": "The actual temperature of the atmosphere at each altitude is not constant. It depends on time of day, recent weather, and the path the air mass has taken. An emagram (temperature-altitude diagram) plots measured ambient temperature against altitude. The contrast between this measured ambient curve and the constant 1 °C / 100 m adiabatic line determines whether the air is stable or unstable, and how high thermals can climb."},
+            {"kind": "p", "text": "The standard atmosphere has an average lapse rate of 0.65 °C per 100 m for the lower troposphere. For strong thermals to develop, the actual lapse rate near the ground should be even steeper than this — roughly 0.6 to 0.8 °C per 100 m between the surface and around 3000 m, with no strong inversion above. A thermal stops rising when its adiabatically-cooled temperature matches the ambient temperature — at that altitude there is no longer a buoyancy difference."},
+            {"kind": "image", "deck": "meteo", "page": 55, "caption": "Thermal top — the level where the parcel matches its surroundings."},
+            {"kind": "image", "deck": "meteo", "page": 56, "caption": "Adiabatic processes — how an air parcel changes with altitude."},
             {"kind": "callout", "title": "Lapse rates", "items": [
                 "Dry adiabatic = 1 °C / 100 m (constant).",
                 "Standard atmosphere ≈ 0.65 °C / 100 m.",
                 "Strong thermals need a steep ambient lapse rate near the ground.",
+                "Thermal top: where parcel temperature meets ambient temperature.",
             ]},
         ],
         "quiz": ["met-14", "met-15", "met-22", "met-39", "met-45", "met-63", "met-69"],
@@ -418,13 +431,16 @@ def meteo_book() -> dict:
         "estimated_min": 4,
         "sections": [
             {"kind": "h2", "text": "When the air gets warmer with altitude"},
-            {"kind": "p", "text": "An inversion is a layer in which temperature increases with altitude instead of decreasing. An isothermal layer is one in which temperature stays the same with altitude. Both layers are stable: a rising air parcel reaches them, finds itself colder (and therefore denser) than its surroundings, and stops climbing."},
+            {"kind": "p", "text": "An inversion is a layer in which temperature increases with altitude instead of decreasing. An isothermal layer is one in which temperature stays the same — a constant temperature with height. Both kinds of layers are stable to vertical motion. A rising air parcel that adiabatically cools at 1 °C / 100 m reaches such a layer and finds itself colder (and therefore denser) than its surroundings; it stops climbing."},
+            {"kind": "p", "text": "Stable stratification is the meteorological term for an air layer in which vertical motion is suppressed. For a pilot it means the same thing as 'no thermals beyond this altitude'. Sunny weather at altitude with fog in the valleys is a strong sign of a stable layer — typically an anticyclonic morning with descending air and a ground inversion below."},
             {"kind": "image", "deck": "meteo", "page": 64, "caption": "Stable layering — inversion or isothermal layer caps the thermals."},
             {"kind": "image", "deck": "meteo", "page": 65, "caption": "An inversion: temperature rises with height instead of falling."},
             {"kind": "h2", "text": "Ground (radiation) inversion"},
-            {"kind": "p", "text": "On a clear, calm night the ground radiates its heat away to space and cools faster than the air above. By dawn there is often a shallow layer near the ground that is colder than the air higher up — a ground inversion. It blocks thermals until the morning sun has warmed the ground enough to dissolve it."},
+            {"kind": "p", "text": "On a clear, calm night the ground radiates its stored heat away to space as infrared and cools much faster than the air above it. By dawn there is often a shallow layer near the ground that is colder than the air higher up — a ground or radiation inversion. The inversion blocks thermals at low altitude until the morning sun has warmed the ground enough to dissolve it. The thicker the inversion the longer it takes to dissolve, sometimes lasting into the early afternoon in autumn and winter."},
+            {"kind": "p", "text": "Radiation fog frequently forms inside this nocturnal cold layer when the temperature drops below the dew point. It is typical of clear, calm autumn and winter nights and dissolves once enough sun has warmed the ground from above. A pilot taking off in the early morning into clear air at altitude with fog in the valleys below is flying above an inversion: dramatic but stable conditions, with little thermal activity until the inversion goes away."},
             {"kind": "h2", "text": "Reverse thermal"},
-            {"kind": "p", "text": "A so-called reverse thermal (Umkehrthermik) is the descending counterpart: cold air sinking on shaded slopes after a warm period, or pooling in valley floors as the sun goes off the slopes. For pilots, it appears as a steady downflow on slopes that should be lifting."},
+            {"kind": "p", "text": "A reverse thermal (Umkehrthermik) is the descending counterpart of a normal thermal: cold air sinking down a shaded slope after warm air had been rising on it earlier, or pooling in valley floors as the sun goes off the slopes. For pilots, it appears as a steady downflow on slopes that should be lifting. In strong reverse thermal conditions, slopes that gave good lift only an hour earlier can suddenly stop producing — a useful sign that the daily thermal cycle is ending."},
+            {"kind": "p", "text": "The lapse rate of an isothermal layer is zero — no temperature change with altitude. The lapse rate of an inversion is negative — temperature increases with altitude. Both contrast with the normal positive lapse rate of about 0.6 to 0.8 °C per 100 m on a good thermal day. Reading a temperature sounding (emagram) is largely about spotting these flat or reversed sections and predicting how they will limit the day's flying."},
             {"kind": "callout", "title": "Caps to know", "items": [
                 "Inversion: temperature INCREASES with altitude.",
                 "Isothermal: temperature CONSTANT with altitude.",
@@ -445,16 +461,20 @@ def meteo_book() -> dict:
         "estimated_min": 4,
         "sections": [
             {"kind": "h2", "text": "Three phases, six phase changes"},
-            {"kind": "p", "text": "Water exists as a solid (ice), a liquid (water) and a gas (water vapour). Changing between these phases either consumes energy or releases it as heat. Melting, evaporation and sublimation absorb heat from the surroundings. Freezing, condensation and deposition release heat into the surroundings."},
+            {"kind": "p", "text": "Water exists in three physical states: ice (solid), water (liquid) and water vapour (gas). Water vapour is invisible — perfectly transparent in air. What we casually call 'steam' is actually a hot cloud of suspended water droplets, not vapour. Mist, frost, dew, hail and snow are all common condensed or solid forms of water in the atmosphere."},
+            {"kind": "p", "text": "Changing between these three phases either absorbs energy or releases it. To go from ice to water (melting), from water to vapour (evaporation), or from ice straight to vapour (sublimation), the water must absorb energy in the form of heat to overcome the intermolecular forces. In the opposite direction — condensation, freezing or deposition (vapour straight to solid) — energy is released into the surroundings as latent heat."},
             {"kind": "image", "deck": "meteo", "page": 58, "caption": "Latent heat of condensation — phase change releases energy."},
+            {"kind": "image", "deck": "meteo", "page": 59, "caption": "Latent heat — the energy gained or lost by phase change."},
             {"kind": "h2", "text": "Saturation and dew point"},
-            {"kind": "p", "text": "Warm air can hold more water vapour than cold air. When a parcel of moist air is cooled, it eventually reaches a temperature at which it is just saturated — any further cooling causes water to condense out as droplets. That temperature is the dew point."},
+            {"kind": "p", "text": "Humidity is the amount of water vapour in the air. Warm air can hold more water vapour than cold air before reaching saturation. Above the saturation point, any further moisture or any further cooling causes condensation — water vapour turns into liquid droplets that we see as cloud, fog, mist or rain."},
+            {"kind": "p", "text": "The dew point is the temperature to which a given air parcel must be cooled at constant pressure to reach saturation. Below the dew point, water condenses. A worked example: an air mass at 17 °C containing 5 g of water vapour per cubic metre is relatively dry. If that same air mass is cooled to about -7 °C, the same 5 g/m³ now corresponds to 100 % humidity — saturation. Further cooling forms cloud droplets."},
             {"kind": "image", "deck": "meteo", "page": 57, "caption": "Humidity, saturation and the dew point of an air parcel."},
-            {"kind": "p", "text": "Clouds form when a parcel of air is cooled below its dew point. The most common mechanism is lifting: thermal convection, terrain forcing flow upward, or warm air being displaced over colder air at a front."},
+            {"kind": "p", "text": "Clouds form when an air parcel is cooled below its dew point. The most common mechanism is mechanical lifting: thermal convection from a heated ground, orographic lift by terrain, or warm air rising over colder air at a front. With higher humidity, condensation occurs at lower altitudes — so very humid air tends to give many low clouds and a low cloud base."},
             {"kind": "h2", "text": "Moist adiabatic lapse rate"},
-            {"kind": "p", "text": "Once condensation begins inside a rising air parcel, the latent heat released by the phase change partially counteracts the cooling from expansion. As a result, saturated rising air cools more slowly than dry rising air. The dry adiabatic lapse rate is 1 °C per 100 m; the moist (wet) adiabatic lapse rate is roughly 0.5 to 0.6 °C per 100 m."},
+            {"kind": "p", "text": "A dry air parcel rising in the atmosphere cools by the dry adiabatic lapse rate of 1 °C per 100 m. Once the parcel cools to its dew point, condensation begins inside it. The phase change releases latent heat into the parcel, which partially counteracts the adiabatic cooling. As a result, saturated rising air cools more slowly than dry rising air."},
             {"kind": "image", "deck": "meteo", "page": 61, "caption": "Moist adiabatic — slower cooling thanks to latent heat release."},
-            {"kind": "p", "text": "The exact value of the moist adiabatic lapse rate depends on how much water condenses per metre of rise — that is, on the temperature and humidity of the parcel. Warm, very humid air gives off the most latent heat and therefore cools slowest of all."},
+            {"kind": "p", "text": "The moist (or wet) adiabatic lapse rate is therefore less than 1 °C / 100 m — typically about 0.5 to 0.6 °C per 100 m. The exact value depends on how much water condenses per metre of rise, which in turn depends on the temperature and humidity of the parcel. Warm, very humid air condenses the most water and therefore cools the most slowly."},
+            {"kind": "p", "text": "The same principle works in reverse on the way down. Saturated air sinking and warming evaporates some of its liquid water, which absorbs heat — so warming on the descent is also slower than the 1 °C / 100 m dry rate. This is part of the engine of Föhn: moist air ascends slowly cooled, condenses and drops its water on the windward side, then descends fast-warming dry air on the lee side."},
             {"kind": "callout", "title": "Water in the air", "items": [
                 "Condensation, freezing, deposition → release heat.",
                 "Evaporation, melting, sublimation → absorb heat.",
@@ -1091,7 +1111,7 @@ def equip_book() -> dict:
                 "GPS: ground speed and track; airspeed must be inferred.",
             ]},
         ],
-        "quiz": ["eq-10", "eq-29", "eq-35", "eq-44"],
+        "quiz": ["eq-10", "eq-29", "eq-35", "eq-44", "eq-30"],
     })
 
     # 8. Certification and recommendations ----------------------------------
@@ -1122,7 +1142,7 @@ def equip_book() -> dict:
                 "Owner is responsible for inspections at manufacturer's intervals.",
             ]},
         ],
-        "quiz": ["eq-25", "eq-27", "eq-28"],
+        "quiz": ["eq-25", "eq-27", "eq-28", "eq-1", "eq-2", "eq-7"],
     })
 
     return {
@@ -1258,7 +1278,7 @@ def skills_book() -> dict:
                 "A-knot → turns toward knot, collapse side.",
             ]},
         ],
-        "quiz": ["prc-8", "prc-19"],
+        "quiz": ["prc-8", "prc-19", "prc-7", "prc-34", "prc-3"],
     })
 
     # 5. Range, speed-to-fly, lateral drift ---------------------------------
@@ -1317,7 +1337,7 @@ def skills_book() -> dict:
                 "Watch climb rate around the circle — ease or tighten.",
             ]},
         ],
-        "quiz": ["prc-15"],
+        "quiz": ["prc-15", "prc-39", "prc-48", "prc-53", "prc-54"],
     })
 
     # 7. Flight incidents and recovery --------------------------------------
