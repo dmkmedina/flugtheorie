@@ -201,6 +201,15 @@ function pickN(arr, n, excludeId) {
   const pool = arr.filter(c => c.id !== excludeId);
   return shuffle(pool).slice(0, n);
 }
+// Get plausible MC distractors for a card.  Uses the curated list from
+// window.DISTRACTORS when present, falling back to random other-answers.
+function distractorsFor(card, n = 3) {
+  const curated = window.DISTRACTORS && window.DISTRACTORS[card.id];
+  if (Array.isArray(curated) && curated.length >= n) {
+    return shuffle(curated.slice()).slice(0, n);
+  }
+  return pickN(cardsForCategory(card.category), n, card.id).map(c => c.a_en);
+}
 function fmtTime(secs) {
   const m = Math.floor(secs / 60).toString().padStart(2, '0');
   const s = Math.floor(secs % 60).toString().padStart(2, '0');
@@ -491,13 +500,13 @@ function renderFlashcardMode(mode) {
         <div>Card ${i + 1} / ${total} · <span class="badge ${prog.box >= 3 ? 'good' : prog.box >= 1 ? 'info' : ''}">${boxLabel}</span></div>
       </div>
       <div class="fc-question">
-        <span class="lang-tag">EN</span>${escapeHtml(card.q_en)}
-        <span class="q-de"><span class="lang-tag">DE</span>${escapeHtml(card.q_de)}</span>
+        <span class="lang-tag">EN</span><span class="ct">${escapeHtml(card.q_en)}</span>
+        <span class="q-de"><span class="lang-tag">DE</span><span class="ct">${escapeHtml(card.q_de)}</span></span>
       </div>
       ${_fcReveal ? `
         <div class="fc-answer">
-          <span class="lang-tag">A</span>${escapeHtml(card.a_en)}
-          <span class="a-de"><span class="lang-tag">DE</span>${escapeHtml(card.a_de)}</span>
+          <span class="lang-tag">A</span><span class="ct">${escapeHtml(card.a_en)}</span>
+          <span class="a-de"><span class="lang-tag">DE</span><span class="ct">${escapeHtml(card.a_de)}</span></span>
         </div>
       ` : `<button class="reveal-btn" id="reveal-btn">Show answer · <span class="kbd" style="color:white; background:rgba(255,255,255,0.2); border-color:transparent;">Space</span></button>`}
       ${_fcReveal && deck ? `
@@ -526,7 +535,7 @@ function renderFcQuiz() {
   const card = currentFcCard();
   if (!card) return `<div class="empty">No cards.</div>`;
   if (!_fcQuiz || _fcQuiz.cardId !== card.id) {
-    const distractors = pickN(cardsForCategory(card.category), 3, card.id).map(c => c.a_en);
+    const distractors = distractorsFor(card);
     _fcQuiz = { cardId: card.id, choices: shuffle([card.a_en, ...distractors]), answer: null };
   }
   const i = state.fc.index;
@@ -541,8 +550,8 @@ function renderFcQuiz() {
         <div>Question ${i + 1} / ${total}</div>
       </div>
       <div class="fc-question">
-        <span class="lang-tag">EN</span>${escapeHtml(card.q_en)}
-        <span class="q-de"><span class="lang-tag">DE</span>${escapeHtml(card.q_de)}</span>
+        <span class="lang-tag">EN</span><span class="ct">${escapeHtml(card.q_en)}</span>
+        <span class="q-de"><span class="lang-tag">DE</span><span class="ct">${escapeHtml(card.q_de)}</span></span>
       </div>
       <div class="choices">
         ${_fcQuiz.choices.map((c, idx) => {
@@ -553,13 +562,13 @@ function renderFcQuiz() {
             else if (idx === _fcQuiz.answer) { cls += ' incorrect'; icon = '✗'; }
           }
           return `<button class="${cls}" data-choice="${idx}" ${_fcQuiz.answer !== null ? 'disabled' : ''}>
-            <span class="marker">${markers[idx]}</span>${escapeHtml(c)}${icon ? `<span class="check-icon">${icon}</span>` : ''}
+            <span class="marker">${markers[idx]}</span><span class="ct">${escapeHtml(c)}</span>${icon ? `<span class="check-icon">${icon}</span>` : ''}
           </button>`;
         }).join('')}
       </div>
       ${_fcQuiz.answer !== null ? `
         <div class="fc-answer">
-          <span class="lang-tag">DE Answer</span>${escapeHtml(card.a_de)}
+          <span class="lang-tag">DE Answer</span><span class="ct">${escapeHtml(card.a_de)}</span>
         </div>
       ` : ''}
     </div>
@@ -584,8 +593,8 @@ function renderFcType() {
         <div>Card ${i + 1} / ${total}</div>
       </div>
       <div class="fc-question">
-        <span class="lang-tag">EN</span>${escapeHtml(card.q_en)}
-        <span class="q-de"><span class="lang-tag">DE</span>${escapeHtml(card.q_de)}</span>
+        <span class="lang-tag">EN</span><span class="ct">${escapeHtml(card.q_en)}</span>
+        <span class="q-de"><span class="lang-tag">DE</span><span class="ct">${escapeHtml(card.q_de)}</span></span>
       </div>
       <textarea class="textarea" id="type-input" placeholder="Type your answer in your own words (English or German)…"></textarea>
       ${_fcTypeFeedback ? `
@@ -595,8 +604,8 @@ function renderFcType() {
             `✗ Not quite (${_fcTypeFeedback.pct}% match) — see correct answer below`}
         </div>
         <div class="fc-answer">
-          <span class="lang-tag">A</span>${escapeHtml(card.a_en)}
-          <span class="a-de"><span class="lang-tag">DE</span>${escapeHtml(card.a_de)}</span>
+          <span class="lang-tag">A</span><span class="ct">${escapeHtml(card.a_en)}</span>
+          <span class="a-de"><span class="lang-tag">DE</span><span class="ct">${escapeHtml(card.a_de)}</span></span>
         </div>
       ` : `<button class="reveal-btn" id="check-btn">Check answer</button>`}
     </div>
@@ -767,7 +776,7 @@ function renderQuiz() {
     `;
   }
   if (!_quizChoices || _quizChoices.cardId !== card.id) {
-    const distractors = pickN(cardsForCategory(card.category), 3, card.id).map(c => c.a_en);
+    const distractors = distractorsFor(card);
     _quizChoices = { cardId: card.id, list: shuffle([card.a_en, ...distractors]) };
     _quizAnswer = null;
   }
@@ -797,8 +806,8 @@ function renderQuiz() {
         <div><span class="cat-dot" style="background:${meta.color}"></span>${meta.icon} ${card.category}</div>
       </div>
       <div class="fc-question">
-        <span class="lang-tag">EN</span>${escapeHtml(card.q_en)}
-        <span class="q-de"><span class="lang-tag">DE</span>${escapeHtml(card.q_de)}</span>
+        <span class="lang-tag">EN</span><span class="ct">${escapeHtml(card.q_en)}</span>
+        <span class="q-de"><span class="lang-tag">DE</span><span class="ct">${escapeHtml(card.q_de)}</span></span>
       </div>
       <div class="choices">
         ${_quizChoices.list.map((c, idx) => {
@@ -809,13 +818,13 @@ function renderQuiz() {
             else if (idx === _quizAnswer) { cls += ' incorrect'; icon = '✗'; }
           }
           return `<button class="${cls}" data-q-choice="${idx}" ${_quizAnswer !== null ? 'disabled' : ''}>
-            <span class="marker">${markers[idx]}</span>${escapeHtml(c)}${icon ? `<span class="check-icon">${icon}</span>` : ''}
+            <span class="marker">${markers[idx]}</span><span class="ct">${escapeHtml(c)}</span>${icon ? `<span class="check-icon">${icon}</span>` : ''}
           </button>`;
         }).join('')}
       </div>
       ${_quizAnswer !== null ? `
         <div class="fc-answer">
-          <span class="lang-tag">DE</span>${escapeHtml(card.a_de)}
+          <span class="lang-tag">DE</span><span class="ct">${escapeHtml(card.a_de)}</span>
         </div>
       ` : ''}
     </div>
@@ -873,7 +882,7 @@ function buildExamSet() {
     const list = shuffle(cardsForCategory(cat)).slice(0, 20);
     list.forEach(c => {
       ids.push(c.id);
-      const distractors = pickN(cardsForCategory(cat), 3, c.id).map(d => d.a_en);
+      const distractors = distractorsFor(c);
       choices.push(shuffle([c.a_en, ...distractors]));
     });
   });
@@ -1030,14 +1039,14 @@ function renderExam() {
         </div>
       </div>
       <div class="fc-question">
-        <span class="lang-tag">Q ${i+1}</span>${escapeHtml(card.q_en)}
-        <span class="q-de"><span class="lang-tag">DE</span>${escapeHtml(card.q_de)}</span>
+        <span class="lang-tag">Q ${i+1}</span><span class="ct">${escapeHtml(card.q_en)}</span>
+        <span class="q-de"><span class="lang-tag">DE</span><span class="ct">${escapeHtml(card.q_de)}</span></span>
       </div>
       <div class="choices">
         ${choices.map((c, idx) => {
           const selected = answer === idx;
           return `<button class="choice ${selected ? 'correct' : ''}" data-exam-choice="${idx}" style="${selected ? 'background:var(--accent-soft); border-color:var(--accent); color:var(--accent);' : ''}">
-            <span class="marker">${markers[idx]}</span>${escapeHtml(c)}
+            <span class="marker">${markers[idx]}</span><span class="ct">${escapeHtml(c)}</span>
           </button>`;
         }).join('')}
       </div>
@@ -1505,7 +1514,7 @@ function renderWorkbookQuiz(book, ch) {
   if (state.workbook._choicesKey !== cacheKey) {
     state.workbook._choices = {};
     cards.forEach(c => {
-      const distractors = pickN(cardsForCategory(c.category), 3, c.id).map(d => d.a_en);
+      const distractors = distractorsFor(c);
       state.workbook._choices[c.id] = shuffle([c.a_en, ...distractors]);
     });
     state.workbook._choicesKey = cacheKey;
@@ -1525,7 +1534,7 @@ function renderWorkbookQuiz(book, ch) {
         else if (idx === picked) { cls += ' incorrect'; icon = '✗'; }
       }
       return `<button class="${cls}" data-wb-pick="${c.id}|${idx}" ${picked != null ? 'disabled' : ''}>
-        <span class="marker">${markers[idx]}</span>${escapeHtml(txt)}${icon ? `<span class="check-icon">${icon}</span>` : ''}
+        <span class="marker">${markers[idx]}</span><span class="ct">${escapeHtml(txt)}</span>${icon ? `<span class="check-icon">${icon}</span>` : ''}
       </button>`;
     }).join('');
     return `
@@ -1533,7 +1542,7 @@ function renderWorkbookQuiz(book, ch) {
         <div class="wb-q-num">Question ${i + 1} of ${cards.length}</div>
         <div class="wb-q-text">${escapeHtml(c.q_en)}</div>
         <div class="choices">${choiceBtns}</div>
-        ${picked != null ? `<div class="wb-q-de"><span class="lang-tag">DE</span>${escapeHtml(c.a_de)}</div>` : ''}
+        ${picked != null ? `<div class="wb-q-de"><span class="lang-tag">DE</span><span class="ct">${escapeHtml(c.a_de)}</span></div>` : ''}
       </div>
     `;
   }).join('');
