@@ -19,6 +19,7 @@ def main():
     cards = load_json('data/all_cards.json')
     guide = load_json('data/guide.json')
     decks = load_json('data/decks.json')
+    workbook = load_json('data/workbook.json') if os.path.exists(os.path.join(ROOT, 'data/workbook.json')) else {'books': []}
     tips_md = load_file('data/study_tips.md')
 
     css = load_file('app.css')
@@ -28,6 +29,7 @@ def main():
     cards_json = json.dumps(cards, ensure_ascii=False, separators=(',', ':'))
     guide_json = json.dumps(guide, ensure_ascii=False, separators=(',', ':'))
     decks_json = json.dumps(decks, ensure_ascii=False, separators=(',', ':'))
+    workbook_json = json.dumps(workbook, ensure_ascii=False, separators=(',', ':'))
 
     # Encode tips markdown as a JS string-safe literal
     # Use JSON.parse('...') trick - escape backslashes/quotes/newlines
@@ -99,10 +101,12 @@ def main():
 <script id="data-cards" type="application/json">{cards_json}</script>
 <script id="data-guide" type="application/json">{guide_json}</script>
 <script id="data-decks" type="application/json">{decks_json}</script>
+<script id="data-workbook" type="application/json">{workbook_json}</script>
 <script>
 window.CARDS = JSON.parse(document.getElementById('data-cards').textContent);
 window.GUIDE = JSON.parse(document.getElementById('data-guide').textContent);
 window.DECKS = JSON.parse(document.getElementById('data-decks').textContent);
+window.WORKBOOK = JSON.parse(document.getElementById('data-workbook').textContent);
 window.TIPS_MD = {tips_js};
 </script>
 
@@ -118,8 +122,9 @@ window.TIPS_MD = {tips_js};
         f.write(html)
 
     size_kb = os.path.getsize(out) / 1024
+    wb_chapters = sum(len(b['chapters']) for b in workbook.get('books', []))
     print(f"Wrote {out} ({size_kb:.1f} KB)")
-    print(f"  Cards: {len(cards)} · Guide chapters: {sum(len(p['chapters']) for p in guide['parts'])} · Slides: {total_slides} across {len(decks['decks'])} decks")
+    print(f"  Cards: {len(cards)} · Guide chapters: {sum(len(p['chapters']) for p in guide['parts'])} · Slides: {total_slides} across {len(decks['decks'])} decks · Workbook: {wb_chapters} chapters across {len(workbook.get('books', []))} books")
 
 if __name__ == '__main__':
     main()
