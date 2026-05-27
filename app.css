@@ -986,6 +986,214 @@ code, .mono { font-family: "SF Mono", Menlo, Consolas, monospace; font-size: 13p
 }
 .guide-related .flash-link:hover { border-color: var(--accent); color: var(--accent); }
 
+/* ============================================================================ Workbook */
+.wb-book-header {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: 22px 26px;
+  margin-bottom: 18px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 18px;
+  flex-wrap: wrap;
+}
+.wb-book-title { font-size: 22px; font-weight: 700; letter-spacing: -0.01em; }
+.wb-book-subtitle { font-size: 14px; color: var(--text-soft); margin-top: 4px; }
+.wb-book-stat { text-align: right; min-width: 200px; }
+.wb-book-stat-num { font-size: 32px; font-weight: 700; letter-spacing: -0.02em; color: var(--accent); }
+.wb-book-stat-label { font-size: 11px; color: var(--text-dim); text-transform: uppercase; font-weight: 700; letter-spacing: 0.05em; }
+.wb-book-stat .progress { width: 200px; margin-top: 6px; margin-left: auto; }
+
+.wb-chapter-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.wb-chapter-row {
+  display: grid;
+  grid-template-columns: 56px 1fr auto;
+  align-items: center;
+  gap: 16px;
+  padding: 16px 18px;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  cursor: pointer;
+  font-family: inherit;
+  text-align: left;
+  width: 100%;
+  transition: border-color 0.12s, transform 0.08s;
+}
+.wb-chapter-row:hover { border-color: var(--accent); transform: translateX(2px); }
+.wb-chapter-row.done { background: var(--bg-soft); }
+.wb-chapter-num {
+  font-family: "SF Mono", Menlo, Consolas, monospace;
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--text-dim);
+  text-align: center;
+}
+.wb-chapter-row.done .wb-chapter-num { color: var(--good); }
+.wb-chapter-info { min-width: 0; }
+.wb-chapter-title { font-size: 15px; font-weight: 600; color: var(--text); line-height: 1.3; }
+.wb-chapter-sub { font-size: 13px; color: var(--text-soft); margin-top: 2px; }
+.wb-chapter-meta { font-size: 11px; margin-top: 4px; }
+.wb-chapter-status { flex-shrink: 0; }
+
+.wb-detail-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 14px;
+  padding-bottom: 14px;
+  margin-bottom: 14px;
+  border-bottom: 1px solid var(--border);
+}
+.wb-detail-meta { font-size: 12px; }
+.wb-chapter-detail { max-width: 720px; margin: 0 auto; }
+.wb-detail-title { font-size: 30px; font-weight: 700; letter-spacing: -0.02em; margin: 0 0 6px; line-height: 1.15; }
+.wb-detail-sub { font-size: 16px; color: var(--text-soft); margin: 0 0 12px; }
+.wb-detail-meta-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 12px;
+  color: var(--text-dim);
+  margin-bottom: 18px;
+  flex-wrap: wrap;
+}
+.wb-intro {
+  font-size: 17px;
+  line-height: 1.6;
+  color: var(--text);
+  font-style: italic;
+  padding: 16px 20px;
+  background: var(--bg-soft);
+  border-left: 3px solid var(--accent);
+  border-radius: 0 8px 8px 0;
+  margin-bottom: 24px;
+}
+.wb-body { font-size: 16px; line-height: 1.7; }
+.wb-h2 {
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  margin: 28px 0 12px;
+  padding-bottom: 6px;
+  border-bottom: 1px solid var(--border);
+}
+.wb-p { margin: 0 0 14px; }
+.wb-figure {
+  margin: 22px 0;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  overflow: hidden;
+  cursor: zoom-in;
+  transition: border-color 0.12s, transform 0.12s;
+}
+.wb-figure:hover { border-color: var(--accent); }
+.wb-figure img { width: 100%; height: auto; display: block; }
+.wb-figure figcaption {
+  padding: 8px 14px 10px;
+  font-size: 13px;
+  color: var(--text-soft);
+  font-style: italic;
+  border-top: 1px solid var(--border);
+  background: var(--bg-soft);
+}
+.wb-callout {
+  background: var(--accent-soft);
+  border-radius: 10px;
+  padding: 14px 18px;
+  margin: 18px 0;
+}
+.wb-callout-title {
+  font-weight: 700;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--accent);
+  margin-bottom: 6px;
+}
+.wb-callout ul { margin: 0; padding-left: 18px; }
+.wb-callout li { font-size: 14px; line-height: 1.55; margin-bottom: 4px; }
+
+.wb-quiz {
+  margin-top: 36px;
+  padding-top: 28px;
+  border-top: 2px dashed var(--border);
+}
+.wb-q {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 18px 20px;
+  margin-bottom: 14px;
+}
+.wb-q-num {
+  font-size: 11px;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  color: var(--text-dim);
+  margin-bottom: 6px;
+}
+.wb-q-text {
+  font-size: 15px;
+  font-weight: 600;
+  margin-bottom: 14px;
+  line-height: 1.5;
+}
+.wb-q-de {
+  margin-top: 10px;
+  padding-top: 10px;
+  border-top: 1px dashed var(--border);
+  font-size: 13px;
+  font-style: italic;
+  color: var(--text-soft);
+}
+.wb-quiz-summary {
+  background: var(--bg-soft);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: 22px 24px;
+  margin-top: 18px;
+  text-align: center;
+}
+.wb-quiz-summary.perfect { border-color: var(--good); background: var(--good-soft); }
+.wb-quiz-summary.good { border-color: var(--accent); }
+.wb-quiz-summary.partial { border-color: var(--warn); background: var(--warn-soft); }
+.wb-quiz-score {
+  font-size: 36px;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  font-variant-numeric: tabular-nums;
+}
+.wb-quiz-label { font-size: 14px; color: var(--text-soft); margin-bottom: 14px; }
+.wb-quiz-actions { display: flex; gap: 10px; justify-content: center; flex-wrap: wrap; }
+
+.wb-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  margin-top: 32px;
+  padding-top: 20px;
+  border-top: 1px solid var(--border);
+}
+.wb-nav .btn { max-width: 48%; overflow: hidden; text-overflow: ellipsis; }
+
+@media (max-width: 600px) {
+  .wb-book-stat { text-align: left; min-width: 100%; }
+  .wb-book-stat .progress { margin-left: 0; width: 100%; }
+  .wb-chapter-row { grid-template-columns: 40px 1fr; }
+  .wb-chapter-status { grid-column: 1 / -1; margin-top: 4px; }
+  .wb-detail-title { font-size: 24px; }
+}
+
 /* ============================================================================ Slide decks (Freewings) */
 .deck-header {
   display: flex;

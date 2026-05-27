@@ -1,0 +1,1545 @@
+#!/usr/bin/env python3
+"""Build /home/user/flugtheorie/data/workbook.json from agent_guide/decks/cards.
+
+Every paragraph/callout is hand-authored from the source guide chapters listed
+in `sourced_from`. Every image references a real (deck, page) pair in the
+Freewings decks, and every quiz entry is a real flashcard id in the matching
+category. The script validates all references at the end.
+"""
+from __future__ import annotations
+
+import json
+import sys
+from pathlib import Path
+
+GUIDE_PATH = Path("/tmp/agent_guide.json")
+DECKS_PATH = Path("/tmp/agent_decks.json")
+CARDS_PATH = Path("/tmp/agent_cards.json")
+OUT_PATH = Path("/home/user/flugtheorie/data/workbook.json")
+
+
+# ---------------------------------------------------------------------------
+# Chapter content (authored from source guide chapters — see `sourced_from`)
+# ---------------------------------------------------------------------------
+
+def aero_book() -> dict:
+    chapters = []
+
+    # 1. Vectors -------------------------------------------------------------
+    chapters.append({
+        "id": "aero-01-vectors",
+        "title": "Vectors and forces",
+        "subtitle": "The language of physics for free flight",
+        "intro": "Every force on your wing has a magnitude and a direction. Vectors are how pilots learn to combine those forces and reason about lift, drag and weight.",
+        "sourced_from": ["p1-vectors"],
+        "estimated_min": 4,
+        "sections": [
+            {"kind": "h2", "text": "What is a vector?"},
+            {"kind": "p", "text": "A vector represents a physical phenomenon that has three properties: a magnitude, a direction and a point of origin. In paragliding the two phenomena we constantly meet are force (measured in kg or Newtons) and speed (measured in km/h or m/s). To describe a force fully you must know how large it is — for example 10 kg or 16 kg — and you must also know where it is applied and which way it points, in two or three dimensions."},
+            {"kind": "p", "text": "Graphically we draw a vector as an arrow. The length of the arrow represents the magnitude on a chosen scale: if the scale is 1 cm = 10 kg, then a 3 cm arrow corresponds to a force of 30 kg. The tail of the arrow — the end without the arrowhead — is the point of application, which for a force is the centre of the object that the force is acting on. The arrowhead shows the direction."},
+            {"kind": "p", "text": "A worked example: a speed of 30 km/h applied to an object X, heading north-west. The arrow starts at the centre of X, points north-west, and its length on paper corresponds to 30 km/h on whatever scale we have chosen. With magnitude, direction and origin all specified, the speed is now fully described."},
+            {"kind": "image", "deck": "aerodynamik", "page": 8, "caption": "Adding two forces F1 and F4 graphically — direction matters as much as length."},
+            {"kind": "h2", "text": "Adding vectors"},
+            {"kind": "p", "text": "When two vectors V1 and V2 act on the same object at the same time, the combined effect is the same as if a single resultant vector R were acting alone. This is called adding the two vectors. The resultant is found graphically, by the parallelogram (or tip-to-tail) construction — never by simply adding the lengths, because direction matters as much as magnitude."},
+            {"kind": "p", "text": "Two special cases are easy. If two vectors have the same orientation and point the same way, the resultant has the sum of their magnitudes. If they have the same orientation but point in opposite directions, the resultant is the difference between them, oriented in the direction of the larger of the two."},
+            {"kind": "image", "deck": "aerodynamik", "page": 9, "caption": "F1 + F2 — parallel vectors in the same direction simply add."},
+            {"kind": "image", "deck": "aerodynamik", "page": 10, "caption": "F1 + F3 — opposite directions subtract."},
+            {"kind": "p", "text": "There is one strict rule about what you may add. You may only add vectors of the same type: two forces, or two speeds. You can never add a force and a speed, because the two phenomena are physically different and their magnitudes are not measured in the same units. Always check that the things you are combining are of the same kind before you draw the parallelogram."},
+            {"kind": "callout", "title": "Remember", "items": [
+                "A vector has magnitude, direction and origin.",
+                "Add vectors graphically (parallelogram or tip-to-tail) — never just add the lengths.",
+                "Same direction: add magnitudes. Opposite direction: subtract.",
+                "Only add vectors of the same type — never a force with a speed.",
+            ]},
+        ],
+        "quiz": ["aer-1", "aer-24", "aer-23", "aer-57", "aer-25"],
+    })
+
+    # 2. Drag — what affects it -----------------------------------------------
+    chapters.append({
+        "id": "aero-02-drag",
+        "title": "Drag and the four factors",
+        "subtitle": "Why your hand feels heavy out of a moving car",
+        "intro": "Drag is the force the air exerts on any object moving through it. Only four things determine how big that force is — and the relationships are not all linear.",
+        "sourced_from": ["p1-drag"],
+        "estimated_min": 5,
+        "sections": [
+            {"kind": "h2", "text": "Wind, relative wind and drag"},
+            {"kind": "p", "text": "Wind is air in motion relative to fixed objects on the ground — trees, houses, antennas. In the multiple-choice exam questions this is sometimes called 'airflow' or simply 'flow'. When you move through still air at speed V, the sensation is identical to standing still in a wind of the same speed coming from the opposite direction. This apparent wind, generated by your own motion, is called the relative wind."},
+            {"kind": "p", "text": "Any object placed in a wind — whether real wind from a moving air mass or relative wind from your own motion — experiences a force called drag. Drag always points the same way as the wind: like the push you feel on your hand when you hold it out of a moving car, in the direction of the apparent airflow. Drag is expressed in kg or Newtons, with about 10 N corresponding to 1 kg of force."},
+            {"kind": "image", "deck": "aerodynamik", "page": 13, "caption": "Drag — the force air exerts on any body moving through it."},
+            {"kind": "h2", "text": "Four factors, and only four"},
+            {"kind": "p", "text": "Drag depends on exactly four factors: the surface area exposed perpendicular to the wind, the wind speed, the density of the air and the shape of the object (its drag coefficient Cx). There are no other significant factors. In particular, weight, mass, humidity, dew point, air temperature, the pressure gradient and the molecular construction of the object's material all have no effect on drag at all."},
+            {"kind": "p", "text": "The relationship between drag and exposed surface is linear: doubling the surface doubles the drag, halving it halves the drag. A worked example: an object in a 30 km/h wind at sea level has 300 N of drag at 2 m² of exposed area. Double the area to 4 m² and the drag doubles to 600 N. The fact that wind is 30 km/h and we are at sea level is irrelevant to the proportion — it appears in the exam only to test the strength of your knowledge."},
+            {"kind": "image", "deck": "aerodynamik", "page": 16, "caption": "A worked drag calculation — note the linear dependence on area and density."},
+            {"kind": "p", "text": "Air density has the same linear behaviour as surface area. If air density doubles, drag doubles. If it halves, drag halves. The atmospheric pressure halves at roughly 5500 m AMSL, and the density also drops broadly in line with pressure — so the drag at altitude on any given body is lower than at sea level for the same shape and airspeed."},
+            {"kind": "h2", "text": "Speed is squared"},
+            {"kind": "p", "text": "Wind speed enters with the square. Double the airspeed and drag is multiplied by four. Triple it and drag is multiplied by nine. Quadruple and drag is sixteen times larger. Halve the speed and drag drops to a quarter. A wing moving at 60 km/h experiences four times the drag it would at 30 km/h, with everything else equal. This is why a small change in speed produces such a big change in feel — and why pushing the bar feels so heavy."},
+            {"kind": "h2", "text": "Shape and the drag coefficient"},
+            {"kind": "p", "text": "The effect of shape on drag is captured by the drag coefficient Cx. A flat plate facing the wind has a Cx of about 1.0. A convex shape, like a hollow hemisphere with its open side into the wind, has a higher Cx of about 1.3 — about 30 percent more drag than the flat plate for the same frontal area. A streamlined body has a Cx of about 0.08 — more than twelve times less drag than the flat plate. A streamlined body misaligned with the wind has a Cx around 0.17."},
+            {"kind": "p", "text": "These coefficients have direct consequences for paragliding gear and posture. A pilot sitting upright behaves more like a flat plate; a pilot reclined and tucked behaves more like a streamlined body. The same logic applies to lines (round vs faired), to harnesses (pod vs open) and to the wing's own surface finish. Cleaner shapes give lower drag for the same frontal area."},
+            {"kind": "image", "deck": "aerodynamik", "page": 18, "caption": "Drag coefficients for typical shapes — from flat plate to streamlined body."},
+            {"kind": "callout", "title": "Memorise", "items": [
+                "Drag = f(surface area, wind speed, air density, shape).",
+                "Linear in area and density; squared in speed.",
+                "Weight, humidity and temperature have no direct effect.",
+                "1 kg of force is roughly 10 Newtons.",
+            ]},
+        ],
+        "quiz": ["aer-4", "aer-14", "aer-30", "aer-31", "aer-32", "aer-22"],
+    })
+
+    # 3. Air density and altitude --------------------------------------------
+    chapters.append({
+        "id": "aero-03-air-density-altitude",
+        "title": "Air density and altitude",
+        "subtitle": "Why your wing flies faster up high",
+        "intro": "Air thins as you climb. Because drag and lift both scale with density, every aerodynamic force you feel changes with altitude.",
+        "sourced_from": ["p1-drag"],
+        "estimated_min": 3,
+        "sections": [
+            {"kind": "h2", "text": "Density falls with altitude"},
+            {"kind": "p", "text": "The density of the air — and the air pressure — decreases as altitude increases. The relationship is not perfectly linear: density falls more quickly in the lower layers of the atmosphere than higher up. As an aerodynamic body moves away from the Earth's surface, the drag acting on it decreases for the same airspeed and the same shape. The decrease happens faster in the lower layers than at high altitudes."},
+            {"kind": "image", "deck": "aerodynamik", "page": 17, "caption": "Air pressure (and density) versus altitude — fastest drop near the ground."},
+            {"kind": "h2", "text": "Numbers worth memorising"},
+            {"kind": "p", "text": "For the theory exam there are four reference altitudes to memorise. At 1100, 2200, 3300 and 4400 metres above sea level, the air density relative to sea level is approximately 90, 80, 70 and 60 percent respectively. Because drag is linear in density, the drag of any object also drops to those same percentages at those altitudes, for the same shape and the same airspeed."},
+            {"kind": "p", "text": "There is an easy memory aid: the altitude (in hundreds of metres) plus the density (in percent of sea-level value) always adds to 100. At 1100 m of altitude — that is, '11' on the hundreds-of-metres scale — the density is about 89 percent, or 11 + 89 ≈ 100. The trick works at every reference altitude in the table."},
+            {"kind": "p", "text": "Lift behaves exactly like drag with respect to density: it is also linear in density. So a wing at 1100 m AMSL produces about 90 percent of the drag and 90 percent of the lift it would at sea level, all else being equal. To produce the same lift, the wing must therefore fly slightly faster at altitude. This is why launches at high altitude need a longer run."},
+            {"kind": "p", "text": "Air pressure follows the same general pattern but is not numerically identical to density. Pressure halves at approximately 5500 m AMSL; density does too but at a slightly different rate because temperature also changes with altitude. For exam purposes the density table at 1100, 2200, 3300 and 4400 m is what matters."},
+            {"kind": "callout", "title": "Memory aid", "items": [
+                "1100 m → 90 %",
+                "2200 m → 80 %",
+                "3300 m → 70 %",
+                "4400 m → 60 %",
+                "Altitude (hundreds of m) + density (%) = 100",
+            ]},
+        ],
+        "quiz": ["aer-5", "aer-8", "aer-11", "aer-13", "aer-28", "aer-39", "aer-40", "aer-41"],
+    })
+
+    # 4. Lift and the profile of a wing --------------------------------------
+    chapters.append({
+        "id": "aero-04-lift-and-profile",
+        "title": "Lift and the profile of a wing",
+        "subtitle": "Why the same air produces both push and lift",
+        "intro": "Place a flat object obliquely in the wind and two forces appear: drag along the wind, and lift perpendicular to it. A wing is just a clever shape that biases the balance hugely in favour of lift.",
+        "sourced_from": ["p1-lift-and-drag", "p1-profile-of-a-wing"],
+        "estimated_min": 5,
+        "sections": [
+            {"kind": "h2", "text": "Lift on a flat object"},
+            {"kind": "p", "text": "When an elongated, flat object such as a wing is held obliquely in the wind, two perpendicular forces act on it. The first is drag, parallel to the wind and in the same direction as the airflow — exactly as it would for any object. The second is lift, perpendicular to the wind, directed toward the upper surface of the object. Lift is what supports a paraglider in flight; drag is what costs us altitude as we fly."},
+            {"kind": "p", "text": "Lift depends on the same four factors as drag: the exposed surface area, the wind speed, the air density and the shape-and-orientation of the object. The orientation contribution is captured by the angle of attack, the tilt of the wing relative to the airflow. There is an important nuance the exam likes to test: the surface profile itself (the curvature) is captured in the lift coefficient, while the size of the wing — its plan area — is the 'exposed surface'. These two are not the same."},
+            {"kind": "image", "deck": "aerodynamik", "page": 14, "caption": "Lift of a body — perpendicular to the airflow, toward the upper surface."},
+            {"kind": "p", "text": "The scaling laws are the same as for drag. If surface area or air density doubles or halves, lift and drag both scale linearly the same way. If the wind speed doubles, lift and drag are both multiplied by four, because both depend on the square of airspeed. This is the basis for the lift formula: lift depends on size, lift coefficient, air density and the square of airspeed."},
+            {"kind": "h2", "text": "Where the lift comes from"},
+            {"kind": "p", "text": "Lift is the net result of pressure differences on the upper and lower surfaces of the wing. On the upper surface there is suction — a negative pressure, as if a vacuum cleaner were pulling on the wing. On the lower surface there is positive pressure, as if a fan were blowing on it. The two combine into a net upward force perpendicular to the airflow."},
+            {"kind": "p", "text": "These two contributions are not equal. The suction on the upper surface is about twice as strong as the positive pressure on the lower surface. At an angle of attack of about 10°, the distribution of total lift is roughly two thirds on the upper surface and one third on the lower. This is one reason why a wing with damaged upper-surface coating loses lift much more quickly than one with damage underneath."},
+            {"kind": "p", "text": "Lift is also unevenly distributed front-to-back along the chord. Roughly two thirds of the total lift is generated by the front third of the wing. This is why the leading-edge area carries the heaviest stress, why the A risers carry more load than the others in trim flight, and why the front cells must be the most robustly built. The wingtips also produce spiral air movements — vortices — where the high pressure underneath leaks around to the lower pressure on top, adding induced drag and turbulence in the wake."},
+            {"kind": "h2", "text": "The shape of the profile"},
+            {"kind": "p", "text": "The profile of a wing is the shape of the cross-section from leading edge to trailing edge. Modern paraglider profiles are quite thick and strongly asymmetric. The upper surface is markedly curved, particularly over the anterior third of the wing; the lower surface is only slightly convex. The profile is one of the most important elements that define a wing's flying and ground-handling characteristics, including stability and how it inflates on take-off."},
+            {"kind": "image", "deck": "aerodynamik", "page": 7, "caption": "A typical asymmetric wing profile in cross-section."},
+            {"kind": "p", "text": "Key geometric points of the profile are the leading edge (the front), the trailing edge (the rear), the mean chord (the line from leading to trailing edge) and the angle of attack — the angle between the chord and the direction of the relative airflow. Important aerodynamic points include the stagnation point on the leading edge (where the flow divides between upper and lower surfaces), the centre of thrust (where the resultant aerodynamic force effectively acts) and the separation point on the upper surface (where the flow detaches at high angles of attack). All of these are covered in the next chapter."},
+            {"kind": "callout", "title": "Lift facts", "items": [
+                "Lift depends on size, lift coefficient, air density and wind speed.",
+                "Doubling airspeed quadruples lift (and drag).",
+                "At ~10° AoA: 2/3 of lift on the upper surface, 1/3 on the lower.",
+                "Front 1/3 of the wing carries roughly 2/3 of the total lift.",
+            ]},
+        ],
+        "quiz": ["aer-16", "aer-19", "aer-27", "aer-34", "aer-44"],
+    })
+
+    # 5. Angle of attack and the polar of forces -----------------------------
+    chapters.append({
+        "id": "aero-05-angle-of-attack",
+        "title": "Angle of attack and the polar of forces",
+        "subtitle": "Why a single control input changes everything",
+        "intro": "The angle of attack — the tilt of the wing relative to the airflow — sets every aerodynamic outcome. From best glide to stall, the same wing behaves like a different aircraft as this one angle changes.",
+        "sourced_from": ["p1-polar-forces", "p1-profile-of-a-wing"],
+        "estimated_min": 4,
+        "sections": [
+            {"kind": "h2", "text": "Stagnation point and separation point"},
+            {"kind": "p", "text": "On the leading edge of the wing there is a special point called the stagnation point. This is where the airflow divides between the air that will travel along the upper surface and the air that will travel along the lower surface. The stagnation point is aerodynamic — it is not a fixed mark on the wing. It moves as the angle of attack changes."},
+            {"kind": "p", "text": "Further back on the upper surface lies the separation point. This is the place where the airflow detaches from the wing's upper surface. Behind it the smooth flow gives way to turbulence; lift in that region collapses and drag rises. Like the stagnation point, the separation point moves as the angle of attack changes — and at very high angles it walks far enough forward that the wing as a whole stops flying."},
+            {"kind": "image", "deck": "aerodynamik", "page": 23, "caption": "Stagnation point on the leading edge and separation point on the upper surface."},
+            {"kind": "p", "text": "When the (positive) angle of attack of a wing increases, the stagnation point on the lower surface moves toward the leading edge. When the angle of attack decreases, the stagnation point moves toward the trailing edge. Pilots cannot see the stagnation point directly, but its movement is the underlying mechanism that produces the changing pressures and forces you feel through the risers."},
+            {"kind": "image", "deck": "aerodynamik", "page": 19, "caption": "How the stagnation point shifts as angle of attack changes."},
+            {"kind": "h2", "text": "Four regimes of angle of attack"},
+            {"kind": "p", "text": "At a moderate angle of attack — about 10–15° — the wing is in its optimum operating range. There is strong lift from the upper-surface suction and consistent positive pressure underneath. The drag is reduced relative to lift, and the lift-to-drag ratio is near its maximum."},
+            {"kind": "p", "text": "Increase the angle of attack further and the separation point on the upper surface walks forward. Behind it, turbulent flow replaces the negative pressure with a downward component. Lift drops, drag rises, and the wing slows down. Push past about 20–25° and the wing stalls — lift collapses, the wing no longer flies and it sinks."},
+            {"kind": "p", "text": "At a zero angle of attack the wing still has some drag but produces very little lift: the suction on top and the slight suction underneath largely cancel. With a negative angle of attack the situation flips. The upper surface gets positive pressure and the lower surface gets negative pressure. Both forces now act downward, and the wing produces negative lift."},
+            {"kind": "image", "deck": "aerodynamik", "page": 20, "caption": "Angle of attack increases — flow begins to separate on the upper surface."},
+            {"kind": "h2", "text": "The polar of forces"},
+            {"kind": "p", "text": "The polar of forces is a graph that plots the lift coefficient against the drag coefficient as the angle of attack changes. Each point on the curve corresponds to a particular angle of attack; the values shown are orders of magnitude for illustration, not precise measurements. The ratio of lift to drag — the slope from the origin to a point on the curve — depends primarily on the angle of attack."},
+            {"kind": "p", "text": "At about 10° the lift-to-drag ratio is at its maximum: this is the best glide angle. Increasing the angle of attack further increases lift but increases drag even more, so the ratio degrades. At about 20° lift reaches its maximum value, but with relatively high drag — this corresponds to minimum sink. At about 25° lift collapses entirely: the wing stalls."},
+            {"kind": "p", "text": "Knowing the polar means you can predict the consequence of any pilot input. Reducing the angle of attack by 2° from best glide increases the airspeed (the wing flies faster). Increasing the angle of attack by 2° from best glide decreases the airspeed. From this single curve you can read off every flight regime the wing offers."},
+            {"kind": "callout", "title": "Three angles to remember", "items": [
+                "~10° → best lift-to-drag ratio → best glide.",
+                "~20° → maximum lift → minimum sink, but slow.",
+                "~25° → stall: airflow detaches, wing no longer flies.",
+            ]},
+        ],
+        "quiz": ["aer-12", "aer-26", "aer-37", "aer-42", "aer-43"],
+    })
+
+    # 6. Wing geometry and wing loading --------------------------------------
+    chapters.append({
+        "id": "aero-06-wing-geometry-loading",
+        "title": "Wing geometry and wing loading",
+        "subtitle": "Span, area, chord, aspect ratio, payload",
+        "intro": "A wing is described by a handful of numbers. Knowing what they mean — and how flat and projected values differ — lets you read a spec sheet and predict how a glider will fly.",
+        "sourced_from": ["p1-geometry-wing-loading"],
+        "estimated_min": 5,
+        "sections": [
+            {"kind": "h2", "text": "Wingspan and area"},
+            {"kind": "p", "text": "Wingspan is the distance between the two wingtips, measured in metres. We distinguish the flat (actual) wingspan, measured on a wing spread out on the floor, from the projected wingspan, measured on the shadow of the inflated wing. The flat wingspan is always greater than the projected wingspan, because an inflated paraglider is curved into an arc and its tips are pulled inward and down."},
+            {"kind": "image", "deck": "aerodynamik", "page": 30, "caption": "Wingspan — left-to-right distance between the wingtips."},
+            {"kind": "p", "text": "Area is the total surface of the wing, expressed in square metres. As with wingspan, there is a flat area (measured on the floor) and a projected area (the shadow of the inflated wing). The flat area is always greater than or equal to the projected area; only for a very flat wing are they nearly the same."},
+            {"kind": "h2", "text": "Mean chord and the formula S = p × e"},
+            {"kind": "p", "text": "The mean chord (average depth) p of a wing is the average distance from leading edge to trailing edge, expressed in metres. There is a simple relationship between area S, wingspan e and mean chord p: area equals mean chord multiplied by wingspan, or S = p × e. So mean chord p = S / e."},
+            {"kind": "p", "text": "Worked example: a wing with a 10 m wingspan and a 25 m² area has a mean chord of 25 / 10 = 2.5 m. A wing with a 10 m wingspan and a 12.5 m² area has a mean chord of 12.5 / 10 = 1.25 m. The second wing is considerably narrower — and as we will see, has a higher aspect ratio."},
+            {"kind": "image", "deck": "aerodynamik", "page": 31, "caption": "Chord and mean chord — the average depth of the wing."},
+            {"kind": "h2", "text": "Aspect ratio"},
+            {"kind": "p", "text": "Aspect ratio is the ratio of wingspan to mean chord, which is equivalent to wingspan squared divided by area: aspect ratio = e² / S. The latter formula is the most practical one for calculation. We can speak of flat aspect ratio (using flat span and flat area) or projected aspect ratio (using projected values)."},
+            {"kind": "image", "deck": "aerodynamik", "page": 32, "caption": "Aspect ratio — the higher the number, the slimmer the wing."},
+            {"kind": "image", "deck": "aerodynamik", "page": 33, "caption": "Projected area — the shadow of the inflated wing."},
+            {"kind": "p", "text": "Paragliders typically have an aspect ratio of about 5; hang gliders are typically around 8. A high aspect ratio means a long, narrow wing — better performance, but stronger wingtip vortices, larger induced drag and a less docile wing. With experience pilots can recognise a high-aspect-ratio wing at a glance: long and slim, narrow chord. Lower aspect-ratio wings are wider, shorter span — usually more forgiving."},
+            {"kind": "p", "text": "Two short calculations: a paraglider of 10 m span and 25 m² area has aspect ratio 100/25 = 4. A wing of 10 m span and 12.5 m² has 100/12.5 = 8. The slimmer the wing, the higher the aspect ratio. Weight and load data sometimes given in questions are irrelevant to the aspect ratio — they only test whether you know what matters."},
+            {"kind": "h2", "text": "Take-off weight and wing loading"},
+            {"kind": "p", "text": "Take-off weight is the total of everything in the air: pilot, harness, wing and anything carried. The wing load is the take-off weight minus the wing's own weight — the load the wing has to support in the air. For a typical paraglider with a 5 kg wing and a 70–95 kg pilot+gear load, the take-off weight is 75–100 kg."},
+            {"kind": "image", "deck": "aerodynamik", "page": 34, "caption": "Payload, all-up weight and wing loading."},
+            {"kind": "p", "text": "Wing loading is the take-off weight divided by the (usually projected) wing area, expressed in kg/m². For paragliders the typical range is 2.5 to 4 kg/m². For a 25 m² wing with the loads above, you get 75/25 = 3 kg/m² at the minimum and 100/25 = 4 kg/m² at the maximum. A heavier loading shifts the polar curve up and to the right — the wing flies faster at every angle of attack, including a higher stall speed."},
+            {"kind": "p", "text": "Wing torsion (also called washout) is a deliberate variation in angle of attack between different sections of the span. It generally improves the wing's stability and reduces the abruptness of stalls — the tips keep flying when the centre is approaching its limit. Wing torsion is one reason why modern wings can be flown closer to their stall point without an instant catastrophic departure."},
+            {"kind": "callout", "title": "Geometry crib", "items": [
+                "Aspect ratio = wingspan² / area = wingspan / mean chord.",
+                "Paragliders ~5, hang gliders ~8.",
+                "Wing loading = take-off weight / projected area, ~2.5–4 kg/m² for paragliders.",
+                "Flat values always ≥ projected values.",
+            ]},
+        ],
+        "quiz": ["aer-2", "aer-3", "aer-7", "aer-9", "aer-17", "aer-20", "aer-33", "aer-45", "aer-46", "aer-47", "aer-48"],
+    })
+
+    # 7. Equilibrium and glide ratio -----------------------------------------
+    chapters.append({
+        "id": "aero-07-equilibrium-glide-ratio",
+        "title": "Equilibrium of forces and the glide ratio",
+        "subtitle": "Why a paraglider in trim is in balance",
+        "intro": "In steady flight every force on a paraglider must cancel out. Once you see that balance, the famous \"glide ratio\" is just geometry.",
+        "sourced_from": ["p1-equilibrium-normal-flight", "p1-glide-ratio"],
+        "estimated_min": 5,
+        "sections": [
+            {"kind": "h2", "text": "Equilibrium in straight flight"},
+            {"kind": "p", "text": "A paraglider in steady, unaccelerated flight is moving uniformly along a straight trajectory. By the definition of equilibrium, the resultant of all forces acting on the wing is zero. The total weight in flight — pilot, harness, wing and everything carried (PTV) — acts vertically downward and must be exactly cancelled by a vertically upward force of equal magnitude. That force is called the resultant aerodynamic force (FRA)."},
+            {"kind": "p", "text": "The resultant aerodynamic force can be decomposed into two components. Lift is perpendicular to the trajectory and points upward. Drag is parallel to the trajectory and points opposite to the direction of motion. The trajectory itself is along the direction of the relative airflow — the wind the wing experiences as it flies."},
+            {"kind": "image", "deck": "aerodynamik", "page": 11, "caption": "Forces on a paraglider — weight balanced by the resultant aerodynamic force."},
+            {"kind": "image", "deck": "aerodynamik", "page": 12, "caption": "Forces on a paraglider in the relative airflow frame."},
+            {"kind": "p", "text": "There is also a component of weight parallel to the trajectory, pointing toward the leading edge of the wing. This component opposes drag and is called the thrust. In steady flight thrust and drag are equal: that is what makes the trajectory remain straight at uniform speed. The glide angle α is the angle between the trajectory and the horizon; by simple geometry, α is identical to the angle α' between the lift vector and the resultant aerodynamic force."},
+            {"kind": "h2", "text": "Glide ratio — four equivalent definitions"},
+            {"kind": "p", "text": "The glide ratio is one of the most important characteristics of a wing. The greater it is, the better the glider performs — it travels further for each metre of altitude it loses. The glide ratio of current paragliders is about 8–9 in still air; modern competition wings can be higher. Hang gliders are typically higher still."},
+            {"kind": "image", "deck": "aerodynamik", "page": 35, "caption": "Glide angle vs glide ratio — a geometric pair of complementary numbers."},
+            {"kind": "p", "text": "There are four equivalent ways to compute the glide ratio. First, glide ratio equals horizontal distance travelled D divided by altitude lost H: glide = D/H. Second, since both happen over the same time, glide ratio equals horizontal speed divided by sink rate. Third, because the force triangle and the trajectory triangle are similar, glide ratio equals lift divided by drag (P/T). Fourth, since lift and drag are proportional to their respective coefficients, glide ratio equals Cz / Cx."},
+            {"kind": "p", "text": "In summary: glide ratio = D/H = horizontal speed / sink rate = P/T = Cz/Cx. The glide ratio is dimensionless — it does not depend on the units you use, only on the geometric efficiency of the wing. A glide ratio of 8 means the wing travels 8 m horizontally for every 1 m it descends in still air."},
+            {"kind": "h2", "text": "Worked numbers"},
+            {"kind": "p", "text": "Some quick examples. A sailplane with glide ratio 8 flying at 800 m above ground can travel 8 × 0.8 km = 6.4 km in still air. A wing with glide ratio 12 from 2400 m can travel 12 × 2.4 = 28.8 km. A glider that descended 900 m while traveling the maximum 5.4 km has a glide ratio of 5.4/0.9 = 6. A glider flying at 9 m/s with a 1.5 m/s sink rate has a glide ratio of 9/1.5 = 6."},
+            {"kind": "h2", "text": "How drag and angle relate to glide ratio"},
+            {"kind": "p", "text": "If the drag of a glider decreases — even if lift is unchanged — the resultant aerodynamic force increases, the angles α' and α both decrease, and the glide ratio (P/T = D/H) increases. Conversely, if drag increases, the glide ratio decreases and the glide angle increases. A larger glide angle therefore always corresponds to a smaller glide ratio: the steeper you descend, the less far you go."},
+            {"kind": "image", "deck": "aerodynamik", "page": 36, "caption": "Glide angle: the steeper it is, the smaller the glide ratio."},
+            {"kind": "callout", "title": "Worked examples", "items": [
+                "Glide ratio 8 from 800 m → 6.4 km of distance.",
+                "Distance 5.4 km from 900 m → glide ratio 6.",
+                "Glide 10 at 12 m/s horizontal → sink 1.2 m/s.",
+                "Glide 9 at 1 m/s sink → ground speed 9 m/s.",
+            ]},
+        ],
+        "quiz": ["aer-1", "aer-24", "aer-35", "aer-36", "aer-49", "aer-50", "aer-23"],
+    })
+
+    # 8. Polar of speeds and flying in moving air ----------------------------
+    chapters.append({
+        "id": "aero-08-polar-speeds",
+        "title": "Polar curve of speeds",
+        "subtitle": "Best glide, minimum sink, full bar — and what they cost",
+        "intro": "Every paraglider has a single curve that tells you what it does at every angle of attack. Reading it is the key to choosing the right speed for the conditions.",
+        "sourced_from": ["p1-polar-speeds", "p1-polar-speeds-moving-air"],
+        "estimated_min": 6,
+        "sections": [
+            {"kind": "h2", "text": "What the polar shows"},
+            {"kind": "p", "text": "The horizontal (airspeed) and vertical (sink) velocities of a wing — and their ratio, the glide ratio — all vary according to the angle of attack. Decreasing the angle of attack by nose-diving the wing increases horizontal speed. Increasing the angle of attack first slows the wing; at very high angles the horizontal speed continues to drop while the sink rate begins to rise again — towards the stall."},
+            {"kind": "p", "text": "The polar curve of speeds is a graphical representation of horizontal (air speed) and vertical (sink rate) velocities over the entire speed range of a paraglider, from minimum to maximum. The horizontal axis is airspeed, increasing to the right; the vertical axis is sink rate, growing downward. Every angle of attack the wing can fly corresponds to one point on the curve."},
+            {"kind": "image", "deck": "aerodynamik", "page": 40, "caption": "A paraglider polar curve — airspeed on the horizontal axis, sink rate downward."},
+            {"kind": "h2", "text": "Four key points on the polar"},
+            {"kind": "p", "text": "Four points on the polar curve matter. Stall (point d, full brake): the lowest horizontal speed; just below it the wing no longer flies and sinks vertically. Minimum sink Tmin (point at the apex of the curve, light brake): the horizontal speed at which the sink rate is smallest — the longest air time. In the textbook example, Tmin is between 7 and 8 m/s with a sink rate of about 1.5 m/s."},
+            {"kind": "p", "text": "Best glide Fmax (hands up, near trim): the point on the curve where the tangent from the origin touches it. No other tangent line through the origin can produce a smaller glide angle, so this is the speed that gives the maximum glide ratio. In the textbook example, Fmax is about 9 m/s with a sink rate of about 1.7 m/s — a ratio of about 5.3."},
+            {"kind": "p", "text": "Maximum speed Vmax (full speedbar): the rightmost point of the curve, where the horizontal speed is largest. The glide ratio is poor at Vmax — in the textbook example, 13 m/s horizontal speed with 3.5 m/s sink, a glide ratio of only 3.7 — but the speed is useful when fighting headwind or escaping sink."},
+            {"kind": "image", "deck": "aerodynamik", "page": 37, "caption": "The four key points: stall, minimum sink, best glide and Vmax."},
+            {"kind": "image", "deck": "aerodynamik", "page": 38, "caption": "Best glide point: tangent from origin touches the polar."},
+            {"kind": "h2", "text": "Wing loading shifts the polar"},
+            {"kind": "p", "text": "Wing loading modifies the polar curve. A higher loading means the resultant aerodynamic force must be larger to balance flight. Because the aerodynamic force grows with the square of airspeed, the wing must fly faster at every angle of attack. The whole polar curve shifts up and to the right: stall speed, minimum sink speed, best glide speed and maximum speed all increase together."},
+            {"kind": "p", "text": "The glide ratio at each angle of attack does not change with wing loading — only the absolute speeds shift. This is why a 95 kg pilot on the same wing as a 70 kg pilot flies faster everywhere, with the same glide ratio at corresponding angles of attack. The exception is at extreme loadings, outside the certified range, where the wing profile starts to deform."},
+            {"kind": "h2", "text": "Flying in moving air"},
+            {"kind": "p", "text": "In still air the polar is read directly. In wind, the curve relative to the air mass never changes — what changes is the curve relative to the ground. A headwind shifts the apparent origin to the right (you give up some ground speed at every airspeed). The best-glide tangent now touches the curve at a higher airspeed: to fly the maximum distance into the wind you must accelerate."},
+            {"kind": "image", "deck": "aerodynamik", "page": 39, "caption": "Polar with headwind — apparent origin shifts; fly faster for best glide."},
+            {"kind": "image", "deck": "aerodynamik", "page": 52, "caption": "Flying with wind and vertical air movement — speed-to-fly logic."},
+            {"kind": "p", "text": "With a tailwind, the apparent origin shifts to the left and the same logic shows you must fly slower, closer to the minimum sink speed, to achieve the best glide ratio over the ground. Some quick numbers: a wing in a 6 m/s headwind needs about 11 m/s airspeed to maximise glide; a wing flying at 15 m/s with 2 m/s sink, hitting a 5 m/s headwind, sees no change in sink rate but loses 5 m/s of ground speed — and the glide ratio over the ground drops accordingly."},
+            {"kind": "h2", "text": "Vertical air movement"},
+            {"kind": "p", "text": "Vertical air movement works the same way as horizontal wind, but on the vertical axis. Sinking air shifts the origin downward; to maintain best glide ratio over the ground, again fly faster. A wing at a given angle of attack does not change its airspeed when the air mass rises or sinks — only the rate at which it moves relative to the ground changes. In lift, fly minimum sink to spend the longest possible time in the rising air."},
+            {"kind": "image", "deck": "aerodynamik", "page": 53, "caption": "Glide ratio and glide angle when flying in wind."},
+            {"kind": "callout", "title": "Speed to fly", "items": [
+                "Calm air, max distance → best glide (hands up).",
+                "Calm air, max time in air → minimum sink (slight brake).",
+                "Headwind or sink → fly faster (accelerator).",
+                "Tailwind or lift → slow down (less or no speedbar).",
+            ]},
+        ],
+        "quiz": ["aer-10", "aer-15", "aer-21", "aer-29", "aer-51", "aer-52", "aer-53", "aer-57"],
+    })
+
+    # 9. Axes, stability and turning -----------------------------------------
+    chapters.append({
+        "id": "aero-09-axes-stability-turns",
+        "title": "Axes, stability and turning flight",
+        "subtitle": "Pitch, roll, yaw — and the load factor in a turn",
+        "intro": "A paraglider can rotate about three axes. In a turn the centrifugal force adds to your weight, increasing the load on the wing and your minimum flying speed.",
+        "sourced_from": ["p1-axes-stability", "p1-equilibrium-turning"],
+        "estimated_min": 5,
+        "sections": [
+            {"kind": "h2", "text": "The three axes"},
+            {"kind": "p", "text": "A paraglider can have rotary motion about three principal axes. Motion about the vertical axis is called yaw — a rotation in plan view that swings the wingtips forward and backward as the wing rotates around a vertical line through the pilot. Motion about the longitudinal axis (running front-to-back through the pilot) is called roll — a sideways motion that tips one wingtip down and the other up. Motion about the transverse axis (running left-right) is called pitch — a forward/backward motion of the wing across the pilot's body."},
+            {"kind": "image", "deck": "aerodynamik", "page": 55, "caption": "Motion around the three axes — pitch, roll and yaw."},
+            {"kind": "image", "deck": "aerodynamik", "page": 56, "caption": "Roll about the longitudinal axis."},
+            {"kind": "image", "deck": "aerodynamik", "page": 57, "caption": "Pitch about the transverse axis."},
+            {"kind": "image", "deck": "aerodynamik", "page": 58, "caption": "Yaw about the vertical axis."},
+            {"kind": "h2", "text": "Stable, indifferent, unstable"},
+            {"kind": "p", "text": "A glider is normally constructed so that, when no control is applied, it flies straight at a uniform speed — balanced flight. When a force such as a pilot input or an external disturbance such as turbulence temporarily disturbs the glider, a stable glider spontaneously returns to its original straight uniform flight at the normal angle of attack. For example, a wing that returns from accelerated flight back to its trim speed when you release the speed bar, without any pilot input, is showing stable behaviour."},
+            {"kind": "p", "text": "Two other behaviours are possible. A glider that increases its speed by itself, after straight uniform flight, with no pilot input, has unstable characteristics. A glider that keeps whatever flight state the pilot initiated, but then does not spontaneously return when input is released, has indifferent (neutral) characteristics."},
+            {"kind": "image", "deck": "aerodynamik", "page": 59, "caption": "Stable, unstable and indifferent behaviour."},
+            {"kind": "image", "deck": "aerodynamik", "page": 60, "caption": "Stability illustrated — the ball-in-bowl analogy."},
+            {"kind": "p", "text": "Stability can be defined separately about each of the three axes. A wing that rolls in calm air without input is unstable about the longitudinal axis. A wing that changes its angle of attack by itself is unstable about its glide path. A wing that yaws spontaneously without input is unstable about the vertical axis. A small number of paragliders are described as 'indifferent in a tight spiral' — exit from a steady tight 360° turn is not necessarily spontaneous and may require active pilot intervention."},
+            {"kind": "h2", "text": "Centrifugal force and load factor"},
+            {"kind": "p", "text": "In a stabilised turn, an additional horizontal force is added to the total weight. This is the centrifugal force, directed outward, away from the centre of the turn. The vertical weight P and the horizontal centrifugal force Fc share the same point of application, so we can add them as vectors. The resultant R — also called the effective weight — is directed downward and outward, larger than P, and tilted at the bank angle."},
+            {"kind": "image", "deck": "aerodynamik", "page": 63, "caption": "Turning flight — centrifugal force adds to weight."},
+            {"kind": "p", "text": "The load factor is the ratio of the resultant R to the straight-flight weight P, expressed in G (multiples of normal gravity). If P = 100 kg and R = 250 kg, the load factor is 250 / 100 = 2.5 G. The numbers grow rapidly with bank angle. At 30° bank the increase is barely noticeable. At 45° the load factor is about 1.4 G and the speed range is multiplied by about 1.2. At 60°: 2 G and 1.4×. At 70°: 3 G. At 80° the theoretical load factor reaches 6 G."},
+            {"kind": "h2", "text": "Why the wing flies faster in a turn"},
+            {"kind": "p", "text": "In a stabilised turn the resultant aerodynamic force FRA must exactly oppose R. The sharper the turn, the larger R and the larger FRA. Because aerodynamic force scales with the square of airspeed, the wing's airspeed must increase to produce a larger FRA — though not as fast as the load factor itself increases (the relationship goes with the square root)."},
+            {"kind": "p", "text": "The whole speed range shifts upward in a turn. Minimum (stall) speed rises along with cruise speed and Vmax. Transitioning from straight flight into a stabilised turn therefore increases both the wing loading and the minimum flying speed. This is why over-braking in a steeply banked turn is so dangerous: the inside wing approaches its (now-higher) stall speed quickly and can drop into a spin."},
+            {"kind": "callout", "title": "Bank vs load", "items": [
+                "30° → barely 1 G.",
+                "45° → ~1.4 G, speed × 1.2.",
+                "60° → 2 G, speed × 1.4.",
+                "70° → 3 G; 80° → 6 G — minimum speed rises with every degree.",
+            ]},
+        ],
+        "quiz": ["aer-6", "aer-18", "aer-25", "aer-38", "aer-54", "aer-55", "aer-56", "aer-58"],
+    })
+
+    return {
+        "id": "aero",
+        "category": "Aerodynamics",
+        "title": "Aerodynamics for Paragliding Pilots",
+        "icon": "📐",
+        "subtitle": "Forces, profiles, glide and stability — the physics behind every flight.",
+        "chapters": chapters,
+    }
+
+
+def meteo_book() -> dict:
+    chapters = []
+
+    # 1. The atmosphere and pressure -----------------------------------------
+    chapters.append({
+        "id": "meteo-01-atmosphere",
+        "title": "The atmosphere and atmospheric pressure",
+        "subtitle": "What we are flying through",
+        "intro": "Our flying happens in a very thin shell of mixed gases. Knowing its layers, its composition and how its pressure behaves is the foundation of every weather decision.",
+        "sourced_from": ["p2-atmosphere"],
+        "estimated_min": 4,
+        "sections": [
+            {"kind": "h2", "text": "Layers of the atmosphere"},
+            {"kind": "p", "text": "The atmosphere is the envelope of air that surrounds the Earth. It is densest at sea level and thins out gradually until it reaches the vacuum of space. Meteorologists divide it into several layers. For paragliding we only need to concern ourselves with the troposphere — the layer in direct contact with the Earth, where essentially all weather happens. The higher layers (stratosphere, mesosphere, thermosphere) do not concern us directly."},
+            {"kind": "image", "deck": "meteo", "page": 4, "caption": "Layers of the atmosphere — paragliders fly entirely in the troposphere."},
+            {"kind": "image", "deck": "meteo", "page": 5, "caption": "The troposphere — almost all weather phenomena occur here."},
+            {"kind": "p", "text": "The troposphere is bounded above by the tropopause. In the northern latitudes this is at around 11,000 m above sea level. The tropopause is slightly lower in winter, when the air is colder and denser, and slightly higher in summer when the air is warmer. The exact height also depends on latitude — it is lower over the poles and higher over the equator."},
+            {"kind": "image", "deck": "meteo", "page": 7, "caption": "A thin atmospheric shell relative to the Earth."},
+            {"kind": "h2", "text": "What air is made of"},
+            {"kind": "p", "text": "Dry air is about 78 percent nitrogen and 21 percent oxygen. The remaining 1 percent is made up of carbon dioxide, water vapour and rare gases such as argon and helium. Suspended in this mix are variable amounts of water vapour, dust, pollen and aerosols — the ingredients of cloud, mist and pollution."},
+            {"kind": "image", "deck": "meteo", "page": 8, "caption": "Composition of the troposphere — roughly 78/21 nitrogen/oxygen."},
+            {"kind": "image", "deck": "meteo", "page": 9, "caption": "Troposphere — basic facts about the layer that contains our weather."},
+            {"kind": "h2", "text": "Atmospheric pressure"},
+            {"kind": "p", "text": "Atmospheric pressure is due to the effect of gravity on the air mass — it is the weight of the column of air pressing down. It is typically measured in hectopascals (hPa); one atmosphere is approximately 1000 hPa. The standard reference value at sea level is 1013.25 hPa, with a corresponding standard temperature of 15 °C and an average temperature gradient of 0.65 °C per 100 m."},
+            {"kind": "image", "deck": "meteo", "page": 11, "caption": "Air pressure — the weight of the air column above us."},
+            {"kind": "p", "text": "Because air is a compressible gas, the higher you go the lower the pressure. The decrease is not linear. Two reference points are useful to remember. At 5500 m AMSL the atmospheric pressure is about half its sea-level value. At 11000 m the pressure is about a quarter of sea level. So if sea-level pressure is 980 hPa, at 5500 m it would be 490 hPa."},
+            {"kind": "image", "deck": "meteo", "page": 12, "caption": "Standard atmosphere — how pressure changes with altitude."},
+            {"kind": "p", "text": "There is also a useful gas-law relationship: if pressure halves, volume doubles. A balloon of 5 dm³ at sea level rises to 5500 m (pressure halved) and becomes 10 dm³. Take it to 11000 m (pressure quartered) and it becomes 20 dm³. Altimeters use the standard atmosphere as a reference: pressure 1013.25 hPa at sea level, temperature 15 °C, lapse rate 0.65 °C / 100 m."},
+            {"kind": "p", "text": "Pressure at a given location is not constant over time. Warming and cooling of land surfaces, and the movement of air masses around the Earth, make pressure rise and fall. This is why pressure readings on weather maps are always corrected to sea level (QNH) so they can be compared between locations at different altitudes."},
+            {"kind": "image", "deck": "meteo", "page": 13, "caption": "Standard atmosphere — the reference for altimetry."},
+            {"kind": "callout", "title": "Atmosphere essentials", "items": [
+                "Troposphere = the layer that contains essentially all weather.",
+                "Tropopause: ~11000 m at our latitudes.",
+                "78 % nitrogen, 21 % oxygen, 1 % trace gases (plus variable water).",
+                "Standard pressure at sea level = 1013.25 hPa.",
+                "Pressure halves at 5500 m, quartered at 11000 m.",
+            ]},
+        ],
+        "quiz": ["met-17", "met-51", "met-52", "met-58", "met-22", "met-26", "met-75"],
+    })
+
+    # 2. Air temperature, warming and lapse rate -----------------------------
+    chapters.append({
+        "id": "meteo-02-temperature-warming",
+        "title": "How the air really warms up",
+        "subtitle": "The Sun doesn't heat the air directly",
+        "intro": "Most pilots are surprised the first time they hear it: the Sun's rays barely warm the atmosphere. They warm the ground, and the ground warms the air — that detour is what makes thermals possible.",
+        "sourced_from": ["p2-air-temperature"],
+        "estimated_min": 5,
+        "sections": [
+            {"kind": "h2", "text": "An indirect heating process"},
+            {"kind": "p", "text": "The Sun does not warm the atmosphere directly. Solar radiation passes through the air with very little absorption. It is absorbed by the ground, which warms up; the ground then warms the layer of air immediately above it by conduction and convection. Local pockets of this warmed air, less dense than their cooler surroundings, become buoyant and rise as thermals."},
+            {"kind": "image", "deck": "meteo", "page": 14, "caption": "Standard atmosphere — the Sun warms ground first, air second."},
+            {"kind": "image", "deck": "meteo", "page": 53, "caption": "Convection and air density — warm air is less dense and rises."},
+            {"kind": "h2", "text": "Which ground heats best"},
+            {"kind": "p", "text": "Not all ground heats the air equally. Dark, dry, rough ground (rock, soil, asphalt) absorbs sunlight efficiently and warms the air strongly. Wet ground — swamps, irrigated fields, forests with damp soil — wastes much of the incoming energy on evaporating water, which absorbs heat instead of warming the air. Smooth, bright surfaces such as snow or pale rock reflect a large fraction of the sunlight straight back without absorbing it: they are poor thermal generators."},
+            {"kind": "p", "text": "The orientation of the surface relative to the Sun also matters enormously. Strong thermals develop where solar radiation arrives essentially perpendicular to the surface — mountain faces in the morning, southern slopes around noon, western slopes in the afternoon. A surface that catches grazing light at a low angle absorbs much less energy than one with the Sun overhead."},
+            {"kind": "image", "deck": "meteo", "page": 51, "caption": "Thermals — bubbles of warmer air released from the ground."},
+            {"kind": "h2", "text": "The dry adiabatic lapse rate"},
+            {"kind": "p", "text": "An air parcel that moves vertically without exchanging heat with its surroundings is said to behave adiabatically. As long as no water condenses inside it, a rising adiabatic air parcel cools by 1 °C for every 100 m of altitude gained — and warms by the same amount on the way down. This 1 °C / 100 m dry adiabatic lapse rate is a constant property of dry air; it does not depend on the ambient temperature."},
+            {"kind": "p", "text": "The reason for the cooling is that, as the parcel rises into thinner air, it expands against the lower pressure outside. Expansion uses up the parcel's internal energy and the temperature drops. The reverse holds on descent: compression converts work back into temperature, and the parcel warms."},
+            {"kind": "image", "deck": "meteo", "page": 60, "caption": "Dry adiabatic — 1 °C per 100 m of vertical motion."},
+            {"kind": "image", "deck": "meteo", "page": 54, "caption": "Decompression on the way up — expansion cools the parcel."},
+            {"kind": "h2", "text": "Ambient temperature and the emagram"},
+            {"kind": "p", "text": "The actual temperature of the atmosphere at each altitude is not constant. It depends on time of day, recent weather, and the path the air mass has taken. An emagram (temperature-altitude diagram) plots measured ambient temperature against altitude. The contrast between this measured ambient curve and the constant 1 °C / 100 m adiabatic line determines whether the air is stable or unstable, and how high thermals can climb."},
+            {"kind": "p", "text": "The standard atmosphere has an average lapse rate of 0.65 °C per 100 m for the lower troposphere. For strong thermals to develop, the actual lapse rate near the ground should be even steeper than this — roughly 0.6 to 0.8 °C per 100 m between the surface and around 3000 m, with no strong inversion above. A thermal stops rising when its adiabatically-cooled temperature matches the ambient temperature — at that altitude there is no longer a buoyancy difference."},
+            {"kind": "image", "deck": "meteo", "page": 55, "caption": "Thermal top — the level where the parcel matches its surroundings."},
+            {"kind": "image", "deck": "meteo", "page": 56, "caption": "Adiabatic processes — how an air parcel changes with altitude."},
+            {"kind": "callout", "title": "Lapse rates", "items": [
+                "Dry adiabatic = 1 °C / 100 m (constant).",
+                "Standard atmosphere ≈ 0.65 °C / 100 m.",
+                "Strong thermals need a steep ambient lapse rate near the ground.",
+                "Thermal top: where parcel temperature meets ambient temperature.",
+            ]},
+        ],
+        "quiz": ["met-14", "met-15", "met-22", "met-39", "met-45", "met-63", "met-69"],
+    })
+
+    # 3. Inversions, isothermal layers and reverse thermals ------------------
+    chapters.append({
+        "id": "meteo-03-inversions-stability",
+        "title": "Inversions, isothermal layers and stability",
+        "subtitle": "Why thermals stop where they stop",
+        "intro": "A rising thermal eventually runs into a layer that's just as warm or warmer than it is. Inversions and isothermal layers are the invisible ceilings of every flying day.",
+        "sourced_from": ["p2-air-temperature"],
+        "estimated_min": 4,
+        "sections": [
+            {"kind": "h2", "text": "When the air gets warmer with altitude"},
+            {"kind": "p", "text": "An inversion is a layer in which temperature increases with altitude instead of decreasing. An isothermal layer is one in which temperature stays the same — a constant temperature with height. Both kinds of layers are stable to vertical motion. A rising air parcel that adiabatically cools at 1 °C / 100 m reaches such a layer and finds itself colder (and therefore denser) than its surroundings; it stops climbing."},
+            {"kind": "p", "text": "Stable stratification is the meteorological term for an air layer in which vertical motion is suppressed. For a pilot it means the same thing as 'no thermals beyond this altitude'. Sunny weather at altitude with fog in the valleys is a strong sign of a stable layer — typically an anticyclonic morning with descending air and a ground inversion below."},
+            {"kind": "image", "deck": "meteo", "page": 64, "caption": "Stable layering — inversion or isothermal layer caps the thermals."},
+            {"kind": "image", "deck": "meteo", "page": 65, "caption": "An inversion: temperature rises with height instead of falling."},
+            {"kind": "h2", "text": "Ground (radiation) inversion"},
+            {"kind": "p", "text": "On a clear, calm night the ground radiates its stored heat away to space as infrared and cools much faster than the air above it. By dawn there is often a shallow layer near the ground that is colder than the air higher up — a ground or radiation inversion. The inversion blocks thermals at low altitude until the morning sun has warmed the ground enough to dissolve it. The thicker the inversion the longer it takes to dissolve, sometimes lasting into the early afternoon in autumn and winter."},
+            {"kind": "p", "text": "Radiation fog frequently forms inside this nocturnal cold layer when the temperature drops below the dew point. It is typical of clear, calm autumn and winter nights and dissolves once enough sun has warmed the ground from above. A pilot taking off in the early morning into clear air at altitude with fog in the valleys below is flying above an inversion: dramatic but stable conditions, with little thermal activity until the inversion goes away."},
+            {"kind": "h2", "text": "Reverse thermal"},
+            {"kind": "p", "text": "A reverse thermal (Umkehrthermik) is the descending counterpart of a normal thermal: cold air sinking down a shaded slope after warm air had been rising on it earlier, or pooling in valley floors as the sun goes off the slopes. For pilots, it appears as a steady downflow on slopes that should be lifting. In strong reverse thermal conditions, slopes that gave good lift only an hour earlier can suddenly stop producing — a useful sign that the daily thermal cycle is ending."},
+            {"kind": "p", "text": "The lapse rate of an isothermal layer is zero — no temperature change with altitude. The lapse rate of an inversion is negative — temperature increases with altitude. Both contrast with the normal positive lapse rate of about 0.6 to 0.8 °C per 100 m on a good thermal day. Reading a temperature sounding (emagram) is largely about spotting these flat or reversed sections and predicting how they will limit the day's flying."},
+            {"kind": "callout", "title": "Caps to know", "items": [
+                "Inversion: temperature INCREASES with altitude.",
+                "Isothermal: temperature CONSTANT with altitude.",
+                "Both are stable: thermals stop at them.",
+                "Ground inversion forms overnight, dissolves with morning sun.",
+            ]},
+        ],
+        "quiz": ["met-10", "met-11", "met-12", "met-13", "met-23", "met-24", "met-27", "met-44", "met-49", "met-50", "met-66"],
+    })
+
+    # 4. Humidity, condensation, cloud formation -----------------------------
+    chapters.append({
+        "id": "meteo-04-water-humidity",
+        "title": "Water in the air",
+        "subtitle": "Dew point, latent heat and the moist adiabatic",
+        "intro": "Water vapour is invisible — until it isn't. The phase changes of water are the engine of clouds, condensation heat and the moist adiabatic lapse rate.",
+        "sourced_from": ["p2-water-humidity"],
+        "estimated_min": 4,
+        "sections": [
+            {"kind": "h2", "text": "Three phases, six phase changes"},
+            {"kind": "p", "text": "Water exists in three physical states: ice (solid), water (liquid) and water vapour (gas). Water vapour is invisible — perfectly transparent in air. What we casually call 'steam' is actually a hot cloud of suspended water droplets, not vapour. Mist, frost, dew, hail and snow are all common condensed or solid forms of water in the atmosphere."},
+            {"kind": "p", "text": "Changing between these three phases either absorbs energy or releases it. To go from ice to water (melting), from water to vapour (evaporation), or from ice straight to vapour (sublimation), the water must absorb energy in the form of heat to overcome the intermolecular forces. In the opposite direction — condensation, freezing or deposition (vapour straight to solid) — energy is released into the surroundings as latent heat."},
+            {"kind": "image", "deck": "meteo", "page": 58, "caption": "Latent heat of condensation — phase change releases energy."},
+            {"kind": "image", "deck": "meteo", "page": 59, "caption": "Latent heat — the energy gained or lost by phase change."},
+            {"kind": "h2", "text": "Saturation and dew point"},
+            {"kind": "p", "text": "Humidity is the amount of water vapour in the air. Warm air can hold more water vapour than cold air before reaching saturation. Above the saturation point, any further moisture or any further cooling causes condensation — water vapour turns into liquid droplets that we see as cloud, fog, mist or rain."},
+            {"kind": "p", "text": "The dew point is the temperature to which a given air parcel must be cooled at constant pressure to reach saturation. Below the dew point, water condenses. A worked example: an air mass at 17 °C containing 5 g of water vapour per cubic metre is relatively dry. If that same air mass is cooled to about -7 °C, the same 5 g/m³ now corresponds to 100 % humidity — saturation. Further cooling forms cloud droplets."},
+            {"kind": "image", "deck": "meteo", "page": 57, "caption": "Humidity, saturation and the dew point of an air parcel."},
+            {"kind": "p", "text": "Clouds form when an air parcel is cooled below its dew point. The most common mechanism is mechanical lifting: thermal convection from a heated ground, orographic lift by terrain, or warm air rising over colder air at a front. With higher humidity, condensation occurs at lower altitudes — so very humid air tends to give many low clouds and a low cloud base."},
+            {"kind": "h2", "text": "Moist adiabatic lapse rate"},
+            {"kind": "p", "text": "A dry air parcel rising in the atmosphere cools by the dry adiabatic lapse rate of 1 °C per 100 m. Once the parcel cools to its dew point, condensation begins inside it. The phase change releases latent heat into the parcel, which partially counteracts the adiabatic cooling. As a result, saturated rising air cools more slowly than dry rising air."},
+            {"kind": "image", "deck": "meteo", "page": 61, "caption": "Moist adiabatic — slower cooling thanks to latent heat release."},
+            {"kind": "p", "text": "The moist (or wet) adiabatic lapse rate is therefore less than 1 °C / 100 m — typically about 0.5 to 0.6 °C per 100 m. The exact value depends on how much water condenses per metre of rise, which in turn depends on the temperature and humidity of the parcel. Warm, very humid air condenses the most water and therefore cools the most slowly."},
+            {"kind": "p", "text": "The same principle works in reverse on the way down. Saturated air sinking and warming evaporates some of its liquid water, which absorbs heat — so warming on the descent is also slower than the 1 °C / 100 m dry rate. This is part of the engine of Föhn: moist air ascends slowly cooled, condenses and drops its water on the windward side, then descends fast-warming dry air on the lee side."},
+            {"kind": "callout", "title": "Water in the air", "items": [
+                "Condensation, freezing, deposition → release heat.",
+                "Evaporation, melting, sublimation → absorb heat.",
+                "Dew point = the temperature at which an air parcel is just saturated.",
+                "Moist adiabatic ~0.5–0.6 °C / 100 m, less than dry.",
+            ]},
+        ],
+        "quiz": ["met-16", "met-18", "met-35", "met-43", "met-46", "met-55", "met-68", "met-71", "met-72"],
+    })
+
+    # 5. Clouds, fog and mist ------------------------------------------------
+    chapters.append({
+        "id": "meteo-05-clouds-fog-mist",
+        "title": "Clouds, fog and mist",
+        "subtitle": "Reading the sky",
+        "intro": "Every cloud type tells a story about what the atmosphere is doing. From friendly cumulus to towering cumulonimbus, the picture in the sky is the first weather report a pilot reads.",
+        "sourced_from": ["p2-clouds-fog-mist"],
+        "estimated_min": 6,
+        "sections": [
+            {"kind": "h2", "text": "Fog, mist, cloud — same physics"},
+            {"kind": "p", "text": "Fog, mist and cloud are physically the same thing — suspended water droplets in air. They are distinguished only by visibility. Fog reduces horizontal visibility below 1 km; mist gives 1 to 10 km. Anything higher than ground level is simply called a cloud."},
+            {"kind": "p", "text": "Cloud forms whenever rising air cools below its dew point. There are three main causes of that rise: convection (heated ground driving thermals), orographic lift (wind forced upward by terrain) and frontal lift (warm air sliding over colder air at a front)."},
+            {"kind": "image", "deck": "meteo", "page": 52, "caption": "How cumulus clouds form — thermals rise, reach dew point, condense."},
+            {"kind": "h2", "text": "Cloud names"},
+            {"kind": "p", "text": "The Latin naming system uses prefixes for altitude and suffixes for structure. Cirro- means high cloud, around 6000 to 10000 m, generally made of ice crystals. Alto- means mid-level cloud, 3000 to 6000 m. No prefix means low cloud, below 3000 m. Cumulus means heaped cauliflower-like cloud. Stratus means layered cloud. Nimbo- (or -nimbus) means precipitating cloud."},
+            {"kind": "image", "deck": "meteo", "page": 66, "caption": "Cloud overview — a family portrait of the main types."},
+            {"kind": "image", "deck": "meteo", "page": 67, "caption": "Cloud naming — the 2×3 grid of altitude and shape."},
+            {"kind": "image", "deck": "meteo", "page": 69, "caption": "Cloud names and the families they belong to."},
+            {"kind": "h2", "text": "Cumulus family — the pilot's friend and foe"},
+            {"kind": "p", "text": "Cumulus humilis (small flat cumulus) and cumulus mediocris (taller with cauliflower shape) mark active thermals. Their bases lie typically between 1000 and 4000 m. They are the classic 'good thermal day' clouds. Cumulus congestus is much taller and indicates very unstable air — it can grow into a cumulonimbus."},
+            {"kind": "p", "text": "Cumulonimbus (Cb) is the storm cloud. Its strong updrafts, downdrafts and horizontal outflows easily exceed anything a paraglider can survive, and it can produce hail and lightning. The only correct response to a building or approaching cumulonimbus is to land well before it reaches you."},
+            {"kind": "image", "deck": "meteo", "page": 72, "caption": "Thermals seen as a cumulus picture in the sky."},
+            {"kind": "h2", "text": "Warning signs in mid-level cloud"},
+            {"kind": "p", "text": "Altocumulus castellanus — small turret-like clouds visible in the morning — signal unstable, humid air aloft. They commonly mean thunderstorms by mid-afternoon. Lenticular altocumulus, the smooth lens-shaped clouds that hang motionless above 3500 m, indicate strong upper winds and mountain wave conditions — a strict no-fly sign in or near the lee of mountains."},
+            {"kind": "p", "text": "Cirrocumulus, the rippled fish-scale cirrus, is made of ice crystals high in the sky. Nimbostratus is the thick grey precipitating layer cloud, with bases as low as 1000 m, that brings extended steady rain or snow."},
+            {"kind": "callout", "title": "Cloud cheat-sheet", "items": [
+                "Fog = visibility < 1 km. Mist = 1–10 km.",
+                "Cirro- > 6000 m; alto- 3000–6000 m; low cloud < 3000 m.",
+                "Cumulus humilis/mediocris = active thermals.",
+                "Cumulonimbus, congestus growing, lenticularis, altocu castellanus → land or do not fly.",
+            ]},
+        ],
+        "quiz": ["met-9", "met-41", "met-54", "met-56", "met-64"],
+    })
+
+    # 6. Wind measurement, pressure systems, prevailing winds ----------------
+    chapters.append({
+        "id": "meteo-06-pressure-and-prevailing-winds",
+        "title": "Pressure systems and prevailing winds",
+        "subtitle": "Isobars, the Coriolis effect, highs and lows",
+        "intro": "Wind is air rushing from high pressure to low pressure — but not in a straight line. The Earth's rotation bends it, isobars chart it and pilots read it on every flying day.",
+        "sourced_from": ["p2-action-centers-isobars", "p2-wind-measurements"],
+        "estimated_min": 5,
+        "sections": [
+            {"kind": "h2", "text": "Measuring wind"},
+            {"kind": "p", "text": "Wind direction is given as the compass direction from which it is blowing — a north wind blows from north toward south. Directions are stated in degrees from 0 (north) to 359, going clockwise: 90 is east, 180 south, 270 west. Wind speed is measured by an anemometer and reported in km/h, m/s or knots."},
+            {"kind": "image", "deck": "meteo", "page": 30, "caption": "Wind direction — given as the direction the wind is FROM."},
+            {"kind": "h2", "text": "Isobars and pressure systems"},
+            {"kind": "p", "text": "On a weather map an isobar is a line connecting points of equal sea-level-corrected pressure. Closely packed isobars mean a steep pressure gradient and strong winds; widely spaced isobars mean weak gradient and light winds. The average sea-level pressure is around 1015 hPa; a winter anticyclone can reach 1030 to 1040 hPa, while a deep depression can sink to 955 hPa."},
+            {"kind": "image", "deck": "meteo", "page": 22, "caption": "Reading an isobar chart — pressure contours and gradient."},
+            {"kind": "image", "deck": "meteo", "page": 23, "caption": "Highs and lows on an isobar chart."},
+            {"kind": "image", "deck": "meteo", "page": 27, "caption": "Wind strength — tighter isobars mean stronger gradient wind."},
+            {"kind": "h2", "text": "Coriolis and geostrophic wind"},
+            {"kind": "p", "text": "Because the Earth rotates, moving air in the northern hemisphere is deflected to the right. The result is that air does not flow straight from a high to a low — it circulates. Wind rotates clockwise around a high (anticyclone) and anti-clockwise around a low (cyclone) in the northern hemisphere. A memory aid: keep 'anti-' in the middle — anti-cyclone clockwise, cyclone anti-clockwise."},
+            {"kind": "image", "deck": "meteo", "page": 24, "caption": "Rotation imposed by the Coriolis force."},
+            {"kind": "p", "text": "High in the atmosphere, well above the friction of the ground, wind blows parallel to the isobars — this is the geostrophic wind. Nearer the surface friction slows the wind and tilts it slightly toward the low: typically a few degrees in over flat ground."},
+            {"kind": "h2", "text": "Anticyclones vs depressions"},
+            {"kind": "p", "text": "An anticyclone (high) is a region where descending air dominates: the air warms and dries as it sinks, producing stable, often sunny weather and frequently an inversion at 1500 to 2000 m. A depression (low) is a region of rising air: humid, unstable, often cloudy or rainy."},
+            {"kind": "p", "text": "A 'barometric swamp' is a wide region with pressure between 1010 and 1020 hPa and very widely spaced isobars — light winds, often the best paragliding conditions, though with a risk of local afternoon thunderstorms in the absence of strong synoptic forcing."},
+            {"kind": "callout", "title": "Pressure essentials", "items": [
+                "Isobars close together → strong wind.",
+                "Northern hemisphere: clockwise round highs, anti-clockwise round lows.",
+                "Anticyclone: descending, stable, often inversion at 1500–2000 m.",
+                "Depression: rising air, humid, unsettled.",
+            ]},
+        ],
+        "quiz": ["met-1", "met-2", "met-3", "met-26", "met-40", "met-42", "met-57", "met-59"],
+    })
+
+    # 7. Local winds, valley/mountain wind, Föhn -----------------------------
+    chapters.append({
+        "id": "meteo-07-local-winds-foehn",
+        "title": "Local winds and Föhn",
+        "subtitle": "Valley wind, mountain wind, alpine pumping, Föhn",
+        "intro": "Inside the Alps, local thermal circulations and Föhn often dominate over the synoptic wind. Learning their daily rhythm and danger signs is essential for safe flying.",
+        "sourced_from": ["p2-local-winds", "p2-weather-switzerland"],
+        "estimated_min": 5,
+        "sections": [
+            {"kind": "h2", "text": "Valley wind (anabatic)"},
+            {"kind": "p", "text": "On sunny days valley sides warm faster than the air above, and the heated air flows uphill — the valley wind. It begins shortly after sunrise on the sunny slopes, strengthens through the day, and typically reaches its peak in mid-to-late afternoon. The flow runs up the valley from its mouth toward the head."},
+            {"kind": "image", "deck": "meteo", "page": 78, "caption": "Valley wind — anabatic flow up sun-warmed slopes."},
+            {"kind": "image", "deck": "meteo", "page": 77, "caption": "Alpine pumping — the daily heartbeat of valley and mountain wind."},
+            {"kind": "h2", "text": "Mountain wind (katabatic)"},
+            {"kind": "p", "text": "After sunset the slopes radiate their heat away and cool faster than the free air. Cold, dense air flows down the slopes and out of the valley — the katabatic mountain wind. It is generally lighter than the daytime valley wind but can build into surprisingly strong drainage flows on long valleys."},
+            {"kind": "image", "deck": "meteo", "page": 79, "caption": "Mountain wind — cold air draining downslope after sunset."},
+            {"kind": "h2", "text": "Föhn"},
+            {"kind": "p", "text": "Föhn is a warm, dry, gusty downslope wind. The classic ingredients are: a strong pressure difference across the mountain chain, moist air on the windward side, and an obstacle high enough for the air to release its moisture as it rises. As the now-dry air descends on the leeward side it warms adiabatically and arrives much warmer and drier than it started."},
+            {"kind": "image", "deck": "meteo", "page": 81, "caption": "Föhn — warm, dry, gusty wind on the lee of an alpine chain."},
+            {"kind": "image", "deck": "meteo", "page": 83, "caption": "Föhn diagram — moist ascent, dry descent."},
+            {"kind": "p", "text": "Südföhn blows from the south, warming and drying the northern Alpine valleys; it requires a north-south pressure difference between southern and northern stations, with higher pressure on the south side. Nordföhn is the mirror image: higher pressure on the north side, warming and drying the southern (Ticino) valleys."},
+            {"kind": "image", "deck": "meteo", "page": 82, "caption": "Föhnknie — the characteristic 'knee' in the wind pattern."},
+            {"kind": "image", "deck": "meteo", "page": 84, "caption": "Föhn regions — typical alpine corridors affected."},
+            {"kind": "h2", "text": "Reading the signs"},
+            {"kind": "p", "text": "Föhn is dangerous for paragliders even at long distance from the actual flow: it produces strong turbulence, rotor downwind of the mountains and rapid changes in wind direction. Typical warning signs include the Föhn wall (a stationary cloud bank piled on the windward side of the ridge), lenticular clouds in the lee, sudden clarity of the air at altitude and rapidly rising temperature in the lee valleys."},
+            {"kind": "callout", "title": "Local winds checklist", "items": [
+                "Valley wind: anabatic, strongest mid-afternoon.",
+                "Mountain wind: katabatic, after sunset.",
+                "Föhn needs strong pressure difference + moist windward + tall barrier.",
+                "Föhn signs: wall cloud on windward side, lenticularis on lee, sudden warming.",
+            ]},
+        ],
+        "quiz": ["met-29", "met-31", "met-32", "met-33", "met-36", "met-37", "met-38", "met-53", "met-60", "met-65", "met-77", "met-78"],
+    })
+
+    # 8. Turbulence ----------------------------------------------------------
+    chapters.append({
+        "id": "meteo-08-turbulence",
+        "title": "Turbulence",
+        "subtitle": "Mechanical, thermal and wave",
+        "intro": "Almost every paragliding incident has turbulence somewhere in its causal chain. Knowing the four main types — and where to expect each — is the difference between a routine flight and a frightening one.",
+        "sourced_from": ["p2-turbulence"],
+        "estimated_min": 4,
+        "sections": [
+            {"kind": "h2", "text": "What turbulence is"},
+            {"kind": "p", "text": "Turbulence is an air motion that is irregular in direction and speed. It is the air's response to anything that disturbs smooth, laminar flow: surface roughness, obstacles, heating differences, wind shear or interaction with terrain. For a paraglider — a low-speed, low-inertia aircraft — turbulence is the main source of collapses."},
+            {"kind": "image", "deck": "meteo", "page": 33, "caption": "Turbulence — air motion irregular in speed and direction."},
+            {"kind": "h2", "text": "Mechanical turbulence"},
+            {"kind": "p", "text": "Mechanical turbulence is generated when wind hits an obstacle — buildings, hangars, trees, ridges. Eddies and rotors form on the downwind (lee) side and extend many times the obstacle's height downwind before they dissipate. Wind passing through a narrow gap accelerates: this is the Venturi effect, a strong contributor to turbulence around mountain passes and ridgelines."},
+            {"kind": "image", "deck": "meteo", "page": 34, "caption": "Venturi effect — wind accelerates through narrow gaps."},
+            {"kind": "h2", "text": "Thermal turbulence"},
+            {"kind": "p", "text": "Thermal turbulence is caused by columns and bubbles of warmer air rising at different rates from the ground. The boundary between rising warm air and surrounding cooler air is sharp and gusty: entering and leaving a thermal is itself a source of strong air movement. Thermal turbulence is strongest where sun and shadow alternate, and in valleys where the valley wind meets thermals."},
+            {"kind": "h2", "text": "Wave and convergence"},
+            {"kind": "p", "text": "When stable air flows over a mountain it forms a series of standing waves downwind of the ridge — the same way water flows over a stone in a stream. The crests and troughs of these mountain waves can extend many kilometres downwind. Lenticular clouds mark the wave crests. Convergence is a different phenomenon: when two winds meet head-on, the air is forced to rise where they collide — typically a smooth, strong lift but unpredictable in location."},
+            {"kind": "callout", "title": "Turbulence types", "items": [
+                "Mechanical: wind + obstacles → rotors downwind.",
+                "Thermal: rising bubbles → gusts in convective sky.",
+                "Wave: stable air over mountains → standing waves, lenticularis.",
+                "Convergence: two winds meeting → rising air at the collision line.",
+            ]},
+        ],
+        "quiz": ["met-4", "met-19", "met-20", "met-21", "met-50", "met-61", "met-62"],
+    })
+
+    # 9. Air masses, fronts and disturbances --------------------------------
+    chapters.append({
+        "id": "meteo-09-air-masses-fronts",
+        "title": "Air masses and fronts",
+        "subtitle": "Cold front, warm front, occlusion",
+        "intro": "Big weather changes come from the meeting of dissimilar air masses. The interface between them — the front — produces the characteristic cloud sequences and wind shifts every pilot has to recognise.",
+        "sourced_from": ["p2-air-masses-fronts"],
+        "estimated_min": 5,
+        "sections": [
+            {"kind": "h2", "text": "Air masses"},
+            {"kind": "p", "text": "An air mass is a very large body of air, hundreds or thousands of kilometres across, with relatively uniform temperature and humidity. It takes its character from the region where it sat for several days — polar, tropical, maritime or continental. When two air masses meet they do not mix readily; instead a sloped boundary forms between them — a front."},
+            {"kind": "image", "deck": "meteo", "page": 15, "caption": "Formation of polar and tropical air masses."},
+            {"kind": "image", "deck": "meteo", "page": 37, "caption": "Boundary between two air masses — sloped, not vertical."},
+            {"kind": "h2", "text": "Warm front"},
+            {"kind": "p", "text": "A warm front forms where warm air advances against retreating colder air. The warm air slides up over the cold air on a gentle slope (typically 1:200). Cloud builds from very high cirrus, lowering through cirrostratus, altostratus and nimbostratus to drizzling stratus right at the front itself. The whole sequence can stretch over hundreds of kilometres; the precipitation lasts for hours."},
+            {"kind": "image", "deck": "meteo", "page": 47, "caption": "Warm front — gentle slope, long approach with high cirrus first."},
+            {"kind": "image", "deck": "meteo", "page": 48, "caption": "Cloud images that announce a warm front."},
+            {"kind": "h2", "text": "Cold front"},
+            {"kind": "p", "text": "A cold front advances when cold air pushes under warm air. The boundary is steep (about 1:50), and the warm air is shoved violently upward. Cloud is shorter in horizontal extent but much taller: large cumulus and often cumulonimbus, with heavy showers, possible thunderstorms, sharp gusts and rapid temperature drop. The passage is brutal but brief — typically minutes to an hour at any point."},
+            {"kind": "image", "deck": "meteo", "page": 44, "caption": "Cold front — steep slope, towering convective cloud."},
+            {"kind": "image", "deck": "meteo", "page": 45, "caption": "Cold front cloud sequence."},
+            {"kind": "h2", "text": "Occlusion"},
+            {"kind": "p", "text": "Cold fronts travel faster than warm fronts. Eventually the cold front catches the warm front, lifting the warm air entirely off the ground. The composite boundary is called an occluded front. Weather at an occlusion combines the steady rain of the warm front with the showers and instability of the cold front, but is usually less intense than either alone."},
+            {"kind": "image", "deck": "meteo", "page": 42, "caption": "Formation of an occlusion — cold front overtakes the warm front."},
+            {"kind": "image", "deck": "meteo", "page": 49, "caption": "Occlusion — combined warm+cold front character."},
+            {"kind": "callout", "title": "Front facts", "items": [
+                "Warm front: gentle slope (1:200), high cirrus first, long steady rain.",
+                "Cold front: steep slope (1:50), towering Cb, brief violent passage.",
+                "Cold fronts move faster than warm fronts.",
+                "Occlusion = cold front catches up with warm front.",
+            ]},
+        ],
+        "quiz": ["met-5", "met-6", "met-7", "met-8", "met-25", "met-73", "met-74", "met-75", "met-76"],
+    })
+
+    # 10. Heat, storms, synoptic & Swiss weather -----------------------------
+    chapters.append({
+        "id": "meteo-10-storms-synoptics",
+        "title": "Heat, storms and Swiss weather",
+        "subtitle": "Cumulonimbus, synoptic maps and typical situations",
+        "intro": "Heat storms and frontal storms have different drivers and different timings — and Switzerland's geography produces a small catalogue of repeating weather patterns that every alpine pilot learns to recognise.",
+        "sourced_from": ["p2-heat-storms", "p2-synoptic-maps", "p2-weather-switzerland"],
+        "estimated_min": 5,
+        "sections": [
+            {"kind": "h2", "text": "Heat storms"},
+            {"kind": "p", "text": "Heat thunderstorms form in moist, unstable air on a hot day. A normal cumulus humilis grows into cumulus mediocris, then congestus, then a fully developed cumulonimbus — typically in the afternoon, after the ground has had hours of sun to fuel convection. They are local, often isolated, but extremely dangerous to anyone within tens of kilometres because of strong inflow, downdrafts and gust fronts."},
+            {"kind": "image", "deck": "meteo", "page": 73, "caption": "Thunderstorm formation — congestus building into Cb."},
+            {"kind": "image", "deck": "meteo", "page": 76, "caption": "Thunderstorm hazards — gusts, hail, lightning."},
+            {"kind": "p", "text": "Frontal thunderstorms, by contrast, are not tied to the time of day. They are triggered by the violent uplift of warm humid air at a cold front and can occur day or night."},
+            {"kind": "h2", "text": "Synoptic maps"},
+            {"kind": "p", "text": "A synoptic map summarises the pressure pattern, the air masses and the fronts across a continent. Highs are marked with H, lows with L. The line patterns showing warm, cold and occluded fronts tell a pilot what to expect over the coming day. Reading European synoptic maps is the first step in any serious flight planning."},
+            {"kind": "image", "deck": "meteo", "page": 21, "caption": "Fronts on the weather chart — symbols and movement."},
+            {"kind": "image", "deck": "meteo", "page": 35, "caption": "Fronts — schematic of warm, cold and occluded boundaries."},
+            {"kind": "h2", "text": "Typical Swiss situations"},
+            {"kind": "p", "text": "A few synoptic configurations repeat in Switzerland. Strong south-north pressure gradients drive Föhn (south higher → Südföhn from the south; north higher → Nordföhn). Westerly flow with cold fronts brings rain and gusty weather to the whole country. A barometric swamp gives light winds and good thermals, but with increasing thunderstorm risk in the afternoon."},
+            {"kind": "p", "text": "Sunny weather at altitude with fog in the valleys is a classic high-pressure morning: an anticyclone with descending air, an inversion in the lower layers and pooled cool moist air below. Simultaneous sunshine at altitude and in the valleys is the signature of a stable, well-developed anticyclone."},
+            {"kind": "callout", "title": "Reading the weather", "items": [
+                "Heat storms peak in the afternoon; frontal storms can come any time.",
+                "Synoptic map → highs, lows, fronts and pressure gradient.",
+                "Strong south-north Δp → Föhn.",
+                "Valley fog + clear summit → anticyclone + inversion.",
+            ]},
+        ],
+        "quiz": ["met-28", "met-30", "met-34", "met-47", "met-48", "met-67", "met-70"],
+    })
+
+    return {
+        "id": "meteo",
+        "category": "Meteorology",
+        "title": "Meteorology for Free Flight",
+        "icon": "🌤️",
+        "subtitle": "Atmosphere, clouds, wind systems, fronts and Alpine weather.",
+        "chapters": chapters,
+    }
+
+
+def law_book() -> dict:
+    chapters = []
+
+    # 1. Legal framework, OACS, insurance, identification -------------------
+    chapters.append({
+        "id": "law-01-legal-framework",
+        "title": "Legal framework",
+        "subtitle": "OACS, OFAC/BAZL, insurance and identification",
+        "intro": "Free flight in Switzerland is governed by a small set of federal regulations. Knowing what they require — and what you must carry on every flight — is your legal foundation.",
+        "sourced_from": ["p3-legal-framework"],
+        "estimated_min": 5,
+        "sections": [
+            {"kind": "h2", "text": "Who makes the rules"},
+            {"kind": "p", "text": "In Switzerland only the Confederation has the authority to legislate on the use of the airspace. The Federal Office of Civil Aviation (FOCA / OFAC / BAZL) is the federal agency that implements and enforces these rules. The OACS (Ordinance on Aircraft of Special Categories), in force since 1994, is the specific text that covers hang gliders and paragliders."},
+            {"kind": "image", "deck": "luftrecht", "page": 3, "caption": "The authorities and regulations behind paragliding in Switzerland."},
+            {"kind": "image", "deck": "luftrecht", "page": 4, "caption": "Legal basics for hang gliders and paragliders."},
+            {"kind": "h2", "text": "Insurance"},
+            {"kind": "p", "text": "Liability insurance covering at least CHF 1,000,000 for third-party damage on the ground is mandatory. Damage to other aircraft in flight is not covered by this minimum: separate cover is required if you want it. The insurance certificate number must match the wing's identification number."},
+            {"kind": "h2", "text": "Identification on the wing"},
+            {"kind": "p", "text": "Every paraglider must be clearly marked with two items. An identification number — 40 cm tall digits on the lower surface of the wing — matching the insurance certificate. And a manufacturer's plate stating the manufacturer's name, the model, the year of manufacture, and the minimum and maximum take-off weights."},
+            {"kind": "image", "deck": "luftrecht", "page": 2, "caption": "Hang glider / paraglider as defined in Swiss law."},
+            {"kind": "h2", "text": "What you must carry in flight"},
+            {"kind": "p", "text": "During every flight you must carry your insurance certificate (with a number matching the wing) and your pilot licence. Police officers, BAZL officials and airport managers are entitled to request both at any time."},
+            {"kind": "h2", "text": "Where you may not take off or land"},
+            {"kind": "p", "text": "Take-off and landing are prohibited on public roads, ski slopes, within 5 km of an airfield runway (without a CTR authorisation) and within 2.5 km of a heliport. Take-off and landing on public water surfaces are forbidden."},
+            {"kind": "h2", "text": "Tandem flights"},
+            {"kind": "p", "text": "A Tandem A licence allows any passenger. A Tandem B licence requires that the passenger holds a solo licence in the same category. Carrying more than one passenger in flight is not permitted."},
+            {"kind": "h2", "text": "Radio frequencies"},
+            {"kind": "p", "text": "Two frequencies are dedicated to free flight: 130.925 MHz for licensed air-to-air communication between hang glider and paraglider pilots, and 123.425 MHz reserved for training. Use of 130.925 MHz requires the appropriate radio authorisation."},
+            {"kind": "callout", "title": "Carry, mark, insure", "items": [
+                "Mandatory liability cover ≥ CHF 1,000,000 ground damage.",
+                "40 cm ID number + manufacturer plate on every wing.",
+                "Carry licence + insurance certificate on every flight.",
+                "No take-off/landing on public roads, ski slopes, water; 5 km from runways, 2.5 km from heliports.",
+            ]},
+        ],
+        "quiz": ["law-29", "law-50", "law-51", "law-54", "law-56", "law-57", "law-60", "law-61", "law-62", "law-63", "law-68", "law-69", "law-70", "law-73", "law-75", "law-79"],
+    })
+
+    # 2. Abbreviations -------------------------------------------------------
+    chapters.append({
+        "id": "law-02-abbreviations",
+        "title": "Abbreviations every pilot needs",
+        "subtitle": "The language of charts and bulletins",
+        "intro": "Airspace charts and bulletins are full of three- and four-letter codes. They make sense once you know what they stand for.",
+        "sourced_from": ["p3-abbreviations"],
+        "estimated_min": 3,
+        "sections": [
+            {"kind": "h2", "text": "Airspace abbreviations"},
+            {"kind": "p", "text": "CTR is the Control Zone, the controlled airspace around an airport's runway. TMA stands for Terminal Maneuvering Area, the controlled airspace above and around the CTR. AWY is an airway: a corridor of controlled airspace connecting TMAs. FIZ is a Flight Information Zone, and RMZ is a Radio Mandatory Zone."},
+            {"kind": "image", "deck": "luftrecht", "page": 17, "caption": "Abbreviations on the glider chart."},
+            {"kind": "image", "deck": "luftrecht", "page": 18, "caption": "More abbreviations — controlled and restricted zones."},
+            {"kind": "h2", "text": "Restricted areas"},
+            {"kind": "p", "text": "LS-R means a restricted area in Swiss airspace; entry is forbidden or conditional during the activation hours. LS-D is a danger area: entry not strictly prohibited, but with elevated risks (gunnery, parachute drops, etc.). LS-P is a prohibited area, where flight is not permitted at any time."},
+            {"kind": "h2", "text": "Bulletins and publications"},
+            {"kind": "p", "text": "A NOTAM (Notice to Airmen) is an official short-term notice about changes to airspace, hazards or operations. The DABS (Daily Airspace Bulletin Switzerland) lists daily Swiss airspace activations. The AIP (Aeronautical Information Publication) is the master reference document for the Swiss airspace structure."},
+            {"kind": "h2", "text": "Flight levels and rules"},
+            {"kind": "p", "text": "FL stands for Flight Level — altitude in hundreds of feet referenced to the standard pressure of 1013.25 hPa. VFR means Visual Flight Rules; IFR means Instrument Flight Rules. The 'LS' prefix in ICAO codes refers to Switzerland — every Swiss aerodrome's identifier begins with LS (LSZH = Zurich, LSGG = Geneva)."},
+            {"kind": "callout", "title": "Acronym crib", "items": [
+                "CTR / TMA / AWY: controlled airspaces around airports.",
+                "LS-R restricted, LS-D danger, LS-P prohibited.",
+                "NOTAM, DABS, AIP: where to find airspace updates.",
+                "FL = pressure altitude in hundreds of feet (QNE).",
+            ]},
+        ],
+        "quiz": ["law-5", "law-9", "law-10", "law-11", "law-12", "law-13", "law-15", "law-21", "law-22", "law-23", "law-24", "law-42", "law-43", "law-44", "law-58", "law-76", "law-81"],
+    })
+
+    # 3. Airspace structure -------------------------------------------------
+    chapters.append({
+        "id": "law-03-airspace-structure",
+        "title": "Airspace structure",
+        "subtitle": "G, E, D, C — and the controlled zones",
+        "intro": "Switzerland uses four of the ICAO airspace classes. Knowing which class you are in — and what the upper and lower limits are — is the core competence of legal flying.",
+        "sourced_from": ["p3-airspace-structure"],
+        "estimated_min": 6,
+        "sections": [
+            {"kind": "h2", "text": "Four classes that matter"},
+            {"kind": "p", "text": "Switzerland uses four ICAO airspace classes: C, D, E and G. Paragliders, being uncontrolled traffic without a transponder, may only fly in the uncontrolled airspaces E and G. C and D require a controller's clearance. A useful memory aid: 'Ceiling Defines Every Glide.'"},
+            {"kind": "image", "deck": "luftrecht", "page": 19, "caption": "The Swiss airspace classes — C, D, E, G."},
+            {"kind": "h2", "text": "Airspace G — close to the ground"},
+            {"kind": "p", "text": "Airspace G runs from the ground up to 600 m AGL across the entire country. It is uncontrolled — no clearance required — but VFR rules still apply. Within G, the rules below and above 300 m AGL differ in the visibility and cloud-clearance distances required."},
+            {"kind": "h2", "text": "Airspace E — above G"},
+            {"kind": "p", "text": "Airspace E begins above G and extends upward to a varying ceiling. On the Jura and Plateau the upper limit is FL100 (about 3050 m AMSL). In the Alps the upper limit depends on military activity: FL130 (about 3950 m) when military airspace is active (MIL ON), FL150 (about 4600 m) when MIL OFF."},
+            {"kind": "image", "deck": "luftrecht", "page": 27, "caption": "Lower and upper limits of the various airspaces."},
+            {"kind": "image", "deck": "luftrecht", "page": 21, "caption": "Mittelland/Jura — Alps boundary on the glider chart."},
+            {"kind": "h2", "text": "MIL ON hours"},
+            {"kind": "p", "text": "Swiss military airspace activation (MIL ON) is typically Monday to Friday, 08:00–12:00 and 13:30–17:00, excluding public holidays. Exact daily times are published on the glider chart and in the DABS. During MIL OFF (evenings, weekends, holidays) the alpine ceiling for E rises from FL130 to FL150."},
+            {"kind": "image", "deck": "luftrecht", "page": 22, "caption": "MIL OFF activation status on the chart."},
+            {"kind": "image", "deck": "luftrecht", "page": 50, "caption": "Military operating hours table."},
+            {"kind": "h2", "text": "Controlled airspaces around airports"},
+            {"kind": "p", "text": "CTRs are controlled airspaces from the ground up around an airport runway. TMAs sit above the CTRs with stepped lower limits — the minimum lower limit of any TMA in the alpine region is generally 2350 m AMSL. AWYs are airway corridors connecting TMAs, with an upper limit of FL195."},
+            {"kind": "image", "deck": "luftrecht", "page": 35, "caption": "CTR — Control Zone (airspace D) around an aerodrome."},
+            {"kind": "image", "deck": "luftrecht", "page": 36, "caption": "TMA — Terminal Maneuvering Area above and around a CTR."},
+            {"kind": "image", "deck": "luftrecht", "page": 39, "caption": "AWY — airway corridor."},
+            {"kind": "h2", "text": "Danger and restricted areas"},
+            {"kind": "p", "text": "Gliding zones (special LS-R for gliders) allow reduced cloud distances for sailplane-style flying. Cloud-flight zones are reserved for sailplanes. Military shooting zones (LS-R DCA) are danger areas around firing ranges. Exclusion zones around special events (G8 Evian 2003, Davos WEF 2009) are temporary, not permanent in Switzerland."},
+            {"kind": "image", "deck": "luftrecht", "page": 48, "caption": "LS-R restricted areas on the chart."},
+            {"kind": "image", "deck": "luftrecht", "page": 49, "caption": "LS-D danger areas — entry is permitted but risky."},
+            {"kind": "callout", "title": "Class & ceiling", "items": [
+                "Paragliders may use only E and G airspace.",
+                "G: ground to 600 m AGL everywhere.",
+                "E: above G to FL100 (Jura/Plateau) or FL130 MIL ON / FL150 MIL OFF (Alps).",
+                "CTR/TMA/AWY: controlled — clearance required.",
+            ]},
+        ],
+        "quiz": ["law-3", "law-4", "law-13", "law-14", "law-15", "law-16", "law-17", "law-18", "law-19", "law-20", "law-25", "law-26", "law-27", "law-28", "law-30", "law-31", "law-32", "law-41", "law-49", "law-74"],
+    })
+
+    # 4. Sources of information --------------------------------------------
+    chapters.append({
+        "id": "law-04-info-sources",
+        "title": "Sources of airspace information",
+        "subtitle": "Glider chart, AIP, DABS and NOTAMs",
+        "intro": "Even the best memory of the airspace is no substitute for checking the live status of each zone before flying. A handful of publications cover everything you need.",
+        "sourced_from": ["p3-airspace-info-sources"],
+        "estimated_min": 3,
+        "sections": [
+            {"kind": "h2", "text": "The glider chart"},
+            {"kind": "p", "text": "The Swiss Glider Chart is the basic reference for free-flight airspace. It shows airspace boundaries (CTR, TMA, AWY, LS-R, LS-D, LS-P), the upper and lower limits of every zone, the military operating hours and the Mittelland/Jura–Alps boundary. Many pilots also use the online map.geo.admin.ch which carries the same information in a layered viewer."},
+            {"kind": "image", "deck": "luftrecht", "page": 16, "caption": "Glider chart — map.geo.admin.ch viewer."},
+            {"kind": "image", "deck": "luftrecht", "page": 20, "caption": "Anatomy of the glider chart."},
+            {"kind": "h2", "text": "DABS — Daily Airspace Bulletin Switzerland"},
+            {"kind": "p", "text": "The DABS is published every day and lists temporary changes to Swiss airspace: actual MIL ON times, active LS-R restrictions, temporary TMA extensions (Sion, Alpnach), firing area activations and similar. Always check DABS before flying — never rely on the glider chart's general operating hours alone."},
+            {"kind": "image", "deck": "luftrecht", "page": 52, "caption": "DABS — Daily Airspace Bulletin Switzerland."},
+            {"kind": "image", "deck": "luftrecht", "page": 53, "caption": "DABS — example showing active firing areas."},
+            {"kind": "h2", "text": "AIP and NOTAMs"},
+            {"kind": "p", "text": "The AIP is the official Aeronautical Information Publication: the long-form reference describing the structure of every airspace, navaid and aerodrome. NOTAMs are short-term operational notices about temporary changes — short closures, special events, hazards. The VFR-NOTAM and KOSIF publications focus on items relevant to VFR (and military) flying."},
+            {"kind": "callout", "title": "Always check before flying", "items": [
+                "Glider chart for the static structure.",
+                "DABS for today's MIL hours and active restrictions.",
+                "NOTAMs for temporary issues.",
+                "AIP for the master long-form description.",
+            ]},
+        ],
+        "quiz": ["law-1", "law-2", "law-6", "law-7", "law-8", "law-11", "law-12", "law-46", "law-47", "law-77", "law-78", "law-82"],
+    })
+
+    # 5. Flight rules (VFR) ------------------------------------------------
+    chapters.append({
+        "id": "law-05-vfr-rules",
+        "title": "VFR rules and right of way",
+        "subtitle": "Visibility, cloud distances and who yields to whom",
+        "intro": "Paragliders fly under Visual Flight Rules at all times. VFR defines minimum visibility, distance from cloud, and a strict priority for who has the right of way.",
+        "sourced_from": ["p3-flight-rules-vfr"],
+        "estimated_min": 5,
+        "sections": [
+            {"kind": "h2", "text": "Visibility and cloud distances"},
+            {"kind": "p", "text": "VFR requires the pilot to see and avoid other aircraft and terrain. In airspace G below 300 m AGL the minimum is 1500 m flight visibility and the pilot must remain clear of cloud, with the ground in sight. Above 300 m AGL in G, the requirement increases: 5 km visibility, 1.5 km horizontal from cloud and 300 m vertically below or 150 m above cloud."},
+            {"kind": "image", "deck": "luftrecht", "page": 58, "caption": "Cloud distances in airspace G below 300 m AGL."},
+            {"kind": "image", "deck": "luftrecht", "page": 59, "caption": "Cloud distances and visibility for airspace E."},
+            {"kind": "p", "text": "In airspace E up to 3050 m AMSL the rules are 5 km visibility and the same 1.5 km/300 m/150 m cloud separation. From 3050 m AMSL upward the visibility requirement rises to 8 km and the horizontal cloud separation becomes 1500 m, vertical 300 m below and 300 m above."},
+            {"kind": "h2", "text": "Altimetry and Flight Levels"},
+            {"kind": "p", "text": "Below the transition altitude, altimeters are set to QNH (sea-level pressure correction) and altitudes are read in metres or feet AMSL. Above that, altimeters are set to the standard pressure 1013.25 hPa and the indication is called a Flight Level (FL). A change of 1 hPa equals about 8 m or 28 ft. With QNH 1015 reported (above standard) you actually fly slightly higher than your altimeter shows when set to 1013."},
+            {"kind": "image", "deck": "luftrecht", "page": 30, "caption": "Flight Levels and the standard atmosphere reference."},
+            {"kind": "image", "deck": "luftrecht", "page": 33, "caption": "Effect of pressure setting on the altitude reading."},
+            {"kind": "h2", "text": "Right of way"},
+            {"kind": "p", "text": "Right-of-way rules give priority to the less manoeuvrable aircraft. Balloons have the highest priority, then sailplanes and hang gliders/paragliders, then powered aircraft. Aircraft approaching head-on must each turn right. Overtaking is done on the right and the overtaking aircraft must give way. In ridge soaring, the aircraft with the ridge on its right has priority; the other must yield."},
+            {"kind": "image", "deck": "luftrecht", "page": 8, "caption": "Right-of-way rules — who yields to whom."},
+            {"kind": "image", "deck": "luftrecht", "page": 9, "caption": "Ridge right-of-way — the aircraft with the ridge on its right has priority."},
+            {"kind": "image", "deck": "luftrecht", "page": 12, "caption": "Overtaking — pass on the right; overtaking aircraft yields."},
+            {"kind": "image", "deck": "luftrecht", "page": 13, "caption": "Right-of-way ranking among aircraft types."},
+            {"kind": "p", "text": "In a thermal, all gliders circle the same direction — the one used by the first arrival. Joining a thermal in the opposite direction is forbidden and the most common cause of collisions in soaring."},
+            {"kind": "callout", "title": "Rules to live by", "items": [
+                "VFR always — see and avoid is your job.",
+                "Below 300 m AGL in G: 1500 m vis, clear of cloud, ground in sight.",
+                "Less manoeuvrable wins: balloon > glider > powered.",
+                "Ridge with ridge on right has priority; same direction in any thermal.",
+            ]},
+        ],
+        "quiz": ["law-33", "law-34", "law-35", "law-36", "law-37", "law-38", "law-39", "law-40", "law-45", "law-48", "law-67", "law-72"],
+    })
+
+    # 6. Examination and licensing -----------------------------------------
+    chapters.append({
+        "id": "law-06-exam-licensing",
+        "title": "Examination and licensing",
+        "subtitle": "Becoming and remaining a Swiss free-flight pilot",
+        "intro": "Switzerland keeps the path to a licence simple. Knowing the timing, structure and appeal rules of the exam protects you from surprises.",
+        "sourced_from": ["p3-exam-licensing"],
+        "estimated_min": 4,
+        "sections": [
+            {"kind": "h2", "text": "Ages and validity"},
+            {"kind": "p", "text": "The minimum age for a Swiss free-flight licence is 16. You may start instruction from age 15. The licence has unlimited duration — no medical examination is required, and there is no minimum number of flights per year to maintain it."},
+            {"kind": "h2", "text": "Examination structure"},
+            {"kind": "p", "text": "The pilot examination has a theoretical and a practical part. The theoretical part covers aerodynamics, meteorology, equipment, legislation and flight practice. The practical part includes a series of supervised flights with specific tasks — among them a precision landing in a 30 m diameter target circle."},
+            {"kind": "h2", "text": "Timing and re-sits"},
+            {"kind": "p", "text": "The maximum allowed interval between passing the theory and passing the practical is two years. If either part is failed, you may retake it after 30 days at the earliest. Appeal against an examiner's decision is possible: written appeal must be filed with FOCA within 30 days. The SHV/FSVL is the national body of pilots, instructors and clubs."},
+            {"kind": "image", "deck": "luftrecht", "page": 6, "caption": "SHV / FSVL — the Swiss Hang Gliding Association."},
+            {"kind": "h2", "text": "Wildlife respect"},
+            {"kind": "p", "text": "The OACS makes pilots responsible for respecting wildlife. The map.geo.admin.ch viewer shows wildlife reserves where flight is restricted. Pilots are expected to keep clear of golden eagle nesting areas (especially in spring) and to avoid chamois and ibex on south slopes in winter and spring."},
+            {"kind": "image", "deck": "luftrecht", "page": 5, "caption": "map.geo.admin.ch — wildlife reserves and protected areas."},
+            {"kind": "image", "deck": "luftrecht", "page": 7, "caption": "Hang gliders and wildlife — respect distance from sensitive areas."},
+            {"kind": "callout", "title": "Examination essentials", "items": [
+                "Minimum age 16 (instruction from 15).",
+                "Licence has unlimited duration; no medical, no minimum flights.",
+                "Max 2 years between theory and practical pass.",
+                "Re-sit after 30 days; appeal within 30 days to FOCA.",
+            ]},
+        ],
+        "quiz": ["law-52", "law-53", "law-55", "law-59", "law-64", "law-65", "law-66", "law-71", "law-80", "law-83"],
+    })
+
+    return {
+        "id": "law",
+        "category": "Legislation",
+        "title": "Law and Airspace",
+        "icon": "📜",
+        "subtitle": "OACS, airspace classes, glider chart, VFR rules and licensing.",
+        "chapters": chapters,
+    }
+
+
+def equip_book() -> dict:
+    chapters = []
+
+    # 1. Overview of a paraglider -------------------------------------------
+    chapters.append({
+        "id": "equip-01-overview",
+        "title": "The main parts of a paraglider",
+        "subtitle": "Wing, lines, risers, harness, reserve",
+        "intro": "A paraglider system is more than just the canopy. Knowing the five main parts and how they connect helps you check, store and maintain your gear correctly.",
+        "sourced_from": ["p4-main-parts"],
+        "estimated_min": 3,
+        "sections": [
+            {"kind": "h2", "text": "Five main parts"},
+            {"kind": "p", "text": "A complete paraglider system consists of five main parts: the wing (the canopy, including the cells, ribs and airfoil), the lines connecting wing to risers, the risers (the strong webbing that takes the load and ends in attachment loops), the harness with its back and seat protection, and the reserve parachute installed inside or on the harness."},
+            {"kind": "image", "deck": "material", "page": 2, "caption": "The full equipment overview — what we will cover today."},
+            {"kind": "image", "deck": "material", "page": 17, "caption": "Wing components — cells, ribs, profile, edges."},
+            {"kind": "image", "deck": "material", "page": 18, "caption": "Risers — A/B/C/D and the speed system."},
+            {"kind": "p", "text": "Each part is engineered and certified for a particular wing model — they are not freely interchangeable. Modifying, swapping or repairing a part with non-original components changes the certification of the whole system."},
+            {"kind": "callout", "title": "Five parts to remember", "items": [
+                "Wing — the canopy with its cells, ribs and profile.",
+                "Lines — connect wing to risers.",
+                "Risers — A, B, C and sometimes D, with quick links.",
+                "Harness — seat, back protection, leg straps.",
+                "Reserve — a redundant parachute.",
+            ]},
+        ],
+        "quiz": ["eq-1", "eq-2", "eq-25", "eq-27", "eq-28"],
+    })
+
+    # 2. The wing -----------------------------------------------------------
+    chapters.append({
+        "id": "equip-02-wing",
+        "title": "The wing",
+        "subtitle": "Fabric, coating, cells, ribs and what kills them",
+        "intro": "The canopy is the heart of the paraglider. Its fabric, coating and internal structure are remarkable engineering — and they don't last forever.",
+        "sourced_from": ["p4-wing"],
+        "estimated_min": 5,
+        "sections": [
+            {"kind": "h2", "text": "Fabric and coating"},
+            {"kind": "p", "text": "Wing fabric is most commonly polyamide (Nylon) and less often polyester (Dacron). It is woven in a ripstop pattern: heavier threads at regular intervals stop a tear from propagating beyond a few millimetres. A coating — typically polyurethane, sometimes silicone or Mylar — fills the weave to reduce porosity, lower elasticity and improve UV resistance. A good coating can also improve mechanical strength."},
+            {"kind": "image", "deck": "material", "page": 6, "caption": "Sailcloth — the woven, coated polyamide of a paraglider canopy."},
+            {"kind": "image", "deck": "material", "page": 7, "caption": "Materials overview — fabric, coating and reinforcements."},
+            {"kind": "h2", "text": "What porosity does to flying"},
+            {"kind": "p", "text": "As coating wears, the fabric becomes porous: air leaks through it instead of pressurising the canopy. A porous wing stalls earlier — at a higher airspeed than normal — because the cells no longer hold pressure. A parachutal stall is a flight regime in which the wing still has its shape but produces almost no horizontal motion: high sink rate, almost no airspeed."},
+            {"kind": "h2", "text": "Enemies of the wing"},
+            {"kind": "p", "text": "Coating is damaged by: detergents and solvents, humid storage, friction with sand, gravel or salt, prolonged UV and heat (a wing left in a hot car in summer is a classic ageing accelerator), seawater, cow dung and fuel. It is not damaged by extreme manoeuvres, by being washed in cold water, or by long cool dark storage."},
+            {"kind": "image", "deck": "material", "page": 16, "caption": "Wing construction — what makes a modern paraglider stiff and stable."},
+            {"kind": "h2", "text": "Cells, ribs and internal structure"},
+            {"kind": "p", "text": "The wing is divided into cells running from leading to trailing edge. Each cell has internal openings on the leading edge so it can inflate. Between cells, vertical or oblique ribs connect the upper and lower surfaces and define the profile. More cells means a more accurate profile but more weight and folded volume."},
+            {"kind": "p", "text": "Small vent holes in the ribs allow pressure to equalise between cells. This helps the wing re-inflate quickly after a partial collapse. Diagonal V-ribs (sometimes called Diagonals) carry the load from one rib to another, reducing the number of attachment points and lines needed for the same span. Highest stress on the canopy is in the front half, where lift is concentrated, and on the cells closest to the line attachment points."},
+            {"kind": "p", "text": "Anterior cell walls near the openings are often reinforced with Mylar to keep the leading edge shape rigid. Mylar is stiff but brittle — repeated folding bends and eventually breaks it, which is why you should never pack a wing with sharp creases at the leading edge."},
+            {"kind": "callout", "title": "Wing care", "items": [
+                "Avoid UV, heat (car!), seawater, sand, detergents and fuel.",
+                "Cool, dark, dry storage is fine even for long periods.",
+                "Porous coating → earlier stall, higher sink in parachutal stall.",
+                "Don't crease the leading edge — Mylar reinforcement is brittle.",
+            ]},
+        ],
+        "quiz": ["eq-3", "eq-8", "eq-14", "eq-15", "eq-19", "eq-26", "eq-32", "eq-33", "eq-38", "eq-40"],
+    })
+
+    # 3. Lines ---------------------------------------------------------------
+    chapters.append({
+        "id": "equip-03-lines",
+        "title": "The lines",
+        "subtitle": "Sheath, core, knots and ageing",
+        "intro": "Paraglider lines are deceptively simple. The choice of core material and the way the loops are made define both the wing's performance and its life span.",
+        "sourced_from": ["p4-lines"],
+        "estimated_min": 5,
+        "sections": [
+            {"kind": "h2", "text": "Sheath and core"},
+            {"kind": "p", "text": "A paraglider line is typically built of two parts. The sheath is the outer braided cover, made of polyester or polyamide. It carries no significant load — its job is to protect the inner core from UV, abrasion and dirt. The core is what actually takes the tension. Modern lines use either polyethylene (Dyneema, very low stretch but sensitive to heat) or aramid (Kevlar, very strong but more brittle and UV-sensitive)."},
+            {"kind": "image", "deck": "material", "page": 8, "caption": "Line sheath material — protective outer cover."},
+            {"kind": "image", "deck": "material", "page": 9, "caption": "Line core (polyethylene) — Dyneema, very low stretch."},
+            {"kind": "image", "deck": "material", "page": 10, "caption": "Line core (aramid) — Kevlar, very strong but more brittle."},
+            {"kind": "h2", "text": "Loops and knots"},
+            {"kind": "p", "text": "Each line end has a loop that connects to either the riser or another line. Sewn loops are simple but introduce a stress concentration at the seam, reducing the line's effective strength. Spliced (looped) ends — where the line core is woven back through itself — keep nearly the full strength of the line. For unsheathed aramid lines, a special splicing technique is required to fit loops without significantly weakening them."},
+            {"kind": "h2", "text": "What happens when you change line lengths"},
+            {"kind": "p", "text": "Shortening or lengthening any line changes the wing's trim. Shortening the A-lines reduces the angle of attack — the wing flies faster but is more prone to collapse. Shortening the D-lines does the opposite: it increases angle of attack, slows the wing and brings it closer to stall. Shortening the B-lines on a school wing changes the brake-line geometry and the wing's behaviour in low-speed manoeuvres."},
+            {"kind": "p", "text": "Trim-tabs allow you to vary line lengths in flight in a controlled way. Most trim-tab systems lengthen or shorten the C and D riser pair (sometimes also B), with the same overall effect as the speed bar but slower and finer."},
+            {"kind": "h2", "text": "Line ageing"},
+            {"kind": "p", "text": "Lines stretch over their lifetime; some materials, especially aramid, can also shrink. UV exposure and repeated loading both degrade the core. With moderate brake input the D-lines may be loose (not under tension) — this is normal and means the wing is in a brake-induced angle-of-attack range where lift has shifted forward. Sustained sagging beyond expectation, however, can indicate a stretch problem."},
+            {"kind": "callout", "title": "Line know-how", "items": [
+                "Sheath protects; core carries load.",
+                "Polyethylene = low stretch, heat-sensitive; aramid = strong, brittle, UV-sensitive.",
+                "Spliced loops preserve strength; sewn loops weaken the line.",
+                "Never modify line lengths yourself — recheck trim periodically.",
+            ]},
+        ],
+        "quiz": ["eq-4", "eq-7", "eq-12", "eq-13", "eq-20", "eq-22", "eq-39", "eq-48"],
+    })
+
+    # 4. Risers, controls and accelerator ----------------------------------
+    chapters.append({
+        "id": "equip-04-risers-controls",
+        "title": "Risers, controls and accelerator",
+        "subtitle": "Where the lines meet the harness — and where you steer",
+        "intro": "Risers, brakes and speed bar are the pilot's interfaces to the wing. Knowing what each one really does is what makes a flight feel like flying — not surviving.",
+        "sourced_from": ["p4-risers-controls"],
+        "estimated_min": 5,
+        "sections": [
+            {"kind": "h2", "text": "Risers and quick links"},
+            {"kind": "p", "text": "Risers are polyamide or polyester webbing strips, lettered A (front) through C or D (rear), matching the lines they carry. They are connected to the harness karabiners and to the lines via screw-locked quick links. Tighten quick links by hand and then add a final quarter turn with a wrench: no more, no less."},
+            {"kind": "p", "text": "In stable straight-and-level flight the load is concentrated on the A risers, which carry the front portion of the wing where most of the lift is generated. The D risers carry the least load — which is why they are sometimes used as emergency steering if brake lines fail. With moderate brake input the D-lines may even be slack."},
+            {"kind": "h2", "text": "The speed system (accelerator)"},
+            {"kind": "p", "text": "The speed bar is a foot-operated pulley system that shortens the A risers the most, the B risers less, and sometimes the C risers slightly. The net effect is to reduce the wing's angle of attack without significantly changing its profile — the wing flies faster. Pushing the bar to the full deflection takes the wing to its maximum speed Vmax."},
+            {"kind": "image", "deck": "material", "page": 19, "caption": "Trim — the equivalent of speed bar on tandems and some school wings."},
+            {"kind": "p", "text": "Trim tabs perform the same job as the speed bar but with a slower, finer adjustment that you set with your hand. They are common on tandems where a foot bar is impractical. Tabs engaged (slow): the wing is less prone to frontal collapses. Tabs released (fast): more prone to collapses."},
+            {"kind": "h2", "text": "Brakes (steering lines)"},
+            {"kind": "p", "text": "Brake lines run from the trailing edge of each half-wing through pulleys on the rear riser to handles you hold in each hand. Pulling a brake increases the angle of attack on that side, slowing it and turning the wing toward the brake. Brake line length is factory-set — never modify it. With your arms fully up, the brake lines should still form a slight rearward arc; straight lines mean the brakes are too short and the wing is permanently slightly braked, with a stall risk in turbulence."},
+            {"kind": "h2", "text": "Best glide and worst glide"},
+            {"kind": "p", "text": "In calm air, the glide ratio is best with arms fully up and no accelerator — the wing is at its trim setting. Pulling the brakes shifts the wing toward the slow side of the polar; pressing the speed bar shifts it toward the fast side. Both extremes reduce glide ratio. In a headwind, however, applying moderate accelerator improves glide ratio over the ground despite the higher sink rate."},
+            {"kind": "callout", "title": "Riser and control facts", "items": [
+                "A risers most loaded, D risers least loaded in trim flight.",
+                "Speed bar shortens A most, B less, sometimes C — reduces AoA.",
+                "Trim tabs: engaged = slower, less collapse-prone; released = faster, more collapse-prone.",
+                "Best glide in still air: arms up, no accelerator.",
+            ]},
+        ],
+        "quiz": ["eq-9", "eq-21", "eq-23", "eq-24", "eq-34", "eq-36", "eq-41", "eq-46", "eq-47", "eq-49"],
+    })
+
+    # 5. Harness and back protection ----------------------------------------
+    chapters.append({
+        "id": "equip-05-harness",
+        "title": "The harness",
+        "subtitle": "Seat, back protection, attachment geometry",
+        "intro": "Your harness keeps you comfortable for hours, protects you in a hard landing and decides how much information you get from the wing. Three big decisions define its character.",
+        "sourced_from": ["p4-harness-reserve"],
+        "estimated_min": 5,
+        "sections": [
+            {"kind": "h2", "text": "Anatomy of a harness"},
+            {"kind": "p", "text": "Webbing from your shoulders and around your hips and legs converges on two karabiners, one on each side. These karabiners attach to the risers. The leg straps are critical — if they are not fastened, a sudden pitch-up in flight can let you slip out of the seat through the leg openings, with fatal consequences. Always check leg straps on every pre-flight."},
+            {"kind": "image", "deck": "material", "page": 13, "caption": "Standard harness — the classic seated configuration."},
+            {"kind": "image", "deck": "material", "page": 14, "caption": "Hike-and-fly harnesses — lighter, simpler designs."},
+            {"kind": "h2", "text": "Back protection"},
+            {"kind": "p", "text": "Two main systems are used. Foam back protectors work immediately on impact and require no preparation. Airbag systems use ram-air inflation in flight; they are more effective once filled but need time to inflate, so a take-off failure offers little protection. Many modern harnesses combine foam and airbag elements."},
+            {"kind": "h2", "text": "Cross-bracing and attachment geometry"},
+            {"kind": "p", "text": "A heavily cross-braced (lattice) harness is stable in roll and feels reassuring, but it dampens feedback from the wing and reduces the effect of weight steering. A harness with little or no cross-brace gives a livelier feel and easier weight steering at the cost of stability. The choice depends on the pilot's experience and preferred style."},
+            {"kind": "image", "deck": "material", "page": 15, "caption": "Reclined (pod) harnesses — low drag, more twist risk."},
+            {"kind": "p", "text": "Karabiner geometry matters. Karabiners high and close together damp the turbulence transmitted to the wing — useful for relaxed flying. Karabiners low and far apart give the pilot more feedback, less risk of twisting on launch, and a stronger lean forward into the wing. Reclined (pod) harnesses present lower drag but, because the pilot is more horizontal, carry a higher risk of twisting if the wing collapses asymmetrically."},
+            {"kind": "callout", "title": "Harness choices", "items": [
+                "Foam protection: immediate; airbag: more effective but needs inflation time.",
+                "Cross-brace: stable but dampens feedback.",
+                "Karabiners high & close: damps; low & wide: livelier and easier on launch.",
+                "Reclined harness: lower drag, higher twist risk.",
+            ]},
+        ],
+        "quiz": ["eq-6", "eq-11", "eq-18", "eq-30", "eq-43", "eq-45"],
+    })
+
+    # 6. Reserve parachute --------------------------------------------------
+    chapters.append({
+        "id": "equip-06-reserve",
+        "title": "The reserve parachute",
+        "subtitle": "Last-line redundancy",
+        "intro": "A reserve only saves you if it's correctly fitted, regularly repacked, and thrown without hesitation when you need it. Every pilot must know how their own reserve deploys.",
+        "sourced_from": ["p4-harness-reserve"],
+        "estimated_min": 5,
+        "sections": [
+            {"kind": "h2", "text": "Attachment to the harness"},
+            {"kind": "p", "text": "The reserve must attach high on the shoulder straps of the harness so that, when it deploys, it pulls the pilot upright into the suspended position. Attaching the reserve bridle to the riser karabiners instead leaves the pilot seated in the harness — a poor body position for the deceleration and landing roll."},
+            {"kind": "image", "deck": "material", "page": 11, "caption": "Reserve parachute — bridle, container and connection."},
+            {"kind": "image", "deck": "material", "page": 12, "caption": "Reserve parachute — geometry and packing."},
+            {"kind": "h2", "text": "Reserve fabric and target sink"},
+            {"kind": "p", "text": "Reserve fabric is elastic nylon ripstop, unlike the inelastic wing fabric. The elasticity softens the opening shock, which would otherwise injure the pilot. Target sink rate for a deployed reserve is about 5 to 6 m/s — equivalent to dropping from about 1.5 m. The pilot should land with a parachute landing roll (PLF)."},
+            {"kind": "h2", "text": "Pull-down-apex and opening time"},
+            {"kind": "p", "text": "A pull-down apex design (a cord that pulls the centre of the parachute downward in flight) lowers the sink rate but makes the canopy slightly less stable. Opening time improves with: low fabric porosity, short repack intervals, more relative airflow, and smaller canopy area. It worsens with: high porosity, long intervals between repacks, slow airspeed at deployment, and large canopy."},
+            {"kind": "h2", "text": "Repacking"},
+            {"kind": "p", "text": "Repack the reserve every 4 to 6 months, with 24 hours of airing before each repack. The whole system (container, bridle, canopy) must be checked at the same time. Skipping repack intervals is one of the most common causes of slow or failed deployments."},
+            {"kind": "h2", "text": "Deployment sequence"},
+            {"kind": "p", "text": "The standard sequence is: locate the handle, grasp it firmly, pull it fully out of its container, identify free air to the rear, and throw with full force. Once the reserve is open, neutralise the main wing by pulling it toward you on the B or C risers so it does not interfere with the reserve canopy."},
+            {"kind": "callout", "title": "Reserve discipline", "items": [
+                "Attach high on shoulder straps — pilot must hang upright.",
+                "Sink ~5–6 m/s, plan a PLF landing.",
+                "Repack every 4–6 months; 24 h airing each time.",
+                "Sequence: locate → grasp → pull out → look → throw hard.",
+            ]},
+        ],
+        "quiz": ["eq-5", "eq-16", "eq-17", "eq-31", "eq-37", "eq-42"],
+    })
+
+    # 7. Additional equipment and instruments -------------------------------
+    chapters.append({
+        "id": "equip-07-instruments",
+        "title": "Additional equipment and instruments",
+        "subtitle": "Variometer, altimeter, GPS, anemometer",
+        "intro": "A small set of instruments expands your decision-making in flight. Each one has a specific job — and a specific limitation worth knowing.",
+        "sourced_from": ["p4-additional-equipment"],
+        "estimated_min": 4,
+        "sections": [
+            {"kind": "h2", "text": "Altimeter"},
+            {"kind": "p", "text": "An altimeter reads altitude by measuring static air pressure and converting it via the standard atmosphere model. Its setting matters: with QNH it shows altitude above mean sea level; with the standard 1013.25 hPa setting it shows Flight Levels. Because pressure varies day to day, a reading taken in the morning at a high-pressure site will drift as a depression approaches: if the system is weakening, the altitude reading at a fixed location will gradually increase even though you have not moved."},
+            {"kind": "h2", "text": "Variometer"},
+            {"kind": "p", "text": "A variometer tells the pilot the vertical speed — climb or sink — by detecting changes in static pressure over a short time interval. It is the pilot's primary instrument for finding and centring thermals. Modern varios usually include altimeter and GPS functions, audible tones and configurable thresholds."},
+            {"kind": "h2", "text": "Anemometer and GPS"},
+            {"kind": "p", "text": "An anemometer measures wind speed — typically a small handheld used at take-off and landing fields. A GPS gives ground speed, ground track, and (combined with vario data) wind speed and direction in flight. None of these instruments measures airspeed directly on a paraglider — airspeed has to be inferred from the wing's behaviour or estimated from ground speed and known wind."},
+            {"kind": "callout", "title": "Instrument basics", "items": [
+                "Altimeter: from static pressure; check the setting.",
+                "Variometer: vertical speed; thermals up, sink down.",
+                "Anemometer: handheld wind speed at take-off/landing.",
+                "GPS: ground speed and track; airspeed must be inferred.",
+            ]},
+        ],
+        "quiz": ["eq-10", "eq-29", "eq-35", "eq-44", "eq-30"],
+    })
+
+    # 8. Certification and recommendations ----------------------------------
+    chapters.append({
+        "id": "equip-08-certification",
+        "title": "Certification and care",
+        "subtitle": "Categories, EN homologation and routine checks",
+        "intro": "Certification labels are not marketing — they tell you what the wing has been tested for, and what experience it expects from you.",
+        "sourced_from": ["p4-certification"],
+        "estimated_min": 4,
+        "sections": [
+            {"kind": "h2", "text": "Paraglider categories"},
+            {"kind": "p", "text": "Paragliders are grouped into categories that reflect the demands they make on the pilot. EN A wings are the most forgiving — designed for school use and beginners, with self-correcting behaviour after most disturbances. EN B wings are aimed at recreational pilots after their licence. EN C is for more experienced pilots — quicker, more demanding, more useful performance. EN D and CCC are competition-class wings that require both training and recurrent currency."},
+            {"kind": "image", "deck": "material", "page": 3, "caption": "Paraglider categories — from school wings to competition."},
+            {"kind": "image", "deck": "material", "page": 4, "caption": "EN homologation — the European certification scheme."},
+            {"kind": "h2", "text": "What EN testing actually does"},
+            {"kind": "p", "text": "EN homologation is a test programme in which the wing is subjected to a standardised series of manoeuvres — collapses, stalls, spirals — and graded on its recovery behaviour from A (most docile) to D (demanding). The certification applies to a specific wing model, size and weight range; flying outside the certified weight range invalidates the certification. Certification tells the buyer about the wing's behaviour in tested manoeuvres — not its performance or its absolute safety."},
+            {"kind": "image", "deck": "material", "page": 5, "caption": "The road to certification — what a wing goes through."},
+            {"kind": "h2", "text": "Who decides what"},
+            {"kind": "p", "text": "The EN standard itself is set at the European level. In Switzerland, the SHV / FSVL sets additional national norms for SHV-certified types. Wing inspection intervals are specified by the manufacturer, typically every 24 months or every 200 flight hours, whichever comes first. The owner is responsible for having inspections done on time."},
+            {"kind": "h2", "text": "General care"},
+            {"kind": "p", "text": "Stress is highest on the equipment during launches, hard landings, and extreme manoeuvres. Repeated heavy launches concentrate wear on the cell walls near the line attachments. Trim-tabs released in stable flight have a small effect on the wing's behaviour; engaged, they reduce collapse-proneness but lower top speed."},
+            {"kind": "image", "deck": "material", "page": 20, "caption": "Stress on the equipment — where wear concentrates."},
+            {"kind": "callout", "title": "Certification reminders", "items": [
+                "EN A → D + CCC, with rising pilot demands.",
+                "Certification = recovery behaviour in tested manoeuvres, not absolute safety.",
+                "Must fly inside the wing's weight range to keep certification valid.",
+                "Owner is responsible for inspections at manufacturer's intervals.",
+            ]},
+        ],
+        "quiz": ["eq-25", "eq-27", "eq-28", "eq-1", "eq-2", "eq-7"],
+    })
+
+    return {
+        "id": "equip",
+        "category": "Equipment",
+        "title": "Equipment",
+        "icon": "🎒",
+        "subtitle": "Wing, lines, risers, harness, reserve, instruments and certification.",
+        "chapters": chapters,
+    }
+
+
+def skills_book() -> dict:
+    chapters = []
+
+    # 1. Physiology, hypoxia, wind chill, first aid -------------------------
+    chapters.append({
+        "id": "skills-01-physiology",
+        "title": "Physiology and first aid",
+        "subtitle": "Hypoxia, wind chill and the ABC of rescue",
+        "intro": "Free flight puts a small but unfamiliar set of demands on the human body. Knowing the warning signs of hypoxia, the cost of wind chill, and the standard accident response can save your life or a friend's.",
+        "sourced_from": ["p5-physiology"],
+        "estimated_min": 5,
+        "sections": [
+            {"kind": "h2", "text": "Hypoxia"},
+            {"kind": "p", "text": "Three forms of hypoxia matter for pilots. Instantaneous hypoxia begins from about 4000 m AMSL: the first symptom is often euphoria — followed by fatigue, slowed thinking, convulsions, coma and death by about 7000 m. Acute mountain sickness develops over 5 to 10 hours after climbing to 2800–3500 m: headache, nausea, occasional edema. Chronic hypoxia is the adaptation seen in long-term high-altitude residents — not the pilot's problem."},
+            {"kind": "p", "text": "The treatment for hypoxia is one thing only: lose altitude rapidly. Sensitivity is increased by lack of fitness, medication, alcohol, tobacco, fatigue and lack of sleep. It is reduced by endurance training and by gradual acclimatisation over days to weeks. A healthy resting body can typically adapt to changes up to about 4000 m AMSL without issue."},
+            {"kind": "h2", "text": "Pressure equalisation"},
+            {"kind": "p", "text": "Sinus and ear pressure pain during altitude change occur when the Eustachian tubes cannot equalise pressure — typically because of a cold, sinusitis or ear infection. A pilot flying with a heavy cold and middle-ear infection risks barotrauma, severe pain and damage to the eardrum."},
+            {"kind": "h2", "text": "Wind chill and hydration"},
+            {"kind": "p", "text": "Long exposure to airflow accelerates the body's heat loss far beyond the air temperature alone. At 32 km/h flight speed in 2 °C ambient air, the wind chill on exposed skin is equivalent to a still-air temperature of about –11 °C. Heat loss raises oxygen consumption and lowers physical and mental performance. Airflow also accelerates fluid loss — hydrate properly during long flights."},
+            {"kind": "h2", "text": "Accident response: ABC"},
+            {"kind": "p", "text": "The standard sequence at an accident site is Airway, Breathing, Circulation — check whether the casualty is conscious, breathing and bleeding. Suspect a spinal injury whenever there is back pain or limb numbness: in those cases, do not move the casualty, since wrong handling can cause permanent paralysis. An unconscious casualty who is breathing should be placed in the recovery position to prevent inhalation of vomit."},
+            {"kind": "p", "text": "Signs of severe shock include pale skin, bluish lips, cold sweat, weak rapid pulse and partial unresponsiveness. For helicopter rescue, all flying activity in the area must stop and any loose fabric (paragliders, clothing) must be cleared from the landing zone before approach."},
+            {"kind": "callout", "title": "Physiology key points", "items": [
+                "Hypoxia from ~4000 m — first sign often euphoria; treat by descending.",
+                "Fly with a head cold = barotrauma risk.",
+                "32 km/h in 2 °C ≈ –11 °C wind chill.",
+                "ABC; immobilise suspected spine injuries; recovery position for unconscious breathing.",
+            ]},
+        ],
+        "quiz": ["prc-14", "prc-20", "prc-25", "prc-45", "prc-56"],
+    })
+
+    # 2. Flight preparation: at home and on site ----------------------------
+    chapters.append({
+        "id": "skills-02-flight-preparation",
+        "title": "Flight preparation",
+        "subtitle": "Weather, airspace, terrain and wildlife — at home and on site",
+        "intro": "Pilots like to say a flight begins at the kitchen table. Four areas need to be checked before you leave home, and the inspection continues at the take-off and landing fields.",
+        "sourced_from": ["p5-flight-preparation"],
+        "estimated_min": 5,
+        "sections": [
+            {"kind": "h2", "text": "Four pre-flight factors"},
+            {"kind": "p", "text": "Good preparation at home covers four areas: weather (synoptic, local forecast, expected wind and instability), legal and airspace situation (active LS-R, DABS, MIL hours), obstacles and terrain (cables, antennas, terrain steepness, alternate landings), and wildlife (nesting areas, seasonal restrictions). All four are interconnected — a weather change can suddenly make a previously safe landing into a hazardous one."},
+            {"kind": "image", "deck": "flugpraxis", "page": 3, "caption": "Flight preparation at home — weather, airspace, terrain, wildlife."},
+            {"kind": "h2", "text": "QNH and pressure"},
+            {"kind": "p", "text": "QNH is the sea-level-corrected pressure reading reported by an airport. For example, Zurich-Kloten at 432 m AMSL might read 950 hPa actual but 1015 hPa QNH. A pressure difference between stations indicates the slope of the isobars — a north-south difference between Zurich and Lugano of more than 4 hPa, with higher pressure in the north, is the classic threshold for Nordföhn risk in Ticino. Higher pressure in the south is the threshold for Südföhn risk in the north of the Alps."},
+            {"kind": "h2", "text": "Documents and bulletins"},
+            {"kind": "p", "text": "The most important reference documents for flight planning are the Swiss Glider Chart (airspaces, hours, frequencies, cable obstacles), the AIP, the VFR-NOTAM (active CTRs/TMAs), the KOSIF (military shooting) and the DABS. None of them replaces the others — each carries information the others do not."},
+            {"kind": "h2", "text": "On site at the flying area"},
+            {"kind": "p", "text": "On arrival, pre-inspect the take-off and landing fields, identify possible landing wind directions, and note all obstacles. No flight registration is required, but you should be familiar with the cable and antenna positions, ridge profile and obstacles that may channel wind. Many pilots like to say the flight starts at the landing field, because that is where you assess wind, traffic and alternate options before going up to launch."},
+            {"kind": "image", "deck": "flugpraxis", "page": 4, "caption": "The flight starts at the landing field — assess wind and obstacles first."},
+            {"kind": "image", "deck": "flugpraxis", "page": 5, "caption": "The flight starts at the launch — final inspection and pre-flight check."},
+            {"kind": "h2", "text": "Respecting wildlife"},
+            {"kind": "p", "text": "Golden eagles in the Alps nest between March and May. Avoid flying near nesting cliffs in spring. A territorial golden eagle marks its area with a characteristic undulating flight. Eagles mature at five years and remain monogamous for life, defending a territory of about 100 km². Chamois and ibex live on south slopes in winter and spring and retreat to shaded cliffs in summer — keep distance especially in cold months when energy reserves are critical."},
+            {"kind": "h2", "text": "The main danger"},
+            {"kind": "p", "text": "Across years of accident data, the strongest and most prevalent danger for paraglider pilots is strong wind combined with turbulence — especially in alpine terrain. Conservative wind limits, early decisions and the willingness to walk down are the single most important habits of long-flying pilots."},
+            {"kind": "callout", "title": "Preparation crib", "items": [
+                "Check weather, airspace, obstacles, wildlife — all four.",
+                "QNH 1015 = pressure reported at sea-level reference.",
+                "Δp Zurich–Lugano > 4 hPa = Föhn risk.",
+                "Eagles nest Mar–May; chamois/ibex on south slopes Dec–Apr.",
+            ]},
+        ],
+        "quiz": ["prc-40", "prc-50", "prc-59", "prc-62", "prc-63"],
+    })
+
+    # 3. Take-off: pre-flight check & the three-phase launch ----------------
+    chapters.append({
+        "id": "skills-03-takeoff-check-launch",
+        "title": "Pre-flight check and the three-phase launch",
+        "subtitle": "Five points, then inflate, check, accelerate",
+        "intro": "More incidents happen on launch than in any other phase of flight. A disciplined five-point check and the three-phase launch sequence remove most of the guesswork.",
+        "sourced_from": ["p5-take-off"],
+        "estimated_min": 5,
+        "sections": [
+            {"kind": "h2", "text": "Five-point pre-flight check"},
+            {"kind": "p", "text": "The five-point check must be performed in order, every flight. First, equipment: harness leg straps closed, chest strap closed, helmet, reserve handle in place. Second, risers and lines: lines untwisted and free, brake handles in hand, risers correctly attached. Third, wing: shape correct, no twists, leading edge open. Fourth, wind: direction, speed, gusts and consistency. Fifth, airspace: take-off and approach lanes clear of other traffic."},
+            {"kind": "image", "deck": "flugpraxis", "page": 6, "caption": "The five-point pre-flight check — in this order, every flight."},
+            {"kind": "h2", "text": "Laying out the wing"},
+            {"kind": "p", "text": "Lay the wing in a slight arc, not a straight line, so that the centre lines tension first when you raise it. This gives a symmetric inflation. Sort the lines so that brakes are accessible and risers are not crossed. In strong wind, lay out smaller and more carefully — strong wind launches succeed or fail in the first second."},
+            {"kind": "h2", "text": "Three-phase launch"},
+            {"kind": "p", "text": "Every paraglider launch has the same three phases. Phase 1: inflation and raising the wing — pull the A risers to inflate the cells, let the wing come up overhead. Phase 2: check and correct — verify the wing is symmetric, level, fully inflated, and that no lines are knotted. Phase 3: accelerate and lift off — commit forward, accelerate to take-off speed, and let the wing lift you off."},
+            {"kind": "image", "deck": "flugpraxis", "page": 7, "caption": "Three-phase launch — inflate, check, accelerate."},
+            {"kind": "h2", "text": "Decision line and life line"},
+            {"kind": "p", "text": "Each launch slope has two virtual lines. The decision line is the last point at which you can comfortably abort: if the wing is not right by this point, stop. The point of no return — sometimes called the life line — is the last point before you must be airborne; beyond it, you cannot safely stop. Make the abort decision before phase 3 begins."},
+            {"kind": "h2", "text": "Wind for take-off"},
+            {"kind": "p", "text": "Ideal headwind for a forward launch is around 15 km/h. A light tailwind of more than 5 km/h should normally cause an abort: ground speed is too high for safe ground handling and insufficient relative airflow for the wing. A sidewind requires inflating the wing into the wind and then pivoting toward the slope. Strong headwind, 20 to 25 km/h, calls for a reverse (back-to-slope) launch; be aware of cliffs or steep drops behind you — strong wind can pull you backward."},
+            {"kind": "callout", "title": "Launch discipline", "items": [
+                "Five-point check in order: equipment, risers/lines, wing, wind, airspace.",
+                "Arc layout; centre lines tension first.",
+                "Phases 1→2→3: inflate → check → accelerate.",
+                "Abort decision before phase 3.",
+            ]},
+        ],
+        "quiz": ["prc-3", "prc-7", "prc-19", "prc-23", "prc-26", "prc-38", "prc-83"] if False else ["prc-3", "prc-7", "prc-19", "prc-23", "prc-26", "prc-38"],
+    })
+
+    # 4. Take-off — special conditions, after take-off, knots ---------------
+    chapters.append({
+        "id": "skills-04-takeoff-special",
+        "title": "Take-off — special conditions",
+        "subtitle": "Wet wing, altitude, knots and after take-off",
+        "intro": "A normal launch follows a predictable script. Wet wings, thin air or a hidden line knot rewrite that script — and the response has to be in your muscle memory.",
+        "sourced_from": ["p5-take-off"],
+        "estimated_min": 4,
+        "sections": [
+            {"kind": "h2", "text": "Wet wing"},
+            {"kind": "p", "text": "A wet wing weighs several kg more than a dry one. It is harder to inflate, needs a longer run and is more prone to stall during the take-off run. Its stability characteristics in stable flight, however, are not significantly changed once you are airborne. Avoid launching a wet wing in marginal conditions: the stall risk is concentrated in the launch and first seconds of flight."},
+            {"kind": "h2", "text": "High-altitude take-off"},
+            {"kind": "p", "text": "Air is thinner at altitude. To generate the same lift the wing needs a higher airspeed — which means a faster run and a longer take-off distance. Plan for it: choose a steeper slope, accept a longer ground roll, and do not over-brake on lift-off."},
+            {"kind": "h2", "text": "Knots in the lines"},
+            {"kind": "p", "text": "A knot on the rear (D) lines raises the angle of attack on the affected side. The wing turns toward the knotted side and the affected side is close to stall: the consequence is a risk of full or parachutal stall on that side. To fly straight you must brake hard on the opposite side — and even then the wing may behave unpredictably."},
+            {"kind": "p", "text": "A knot on the front (A) lines reduces the angle of attack on that side. The wing is prone to collapse on the affected side. The consequence is a sudden asymmetric collapse soon after launch, with a turn toward the knotted side."},
+            {"kind": "h2", "text": "After take-off"},
+            {"kind": "p", "text": "Once you are airborne, wait until you are safely clear of the slope before releasing the brakes to slide back into the seated position of the harness. Sliding into the harness near terrain leaves no time to recover from a turbulence event. Maintain straight flight away from the launch and look around for other traffic before you turn."},
+            {"kind": "image", "deck": "flugpraxis", "page": 8, "caption": "After take-off — clear the slope before relaxing into the harness."},
+            {"kind": "callout", "title": "Special-case rules", "items": [
+                "Wet wing: heavier, longer run, more stall-prone on take-off.",
+                "High altitude: longer run, higher airspeed needed.",
+                "D-knot → turns toward knot, stall side.",
+                "A-knot → turns toward knot, collapse side.",
+            ]},
+        ],
+        "quiz": ["prc-8", "prc-19", "prc-7", "prc-34", "prc-3"],
+    })
+
+    # 5. Range, speed-to-fly, lateral drift ---------------------------------
+    chapters.append({
+        "id": "skills-05-range-and-drift",
+        "title": "Range, speed-to-fly and lateral drift",
+        "subtitle": "Going far, staying up, holding a track",
+        "intro": "Once airborne, every decision is a trade-off between airtime, distance and drift. Polar logic and the crab angle are the tools that make those decisions almost automatic.",
+        "sourced_from": ["p5-range-optimization"],
+        "estimated_min": 5,
+        "sections": [
+            {"kind": "h2", "text": "Far vs long"},
+            {"kind": "p", "text": "To fly the farthest in calm air, fly at maximum glide ratio — usually arms up, occasionally a very light brake. To stay airborne the longest, fly at minimum sink — typically 20–30 percent brake. Maximum distance equals glide ratio multiplied by altitude lost: a glide ratio of 6 from 1200 m gives 7.2 km."},
+            {"kind": "image", "deck": "flugpraxis", "page": 13, "caption": "Flight technique — speeds for each objective."},
+            {"kind": "h2", "text": "Aerodynamic position"},
+            {"kind": "p", "text": "Pilot drag is a significant fraction of total system drag. The best aerodynamic position is reclined, with arms down behind the risers, elbows in close to the body, and legs symmetric and tucked. Crossed or extended legs add drag and reduce glide ratio. The position matters most at speed — when flying fast, your shape is a major contributor to total drag."},
+            {"kind": "h2", "text": "Speed-to-fly in wind and lift"},
+            {"kind": "p", "text": "In headwind or sinking air, fly faster — apply moderate accelerator — to retain a reasonable glide ratio over the ground. In tailwind, fly slower (light brake). In rising air, fly minimum sink to maximise the time spent in the lift. These four rules summarise everything in the speed-polar chapter applied to the real conditions you meet."},
+            {"kind": "h2", "text": "Crab angle"},
+            {"kind": "p", "text": "Crosswind pushes the wing sideways. To track a chosen line over the ground you must angle the wing's heading slightly into the wind — the crab angle. The stronger the crosswind, the larger the crab angle required. The higher your airspeed, the smaller the crab angle needed for a given wind. Always set the crab angle; do not chase the heading by repeatedly correcting it."},
+            {"kind": "image", "deck": "flugpraxis", "page": 9, "caption": "Dog leg path and the crab angle — flying with crosswind."},
+            {"kind": "h2", "text": "Thermalling and wind"},
+            {"kind": "p", "text": "Thermal columns drift downwind. The best lift is found upwind of the visible cumulus marker, while the strongest sink is downwind of it. When circling in a thermal, the climb rate changes around the circle: if it is increasing, ease the turn; if it is decreasing, tighten it. If you lose the thermal entirely, a sharp 180° turn back to where it was usually re-finds it."},
+            {"kind": "p", "text": "You can estimate the wind speed from your drift while circling: a drift of 3 km in 10 minutes corresponds to a wind of about 18 km/h. On cross-country flights, only leave a thermal once the next target is chosen and you have enough altitude to reach it. Wake turbulence (wingtip vortices) trails any glider — be careful when flying close behind another, especially near the ground."},
+            {"kind": "callout", "title": "Speed to fly and drift", "items": [
+                "Far → max glide; long → min sink.",
+                "Headwind/sink: faster. Tailwind/lift: slower.",
+                "Crab angle grows with crosswind, shrinks with airspeed.",
+                "Climb increasing → ease turn; decreasing → tighten.",
+            ]},
+        ],
+        "quiz": ["prc-1", "prc-2", "prc-16", "prc-22", "prc-24", "prc-27", "prc-39", "prc-43", "prc-44", "prc-46", "prc-48", "prc-52", "prc-53", "prc-54", "prc-58", "prc-60"],
+    })
+
+    # 6. Ridge soaring and thermalling --------------------------------------
+    chapters.append({
+        "id": "skills-06-soaring",
+        "title": "Ridge soaring and thermalling",
+        "subtitle": "The two main ways to stay up",
+        "intro": "Soaring is what makes the sport. Two situations dominate: lift along a ridge, and rising bubbles of warm air. The geometry and the rules are different — and so are the dangers.",
+        "sourced_from": ["p5-range-optimization"],
+        "estimated_min": 4,
+        "sections": [
+            {"kind": "h2", "text": "Ridge soaring"},
+            {"kind": "p", "text": "Wind hitting a ridge is forced upward; if it is strong enough and the ridge is steep enough, the lift is great enough to sustain a glider. The pilot flies back and forth along the ridge in the lift band on the windward side. The key rule: always turn away from the ridge into the wind — never turn toward the ridge, where loss of altitude could put you into rotor or rock."},
+            {"kind": "image", "deck": "flugpraxis", "page": 14, "caption": "Ridge soaring — fly the windward face, turn into the wind."},
+            {"kind": "p", "text": "Right-of-way at the ridge is governed by a simple rule: the aircraft with the ridge on its right has priority. The other pilot must yield by turning away."},
+            {"kind": "h2", "text": "Thermalling"},
+            {"kind": "p", "text": "A thermal is a column or bubble of warmer air rising from the ground. A pilot finds one, banks the wing and circles inside it, using the climb to gain altitude. Climb rate is rarely uniform around the circle — adjust by tightening or easing the turn as described in the previous chapter. Use a moderate bank angle: too flat and you lose contact with the core; too steep and load factor climbs (with stall risk on the inside wingtip)."},
+            {"kind": "image", "deck": "flugpraxis", "page": 15, "caption": "Thermalling — circle the column of rising air."},
+            {"kind": "p", "text": "In an occupied thermal, all gliders circle the same way — the direction chosen by the first pilot to enter. Joining in the opposite direction is forbidden and is the cause of most thermal collisions. Watch other pilots inside and outside the thermal at all times."},
+            {"kind": "callout", "title": "Soaring discipline", "items": [
+                "Ridge: turn AWAY from the ridge, into the wind.",
+                "Ridge right-of-way: ridge on your right = priority.",
+                "Thermal: same direction as the first arrival.",
+                "Watch climb rate around the circle — ease or tighten.",
+            ]},
+        ],
+        "quiz": ["prc-15", "prc-39", "prc-48", "prc-53", "prc-54"],
+    })
+
+    # 7. Flight incidents and recovery --------------------------------------
+    chapters.append({
+        "id": "skills-07-incidents-recovery",
+        "title": "Flight incidents and recovery",
+        "subtitle": "Collapses, stalls, spirals and parachutal flight",
+        "intro": "Every paraglider pilot meets turbulence-induced collapses sooner or later. Knowing what each event looks like and exactly how to respond is the difference between a corrected incident and an accident.",
+        "sourced_from": ["p5-flight-patterns"],
+        "estimated_min": 6,
+        "sections": [
+            {"kind": "h2", "text": "Spiral dive"},
+            {"kind": "p", "text": "A spiral dive is a sequence of tight 360s that produces a very rapid loss of altitude without deforming the wing. It is a controlled descent — but at high G-forces, with a real risk of blackout (visual greyout from blood pooling). Exit by applying outside brake and shifting body weight toward the outside of the turn."},
+            {"kind": "image", "deck": "flugpraxis", "page": 16, "caption": "Manoeuvres and rapid-descent techniques."},
+            {"kind": "h2", "text": "Big ears"},
+            {"kind": "p", "text": "Big ears are made by pulling the outer A lines on each side symmetrically. The wingtips collapse inward, reducing area and increasing sink to 3–4 m/s while keeping horizontal flight. There is no load factor increase. On release, the wing returns to normal flight, with a slight parachutal stall risk during the transition. Combined with the speed bar, big ears give an even faster descent."},
+            {"kind": "h2", "text": "B-stall"},
+            {"kind": "p", "text": "Pulling the B risers symmetrically breaks the airflow on the upper surface; the wing stops flying horizontally and descends nearly vertically at over 5 m/s. There is no load factor increase. The exit must be quick and decisive: release the B risers fully — slowly releasing them creates a parachutal stall risk that can be hard to exit, especially close to the ground."},
+            {"kind": "h2", "text": "Full stall and parachutal stall"},
+            {"kind": "p", "text": "A full stall (brakes pulled too far) makes the wing lose its arch and deflate — extremely dangerous and only to be practised over water under SIV instruction. A parachutal stall is a state in which the wing keeps its shape but no air flows on the leading edge: brakes feel slack, lower surface goes slightly concave, vertical descent is high but airspeed is almost zero. Recover by pulling the A risers to surge into normal flight; near the ground, prepare for a parachute landing."},
+            {"kind": "h2", "text": "Spin vs twist"},
+            {"kind": "p", "text": "A spin is a yaw rotation in which one half-wing goes backward — usually triggered by over-braking on the inside of a turn. Its signature is a sudden drop in brake tension on the inside. Recover by raising both arms fully. A twist is different: the pilot rotates relative to the wing — there is no flying problem with the wing itself, but you may be unable to steer until you untwist."},
+            {"kind": "h2", "text": "Collapses"},
+            {"kind": "p", "text": "An asymmetric (lateral) collapse: the wing turns toward the collapsed side. Compensate with brake on the open side and shift weight to the open side as well; too much brake on the open side can spin it. A frontal collapse: the leading edge is pushed in across most of the span. Pull and release both brakes briefly to re-inflate. If the pilot does nothing after a collapse of more than 50 percent of the span, the wing will typically turn into a spiral with continuing altitude loss."},
+            {"kind": "h2", "text": "Pendular dynamics and reserve"},
+            {"kind": "p", "text": "After a violent exit (extreme brake release after a stall, exit from a deep spiral) the wing first falls behind the pilot — at this moment release the brakes to avoid restalling — and then surges forward. The surge is checked with a brief but firm brake input to prevent a frontal collapse. The whole pendulum may take more than one swing to damp out."},
+            {"kind": "p", "text": "Reserve deployment is indicated when the wing is uncontrollable or after a collision. Throw the reserve, then pull the B or C lines on the main wing to stop it from flying and tangling with the reserve. Sink rate under reserve is about 5–6 m/s — equivalent to a 1.5 m drop — and you should land with a parachute landing roll."},
+            {"kind": "image", "deck": "flugpraxis", "page": 17, "caption": "Reserve parachute — your second chance."},
+            {"kind": "callout", "title": "Incident matrix", "items": [
+                "Spiral → outside brake + weight outside; blackout risk.",
+                "Big ears → outer A; sink 3–4 m/s, no G.",
+                "B-stall → both B risers; release quickly.",
+                "Asymmetric → brake & weight on open side; frontal → brake-release pulse.",
+            ]},
+        ],
+        "quiz": ["prc-4", "prc-6", "prc-11", "prc-18", "prc-30", "prc-31", "prc-32", "prc-33", "prc-35", "prc-36", "prc-41", "prc-47", "prc-49", "prc-51", "prc-55"],
+    })
+
+    # 8. Landing -----------------------------------------------------------
+    chapters.append({
+        "id": "skills-08-landing",
+        "title": "Landing",
+        "subtitle": "Volte, final approach, height correction",
+        "intro": "Every flight ends with a landing. The U-pattern approach is standard for a reason: it gives you a stable view of the wind, the field and your own height all the way down to the flare.",
+        "sourced_from": ["p5-landing"],
+        "estimated_min": 5,
+        "sections": [
+            {"kind": "h2", "text": "The volte (U-approach)"},
+            {"kind": "p", "text": "The volte has four phases. Phase 1: descending 360° turns upwind or beside the landing field until you reach about 50–70 m. Phase 2: a downwind leg parallel to the field. Phase 3: a crosswind base leg. Phase 4: a final approach into the wind to the touchdown point. By convention the pattern is left-hand; the spirals in phase 1 also follow the volte direction."},
+            {"kind": "image", "deck": "flugpraxis", "page": 10, "caption": "Landing circuit — descending spirals into the volte."},
+            {"kind": "image", "deck": "flugpraxis", "page": 11, "caption": "Landing circuit — the four phases of the U pattern."},
+            {"kind": "h2", "text": "Where to look"},
+            {"kind": "p", "text": "Throughout the approach the eyes are fixed on the landing target. Only brief glances are spent checking obstacles. Fixating on a single obstacle is a known cause of accidents — the wing tends to fly to where you are looking."},
+            {"kind": "h2", "text": "Adjusting height"},
+            {"kind": "p", "text": "If you are too high on the downwind leg, enlarge the crosswind base. If too low, shorten it. On final, too high: apply brakes and stand up to add drag — but watch out, over 80 percent brake risks a parachutal stall close to the ground. Too low on final: arms up for maximum glide, and brake only just before touchdown."},
+            {"kind": "h2", "text": "Strong wind, slope and difficult fields"},
+            {"kind": "p", "text": "Headwind makes the approach steeper but the ground speed lower — an easier landing. Tailwind has the opposite effect: flatter approach, higher ground speed — much harder, and to be avoided whenever possible. On a strong-wind landing (25 km/h or more) the priority after touchdown is to face the wing and collapse it: turn 180° to face the wing, run downwind toward it, and pull on the B or C risers to take its lift away. Never brake hard on landing in strong wind — the lift increase can drag you backward."},
+            {"kind": "p", "text": "On sloping ground, land perpendicular to the slope contour or parallel to it. A landing facing straight up the slope is too brutal and risks injury. Avoid obstacles upwind of the landing field — mechanical turbulence from a building, line of trees or hangar extends many times the obstacle's height downwind."},
+            {"kind": "image", "deck": "flugpraxis", "page": 12, "caption": "Special landing situations — slope, water, trees."},
+            {"kind": "h2", "text": "Multiple gliders and emergency landings"},
+            {"kind": "p", "text": "When several gliders approach the same landing field, the first (lowest) pilot picks the direction — by convention left. All following pilots must copy that direction, even if it feels 'wrong', to avoid collisions. After landing, leave the field immediately to make room for the next pilot."},
+            {"kind": "p", "text": "Emergency landing priorities, best to worst: tree, sloped roof, water. Tree landings: stay roped or secured until rescue — falling from branches is the leading cause of injury after a tree landing. Water unavoidable: unclip the harness before touching the water."},
+            {"kind": "callout", "title": "Landing rules", "items": [
+                "Eyes on the target; brief checks for obstacles.",
+                "Too high: enlarge base. Too low: shorten base.",
+                "Strong wind on touchdown: face the wing and collapse it.",
+                "Emergencies: tree > sloped roof > water; unclip before water contact.",
+            ]},
+        ],
+        "quiz": ["prc-5", "prc-9", "prc-10", "prc-12", "prc-13", "prc-17", "prc-21", "prc-28", "prc-29", "prc-34", "prc-37", "prc-42", "prc-57", "prc-61"],
+    })
+
+    return {
+        "id": "skills",
+        "category": "Flight Practice",
+        "title": "Flight Practice",
+        "icon": "🪂",
+        "subtitle": "Physiology, preparation, take-off, soaring, incidents and landing.",
+        "chapters": chapters,
+    }
+
+
+# ---------------------------------------------------------------------------
+# Validation and writer
+# ---------------------------------------------------------------------------
+
+def validate(workbook: dict) -> tuple[list[str], dict]:
+    errors: list[str] = []
+    stats = {
+        "books": 0,
+        "chapters": 0,
+        "images": 0,
+        "quiz_refs": 0,
+        "unique_quiz": set(),
+        "unique_sourced": set(),
+        "unique_image_keys": set(),
+        "word_counts": [],
+    }
+
+    with open(GUIDE_PATH) as f:
+        guide = json.load(f)
+    with open(DECKS_PATH) as f:
+        decks = json.load(f)
+    with open(CARDS_PATH) as f:
+        cards = json.load(f)
+
+    valid_chapter_ids = set(guide.keys())
+    valid_deck_pages = {(d, s["page"]) for d, ss in decks.items() for s in ss}
+    valid_cards_by_cat = {cat: {c["id"] for c in items} for cat, items in cards.items()}
+
+    for book in workbook["books"]:
+        stats["books"] += 1
+        cat = book["category"]
+        if cat not in valid_cards_by_cat:
+            errors.append(f"Book {book['id']}: category {cat!r} not in cards")
+            continue
+        for ch in book["chapters"]:
+            stats["chapters"] += 1
+            for sf in ch["sourced_from"]:
+                if sf not in valid_chapter_ids:
+                    errors.append(f"{ch['id']}: bad sourced_from {sf!r}")
+                stats["unique_sourced"].add(sf)
+            # Count words in p text only
+            words = 0
+            for sec in ch["sections"]:
+                k = sec["kind"]
+                if k == "p":
+                    words += len(sec["text"].split())
+                elif k == "image":
+                    stats["images"] += 1
+                    key = (sec["deck"], sec["page"])
+                    if key not in valid_deck_pages:
+                        errors.append(f"{ch['id']}: image {key} not in decks")
+                    stats["unique_image_keys"].add(key)
+            stats["word_counts"].append((ch["id"], words))
+            for q in ch["quiz"]:
+                stats["quiz_refs"] += 1
+                stats["unique_quiz"].add(q)
+                if q not in valid_cards_by_cat.get(cat, set()):
+                    errors.append(f"{ch['id']}: quiz card {q!r} not in category {cat!r}")
+
+    return errors, stats
+
+
+def main() -> int:
+    workbook = {
+        "books": [
+            aero_book(),
+            meteo_book(),
+            law_book(),
+            equip_book(),
+            skills_book(),
+        ],
+    }
+
+    errors, stats = validate(workbook)
+
+    # Coverage reports
+    with open(GUIDE_PATH) as f:
+        guide_ids = set(json.load(f).keys())
+    with open(CARDS_PATH) as f:
+        all_card_ids = {c["id"] for items in json.load(f).values() for c in items}
+
+    missing_guide = guide_ids - stats["unique_sourced"]
+    missing_cards = all_card_ids - stats["unique_quiz"]
+
+    print("=== validation ===")
+    if errors:
+        print(f"ERRORS: {len(errors)}")
+        for e in errors:
+            print("  -", e)
+    else:
+        print("no reference errors")
+
+    print("\n=== stats ===")
+    print(f"books          : {stats['books']}")
+    print(f"chapters       : {stats['chapters']}")
+    print(f"image refs     : {stats['images']}")
+    print(f"distinct slides: {len(stats['unique_image_keys'])}")
+    print(f"quiz refs      : {stats['quiz_refs']}")
+    print(f"unique cards   : {len(stats['unique_quiz'])} / {len(all_card_ids)}")
+    print(f"sourced guides : {len(stats['unique_sourced'])} / {len(guide_ids)}")
+    print(f"missing guides : {sorted(missing_guide)}")
+    print(f"missing cards  : {sorted(missing_cards)}")
+    print("\n=== chapter word counts ===")
+    for cid, w in stats["word_counts"]:
+        flag = ""
+        if w < 380:
+            flag = "  SHORT"
+        elif w > 1050:
+            flag = "  LONG"
+        print(f"  {cid:40s} {w:4d} words{flag}")
+
+    if errors:
+        return 1
+
+    OUT_PATH.parent.mkdir(parents=True, exist_ok=True)
+    with open(OUT_PATH, "w") as f:
+        json.dump(workbook, f, indent=2, ensure_ascii=False)
+    print(f"\nwrote {OUT_PATH}")
+    return 0
+
+
+if __name__ == "__main__":
+    sys.exit(main())

@@ -26,7 +26,16 @@ const DEFAULT_STATE = {
   // guide
   guide: { partId: null, chapterId: null },
   // slide decks (Freewings)
-  slides: { deckId: null, page: 1 }
+  slides: { deckId: null, page: 1 },
+  // workbook
+  workbook: {
+    bookId: null,
+    chapterId: null,
+    completed: {},      // {chapterId: {readAt, quizScore, quizTotal, quizAnswers:{cardId: pickedIdx}}}
+    quizActive: false,  // true when in the quiz panel of the current chapter
+    quizIdx: 0,         // current question within the quiz
+    quizChoices: {}     // {cardId: [4 strings]} cached for current chapter
+  }
 };
 
 let state = loadState();
@@ -42,7 +51,8 @@ function loadState() {
       fc: { ...DEFAULT_STATE.fc, ...(parsed.fc || {}) },
       exam: { ...DEFAULT_STATE.exam, ...(parsed.exam || {}) },
       guide: { ...DEFAULT_STATE.guide, ...(parsed.guide || {}) },
-      slides: { ...DEFAULT_STATE.slides, ...(parsed.slides || {}) }
+      slides: { ...DEFAULT_STATE.slides, ...(parsed.slides || {}) },
+      workbook: { ...DEFAULT_STATE.workbook, ...(parsed.workbook || {}), completed: { ...(parsed.workbook && parsed.workbook.completed || {}) } }
     };
   } catch { return JSON.parse(JSON.stringify(DEFAULT_STATE)); }
 }
@@ -72,6 +82,12 @@ function getCards() { return window.CARDS || []; }
 function getGuide() { return window.GUIDE || { parts: [] }; }
 function getTipsMd() { return window.TIPS_MD || ''; }
 function getDecks() { return (window.DECKS && window.DECKS.decks) || []; }
+function getWorkbook() { return (window.WORKBOOK && window.WORKBOOK.books) || []; }
+function getBookById(id) { return getWorkbook().find(b => b.id === id); }
+function getChapterById(bookId, chapterId) {
+  const b = getBookById(bookId);
+  return b && b.chapters.find(c => c.id === chapterId);
+}
 function getDeckById(id) { return getDecks().find(d => d.id === id); }
 function getDeckByCategory(cat) { return getDecks().find(d => d.category === cat); }
 function deckSlideCount(d) { return (d.slides || d.pages || []).length; }
@@ -231,7 +247,7 @@ function applyTheme() {
 }
 
 // ---- Routing ----------------------------------------------------------------
-const VIEWS = ['dashboard', 'flashcards', 'quiz', 'exam', 'guide', 'slides', 'cheatsheet', 'tips'];
+const VIEWS = ['dashboard', 'flashcards', 'workbook', 'quiz', 'exam', 'guide', 'slides', 'cheatsheet', 'tips'];
 function navigate(view) {
   if (!VIEWS.includes(view)) view = 'dashboard';
   if (state.view !== view) {
@@ -348,7 +364,8 @@ function renderDashboard() {
     <div class="card">
       <h2 class="card-title" style="margin-bottom:12px;">Quick actions</h2>
       <div class="row">
-        <button class="btn primary" data-nav="flashcards">📇 Study flashcards</button>
+        <button class="btn primary" data-nav="workbook">📒 Open workbook</button>
+        <button class="btn" data-nav="flashcards">📇 Study flashcards</button>
         <button class="btn" data-nav="quiz">📝 Take a quiz</button>
         <button class="btn" data-nav="exam">⏱️ Start mock exam</button>
         <button class="btn" data-nav="guide">📚 Study guide</button>
@@ -1305,6 +1322,336 @@ function lightboxNav(d) {
 }
 
 // ============================================================================
+// VIEW: Workbook (guided learning path)
+// ============================================================================
+function bookProgress(book) {
+  const total = book.chapters.length;
+  let done = 0, partial = 0;
+  for (const c of book.chapters) {
+    const p = state.workbook.completed[c.id];
+    if (p && p.readAt && p.quizScore != null) done++;
+    else if (p && p.readAt) partial++;
+  }
+  return { total, done, partial };
+}
+function ensureWorkbookSelection() {
+  const books = getWorkbook();
+  if (books.length === 0) return;
+  if (!state.workbook.bookId || !getBookById(state.workbook.bookId)) {
+    state.workbook.bookId = books[0].id;
+    state.workbook.chapterId = null;
+    saveState();
+  }
+}
+
+function renderWorkbook() {
+  const books = getWorkbook();
+  if (books.length === 0) {
+    return `<div class="empty"><div class="emoji">📒</div><div>Workbook not loaded yet.</div></div>`;
+  }
+  ensureWorkbookSelection();
+  const book = getBookById(state.workbook.bookId);
+
+  // If a chapter is selected, render the chapter detail
+  if (state.workbook.chapterId) {
+    const ch = getChapterById(book.id, state.workbook.chapterId);
+    if (!ch) {
+      state.workbook.chapterId = null;
+      saveState();
+      return renderWorkbook();
+    }
+    return renderWorkbookChapter(book, ch);
+  }
+
+  // Else render the book overview (chapter list)
+  return renderWorkbookOverview(books, book);
+}
+
+function renderWorkbookOverview(books, book) {
+  const bookTabs = books.map(b => {
+    const p = bookProgress(b);
+    return `<button class="subtab ${state.workbook.bookId === b.id ? 'active' : ''}" data-wb-book="${b.id}">
+      ${b.icon} ${escapeHtml(b.title.replace(/ for .*$/, ''))} <span class="count">${p.done}/${p.total}</span>
+    </button>`;
+  }).join('');
+
+  const p = bookProgress(book);
+  const pct = p.total > 0 ? Math.round(100 * p.done / p.total) : 0;
+
+  return `
+    <div class="page-header">
+      <h1>Workbook</h1>
+      <p class="page-subtitle">Guided study paths — read, look, then test yourself. ${getWorkbook().length} books · ${getWorkbook().reduce((a, b) => a + b.chapters.length, 0)} chapters.</p>
+    </div>
+    <div class="subtabs">${bookTabs}</div>
+
+    <div class="wb-book-header">
+      <div>
+        <div class="wb-book-title">${escapeHtml(book.title)}</div>
+        <div class="wb-book-subtitle">${escapeHtml(book.subtitle || '')}</div>
+      </div>
+      <div class="wb-book-stat">
+        <div class="wb-book-stat-num tabnum">${p.done}<span class="muted">/${p.total}</span></div>
+        <div class="wb-book-stat-label">chapters complete</div>
+        <div class="progress good"><div class="progress-fill" style="width:${pct}%"></div></div>
+      </div>
+    </div>
+
+    <div class="wb-chapter-list">
+      ${book.chapters.map((c, i) => {
+        const cp = state.workbook.completed[c.id];
+        const done = cp && cp.readAt && cp.quizScore != null;
+        const partial = cp && cp.readAt && !done;
+        const statusBadge = done
+          ? `<span class="badge good">✓ ${cp.quizScore}/${cp.quizTotal}</span>`
+          : partial
+          ? `<span class="badge warn">Read · quiz pending</span>`
+          : `<span class="badge">Not started</span>`;
+        return `
+          <button class="wb-chapter-row ${done ? 'done' : ''}" data-wb-open="${c.id}">
+            <div class="wb-chapter-num">${String(i + 1).padStart(2, '0')}</div>
+            <div class="wb-chapter-info">
+              <div class="wb-chapter-title">${escapeHtml(c.title)}</div>
+              <div class="wb-chapter-sub">${escapeHtml(c.subtitle || '')}</div>
+              <div class="wb-chapter-meta muted">⏱ ${c.estimated_min || 4} min · ${(c.quiz || []).length} questions</div>
+            </div>
+            <div class="wb-chapter-status">${statusBadge}</div>
+          </button>
+        `;
+      }).join('')}
+    </div>
+  `;
+}
+
+function renderWorkbookChapter(book, ch) {
+  const idx = book.chapters.findIndex(c => c.id === ch.id);
+  const prev = idx > 0 ? book.chapters[idx - 1] : null;
+  const next = idx < book.chapters.length - 1 ? book.chapters[idx + 1] : null;
+  const cp = state.workbook.completed[ch.id] || {};
+  const quizDone = cp.quizScore != null;
+
+  // Render sections
+  const sectionsHtml = (ch.sections || []).map(s => {
+    if (s.kind === 'h2') return `<h2 class="wb-h2">${escapeHtml(s.text)}</h2>`;
+    if (s.kind === 'p') return `<p class="wb-p">${escapeHtml(s.text)}</p>`;
+    if (s.kind === 'image') {
+      // Resolve image to deck path
+      const deck = getDeckById(s.deck);
+      if (!deck) return '';
+      const num = String(s.page).padStart(3, '0');
+      const url = `${deck.path}/page-${num}.jpg`;
+      return `
+        <figure class="wb-figure" data-wb-zoom="${s.deck}|${s.page}">
+          <img src="${url}" loading="lazy" alt="${escapeHtml(s.caption || '')}" />
+          ${s.caption ? `<figcaption>${escapeHtml(s.caption)}</figcaption>` : ''}
+        </figure>
+      `;
+    }
+    if (s.kind === 'callout') {
+      return `
+        <div class="wb-callout">
+          ${s.title ? `<div class="wb-callout-title">${escapeHtml(s.title)}</div>` : ''}
+          <ul>${(s.items || []).map(i => `<li>${escapeHtml(i)}</li>`).join('')}</ul>
+        </div>
+      `;
+    }
+    return '';
+  }).join('');
+
+  return `
+    <div class="wb-detail-header">
+      <button class="btn ghost small" data-wb-back>← All chapters</button>
+      <div class="wb-detail-meta muted">
+        ${book.icon} ${escapeHtml(book.title.replace(/ for .*$/, ''))} · Chapter ${idx + 1} of ${book.chapters.length}
+      </div>
+    </div>
+
+    <div class="wb-chapter-detail">
+      <h1 class="wb-detail-title">${escapeHtml(ch.title)}</h1>
+      ${ch.subtitle ? `<p class="wb-detail-sub">${escapeHtml(ch.subtitle)}</p>` : ''}
+      <div class="wb-detail-meta-row">
+        <span>⏱ ${ch.estimated_min || 4} min read</span>
+        <span>·</span>
+        <span>${(ch.quiz || []).length} quiz questions</span>
+        ${quizDone ? `<span>·</span><span class="badge good">✓ Completed (${cp.quizScore}/${cp.quizTotal})</span>` : ''}
+      </div>
+
+      ${ch.intro ? `<div class="wb-intro">${escapeHtml(ch.intro)}</div>` : ''}
+
+      <div class="wb-body">${sectionsHtml}</div>
+
+      ${renderWorkbookQuiz(book, ch)}
+
+      <div class="wb-nav">
+        ${prev ? `<button class="btn" data-wb-open="${prev.id}">← ${escapeHtml(prev.title)}</button>` : '<span></span>'}
+        ${next ? `<button class="btn primary" data-wb-open="${next.id}">${escapeHtml(next.title)} →</button>` : '<button class="btn" data-wb-back>All chapters →</button>'}
+      </div>
+    </div>
+  `;
+}
+
+function renderWorkbookQuiz(book, ch) {
+  const cardIds = ch.quiz || [];
+  if (cardIds.length === 0) return '';
+  const cards = cardIds.map(id => getCardById(id)).filter(Boolean);
+  if (cards.length === 0) return '';
+
+  const cp = state.workbook.completed[ch.id] || {};
+  const answers = cp.quizAnswers || {};
+  const allAnswered = cards.every(c => answers[c.id] != null);
+
+  // Cache choices per chapter once
+  const cacheKey = `${ch.id}|${cards.map(c => c.id).join(',')}`;
+  if (state.workbook._choicesKey !== cacheKey) {
+    state.workbook._choices = {};
+    cards.forEach(c => {
+      const distractors = pickN(cardsForCategory(c.category), 3, c.id).map(d => d.a_en);
+      state.workbook._choices[c.id] = shuffle([c.a_en, ...distractors]);
+    });
+    state.workbook._choicesKey = cacheKey;
+  }
+
+  const right = cards.filter(c => answers[c.id] != null && state.workbook._choices[c.id][answers[c.id]] === c.a_en).length;
+
+  const qsHtml = cards.map((c, i) => {
+    const choices = state.workbook._choices[c.id];
+    const picked = answers[c.id];
+    const markers = ['A', 'B', 'C', 'D'];
+    const choiceBtns = choices.map((txt, idx) => {
+      let cls = 'choice';
+      let icon = '';
+      if (picked != null) {
+        if (txt === c.a_en) { cls += ' correct'; icon = '✓'; }
+        else if (idx === picked) { cls += ' incorrect'; icon = '✗'; }
+      }
+      return `<button class="${cls}" data-wb-pick="${c.id}|${idx}" ${picked != null ? 'disabled' : ''}>
+        <span class="marker">${markers[idx]}</span>${escapeHtml(txt)}${icon ? `<span class="check-icon">${icon}</span>` : ''}
+      </button>`;
+    }).join('');
+    return `
+      <div class="wb-q">
+        <div class="wb-q-num">Question ${i + 1} of ${cards.length}</div>
+        <div class="wb-q-text">${escapeHtml(c.q_en)}</div>
+        <div class="choices">${choiceBtns}</div>
+        ${picked != null ? `<div class="wb-q-de"><span class="lang-tag">DE</span>${escapeHtml(c.a_de)}</div>` : ''}
+      </div>
+    `;
+  }).join('');
+
+  const summary = allAnswered
+    ? `<div class="wb-quiz-summary ${right === cards.length ? 'perfect' : right >= cards.length * 0.8 ? 'good' : 'partial'}">
+        <div class="wb-quiz-score">${right} / ${cards.length}</div>
+        <div class="wb-quiz-label">${right === cards.length ? '🎉 Perfect score!' : right >= cards.length * 0.8 ? '👍 Solid — chapter understood' : '🤔 Worth reviewing the chapter'}</div>
+        <div class="wb-quiz-actions">
+          <button class="btn primary" data-wb-complete="${ch.id}">Mark chapter complete</button>
+          <button class="btn" data-wb-reset-quiz="${ch.id}">Try quiz again</button>
+        </div>
+      </div>`
+    : '';
+
+  return `
+    <div class="wb-quiz">
+      <h2 class="wb-h2">Check your understanding</h2>
+      <div class="muted" style="font-size:13px; margin-bottom:14px;">${cards.length} questions drawn from the ${escapeHtml(book.category)} flashcards.</div>
+      ${qsHtml}
+      ${summary}
+    </div>
+  `;
+}
+
+function attachWorkbookEvents() {
+  document.querySelectorAll('[data-wb-book]').forEach(b => b.onclick = () => {
+    state.workbook.bookId = b.dataset.wbBook;
+    state.workbook.chapterId = null;
+    saveState();
+    render();
+    window.scrollTo(0, 0);
+  });
+  document.querySelectorAll('[data-wb-open]').forEach(b => b.onclick = () => {
+    state.workbook.chapterId = b.dataset.wbOpen;
+    // Mark as read on first open
+    const cp = state.workbook.completed[b.dataset.wbOpen] || {};
+    if (!cp.readAt) {
+      state.workbook.completed[b.dataset.wbOpen] = { ...cp, readAt: Date.now() };
+    }
+    state.workbook._choicesKey = null;
+    saveState();
+    render();
+    window.scrollTo(0, 0);
+  });
+  document.querySelectorAll('[data-wb-back]').forEach(b => b.onclick = () => {
+    state.workbook.chapterId = null;
+    saveState();
+    render();
+    window.scrollTo(0, 0);
+  });
+  document.querySelectorAll('[data-wb-zoom]').forEach(b => b.onclick = () => {
+    const [deckId, page] = b.dataset.wbZoom.split('|');
+    openSlideViewer(deckId, parseInt(page, 10));
+  });
+  document.querySelectorAll('[data-wb-pick]').forEach(b => b.onclick = () => {
+    const [cardId, idxStr] = b.dataset.wbPick.split('|');
+    const idx = parseInt(idxStr, 10);
+    const chId = state.workbook.chapterId;
+    const cp = state.workbook.completed[chId] || { readAt: Date.now() };
+    cp.quizAnswers = { ...(cp.quizAnswers || {}), [cardId]: idx };
+    state.workbook.completed[chId] = cp;
+    // Also feed the SRS system
+    const card = getCardById(cardId);
+    const choices = state.workbook._choices[cardId];
+    if (card && choices) {
+      recordSrs(cardId, choices[idx] === card.a_en ? 'good' : 'again');
+    }
+    saveState();
+    render();
+  });
+  document.querySelectorAll('[data-wb-complete]').forEach(b => b.onclick = () => {
+    const chId = b.dataset.wbComplete;
+    const book = getBookById(state.workbook.bookId);
+    const ch = book.chapters.find(c => c.id === chId);
+    const cp = state.workbook.completed[chId] || {};
+    const cards = (ch.quiz || []).map(id => getCardById(id)).filter(Boolean);
+    const right = cards.filter(c =>
+      cp.quizAnswers && cp.quizAnswers[c.id] != null &&
+      state.workbook._choices && state.workbook._choices[c.id] &&
+      state.workbook._choices[c.id][cp.quizAnswers[c.id]] === c.a_en
+    ).length;
+    cp.quizScore = right;
+    cp.quizTotal = cards.length;
+    cp.completedAt = Date.now();
+    state.workbook.completed[chId] = cp;
+    saveState();
+    // Jump to next chapter if any
+    const idx = book.chapters.findIndex(c => c.id === chId);
+    if (idx < book.chapters.length - 1) {
+      state.workbook.chapterId = book.chapters[idx + 1].id;
+      const nextCp = state.workbook.completed[state.workbook.chapterId] || {};
+      if (!nextCp.readAt) {
+        state.workbook.completed[state.workbook.chapterId] = { ...nextCp, readAt: Date.now() };
+      }
+      state.workbook._choicesKey = null;
+      saveState();
+    } else {
+      state.workbook.chapterId = null;
+      saveState();
+    }
+    render();
+    window.scrollTo(0, 0);
+  });
+  document.querySelectorAll('[data-wb-reset-quiz]').forEach(b => b.onclick = () => {
+    const chId = b.dataset.wbResetQuiz;
+    const cp = state.workbook.completed[chId] || {};
+    cp.quizAnswers = {};
+    cp.quizScore = null;
+    cp.quizTotal = null;
+    state.workbook.completed[chId] = cp;
+    state.workbook._choicesKey = null;
+    saveState();
+    render();
+  });
+}
+
+// ============================================================================
 // VIEW: Slide Decks (Freewings video course)
 // ============================================================================
 function ensureSlideSelection() {
@@ -1719,6 +2066,7 @@ function render() {
   const sb = document.getElementById('sidebar-nav');
   const navItems = [
     { id: 'dashboard',  icon: '📊', label: 'Dashboard' },
+    { id: 'workbook',   icon: '📒', label: 'Workbook', badge: getWorkbook().reduce((a, b) => a + b.chapters.length, 0) || null },
     { id: 'flashcards', icon: '📇', label: 'Flashcards', badge: getCards().length },
     { id: 'quiz',       icon: '📝', label: 'Quiz' },
     { id: 'exam',       icon: '⏱️', label: 'Mock Exam' },
@@ -1744,6 +2092,7 @@ function render() {
   let html = '';
   switch (state.view) {
     case 'dashboard':  html = renderDashboard(); break;
+    case 'workbook':   html = renderWorkbook(); break;
     case 'flashcards': html = renderFlashcards(); break;
     case 'quiz':       html = renderQuiz(); break;
     case 'exam':       html = renderExam(); break;
@@ -1771,6 +2120,7 @@ function render() {
   }
   if (state.view === 'guide') attachGuideEvents();
   if (state.view === 'slides') attachSlidesEvents();
+  if (state.view === 'workbook') attachWorkbookEvents();
 }
 
 // ============================================================================
