@@ -1353,11 +1353,11 @@
             },
             {
               "kind": "p",
-              "text": "Fog, mist and cloud are physically the same thing — suspended water droplets in air. They are distinguished only by visibility. Fog reduces horizontal visibility below 1 km; mist gives 1 to 10 km. Anything higher than ground level is simply called a cloud."
+              "text": "A cloud is a portion of the atmosphere containing countless tiny droplets of liquid water suspended in the air. Fog and cloud are physically the same thing — fog is just a cloud viewed from the inside. More precisely, fog is defined as a cloud reducing horizontal visibility below 1 km. Mist is a thinner suspension of droplets and particles, defined when visibility is between 1 and 10 km."
             },
             {
               "kind": "p",
-              "text": "Cloud forms whenever rising air cools below its dew point. There are three main causes of that rise: convection (heated ground driving thermals), orographic lift (wind forced upward by terrain) and frontal lift (warm air sliding over colder air at a front)."
+              "text": "Cloud forms whenever air is cooled below its dew point. Two main mechanisms produce that cooling. The first is radiation cooling: during long autumn and winter nights the ground emits infrared radiation and gradually cools, the air above it cools too, and if it reaches its dew point, radiation fog forms near the ground. The second is the cooling that comes from rising air, with three main causes: convection (heating from below driving thermals), orographic lift (wind forced upward by terrain like a dam) and frontal lift (warm air sliding up over colder air at a front)."
             },
             {
               "kind": "image",
@@ -1366,12 +1366,18 @@
               "caption": "How cumulus clouds form — thermals rise, reach dew point, condense."
             },
             {
+              "kind": "image",
+              "deck": "meteo",
+              "page": 62,
+              "caption": "Cloud base — the altitude at which condensation begins."
+            },
+            {
               "kind": "h2",
               "text": "Cloud names"
             },
             {
               "kind": "p",
-              "text": "The Latin naming system uses prefixes for altitude and suffixes for structure. Cirro- means high cloud, around 6000 to 10000 m, generally made of ice crystals. Alto- means mid-level cloud, 3000 to 6000 m. No prefix means low cloud, below 3000 m. Cumulus means heaped cauliflower-like cloud. Stratus means layered cloud. Nimbo- (or -nimbus) means precipitating cloud."
+              "text": "The Latin naming system uses prefixes for altitude and suffixes for structure. Cirro- means very high cloud, between 6000 and 10000 m, generally thin. Alto- means mid-level cloud, between 3000 and 6000 m. No prefix means low cloud, below 3000 m. The suffixes describe shape and behaviour. Cumulus means ball- or cauliflower-shaped heaped cloud. Stratus means stretched layered cloud. Nimbo- (or -nimbus) means precipitating cloud."
             },
             {
               "kind": "image",
@@ -1392,16 +1398,30 @@
               "caption": "Cloud names and the families they belong to."
             },
             {
+              "kind": "image",
+              "deck": "meteo",
+              "page": 70,
+              "caption": "Cloud names — second page of the visual catalogue."
+            },
+            {
+              "kind": "h2",
+              "text": "High clouds — cirrus and cirrocumulus"
+            },
+            {
+              "kind": "p",
+              "text": "Cirrus (Ci) are small thin hair-shaped high clouds, between 6000 and 10000 m. Cirrostratus (Cs) is a thin translucent layer at the same altitudes; sunlight passes through with a halo of colours around the Sun. Cirrocumulus (Cc) are small piled-up clouds at the top of the cumulus family, with bases above 6000 m, always made of ice crystals suspended like dust."
+            },
+            {
               "kind": "h2",
               "text": "Cumulus family — the pilot's friend and foe"
             },
             {
               "kind": "p",
-              "text": "Cumulus humilis (small flat cumulus) and cumulus mediocris (taller with cauliflower shape) mark active thermals. Their bases lie typically between 1000 and 4000 m. They are the classic 'good thermal day' clouds. Cumulus congestus is much taller and indicates very unstable air — it can grow into a cumulonimbus."
+              "text": "Cumulus (Cu) is the classic sign of good thermals. There are three sizes. Cumulus humilis (very small, flat-bottomed) and cumulus mediocris (medium, cauliflower shape) are the indicators of an active thermal day. Their bases lie typically between 1000 and 4000 m depending on humidity and location. Cumulus congestus is much taller and darker-based; it can produce small local showers or grow further into a cumulonimbus."
             },
             {
               "kind": "p",
-              "text": "Cumulonimbus (Cb) is the storm cloud. Its strong updrafts, downdrafts and horizontal outflows easily exceed anything a paraglider can survive, and it can produce hail and lightning. The only correct response to a building or approaching cumulonimbus is to land well before it reaches you."
+              "text": "Cumulonimbus (Cb) is the thunderstorm cloud — cumulus congestus that has grown into a huge mushroom-shaped tower reaching up to about 10000 m. The internal updrafts, downdrafts and horizontal currents are much stronger than any paraglider can fly; precipitation, hail and lightning are common. Strong downdrafts during the precipitation phase are caused by cooling from evaporation. A grey curtain of vertical stripes extending from the cloud base to the ground is the visible sign that precipitation is reaching the surface."
             },
             {
               "kind": "image",
@@ -1410,16 +1430,28 @@
               "caption": "Thermals seen as a cumulus picture in the sky."
             },
             {
+              "kind": "image",
+              "deck": "meteo",
+              "page": 71,
+              "caption": "Cloud coverage — reading the sky for the day's potential."
+            },
+            {
               "kind": "h2",
-              "text": "Warning signs in mid-level cloud"
+              "text": "Mid-level cloud warning signs"
             },
             {
               "kind": "p",
-              "text": "Altocumulus castellanus — small turret-like clouds visible in the morning — signal unstable, humid air aloft. They commonly mean thunderstorms by mid-afternoon. Lenticular altocumulus, the smooth lens-shaped clouds that hang motionless above 3500 m, indicate strong upper winds and mountain wave conditions — a strict no-fly sign in or near the lee of mountains."
+              "text": "Altocumulus castellanus (Ac cas) are tower-shaped clouds with castle-like ramparts that appear early in the morning. They signal unstable, humid air aloft and commonly predict thunderstorm development by mid-afternoon. Lenticular altocumulus (Ac len) are smooth lens-shaped clouds that develop above 3500 m when moderately strong winds flow over mountains, creating standing waves. Despite the wind, the cloud stays stationary because air condenses on the upwind side of the wave and evaporates on the downwind side."
             },
             {
               "kind": "p",
-              "text": "Cirrocumulus, the rippled fish-scale cirrus, is made of ice crystals high in the sky. Nimbostratus is the thick grey precipitating layer cloud, with bases as low as 1000 m, that brings extended steady rain or snow."
+              "text": "Altostratus (As) is a mid-level cloud layer with its base around 4000 m, often heralding an approaching warm front. Altocumulus (Ac) is similar but in piled patches at about 4500 m. Stratus (St) is a low cloud layer often touching the ground — fog from above. Stratus is typical of autumn and winter mornings with a strong inversion in the 1000–1500 m range: sunny at altitude, foggy below. Stratocumulus (Sc) is low banded cumulus common after rain. Nimbostratus (Ns) is a very thick low cloud layer producing extended steady precipitation, base around 1000 m."
+            },
+            {
+              "kind": "image",
+              "deck": "meteo",
+              "page": 68,
+              "caption": "Cloud naming grid — altitudes and shapes side by side."
             },
             {
               "kind": "callout",
@@ -1457,7 +1489,7 @@
             },
             {
               "kind": "p",
-              "text": "Wind direction is given as the compass direction from which it is blowing — a north wind blows from north toward south. Directions are stated in degrees from 0 (north) to 359, going clockwise: 90 is east, 180 south, 270 west. Wind speed is measured by an anemometer and reported in km/h, m/s or knots."
+              "text": "Wind direction is conventionally given as the compass direction from which the wind is blowing — a north wind blows from north toward south. Directions are stated in degrees from 0 (north) clockwise through 90 (east), 180 (south) and 270 (west). Wind speed is measured by an anemometer and reported in km/h, m/s or knots. A useful conversion: 1 knot ≈ 1.85 km/h, so 10 knots is about 18 km/h."
             },
             {
               "kind": "image",
@@ -1466,12 +1498,30 @@
               "caption": "Wind direction — given as the direction the wind is FROM."
             },
             {
+              "kind": "image",
+              "deck": "meteo",
+              "page": 31,
+              "caption": "Wind strength — conversion between knots, m/s and km/h."
+            },
+            {
               "kind": "h2",
-              "text": "Isobars and pressure systems"
+              "text": "Why pressure varies — and how to compare"
             },
             {
               "kind": "p",
-              "text": "On a weather map an isobar is a line connecting points of equal sea-level-corrected pressure. Closely packed isobars mean a steep pressure gradient and strong winds; widely spaced isobars mean weak gradient and light winds. The average sea-level pressure is around 1015 hPa; a winter anticyclone can reach 1030 to 1040 hPa, while a deep depression can sink to 955 hPa."
+              "text": "Not all locations are at sea level, so the pressure measured locally cannot be compared directly: the highest station always reads the lowest pressure. Meteorologists therefore correct every reading to its sea-level equivalent before plotting it on a map. Even at sea level, atmospheric pressure varies from place to place and from one moment to another, because changes in land temperature warm or cool the air in contact with the ground, which then varies in density and pressure."
+            },
+            {
+              "kind": "p",
+              "text": "An area of high pressure tends to form over land that is cooler than its surroundings for a long period — the Arctic, Siberia, any continent in winter, or an ocean during summer that is cooler than the neighbouring continents. Conversely, a low pressure area (depression) forms over a region warmer than its surroundings — the equator, the Sahara in summer, or the Atlantic in winter. These persistent highs and lows are called centres of action because they drive the general atmospheric circulation."
+            },
+            {
+              "kind": "h2",
+              "text": "Isobars and typical pressures"
+            },
+            {
+              "kind": "p",
+              "text": "An isobar on a weather map is a line connecting points of equal sea-level-corrected pressure. Isobars are typically drawn every 5 hPa. The average sea-level pressure on land is around 1015 hPa. A strong winter anticyclone can reach 1030 to 1040 hPa; higher values are very rare. Summer highs are generally lower, around 1020 to 1025 hPa. A pressure of 955 hPa would be typical of a deep depression."
             },
             {
               "kind": "image",
@@ -1488,8 +1538,24 @@
             {
               "kind": "image",
               "deck": "meteo",
+              "page": 29,
+              "caption": "Reading an isobar chart in detail."
+            },
+            {
+              "kind": "p",
+              "text": "Closely packed isobars mean a steep horizontal pressure gradient and strong winds. Widely spaced isobars mean a weak gradient and light winds. The strength of the wind at a given place can be read directly off the chart by looking at how tightly the contours are packed near that place."
+            },
+            {
+              "kind": "image",
+              "deck": "meteo",
               "page": 27,
               "caption": "Wind strength — tighter isobars mean stronger gradient wind."
+            },
+            {
+              "kind": "image",
+              "deck": "meteo",
+              "page": 28,
+              "caption": "Strength of high and low pressure systems."
             },
             {
               "kind": "h2",
@@ -1497,7 +1563,7 @@
             },
             {
               "kind": "p",
-              "text": "Because the Earth rotates, moving air in the northern hemisphere is deflected to the right. The result is that air does not flow straight from a high to a low — it circulates. Wind rotates clockwise around a high (anticyclone) and anti-clockwise around a low (cyclone) in the northern hemisphere. A memory aid: keep 'anti-' in the middle — anti-cyclone clockwise, cyclone anti-clockwise."
+              "text": "Because the Earth rotates, moving air in the northern hemisphere is deflected to the right of its direction of motion. This interferes with the direct movement of air between centres of action and gives the wind a rotational character. Wind rotates clockwise around a high (anticyclone) and anti-clockwise around a low (cyclone) in the northern hemisphere. A memory aid: keep 'anti-' in the middle — anti-cyclone clockwise, cyclone anti-clockwise. In the southern hemisphere it is reversed."
             },
             {
               "kind": "image",
@@ -1506,8 +1572,26 @@
               "caption": "Rotation imposed by the Coriolis force."
             },
             {
+              "kind": "image",
+              "deck": "meteo",
+              "page": 25,
+              "caption": "Coriolis on a real chart example."
+            },
+            {
               "kind": "p",
-              "text": "High in the atmosphere, well above the friction of the ground, wind blows parallel to the isobars — this is the geostrophic wind. Nearer the surface friction slows the wind and tilts it slightly toward the low: typically a few degrees in over flat ground."
+              "text": "High in the atmosphere, well above the friction of the ground, wind blows parallel to the isobars — this is the geostrophic wind. Three principles describe it. Wind direction is parallel to the isobars. Wind rotates clockwise around a high, anti-clockwise around a low (northern hemisphere). Wind strength is determined by isobar spacing. Nearer the surface, friction slows the wind and tilts it slightly toward the low — typically a few degrees over flat ground."
+            },
+            {
+              "kind": "image",
+              "deck": "meteo",
+              "page": 26,
+              "caption": "Wind from pressure equalisation — between high and low."
+            },
+            {
+              "kind": "image",
+              "deck": "meteo",
+              "page": 32,
+              "caption": "Wind profile over the ground — friction slows the lowest layers."
             },
             {
               "kind": "h2",
@@ -1515,11 +1599,29 @@
             },
             {
               "kind": "p",
-              "text": "An anticyclone (high) is a region where descending air dominates: the air warms and dries as it sinks, producing stable, often sunny weather and frequently an inversion at 1500 to 2000 m. A depression (low) is a region of rising air: humid, unstable, often cloudy or rainy."
+              "text": "An anticyclone (high) is a region where the air falls, heats by compression and dries out. In Europe there is often a temperature inversion accompanying a high pressure region, typically between 1500 and 2000 m. Anticyclonic weather is therefore rather stable with a convective layer of modest depth. A depression (cyclone) is a region of rising air: the air cools, increases its humidity and the weather conditions are unsettled, often cloudy or rainy."
             },
             {
               "kind": "p",
-              "text": "A 'barometric swamp' is a wide region with pressure between 1010 and 1020 hPa and very widely spaced isobars — light winds, often the best paragliding conditions, though with a risk of local afternoon thunderstorms in the absence of strong synoptic forcing."
+              "text": "Between these two extremes is the 'barometric swamp' — a wide region of intermediate pressure (1010 to 1020 hPa) with widely spaced isobars. Air density is lower, the atmosphere is more unstable, more humid and more volatile than in an anticyclone, while winds are light because the pressure gradient is small or zero. The barometric swamp is one of the best paragliding situations, with good convection and high thermal ceilings — but the risk of local afternoon thunderstorms is real."
+            },
+            {
+              "kind": "image",
+              "deck": "meteo",
+              "page": 15,
+              "caption": "Formation of polar and tropical air masses & pressure systems."
+            },
+            {
+              "kind": "image",
+              "deck": "meteo",
+              "page": 18,
+              "caption": "Formation of thermal high and low pressure."
+            },
+            {
+              "kind": "image",
+              "deck": "meteo",
+              "page": 20,
+              "caption": "How wind forms — pressure equalisation in action."
             },
             {
               "kind": "callout",
@@ -1528,7 +1630,8 @@
                 "Isobars close together → strong wind.",
                 "Northern hemisphere: clockwise round highs, anti-clockwise round lows.",
                 "Anticyclone: descending, stable, often inversion at 1500–2000 m.",
-                "Depression: rising air, humid, unsettled."
+                "Depression: rising air, humid, unsettled.",
+                "Barometric swamp (1010–1020 hPa, light winds): often the best PG day, but local Cb risk."
               ]
             }
           ],
@@ -1560,7 +1663,11 @@
             },
             {
               "kind": "p",
-              "text": "On sunny days valley sides warm faster than the air above, and the heated air flows uphill — the valley wind. It begins shortly after sunrise on the sunny slopes, strengthens through the day, and typically reaches its peak in mid-to-late afternoon. The flow runs up the valley from its mouth toward the head."
+              "text": "Beyond the general geostrophic circulation, regional air movements develop on a mesoscale and microscale. The classic alpine example is the alternation of valley wind by day and mountain wind by night. The valley wind blows from the main, wide section of a valley up toward its upper reaches with their small side valleys and peaks, which warm up faster than the broader main valley."
+            },
+            {
+              "kind": "p",
+              "text": "Since the valley wind is driven by solar intensity and is enhanced by ground that is free of snow, it is strongest in July and August and weakest in December and January. It is also at its strongest in mid-afternoon when the sky is clear. In summer it begins in the late morning and typically lasts until evening. With altitude the valley wind is stronger, but in wide valleys it gradually disappears around 2000 m, where the prevailing synoptic wind takes over."
             },
             {
               "kind": "image",
@@ -1575,12 +1682,18 @@
               "caption": "Alpine pumping — the daily heartbeat of valley and mountain wind."
             },
             {
+              "kind": "image",
+              "deck": "meteo",
+              "page": 80,
+              "caption": "Eastern Switzerland — regional winds in detail."
+            },
+            {
               "kind": "h2",
               "text": "Mountain wind (katabatic)"
             },
             {
               "kind": "p",
-              "text": "After sunset the slopes radiate their heat away and cool faster than the free air. Cold, dense air flows down the slopes and out of the valley — the katabatic mountain wind. It is generally lighter than the daytime valley wind but can build into surprisingly strong drainage flows on long valleys."
+              "text": "After sunset each valley wall is cooled by nocturnal radiation. Cold, dense air slides down the slopes and accumulates at the bottom of the valley, then flows down-valley toward the broader and deeper main valley which cools more slowly. This is the katabatic mountain wind. It is generally lighter than the daytime valley wind, beginning typically around 18–19 h in summer, but can build into surprisingly strong drainage flows on long deep valleys."
             },
             {
               "kind": "image",
@@ -1589,12 +1702,16 @@
               "caption": "Mountain wind — cold air draining downslope after sunset."
             },
             {
+              "kind": "p",
+              "text": "Sometimes the convergence of evening downslope breezes from both sides of a valley generates a slight upward current in the middle, which can be just strong enough to keep a glider aloft for tens of minutes after sunset — locally known as 'rendition' lift."
+            },
+            {
               "kind": "h2",
-              "text": "Föhn"
+              "text": "Föhn — the ingredients"
             },
             {
               "kind": "p",
-              "text": "Föhn is a warm, dry, gusty downslope wind. The classic ingredients are: a strong pressure difference across the mountain chain, moist air on the windward side, and an obstacle high enough for the air to release its moisture as it rises. As the now-dry air descends on the leeward side it warms adiabatically and arrives much warmer and drier than it started."
+              "text": "Föhn is a warm, dry, gusty downslope wind. The classic ingredients are three: a strong pressure difference across the mountain chain, moist air on the windward side, and a barrier tall enough for the air to release its moisture as it rises. On the windward side the moist air ascends, condenses and drops its water as rain — cooling at the slow moist adiabatic rate of about 0.6 °C / 100 m. The cloud clings to the ridge and forms a compact band at the crest called the Föhn wall."
             },
             {
               "kind": "image",
@@ -1610,7 +1727,19 @@
             },
             {
               "kind": "p",
-              "text": "Südföhn blows from the south, warming and drying the northern Alpine valleys; it requires a north-south pressure difference between southern and northern stations, with higher pressure on the south side. Nordföhn is the mirror image: higher pressure on the north side, warming and drying the southern (Ticino) valleys."
+              "text": "On the lee side the now-dry air descends, warming at the fast dry adiabatic rate of 1 °C / 100 m. Because moisture has been removed on the way up, the descending air arrives much warmer and drier than the air that started on the windward side. It is also strong and gusty, with violent turbulence. The conclusion is simple: if the Föhn is active, do not fly, even if 'the weather looks good'."
+            },
+            {
+              "kind": "h2",
+              "text": "Südföhn and Nordföhn"
+            },
+            {
+              "kind": "p",
+              "text": "Südföhn blows from the south across the Alps. It is driven by a depression over northwest Europe and higher pressure over northern Italy. On the ground there is a strong south-north pressure difference above 5 hPa — for example 1010 hPa at Zurich and 1019 hPa at Lugano. The effect is clouds and heavy rain on the southern slopes, strong winds, high temperatures and sunny dry conditions north of the Alps. Risk is concentrated in the northern Alpine valleys where the fine weather may tempt the pilot to fly."
+            },
+            {
+              "kind": "p",
+              "text": "Nordföhn is the mirror image: an Azores-area anticyclone extends north and east, often with a depression over Eastern Europe. The ground pressure difference reverses: 1023 hPa Zurich and 1015 hPa Lugano (north higher). Clouds and rain accumulate on the north side, while warm dry sunny weather and high winds develop on the south side, especially in Ticino. Risk is again on the sunny side where flying looks deceptively safe."
             },
             {
               "kind": "image",
@@ -1630,16 +1759,23 @@
             },
             {
               "kind": "p",
-              "text": "Föhn is dangerous for paragliders even at long distance from the actual flow: it produces strong turbulence, rotor downwind of the mountains and rapid changes in wind direction. Typical warning signs include the Föhn wall (a stationary cloud bank piled on the windward side of the ridge), lenticular clouds in the lee, sudden clarity of the air at altitude and rapidly rising temperature in the lee valleys."
+              "text": "Föhn produces strong turbulence, rotor downwind of the mountains and rapid changes in wind direction. Visible warning signs include the Föhn wall (a stationary cloud bank piled on the windward side of the ridge), lenticular clouds in the lee, sudden clarity of the air at altitude and rapidly rising temperature in the lee valleys. The classic synoptic signature is a north-south pressure difference above 5 hPa between Zurich and Lugano."
+            },
+            {
+              "kind": "image",
+              "deck": "meteo",
+              "page": 85,
+              "caption": "Föhn — cloud pictures that announce it."
             },
             {
               "kind": "callout",
               "title": "Local winds checklist",
               "items": [
-                "Valley wind: anabatic, strongest mid-afternoon.",
-                "Mountain wind: katabatic, after sunset.",
+                "Valley wind: anabatic, strongest mid-afternoon, July–August.",
+                "Mountain wind: katabatic, starts ~18–19 h after sunset.",
                 "Föhn needs strong pressure difference + moist windward + tall barrier.",
-                "Föhn signs: wall cloud on windward side, lenticularis on lee, sudden warming."
+                "Föhn signs: wall cloud on windward side, lenticularis on lee, sudden warming.",
+                "Δp Zurich–Lugano > 5 hPa: Föhn likely."
               ]
             }
           ],
@@ -1661,7 +1797,7 @@
         {
           "id": "meteo-08-turbulence",
           "title": "Turbulence",
-          "subtitle": "Mechanical, thermal and wave",
+          "subtitle": "Mechanical, shear and thermal",
           "intro": "Almost every paragliding incident has turbulence somewhere in its causal chain. Knowing the four main types — and where to expect each — is the difference between a routine flight and a frightening one.",
           "sourced_from": [
             "p2-turbulence"
@@ -1674,7 +1810,7 @@
             },
             {
               "kind": "p",
-              "text": "Turbulence is an air motion that is irregular in direction and speed. It is the air's response to anything that disturbs smooth, laminar flow: surface roughness, obstacles, heating differences, wind shear or interaction with terrain. For a paraglider — a low-speed, low-inertia aircraft — turbulence is the main source of collapses."
+              "text": "Turbulence is the local variation, eddying and abrupt change in wind direction and speed that the atmosphere produces when smooth flow is disturbed. It is fundamentally driven by wind: the stronger the wind, the greater the chance of turbulence and the more violent it can be. Flying in strong winds, or in areas prone to strong winds (a narrowing or a curve of a valley), is therefore unwise. Storms are particularly bad because they are often associated with episodes of strong, irregular gusts; pilots should land quickly when storms approach."
             },
             {
               "kind": "image",
@@ -1683,12 +1819,20 @@
               "caption": "Turbulence — air motion irregular in speed and direction."
             },
             {
+              "kind": "p",
+              "text": "Meteorologists classify turbulence into three types according to origin: mechanical turbulence (wind meeting solid obstacles), shear turbulence (between layers of different wind speed or direction) and thermal turbulence (between warm rising and cool descending air)."
+            },
+            {
               "kind": "h2",
               "text": "Mechanical turbulence"
             },
             {
               "kind": "p",
-              "text": "Mechanical turbulence is generated when wind hits an obstacle — buildings, hangars, trees, ridges. Eddies and rotors form on the downwind (lee) side and extend many times the obstacle's height downwind before they dissipate. Wind passing through a narrow gap accelerates: this is the Venturi effect, a strong contributor to turbulence around mountain passes and ridgelines."
+              "text": "Mechanical turbulence is the result of conflict between solid obstacles and wind. Objects upwind of a reference point are described as 'windward'; objects downwind are 'leeward'. The air leeward of an obstacle has the most marked turbulence — rotor flow that may extend horizontally up to ten times the obstacle's height downwind. It is therefore dangerous to fly leeward of a mountain, a building or any tall obstacle, and this should be avoided at all costs, including in the choice of landing sites."
+            },
+            {
+              "kind": "p",
+              "text": "Where wind is forced over a relief, there is a constriction in the airflow above and just behind the edge, and the air is forced to increase its speed. This phenomenon of increased air speed where the flow area decreases is the Venturi effect. The Venturi effect does not only occur above and behind mountain peaks but also wherever wind is forced into a narrow valley or around a ridge — a strong contributor to turbulence around mountain passes and gaps."
             },
             {
               "kind": "image",
@@ -1698,28 +1842,36 @@
             },
             {
               "kind": "h2",
+              "text": "Shear turbulence"
+            },
+            {
+              "kind": "p",
+              "text": "Shear turbulence occurs close to the boundary between two air masses subjected to winds of different speed or direction. A typical example: a 10–15 knot north-easterly wind at 1000 and 2000 m, with a southwesterly 10 knots at 3000 and 4000 m — between 2000 and 3000 m there is a sharp change of direction that produces shear turbulence at the boundary."
+            },
+            {
+              "kind": "p",
+              "text": "When wind speed alone decreases without changing direction, the result is a 'gradient wind' — most marked near a flat surface where the wind a few centimetres above the ground is hampered by friction while the wind tens of metres above is much stronger. The wind gradient near the ground can therefore be a source of significant shear turbulence on take-off and landing."
+            },
+            {
+              "kind": "h2",
               "text": "Thermal turbulence"
             },
             {
               "kind": "p",
-              "text": "Thermal turbulence is caused by columns and bubbles of warmer air rising at different rates from the ground. The boundary between rising warm air and surrounding cooler air is sharp and gusty: entering and leaving a thermal is itself a source of strong air movement. Thermal turbulence is strongest where sun and shadow alternate, and in valleys where the valley wind meets thermals."
-            },
-            {
-              "kind": "h2",
-              "text": "Wave and convergence"
+              "text": "Thermal turbulence occurs at the boundary between warm, rising air and cool, descending air. It is also strong at the top of the convective layer, where rising thermals meet stable air aloft. Thermal turbulence is therefore strongest at the times and places where convection is most active — typically mid-afternoon on sunny days, where sun and shadow alternate, and in valleys where the valley wind meets thermals from south-facing slopes."
             },
             {
               "kind": "p",
-              "text": "When stable air flows over a mountain it forms a series of standing waves downwind of the ridge — the same way water flows over a stone in a stream. The crests and troughs of these mountain waves can extend many kilometres downwind. Lenticular clouds mark the wave crests. Convergence is a different phenomenon: when two winds meet head-on, the air is forced to rise where they collide — typically a smooth, strong lift but unpredictable in location."
+              "text": "In a typical alpine summer afternoon you may meet all three kinds of turbulence in a single hour. Near the ground (within 20 m): mainly mechanical from terrain and vegetation. Around 500 m above a valley with a developed valley wind: shear turbulence between the valley wind and the prevailing wind aloft. Above a south slope at 2800 m on a sunny day: thermal turbulence dominates."
             },
             {
               "kind": "callout",
               "title": "Turbulence types",
               "items": [
-                "Mechanical: wind + obstacles → rotors downwind.",
+                "Mechanical: wind + obstacles → rotors downwind, up to 10× obstacle height.",
+                "Shear: layers with different wind speed/direction → boundary turbulence.",
                 "Thermal: rising bubbles → gusts in convective sky.",
-                "Wave: stable air over mountains → standing waves, lenticularis.",
-                "Convergence: two winds meeting → rising air at the collision line."
+                "Venturi: wind accelerated through narrow gaps."
               ]
             }
           ],
@@ -1749,7 +1901,11 @@
             },
             {
               "kind": "p",
-              "text": "An air mass is a very large body of air, hundreds or thousands of kilometres across, with relatively uniform temperature and humidity. It takes its character from the region where it sat for several days — polar, tropical, maritime or continental. When two air masses meet they do not mix readily; instead a sloped boundary forms between them — a front."
+              "text": "An air mass is an extensive body of air — a continental scale of hundreds or thousands of kilometres — with relatively uniform characteristics, especially temperature and humidity, extending horizontally to its boundaries. Examples are a polar maritime air mass (cold and wet) or a tropical continental one (hot and dry). An air mass is described as 'warm' when its temperature is higher than that of its neighbours, regardless of what an absolute thermometer says."
+            },
+            {
+              "kind": "p",
+              "text": "Air masses do not mix easily. There is a relatively clear separation between two distinct air masses, called a front. Fronts are found mainly in temperate regions like Europe, where cold polar and warm tropical air masses meet. In polar, equatorial or tropical regions, fronts are essentially absent because all the air is of the same character."
             },
             {
               "kind": "image",
@@ -1760,8 +1916,46 @@
             {
               "kind": "image",
               "deck": "meteo",
+              "page": 16,
+              "caption": "Polar and tropical air mass formation — global picture."
+            },
+            {
+              "kind": "image",
+              "deck": "meteo",
               "page": 37,
               "caption": "Boundary between two air masses — sloped, not vertical."
+            },
+            {
+              "kind": "image",
+              "deck": "meteo",
+              "page": 38,
+              "caption": "Boundary between air masses — a closer look."
+            },
+            {
+              "kind": "h2",
+              "text": "How fronts form in a depression"
+            },
+            {
+              "kind": "p",
+              "text": "At our latitudes, depressions and frontal systems usually move from west to east at a few kilometres per hour. The anti-clockwise rotation of winds around a depression, combined with the eastern trajectory of the depression itself, drives the cold air west of the depression toward the southeast — forming a cold front — while warm air on the east side heads north, forming a warm front. Both fronts slant toward the cold air."
+            },
+            {
+              "kind": "image",
+              "deck": "meteo",
+              "page": 36,
+              "caption": "How fronts form — cyclone rotation drives both fronts."
+            },
+            {
+              "kind": "image",
+              "deck": "meteo",
+              "page": 40,
+              "caption": "Cyclonic influence — depressions drive the front system."
+            },
+            {
+              "kind": "image",
+              "deck": "meteo",
+              "page": 41,
+              "caption": "Front formation under a cyclone — close-up."
             },
             {
               "kind": "h2",
@@ -1769,7 +1963,11 @@
             },
             {
               "kind": "p",
-              "text": "A warm front forms where warm air advances against retreating colder air. The warm air slides up over the cold air on a gentle slope (typically 1:200). Cloud builds from very high cirrus, lowering through cirrostratus, altostratus and nimbostratus to drizzling stratus right at the front itself. The whole sequence can stretch over hundreds of kilometres; the precipitation lasts for hours."
+              "text": "A warm front occurs when warm, less dense air moves over the top of retreating cold air, sliding gently up the slope. Because the slope is gentle and the air mass is slow, an observer on the ground first sees the warm front high overhead, then watches it descend as the front passes. Cool air rises by expansion, water vapour saturates, clouds form and rain falls."
+            },
+            {
+              "kind": "p",
+              "text": "The cloud sequence in front of a warm front is a textbook display: high cirrus first, then cirrostratus and stratus, then altocumulus, and finally nimbostratus with rain at the front itself. Just before the warm front arrives on the ground, clouds are low and produce rain, visibility is poor and the wind strength increases. The whole sequence can stretch over hundreds of kilometres; the precipitation lasts for hours."
             },
             {
               "kind": "image",
@@ -1789,7 +1987,11 @@
             },
             {
               "kind": "p",
-              "text": "A cold front advances when cold air pushes under warm air. The boundary is steep (about 1:50), and the warm air is shoved violently upward. Cloud is shorter in horizontal extent but much taller: large cumulus and often cumulonimbus, with heavy showers, possible thunderstorms, sharp gusts and rapid temperature drop. The passage is brutal but brief — typically minutes to an hour at any point."
+              "text": "A cold front occurs when cold, denser air slides violently under warm air it encounters. The boundary is much steeper than for a warm front; the warm air is shoved abruptly upward. Cloud is shorter in horizontal extent but much taller. The front is characterised by a barrier of cumulonimbus coming from the west, often with thunderstorms, sharp gusts and rapid temperature drop. The passage is brutal but brief — typically minutes to an hour at any point."
+            },
+            {
+              "kind": "p",
+              "text": "The hours before a cold front can be calm and even sunny, then the front and its barrier of cumulonimbus arrive, sometimes with lightning, thunder and hail. Behind the cold front the trailing air is fresher, with good visibility and stratocumulus or shallow cumulus at modest altitude. Cumulonimbus and thunderstorms are more likely in summer cold fronts than winter ones, because the lower atmosphere is warmer. Meteorological forecasts that mention 'fresh polar air arriving in a hot stuffy summer' usually mean a cold-front passage with thunderstorms, hail and gusty winds."
             },
             {
               "kind": "image",
@@ -1804,12 +2006,22 @@
               "caption": "Cold front cloud sequence."
             },
             {
+              "kind": "image",
+              "deck": "meteo",
+              "page": 46,
+              "caption": "Active front vs. just a brush — how to tell."
+            },
+            {
               "kind": "h2",
               "text": "Occlusion"
             },
             {
               "kind": "p",
-              "text": "Cold fronts travel faster than warm fronts. Eventually the cold front catches the warm front, lifting the warm air entirely off the ground. The composite boundary is called an occluded front. Weather at an occlusion combines the steady rain of the warm front with the showers and instability of the cold front, but is usually less intense than either alone."
+              "text": "The cold front moves slightly faster than the warm front. Eventually the cold front catches up with the warm front and the two merge — this is called an occlusion. Depending on the relative temperature of the cold air behind the cold front and the cold air ahead of the warm front, an occlusion presents either warm-front or cold-front characteristics at ground level."
+            },
+            {
+              "kind": "p",
+              "text": "If the cold air behind the cold front is warmer than the cold air ahead of the warm front, the cold front slides over the warm front and the conditions at ground level remain warm-front in character. If the situation is reversed and the trailing cold air is colder, the cold front slips under the warm front and the occlusion presents cold-front character at ground level."
             },
             {
               "kind": "image",
@@ -1820,15 +2032,33 @@
             {
               "kind": "image",
               "deck": "meteo",
+              "page": 43,
+              "caption": "Well-developed occlusion — composite weather."
+            },
+            {
+              "kind": "image",
+              "deck": "meteo",
               "page": 49,
               "caption": "Occlusion — combined warm+cold front character."
+            },
+            {
+              "kind": "image",
+              "deck": "meteo",
+              "page": 50,
+              "caption": "Occlusion — cloud images of the merged front."
+            },
+            {
+              "kind": "image",
+              "deck": "meteo",
+              "page": 39,
+              "caption": "Polar front / stationary front — when fronts don't move."
             },
             {
               "kind": "callout",
               "title": "Front facts",
               "items": [
-                "Warm front: gentle slope (1:200), high cirrus first, long steady rain.",
-                "Cold front: steep slope (1:50), towering Cb, brief violent passage.",
+                "Warm front: gentle slope, high cirrus first, long steady rain.",
+                "Cold front: steep slope, towering Cb, brief violent passage.",
                 "Cold fronts move faster than warm fronts.",
                 "Occlusion = cold front catches up with warm front."
               ]
@@ -1864,7 +2094,11 @@
             },
             {
               "kind": "p",
-              "text": "Heat thunderstorms form in moist, unstable air on a hot day. A normal cumulus humilis grows into cumulus mediocris, then congestus, then a fully developed cumulonimbus — typically in the afternoon, after the ground has had hours of sun to fuel convection. They are local, often isolated, but extremely dangerous to anyone within tens of kilometres because of strong inflow, downdrafts and gust fronts."
+              "text": "For strong thermals to develop over a land surface, two ingredients are needed. First, strong solar radiation arriving essentially perpendicular to the surface — for instance mountain faces in the morning, southern slopes around noon, western slopes in the afternoon. Second, ground that absorbs solar radiation efficiently: dark, rough, dry surfaces warm the air well; reflective surfaces such as snow waste much of the incoming light; wet ground spends a large fraction of the energy on evaporation."
+            },
+            {
+              "kind": "p",
+              "text": "Powerful convection in a humid atmosphere can build cumulus humilis through mediocris into a cumulus congestus and then a cumulonimbus producing rain, gusts and thunder — a heat storm. Heat storms usually develop in late afternoon, when the ground has had hours of sun to fuel convection. They are local, often isolated, but extremely dangerous within tens of kilometres because of strong inflow, downdrafts and gust fronts."
             },
             {
               "kind": "image",
@@ -1875,12 +2109,28 @@
             {
               "kind": "image",
               "deck": "meteo",
+              "page": 74,
+              "caption": "Thunderstorm formation — second stage of growth."
+            },
+            {
+              "kind": "image",
+              "deck": "meteo",
+              "page": 75,
+              "caption": "Thunderstorms — mature and decaying stages."
+            },
+            {
+              "kind": "image",
+              "deck": "meteo",
               "page": 76,
               "caption": "Thunderstorm hazards — gusts, hail, lightning."
             },
             {
               "kind": "p",
-              "text": "Frontal thunderstorms, by contrast, are not tied to the time of day. They are triggered by the violent uplift of warm humid air at a cold front and can occur day or night."
+              "text": "A 'blue thermal' is convection that does not result in cumulus at the top. It occurs when the air is very dry — a low humidity or a wide gap between temperature and dew point — so condensation does not happen at the thermal top. Frontal thunderstorms, by contrast, are not tied to time of day. They are triggered by the violent uplift of warm humid air at a cold front and can occur day or night."
+            },
+            {
+              "kind": "p",
+              "text": "Convective activity in Europe is best from April to August because solar radiation is stronger and the days are longer. Differences in average altitude shift the peak: snowmelt and thermals come earlier in the pre-Alps than in the Alps, so thermals are best in May in the pre-Alps and in August in the Alps."
             },
             {
               "kind": "h2",
@@ -1888,7 +2138,7 @@
             },
             {
               "kind": "p",
-              "text": "A synoptic map summarises the pressure pattern, the air masses and the fronts across a continent. Highs are marked with H, lows with L. The line patterns showing warm, cold and occluded fronts tell a pilot what to expect over the coming day. Reading European synoptic maps is the first step in any serious flight planning."
+              "text": "A synoptic chart summarises the state of various meteorological features at a given time — pressure as isobars, fronts as marked lines, and sometimes wind, temperature and cloud. The letter H marks the centre of a high (anticyclone), the letter L the centre of a low (depression). The line styles distinguish warm fronts, cold fronts and occlusions. Pressures shown on the map are corrected to sea level."
             },
             {
               "kind": "image",
@@ -1903,16 +2153,36 @@
               "caption": "Fronts — schematic of warm, cold and occluded boundaries."
             },
             {
+              "kind": "p",
+              "text": "Three things on a synoptic map answer most flying questions. Isobar spacing indicates the pressure gradient and therefore the wind strength. Centres of action (H and L) determine the wind rotation: clockwise round a high, anti-clockwise round a low (northern hemisphere). The position and movement of fronts determine the next 24 hours of weather."
+            },
+            {
               "kind": "h2",
               "text": "Typical Swiss situations"
             },
             {
               "kind": "p",
-              "text": "A few synoptic configurations repeat in Switzerland. Strong south-north pressure gradients drive Föhn (south higher → Südföhn from the south; north higher → Nordföhn). Westerly flow with cold fronts brings rain and gusty weather to the whole country. A barometric swamp gives light winds and good thermals, but with increasing thunderstorm risk in the afternoon."
+              "text": "From the synoptic maps over Europe we can identify six weather patterns typical for Switzerland. An anticyclone centred on the Alps gives stable weather: in winter, pressures of 1030–1040 hPa, often with strong inversion and stratus on the plateau; in summer, around 1020–1025 hPa, with usable thermals in the Alps and possible local thunderstorms. A barometric plateau gives light winds and good thermals but a real thunderstorm risk in the afternoon."
+            },
+            {
+              "kind": "p",
+              "text": "The Bise is a pronounced wind from the north-east on the central plateau around 2000 m, caused by a high pressure centred north of Germany. Westerly flow comes with a depression over Scandinavia: short periods of good weather alternate with disturbances, often with strong winds. The two Föhn situations — Südföhn (depression northwest, high over northern Italy, with south wind across the Alps) and Nordföhn (Azores high extending east, with north wind across the Alps) — are characterised by strong south-north pressure differences and dangerous turbulence."
             },
             {
               "kind": "p",
               "text": "Sunny weather at altitude with fog in the valleys is a classic high-pressure morning: an anticyclone with descending air, an inversion in the lower layers and pooled cool moist air below. Simultaneous sunshine at altitude and in the valleys is the signature of a stable, well-developed anticyclone."
+            },
+            {
+              "kind": "image",
+              "deck": "meteo",
+              "page": 17,
+              "caption": "Polar and tropical air mass formation in pressure systems."
+            },
+            {
+              "kind": "image",
+              "deck": "meteo",
+              "page": 19,
+              "caption": "Thermal high and low pressure formation."
             },
             {
               "kind": "callout",
