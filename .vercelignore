@@ -1,0 +1,14 @@
+.git
+.gitignore
+.claude
+.vercel
+node_modules
+__pycache__
+*.pyc
+data/
+scripts/
+app.css
+app.js
+build.py
+README.md
+*.md
