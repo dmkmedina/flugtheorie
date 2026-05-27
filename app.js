@@ -82,6 +82,7 @@ function getCards() { return window.CARDS || []; }
 function getGuide() { return window.GUIDE || { parts: [] }; }
 function getTipsMd() { return window.TIPS_MD || ''; }
 function getDecks() { return (window.DECKS && window.DECKS.decks) || []; }
+function getDiagrams() { return (window.DIAGRAMS && window.DIAGRAMS.diagrams) || []; }
 function getWorkbook() { return (window.WORKBOOK && window.WORKBOOK.books) || []; }
 function getBookById(id) { return getWorkbook().find(b => b.id === id); }
 function getChapterById(bookId, chapterId) {
@@ -1216,6 +1217,24 @@ function renderGuide() {
   // Paragraph-ize text
   const paragraphs = textWithLinks.split(/\n\n+/).map(p => `<p>${p.replace(/\n/g, '<br>')}</p>`).join('');
 
+  // Custom diagrams keyed to this chapter
+  const allDiagrams = (window.DIAGRAMS && window.DIAGRAMS.diagrams) || [];
+  const diagrams = allDiagrams.filter(d => d.use_in_chapter === chapter.id);
+  const diagramsHtml = diagrams.length === 0 ? '' : `
+        <div class="guide-diagrams">
+          <h3 class="guide-section-title">Diagrams</h3>
+          ${diagrams.map(d => `
+            <figure class="guide-diagram">
+              <div class="guide-diagram-svg">${d.svg}</div>
+              <figcaption>
+                <strong>${escapeHtml(d.title)}</strong>
+                <div class="guide-diagram-caption">${escapeHtml(d.caption)}</div>
+              </figcaption>
+            </figure>
+          `).join('')}
+        </div>
+  `;
+
   return `
     <div class="page-header">
       <h1>Study Guide</h1>
@@ -1244,6 +1263,8 @@ function renderGuide() {
           </div>
         ` : ''}
         <div class="guide-text">${paragraphs}</div>
+
+        ${diagramsHtml}
 
         <div class="guide-pages">
           <div class="guide-pages-head">

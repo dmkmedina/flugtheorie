@@ -21,6 +21,7 @@ def main():
     decks = load_json('data/decks.json')
     workbook = load_json('data/workbook.json') if os.path.exists(os.path.join(ROOT, 'data/workbook.json')) else {'books': []}
     distractors = load_json('data/distractors.json') if os.path.exists(os.path.join(ROOT, 'data/distractors.json')) else {}
+    diagrams = load_json('data/diagrams.json') if os.path.exists(os.path.join(ROOT, 'data/diagrams.json')) else {'diagrams': []}
     tips_md = load_file('data/study_tips.md')
 
     css = load_file('app.css')
@@ -32,6 +33,7 @@ def main():
     decks_json = json.dumps(decks, ensure_ascii=False, separators=(',', ':'))
     workbook_json = json.dumps(workbook, ensure_ascii=False, separators=(',', ':'))
     distractors_json = json.dumps(distractors, ensure_ascii=False, separators=(',', ':'))
+    diagrams_json = json.dumps(diagrams, ensure_ascii=False, separators=(',', ':'))
 
     # Encode tips markdown as a JS string-safe literal
     # Use JSON.parse('...') trick - escape backslashes/quotes/newlines
@@ -105,12 +107,14 @@ def main():
 <script id="data-decks" type="application/json">{decks_json}</script>
 <script id="data-workbook" type="application/json">{workbook_json}</script>
 <script id="data-distractors" type="application/json">{distractors_json}</script>
+<script id="data-diagrams" type="application/json">{diagrams_json}</script>
 <script>
 window.CARDS = JSON.parse(document.getElementById('data-cards').textContent);
 window.GUIDE = JSON.parse(document.getElementById('data-guide').textContent);
 window.DECKS = JSON.parse(document.getElementById('data-decks').textContent);
 window.WORKBOOK = JSON.parse(document.getElementById('data-workbook').textContent);
 window.DISTRACTORS = JSON.parse(document.getElementById('data-distractors').textContent);
+window.DIAGRAMS = JSON.parse(document.getElementById('data-diagrams').textContent);
 window.TIPS_MD = {tips_js};
 </script>
 

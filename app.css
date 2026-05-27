@@ -937,6 +937,57 @@ code, .mono { font-family: "SF Mono", Menlo, Consolas, monospace; font-size: 13p
   font-family: "SF Mono", Menlo, Consolas, monospace;
   vertical-align: middle;
 }
+/* Custom hand-authored diagrams in the study guide */
+.guide-section-title {
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  font-weight: 700;
+  color: var(--text-soft);
+  margin: 32px 0 14px;
+  padding-bottom: 6px;
+  border-bottom: 1px solid var(--border);
+}
+.guide-diagrams {
+  margin-top: 28px;
+}
+.guide-diagram {
+  margin: 0 0 22px;
+  padding: 0;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  overflow: hidden;
+}
+.guide-diagram-svg {
+  background: var(--bg-soft);
+  padding: 18px 22px;
+  color: var(--text);
+  display: block;
+}
+.guide-diagram-svg svg {
+  width: 100%;
+  height: auto;
+  display: block;
+  max-height: 360px;
+}
+.guide-diagram figcaption {
+  padding: 12px 18px 14px;
+  font-size: 13px;
+  color: var(--text-soft);
+  border-top: 1px solid var(--border);
+}
+.guide-diagram figcaption strong {
+  display: block;
+  color: var(--text);
+  font-weight: 600;
+  margin-bottom: 4px;
+  font-size: 14px;
+}
+.guide-diagram-caption {
+  line-height: 1.55;
+}
+
 .guide-pages {
   margin-top: 32px;
   padding-top: 24px;
