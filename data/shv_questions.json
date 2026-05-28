@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-05-28T14:54:24.430Z",
+  "fetchedAt": "2026-05-28T14:58:42.547Z",
   "questions": {
     "1": {
       "qid": 1,
@@ -2130,9 +2130,136 @@
         ">>>"
       ],
       "correct": 1
+    },
+    "Weather_21": {
+      "qid": 21,
+      "topic": "Weather",
+      "pos": 1,
+      "total_in_topic": 164,
+      "text": "On average the air temperature in the troposphere reduces with increasing altitude. However, it can occur that the temperature in a particular layer stays the same. What is this phenomenon called?",
+      "options": [
+        "Isotherm",
+        "Superadiabatic",
+        "Inversion",
+        "Restitution"
+      ],
+      "correct": 0
+    },
+    "Weather_158": {
+      "qid": 158,
+      "topic": "Weather",
+      "pos": 2,
+      "total_in_topic": 164,
+      "text": "Which of the following cities already feel the influence of the approaching warm front?",
+      "options": [
+        "Paris and London",
+        "Lisbon (Lissabon) and Athens (Athen)",
+        "Lulea and St.Petersburg",
+        "Zürich and Stockholm"
+      ],
+      "correct": 2
+    },
+    "Weather_59": {
+      "qid": 59,
+      "topic": "Weather",
+      "pos": 4,
+      "total_in_topic": 164,
+      "text": "Lenticular clouds",
+      "options": [
+        "change their position little despite high winds.",
+        "consist exclusively of water, never of ice.",
+        "cause precipitation.",
+        "appear in Switzerland only during south föhn."
+      ],
+      "correct": 0
+    },
+    "Weather_29": {
+      "qid": 29,
+      "topic": "Weather",
+      "pos": 5,
+      "total_in_topic": 164,
+      "text": "Which of the following signs indicates the presence of an inversion?",
+      "options": [
+        "A cirrus cloud.",
+        "A fog layer.",
+        "A lenticular cloud.",
+        "A cumulonimbus cloud."
+      ],
+      "correct": 1
+    },
+    "Weather_39": {
+      "qid": 39,
+      "topic": "Weather",
+      "pos": 6,
+      "total_in_topic": 164,
+      "text": "The term \"dew point\" is defined in meteorology as",
+      "options": [
+        "the temperature of the night-time ground radiation required for condensation on the cold ground to occur.",
+        "the temperature to which air must be cooled in order for the water vapour contained within it to begin to condense.",
+        "the relative humidity of the air.",
+        "the moisture content of the air when the condensation temperature is reached."
+      ],
+      "correct": 1
+    },
+    "Weather_62": {
+      "qid": 62,
+      "topic": "Weather",
+      "pos": 7,
+      "total_in_topic": 164,
+      "text": "Which of the following statements is false",
+      "options": [
+        "Cumulonimbus clouds can produce hail stones as large as a fist.",
+        "Cumulus congestus and cumulonimbus clouds can, through evaporation, produce cold air pockets which can fall to the ground at high speed in the area surrounding the cloud.",
+        "Cumulus congestus and cumulonimbus clouds always result in hail to ground level.",
+        "Cumulus congestus and cumulonimbus clouds can produce up- and downdrafts with peak gusts over 30 m/s."
+      ],
+      "correct": 2
+    },
+    "Weather_153": {
+      "qid": 153,
+      "topic": "Weather",
+      "pos": 9,
+      "total_in_topic": 164,
+      "text": "What is the wind direction in Athens (Athen)?",
+      "options": [
+        "130°",
+        "270°",
+        "190°",
+        "310°"
+      ],
+      "correct": 0
+    },
+    "Weather_16": {
+      "qid": 16,
+      "topic": "Weather",
+      "pos": 10,
+      "total_in_topic": 164,
+      "text": "How does the temperature of a bubble of air change as it leaves the ground and rises without creating a cloud?",
+      "options": [
+        "The temperature reduces at approx. 1°C /100m because the pressure reduces with increasing altitude.",
+        "No statement can be made about it, because the temperature is dependent on the weather conditions.",
+        "The temperature reduces at approx. 0.65°C /100m, as is the case in the entire troposphere.",
+        "The temperature rises at approx. 0.5°C /100m because the sun's radiation becomes more intense."
+      ],
+      "correct": 0
+    },
+    "Weather_7": {
+      "qid": 7,
+      "topic": "Weather",
+      "pos": 11,
+      "total_in_topic": 164,
+      "text": "What is the average sea level pressure (ICAO standard atmosphere) used by meteorologists?",
+      "options": [
+        "1013.2 hPa",
+        "1033.6 hPa",
+        "760.0 hPa",
+        "998.7 hPa"
+      ],
+      "correct": 0
     }
   },
   "topics": {
-    "Aerodynamics": 152
+    "Aerodynamics": 152,
+    "Weather": 164
   }
 }
