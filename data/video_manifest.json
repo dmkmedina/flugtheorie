@@ -244,8 +244,8 @@
           "poster": "https://static.wixstatic.com/media/f2f7a2_834427da5d6a481e9af2adbd4955fc94f003.jpg/v1/fill/w_200,h_267,q_90,enc_avif,quality_auto/f2f7a2_834427da5d6a481e9af2adbd4955fc94f003.jpg",
           "duration_seconds": 268.608005,
           "duration_label": "4:28",
-          "has_de_vtt": false,
-          "has_en_vtt": false
+          "has_de_vtt": true,
+          "has_en_vtt": true
         },
         {
           "id": "aa_b-stall",
@@ -258,7 +258,7 @@
           "poster": "https://static.wixstatic.com/media/f2f7a2_438b4ef3c16043719144ddfab222aa1cf003.jpg/v1/fill/w_200,h_267,q_90,enc_avif,quality_auto/f2f7a2_438b4ef3c16043719144ddfab222aa1cf003.jpg",
           "duration_seconds": 283.376009,
           "duration_label": "4:43",
-          "has_de_vtt": false,
+          "has_de_vtt": true,
           "has_en_vtt": false
         },
         {
@@ -300,7 +300,7 @@
           "poster": "https://static.wixstatic.com/media/f2f7a2_dcfae3b8b8324726ad52b976b9843921f003.jpg/v1/fill/w_200,h_267,q_90,enc_avif,quality_auto/f2f7a2_dcfae3b8b8324726ad52b976b9843921f003.jpg",
           "duration_seconds": 344.072993,
           "duration_label": "5:44",
-          "has_de_vtt": false,
+          "has_de_vtt": true,
           "has_en_vtt": false
         },
         {
@@ -314,8 +314,8 @@
           "poster": "https://static.wixstatic.com/media/f2f7a2_f47a358708e040ad93577b9d86ba429af003.jpg/v1/fill/w_200,h_267,q_90,enc_avif,quality_auto/f2f7a2_f47a358708e040ad93577b9d86ba429af003.jpg",
           "duration_seconds": 271.633333,
           "duration_label": "4:31",
-          "has_de_vtt": false,
-          "has_en_vtt": false
+          "has_de_vtt": true,
+          "has_en_vtt": true
         },
         {
           "id": "aa_seitenklapper_50pct",
@@ -357,7 +357,7 @@
           "duration_seconds": 137.670998,
           "duration_label": "2:17",
           "has_de_vtt": true,
-          "has_en_vtt": false
+          "has_en_vtt": true
         },
         {
           "id": "aa_bremshaltung",
@@ -384,8 +384,8 @@
           "poster": "https://static.wixstatic.com/media/f2f7a2_326733b4f7a64b268de7fe0dc0718149f003.jpg/v1/fill/w_200,h_267,q_90,enc_avif,quality_auto/f2f7a2_326733b4f7a64b268de7fe0dc0718149f003.jpg",
           "duration_seconds": 145.566667,
           "duration_label": "2:25",
-          "has_de_vtt": false,
-          "has_en_vtt": false
+          "has_de_vtt": true,
+          "has_en_vtt": true
         }
       ]
     }
@@ -396,8 +396,8 @@
       "freewings": 10,
       "airactive": 15
     },
-    "with_de_vtt": 11,
-    "with_en_vtt": 9,
+    "with_de_vtt": 16,
+    "with_en_vtt": 13,
     "total_duration_seconds": 28834.318964000013
   }
 }
