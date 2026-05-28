@@ -2,225 +2,303 @@
   "slug": "aa_p2_leitlinien_acht",
   "language": "de",
   "duration": 344.0733125,
-  "transcribed_in_sec": 50.4,
-  "model": "base",
+  "transcribed_in_sec": 32.7,
+  "model": "large-v3",
+  "settings": {
+    "device": "cuda",
+    "compute_type": "float16",
+    "beam_size": 10,
+    "initial_prompt_chars": 568,
+    "vad_min_silence_ms": 300
+  },
   "segments": [
     {
       "i": 1,
-      "start": 19.44,
-      "end": 33.7,
-      "text": "Gut, gleichesgeles, gleiche Technik, einfach nur mit einem Richtigungswechsel, die sogenannte Prüfungs 8 oder aber Prüfung mit P2 bezeichnet."
+      "start": 19.61,
+      "end": 33.2,
+      "text": "Gut, gleiches, gleiche Technik, einfach nur mit einem Richtungswechsel, das ist die sogenannte Prüfungsacht oder alle Prüfungen mit P2 bezeichnet."
     },
     {
       "i": 2,
-      "start": 33.7,
-      "end": 44.89,
-      "text": "Da ist es so, auch da beginnen wir auf eine Achse, wir fliegen einen komplett geschlossenen Links-Kreis, also an der Prüfung wird immer mit dem Links-Kreis begonnen."
+      "start": 34.36,
+      "end": 43.93,
+      "text": "Da ist es so, auch da beginnen wir auf einer Achse, wir fliegen einen komplett geschlossenen Linkskreis, also an der Prüfung wird immer mit dem Linkskreis begonnen."
     },
     {
       "i": 3,
-      "start": 44.89,
-      "end": 49.89,
-      "text": "Dann auf unserer Achse kommt direkt an hing in der Rechtskreis."
+      "start": 43.93,
+      "end": 60.53,
+      "text": "Dann auf unserer Achse kommt direkt anhängender Rechtskreis, das heißt die zwei Kreise sind ein bisschen versetzt voneinander geflogen, auf einer Leitlinie und deshalb sagt man den Prüfungsacht, weil das wie so eine verschobene Acht aussieht."
     },
     {
       "i": 4,
-      "start": 49.89,
-      "end": 57.92,
-      "text": "Das heißt, die zwei Kreise sind ein bisschen versetzt von den anderen geflogen auf einer Leitlinie und deshalb sagt man den Prüfungs 8,"
+      "start": 60.53,
+      "end": 66.96,
+      "text": "Das hat nichts mit der geschriebenen Acht zu tun, es sind zwei vollständig geschlossene Kreise."
     },
     {
       "i": 5,
-      "start": 57.92,
-      "end": 67.92,
-      "text": "weil das wie so von der verschobene Acht aussieht, hat nichts mit der geschriebenen Achts zu tun, sind zwei vollständig geschlossene Kreise."
+      "start": 68.57,
+      "end": 74.75,
+      "text": "Achtet auch darauf, dass wenn ihr die Achse erreicht habt, also auf Flugzeit, der direkte Wechsel kommt."
     },
     {
       "i": 6,
-      "start": 68.92,
-      "end": 74.92,
-      "text": "Achtet auch darauf, dass wenn ihr die Achse erreicht habt, also auf Fluchzeit der direkte Wechsel kommt,"
+      "start": 74.75,
+      "end": 80.77,
+      "text": "Ihr müsst nicht geradeaus fliegen auf dieser Leitlinie und dann kommt ein Wechsel, das kostet immer Zeit."
     },
     {
       "i": 7,
-      "start": 74.92,
-      "end": 90.44,
-      "text": "ihr müssten nicht gerade ausfliegen, dieser Leitlinie und dann kommt ein We"
+      "start": 81.34,
+      "end": 82.96,
+      "text": "Also sobald man Achse hat, wechseln."
     },
     {
       "i": 8,
-      "start": 90.44,
-      "end": 93.44,
-      "text": "und probiert beides aus und lehnt das was euch besser gefällt."
+      "start": 84.04,
+      "end": 90.54,
+      "text": "Auch dieses Manöver könnt ihr mit der Bremse am Steg in der Hand fliegen oder mit der Wicklung."
     },
     {
       "i": 9,
-      "start": 93.44,
-      "end": 103.44,
-      "text": "Präums am Stech suchen wir beizeit das geringste Sinken, mit checken den Luftraum ist der Luftraum 3, kommt der Links-Kreis,"
+      "start": 90.72,
+      "end": 93.22,
+      "text": "Probiert beides aus und nehmt das, was euch besser gefällt."
     },
     {
       "i": 10,
-      "start": 103.44,
-      "end": 106.44,
-      "text": "die Gewicht links rein, rechte Hand ganz rauf."
+      "start": 93.82,
+      "end": 105.93,
+      "text": "Bremse am Steg, suchen wir beidseitig das geringste Sinken, wir checken den Luftraum, ist der Luftraum frei, kommt der Linkskreis, Gewicht links rein, rechte Hand ganz rauf."
     },
     {
       "i": 11,
-      "start": 106.44,
-      "end": 117.44,
-      "text": "Kurz, bevor wir auf unserer Flucht sind, kommt schon das Körpergewicht, dann auf unserer Flucht die Bremse und dann kommt der direkte Wechselzack in den Rechtskreis."
+      "start": 106.71,
+      "end": 116.96,
+      "text": "Kurz bevor wir auf unserer Flucht sind, kommt schon das Körpergewicht, dann auf unserer Flucht die Bremse und dann kommt der direkte Wechsel, zack, in den Rechtskreis."
     },
     {
       "i": 12,
-      "start": 117.44,
-      "end": 128.44,
-      "text": "Dann beenden wir den Rechtskreis fast vollständig, kurz bevor wir auf dem Trax sind, geht der Körper in die neutrale Sitzposition und gleichzeitig entspannt,"
+      "start": 117.82,
+      "end": 134.3,
+      "text": "Dann beenden wir den Rechtskreis fast vollständig, kurz bevor wir auf unserer Achse sind, geht der Körper in die neutrale Sitzposition und gleichzeitig aber entspannt, also zieht die Außenbremse immer langsam, gefühlvoll, kommt dann die Außenbremse,"
     },
     {
       "i": 13,
-      "start": 128.44,
-      "end": 139.21,
-      "text": "also zieht die Außenbremse immer langsam, gut voll, kommt dann die Außenbremse so, dass wir beizeitig angebremst aus diesem Ganzen herauskommen."
+      "start": 134.3,
+      "end": 136.3,
+      "text": "sodass wir beidseitig angebremst sind."
     },
     {
       "i": 14,
-      "start": 139.21,
-      "end": 148.21,
-      "text": "Auch da ist erst einmal wichtig nicht die Zeit, sondern einfach Flucht, Flucht und das gleiche gilt immer auch für den Doppelkreis."
+      "start": 136.46,
+      "end": 144.77,
+      "text": "Auch da ist erst einmal wichtig, nicht die Zeit, sondern einfach Flucht."
     },
     {
       "i": 15,
-      "start": 148.21,
-      "end": 156.21,
-      "text": "Flucht ist erst einmal wichtig Orientierung im Raum, einstellende Klärlage, Körperverlagung und so weiter."
+      "start": 145.02,
+      "end": 148.38,
+      "text": "Flucht und das gleiche gilt eben auch für den Doppelkreis."
     },
     {
       "i": 16,
-      "start": 156.21,
-      "end": 166.21,
-      "text": "Die Zeit kommt dann später. Je mehr wir das Ganze präniert haben, umso wohler fühlen wir uns dann, wenn die Klärlage ein bisschen mehr eingestellt wird"
+      "start": 149.02,
+      "end": 155.62,
+      "text": "Flucht ist erst einmal wichtig, Orientierung im Raum, Einstellen der Querlage, Körperverlagerung und so weiter."
     },
     {
       "i": 17,
-      "start": 196.4,
-      "end": 206.4,
-      "text": "und es gehen wir in die neutrale Sitzposition und zack, nehmen die Außenbremse mit, so dass wir wieder angebremst herauskommen."
+      "start": 156.43,
+      "end": 158.17,
+      "text": "Die Zeit kommt dann später."
     },
     {
       "i": 18,
-      "start": 206.4,
-      "end": 211.46,
-      "text": "Sobald wir das haben, dürfen wir dann die Bremse auch wieder vollständig freien."
+      "start": 158.37,
+      "end": 166.05,
+      "text": "Je mehr wir das Ganze trainiert haben, umso wohler fühlen wir uns dann, wenn die Querlage mal ein bisschen mehr eingestellt wird."
     },
     {
       "i": 19,
-      "start": 211.46,
-      "end": 220.49,
-      "text": "Bei der 8 basiert das oft, dass man den ersten Kreis ziemlich zügig einleitet."
+      "start": 166.79,
+      "end": 167.99,
+      "text": "Und so können wir uns dann auch wieder einstellen."
     },
     {
       "i": 20,
-      "start": 220.49,
-      "end": 228.49,
-      "text": "Dann kommt der Wechsel vor und man macht mehrheitlich fast den Minover auf diese Seite und verrungen dann,"
+      "start": 167.99,
+      "end": 168.01,
+      "text": "Und so können wir uns dann auch wieder einstellen."
     },
     {
       "i": 21,
-      "start": 228.49,
-      "end": 238.49,
-      "text": "so nach dem ersten Imput, also achtet darauf, dass ihr direkt beim Wechsel auch mit der Außenbremse arbeitet."
+      "start": 168.01,
+      "end": 168.03,
+      "text": "Und so können wir uns dann auch wieder einstellen."
     },
     {
       "i": 22,
-      "start": 238.49,
-      "end": 247.49,
-      "text": "Gedeutet, wenn ich jetzt hier reingehe, zack, kurz bevor ich auf meiner Flucht bin, kommt die Außenhand mit dem Gewicht harmonisch,"
+      "start": 168.03,
+      "end": 169.63,
+      "text": "Und so können wir uns dann immer mehr auf diese Zeit."
     },
     {
       "i": 23,
-      "start": 247.49,
-      "end": 256.0,
-      "text": "so dass ich eigentlich auf meiner Haße beizeitig gebremst bin und dann kommt der harmonische Direkt der Wechsel."
+      "start": 172.06,
+      "end": 177.68,
+      "text": "Wenn ihr das Ganze mit halber Wicklung fliegt, achtet einfach darauf, dass ihr nicht zu viel bremst."
     },
     {
       "i": 24,
-      "start": 256.0,
-      "end": 264.35,
-      "text": "Aber da wieder immer Pandäten außenbremst. Das Außenbremse ist ein wichtiges Element beim Kreischen fliegen."
+      "start": 177.86,
+      "end": 181.87,
+      "text": "Wir haben einen kürzeren Steuerweg, das heißt, geringste Sinken suchen."
     },
     {
       "i": 25,
-      "start": 265.35,
-      "end": 271.35,
-      "text": "Sollten wir mal in einer Spirale enden, beist mir es weisse oder einfach beim Doppelkreis in einer sehr starken Querlage."
+      "start": 182.45,
+      "end": 188.69,
+      "text": "Zack, Gewichtsverlagerung, Querlage einstellen, dann den Kreisfast ganz beenden."
     },
     {
       "i": 26,
-      "start": 271.35,
-      "end": 275.35,
-      "text": "Werden wir nie die innenhand freigeben, sondern mit hin."
+      "start": 189.03,
+      "end": 193.43,
+      "text": "Zack, Gewicht neutral und der direkte Wechsel in den Rechtskreis rüber."
     },
     {
       "i": 27,
-      "start": 275.35,
-      "end": 279.35,
-      "text": "Über die Außenbremse soweit nach unten bis mir gerade rauskommen aus dem Ganzen."
+      "start": 194.61,
+      "end": 199.43,
+      "text": "Und sobald der Rechtskreisfast komplett geschlossen ist, gehen wir in die neutrale Sitzposition."
     },
     {
       "i": 28,
-      "start": 279.35,
-      "end": 282.35,
-      "text": "Das ist ein ganz wichtiges Element und darum geht es."
+      "start": 199.43,
+      "end": 205.68,
+      "text": "Zack, nehmen die Außenbremse mit, sodass wir wieder angebremst herauskommen."
     },
     {
       "i": 29,
-      "start": 288.38,
-      "end": 292.38,
-      "text": "Für das Manöver 8 wird eine vorgegebene Fluggagse eingenommen."
+      "start": 207.03,
+      "end": 210.51,
+      "text": "Sobald wir das haben, dürfen wir dann die Bremse auch wieder vollständig freien."
     },
     {
       "i": 30,
-      "start": 292.38,
-      "end": 303.37,
-      "text": "Durch dosiertes Ziehen der linken Steuerleine wird ein Links-Kreis geflogen, bis der Schirm wieder auf der ursprünglichen Fluggagse."
+      "start": 212.7,
+      "end": 220.76,
+      "text": "Bei der Acht passiert das oft, dass man den ersten Kreis ziemlich zügig einleitet."
     },
     {
       "i": 31,
-      "start": 303.37,
-      "end": 312.37,
-      "text": "Mit dosiertem Ziehen der rechten Steuerleine wird anschließend ein Rechtskreis geflogen, bis der Schirm wieder auf der ursprünglichen Fluggagse ist."
+      "start": 221.18,
+      "end": 231.76,
+      "text": "Dann kommt der Wechsel und man macht mehrheitlich fast den Wingover auf diese Seite und verhungert dann so nach dem ersten Input."
     },
     {
       "i": 32,
-      "start": 312.37,
-      "end": 320.58,
-      "text": "Durch dosiertes Anbremsen, nachfolgende Roll- und Nickbewegungen abgefangen und der Schirm stabilisiert."
+      "start": 231.76,
+      "end": 232.76,
+      "text": "Zack, Gewichtsverlagerung."
     },
     {
       "i": 33,
-      "start": 320.58,
-      "end": 323.19,
-      "text": "Vorsicht!"
+      "start": 232.76,
+      "end": 238.92,
+      "text": "Das bedeutet darauf, dass ihr direkt beim Wechsel auch mit der Außenbremse arbeitet."
     },
     {
       "i": 34,
-      "start": 323.19,
-      "end": 331.19,
-      "text": "Beim Richtungswechsel können zu starkes Ziehen der Steuerleine oder falsches Timing zu einem einseitigen Strömungsabres führen."
+      "start": 239.16,
+      "end": 248.05,
+      "text": "Das bedeutet, wenn ich jetzt hier reingehe, zack, kurz bevor ich auf meiner Flucht bin, kommt die Außenhand mit dem Gewicht harmonisch,"
     },
     {
       "i": 35,
-      "start": 331.19,
-      "end": 337.19,
-      "text": "Die Zeitdauer für das Manöver beträgt maximal 25 Sekunden. Wichtig!"
+      "start": 248.55,
+      "end": 254.37,
+      "text": "sodass ich eigentlich auf meiner Achse beidseitig gebremst bin und dann kommt der harmonische direkte Wechsel."
     },
     {
       "i": 36,
-      "start": 337.19,
-      "end": 343.19,
-      "text": "Die Zeitmessung stoppt erst, wenn der Schirm stabil auf der ursprünglichen Fluggagse fliegt."
+      "start": 256.26,
+      "end": 260.51,
+      "text": "Okay, und auch da wieder immer dran denken, Außenbremse."
+    },
+    {
+      "i": 37,
+      "start": 260.51,
+      "end": 264.07,
+      "text": "Das Außenbremsen ist ein wichtiges Element beim Gleitschirmfliegen."
+    },
+    {
+      "i": 38,
+      "start": 265.95,
+      "end": 271.17,
+      "text": "Wenn wir in der Spirale enden beispielsweise oder einfach beim Doppelkreis in einer sehr starken Querlage,"
+    },
+    {
+      "i": 39,
+      "start": 272.25,
+      "end": 279.41,
+      "text": "werden wir nie die Innenhand freigeben, sondern wir ziehen immer die Außenbremse so weit nach unten, bis wir gerade rauskommen aus dem Ganzen."
+    },
+    {
+      "i": 40,
+      "start": 279.63,
+      "end": 282.51,
+      "text": "Das ist ein ganz wichtiges Element und darum geht es."
+    },
+    {
+      "i": 41,
+      "start": 283.36,
+      "end": 292.18,
+      "text": "Für das Manöver 8 wird eine vorgegebene Fluggachse eingenommen."
+    },
+    {
+      "i": 42,
+      "start": 292.18,
+      "end": 301.27,
+      "text": "Durch dosiertes Ziehen der linken Steuerleine wird ein Linkskreis geflogen, bis der Schirm wieder auf der ursprünglichen Fluggachse ist."
+    },
+    {
+      "i": 43,
+      "start": 303.74,
+      "end": 312.24,
+      "text": "Mit dosiertem Ziehen der rechten Steuerleine wird anschließend ein Rechtskreis geflogen, bis der Schirm wieder auf der ursprünglichen Fluggachse ist."
+    },
+    {
+      "i": 44,
+      "start": 314.32,
+      "end": 320.7,
+      "text": "Durch dosiertes Anbremsen werden nachfolgende Roll- und Nickbewegungen abgefangen und der Schirm stabilisiert."
+    },
+    {
+      "i": 45,
+      "start": 320.7,
+      "end": 331.37,
+      "text": "Vorsicht! Beim Richtungswechsel können zu starkes Ziehen der Steuerleine oder falsches Timing zu einem einseitigen Strömungsabriss führen."
+    },
+    {
+      "i": 46,
+      "start": 332.17,
+      "end": 336.57,
+      "text": "Die Zeitdauer für das Manöver beträgt maximal 25 Sekunden."
+    },
+    {
+      "i": 47,
+      "start": 337.22,
+      "end": 337.48,
+      "text": "Wichtig!"
+    },
+    {
+      "i": 48,
+      "start": 337.5,
+      "end": 343.74,
+      "text": "Die Zeitmessung stoppt erst, wenn der Schirm stabil auf der ursprünglichen Fluggachse fliegt."
     }
-  ],
-  "source_file": "air_active_videos.json"
+  ]
 }

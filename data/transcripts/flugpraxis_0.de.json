@@ -2,4970 +2,4683 @@
   "slug": "flugpraxis_0",
   "language": "de",
   "duration": 1486.9973125,
-  "transcribed_in_sec": 304.1,
-  "model": "base",
+  "transcribed_in_sec": 189.9,
+  "model": "large-v3",
+  "settings": {
+    "device": "cuda",
+    "compute_type": "float16",
+    "beam_size": 10,
+    "initial_prompt_chars": 568,
+    "vad_min_silence_ms": 300
+  },
   "segments": [
     {
       "i": 1,
-      "start": 4.82,
-      "end": 7.82,
-      "text": "Hallo miteinander, ich bin der Sam von der Flugschule FreeWings"
+      "start": 5.02,
+      "end": 11.6,
+      "text": "Hallo zusammen, ich bin Sam von der Flugschule Free Wings und wir nehmen heute zusammen das Thema Flugpraxis durch."
     },
     {
       "i": 2,
-      "start": 7.82,
-      "end": 11.82,
-      "text": "und mein Name ist heute miteinander das Thema Flugpraxis durch."
+      "start": 12.76,
+      "end": 17.36,
+      "text": "Flugpraxis und wir sitzen hier in einem Studio drin, passt irgendwie nicht so ganz zusammen."
     },
     {
       "i": 3,
-      "start": 11.82,
-      "end": 15.82,
-      "text": "Flugpraxis und wir setzen hier in einer Studie oder innen,"
+      "start": 18.66,
+      "end": 25.86,
+      "text": "Was wir machen wollen, ist uns zuerst Wissen aneignen und das müssen wir oder können wir vor allem auch gut in der Theorie machen."
     },
     {
       "i": 4,
-      "start": 15.82,
-      "end": 17.82,
-      "text": "passt eben nicht unser ganz zusammen."
+      "start": 26.0,
+      "end": 33.14,
+      "text": "Weil wenn wir das Wissen haben, können wir rausgehen und trainieren und wenn wir das Trainieren gemacht haben, können wir mit dem Bereich des Können."
     },
     {
       "i": 5,
-      "start": 17.82,
-      "end": 22.3,
-      "text": "Was wir machen, ist uns zuerst wüsse eine eigene."
+      "start": 33.14,
+      "end": 40.52,
+      "text": "Und nur dieser Weg funktioniert. Das Wissen aneignen, trainieren und dann ins Können gehen."
     },
     {
       "i": 6,
-      "start": 22.3,
-      "end": 26.3,
-      "text": "Und das müssen wir, oder können wir vor allem auch gute Theorie machen."
+      "start": 40.64,
+      "end": 43.48,
+      "text": "Wenn du eines von diesen auslässt, kommt es meistens nicht so gut."
     },
     {
       "i": 7,
-      "start": 26.3,
-      "end": 29.3,
-      "text": "Bei, wenn wir es wüsse, können wir aus und gut ernähren."
+      "start": 43.8,
+      "end": 48.56,
+      "text": "Darum konzertieren wir uns jetzt hier, uns das Wissen anzuneigen von der Flugpraxis."
     },
     {
       "i": 8,
-      "start": 29.3,
-      "end": 33.3,
-      "text": "Und wenn wir es die Ernährung gemacht haben, können wir im Bereich von können."
+      "start": 49.24,
+      "end": 56.63,
+      "text": "Das Ziel von diesem Kurs ist schlussendlich eigentlich, dass ihr bei der Theoriebriefung, die der SAV durchführt,"
     },
     {
       "i": 9,
-      "start": 33.3,
-      "end": 63.3,
-      "text": "Und nur mit diesen Weg funktionieren, wüs"
+      "start": 56.63,
+      "end": 60.69,
+      "text": "die Thema Flugpraxis problemlos bestand."
     },
     {
       "i": 10,
-      "start": 63.3,
-      "end": 65.3,
-      "text": "wir sind von 100% richtigen Fragen."
+      "start": 61.09,
+      "end": 63.63,
+      "text": "Am besten natürlich mit 100 Punkten, respektive 100%."
     },
     {
       "i": 11,
-      "start": 65.3,
-      "end": 69.3,
-      "text": "Für das Ganze ist es gut, wenn wir wie Praxis auch sieht,"
+      "start": 63.89,
+      "end": 66.48,
+      "text": "Das ist am Ende die richtige Frage."
     },
     {
       "i": 12,
-      "start": 69.3,
-      "end": 72.3,
-      "text": "uns das Ganze in einem Flug vorstellen."
+      "start": 66.48,
+      "end": 72.53,
+      "text": "Für das Ganze ist es gut, wenn man, wie die Praxis auch sagt, uns das Ganze wie einen Flug vorstellt."
     },
     {
       "i": 13,
-      "start": 72.3,
-      "end": 74.3,
-      "text": "Sprich mit an."
+      "start": 72.53,
+      "end": 77.49,
+      "text": "Sprich, wir fangen an, nämlich zu Hause zu fliegen."
     },
     {
       "i": 14,
-      "start": 74.3,
-      "end": 76.3,
-      "text": "Nämlich daheim."
+      "start": 77.49,
+      "end": 80.76,
+      "text": "Fliegen ist eine Sache, die man vorbereiten muss."
     },
     {
       "i": 15,
-      "start": 76.3,
-      "end": 80.55,
-      "text": "Das Flüge ist ein Sauch, das man muss vorbereiten."
+      "start": 80.76,
+      "end": 87.76,
+      "text": "Es ist meistens nicht gut, wenn man einfach direkt an den Startplatz geht, ohne jegliche Vorgeschichte gemacht zu haben."
     },
     {
       "i": 16,
-      "start": 80.55,
-      "end": 84.55,
-      "text": "Es ist meistens nicht gut, wenn man direkt an den Startplatz geht,"
+      "start": 87.76,
+      "end": 89.76,
+      "text": "Und dann überrascht ist, was einen antrifft."
     },
     {
       "i": 17,
-      "start": 84.55,
-      "end": 87.55,
-      "text": "ohne eigentlich vor Geschichten gemacht hat."
+      "start": 89.76,
+      "end": 93.76,
+      "text": "Sprich, wenn man schon zu Hause überlegt, was man eigentlich heute machen will,"
     },
     {
       "i": 18,
-      "start": 87.55,
-      "end": 90.55,
-      "text": "Und dann überrascht es, was ein Adriftssprich spricht."
+      "start": 93.76,
+      "end": 95.76,
+      "text": "kann einem das viel, viel erleichtern."
     },
     {
       "i": 19,
-      "start": 90.55,
-      "end": 90.59,
-      "text": "Und wenn man schon"
+      "start": 95.76,
+      "end": 101.76,
+      "text": "Und dazu gehört schon die erste Sache, nämlich, ob man überhaupt fit ist, um zu fliegen."
     },
     {
       "i": 20,
-      "start": 90.59,
-      "end": 93.55,
-      "text": "schon den Hei überleitet, was man eigentlich machen will,"
+      "start": 101.76,
+      "end": 105.78,
+      "text": "Das heisst, weiss ich eigentlich, wie meine Verfassung ist?"
     },
     {
       "i": 21,
-      "start": 93.55,
-      "end": 96.55,
-      "text": "kann einem das viel, viel erleichteren."
+      "start": 105.78,
+      "end": 107.78,
+      "text": "Bin ich frei im Kopf?"
     },
     {
       "i": 22,
-      "start": 96.55,
-      "end": 99.55,
-      "text": "Und dazu gehört schon die erste Sauch,"
+      "start": 107.78,
+      "end": 111.78,
+      "text": "Habe ich vorher nicht irgendwelche durchsächte Nächte gehabt und habe noch einen halben Kater?"
     },
     {
       "i": 23,
-      "start": 99.55,
-      "end": 102.55,
-      "text": "nämlich ist man überhaupt fit zum Flüge."
+      "start": 111.78,
+      "end": 112.78,
+      "text": "Bin ich fit?"
     },
     {
       "i": 24,
-      "start": 102.55,
-      "end": 105.55,
-      "text": "Das heißt, weiss ich, wie min ich verfassig ist,"
+      "start": 112.78,
+      "end": 118.78,
+      "text": "Habe ich nicht irgendwelche Medikamente genommen, die mich vielleicht, wenn ich irgendeinen Schmerz habe, dann schmerzlindern?"
     },
     {
       "i": 25,
-      "start": 105.55,
-      "end": 109.55,
-      "text": "habe ich, bin ich frei im Kopf, habe ich nicht irgendwelche durchzeichen,"
+      "start": 118.78,
+      "end": 124.11,
+      "text": "Das sind alles Sachen, die uns dann extrem beeinflussen können und vielleicht nicht schlau sind, um zu fliegen."
     },
     {
       "i": 26,
-      "start": 109.55,
-      "end": 112.55,
-      "text": "die Nacht vorher und habe ein halbes Kader."
+      "start": 124.11,
+      "end": 131.11,
+      "text": "Und wichtig auch, dass wir Informationen vom Wetter holen, von den Sachen, die uns betreffen."
     },
     {
       "i": 27,
-      "start": 112.55,
-      "end": 115.55,
-      "text": "Bin ich fit, habe ich nicht irgendwelche Medikamente genommen,"
+      "start": 131.11,
+      "end": 135.11,
+      "text": "Hier gibt es eine ganz einfache Regel, die sogenannte FFG-Regel."
     },
     {
       "i": 28,
-      "start": 115.55,
-      "end": 117.55,
-      "text": "weil mir vielleicht, wie ich den Schmerz haben,"
+      "start": 135.11,
+      "end": 137.11,
+      "text": "Das ist jetzt auf das Wetter bezogen."
     },
     {
       "i": 29,
-      "start": 117.55,
-      "end": 118.55,
-      "text": "dann Schmerz lindere."
+      "start": 137.11,
+      "end": 141.11,
+      "text": "Wenn wir uns diese merken, momentan in der Corona-Zeit,"
     },
     {
       "i": 30,
-      "start": 148.81,
-      "end": 151.81,
-      "text": "Das ist alles anders, als ich mir geforzen war,"
+      "start": 141.11,
+      "end": 144.11,
+      "text": "fehlt das Wort FFP2-Maske."
     },
     {
       "i": 31,
-      "start": 151.81,
-      "end": 153.81,
-      "text": "was von Heist, ich habe mir geforzen wars,"
+      "start": 144.11,
+      "end": 147.16,
+      "text": "Als Esselsbruck haben wir die FFG-Regel."
     },
     {
       "i": 32,
-      "start": 153.81,
-      "end": 156.81,
-      "text": "was von Front heist und ich habe mir geforzen,"
+      "start": 147.16,
+      "end": 151.16,
+      "text": "Und die FFG-Regel ist nichts anderes, als haben wir eine Gefahr zu erwarten,"
     },
     {
       "i": 33,
-      "start": 156.81,
-      "end": 158.81,
-      "text": "was von Weitereist."
+      "start": 151.16,
+      "end": 152.16,
+      "text": "die Föhn heisst."
     },
     {
       "i": 34,
-      "start": 158.81,
-      "end": 161.81,
-      "text": "Und eins von diesen drei Themen im Wetter bricht vor,"
+      "start": 152.16,
+      "end": 153.16,
+      "text": "Haben wir eine Gefahr zu erwarten,"
     },
     {
       "i": 35,
-      "start": 161.81,
-      "end": 167.03,
-      "text": "min ich diese Ohren ganz groß werden und lasen, was ist denn der Fall?"
+      "start": 153.16,
+      "end": 155.16,
+      "text": "die Front heisst."
     },
     {
       "i": 36,
-      "start": 167.03,
-      "end": 172.03,
-      "text": "Weil ich kenne, ein Front und auch fest im Mediodal von diesen Kürz,"
+      "start": 155.16,
+      "end": 156.16,
+      "text": "Und haben wir eine Gefahr zu erwarten,"
     },
     {
       "i": 37,
-      "start": 172.03,
-      "end": 175.03,
-      "text": "bringt meistens sehr viel Wind mit sich."
+      "start": 156.16,
+      "end": 158.16,
+      "text": "die Gewitter heisst."
     },
     {
       "i": 38,
-      "start": 175.03,
-      "end": 178.03,
-      "text": "Wind, starke Wind, ist immer eher schlechvergleichschen Flügereibe,"
+      "start": 158.16,
+      "end": 161.16,
+      "text": "Kommt eines dieser drei Themen im Wetterbericht vor,"
     },
     {
       "i": 39,
-      "start": 178.03,
-      "end": 181.03,
-      "text": "weil wir relativ langsam unterwegs sind."
+      "start": 161.16,
+      "end": 164.75,
+      "text": "müssen unsere Ohren ganz gross werden."
     },
     {
       "i": 40,
-      "start": 181.03,
-      "end": 184.42,
-      "text": "Der Fön ist allgemein gefeuerliche Situation,"
+      "start": 164.75,
+      "end": 166.75,
+      "text": "Und hören, was ist denn der Fall."
     },
     {
       "i": 41,
-      "start": 184.42,
-      "end": 187.42,
-      "text": "wo als Schieler nicht in die Luft kürrscht,"
+      "start": 166.75,
+      "end": 172.75,
+      "text": "Weil, ihr kennt es, eine Front kommt auch fest im Meteo-Teil dieser Kurse,"
     },
     {
       "i": 42,
-      "start": 187.42,
-      "end": 189.42,
-      "text": "später, wenn man sehr erfahren ist,"
+      "start": 172.75,
+      "end": 174.75,
+      "text": "bringt meistens sehr viel Wind mit sich."
     },
     {
       "i": 43,
-      "start": 189.42,
-      "end": 191.42,
-      "text": "gibt es geografische Klänge,"
+      "start": 174.75,
+      "end": 178.75,
+      "text": "Starker Wind ist immer eher schlecht für die Gleitschirmflügerei,"
     },
     {
       "i": 44,
-      "start": 191.42,
-      "end": 193.42,
-      "text": "wo auch bei Fön kommt, durch aus dem Flug ein Laub,"
+      "start": 178.75,
+      "end": 180.75,
+      "text": "weil wir relativ langsam unterwegs sind."
     },
     {
       "i": 45,
-      "start": 193.42,
-      "end": 196.42,
-      "text": "aber da muss man sehr viel vorwissen haben."
+      "start": 180.75,
+      "end": 184.5,
+      "text": "Der Föhn ist allgemein eine gefährliche Situation."
     },
     {
       "i": 46,
-      "start": 196.42,
-      "end": 199.42,
-      "text": "Und weiter, auch da, wieder sehr umbrechen,"
+      "start": 184.5,
+      "end": 186.5,
+      "text": "Wo als Schüler nicht in die Luft gehörst."
     },
     {
       "i": 47,
-      "start": 199.42,
-      "end": 201.42,
-      "text": "wo man viel Erfahrung hat und gewittert gilt."
+      "start": 186.5,
+      "end": 188.52,
+      "text": "Später, wenn man sehr erfahren ist,"
     },
     {
       "i": 48,
-      "start": 201.42,
-      "end": 205.42,
-      "text": "Jetzt allgemein Lieber, Frieder-Goladen und Safe-Goladen,"
+      "start": 188.52,
+      "end": 190.89,
+      "text": "gibt es geografische Gelände,"
     },
     {
       "i": 49,
-      "start": 205.42,
-      "end": 209.42,
-      "text": "also eine Spiele aus dem meistens nicht gut zu kommen."
+      "start": 190.89,
+      "end": 193.89,
+      "text": "die auch bei Föhn durchaus den Flug erlauben können."
     },
     {
       "i": 50,
-      "start": 209.42,
-      "end": 213.43,
-      "text": "Dann ist es wichtig,"
+      "start": 193.89,
+      "end": 195.89,
+      "text": "Aber da muss man sehr viel Vorwissen haben."
     },
     {
       "i": 51,
-      "start": 213.43,
-      "end": 218.56,
-      "text": "dass man die Vorerkennung auch bezüglich gesetzt hat."
+      "start": 195.89,
+      "end": 198.89,
+      "text": "Und Gewitter, auch hier wieder sehr unberechenbar."
     },
     {
       "i": 52,
-      "start": 218.56,
-      "end": 221.56,
-      "text": "Schließlich gibt es Segels-Lugkarten,"
+      "start": 198.89,
+      "end": 200.89,
+      "text": "Da muss man viel Erfahrung haben."
     },
     {
       "i": 53,
-      "start": 221.56,
-      "end": 224.56,
-      "text": "die uns die Gesetzeslagen etwas beschreibt."
+      "start": 200.89,
+      "end": 202.89,
+      "text": "Und Gewitter gilt jetzt allgemein lieber"
     },
     {
       "i": 54,
-      "start": 224.56,
-      "end": 226.56,
-      "text": "Und es gibt auch Luftumbeschränkungen,"
+      "start": 202.89,
+      "end": 204.89,
+      "text": "frei und safe zu landen,"
     },
     {
       "i": 55,
-      "start": 226.56,
-      "end": 229.56,
-      "text": "die relativ happig sind, wenn man es nicht weiss."
+      "start": 204.89,
+      "end": 206.89,
+      "text": "als irgendein Spiel herauszuholen,"
     },
     {
       "i": 56,
-      "start": 229.56,
-      "end": 231.56,
-      "text": "Und für die Luftumbeschränkungen,"
+      "start": 206.89,
+      "end": 208.89,
+      "text": "das meistens nicht gut herauskommt."
     },
     {
       "i": 57,
-      "start": 231.56,
-      "end": 232.56,
-      "text": "ob auch zu erfahren,"
+      "start": 208.89,
+      "end": 216.1,
+      "text": "Dann wichtig, dass man die Foren erkennt."
     },
     {
       "i": 58,
-      "start": 232.56,
-      "end": 235.56,
-      "text": "muss man eigentlich von jedem Tag,"
+      "start": 216.1,
+      "end": 219.22,
+      "text": "Auch bezüglich Gesetze."
     },
     {
       "i": 59,
-      "start": 235.56,
-      "end": 237.56,
-      "text": "Flugtag ist das Tapsgelogen,"
+      "start": 219.22,
+      "end": 221.22,
+      "text": "Schliesslich gibt es eine Segelflugkarte,"
     },
     {
       "i": 60,
-      "start": 237.56,
-      "end": 240.56,
-      "text": "in irgendeiner aktuellen Luftumbeschränkungen vorhanden."
+      "start": 221.22,
+      "end": 224.22,
+      "text": "die uns die Gesetzeslage beschreibt."
     },
     {
       "i": 61,
-      "start": 240.56,
-      "end": 242.56,
-      "text": "Das hat zum Teil etwas grosser sein,"
+      "start": 224.22,
+      "end": 226.22,
+      "text": "Und es gibt auch Luftraumbeschränkungen,"
     },
     {
       "i": 62,
-      "start": 242.56,
-      "end": 245.56,
-      "text": "wie zum Beispiel das Weltökonomik-Forum in der Vose,"
+      "start": 226.22,
+      "end": 229.22,
+      "text": "die relativ happig sein können, wenn man es nicht weiss."
     },
     {
       "i": 63,
-      "start": 245.56,
-      "end": 248.56,
-      "text": "wo der Luftum sehr grosses Wittig spät ist."
+      "start": 229.22,
+      "end": 232.22,
+      "text": "Und um diese Luftraumbeschränkungen zu erfahren,"
     },
     {
       "i": 64,
-      "start": 248.56,
-      "end": 249.56,
-      "text": "Und ich könnte vorstellen,"
+      "start": 232.22,
+      "end": 237.3,
+      "text": "muss man von jedem Flugtag ins Tabs schauen,"
     },
     {
       "i": 65,
-      "start": 249.56,
-      "end": 250.56,
-      "text": "auch dort,"
+      "start": 237.3,
+      "end": 240.3,
+      "text": "ob eine aktuelle Luftraumbeschränkung vorhanden ist."
     },
     {
       "i": 66,
-      "start": 250.56,
-      "end": 252.56,
-      "text": "wenn man hier wieder fliegen,"
+      "start": 240.3,
+      "end": 242.3,
+      "text": "Das kann zum Teil etwas Grosses sein,"
     },
     {
       "i": 67,
-      "start": 252.56,
-      "end": 254.56,
-      "text": "relativ schnell eine Begleitung bekommt,"
+      "start": 242.3,
+      "end": 245.3,
+      "text": "wie z.B. das World Economic Forum in Davos,"
     },
     {
       "i": 68,
-      "start": 254.56,
-      "end": 256.56,
-      "text": "von witziger größerer Flugzeuger,"
+      "start": 245.3,
+      "end": 248.3,
+      "text": "wo der Luftraum sehr grossweitig gesperrt ist."
     },
     {
       "i": 69,
-      "start": 256.56,
-      "end": 257.56,
-      "text": "also ein Gleichschirm ist,"
+      "start": 248.3,
+      "end": 250.3,
+      "text": "Und ich könnte euch vorstellen,"
     },
     {
       "i": 70,
-      "start": 257.56,
-      "end": 258.56,
-      "text": "also nicht wahnsinnig schlaut,"
+      "start": 250.3,
+      "end": 252.3,
+      "text": "auch dort, wenn man reinfliegen möchte,"
     },
     {
       "i": 71,
-      "start": 258.56,
-      "end": 259.56,
-      "text": "in den zu fliegen."
+      "start": 252.3,
+      "end": 254.3,
+      "text": "relativ schnell eine Begleitung bekommt"
     },
     {
       "i": 72,
-      "start": 259.56,
-      "end": 261.56,
-      "text": "Es gibt aber auch kleine Beschränkungen."
+      "start": 254.3,
+      "end": 256.3,
+      "text": "von etwas grösseren Flugzeugen,"
     },
     {
       "i": 73,
-      "start": 261.56,
-      "end": 263.56,
-      "text": "Wir haben eine Abstehmung,"
+      "start": 256.3,
+      "end": 257.3,
+      "text": "also ein Gleitschirm ist,"
     },
     {
       "i": 74,
-      "start": 263.56,
-      "end": 265.56,
-      "text": "z.B. der Landsbeinzplatz,"
+      "start": 257.3,
+      "end": 259.3,
+      "text": "also nicht wahnsinnig schlau dort hineinfliegen."
     },
     {
       "i": 75,
-      "start": 265.56,
-      "end": 266.56,
-      "text": "es ist voll mit Leuten,"
+      "start": 259.3,
+      "end": 261.3,
+      "text": "Es gibt aber auch kleine Beschränkungen,"
     },
     {
       "i": 76,
-      "start": 266.56,
-      "end": 267.56,
-      "text": "da gibt es Zylinder,"
+      "start": 261.3,
+      "end": 263.3,
+      "text": "z.B. haben sie eine Abstimmung,"
     },
     {
       "i": 77,
-      "start": 267.56,
-      "end": 269.56,
-      "text": "wo auch dort verboten ist,"
+      "start": 263.3,
+      "end": 264.3,
+      "text": "zapp in die Zelle,"
     },
     {
       "i": 78,
-      "start": 269.56,
-      "end": 270.56,
-      "text": "um darüber fliegen,"
+      "start": 264.3,
+      "end": 266.3,
+      "text": "der Landsplainsplatz ist voll mit Leuten,"
     },
     {
       "i": 79,
-      "start": 270.56,
-      "end": 271.56,
-      "text": "wie es auch sehr gross ist,"
+      "start": 266.3,
+      "end": 268.3,
+      "text": "da gibt es einen Zylinder oben drauf,"
     },
     {
       "i": 80,
-      "start": 271.56,
-      "end": 272.56,
-      "text": "in Menschen asammelig ist."
+      "start": 268.3,
+      "end": 269.3,
+      "text": "der auch dort verboten ist,"
     },
     {
       "i": 81,
-      "start": 272.56,
-      "end": 274.56,
-      "text": "Diese Informationen finden"
+      "start": 269.3,
+      "end": 270.3,
+      "text": "um darüber zu fliegen,"
     },
     {
       "i": 82,
-      "start": 274.56,
-      "end": 276.56,
-      "text": "im Taps relativ gut beschrieben."
+      "start": 270.3,
+      "end": 273.3,
+      "text": "weil es einfach eine sehr grosse Menschenansammlung ist."
     },
     {
       "i": 83,
-      "start": 276.56,
-      "end": 279.56,
-      "text": "Und dann muss man natürlich auch beachten,"
+      "start": 273.3,
+      "end": 274.3,
+      "text": "Diese Informationen findet ihr im Tab,"
     },
     {
       "i": 84,
-      "start": 279.56,
-      "end": 280.56,
-      "text": "wo man will,"
+      "start": 274.3,
+      "end": 276.3,
+      "text": "relativ gut beschrieben."
     },
     {
       "i": 85,
-      "start": 280.56,
-      "end": 282.56,
-      "text": "hier fliegen, z.B. bei einem Streckenflug,"
+      "start": 276.3,
+      "end": 279.3,
+      "text": "Und dann muss man natürlich auch beachten,"
     },
     {
       "i": 86,
-      "start": 282.56,
-      "end": 284.56,
-      "text": "und da sind Militärnsflug,"
+      "start": 279.3,
+      "end": 281.38,
+      "text": "wo man hineinfliegen will,"
     },
     {
       "i": 87,
-      "start": 284.56,
-      "end": 286.56,
-      "text": "die Militärflugdienste wichtig,"
+      "start": 281.38,
+      "end": 282.38,
+      "text": "z.B. bei einem Streckenflug,"
     },
     {
       "i": 88,
-      "start": 286.56,
-      "end": 288.56,
-      "text": "dass man dir kennt,"
+      "start": 282.38,
+      "end": 284.38,
+      "text": "und das sind militärische Flüge,"
     },
     {
       "i": 89,
-      "start": 288.56,
-      "end": 290.69,
-      "text": "weil je nachdem,"
+      "start": 284.38,
+      "end": 286.38,
+      "text": "Militärflugdienstzeiten, wichtig,"
     },
     {
       "i": 90,
-      "start": 290.69,
-      "end": 292.69,
-      "text": "kann man mit den höheren Aufverfliegen,"
+      "start": 286.38,
+      "end": 288.38,
+      "text": "dass man diese kennt,"
     },
     {
       "i": 91,
-      "start": 292.69,
-      "end": 294.69,
-      "text": "als Militär,"
+      "start": 288.38,
+      "end": 292.11,
+      "text": "weil je nachdem kann man nämlich dann höher hochfliegen,"
     },
     {
       "i": 92,
-      "start": 294.69,
-      "end": 296.69,
-      "text": "an ist, also im Wochenende,"
+      "start": 292.11,
+      "end": 295.16,
+      "text": "als militär an ist,"
     },
     {
       "i": 93,
-      "start": 296.69,
-      "end": 297.69,
-      "text": "ist es klingiger,"
+      "start": 295.16,
+      "end": 297.16,
+      "text": "also am Wochenende ist es etwas geringer,"
     },
     {
       "i": 94,
-      "start": 297.69,
-      "end": 299.69,
+      "start": 297.16,
+      "end": 299.16,
       "text": "als z.B. unter der Woche."
     },
     {
       "i": 95,
-      "start": 299.69,
-      "end": 301.69,
-      "text": "Was auch der ganze Zug gehört,"
+      "start": 299.16,
+      "end": 301.46,
+      "text": "Was auch ganz dazugehört,"
     },
     {
       "i": 96,
-      "start": 301.69,
-      "end": 303.69,
-      "text": "ist ein Material checken,"
+      "start": 301.46,
+      "end": 303.46,
+      "text": "ist das Materialchecken,"
     },
     {
       "i": 97,
-      "start": 303.69,
-      "end": 304.69,
-      "text": "das man weiss,"
+      "start": 303.46,
+      "end": 304.46,
+      "text": "dass man weiss,"
     },
     {
       "i": 98,
-      "start": 304.69,
-      "end": 305.69,
-      "text": "das Material,"
+      "start": 304.46,
+      "end": 307.46,
+      "text": "dass das Material, das man dabei hat, funktioniert."
     },
     {
       "i": 99,
-      "start": 305.69,
-      "end": 306.69,
-      "text": "die man dabei hat,"
+      "start": 307.46,
+      "end": 310.46,
+      "text": "Da gehört z.B. auch das Aufladen der Batterie dazu."
     },
     {
       "i": 100,
-      "start": 306.69,
-      "end": 307.69,
-      "text": "funktioniert."
+      "start": 310.46,
+      "end": 312.46,
+      "text": "Es nützt nichts, wenn man in eine Notsituation kommt"
     },
     {
       "i": 101,
-      "start": 307.69,
-      "end": 308.69,
-      "text": "Der gehört z.B."
+      "start": 312.46,
+      "end": 314.46,
+      "text": "und das Handy einen leeren Akku hat,"
     },
     {
       "i": 102,
-      "start": 308.69,
-      "end": 310.69,
-      "text": "als Aufladen von der Batterie dazu."
+      "start": 314.46,
+      "end": 318.7,
+      "text": "dann kann man sich nicht mitteilen, wo man ist."
     },
     {
       "i": 103,
-      "start": 310.69,
-      "end": 311.69,
-      "text": "Es ist nichts,"
+      "start": 318.7,
+      "end": 321.7,
+      "text": "Und auch natürlich das Material allgemein,"
     },
     {
       "i": 104,
-      "start": 311.69,
-      "end": 312.69,
-      "text": "wenn man eine Notsituation kommt,"
+      "start": 321.7,
+      "end": 323.7,
+      "text": "der Zustand des Schirms,"
     },
     {
       "i": 105,
-      "start": 312.69,
-      "end": 314.69,
-      "text": "und das Handy lern angeht,"
+      "start": 323.7,
+      "end": 324.7,
+      "text": "dass der okay ist,"
     },
     {
       "i": 106,
-      "start": 314.69,
-      "end": 317.69,
-      "text": "dann kann man nicht mit Teilen,"
+      "start": 324.7,
+      "end": 327.7,
+      "text": "wenn man eine lange Flugpause hatte,"
     },
     {
       "i": 107,
-      "start": 317.69,
-      "end": 320.69,
-      "text": "denn bei einem Fant experience"
+      "start": 327.7,
+      "end": 328.7,
+      "text": "sich aber gewissen kann,"
     },
     {
       "i": 108,
-      "start": 320.69,
-      "end": 322.73,
-      "text": "wir können wirklich,"
+      "start": 328.7,
+      "end": 330.7,
+      "text": "dass der Notschirm frisch gepackt ist."
     },
     {
       "i": 109,
-      "start": 322.73,
-      "end": 328.85,
-      "text": "weil wir die Einschränk"
+      "start": 330.7,
+      "end": 333.7,
+      "text": "Das sollte man mindestens jedes Jahr packen lassen."
     },
     {
       "i": 110,
-      "start": 328.85,
-      "end": 331.69,
-      "text": "viele im gleichen Sinne"
+      "start": 333.7,
+      "end": 336.7,
+      "text": "Von jemandem, der das auch wirklich kann."
     },
     {
       "i": 111,
-      "start": 331.69,
-      "end": 333.69,
-      "text": "haben,"
+      "start": 336.7,
+      "end": 339.85,
+      "text": "Und dann der Schirm selber weiss,"
     },
     {
       "i": 112,
-      "start": 333.69,
-      "end": 336.13,
-      "text": "das können wir continuously"
+      "start": 339.85,
+      "end": 341.85,
+      "text": "dass dieser Zustand, den man versorgt hat,"
     },
     {
       "i": 113,
-      "start": 336.13,
-      "end": 336.97,
-      "text": "brauchen,"
+      "start": 341.85,
+      "end": 343.85,
+      "text": "auch wieder so herauskommt."
     },
     {
       "i": 114,
-      "start": 336.97,
-      "end": 339.69,
-      "text": "sie takt zum Sprechen."
+      "start": 343.85,
+      "end": 345.85,
+      "text": "Sprich, es wäre nicht schlau,"
     },
     {
       "i": 115,
-      "start": 339.69,
-      "end": 341.69,
-      "text": "Es gibt noch Feodeng Aufgabe,"
+      "start": 345.85,
+      "end": 347.85,
+      "text": "den Schirm zusammenzulegen,"
     },
     {
       "i": 116,
-      "start": 341.69,
-      "end": 344.69,
-      "text": "undalıwe devant Vorrepaint,"
+      "start": 347.85,
+      "end": 349.85,
+      "text": "der ist noch irgendwie vorher in Mist gelandet"
     },
     {
       "i": 117,
-      "start": 344.69,
-      "end": 345.69,
-      "text": "wo wir die Einschränk,"
+      "start": 349.85,
+      "end": 351.85,
+      "text": "und der Mist ist am Schirm"
     },
     {
       "i": 118,
-      "start": 345.69,
-      "end": 353.69,
-      "text": "Im Zusammenläge ist es irgendwie vor in Mist gelandet und am Schirm am Schirm ist es auch ein Wochenlang im Kofferum vom Auto,"
+      "start": 351.85,
+      "end": 353.85,
+      "text": "und der Schirm ist dann wochenlang im Kofferraum des Autos,"
     },
     {
       "i": 119,
-      "start": 353.69,
-      "end": 354.69,
-      "text": "was warm ist."
+      "start": 353.85,
+      "end": 355.85,
+      "text": "wo es warm ist."
     },
     {
       "i": 120,
-      "start": 354.69,
-      "end": 360.69,
-      "text": "Das sind all Sachen, wo später den Material kurz kommen und nicht gut sind für den Schirm."
+      "start": 355.85,
+      "end": 357.85,
+      "text": "Das sind alles Sachen,"
     },
     {
       "i": 121,
-      "start": 360.69,
-      "end": 362.69,
-      "text": "Und wenn du auspackst du,"
+      "start": 357.85,
+      "end": 359.85,
+      "text": "die später in den Materialkurs kommen,"
     },
     {
       "i": 122,
-      "start": 362.69,
-      "end": 363.69,
-      "text": "und du hast, du hast, du hast, du haste."
+      "start": 359.85,
+      "end": 361.85,
+      "text": "die nicht gut sind für den Schirm."
     },
     {
       "i": 123,
-      "start": 363.69,
-      "end": 366.85,
-      "text": "Nicht das, die ich erwartet wurde, denkst du."
+      "start": 361.85,
+      "end": 363.85,
+      "text": "Und es kann natürlich auch sein,"
     },
     {
       "i": 124,
-      "start": 366.85,
-      "end": 372.85,
-      "text": "Auch wichtig ist die Bepflege mitzunehmen, dass man genug Trinken dabei hat."
+      "start": 363.85,
+      "end": 366.22,
+      "text": "dass dementsprechend nicht das dich erwartet,"
     },
     {
       "i": 125,
-      "start": 372.85,
-      "end": 374.85,
-      "text": "Drink,��는 ist einf Gent."
+      "start": 366.22,
+      "end": 367.58,
+      "text": "was du denkst."
     },
     {
       "i": 126,
-      "start": 374.85,
-      "end": 376.85,
-      "text": "Drink dringt, ge� ist sehr am Superdriker."
+      "start": 367.58,
+      "end": 368.58,
+      "text": "Auch wichtig ist,"
     },
     {
       "i": 127,
-      "start": 378.85,
-      "end": 389.17,
-      "text": "Drink dringt,begeiplend,"
+      "start": 368.58,
+      "end": 370.58,
+      "text": "die Bepflegung mitzunehmen,"
     },
     {
       "i": 128,
-      "start": 389.17,
-      "end": 391.17,
-      "text": "Wie z.B. bei Urinalkondom,"
+      "start": 370.58,
+      "end": 372.58,
+      "text": "dass man genug zu trinken dabei hat."
     },
     {
       "i": 129,
-      "start": 391.17,
-      "end": 394.17,
-      "text": "wo man dann auch mit Luftprünzeln kann."
+      "start": 372.58,
+      "end": 374.82,
+      "text": "Trinken ist eigentlich am allerwichtigsten."
     },
     {
       "i": 130,
-      "start": 394.17,
-      "end": 396.17,
-      "text": "Und für Frauen gibt es auch Windeln."
+      "start": 374.82,
+      "end": 376.82,
+      "text": "Das Essen ist meistens so,"
     },
     {
       "i": 131,
-      "start": 396.17,
-      "end": 399.17,
-      "text": "Und das Problem kann man griff bekommen."
+      "start": 376.82,
+      "end": 378.82,
+      "text": "dass man durch irgendwelche Energieriegel"
     },
     {
       "i": 132,
-      "start": 399.17,
-      "end": 403.17,
-      "text": "Aber es ist nicht schlau, wegen dem Problem zu trinken zu verzichten."
+      "start": 378.82,
+      "end": 380.82,
+      "text": "relativ schnell die Energie auch bekommt."
     },
     {
       "i": 133,
-      "start": 403.17,
-      "end": 405.17,
-      "text": "Trinken ist ganz wichtig."
+      "start": 380.82,
+      "end": 381.82,
+      "text": "Trinken wird oft vergessen"
     },
     {
       "i": 134,
-      "start": 405.17,
-      "end": 407.17,
-      "text": "Das nehmen wir Aufnahmefeige."
+      "start": 381.82,
+      "end": 383.82,
+      "text": "und auch bewusst zum Teil nicht gemacht,"
     },
     {
       "i": 135,
-      "start": 407.17,
-      "end": 408.17,
-      "text": "Die Luft bleibt fit."
+      "start": 383.82,
+      "end": 385.82,
+      "text": "weil es einen kleinen Nachteil hat,"
     },
     {
       "i": 136,
-      "start": 408.17,
-      "end": 411.17,
-      "text": "Und das nachher am Ende des Flugtags"
+      "start": 385.82,
+      "end": 386.82,
+      "text": "wenn man viel trinkt."
     },
     {
       "i": 137,
-      "start": 411.17,
-      "end": 413.17,
-      "text": "auch eine Biestwirt ist das Kopf wie,"
+      "start": 386.82,
+      "end": 387.82,
+      "text": "Man muss auch aufs WC."
     },
     {
       "i": 138,
-      "start": 413.17,
-      "end": 417.67,
-      "text": "wo man hättet, wenn man zu wenig trinken."
+      "start": 387.82,
+      "end": 389.82,
+      "text": "Aber auch dafür gibt es Lösungen,"
     },
     {
       "i": 139,
-      "start": 417.67,
-      "end": 420.67,
-      "text": "Dann, wenn man die ganzen Vorbereitungen gemacht hat,"
+      "start": 389.82,
+      "end": 391.82,
+      "text": "wie zum Beispiel Urinalkondome,"
     },
     {
       "i": 140,
-      "start": 420.67,
-      "end": 423.67,
-      "text": "macht es Sinn, dass man mal ein Fluggebiet fährt"
+      "start": 391.82,
+      "end": 393.82,
+      "text": "wo man dann auch in der Luft prünzeln kann."
     },
     {
       "i": 141,
-      "start": 423.67,
-      "end": 425.67,
-      "text": "und uns sehr schnell einen Landenplatz sahen."
+      "start": 393.82,
+      "end": 395.84,
+      "text": "Und für die Frauen gibt es auch Windeln"
     },
     {
       "i": 142,
-      "start": 425.67,
-      "end": 427.67,
-      "text": "Wir gab im Landenplatz,"
+      "start": 395.84,
+      "end": 398.86,
+      "text": "und dieses Problem kann man in den Griff bekommen."
     },
     {
       "i": 143,
-      "start": 427.67,
-      "end": 430.02,
-      "text": "sind vorne offensichtlich,"
+      "start": 398.86,
+      "end": 400.86,
+      "text": "Aber es ist nicht schlau,"
     },
     {
       "i": 144,
-      "start": 430.02,
-      "end": 433.02,
-      "text": "weil man relativ wenig Höhe hat,"
+      "start": 400.86,
+      "end": 403.86,
+      "text": "wegen diesem Problem aufs Trinken zu verzichten."
     },
     {
       "i": 145,
-      "start": 433.02,
-      "end": 435.02,
-      "text": "sich auf die Suche begibt."
+      "start": 403.86,
+      "end": 404.86,
+      "text": "Trinken ist ganz wichtig,"
     },
     {
       "i": 146,
-      "start": 435.02,
-      "end": 437.02,
-      "text": "Und dann ist es gut, wenn man bereits kennt."
+      "start": 404.86,
+      "end": 406.86,
+      "text": "damit wir aufnahmefähig bleiben,"
     },
     {
       "i": 147,
-      "start": 437.02,
-      "end": 439.02,
-      "text": "Das heisst, den superen Landenplatz"
+      "start": 406.86,
+      "end": 408.86,
+      "text": "in der Luft fit bleiben"
     },
     {
       "i": 148,
-      "start": 439.02,
-      "end": 441.02,
-      "text": "bis die Sichtung macht durchaus Sinn."
+      "start": 408.86,
+      "end": 410.86,
+      "text": "und das am Ende des Flugtags"
     },
     {
       "i": 149,
-      "start": 441.02,
-      "end": 442.02,
-      "text": "Wir schauen bereits,"
+      "start": 410.86,
+      "end": 412.86,
+      "text": "auch nicht gebiest wird durch den Kopfweh,"
     },
     {
       "i": 150,
-      "start": 442.02,
-      "end": 444.02,
-      "text": "wo es öffentliche Hindernisse hat,"
+      "start": 412.86,
+      "end": 413.86,
+      "text": "den wir nämlich hätten,"
     },
     {
       "i": 151,
-      "start": 444.02,
-      "end": 446.02,
-      "text": "wie z.B. Kabel,"
+      "start": 413.86,
+      "end": 417.66,
+      "text": "wenn wir zu wenig trinken."
     },
     {
       "i": 152,
-      "start": 446.02,
-      "end": 449.02,
-      "text": "wo in der Nähe sind, über das Tal."
+      "start": 417.66,
+      "end": 419.66,
+      "text": "Dann, wenn wir die ganzen Vorbereitungen"
     },
     {
       "i": 153,
-      "start": 449.02,
-      "end": 451.02,
-      "text": "Wo zum Beispiel einen großen Baum,"
+      "start": 419.66,
+      "end": 421.66,
+      "text": "zu Hause gemacht haben,"
     },
     {
       "i": 154,
-      "start": 451.02,
-      "end": 454.02,
-      "text": "wo man vielleicht mit beachten Beteilander wollten."
+      "start": 421.66,
+      "end": 422.66,
+      "text": "macht es Sinn,"
     },
     {
       "i": 155,
-      "start": 454.02,
-      "end": 456.02,
-      "text": "Und wie überhaupt Landen wollten,"
+      "start": 422.66,
+      "end": 425.66,
+      "text": "dass wir uns zuerst den Landeplatz anschauen."
     },
     {
       "i": 156,
-      "start": 456.02,
-      "end": 457.02,
-      "text": "ist es auf dem Kleinen."
+      "start": 425.66,
+      "end": 427.66,
+      "text": "Weil gerade beim Landeplatz"
     },
     {
       "i": 157,
-      "start": 457.02,
-      "end": 459.02,
-      "text": "Für das gibt es gute Hilfsmittel."
+      "start": 427.66,
+      "end": 430.42,
+      "text": "sind Gefahren offensichtlich,"
     },
     {
       "i": 158,
-      "start": 459.02,
-      "end": 461.02,
-      "text": "Nämlich wie meist die lokale Piloten,"
+      "start": 430.42,
+      "end": 432.42,
+      "text": "weil man relativ wenig Höhe hat,"
     },
     {
       "i": 159,
-      "start": 461.02,
-      "end": 463.02,
-      "text": "die wissen, wie die Landen wollten."
+      "start": 432.42,
+      "end": 434.42,
+      "text": "sich darauf zu begibt."
     },
     {
       "i": 160,
-      "start": 463.02,
-      "end": 465.02,
-      "text": "Kriegler, die Schirmgebiet."
+      "start": 434.42,
+      "end": 435.42,
+      "text": "Und dann ist es gut,"
     },
     {
       "i": 161,
-      "start": 465.02,
-      "end": 467.02,
-      "text": "Standardwollt ist ein Linkswollt."
+      "start": 435.42,
+      "end": 437.42,
+      "text": "wenn man diesen bereits kennt."
     },
     {
       "i": 162,
-      "start": 467.02,
-      "end": 469.02,
-      "text": "Das kann aber je nach Begebenheit"
+      "start": 437.42,
+      "end": 439.42,
+      "text": "Das heisst eine saubere Landeplatzbesichtigung"
     },
     {
       "i": 163,
-      "start": 469.02,
-      "end": 471.02,
-      "text": "vom Landenplatz auch variieren"
+      "start": 439.42,
+      "end": 441.42,
+      "text": "macht durchaus Sinn."
     },
     {
       "i": 164,
-      "start": 471.02,
-      "end": 473.02,
-      "text": "und eben Errechtswollt sein."
+      "start": 441.42,
+      "end": 442.42,
+      "text": "Wir schauen bereits,"
     },
     {
       "i": 165,
-      "start": 473.02,
-      "end": 474.02,
-      "text": "Je nach Windverhältnis."
+      "start": 442.42,
+      "end": 444.42,
+      "text": "wo es eventuelle Hindernisse hat,"
     },
     {
       "i": 166,
-      "start": 474.02,
-      "end": 476.02,
-      "text": "Das ist meistens gut angeschrieben"
+      "start": 444.42,
+      "end": 446.42,
+      "text": "wie zum Beispiel Kabel,"
     },
     {
       "i": 167,
-      "start": 476.02,
-      "end": 478.02,
-      "text": "am Landenplatz zu verenthaften,"
+      "start": 446.42,
+      "end": 447.46,
+      "text": "die in der Nähe sind,"
     },
     {
       "i": 168,
-      "start": 478.02,
-      "end": 479.02,
-      "text": "sichtbar."
+      "start": 447.46,
+      "end": 449.46,
+      "text": "über das Tal gehen."
     },
     {
       "i": 169,
-      "start": 479.02,
-      "end": 480.02,
-      "text": "Wenn nicht,"
+      "start": 449.46,
+      "end": 451.46,
+      "text": "Wo zum Beispiel ein grosser Baum ist,"
     },
     {
       "i": 170,
-      "start": 480.02,
-      "end": 481.02,
-      "text": "fragen die Locals."
+      "start": 451.46,
+      "end": 452.46,
+      "text": "den man vielleicht beachten muss,"
     },
     {
       "i": 171,
-      "start": 481.02,
-      "end": 483.31,
-      "text": "Dann auch wichtig,"
+      "start": 452.46,
+      "end": 454.46,
+      "text": "wenn man bei der Lande wollte."
     },
     {
       "i": 172,
-      "start": 483.31,
-      "end": 484.31,
-      "text": "dass man wissen,"
+      "start": 454.46,
+      "end": 456.46,
+      "text": "Und wie überhaupt die Lande wollte,"
     },
     {
       "i": 173,
-      "start": 484.31,
-      "end": 485.31,
-      "text": "wo man überhaupt durchflügt."
+      "start": 456.46,
+      "end": 457.46,
+      "text": "ist auf diesem Gelände."
     },
     {
       "i": 174,
-      "start": 485.31,
-      "end": 487.31,
-      "text": "Wir machen ein bisschen Flugplanung."
+      "start": 457.46,
+      "end": 459.46,
+      "text": "Dafür gibt es gute Hilfsmittel,"
     },
     {
       "i": 175,
-      "start": 487.31,
-      "end": 488.31,
-      "text": "Wenn man am Landenplatz steht,"
+      "start": 459.46,
+      "end": 461.46,
+      "text": "nämlich wie meist die lokalen Piloten,"
     },
     {
       "i": 176,
-      "start": 488.31,
-      "end": 489.31,
-      "text": "können wir schauen,"
+      "start": 461.46,
+      "end": 463.46,
+      "text": "die wissen, wie die Lande wollte,"
     },
     {
       "i": 177,
-      "start": 489.31,
-      "end": 490.31,
-      "text": "wo der Startplatz ist,"
+      "start": 463.46,
+      "end": 465.46,
+      "text": "geregelt ist in ihrem Gebiet."
     },
     {
       "i": 178,
-      "start": 490.31,
-      "end": 491.31,
-      "text": "meistens immer."
+      "start": 465.46,
+      "end": 467.46,
+      "text": "Standard wollte ist eine links wollte."
     },
     {
       "i": 179,
-      "start": 491.31,
-      "end": 494.31,
-      "text": "Wo eventuell auch einen Notlandenplatz ist."
+      "start": 467.46,
+      "end": 469.46,
+      "text": "Das kann aber je nach Begebenheit"
     },
     {
       "i": 180,
-      "start": 494.31,
-      "end": 496.31,
-      "text": "Wenn jetzt der Landenplatz gesperrt wäre,"
+      "start": 469.46,
+      "end": 471.46,
+      "text": "des Landeplatzes auch variieren"
     },
     {
       "i": 181,
-      "start": 496.31,
-      "end": 497.31,
-      "text": "kann ja,"
+      "start": 471.46,
+      "end": 473.46,
+      "text": "und eben eine rechts wollte sein,"
     },
     {
       "i": 182,
-      "start": 497.31,
-      "end": 498.31,
-      "text": "dass irgendetwas passiert ist,"
+      "start": 473.46,
+      "end": 474.46,
+      "text": "je nach Windverhältnis."
     },
     {
       "i": 183,
-      "start": 498.31,
-      "end": 499.31,
-      "text": "sie in den Wanderer auflesen."
+      "start": 474.46,
+      "end": 476.46,
+      "text": "Das ist meistens gut angeschrieben"
     },
     {
       "i": 184,
-      "start": 499.31,
-      "end": 500.31,
-      "text": "Was ich beibrochen habe,"
+      "start": 476.46,
+      "end": 478.46,
+      "text": "am Landeplatz auf einer Tafel sichtbar."
     },
     {
       "i": 185,
-      "start": 500.31,
-      "end": 503.31,
-      "text": "der Regenhelikope der Landen genau auf dem Landenplatz."
+      "start": 478.46,
+      "end": 480.46,
+      "text": "Wenn nicht, fragen die Locals."
     },
     {
       "i": 186,
-      "start": 503.31,
-      "end": 504.31,
-      "text": "Es ist wichtig,"
+      "start": 480.46,
+      "end": 481.83,
+      "text": "Dann auch wichtig,"
     },
     {
       "i": 187,
-      "start": 504.31,
-      "end": 505.31,
-      "text": "dass man den Wissen,"
+      "start": 481.83,
+      "end": 482.83,
+      "text": "dass wir wissen,"
     },
     {
       "i": 188,
-      "start": 505.31,
-      "end": 506.31,
-      "text": "wo den Landen ist."
+      "start": 482.83,
+      "end": 485.26,
+      "text": "wo wir überhaupt durchfliegen."
     },
     {
       "i": 189,
-      "start": 506.31,
-      "end": 508.38,
-      "text": "Und jetzt irgendwelche Sachen,"
+      "start": 485.26,
+      "end": 487.26,
+      "text": "Wir machen ein bisschen Flugplanung."
     },
     {
       "i": 190,
-      "start": 508.38,
-      "end": 509.38,
-      "text": "wir müssen überlegen,"
+      "start": 487.26,
+      "end": 488.26,
+      "text": "Sprich, wenn wir am Landeplatz stehen,"
     },
     {
       "i": 191,
-      "start": 509.38,
-      "end": 511.38,
-      "text": "bezüglich Tour-Planzen,"
+      "start": 488.26,
+      "end": 489.26,
+      "text": "können wir schon einmal schauen,"
     },
     {
       "i": 192,
-      "start": 511.38,
-      "end": 512.38,
-      "text": "jetzt hause große,"
+      "start": 489.26,
+      "end": 490.26,
+      "text": "wo der Startplatz ist."
     },
     {
       "i": 193,
-      "start": 512.38,
-      "end": 514.38,
-      "text": "hause große Bäume,"
+      "start": 490.26,
+      "end": 491.26,
+      "text": "Meistens sieht man,"
     },
     {
       "i": 194,
-      "start": 514.38,
-      "end": 515.38,
-      "text": "wo Tour-Planzen können,"
+      "start": 491.26,
+      "end": 494.26,
+      "text": "wo eventuell auch ein Notlandeplatz ist."
     },
     {
       "i": 195,
-      "start": 515.38,
-      "end": 517.38,
-      "text": "bei friederal Wind,"
+      "start": 494.26,
+      "end": 496.26,
+      "text": "Wenn jetzt ein Landeplatz gesperrt wäre,"
     },
     {
       "i": 196,
-      "start": 517.38,
-      "end": 518.38,
-      "text": "wo uns überkündigt,"
+      "start": 496.26,
+      "end": 497.26,
+      "text": "kann ja sein,"
     },
     {
       "i": 197,
-      "start": 518.38,
-      "end": 519.38,
-      "text": "stören beim Landen."
+      "start": 497.26,
+      "end": 498.26,
+      "text": "dass irgendetwas passiert ist."
     },
     {
       "i": 198,
-      "start": 519.38,
-      "end": 522.38,
-      "text": "All die überlegenden Vorgängungen zu machen,"
+      "start": 498.26,
+      "end": 499.26,
+      "text": "Sie müssen einen Wanderer auflesen,"
     },
     {
       "i": 199,
-      "start": 522.38,
-      "end": 524.38,
-      "text": "erleichtere Reile der Flug"
+      "start": 499.26,
+      "end": 500.26,
+      "text": "der sich das Bein gebrochen hat."
     },
     {
       "i": 200,
-      "start": 524.38,
-      "end": 525.38,
-      "text": "allgemein sehr fest,"
+      "start": 500.26,
+      "end": 503.26,
+      "text": "Der Rega-Helikopter landet genau auf dem Landeplatz."
     },
     {
       "i": 201,
-      "start": 525.38,
-      "end": 528.38,
-      "text": "weil mit ihnen ein Plan B im Kopf"
+      "start": 503.26,
+      "end": 504.26,
+      "text": "Es ist wichtig,"
     },
     {
       "i": 202,
-      "start": 528.38,
-      "end": 530.38,
-      "text": "und ein Plan B ist schon etwas sehr wichtig."
+      "start": 504.26,
+      "end": 505.26,
+      "text": "dass wir dann wissen,"
     },
     {
       "i": 203,
-      "start": 530.38,
-      "end": 532.38,
-      "text": "Wir sehen nie neue Flüge,"
+      "start": 505.26,
+      "end": 506.26,
+      "text": "wo wir dann landen."
     },
     {
       "i": 204,
-      "start": 532.38,
-      "end": 533.38,
-      "text": "wo wir nicht wissen,"
+      "start": 506.26,
+      "end": 508.7,
+      "text": "Und es gibt irgendwelche Sachen,"
     },
     {
       "i": 205,
-      "start": 533.38,
-      "end": 534.38,
-      "text": "was wir machen,"
+      "start": 508.7,
+      "end": 509.7,
+      "text": "die wir überlegen müssen"
     },
     {
       "i": 206,
-      "start": 534.38,
-      "end": 535.38,
-      "text": "wenn es mal nicht so läuft,"
+      "start": 509.7,
+      "end": 511.7,
+      "text": "bezüglich Turbulenzen."
     },
     {
       "i": 207,
-      "start": 535.38,
-      "end": 536.38,
-      "text": "wie wir gedacht haben,"
+      "start": 511.7,
+      "end": 512.7,
+      "text": "Es gibt Häuser,"
     },
     {
       "i": 208,
-      "start": 536.38,
-      "end": 538.38,
-      "text": "immer Vorgängungen belegen,"
+      "start": 512.7,
+      "end": 513.7,
+      "text": "grosse Bäume,"
     },
     {
       "i": 209,
-      "start": 538.38,
-      "end": 540.38,
-      "text": "was es ist, wenn."
+      "start": 513.7,
+      "end": 515.7,
+      "text": "die Turbulenzen machen könnten."
     },
     {
       "i": 210,
-      "start": 540.38,
-      "end": 542.18,
-      "text": "Dort dazu könnte,"
+      "start": 515.7,
+      "end": 517.7,
+      "text": "Ein bisschen Talwind,"
     },
     {
       "i": 211,
-      "start": 542.18,
-      "end": 544.18,
-      "text": "dort die Überlegung zu machen,"
+      "start": 517.7,
+      "end": 519.7,
+      "text": "der uns beim Landen stören könnte."
     },
     {
       "i": 212,
-      "start": 544.18,
-      "end": 545.18,
-      "text": "bezüglich Wild."
+      "start": 519.7,
+      "end": 522.7,
+      "text": "All diese Überlegungen vorgängig zu machen,"
     },
     {
       "i": 213,
-      "start": 545.18,
-      "end": 547.18,
-      "text": "Wir haben den Wildschutz"
+      "start": 522.7,
+      "end": 525.7,
+      "text": "erleichtert einen den Flug allgemein sehr stark,"
     },
     {
       "i": 214,
-      "start": 547.18,
-      "end": 548.18,
-      "text": "das grosses Thema."
+      "start": 525.7,
+      "end": 528.7,
+      "text": "weil man dann einen Plan B im Kopf hat."
     },
     {
       "i": 215,
-      "start": 548.18,
-      "end": 549.18,
-      "text": "Früher sind wir schon immer"
+      "start": 528.7,
+      "end": 530.7,
+      "text": "Und der Plan B ist etwas sehr Wichtiges."
     },
     {
       "i": 216,
-      "start": 549.18,
-      "end": 550.18,
-      "text": "so in die Zweitragung,"
+      "start": 530.7,
+      "end": 532.7,
+      "text": "Wir sollten nie noch hinfliegen,"
     },
     {
       "i": 217,
-      "start": 550.18,
-      "end": 551.18,
-      "text": "heute haben wir gesagt,"
+      "start": 532.7,
+      "end": 533.7,
+      "text": "wenn wir nicht wissen,"
     },
     {
       "i": 218,
-      "start": 551.18,
-      "end": 552.18,
-      "text": "die Kleidchenflüge,"
+      "start": 533.7,
+      "end": 534.7,
+      "text": "was machen wir,"
     },
     {
       "i": 219,
-      "start": 552.18,
-      "end": 554.18,
-      "text": "durch das Wilde zu kommen,"
+      "start": 534.7,
+      "end": 535.7,
+      "text": "wenn es mal nicht so läuft,"
     },
     {
       "i": 220,
-      "start": 554.18,
-      "end": 556.18,
-      "text": "geht die Neustudie,"
+      "start": 535.7,
+      "end": 536.7,
+      "text": "wie wir gedacht haben."
     },
     {
       "i": 221,
-      "start": 556.18,
-      "end": 557.18,
-      "text": "und jetzt geht es aus dem Kost,"
+      "start": 536.7,
+      "end": 538.71,
+      "text": "Immer vorgängig überlegen,"
     },
     {
       "i": 222,
-      "start": 557.18,
-      "end": 558.18,
-      "text": "zeigte ich,"
+      "start": 538.71,
+      "end": 539.71,
+      "text": "was ist wann."
     },
     {
       "i": 223,
-      "start": 558.18,
-      "end": 559.18,
-      "text": "das Gegenteil,"
+      "start": 539.71,
+      "end": 542.85,
+      "text": "Dazu gehört auch die Überlegung,"
     },
     {
       "i": 224,
-      "start": 559.18,
-      "end": 560.18,
-      "text": "dass die Kleidchen Pilot"
+      "start": 542.85,
+      "end": 544.85,
+      "text": "zu machen bezüglich Wild."
     },
     {
       "i": 225,
-      "start": 560.18,
-      "end": 562.18,
-      "text": "doch ein bisschen verantwortlich,"
+      "start": 544.85,
+      "end": 547.85,
+      "text": "Wir haben den Wildschutz als grosses Thema."
     },
     {
       "i": 226,
-      "start": 562.18,
-      "end": 564.18,
-      "text": "die Vorgängungen über den Wild hat,"
+      "start": 547.85,
+      "end": 549.85,
+      "text": "Früher war das immer so in zweitrangig."
     },
     {
       "i": 227,
-      "start": 564.18,
-      "end": 565.18,
-      "text": "und auch ganz wichtig ist,"
+      "start": 549.85,
+      "end": 550.85,
+      "text": "Da hat man gesagt,"
     },
     {
       "i": 228,
-      "start": 565.18,
-      "end": 566.18,
-      "text": "zu beachten."
+      "start": 550.85,
+      "end": 552.85,
+      "text": "die Gleitschirmflügel"
     },
     {
       "i": 229,
-      "start": 566.18,
-      "end": 567.18,
-      "text": "Wir haben eine Sitz,"
+      "start": 552.85,
+      "end": 554.85,
+      "text": "erschrecken das Wild kaum."
     },
     {
       "i": 230,
-      "start": 567.18,
-      "end": 569.18,
-      "text": "die lokalen Wilden machen,"
+      "start": 554.85,
+      "end": 555.85,
+      "text": "Die neue Studie,"
     },
     {
       "i": 231,
-      "start": 569.18,
-      "end": 570.18,
-      "text": "die sind auf der Infotafel"
+      "start": 555.85,
+      "end": 556.85,
+      "text": "die gerade herausgekommen ist,"
     },
     {
       "i": 232,
-      "start": 570.18,
-      "end": 572.18,
-      "text": "meistens bei der Bahn beschrieben,"
+      "start": 556.85,
+      "end": 557.85,
+      "text": "zeigt eher das Gegenteil,"
     },
     {
       "i": 233,
-      "start": 572.18,
-      "end": 573.18,
-      "text": "wo z.B. Personen sind,"
+      "start": 557.85,
+      "end": 559.85,
+      "text": "dass der Gleitschirmpilot"
     },
     {
       "i": 234,
-      "start": 573.18,
-      "end": 574.18,
-      "text": "die wir gar nicht zähten,"
+      "start": 559.85,
+      "end": 561.85,
+      "text": "doch ein bisschen Verantwortung"
     },
     {
       "i": 235,
-      "start": 574.18,
-      "end": 575.18,
-      "text": "in der Flüge."
+      "start": 561.85,
+      "end": 562.85,
+      "text": "gegenüber dem Wild hat."
     },
     {
       "i": 236,
-      "start": 575.18,
-      "end": 577.18,
-      "text": "Aber es ist auch wichtig,"
+      "start": 562.85,
+      "end": 563.85,
+      "text": "Und auch ganz wichtig ist,"
     },
     {
       "i": 237,
-      "start": 577.18,
-      "end": 578.18,
-      "text": "ein bisschen Bescheid zu wissen,"
+      "start": 563.85,
+      "end": 564.85,
+      "text": "das zu beachten."
     },
     {
       "i": 238,
+      "start": 564.85,
+      "end": 565.85,
+      "text": "Wir haben einerseits"
+    },
+    {
+      "i": 239,
+      "start": 565.85,
+      "end": 567.85,
+      "text": "die lokalen Wildabmachungen,"
+    },
+    {
+      "i": 240,
+      "start": 567.85,
+      "end": 569.85,
+      "text": "die sind auch auf dieser Infotafel"
+    },
+    {
+      "i": 241,
+      "start": 569.85,
+      "end": 571.85,
+      "text": "meistens bei der Bahn beschrieben,"
+    },
+    {
+      "i": 242,
+      "start": 571.85,
+      "end": 572.85,
+      "text": "wo z.B. Zonen sind,"
+    },
+    {
+      "i": 243,
+      "start": 572.85,
+      "end": 574.85,
+      "text": "in die man gar nicht fliegen sollte."
+    },
+    {
+      "i": 244,
+      "start": 574.85,
+      "end": 576.18,
+      "text": "Aber es ist auch wichtig,"
+    },
+    {
+      "i": 245,
+      "start": 576.18,
+      "end": 578.18,
+      "text": "ein bisschen Bescheid zu wissen"
+    },
+    {
+      "i": 246,
       "start": 578.18,
       "end": 580.18,
       "text": "über das ganze Wild."
     },
     {
-      "i": 239,
+      "i": 247,
       "start": 580.18,
       "end": 581.18,
-      "text": "Und in der Theorie,"
-    },
-    {
-      "i": 240,
-      "start": 581.18,
-      "end": 583.18,
-      "text": "die wir kennen für das Thema,"
-    },
-    {
-      "i": 241,
-      "start": 583.18,
-      "end": 584.18,
-      "text": "sind auch ganz viel"
-    },
-    {
-      "i": 242,
-      "start": 584.18,
-      "end": 586.18,
-      "text": "Fragen bezüglich Wildschutz."
-    },
-    {
-      "i": 243,
-      "start": 586.18,
-      "end": 588.18,
-      "text": "Dort geht es nämlich zum Beispiel,"
-    },
-    {
-      "i": 244,
-      "start": 588.18,
-      "end": 589.18,
-      "text": "darum,"
-    },
-    {
-      "i": 245,
-      "start": 589.18,
-      "end": 590.18,
-      "text": "wenn das unsere"
-    },
-    {
-      "i": 246,
-      "start": 590.18,
-      "end": 592.18,
-      "text": "Jungen haben,"
-    },
-    {
-      "i": 247,
-      "start": 592.18,
-      "end": 594.18,
-      "text": "wie genau in dieser Zeit,"
+      "text": "Und in den Theoriefragen,"
     },
     {
       "i": 248,
-      "start": 594.18,
-      "end": 595.18,
-      "text": "ist nämlichen wir Freelig"
+      "start": 581.18,
+      "end": 583.18,
+      "text": "die wir kennen für dieses Thema,"
     },
     {
       "i": 249,
-      "start": 595.18,
-      "end": 597.18,
-      "text": "und im Freelig"
+      "start": 583.18,
+      "end": 584.18,
+      "text": "sind auch ganz viele Fragen"
     },
     {
       "i": 250,
-      "start": 597.18,
-      "end": 599.18,
-      "text": "flügen wir ja wunderschön."
+      "start": 584.18,
+      "end": 586.18,
+      "text": "bezüglich Wildschutz."
     },
     {
       "i": 251,
-      "start": 599.18,
-      "end": 600.18,
-      "text": "Das heißt,"
+      "start": 586.18,
+      "end": 588.18,
+      "text": "Hier geht es z.B. darum,"
     },
     {
       "i": 252,
-      "start": 600.18,
-      "end": 601.18,
-      "text": "wir kommen auch zu diesen Plätzen,"
+      "start": 588.18,
+      "end": 591.36,
+      "text": "wann unsere Tiere in der Alpe"
     },
     {
       "i": 253,
-      "start": 601.18,
-      "end": 602.18,
-      "text": "die z.B. Tatler,"
+      "start": 591.36,
+      "end": 592.36,
+      "text": "Junge haben,"
     },
     {
       "i": 254,
-      "start": 602.18,
-      "end": 604.18,
-      "text": "die Gäms- und Steigäse"
+      "start": 592.36,
+      "end": 593.36,
+      "text": "weil genau in dieser Zeit"
     },
     {
       "i": 255,
-      "start": 604.18,
-      "end": 607.18,
-      "text": "ihre Jungen aufziehen."
+      "start": 593.36,
+      "end": 595.36,
+      "text": "ist nämlich Frühling."
     },
     {
       "i": 256,
-      "start": 607.18,
-      "end": 608.18,
-      "text": "Bei der Tatler"
+      "start": 595.36,
+      "end": 596.36,
+      "text": "Und im Frühling"
     },
     {
       "i": 257,
-      "start": 608.18,
-      "end": 609.18,
-      "text": "muss man möglichst im März"
+      "start": 596.36,
+      "end": 599.36,
+      "text": "fliegen wir ja wunderschön hoch."
     },
     {
       "i": 258,
-      "start": 609.18,
-      "end": 611.18,
-      "text": "bis Mai damit rechnen,"
+      "start": 599.36,
+      "end": 600.36,
+      "text": "Das heisst,"
     },
     {
       "i": 259,
-      "start": 611.18,
-      "end": 613.18,
-      "text": "dass sie vom Horst sitzen"
+      "start": 600.36,
+      "end": 601.36,
+      "text": "wir kommen auch zu diesen Plätzen,"
     },
     {
       "i": 260,
-      "start": 613.18,
-      "end": 615.18,
-      "text": "und auch ihre Stereitorium verteidigen."
+      "start": 601.36,
+      "end": 603.36,
+      "text": "wo z.B. die Adler,"
     },
     {
       "i": 261,
-      "start": 615.18,
-      "end": 617.18,
-      "text": "Bei der Gämsen ist es im Mai"
+      "start": 603.36,
+      "end": 605.36,
+      "text": "die Gämsen und die Steingeissen"
     },
     {
       "i": 262,
-      "start": 617.18,
-      "end": 619.18,
-      "text": "und bei der Steigäse"
+      "start": 605.36,
+      "end": 607.36,
+      "text": "ihre Jungen aufziehen."
     },
     {
       "i": 263,
-      "start": 619.18,
-      "end": 621.18,
-      "text": "ist es im Juni."
+      "start": 607.36,
+      "end": 609.36,
+      "text": "Bei den Adlern muss man wirklich"
     },
     {
       "i": 264,
-      "start": 621.18,
-      "end": 622.18,
-      "text": "Und in dieser Zeit,"
+      "start": 609.36,
+      "end": 611.36,
+      "text": "im März bis Mai damit rechnen,"
     },
     {
       "i": 265,
-      "start": 622.18,
-      "end": 623.18,
-      "text": "wenn die Tiere gesend,"
+      "start": 611.36,
+      "end": 613.36,
+      "text": "dass die auf dem Horst sitzen"
     },
     {
       "i": 266,
-      "start": 623.18,
-      "end": 625.18,
-      "text": "flügt weg."
+      "start": 613.36,
+      "end": 616.36,
+      "text": "und auch ihr Territorium verteidigen."
     },
     {
       "i": 267,
-      "start": 625.18,
-      "end": 626.18,
-      "text": "Es ist einfach fair,"
+      "start": 616.36,
+      "end": 618.36,
+      "text": "Bei den Gämsen ist es im Mai"
     },
     {
       "i": 268,
-      "start": 626.18,
-      "end": 627.18,
-      "text": "gegen die Tiere,"
+      "start": 618.36,
+      "end": 621.47,
+      "text": "und bei den Steingeissen ist es im Juni."
     },
     {
       "i": 269,
-      "start": 627.18,
-      "end": 629.18,
-      "text": "dass man nicht irgendetwas"
+      "start": 621.47,
+      "end": 622.47,
+      "text": "Und in dieser Zeit,"
     },
     {
       "i": 270,
-      "start": 629.18,
-      "end": 630.18,
-      "text": "sicher seiten,"
+      "start": 622.47,
+      "end": 623.47,
+      "text": "wenn ihr Tiere seht,"
     },
     {
       "i": 271,
-      "start": 630.18,
-      "end": 631.18,
-      "text": "es ist thermichtös,"
+      "start": 623.47,
+      "end": 625.62,
+      "text": "fliegen sie weg."
     },
     {
       "i": 272,
-      "start": 631.18,
-      "end": 632.18,
-      "text": "besonders gut,"
+      "start": 625.62,
+      "end": 627.62,
+      "text": "Es ist einfach fair gegenüber dem Tier,"
     },
     {
       "i": 273,
-      "start": 632.18,
-      "end": 633.18,
-      "text": "es ist mir egal,"
+      "start": 627.62,
+      "end": 629.62,
+      "text": "dass man sich nicht irgendetwas sagt,"
     },
     {
       "i": 274,
-      "start": 633.18,
-      "end": 634.18,
-      "text": "wenn unter drei Gäms ist,"
+      "start": 629.62,
+      "end": 630.62,
+      "text": "jetzt ist die Thermik da"
     },
     {
       "i": 275,
-      "start": 634.18,
-      "end": 635.18,
-      "text": "sondern die Flüge weg,"
+      "start": 630.62,
+      "end": 631.62,
+      "text": "besonders gut,"
     },
     {
       "i": 276,
-      "start": 635.18,
-      "end": 636.18,
-      "text": "die Tiere haben die Schüsse"
+      "start": 631.62,
+      "end": 632.62,
+      "text": "es ist mir egal,"
     },
     {
       "i": 277,
-      "start": 636.18,
-      "end": 637.18,
-      "text": "genug Stress"
+      "start": 632.62,
+      "end": 633.62,
+      "text": "wenn unter der Reihe Gämsen ist,"
     },
     {
       "i": 278,
-      "start": 637.18,
-      "end": 639.18,
-      "text": "mit jeglicher Umweltbelastung,"
+      "start": 633.62,
+      "end": 634.62,
+      "text": "sondern fliegen sie weg."
     },
     {
       "i": 279,
-      "start": 639.18,
-      "end": 640.18,
-      "text": "dann mit mehr als"
+      "start": 634.62,
+      "end": 636.62,
+      "text": "Die Tiere haben sonst schon genug Stress"
     },
     {
       "i": 280,
-      "start": 640.18,
-      "end": 641.18,
-      "text": "gleiche Piloten,"
+      "start": 636.62,
+      "end": 638.62,
+      "text": "mit jeglicher Umweltbelastung,"
     },
     {
       "i": 281,
-      "start": 641.18,
-      "end": 642.18,
-      "text": "die so nüchtern Natur sind,"
+      "start": 638.62,
+      "end": 640.62,
+      "text": "damit wir als Gleitschimpiloten,"
     },
     {
       "i": 282,
-      "start": 642.18,
-      "end": 644.18,
-      "text": "nicht nur zusätzlich Stress verursachen."
+      "start": 640.62,
+      "end": 641.62,
+      "text": "die so nahe der Natur sind,"
     },
     {
       "i": 283,
-      "start": 644.18,
-      "end": 646.01,
-      "text": "Wie ist schon gesagt,"
+      "start": 641.62,
+      "end": 643.62,
+      "text": "nicht noch zusätzlich Stress verursachen."
     },
     {
       "i": 284,
-      "start": 646.01,
-      "end": 647.01,
-      "text": "die Lokalbegebenheiten"
+      "start": 643.62,
+      "end": 645.72,
+      "text": "Wie schon gesagt,"
     },
     {
       "i": 285,
-      "start": 647.01,
-      "end": 649.01,
-      "text": "von einzelnen Wildschutzgebiet,"
+      "start": 645.72,
+      "end": 647.72,
+      "text": "die lokalen Begebenheiten"
     },
     {
       "i": 286,
-      "start": 649.01,
-      "end": 651.01,
-      "text": "die meistens gut lesbar"
+      "start": 647.72,
+      "end": 648.72,
+      "text": "von einzelnen Wildschutzgebieten"
     },
     {
       "i": 287,
-      "start": 651.01,
-      "end": 654.01,
-      "text": "in der Stationen aufgleit."
+      "start": 648.72,
+      "end": 650.72,
+      "text": "sind meistens gut lesbar"
     },
     {
       "i": 288,
-      "start": 654.01,
-      "end": 655.01,
-      "text": "Und die Schüsse"
+      "start": 650.72,
+      "end": 654.33,
+      "text": "in den Stationen aufgelegt."
     },
     {
       "i": 289,
-      "start": 655.01,
-      "end": 656.01,
-      "text": "auch hier,"
+      "start": 654.33,
+      "end": 656.34,
+      "text": "Und sonst auch hier nicht scheu sein,"
     },
     {
       "i": 290,
-      "start": 656.01,
-      "end": 657.01,
-      "text": "nicht die Schüsse,"
+      "start": 656.34,
+      "end": 658.34,
+      "text": "sondern lokale Leute fragen."
     },
     {
       "i": 291,
-      "start": 657.01,
-      "end": 659.01,
-      "text": "sondern lokale Leute früge,"
+      "start": 658.34,
+      "end": 661.34,
+      "text": "Es geben alle immer gerne Auskunft."
     },
     {
       "i": 292,
-      "start": 659.01,
-      "end": 661.01,
-      "text": "es gäbe alle immer gern auskommt."
+      "start": 661.34,
+      "end": 666.37,
+      "text": "Wenn wir auf den Berg kommen,"
     },
     {
       "i": 293,
-      "start": 661.01,
-      "end": 665.7,
-      "text": "Wenn man auf der Berge kommt,"
+      "start": 666.37,
+      "end": 667.37,
+      "text": "Richtung Startplatz,"
     },
     {
       "i": 294,
-      "start": 665.7,
-      "end": 667.7,
-      "text": "richtig stark platz,"
+      "start": 667.37,
+      "end": 669.9,
+      "text": "ist es vielleicht für viele so,"
     },
     {
       "i": 295,
-      "start": 667.7,
-      "end": 669.82,
-      "text": "ist es für viel so,"
+      "start": 669.9,
+      "end": 672.9,
+      "text": "dass sie bereits eine kleine Nervosität spüren."
     },
     {
       "i": 296,
-      "start": 669.82,
-      "end": 670.82,
-      "text": "dass es bereits ein kleinerer,"
+      "start": 672.9,
+      "end": 675.1,
+      "text": "Die Nervosität ist aber schlussendlich"
     },
     {
       "i": 297,
-      "start": 670.82,
-      "end": 672.82,
-      "text": "von seinen Täter gespürt."
+      "start": 675.1,
+      "end": 676.1,
+      "text": "eine gute Sache,"
     },
     {
       "i": 298,
-      "start": 672.82,
-      "end": 673.82,
-      "text": "Mehr von seinen Täter"
+      "start": 676.1,
+      "end": 679.1,
+      "text": "weil man die Sachen gut anschaut."
     },
     {
       "i": 299,
-      "start": 673.82,
-      "end": 675.82,
-      "text": "ist aber schlussendlich ein gutes Ach,"
+      "start": 679.1,
+      "end": 680.1,
+      "text": "Und besonders,"
     },
     {
       "i": 300,
-      "start": 675.82,
-      "end": 678.82,
-      "text": "weil dann auch die Sachen gut allogen."
+      "start": 680.1,
+      "end": 683.1,
+      "text": "wenn ihr einen Startplatz nicht kennt,"
     },
     {
       "i": 301,
-      "start": 678.82,
-      "end": 680.82,
-      "text": "Und besonders wenn er ein"
+      "start": 683.1,
+      "end": 685.1,
+      "text": "z.B. ein Hike & Fly macht,"
     },
     {
       "i": 302,
-      "start": 680.82,
-      "end": 682.82,
-      "text": "Startplatz nicht kenne,"
+      "start": 685.1,
+      "end": 686.1,
+      "text": "auf ein Terrain kommt,"
     },
     {
       "i": 303,
-      "start": 682.82,
-      "end": 684.82,
-      "text": "z.B. ein heikern Fleim,"
+      "start": 686.1,
+      "end": 688.1,
+      "text": "das ihr überhaupt nicht kennt,"
     },
     {
       "i": 304,
-      "start": 684.82,
-      "end": 685.82,
-      "text": "auf einer Täterkennung,"
+      "start": 688.1,
+      "end": 689.1,
+      "text": "ist es umso wichtiger,"
     },
     {
       "i": 305,
-      "start": 685.82,
-      "end": 687.82,
-      "text": "der überhaupt nicht kenne,"
+      "start": 689.1,
+      "end": 690.1,
+      "text": "dass hier der Leitsatz,"
     },
     {
       "i": 306,
-      "start": 687.82,
-      "end": 688.82,
-      "text": "ist es umso wichtig,"
+      "start": 690.1,
+      "end": 691.1,
+      "text": "der hier steht,"
     },
     {
       "i": 307,
-      "start": 688.82,
-      "end": 690.82,
-      "text": "dass dort ein Leihzatz,"
+      "start": 691.1,
+      "end": 692.1,
+      "text": "beachtet wird."
     },
     {
       "i": 308,
-      "start": 690.82,
-      "end": 691.82,
-      "text": "der dort berichtet wird,"
+      "start": 692.1,
+      "end": 693.1,
+      "text": "Das ist nämlich"
     },
     {
       "i": 309,
-      "start": 691.82,
-      "end": 692.82,
-      "text": "ist ein bisschen an-"
+      "start": 693.1,
+      "end": 694.1,
+      "text": "an und zu von jedem Startplatz"
     },
     {
       "i": 310,
-      "start": 692.82,
-      "end": 693.82,
-      "text": "und so,"
+      "start": 694.1,
+      "end": 695.1,
+      "text": "ein Muss,"
     },
     {
       "i": 311,
-      "start": 693.82,
-      "end": 694.82,
-      "text": "von jedem Startplatz."
+      "start": 695.1,
+      "end": 697.1,
+      "text": "jederzeit gefahrlos möglich sein,"
     },
     {
       "i": 312,
-      "start": 694.82,
-      "end": 695.82,
-      "text": "Es muss jederzeit"
+      "start": 697.1,
+      "end": 699.1,
+      "text": "den Start abzubrechen."
     },
     {
       "i": 313,
-      "start": 695.82,
-      "end": 696.82,
-      "text": "gevorlos,"
+      "start": 699.1,
+      "end": 702.54,
+      "text": "Wenn wir auf einer Klippe starten,"
     },
     {
       "i": 314,
-      "start": 696.82,
-      "end": 697.82,
-      "text": "möglichst seit der Start,"
+      "start": 702.54,
+      "end": 704.54,
+      "text": "wo wir nur wenige Laufstrecke haben,"
     },
     {
       "i": 315,
-      "start": 697.82,
-      "end": 698.82,
-      "text": "abzubrechen."
+      "start": 704.54,
+      "end": 706.54,
+      "text": "danach geht das endgerechte Loch ab,"
     },
     {
       "i": 316,
-      "start": 698.82,
-      "end": 701.08,
-      "text": "Wenn wir auf einem Klippen"
+      "start": 706.54,
+      "end": 708.54,
+      "text": "dann wird das Zimmer sicher nicht der Fall sein"
     },
     {
       "i": 317,
-      "start": 701.08,
-      "end": 702.08,
-      "text": "starten,"
+      "start": 708.54,
+      "end": 709.54,
+      "text": "und dann ist das auch nicht"
     },
     {
       "i": 318,
-      "start": 702.08,
-      "end": 704.08,
-      "text": "wo man nur wenig Laufstrecke"
+      "start": 709.54,
+      "end": 711.54,
+      "text": "der richtige Startplatz."
     },
     {
       "i": 319,
-      "start": 704.08,
-      "end": 706.08,
-      "text": "haben, dann geht es ein krass Loch ab,"
+      "start": 711.54,
+      "end": 713.54,
+      "text": "Natürlich, je nach Können des Piloten"
     },
     {
       "i": 320,
-      "start": 706.08,
-      "end": 708.08,
-      "text": "dann wird das immer sicher nicht der Phase,"
+      "start": 713.54,
+      "end": 715.54,
+      "text": "verschiebt sich diese Grenze ein wenig."
     },
     {
       "i": 321,
-      "start": 708.08,
-      "end": 709.08,
-      "text": "und das ist auch"
+      "start": 715.54,
+      "end": 717.54,
+      "text": "Aber dieser Leitsatz gilt für alle"
     },
     {
       "i": 322,
-      "start": 709.08,
-      "end": 710.08,
-      "text": "nicht der richtige Startplatz."
+      "start": 717.54,
+      "end": 718.54,
+      "text": "und immer."
     },
     {
       "i": 323,
-      "start": 710.08,
-      "end": 713.08,
-      "text": "Natürlich jener Kölner"
+      "start": 718.54,
+      "end": 721.25,
+      "text": "Danach haben wir natürlich"
     },
     {
       "i": 324,
-      "start": 713.08,
-      "end": 714.08,
-      "text": "von Pilot,"
-    },
-    {
-      "i": 325,
-      "start": 714.08,
-      "end": 715.08,
-      "text": "verschiebt sich die Grenze ein wenig."
-    },
-    {
-      "i": 326,
-      "start": 715.08,
-      "end": 716.08,
-      "text": "Aber bei Leihzatz,"
-    },
-    {
-      "i": 327,
-      "start": 716.08,
-      "end": 718.08,
-      "text": "gilt für alle und immer."
-    },
-    {
-      "i": 328,
-      "start": 718.08,
-      "end": 721.42,
-      "text": "Nachher haben wir natürlich"
-    },
-    {
-      "i": 329,
-      "start": 721.42,
-      "end": 722.42,
+      "start": 721.25,
+      "end": 722.25,
       "text": "unterschiedliche Kriterien"
     },
     {
+      "i": 325,
+      "start": 722.25,
+      "end": 723.25,
+      "text": "des Startplatzes."
+    },
+    {
+      "i": 326,
+      "start": 723.25,
+      "end": 724.25,
+      "text": "Sprich, wenn wir ankommen,"
+    },
+    {
+      "i": 327,
+      "start": 724.25,
+      "end": 725.25,
+      "text": "müssen wir zuerst wissen,"
+    },
+    {
+      "i": 328,
+      "start": 725.25,
+      "end": 727.25,
+      "text": "was wir für einen Wind haben."
+    },
+    {
+      "i": 329,
+      "start": 727.25,
+      "end": 729.25,
+      "text": "Wenn wir natürlich Abwind haben,"
+    },
+    {
       "i": 330,
-      "start": 722.42,
-      "end": 723.42,
-      "text": "vom Startplatz."
+      "start": 729.25,
+      "end": 731.25,
+      "text": "sprich Rückenwind am Startplatz,"
     },
     {
       "i": 331,
-      "start": 723.42,
-      "end": 724.42,
-      "text": "Wenn wir ankommen,"
+      "start": 731.25,
+      "end": 733.25,
+      "text": "dann müssen wir definitiv einen Startplatz wählen,"
     },
     {
       "i": 332,
-      "start": 724.42,
-      "end": 725.42,
-      "text": "müssen wir uns erst mal"
+      "start": 733.25,
+      "end": 735.25,
+      "text": "wo wir sehr lange laufen können."
     },
     {
       "i": 333,
-      "start": 725.42,
-      "end": 727.42,
-      "text": "wissen, was heimen für einen Wind."
+      "start": 735.25,
+      "end": 737.25,
+      "text": "Sprich, der hindernisfrei ist."
     },
     {
       "i": 334,
-      "start": 727.42,
-      "end": 728.42,
-      "text": "Wenn wir natürlich"
+      "start": 737.25,
+      "end": 739.25,
+      "text": "Wir können nicht zwischen Steinen rennen,"
     },
     {
       "i": 335,
-      "start": 728.42,
-      "end": 729.42,
-      "text": "abwinden,"
+      "start": 739.25,
+      "end": 740.25,
+      "text": "sondern wir müssen schauen,"
     },
     {
       "i": 336,
-      "start": 729.42,
-      "end": 730.42,
-      "text": "sprich rücken,"
+      "start": 740.25,
+      "end": 742.25,
+      "text": "dass dieser Teil hindernisfrei ist,"
     },
     {
       "i": 337,
-      "start": 730.42,
-      "end": 731.42,
-      "text": "am Startplatz,"
+      "start": 742.25,
+      "end": 743.25,
+      "text": "den wir beschleunigen können"
     },
     {
       "i": 338,
-      "start": 731.42,
-      "end": 732.42,
-      "text": "dann müssen wir definitiv"
+      "start": 743.25,
+      "end": 745.25,
+      "text": "und auch dann beim Abheben"
     },
     {
       "i": 339,
-      "start": 732.42,
-      "end": 733.42,
-      "text": "den Startplatz werden,"
+      "start": 745.25,
+      "end": 747.25,
+      "text": "noch Geschwindigkeit machen müssen,"
     },
     {
       "i": 340,
-      "start": 733.42,
-      "end": 734.42,
-      "text": "wo man sehr lang"
+      "start": 747.25,
+      "end": 749.25,
+      "text": "damit er möglichst hindernisfrei und gut ist."
     },
     {
       "i": 341,
-      "start": 734.42,
-      "end": 735.42,
-      "text": "kann laufen."
+      "start": 749.25,
+      "end": 751.25,
+      "text": "Wenn wir den Startplatz antreffen,"
     },
     {
       "i": 342,
-      "start": 735.42,
-      "end": 736.42,
-      "text": "Sprich,"
+      "start": 751.25,
+      "end": 753.25,
+      "text": "es hat einen 20er Aufwind,"
     },
     {
       "i": 343,
-      "start": 736.42,
-      "end": 737.42,
-      "text": "wo hinter uns frei ist,"
+      "start": 753.25,
+      "end": 755.25,
+      "text": "dann sieht die Sache natürlich etwas anders aus."
     },
     {
       "i": 344,
-      "start": 737.42,
-      "end": 738.42,
-      "text": "wir können nicht zwischensteigen"
+      "start": 755.25,
+      "end": 757.25,
+      "text": "Dann können wir uns wunderschön"
     },
     {
       "i": 345,
-      "start": 738.42,
-      "end": 739.42,
-      "text": "durchrennen."
+      "start": 757.25,
+      "end": 758.25,
+      "text": "gegen den Schirm eindrehen"
     },
     {
       "i": 346,
-      "start": 739.42,
-      "end": 740.42,
-      "text": "Sondern wir schauen,"
+      "start": 758.25,
+      "end": 760.25,
+      "text": "und einen Rückwärtsstart machen."
     },
     {
       "i": 347,
-      "start": 740.42,
-      "end": 741.42,
-      "text": "dass es ein Teil"
+      "start": 760.25,
+      "end": 761.25,
+      "text": "Dann kann es sein,"
     },
     {
       "i": 348,
-      "start": 741.42,
-      "end": 742.42,
-      "text": "hinter uns frei ist,"
+      "start": 761.25,
+      "end": 762.25,
+      "text": "dass wir zuerst noch,"
     },
     {
       "i": 349,
-      "start": 742.42,
-      "end": 743.42,
-      "text": "wo man beschleunigen"
+      "start": 762.25,
+      "end": 764.25,
+      "text": "damit der Schirm nicht zu fest überschiesst,"
     },
     {
       "i": 350,
-      "start": 743.42,
-      "end": 745.42,
-      "text": "und auch beim Abheben"
+      "start": 764.25,
+      "end": 765.25,
+      "text": "dem Schirm entgegenlaufen müssen,"
     },
     {
       "i": 351,
-      "start": 745.42,
-      "end": 747.42,
-      "text": "noch Geschwindigkeit mitmachen,"
+      "start": 765.25,
+      "end": 766.25,
+      "text": "den Hang aufwärts."
     },
     {
       "i": 352,
-      "start": 747.42,
-      "end": 748.42,
-      "text": "dass es hinter uns frei ist."
+      "start": 766.25,
+      "end": 767.25,
+      "text": "Das heisst,"
     },
     {
       "i": 353,
-      "start": 748.42,
-      "end": 749.42,
-      "text": "Und gut ist,"
-    },
-    {
-      "i": 354,
-      "start": 749.42,
-      "end": 750.42,
-      "text": "wenn wir den Startplatz"
-    },
-    {
-      "i": 355,
-      "start": 750.42,
-      "end": 751.42,
-      "text": "andreffen,"
-    },
-    {
-      "i": 356,
-      "start": 751.42,
-      "end": 753.42,
-      "text": "es hat einen Zendenzger aufwend,"
-    },
-    {
-      "i": 357,
-      "start": 753.42,
-      "end": 755.42,
-      "text": "der sieht das auch natürlich anders aus."
-    },
-    {
-      "i": 358,
-      "start": 755.42,
-      "end": 756.42,
-      "text": "Da können wir uns wunderschön"
-    },
-    {
-      "i": 359,
-      "start": 756.42,
-      "end": 757.42,
-      "text": "ein Geschehrm"
-    },
-    {
-      "i": 360,
-      "start": 757.42,
-      "end": 759.42,
-      "text": "in der Reihe und einen Rüppwert starten."
-    },
-    {
-      "i": 361,
-      "start": 759.42,
-      "end": 760.42,
-      "text": "Und dann kann sie uns"
-    },
-    {
-      "i": 362,
-      "start": 760.42,
-      "end": 761.42,
-      "text": "erst mal damit"
-    },
-    {
-      "i": 363,
-      "start": 761.42,
-      "end": 763.42,
-      "text": "ein Geschehr mit festen Beschüß,"
-    },
-    {
-      "i": 364,
-      "start": 763.42,
-      "end": 764.42,
-      "text": "dem Geschehrmündern"
-    },
-    {
-      "i": 365,
-      "start": 764.42,
-      "end": 765.42,
-      "text": "gegelaufen,"
-    },
-    {
-      "i": 366,
-      "start": 765.42,
-      "end": 766.42,
-      "text": "der Hang aufwärts."
-    },
-    {
-      "i": 367,
-      "start": 766.42,
-      "end": 767.42,
-      "text": "Das heißt,"
-    },
-    {
-      "i": 368,
-      "start": 767.42,
-      "end": 768.42,
+      "start": 767.25,
+      "end": 768.25,
       "text": "dann müssen wir schauen,"
     },
     {
-      "i": 369,
-      "start": 768.42,
-      "end": 770.42,
-      "text": "dass es hinter uns,"
+      "i": 354,
+      "start": 768.25,
+      "end": 769.55,
+      "text": "dass wir nicht hinter uns,"
     },
     {
-      "i": 370,
-      "start": 770.42,
-      "end": 771.42,
-      "text": "oder auch zum Schirm,"
+      "i": 355,
+      "start": 769.55,
+      "end": 771.55,
+      "text": "sondern eigentlich zum Schirm hin,"
     },
     {
-      "i": 371,
-      "start": 771.42,
-      "end": 772.42,
-      "text": "auch keine Hindernisse haben,"
+      "i": 356,
+      "start": 771.55,
+      "end": 772.55,
+      "text": "keine Hindernisse haben,"
     },
     {
-      "i": 372,
-      "start": 772.42,
-      "end": 773.42,
+      "i": 357,
+      "start": 772.55,
+      "end": 773.55,
       "text": "dass wir nicht stolpern."
     },
     {
-      "i": 373,
-      "start": 773.42,
-      "end": 774.42,
-      "text": "Das Gleiche ist,"
+      "i": 358,
+      "start": 773.55,
+      "end": 775.66,
+      "text": "Das Gleiche ist beim Seitenwind."
     },
     {
-      "i": 374,
-      "start": 774.42,
-      "end": 775.42,
-      "text": "bis hinter Wind,"
+      "i": 359,
+      "start": 775.66,
+      "end": 777.66,
+      "text": "Wenn wir dort ein wenig Seitenwind haben,"
     },
     {
-      "i": 375,
-      "start": 775.42,
-      "end": 776.42,
-      "text": "wenn wir dort"
-    },
-    {
-      "i": 376,
-      "start": 776.42,
-      "end": 777.42,
-      "text": "ein bisschen hinter Wind haben,"
-    },
-    {
-      "i": 377,
-      "start": 777.42,
-      "end": 778.42,
+      "i": 360,
+      "start": 777.66,
+      "end": 778.66,
       "text": "dann müssen wir vielleicht"
     },
     {
-      "i": 378,
-      "start": 778.42,
-      "end": 779.42,
-      "text": "das Schirm gegen Wind aufziehen"
+      "i": 361,
+      "start": 778.66,
+      "end": 779.66,
+      "text": "den Schirm gegen den Wind aufziehen"
     },
     {
-      "i": 379,
-      "start": 779.42,
-      "end": 780.42,
-      "text": "und nach ein kleines Bögel"
+      "i": 362,
+      "start": 779.66,
+      "end": 780.66,
+      "text": "und dann ein kleines Stück"
     },
     {
-      "i": 380,
-      "start": 780.42,
-      "end": 782.42,
+      "i": 363,
+      "start": 780.66,
+      "end": 782.66,
       "text": "in die Fallrichtung laufen."
     },
     {
+      "i": 364,
+      "start": 782.66,
+      "end": 783.66,
+      "text": "Dann muss dort"
+    },
+    {
+      "i": 365,
+      "start": 783.66,
+      "end": 785.66,
+      "text": "möglichst kein Hindernis sein."
+    },
+    {
+      "i": 366,
+      "start": 785.66,
+      "end": 788.0,
+      "text": "Und das ist ein wichtiges Kriterium"
+    },
+    {
+      "i": 367,
+      "start": 788.0,
+      "end": 789.0,
+      "text": "für den Startplatz."
+    },
+    {
+      "i": 368,
+      "start": 789.0,
+      "end": 790.0,
+      "text": "Das gehört auch dazu"
+    },
+    {
+      "i": 369,
+      "start": 790.0,
+      "end": 792.0,
+      "text": "zum Massenansammeln."
+    },
+    {
+      "i": 370,
+      "start": 792.0,
+      "end": 794.0,
+      "text": "Gerade an öffentlichen Startplätzen,"
+    },
+    {
+      "i": 371,
+      "start": 794.0,
+      "end": 796.0,
+      "text": "die jetzt auf der Bahn hochgehen,"
+    },
+    {
+      "i": 372,
+      "start": 796.0,
+      "end": 798.0,
+      "text": "hat es sehr schnell sehr viele Zuschauer."
+    },
+    {
+      "i": 373,
+      "start": 798.0,
+      "end": 800.0,
+      "text": "Diese Zuschauer sind einerseits nett,"
+    },
+    {
+      "i": 374,
+      "start": 800.0,
+      "end": 802.0,
+      "text": "dass sie unseren Sport auch zuschauen,"
+    },
+    {
+      "i": 375,
+      "start": 802.0,
+      "end": 804.0,
+      "text": "andererseits birgt es aber auch eine Gefahr."
+    },
+    {
+      "i": 376,
+      "start": 804.0,
+      "end": 806.0,
+      "text": "Sprich, sie wollen vielleicht mit euch reden,"
+    },
+    {
+      "i": 377,
+      "start": 806.0,
+      "end": 809.3,
+      "text": "sie wollen Fragen beantwortet haben"
+    },
+    {
+      "i": 378,
+      "start": 809.3,
+      "end": 811.3,
+      "text": "und das Ganze lenkt euch ab."
+    },
+    {
+      "i": 379,
+      "start": 811.3,
+      "end": 813.3,
+      "text": "Also macht es vielleicht auch Sinn,"
+    },
+    {
+      "i": 380,
+      "start": 813.3,
+      "end": 814.3,
+      "text": "einen Startplatz zu wählen,"
+    },
+    {
       "i": 381,
-      "start": 782.42,
-      "end": 783.42,
-      "text": "Und dann muss"
+      "start": 814.3,
+      "end": 815.3,
+      "text": "wo ihr ein wenig Ruhe habt."
     },
     {
       "i": 382,
-      "start": 783.42,
-      "end": 785.42,
-      "text": "dort möglichst keine Hindernisse sein."
+      "start": 815.3,
+      "end": 816.3,
+      "text": "Gerade wenn ihr ein wenig"
     },
     {
       "i": 383,
-      "start": 785.42,
-      "end": 787.42,
-      "text": "Und das ist eine wichtige"
+      "start": 816.3,
+      "end": 817.3,
+      "text": "unsicher seid,"
     },
     {
       "i": 384,
-      "start": 787.42,
-      "end": 789.42,
-      "text": "Kriterium für den Startplatz,"
+      "start": 817.3,
+      "end": 819.3,
+      "text": "ihr müsst euch noch ein wenig verinnerlichen"
     },
     {
       "i": 385,
-      "start": 789.42,
-      "end": 792.42,
-      "text": "gehört auch dazu zum Massenausammlingen,"
+      "start": 819.3,
+      "end": 820.3,
+      "text": "vom ganzen Startprozess."
     },
     {
       "i": 386,
-      "start": 792.42,
-      "end": 794.42,
-      "text": "gerade an öffentlichen Startplatz,"
+      "start": 820.3,
+      "end": 822.75,
+      "text": "Nehmt euch Zeit,"
     },
     {
       "i": 387,
-      "start": 794.42,
-      "end": 795.42,
-      "text": "wo jetzt der Bahn aufgeholt,"
+      "start": 822.75,
+      "end": 823.75,
+      "text": "arbeitet ruhig,"
     },
     {
       "i": 388,
-      "start": 795.42,
-      "end": 797.42,
-      "text": "hat sehr schnell sehr viel Zuschauer,"
+      "start": 823.75,
+      "end": 824.75,
+      "text": "nie hektisch"
     },
     {
       "i": 389,
-      "start": 797.42,
-      "end": 799.42,
-      "text": "die Zuschauer sind in einerseits"
+      "start": 824.75,
+      "end": 832.62,
+      "text": "und dann gibt es auch einen sauberen Start."
     },
     {
       "i": 390,
-      "start": 799.42,
-      "end": 800.42,
-      "text": "nett,"
+      "start": 832.62,
+      "end": 834.62,
+      "text": "Wenn ihr dann bereit seid,"
     },
     {
       "i": 391,
-      "start": 800.42,
-      "end": 801.42,
-      "text": "dass sie unser Sport dazu"
+      "start": 834.62,
+      "end": 836.64,
+      "text": "den Start anzugehen,"
     },
     {
       "i": 392,
-      "start": 801.42,
-      "end": 802.42,
-      "text": "schauen,"
+      "start": 836.64,
+      "end": 838.64,
+      "text": "ist eines unablässlich,"
     },
     {
       "i": 393,
-      "start": 802.42,
-      "end": 803.42,
-      "text": "andererseits biert es aber auch"
+      "start": 838.64,
+      "end": 840.64,
+      "text": "nämlich, dass ihr einen sauberen Check macht."
     },
     {
       "i": 394,
-      "start": 803.42,
-      "end": 804.42,
-      "text": "vor."
+      "start": 840.64,
+      "end": 841.64,
+      "text": "Und den Check,"
     },
     {
       "i": 395,
-      "start": 804.42,
-      "end": 805.42,
-      "text": "Sprich,"
+      "start": 841.64,
+      "end": 842.64,
+      "text": "das habt ihr,"
     },
     {
       "i": 396,
-      "start": 805.42,
-      "end": 806.42,
-      "text": "sie werden vielleicht"
+      "start": 842.64,
+      "end": 843.64,
+      "text": "wenn ihr schon im Übungsangst gewesen seid,"
     },
     {
       "i": 397,
-      "start": 806.42,
-      "end": 807.42,
-      "text": "mit euch reden,"
+      "start": 843.64,
+      "end": 845.64,
+      "text": "sicher schon dort gelernt,"
     },
     {
       "i": 398,
-      "start": 807.42,
-      "end": 808.46,
-      "text": "sie werden"
+      "start": 845.64,
+      "end": 847.64,
+      "text": "ist auch in der Theorie ein ganz grosses Thema"
     },
     {
       "i": 399,
-      "start": 808.46,
-      "end": 809.46,
-      "text": "Fragen beantwortet haben,"
+      "start": 847.64,
+      "end": 848.78,
+      "text": "und das sollte man"
     },
     {
       "i": 400,
-      "start": 809.46,
-      "end": 810.46,
-      "text": "und das Ganze"
+      "start": 848.78,
+      "end": 850.78,
+      "text": "immer gewissenhaft machen."
     },
     {
       "i": 401,
-      "start": 810.46,
-      "end": 811.46,
-      "text": "lenkt euch ab."
+      "start": 850.78,
+      "end": 852.78,
+      "text": "Anfangen tut das Ganze eigentlich dann,"
     },
     {
       "i": 402,
-      "start": 811.46,
-      "end": 812.46,
-      "text": "Also macht es vielleicht"
+      "start": 852.78,
+      "end": 854.78,
+      "text": "wenn das Gurtzeug am Boden liegt"
     },
     {
       "i": 403,
-      "start": 812.46,
-      "end": 813.46,
-      "text": "auch in den Startplatz,"
+      "start": 854.78,
+      "end": 855.78,
+      "text": "und du es aufnimmst und anziehst,"
     },
     {
       "i": 404,
-      "start": 813.46,
-      "end": 814.46,
-      "text": "die zwei Leute,"
+      "start": 855.78,
+      "end": 857.78,
+      "text": "weil bereits dann und nur dann"
     },
     {
       "i": 405,
-      "start": 814.46,
-      "end": 815.46,
-      "text": "die ich eine Ruhe haben,"
+      "start": 857.78,
+      "end": 858.78,
+      "text": "kannst du es sauber kontrollieren,"
     },
     {
       "i": 406,
-      "start": 815.46,
-      "end": 816.46,
-      "text": "gerade wenn ich nicht sicher"
+      "start": 858.78,
+      "end": 862.78,
+      "text": "ist dein Notschirmgriff sauber im Gurtzug drin."
     },
     {
       "i": 407,
-      "start": 816.46,
-      "end": 817.46,
-      "text": "sind,"
+      "start": 862.78,
+      "end": 863.78,
+      "text": "Sind also die zwei Splinten,"
     },
     {
       "i": 408,
-      "start": 817.46,
-      "end": 818.46,
-      "text": "die euch noch ein wenig verinnern,"
+      "start": 863.78,
+      "end": 864.78,
+      "text": "aber die meisten sind es zwei,"
     },
     {
       "i": 409,
-      "start": 818.46,
-      "end": 820.46,
-      "text": "vom ganzen Startplatz,"
+      "start": 864.78,
+      "end": 866.78,
+      "text": "es gibt auch Gurtzüge, die nur einen haben,"
     },
     {
       "i": 410,
-      "start": 820.46,
-      "end": 822.65,
-      "text": "nehmen wir durch Zeit,"
+      "start": 866.78,
+      "end": 868.78,
+      "text": "ist der Splint wirklich auch noch so drin,"
     },
     {
       "i": 411,
-      "start": 822.65,
-      "end": 823.65,
-      "text": "schaffen die Krue,"
-    },
-    {
-      "i": 412,
-      "start": 823.65,
-      "end": 824.65,
-      "text": "nie hektisch,"
-    },
-    {
-      "i": 413,
-      "start": 824.65,
-      "end": 825.65,
-      "text": "und dann"
-    },
-    {
-      "i": 414,
-      "start": 826.65,
-      "end": 832.3,
-      "text": "gibt es auch ein super Start."
-    },
-    {
-      "i": 415,
-      "start": 832.3,
-      "end": 834.3,
-      "text": "Wenn den Barat sind,"
-    },
-    {
-      "i": 416,
-      "start": 834.3,
-      "end": 836.3,
-      "text": "um den Start anzugehen,"
-    },
-    {
-      "i": 417,
-      "start": 836.3,
-      "end": 838.3,
-      "text": "ist eins unablässlich,"
-    },
-    {
-      "i": 418,
-      "start": 838.3,
-      "end": 839.3,
-      "text": "nämlich, dass wir einen super"
-    },
-    {
-      "i": 419,
-      "start": 839.3,
-      "end": 840.3,
-      "text": "Jet machen."
-    },
-    {
-      "i": 420,
-      "start": 840.3,
-      "end": 841.3,
-      "text": "Und den Jet,"
-    },
-    {
-      "i": 421,
-      "start": 841.3,
-      "end": 842.3,
-      "text": "das haben wir,"
-    },
-    {
-      "i": 422,
-      "start": 842.3,
-      "end": 843.3,
-      "text": "wenn er schon nie begesangt sind,"
-    },
-    {
-      "i": 423,
-      "start": 843.3,
-      "end": 844.3,
-      "text": "ist sicher,"
-    },
-    {
-      "i": 424,
-      "start": 844.3,
-      "end": 845.3,
-      "text": "schon dort zu lernt,"
-    },
-    {
-      "i": 425,
-      "start": 845.3,
-      "end": 846.3,
-      "text": "ist auch in den Torei"
-    },
-    {
-      "i": 426,
-      "start": 846.3,
-      "end": 847.3,
-      "text": "ganz ein grosses Thema,"
-    },
-    {
-      "i": 427,
-      "start": 847.3,
-      "end": 848.3,
-      "text": "und sieht man"
-    },
-    {
-      "i": 428,
-      "start": 848.3,
-      "end": 850.3,
-      "text": "immer gewissen Haft machen."
-    },
-    {
-      "i": 429,
-      "start": 850.3,
-      "end": 852.3,
-      "text": "Auffangen wir durch das Ganze,"
-    },
-    {
-      "i": 430,
-      "start": 852.3,
-      "end": 853.3,
-      "text": "eigentlich den,"
-    },
-    {
-      "i": 431,
-      "start": 853.3,
-      "end": 854.3,
-      "text": "wenn das Kurzüge am Boden legst,"
-    },
-    {
-      "i": 432,
-      "start": 854.3,
-      "end": 855.3,
-      "text": "uns aufnehmen,"
-    },
-    {
-      "i": 433,
-      "start": 855.3,
-      "end": 856.3,
-      "text": "uns anziehen ist,"
-    },
-    {
-      "i": 434,
-      "start": 856.3,
-      "end": 857.3,
-      "text": "wie bereits den"
-    },
-    {
-      "i": 435,
-      "start": 857.3,
-      "end": 858.3,
-      "text": "und nun den,"
-    },
-    {
-      "i": 436,
-      "start": 858.3,
-      "end": 859.3,
-      "text": "das Superkontrollieren"
-    },
-    {
-      "i": 437,
-      "start": 859.3,
-      "end": 860.3,
-      "text": "ist,"
-    },
-    {
-      "i": 438,
-      "start": 860.3,
-      "end": 861.3,
-      "text": "den Notschirmgeriff"
-    },
-    {
-      "i": 439,
-      "start": 861.3,
-      "end": 862.3,
-      "text": "super im Kurzüge innen,"
-    },
-    {
-      "i": 440,
-      "start": 862.3,
-      "end": 864.3,
-      "text": "sind das in die zwei Splinten,"
-    },
-    {
-      "i": 441,
-      "start": 864.3,
-      "end": 865.3,
-      "text": "ob in den meisten sind,"
-    },
-    {
-      "i": 442,
-      "start": 865.3,
-      "end": 866.3,
-      "text": "die zwei,"
-    },
-    {
-      "i": 443,
-      "start": 866.3,
-      "end": 867.3,
-      "text": "sie gehen noch rein,"
-    },
-    {
-      "i": 444,
-      "start": 867.3,
-      "end": 868.3,
-      "text": "ist das Splinten wirklich"
-    },
-    {
-      "i": 445,
-      "start": 868.3,
-      "end": 869.3,
-      "text": "."
-    },
-    {
-      "i": 446,
-      "start": 869.3,
-      "end": 870.3,
-      "text": "So drin,"
-    },
-    {
-      "i": 447,
-      "start": 870.3,
-      "end": 871.3,
+      "start": 868.78,
+      "end": 869.78,
       "text": "wie es ist,"
     },
     {
-      "i": 448,
-      "start": 871.3,
-      "end": 872.3,
-      "text": "ist der Griff super traurig,"
+      "i": 412,
+      "start": 869.78,
+      "end": 870.78,
+      "text": "ist der Griff sauber dran,"
     },
     {
-      "i": 449,
-      "start": 872.3,
-      "end": 873.3,
-      "text": "sieht dann in den Gretchen,"
+      "i": 413,
+      "start": 870.78,
+      "end": 871.78,
+      "text": "sieht dort nicht irgendetwas aus,"
     },
     {
-      "i": 450,
-      "start": 873.3,
-      "end": 874.3,
-      "text": "etwas aus,"
+      "i": 414,
+      "start": 871.78,
+      "end": 873.78,
+      "text": "ob etwas nicht passt"
     },
     {
-      "i": 451,
-      "start": 874.3,
-      "end": 875.3,
-      "text": "etwas nicht passt,"
+      "i": 415,
+      "start": 873.78,
+      "end": 874.78,
+      "text": "und das kannst du machen,"
     },
     {
-      "i": 452,
-      "start": 875.3,
-      "end": 876.3,
-      "text": "und das kann es machen,"
+      "i": 416,
+      "start": 874.78,
+      "end": 875.78,
+      "text": "wenn du das Gurtzeug aufnimmst,"
     },
     {
-      "i": 453,
-      "start": 876.3,
-      "end": 877.3,
-      "text": "wenn das Kurzüge aufnimmt,"
+      "i": 417,
+      "start": 875.78,
+      "end": 877.78,
+      "text": "schaust zuerst den Notschirm an"
     },
     {
-      "i": 454,
-      "start": 877.3,
-      "end": 878.3,
-      "text": "durch die ersten Notschirmage"
+      "i": 418,
+      "start": 877.78,
+      "end": 879.78,
+      "text": "und dann legst du es an."
     },
     {
-      "i": 455,
-      "start": 878.3,
-      "end": 879.3,
-      "text": "und den legst es an."
+      "i": 419,
+      "start": 879.78,
+      "end": 881.78,
+      "text": "Und dann für den 5-Punkte-Check"
     },
     {
-      "i": 456,
-      "start": 879.3,
-      "end": 881.3,
-      "text": "Und den für den 5 Punkte Jet"
+      "i": 420,
+      "start": 881.78,
+      "end": 882.78,
+      "text": "ist es am einfachsten,"
     },
     {
-      "i": 457,
-      "start": 881.3,
-      "end": 882.3,
-      "text": "ist am Eifachstab"
+      "i": 421,
+      "start": 882.78,
+      "end": 884.78,
+      "text": "beim Körper anzufangen."
     },
     {
-      "i": 458,
-      "start": 882.3,
-      "end": 883.3,
-      "text": "im Körper"
+      "i": 422,
+      "start": 884.78,
+      "end": 886.78,
+      "text": "Wir gehen von innen nach draussen."
     },
     {
-      "i": 459,
-      "start": 883.3,
-      "end": 884.3,
-      "text": "anzufangen,"
+      "i": 423,
+      "start": 886.78,
+      "end": 887.86,
+      "text": "Nämlich,"
     },
     {
-      "i": 460,
-      "start": 884.3,
-      "end": 885.3,
-      "text": "wir gehen von innen"
+      "i": 424,
+      "start": 887.86,
+      "end": 889.88,
+      "text": "der Notschirm bereits kontrolliert,"
     },
     {
-      "i": 461,
-      "start": 885.3,
-      "end": 886.3,
-      "text": "nach Hause,"
-    },
-    {
-      "i": 462,
-      "start": 886.3,
-      "end": 887.3,
-      "text": "nämlich"
-    },
-    {
-      "i": 463,
-      "start": 887.3,
-      "end": 889.3,
-      "text": "den Notschirm bereits"
-    },
-    {
-      "i": 464,
-      "start": 889.3,
-      "end": 890.3,
-      "text": "kontrolliert,"
-    },
-    {
-      "i": 465,
-      "start": 890.3,
-      "end": 891.3,
+      "i": 425,
+      "start": 889.88,
+      "end": 890.88,
       "text": "gehen wir dann weiter"
     },
     {
-      "i": 466,
-      "start": 891.3,
-      "end": 892.3,
-      "text": "zu allen,"
+      "i": 426,
+      "start": 890.88,
+      "end": 892.88,
+      "text": "zu allen unseren Schnallen."
     },
     {
-      "i": 467,
-      "start": 892.3,
-      "end": 893.3,
-      "text": "unser Schnellen,"
+      "i": 427,
+      "start": 892.88,
+      "end": 894.88,
+      "text": "Sind die geschlossen und gesichert?"
     },
     {
-      "i": 468,
-      "start": 893.3,
-      "end": 894.3,
-      "text": "sind die geschlossen"
+      "i": 428,
+      "start": 894.88,
+      "end": 896.88,
+      "text": "Da gehören wegen mir die Schuhbänder dabei,"
     },
     {
-      "i": 469,
-      "start": 894.3,
-      "end": 895.3,
-      "text": "und gesichert."
+      "i": 429,
+      "start": 896.88,
+      "end": 897.88,
+      "text": "da gehören wegen mir"
     },
     {
-      "i": 470,
-      "start": 895.3,
-      "end": 896.3,
-      "text": "Da gehören wir"
+      "i": 430,
+      "start": 897.88,
+      "end": 899.88,
+      "text": "auch die Helmschleusen dazu."
     },
     {
-      "i": 471,
-      "start": 896.3,
-      "end": 897.3,
-      "text": "die Schuhabendeln bei,"
-    },
-    {
-      "i": 472,
-      "start": 897.3,
-      "end": 898.3,
-      "text": "da gehören wir"
-    },
-    {
-      "i": 473,
-      "start": 898.3,
-      "end": 900.3,
-      "text": "auch die Helmschlüsse dazu."
-    },
-    {
-      "i": 474,
-      "start": 900.3,
-      "end": 901.3,
+      "i": 431,
+      "start": 899.88,
+      "end": 900.88,
       "text": "Wichtig ist einfach,"
     },
     {
-      "i": 475,
-      "start": 901.3,
-      "end": 902.3,
-      "text": "dass alle Schnellen"
+      "i": 432,
+      "start": 900.88,
+      "end": 901.88,
+      "text": "dass alle Schnallen"
     },
     {
-      "i": 476,
-      "start": 902.3,
-      "end": 904.55,
-      "text": "schliessen und gesichert haben."
+      "i": 433,
+      "start": 901.88,
+      "end": 904.5,
+      "text": "gesichert und gesichert sind."
     },
     {
-      "i": 477,
-      "start": 904.55,
-      "end": 905.55,
-      "text": "Punkt 1,"
+      "i": 434,
+      "start": 904.5,
+      "end": 905.5,
+      "text": "Punkt 1."
     },
     {
-      "i": 478,
-      "start": 905.55,
-      "end": 906.55,
-      "text": "Punkt 2,"
+      "i": 435,
+      "start": 905.5,
+      "end": 906.5,
+      "text": "Punkt 2."
     },
     {
-      "i": 479,
-      "start": 906.55,
-      "end": 907.55,
-      "text": "gehen wir weiter"
+      "i": 436,
+      "start": 906.5,
+      "end": 907.5,
+      "text": "Gehen wir dann weiter"
     },
     {
-      "i": 480,
-      "start": 907.55,
-      "end": 908.55,
-      "text": "von uns,"
+      "i": 437,
+      "start": 907.5,
+      "end": 908.5,
+      "text": "von uns nach draussen,"
     },
     {
-      "i": 481,
-      "start": 908.55,
-      "end": 909.55,
-      "text": "nach außen,"
+      "i": 438,
+      "start": 908.5,
+      "end": 910.5,
+      "text": "nämlich zu der Traggurte."
     },
     {
-      "i": 482,
-      "start": 909.55,
-      "end": 910.55,
-      "text": "nämlich zu den Tragurten,"
+      "i": 439,
+      "start": 910.5,
+      "end": 911.5,
+      "text": "Sind die nicht vertreibt?"
     },
     {
-      "i": 483,
-      "start": 910.55,
-      "end": 911.55,
-      "text": "sind die nicht vertreibt"
+      "i": 440,
+      "start": 911.5,
+      "end": 913.5,
+      "text": "Und laufen unsere Leinen,"
     },
     {
-      "i": 484,
-      "start": 911.55,
-      "end": 912.55,
-      "text": "und laufen"
+      "i": 441,
+      "start": 913.5,
+      "end": 914.5,
+      "text": "die zum Schirm gehen,"
     },
     {
-      "i": 485,
-      "start": 912.55,
-      "end": 913.55,
-      "text": "für diese Läne,"
+      "i": 442,
+      "start": 914.5,
+      "end": 915.65,
+      "text": "wunschgemäss?"
     },
     {
-      "i": 486,
-      "start": 913.55,
-      "end": 914.55,
-      "text": "die zum Schirm gehen."
+      "i": 443,
+      "start": 915.65,
+      "end": 916.65,
+      "text": "Also sprich,"
     },
     {
-      "i": 487,
-      "start": 914.55,
-      "end": 915.55,
-      "text": "Wunsch gemessen,"
+      "i": 444,
+      "start": 916.65,
+      "end": 917.65,
+      "text": "haben wir die so sortiert,"
     },
     {
-      "i": 488,
-      "start": 915.55,
-      "end": 916.55,
-      "text": "also sprich,"
+      "i": 445,
+      "start": 917.65,
+      "end": 918.65,
+      "text": "ist dort kein Knopf drin,"
     },
     {
-      "i": 489,
-      "start": 916.55,
-      "end": 917.55,
-      "text": "wir haben hier sortiert,"
+      "i": 446,
+      "start": 918.65,
+      "end": 919.65,
+      "text": "liegen sie so,"
     },
     {
-      "i": 490,
-      "start": 917.55,
-      "end": 918.55,
-      "text": "die Stöcke"
+      "i": 447,
+      "start": 919.65,
+      "end": 920.65,
+      "text": "wie wir das auch wollen?"
     },
     {
-      "i": 491,
-      "start": 918.55,
-      "end": 919.55,
-      "text": "nach den Knopfdiensten,"
+      "i": 448,
+      "start": 920.65,
+      "end": 922.65,
+      "text": "Und dann kommen wir zu Punkt 3."
     },
     {
-      "i": 492,
-      "start": 919.55,
-      "end": 920.55,
-      "text": "liegen hier,"
+      "i": 449,
+      "start": 922.65,
+      "end": 924.65,
+      "text": "Liegt der Schirm wunschgemäss?"
     },
     {
-      "i": 493,
-      "start": 920.55,
-      "end": 921.55,
-      "text": "wie mit dem Alband,"
+      "i": 450,
+      "start": 924.65,
+      "end": 925.65,
+      "text": "Also auch so,"
     },
     {
-      "i": 494,
-      "start": 921.55,
-      "end": 923.55,
-      "text": "und da haben wir zum Punkt 3,"
+      "i": 451,
+      "start": 925.65,
+      "end": 926.65,
+      "text": "wie wir es wollen?"
     },
     {
-      "i": 495,
-      "start": 923.55,
-      "end": 924.55,
-      "text": "liegt das Schirmwunsch gemessen,"
+      "i": 452,
+      "start": 926.65,
+      "end": 927.65,
+      "text": "Ist er schön offen"
     },
     {
-      "i": 496,
-      "start": 924.55,
-      "end": 925.55,
-      "text": "also,"
+      "i": 453,
+      "start": 927.65,
+      "end": 929.65,
+      "text": "und schön im Wind ausgerichtet?"
     },
     {
-      "i": 497,
-      "start": 925.55,
-      "end": 926.55,
-      "text": "so wie wir wendens,"
+      "i": 454,
+      "start": 929.65,
+      "end": 930.65,
+      "text": "Und Punkt 4."
     },
     {
-      "i": 498,
-      "start": 926.55,
-      "end": 927.55,
-      "text": "ist das schön offen"
+      "i": 455,
+      "start": 930.65,
+      "end": 932.65,
+      "text": "Gehen wir dann zur Windrichtung"
     },
     {
-      "i": 499,
-      "start": 927.55,
-      "end": 929.55,
-      "text": "und schön im Wind ausgerichtet."
+      "i": 456,
+      "start": 932.65,
+      "end": 933.65,
+      "text": "und wichtig als Stärke."
     },
     {
-      "i": 500,
-      "start": 929.55,
-      "end": 930.55,
-      "text": "Und Punkt 4,"
+      "i": 457,
+      "start": 933.65,
+      "end": 934.65,
+      "text": "Es nützt nichts,"
     },
     {
-      "i": 501,
-      "start": 930.55,
-      "end": 931.55,
-      "text": "gehen wir nach"
+      "i": 458,
+      "start": 934.65,
+      "end": 936.65,
+      "text": "wenn wir die Windrichtung richtig haben,"
     },
     {
-      "i": 502,
-      "start": 931.55,
-      "end": 932.55,
-      "text": "der Windrichtung,"
+      "i": 459,
+      "start": 936.65,
+      "end": 938.65,
+      "text": "aber einen 50er Hangaufwind haben"
     },
     {
-      "i": 503,
-      "start": 932.55,
-      "end": 933.55,
-      "text": "und wichtig,"
+      "i": 460,
+      "start": 938.65,
+      "end": 940.65,
+      "text": "oder einen 20er Rückenwind."
     },
     {
-      "i": 504,
-      "start": 933.55,
-      "end": 934.55,
-      "text": "als Stärke ist nichts,"
+      "i": 461,
+      "start": 940.65,
+      "end": 943.65,
+      "text": "Dann ist die Stärke sicher nicht die richtige."
     },
     {
-      "i": 505,
-      "start": 934.55,
-      "end": 935.55,
-      "text": "wir haben nicht die Wände"
+      "i": 462,
+      "start": 943.65,
+      "end": 946.46,
+      "text": "Und dann Punkt 5."
     },
     {
-      "i": 506,
-      "start": 935.55,
-      "end": 936.55,
-      "text": "die richtige Richtung,"
+      "i": 463,
+      "start": 946.46,
+      "end": 950.51,
+      "text": "Ist die Startbahn und Luftraum frei?"
     },
     {
-      "i": 507,
-      "start": 936.55,
-      "end": 938.55,
-      "text": "aber in 50er Hand auf Wind haben,"
+      "i": 464,
+      "start": 950.51,
+      "end": 953.14,
+      "text": "Dafür immer noch mal schnell raufschauen."
     },
     {
-      "i": 508,
-      "start": 938.55,
-      "end": 940.55,
-      "text": "oder in 20er-Ruck gewinnen,"
+      "i": 465,
+      "start": 953.14,
+      "end": 954.14,
+      "text": "Jawohl,"
     },
     {
-      "i": 509,
-      "start": 940.55,
-      "end": 941.55,
-      "text": "dann ist es mit Stärke"
+      "i": 466,
+      "start": 954.14,
+      "end": 955.14,
+      "text": "es sind keine vorbeifliegenden"
     },
     {
-      "i": 510,
-      "start": 941.55,
-      "end": 943.55,
-      "text": "sicher nicht die richtige."
+      "i": 467,
+      "start": 955.14,
+      "end": 956.14,
+      "text": "anderen Piloten rum."
     },
     {
-      "i": 511,
-      "start": 943.55,
-      "end": 946.03,
-      "text": "Und den Punkt 5"
-    },
-    {
-      "i": 512,
-      "start": 946.03,
-      "end": 948.03,
-      "text": "ist die Startbahn"
-    },
-    {
-      "i": 513,
-      "start": 948.03,
-      "end": 949.03,
-      "text": "und"
-    },
-    {
-      "i": 514,
-      "start": 949.03,
-      "end": 951.26,
-      "text": "läuft darum frei."
-    },
-    {
-      "i": 515,
-      "start": 951.26,
-      "end": 952.26,
-      "text": "Für das,"
-    },
-    {
-      "i": 516,
-      "start": 952.26,
-      "end": 953.26,
-      "text": "immer noch mal schnell,"
-    },
-    {
-      "i": 517,
-      "start": 953.26,
-      "end": 954.26,
-      "text": "auf der Lüge,"
-    },
-    {
-      "i": 518,
-      "start": 954.26,
-      "end": 955.26,
-      "text": "ja,"
-    },
-    {
-      "i": 519,
-      "start": 955.26,
-      "end": 956.26,
-      "text": "ist keine verbeiflegenden andere Pilotungen."
-    },
-    {
-      "i": 520,
-      "start": 956.26,
-      "end": 958.26,
+      "i": 468,
+      "start": 956.14,
+      "end": 958.14,
       "text": "Und auch die Startbahn"
     },
     {
-      "i": 521,
-      "start": 958.26,
-      "end": 960.26,
-      "text": "ist hier wirklich frei."
+      "i": 469,
+      "start": 958.14,
+      "end": 960.14,
+      "text": "ist wirklich frei."
     },
     {
-      "i": 522,
-      "start": 960.26,
-      "end": 961.26,
-      "text": "Hätselnige,"
+      "i": 470,
+      "start": 960.14,
+      "end": 961.14,
+      "text": "Hat es nicht irgendwelche Kinder"
     },
     {
-      "i": 523,
-      "start": 961.26,
-      "end": 962.26,
-      "text": "welche Kinder"
+      "i": 471,
+      "start": 961.14,
+      "end": 962.14,
+      "text": "oder Tiere rum,"
     },
     {
-      "i": 524,
-      "start": 962.26,
-      "end": 963.26,
-      "text": "oder die Tiere,"
+      "i": 472,
+      "start": 962.14,
+      "end": 963.14,
+      "text": "die plötzlich könnten"
     },
     {
-      "i": 525,
-      "start": 963.26,
-      "end": 964.26,
-      "text": "die plötzlich könnten,"
+      "i": 473,
+      "start": 963.14,
+      "end": 965.14,
+      "text": "noch während des Startprozeders"
     },
     {
-      "i": 526,
-      "start": 964.26,
-      "end": 965.26,
-      "text": "noch während der Startprozeder"
+      "i": 474,
+      "start": 965.14,
+      "end": 967.14,
+      "text": "in eure Startbahn hineinlaufen?"
     },
     {
-      "i": 527,
-      "start": 965.26,
-      "end": 967.26,
-      "text": "ihre Startbahn in der Laufen."
-    },
-    {
-      "i": 528,
-      "start": 967.26,
-      "end": 968.26,
+      "i": 475,
+      "start": 967.14,
+      "end": 968.14,
       "text": "Wenn das der Fall ist,"
     },
     {
-      "i": 529,
-      "start": 968.26,
-      "end": 970.26,
-      "text": "dann wartet die Liebeschicken,"
+      "i": 476,
+      "start": 968.14,
+      "end": 969.14,
+      "text": "dann wartet lieber,"
     },
     {
-      "i": 530,
-      "start": 970.26,
-      "end": 971.26,
-      "text": "die Kinder weg,"
+      "i": 477,
+      "start": 969.14,
+      "end": 971.14,
+      "text": "schickt die Kinder weg,"
     },
     {
-      "i": 531,
-      "start": 971.26,
-      "end": 973.26,
-      "text": "warten bis die Tiere vorübergefallen,"
+      "i": 478,
+      "start": 971.14,
+      "end": 972.14,
+      "text": "wartet,"
     },
     {
-      "i": 532,
-      "start": 973.26,
-      "end": 974.26,
-      "text": "ist die Hunde,"
+      "i": 479,
+      "start": 972.14,
+      "end": 974.14,
+      "text": "wenn die Kuh noch etwas grasen will"
     },
     {
-      "i": 533,
-      "start": 974.26,
-      "end": 975.26,
-      "text": "die Grasen"
+      "i": 480,
+      "start": 974.14,
+      "end": 976.14,
+      "text": "und startet erst dann."
     },
     {
-      "i": 534,
-      "start": 975.26,
-      "end": 977.26,
-      "text": "und starten erst."
+      "i": 481,
+      "start": 976.14,
+      "end": 978.14,
+      "text": "Ich kann mir vorstellen,"
     },
     {
-      "i": 535,
-      "start": 977.26,
-      "end": 978.26,
-      "text": "Ich könnte vorstellen,"
+      "i": 482,
+      "start": 978.14,
+      "end": 979.14,
+      "text": "wenn ihr mit eurer Masse,"
     },
     {
-      "i": 536,
-      "start": 978.26,
-      "end": 979.26,
-      "text": "wenn wir mit einer Massen"
-    },
-    {
-      "i": 537,
-      "start": 979.26,
-      "end": 980.26,
+      "i": 483,
+      "start": 979.14,
+      "end": 980.14,
       "text": "sagen wir mal,"
     },
     {
-      "i": 538,
-      "start": 980.26,
-      "end": 981.26,
-      "text": "ich bin 80 kg,"
+      "i": 484,
+      "start": 980.14,
+      "end": 981.14,
+      "text": "ich bin 80 Kilo"
     },
     {
-      "i": 539,
-      "start": 981.26,
-      "end": 982.26,
-      "text": "mit dem Kleidschirm"
+      "i": 485,
+      "start": 981.14,
+      "end": 983.14,
+      "text": "mit dem Gleitschirm und allem drum und dran,"
     },
     {
-      "i": 540,
-      "start": 982.26,
-      "end": 983.26,
-      "text": "und allem drum,"
+      "i": 486,
+      "start": 983.14,
+      "end": 984.14,
+      "text": "bin ich schnell mal 100 Kilo"
     },
     {
-      "i": 541,
-      "start": 983.26,
-      "end": 984.26,
-      "text": "dann bin ich noch mal 100 kg."
+      "i": 487,
+      "start": 984.14,
+      "end": 986.14,
+      "text": "und ich beschleunige auf 20 kmh,"
     },
     {
-      "i": 542,
-      "start": 984.26,
-      "end": 985.26,
-      "text": "Und ich,"
+      "i": 488,
+      "start": 986.14,
+      "end": 988.14,
+      "text": "dann ist das eine kinetische Energie,"
     },
     {
-      "i": 543,
-      "start": 985.26,
-      "end": 986.26,
-      "text": "du auf 20 km haben,"
+      "i": 489,
+      "start": 988.14,
+      "end": 989.14,
+      "text": "die für denjenigen,"
     },
     {
-      "i": 544,
-      "start": 986.26,
-      "end": 988.26,
-      "text": "ist das eine klinitische Energie,"
+      "i": 490,
+      "start": 989.14,
+      "end": 990.14,
+      "text": "den ich treffen würde,"
     },
     {
-      "i": 545,
-      "start": 988.26,
-      "end": 989.26,
-      "text": "die für diejenigen,"
+      "i": 491,
+      "start": 990.14,
+      "end": 992.14,
+      "text": "sehr schnell richtig gefährlich werden kann."
     },
     {
-      "i": 546,
-      "start": 989.26,
-      "end": 990.26,
-      "text": "die ich treffen würde,"
+      "i": 492,
+      "start": 992.14,
+      "end": 996.59,
+      "text": "Wenn wir einen Rückwärtsstart machen,"
     },
     {
-      "i": 547,
-      "start": 990.26,
-      "end": 991.26,
-      "text": "sehr schnell"
+      "i": 493,
+      "start": 996.59,
+      "end": 997.59,
+      "text": "wir haben also einen guten Wind,"
     },
     {
-      "i": 548,
-      "start": 991.26,
-      "end": 994.34,
-      "text": "richtig gefährlicher werden."
+      "i": 494,
+      "start": 997.59,
+      "end": 999.59,
+      "text": "wir können tiptop Rückwärtsstart machen,"
     },
     {
-      "i": 549,
-      "start": 994.34,
-      "end": 995.34,
-      "text": "Wichtig,"
+      "i": 495,
+      "start": 999.59,
+      "end": 1002.59,
+      "text": "dann drehen wir uns nach einem 5-Punkte-Check um"
     },
     {
-      "i": 550,
-      "start": 995.34,
-      "end": 997.34,
-      "text": "wenn wir einen Ruck-Wett-Start machen,"
+      "i": 496,
+      "start": 1002.59,
+      "end": 1004.8,
+      "text": "zum Schirm."
     },
     {
-      "i": 551,
-      "start": 997.34,
-      "end": 998.34,
-      "text": "wir haben das einen guten Wind,"
+      "i": 497,
+      "start": 1004.8,
+      "end": 1006.8,
+      "text": "Jetzt von Punkt 1 bis 4"
     },
     {
-      "i": 552,
-      "start": 998.34,
-      "end": 1000.34,
-      "text": "wir können die drück-Wett-Start machen,"
+      "i": 498,
+      "start": 1006.8,
+      "end": 1007.8,
+      "text": "ändert sich nicht mehr viel,"
     },
     {
-      "i": 553,
-      "start": 1000.34,
-      "end": 1001.34,
-      "text": "dann drehen im Rüsio"
+      "i": 499,
+      "start": 1007.8,
+      "end": 1008.8,
+      "text": "aber was sich wieder ändern kann,"
     },
     {
-      "i": 554,
-      "start": 1001.34,
-      "end": 1003.34,
-      "text": "nach dem 5-Punkte-Check um,"
-    },
-    {
-      "i": 555,
-      "start": 1003.34,
-      "end": 1004.44,
-      "text": "zum Schirm,"
-    },
-    {
-      "i": 556,
-      "start": 1004.44,
-      "end": 1006.44,
-      "text": "jetzt von Punkt 1 bis 4,"
-    },
-    {
-      "i": 557,
-      "start": 1006.44,
-      "end": 1007.44,
-      "text": "du hast sich nicht viel ändern,"
-    },
-    {
-      "i": 558,
-      "start": 1007.44,
-      "end": 1008.44,
-      "text": "aber was ich wieder kannte,"
-    },
-    {
-      "i": 559,
-      "start": 1008.44,
-      "end": 1009.44,
+      "i": 500,
+      "start": 1008.8,
+      "end": 1009.8,
       "text": "ist nämlich,"
     },
     {
-      "i": 560,
-      "start": 1009.44,
-      "end": 1010.44,
-      "text": "dass Startbahn,"
+      "i": 501,
+      "start": 1009.8,
+      "end": 1010.8,
+      "text": "dass die Startbahn,"
     },
     {
-      "i": 561,
-      "start": 1010.44,
-      "end": 1011.44,
-      "text": "da ist bei der Luftau,"
+      "i": 502,
+      "start": 1010.8,
+      "end": 1011.8,
+      "text": "zum Beispiel der Luftraum,"
     },
     {
-      "i": 562,
-      "start": 1011.44,
-      "end": 1012.44,
-      "text": "und einem freie Strom,"
+      "i": 503,
+      "start": 1011.8,
+      "end": 1012.8,
+      "text": "nicht mehr frei ist."
     },
     {
-      "i": 563,
-      "start": 1012.44,
-      "end": 1013.44,
-      "text": "unmittelbar,"
+      "i": 504,
+      "start": 1012.8,
+      "end": 1014.8,
+      "text": "Darum unmittelbar vor dem Rückwärtsstart"
     },
     {
-      "i": 564,
-      "start": 1013.44,
-      "end": 1014.44,
-      "text": "vor dem Ruck-Wett-Start,"
+      "i": 505,
+      "start": 1014.8,
+      "end": 1017.8,
+      "text": "Punkt 5 nochmals sauber wiederholen."
     },
     {
-      "i": 565,
-      "start": 1014.44,
-      "end": 1015.44,
-      "text": "Punkt 5,"
+      "i": 506,
+      "start": 1017.8,
+      "end": 1023.83,
+      "text": "Danach gehen wir langsam ans Starten"
     },
     {
-      "i": 566,
-      "start": 1015.44,
-      "end": 1016.44,
-      "text": "normal,"
+      "i": 507,
+      "start": 1023.83,
+      "end": 1025.83,
+      "text": "und ihr habt recht schon gehört,"
     },
     {
-      "i": 567,
-      "start": 1016.44,
-      "end": 1019.18,
-      "text": "super wiederholen."
+      "i": 508,
+      "start": 1025.83,
+      "end": 1028.83,
+      "text": "das heisst der sogenannte 3-Phase-Start."
     },
     {
-      "i": 568,
-      "start": 1019.18,
-      "end": 1021.18,
-      "text": "Nachher gehen wir langsam"
+      "i": 509,
+      "start": 1028.83,
+      "end": 1031.83,
+      "text": "Und zwar fangen wir an mit der Aufziehphase,"
     },
     {
-      "i": 569,
-      "start": 1021.18,
-      "end": 1022.18,
-      "text": "aus"
+      "i": 510,
+      "start": 1031.83,
+      "end": 1033.83,
+      "text": "danach kommt die Kontrolle"
     },
     {
-      "i": 570,
-      "start": 1022.18,
-      "end": 1024.3,
-      "text": "Starten,"
+      "i": 511,
+      "start": 1033.83,
+      "end": 1035.83,
+      "text": "und die Korrekturphase"
     },
     {
-      "i": 571,
-      "start": 1024.3,
-      "end": 1025.3,
-      "text": "und ich habe"
+      "i": 512,
+      "start": 1035.83,
+      "end": 1037.83,
+      "text": "und dann kommt die Beschleunigungsphase."
     },
     {
-      "i": 572,
-      "start": 1025.3,
-      "end": 1026.3,
-      "text": "richtig gehört,"
+      "i": 513,
+      "start": 1037.83,
+      "end": 1039.83,
+      "text": "Und dort ist es ganz wichtig,"
     },
     {
-      "i": 573,
-      "start": 1026.3,
-      "end": 1027.3,
-      "text": "das heisst,"
+      "i": 514,
+      "start": 1039.83,
+      "end": 1041.83,
+      "text": "dass wir das auch in diesen 3 Schritten überlegen."
     },
     {
-      "i": 574,
-      "start": 1027.3,
-      "end": 1029.3,
-      "text": "der drück-Wase-Start."
+      "i": 515,
+      "start": 1041.83,
+      "end": 1043.83,
+      "text": "Viele Piloten gehen am Startplatz"
     },
     {
-      "i": 575,
-      "start": 1029.3,
-      "end": 1030.3,
-      "text": "Und zwar von mir,"
+      "i": 516,
+      "start": 1043.83,
+      "end": 1045.83,
+      "text": "schon viel zu weit mit dem Kopf,"
     },
     {
-      "i": 576,
-      "start": 1030.3,
-      "end": 1032.3,
-      "text": "auch mit auf die Fase,"
+      "i": 517,
+      "start": 1045.83,
+      "end": 1046.83,
+      "text": "die sind schon in der Luft"
     },
     {
-      "i": 577,
-      "start": 1032.3,
-      "end": 1033.3,
-      "text": "nachher kommt"
+      "i": 518,
+      "start": 1046.83,
+      "end": 1047.83,
+      "text": "oder schon am Beschleunigen."
     },
     {
-      "i": 578,
-      "start": 1033.3,
-      "end": 1036.3,
-      "text": "die Kontroll- und Korrektur-Fase"
+      "i": 519,
+      "start": 1047.83,
+      "end": 1048.83,
+      "text": "Statt einfach zu sagen,"
     },
     {
-      "i": 579,
-      "start": 1036.3,
-      "end": 1038.3,
-      "text": "und dann kommt die Beschleunigungsfase."
+      "i": 520,
+      "start": 1048.83,
+      "end": 1051.83,
+      "text": "zuerst mache ich jetzt mal Punkt 1 und Punkt 2 sauber,"
     },
     {
-      "i": 580,
-      "start": 1038.3,
-      "end": 1040.3,
-      "text": "Und da ist ganz wichtig,"
+      "i": 521,
+      "start": 1051.83,
+      "end": 1052.83,
+      "text": "nämlich aufziehen,"
     },
     {
-      "i": 581,
-      "start": 1040.3,
-      "end": 1042.3,
-      "text": "dass wir das auch in den drei Schritte überlegt,"
+      "i": 522,
+      "start": 1052.83,
+      "end": 1054.83,
+      "text": "Kontrolle und Korrektur"
     },
     {
-      "i": 582,
-      "start": 1042.3,
-      "end": 1043.3,
-      "text": "viel Piloten,"
+      "i": 523,
+      "start": 1054.83,
+      "end": 1056.83,
+      "text": "und dann entscheide ich mich,"
     },
     {
-      "i": 583,
-      "start": 1043.3,
-      "end": 1044.3,
-      "text": "am Startplatz,"
+      "i": 524,
+      "start": 1056.83,
+      "end": 1058.83,
+      "text": "passt alles so wie ich will,"
     },
     {
-      "i": 584,
-      "start": 1044.3,
-      "end": 1045.3,
-      "text": "viel zu weit mit dem Kopf,"
+      "i": 525,
+      "start": 1058.83,
+      "end": 1059.83,
+      "text": "fühle mich sicher,"
     },
     {
-      "i": 585,
-      "start": 1045.3,
-      "end": 1046.3,
-      "text": "die sind schon ein wenig Luft,"
+      "i": 526,
+      "start": 1059.83,
+      "end": 1060.83,
+      "text": "fühlt es sich gut an,"
     },
     {
-      "i": 586,
-      "start": 1046.3,
-      "end": 1047.3,
-      "text": "da ist"
+      "i": 527,
+      "start": 1060.83,
+      "end": 1062.83,
+      "text": "dann gehe ich in die Beschleunigungsphase."
     },
     {
-      "i": 587,
-      "start": 1047.3,
-      "end": 1048.3,
-      "text": "schon die Beschleunigen."
+      "i": 528,
+      "start": 1062.83,
+      "end": 1064.83,
+      "text": "Und mache nicht alle 3 gleichzeitig,"
     },
     {
-      "i": 588,
-      "start": 1048.3,
-      "end": 1049.3,
-      "text": "Dann sagen wir,"
+      "i": 529,
+      "start": 1064.83,
+      "end": 1066.83,
+      "text": "weil die Kontrolle und Korrekturphase"
     },
     {
-      "i": 589,
-      "start": 1049.3,
-      "end": 1050.3,
-      "text": "zuerst mache jetzt mal Punkt 1,"
+      "i": 530,
+      "start": 1066.83,
+      "end": 1068.83,
+      "text": "ist ja genau dafür da,"
     },
     {
-      "i": 590,
-      "start": 1050.3,
-      "end": 1051.3,
-      "text": "Punkt 2 zu oben,"
+      "i": 531,
+      "start": 1068.83,
+      "end": 1070.83,
+      "text": "damit wir einen Fehler erkennen."
     },
     {
-      "i": 591,
-      "start": 1051.3,
-      "end": 1052.3,
-      "text": "dann noch aufziehen,"
+      "i": 532,
+      "start": 1070.83,
+      "end": 1072.83,
+      "text": "Der Schirm ist zum Beispiel schräg,"
     },
     {
-      "i": 592,
-      "start": 1052.3,
-      "end": 1054.3,
-      "text": "Kontrollen und Korrektur,"
+      "i": 533,
+      "start": 1072.83,
+      "end": 1074.83,
+      "text": "wir haben einen Knopf in der Leine,"
     },
     {
-      "i": 593,
-      "start": 1054.3,
-      "end": 1055.3,
-      "text": "und dann"
+      "i": 534,
+      "start": 1074.83,
+      "end": 1077.01,
+      "text": "wir haben irgendetwas, das uns nicht passt,"
     },
     {
-      "i": 594,
-      "start": 1055.3,
-      "end": 1056.3,
-      "text": "entscheide ich,"
-    },
-    {
-      "i": 595,
-      "start": 1056.3,
-      "end": 1057.3,
-      "text": "passt es,"
-    },
-    {
-      "i": 596,
-      "start": 1057.3,
-      "end": 1058.3,
-      "text": "alles so,"
-    },
-    {
-      "i": 597,
-      "start": 1058.3,
-      "end": 1059.3,
-      "text": "wie ich will,"
-    },
-    {
-      "i": 598,
-      "start": 1059.3,
-      "end": 1060.3,
-      "text": "viel mehr sicher,"
-    },
-    {
-      "i": 599,
-      "start": 1060.3,
-      "end": 1061.3,
-      "text": "viel zu gut da,"
-    },
-    {
-      "i": 600,
-      "start": 1061.3,
-      "end": 1063.3,
-      "text": "dann ging die Beschleunigungsfase."
-    },
-    {
-      "i": 601,
-      "start": 1063.3,
-      "end": 1065.3,
-      "text": "Und du nicht alle drügelige Zeitungen machen,"
-    },
-    {
-      "i": 602,
-      "start": 1065.3,
-      "end": 1067.3,
-      "text": "weil Kontroll- und Korrektur-Fase"
-    },
-    {
-      "i": 603,
-      "start": 1067.3,
-      "end": 1069.3,
-      "text": "ist genau dafür,"
-    },
-    {
-      "i": 604,
-      "start": 1069.3,
-      "end": 1071.3,
-      "text": "damit wir einen Fehler kennen."
-    },
-    {
-      "i": 605,
-      "start": 1071.3,
-      "end": 1072.3,
-      "text": "Das Schirm ist,"
-    },
-    {
-      "i": 606,
-      "start": 1072.3,
-      "end": 1073.3,
-      "text": "zum Beispiel,"
-    },
-    {
-      "i": 607,
-      "start": 1073.3,
-      "end": 1075.3,
-      "text": "wir haben den Knopf wieder leinen,"
-    },
-    {
-      "i": 608,
-      "start": 1075.3,
-      "end": 1077.3,
-      "text": "wir haben irgendetwas,"
-    },
-    {
-      "i": 609,
-      "start": 1077.3,
-      "end": 1078.3,
-      "text": "was nicht passt,"
-    },
-    {
-      "i": 610,
-      "start": 1078.3,
-      "end": 1079.3,
+      "i": 535,
+      "start": 1077.01,
+      "end": 1079.01,
       "text": "wir brechen ab."
     },
     {
-      "i": 611,
-      "start": 1079.3,
-      "end": 1081.69,
-      "text": "Wenn wir uns in der Beschleunigungsfase"
+      "i": 536,
+      "start": 1079.01,
+      "end": 1081.79,
+      "text": "Wenn wir uns in der Beschleunigungsphase"
     },
     {
-      "i": 612,
-      "start": 1081.69,
-      "end": 1082.69,
-      "text": "schon befindet,"
+      "i": 537,
+      "start": 1081.79,
+      "end": 1082.79,
+      "text": "schon befinden,"
     },
     {
-      "i": 613,
-      "start": 1082.69,
-      "end": 1084.69,
-      "text": "da sei ich kein Abbruch mehr voll,"
+      "i": 538,
+      "start": 1082.79,
+      "end": 1084.79,
+      "text": "das hat keinen Abbruch mehr zu erfolgen,"
     },
     {
-      "i": 614,
-      "start": 1084.69,
-      "end": 1085.69,
-      "text": "denn wie es wurde,"
+      "i": 539,
+      "start": 1084.79,
+      "end": 1085.79,
+      "text": "weil wie das Wort sagt,"
     },
     {
-      "i": 615,
-      "start": 1085.69,
-      "end": 1086.69,
-      "text": "die Beschleunigung"
+      "i": 540,
+      "start": 1085.79,
+      "end": 1086.79,
+      "text": "Beschleunigung,"
     },
     {
-      "i": 616,
-      "start": 1086.69,
-      "end": 1087.69,
-      "text": "sind schnell unterwegs."
+      "i": 541,
+      "start": 1086.79,
+      "end": 1087.79,
+      "text": "wir sind schnell unterwegs"
     },
     {
-      "i": 617,
-      "start": 1087.69,
-      "end": 1088.69,
-      "text": "Und da bereich,"
+      "i": 542,
+      "start": 1087.79,
+      "end": 1088.79,
+      "text": "und diesen Bereich wollen wir"
     },
     {
-      "i": 618,
-      "start": 1088.69,
-      "end": 1090.69,
-      "text": "weil wir auch möglichst schnell verlohen,"
+      "i": 543,
+      "start": 1088.79,
+      "end": 1090.79,
+      "text": "eigentlich möglichst schnell verlassen,"
     },
     {
-      "i": 619,
-      "start": 1090.69,
-      "end": 1091.69,
-      "text": "nämlich in der Luft,"
+      "i": 544,
+      "start": 1090.79,
+      "end": 1091.79,
+      "text": "nämlich in die Luft,"
     },
     {
-      "i": 620,
-      "start": 1091.69,
-      "end": 1093.69,
-      "text": "weil in der Luft sind wir wieder 6,"
+      "i": 545,
+      "start": 1091.79,
+      "end": 1092.79,
+      "text": "weil in die Luft sind wir wieder safe."
     },
     {
-      "i": 621,
-      "start": 1093.69,
-      "end": 1095.69,
-      "text": "da haben wir keine Hindernisse ankommen,"
+      "i": 546,
+      "start": 1092.79,
+      "end": 1094.79,
+      "text": "Da haben wir keine Hindernisse mehr bekommen,"
     },
     {
-      "i": 622,
-      "start": 1095.69,
-      "end": 1096.69,
-      "text": "wir könnten im Stolperen"
+      "i": 547,
+      "start": 1094.79,
+      "end": 1096.79,
+      "text": "wir könnten nicht mehr stolpern,"
     },
     {
-      "i": 623,
-      "start": 1096.69,
-      "end": 1097.69,
-      "text": "wieder luften,"
+      "i": 548,
+      "start": 1096.79,
+      "end": 1098.81,
+      "text": "in der Luft ist alles wieder gut."
     },
     {
-      "i": 624,
-      "start": 1097.69,
-      "end": 1098.69,
-      "text": "alles wieder gut."
-    },
-    {
-      "i": 625,
-      "start": 1098.69,
-      "end": 1099.69,
+      "i": 549,
+      "start": 1098.81,
+      "end": 1099.81,
       "text": "Wichtig ist,"
     },
     {
-      "i": 626,
-      "start": 1099.69,
-      "end": 1101.69,
-      "text": "1 und 2 zu übermachen,"
+      "i": 550,
+      "start": 1099.81,
+      "end": 1102.21,
+      "text": "1 und 2 sauber machen"
     },
     {
-      "i": 627,
-      "start": 1101.69,
-      "end": 1103.69,
-      "text": "und dann entscheiden"
+      "i": 551,
+      "start": 1102.21,
+      "end": 1103.21,
+      "text": "und dann entscheiden,"
     },
     {
-      "i": 628,
-      "start": 1103.69,
-      "end": 1104.69,
-      "text": "ja wohl,"
+      "i": 552,
+      "start": 1103.21,
+      "end": 1105.21,
+      "text": "jawohl passt Beschleunigen"
     },
     {
-      "i": 629,
-      "start": 1104.69,
-      "end": 1105.69,
-      "text": "passt die Beschleunigen,"
+      "i": 553,
+      "start": 1105.21,
+      "end": 1106.21,
+      "text": "oder nein passt nicht,"
     },
     {
-      "i": 630,
-      "start": 1105.69,
-      "end": 1106.69,
-      "text": "oder nein,"
+      "i": 554,
+      "start": 1106.21,
+      "end": 1107.21,
+      "text": "abbrechen."
     },
     {
-      "i": 631,
-      "start": 1106.69,
-      "end": 1107.69,
-      "text": "passt nicht abbrechen."
+      "i": 555,
+      "start": 1107.21,
+      "end": 1110.21,
+      "text": "Übrigens auch an einer Praxisprüfung,"
     },
     {
-      "i": 632,
-      "start": 1107.69,
-      "end": 1108.69,
-      "text": "Übrigens auch,"
+      "i": 556,
+      "start": 1110.21,
+      "end": 1113.21,
+      "text": "solange ihr in Punkt 1 oder Punkt 2 abbrecht,"
     },
     {
-      "i": 633,
-      "start": 1108.69,
-      "end": 1110.69,
-      "text": "eine Praxisprüfung,"
+      "i": 557,
+      "start": 1113.21,
+      "end": 1115.21,
+      "text": "ist das ein sauberer Abbruch"
     },
     {
-      "i": 634,
-      "start": 1110.69,
-      "end": 1113.69,
-      "text": "solange in der Punkt 1 oder Punkt 2 abbrechen,,"
+      "i": 558,
+      "start": 1115.21,
+      "end": 1116.21,
+      "text": "und kein Problem."
     },
     {
-      "i": 635,
-      "start": 1113.69,
-      "end": 1115.69,
-      "text": "ist das ein super Abbruch und kein Problem."
+      "i": 559,
+      "start": 1116.21,
+      "end": 1119.21,
+      "text": "Wenn ihr Punkt 3 der Beschleunigungsphase abbrecht,"
     },
     {
-      "i": 636,
-      "start": 1115.69,
-      "end": 1118.69,
-      "text": "Wenn du Punkt 3 der Beschleunigungsfase"
+      "i": 560,
+      "start": 1119.21,
+      "end": 1122.21,
+      "text": "dann habt ihr nämlich Punkt 2 nicht sauber gemacht"
     },
     {
-      "i": 637,
-      "start": 1118.69,
-      "end": 1119.69,
-      "text": "abbrechen,"
+      "i": 561,
+      "start": 1122.21,
+      "end": 1129.0,
+      "text": "und dann kann es einen Negativpunkt geben in der Prüfung."
     },
     {
-      "i": 638,
-      "start": 1119.69,
-      "end": 1121.69,
-      "text": "dann haben du Punkt 2 nicht zu übergemacht,"
+      "i": 562,
+      "start": 1129.0,
+      "end": 1130.0,
+      "text": "Wichtig ist nachher,"
     },
     {
-      "i": 639,
-      "start": 1121.69,
-      "end": 1123.69,
-      "text": "und dann kannst du einen negativ Punkt"
+      "i": 563,
+      "start": 1130.0,
+      "end": 1132.0,
+      "text": "wenn wir in die Abhebbeschwindigkeit kommen,"
     },
     {
-      "i": 640,
-      "start": 1123.69,
-      "end": 1124.69,
-      "text": "gerade die Beschleunigungsfase prüfen."
+      "i": 564,
+      "start": 1132.0,
+      "end": 1134.0,
+      "text": "dass wir auch abheben"
     },
     {
-      "i": 641,
-      "start": 1124.69,
-      "end": 1129.11,
-      "text": "Wichtig ist,"
-    },
-    {
-      "i": 642,
-      "start": 1129.11,
-      "end": 1130.11,
-      "text": "nachher,"
-    },
-    {
-      "i": 643,
-      "start": 1130.11,
-      "end": 1131.11,
-      "text": "wenn du einen Tabab-"
-    },
-    {
-      "i": 644,
-      "start": 1131.11,
-      "end": 1132.11,
-      "text": "Geschwindigkeit,"
-    },
-    {
-      "i": 645,
-      "start": 1132.11,
-      "end": 1133.11,
-      "text": "kommen,"
-    },
-    {
-      "i": 646,
-      "start": 1133.11,
-      "end": 1134.11,
-      "text": "dass wir auch abheben,"
-    },
-    {
-      "i": 647,
-      "start": 1134.11,
-      "end": 1136.37,
+      "i": 565,
+      "start": 1134.0,
+      "end": 1136.24,
       "text": "und ganz wichtig,"
     },
     {
-      "i": 648,
-      "start": 1136.37,
-      "end": 1137.37,
-      "text": "dass wir nach dem Start"
+      "i": 566,
+      "start": 1136.24,
+      "end": 1139.24,
+      "text": "dass man nach dem Start unsere Bremse nicht loslässt."
     },
     {
-      "i": 649,
-      "start": 1137.37,
-      "end": 1139.37,
-      "text": "unsere Brämmse nicht loslanden."
+      "i": 567,
+      "start": 1139.24,
+      "end": 1141.24,
+      "text": "Wir sehen immer wieder in der Praxis,"
     },
     {
-      "i": 650,
-      "start": 1139.37,
-      "end": 1141.37,
-      "text": "Wir sind immer wieder in der Praxis,"
+      "i": 568,
+      "start": 1141.24,
+      "end": 1142.24,
+      "text": "dass die Leute rausfliegen"
     },
     {
-      "i": 651,
-      "start": 1141.37,
-      "end": 1142.37,
-      "text": "dass Leute aus der Flüge"
+      "i": 569,
+      "start": 1142.24,
+      "end": 1146.24,
+      "text": "und sich relativ schnell bequem machen wollen im Gurtzug."
     },
     {
-      "i": 652,
-      "start": 1142.37,
-      "end": 1143.37,
-      "text": "und relativ schnell sich"
+      "i": 570,
+      "start": 1146.24,
+      "end": 1148.24,
+      "text": "Das ist ja gut und nett fürs Bequemen,"
     },
     {
-      "i": 653,
-      "start": 1143.37,
-      "end": 1144.37,
-      "text": "wollen,"
+      "i": 571,
+      "start": 1148.24,
+      "end": 1150.24,
+      "text": "aber es birgt Gefahr in sich,"
     },
     {
-      "i": 654,
-      "start": 1144.37,
-      "end": 1146.37,
-      "text": "bequem machen im Gurt-Züge,"
+      "i": 572,
+      "start": 1150.24,
+      "end": 1152.24,
+      "text": "dass man nämlich die Bremse loslässt."
     },
     {
-      "i": 655,
-      "start": 1146.37,
-      "end": 1148.37,
-      "text": "das ist uns gut und nicht fürs Bequemen,"
+      "i": 573,
+      "start": 1152.24,
+      "end": 1154.24,
+      "text": "Und jetzt hast du irgendeine Störung,"
     },
     {
-      "i": 656,
-      "start": 1148.37,
-      "end": 1149.37,
-      "text": "aber es wird gefahren,"
+      "i": 574,
+      "start": 1154.24,
+      "end": 1155.24,
+      "text": "die du vielleicht gar nicht bemerkt hast beim Starten"
     },
     {
-      "i": 657,
-      "start": 1149.37,
-      "end": 1150.37,
-      "text": "sich,"
+      "i": 575,
+      "start": 1155.24,
+      "end": 1157.24,
+      "text": "oder ein bisschen viel Seitenwind"
     },
     {
-      "i": 658,
-      "start": 1150.37,
-      "end": 1151.37,
-      "text": "dass wir nämlich Brämmse loslaut,"
+      "i": 576,
+      "start": 1157.24,
+      "end": 1160.24,
+      "text": "und der Schirm zieht relativ schnell auf eine Seite."
     },
     {
-      "i": 659,
-      "start": 1151.37,
-      "end": 1153.37,
-      "text": "und jetzt hast du eben"
+      "i": 577,
+      "start": 1160.24,
+      "end": 1163.24,
+      "text": "Und das ist schlicht und einfach mit Gefahren verbunden"
     },
     {
-      "i": 660,
-      "start": 1153.37,
-      "end": 1154.37,
-      "text": "eine Störung,"
+      "i": 578,
+      "start": 1163.24,
+      "end": 1166.24,
+      "text": "und darum setzt euch erst dann ins Gurtzug rein,"
     },
     {
-      "i": 661,
-      "start": 1154.37,
-      "end": 1155.37,
-      "text": "die vielleicht gar nicht bemerklich beim Starten,"
+      "i": 579,
+      "start": 1166.24,
+      "end": 1168.24,
+      "text": "macht euch erst dann bequem,"
     },
     {
-      "i": 662,
-      "start": 1155.37,
-      "end": 1157.37,
-      "text": "oder viele Seitenwind,"
+      "i": 580,
+      "start": 1168.24,
+      "end": 1170.24,
+      "text": "wenn ihr weit, weit gerade in die Flugrichtung,"
     },
     {
-      "i": 663,
-      "start": 1157.37,
-      "end": 1159.37,
-      "text": "und das Schimpf von der relativ schnellen,"
+      "i": 581,
+      "start": 1170.24,
+      "end": 1172.24,
+      "text": "die gewünscht ist, fliegt,"
     },
     {
-      "i": 664,
-      "start": 1159.37,
-      "end": 1160.37,
-      "text": "von der Seite nachziehen."
+      "i": 582,
+      "start": 1172.24,
+      "end": 1175.32,
+      "text": "viel Luft unter euch habt,"
     },
     {
-      "i": 665,
-      "start": 1160.37,
-      "end": 1162.37,
-      "text": "Und das ist schlicht und einfach mit vorne verbunden,"
+      "i": 583,
+      "start": 1175.32,
+      "end": 1177.32,
+      "text": "dann kann man die Bremse schnell loslassen"
     },
     {
-      "i": 666,
-      "start": 1162.37,
-      "end": 1163.37,
-      "text": "und darum,"
-    },
-    {
-      "i": 667,
-      "start": 1163.37,
-      "end": 1164.37,
-      "text": "setze dich erst,"
-    },
-    {
-      "i": 668,
-      "start": 1164.37,
-      "end": 1165.37,
-      "text": "den Gurt zu gehen,"
-    },
-    {
-      "i": 669,
-      "start": 1165.37,
-      "end": 1167.37,
-      "text": "machen sich erst den Bequem,"
-    },
-    {
-      "i": 670,
-      "start": 1167.37,
-      "end": 1168.37,
-      "text": "wenn du weit,"
-    },
-    {
-      "i": 671,
-      "start": 1168.37,
-      "end": 1170.37,
-      "text": "weit gerade die Zugrichtung,"
-    },
-    {
-      "i": 672,
-      "start": 1170.37,
-      "end": 1172.37,
-      "text": "wo gewünschte Flüge,"
-    },
-    {
-      "i": 673,
-      "start": 1172.37,
-      "end": 1174.37,
-      "text": "viel Luft und Rüch haben,"
-    },
-    {
-      "i": 674,
-      "start": 1174.37,
-      "end": 1177.37,
-      "text": "dann kann man Brämmse schnell loslaut"
-    },
-    {
-      "i": 675,
-      "start": 1177.37,
-      "end": 1178.37,
+      "i": 584,
+      "start": 1177.32,
+      "end": 1179.32,
       "text": "und sich bequem machen"
     },
     {
-      "i": 676,
-      "start": 1178.37,
-      "end": 1180.37,
-      "text": "und den Brämmse dazu,"
+      "i": 585,
+      "start": 1179.32,
+      "end": 1181.32,
+      "text": "und dann die Bremse dazu wieder nehmen."
     },
     {
-      "i": 677,
-      "start": 1180.37,
-      "end": 1181.37,
-      "text": "wieder nach."
+      "i": 586,
+      "start": 1181.32,
+      "end": 1183.32,
+      "text": "Jetzt gibt es ja auch die Situation,"
     },
     {
-      "i": 678,
-      "start": 1181.37,
-      "end": 1183.37,
-      "text": "Jetzt gibt es auch die Situation,"
+      "i": 587,
+      "start": 1183.32,
+      "end": 1185.32,
+      "text": "dass man unmittelbar nach dem Start"
     },
     {
-      "i": 679,
-      "start": 1183.37,
-      "end": 1185.37,
-      "text": "dass man unmittelbar nach dem Start merkt,"
+      "i": 588,
+      "start": 1185.32,
+      "end": 1187.32,
+      "text": "merkt, dass wir eben nicht geradeaus fliegen,"
     },
     {
-      "i": 680,
-      "start": 1185.37,
-      "end": 1187.37,
-      "text": "dass wir eben nicht gerade ausflügt,"
-    },
-    {
-      "i": 681,
-      "start": 1187.37,
-      "end": 1189.37,
+      "i": 589,
+      "start": 1187.32,
+      "end": 1189.32,
       "text": "sondern nach rechts oder nach links."
     },
     {
-      "i": 682,
-      "start": 1189.37,
-      "end": 1191.37,
-      "text": "Da kann man verschiedene Ursachen haben,"
+      "i": 590,
+      "start": 1189.32,
+      "end": 1191.32,
+      "text": "Das kann verschiedene Ursachen haben."
     },
     {
-      "i": 683,
-      "start": 1191.37,
-      "end": 1192.37,
-      "text": "zum Beispiel,"
+      "i": 591,
+      "start": 1191.32,
+      "end": 1192.32,
+      "text": "Das kann zum Beispiel sein,"
     },
     {
-      "i": 684,
-      "start": 1192.37,
-      "end": 1194.37,
-      "text": "dass man schon grundsätzlich beim Start"
+      "i": 592,
+      "start": 1192.32,
+      "end": 1194.32,
+      "text": "dass wir schon grundsätzlich beim Start"
     },
     {
-      "i": 685,
-      "start": 1194.37,
-      "end": 1195.37,
-      "text": "nicht zu über die Fallrichtungen sind,"
+      "i": 593,
+      "start": 1194.32,
+      "end": 1195.32,
+      "text": "nicht sauber in die Fallrichtung sind,"
     },
     {
-      "i": 686,
-      "start": 1195.37,
-      "end": 1197.37,
-      "text": "sondern auch in die Regen starten sind."
+      "i": 594,
+      "start": 1195.32,
+      "end": 1197.32,
+      "text": "sondern etwas schräg gestartet sind."
     },
     {
-      "i": 687,
-      "start": 1197.37,
-      "end": 1198.37,
-      "text": "Da kann man sieht,"
+      "i": 595,
+      "start": 1197.32,
+      "end": 1199.32,
+      "text": "Das kann sein, dass wir einen Knopf,"
     },
     {
-      "i": 688,
-      "start": 1198.37,
-      "end": 1200.37,
-      "text": "dass man nicht nach vorne nicht gesehen hat,"
+      "i": 596,
+      "start": 1199.32,
+      "end": 1200.32,
+      "text": "den wir nicht gesehen haben,"
     },
     {
-      "i": 689,
-      "start": 1200.37,
-      "end": 1201.37,
-      "text": "in der Leine hat,"
+      "i": 597,
+      "start": 1200.32,
+      "end": 1202.46,
+      "text": "in der Leine haben."
     },
     {
-      "i": 690,
-      "start": 1201.37,
-      "end": 1203.37,
-      "text": "oder das kann man sieht,"
+      "i": 598,
+      "start": 1202.46,
+      "end": 1203.46,
+      "text": "Oder es kann auch sein,"
     },
     {
-      "i": 691,
-      "start": 1203.37,
-      "end": 1204.37,
-      "text": "dass man starke Seitenwind haben,"
+      "i": 599,
+      "start": 1203.46,
+      "end": 1204.46,
+      "text": "dass wir einen starken Seitenwind haben,"
     },
     {
-      "i": 692,
-      "start": 1204.37,
-      "end": 1207.37,
-      "text": "unsere Bizle drückt gegen die einen Seite."
+      "i": 600,
+      "start": 1204.46,
+      "end": 1207.46,
+      "text": "der uns ein bisschen drückt gegen die eine Seite."
     },
     {
-      "i": 693,
-      "start": 1207.37,
-      "end": 1208.37,
-      "text": "Aller allen Wichtigsten,"
+      "i": 601,
+      "start": 1207.46,
+      "end": 1208.46,
+      "text": "Allerallerwichtigstes,"
     },
     {
-      "i": 694,
-      "start": 1208.37,
-      "end": 1210.37,
-      "text": "das hat eigentlich im 3-fasen Start"
+      "i": 602,
+      "start": 1208.46,
+      "end": 1210.46,
+      "text": "und das sollte eigentlich im 3-Phase-Start"
     },
     {
-      "i": 695,
-      "start": 1210.37,
-      "end": 1212.37,
-      "text": "4.0."
+      "i": 603,
+      "start": 1210.46,
+      "end": 1212.46,
+      "text": "der vierte Punkt sein."
     },
     {
-      "i": 696,
-      "start": 1212.37,
-      "end": 1214.37,
-      "text": "Und 4.0 ist eigentlich"
+      "i": 604,
+      "start": 1212.46,
+      "end": 1214.54,
+      "text": "Und der vierte Punkt ist eigentlich"
     },
     {
-      "i": 697,
-      "start": 1214.37,
-      "end": 1216.37,
-      "text": "der richtige Stabilisierende,"
+      "i": 605,
+      "start": 1214.54,
+      "end": 1216.54,
+      "text": "die richtige Stabilisierung in die,"
     },
     {
-      "i": 698,
-      "start": 1216.37,
-      "end": 1217.37,
-      "text": "die man wendet."
+      "i": 606,
+      "start": 1216.54,
+      "end": 1217.54,
+      "text": "die wir wollen."
     },
     {
-      "i": 699,
-      "start": 1217.37,
-      "end": 1219.37,
-      "text": "Man hat gerade weggefunden,"
+      "i": 607,
+      "start": 1217.54,
+      "end": 1219.54,
+      "text": "Nämlich gerade weg vom Gelände."
     },
     {
-      "i": 700,
-      "start": 1219.37,
-      "end": 1221.37,
-      "text": "und das muss absolut die Priorität sein."
+      "i": 608,
+      "start": 1219.54,
+      "end": 1221.54,
+      "text": "Und das muss absolute Priorität sein,"
     },
     {
-      "i": 701,
-      "start": 1221.37,
-      "end": 1223.37,
-      "text": "Egal, was der Grund ist,"
+      "i": 609,
+      "start": 1221.54,
+      "end": 1222.54,
+      "text": "egal was der Grund ist,"
     },
     {
-      "i": 702,
-      "start": 1223.37,
-      "end": 1225.37,
-      "text": "dass man auf weissite könnt."
+      "i": 610,
+      "start": 1222.54,
+      "end": 1224.54,
+      "text": "dass wir auf eine Seite gehen."
     },
     {
-      "i": 703,
-      "start": 1225.37,
-      "end": 1227.37,
-      "text": "Zuerst supergewichtsverlagern,"
+      "i": 611,
+      "start": 1224.54,
+      "end": 1226.54,
+      "text": "Zuerst sauber Gewicht verlagern,"
     },
     {
-      "i": 704,
-      "start": 1227.37,
-      "end": 1229.37,
-      "text": "effektuell mit den Gäggen Brämmse"
+      "i": 612,
+      "start": 1226.54,
+      "end": 1229.54,
+      "text": "effizient mit der Gegenbremse so fest steuern,"
     },
     {
-      "i": 705,
-      "start": 1229.37,
-      "end": 1230.37,
-      "text": "so fest stören,"
+      "i": 613,
+      "start": 1229.54,
+      "end": 1231.54,
+      "text": "dass wir geradeaus fliegen,"
     },
     {
-      "i": 706,
-      "start": 1230.37,
-      "end": 1231.37,
-      "text": "dass man gerade ausflügt,"
+      "i": 614,
+      "start": 1231.54,
+      "end": 1232.54,
+      "text": "weit, weit raus,"
     },
     {
-      "i": 707,
-      "start": 1231.37,
-      "end": 1232.37,
-      "text": "weit, weit,"
+      "i": 615,
+      "start": 1232.54,
+      "end": 1234.54,
+      "text": "wieder viel Distanz zwischen uns"
     },
     {
-      "i": 708,
-      "start": 1232.37,
-      "end": 1235.37,
-      "text": "wieder viel Distanz zwischen uns und dem Boden machen"
+      "i": 616,
+      "start": 1234.54,
+      "end": 1235.54,
+      "text": "und dem Boden machen"
     },
     {
-      "i": 709,
-      "start": 1235.37,
-      "end": 1238.37,
-      "text": "und dem sich ums Problem kümmern."
+      "i": 617,
+      "start": 1235.54,
+      "end": 1242.91,
+      "text": "und dann sich um das Problem kümmern."
     },
     {
-      "i": 710,
-      "start": 1238.37,
-      "end": 1244.37,
-      "text": "Wenn man, wenn man das nicht mehr hat,"
+      "i": 618,
+      "start": 1242.91,
+      "end": 1243.91,
+      "text": "Wenn wir das nicht machen,"
     },
     {
-      "i": 711,
-      "start": 1244.37,
-      "end": 1245.37,
-      "text": "vorne oder bei,"
+      "i": 619,
+      "start": 1243.91,
+      "end": 1245.91,
+      "text": "die Gefahren dabei sind glaube ich"
     },
     {
-      "i": 712,
-      "start": 1245.37,
-      "end": 1247.37,
-      "text": "ist es ziemlich hoffentlich nämlich,"
+      "i": 620,
+      "start": 1245.91,
+      "end": 1246.91,
+      "text": "ziemlich offensichtlich."
     },
     {
-      "i": 713,
-      "start": 1247.37,
-      "end": 1248.37,
-      "text": "dass man unkontrolliert,"
+      "i": 621,
+      "start": 1246.91,
+      "end": 1247.91,
+      "text": "Nämlich, dass wir unkontrolliert"
     },
     {
-      "i": 714,
-      "start": 1248.37,
-      "end": 1250.37,
-      "text": "wieder richtig hangt,"
+      "i": 622,
+      "start": 1247.91,
+      "end": 1251.02,
+      "text": "wieder Richtung Hand gehen."
     },
     {
-      "i": 715,
-      "start": 1250.37,
-      "end": 1252.37,
-      "text": "und es ist je nach dem Land,"
+      "i": 623,
+      "start": 1251.02,
+      "end": 1253.02,
+      "text": "Und es ist je nach Gelände"
     },
     {
-      "i": 716,
-      "start": 1252.37,
-      "end": 1254.37,
+      "i": 624,
+      "start": 1253.02,
+      "end": 1255.14,
       "text": "natürlich nicht schlau,"
     },
     {
-      "i": 717,
-      "start": 1254.37,
-      "end": 1256.37,
-      "text": "dort in den Landen."
+      "i": 625,
+      "start": 1255.14,
+      "end": 1257.14,
+      "text": "dort hinein zu landen."
     },
     {
-      "i": 718,
-      "start": 1256.37,
-      "end": 1259.37,
-      "text": "Landung würde ich nicht bevorziehen."
+      "i": 626,
+      "start": 1257.14,
+      "end": 1260.54,
+      "text": "Eine Landung würde ich nicht bevorzugen."
     },
     {
-      "i": 719,
-      "start": 1259.37,
-      "end": 1262.37,
-      "text": "Ich würde immer in offenen Luftraum"
+      "i": 627,
+      "start": 1260.54,
+      "end": 1263.55,
+      "text": "Ich würde immer in offenen Luftraum hineinfliegen,"
     },
     {
-      "i": 720,
-      "start": 1262.37,
-      "end": 1263.37,
-      "text": "innen fliegen,"
+      "i": 628,
+      "start": 1263.55,
+      "end": 1265.55,
+      "text": "weil dann verschaffe ich mir Zeit,"
     },
     {
-      "i": 721,
-      "start": 1263.37,
-      "end": 1265.37,
-      "text": "weil dem verschaff ich mit Zeit zu reagieren."
+      "i": 629,
+      "start": 1265.55,
+      "end": 1266.55,
+      "text": "um zu reagieren."
     },
     {
-      "i": 722,
-      "start": 1265.37,
-      "end": 1266.37,
-      "text": "Und da ist wieder gut,"
+      "i": 630,
+      "start": 1266.55,
+      "end": 1267.55,
+      "text": "Und hier ist es wieder gut,"
     },
     {
-      "i": 723,
-      "start": 1266.37,
-      "end": 1268.37,
-      "text": "die größer mit Zeitfenster ist,"
+      "i": 631,
+      "start": 1267.55,
+      "end": 1268.55,
+      "text": "je grösser mein Zeitfenster ist,"
     },
     {
-      "i": 724,
-      "start": 1268.37,
-      "end": 1270.37,
-      "text": "das der Ruhe kann das Problem angehen."
+      "i": 632,
+      "start": 1268.55,
+      "end": 1270.55,
+      "text": "desto ruhiger kann ich das Problem angehen"
     },
     {
-      "i": 725,
-      "start": 1270.37,
-      "end": 1273.37,
-      "text": "Und da muss man entsprechend reagieren."
+      "i": 633,
+      "start": 1270.55,
+      "end": 1274.46,
+      "text": "und dementsprechend reagieren."
     },
     {
-      "i": 726,
-      "start": 1273.37,
-      "end": 1274.91,
-      "text": "Richtig ist,"
+      "i": 634,
+      "start": 1274.46,
+      "end": 1276.46,
+      "text": "Wichtig ist, wenn wir ein Problem haben,"
     },
     {
-      "i": 727,
-      "start": 1274.91,
-      "end": 1276.91,
-      "text": "wenn man ein Problem hat,"
+      "i": 635,
+      "start": 1276.46,
+      "end": 1278.46,
+      "text": "wir nehmen jetzt einmal die Hand,"
     },
     {
-      "i": 728,
-      "start": 1276.91,
-      "end": 1277.91,
-      "text": "wir nehmen jetzt ein Mal,"
+      "i": 636,
+      "start": 1278.46,
+      "end": 1279.46,
+      "text": "doch einen Knopf in der Leine,"
     },
     {
-      "i": 729,
-      "start": 1277.91,
-      "end": 1279.91,
-      "text": "wir haben doch einen Knopf in der Leine,"
+      "i": 637,
+      "start": 1279.46,
+      "end": 1282.46,
+      "text": "obwohl wir unseren Check sauber gemacht haben."
     },
     {
-      "i": 730,
-      "start": 1279.91,
-      "end": 1281.91,
-      "text": "obwohl man unsere Check übergemacht hat,"
+      "i": 638,
+      "start": 1282.46,
+      "end": 1285.46,
+      "text": "Und wir haben sogar den 3-Phase-Start,"
     },
     {
-      "i": 731,
-      "start": 1281.91,
-      "end": 1283.91,
-      "text": "und wir haben sogar"
+      "i": 639,
+      "start": 1285.46,
+      "end": 1286.46,
+      "text": "Punkt 2 sauber gemacht,"
     },
     {
-      "i": 732,
-      "start": 1283.91,
-      "end": 1285.91,
-      "text": "der 3-Fase-State.2 übergemacht,"
+      "i": 640,
+      "start": 1286.46,
+      "end": 1287.46,
+      "text": "nämlich Kontrolle und Korrektur,"
     },
     {
-      "i": 733,
-      "start": 1285.91,
-      "end": 1287.91,
-      "text": "nämlich kontrollen Korrektur,"
+      "i": 641,
+      "start": 1287.46,
+      "end": 1289.46,
+      "text": "und haben doch blöderweise"
     },
     {
-      "i": 734,
-      "start": 1287.91,
-      "end": 1290.91,
-      "text": "und dann blöden wir einen Knopf in der Leine,"
+      "i": 642,
+      "start": 1289.46,
+      "end": 1290.46,
+      "text": "einen Knopf in der Leine,"
     },
     {
-      "i": 735,
-      "start": 1290.91,
-      "end": 1291.91,
-      "text": "die wir nicht sehen haben"
+      "i": 643,
+      "start": 1290.46,
+      "end": 1291.46,
+      "text": "den wir nicht gesehen haben"
     },
     {
-      "i": 736,
-      "start": 1291.91,
-      "end": 1293.91,
-      "text": "und fliegen jetzt draußen."
+      "i": 644,
+      "start": 1291.46,
+      "end": 1293.46,
+      "text": "und fliegen jetzt draussen."
     },
     {
-      "i": 737,
-      "start": 1293.91,
-      "end": 1295.91,
-      "text": "Wichtig ist stabilisieren,"
+      "i": 645,
+      "start": 1293.46,
+      "end": 1295.46,
+      "text": "Wichtig ist, stabilisieren,"
     },
     {
-      "i": 738,
-      "start": 1295.91,
-      "end": 1297.91,
-      "text": "gerade aus der Flügel,"
+      "i": 646,
+      "start": 1295.46,
+      "end": 1296.48,
+      "text": "geradeaus fliegen,"
     },
     {
-      "i": 739,
-      "start": 1297.91,
-      "end": 1299.91,
-      "text": "wie wir es besprochen haben,"
+      "i": 647,
+      "start": 1296.48,
+      "end": 1298.48,
+      "text": "wie schon besprochen."
     },
     {
-      "i": 740,
-      "start": 1299.91,
-      "end": 1302.91,
-      "text": "und abropo Knopf in der ganzen Flügel."
+      "i": 648,
+      "start": 1298.48,
+      "end": 1300.53,
+      "text": "Und apropos Knöpfe,"
     },
     {
-      "i": 741,
-      "start": 1302.91,
-      "end": 1304.91,
-      "text": "Kein Pilot gibt es wahrscheinlich,"
+      "i": 649,
+      "start": 1300.53,
+      "end": 1302.58,
+      "text": "in der ganzen Flugkarriere"
     },
     {
-      "i": 742,
-      "start": 1304.91,
-      "end": 1306.91,
-      "text": "was noch nie einen Knopf gemacht hat."
+      "i": 650,
+      "start": 1302.58,
+      "end": 1304.58,
+      "text": "kein Pilot gibt es wahrscheinlich,"
     },
     {
-      "i": 743,
-      "start": 1306.91,
-      "end": 1308.91,
-      "text": "Oder ist das ein bisschen K."
+      "i": 651,
+      "start": 1304.58,
+      "end": 1306.66,
+      "text": "der sagt, er hätte noch nie einen Knopf gemacht."
     },
     {
-      "i": 744,
-      "start": 1308.91,
-      "end": 1309.91,
+      "i": 652,
+      "start": 1306.66,
+      "end": 1307.66,
+      "text": "Oder respektive hatte."
+    },
+    {
+      "i": 653,
+      "start": 1307.66,
+      "end": 1308.66,
       "text": "Es ist etwas,"
     },
     {
-      "i": 745,
-      "start": 1309.91,
-      "end": 1311.91,
-      "text": "die man einfach durch das hat,"
+      "i": 654,
+      "start": 1308.66,
+      "end": 1310.66,
+      "text": "wo man einfach durch das hat,"
     },
     {
-      "i": 746,
-      "start": 1311.91,
-      "end": 1313.91,
-      "text": "dass wir die Lose alleine haben,"
+      "i": 655,
+      "start": 1310.66,
+      "end": 1312.66,
+      "text": "dass wir halt lose Leinen haben"
     },
     {
-      "i": 747,
-      "start": 1313.91,
-      "end": 1315.91,
-      "text": "und meistens in der Leine starten,"
+      "i": 656,
+      "start": 1312.66,
+      "end": 1314.66,
+      "text": "und meistens in glänzenden Arten,"
     },
     {
-      "i": 748,
-      "start": 1315.91,
-      "end": 1317.91,
-      "text": "ob ich die Steindlungen haben,"
+      "i": 657,
+      "start": 1314.66,
+      "end": 1315.66,
+      "text": "wo man vielleicht Steinchen hat"
     },
     {
-      "i": 749,
-      "start": 1317.91,
-      "end": 1318.91,
-      "text": "oder die Höchstgras,"
+      "i": 658,
+      "start": 1315.66,
+      "end": 1316.66,
+      "text": "oder hohes Gras,"
     },
     {
-      "i": 750,
-      "start": 1318.91,
-      "end": 1320.91,
-      "text": "die sich mal auf den Knopf bilden."
+      "i": 659,
+      "start": 1316.66,
+      "end": 1318.66,
+      "text": "wo sich mal ein Knopf bilden kann."
     },
     {
-      "i": 751,
-      "start": 1320.91,
-      "end": 1322.91,
+      "i": 660,
+      "start": 1318.66,
+      "end": 1320.66,
       "text": "Das ist nicht tragisch,"
     },
     {
-      "i": 752,
-      "start": 1322.91,
-      "end": 1324.91,
-      "text": "solange man weiss, wie es mit uns geht."
+      "i": 661,
+      "start": 1320.66,
+      "end": 1321.66,
+      "text": "solange man weiss,"
     },
     {
-      "i": 753,
-      "start": 1324.91,
-      "end": 1326.91,
-      "text": "Aus der Flügel freiläuftrum,"
+      "i": 662,
+      "start": 1321.66,
+      "end": 1322.66,
+      "text": "wie damit umzugehen."
     },
     {
-      "i": 754,
-      "start": 1326.91,
-      "end": 1328.91,
-      "text": "jetzt tun ich mich ins Problem kümmern,"
+      "i": 663,
+      "start": 1322.66,
+      "end": 1323.66,
+      "text": "Wichtig ist,"
     },
     {
-      "i": 755,
-      "start": 1328.91,
-      "end": 1330.91,
-      "text": "und jetzt schauen wir mal, was ist das Problem?"
+      "i": 664,
+      "start": 1323.66,
+      "end": 1324.66,
+      "text": "wenn wir das haben,"
     },
     {
-      "i": 756,
-      "start": 1330.91,
-      "end": 1332.91,
-      "text": "Erkenn ich, aha,"
+      "i": 665,
+      "start": 1324.66,
+      "end": 1325.86,
+      "text": "rausfliegen,"
     },
     {
-      "i": 757,
-      "start": 1332.91,
-      "end": 1334.91,
-      "text": "habe ich jetzt tatsächlich ein Knopf."
+      "i": 666,
+      "start": 1325.86,
+      "end": 1326.86,
+      "text": "freien Luftraum,"
     },
     {
-      "i": 758,
-      "start": 1334.91,
-      "end": 1336.91,
-      "text": "Wenn ich das Knopf habe,"
+      "i": 667,
+      "start": 1326.86,
+      "end": 1327.86,
+      "text": "jetzt kümmere ich mich um das Problem"
     },
     {
-      "i": 759,
-      "start": 1336.91,
-      "end": 1339.17,
+      "i": 668,
+      "start": 1327.86,
+      "end": 1329.86,
+      "text": "und jetzt schaue ich zuerst einmal,"
+    },
+    {
+      "i": 669,
+      "start": 1329.86,
+      "end": 1330.86,
+      "text": "was das Problem ist."
+    },
+    {
+      "i": 670,
+      "start": 1330.86,
+      "end": 1331.86,
+      "text": "Erkenne ich,"
+    },
+    {
+      "i": 671,
+      "start": 1331.86,
+      "end": 1332.86,
+      "text": "aha,"
+    },
+    {
+      "i": 672,
+      "start": 1332.86,
+      "end": 1334.86,
+      "text": "habe ich jetzt tatsächlich einen Knopf."
+    },
+    {
+      "i": 673,
+      "start": 1334.86,
+      "end": 1337.07,
+      "text": "Wenn ich diesen Knopf habe,"
+    },
+    {
+      "i": 674,
+      "start": 1337.07,
+      "end": 1339.66,
       "text": "dann kann ich entscheiden,"
     },
     {
-      "i": 760,
-      "start": 1339.17,
-      "end": 1341.17,
-      "text": "bringe ich das Knopf auf,"
+      "i": 675,
+      "start": 1339.66,
+      "end": 1341.66,
+      "text": "bringe ich diesen Knopf auf."
     },
     {
-      "i": 761,
-      "start": 1341.17,
-      "end": 1343.17,
-      "text": "da gibt es verschiedene Hilfsmittel,"
+      "i": 676,
+      "start": 1341.66,
+      "end": 1343.66,
+      "text": "Da gibt es verschiedene Hilfsmittel,"
     },
     {
-      "i": 762,
-      "start": 1343.17,
-      "end": 1345.17,
-      "text": "um das Knopf zu öffnen."
+      "i": 677,
+      "start": 1343.66,
+      "end": 1344.66,
+      "text": "um den Knopf zu öffnen."
     },
     {
-      "i": 763,
-      "start": 1345.17,
-      "end": 1346.17,
-      "text": "Das kann z.B."
+      "i": 678,
+      "start": 1344.66,
+      "end": 1345.66,
+      "text": "Das kann zum Beispiel sein,"
     },
     {
-      "i": 764,
-      "start": 1346.17,
-      "end": 1349.17,
-      "text": "sein, dass ich mit den Brämsen auf der Knopfseite"
+      "i": 679,
+      "start": 1345.66,
+      "end": 1347.66,
+      "text": "dass ich mit der Bremse"
     },
     {
-      "i": 765,
-      "start": 1349.17,
-      "end": 1351.17,
-      "text": "in dem Puls gibt."
+      "i": 680,
+      "start": 1347.66,
+      "end": 1349.66,
+      "text": "auf der Knopfseite einen Impuls gebe."
     },
     {
-      "i": 766,
-      "start": 1351.17,
-      "end": 1353.17,
-      "text": "Das kann sein, dass der Knopf wieder aufgeht."
+      "i": 681,
+      "start": 1349.66,
+      "end": 1350.66,
+      "text": "Das kann sein,"
     },
     {
-      "i": 767,
-      "start": 1353.17,
-      "end": 1355.17,
-      "text": "Das ist die stabiler Leine,"
-    },
-    {
-      "i": 768,
-      "start": 1355.17,
-      "end": 1357.17,
-      "text": "das ist die österreichische Farbe,"
-    },
-    {
-      "i": 769,
-      "start": 1357.17,
-      "end": 1359.17,
-      "text": "meistens die Trendleine,"
-    },
-    {
-      "i": 770,
-      "start": 1359.17,
-      "end": 1361.17,
-      "text": "oder die stabiler Leine,"
-    },
-    {
-      "i": 771,
-      "start": 1361.17,
-      "end": 1363.17,
-      "text": "oder ich kann auch ein Knopf,"
-    },
-    {
-      "i": 772,
-      "start": 1363.17,
-      "end": 1365.17,
-      "text": "das z.B. vorne ist,"
-    },
-    {
-      "i": 773,
-      "start": 1365.17,
-      "end": 1367.17,
-      "text": "mit einem Klapper,"
-    },
-    {
-      "i": 774,
-      "start": 1367.17,
-      "end": 1369.17,
-      "text": "50% Klapper,"
-    },
-    {
-      "i": 775,
-      "start": 1369.17,
-      "end": 1371.17,
-      "text": "wo man später noch dazu kommt,"
-    },
-    {
-      "i": 776,
-      "start": 1371.17,
-      "end": 1373.17,
-      "text": "wenn man das macht,"
-    },
-    {
-      "i": 777,
-      "start": 1373.17,
-      "end": 1375.17,
-      "text": "kann ich das Schirm so entlasten,"
-    },
-    {
-      "i": 778,
-      "start": 1375.17,
-      "end": 1377.17,
-      "text": "dass die Chance gross ist,"
-    },
-    {
-      "i": 779,
-      "start": 1377.17,
-      "end": 1379.17,
+      "i": 682,
+      "start": 1350.66,
+      "end": 1352.66,
       "text": "dass der Knopf wieder aufgeht."
     },
     {
-      "i": 780,
-      "start": 1379.17,
-      "end": 1381.17,
+      "i": 683,
+      "start": 1352.66,
+      "end": 1353.66,
+      "text": "Es kann sein,"
+    },
+    {
+      "i": 684,
+      "start": 1353.66,
+      "end": 1354.66,
+      "text": "dass ich die Stabilo-Leine,"
+    },
+    {
+      "i": 685,
+      "start": 1354.66,
+      "end": 1355.66,
+      "text": "das ist die äusserste Farbe,"
+    },
+    {
+      "i": 686,
+      "start": 1355.66,
+      "end": 1357.66,
+      "text": "meistens die Trend-Leine,"
+    },
+    {
+      "i": 687,
+      "start": 1357.66,
+      "end": 1359.66,
+      "text": "die zum Stabilo geht,"
+    },
+    {
+      "i": 688,
+      "start": 1359.66,
+      "end": 1361.66,
+      "text": "dass ich diese runterziehe."
+    },
+    {
+      "i": 689,
+      "start": 1361.66,
+      "end": 1363.66,
+      "text": "Oder ich habe auch einen Knopf,"
+    },
+    {
+      "i": 690,
+      "start": 1363.66,
+      "end": 1365.66,
+      "text": "der zum Beispiel vorne ist,"
+    },
+    {
+      "i": 691,
+      "start": 1365.66,
+      "end": 1366.66,
+      "text": "mit einem Klapper,"
+    },
+    {
+      "i": 692,
+      "start": 1366.66,
+      "end": 1368.66,
+      "text": "50% Klapper,"
+    },
+    {
+      "i": 693,
+      "start": 1368.66,
+      "end": 1370.66,
+      "text": "wo wir später noch dazukommen,"
+    },
+    {
+      "i": 694,
+      "start": 1370.66,
+      "end": 1371.66,
+      "text": "wie man das macht,"
+    },
+    {
+      "i": 695,
+      "start": 1371.66,
+      "end": 1373.66,
+      "text": "kann ich den Schirm so entlasten,"
+    },
+    {
+      "i": 696,
+      "start": 1373.66,
+      "end": 1374.66,
+      "text": "dass die Chance gross ist,"
+    },
+    {
+      "i": 697,
+      "start": 1374.66,
+      "end": 1375.66,
+      "text": "dass der Knopf wieder aufgeht."
+    },
+    {
+      "i": 698,
+      "start": 1375.66,
+      "end": 1377.26,
       "text": "Wenn der Knopf aufgeht,"
     },
     {
-      "i": 781,
-      "start": 1381.17,
-      "end": 1383.17,
-      "text": "und man kann den Zustand von Grad ausflüge,"
+      "i": 699,
+      "start": 1377.26,
+      "end": 1378.26,
+      "text": "ist es ja super,"
     },
     {
-      "i": 782,
-      "start": 1383.17,
-      "end": 1385.17,
-      "text": "dann kann man so halte,"
+      "i": 700,
+      "start": 1378.26,
+      "end": 1379.26,
+      "text": "dann fliegen wir weiter,"
     },
     {
-      "i": 783,
-      "start": 1385.17,
-      "end": 1387.17,
-      "text": "dass man festgewichtene Lichter,"
+      "i": 701,
+      "start": 1379.26,
+      "end": 1380.26,
+      "text": "geniessen diesen Flug,"
     },
     {
-      "i": 784,
-      "start": 1387.17,
-      "end": 1389.17,
-      "text": "die Bezule gegen Brämsen,"
+      "i": 702,
+      "start": 1380.26,
+      "end": 1382.26,
+      "text": "wenn der Knopf nicht aufgeht."
     },
     {
-      "i": 785,
-      "start": 1389.17,
-      "end": 1391.17,
-      "text": "und Grad ausflüge,"
+      "i": 703,
+      "start": 1382.26,
+      "end": 1383.26,
+      "text": "Und wir können den Zustand"
     },
     {
-      "i": 786,
-      "start": 1391.17,
-      "end": 1393.17,
-      "text": "dann können wir uns entscheiden."
+      "i": 704,
+      "start": 1383.26,
+      "end": 1384.26,
+      "text": "von geradeaus fliegen"
     },
     {
-      "i": 787,
-      "start": 1393.17,
-      "end": 1395.17,
-      "text": "Und wenn wir uns die Frage mit 100%."
+      "i": 705,
+      "start": 1384.26,
+      "end": 1385.26,
+      "text": "gleich einmal so halten,"
     },
     {
-      "i": 788,
-      "start": 1395.17,
-      "end": 1397.17,
-      "text": "Ja, kann man beantworten."
+      "i": 706,
+      "start": 1385.26,
+      "end": 1387.26,
+      "text": "indem wir fest Gewicht hinlegen,"
     },
     {
-      "i": 789,
-      "start": 1397.17,
-      "end": 1399.17,
-      "text": "Dann machen wir es."
+      "i": 707,
+      "start": 1387.26,
+      "end": 1389.26,
+      "text": "ein wenig Gegenbremse geben"
     },
     {
-      "i": 790,
-      "start": 1399.17,
-      "end": 1401.17,
-      "text": "Dann gehen wir so gelandet."
+      "i": 708,
+      "start": 1389.26,
+      "end": 1390.26,
+      "text": "und geradeaus fliegen."
     },
     {
-      "i": 791,
-      "start": 1401.17,
-      "end": 1403.17,
-      "text": "Wenn wir aber unsicher sind,"
+      "i": 709,
+      "start": 1390.26,
+      "end": 1391.26,
+      "text": "Dann müssen wir uns entscheiden,"
     },
     {
-      "i": 792,
-      "start": 1403.17,
-      "end": 1405.17,
-      "text": "dann zeigen wir,"
+      "i": 710,
+      "start": 1391.26,
+      "end": 1393.26,
+      "text": "können wir so landen?"
     },
     {
-      "i": 793,
-      "start": 1405.17,
-      "end": 1407.17,
-      "text": "also, Flüge, Grad aus,"
+      "i": 711,
+      "start": 1393.26,
+      "end": 1395.26,
+      "text": "Und wenn wir uns diese Frage"
     },
     {
-      "i": 794,
-      "start": 1407.17,
-      "end": 1409.17,
-      "text": "ich kann das weisen,"
+      "i": 712,
+      "start": 1395.26,
+      "end": 1396.26,
+      "text": "mit 100 %"
     },
     {
-      "i": 795,
-      "start": 1409.17,
-      "end": 1411.17,
-      "text": "wie man schnell in die Überforderung kommt."
+      "i": 713,
+      "start": 1396.26,
+      "end": 1397.26,
+      "text": "beantworten können,"
     },
     {
-      "i": 796,
-      "start": 1411.17,
-      "end": 1413.17,
-      "text": "Dann macht es absolut sieben,"
+      "i": 714,
+      "start": 1397.26,
+      "end": 1398.26,
+      "text": "dann machen wir es."
     },
     {
-      "i": 797,
-      "start": 1413.17,
-      "end": 1415.17,
-      "text": "so lange man noch ein Stürer über ein grosses Feld,"
+      "i": 715,
+      "start": 1398.26,
+      "end": 1400.27,
+      "text": "Dann gehen wir so landen."
     },
     {
-      "i": 798,
-      "start": 1415.17,
-      "end": 1417.17,
-      "text": "möglichst nicht über Wald,"
+      "i": 716,
+      "start": 1400.27,
+      "end": 1402.27,
+      "text": "Wenn wir aber unsicher sind"
     },
     {
-      "i": 799,
-      "start": 1417.17,
-      "end": 1419.17,
-      "text": "um eine grosse Weise zu flüge,"
+      "i": 717,
+      "start": 1402.27,
+      "end": 1403.27,
+      "text": "und sagen,"
     },
     {
-      "i": 800,
-      "start": 1419.17,
-      "end": 1421.17,
-      "text": "und dann den Notschirm zu gehen."
+      "i": 718,
+      "start": 1403.27,
+      "end": 1404.27,
+      "text": "fliegen, geradeaus,"
     },
     {
-      "i": 801,
-      "start": 1421.17,
-      "end": 1423.17,
-      "text": "Notschirmsituationen können wir später noch dazu."
+      "i": 719,
+      "start": 1404.27,
+      "end": 1405.27,
+      "text": "ist ja gleich noch so weiss,"
     },
     {
-      "i": 802,
-      "start": 1423.17,
-      "end": 1425.17,
-      "text": "Aber das haben wir hier schon mal gehört."
+      "i": 720,
+      "start": 1405.27,
+      "end": 1406.27,
+      "text": "aber jetzt beim Landen"
     },
     {
-      "i": 803,
-      "start": 1425.17,
-      "end": 1427.36,
-      "text": "Tonskurven."
+      "i": 721,
+      "start": 1406.27,
+      "end": 1407.27,
+      "text": "sollte ich noch Kurven machen"
     },
     {
-      "i": 804,
-      "start": 1427.36,
-      "end": 1429.36,
-      "text": "Tonskurven ist auch das,"
+      "i": 722,
+      "start": 1407.27,
+      "end": 1408.27,
+      "text": "und noch gegen den Wind"
     },
     {
-      "i": 805,
-      "start": 1429.36,
-      "end": 1431.36,
-      "text": "wo man vermieden will,"
+      "i": 723,
+      "start": 1408.27,
+      "end": 1409.27,
+      "text": "und ich weiss nicht mal,"
     },
     {
-      "i": 806,
-      "start": 1431.36,
-      "end": 1433.36,
-      "text": "wie es unslos endlich Flug wegkostet."
+      "i": 724,
+      "start": 1409.27,
+      "end": 1410.27,
+      "text": "wo der Landeplatz ist,"
     },
     {
-      "i": 807,
-      "start": 1433.36,
-      "end": 1435.36,
-      "text": "Und die Zeit,"
+      "i": 725,
+      "start": 1410.27,
+      "end": 1411.27,
+      "text": "dann wird man schnell"
     },
     {
-      "i": 808,
-      "start": 1435.36,
-      "end": 1437.36,
-      "text": "also sprechen wir mit weniger Höhe an dem Punkt,"
+      "i": 726,
+      "start": 1411.27,
+      "end": 1412.27,
+      "text": "in die Überforderung kommen."
     },
     {
-      "i": 809,
-      "start": 1437.36,
-      "end": 1439.36,
-      "text": "wenn wir jetzt ein Punkt abheilen,"
+      "i": 727,
+      "start": 1412.27,
+      "end": 1413.27,
+      "text": "Dann macht es absolut Sinn,"
     },
     {
-      "i": 810,
-      "start": 1439.36,
-      "end": 1441.36,
-      "text": "und wir nur winken,"
+      "i": 728,
+      "start": 1413.27,
+      "end": 1414.27,
+      "text": "solange wir noch steuern können,"
     },
     {
-      "i": 811,
-      "start": 1441.36,
-      "end": 1443.36,
-      "text": "dann können wir einfach draufzuziehen,"
+      "i": 729,
+      "start": 1414.27,
+      "end": 1415.27,
+      "text": "über ein grosses Feld,"
     },
     {
-      "i": 812,
-      "start": 1443.36,
-      "end": 1445.36,
-      "text": "und wir können genauso höch,"
+      "i": 730,
+      "start": 1415.27,
+      "end": 1417.27,
+      "text": "möglichst nicht über den Wald,"
     },
     {
-      "i": 813,
-      "start": 1445.36,
-      "end": 1447.36,
-      "text": "schön höch, wie man wendet."
+      "i": 731,
+      "start": 1417.27,
+      "end": 1418.27,
+      "text": "über eine grosse Wiese zu fliegen"
     },
     {
-      "i": 814,
-      "start": 1447.36,
-      "end": 1449.36,
-      "text": "Wenn wir jetzt aber seit der Windkomponenten von links,"
+      "i": 732,
+      "start": 1418.27,
+      "end": 1420.27,
+      "text": "und dann den Notschirm zu geben."
     },
     {
-      "i": 815,
-      "start": 1449.36,
-      "end": 1451.36,
-      "text": "und wir würden einfach auf der Punkt zu flüge,"
+      "i": 733,
+      "start": 1420.27,
+      "end": 1421.29,
+      "text": "Notschirmsituationen"
     },
     {
-      "i": 816,
-      "start": 1451.36,
-      "end": 1453.36,
-      "text": "dann gibt es eine sogenannte Honskurven,"
+      "i": 734,
+      "start": 1421.29,
+      "end": 1423.29,
+      "text": "kommen wir später noch dazu,"
     },
     {
-      "i": 817,
-      "start": 1453.36,
-      "end": 1455.36,
-      "text": "von der wir über die Übertriebe gesagt haben,"
+      "i": 735,
+      "start": 1423.29,
+      "end": 1425.29,
+      "text": "aber dass ihr das schon mal gehört habt."
     },
     {
-      "i": 818,
-      "start": 1455.36,
-      "end": 1457.36,
-      "text": "einen grossen Umweg,"
+      "i": 736,
+      "start": 1426.29,
+      "end": 1427.78,
+      "text": "Die Hundskurve."
     },
     {
-      "i": 819,
-      "start": 1457.36,
-      "end": 1459.36,
-      "text": "und dann können wir dann auf der Punkt,"
+      "i": 737,
+      "start": 1427.78,
+      "end": 1429.78,
+      "text": "Die Hundskurve ist eigentlich das,"
     },
     {
-      "i": 820,
-      "start": 1459.36,
-      "end": 1461.36,
-      "text": "als man vielleicht wendet."
+      "i": 738,
+      "start": 1429.78,
+      "end": 1430.78,
+      "text": "was wir vermeiden wollen,"
     },
     {
-      "i": 821,
-      "start": 1461.36,
-      "end": 1463.36,
-      "text": "Darum müssen wir ein Vorhalterwinkel,"
+      "i": 739,
+      "start": 1430.78,
+      "end": 1431.78,
+      "text": "weil es uns schlussendlich"
     },
     {
-      "i": 822,
-      "start": 1463.36,
-      "end": 1465.36,
-      "text": "ein Vorhalterwinkel ist nichts anderes,"
+      "i": 740,
+      "start": 1431.78,
+      "end": 1432.78,
+      "text": "den Flugweg kostet"
     },
     {
-      "i": 823,
-      "start": 1465.36,
-      "end": 1467.36,
-      "text": "und einen Flugweg an man wählt."
+      "i": 741,
+      "start": 1432.78,
+      "end": 1433.78,
+      "text": "und die Zeit,"
     },
     {
-      "i": 824,
-      "start": 1467.36,
-      "end": 1469.84,
-      "text": "Und wenn wir da bitzchen,"
+      "i": 742,
+      "start": 1433.78,
+      "end": 1434.78,
+      "text": "also sprich,"
     },
     {
-      "i": 825,
-      "start": 1469.84,
-      "end": 1471.84,
-      "text": "gegen Wind wählt,"
+      "i": 743,
+      "start": 1434.78,
+      "end": 1435.78,
+      "text": "wir kommen weniger hoch an"
     },
     {
-      "i": 826,
-      "start": 1471.84,
-      "end": 1474.84,
-      "text": "dann machen wir eine schöne, gerade linie Richtung Punkt,"
+      "i": 744,
+      "start": 1435.78,
+      "end": 1436.78,
+      "text": "an dem Punkt,"
     },
     {
-      "i": 827,
-      "start": 1474.84,
-      "end": 1478.84,
-      "text": "und können wir so optimal dort an machen."
+      "i": 745,
+      "start": 1436.78,
+      "end": 1437.78,
+      "text": "an dem wir wollen."
+    },
+    {
+      "i": 746,
+      "start": 1437.78,
+      "end": 1439.78,
+      "text": "Wenn wir jetzt einen Punkt anpeilen"
+    },
+    {
+      "i": 747,
+      "start": 1439.78,
+      "end": 1440.78,
+      "text": "und wir haben null Wind,"
+    },
+    {
+      "i": 748,
+      "start": 1440.78,
+      "end": 1441.78,
+      "text": "dann kommen wir einfach darauf zu"
+    },
+    {
+      "i": 749,
+      "start": 1441.78,
+      "end": 1443.78,
+      "text": "und kommen genauso schön hoch an,"
+    },
+    {
+      "i": 750,
+      "start": 1443.78,
+      "end": 1444.78,
+      "text": "wie wir wollen."
+    },
+    {
+      "i": 751,
+      "start": 1444.78,
+      "end": 1445.78,
+      "text": "Wenn wir jetzt aber"
+    },
+    {
+      "i": 752,
+      "start": 1445.78,
+      "end": 1446.78,
+      "text": "Seitenwindkomponenten haben,"
+    },
+    {
+      "i": 753,
+      "start": 1446.78,
+      "end": 1448.78,
+      "text": "in diesem Fall von links,"
+    },
+    {
+      "i": 754,
+      "start": 1448.78,
+      "end": 1449.78,
+      "text": "und wir würden einfach"
+    },
+    {
+      "i": 755,
+      "start": 1449.78,
+      "end": 1450.78,
+      "text": "auf den Punkt zufliegen,"
+    },
+    {
+      "i": 756,
+      "start": 1450.78,
+      "end": 1451.78,
+      "text": "dann gibt es eine sogenannte"
+    },
+    {
+      "i": 757,
+      "start": 1451.78,
+      "end": 1452.78,
+      "text": "Hundskurve"
+    },
+    {
+      "i": 758,
+      "start": 1452.78,
+      "end": 1453.78,
+      "text": "und wir machen,"
+    },
+    {
+      "i": 759,
+      "start": 1453.78,
+      "end": 1454.78,
+      "text": "übertrieben gesagt,"
+    },
+    {
+      "i": 760,
+      "start": 1454.78,
+      "end": 1455.78,
+      "text": "einen grossen Umweg"
+    },
+    {
+      "i": 761,
+      "start": 1455.78,
+      "end": 1456.78,
+      "text": "und kommen dann deutlich"
+    },
+    {
+      "i": 762,
+      "start": 1456.78,
+      "end": 1457.78,
+      "text": "tiefer an den Punkt,"
+    },
+    {
+      "i": 763,
+      "start": 1457.78,
+      "end": 1458.78,
+      "text": "als wir vielleicht wollen."
+    },
+    {
+      "i": 764,
+      "start": 1458.78,
+      "end": 1459.78,
+      "text": "Darum müssen wir"
+    },
+    {
+      "i": 765,
+      "start": 1459.78,
+      "end": 1460.78,
+      "text": "einen Vorhalterwinkel wählen."
+    },
+    {
+      "i": 766,
+      "start": 1460.78,
+      "end": 1462.78,
+      "text": "Der Vorhalterwinkel ist nichts anderes,"
+    },
+    {
+      "i": 767,
+      "start": 1462.78,
+      "end": 1463.78,
+      "text": "als der Winkel zwischen"
+    },
+    {
+      "i": 768,
+      "start": 1463.78,
+      "end": 1464.78,
+      "text": "der Längsachse des Geräts"
+    },
+    {
+      "i": 769,
+      "start": 1464.78,
+      "end": 1465.78,
+      "text": "und dem Flugweg,"
+    },
+    {
+      "i": 770,
+      "start": 1465.78,
+      "end": 1466.78,
+      "text": "den wir wählen."
+    },
+    {
+      "i": 771,
+      "start": 1466.78,
+      "end": 1469.34,
+      "text": "Und wenn wir diesen"
+    },
+    {
+      "i": 772,
+      "start": 1469.34,
+      "end": 1471.34,
+      "text": "ein bisschen gegen den Wind wählen,"
+    },
+    {
+      "i": 773,
+      "start": 1471.34,
+      "end": 1473.34,
+      "text": "dann machen wir eine schöne,"
+    },
+    {
+      "i": 774,
+      "start": 1473.34,
+      "end": 1474.34,
+      "text": "gerade Linie"
+    },
+    {
+      "i": 775,
+      "start": 1474.34,
+      "end": 1475.34,
+      "text": "Richtung Punkt"
+    },
+    {
+      "i": 776,
+      "start": 1475.34,
+      "end": 1476.34,
+      "text": "und kommen so optimal"
+    },
+    {
+      "i": 777,
+      "start": 1476.34,
+      "end": 1477.34,
+      "text": "dort an,"
+    },
+    {
+      "i": 778,
+      "start": 1477.34,
+      "end": 1478.34,
+      "text": "wo wir wollen."
     }
   ]
 }

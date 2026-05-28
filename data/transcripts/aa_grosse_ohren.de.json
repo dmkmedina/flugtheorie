@@ -2,213 +2,123 @@
   "slug": "aa_grosse_ohren",
   "language": "de",
   "duration": 268.6084375,
-  "transcribed_in_sec": 24.3,
-  "model": "base",
+  "transcribed_in_sec": 18.4,
+  "model": "large-v3",
+  "settings": {
+    "device": "cuda",
+    "compute_type": "float16",
+    "beam_size": 10,
+    "initial_prompt_chars": 568,
+    "vad_min_silence_ms": 300
+  },
   "segments": [
     {
       "i": 1,
-      "start": 22.03,
-      "end": 33.52,
-      "text": "große Ur heißt einfach nochmal mehr Fläche da rein nehmen, anlegen, sehr, sehr große"
+      "start": 21.94,
+      "end": 49.57,
+      "text": "Große Ohren, heißt einfach nochmal mehr Fläche hereinnehmen, anlegen, sehr sehr große Sinkwerte, also wirklich sehr sehr hohe Sinkwerte, schon bereits im gerade Ausflug mit ein bisschen Rollen und Körperverlagerung bringen wir da Werte im zweistelligen Bereich hin, also sehr einfach und das ohne große körperliche Belastung."
     },
     {
       "i": 2,
-      "start": 33.52,
-      "end": 38.68,
-      "text": "Sinkwerte, also wirklich sehr, sehr hohe Sinkwerte, schon bereits in gerade Auszug mit ein"
+      "start": 49.57,
+      "end": 55.66,
+      "text": "Ist aber jetzt eher eine fortgeschrittene Technik, also das machen wir dann erst am Ende der Ausbildung."
     },
     {
       "i": 3,
-      "start": 38.68,
-      "end": 46.16,
-      "text": "bisschen Rollen und Körperverlagung bringen wir da Werte im 2-stelligen Bereichen, also sehr"
+      "start": 56.32,
+      "end": 63.72,
+      "text": "Schlussendlich möchte ich euch aber auch das mit auf den Weg geben, weil auch das eine Variante ist und wirklich wird vernichten, wenn es dann unbedingt sein muss."
     },
     {
       "i": 4,
-      "start": 46.16,
-      "end": 49.64,
-      "text": "einfach und das ohne große körperliche Belastung."
+      "start": 65.38,
+      "end": 73.14,
+      "text": "Die Technik ist praktisch identisch zur kleinen Ohren anlegen, nur dass wir jetzt zwei A-Leinen rechts und links nehmen."
     },
     {
       "i": 5,
-      "start": 49.64,
-      "end": 54.86,
-      "text": "Ist aber jetzt eher eine Fortgeschrift dann erweitig, also das machen wir dann erst um Ende"
+      "start": 73.14,
+      "end": 83.03,
+      "text": "Wir gehen auch wieder her, Bremse bleibt am Steg in der Hand. Warum? Das ist natürlich zum Aufpumpen, also wir müssen immer ein bisschen bereit sein für das."
     },
     {
       "i": 6,
-      "start": 54.86,
-      "end": 55.86,
-      "text": "der Ausbildung."
+      "start": 83.07,
+      "end": 104.74,
+      "text": "Deshalb behalten wir die Bremsen in der Hand, nehmt ihr den Beschleuniger her, auch da wieder leicht beschleunigen, symmetrisch und jetzt ist wichtig, jetzt müssen wir probieren die äußerste A-Leine zu nehmen rechts und die daneben stehende A-Leine."
     },
     {
       "i": 7,
-      "start": 55.86,
-      "end": 60.54,
-      "text": "Prusentlich möchte ich euch aber, auch das mit auf dem Weg geben, weil auch das eine Variante"
+      "start": 104.74,
+      "end": 116.3,
+      "text": "Und wir dürfen jetzt nicht zu weit unten ziehen, also nicht zu nah am Leidenschloss, weil sonst ziehen wir die innerste A-Leine mit und haben einen kompletten Einklapper, also einen Frontklapper."
     },
     {
       "i": 8,
-      "start": 60.54,
-      "end": 63.78,
-      "text": "ist und wirklich wird vernichten, wenn es dann unbedingt Zeitung ist."
+      "start": 117.22,
+      "end": 129.54,
+      "text": "Und deshalb müssen wir probieren möglichst hoch zu greifen, also hoch über das Leidenschloss, dann können wir zuerst abknicken und dann runterziehen und dann geben wir Gas."
     },
     {
       "i": 9,
-      "start": 63.78,
-      "end": 71.74,
-      "text": "Die Technik ist praktisch identisch, so kleine Noren anlegen, nur dass wir jetzt 2 A"
+      "start": 130.91,
+      "end": 140.99,
+      "text": "Sollten jetzt die Ohren sogar fest angelegt sein, können wir ein bisschen nach oben gehen und ein bisschen weniger Ohren anlegen und so die Ohrengröße sogar ein bisschen einstellen."
     },
     {
       "i": 10,
-      "start": 71.74,
-      "end": 73.46,
-      "text": "in einem rechten Weg nehmen."
+      "start": 141.51,
+      "end": 148.16,
+      "text": "Dann vielleicht sogar festhalten an dem Ort, wo ihr seid oder ihr könnt sie so behalten, je nachdem."
     },
     {
       "i": 11,
-      "start": 73.46,
-      "end": 79.54,
-      "text": "Also, wir gehen auch wieder her, bremsel bleibt umstehig in der Hand, warum, das ist natürlich"
+      "start": 148.16,
+      "end": 161.05,
+      "text": "Einfach fixieren am Haupttragegurt so nah wie es geht, dann mit der Körperverlagerung, je nachdem die Sinkgeschwindigkeit erhöhen oder auch nicht, den Gym nur gerade behalten, je nachdem was gewünscht ist."
     },
     {
       "i": 12,
-      "start": 79.54,
-      "end": 83.94,
-      "text": "zum Aufbunden, also wir müssen immer ein bisschen bereit sein für das Ganze, deshalb"
+      "start": 161.05,
+      "end": 173.45,
+      "text": "Und beim Ausleiten ist es jetzt wichtig, wir bleiben voll im Beschleuniger drinnen stehen, geben die A-Leinen symmetrisch nach oben frei und wenn die Ohren drinnen bleiben, pumpen, aber mit vollem Beschleuniger."
     },
     {
       "i": 13,
-      "start": 83.94,
-      "end": 89.02,
-      "text": "behalten wir die bremsel in der Hand, nimmt er den bescheuniger her, auch da wieder leicht"
+      "start": 173.45,
+      "end": 177.08,
+      "text": "Und erst wenn die Ohren draußen sind, gehen wir wieder ganz raus."
     },
     {
       "i": 14,
-      "start": 89.02,
-      "end": 99.86,
-      "text": "bescheunigen, sehme frisch und jetzt ist wichtig, jetzt müssen wir probieren, die äußerste"
+      "start": 177.08,
+      "end": 182.79,
+      "text": "Easy, man muss es nur ein paar mal machen."
     },
     {
       "i": 15,
-      "start": 99.86,
-      "end": 106.58,
-      "text": "A-Leine zu nehmen, rechts und die daneben stehen der A-Leine und wir dürfen jetzt nicht"
+      "start": 183.31,
+      "end": 197.15,
+      "text": "Nicht erschrecken, am Anfang wird sehr viel Fläche eingeklappt und das kann dazu führen, dass man da ein bisschen schockiert ist am Anfang, aber wir trainieren das Ganze ein paar mal."
     },
     {
       "i": 16,
-      "start": 106.58,
-      "end": 107.58,
-      "text": "so weit unten ziehen."
+      "start": 197.15,
+      "end": 204.45,
+      "text": "Und entscheidend ist einfach, dass man auch versucht nach oben zu blicken und zu schauen, wie viel habe ich jetzt eingeklappt."
     },
     {
       "i": 17,
-      "start": 107.58,
-      "end": 113.15,
-      "text": "Also, nicht zu nah am Leidenschloss, weil sonst ziehen wir die innerste A-Leine mit und haben"
+      "start": 204.45,
+      "end": 215.2,
+      "text": "Wenn es zu viel wäre und der Schirm praktisch gar nicht richtig geöffnet ist in der Mitte, lassen wir die A-Leinen etwas frei und haben so natürlich nachher ein bisschen..."
     },
     {
       "i": 18,
-      "start": 113.15,
-      "end": 117.67,
-      "text": "einen kompletten Einklapper, also ein Frontklapper."
-    },
-    {
-      "i": 19,
-      "start": 117.67,
-      "end": 123.95,
-      "text": "Und deshalb müssen wir probieren, möglichst hoch zu greifen, also hoch über das Leinen"
-    },
-    {
-      "i": 20,
-      "start": 123.95,
-      "end": 130.47,
-      "text": "Schloss, dann haben wir zuerst abknicken und dann runterziehen, und dann geben wir auf Gas."
-    },
-    {
-      "i": 21,
-      "start": 130.47,
-      "end": 136.23,
-      "text": "Sollten jetzt die Oven sogar fest angelegt sein, können wir ein bisschen nach oben gehen und"
-    },
-    {
-      "i": 22,
-      "start": 136.23,
-      "end": 141.87,
-      "text": "ein bisschen weniger Oren anlegen und so die Oren größer sogar ein bisschen einstellen,"
-    },
-    {
-      "i": 23,
-      "start": 141.87,
-      "end": 147.55,
-      "text": "dann vielleicht sogar festhalten nach dem Ort, wo wir seid, oder wir können sie so behalten"
-    },
-    {
-      "i": 24,
-      "start": 147.55,
-      "end": 153.95,
-      "text": "je nachdem einfach fixieren, am Haupttrag, so nah wie es geht, dann mit der Körpferververlagung"
-    },
-    {
-      "i": 25,
-      "start": 153.95,
-      "end": 159.93,
-      "text": "und je nachdem die Sinkgeschwindigkeit erhöhen oder auch nicht, den Jempo gerade behalten,"
-    },
-    {
-      "i": 26,
-      "start": 172.87,
-      "end": 173.87,
-      "text": "aber mit vollem Befläunen nicht auch."
-    },
-    {
-      "i": 27,
-      "start": 173.87,
-      "end": 177.87,
-      "text": "Und erst wenn die Oven draußen sind, gehen wir wieder ganz raus auf die Sinkgeschwindigkeit."
-    },
-    {
-      "i": 28,
-      "start": 177.87,
-      "end": 185.78,
-      "text": "Eigentlich wie sie, und muss es nur ein paar mal machen, nicht erschrecken, am Anfang wird"
-    },
-    {
-      "i": 29,
-      "start": 185.78,
-      "end": 192.82,
-      "text": "sehr viel Fläche eingeklappt und das kann dazu führen, dass wir da ein bisschen schockiertes"
-    },
-    {
-      "i": 30,
-      "start": 192.82,
-      "end": 200.66,
-      "text": "am Anfang, aber wir train, haben das ganze am paar mal und entscheidend ist einfach, dass wir auch"
-    },
-    {
-      "i": 31,
-      "start": 200.66,
-      "end": 206.1,
-      "text": "versucht nach oben zu blicken und zu schauen, wie viel habe ich jetzt eingeklappt, wenn es zu viel wäre"
-    },
-    {
-      "i": 32,
-      "start": 206.1,
-      "end": 211.1,
-      "text": "und der Schirm praktisch gar nicht richtig geöffnet ist in der Mitte, lassen wir die A-Linen etwas"
-    },
-    {
-      "i": 33,
-      "start": 211.1,
-      "end": 220.14,
-      "text": "frei und haben so natürlich nachat, ein bisschen mehr Spierung um den Schirm überhaupt zu steuern"
-    },
-    {
-      "i": 34,
-      "start": 220.14,
-      "end": 222.14,
-      "text": "und auf Richtung und Kurs zu weit."
+      "start": 216.35,
+      "end": 265.13,
+      "text": "...mehr Spielraum, um den Schirm überhaupt zu steuern und auf Richtung und Kurs zu behalten."
     }
-  ],
-  "source_file": "air_active_videos.json"
+  ]
 }

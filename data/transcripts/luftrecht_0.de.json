@@ -2,2084 +2,2607 @@
   "slug": "luftrecht_0",
   "language": "de",
   "duration": 1473.4506875,
-  "transcribed_in_sec": 358.9,
-  "model": "base",
+  "transcribed_in_sec": 172.5,
+  "model": "large-v3",
+  "settings": {
+    "device": "cuda",
+    "compute_type": "float16",
+    "beam_size": 10,
+    "initial_prompt_chars": 568,
+    "vad_min_silence_ms": 300
+  },
   "segments": [
     {
       "i": 1,
-      "start": 0.08,
-      "end": 13.66,
-      "text": "Hallo, meine Damen und Herren. Ich bin der Stefan von Frewings und ich werde heute ein bisschen etwas erzählen über das Thema Gesetzgebung und das Luftrecht."
+      "start": 5.75,
+      "end": 13.59,
+      "text": "Hallo zusammen, ich bin Stefan von Freewings und ich möchte euch heute etwas erzählen über das Thema Gesetzgebung und das Luftrecht."
     },
     {
       "i": 2,
-      "start": 13.66,
-      "end": 24.66,
-      "text": "Es ist vielleicht ein bisschen Angstthemen oder ein Thema, das wir in der Lehrenphasen auf die Prüfung von SNF&N vielleicht gerne mal ein bisschen auf die Zeit auszuschiebt."
+      "start": 14.27,
+      "end": 24.61,
+      "text": "Es ist vielleicht ein bisschen ein Angstthema oder ein Thema, das man in der Lernphase auf die Prüfung des SHV vielleicht gerne mal ein bisschen auf die Seite rausschiebt."
     },
     {
       "i": 3,
-      "start": 24.66,
-      "end": 28.66,
-      "text": "Vielleicht auch darum, weil es im Büchel zählend ist, vorkommt."
+      "start": 24.85,
+      "end": 27.73,
+      "text": "Vielleicht auch darum, weil es im Büchlein zu hinterst vorkommt."
     },
     {
       "i": 4,
-      "start": 28.66,
-      "end": 36.66,
-      "text": "Missziel heute ist zum einen ein bisschen Berührungssangst zu nehmen und auch in den Praxisbezug von dem ganzen rechlichen Teil zu zeigen."
+      "start": 27.73,
+      "end": 36.37,
+      "text": "Mein Ziel heute ist, um euch ein bisschen die Berührungsangst zu nehmen und euch auch ein bisschen den Praxisbezug von diesem ganzen rechtlichen Teil zu zeigen."
     },
     {
       "i": 5,
-      "start": 36.66,
-      "end": 46.66,
-      "text": "Auf der ersten Blick wirkt es vielleicht nicht ganz so Praxisrelevant und spannend wie vielleicht ein Trio oder Flugpraxis."
+      "start": 37.27,
+      "end": 46.03,
+      "text": "Auf den ersten Blick wirkt es vielleicht nicht ganz so praxisrelevant und spannend wie vielleicht ein Teil wie Meteo- oder Flugpraxis."
     },
     {
       "i": 6,
-      "start": 107.52,
-      "end": 114.52,
-      "text": "Wir können die ganze Schweizer Laufdruckarten in einem Auswendung kennen."
+      "start": 46.51,
+      "end": 52.25,
+      "text": "Es ist aber trotzdem relativ wichtig, dass man diese Sachen versteht und die Hintergründe kennt,"
     },
     {
       "i": 7,
-      "start": 114.52,
-      "end": 120.52,
-      "text": "Wenn wir einfach wissen, wenn ich das Fluggebiet ging, muss ich dort den Tag abklären und Gernal schauen."
+      "start": 52.43,
+      "end": 57.79,
+      "text": "dass man sicher und jederzeit legal unserem doch relativ verschärften,"
     },
     {
       "i": 8,
-      "start": 120.52,
-      "end": 124.52,
-      "text": "Das können sicher mit dem guten Gefühl im Flug starten."
+      "start": 57.81,
+      "end": 59.91,
+      "text": "verschachtelten Luftraum unterwegs ist."
     },
     {
       "i": 9,
-      "start": 124.52,
-      "end": 128.68,
-      "text": "Gut, dann werden wir jetzt wieder anfangen mit den nächsten paar Folien."
+      "start": 61.61,
+      "end": 70.8,
+      "text": "Genau, es ist ein Lernfach, es ist ganz klar, es gibt viele Paragrafen, die man ein bisschen auswendig lernen muss,"
     },
     {
       "i": 10,
-      "start": 128.68,
-      "end": 133.1,
-      "text": "Zuerst again zu der Definition der Hängegleiter."
+      "start": 71.34,
+      "end": 76.14,
+      "text": "viele Sachen, die im Büchlein stehen, die man nicht gross verstehen muss,"
     },
     {
       "i": 11,
-      "start": 164.1,
-      "end": 168.1,
-      "text": "Wir haben auch einen Sägelflüger oder einen Flugzeug."
+      "start": 76.26,
+      "end": 80.02,
+      "text": "wo es eher darum geht, dass man es büffelt und lernt."
     },
     {
       "i": 12,
-      "start": 168.1,
-      "end": 173.1,
-      "text": "Er oder Dynamisch gesehen, aber trotzdem immer noch einen Vorstab fähig sind."
+      "start": 80.16,
+      "end": 83.96,
+      "text": "Auf diese Sachen gehe ich jetzt weniger ein in dieser Präsentation."
     },
     {
       "i": 13,
-      "start": 173.1,
-      "end": 182.14,
-      "text": "Und dann können wir mit unseren Gleitschern, die auch in dieser Kategorie anstreffen sind."
+      "start": 84.3,
+      "end": 88.32,
+      "text": "Mir geht es vor allem um die Sachen, die man in der Hintergrund versteht"
     },
     {
       "i": 14,
-      "start": 182.14,
-      "end": 185.14,
-      "text": "Dann können wir zu den rechlichen Grundlagen."
+      "start": 88.32,
+      "end": 88.94,
+      "text": "und vor allem um die Sachen, die man in der Hintergrund versteht und vor allem um die Sachen, die man in der Hintergrund versteht."
     },
     {
       "i": 15,
-      "start": 185.14,
-      "end": 191.14,
-      "text": "Der Bund bestimmt oder eine lauter gesetzliche Bestimmungen von der Schweizer Laufdruck."
+      "start": 88.94,
+      "end": 97.14,
+      "text": "Mir geht es vor allem um den Aufbau der Segelflugkarte und wie diese Lufträume miteinander zusammenspielen"
     },
     {
       "i": 16,
-      "start": 191.14,
-      "end": 194.14,
-      "text": "Die Aufsicht über den ganzen Laufdruck hat Spazel."
+      "start": 97.14,
+      "end": 99.34,
+      "text": "und wie man sie dort zurecht findet."
     },
     {
       "i": 17,
-      "start": 194.14,
-      "end": 196.14,
-      "text": "Der Bund ist auch für die Zivilauffahrt."
+      "start": 99.94,
+      "end": 106.08,
+      "text": "Weil schlussendlich ist es wie bei vielen Themen so, es ist ganz wichtig, dass ihr wisst, wo nachzuschauen."
     },
     {
       "i": 18,
-      "start": 196.14,
-      "end": 206.14,
-      "text": "Und Spazel wiederum delegiert die Ausführung über alle die Hängegleiter Bestimmungen der SFV."
+      "start": 106.22,
+      "end": 114.1,
+      "text": "Ihr müsst nicht alles auswendig kennen oder die ganze Schweizer Luftraumkarte in- und auswendig kennen."
     },
     {
       "i": 19,
-      "start": 206.14,
-      "end": 209.84,
-      "text": "Am Schweizerischen Hängegleiter verbandt."
+      "start": 114.1,
+      "end": 117.98,
+      "text": "Ihr müsst einfach wissen, wenn ich in dieses Fluggebiet gehe, muss ich dort,"
     },
     {
       "i": 20,
-      "start": 209.84,
-      "end": 213.84,
-      "text": "Der SFV kümmert sich vor allem die Ausbildungen und Prüfungen."
+      "start": 117.98,
+      "end": 124.06,
+      "text": "da und da abklären und nachschauen, dass ihr sicher und mit einem guten Gefühl im Flug starten könnt."
     },
     {
       "i": 21,
-      "start": 214.84,
-      "end": 220.84,
-      "text": "Zusammenarbeit mit der Versicherungsarbeit, für die Tritthaftpflichtversicherung, für unser Spat."
+      "start": 124.98,
+      "end": 128.35,
+      "text": "Gut, dann würden wir jetzt gleich anfangen mit den nächsten paar Folien."
     },
     {
       "i": 22,
-      "start": 220.84,
-      "end": 226.84,
-      "text": "Er kümmert sich um den Wegkampf, um die Jugendförderung, um verschiedene Fluggebiet,"
+      "start": 128.75,
+      "end": 132.07,
+      "text": "Zuerst vielleicht einmal zu der Definition der Hängengleiter."
     },
     {
       "i": 23,
-      "start": 226.84,
-      "end": 229.84,
-      "text": "um den Wildschutz, um die Laufdrüme."
+      "start": 133.29,
+      "end": 137.01,
+      "text": "Wir mit unseren Gleitschirmen sind ja in der Kategorie Hängengleiter"
     },
     {
       "i": 24,
-      "start": 229.84,
-      "end": 231.84,
-      "text": "Und das ist alles ein bisschen harmoniert."
+      "start": 137.01,
+      "end": 143.83,
+      "text": "und hier, ganz grob und einfach gesagt, ist die Definition, ein Hängengleiter ist fußstartfähig"
     },
     {
       "i": 25,
-      "start": 231.84,
-      "end": 239.84,
-      "text": "Und uns, ja, ein schöner Spiel herum, ermöglicht, dass wir unser Hobby darin in der Schweiz ausführen."
+      "start": 143.83,
+      "end": 148.51,
+      "text": "und er ist kurz oder unmittelbar nach dem Start, dient er dazu,"
     },
     {
       "i": 26,
-      "start": 239.84,
-      "end": 243.84,
-      "text": "Die Gesetzesbestimmungen sind in der VWK in den Niedergeschrieben."
+      "start": 148.51,
+      "end": 154.45,
+      "text": "um Segelflüge auszuführen, Segel- und Gleitflüge, wie es so schön heisst."
     },
     {
       "i": 27,
-      "start": 243.84,
-      "end": 248.84,
-      "text": "Das ist die Verordnung über Luftfahrtzüge besonderen Kategorien."
+      "start": 154.45,
+      "end": 157.57,
+      "text": "Und das sind ganz unterschiedliche Fluggeräte in dieser Kategorie."
     },
     {
       "i": 28,
-      "start": 248.84,
-      "end": 257.22,
-      "text": "In der VWK steht vor allem wie es, wie und wo und wer mit so einem Gleichschirmteur unterwegs sind."
+      "start": 157.57,
+      "end": 163.65,
+      "text": "Ihr seht, die Delta sind hier drin, Starflügel, wie man sie in der Mitte sieht,"
     },
     {
       "i": 29,
-      "start": 257.22,
-      "end": 262.22,
-      "text": "Können wir auch gut mal googeln, damit wir natürlich nicht jeder Paragraf auswendigen lernen."
+      "start": 163.65,
+      "end": 168.05,
+      "text": "die schon eher etwas näher an einen Segelflüger oder Flugzeug kommen,"
     },
     {
       "i": 30,
-      "start": 262.22,
-      "end": 267.22,
-      "text": "Es ist einfach wichtig, dass er wissen, was die VWK ist und warum er in den Innenstadt entfernt wird."
+      "start": 168.05,
+      "end": 172.77,
+      "text": "also aerodynamisch gesehen, aber trotzdem immer noch fußstartfähig sind."
     },
     {
       "i": 31,
-      "start": 267.22,
-      "end": 271.22,
-      "text": "Es sind auch nicht alle, wenn sie nicht gefilmt sind."
+      "start": 172.77,
+      "end": 178.37,
+      "text": "Und dann kommen wir mit unseren Gleitschirmen, die auch in dieser Kategorie anzutreffen sind."
     },
     {
       "i": 32,
-      "start": 271.22,
-      "end": 275.22,
-      "text": "Es sind drei, vier, vielleicht fünf Seiten, die wir gut machen können."
+      "start": 178.53,
+      "end": 184.82,
+      "text": "Dann kommen wir zu den rechtlichen Grundlagen."
     },
     {
       "i": 33,
-      "start": 275.22,
-      "end": 278.22,
-      "text": "Und auch nicht alle, dass sie alles in den Ausfändigen lernen."
+      "start": 184.82,
+      "end": 190.9,
+      "text": "Also der Bund bestimmt oder erlaubt die gesetzlichen Bestimmungen des Schweizer Luftraums."
     },
     {
       "i": 34,
-      "start": 278.22,
-      "end": 282.64,
-      "text": "Dann, dann können wir da weitere Grundlagen. Im Hänge gleiter."
+      "start": 190.9,
+      "end": 196.66,
+      "text": "Die Aufsicht über den ganzen Luftraum hat das BATZL, das Bundesamt für Zivilluftfahrt,"
     },
     {
       "i": 35,
-      "start": 282.64,
-      "end": 285.64,
-      "text": "Also die Leidschirmte, die älter oder die Staufflüge."
+      "start": 196.66,
+      "end": 204.58,
+      "text": "und das BATZL wiederum delegiert die Ausführung über alle die Hängengleiterbestimmungen"
     },
     {
       "i": 36,
-      "start": 285.64,
-      "end": 287.64,
-      "text": "Wir haben nicht das Luftfahrtzüge."
+      "start": 204.58,
+      "end": 208.5,
+      "text": "am SAV, dem Schweizerischen Hängengleiterverband."
     },
     {
       "i": 37,
-      "start": 287.64,
-      "end": 288.64,
-      "text": "Die Lauffahrtzüge."
+      "start": 208.5,
+      "end": 212.7,
+      "text": "Der SAV kümmert sich vor allem um die Ausbildungen,"
     },
     {
       "i": 38,
-      "start": 288.64,
-      "end": 289.64,
-      "text": "Die Lauffahrtzüge."
+      "start": 213.02,
+      "end": 217.9,
+      "text": "um die Prüfungen, um die Zusammenarbeit mit Versicherungsanbietern"
     },
     {
       "i": 39,
-      "start": 290.64,
-      "end": 291.64,
-      "text": "Die Lauffahrtzüge."
+      "start": 217.9,
+      "end": 221.34,
+      "text": "für die Dritthaftpflichtversicherung für unseren Sport."
     },
     {
       "i": 40,
-      "start": 291.64,
-      "end": 292.64,
-      "text": "Die Lauffahrtzüge."
+      "start": 221.34,
+      "end": 224.94,
+      "text": "Er kümmert sich um den Wettkampf, um die Jugendförderung,"
     },
     {
       "i": 41,
-      "start": 292.64,
-      "end": 293.64,
-      "text": "Die Lauffahrtzüge."
+      "start": 224.94,
+      "end": 229.66,
+      "text": "um verschiedene Fluggebiete, um den Wildschutz, um die Lufträume"
     },
     {
       "i": 42,
-      "start": 293.64,
-      "end": 294.64,
-      "text": "Die Lauffahrtzüge."
+      "start": 229.66,
+      "end": 235.18,
+      "text": "und dass das alles ein bisschen harmoniert und uns einen schönen Spielraum ermöglicht,"
     },
     {
       "i": 43,
-      "start": 294.64,
-      "end": 297.64,
-      "text": "Die Lauffahrtzüge."
+      "start": 235.18,
+      "end": 239.76,
+      "text": "dass wir unser Hobby in der Schweiz ausführen."
     },
     {
       "i": 44,
-      "start": 386.5,
-      "end": 388.26,
-      "text": "Und die Luftfahrtzüge."
+      "start": 239.76,
+      "end": 243.12,
+      "text": "Die Gesetzesbestimmungen sind in der VLK drin."
     },
     {
       "i": 45,
-      "start": 397.5,
-      "end": 399.5,
-      "text": "Das Ganze von heute hat undехend!"
+      "start": 243.2,
+      "end": 249.52,
+      "text": "Da ist die Verordnung über Luftfahrzeuge besonderer Kategorien niedergeschrieben."
     },
     {
       "i": 46,
-      "start": 402.5,
-      "end": 407.5,
-      "text": "Unseremaanige, dass wir eine Hänge leiter sind,"
+      "start": 249.52,
+      "end": 257.04,
+      "text": "In der VLK steht vor allem, wie und wo und wer mit so einem Gleitschirmteuer unterwegs ist."
     },
     {
       "i": 47,
-      "start": 407.5,
-      "end": 410.5,
-      "text": "damit haben wir hier auch die Zusammenarbeit des Verband."
+      "start": 257.04,
+      "end": 262.0,
+      "text": "Da könnt ihr auch gut googlen, da müsst ihr natürlich nicht jeden Paragraph auswendig lernen."
     },
     {
       "i": 48,
-      "start": 410.5,
-      "end": 414.5,
-      "text": "Da können wir ziemlich viele Teilnehmer, eine gute Versicherung."
+      "start": 262.0,
+      "end": 266.4,
+      "text": "Es ist einfach wichtig, dass ihr wisst, was die VLK ist und was ungefähr dort drin steht"
     },
     {
       "i": 49,
-      "start": 414.5,
-      "end": 417.3,
-      "text": "über den Arbeitgeber oder über Krankenkassen,"
+      "start": 266.4,
+      "end": 268.4,
+      "text": "oder um was es geht."
     },
     {
       "i": 50,
-      "start": 417.3,
-      "end": 422.62,
-      "text": "wenn er aber öppert, am Boden oder auch am Gegenstand am Boden zu erfüllen."
+      "start": 268.4,
+      "end": 273.76,
+      "text": "Es sind auch nicht wahnsinnig viele Seiten, es sind etwa drei, vier, vielleicht fünf Seiten,"
     },
     {
       "i": 51,
-      "start": 422.62,
-      "end": 427.02,
-      "text": "Wenn jetzt nach der Landung ein bisschen zwicken, zum Beispiel und in den Auto in der Flüge fliegen,"
+      "start": 273.76,
+      "end": 278.43,
+      "text": "wo ihr gut durchlesen könnt, ohne dass ihr alles auswendig lernen müsst."
     },
     {
       "i": 52,
-      "start": 427.02,
-      "end": 431.82,
-      "text": "dann deckt er über eure Privathaftpflicht nicht und dort ist es dann ganz wichtig,"
+      "start": 278.43,
+      "end": 281.78,
+      "text": "Dann kommen hier weitere Grundlagen."
     },
     {
       "i": 53,
-      "start": 431.82,
-      "end": 437.38,
-      "text": "dass er eben so eine Hängegleiternhaftpflichtversicherung abgeschlossen hat."
+      "start": 281.78,
+      "end": 288.02,
+      "text": "Ein Hängegleiter, also ein Gleitschirmdelta oder Starflügler wird nicht ins Luftfahrtregister eingetragen."
     },
     {
       "i": 54,
-      "start": 437.38,
-      "end": 442.34,
-      "text": "Das Land und das Start auf öffentliche Strassen und auch Schipisten ist verboten."
+      "start": 288.02,
+      "end": 294.27,
+      "text": "Das ist speziell in der Luftfahrt, weil sonst die anderen eine Registrierung haben."
     },
     {
       "i": 55,
-      "start": 442.34,
-      "end": 445.14,
-      "text": "Das Land ist ganz wichtig, dass man da einhalten will."
+      "start": 294.27,
+      "end": 298.35,
+      "text": "Oder auch z.B. im Strassenverkehr muss ja jedes Auto eingetragen sein."
     },
     {
       "i": 56,
-      "start": 445.14,
-      "end": 453.78,
-      "text": "Und was auch erleichtert, dass kein Mindestatzall vor vorgesehen ist für Hängegleiternflüge."
+      "start": 298.35,
+      "end": 302.11,
+      "text": "Eine Kennzeichnung muss auf dem Schirm aber angebracht sein."
     },
     {
       "i": 57,
-      "start": 453.78,
-      "end": 457.7,
-      "text": "Also, als es prüfe, wenn man das Hand läuft in diesem Sinne nicht ab,"
+      "start": 304.91,
+      "end": 312.75,
+      "text": "Das sind Nummern, die jede oder jede Pilotin persönlich vom SAV bekommt und die dann auf dem Schirm anbringen muss."
     },
     {
       "i": 58,
-      "start": 457.7,
-      "end": 462.98,
-      "text": "es es macht natürlich schon Sinn, so dass man viel Rab bleibt, viel Routine gewöhnt in diesem Sport"
+      "start": 312.75,
+      "end": 319.09,
+      "text": "Da ist es noch wichtig, auch wenn ihr mehrere Schirme habt, diese Nummer ist immer genau die gleiche Nummer auf dem Schirm."
     },
     {
       "i": 59,
-      "start": 462.98,
-      "end": 467.58,
-      "text": "oder dass man, wenn man eine längere Pause kann, auch wieder ein Refresherkurs macht."
+      "start": 319.09,
+      "end": 323.09,
+      "text": "Immer eure persönlich ausgestellte SAV-Nummer."
     },
     {
       "i": 60,
-      "start": 467.62,
-      "end": 471.78,
-      "text": "Aber gesetzlich ist kein Mindestatzall auf die Flüge vorgeschrieben."
+      "start": 323.09,
+      "end": 328.42,
+      "text": "Die Luftdünftigkeit muss aber von keiner Instanz geprüft werden."
     },
     {
       "i": 61,
-      "start": 471.78,
-      "end": 477.82,
-      "text": "Denne ist ja der Schweizer Luftraum recht eng verschachtelt."
+      "start": 328.42,
+      "end": 333.22,
+      "text": "Also es ist nicht wie beim Auto, wo ihr alle zwei Jahre den MFK durchführen müsst."
     },
     {
       "i": 62,
-      "start": 477.82,
-      "end": 483.86,
-      "text": "Wir sind sehr dicht bewohnt innen und haben auch einen großen Luftverkehr."
+      "start": 333.22,
+      "end": 336.02,
+      "text": "In anderen Ländern ist es so bei den Gleitschirmen."
     },
     {
       "i": 63,
-      "start": 483.86,
-      "end": 488.46,
-      "text": "Aber nebst dem Ganzen, wo sich in der Luft abspielt, ist es auch ganz wichtig,"
+      "start": 336.02,
+      "end": 339.46,
+      "text": "In der Schweiz sind wir hier relativ frei."
     },
     {
       "i": 64,
-      "start": 488.46,
-      "end": 491.5,
-      "text": "dass man am Boden gewisse Regeln einhalten kann."
+      "start": 339.46,
+      "end": 346.9,
+      "text": "Oder anders gesagt, es ist sehr viel der Eigenverantwortung oder auch dem gesunden Menschenverstand überlassen."
     },
     {
       "i": 65,
-      "start": 491.54,
-      "end": 498.14,
-      "text": "Und da weite ich vor allem darauf aus, auf alle die Eigenässischen Schutzgebiete,"
+      "start": 346.9,
+      "end": 353.17,
+      "text": "Vorgeschrieben ist nichts, aber empfohlen ist, dass man einen Schirm alle zwei Jahre checkt."
     },
     {
       "i": 66,
-      "start": 498.14,
-      "end": 503.54,
-      "text": "auf die kantonale Wildruhe-Z nd, es gibt auch privates Schutzgebiete,"
+      "start": 353.17,
+      "end": 356.61,
+      "text": "Zu diesem Thema gehört ihr dann noch mehr in den Material."
     },
     {
       "i": 67,
-      "start": 503.54,
-      "end": 509.62,
-      "text": "so wie die ganze Huffel, lokale Verieparungen mit Wildhüttern und Jäger."
+      "start": 356.61,
+      "end": 359.73,
+      "text": "Und kommt natürlich ganz darauf an, wie viele Flüge man macht."
     },
     {
       "i": 68,
-      "start": 509.62,
-      "end": 516.18,
-      "text": "Und ein grosses Teil davon finde ich auf dieser Seite, auf map.gov.admine.ch,"
+      "start": 359.73,
+      "end": 366.13,
+      "text": "Also wenn man sehr, sehr viele Flüge macht, macht vielleicht auch einmal ein Check nach einem kürzeren Intervall Sinn."
     },
     {
       "i": 69,
-      "start": 547.18,
-      "end": 553.18,
-      "text": "wo auch beim SFV auf der Homepage thematisiert wird und der Fluggebiete Wildschutz."
+      "start": 366.85,
+      "end": 369.41,
+      "text": "Dann zum Notschirm und zum Helm."
     },
     {
       "i": 70,
-      "start": 553.18,
-      "end": 559.18,
-      "text": "Wenn er dort in der Günde, können er auch hängen, gleiten und wild tieren."
+      "start": 369.41,
+      "end": 376.29,
+      "text": "Das ist erstaunlicherweise nicht vorgeschrieben, sondern nur bei den Prüfungsflügen im Gesetz verankert,"
     },
     {
       "i": 71,
-      "start": 559.18,
-      "end": 564.18,
-      "text": "Das Dokument als PDF-Abaladen ist schon sehr interessant,"
+      "start": 376.29,
+      "end": 379.17,
+      "text": "dass man einen Helm anlegen muss und einen Notschirm dabei haben muss."
     },
     {
       "i": 72,
-      "start": 564.18,
-      "end": 569.18,
-      "text": "dass die Wälder die Bedrohung sind und auf Waden,"
+      "start": 379.17,
+      "end": 385.17,
+      "text": "Bei Wettkämpfen und anderen Gleitschirmanlässen ist es aber häufig der Fall, dass der Organisator dann vorschreibt."
     },
     {
       "i": 73,
-      "start": 569.18,
-      "end": 573.18,
-      "text": "dass man möglichst zu 8 und auch zu wehlen jahreszeiten."
+      "start": 385.17,
+      "end": 389.49,
+      "text": "Einfach aus Sicherheitsgründen, was durchaus auch Sinn macht."
     },
     {
       "i": 74,
-      "start": 573.18,
-      "end": 576.18,
-      "text": "Wärmst du uns empfehlen zum damalmen Blick in den Wärfen?"
+      "start": 389.49,
+      "end": 394.53,
+      "text": "Dann ist es ganz wichtig, dass wir eine Hängengleiterhaftpflichtversicherung haben."
     },
     {
       "i": 75,
-      "start": 576.18,
-      "end": 583.18,
-      "text": "Wir werden uns wieder vor allem auf der Luftraumteilbeschränkenderen präsent!"
+      "start": 396.85,
+      "end": 402.13,
+      "text": "Wir haben die Zusammenarbeit vom Verband mit einer grossen Versicherungsfirma in der Schweiz,"
     },
     {
       "i": 76,
-      "start": 583.18,
-      "end": 586.43,
-      "text": "Und damit geht es weiter mit dem Fahrtritt."
+      "start": 402.13,
+      "end": 409.33,
+      "text": "die dann schaut, dass wir mit sehr vielen Teilnehmern eine gute Versicherung abschliessen können."
     },
     {
       "i": 77,
-      "start": 586.43,
-      "end": 589.43,
-      "text": "In der Luftfahrt ist immer rechtsfahrtritt,"
+      "start": 409.33,
+      "end": 414.45,
+      "text": "Weil wenn ihr nämlich einen Unfall habt, seid ihr ja normal über die Unfallversicherung gedeckt,"
     },
     {
       "i": 78,
-      "start": 589.43,
-      "end": 591.43,
-      "text": "also es ist ganz seienlich im Strasseverkehr,"
+      "start": 414.45,
+      "end": 417.28,
+      "text": "über den Arbeitgeber oder über die Krankenkasse."
     },
     {
       "i": 79,
-      "start": 591.43,
-      "end": 594.43,
-      "text": "oder die Pilotin, die vor rechts kommt und hat Fahrtritt."
+      "start": 417.28,
+      "end": 422.56,
+      "text": "Wenn ihr aber jemandem am Boden oder auch einem Gegenstand am Boden einen Schaden zufügt,"
     },
     {
       "i": 80,
-      "start": 603.43,
-      "end": 607.43,
-      "text": "Wir müssen schnell handeln, obwohl der Gleitschirme noch eins von den Flugräten ist,"
+      "start": 422.56,
+      "end": 426.88,
+      "text": "also wenn nach der Landung ein bisschen Zweige kommen zum Beispiel und in ein Auto hineinfliegen,"
     },
     {
       "i": 81,
-      "start": 607.43,
-      "end": 609.43,
-      "text": "die sehr langsam flügt."
+      "start": 426.88,
+      "end": 429.92,
+      "text": "dann deckt ihr eure Privathaftpflicht nicht."
     },
     {
       "i": 82,
-      "start": 609.43,
-      "end": 613.43,
-      "text": "Wir müssen trotzdem das Motto heiß zu sehen und gesehen werden,"
+      "start": 429.92,
+      "end": 435.84,
+      "text": "Und dort ist es dann ganz wichtig, dass ihr so eine Hängengleiterhaftpflichtversicherung abgeschlossen habt."
     },
     {
       "i": 83,
-      "start": 613.43,
-      "end": 615.43,
-      "text": "also wirklich vor Auslücken."
+      "start": 435.84,
+      "end": 442.26,
+      "text": "Das Landen und Starten auf öffentlichen Strassen und auch Scheibpisten ist verboten."
     },
     {
       "i": 84,
-      "start": 615.43,
-      "end": 617.43,
-      "text": "Probieren und zu antizipieren,"
+      "start": 442.26,
+      "end": 444.5,
+      "text": "Es ist ganz wichtig, dass man das einhält."
     },
     {
       "i": 85,
-      "start": 617.43,
-      "end": 620.43,
-      "text": "was vielleicht die anderen in der Luft kommt,"
+      "start": 444.5,
+      "end": 453.86,
+      "text": "Und was auch erleichtert, dass keine Mindestanzahl vorgesehen ist für Hängengleiterflüge."
     },
     {
       "i": 86,
-      "start": 620.43,
-      "end": 623.43,
-      "text": "auch für Absicht der Haar, was vielleicht durchflügen."
+      "start": 453.86,
+      "end": 457.7,
+      "text": "Also euer Prövé, wenn ihr es mal habt, läuft in diesem Sinne nicht ab."
     },
     {
       "i": 87,
-      "start": 623.43,
-      "end": 626.43,
-      "text": "Und dass man so eigentlich schon Anfang ausweichen,"
+      "start": 457.7,
+      "end": 462.82,
+      "text": "Es macht natürlich schon Sinn, dass man viel dran bleibt, viele Routinen gewinnt in diesem Sport."
     },
     {
       "i": 88,
-      "start": 626.43,
-      "end": 628.43,
-      "text": "bevor es überhaupt eng wird."
+      "start": 462.82,
+      "end": 467.3,
+      "text": "Oder dass man, wenn man eine längere Pause hatte, auch wieder einen Refresherkurs macht."
     },
     {
       "i": 89,
-      "start": 628.43,
-      "end": 630.43,
-      "text": "Oder bevor man überhaupt von dieser Entscheidung steht,"
+      "start": 467.3,
+      "end": 471.79,
+      "text": "Aber gesetzlich ist keine Mindestanzahl an Flügen vorgeschrieben."
     },
     {
       "i": 90,
-      "start": 630.43,
-      "end": 632.43,
-      "text": "wer hat das Fahrtritt?"
+      "start": 471.79,
+      "end": 477.74,
+      "text": "Dann ist ja der Schweizer Luftraum recht eng verschachtelt."
     },
     {
       "i": 91,
-      "start": 632.43,
-      "end": 634.43,
-      "text": "Eigentlich ist das Ziel, um schon vorher reagieren,"
+      "start": 477.74,
+      "end": 483.82,
+      "text": "Wir sind sehr dicht bewohnt in diesem Land und haben auch einen grossen Luftverkehr."
     },
     {
       "i": 92,
-      "start": 634.43,
-      "end": 653.78,
-      "text": "dass man gerne so eine Situation in der Kund"
+      "start": 483.82,
+      "end": 488.3,
+      "text": "Aber nebst dem Ganzen, was sich in der Luft abspielt, ist es auch ganz wichtig,"
     },
     {
       "i": 93,
-      "start": 653.78,
-      "end": 654.88,
-      "text": "etwas eng wird."
+      "start": 489.18,
+      "end": 491.74,
+      "text": "dass man am Boden gewisse Regeln einhält."
     },
     {
       "i": 94,
-      "start": 654.88,
-      "end": 656.88,
-      "text": "Der Abstand ist nämlich auch nicht definiert."
+      "start": 491.74,
+      "end": 501.18,
+      "text": "Und da möchte ich v.a. auf alle die eidgenössischen Schutzgebiete und kantonale Wildruhezonen hinweisen."
     },
     {
       "i": 95,
-      "start": 656.88,
-      "end": 658.88,
-      "text": "Es ist ein bisschen kurz oder etwas ausweichen,"
+      "start": 501.18,
+      "end": 509.74,
+      "text": "Es gibt auch private Schutzgebiete sowie viele lokale Vereinbarungen mit Wildhütern und Jägern."
     },
     {
       "i": 96,
-      "start": 658.88,
-      "end": 660.88,
-      "text": "und auf einer weißen Ebete der Lande,"
+      "start": 509.74,
+      "end": 516.22,
+      "text": "Einen grossen Teil davon findet ihr auf dieser Seite, auf map.go.admin.ch,"
     },
     {
       "i": 97,
-      "start": 660.88,
-      "end": 680.46,
-      "text": "wenn es irgendwie eng wird, zum Thema"
+      "start": 516.22,
+      "end": 518.86,
+      "text": "wo ihr dann auch die verschiedenen Wildruhezonen findet."
     },
     {
       "i": 98,
-      "start": 680.46,
-      "end": 684.46,
-      "text": "zum Thema Randwirbel, und wie es ist, wenn man das Neukaufanand aufflügt,"
+      "start": 518.86,
+      "end": 519.66,
+      "text": "wo ihr dann auch die verschiedenen Wildruhezonen findet."
     },
     {
       "i": 99,
-      "start": 685.46,
-      "end": 688.46,
-      "text": "im Termichschluch, auch immer wieder eine Situation,"
+      "start": 519.74,
+      "end": 520.54,
+      "text": "Wo ihr dann auch die verschiedenen Wildruhezonen findet."
     },
     {
       "i": 100,
-      "start": 688.46,
-      "end": 690.46,
-      "text": "die man im Flügerall Tag erlebt,"
+      "start": 520.54,
+      "end": 522.54,
+      "text": "Hier könnt ihr z.B. die Jagdbahngebiete rausfiltern."
     },
     {
       "i": 101,
-      "start": 690.46,
-      "end": 692.46,
-      "text": "dass wir in den Termichschluch innen flügt."
+      "start": 522.54,
+      "end": 527.02,
+      "text": "Und wenn ihr draufklickt, seht ihr, dass sie von wann bis wann aktiv sind."
     },
     {
       "i": 102,
-      "start": 692.46,
-      "end": 695.46,
-      "text": "Und sich dannal sich dann bewusst sein,"
+      "start": 527.02,
+      "end": 535.1,
+      "text": "So können wir das Wild und die Natur möglichst schonen und damit schützen, dass wir unseren Sport schützen können."
     },
     {
       "i": 103,
-      "start": 695.46,
-      "end": 697.46,
-      "text": "ich will richtig, dass man es treibt."
+      "start": 535.1,
+      "end": 543.9,
+      "text": "Damit wir uns hier nicht etwas zu fest rein falschen gehen sollen."
     },
     {
       "i": 104,
-      "start": 697.46,
-      "end": 700.46,
-      "text": "Und ganz interessant ist es nicht,"
+      "start": 543.9,
+      "end": 547.9,
+      "text": "Das ist ein sehr wichtiges Thema, das auch beim SAV auf der Homepage vorgelegt wird."
     },
     {
       "i": 105,
-      "start": 700.46,
-      "end": 702.46,
-      "text": "der unterst oder die Oberstpiloten,"
+      "start": 547.9,
+      "end": 548.86,
+      "text": "Das ist ein sehr wichtiges Thema, das auch beim SAV auf der Homepage vorgelegt wird."
     },
     {
       "i": 106,
-      "start": 702.46,
-      "end": 704.46,
-      "text": "wo es sein muss, wo es durchgehen geht,"
+      "start": 548.86,
+      "end": 552.54,
+      "text": "thematisiert wird unter Flutgebiet Wildschutz."
     },
     {
       "i": 107,
-      "start": 704.46,
-      "end": 707.46,
-      "text": "sondern das, die erst zu dem Schluch,"
+      "start": 553.45,
+      "end": 558.92,
+      "text": "Wenn ihr dort reingeht, könnt ihr auch Hängegleiten und Wildtiere"
     },
     {
       "i": 108,
-      "start": 707.46,
-      "end": 709.46,
-      "text": "gibt es die Drehrichtung."
+      "start": 558.92,
+      "end": 561.48,
+      "text": "das Dokument als PDF herunterladen."
     },
     {
       "i": 109,
-      "start": 709.46,
-      "end": 711.46,
-      "text": "Also auch eine höchere innen Flüger,"
+      "start": 561.48,
+      "end": 567.81,
+      "text": "Es ist sehr interessant zu sehen, welche Arten wo bedroht sind"
     },
     {
       "i": 110,
-      "start": 711.46,
-      "end": 712.46,
-      "text": "also jemand anders,"
+      "start": 567.81,
+      "end": 571.97,
+      "text": "und auf was man achten sollte und auch zu welcher Jahreszeit."
     },
     {
       "i": 111,
-      "start": 712.46,
-      "end": 715.46,
-      "text": "wenn der Unterlingstreib mit der Aulingstreibe ist,"
+      "start": 572.45,
+      "end": 576.01,
+      "text": "Also kann ich es wärmstens empfehlen, um hier einen Blick hineinzuwerfen."
     },
     {
       "i": 112,
-      "start": 715.46,
-      "end": 716.46,
-      "text": "denn es kann ja sein,"
+      "start": 576.01,
+      "end": 583.03,
+      "text": "Wir werden uns jetzt aber vor allem auf den Luftraumteilen in dieser Präsentation beschränken."
     },
     {
       "i": 113,
-      "start": 716.46,
-      "end": 720.46,
-      "text": "dass der oder die Unterrei ein bisschen besser flügt,"
+      "start": 583.03,
+      "end": 586.56,
+      "text": "Somit geht es gleich weiter mit dem Vortritt."
     },
     {
       "i": 114,
-      "start": 720.46,
-      "end": 721.46,
-      "text": "ein besseres Schirm hat,"
+      "start": 586.56,
+      "end": 588.64,
+      "text": "In der Luftfahrt ist immer Rechtsvortritt."
     },
     {
       "i": 115,
-      "start": 721.46,
-      "end": 724.46,
-      "text": "oder einfach ja schöner in den Termichsch."
+      "start": 588.64,
+      "end": 590.64,
+      "text": "Es ist ganz ähnlich wie im Strassenverkehr."
     },
     {
       "i": 116,
-      "start": 724.46,
-      "end": 725.46,
-      "text": "Und auch ein E-Holt,"
+      "start": 590.64,
+      "end": 594.64,
+      "text": "Der oder die Pilotin, die von rechts kommt, hat Vortritt."
     },
     {
       "i": 117,
-      "start": 725.46,
-      "end": 727.46,
-      "text": "und wenn er dann nämlich auf der gleichen Höhe sind"
+      "start": 594.64,
+      "end": 598.65,
+      "text": "Nur im ganz grossen Unterschied zum Strassenverkehr"
     },
     {
       "i": 118,
-      "start": 727.46,
-      "end": 728.46,
-      "text": "und gegengleich treibt,"
+      "start": 598.65,
+      "end": 601.65,
+      "text": "können wir nicht einfach anhalten oder Pause drücken."
     },
     {
       "i": 119,
-      "start": 728.46,
-      "end": 730.46,
-      "text": "dann haben er, wenn er auf einer Anzuhung kommt,"
+      "start": 601.65,
+      "end": 604.65,
+      "text": "Wenn wir uns nahe kommen, müssen wir schnell handeln,"
     },
     {
       "i": 120,
-      "start": 730.46,
-      "end": 731.46,
-      "text": "..."
+      "start": 604.65,
+      "end": 606.65,
+      "text": "obwohl der Gleitschirm ja noch eines der"
     },
     {
       "i": 121,
-      "start": 731.46,
-      "end": 733.46,
-      "text": "mit rechthochige Geschwindigkeitsdifferenz,"
+      "start": 606.65,
+      "end": 608.65,
+      "text": "Fluggeräte ist, das sehr langsam fliegt,"
     },
     {
       "i": 122,
-      "start": 733.46,
-      "end": 734.46,
-      "text": "wo er dann auch wieder könnt,"
+      "start": 608.65,
+      "end": 612.65,
+      "text": "müssen wir trotzdem das Motto «Sehen und gesehen werden»"
     },
     {
       "i": 123,
-      "start": 734.46,
-      "end": 735.46,
-      "text": "geförlich sind."
+      "start": 612.65,
+      "end": 614.65,
+      "text": "also wirklich vorausschauen,"
     },
     {
       "i": 124,
-      "start": 735.46,
-      "end": 736.46,
-      "text": "Darum immer ganz wichtig,"
+      "start": 614.65,
+      "end": 618.65,
+      "text": "probieren zu antizipieren, was vielleicht die anderen in der Luft"
     },
     {
       "i": 125,
-      "start": 736.46,
-      "end": 738.46,
-      "text": "in gleiche nur zeigen sind treiben."
+      "start": 618.65,
+      "end": 622.65,
+      "text": "für Absichten haben könnten, wo sie vielleicht durchfliegen möchten"
     },
     {
       "i": 126,
-      "start": 738.46,
-      "end": 740.49,
-      "text": "Und interessant ist auch noch,"
+      "start": 622.65,
+      "end": 625.65,
+      "text": "und dass man so eigentlich schon anfängt auszuweichen,"
     },
     {
       "i": 127,
-      "start": 740.49,
-      "end": 743.49,
-      "text": "en ich auch darauf, dass er auch bei den Vögel im gleichen Kreis dreie,"
+      "start": 625.65,
+      "end": 627.65,
+      "text": "bevor es überhaupt eng wird"
     },
     {
       "i": 128,
-      "start": 743.49,
-      "end": 745.49,
-      "text": "oder im gleichen Urzeigen sind,"
+      "start": 627.65,
+      "end": 630.65,
+      "text": "oder bevor man überhaupt vor dieser Entscheidung steht,"
     },
     {
       "i": 129,
-      "start": 745.49,
-      "end": 746.49,
-      "text": "dann vielleicht lustig,"
+      "start": 630.65,
+      "end": 632.65,
+      "text": "hey, wer hat jetzt Vortritt."
     },
     {
       "i": 130,
-      "start": 746.49,
-      "end": 747.49,
-      "text": "aber auch die Vögel,"
+      "start": 632.65,
+      "end": 634.65,
+      "text": "Also eigentlich ist das Ziel, schon vorher zu reagieren,"
     },
     {
       "i": 131,
-      "start": 747.49,
-      "end": 749.49,
-      "text": "die haben sich in unseren Breiten gerade,"
+      "start": 634.65,
+      "end": 638.65,
+      "text": "dass man gerne in so eine Situation reinkommt, wo es eng wird."
     },
     {
       "i": 132,
-      "start": 749.49,
-      "end": 752.49,
-      "text": "wo es gleich am Flügel ja sehr verbreitet,"
+      "start": 638.65,
+      "end": 641.28,
+      "text": "Der Abstand ist nämlich auch nicht definiert."
     },
     {
       "i": 133,
-      "start": 752.49,
-      "end": 754.49,
-      "text": "die ist uns gewöhnt."
+      "start": 641.28,
+      "end": 647.28,
+      "text": "Der wird einfach als genügend Sicherheitsabstand bezeichnet."
     },
     {
       "i": 134,
-      "start": 754.49,
-      "end": 755.49,
-      "text": "Und die Dreie hat ganz friedlich,"
+      "start": 647.28,
+      "end": 651.28,
+      "text": "Auch hier wieder gesunder Menschenverstand."
     },
     {
       "i": 135,
-      "start": 755.49,
-      "end": 756.49,
-      "text": "in der meisten Fer,"
+      "start": 651.28,
+      "end": 654.28,
+      "text": "Lieber einmal etwas mehr Abstand halten als zu wenig."
     },
     {
       "i": 136,
-      "start": 756.49,
-      "end": 757.49,
-      "text": "mit uns mit,"
+      "start": 654.28,
+      "end": 659.48,
+      "text": "Lieber einmal eine Landung etwas zu kurz kommen oder etwas ausweichen"
     },
     {
       "i": 137,
-      "start": 757.49,
-      "end": 758.49,
-      "text": "aber wenn wir natürlich auch fangen,"
+      "start": 659.48,
+      "end": 663.56,
+      "text": "und auf einer Weise nebenan landen, wenn es irgendwie eng wird."
     },
     {
       "i": 138,
-      "start": 758.49,
-      "end": 759.49,
-      "text": "den Gegend dreie,"
+      "start": 663.56,
+      "end": 669.56,
+      "text": "Zum Thema Randwirbel und wie es ist, wenn man zu nah aufeinander auffliegt,"
     },
     {
       "i": 139,
-      "start": 759.49,
-      "end": 761.49,
-      "text": "dann verschränken die auch,"
+      "start": 669.56,
+      "end": 674.56,
+      "text": "gehört dann auch noch im Teil Flugpraxis oder Aerodynamik."
     },
     {
       "i": 140,
-      "start": 761.49,
-      "end": 762.49,
-      "text": "im Dürbsten Fall,"
+      "start": 674.56,
+      "end": 676.99,
+      "text": "Genau."
     },
     {
       "i": 141,
-      "start": 762.49,
-      "end": 764.49,
-      "text": "versuchen wir es irgendwie weg,"
+      "start": 676.99,
+      "end": 679.99,
+      "text": "Das Überholen im freien Luftraum ist erlaubt."
     },
     {
       "i": 142,
-      "start": 764.49,
-      "end": 766.49,
-      "text": "von ihnen seinem Heimgebiet,"
+      "start": 679.99,
+      "end": 681.99,
+      "text": "Am Hang ist es verboten."
     },
     {
       "i": 143,
-      "start": 766.49,
-      "end": 769.49,
-      "text": "weil ja sicher gerne gut wäre."
+      "start": 681.99,
+      "end": 686.13,
+      "text": "Zu den Hangvortrittsregeln kommen wir gleich noch in den nächsten Folien."
     },
     {
       "i": 144,
-      "start": 769.49,
-      "end": 770.49,
-      "text": "Darum auch nicht."
+      "start": 686.13,
+      "end": 689.13,
+      "text": "Im Thermikschlauch auch immer wieder eine Situation,"
     },
     {
       "i": 145,
-      "start": 770.49,
-      "end": 771.49,
-      "text": "Dürn vielleicht lustig,"
+      "start": 689.13,
+      "end": 691.13,
+      "text": "die man im Fliegeralltag erlebt,"
     },
     {
       "i": 146,
-      "start": 771.49,
-      "end": 772.49,
-      "text": "aber schauen wir das,"
+      "start": 691.13,
+      "end": 693.13,
+      "text": "dass man in den Thermikschlauch hineinfliegt"
     },
     {
       "i": 147,
-      "start": 772.49,
-      "end": 775.49,
-      "text": "dass wir bei den Vögel im gleichen Urzeigen dreiden."
+      "start": 693.13,
+      "end": 697.13,
+      "text": "und sich dann bewusst sein muss, in welche Richtung man dreht."
     },
     {
       "i": 148,
-      "start": 775.49,
-      "end": 777.49,
-      "text": "Und meistens flügt es sowieso viel besser,"
+      "start": 697.13,
+      "end": 700.13,
+      "text": "Und das ist nämlich noch ganz interessant."
     },
     {
       "i": 149,
-      "start": 777.49,
-      "end": 778.49,
-      "text": "wie wir uns überhöhen,"
+      "start": 700.13,
+      "end": 704.13,
+      "text": "Es ist nicht der unterste oder die oberste Pilotin, die sagt, wo es durchgeht,"
     },
     {
       "i": 150,
-      "start": 778.49,
-      "end": 780.49,
-      "text": "uns dann ziemlich schnell."
+      "start": 704.13,
+      "end": 707.13,
+      "text": "sondern der Schirm, der als erstes in diesem Schlauch ist,"
     },
     {
       "i": 151,
-      "start": 780.49,
-      "end": 782.49,
-      "text": "Den können wir zu den Fortschröcken am Hang."
+      "start": 707.13,
+      "end": 709.13,
+      "text": "gibt die Drehrichtung an."
     },
     {
       "i": 152,
-      "start": 782.49,
-      "end": 783.49,
-      "text": "Auch da wieder,"
+      "start": 709.13,
+      "end": 712.13,
+      "text": "Also auch wenn ihr höher hineinfliegt als jemand anderes,"
     },
     {
       "i": 153,
-      "start": 783.49,
-      "end": 784.49,
-      "text": "dass man von uns auf auf die Foto"
+      "start": 712.13,
+      "end": 715.13,
+      "text": "wenn der da unten links dreht, müsst ihr auch links drehen,"
     },
     {
       "i": 154,
-      "start": 784.49,
-      "end": 785.49,
-      "text": "noch einmal fangen,"
+      "start": 715.13,
+      "end": 720.13,
+      "text": "weil es kann ja sein, dass der oder die unter euch ein bisschen besser fliegt,"
     },
     {
       "i": 155,
-      "start": 785.49,
-      "end": 787.49,
-      "text": "die uns ja recht zu erwischen,"
+      "start": 720.13,
+      "end": 722.13,
+      "text": "einen besseren Schirm hat,"
     },
     {
       "i": 156,
-      "start": 787.49,
-      "end": 789.52,
-      "text": "ob er nicht nur auf 90 grade auf die Foto"
+      "start": 722.13,
+      "end": 725.13,
+      "text": "der einfach schöner in der Thermik ist und euch einholt."
     },
     {
       "i": 157,
-      "start": 789.52,
-      "end": 790.52,
-      "text": "sondern auch auf die Fronten,"
+      "start": 725.13,
+      "end": 729.13,
+      "text": "Und wenn ihr dann nämlich auf der gleichen Höhe seid und gegengleich dreht,"
     },
     {
       "i": 158,
-      "start": 790.52,
-      "end": 791.52,
-      "text": "immer recht zu erwischen,"
+      "start": 729.13,
+      "end": 731.13,
+      "text": "dann habt ihr, wenn ihr aufeinander zukommt,"
     },
     {
       "i": 159,
-      "start": 791.52,
-      "end": 793.52,
-      "text": "am Hang ist es dann so,"
+      "start": 731.13,
+      "end": 733.13,
+      "text": "eine recht hohe Geschwindigkeitsdifferenz,"
     },
     {
       "i": 160,
-      "start": 793.52,
-      "end": 794.52,
-      "text": "dass ihr öppert,"
+      "start": 733.13,
+      "end": 735.13,
+      "text": "die dann auch wieder gefährlich sein könnte."
     },
     {
       "i": 161,
-      "start": 794.52,
-      "end": 796.52,
-      "text": "von diesen beiden schon,"
+      "start": 735.13,
+      "end": 738.13,
+      "text": "Darum immer ganz wichtig, im gleichen Uhrzeigersinn zu drehen."
     },
     {
       "i": 162,
-      "start": 796.52,
-      "end": 797.52,
-      "text": "nach rechts,"
+      "start": 738.13,
+      "end": 741.47,
+      "text": "Und interessant ist auch noch, achtet darauf,"
     },
     {
       "i": 163,
-      "start": 797.52,
-      "end": 801.4,
-      "text": "wie keine Optionen hat oder nicht groß, aus wie ein Traum."
+      "start": 741.47,
+      "end": 744.47,
+      "text": "dass ihr auch bei den Vögeln im gleichen Kreis dreht"
     },
     {
       "i": 164,
-      "start": 801.4,
-      "end": 807.92,
-      "text": "Auch da wieder ist es natürlich schön, wenn jetzt der Grüeschirme rücksichtsvoll flügt"
+      "start": 744.47,
+      "end": 746.47,
+      "text": "oder im gleichen Uhrzeigersinn."
     },
     {
       "i": 165,
-      "start": 807.92,
-      "end": 811.52,
-      "text": "und schon frühe, auch fangt aus wie ich, und nicht erst in der Lehre zu schüchselt."
+      "start": 746.47,
+      "end": 748.47,
+      "text": "Das klingt vielleicht lustig, aber auch die Vögel,"
     },
     {
       "i": 166,
-      "start": 811.52,
-      "end": 812.52,
-      "text": "Ein."
+      "start": 748.47,
+      "end": 750.47,
+      "text": "die haben sich in unserem Breitengrad,"
     },
     {
       "i": 167,
-      "start": 812.52,
-      "end": 816.52,
-      "text": "Ein paar Meter, wie natürlich der Hang auf jeden Fall nachher am Hang besser ist."
+      "start": 750.47,
+      "end": 753.47,
+      "text": "weil das Gleitschirmfliegen ja sehr verbreitet ist,"
     },
     {
       "i": 168,
-      "start": 816.52,
-      "end": 823.34,
-      "text": "Auch da, ja, schauen wir hin, wie es, die Zeit, die Gänfe, die Zeit, die Zesache,"
+      "start": 753.47,
+      "end": 757.47,
+      "text": "an uns gewöhnt und die drehen ganz friedlich in den meisten Fällen mit uns mit."
     },
     {
       "i": 169,
-      "start": 823.34,
-      "end": 826.34,
-      "text": "so ein Weg drehen vom Hang, dass der anderen Schirm weiss,"
+      "start": 757.47,
+      "end": 759.47,
+      "text": "Aber wenn wir natürlich anfangen, dagegen zu drehen,"
     },
     {
       "i": 170,
-      "start": 826.34,
-      "end": 829.34,
-      "text": "hat mich gesehen und dann lauft man Platz zum Verbeiflügen."
+      "start": 759.47,
+      "end": 761.47,
+      "text": "dann verschrecken die auch."
     },
     {
       "i": 171,
-      "start": 829.34,
-      "end": 833.34,
-      "text": "Und vielmehr ist darauf, find ich ganz nahe am Hang auch nicht einmal unbedingt besser,"
+      "start": 761.47,
+      "end": 766.47,
+      "text": "Im tiefsten Fall verscheuchen wir es irgendwie weg von ihrem Heimgebiet,"
     },
     {
       "i": 172,
-      "start": 833.34,
-      "end": 835.78,
-      "text": "wie ich da wege."
+      "start": 766.47,
+      "end": 769.47,
+      "text": "was ja sicher gerne nicht gut wäre."
     },
     {
       "i": 173,
-      "start": 835.78,
-      "end": 839.45,
-      "text": "Genau, so kann man den schönen Ampfer bei."
+      "start": 769.47,
+      "end": 771.47,
+      "text": "Darum auch dort, klingt vielleicht lustig,"
     },
     {
       "i": 174,
-      "start": 839.45,
-      "end": 842.45,
-      "text": "Dann ist eine Definition vom Überholen."
+      "start": 771.47,
+      "end": 775.68,
+      "text": "aber schaut auch, dass ihr bei den Vögeln im gleichen Uhrzeigersinn dreht."
     },
     {
       "i": 175,
-      "start": 842.45,
-      "end": 847.45,
-      "text": "Da ist es sehr theoretisch und auch mega auf der rechte Teil bezogen,"
+      "start": 775.68,
+      "end": 777.68,
+      "text": "Und meistens fliegen sie sowieso viel besser als wir"
     },
     {
       "i": 176,
-      "start": 847.45,
-      "end": 849.45,
-      "text": "aber im Büchchen ist es beschrieben."
+      "start": 777.68,
+      "end": 779.68,
+      "text": "und überhöhen uns dann ziemlich schnell."
     },
     {
       "i": 177,
-      "start": 849.45,
-      "end": 852.45,
-      "text": "Und die hast schon vielmehr erlebt, dass die Flugschölle mich fragenten,"
+      "start": 780.95,
+      "end": 782.95,
+      "text": "Dann kommen wir zu der Vortrittsregel am Hang."
     },
     {
       "i": 178,
-      "start": 852.45,
-      "end": 856.45,
-      "text": "weil es ein bisschen verwirrt war, von der Erklärung oder von der Darstellung."
+      "start": 782.95,
+      "end": 785.95,
+      "text": "Auch hier wieder, wenn wir frontal aufeinander zufliegen,"
     },
     {
       "i": 179,
-      "start": 856.45,
-      "end": 858.45,
-      "text": "Da geht es eigentlich vor allem darum,"
+      "start": 785.95,
+      "end": 788.25,
+      "text": "weichen wir ja rechts aus."
     },
     {
       "i": 180,
-      "start": 858.45,
-      "end": 861.45,
-      "text": "zum unterscheiden Wattselt als Überholen"
+      "start": 788.25,
+      "end": 790.25,
+      "text": "Nicht nur, wenn wir 90 Grad aufeinander zufliegen,"
     },
     {
       "i": 181,
-      "start": 861.45,
-      "end": 866.45,
-      "text": "und Wattselt als einfach Krütze oder vor Rechts sich anöchern."
+      "start": 790.25,
+      "end": 792.25,
+      "text": "sondern auch frontal immer rechts ausweichen."
     },
     {
       "i": 182,
-      "start": 866.45,
-      "end": 870.45,
-      "text": "Und da beschrieben mit dem Winkel von einer 70°,"
+      "start": 792.25,
+      "end": 796.43,
+      "text": "Am Hang ist es dann so, dass ja jemand von diesen beiden Schirmen"
     },
     {
       "i": 183,
-      "start": 870.45,
-      "end": 874.45,
-      "text": "also zwei mal 70° in die 140° gehinnen,"
+      "start": 796.43,
+      "end": 799.43,
+      "text": "nach rechts wirklich keine Optionen hat"
     },
     {
       "i": 184,
-      "start": 874.45,
-      "end": 878.45,
-      "text": "alles, was von Hinnen her sich anöchern, zählt als Überholen."
+      "start": 799.43,
+      "end": 801.43,
+      "text": "oder nicht gross ausweichen kann."
     },
     {
       "i": 185,
-      "start": 878.45,
-      "end": 882.45,
-      "text": "Wenn er aber vor dieser Linie sind, vor dieser 70° Linie,"
+      "start": 801.43,
+      "end": 804.44,
+      "text": "Auch hier wieder ist es natürlich schön,"
     },
     {
       "i": 186,
-      "start": 882.45,
-      "end": 884.45,
-      "text": "dann, also der Blau,"
+      "start": 804.44,
+      "end": 807.44,
+      "text": "wenn jetzt der grüne Schirm rücksichtsvoll fliegt"
     },
     {
       "i": 187,
-      "start": 884.45,
-      "end": 887.45,
-      "text": "hat jetzt eigentlich Fahrtritt gegenüber dem Grünen.�,"
+      "start": 807.44,
+      "end": 810.44,
+      "text": "und schon früh anfängt auszuweichen"
     },
     {
       "i": 188,
-      "start": 887.45,
-      "end": 889.45,
-      "text": "weil er kommt vor echtes."
+      "start": 810.44,
+      "end": 813.44,
+      "text": "und nicht erst in den letzten paar Metern,"
     },
     {
       "i": 189,
-      "start": 889.45,
-      "end": 893.74,
-      "text": "Aber der rot, unerlingst, hat kein Fahrtritt,"
+      "start": 813.44,
+      "end": 816.44,
+      "text": "weil natürlich der Hangaufwind vielmals näher am Hang besser ist."
     },
     {
       "i": 190,
-      "start": 893.74,
-      "end": 896.74,
-      "text": "weil er ist der, der überholt, und der, der überholt,"
+      "start": 816.44,
+      "end": 820.2,
+      "text": "Auch hier, ja, schaut aufeinander,"
     },
     {
       "i": 191,
-      "start": 896.74,
-      "end": 897.74,
-      "text": "hat nie ein Fahrtritt."
+      "start": 820.2,
+      "end": 822.2,
+      "text": "weichet doch frühzeitig aus,"
     },
     {
       "i": 192,
-      "start": 897.74,
-      "end": 899.74,
-      "text": "Also immer, der überhüben, der überhübholth, derhübholth,"
+      "start": 822.2,
+      "end": 825.2,
+      "text": "gebt frühzeitig ein Zeichen, also wegdreht vom Hang,"
     },
     {
       "i": 193,
-      "start": 899.74,
-      "end": 901.74,
-      "text": "hat ein Fahrtritt, weil er gerne gerne,"
+      "start": 825.2,
+      "end": 827.2,
+      "text": "dass der andere Schirm weiss, hey, er hat mich gesehen"
     },
     {
       "i": 194,
-      "start": 901.74,
-      "end": 903.74,
-      "text": "was hinten drin passiert."
+      "start": 827.2,
+      "end": 829.2,
+      "text": "und er lässt mir Platz zum Vorbeifliegen."
     },
     {
       "i": 195,
-      "start": 903.74,
-      "end": 910.75,
-      "text": "Genau, wieder wiederum in der Praxis passiert es eher weniger,"
+      "start": 829.2,
+      "end": 831.2,
+      "text": "Und vielmals ist der Aufwind ganz nah am Hang"
     },
     {
       "i": 196,
-      "start": 910.75,
-      "end": 915.75,
-      "text": "weil man eben im Idealfall schon weit voraus der Situation probiert,"
+      "start": 831.2,
+      "end": 836.0,
+      "text": "auch nicht einmal unbedingt besser als etwas weiter weg."
     },
     {
       "i": 197,
-      "start": 915.75,
-      "end": 916.75,
-      "text": "aus dem Weg zu gehen."
+      "start": 836.0,
+      "end": 840.04,
+      "text": "Genau, so kommen wir dann schön aneinander vorbei."
     },
     {
       "i": 198,
-      "start": 916.75,
-      "end": 919.75,
-      "text": "Und auf jeden Fall nicht probiert,"
+      "start": 840.04,
+      "end": 842.04,
+      "text": "Dann ist noch die Definition vom Überholen."
     },
     {
       "i": 199,
-      "start": 919.75,
-      "end": 922.78,
-      "text": "irgendwie ein Fahrtritt zu zwingen."
+      "start": 842.04,
+      "end": 844.04,
+      "text": "Das ist jetzt sehr theoretisch"
     },
     {
       "i": 200,
-      "start": 922.78,
-      "end": 924.78,
-      "text": "Dann weitere Fahrtrittsregeln,"
+      "start": 844.04,
+      "end": 847.04,
+      "text": "und auch sehr auf den rechtlichen Teil bezogen,"
     },
     {
       "i": 201,
-      "start": 924.78,
-      "end": 927.78,
-      "text": "es brennen Flugzeugobelings oder anders gesagt,"
+      "start": 847.04,
+      "end": 849.04,
+      "text": "aber im Büchlein ist es beschrieben."
     },
     {
       "i": 202,
-      "start": 927.78,
-      "end": 931.78,
-      "text": "einfach ein Flugzeug oder ein Luftfahrzeug,"
+      "start": 849.04,
+      "end": 851.04,
+      "text": "Und ich habe es schon vielmals erlebt,"
     },
     {
       "i": 203,
-      "start": 931.78,
-      "end": 934.78,
-      "text": "die im Notfall sich befindet,"
+      "start": 851.04,
+      "end": 853.04,
+      "text": "dass Flugschüler mich gefragt haben,"
     },
     {
       "i": 204,
-      "start": 934.78,
-      "end": 936.78,
-      "text": "hat am meisten Fahrtritt,"
+      "start": 853.04,
+      "end": 856.04,
+      "text": "weil sie ein wenig verwirrt waren von dieser Erklärung oder der Darstellung."
     },
     {
       "i": 205,
-      "start": 936.78,
-      "end": 938.78,
-      "text": "weil da kann nicht mehr gut manfrieren."
+      "start": 856.04,
+      "end": 858.04,
+      "text": "Hier geht es eigentlich vor allem darum,"
     },
     {
       "i": 206,
-      "start": 938.78,
-      "end": 942.78,
-      "text": "Und die Fluggerät, also der Helikopter oder Motorflüger,"
+      "start": 858.04,
+      "end": 861.04,
+      "text": "zu unterscheiden, was zählt als Überholen"
     },
     {
       "i": 207,
-      "start": 942.78,
-      "end": 944.78,
-      "text": "zum Beispiel, wo an manfrieren Fähigkeiten sind,"
+      "start": 861.04,
+      "end": 864.04,
+      "text": "und was zählt als einfach kreuzen"
     },
     {
       "i": 208,
-      "start": 944.78,
-      "end": 946.78,
-      "text": "die haben keine Fahrtritt."
+      "start": 864.04,
+      "end": 867.04,
+      "text": "oder sich von rechts annähern."
     },
     {
       "i": 209,
-      "start": 946.78,
-      "end": 947.78,
-      "text": "Also, da muss man, auswiechen."
+      "start": 867.04,
+      "end": 870.04,
+      "text": "Und hier wird es beschrieben mit diesem Winkel von diesen 70 Grad,"
     },
     {
       "i": 210,
-      "start": 947.78,
-      "end": 950.78,
-      "text": "Und das so geht eigentlich ein steckel in den Schönen."
+      "start": 870.04,
+      "end": 874.04,
+      "text": "also 2 mal 70 wären dann die 140 Grad gegen hinten."
     },
     {
       "i": 211,
-      "start": 950.78,
-      "end": 951.78,
-      "text": "Das Zweite wäre die Ballöne."
+      "start": 874.04,
+      "end": 878.04,
+      "text": "Alles, was sich von hinten annähert, zählt als Überholen."
     },
     {
       "i": 212,
-      "start": 951.78,
-      "end": 954.78,
-      "text": "Sie können logischerweise auch nicht so gut ausweichen."
+      "start": 878.04,
+      "end": 882.04,
+      "text": "Wenn ihr aber vor dieser 70-Grad-Linie seid,"
     },
     {
       "i": 213,
-      "start": 954.78,
-      "end": 956.78,
-      "text": "Nachher, das ist noch interessant."
+      "start": 882.04,
+      "end": 887.16,
+      "text": "also der Blaue hat jetzt eigentlich Vortritt gegenüber dem Grünen,"
     },
     {
       "i": 214,
-      "start": 956.78,
-      "end": 958.78,
-      "text": "Wir können mit Kleidschirm und Zegelflüger."
+      "start": 887.16,
+      "end": 889.16,
+      "text": "weil er kommt von rechts."
     },
     {
       "i": 215,
-      "start": 958.78,
-      "end": 960.78,
-      "text": "Wir sind da in der gleichen Kategorie,"
+      "start": 889.16,
+      "end": 893.75,
+      "text": "Aber der Rote unten links hat keinen Vortritt,"
     },
     {
       "i": 216,
-      "start": 960.78,
-      "end": 963.78,
-      "text": "obwohl natürlich ein Zegelflüger viel schneller unterwegs ist,"
+      "start": 893.75,
+      "end": 895.75,
+      "text": "weil er ist der, der überholt."
     },
     {
       "i": 217,
-      "start": 963.78,
-      "end": 964.78,
-      "text": "als ein Kleidschirm."
+      "start": 895.75,
+      "end": 897.75,
+      "text": "Und der, der überholt, hat nie Vortritt."
     },
     {
       "i": 218,
-      "start": 964.78,
-      "end": 969.78,
-      "text": "Aber Fahrtrittsrechtstechnisch sind wir da in der gleichen Kategorie."
+      "start": 897.75,
+      "end": 899.75,
+      "text": "Also immer der Überholte hat Vortritt."
     },
     {
       "i": 219,
-      "start": 970.78,
-      "end": 973.03,
-      "text": "Nachher kommen wir die Zettbelin,"
+      "start": 899.75,
+      "end": 903.75,
+      "text": "Weil er sieht ja gerne, was hinter ihm passiert."
     },
     {
       "i": 220,
-      "start": 973.03,
-      "end": 976.03,
-      "text": "die wir Fahrtritt handgigen über den Zettbelin."
+      "start": 903.75,
+      "end": 907.04,
+      "text": "Genau."
     },
     {
       "i": 221,
-      "start": 976.03,
-      "end": 979.03,
-      "text": "Nachher kommen wir die schleppenden Motorfahrzeuge,"
+      "start": 907.04,
+      "end": 910.04,
+      "text": "Wiederum, in der Praxis passiert es eher weniger,"
     },
     {
       "i": 222,
-      "start": 979.03,
-      "end": 981.03,
-      "text": "weil die sind relativ gut manfrierfähig"
+      "start": 910.04,
+      "end": 913.04,
+      "text": "weil man eben im Idealfall schon weit voraus"
     },
     {
       "i": 223,
-      "start": 981.03,
-      "end": 985.03,
-      "text": "und am Schluss noch Flugzeug und Helikopter."
+      "start": 913.04,
+      "end": 916.04,
+      "text": "dieser Situation versucht, aus dem Weg zu gehen."
     },
     {
       "i": 224,
-      "start": 985.03,
-      "end": 991.3,
-      "text": "So, jetzt können wir mal zum Hauptteil"
+      "start": 916.04,
+      "end": 921.04,
+      "text": "Und auf jeden Fall nicht versucht, einen Vortritt zu erzwingen."
     },
     {
       "i": 225,
-      "start": 991.3,
-      "end": 993.3,
-      "text": "von der ganzen Präsentation."
+      "start": 921.04,
+      "end": 924.4,
+      "text": "Dann weitere Vortrittsregeln."
     },
     {
       "i": 226,
-      "start": 993.3,
-      "end": 995.3,
-      "text": "Und zwar ist das Zegelflüger."
+      "start": 924.4,
+      "end": 926.4,
+      "text": "Es brennen die Flugzeuge oben links"
     },
     {
       "i": 227,
-      "start": 995.3,
-      "end": 998.43,
-      "text": "Und wie so braucht es überhaupt ein Zegelflüger."
+      "start": 926.4,
+      "end": 929.4,
+      "text": "oder anders gesagt einfach ein Flugzeug"
     },
     {
       "i": 228,
-      "start": 998.43,
-      "end": 1000.43,
-      "text": "Oder was ist ein Zegelflüger?"
+      "start": 929.4,
+      "end": 932.4,
+      "text": "oder ein Luftfahrzeug,"
     },
     {
       "i": 229,
-      "start": 1001.43,
-      "end": 1003.43,
-      "text": "Wie ist es denn schon seit?"
+      "start": 932.4,
+      "end": 934.4,
+      "text": "das sich im Notfall befindet,"
     },
     {
       "i": 230,
-      "start": 1003.43,
-      "end": 1005.43,
-      "text": "Zegelflugzeug und Tängegleiter."
+      "start": 934.4,
+      "end": 936.44,
+      "text": "hat am meisten Vortritt,"
     },
     {
       "i": 231,
-      "start": 1005.43,
-      "end": 1008.43,
-      "text": "In der Zegelflugkarte sind Lufthrumklassen,"
+      "start": 936.44,
+      "end": 938.44,
+      "text": "weil er nicht mehr gut manövrieren kann."
     },
     {
       "i": 232,
-      "start": 1008.43,
-      "end": 1012.43,
-      "text": "Gefahren, Flugbeschränkungsgebiet."
+      "start": 938.44,
+      "end": 940.44,
+      "text": "Und diese Fluggeräte,"
     },
     {
       "i": 233,
-      "start": 1012.43,
-      "end": 1016.43,
-      "text": "Und Zegelflugzeonen für uns."
+      "start": 940.44,
+      "end": 943.44,
+      "text": "also der Helikopter oder der Motorflieger zum Beispiel,"
     },
     {
       "i": 234,
-      "start": 1017.43,
-      "end": 1022.43,
-      "text": "Die Zegelflugze sind für die Zegelflugger und die Zegelflugger."
+      "start": 943.44,
+      "end": 945.44,
+      "text": "die am manövrierfähigsten sind,"
     },
     {
       "i": 235,
-      "start": 1022.43,
-      "end": 1030.43,
-      "text": "So werden die Zegelflugger und die Militärische Flugzehenszeit erhalten."
+      "start": 945.44,
+      "end": 946.44,
+      "text": "die haben keinen Vortritt."
     },
     {
       "i": 236,
-      "start": 1030.43,
-      "end": 1035.46,
-      "text": "Normalerweise ist es ganz wichtig."
+      "start": 946.44,
+      "end": 948.44,
+      "text": "Also die müssen ausweichen."
     },
     {
       "i": 237,
-      "start": 1035.46,
-      "end": 1040.46,
-      "text": "Wie gesagt, in der Schweiz ist der Lufthrum relativ eng verschunglich."
+      "start": 948.44,
+      "end": 950.44,
+      "text": "Und so geht eigentlich das Stegeli dann schön runter."
     },
     {
       "i": 238,
-      "start": 1041.46,
-      "end": 1045.46,
-      "text": "Und darum ist es ganz wichtig, dass wir auch uns an die Lufthrumhältet"
+      "start": 950.44,
+      "end": 952.44,
+      "text": "Das Zweite wären die Ballone."
     },
     {
       "i": 239,
-      "start": 1045.46,
-      "end": 1050.46,
-      "text": "und nur dort fliegen, wo man auch tören und uns gut umdrehen."
+      "start": 952.44,
+      "end": 954.44,
+      "text": "Die können logischerweise auch nicht so gut ausweichen."
     },
     {
       "i": 240,
-      "start": 1050.46,
-      "end": 1053.46,
-      "text": "Weil es durch Haus schon gefällt,"
+      "start": 954.44,
+      "end": 956.44,
+      "text": "Nachher, das ist noch interessant,"
     },
     {
       "i": 241,
-      "start": 1053.46,
-      "end": 1057.46,
-      "text": "wo in der Terme so hoch aufgestiegen sind,"
+      "start": 956.44,
+      "end": 959.44,
+      "text": "kommen Gleitschirme und Zegelflieger."
     },
     {
       "i": 242,
-      "start": 1057.46,
-      "end": 1060.46,
-      "text": "dass sie in den Aufflugschneissen in den Kass sind."
+      "start": 959.44,
+      "end": 961.44,
+      "text": "Wir sind hier in der gleichen Kategorie,"
     },
     {
       "i": 243,
-      "start": 1060.46,
-      "end": 1062.46,
-      "text": "Das ist schon mehrmal passiert."
+      "start": 962.44,
+      "end": 964.44,
+      "text": "weil ein Zegelflieger viel schneller unterwegs ist"
     },
     {
       "i": 244,
-      "start": 1062.46,
-      "end": 1064.46,
-      "text": "Da ist jetzt nur ein Beispiel."
+      "start": 964.44,
+      "end": 965.44,
+      "text": "als ein Gleitschirm."
     },
     {
       "i": 245,
-      "start": 1064.46,
-      "end": 1067.46,
-      "text": "Und es ist natürlich die erste Linie einfach extrem gefährlich."
+      "start": 965.44,
+      "end": 968.44,
+      "text": "Aber vortrittsrechtstechnisch sind wir hier"
     },
     {
       "i": 246,
-      "start": 1067.46,
-      "end": 1070.0,
-      "text": "Für uns haben wir jetzt die Zegelflugge mit Unmissionen."
+      "start": 968.44,
+      "end": 970.44,
+      "text": "in der gleichen Kategorie."
     },
     {
       "i": 247,
-      "start": 1070.0,
-      "end": 1071.0,
-      "text": "Mit uns sind da in den Amelflugge zu können."
+      "start": 970.44,
+      "end": 973.0,
+      "text": "Nachher kommen die Zeppelin,"
     },
     {
       "i": 248,
-      "start": 1071.0,
-      "end": 1075.48,
-      "text": "iment Aufflugge� nicht."
+      "start": 973.0,
+      "end": 976.0,
+      "text": "wo wir Vortritt haben gegenüber den Zeppelin."
     },
     {
       "i": 249,
-      "start": 1076.0,
-      "end": 1078.0,
-      "text": "Sie betreten die Zegelflugge in den Vierzehen."
+      "start": 976.0,
+      "end": 979.0,
+      "text": "Nachher kommen die schleppenden Motorfahrzeuge,"
     },
     {
       "i": 250,
-      "start": 1078.48,
-      "end": 1081.0,
-      "text": "Wir haben die Zegelflugge in den Vierzehen."
+      "start": 979.0,
+      "end": 981.0,
+      "text": "weil auch die sind relativ gut manövrierfähig."
     },
     {
       "i": 251,
-      "start": 1089.0,
-      "end": 1089.96,
-      "text": "Es ist das gut."
+      "start": 981.0,
+      "end": 985.0,
+      "text": "Und am Schluss noch Flugzeuge und Helikopter."
     },
     {
       "i": 252,
-      "start": 1090.0,
-      "end": 1091.0,
-      "text": "Wir Es gibt sie in die Linie."
+      "start": 985.0,
+      "end": 990.64,
+      "text": "So, jetzt kommen wir zum Hauptteil"
     },
     {
       "i": 253,
-      "start": 1091.0,
-      "end": 1092.0,
-      "text": "Haben wir vom Vierzehen."
+      "start": 990.64,
+      "end": 992.64,
+      "text": "dieser ganzen Präsentation."
     },
     {
       "i": 254,
-      "start": 1092.0,
-      "end": 1093.0,
-      "text": "Die Zegelflugge in den Vierzehen."
+      "start": 992.64,
+      "end": 994.64,
+      "text": "Und zwar ist das die Zegelflugkarte."
     },
     {
       "i": 255,
-      "start": 1093.0,
-      "end": 1094.0,
-      "text": "Wir Wir müssen die Wände mit City Hall."
+      "start": 994.64,
+      "end": 998.08,
+      "text": "Wieso braucht es überhaupt eine Zegelflugkarte?"
     },
     {
       "i": 256,
-      "start": 1094.0,
-      "end": 1096.0,
-      "text": "In der behaves aus der Hand,"
+      "start": 998.08,
+      "end": 1000.08,
+      "text": "Oder was ist eine Zegelflugkarte?"
     },
     {
       "i": 257,
-      "start": 1096.0,
-      "end": 1098.94,
-      "text": "dass den Recht viel Fluggebiet gefördert sind."
+      "start": 1000.08,
+      "end": 1002.08,
+      "text": "Wie es der Name schon sagt,"
     },
     {
       "i": 258,
-      "start": 1098.94,
-      "end": 1103.58,
-      "text": "Drum ist es ganz wichtig, dass man im legalen Bereich, unterwegs ist."
+      "start": 1002.08,
+      "end": 1005.08,
+      "text": "ist sie vor allem für Zegelflugzeuge und Hängegleiter."
     },
     {
       "i": 259,
-      "start": 1103.58,
-      "end": 1108.41,
-      "text": "Zägelflugkarten können gut gelassen."
+      "start": 1005.08,
+      "end": 1008.08,
+      "text": "In der Zegelflugkarte sind Luftraumklassen,"
     },
     {
       "i": 260,
-      "start": 1108.41,
-      "end": 1114.25,
-      "text": "Und dann ist es den Map.geop.adm.ch, Link, die können öffnen."
+      "start": 1008.08,
+      "end": 1012.19,
+      "text": "Gefahren, Flugbeschränkungsgebiete, Hindernisse,"
     },
     {
       "i": 261,
-      "start": 1114.25,
-      "end": 1117.91,
-      "text": "Dort ist die elektronisch digitalen Karten,"
+      "start": 1012.19,
+      "end": 1015.19,
+      "text": "Zegelflugzonen für uns,"
     },
     {
       "i": 262,
-      "start": 1117.91,
-      "end": 1121.67,
-      "text": "die auch legenden dazuchen können, öffnen als PDF,"
+      "start": 1015.19,
+      "end": 1018.19,
+      "text": "also die LSR for Gliders heissen die neu,"
     },
     {
       "i": 263,
-      "start": 1121.67,
-      "end": 1125.21,
-      "text": "wo dann auch alle die Texte und die Symbole beschrieben sind."
+      "start": 1018.19,
+      "end": 1021.19,
+      "text": "die sind für uns als Gleitschirmpiloten"
     },
     {
       "i": 264,
-      "start": 1125.21,
-      "end": 1128.21,
-      "text": "Ich finde es persönlich auch noch gut"
+      "start": 1021.19,
+      "end": 1023.19,
+      "text": "und auch für die Zegelflüger hier."
     },
     {
       "i": 265,
-      "start": 1128.21,
-      "end": 1131.49,
-      "text": "wenn man eine physische Karte in der Hand hat."
+      "start": 1023.19,
+      "end": 1025.19,
+      "text": "Was das genau beinhaltet,"
     },
     {
       "i": 266,
-      "start": 1131.49,
-      "end": 1134.13,
-      "text": "Es geht einfach so ein bisschen in der Überblick."
+      "start": 1025.19,
+      "end": 1027.19,
+      "text": "zu dem kommen wir dann gleich noch."
     },
     {
       "i": 267,
-      "start": 1134.13,
-      "end": 1136.95,
-      "text": "Man kann sich etwas besser zu erordnen."
+      "start": 1027.19,
+      "end": 1030.19,
+      "text": "Und auch die militärischen Flugdienstzeiten."
     },
     {
       "i": 268,
-      "start": 1136.95,
-      "end": 1140.25,
-      "text": "Man darf sich einfach nicht allzu fest beidrucken,"
+      "start": 1030.19,
+      "end": 1033.58,
+      "text": "Und nochmal schnell zum Wieso."
     },
     {
       "i": 269,
-      "start": 1140.25,
-      "end": 1146.79,
-      "text": "weil auf der ersten Blick, sieht es natürlich extrem beidruckend aus oder auch komplex aus."
+      "start": 1033.58,
+      "end": 1035.58,
+      "text": "Es ist natürlich ganz, ganz wichtig,"
     },
     {
       "i": 270,
-      "start": 1146.79,
-      "end": 1152.29,
-      "text": "Aber es ist gut, dass man meistens in diesem Fluggebiet flügt."
+      "start": 1035.58,
+      "end": 1037.58,
+      "text": "wie gesagt, in der Schweiz ist der Luftraum"
     },
     {
       "i": 271,
-      "start": 1152.29,
-      "end": 1154.29,
-      "text": "Und wenn man hier ein bisschen innen zummt,"
+      "start": 1037.58,
+      "end": 1041.58,
+      "text": "relativ eng verschachtelt und relativ komplex."
     },
     {
       "i": 272,
-      "start": 1154.29,
-      "end": 1159.89,
-      "text": "dass es dann eben gerne so schlimm ist, wie er jetzt, wenn man die ganze Schweiz als ganze so hallogt."
+      "start": 1041.58,
+      "end": 1043.58,
+      "text": "Und darum ist es ganz wichtig,"
     },
     {
       "i": 273,
-      "start": 1159.89,
-      "end": 1162.57,
-      "text": "Immer im März kommt die neue Ausführung aus,"
+      "start": 1043.58,
+      "end": 1046.58,
+      "text": "dass wir uns auch an diese Lufträume halten"
     },
     {
       "i": 274,
-      "start": 1162.57,
-      "end": 1164.37,
-      "text": "wo man dann kann kaufen."
+      "start": 1046.58,
+      "end": 1048.58,
+      "text": "und nur dort fliegen, wo wir auch hören"
     },
     {
       "i": 275,
-      "start": 1164.37,
-      "end": 1168.0,
-      "text": "Im Ächsetze so, ich kaufe nicht jedes Jahr die Neust."
+      "start": 1048.58,
+      "end": 1050.58,
+      "text": "und uns gut informieren."
     },
     {
       "i": 276,
-      "start": 1168.0,
-      "end": 1171.0,
-      "text": "Ich habe einfach eine, die in den zwei, drei Jahren haben,"
+      "start": 1050.58,
+      "end": 1052.58,
+      "text": "Weil es hat durchaus schon Fehler gegeben,"
     },
     {
       "i": 277,
-      "start": 1171.0,
-      "end": 1172.56,
-      "text": "einfach so etwas für die Überblick."
+      "start": 1052.58,
+      "end": 1056.58,
+      "text": "wo Gleitschirme in der Thermik so hoch hochgestiegen sind,"
     },
     {
       "i": 278,
-      "start": 1172.56,
-      "end": 1174.84,
-      "text": "Und bevor ich dann aber in die Luft gange,"
+      "start": 1056.58,
+      "end": 1058.58,
+      "text": "dass sie eben in eine Anflugschneise"
     },
     {
       "i": 279,
-      "start": 1174.84,
-      "end": 1177.12,
-      "text": "sowieso immer noch mal online gelogen,"
+      "start": 1058.58,
+      "end": 1060.58,
+      "text": "reingekommen sind von einem Flughafen."
     },
     {
       "i": 280,
-      "start": 1177.12,
-      "end": 1181.55,
-      "text": "weil dann habe ich die Aktuellste Stand."
+      "start": 1060.58,
+      "end": 1062.58,
+      "text": "Das ist schon mehrmals passiert."
     },
     {
       "i": 281,
-      "start": 1181.59,
-      "end": 1184.07,
-      "text": "Dann kann man jetzt zu einer paar Abkürzungen,"
+      "start": 1062.58,
+      "end": 1064.58,
+      "text": "Das ist jetzt nur ein Beispiel."
     },
     {
       "i": 282,
-      "start": 1184.07,
-      "end": 1187.91,
-      "text": "die jetzt im Veraufen der Präsentation immer wieder ein wenig kürren,"
+      "start": 1064.58,
+      "end": 1066.58,
+      "text": "Und es ist natürlich in erster Linie"
     },
     {
       "i": 283,
-      "start": 1187.91,
-      "end": 1190.79,
-      "text": "auch im Zusammenhang mit der Sägelflugkarten."
+      "start": 1066.58,
+      "end": 1068.58,
+      "text": "einfach extrem gefährlich."
     },
     {
       "i": 284,
-      "start": 1190.79,
-      "end": 1195.39,
-      "text": "Der Abkürze GLDK ist Sägelflugkarten, die Glider-Chart,"
+      "start": 1068.58,
+      "end": 1072.4,
+      "text": "Meistens kann man dann schon noch reagieren,"
     },
     {
       "i": 285,
-      "start": 1195.39,
-      "end": 1200.03,
-      "text": "die wir jetzt kurz besprochen haben und nach einer genaue Rallye angeht."
+      "start": 1072.4,
+      "end": 1073.4,
+      "text": "im Idealfall."
     },
     {
       "i": 286,
-      "start": 1200.03,
-      "end": 1202.43,
-      "text": "ist AIP, ist Luftfahrtenhampuch."
+      "start": 1073.4,
+      "end": 1076.4,
+      "text": "Was aber zu verspätigen und extremen Kosten führt."
     },
     {
       "i": 287,
-      "start": 1202.43,
-      "end": 1208.43,
-      "text": "Dort haben wir allgemein gültige Informationen für alle Benützer vom Schweizer Luftraum."
+      "start": 1076.4,
+      "end": 1078.4,
+      "text": "Und der Dreipunkt ist einfach auch noch,"
     },
     {
       "i": 288,
-      "start": 1208.43,
-      "end": 1209.63,
-      "text": "Dann haben wir das Notam."
+      "start": 1078.4,
+      "end": 1080.4,
+      "text": "es ist wahnsinnig schlecht für unser Image,"
     },
     {
       "i": 289,
-      "start": 1209.63,
-      "end": 1216.35,
-      "text": "Da ist ein täglich publizierte Informationsquellen für Luftfahrer,"
+      "start": 1080.4,
+      "end": 1082.4,
+      "text": "wenn natürlich dann das zu vielmals vorkommt"
     },
     {
       "i": 290,
-      "start": 1216.35,
-      "end": 1224.59,
-      "text": "die Rühm-Restikationen und auch Gefahren und Hindernis am Boden zeichnet sind."
+      "start": 1082.4,
+      "end": 1084.4,
+      "text": "in der Nähe von Flughafen."
     },
     {
       "i": 291,
-      "start": 1224.59,
-      "end": 1228.47,
-      "text": "Und Daps Staley Airspace-Politik in Switzerland,"
+      "start": 1084.4,
+      "end": 1085.4,
+      "text": "Dann heisst es dann einfach,"
     },
     {
       "i": 292,
-      "start": 1228.47,
-      "end": 1232.67,
-      "text": "da ist eigentlich nebstes S, das Hauptinstrument,"
+      "start": 1085.4,
+      "end": 1087.4,
+      "text": "gut, in diesem Fall verbieten wir das Gleitschirmfliegen"
     },
     {
       "i": 293,
-      "start": 1232.67,
-      "end": 1236.06,
-      "text": "die ich auch schauen, bevor ich in die Luft gange."
+      "start": 1087.4,
+      "end": 1089.4,
+      "text": "ganz verboten in dieser Umgebung."
     },
     {
       "i": 294,
-      "start": 1236.06,
-      "end": 1240.82,
-      "text": "Denn im Daps wird auch täglich publiziert,"
+      "start": 1089.4,
+      "end": 1092.4,
+      "text": "Und in der Schweiz, wo wir recht viele Flugplätze haben,"
     },
     {
       "i": 295,
-      "start": 1240.82,
-      "end": 1246.22,
-      "text": "weil die Lufträume das momentan aktiv sind und wo man nicht in der Flüge fliegen."
+      "start": 1092.4,
+      "end": 1094.4,
+      "text": "kleine und auch grosse,"
     },
     {
       "i": 296,
-      "start": 1246.22,
-      "end": 1250.56,
-      "text": "Zudem können wir aber auch noch später zum Praxisbeispiel."
+      "start": 1094.4,
+      "end": 1096.4,
+      "text": "würde das schon bedeuten,"
     },
     {
       "i": 297,
-      "start": 1250.56,
-      "end": 1254.52,
-      "text": "Dann haben wir hier ganz viel Abkürzungen,"
+      "start": 1096.4,
+      "end": 1098.4,
+      "text": "dass dann recht viele Fluggebiete gefördert sind."
     },
     {
       "i": 298,
-      "start": 1254.52,
-      "end": 1256.32,
-      "text": "die ich gerade wieder empfehle,"
+      "start": 1098.4,
+      "end": 1100.4,
+      "text": "Darum ist es ganz, ganz wichtig,"
     },
     {
       "i": 299,
-      "start": 1256.32,
-      "end": 1258.88,
-      "text": "durch eine Viertel oder einen Screenshot."
+      "start": 1100.4,
+      "end": 1103.4,
+      "text": "dass man hier im legalen Bereich unterwegs ist."
     },
     {
       "i": 300,
-      "start": 1258.88,
-      "end": 1262.12,
-      "text": "Da können wir immer wieder einmal die Abkürzungen fahren."
+      "start": 1103.4,
+      "end": 1107.93,
+      "text": "Die Segelflugkarte könnt ihr googlen"
     },
     {
       "i": 301,
-      "start": 1262.12,
-      "end": 1265.0,
-      "text": "Ganz wichtig, wenn es um Töcke geht,"
+      "start": 1107.93,
+      "end": 1112.93,
+      "text": "und dann ist es der map.geo.admin.ch-Link,"
     },
     {
       "i": 302,
-      "start": 1265.0,
-      "end": 1269.32,
-      "text": "ist es immer gut, wenn man schon schaut, dass es übergrund oder über mehr ist."
+      "start": 1112.93,
+      "end": 1113.93,
+      "text": "den ihr öffnen könnt."
     },
     {
       "i": 303,
-      "start": 1269.32,
-      "end": 1272.64,
-      "text": "Das ist nämlich ganz wichtig, was kein Fehler passiert."
+      "start": 1113.93,
+      "end": 1117.93,
+      "text": "Dort ist die elektronische, digitale Karte,"
     },
     {
       "i": 304,
-      "start": 1272.64,
-      "end": 1278.48,
-      "text": "Dann eine VFR-VFR ist Visual Flight Rules, also Sichtflugregeln."
+      "start": 1117.93,
+      "end": 1120.93,
+      "text": "wo ihr auch eine Legende dazu öffnen könnt als PDF,"
     },
     {
       "i": 305,
-      "start": 1278.48,
-      "end": 1280.12,
-      "text": "Und das ist eigentlich der Bereich,"
+      "start": 1120.93,
+      "end": 1124.93,
+      "text": "wo dann auch alle die Tags und die Symbole beschrieben sind."
     },
     {
       "i": 306,
-      "start": 1280.12,
-      "end": 1283.64,
-      "text": "die wir uns mit dem Leidschirm bewegen."
+      "start": 1124.93,
+      "end": 1126.93,
+      "text": "Ich finde es persönlich auch noch gut,"
     },
     {
       "i": 307,
-      "start": 1283.64,
-      "end": 1288.48,
-      "text": "IFR, also Instrument-Flight Rules,"
+      "start": 1126.93,
+      "end": 1130.93,
+      "text": "wenn man eine physische Karte in der Hand hat."
     },
     {
       "i": 308,
-      "start": 1288.48,
-      "end": 1290.84,
-      "text": "gibt es nur Flugzeuge,"
+      "start": 1130.93,
+      "end": 1133.93,
+      "text": "Es gibt einem einfach so ein bisschen den Überblick."
     },
     {
       "i": 309,
-      "start": 1290.84,
-      "end": 1294.56,
-      "text": "? Wo auch richtig ausgerüstet sind für die Instrumentflug."
+      "start": 1133.93,
+      "end": 1136.93,
+      "text": "Man kann es ein bisschen besser zuordnen."
     },
     {
       "i": 310,
-      "start": 1294.56,
-      "end": 1299.76,
-      "text": "Und auch nur Pilotinnen, die die Nötiglizenz für dahinten."
+      "start": 1136.93,
+      "end": 1139.93,
+      "text": "Man darf sich einfach nicht allzu fest beeindrucken lassen,"
     },
     {
       "i": 311,
-      "start": 1299.76,
-      "end": 1306.56,
-      "text": "Und wir mit dem Leidschirm, egal wie viel GPS und wie viel Instrument wir vorne uns draufgeklettert,"
+      "start": 1139.93,
+      "end": 1141.93,
+      "text": "weil auf den ersten Blick sieht es natürlich"
     },
     {
       "i": 312,
-      "start": 1306.56,
-      "end": 1312.08,
-      "text": "da nicht nach Instrument-Flugregeln fliegen und auch nicht in die Wohlkäne fliegen."
+      "start": 1141.93,
+      "end": 1146.93,
+      "text": "extrem beeindruckend aus oder auch komplex aus."
     },
     {
       "i": 313,
-      "start": 1312.08,
-      "end": 1313.56,
-      "text": "Zudem können wir dann nachher auch noch."
+      "start": 1146.93,
+      "end": 1148.93,
+      "text": "Aber das Gute ist ja,"
     },
     {
       "i": 314,
-      "start": 1313.56,
-      "end": 1319.0,
-      "text": "Aber ganz wichtig zu merken, uns mit dem Leidschirm betrifft nur das VFR."
+      "start": 1148.93,
+      "end": 1150.93,
+      "text": "dass man meistens in dem Fluggebiet,"
     },
     {
       "i": 315,
-      "start": 1319.0,
-      "end": 1323.0,
-      "text": "Dann können wir später noch zu der Flight Levels die Flugflächen"
+      "start": 1150.93,
+      "end": 1151.93,
+      "text": "in dem man fliegt,"
     },
     {
       "i": 316,
-      "start": 1323.0,
-      "end": 1325.56,
-      "text": "und was alles genau beinhaltet."
+      "start": 1151.93,
+      "end": 1153.93,
+      "text": "und wenn man da mal ein bisschen hineinzoomt,"
     },
     {
       "i": 317,
-      "start": 1325.56,
-      "end": 1331.24,
-      "text": "Die drei Bezeichnungen ZER-Thema und AVI,"
+      "start": 1153.93,
+      "end": 1155.93,
+      "text": "dass es dann eben gar nicht so schlimm ist,"
     },
     {
       "i": 318,
-      "start": 1331.24,
-      "end": 1337.07,
-      "text": "das sind meistens oder auch immer in der Nähe von Flughefen."
+      "start": 1155.93,
+      "end": 1157.93,
+      "text": "wie jetzt, wenn man die ganze Schweiz"
     },
     {
       "i": 319,
-      "start": 1337.07,
-      "end": 1342.31,
-      "text": "Also ZER streckt sich immer vom Boden bis zu einer bestimmten Höhe."
+      "start": 1157.93,
+      "end": 1159.93,
+      "text": "als ganze Saison anschaut."
     },
     {
       "i": 320,
-      "start": 1342.31,
-      "end": 1346.91,
-      "text": "Die Thema sind quasi den Daflugschneisen von Start und Landung."
+      "start": 1159.93,
+      "end": 1161.93,
+      "text": "Immer im März kommt die neue Ausführung heraus,"
     },
     {
       "i": 321,
-      "start": 1346.91,
-      "end": 1350.71,
-      "text": "Und der Airways sind dann die längeren Lufträume,"
+      "start": 1161.93,
+      "end": 1163.93,
+      "text": "die man dann kaufen kann."
     },
     {
       "i": 322,
-      "start": 1350.71,
-      "end": 1357.66,
-      "text": "wo große Hauptverbindungssträckene und Verbindungen von Flughefen zusammenführt."
+      "start": 1163.93,
+      "end": 1166.49,
+      "text": "Ich mache es jetzt so,"
     },
     {
       "i": 323,
-      "start": 1357.66,
-      "end": 1360.94,
-      "text": "Zudem können wir dann aber auch später noch genau dazu."
+      "start": 1166.49,
+      "end": 1168.49,
+      "text": "ich kaufe nicht jedes Jahr die neueste."
     },
     {
       "i": 324,
-      "start": 1360.94,
-      "end": 1364.66,
-      "text": "Und immer die Lufträume, die haben immer einen Namen."
+      "start": 1168.49,
+      "end": 1169.49,
+      "text": "Ich habe einfach eine,"
     },
     {
       "i": 325,
-      "start": 1364.66,
-      "end": 1369.3,
-      "text": "Und der fängt meistens, oder in der Schweiz fangt er immer mit LSA."
+      "start": 1169.49,
+      "end": 1170.49,
+      "text": "die ich dann zwei, drei Jahre habe,"
     },
     {
       "i": 326,
-      "start": 1369.3,
-      "end": 1374.1,
-      "text": "Da heisst nämlich, dass L Start für Low Europe und S Start für Switzerland landen."
+      "start": 1170.49,
+      "end": 1172.49,
+      "text": "einfach so ein bisschen für den Überblick."
     },
     {
       "i": 327,
-      "start": 1374.14,
-      "end": 1379.42,
-      "text": "Und zum Beispiel LSZR wäre jetzt Alterie."
+      "start": 1172.49,
+      "end": 1174.49,
+      "text": "Und bevor ich dann aber in die Luft gehe,"
     },
     {
       "i": 328,
-      "start": 1379.42,
-      "end": 1382.3,
-      "text": "Da kommt dann hin, einfach können wir noch zwei Wochen über den Zuhab."
+      "start": 1174.49,
+      "end": 1176.49,
+      "text": "gehe ich sowieso immer noch mal online schauen,"
     },
     {
       "i": 329,
-      "start": 1382.3,
-      "end": 1386.3,
-      "text": "Wo den Zuhabteil des LSZ-H-Wertzürich."
+      "start": 1176.49,
+      "end": 1181.52,
+      "text": "weil dann habe ich den aktuellsten Stand."
     },
     {
       "i": 330,
-      "start": 1386.3,
-      "end": 1389.5,
-      "text": "Und dann gibt es auch noch die Restricted-Arias und so weiter."
+      "start": 1181.52,
+      "end": 1183.52,
+      "text": "Dann kommen wir jetzt zu ein paar Abkürzungen,"
     },
     {
       "i": 331,
-      "start": 1389.5,
-      "end": 1394.62,
-      "text": "Zudem können wir dann später noch später."
+      "start": 1183.52,
+      "end": 1185.52,
+      "text": "die ihr jetzt im Verlauf der Präsentation"
     },
     {
       "i": 332,
-      "start": 1394.62,
-      "end": 1399.18,
-      "text": "Dann hat es auf der ganzen Welt sieben verschiedene Lufträume klassen."
+      "start": 1185.52,
+      "end": 1187.52,
+      "text": "immer wieder ein bisschen hören werdet."
     },
     {
       "i": 333,
-      "start": 1399.18,
-      "end": 1405.38,
-      "text": "Die sind von EG, von der internationalen Zivil-Luftfahrtsorganisationen"
+      "start": 1187.52,
+      "end": 1190.52,
+      "text": "Auch im Zusammenhang mit der Segelflugkarte."
     },
     {
       "i": 334,
-      "start": 1405.38,
-      "end": 1410.82,
-      "text": "in der Schweiz, können wir aber nur vier zur A-Wendung."
+      "start": 1190.52,
+      "end": 1193.52,
+      "text": "Die Abkürzung GLDK ist die Segelflugkarte,"
     },
     {
       "i": 335,
-      "start": 1410.82,
-      "end": 1412.46,
-      "text": "Das ist G und E."
+      "start": 1193.52,
+      "end": 1195.52,
+      "text": "die Glider Chart,"
     },
     {
       "i": 336,
-      "start": 1412.46,
-      "end": 1416.58,
-      "text": "Die sind frei, also da heisst man die Törette in der Flüge."
+      "start": 1195.52,
+      "end": 1197.52,
+      "text": "die wir jetzt kurz besprochen haben"
     },
     {
       "i": 337,
-      "start": 1416.58,
-      "end": 1422.66,
-      "text": "Und C und D sind nur mit Freigab und Flugfunk erlaubt zu in der Flüge."
+      "start": 1197.52,
+      "end": 1199.52,
+      "text": "und nachher noch genauer anschauen."
     },
     {
       "i": 338,
-      "start": 1422.66,
-      "end": 1424.74,
-      "text": "Da heisst, wenn man irgendwo,"
+      "start": 1199.52,
+      "end": 1202.52,
+      "text": "Das AIP ist das Luftfahrtenhandbuch."
     },
     {
       "i": 339,
-      "start": 1424.74,
-      "end": 1427.98,
-      "text": "kommt es vielleicht einmal vor, wenn man auf einer langen Strecke flug sind,"
+      "start": 1202.52,
+      "end": 1205.52,
+      "text": "Dort haben wir allgemein gültige Informationen"
     },
     {
       "i": 340,
-      "start": 1427.98,
-      "end": 1434.18,
-      "text": "dass man irgendwo so knapp in eine A-Flugschneise zum Beispiel kämpftet."
+      "start": 1205.52,
+      "end": 1208.52,
+      "text": "für alle Benutzer des Schweizer Luftraums."
     },
     {
       "i": 341,
-      "start": 1434.18,
-      "end": 1436.94,
-      "text": "Und dann haben wir Möglichkeit zum A-Funken"
+      "start": 1208.52,
+      "end": 1210.52,
+      "text": "Dann haben wir das NOTAM."
     },
     {
       "i": 342,
-      "start": 1436.94,
-      "end": 1439.74,
-      "text": "und unter ständigen Flugkontakt, Funkekontakt."
+      "start": 1210.52,
+      "end": 1214.64,
+      "text": "Das ist eine täglich publizierte Informationsquelle"
     },
     {
       "i": 343,
-      "start": 1439.74,
-      "end": 1444.08,
-      "text": "Können wir vielleicht auch die A-Flugschneise durchqueren?"
+      "start": 1214.64,
+      "end": 1216.64,
+      "text": "für Luftfahrer,"
     },
     {
       "i": 344,
-      "start": 1444.08,
-      "end": 1445.68,
-      "text": "Ist aber natürlich nicht garantiert."
+      "start": 1216.64,
+      "end": 1220.68,
+      "text": "wo Lufträume, Restriktionen"
     },
     {
       "i": 345,
-      "start": 1445.68,
-      "end": 1448.68,
-      "text": "Das ist also nur mit Freigab und mit ständigen Funkekontakt."
+      "start": 1220.68,
+      "end": 1222.68,
+      "text": "und auch Gefahren und Hindernisse"
     },
     {
       "i": 346,
-      "start": 1448.68,
-      "end": 1453.7,
-      "text": "Nur beim E und beim G, kann man immer in der Flüge."
+      "start": 1222.68,
+      "end": 1224.68,
+      "text": "am Boden eingezeichnet sind."
+    },
+    {
+      "i": 347,
+      "start": 1224.68,
+      "end": 1225.68,
+      "text": "Und das DABS,"
+    },
+    {
+      "i": 348,
+      "start": 1225.68,
+      "end": 1228.68,
+      "text": "das Daily Airspace Bulletin Switzerland,"
+    },
+    {
+      "i": 349,
+      "start": 1228.68,
+      "end": 1229.68,
+      "text": "da ist eigentlich,"
+    },
+    {
+      "i": 350,
+      "start": 1229.68,
+      "end": 1231.68,
+      "text": "neben der Segelflugkarte,"
+    },
+    {
+      "i": 351,
+      "start": 1231.68,
+      "end": 1232.68,
+      "text": "das Hauptinstrument,"
+    },
+    {
+      "i": 352,
+      "start": 1232.68,
+      "end": 1233.68,
+      "text": "das ich anschaue,"
+    },
+    {
+      "i": 353,
+      "start": 1233.68,
+      "end": 1236.12,
+      "text": "bevor ich in die Luft gehe."
+    },
+    {
+      "i": 354,
+      "start": 1236.12,
+      "end": 1240.12,
+      "text": "Weil im DABS wird auch täglich publiziert,"
+    },
+    {
+      "i": 355,
+      "start": 1240.12,
+      "end": 1244.12,
+      "text": "welche Lufträume momentan aktiv sind"
+    },
+    {
+      "i": 356,
+      "start": 1244.12,
+      "end": 1246.12,
+      "text": "und wo wir nicht da hineinfliegen."
+    },
+    {
+      "i": 357,
+      "start": 1246.12,
+      "end": 1248.12,
+      "text": "Zu dem kommen wir aber auch gleich noch später"
+    },
+    {
+      "i": 358,
+      "start": 1248.12,
+      "end": 1250.87,
+      "text": "zu einem Praxisbeispiel."
+    },
+    {
+      "i": 359,
+      "start": 1250.87,
+      "end": 1253.92,
+      "text": "Dann haben wir hier ganz viele Abkürzungen,"
+    },
+    {
+      "i": 360,
+      "start": 1253.92,
+      "end": 1255.92,
+      "text": "die ich euch gerade empfehlen würde."
+    },
+    {
+      "i": 361,
+      "start": 1255.92,
+      "end": 1258.92,
+      "text": "Macht doch ein Foto oder ein Screenshot."
+    },
+    {
+      "i": 362,
+      "start": 1258.92,
+      "end": 1262.06,
+      "text": "Da kommen immer wieder einmal die Abkürzungen vor."
+    },
+    {
+      "i": 363,
+      "start": 1263.14,
+      "end": 1265.14,
+      "text": "Ganz wichtig, wenn es um die Höhe geht,"
+    },
+    {
+      "i": 364,
+      "start": 1265.14,
+      "end": 1267.14,
+      "text": "ist immer gut, wenn man schnell schaut,"
+    },
+    {
+      "i": 365,
+      "start": 1267.14,
+      "end": 1269.14,
+      "text": "ist es über Grund oder ist es über Meer."
+    },
+    {
+      "i": 366,
+      "start": 1269.14,
+      "end": 1271.14,
+      "text": "Das ist nämlich ganz wichtig,"
+    },
+    {
+      "i": 367,
+      "start": 1271.14,
+      "end": 1273.14,
+      "text": "dass keine Fehler passieren."
+    },
+    {
+      "i": 368,
+      "start": 1273.14,
+      "end": 1277.14,
+      "text": "Dann VFR, VFR ist Visual Flight Rules,"
+    },
+    {
+      "i": 369,
+      "start": 1277.14,
+      "end": 1279.14,
+      "text": "also Sichtflugregeln."
+    },
+    {
+      "i": 370,
+      "start": 1279.14,
+      "end": 1281.14,
+      "text": "Und das ist eigentlich der Bereich,"
+    },
+    {
+      "i": 371,
+      "start": 1281.14,
+      "end": 1284.22,
+      "text": "in den wir uns mit dem Gleitschirm bewegen."
+    },
+    {
+      "i": 372,
+      "start": 1284.22,
+      "end": 1288.33,
+      "text": "IFR, also Instrument Flight Rules,"
+    },
+    {
+      "i": 373,
+      "start": 1288.33,
+      "end": 1290.35,
+      "text": "da gehen nur Flugzeuge hinein,"
+    },
+    {
+      "i": 374,
+      "start": 1290.35,
+      "end": 1292.35,
+      "text": "die auch richtig ausgerüstet sind."
+    },
+    {
+      "i": 375,
+      "start": 1292.35,
+      "end": 1294.35,
+      "text": "Für den Instrumentenflug."
+    },
+    {
+      "i": 376,
+      "start": 1294.35,
+      "end": 1296.35,
+      "text": "Und auch nur Piloten und Pilotinnen,"
+    },
+    {
+      "i": 377,
+      "start": 1296.35,
+      "end": 1298.35,
+      "text": "die die nötige Lizenz dafür haben."
+    },
+    {
+      "i": 378,
+      "start": 1298.35,
+      "end": 1300.94,
+      "text": "Und wir mit dem Gleitschirm,"
+    },
+    {
+      "i": 379,
+      "start": 1300.94,
+      "end": 1303.94,
+      "text": "egal wie viel GPS und wie viele Instrumente"
+    },
+    {
+      "i": 380,
+      "start": 1303.94,
+      "end": 1305.94,
+      "text": "wir vorne uns draufklettern,"
+    },
+    {
+      "i": 381,
+      "start": 1305.94,
+      "end": 1309.94,
+      "text": "können nicht nach Instrumentenflugregeln fliegen"
+    },
+    {
+      "i": 382,
+      "start": 1309.94,
+      "end": 1311.94,
+      "text": "und auch nicht in die Wolke hineinfliegen."
+    },
+    {
+      "i": 383,
+      "start": 1311.94,
+      "end": 1313.94,
+      "text": "Zu dem kommen wir dann auch noch."
+    },
+    {
+      "i": 384,
+      "start": 1313.94,
+      "end": 1315.94,
+      "text": "Aber ganz wichtig zu merken,"
+    },
+    {
+      "i": 385,
+      "start": 1315.94,
+      "end": 1318.94,
+      "text": "uns mit dem Gleitschirm betrifft nur das VFR."
+    },
+    {
+      "i": 386,
+      "start": 1318.94,
+      "end": 1320.94,
+      "text": "Dann kommen wir später auch noch"
+    },
+    {
+      "i": 387,
+      "start": 1320.94,
+      "end": 1321.94,
+      "text": "zu den Flight Levels,"
+    },
+    {
+      "i": 388,
+      "start": 1321.94,
+      "end": 1324.94,
+      "text": "die Flugflächen und was das alles genau beinhaltet."
+    },
+    {
+      "i": 389,
+      "start": 1324.94,
+      "end": 1331.15,
+      "text": "Die drei Bezeichnungen CTR, TMA und AWI"
+    },
+    {
+      "i": 390,
+      "start": 1331.15,
+      "end": 1334.68,
+      "text": "sind meistens oder nein,"
+    },
+    {
+      "i": 391,
+      "start": 1334.68,
+      "end": 1336.68,
+      "text": "immer in der Nähe von Flughäfen."
+    },
+    {
+      "i": 392,
+      "start": 1336.68,
+      "end": 1339.68,
+      "text": "Also CTR erstreckt sich immer vom Boden"
+    },
+    {
+      "i": 393,
+      "start": 1339.68,
+      "end": 1341.68,
+      "text": "bis zu einer bestimmten Höhe."
+    },
+    {
+      "i": 394,
+      "start": 1341.68,
+      "end": 1344.68,
+      "text": "Die TMA sind quasi die Anflugschneisen"
+    },
+    {
+      "i": 395,
+      "start": 1344.68,
+      "end": 1346.68,
+      "text": "von Start und Landung."
+    },
+    {
+      "i": 396,
+      "start": 1346.68,
+      "end": 1350.68,
+      "text": "Und die Airways sind die längeren Lufträume,"
+    },
+    {
+      "i": 397,
+      "start": 1350.68,
+      "end": 1352.68,
+      "text": "die grosse Hauptverbindungsströme,"
+    },
+    {
+      "i": 398,
+      "start": 1352.68,
+      "end": 1354.68,
+      "text": "die die Strecke und die Verbindungen"
+    },
+    {
+      "i": 399,
+      "start": 1354.68,
+      "end": 1356.68,
+      "text": "der Flughafen zusammenführen."
+    },
+    {
+      "i": 400,
+      "start": 1356.68,
+      "end": 1360.36,
+      "text": "Zu dem kommen wir später noch dazu."
+    },
+    {
+      "i": 401,
+      "start": 1360.36,
+      "end": 1364.36,
+      "text": "Die Lufträume haben immer einen Namen."
+    },
+    {
+      "i": 402,
+      "start": 1364.36,
+      "end": 1369.36,
+      "text": "In der Schweiz fängt man meistens mit LS an."
+    },
+    {
+      "i": 403,
+      "start": 1369.36,
+      "end": 1371.36,
+      "text": "Das L steht für Lower Europe"
+    },
+    {
+      "i": 404,
+      "start": 1371.36,
+      "end": 1374.36,
+      "text": "und das S steht für Switzerland."
+    },
+    {
+      "i": 405,
+      "start": 1374.36,
+      "end": 1379.36,
+      "text": "Zum Beispiel LSZR wäre jetzt Altery."
+    },
+    {
+      "i": 406,
+      "start": 1379.36,
+      "end": 1381.36,
+      "text": "Da kommen hinten noch zwei Buchschreiben dazu,"
+    },
+    {
+      "i": 407,
+      "start": 1381.36,
+      "end": 1384.36,
+      "text": "die dann hier zugeteilt sind."
+    },
+    {
+      "i": 408,
+      "start": 1384.36,
+      "end": 1387.36,
+      "text": "LSZH wäre Zürich und dann gibt es auch noch"
+    },
+    {
+      "i": 409,
+      "start": 1387.36,
+      "end": 1389.36,
+      "text": "die Restricted Areas und so weiter."
+    },
+    {
+      "i": 410,
+      "start": 1389.36,
+      "end": 1394.64,
+      "text": "Zu dem kommen wir später noch."
+    },
+    {
+      "i": 411,
+      "start": 1394.64,
+      "end": 1396.64,
+      "text": "Dann hat es auf der ganzen Welt"
+    },
+    {
+      "i": 412,
+      "start": 1396.64,
+      "end": 1398.64,
+      "text": "sieben verschiedene Luftraumklassen."
+    },
+    {
+      "i": 413,
+      "start": 1398.64,
+      "end": 1402.2,
+      "text": "Die sind von der ICAO,"
+    },
+    {
+      "i": 414,
+      "start": 1402.2,
+      "end": 1405.2,
+      "text": "der Internationalen Zivilluftfahrtsorganisation,"
+    },
+    {
+      "i": 415,
+      "start": 1405.2,
+      "end": 1407.2,
+      "text": "einmal bestimmen worden."
+    },
+    {
+      "i": 416,
+      "start": 1407.2,
+      "end": 1410.2,
+      "text": "In der Schweiz kommen aber nur vier zur Anwendung."
+    },
+    {
+      "i": 417,
+      "start": 1410.2,
+      "end": 1412.2,
+      "text": "Das ist das G und das E."
+    },
+    {
+      "i": 418,
+      "start": 1412.2,
+      "end": 1414.2,
+      "text": "Die sind frei."
+    },
+    {
+      "i": 419,
+      "start": 1414.2,
+      "end": 1416.2,
+      "text": "Das heisst, man darf dort hineinfliegen."
+    },
+    {
+      "i": 420,
+      "start": 1416.2,
+      "end": 1419.2,
+      "text": "Das C und das D sind nur mit Freigabe"
+    },
+    {
+      "i": 421,
+      "start": 1419.2,
+      "end": 1422.51,
+      "text": "und Flugfunk erlaubt, um hineinfliegen zu können."
+    },
+    {
+      "i": 422,
+      "start": 1422.51,
+      "end": 1424.51,
+      "text": "Das heisst, wenn man irgendwo,"
+    },
+    {
+      "i": 423,
+      "start": 1424.51,
+      "end": 1426.56,
+      "text": "kommt es vielleicht einmal vor,"
+    },
+    {
+      "i": 424,
+      "start": 1426.56,
+      "end": 1428.56,
+      "text": "wenn wir auf einem langen Streckenflug sind,"
+    },
+    {
+      "i": 425,
+      "start": 1428.56,
+      "end": 1433.56,
+      "text": "dass man irgendwo knapp in eine Anflugschneise kämpft."
+    },
+    {
+      "i": 426,
+      "start": 1433.56,
+      "end": 1435.56,
+      "text": "Dann haben wir die Möglichkeit,"
+    },
+    {
+      "i": 427,
+      "start": 1435.56,
+      "end": 1439.56,
+      "text": "um anzufunken und unter ständigem Funkkontakt"
+    },
+    {
+      "i": 428,
+      "start": 1439.56,
+      "end": 1441.56,
+      "text": "können wir dann vielleicht auch"
+    },
+    {
+      "i": 429,
+      "start": 1441.56,
+      "end": 1444.05,
+      "text": "diese Anflugschneise durchqueren."
+    },
+    {
+      "i": 430,
+      "start": 1444.05,
+      "end": 1446.05,
+      "text": "Das ist aber natürlich nicht garantiert."
+    },
+    {
+      "i": 431,
+      "start": 1446.05,
+      "end": 1449.05,
+      "text": "Das ist also nur mit Freigabe und ständigem Funkkontakt."
+    },
+    {
+      "i": 432,
+      "start": 1449.05,
+      "end": 1452.29,
+      "text": "Nur beim E und beim G können wir immer hineinfliegen."
     }
   ]
 }

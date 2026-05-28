@@ -2,5012 +2,4653 @@
   "slug": "aerodynamik_0",
   "language": "de",
   "duration": 2030.848,
-  "transcribed_in_sec": 394.6,
-  "model": "base",
+  "transcribed_in_sec": 235.3,
+  "model": "large-v3",
+  "settings": {
+    "device": "cuda",
+    "compute_type": "float16",
+    "beam_size": 10,
+    "initial_prompt_chars": 568,
+    "vad_min_silence_ms": 300
+  },
   "segments": [
     {
       "i": 1,
-      "start": 4.75,
-      "end": 11.75,
-      "text": "Hallo miteinander, ich bin Stefan von der Flugstelle Frewings und ich will heute etwas über die Errodynamik erzählen."
+      "start": 4.95,
+      "end": 11.79,
+      "text": "Hallo zusammen, ich bin Stefan von der Flugschule Freewings und ich möchte euch heute etwas über die Aerodynamik erzählen."
     },
     {
       "i": 2,
-      "start": 11.75,
-      "end": 17.9,
-      "text": "Errodynamik im Allgemeinen, aber v.a. Gleitschirm spezifisch."
+      "start": 12.33,
+      "end": 16.15,
+      "text": "Aerodynamik im Allgemeinen, aber vor allem gleitschirmspezifisch."
     },
     {
       "i": 3,
-      "start": 17.9,
-      "end": 22.9,
-      "text": "Die Frage, was ich sicher alle beschäftigt, wie so Flügt ein Gleitschirm überhaupt?"
+      "start": 18.05,
+      "end": 22.73,
+      "text": "Die Frage, die uns sicher alle beschäftigt, ist, wieso ein Gleitschirm überhaupt fliegt."
     },
     {
       "i": 4,
-      "start": 22.9,
-      "end": 29.9,
-      "text": "Ich habe seit dem ersten Moment als Kind, wo ich ein Gleitschirm gesehen habe, starten, nicht mehr losladen und immer fasziniert."
+      "start": 23.15,
+      "end": 28.65,
+      "text": "Mir hat es seit dem ersten Moment, als ich als Kind einen Gleitschirm gesehen habe, nicht mehr losgelassen."
     },
     {
       "i": 5,
-      "start": 29.9,
-      "end": 36.9,
-      "text": "Wie so das eigentlich so ein Schirm hergestellt, aus ein bisschen Stoff von ein paar Leinen aus dem Rucksack,"
+      "start": 28.65,
+      "end": 41.29,
+      "text": "Ich bin immer fasziniert, wieso ein Gleitschirm aus Stoff und ein paar Leinen aus dem Rucksack uns in die Luft bringt und wieso man mit dem Ding fliegen kann."
     },
     {
       "i": 6,
-      "start": 36.9,
-      "end": 40.9,
-      "text": "aus uns in die Luft bringt und wie so, dass man mit dem Ding flügen kann."
+      "start": 41.73,
+      "end": 50.76,
+      "text": "Wenn man dem auf den Grund geht, findet man schnell heraus, dass ein Gleitschirm genau gleich funktioniert wie jedes Flugzeug, wie jeder Vogel auch."
     },
     {
       "i": 7,
-      "start": 40.9,
-      "end": 48.45,
-      "text": "Und wenn man dann ein bisschen auf der Grunde geht, dann findet man schnell raus, dass ein Gleitschirm genau gleich funktioniert."
+      "start": 50.76,
+      "end": 58.36,
+      "text": "Wir haben eine Tragfläche, die Auftrieb erzeugt und somit eine Kraft erzeugt, die uns in der Luft behaltet."
     },
     {
       "i": 8,
-      "start": 48.45,
-      "end": 56.45,
-      "text": "Wie ein Flugzeug, wie ein Vogel auch, wir haben ein Tragefläche, das auftreibt, erzeugt und so mit Kraft erzeugt,"
+      "start": 58.36,
+      "end": 72.45,
+      "text": "Ich vergleiche es manchmal mit dem Auto, man kann zwar alle Autos fahren, aber ob man jetzt wirklich versteht, wie die Kupplung und der Motor und alles genau funktioniert, ist meistens ja gar nicht so entscheidend."
     },
     {
       "i": 9,
-      "start": 56.45,
-      "end": 58.45,
-      "text": "wo uns in der Luft paltet."
+      "start": 72.45,
+      "end": 82.38,
+      "text": "Beim Gleitschirm kann es auch sein, dass man ein super Top-Pilot ist und eigentlich nicht genau weiss, was über sich überhaupt vorgeht."
     },
     {
       "i": 10,
-      "start": 58.45,
-      "end": 61.45,
-      "text": "Ich vergleichte mal ein bisschen wie mit dem Auto."
+      "start": 82.74,
+      "end": 87.3,
+      "text": "Aber ich bin gleich der Überzeugung, dass es relativ wichtig ist, beim Gleitschirm zu fliegen."
     },
     {
       "i": 11,
-      "start": 61.45,
-      "end": 69.45,
-      "text": "Man kann zwar alle Autofahren, aber wenn man das wirklich versteht, wie die Kupplung und den Motor und alles genau funktioniert,"
+      "start": 87.3,
+      "end": 115.07,
+      "text": "Jetzt vielleicht im Vergleich zum Autofahren, dass man gleich die technischen Hintergründe auch ein bisschen versteht, weil es eben der Sicherheit beiträgt und auch, wenn man die Vollleistung aus dem Schirm herausholen will, wenn es dann später mal ein bisschen ambitionierter zur Sache geht, dass man mit einem Hintergrundwissen, was die Aerodynamik angeht, mehr herausholen kann aus seinem Schirm."
     },
     {
       "i": 12,
-      "start": 69.45,
-      "end": 72.45,
-      "text": "ist meistens ja gerne so entscheidend."
+      "start": 115.07,
+      "end": 117.97,
+      "text": "Angefangen hat das alles vor ganz, ganz langer Zeit."
     },
     {
       "i": 13,
-      "start": 72.45,
-      "end": 79.64,
-      "text": "Beim Gleitschirm kann es auch sein, dass man ein super Top-Pilotisch und eigentlich nicht genau weiß,"
+      "start": 118.35,
+      "end": 119.07,
+      "text": "Otto Lilienthal."
     },
     {
       "i": 14,
-      "start": 79.64,
-      "end": 82.64,
-      "text": "was über sich überhaupt vorkommt."
+      "start": 119.53,
+      "end": 132.57,
+      "text": "Hat da im 1891 angefangen zu tüfteln und hat schon die ersten, ja man kann eigentlich fast sagen, Hängegleiter gebastelt und hat auch die ersten erfolgreichen Flüge durchgeführt."
     },
     {
       "i": 15,
-      "start": 82.64,
-      "end": 87.64,
-      "text": "Aber ich bin gleich der Überzeugung, dass es relativ wichtig ist beim Gleitschirmflügen."
+      "start": 133.27,
+      "end": 143.06,
+      "text": "Er hat schon früh angefangen, die Vögel beobachten und hat eigentlich gemerkt, dass ja nicht alle Vögel einen Flügelschlag brauchen, um in der Luft zu bleiben."
     },
     {
       "i": 16,
-      "start": 87.64,
-      "end": 90.64,
-      "text": "Vielleicht im Vergleich zum Autofahren."
+      "start": 143.06,
+      "end": 149.56,
+      "text": "Also er hat vor allem dann die grösseren Vögel angeschaut und gemerkt, dass die ziemlich gut gleiten können, ohne irgendwie etwas zu machen."
     },
     {
       "i": 17,
-      "start": 90.64,
-      "end": 93.64,
-      "text": "Dass man die technischen Hintergründe auch bitzelig versteht,"
+      "start": 149.58,
+      "end": 165.41,
+      "text": "Und dann hat er angefangen, Störche auseinanderzunehmen, tote Tiere angefangen zu sezieren und hat dann gemerkt, dass eigentlich die Flügel von diesen Tieren alle ein gewisses Profil aufweisen."
     },
     {
       "i": 18,
-      "start": 93.64,
-      "end": 101.64,
-      "text": "weil es eben der Sicherheit betreibt und auch wenn man die Vollleistung aus dem Schirm ausholen will,"
+      "start": 165.41,
+      "end": 179.41,
+      "text": "Und hat dann das Flügelprofil angefangen auf seine Tragflächen zu übertragen und hat dann so herausgefunden, dass man so Auftriebe erzeugen kann, die einen in die Luft befördern, nach ein paar Schritten Anlauf."
     },
     {
       "i": 19,
-      "start": 101.64,
-      "end": 105.64,
-      "text": "wenn es dann später mal ein bisschen ambitioniert hat, zur Sache geht."
+      "start": 179.99,
+      "end": 189.73,
+      "text": "Also im Allgemeinen gibt es verschiedene Erklärungsversuche oder Gründe, weshalb ein Flügel fliegt."
     },
     {
       "i": 20,
-      "start": 105.64,
-      "end": 112.64,
-      "text": "Dass man mit einem Hintergrund aussehen, weil der Rode nämlich auch gut mehr aus dem Schirm aussehen will."
+      "start": 189.73,
+      "end": 200.11,
+      "text": "Grundsätzlich sind es drei Ansätze oder drei Grundsätze, weshalb ein Flügel Auftriebe erzeugt und uns in der Luft behaltet."
     },
     {
       "i": 21,
-      "start": 112.64,
-      "end": 117.5,
-      "text": "Agefangen hat alles von ganz, ganz langen Zeit."
+      "start": 200.11,
+      "end": 206.7,
+      "text": "Der erste Ansatz ist die Theorie von Bernoulli und zwar hat das mit der Strömungslehre zu tun."
     },
     {
       "i": 22,
-      "start": 117.5,
-      "end": 123.5,
-      "text": "Der Autoliliatal hat da im 1891 angefangen zu dürfen"
+      "start": 206.7,
+      "end": 213.7,
+      "text": "Ihr seht, wir haben hier ein Flügelprofil, welches, wie die meisten Flügelprofile, asymmetrisch ist."
     },
     {
       "i": 23,
-      "start": 123.5,
-      "end": 128.5,
-      "text": "und hat schon die ersten, ja man kann eigentlich fast zeigen, Hängegleiten basstlet"
+      "start": 213.7,
+      "end": 217.7,
+      "text": "Das heisst, obendrauf haben wir eine grössere Wölbung als unten."
     },
     {
       "i": 24,
-      "start": 128.5,
-      "end": 132.5,
-      "text": "und hat auch die ersten erfolgreichen Flüge durchgeführt."
+      "start": 217.7,
+      "end": 229.02,
+      "text": "Das beeinflusst, dass die Luftströmung obendrauf schneller zirkulieren muss, schneller strömen muss und dadurch gibt es einen Unterdruck."
     },
     {
       "i": 25,
-      "start": 132.5,
-      "end": 137.5,
-      "text": "Er hat schon früher Agefangenen beobachten und hat eigentlich gemerkt,"
+      "start": 229.02,
+      "end": 232.02,
+      "text": "Auf der Unterseite des Schirms ist genau das Gegenteil der Fall."
     },
     {
       "i": 26,
-      "start": 137.5,
-      "end": 142.5,
-      "text": "dass er nicht alle Vögel einen Flügelschlag braucht, zu mit der Luft zu bleiben."
+      "start": 232.02,
+      "end": 238.66,
+      "text": "Dort ist die Luftströmung langsamer und es entsteht ein Überdruck."
     },
     {
       "i": 27,
-      "start": 143.5,
-      "end": 145.5,
-      "text": "Vor allem schauen die größere Vögel,"
+      "start": 238.66,
+      "end": 244.66,
+      "text": "Ihr seht, die Unterdrücke und Überdrücke sind aufteilt in unendlich viele Kräfte."
     },
     {
       "i": 28,
-      "start": 145.5,
-      "end": 147.5,
-      "text": "und es gemerkt, dass die ziemlich gut gehen können,"
+      "start": 244.66,
+      "end": 246.66,
+      "text": "Das sind kleine Kraftvektoren."
     },
     {
       "i": 29,
-      "start": 147.5,
-      "end": 150.5,
-      "text": "die Leiten ohne irgendwie etwas machen mit der Flügel."
+      "start": 246.66,
+      "end": 253.66,
+      "text": "Wenn man diese alle bündelt und alle Kräfte an einem Punkt zusammen nimmt, entsteht eine Kraft."
     },
     {
       "i": 30,
-      "start": 151.5,
-      "end": 154.5,
-      "text": "Dann hat der Agefangen Störch aus der Nandene,"
+      "start": 253.66,
+      "end": 261.71,
+      "text": "Das ist der Auftrieb, der uns ermöglicht zu fliegen, der eine Kraft gegenüber bewirkt."
     },
     {
       "i": 31,
-      "start": 154.5,
-      "end": 158.5,
-      "text": "dort die Tier-Agefangenen setzten und gemerkt,"
+      "start": 261.71,
+      "end": 266.3,
+      "text": "Die Aufteilung ist noch ein kleiner Input für die Theorieprüfung."
     },
     {
       "i": 32,
-      "start": 158.5,
-      "end": 165.5,
-      "text": "dass eigentlich die Flügel von den Tier alle gewisse Profil aufwiesen."
+      "start": 266.3,
+      "end": 273.3,
+      "text": "Die Aufteilung ist zwei Drittel Unterdruck auf der Oberseite und ein Drittel Überdruck auf der Flügelunterseite."
     },
     {
       "i": 33,
-      "start": 165.5,
-      "end": 171.5,
-      "text": "Und hat dann das Flügelprofil auf seine Trageflächen übertragen."
+      "start": 273.3,
+      "end": 275.3,
+      "text": "Das ist ein wenig verwirrend von den Wörtern her."
     },
     {
       "i": 34,
-      "start": 171.5,
-      "end": 174.5,
-      "text": "Und hat dann so ausgefunden, dass man so ein Auftrieb erzeugt,"
+      "start": 275.3,
+      "end": 277.3,
+      "text": "Man muss schauen, dass man hier nichts verwechselt."
     },
     {
       "i": 35,
-      "start": 174.5,
-      "end": 176.5,
-      "text": "wo einem eben nicht Luft innen läuft,"
+      "start": 277.3,
+      "end": 284.9,
+      "text": "Irgendwo beginnt die Strömung nicht mehr diesem Profil zu folgen und beginnt hier hinten abzureissen."
     },
     {
       "i": 36,
-      "start": 176.5,
-      "end": 182.86,
-      "text": "hat die Luft befördert, nach ein paar Schritte anlaufen."
+      "start": 284.9,
+      "end": 291.9,
+      "text": "Dem sagt man den Ablösepunkt, der hier hinten so kleine Turbulenzen und ein wenig durmisch die Luft generiert."
     },
     {
       "i": 37,
-      "start": 182.86,
-      "end": 186.86,
-      "text": "So im Allgemeinen gibt es verschiedene Klärungsversuche"
+      "start": 291.9,
+      "end": 294.9,
+      "text": "Zu dem kommen wir später noch im Detail."
     },
     {
       "i": 38,
-      "start": 186.86,
-      "end": 189.86,
-      "text": "oder Gründ, wie so das ein Flügel flügt."
+      "start": 294.9,
+      "end": 296.9,
+      "text": "Also grundsätzlich die Theorie von Bernoulli."
     },
     {
       "i": 39,
-      "start": 190.86,
-      "end": 194.86,
-      "text": "Grundsätzlich sind es drei Asätze oder drei Grundsätze,"
+      "start": 296.9,
+      "end": 302.94,
+      "text": "Strömungsleer, Unterdruck, Überdruck, der erste Ansatz, wieso der Flügel fliegt."
     },
     {
       "i": 40,
-      "start": 194.86,
-      "end": 199.86,
-      "text": "wie so, dass ein Flügel Auftrieb erzeugt und uns in der Luft paltet."
+      "start": 302.94,
+      "end": 306.22,
+      "text": "Dann das zweite ist das Rückstossprinzip."
     },
     {
       "i": 41,
-      "start": 199.86,
-      "end": 203.86,
-      "text": "Der erste Asatz ist die Theorie von Bernoulli."
+      "start": 306.22,
+      "end": 317.62,
+      "text": "Das ist Aktion gleich Reaktion von Newton, der herausgefunden hat, dass auf jeden Körper, der irgendeine Kraft einwirkt, eine Gegenkraft entsteht."
     },
     {
       "i": 42,
-      "start": 203.86,
-      "end": 207.18,
-      "text": "Und zwar haben wir das Strömungslehr zu tun."
+      "start": 317.62,
+      "end": 323.62,
+      "text": "Und vielleicht habt ihr es auch schon probiert, wenn ihr die Hand aus dem fahrenden Auto hebt,"
     },
     {
       "i": 43,
-      "start": 207.18,
-      "end": 210.18,
-      "text": "Wir haben jetzt hier ein Flügelprofil,"
+      "start": 323.62,
+      "end": 330.62,
+      "text": "vielleicht nicht als Fahrer, vielleicht einmal als Beifahrer konzentriert darauf achten, was da genau passiert."
     },
     {
       "i": 44,
-      "start": 210.18,
-      "end": 212.18,
-      "text": "die wie die meisten Flügelprofil."
+      "start": 330.62,
+      "end": 332.62,
+      "text": "Wenn ihr nämlich die Hand geradeaus hebt,"
     },
     {
       "i": 45,
-      "start": 212.18,
-      "end": 215.18,
-      "text": "Asymmetrisch sind, da heißt obendra,"
+      "start": 332.62,
+      "end": 338.62,
+      "text": "dann passiert nicht viel, dann spürt ihr auch nicht den grossen Widerstand, weil die Hand flach im Wind liegt."
     },
     {
       "i": 46,
-      "start": 215.18,
-      "end": 218.18,
-      "text": "haben wir eine größere Wölbe wie unendra."
+      "start": 338.62,
+      "end": 344.62,
+      "text": "Wenn ihr die Hand aber so ein wenig schwenkt, in diese Richtung, gibt es eine Kraft, die nach oben zieht."
     },
     {
       "i": 47,
-      "start": 218.18,
-      "end": 225.18,
-      "text": "Da beeinflusst, dass die Luftströmung obendra muss schneller zirkulieren,"
+      "start": 344.62,
+      "end": 348.62,
+      "text": "Und wenn ihr auf die andere Seite schwenkt, dann drückt es eure Hand eher runter."
     },
     {
       "i": 48,
-      "start": 225.18,
-      "end": 229.18,
-      "text": "schneller muss strömen und dort gibt es einen Unterdruck."
+      "start": 348.62,
+      "end": 352.62,
+      "text": "Und dieses Rückstossprinzip nutzt eigentlich den Flügel auch,"
     },
     {
       "i": 49,
-      "start": 229.18,
-      "end": 232.18,
-      "text": "Vorher kommt es ja auch von D Front."
+      "start": 352.62,
+      "end": 357.62,
+      "text": "weil auch der Flügel einen gewissen Winkel zu der anströmenden Luft hat."
     },
     {
       "i": 50,
-      "start": 232.18,
-      "end": 235.18,
-      "text": "H bells, links, Kassla, Dattla, Bus automutt."
+      "start": 357.62,
+      "end": 360.62,
+      "text": "Dem sagt man dann den Anstellwinkel, zu dem kommen wir später noch."
     },
     {
       "i": 51,
-      "start": 235.18,
-      "end": 238.34,
-      "text": "Esíem, wir haben 36,000 malware policing,"
+      "start": 360.62,
+      "end": 368.99,
+      "text": "Und auch dieser verursacht eine Kraft, die eben nach oben zeigt und uns in der Luft hält."
     },
     {
       "i": 52,
-      "start": 238.34,
-      "end": 241.34,
-      "text": "auf Rural Colot gewissen wir 8,000 malware,"
+      "start": 368.99,
+      "end": 375.99,
+      "text": "Der dritte Ansatz, wieso das am Flügelauftrieb erzeugt, ist die sogenannte Zirkulationsströmung."
     },
     {
       "i": 53,
-      "start": 241.34,
-      "end": 245.34,
-      "text": "oder 30,000 g queets an dann,"
+      "start": 375.99,
+      "end": 385.62,
+      "text": "An der scharfen Hinterkante des Schirms entsteht ein Anfahrwirbel und diese Strömung wird dann gegen unten abgelenkt."
     },
     {
       "i": 54,
-      "start": 246.34,
-      "end": 248.34,
-      "text": "auf Rural Colot."
+      "start": 385.62,
+      "end": 390.62,
+      "text": "Und auch das wiederum gibt einen Moment oder eine Kraft nach oben,"
     },
     {
       "i": 55,
-      "start": 248.34,
-      "end": 248.9,
-      "text": "So, 40,000 malware,"
+      "start": 390.62,
+      "end": 393.62,
+      "text": "die dann auch zu diesem dynamischen Auftrieb beiträgt."
     },
     {
       "i": 56,
-      "start": 248.9,
-      "end": 251.38,
-      "text": "das erzeugt zirte an die Viennerva 것은,"
+      "start": 393.62,
+      "end": 399.51,
+      "text": "Also das sind die drei Ansätze, die eben den Flügel in der Luft behalten."
     },
     {
       "i": 57,
-      "start": 251.38,
-      "end": 254.34,
-      "text": "das wird auch schon lang prisoners fragments fragmenten."
+      "start": 399.51,
+      "end": 406.3,
+      "text": "Dann kommen wir hier zu ein paar Fachbegriffen, was Flügelprofile anbelangt."
     },
     {
       "i": 58,
-      "start": 256.34,
-      "end": 258.34,
-      "text": "Die also ho distribute diegrade NFT handlar,"
+      "start": 406.3,
+      "end": 410.3,
+      "text": "Wir schauen jetzt den Flügel im Moment noch immer so im Querschnitt an."
     },
     {
       "i": 59,
-      "start": 258.34,
-      "end": 262.7,
-      "text": "die Kraft gegen einen bewirkt."
+      "start": 410.3,
+      "end": 416.3,
+      "text": "Später schauen wir dann das Ganze als Gleitschirm, den ganzen Flügel über die Spannweite an,"
     },
     {
       "i": 60,
-      "start": 262.7,
-      "end": 266.7,
-      "text": "Die Dufteilung ist noch ein kleiner Impot für die Theorieprüfung."
+      "start": 416.3,
+      "end": 421.3,
+      "text": "auch die Leine und der Pilot, die Pilotin, die unten dranhängt und was das noch für Einflüsse hat."
     },
     {
       "i": 61,
-      "start": 266.7,
-      "end": 269.7,
-      "text": "Die Dufteilung ist zwei Drittel Unterdruck auf der Oberseite"
+      "start": 421.3,
+      "end": 424.3,
+      "text": "Im Moment schauen wir uns einfach mal den Querschnitt an."
     },
     {
       "i": 62,
-      "start": 269.7,
-      "end": 273.7,
-      "text": "und ein Drittel Unterdruck auf der Flügel-Underseite."
+      "start": 424.3,
+      "end": 428.86,
+      "text": "Und bei Gleitschirmen ist das Profil relativ dick."
     },
     {
       "i": 63,
-      "start": 273.7,
-      "end": 276.7,
-      "text": "Es ist ein wenig verwirrend von der Wörter her,"
+      "start": 428.86,
+      "end": 431.86,
+      "text": "Also ihr seht hier, das Profil dicker ist der Blaubalken."
     },
     {
       "i": 64,
-      "start": 276.7,
-      "end": 278.92,
-      "text": "und man muss schauen, dass man da nicht verwechselt."
+      "start": 431.86,
+      "end": 437.94,
+      "text": "Der ist relativ dick im Vergleich zum Beispiel zu einem schnellen Fluggerät,"
     },
     {
       "i": 65,
-      "start": 278.92,
-      "end": 281.92,
-      "text": "Irgendwo fängt in die Strömung an,"
+      "start": 437.94,
+      "end": 444.94,
+      "text": "zu einem Kampfjet, wo dann das Profil ganz flach und eher weniger asymmetrisch wäre und eher etwas dünner."
     },
     {
       "i": 66,
-      "start": 281.92,
-      "end": 284.92,
-      "text": "zu dem Profil folgt und fängt der Abreissen dahin."
+      "start": 444.94,
+      "end": 450.94,
+      "text": "Also langsame Fluggeräte, die eben schon bei einer langsamen Startgeschwindigkeit schon sehr viel Auftrieb haben,"
     },
     {
       "i": 67,
-      "start": 284.92,
-      "end": 286.92,
-      "text": "Dem sagt man den Ablösepunkt,"
+      "start": 450.94,
+      "end": 458.3,
+      "text": "ohne dass man da eine riesige Geschwindigkeit zuerst generiert."
     },
     {
       "i": 68,
-      "start": 286.92,
-      "end": 290.92,
-      "text": "die in dahin eine kleine Duobolenz und ein bisschen Domiste generiert."
+      "start": 458.3,
+      "end": 461.67,
+      "text": "Die sind vor allem eher dick und asymmetrisch gewählt."
     },
     {
       "i": 69,
-      "start": 290.92,
-      "end": 293.92,
-      "text": "Das kann man aber später"
+      "start": 461.67,
+      "end": 466.78,
+      "text": "Profiltiefe ist eigentlich die Distanz vom vordersten Punkt und dem hintersten Punkt."
     },
     {
       "i": 70,
-      "start": 293.92,
-      "end": 295.92,
-      "text": "im Detail."
+      "start": 466.78,
+      "end": 470.78,
+      "text": "Im Gleitschirm Eintrittskanten und Austrittskanten, die ihr kennt,"
     },
     {
       "i": 71,
-      "start": 295.92,
-      "end": 299.92,
-      "text": "Grundsätzlich, die Theorie von Bernoulli, Strömungslehr, Unterdruck, Überdruck,"
+      "start": 470.78,
+      "end": 474.78,
+      "text": "die immer Begriffe sind, die man immer wieder mal braucht in der Flugpraxis."
     },
     {
       "i": 72,
-      "start": 299.92,
-      "end": 301.92,
-      "text": "der erste Asatz."
+      "start": 474.78,
+      "end": 477.78,
+      "text": "Profilsehne ist eher ein theoretischer Begriff."
     },
     {
       "i": 73,
-      "start": 301.92,
-      "end": 303.92,
-      "text": "Wie soll das in der Flügel flügt?"
+      "start": 477.78,
+      "end": 480.78,
+      "text": "Das ist nämlich die Verbindung vom Vordersten und Hintersten."
     },
     {
       "i": 74,
-      "start": 303.92,
-      "end": 306.92,
-      "text": "Das Zweiten ist das Rückstoßprinzip."
+      "start": 481.78,
+      "end": 484.78,
+      "text": "Also nicht zu verwechseln mit der Profiltiefe."
     },
     {
       "i": 75,
-      "start": 306.92,
-      "end": 310.08,
-      "text": "Da ist Achtzeungleichreaktion vom Newton,"
+      "start": 484.78,
+      "end": 486.9,
+      "text": "Das selbe ist nur die Distanz."
     },
     {
       "i": 76,
-      "start": 310.08,
-      "end": 312.08,
-      "text": "die da herausgefunden hat,"
+      "start": 486.9,
+      "end": 489.9,
+      "text": "Und Profilsehne ist wirklich die Verbindung von diesen beiden Punkten."
     },
     {
       "i": 77,
-      "start": 312.08,
-      "end": 314.08,
-      "text": "dass eigentlich auf jeden Körper,"
+      "start": 489.9,
+      "end": 494.48,
+      "text": "Dann kommen wir jetzt zu den Kräften und Vektoren."
     },
     {
       "i": 78,
-      "start": 314.08,
-      "end": 318.08,
-      "text": "die irgendein Kraft ein Gegenkraft entsteht."
+      "start": 494.48,
+      "end": 503.48,
+      "text": "Ich habe vorhin einmal kurz angesprochen, dass es an so einem Flügel mehrere Kräftevektoren gibt durch diesen Auftrieb."
     },
     {
       "i": 79,
-      "start": 318.08,
-      "end": 321.08,
-      "text": "Und vielleicht haben das auch schon probiert,"
+      "start": 503.48,
+      "end": 510.48,
+      "text": "Und diese lassen sich alle zusammenfassen in einen Hauptvektor, diesen Auftriebsvektor."
     },
     {
       "i": 80,
-      "start": 321.08,
-      "end": 324.08,
-      "text": "wenn ein Tand aus dem fahrenden Auto hippet."
+      "start": 510.48,
+      "end": 512.48,
+      "text": "Später lernen wir dann noch,"
     },
     {
       "i": 81,
-      "start": 324.08,
-      "end": 326.08,
-      "text": "Vielleicht nicht als Fahrer,"
+      "start": 512.48,
+      "end": 518.48,
+      "text": "das ist dann die Luftkraftresultierende, die zusammengesetzt wird von Auftrieb und Widerstand."
     },
     {
       "i": 82,
-      "start": 326.08,
-      "end": 328.08,
-      "text": "vielleicht einmal als, als Beifahrer,"
+      "start": 518.48,
+      "end": 520.48,
+      "text": "Zu dem aber später noch mehr."
     },
     {
       "i": 83,
-      "start": 328.08,
-      "end": 331.08,
-      "text": "konzentrierts darauf achten, was genau passiert,"
+      "start": 520.48,
+      "end": 525.04,
+      "text": "Zuerst einmal einfach theoretisch, wie das mit den Vektoren aussieht."
     },
     {
       "i": 84,
-      "start": 331.08,
-      "end": 333.08,
-      "text": "wenn er nämlich die Hand gerade ausheben."
+      "start": 525.04,
+      "end": 528.04,
+      "text": "Das ist jetzt so eine klassische Theorieprüfungsfrage."
     },
     {
       "i": 85,
-      "start": 333.08,
-      "end": 334.08,
-      "text": "Denn passiert nicht viel,"
+      "start": 528.04,
+      "end": 532.04,
+      "text": "Und zwar ist es so, wenn man Kräfte zusammenzählen will,"
     },
     {
       "i": 86,
-      "start": 334.08,
-      "end": 335.08,
-      "text": "haben da auch gespürt,"
+      "start": 532.04,
+      "end": 538.04,
+      "text": "oder wenn auf einen Körper und den gleichen Angriffspunkt zwei verschiedene Kräfte wirken,"
     },
     {
       "i": 87,
-      "start": 335.08,
-      "end": 337.08,
-      "text": "da nicht ein grosses Widerstand,"
+      "start": 538.04,
+      "end": 541.04,
+      "text": "dann kann man diese Kräfte eigentlich wie aneinander hängen."
     },
     {
       "i": 88,
-      "start": 337.08,
-      "end": 339.08,
-      "text": "weil die Tandflache im Wind lebt."
+      "start": 541.04,
+      "end": 542.04,
+      "text": "Ihr seht jetzt hier ein Beispiel."
     },
     {
       "i": 89,
-      "start": 339.08,
-      "end": 341.08,
-      "text": "Wenn die Tanden beabfangen,"
+      "start": 543.04,
+      "end": 546.04,
+      "text": "Die Kräfte F1 und F4 wirken auf einen Körper."
     },
     {
       "i": 90,
-      "start": 341.08,
-      "end": 345.08,
-      "text": "in die Richtung gibt es Kraft, die nach oben zu zügt."
-    },
-    {
-      "i": 91,
-      "start": 345.08,
-      "end": 347.08,
-      "text": "Und wenn du auf die anderen Seite schwenken,"
-    },
-    {
-      "i": 92,
-      "start": 347.08,
-      "end": 349.08,
-      "text": "dann trug die teure Hand in den Raben."
-    },
-    {
-      "i": 93,
-      "start": 349.08,
-      "end": 353.08,
-      "text": "Und der Rückstoßprinzip nutzt eigentlich im Flügel auch,"
-    },
-    {
-      "i": 94,
-      "start": 353.08,
-      "end": 356.08,
-      "text": "weil auch im Flügel eine gewisse Winkel"
-    },
-    {
-      "i": 95,
-      "start": 356.08,
-      "end": 358.08,
-      "text": "zu den Aströmen der Luft."
-    },
-    {
-      "i": 96,
-      "start": 358.08,
-      "end": 360.08,
-      "text": "Dann sagen wir den Astellwinkel,"
-    },
-    {
-      "i": 97,
-      "start": 360.08,
-      "end": 362.08,
-      "text": "zu dem können wir den später noch."
-    },
-    {
-      "i": 98,
-      "start": 362.08,
-      "end": 363.08,
-      "text": "Und dann verursacht ein Kraft,"
-    },
-    {
-      "i": 99,
-      "start": 363.08,
-      "end": 365.08,
-      "text": "wo er gegen den Aufen zeigt."
-    },
-    {
-      "i": 100,
-      "start": 365.08,
-      "end": 368.78,
-      "text": "Und uns in der Luft hippet."
-    },
-    {
-      "i": 101,
-      "start": 368.78,
-      "end": 370.78,
-      "text": "Der Dritte-Assatz,"
-    },
-    {
-      "i": 102,
-      "start": 370.78,
-      "end": 372.78,
-      "text": "wie so ein Flügel-Uftreiber zügt,"
-    },
-    {
-      "i": 103,
-      "start": 372.78,
-      "end": 375.78,
-      "text": "ist die sogenannte Zirkulationsströmung,"
-    },
-    {
-      "i": 104,
-      "start": 375.78,
-      "end": 379.78,
-      "text": "an der Schafe hinterkanten vom Schirm,"
-    },
-    {
-      "i": 105,
-      "start": 379.78,
-      "end": 382.04,
-      "text": "entsteht ein Affa-Wiebel."
-    },
-    {
-      "i": 106,
-      "start": 382.04,
-      "end": 385.04,
-      "text": "Und die Strömung wird dann gegen unten abgelenkt."
-    },
-    {
-      "i": 107,
-      "start": 385.04,
-      "end": 388.04,
-      "text": "Und auch da wiederum gibt ein Moment"
-    },
-    {
-      "i": 108,
-      "start": 388.04,
-      "end": 390.04,
-      "text": "oder Kraft gegen den Aufen,"
-    },
-    {
-      "i": 109,
-      "start": 390.04,
-      "end": 394.04,
-      "text": "wo dann auch zu dem dynamischen Auftrieb beitreitet."
-    },
-    {
-      "i": 110,
-      "start": 394.04,
-      "end": 396.46,
-      "text": "Das sind die drei Asätze,"
-    },
-    {
-      "i": 111,
-      "start": 396.46,
-      "end": 399.46,
-      "text": "wo er der Flügel in der Luft paltet."
-    },
-    {
-      "i": 112,
-      "start": 399.46,
-      "end": 404.46,
-      "text": "Dann haben wir dazu ein paar Fachbegriff,"
-    },
-    {
-      "i": 113,
-      "start": 404.46,
-      "end": 406.46,
-      "text": "was Flügelprofile auch belangt."
-    },
-    {
-      "i": 114,
-      "start": 406.46,
-      "end": 408.46,
-      "text": "Wir schauen jetzt den Flügel,"
-    },
-    {
-      "i": 115,
-      "start": 408.46,
-      "end": 410.46,
-      "text": "im Moment noch immer so im Querschnitt da."
-    },
-    {
-      "i": 116,
-      "start": 410.46,
-      "end": 413.46,
-      "text": "Später schauen wir den Skanze als Kleidschirm,"
-    },
-    {
-      "i": 117,
-      "start": 413.46,
-      "end": 416.46,
-      "text": "der ganz Flügel über die Spanweite auch,"
-    },
-    {
-      "i": 118,
-      "start": 416.46,
-      "end": 418.46,
-      "text": "auch die Leinen und die Pilot,"
-    },
-    {
-      "i": 119,
-      "start": 418.46,
-      "end": 420.46,
-      "text": "die Pilot in Wunnerdrahe hangt,"
-    },
-    {
-      "i": 120,
-      "start": 420.46,
-      "end": 422.46,
-      "text": "und was auch noch für die E-Fluss hat."
-    },
-    {
-      "i": 121,
-      "start": 422.46,
-      "end": 425.65,
-      "text": "Im Moment schauen wir jetzt einfach mal den Querschnitt da"
-    },
-    {
-      "i": 122,
-      "start": 425.65,
-      "end": 427.65,
-      "text": "mit Kleidschirm,"
-    },
-    {
-      "i": 123,
-      "start": 427.65,
-      "end": 429.65,
-      "text": "ist das Profil relativ dick."
-    },
-    {
-      "i": 124,
-      "start": 429.65,
-      "end": 432.65,
-      "text": "Also gesehen da Profil-Dicken ist der Blaubalken."
-    },
-    {
-      "i": 125,
-      "start": 432.65,
-      "end": 434.65,
-      "text": "Das ist relativ dick."
-    },
-    {
-      "i": 126,
-      "start": 434.65,
-      "end": 438.65,
-      "text": "Im Vergleich zum Beispiel zu einem schnellen Fluggerät,"
-    },
-    {
-      "i": 127,
-      "start": 438.65,
-      "end": 439.65,
-      "text": "zu einem Kampfjet,"
-    },
-    {
-      "i": 128,
-      "start": 439.65,
-      "end": 441.65,
-      "text": "wo den Profil ganz flach."
-    },
-    {
-      "i": 129,
-      "start": 441.65,
-      "end": 443.65,
-      "text": "Und eher weniger Asimieter ist schwer."
-    },
-    {
-      "i": 130,
-      "start": 443.65,
-      "end": 445.65,
-      "text": "Und eher ein bisschen dünner."
-    },
-    {
-      "i": 131,
-      "start": 445.65,
-      "end": 447.65,
-      "text": "Also langsam in Fluggerät,"
-    },
-    {
-      "i": 132,
-      "start": 447.65,
-      "end": 450.65,
-      "text": "wo er schon bei einer langsamen Staggeschwindigkeit,"
-    },
-    {
-      "i": 133,
-      "start": 450.65,
-      "end": 452.65,
-      "text": "schon sehr viel auftreibend generieren."
-    },
-    {
-      "i": 134,
-      "start": 452.65,
-      "end": 455.65,
-      "text": "Ohne dass man da riesige Geschwindigkeit"
-    },
-    {
-      "i": 135,
-      "start": 455.65,
-      "end": 458.65,
-      "text": "sehr sprodukt oder generiert."
-    },
-    {
-      "i": 136,
-      "start": 458.65,
-      "end": 460.65,
-      "text": "Es sind vor allem ehrtick"
-    },
-    {
-      "i": 137,
-      "start": 460.65,
-      "end": 462.65,
-      "text": "und Asimieter ist gewählt."
-    },
-    {
-      "i": 138,
-      "start": 462.65,
-      "end": 464.65,
-      "text": "Profil-Düfe ist eigentlich die Stanz"
-    },
-    {
-      "i": 139,
-      "start": 464.65,
-      "end": 467.65,
-      "text": "vom Vordersteppunkt und im Hintersteppunkt."
-    },
-    {
-      "i": 140,
-      "start": 467.65,
-      "end": 468.65,
-      "text": "Im Kleidschirm,"
-    },
-    {
-      "i": 141,
-      "start": 468.65,
-      "end": 470.65,
-      "text": "im E-Trittskanten und Ausdrittskanten,"
-    },
-    {
-      "i": 142,
-      "start": 470.65,
-      "end": 471.65,
-      "text": "wo man erkennen kann,"
-    },
-    {
-      "i": 143,
-      "start": 471.65,
-      "end": 472.65,
-      "text": "wo immer Begriff sind,"
-    },
-    {
-      "i": 144,
-      "start": 472.65,
-      "end": 474.65,
-      "text": "wo man immer wieder mal braucht in der Fluggerät."
-    },
-    {
-      "i": 145,
-      "start": 474.65,
-      "end": 478.65,
-      "text": "Profil-Szenen ist ein theoretischer Begriff."
-    },
-    {
-      "i": 146,
-      "start": 478.65,
-      "end": 479.65,
-      "text": "Da ist nämlich die Verbindung"
-    },
-    {
-      "i": 147,
-      "start": 479.65,
-      "end": 481.65,
-      "text": "vom Vorderstehen und Hinterste."
-    },
-    {
-      "i": 148,
-      "start": 481.65,
-      "end": 484.65,
-      "text": "Also nicht zu verwechseln mit Profil-Düfe."
-    },
-    {
-      "i": 149,
-      "start": 484.65,
-      "end": 487.65,
-      "text": "Selbst nur die Stanz und Profil-Szenen"
-    },
-    {
-      "i": 150,
-      "start": 487.65,
-      "end": 490.65,
-      "text": "ist wirklich die Verbindung von einer beiden Pünkt."
-    },
-    {
-      "i": 151,
-      "start": 490.65,
-      "end": 494.86,
-      "text": "Da kann man jetzt zu der Kräfte und Wektoren."
-    },
-    {
-      "i": 152,
-      "start": 494.86,
-      "end": 496.86,
-      "text": "Ich habe vorhin einmal kurz angesprochen,"
-    },
-    {
-      "i": 153,
-      "start": 496.86,
-      "end": 500.86,
-      "text": "dass es um eine flügelmehrere Kräfte-Wektoren"
-    },
-    {
-      "i": 154,
-      "start": 500.86,
-      "end": 505.86,
-      "text": "durch den Auftrieb und die Löhnt sich alle zusammenfassen"
-    },
-    {
-      "i": 155,
-      "start": 505.86,
-      "end": 507.86,
-      "text": "in ein Hauptwektor,"
-    },
-    {
-      "i": 156,
-      "start": 507.86,
-      "end": 509.86,
-      "text": "der Auftriebswektor."
-    },
-    {
-      "i": 157,
-      "start": 509.86,
-      "end": 511.86,
-      "text": "Oder später lernen wir dann noch,"
-    },
-    {
-      "i": 158,
-      "start": 511.86,
-      "end": 514.86,
-      "text": "das ist dann die Luftkraft-Resultierende,"
-    },
-    {
-      "i": 159,
-      "start": 514.86,
-      "end": 518.86,
-      "text": "die zusammengesetzt wird von Auftrieb und Widerstand."
-    },
-    {
-      "i": 160,
-      "start": 518.86,
-      "end": 520.86,
-      "text": "Zudem aber später noch mehr."
-    },
-    {
-      "i": 161,
-      "start": 520.86,
-      "end": 522.86,
-      "text": "Zuerst einmal einfach theoretisch,"
-    },
-    {
-      "i": 162,
-      "start": 522.86,
-      "end": 525.06,
-      "text": "wie ihr da ausgesehen mit der Wektoren,"
-    },
-    {
-      "i": 163,
-      "start": 525.06,
-      "end": 528.06,
-      "text": "da ist jetzt eine klassische Theorieprüfungsfrag."
-    },
-    {
-      "i": 164,
-      "start": 528.06,
-      "end": 530.06,
-      "text": "Und zwar ist es so,"
-    },
-    {
-      "i": 165,
-      "start": 530.06,
-      "end": 531.06,
-      "text": "wenn man kräft,"
-    },
-    {
-      "i": 166,
-      "start": 531.06,
-      "end": 532.06,
-      "text": "wird zusammenzüllen,"
-    },
-    {
-      "i": 167,
-      "start": 532.06,
-      "end": 535.06,
-      "text": "oder wenn auf Einkörper und der Gleichagwifftspunkt"
-    },
-    {
-      "i": 168,
-      "start": 535.06,
-      "end": 538.06,
-      "text": "zwei verschiedene Kräfte wirken."
-    },
-    {
-      "i": 169,
-      "start": 538.06,
-      "end": 541.06,
-      "text": "Dann kann man die Kräfte eigentlich wie einen anderen hängen."
-    },
-    {
-      "i": 170,
-      "start": 541.06,
-      "end": 543.06,
-      "text": "Wir sehen jetzt hier im Beispiel,"
-    },
-    {
-      "i": 171,
-      "start": 543.06,
-      "end": 547.06,
-      "text": "die Kräfte F1 und F4 wirken auf einen Körper."
-    },
-    {
-      "i": 172,
-      "start": 547.06,
-      "end": 549.06,
+      "start": 546.04,
+      "end": 548.04,
       "text": "Sie haben denselben Angriffspunkt."
     },
     {
-      "i": 173,
-      "start": 549.06,
-      "end": 552.06,
+      "i": 91,
+      "start": 548.04,
+      "end": 552.04,
       "text": "Welches ist die resultierende R der beiden Kräfte?"
     },
     {
-      "i": 174,
-      "start": 552.06,
-      "end": 555.06,
-      "text": "Also links haben das F1 und F4,"
+      "i": 92,
+      "start": 552.04,
+      "end": 556.15,
+      "text": "Also links habt ihr das F1 und das F4, das ihr herauspicken müsstet."
     },
     {
-      "i": 175,
-      "start": 555.06,
-      "end": 557.06,
-      "text": "die wir uns picken,"
+      "i": 93,
+      "start": 556.15,
+      "end": 561.65,
+      "text": "Dann müsst ihr diese aneinander hängen und schauen, was das Resultat ist."
     },
     {
-      "i": 176,
-      "start": 557.06,
-      "end": 559.06,
-      "text": "dann müssen die einen anderen hängen."
+      "i": 94,
+      "start": 561.65,
+      "end": 567.65,
+      "text": "Und wenn man jetzt hier vom Start zum Endpunkt vom F1 noch das F4 hinzufügt"
     },
     {
-      "i": 177,
-      "start": 559.06,
-      "end": 561.06,
-      "text": "Und schauen, was ist noch das Resultat?"
+      "i": 95,
+      "start": 567.65,
+      "end": 572.7,
+      "text": "und dann den Startpunkt von beiden zum Endpunkt verbindet,"
     },
     {
-      "i": 178,
-      "start": 561.06,
-      "end": 564.18,
-      "text": "Und wenn man jetzt da vom Start zum Endpunkt,"
+      "i": 96,
+      "start": 572.7,
+      "end": 576.7,
+      "text": "dann sehen wir, dass das Resultat so eine diagonale Kraft ist,"
     },
     {
-      "i": 179,
-      "start": 564.18,
-      "end": 566.18,
-      "text": "vom F1,"
+      "i": 97,
+      "start": 576.7,
+      "end": 579.7,
+      "text": "die dann eben die Richtung etwas geändert hat."
     },
     {
-      "i": 180,
-      "start": 566.18,
-      "end": 568.18,
-      "text": "noch das F4 hinzufirgt"
+      "i": 98,
+      "start": 579.7,
+      "end": 581.7,
+      "text": "Das ist dann die Summe dieser beiden Kräfte."
     },
     {
-      "i": 181,
-      "start": 568.18,
-      "end": 572.18,
-      "text": "und nach dem Startpunkt von beiden zum Endpunkt,"
+      "i": 99,
+      "start": 581.7,
+      "end": 584.7,
+      "text": "Und somit bei diesem Beispiel das R2."
     },
     {
-      "i": 182,
-      "start": 572.18,
-      "end": 573.18,
-      "text": "die wir verbinden,"
+      "i": 100,
+      "start": 584.7,
+      "end": 590.92,
+      "text": "Dann haben wir gleich noch einmal ein Beispiel."
     },
     {
-      "i": 183,
-      "start": 573.18,
-      "end": 575.18,
-      "text": "dann sehen wir das Resultat,"
+      "i": 101,
+      "start": 590.92,
+      "end": 593.92,
+      "text": "Wenn jetzt die Kräfte in die gleiche Richtung wirken,"
     },
     {
-      "i": 184,
-      "start": 575.18,
-      "end": 577.18,
-      "text": "so ein diagonalischer Kraftis,"
-    },
-    {
-      "i": 185,
-      "start": 577.18,
-      "end": 580.18,
-      "text": "wo er den Eben richtig etwas gändert hat."
-    },
-    {
-      "i": 186,
-      "start": 580.18,
-      "end": 582.18,
-      "text": "Da ist ein Zumener von diesen beiden Kräft"
-    },
-    {
-      "i": 187,
-      "start": 582.18,
-      "end": 585.18,
-      "text": "und so mit den Beispiels R2."
-    },
-    {
-      "i": 188,
-      "start": 585.18,
-      "end": 591.83,
-      "text": "Dann haben wir noch einmal ein Beispiel,"
-    },
-    {
-      "i": 189,
-      "start": 591.83,
-      "end": 594.83,
-      "text": "wenn jetzt die Kräfte in die Gleichrichtung wirken,"
-    },
-    {
-      "i": 190,
-      "start": 594.83,
-      "end": 596.83,
+      "i": 102,
+      "start": 593.92,
+      "end": 595.92,
       "text": "dann ist es natürlich noch einfacher."
     },
     {
-      "i": 191,
-      "start": 596.83,
-      "end": 598.83,
-      "text": "Dann gibt es nicht den diagonalen oder so,"
+      "i": 103,
+      "start": 595.92,
+      "end": 597.92,
+      "text": "Dann gibt es nicht eine Diagonale oder so,"
     },
     {
-      "i": 192,
-      "start": 598.83,
-      "end": 600.83,
-      "text": "sondern dann kann man die Kräfte einfach zusammenzüllen,"
+      "i": 104,
+      "start": 597.92,
+      "end": 599.92,
+      "text": "sondern dann kann man die Kräfte einfach zusammenzählen."
     },
     {
-      "i": 193,
-      "start": 600.83,
-      "end": 603.83,
-      "text": "zum Beispiel können wir hier die Häusle zählen"
+      "i": 105,
+      "start": 599.92,
+      "end": 602.92,
+      "text": "An der Prüfung zum Beispiel könnt ihr jetzt hier die Häuschen zählen"
     },
     {
-      "i": 194,
-      "start": 603.83,
-      "end": 605.83,
-      "text": "und sehen dann F1 plus F2,"
+      "i": 106,
+      "start": 602.92,
+      "end": 604.92,
+      "text": "und dann seht ihr F1 plus F2."
     },
     {
-      "i": 195,
-      "start": 605.83,
-      "end": 607.83,
-      "text": "4 Häusle plus 2 Häusle,"
+      "i": 107,
+      "start": 604.92,
+      "end": 605.92,
+      "text": "Vier Häuschen plus zwei Häuschen."
     },
     {
-      "i": 196,
-      "start": 607.83,
-      "end": 609.83,
-      "text": "dann gibt es 3 Häusle beim R3."
+      "i": 108,
+      "start": 606.92,
+      "end": 610.61,
+      "text": "Gibt dann die drei Häuschen beim R3."
     },
     {
-      "i": 197,
-      "start": 609.83,
-      "end": 612.15,
-      "text": "Dann können wir auch einmal sehen,"
+      "i": 109,
+      "start": 610.61,
+      "end": 613.61,
+      "text": "Dann kann es aber auch mal sein, dass die Kräfte entgegengesetzt wirken."
     },
     {
-      "i": 198,
-      "start": 612.15,
-      "end": 614.15,
-      "text": "dass die Kräfte entgegengesetzt wirken."
+      "i": 110,
+      "start": 613.61,
+      "end": 617.72,
+      "text": "Und dann, jetzt angenommen, die Kräfte sind genau gleich gross,"
     },
     {
-      "i": 199,
-      "start": 614.15,
-      "end": 618.15,
-      "text": "Und dann jetzt auch noch die Kräfte sind genau gleich groß."
+      "i": 111,
+      "start": 617.72,
+      "end": 622.72,
+      "text": "wir haben hier irgendeinen Stein und von beiden Seiten stösst irgendeine Kraft."
     },
     {
-      "i": 200,
-      "start": 618.15,
-      "end": 620.15,
-      "text": "Wir haben da irgendein Stein"
+      "i": 112,
+      "start": 622.72,
+      "end": 626.72,
+      "text": "Wenn die genau gleich gross sind, dann bleibt der Stein genau an Ort und Stelle."
     },
     {
-      "i": 201,
-      "start": 620.15,
-      "end": 622.15,
-      "text": "und von beiden Seiten stost irgendeiner Kraft,"
+      "i": 113,
+      "start": 626.72,
+      "end": 632.46,
+      "text": "Und hier seht ihr jetzt, dass eigentlich das F1, das kleiner ist,"
     },
     {
-      "i": 202,
-      "start": 622.15,
-      "end": 624.15,
-      "text": "wenn die genau gleich groß sind,"
+      "i": 114,
+      "start": 632.46,
+      "end": 634.46,
+      "text": "wie das F3 ein bisschen abschwächt."
     },
     {
-      "i": 203,
-      "start": 624.15,
-      "end": 627.15,
-      "text": "dann bleibt ein Stein genau an Arten und Stelle."
+      "i": 115,
+      "start": 634.46,
+      "end": 636.46,
+      "text": "Und auch hier wieder die Summe."
     },
     {
-      "i": 204,
-      "start": 627.15,
-      "end": 630.44,
-      "text": "Und da sehen wir jetzt das F1,"
+      "i": 116,
+      "start": 636.46,
+      "end": 640.46,
+      "text": "Dann kann man die Kräfte zusammenzählen und die Summe ist dann das R4."
     },
     {
-      "i": 205,
-      "start": 630.44,
-      "end": 634.44,
-      "text": "die Klinner ist, wie es F3 ein bisschen dort absweichen."
+      "i": 117,
+      "start": 640.46,
+      "end": 649.35,
+      "text": "Und dieses Grundwissen ist noch wichtig, um jetzt die nächsten paar Folien zu verstehen."
     },
     {
-      "i": 206,
-      "start": 634.44,
-      "end": 636.44,
-      "text": "Und auch da wieder zusammen."
+      "i": 118,
+      "start": 649.35,
+      "end": 653.35,
+      "text": "Wir haben hier wieder einen Flügel, die Profilszene, eingezeichnet."
     },
     {
-      "i": 207,
-      "start": 636.44,
-      "end": 638.44,
-      "text": "Jetzt kann man die Kräfte zusammenzüllen"
+      "i": 119,
+      "start": 653.35,
+      "end": 656.35,
+      "text": "Die ist aerodynamisch relativ wichtig."
     },
     {
-      "i": 208,
-      "start": 638.44,
-      "end": 640.44,
-      "text": "und zusammen ist dann das R4."
+      "i": 120,
+      "start": 656.35,
+      "end": 658.35,
+      "text": "Das sehen wir nachher dann gleich noch."
     },
     {
-      "i": 209,
-      "start": 640.44,
-      "end": 646.0,
-      "text": "Und da Grundwissen ist noch wichtig,"
+      "i": 121,
+      "start": 658.35,
+      "end": 662.35,
+      "text": "Wir haben die Luftkraftresultierende, die ich vorhin kurz angesprochen habe."
     },
     {
-      "i": 210,
-      "start": 646.0,
-      "end": 649.0,
-      "text": "zum jetzt die nächste paar Folie zu verstehen."
+      "i": 122,
+      "start": 662.35,
+      "end": 667.0,
+      "text": "Wir haben den Auftrieb und den Widerstand."
     },
     {
-      "i": 211,
-      "start": 649.0,
-      "end": 652.0,
-      "text": "Wir haben da wieder einen Flügel, Profilsehen,"
-    },
-    {
-      "i": 212,
-      "start": 652.0,
-      "end": 656.0,
-      "text": "in die Zeichnung, die ist aerodynamisch relativ wichtig."
-    },
-    {
-      "i": 213,
-      "start": 656.0,
-      "end": 658.0,
-      "text": "Gesehen wir nachher den Ganon,"
-    },
-    {
-      "i": 214,
-      "start": 658.0,
-      "end": 660.0,
-      "text": "wir haben die Luftkraft resultierende,"
-    },
-    {
-      "i": 215,
-      "start": 660.0,
-      "end": 662.0,
-      "text": "die ich vorhin kurz angesprochen habe."
-    },
-    {
-      "i": 216,
-      "start": 662.0,
-      "end": 666.31,
-      "text": "Wir haben den Uftrieb und der Widerstand."
-    },
-    {
-      "i": 217,
-      "start": 666.31,
-      "end": 668.31,
+      "i": 123,
+      "start": 667.0,
+      "end": 669.0,
       "text": "Der absolute Wunschfall wäre natürlich,"
     },
     {
-      "i": 218,
-      "start": 668.31,
-      "end": 670.31,
-      "text": "dass man frügelkämpf baut,"
+      "i": 124,
+      "start": 669.0,
+      "end": 670.0,
+      "text": "dass man einen Flügel bauen könnte,"
     },
     {
-      "i": 219,
-      "start": 670.31,
-      "end": 672.31,
-      "text": "wo kein Widerstand erzeugt."
+      "i": 125,
+      "start": 670.0,
+      "end": 672.0,
+      "text": "der keinen Widerstand erzeugt."
     },
     {
-      "i": 220,
-      "start": 672.31,
-      "end": 673.31,
-      "text": "Also kein Luftwiderstand."
+      "i": 126,
+      "start": 672.0,
+      "end": 674.0,
+      "text": "Also keinen Luftwiderstand."
     },
     {
-      "i": 221,
-      "start": 673.31,
-      "end": 675.31,
-      "text": "Aber da ist einfach nicht möglich,"
+      "i": 127,
+      "start": 674.0,
+      "end": 676.0,
+      "text": "Aber das ist halt einfach nicht möglich,"
     },
     {
-      "i": 222,
-      "start": 675.31,
-      "end": 677.31,
-      "text": "weil wir haben eine gewisse Stier- und Fläche,"
+      "i": 128,
+      "start": 676.0,
+      "end": 678.0,
+      "text": "weil wir haben eine gewisse Stirnfläche,"
     },
     {
-      "i": 223,
-      "start": 677.31,
-      "end": 678.31,
-      "text": "eine gewisse Fläche,"
+      "i": 129,
+      "start": 678.0,
+      "end": 681.0,
+      "text": "eine gewisse Fläche, die gegen die Luft ankommen muss."
     },
     {
-      "i": 224,
-      "start": 678.31,
-      "end": 680.31,
-      "text": "wo gegen die Luft muss, auch an."
+      "i": 130,
+      "start": 681.0,
+      "end": 683.0,
+      "text": "Und das erzeugt immer Widerstand."
     },
     {
-      "i": 225,
-      "start": 680.31,
-      "end": 682.31,
-      "text": "Und da erzeugt immer Widerstand."
+      "i": 131,
+      "start": 683.0,
+      "end": 686.0,
+      "text": "Da können wir noch so einen perfekten Schirm bauen."
     },
     {
-      "i": 226,
-      "start": 682.31,
-      "end": 685.31,
-      "text": "Da können wir noch so ein perfektes Schirm baut."
+      "i": 132,
+      "start": 686.0,
+      "end": 688.0,
+      "text": "Wir wären nie, die kleine Widerstandskraft,"
     },
     {
-      "i": 227,
-      "start": 685.31,
-      "end": 687.31,
-      "text": "Wir werden nie die Klinwiderstandskraft"
+      "i": 133,
+      "start": 688.0,
+      "end": 689.0,
+      "text": "die eben dagegen wirkt,"
     },
     {
-      "i": 228,
-      "start": 687.31,
-      "end": 690.31,
-      "text": "über die Gegenwirkt werden wir nie ganz los."
+      "i": 134,
+      "start": 689.0,
+      "end": 691.0,
+      "text": "wären wir nie ganz los."
     },
     {
-      "i": 229,
-      "start": 690.31,
-      "end": 692.31,
-      "text": "Und der Uftrieb und der Widerstand"
+      "i": 135,
+      "start": 691.0,
+      "end": 694.0,
+      "text": "Und der Auftrieb und der Widerstand kombiniert,"
     },
     {
-      "i": 230,
-      "start": 692.31,
-      "end": 693.31,
-      "text": "kombiniert."
+      "i": 136,
+      "start": 694.0,
+      "end": 695.0,
+      "text": "sehen wir jetzt hier auch,"
     },
     {
-      "i": 231,
-      "start": 693.31,
-      "end": 694.31,
-      "text": "Gesehen wir jetzt da auch,"
+      "i": 137,
+      "start": 695.0,
+      "end": 697.0,
+      "text": "gibt auch wieder so ein Dreieck."
     },
     {
-      "i": 232,
-      "start": 694.31,
-      "end": 696.31,
-      "text": "geht auch wieder so ein Drüge."
+      "i": 138,
+      "start": 697.0,
+      "end": 698.0,
+      "text": "Und die Diagonale davon,"
     },
     {
-      "i": 233,
-      "start": 696.31,
-      "end": 697.31,
-      "text": "Und die Agonale davon,"
+      "i": 139,
+      "start": 698.0,
+      "end": 701.56,
+      "text": "das ist dann die Luftkraftresultierende."
     },
     {
-      "i": 234,
-      "start": 697.31,
-      "end": 700.31,
-      "text": "da ist ein Luftkraft resultierende."
+      "i": 140,
+      "start": 701.56,
+      "end": 703.56,
+      "text": "Noch wichtig, links ist eingeblendet,"
     },
     {
-      "i": 235,
-      "start": 700.31,
-      "end": 701.54,
-      "text": "Nach Wichtig,"
+      "i": 141,
+      "start": 703.56,
+      "end": 705.67,
+      "text": "der Auftrieb und der Widerstand,"
     },
     {
-      "i": 236,
-      "start": 701.54,
-      "end": 703.54,
-      "text": "links ist einblendet,"
+      "i": 142,
+      "start": 705.67,
+      "end": 708.67,
+      "text": "die sind immer im 90-Grad-Winkel zueinander."
     },
     {
-      "i": 237,
-      "start": 703.54,
-      "end": 705.54,
-      "text": "der Uftrieb und der Widerstand"
+      "i": 143,
+      "start": 708.67,
+      "end": 709.67,
+      "text": "Also die variieren nicht,"
     },
     {
-      "i": 238,
-      "start": 705.54,
-      "end": 707.54,
-      "text": "sind immer im 90°-Winkel zueinander."
+      "i": 144,
+      "start": 709.67,
+      "end": 711.67,
+      "text": "die sind immer genau im 90-Grad-Winkel."
     },
     {
-      "i": 239,
-      "start": 707.54,
-      "end": 708.54,
-      "text": "Also die waren ja nicht,"
+      "i": 145,
+      "start": 711.67,
+      "end": 716.69,
+      "text": "Der Widerstand immer genau in der Linie von der Anströmung."
     },
     {
-      "i": 240,
-      "start": 708.54,
-      "end": 711.54,
-      "text": "die sind immer genau im 90°-Winkel."
+      "i": 146,
+      "start": 716.69,
+      "end": 721.15,
+      "text": "Also von der Flugbahn oder auch von der Anströmung."
     },
     {
-      "i": 241,
-      "start": 711.54,
-      "end": 713.54,
-      "text": "Der Widerstand immer genau"
+      "i": 147,
+      "start": 721.15,
+      "end": 723.15,
+      "text": "Es kommt ja immer darauf an, wie man es anschaut."
     },
     {
-      "i": 242,
-      "start": 713.54,
-      "end": 716.54,
-      "text": "in der Linie von der Aströmung,"
+      "i": 148,
+      "start": 723.15,
+      "end": 725.15,
+      "text": "Es spielt eigentlich nicht so eine Rolle,"
     },
     {
-      "i": 243,
-      "start": 716.54,
-      "end": 721.54,
-      "text": "also von der Flugbahn oder auch von der Aströmung."
+      "i": 149,
+      "start": 725.15,
+      "end": 727.15,
+      "text": "ob jetzt der Flügel in einem Windkanal steht,"
     },
     {
-      "i": 244,
-      "start": 721.54,
-      "end": 723.54,
-      "text": "Es kommt ja immer wieder auf die Farbe,"
+      "i": 150,
+      "start": 727.15,
+      "end": 728.15,
+      "text": "völlig theoretisch,"
     },
     {
-      "i": 245,
-      "start": 723.54,
-      "end": 724.54,
-      "text": "wie man sieht."
+      "i": 151,
+      "start": 728.15,
+      "end": 731.15,
+      "text": "oder ob der Flügel durch stehende Luft gleitet."
     },
     {
-      "i": 246,
-      "start": 724.54,
-      "end": 726.54,
-      "text": "Das spielt eigentlich nicht so eine Rolle,"
+      "i": 152,
+      "start": 731.15,
+      "end": 733.15,
+      "text": "Also schlussendlich ist es immer relativ"
     },
     {
-      "i": 247,
-      "start": 726.54,
-      "end": 728.54,
-      "text": "ob jetzt der Flügel in einem Winkelall"
-    },
-    {
-      "i": 248,
-      "start": 728.54,
-      "end": 730.54,
-      "text": "stattfüllig theoretisch oder ob der Flügel"
-    },
-    {
-      "i": 249,
-      "start": 730.54,
-      "end": 732.54,
-      "text": "durchstehende Luft gleitet."
-    },
-    {
-      "i": 250,
-      "start": 732.54,
-      "end": 734.54,
-      "text": "Also v.a. ist immer relativ,"
-    },
-    {
-      "i": 251,
-      "start": 734.54,
-      "end": 737.88,
+      "i": 153,
+      "start": 733.15,
+      "end": 735.15,
       "text": "der Flügel gegenüber der Luft."
     },
     {
-      "i": 252,
-      "start": 737.88,
-      "end": 741.23,
+      "i": 154,
+      "start": 735.15,
+      "end": 740.62,
       "text": "Der Druckpunkt ist auch noch wichtig,"
     },
     {
-      "i": 253,
-      "start": 741.23,
-      "end": 743.23,
-      "text": "zum Näppvergessen der Druckpunkt"
+      "i": 155,
+      "start": 740.62,
+      "end": 741.62,
+      "text": "um nicht zu vergessen,"
     },
     {
-      "i": 254,
-      "start": 743.23,
-      "end": 744.23,
-      "text": "ist der Punkt,"
+      "i": 156,
+      "start": 741.62,
+      "end": 742.62,
+      "text": "der Druckpunkt ist der Punkt,"
     },
     {
-      "i": 255,
-      "start": 744.23,
-      "end": 746.23,
-      "text": "der alle von allen diesen Kräften agrifft."
+      "i": 157,
+      "start": 742.62,
+      "end": 745.62,
+      "text": "der die Summe von all diesen Kräften angreift."
     },
     {
-      "i": 256,
-      "start": 746.23,
-      "end": 748.23,
-      "text": "Und Gewichtskraft"
+      "i": 158,
+      "start": 745.62,
+      "end": 747.62,
+      "text": "Und die Gewichtskraft,"
     },
     {
-      "i": 257,
-      "start": 748.23,
-      "end": 750.23,
-      "text": "ist immer gleich groß,"
+      "i": 159,
+      "start": 747.62,
+      "end": 748.62,
+      "text": "die ist immer gleich gross"
     },
     {
-      "i": 258,
-      "start": 750.23,
-      "end": 752.23,
-      "text": "wird die Luftkraft resultierende."
+      "i": 160,
+      "start": 748.62,
+      "end": 751.62,
+      "text": "wie die Luftkraftresultierende."
     },
     {
-      "i": 259,
-      "start": 752.23,
-      "end": 754.23,
-      "text": "Also wenn man schwerer sind,"
+      "i": 161,
+      "start": 751.62,
+      "end": 753.7,
+      "text": "Also wenn wir schwerer sind,"
     },
     {
-      "i": 260,
-      "start": 754.23,
-      "end": 756.23,
-      "text": "dann brauchen wir auch mehr Auftrieb,"
+      "i": 162,
+      "start": 753.7,
+      "end": 754.7,
+      "text": "dann brauchen wir auch mehr Auftrieb"
     },
     {
-      "i": 261,
-      "start": 756.23,
-      "end": 757.23,
-      "text": "um mehr Widerstand."
+      "i": 163,
+      "start": 754.7,
+      "end": 755.7,
+      "text": "und mehr Widerstand"
     },
     {
-      "i": 262,
-      "start": 757.23,
-      "end": 760.23,
-      "text": "Und die Luftkraft wird resultierende Wächste auch."
+      "i": 164,
+      "start": 755.7,
+      "end": 759.7,
+      "text": "und die Luftkraftresultierende wächst dann auch."
     },
     {
-      "i": 263,
-      "start": 760.23,
-      "end": 767.42,
-      "text": "Den geht's geht weiter bei dieser Folie."
+      "i": 165,
+      "start": 759.7,
+      "end": 767.25,
+      "text": "Dann geht es gleich weiter bei dieser Folie"
     },
     {
-      "i": 264,
-      "start": 767.42,
-      "end": 769.42,
-      "text": "Mit der Aströmrichtung,"
+      "i": 166,
+      "start": 767.25,
+      "end": 769.25,
+      "text": "mit der Anströmrichtung,"
     },
     {
-      "i": 265,
-      "start": 769.42,
-      "end": 771.42,
-      "text": "die ich vor kurz angesprochen habe,"
+      "i": 167,
+      "start": 769.25,
+      "end": 771.25,
+      "text": "die ich vorhin kurz angesprochen habe."
     },
     {
-      "i": 266,
-      "start": 771.42,
-      "end": 772.42,
-      "text": "der Aströmrichtung,"
+      "i": 168,
+      "start": 771.25,
+      "end": 772.25,
+      "text": "Die Anströmrichtung,"
     },
     {
-      "i": 267,
-      "start": 772.42,
-      "end": 774.42,
-      "text": "die genau in der gleichen Richtung"
+      "i": 169,
+      "start": 772.25,
+      "end": 774.25,
+      "text": "die genau in der gleichen Richtung verläuft"
     },
     {
-      "i": 268,
-      "start": 774.42,
-      "end": 775.42,
-      "text": "verlauft in der Widerstand."
+      "i": 170,
+      "start": 774.25,
+      "end": 775.25,
+      "text": "wie der Widerstand."
     },
     {
-      "i": 269,
-      "start": 775.42,
-      "end": 777.42,
-      "text": "Und da sieht man jetzt der Aströmung."
+      "i": 171,
+      "start": 775.25,
+      "end": 778.25,
+      "text": "Und da sehen wir jetzt den Anstellwinkel."
     },
     {
-      "i": 270,
-      "start": 777.42,
-      "end": 779.42,
+      "i": 172,
+      "start": 778.25,
+      "end": 779.25,
       "text": "Da ist jetzt eben die Hand,"
     },
     {
-      "i": 271,
-      "start": 779.42,
-      "end": 780.42,
-      "text": "ier da quasi ein bisschen schräg,"
+      "i": 173,
+      "start": 779.25,
+      "end": 781.25,
+      "text": "die quasi etwas schräg,"
     },
     {
-      "i": 272,
-      "start": 780.42,
-      "end": 782.42,
-      "text": "ein bisschen angewinkelt in diesem Luftkanal"
+      "i": 174,
+      "start": 781.25,
+      "end": 783.25,
+      "text": "etwas angewinkelt in diesem Luftkanal ist"
     },
     {
-      "i": 273,
-      "start": 782.42,
-      "end": 785.42,
-      "text": "oder in einer Luftströmung."
+      "i": 175,
+      "start": 783.25,
+      "end": 786.25,
+      "text": "oder in dieser Luftströmung."
     },
     {
-      "i": 274,
-      "start": 815.83,
-      "end": 818.83,
-      "text": "Die neutrale, unbewegte, ruhige Luftmassen"
+      "i": 176,
+      "start": 786.25,
+      "end": 787.25,
+      "text": "Und der Anstellwinkel,"
     },
     {
-      "i": 275,
-      "start": 818.83,
-      "end": 819.83,
-      "text": "anschauen."
+      "i": 177,
+      "start": 787.25,
+      "end": 789.33,
+      "text": "das ist nicht der Winkel"
     },
     {
-      "i": 276,
-      "start": 819.83,
-      "end": 825.83,
-      "text": "Dann können wir zum Widerstand"
+      "i": 178,
+      "start": 789.33,
+      "end": 791.33,
+      "text": "von der Horizontalen zur Luft,"
     },
     {
-      "i": 277,
-      "start": 825.83,
-      "end": 826.83,
-      "text": "von einer Körper."
+      "i": 179,
+      "start": 791.33,
+      "end": 792.33,
+      "text": "sondern immer,"
     },
     {
-      "i": 278,
-      "start": 826.83,
-      "end": 829.83,
-      "text": "Da ist noch eine interessante Formel"
+      "i": 180,
+      "start": 792.33,
+      "end": 793.33,
+      "text": "ganz wichtig,"
     },
     {
-      "i": 279,
-      "start": 829.83,
-      "end": 831.83,
-      "text": "für die Widerstand und der Auftrieb."
+      "i": 181,
+      "start": 793.33,
+      "end": 794.33,
+      "text": "nicht zu verwechseln,"
     },
     {
-      "i": 280,
-      "start": 831.83,
-      "end": 832.83,
-      "text": "Das sind immer genau,"
+      "i": 182,
+      "start": 794.33,
+      "end": 796.33,
+      "text": "der Anstellwinkel ist immer"
     },
     {
-      "i": 281,
-      "start": 832.83,
-      "end": 835.83,
-      "text": "gleich vorne steht jetzt W für Widerstand."
+      "i": 183,
+      "start": 796.33,
+      "end": 797.33,
+      "text": "der Winkel vom Schirm,"
     },
     {
-      "i": 282,
-      "start": 835.83,
-      "end": 838.83,
-      "text": "Nachher haben wir ein paar Faktoren,"
+      "i": 184,
+      "start": 797.33,
+      "end": 799.33,
+      "text": "also von der Profilsehne"
     },
     {
-      "i": 283,
-      "start": 838.83,
-      "end": 840.83,
-      "text": "wo dann eben der Widerstand ergend."
+      "i": 185,
+      "start": 799.33,
+      "end": 802.11,
+      "text": "und der anströmenden Luft."
     },
     {
-      "i": 284,
-      "start": 840.83,
-      "end": 842.83,
-      "text": "Da, ganz wichtig,"
+      "i": 186,
+      "start": 802.11,
+      "end": 804.11,
+      "text": "Und die anströmende Luft"
     },
     {
-      "i": 285,
-      "start": 842.83,
-      "end": 843.83,
-      "text": "bitte nicht verschrecken."
+      "i": 187,
+      "start": 804.11,
+      "end": 806.11,
+      "text": "ist ja eigentlich nicht horizontal,"
     },
     {
-      "i": 286,
-      "start": 843.83,
-      "end": 845.83,
-      "text": "Wir müssen für die Theorieprüfung,"
+      "i": 188,
+      "start": 806.11,
+      "end": 807.11,
+      "text": "weil beim Gleitschirm"
     },
     {
-      "i": 287,
-      "start": 845.83,
-      "end": 847.83,
-      "text": "für dessen Falt-Theorieprüfung,"
+      "i": 189,
+      "start": 807.11,
+      "end": 809.11,
+      "text": "hat man ja immer ein leichtes Sinken."
     },
     {
-      "i": 288,
-      "start": 847.83,
-      "end": 849.83,
-      "text": "keine Formel auswendiglerne"
+      "i": 190,
+      "start": 809.11,
+      "end": 810.11,
+      "text": "Darum ist sie jetzt da auch so"
     },
     {
-      "i": 289,
-      "start": 849.83,
-      "end": 851.83,
-      "text": "und nicht in diesem Stil berechnen können."
+      "i": 191,
+      "start": 810.11,
+      "end": 812.11,
+      "text": "leicht von unten eingezeichnet,"
     },
     {
-      "i": 290,
-      "start": 851.83,
-      "end": 853.83,
-      "text": "Also nicht verschrecken."
+      "i": 192,
+      "start": 812.11,
+      "end": 814.11,
+      "text": "weil man sinkt ja immer leicht,"
     },
     {
-      "i": 291,
-      "start": 853.83,
-      "end": 855.83,
-      "text": "Ich habe nur die Formel aufzeichnet,"
+      "i": 193,
+      "start": 814.11,
+      "end": 817.26,
+      "text": "wenn man jetzt einfach eine neutrale,"
     },
     {
-      "i": 292,
-      "start": 855.83,
-      "end": 856.83,
-      "text": "zu zeigen,"
+      "i": 194,
+      "start": 817.26,
+      "end": 824.59,
+      "text": "unbewegte, ruhige Luftmasse anschaut."
     },
     {
-      "i": 293,
-      "start": 856.83,
-      "end": 858.83,
-      "text": "aus welchem Element,"
+      "i": 195,
+      "start": 824.59,
+      "end": 825.59,
+      "text": "Dann kommen wir zum Widerstand"
     },
     {
-      "i": 294,
-      "start": 858.83,
-      "end": 860.83,
-      "text": "dass der Widerstand zähmlich zusätzlich zähmend,"
+      "i": 196,
+      "start": 825.59,
+      "end": 827.7,
+      "text": "eines Körpers."
     },
     {
-      "i": 295,
-      "start": 860.83,
-      "end": 861.83,
-      "text": "gesetzt wird."
+      "i": 197,
+      "start": 827.7,
+      "end": 830.01,
+      "text": "Da ist noch interessant,"
     },
     {
-      "i": 296,
-      "start": 861.83,
-      "end": 863.83,
-      "text": "Als Erste haben wir dabei."
+      "i": 198,
+      "start": 830.01,
+      "end": 831.01,
+      "text": "die Formeln für den Widerstand"
     },
     {
-      "i": 297,
-      "start": 863.83,
-      "end": 866.22,
-      "text": "Das ist der Form und der Astellwinkel."
+      "i": 199,
+      "start": 831.01,
+      "end": 832.01,
+      "text": "und der Auftrieb,"
     },
     {
-      "i": 298,
-      "start": 866.22,
-      "end": 868.22,
-      "text": "Da kommt es jetzt gerne,"
+      "i": 200,
+      "start": 832.01,
+      "end": 834.09,
+      "text": "die sind immer genau gleich."
     },
     {
-      "i": 299,
-      "start": 868.22,
-      "end": 869.22,
-      "text": "so, ob es dann flügel ist,"
+      "i": 201,
+      "start": 834.09,
+      "end": 836.09,
+      "text": "Vorne steht jetzt W für Widerstand,"
     },
     {
-      "i": 300,
-      "start": 869.22,
-      "end": 871.22,
-      "text": "oder ein Auto oder irgendeinen Steinwind."
+      "i": 202,
+      "start": 836.09,
+      "end": 839.33,
+      "text": "nachher haben wir ein paar Faktoren,"
     },
     {
-      "i": 301,
-      "start": 871.22,
-      "end": 874.22,
-      "text": "Da kommt es sehr auf die Form drauf."
+      "i": 203,
+      "start": 839.33,
+      "end": 841.33,
+      "text": "die dann eben den Widerstand ergänzen."
     },
     {
-      "i": 302,
-      "start": 874.22,
-      "end": 877.22,
-      "text": "Auf wie ist das Gerät"
+      "i": 204,
+      "start": 841.33,
+      "end": 843.33,
+      "text": "Hier ganz wichtig,"
     },
     {
-      "i": 303,
-      "start": 877.22,
-      "end": 881.22,
-      "text": "oder der Gegenstand am Winstrom ausgesetzt?"
+      "i": 205,
+      "start": 843.33,
+      "end": 844.33,
+      "text": "bitte nicht zu erschrecken,"
     },
     {
-      "i": 304,
-      "start": 881.22,
-      "end": 883.31,
-      "text": "Dann haben wir die Luftdichte innen."
+      "i": 206,
+      "start": 844.33,
+      "end": 846.33,
+      "text": "ihr müsst für die Theorieprüfung,"
     },
     {
-      "i": 305,
-      "start": 883.31,
-      "end": 884.31,
-      "text": "Mit dem Rohr,"
+      "i": 207,
+      "start": 846.33,
+      "end": 848.33,
+      "text": "für die SAV-Theorieprüfung"
     },
     {
-      "i": 306,
-      "start": 884.31,
-      "end": 885.31,
-      "text": "da liegt es über P."
+      "i": 208,
+      "start": 848.33,
+      "end": 850.33,
+      "text": "keine Formeln auswendig lernen"
     },
     {
-      "i": 307,
-      "start": 885.31,
-      "end": 887.31,
-      "text": "Die Luftdichte ist natürlich auch ganz wichtig."
+      "i": 209,
+      "start": 850.33,
+      "end": 853.33,
+      "text": "und nichts in diesem Stil berechnen können,"
     },
     {
-      "i": 308,
-      "start": 887.31,
-      "end": 890.31,
-      "text": "Auf mehreren Söcke haben wir nicht die gleich Luftdichte,"
+      "i": 210,
+      "start": 853.33,
+      "end": 854.33,
+      "text": "also nicht zu erschrecken."
     },
     {
-      "i": 309,
-      "start": 890.31,
-      "end": 892.31,
-      "text": "die wie auf 2000 Meter oben,"
+      "i": 211,
+      "start": 854.33,
+      "end": 856.33,
+      "text": "Ich habe nur die Formeln aufgezeichnet,"
     },
     {
-      "i": 310,
-      "start": 892.31,
-      "end": 895.31,
-      "text": "weil dann natürlich auch der Widerstand beeinflusst."
+      "i": 212,
+      "start": 856.33,
+      "end": 857.33,
+      "text": "um euch zu zeigen,"
     },
     {
-      "i": 311,
-      "start": 895.31,
-      "end": 897.79,
-      "text": "Dann haben wir Geschwindigkeit."
+      "i": 213,
+      "start": 857.33,
+      "end": 859.33,
+      "text": "aus welchen Elementen"
     },
     {
-      "i": 312,
-      "start": 897.79,
-      "end": 900.79,
-      "text": "Achtung, Geschwindigkeit ist immer hoch zwei."
+      "i": 214,
+      "start": 859.33,
+      "end": 861.33,
+      "text": "der Widerstand schlussendlich"
     },
     {
-      "i": 313,
-      "start": 900.79,
-      "end": 903.79,
-      "text": "Die ist die E-Fluss im Quadrat."
+      "i": 215,
+      "start": 861.33,
+      "end": 862.33,
+      "text": "zusammengesetzt wird."
     },
     {
-      "i": 314,
-      "start": 903.79,
-      "end": 905.79,
-      "text": "Zudem können wir dann nachher gerne,"
+      "i": 216,
+      "start": 862.33,
+      "end": 864.98,
+      "text": "Als erstes haben wir den Beiwert,"
     },
     {
-      "i": 315,
-      "start": 905.79,
-      "end": 907.79,
-      "text": "genau benötet,"
+      "i": 217,
+      "start": 864.98,
+      "end": 866.98,
+      "text": "das ist die Form und der Anstellwinkel."
     },
     {
-      "i": 316,
-      "start": 907.79,
-      "end": 910.08,
-      "text": "für uns mit dem Kleidschirm."
+      "i": 218,
+      "start": 866.98,
+      "end": 868.98,
+      "text": "Da kommt es gerne darauf an,"
     },
     {
-      "i": 317,
-      "start": 910.08,
-      "end": 912.08,
-      "text": "Und das S ist noch größer,"
+      "i": 219,
+      "start": 868.98,
+      "end": 869.98,
+      "text": "ob es ein Flügel ist,"
     },
     {
-      "i": 318,
-      "start": 912.08,
-      "end": 914.08,
-      "text": "also die Fläche von dem Objekt."
+      "i": 220,
+      "start": 869.98,
+      "end": 870.98,
+      "text": "oder ein Auto,"
     },
     {
-      "i": 319,
-      "start": 914.08,
-      "end": 916.69,
-      "text": "Beim Uftrieb ist es genau das Gleiche."
+      "i": 221,
+      "start": 870.98,
+      "end": 871.98,
+      "text": "oder irgendein Stein im Wind."
     },
     {
-      "i": 320,
-      "start": 916.69,
-      "end": 917.69,
-      "text": "Nur der B-Wert,"
+      "i": 222,
+      "start": 871.98,
+      "end": 874.98,
+      "text": "Da kommt es sehr auf die Form an,"
     },
     {
-      "i": 321,
-      "start": 917.69,
-      "end": 919.69,
-      "text": "der Veränderer, sich dort."
+      "i": 223,
+      "start": 874.98,
+      "end": 877.98,
+      "text": "wie ist dieses Gerät"
     },
     {
-      "i": 322,
-      "start": 919.69,
-      "end": 922.69,
-      "text": "Die restlichen Faktoren sind die gleichen."
+      "i": 224,
+      "start": 877.98,
+      "end": 878.98,
+      "text": "oder dieser Gegenstand"
     },
     {
-      "i": 323,
-      "start": 922.69,
-      "end": 926.17,
-      "text": "Der Uftrieb hat einen anderen B-Wert"
+      "i": 225,
+      "start": 878.98,
+      "end": 880.98,
+      "text": "am Windstrom ausgesetzt."
     },
     {
-      "i": 324,
-      "start": 926.17,
-      "end": 930.17,
-      "text": "und somit beeinflusst den Auffahren der Uftrieb."
+      "i": 226,
+      "start": 880.98,
+      "end": 883.45,
+      "text": "Dann haben wir die Luftdichte,"
     },
     {
-      "i": 325,
-      "start": 930.17,
-      "end": 932.58,
-      "text": "Oder die Kraft, die entsteht"
+      "i": 227,
+      "start": 883.45,
+      "end": 884.45,
+      "text": "mit diesem Rohr,"
     },
     {
-      "i": 326,
-      "start": 932.58,
-      "end": 934.58,
-      "text": "und dann der Uftrieb ergibt."
+      "i": 228,
+      "start": 884.45,
+      "end": 885.45,
+      "text": "hier geschrieben P."
     },
     {
-      "i": 327,
-      "start": 934.58,
-      "end": 939.37,
-      "text": "Bei der SFA-Prüfungsfrage"
+      "i": 229,
+      "start": 885.45,
+      "end": 886.45,
+      "text": "Die Luftdichte ist natürlich"
     },
     {
-      "i": 328,
-      "start": 939.37,
-      "end": 941.37,
-      "text": "kann man immer wieder einmal,"
+      "i": 230,
+      "start": 886.45,
+      "end": 888.45,
+      "text": "auch ganz wichtig."
     },
     {
-      "i": 329,
-      "start": 941.37,
-      "end": 943.37,
-      "text": "wie es passiert,"
+      "i": 231,
+      "start": 888.45,
+      "end": 889.45,
+      "text": "Auf Meereshöhe haben wir"
     },
     {
-      "i": 330,
-      "start": 943.37,
-      "end": 946.37,
-      "text": "wenn man auf gewisse Fläche hat."
+      "i": 232,
+      "start": 889.45,
+      "end": 890.45,
+      "text": "nicht die gleiche Luftdichte"
     },
     {
-      "i": 331,
-      "start": 946.37,
-      "end": 949.37,
-      "text": "Sie verursacht einen gewissen Widerstand im Wind."
+      "i": 233,
+      "start": 890.45,
+      "end": 892.45,
+      "text": "wie auf 2'000 Metern oben,"
     },
     {
-      "i": 332,
-      "start": 949.37,
-      "end": 950.37,
-      "text": "Wie passiert,"
+      "i": 234,
+      "start": 892.45,
+      "end": 893.45,
+      "text": "was dann natürlich auch"
     },
     {
-      "i": 333,
-      "start": 950.37,
-      "end": 952.37,
-      "text": "wenn man jetzt die Fläche verdoppelt oder halbiert?"
+      "i": 235,
+      "start": 893.45,
+      "end": 895.45,
+      "text": "den Widerstand beeinflusst."
     },
     {
-      "i": 334,
-      "start": 952.37,
-      "end": 955.37,
-      "text": "Und das ist immer relativ einfach."
+      "i": 236,
+      "start": 895.45,
+      "end": 898.14,
+      "text": "Dann haben wir die Geschwindigkeit."
     },
     {
-      "i": 335,
-      "start": 955.37,
-      "end": 956.37,
+      "i": 237,
+      "start": 898.14,
+      "end": 899.14,
+      "text": "Achtung, die Geschwindigkeit"
+    },
+    {
+      "i": 238,
+      "start": 899.14,
+      "end": 901.14,
+      "text": "ist immer hoch 2."
+    },
+    {
+      "i": 239,
+      "start": 901.14,
+      "end": 904.14,
+      "text": "Sie hat den Einfluss im Quadrat."
+    },
+    {
+      "i": 240,
+      "start": 904.14,
+      "end": 905.14,
+      "text": "Zu dem kommen wir dann gleich noch,"
+    },
+    {
+      "i": 241,
+      "start": 905.14,
+      "end": 907.14,
+      "text": "was das genau bedeutet"
+    },
+    {
+      "i": 242,
+      "start": 907.14,
+      "end": 909.9,
+      "text": "für uns mit dem Gleitschirm."
+    },
+    {
+      "i": 243,
+      "start": 909.9,
+      "end": 910.9,
+      "text": "Und das S ist noch die Grösse,"
+    },
+    {
+      "i": 244,
+      "start": 910.9,
+      "end": 913.9,
+      "text": "also die Fläche des Objekts."
+    },
+    {
+      "i": 245,
+      "start": 913.9,
+      "end": 916.88,
+      "text": "Beim Auftrieb ist es genau das Gleiche,"
+    },
+    {
+      "i": 246,
+      "start": 916.88,
+      "end": 919.88,
+      "text": "nur der Beiwert verändert sich dort."
+    },
+    {
+      "i": 247,
+      "start": 919.88,
+      "end": 920.88,
+      "text": "Die restlichen Faktoren,"
+    },
+    {
+      "i": 248,
+      "start": 920.88,
+      "end": 922.88,
+      "text": "sind die gleichen."
+    },
+    {
+      "i": 249,
+      "start": 922.88,
+      "end": 924.88,
+      "text": "Der Auftrieb hat einen anderen Beiwert"
+    },
+    {
+      "i": 250,
+      "start": 924.88,
+      "end": 927.76,
+      "text": "und somit beeinflusst es dann"
+    },
+    {
+      "i": 251,
+      "start": 927.76,
+      "end": 929.76,
+      "text": "auch vorne den Auftrieb"
+    },
+    {
+      "i": 252,
+      "start": 929.76,
+      "end": 932.54,
+      "text": "oder die Kraft, die entsteht"
+    },
+    {
+      "i": 253,
+      "start": 932.54,
+      "end": 934.54,
+      "text": "und dann den Auftrieb ergibt."
+    },
+    {
+      "i": 254,
+      "start": 934.54,
+      "end": 938.73,
+      "text": "Bei den SFA Prüfungsfragen"
+    },
+    {
+      "i": 255,
+      "start": 938.73,
+      "end": 939.73,
+      "text": "kommt immer wieder einmal"
+    },
+    {
+      "i": 256,
+      "start": 939.73,
+      "end": 940.73,
+      "text": "so ein Beispiel."
+    },
+    {
+      "i": 257,
+      "start": 940.73,
+      "end": 942.73,
+      "text": "Ja, was passiert denn,"
+    },
+    {
+      "i": 258,
+      "start": 942.73,
+      "end": 946.87,
+      "text": "wenn wir eine gewisse Fläche haben?"
+    },
+    {
+      "i": 259,
+      "start": 946.87,
+      "end": 947.87,
+      "text": "Die verursacht einen gewissen"
+    },
+    {
+      "i": 260,
+      "start": 947.87,
+      "end": 948.87,
+      "text": "Widerstand im Wind."
+    },
+    {
+      "i": 261,
+      "start": 948.87,
+      "end": 949.87,
+      "text": "Was passiert, wenn wir jetzt"
+    },
+    {
+      "i": 262,
+      "start": 949.87,
+      "end": 952.87,
+      "text": "die Fläche verdoppeln oder halbieren?"
+    },
+    {
+      "i": 263,
+      "start": 952.87,
+      "end": 954.89,
+      "text": "Und dort ist es immer relativ einfach."
+    },
+    {
+      "i": 264,
+      "start": 954.89,
+      "end": 955.89,
       "text": "Es ist immer linear."
     },
     {
-      "i": 336,
-      "start": 956.37,
-      "end": 959.37,
-      "text": "Wenn man die Fläche von einem Gegenstand verdoppelt,"
+      "i": 265,
+      "start": 955.89,
+      "end": 956.89,
+      "text": "Also wenn man die Fläche"
     },
     {
-      "i": 337,
-      "start": 959.37,
-      "end": 961.37,
+      "i": 266,
+      "start": 956.89,
+      "end": 958.89,
+      "text": "von einem Gegenstand verdoppelt,"
+    },
+    {
+      "i": 267,
+      "start": 958.89,
+      "end": 960.89,
       "text": "verdoppelt sich auch der Widerstand."
     },
     {
-      "i": 338,
-      "start": 961.37,
-      "end": 962.37,
+      "i": 268,
+      "start": 960.89,
+      "end": 961.89,
       "text": "Wenn man sie halbiert,"
     },
     {
-      "i": 339,
-      "start": 962.37,
-      "end": 964.37,
-      "text": "dann halbiert sich der Widerstand."
+      "i": 269,
+      "start": 961.89,
+      "end": 963.89,
+      "text": "halbiert sich der Widerstand."
     },
     {
-      "i": 340,
-      "start": 964.37,
-      "end": 966.37,
-      "text": "Wenn man sich die Luftdichte halbiert,"
+      "i": 270,
+      "start": 963.89,
+      "end": 965.89,
+      "text": "Wenn sich die Luftdichte halbiert,"
     },
     {
-      "i": 341,
-      "start": 966.37,
-      "end": 968.37,
-      "text": "weil man viel, viel höher rüber,"
+      "i": 271,
+      "start": 965.89,
+      "end": 966.89,
+      "text": "weil man viel, viel höher oben"
     },
     {
-      "i": 342,
-      "start": 968.37,
-      "end": 970.37,
-      "text": "zum Beispiel, wenn die Starten mit dem Gleidschirm"
+      "i": 272,
+      "start": 966.89,
+      "end": 968.89,
+      "text": "zum Beispiel starten will"
     },
     {
-      "i": 343,
-      "start": 970.37,
-      "end": 973.66,
-      "text": "dann tut sich auch der Widerstand halbieren."
+      "i": 273,
+      "start": 968.89,
+      "end": 969.89,
+      "text": "mit dem Gleitschirm,"
     },
     {
-      "i": 344,
-      "start": 973.66,
-      "end": 975.66,
-      "text": "Ganz, ganz grosses Aufrufverzeichen"
+      "i": 274,
+      "start": 969.89,
+      "end": 972.42,
+      "text": "dann halbiert sich auch der Widerstand."
     },
     {
-      "i": 345,
-      "start": 975.66,
-      "end": 977.66,
+      "i": 275,
+      "start": 972.42,
+      "end": 975.01,
+      "text": "Ganz, ganz grosses Ausrufezeichen"
+    },
+    {
+      "i": 276,
+      "start": 975.01,
+      "end": 977.01,
       "text": "ist bei der Geschwindigkeit."
     },
     {
-      "i": 346,
-      "start": 977.66,
-      "end": 979.66,
+      "i": 277,
+      "start": 977.01,
+      "end": 979.01,
       "text": "Wenn es um Geschwindigkeit geht,"
     },
     {
-      "i": 347,
-      "start": 979.66,
-      "end": 981.66,
+      "i": 278,
+      "start": 979.01,
+      "end": 981.02,
       "text": "verhalten sich da immer im Quadrat."
     },
     {
-      "i": 348,
-      "start": 981.66,
-      "end": 983.66,
+      "i": 279,
+      "start": 981.02,
+      "end": 983.02,
       "text": "Also wenn sich die Geschwindigkeit verdoppelt,"
     },
     {
-      "i": 349,
-      "start": 983.66,
-      "end": 986.66,
-      "text": "dann sich alle die Kräfte für vier Fachen."
+      "i": 280,
+      "start": 983.02,
+      "end": 985.02,
+      "text": "dann verviert sich alle diese Kräfte."
     },
     {
-      "i": 350,
-      "start": 986.66,
-      "end": 989.66,
-      "text": "Wenn sich die Geschwindigkeit für drei Fachen,"
+      "i": 281,
+      "start": 985.02,
+      "end": 987.02,
+      "text": "Wenn sich die Geschwindigkeit verdreifacht,"
     },
     {
-      "i": 351,
-      "start": 989.66,
-      "end": 992.66,
-      "text": "dann sich alle die Kräfte für neu fachen."
+      "i": 282,
+      "start": 987.02,
+      "end": 989.02,
+      "text": "verneinfachen sich alle diese Kräfte."
     },
     {
-      "i": 352,
-      "start": 992.66,
-      "end": 994.66,
-      "text": "Da bin ich immer bei einer Frage."
+      "i": 283,
+      "start": 989.02,
+      "end": 991.02,
+      "text": "Also da müsst ihr immer bei diesen Fragen"
     },
     {
-      "i": 353,
-      "start": 994.66,
-      "end": 997.66,
-      "text": "Nicht die Flüchtigkeit zu fällen,"
+      "i": 284,
+      "start": 991.02,
+      "end": 992.02,
+      "text": "nicht schauen,"
     },
     {
-      "i": 354,
-      "start": 997.66,
-      "end": 999.66,
-      "text": "einfach schnell schnell klicken,"
+      "i": 285,
+      "start": 992.02,
+      "end": 994.02,
+      "text": "dass ihr keine Flüchtigkeitsfehler macht"
     },
     {
-      "i": 355,
-      "start": 999.66,
-      "end": 1000.66,
+      "i": 286,
+      "start": 994.02,
+      "end": 996.02,
+      "text": "und einfach schnell, schnell anklicken,"
+    },
+    {
+      "i": 287,
+      "start": 996.02,
+      "end": 998.02,
       "text": "sondern ganz genau schauen,"
     },
     {
-      "i": 356,
-      "start": 1000.66,
-      "end": 1002.66,
-      "text": "geht es um irgendein Faktor"
+      "i": 288,
+      "start": 998.02,
+      "end": 1000.02,
+      "text": "geht es um irgendeinen Faktor"
     },
     {
-      "i": 357,
-      "start": 1002.66,
-      "end": 1005.66,
-      "text": "oder zum Geschwindigkeit von der Erinnerung."
+      "i": 289,
+      "start": 1000.02,
+      "end": 1002.02,
+      "text": "oder geht es um die Geschwindigkeit"
     },
     {
-      "i": 358,
-      "start": 1005.66,
-      "end": 1008.82,
-      "text": "Sehr wichtig, dass man da nicht innerkeit."
+      "i": 290,
+      "start": 1002.02,
+      "end": 1003.02,
+      "text": "von dieser Luftströmung."
     },
     {
-      "i": 359,
-      "start": 1008.82,
-      "end": 1011.04,
-      "text": "Da ist jetzt gerade so ein Beispiel."
+      "i": 291,
+      "start": 1003.02,
+      "end": 1004.02,
+      "text": "Sehr wichtig,"
     },
     {
-      "i": 360,
-      "start": 1011.04,
-      "end": 1014.04,
-      "text": "Ich leise jetzt nicht die ganze Frage vor,"
+      "i": 292,
+      "start": 1004.02,
+      "end": 1006.52,
+      "text": "dass man da nicht reingeht."
     },
     {
-      "i": 361,
-      "start": 1014.04,
-      "end": 1017.04,
-      "text": "aber wenn man 30 Kräme haben"
+      "i": 293,
+      "start": 1006.52,
+      "end": 1008.52,
+      "text": "Das ist jetzt gerade so ein Beispiel."
     },
     {
-      "i": 362,
-      "start": 1017.04,
-      "end": 1021.04,
-      "text": "und im zweiten Fall haben wir 90 Kräme haben,"
+      "i": 294,
+      "start": 1008.52,
+      "end": 1011.11,
+      "text": "Ich lese jetzt nicht die ganze Frage vor,"
     },
     {
-      "i": 363,
-      "start": 1021.04,
-      "end": 1024.04,
-      "text": "dann ist da ein Vertrüffachung von der Geschwindigkeit,"
+      "i": 295,
+      "start": 1011.11,
+      "end": 1014.11,
+      "text": "aber wenn man 30 kmh"
     },
     {
-      "i": 364,
-      "start": 1024.04,
-      "end": 1026.04,
-      "text": "von der Windgeschwindigkeit,"
+      "i": 296,
+      "start": 1014.11,
+      "end": 1015.11,
+      "text": "von der Fläche"
     },
     {
-      "i": 365,
-      "start": 1026.04,
-      "end": 1029.04,
-      "text": "und ein Verneufachung vom Widerstand."
+      "i": 297,
+      "start": 1015.11,
+      "end": 1017.11,
+      "text": "hat,"
     },
     {
-      "i": 366,
-      "start": 1029.04,
-      "end": 1032.04,
-      "text": "Also aus 100 Newton wird dann eben nicht 300 Newton,"
+      "i": 298,
+      "start": 1017.11,
+      "end": 1019.11,
+      "text": "und im zweiten Fall"
     },
     {
-      "i": 367,
-      "start": 1032.04,
-      "end": 1033.04,
-      "text": "wie man es da könnte,"
+      "i": 299,
+      "start": 1019.11,
+      "end": 1021.11,
+      "text": "90 kmh,"
     },
     {
-      "i": 368,
-      "start": 1033.04,
-      "end": 1035.04,
+      "i": 300,
+      "start": 1021.11,
+      "end": 1023.11,
+      "text": "dann ist das eine Verdreifachung"
+    },
+    {
+      "i": 301,
+      "start": 1023.11,
+      "end": 1025.11,
+      "text": "der Windgeschwindigkeit"
+    },
+    {
+      "i": 302,
+      "start": 1025.11,
+      "end": 1027.11,
+      "text": "und eine Verneinfachung"
+    },
+    {
+      "i": 303,
+      "start": 1027.11,
+      "end": 1029.11,
+      "text": "des Widerstandes."
+    },
+    {
+      "i": 304,
+      "start": 1029.11,
+      "end": 1031.11,
+      "text": "Also aus 100 Newton wird dann"
+    },
+    {
+      "i": 305,
+      "start": 1031.11,
+      "end": 1033.11,
+      "text": "nicht 300 Newton, wie man es vermuten könnte,"
+    },
+    {
+      "i": 306,
+      "start": 1033.11,
+      "end": 1035.11,
       "text": "sondern die 900."
     },
     {
-      "i": 369,
-      "start": 1035.04,
-      "end": 1041.78,
-      "text": "In diesem Metio-Kurs"
+      "i": 307,
+      "start": 1035.11,
+      "end": 1042.25,
+      "text": "In unserem Meteor-Kurs"
     },
     {
-      "i": 370,
-      "start": 1041.78,
-      "end": 1044.78,
-      "text": "lernen wir dann noch ganz eine hohe,"
+      "i": 308,
+      "start": 1042.25,
+      "end": 1044.25,
+      "text": "lernt ihr noch ganz"
     },
     {
-      "i": 371,
-      "start": 1044.78,
-      "end": 1048.78,
-      "text": "wichtige Infos über die Atmosphäre von unserem Planet."
+      "i": 309,
+      "start": 1044.25,
+      "end": 1046.25,
+      "text": "viele wichtige Infos"
     },
     {
-      "i": 372,
-      "start": 1048.78,
-      "end": 1052.78,
-      "text": "Beim Leidschirm wirkt sich da aus,"
+      "i": 310,
+      "start": 1046.25,
+      "end": 1048.25,
+      "text": "über die Atmosphäre"
     },
     {
-      "i": 373,
-      "start": 1052.78,
-      "end": 1054.78,
-      "text": "indem man eben höher oben,"
+      "i": 311,
+      "start": 1048.25,
+      "end": 1050.39,
+      "text": "des Gleitschirms."
     },
     {
-      "i": 374,
-      "start": 1054.78,
-      "end": 1056.78,
+      "i": 312,
+      "start": 1050.39,
+      "end": 1052.39,
+      "text": "Beim Gleitschirm"
+    },
+    {
+      "i": 313,
+      "start": 1052.39,
+      "end": 1054.39,
+      "text": "wirkt sich das aus,"
+    },
+    {
+      "i": 314,
+      "start": 1054.39,
+      "end": 1056.39,
+      "text": "indem wir höher oben"
+    },
+    {
+      "i": 315,
+      "start": 1056.39,
+      "end": 1058.44,
       "text": "weniger Luftdichte haben"
     },
     {
-      "i": 375,
-      "start": 1056.78,
-      "end": 1059.78,
-      "text": "und da hat es weniger Luftteile um."
+      "i": 316,
+      "start": 1058.44,
+      "end": 1060.44,
+      "text": "und hier hat es weniger Luftteile"
     },
     {
-      "i": 376,
-      "start": 1059.78,
-      "end": 1062.78,
-      "text": "Und unser Schirm muss sich wie schnell oder die Luft bewegen,"
+      "i": 317,
+      "start": 1060.44,
+      "end": 1062.44,
+      "text": "und unser Schirm muss sich"
     },
     {
-      "i": 377,
-      "start": 1062.78,
-      "end": 1064.78,
-      "text": "damit wir den gleichen Auftrieb zeigen."
+      "i": 318,
+      "start": 1062.44,
+      "end": 1064.44,
+      "text": "schneller durch die Luft bewegen,"
     },
     {
-      "i": 378,
-      "start": 1064.78,
-      "end": 1065.78,
-      "text": "Das heißt,"
+      "i": 319,
+      "start": 1064.44,
+      "end": 1066.55,
+      "text": "damit er den gleichen Auftrieb erzeugen kann."
     },
     {
-      "i": 379,
-      "start": 1065.78,
-      "end": 1066.78,
-      "text": "ganz einfach gesagt,"
+      "i": 320,
+      "start": 1066.55,
+      "end": 1068.55,
+      "text": "Das heisst, ganz einfach gesagt,"
     },
     {
-      "i": 380,
-      "start": 1066.78,
-      "end": 1068.78,
-      "text": "man braucht eine höchere Staggeschwindigkeit."
+      "i": 321,
+      "start": 1068.55,
+      "end": 1071.24,
+      "text": "wir brauchen eine höhere Starkgeschwindigkeit."
     },
     {
-      "i": 381,
-      "start": 1069.78,
-      "end": 1072.13,
-      "text": "Wir sehen an dieser Kurve"
+      "i": 322,
+      "start": 1071.24,
+      "end": 1073.24,
+      "text": "Ihr seht, an dieser Kurve"
     },
     {
-      "i": 382,
-      "start": 1072.13,
-      "end": 1075.13,
-      "text": "der Luftdruck nimmt mit der Höhe ab."
+      "i": 323,
+      "start": 1073.24,
+      "end": 1075.24,
+      "text": "nimmt der Luftdruck mit der Höhe ab."
     },
     {
-      "i": 383,
-      "start": 1076.13,
-      "end": 1080.51,
-      "text": "Auf 5,500 Meter ist schon noch halb so groß,"
+      "i": 324,
+      "start": 1075.24,
+      "end": 1077.93,
+      "text": "Auf 5500 Meter"
     },
     {
-      "i": 384,
-      "start": 1080.51,
-      "end": 1082.51,
-      "text": "und mit dem Luftdruck zusammen,"
+      "i": 325,
+      "start": 1077.93,
+      "end": 1079.93,
+      "text": "ist er noch"
     },
     {
-      "i": 385,
-      "start": 1082.51,
-      "end": 1084.51,
-      "text": "nimmt auch die Luft-Dichte ab,"
+      "i": 326,
+      "start": 1079.93,
+      "end": 1081.93,
+      "text": "halb so gross"
     },
     {
-      "i": 386,
-      "start": 1084.51,
-      "end": 1087.51,
-      "text": "wo ja in unseren Formen dupfer kommt."
+      "i": 327,
+      "start": 1081.93,
+      "end": 1083.93,
+      "text": "und mit dem Luftdruck zusammen"
     },
     {
-      "i": 387,
-      "start": 1087.51,
-      "end": 1091.51,
-      "text": "Die Luftdichte nimmt erst alles 6,600 Meter,"
+      "i": 328,
+      "start": 1083.93,
+      "end": 1085.93,
+      "text": "nimmt auch die Luftdichte ab,"
     },
     {
-      "i": 388,
-      "start": 1091.51,
-      "end": 1092.51,
-      "text": "um die Hälfte ab,"
+      "i": 329,
+      "start": 1085.93,
+      "end": 1087.93,
+      "text": "die in unserer Formel vorkommt."
     },
     {
-      "i": 389,
-      "start": 1092.51,
-      "end": 1094.51,
-      "text": "dort aufpassen, dass es nicht verwechselt."
+      "i": 330,
+      "start": 1087.93,
+      "end": 1089.93,
+      "text": "Die Luftdichte nimmt erst"
     },
     {
-      "i": 390,
-      "start": 1094.51,
-      "end": 1096.51,
-      "text": "Aber schlussendlich spielt es gerne,"
+      "i": 331,
+      "start": 1089.93,
+      "end": 1091.93,
+      "text": "alle 6600 Meter"
     },
     {
-      "i": 391,
-      "start": 1096.51,
-      "end": 1099.51,
-      "text": "ob es jetzt 5,500 Meter oder 6,500 Meter sind,"
+      "i": 332,
+      "start": 1091.93,
+      "end": 1093.93,
+      "text": "um die Hälfte ab."
     },
     {
-      "i": 392,
-      "start": 1099.51,
-      "end": 1101.51,
-      "text": "für die Teoreprüfung natürlich schon."
+      "i": 333,
+      "start": 1093.93,
+      "end": 1095.93,
+      "text": "Aufpassen, dass ihr es nicht verwechselt."
     },
     {
-      "i": 393,
-      "start": 1101.51,
-      "end": 1105.51,
-      "text": "Aber für Praxis hat es der gleichen Effekt."
+      "i": 334,
+      "start": 1095.93,
+      "end": 1097.93,
+      "text": "Aber schlussendlich spielt es gerne"
     },
     {
-      "i": 394,
-      "start": 1105.51,
-      "end": 1107.51,
+      "i": 335,
+      "start": 1097.93,
+      "end": 1099.93,
+      "text": "nicht so eine Rolle, ob es 5500"
+    },
+    {
+      "i": 336,
+      "start": 1099.93,
+      "end": 1101.93,
+      "text": "oder 6500 sind,"
+    },
+    {
+      "i": 337,
+      "start": 1101.93,
+      "end": 1103.94,
+      "text": "für die Theorieprüfung natürlich schon,"
+    },
+    {
+      "i": 338,
+      "start": 1103.94,
+      "end": 1105.94,
+      "text": "aber für die Praxis hat es den gleichen Effekt."
+    },
+    {
+      "i": 339,
+      "start": 1105.94,
+      "end": 1107.94,
       "text": "Es wirkt aus,"
     },
     {
-      "i": 395,
-      "start": 1107.51,
-      "end": 1109.51,
-      "text": "dass eben die Luftdichte abnimmt."
+      "i": 340,
+      "start": 1107.94,
+      "end": 1109.94,
+      "text": "dass die Luftdichte abnimmt,"
     },
     {
-      "i": 396,
-      "start": 1109.51,
-      "end": 1110.51,
-      "text": "Es hat weniger Luftteile."
+      "i": 341,
+      "start": 1109.94,
+      "end": 1111.94,
+      "text": "es hat weniger Luftteile"
     },
     {
-      "i": 397,
-      "start": 1110.51,
-      "end": 1114.83,
-      "text": "Und irgendwie müssen wir unser Auftrieb erzügen,"
+      "i": 342,
+      "start": 1111.94,
+      "end": 1113.94,
+      "text": "und irgendwie müssen wir"
     },
     {
-      "i": 398,
-      "start": 1114.83,
-      "end": 1116.83,
+      "i": 343,
+      "start": 1113.94,
+      "end": 1116.66,
+      "text": "unseren Auftrieb erzeugen,"
+    },
+    {
+      "i": 344,
+      "start": 1116.66,
+      "end": 1118.66,
       "text": "weil das Problem ist,"
     },
     {
+      "i": 345,
+      "start": 1118.66,
+      "end": 1120.81,
+      "text": "wenn ihr euch die Formel anschaut,"
+    },
+    {
+      "i": 346,
+      "start": 1120.81,
+      "end": 1123.05,
+      "text": "der Widerstandsbeiwert bleibt gleich,"
+    },
+    {
+      "i": 347,
+      "start": 1123.05,
+      "end": 1125.99,
+      "text": "die Fläche von unserem Schirm"
+    },
+    {
+      "i": 348,
+      "start": 1125.99,
+      "end": 1128.23,
+      "text": "bleibt gleich,"
+    },
+    {
+      "i": 349,
+      "start": 1128.23,
+      "end": 1130.23,
+      "text": "unser Gewicht bleibt gleich,"
+    },
+    {
+      "i": 350,
+      "start": 1130.23,
+      "end": 1132.23,
+      "text": "das heisst, der Auftrieb, den wir erzeugen müssen,"
+    },
+    {
+      "i": 351,
+      "start": 1132.23,
+      "end": 1134.31,
+      "text": "damit wir in die Luft kommen,"
+    },
+    {
+      "i": 352,
+      "start": 1134.31,
+      "end": 1136.31,
+      "text": "der bleibt gleich, aber unsere Dichte"
+    },
+    {
+      "i": 353,
+      "start": 1136.31,
+      "end": 1138.31,
+      "text": "ist nur noch halb so gross"
+    },
+    {
+      "i": 354,
+      "start": 1138.31,
+      "end": 1140.31,
+      "text": "und kleiner."
+    },
+    {
+      "i": 355,
+      "start": 1140.31,
+      "end": 1142.31,
+      "text": "Das heisst, dass wir hier vorne beim A"
+    },
+    {
+      "i": 356,
+      "start": 1142.31,
+      "end": 1144.31,
+      "text": "beim Auftrieb wieder auf den gleichen Weg kommen,"
+    },
+    {
+      "i": 357,
+      "start": 1144.31,
+      "end": 1146.31,
+      "text": "müssen wir irgendwie das kompensieren können"
+    },
+    {
+      "i": 358,
+      "start": 1146.31,
+      "end": 1148.31,
+      "text": "und der einzige Weg,"
+    },
+    {
+      "i": 359,
+      "start": 1148.31,
+      "end": 1150.31,
+      "text": "wir müssen es über Geschwindigkeit machen."
+    },
+    {
+      "i": 360,
+      "start": 1150.31,
+      "end": 1152.31,
+      "text": "Es kommt uns natürlich zu gut,"
+    },
+    {
+      "i": 361,
+      "start": 1152.31,
+      "end": 1154.31,
+      "text": "dass die Geschwindigkeit im Quadrat ist,"
+    },
+    {
+      "i": 362,
+      "start": 1154.31,
+      "end": 1156.31,
+      "text": "das heisst, bei halber Luftdichte"
+    },
+    {
+      "i": 363,
+      "start": 1156.31,
+      "end": 1158.31,
+      "text": "müssen wir dann nicht doppelt so schnell"
+    },
+    {
+      "i": 364,
+      "start": 1158.31,
+      "end": 1160.31,
+      "text": "rennen, sondern nur"
+    },
+    {
+      "i": 365,
+      "start": 1160.31,
+      "end": 1162.31,
+      "text": "die Wurzel von 2."
+    },
+    {
+      "i": 366,
+      "start": 1162.31,
+      "end": 1164.31,
+      "text": "Da geht es jetzt aber schon fast wieder"
+    },
+    {
+      "i": 367,
+      "start": 1164.31,
+      "end": 1166.31,
+      "text": "etwas zu fest ins Mathematische,"
+    },
+    {
+      "i": 368,
+      "start": 1166.31,
+      "end": 1168.31,
+      "text": "das bedeutet, wenn ihr auf einem hohen Berg"
+    },
+    {
+      "i": 369,
+      "start": 1168.31,
+      "end": 1170.31,
+      "text": "oben startet, müsst ihr euch bewusst sein,"
+    },
+    {
+      "i": 370,
+      "start": 1170.31,
+      "end": 1172.31,
+      "text": "dass ihr viel schneller laufen müsst,"
+    },
+    {
+      "i": 371,
+      "start": 1172.31,
+      "end": 1174.31,
+      "text": "was sich ja meistens ein wenig widerspricht,"
+    },
+    {
+      "i": 372,
+      "start": 1174.31,
+      "end": 1176.31,
+      "text": "weil man ist vielleicht eh schon müde,"
+    },
+    {
+      "i": 373,
+      "start": 1176.31,
+      "end": 1178.31,
+      "text": "wenn man vielleicht zu gerne hoch gelaufen ist,"
+    },
+    {
+      "i": 374,
+      "start": 1178.31,
+      "end": 1180.31,
+      "text": "man steht vielleicht im Tiefschnee,"
+    },
+    {
+      "i": 375,
+      "start": 1180.31,
+      "end": 1182.31,
+      "text": "vorne geht es vielleicht steil runter,"
+    },
+    {
+      "i": 376,
+      "start": 1182.31,
+      "end": 1184.31,
+      "text": "also einfach im Kopf,"
+    },
+    {
+      "i": 377,
+      "start": 1184.31,
+      "end": 1186.31,
+      "text": "wir brauchen mehr Geschwindigkeit,"
+    },
+    {
+      "i": 378,
+      "start": 1186.31,
+      "end": 1189.03,
+      "text": "mehr Geschwindigkeit bedeutet auch eine weitere Laufstrecke."
+    },
+    {
+      "i": 379,
+      "start": 1189.03,
+      "end": 1191.03,
+      "text": "Auf der anderen Seite sollte man ja auch"
+    },
+    {
+      "i": 380,
+      "start": 1191.03,
+      "end": 1193.03,
+      "text": "die Vorteile nicht vergessen."
+    },
+    {
+      "i": 381,
+      "start": 1193.03,
+      "end": 1195.03,
+      "text": "Es mag dafür auch ein bisschen"
+    },
+    {
+      "i": 382,
+      "start": 1195.03,
+      "end": 1197.03,
+      "text": "mehr Wind leiden, wenn die Luft"
+    },
+    {
+      "i": 383,
+      "start": 1197.03,
+      "end": 1199.03,
+      "text": "abnimmt, also"
+    },
+    {
+      "i": 384,
+      "start": 1199.03,
+      "end": 1201.03,
+      "text": "es hat dann auch Vorteile, dass man vielleicht"
+    },
+    {
+      "i": 385,
+      "start": 1201.03,
+      "end": 1203.03,
+      "text": "eben bei einem 30er Wind als erfahrener"
+    },
+    {
+      "i": 386,
+      "start": 1203.03,
+      "end": 1205.03,
+      "text": "Pilot gleich noch starten kann, wo es"
+    },
+    {
+      "i": 387,
+      "start": 1205.03,
+      "end": 1207.03,
+      "text": "dann eben auf 1500 Meter unten"
+    },
+    {
+      "i": 388,
+      "start": 1207.03,
+      "end": 1209.03,
+      "text": "mit 30 dann schon ziemlich anspruchsvoll"
+    },
+    {
+      "i": 389,
+      "start": 1209.03,
+      "end": 1211.03,
+      "text": "wird und"
+    },
+    {
+      "i": 390,
+      "start": 1211.03,
+      "end": 1213.03,
+      "text": "ein Start nicht mehr möglich wäre."
+    },
+    {
+      "i": 391,
+      "start": 1213.03,
+      "end": 1218.44,
+      "text": "Jetzt kommen wir nochmal"
+    },
+    {
+      "i": 392,
+      "start": 1218.44,
+      "end": 1220.44,
+      "text": "schnell zu diesen Widerstandsbeiwerten,"
+    },
+    {
+      "i": 393,
+      "start": 1220.44,
+      "end": 1222.44,
+      "text": "den CW-Werten."
+    },
+    {
+      "i": 394,
+      "start": 1222.44,
+      "end": 1224.44,
+      "text": "Wie gesagt, es kommt gerne darauf an,"
+    },
+    {
+      "i": 395,
+      "start": 1224.44,
+      "end": 1226.44,
+      "text": "was für ein Gegenstand das hier ist,"
+    },
+    {
+      "i": 396,
+      "start": 1226.44,
+      "end": 1228.44,
+      "text": "ob es ein Flügel ist oder irgendetwas."
+    },
+    {
+      "i": 397,
+      "start": 1228.44,
+      "end": 1231.16,
+      "text": "Wichtig ist, wenn man"
+    },
+    {
+      "i": 398,
+      "start": 1231.16,
+      "end": 1234.46,
+      "text": "die Gegenstände vergleicht,"
+    },
+    {
       "i": 399,
-      "start": 1116.83,
-      "end": 1118.83,
-      "text": "wenn wir jetzt die Formen auch schauen."
+      "start": 1234.46,
+      "end": 1236.46,
+      "text": "dass man immer von der gleichen"
     },
     {
       "i": 400,
-      "start": 1118.83,
-      "end": 1120.83,
-      "text": "Der Widerstand beivert,"
+      "start": 1236.46,
+      "end": 1238.46,
+      "text": "Stirnfläche ausgeht."
     },
     {
       "i": 401,
-      "start": 1120.83,
-      "end": 1121.83,
-      "text": "bleibt gleich."
+      "start": 1238.46,
+      "end": 1240.46,
+      "text": "Jetzt hier, wenn man die vergleicht,"
     },
     {
       "i": 402,
-      "start": 1122.83,
-      "end": 1125.41,
-      "text": "Fläche von unserem Schirm,"
+      "start": 1240.46,
+      "end": 1243.4,
+      "text": "geben die alle einen gewissen"
     },
     {
       "i": 403,
-      "start": 1125.41,
-      "end": 1127.41,
-      "text": "bleibt gleich."
+      "start": 1243.4,
+      "end": 1245.4,
+      "text": "Widerstand, wenn sie mit der Luft angeströmt werden,"
     },
     {
       "i": 404,
-      "start": 1127.41,
-      "end": 1129.41,
-      "text": "Aus ein Gewicht bleibt gleich."
+      "start": 1245.4,
+      "end": 1247.4,
+      "text": "aber die einen eben viel mehr"
     },
     {
       "i": 405,
-      "start": 1129.41,
-      "end": 1130.41,
-      "text": "Da heisst der Auftrieb,"
+      "start": 1247.4,
+      "end": 1249.4,
+      "text": "wie die anderen. Und das kommt eben"
     },
     {
       "i": 406,
-      "start": 1130.41,
-      "end": 1131.41,
-      "text": "wo man mindern kann,"
+      "start": 1249.4,
+      "end": 1251.4,
+      "text": "auf den CW-Wert links an."
     },
     {
       "i": 407,
-      "start": 1131.41,
-      "end": 1132.41,
-      "text": "dass man die Luft kommt."
+      "start": 1251.4,
+      "end": 1253.4,
+      "text": "Ihr seht, also zum Beispiel"
     },
     {
       "i": 408,
-      "start": 1132.41,
-      "end": 1133.41,
-      "text": "Der bleibt gleich."
+      "start": 1253.4,
+      "end": 1255.4,
+      "text": "die Halbschale ist 13 Mal,"
     },
     {
       "i": 409,
-      "start": 1133.41,
-      "end": 1136.41,
-      "text": "Aber unsere Tichte ist nur noch irgendwie halb so groß,"
+      "start": 1255.4,
+      "end": 1257.4,
+      "text": "die macht 13 Mal mehr Widerstand"
     },
     {
       "i": 410,
-      "start": 1136.41,
-      "end": 1138.41,
-      "text": "oder vielleicht 30 % kleiner."
+      "start": 1257.4,
+      "end": 1259.4,
+      "text": "wie dort der Tropfen"
     },
     {
       "i": 411,
-      "start": 1138.41,
-      "end": 1141.41,
-      "text": "Da heisst, dass man da vorne beim Auftrieb"
+      "start": 1259.4,
+      "end": 1261.54,
+      "text": "unten in der Liste,"
     },
     {
       "i": 412,
-      "start": 1141.41,
-      "end": 1143.41,
-      "text": "wieder auf der gleichen Werk kommt."
+      "start": 1261.54,
+      "end": 1263.54,
+      "text": "der nur 0,1 CW-Wert hat."
     },
     {
       "i": 413,
-      "start": 1143.41,
-      "end": 1145.41,
-      "text": "Wenn man irgendwie,"
+      "start": 1263.54,
+      "end": 1265.54,
+      "text": "Und hier ist auch"
     },
     {
       "i": 414,
-      "start": 1145.41,
-      "end": 1147.41,
-      "text": "da können kompensieren und einzig weg,"
+      "start": 1265.54,
+      "end": 1267.59,
+      "text": "zum Teil"
     },
     {
       "i": 415,
-      "start": 1147.41,
-      "end": 1149.41,
-      "text": "wir müssen über Geschwindigkeit machen."
+      "start": 1267.59,
+      "end": 1270.09,
+      "text": "eine Theoriefrage,"
     },
     {
       "i": 416,
-      "start": 1149.41,
-      "end": 1150.41,
-      "text": "Es kommt uns natürlich gut,"
+      "start": 1270.09,
+      "end": 1272.23,
+      "text": "wie vielmal kleiner ist"
     },
     {
       "i": 417,
-      "start": 1150.41,
-      "end": 1152.41,
-      "text": "dass Geschwindigkeit in die Quadrat ist."
+      "start": 1272.23,
+      "end": 1274.23,
+      "text": "der CW-Wert 0,1"
     },
     {
       "i": 418,
-      "start": 1152.41,
-      "end": 1153.41,
-      "text": "Da heisst,"
+      "start": 1274.23,
+      "end": 1276.23,
+      "text": "im Vergleich zu einem Gegenstand"
     },
     {
       "i": 419,
-      "start": 1153.41,
-      "end": 1155.41,
-      "text": "bei halber Durch die Luftdichte"
+      "start": 1276.23,
+      "end": 1278.23,
+      "text": "mit einem CW-Wert 1."
     },
     {
       "i": 420,
-      "start": 1155.41,
-      "end": 1158.41,
-      "text": "müssen wir den nicht doppelt zu schnell rennen."
+      "start": 1278.23,
+      "end": 1280.23,
+      "text": "Und dann wäre die Antwort, es ist 10 Mal kleiner."
     },
     {
       "i": 421,
-      "start": 1158.41,
-      "end": 1160.41,
-      "text": "Sondern nur die Wurzeln von zwei."
+      "start": 1283.51,
+      "end": 1285.51,
+      "text": "Hier finde ich noch spannend,"
     },
     {
       "i": 422,
-      "start": 1160.41,
-      "end": 1163.41,
-      "text": "Da geht jetzt aber schon fast wieder ein wenig zu fest."
+      "start": 1285.51,
+      "end": 1287.8,
+      "text": "wenn man den Vergleich"
     },
     {
       "i": 423,
-      "start": 1163.41,
-      "end": 1164.41,
-      "text": "Es ist mathematisch."
+      "start": 1287.8,
+      "end": 1289.8,
+      "text": "zu der Natur macht."
     },
     {
       "i": 424,
-      "start": 1164.41,
-      "end": 1166.41,
-      "text": "Aber es bedeutet,"
+      "start": 1289.8,
+      "end": 1292.46,
+      "text": "Die Natur sucht sich ja eigentlich immer"
     },
     {
       "i": 425,
-      "start": 1166.41,
-      "end": 1168.41,
-      "text": "wenn man auf einer hohe Bergoblastatet"
+      "start": 1292.46,
+      "end": 1294.46,
+      "text": "den Weg vom geringsten Widerstand."
     },
     {
       "i": 426,
-      "start": 1168.41,
-      "end": 1169.41,
-      "text": "mündert und bewusst sieht,"
+      "start": 1294.46,
+      "end": 1296.46,
+      "text": "Ob es bei einem Blitzschlag ist"
     },
     {
       "i": 427,
-      "start": 1169.41,
-      "end": 1171.41,
-      "text": "also viel schneller mit Laufen."
+      "start": 1296.46,
+      "end": 1298.46,
+      "text": "oder bei einem Fluss, der sich durch die Landschaft schlängelt."
     },
     {
       "i": 428,
-      "start": 1171.41,
-      "end": 1173.41,
-      "text": "Was ich ja meistens ein wenig widerspricht,"
+      "start": 1298.46,
+      "end": 1300.46,
+      "text": "Es geht eigentlich immer so"
     },
     {
       "i": 429,
-      "start": 1173.41,
-      "end": 1175.41,
-      "text": "weil man es vielleicht schon müde,"
+      "start": 1300.46,
+      "end": 1302.46,
+      "text": "der Gravitation nach und immer"
     },
     {
       "i": 430,
-      "start": 1175.41,
-      "end": 1177.41,
-      "text": "wenn man vielleicht sogar aufgelaufen ist,"
+      "start": 1302.46,
+      "end": 1304.46,
+      "text": "dort, wo es halt am ringsten geht."
     },
     {
       "i": 431,
-      "start": 1177.41,
-      "end": 1179.41,
-      "text": "man starten vielleicht in die Tiefschnähe,"
+      "start": 1304.46,
+      "end": 1306.46,
+      "text": "Und wenn ihr das mal ganz genau anschaut,"
     },
     {
       "i": 432,
-      "start": 1179.41,
-      "end": 1181.41,
-      "text": "vorne geht es vielleicht die Style,"
+      "start": 1306.46,
+      "end": 1308.46,
+      "text": "sieht es nämlich aus wie"
     },
     {
       "i": 433,
-      "start": 1181.41,
-      "end": 1183.41,
-      "text": "aber also einfach im Kopf,"
+      "start": 1308.46,
+      "end": 1310.46,
+      "text": "ein Regentropfen. Und der Regentropfen"
     },
     {
       "i": 434,
-      "start": 1183.41,
-      "end": 1184.41,
-      "text": "brauchen wir mehr Geschwindigkeit,"
+      "start": 1310.46,
+      "end": 1312.46,
+      "text": "keilt ja auch nicht so vom Himmel"
     },
     {
       "i": 435,
-      "start": 1184.41,
-      "end": 1185.41,
-      "text": "mehr Geschwindigkeit,"
+      "start": 1312.46,
+      "end": 1314.46,
+      "text": "irgendwie wie als Brett, sondern"
     },
     {
       "i": 436,
-      "start": 1185.41,
-      "end": 1187.41,
-      "text": "bedeutet auch eine weitere Laufstrecke."
+      "start": 1314.46,
+      "end": 1316.46,
+      "text": "der keilt eben so vom Himmel, wie er"
     },
     {
       "i": 437,
-      "start": 1187.41,
-      "end": 1189.73,
-      "text": "Auf die anderen Seite"
+      "start": 1316.46,
+      "end": 1318.46,
+      "text": "möglichst wenig Widerstand hat und möglichst"
     },
     {
       "i": 438,
-      "start": 1189.73,
-      "end": 1191.73,
-      "text": "sollte man ja Vorteile nicht vergessen."
+      "start": 1318.46,
+      "end": 1320.46,
+      "text": "Ring zu Boden keilen kann."
     },
     {
       "i": 439,
-      "start": 1191.73,
-      "end": 1195.73,
-      "text": "Es mag dafür aber ein bisschen mehr Windleiden,"
+      "start": 1320.46,
+      "end": 1322.6,
+      "text": "Und dieses Wissen hat man sich"
     },
     {
       "i": 440,
-      "start": 1195.73,
-      "end": 1197.73,
-      "text": "wenn die Luftdichte abnimmt."
+      "start": 1322.6,
+      "end": 1324.6,
+      "text": "dann schon früh eigentlich"
     },
     {
       "i": 441,
-      "start": 1197.73,
-      "end": 1199.73,
-      "text": "Also es hat dann auch Vorteile,"
+      "start": 1324.6,
+      "end": 1326.6,
+      "text": "zunutze gemacht mit diesen"
     },
     {
       "i": 442,
-      "start": 1199.73,
-      "end": 1201.73,
-      "text": "dass man vielleicht eben bei mir ein 30er Wind"
+      "start": 1326.6,
+      "end": 1328.6,
+      "text": "Windmessungen. Da hat man nämlich"
     },
     {
       "i": 443,
-      "start": 1201.73,
-      "end": 1203.73,
-      "text": "als ein Fahner-Bilat gleich noch starten,"
+      "start": 1328.6,
+      "end": 1330.6,
+      "text": "Halbschalen. Wenn jetzt da alles"
     },
     {
       "i": 444,
-      "start": 1204.73,
-      "end": 1206.73,
-      "text": "wo es dann eben auf 15-100 m rund mit 30 km"
+      "start": 1330.6,
+      "end": 1332.6,
+      "text": "Kugeln wären oder alles so Scheiben wären"
     },
     {
       "i": 445,
-      "start": 1206.73,
-      "end": 1208.73,
-      "text": "dann schon ziemlich anspruchsvoll wird"
+      "start": 1332.6,
+      "end": 1335.19,
+      "text": "bei so einem Windmesser,"
     },
     {
       "i": 446,
-      "start": 1208.73,
-      "end": 1212.73,
-      "text": "und im Start nicht mehr möglich wäre."
+      "start": 1335.19,
+      "end": 1337.19,
+      "text": "würde sich der nämlich gerne nicht bewegen."
     },
     {
       "i": 447,
-      "start": 1212.73,
-      "end": 1218.77,
-      "text": "Jetzt kann man normal schnell"
+      "start": 1337.19,
+      "end": 1339.19,
+      "text": "Weil dann wäre die Kraft auf allen Seiten ja gleich gross."
     },
     {
       "i": 448,
-      "start": 1218.77,
-      "end": 1220.77,
-      "text": "zu diesen Wiener-Stands beiefert,"
+      "start": 1339.19,
+      "end": 1341.19,
+      "text": "Dadurch, dass es aber Halbschalen sind,"
     },
     {
       "i": 449,
-      "start": 1220.77,
-      "end": 1221.77,
-      "text": "die CV-Wert,"
+      "start": 1341.19,
+      "end": 1343.19,
+      "text": "haben wir den Wind, der da drinnen"
     },
     {
       "i": 450,
-      "start": 1221.77,
-      "end": 1222.77,
-      "text": "wie gesagt,"
+      "start": 1343.19,
+      "end": 1345.19,
+      "text": "bläst, hat verursacht viel"
     },
     {
       "i": 451,
-      "start": 1222.77,
-      "end": 1224.77,
-      "text": "es kommt gerne darauf an Waffern gegenstand,"
+      "start": 1345.19,
+      "end": 1347.19,
+      "text": "mehr Widerstand, wie der Wind, der da drinnen"
     },
     {
       "i": 452,
-      "start": 1224.77,
-      "end": 1225.77,
-      "text": "dass da ist,"
+      "start": 1347.19,
+      "end": 1349.19,
+      "text": "bläst. Und dadurch fängt dann"
     },
     {
       "i": 453,
-      "start": 1225.77,
-      "end": 1227.77,
-      "text": "ob es am Flügel ist oder irgendetwas."
+      "start": 1349.19,
+      "end": 1351.19,
+      "text": "der Rädchen auch an zu drehen."
     },
     {
       "i": 454,
-      "start": 1227.77,
-      "end": 1230.12,
-      "text": "Wichtig ist,"
+      "start": 1351.19,
+      "end": 1353.19,
+      "text": "Und kann dann umgerechnet werden"
     },
     {
       "i": 455,
-      "start": 1230.12,
-      "end": 1234.05,
-      "text": "wenn man die Gegenstände"
+      "start": 1353.19,
+      "end": 1355.24,
+      "text": "in eine gewisse"
     },
     {
       "i": 456,
-      "start": 1234.05,
-      "end": 1235.05,
-      "text": "abgleichen,"
+      "start": 1355.24,
+      "end": 1358.76,
+      "text": "Schwierigkeit. Auch hier wieder die Formel"
     },
     {
       "i": 457,
-      "start": 1235.05,
-      "end": 1236.05,
-      "text": "dass man immer"
+      "start": 1358.76,
+      "end": 1362.12,
+      "text": "unten dran, die dann den Widerstand ergibt."
     },
     {
       "i": 458,
-      "start": 1236.05,
-      "end": 1238.05,
-      "text": "eine gleiche Stirnfläche ausgeht."
+      "start": 1362.12,
+      "end": 1366.38,
+      "text": "Wenn wir fliegen,"
     },
     {
       "i": 459,
-      "start": 1238.05,
-      "end": 1240.05,
-      "text": "Jetzt da,"
+      "start": 1366.38,
+      "end": 1368.38,
+      "text": "haben wir immer wieder gewisse"
     },
     {
       "i": 460,
-      "start": 1240.05,
-      "end": 1241.05,
-      "text": "wenn man hier vergleicht,"
+      "start": 1368.38,
+      "end": 1370.38,
+      "text": "Anstellwinkelveränderungen."
     },
     {
       "i": 461,
-      "start": 1241.05,
-      "end": 1243.62,
-      "text": "gehen die alle ein gewissen Widerstand,"
+      "start": 1370.38,
+      "end": 1372.38,
+      "text": "Normalerweise, wenn man einfach den Schirm"
     },
     {
       "i": 462,
-      "start": 1243.62,
-      "end": 1245.62,
-      "text": "wenn es mit der Luft angestrümmt wird,"
+      "start": 1372.38,
+      "end": 1374.38,
+      "text": "fliegen lässt, dann fliegt er ja"
     },
     {
       "i": 463,
-      "start": 1245.62,
-      "end": 1246.62,
-      "text": "aber die einde,"
+      "start": 1374.38,
+      "end": 1376.38,
+      "text": "im Trim Speed oder in diesem"
     },
     {
       "i": 464,
-      "start": 1246.62,
-      "end": 1248.62,
-      "text": "aber viel mehr wie die anderen."
+      "start": 1376.38,
+      "end": 1378.38,
+      "text": "Anstellwinkel, wie der Schirm"
     },
     {
       "i": 465,
-      "start": 1248.62,
-      "end": 1250.62,
-      "text": "Und da kommt eben auf der CV-Wert,"
+      "start": 1378.38,
+      "end": 1380.38,
+      "text": "gebaut ist. Oder eben je nach Alter,"
     },
     {
       "i": 466,
-      "start": 1250.62,
-      "end": 1251.62,
-      "text": "wie gesagt,"
+      "start": 1380.38,
+      "end": 1382.38,
+      "text": "wenn er altert und die Leinenlängen nicht mehr"
     },
     {
       "i": 467,
-      "start": 1251.62,
-      "end": 1252.62,
-      "text": "auch gesehen."
+      "start": 1382.38,
+      "end": 1384.38,
+      "text": "ganz stimmen, dann wird der Anstellwinkel"
     },
     {
       "i": 468,
-      "start": 1252.62,
-      "end": 1253.62,
-      "text": "Also zum Beispiel Halbschalen,"
+      "start": 1384.38,
+      "end": 1386.38,
+      "text": "vielleicht etwas grösser. Aber man könnte es ja auch"
     },
     {
       "i": 469,
-      "start": 1253.62,
-      "end": 1255.62,
-      "text": "ist 30x,"
+      "start": 1386.38,
+      "end": 1388.38,
+      "text": "beeinflussen, indem man zum Beispiel"
     },
     {
       "i": 470,
-      "start": 1267.62,
-      "end": 1269.78,
-      "text": "die Frau,"
+      "start": 1388.38,
+      "end": 1390.38,
+      "text": "anbremst oder beschleunigt."
     },
     {
       "i": 471,
-      "start": 1269.78,
-      "end": 1290.2,
-      "text": "oder"
+      "start": 1390.38,
+      "end": 1392.38,
+      "text": "Wenn man anbremst, wird der Anstellwinkel"
     },
     {
       "i": 472,
-      "start": 1297.94,
-      "end": 1302.94,
-      "text": "Es geht eigentlich immer so, der Gravitation nahe und immer etwas,"
+      "start": 1392.38,
+      "end": 1394.38,
+      "text": "grösser, weil man zieht hier hinten"
     },
     {
       "i": 473,
-      "start": 1302.94,
-      "end": 1304.94,
-      "text": "was halt am Ringste geht."
+      "start": 1394.38,
+      "end": 1396.38,
+      "text": "die Kante runter und die Verbindungslinie"
     },
     {
       "i": 474,
-      "start": 1304.94,
-      "end": 1308.94,
-      "text": "Und wenn man ganz genau auch sieht, sieht es nämlich aus wie ein Regertrapfen."
+      "start": 1396.38,
+      "end": 1398.38,
+      "text": "nachher vom hintersten Punkt"
     },
     {
       "i": 475,
-      "start": 1308.94,
-      "end": 1312.94,
-      "text": "Und der Regertrapfen kann auch nicht so vom Himmel irgendwie als Brett,"
+      "start": 1398.38,
+      "end": 1400.38,
+      "text": "zum vordersten Punkt"
     },
     {
       "i": 476,
-      "start": 1312.94,
-      "end": 1314.94,
-      "text": "sondern auch kein Deber so vom Himmel,"
+      "start": 1400.38,
+      "end": 1402.38,
+      "text": "die sich dann natürlich"
     },
     {
       "i": 477,
-      "start": 1314.94,
-      "end": 1318.94,
-      "text": "wie man möglichst wenig Widerstand hat und möglichst ringt,"
+      "start": 1402.38,
+      "end": 1404.38,
+      "text": "massiv verändert."
     },
     {
       "i": 478,
-      "start": 1318.94,
-      "end": 1320.94,
-      "text": "zu bieten kann."
+      "start": 1404.38,
+      "end": 1406.38,
+      "text": "Und auch die Fluggeschwindigkeit"
     },
     {
       "i": 479,
-      "start": 1320.94,
-      "end": 1325.94,
-      "text": "Und da wissen, dass man sich dann schon früher eigentlich zur Nutze gemacht"
+      "start": 1406.38,
+      "end": 1408.38,
+      "text": "sinkt mehr und dadurch wird"
     },
     {
       "i": 480,
-      "start": 1325.94,
-      "end": 1327.94,
-      "text": "mit einer Windmessigen."
+      "start": 1408.38,
+      "end": 1411.22,
+      "text": "dann einfach der Anstellwinkel grösser."
     },
     {
       "i": 481,
-      "start": 1327.94,
-      "end": 1329.94,
-      "text": "Da hat man nämlich Halbschallern,"
+      "start": 1411.22,
+      "end": 1413.22,
+      "text": "Das sieht dann ungefähr so aus."
     },
     {
       "i": 482,
-      "start": 1329.94,
-      "end": 1334.16,
-      "text": "wenn jetzt alles kuglen werden oder alles so schieben werden,"
+      "start": 1413.22,
+      "end": 1415.22,
+      "text": "Der Schirm fliegt langsamer,"
     },
     {
       "i": 483,
-      "start": 1334.16,
-      "end": 1336.16,
-      "text": "bis um eine Windmessen,"
+      "start": 1415.22,
+      "end": 1417.22,
+      "text": "CW- und CA-Werte"
     },
     {
       "i": 484,
-      "start": 1336.16,
-      "end": 1338.16,
-      "text": "weil sich dann nämlich gerne bewegen,"
+      "start": 1417.22,
+      "end": 1419.22,
+      "text": "werden grösser. Das ist ganz wichtig"
     },
     {
       "i": 485,
-      "start": 1338.16,
-      "end": 1340.16,
-      "text": "denn dann wäre Kraft auf allen Seiten ja gleich groß."
+      "start": 1419.22,
+      "end": 1421.22,
+      "text": "auch für die Theorieprüfung, dass ihr euch da"
     },
     {
       "i": 486,
-      "start": 1340.16,
-      "end": 1342.16,
-      "text": "Da, dass sie aber Halbschallern sind,"
+      "start": 1421.22,
+      "end": 1423.22,
+      "text": "merkt, wenn der Anstellwinkel grösser wird,"
     },
     {
       "i": 487,
-      "start": 1342.16,
-      "end": 1344.16,
-      "text": "haben wir der Wind, der hier in den Blast,"
+      "start": 1423.22,
+      "end": 1425.24,
+      "text": "vergrössern sich die Werte."
     },
     {
       "i": 488,
-      "start": 1344.16,
-      "end": 1346.16,
-      "text": "hat verursacht viel mehr Widerstand,"
+      "start": 1425.24,
+      "end": 1428.65,
+      "text": "Umgekehrt, wenn wir"
     },
     {
       "i": 489,
-      "start": 1346.16,
-      "end": 1348.16,
-      "text": "wie der Wind, der hier in den Blast,"
+      "start": 1428.65,
+      "end": 1430.65,
+      "text": "den Schirm beschleunigen und"
     },
     {
       "i": 490,
-      "start": 1348.16,
-      "end": 1351.16,
-      "text": "und da fangt ein Rätli auch ein Dreie,"
+      "start": 1430.65,
+      "end": 1432.65,
+      "text": "der Anstellwinkel kleiner wird,"
     },
     {
       "i": 491,
-      "start": 1351.16,
-      "end": 1355.16,
-      "text": "und hat einen umgerechnet würden in eine gewisse Windgeschwindigkeit."
+      "start": 1432.65,
+      "end": 1434.65,
+      "text": "dann wird der CW- und CA-Wert"
     },
     {
       "i": 492,
-      "start": 1357.28,
-      "end": 1359.28,
-      "text": "Auch da, wie der Formler unendrat,"
+      "start": 1434.65,
+      "end": 1437.46,
+      "text": "kleiner."
     },
     {
       "i": 493,
-      "start": 1359.28,
-      "end": 1362.27,
-      "text": "oder in der Widerstand ergibt."
+      "start": 1437.46,
+      "end": 1439.46,
+      "text": "Ganz wichtig ist zu wissen, wir reden eigentlich"
     },
     {
       "i": 494,
-      "start": 1362.27,
-      "end": 1366.13,
-      "text": "Wenn man fliegen,"
+      "start": 1439.46,
+      "end": 1441.46,
+      "text": "immer vom stationären Gleitflug."
     },
     {
       "i": 495,
-      "start": 1366.13,
-      "end": 1370.13,
-      "text": "haben wir immer wieder gewisse Einstellwinkel-Veränderungen."
+      "start": 1441.46,
+      "end": 1443.46,
+      "text": "Also ob wir jetzt stark anbremst sind"
     },
     {
       "i": 496,
-      "start": 1370.13,
-      "end": 1372.13,
-      "text": "Normalerweise, wenn man einfach das Schirm fliegen,"
+      "start": 1443.46,
+      "end": 1445.46,
+      "text": "oder beschleunigt sind, es ist immer"
     },
     {
       "i": 497,
-      "start": 1372.13,
-      "end": 1375.13,
-      "text": "dann fliegen dann ja im Trimspeed,"
+      "start": 1445.46,
+      "end": 1447.46,
+      "text": "stationär und der Schirm fliegt"
     },
     {
       "i": 498,
-      "start": 1375.13,
-      "end": 1377.13,
-      "text": "oder in diesem Einstellwinkel,"
+      "start": 1447.46,
+      "end": 1449.46,
+      "text": "eigentlich auf einer Linie im stabilen"
     },
     {
       "i": 499,
-      "start": 1377.13,
-      "end": 1378.13,
-      "text": "wie das Schirm baut,"
+      "start": 1449.46,
+      "end": 1451.46,
+      "text": "Zustand. Und dann im"
     },
     {
       "i": 500,
-      "start": 1378.13,
-      "end": 1382.13,
-      "text": "oder ob er je nach Alt oder wenn er altert und die leinen Längen"
+      "start": 1451.46,
+      "end": 1453.46,
+      "text": "stationären Gleitflug ist der gelbe Pfeil"
     },
     {
       "i": 501,
-      "start": 1382.13,
-      "end": 1383.13,
-      "text": "nicht mehr ganz stimmet,"
+      "start": 1453.46,
+      "end": 1455.46,
+      "text": "und der violette Pfeil, also unsere Kraft,"
     },
     {
       "i": 502,
-      "start": 1383.13,
-      "end": 1385.13,
-      "text": "dann wird das Schirmwinkel richtig grösser."
+      "start": 1455.46,
+      "end": 1457.46,
+      "text": "unsere Luftkraftresultierende"
     },
     {
       "i": 503,
-      "start": 1385.13,
-      "end": 1387.13,
-      "text": "Aber man könnte aber e-flussen,"
+      "start": 1457.46,
+      "end": 1459.46,
+      "text": "und Gewichtskraft"
     },
     {
       "i": 504,
-      "start": 1387.13,
-      "end": 1390.13,
-      "text": "damit man zum Beispiel a-bremse, oder beschleunigert."
+      "start": 1459.46,
+      "end": 1461.58,
+      "text": "immer gleich gross."
     },
     {
       "i": 505,
-      "start": 1390.13,
-      "end": 1392.13,
-      "text": "Wenn man a-bremse, dann wird der Einstellwinkel grösser,"
+      "start": 1461.58,
+      "end": 1463.58,
+      "text": "Wenn wir jetzt aus voller Fahrt kommen"
     },
     {
       "i": 506,
-      "start": 1392.13,
-      "end": 1396.13,
-      "text": "weil man z.B. dahin die Kante ab und verbindungslinie"
+      "start": 1463.58,
+      "end": 1465.58,
+      "text": "und anbremsen, dann wisst ihr ja,"
     },
     {
       "i": 507,
-      "start": 1396.13,
-      "end": 1399.13,
-      "text": "auch vom hindersten Punkt, zum vordersten Punkt,"
+      "start": 1465.58,
+      "end": 1467.58,
+      "text": "dass der Schirm anfängt zu fliehen,"
     },
     {
       "i": 508,
-      "start": 1399.13,
-      "end": 1403.13,
-      "text": "dann tut man sich massiv verändern,"
+      "start": 1467.58,
+      "end": 1469.58,
+      "text": "Höhe umbaut. In dieser Phase"
     },
     {
       "i": 509,
-      "start": 1403.13,
-      "end": 1406.13,
-      "text": "um die Fluggeschwindigkeit und man senke mehr,"
+      "start": 1469.58,
+      "end": 1471.58,
+      "text": "ist unsere Luftkraftresultierende"
     },
     {
       "i": 510,
-      "start": 1406.13,
-      "end": 1409.13,
-      "text": "und dann wird der Einstellwinkel grösser."
+      "start": 1471.58,
+      "end": 1473.58,
+      "text": "schon einen Moment lang etwas"
     },
     {
       "i": 511,
-      "start": 1410.13,
-      "end": 1412.61,
-      "text": "Da sieht man ungefähr so aus,"
+      "start": 1473.58,
+      "end": 1475.58,
+      "text": "grösser. Dadurch"
     },
     {
       "i": 512,
-      "start": 1412.61,
-      "end": 1414.61,
-      "text": "das Schirm fliegen langsam,"
+      "start": 1475.58,
+      "end": 1477.58,
+      "text": "machen wir Auftrieb und gewinnen"
     },
     {
       "i": 513,
-      "start": 1414.61,
-      "end": 1416.61,
-      "text": "z.B. und z.A. wert,"
+      "start": 1477.58,
+      "end": 1479.58,
+      "text": "auch Höhe kurzzeitig. Aber"
     },
     {
       "i": 514,
-      "start": 1416.61,
-      "end": 1417.61,
-      "text": "wird grösser."
+      "start": 1479.58,
+      "end": 1481.58,
+      "text": "nachher pendelt sich er wieder ein,"
     },
     {
       "i": 515,
-      "start": 1417.61,
-      "end": 1418.61,
-      "text": "Es ist ganz wichtig,"
+      "start": 1481.58,
+      "end": 1483.58,
+      "text": "und dann sind wir wieder in einem"
     },
     {
       "i": 516,
-      "start": 1418.61,
-      "end": 1420.61,
-      "text": "auch für die Theorie prüftigt,"
+      "start": 1483.58,
+      "end": 1485.58,
+      "text": "stationären Gleitflug. Und dann sind"
     },
     {
       "i": 517,
-      "start": 1420.61,
-      "end": 1421.61,
-      "text": "dass er auch hier merkt,"
+      "start": 1485.58,
+      "end": 1487.58,
+      "text": "die beiden Pfeile, gelb und violett,"
     },
     {
       "i": 518,
-      "start": 1421.61,
-      "end": 1423.61,
-      "text": "wenn das Schirmwinkel grösser wird,"
+      "start": 1487.58,
+      "end": 1489.58,
+      "text": "wieder gleich gross und wir fliegen"
     },
     {
       "i": 519,
-      "start": 1423.61,
-      "end": 1425.61,
-      "text": "dann wird sich die Wert vergrößern,"
+      "start": 1489.58,
+      "end": 1493.8,
+      "text": "ja, stabil und stationär hierher."
     },
     {
       "i": 520,
-      "start": 1425.61,
-      "end": 1427.5,
-      "text": "umgekehrt,"
+      "start": 1493.8,
+      "end": 1495.8,
+      "text": "Dann kommen wir zum Staupunkt."
     },
     {
       "i": 521,
-      "start": 1427.5,
-      "end": 1429.5,
-      "text": "wenn man das Schirm beim Beschleunigen,"
+      "start": 1495.8,
+      "end": 1497.8,
+      "text": "Der Staupunkt ist der Punkt am Schirm,"
     },
     {
       "i": 522,
-      "start": 1429.5,
-      "end": 1432.5,
-      "text": "und der Einstellwinkel kleiner wird,"
+      "start": 1497.8,
+      "end": 1499.8,
+      "text": "wo sich die Luft"
     },
     {
       "i": 523,
-      "start": 1432.5,
-      "end": 1435.5,
-      "text": "dann wird der z.B. und der z.A. wert kleiner."
+      "start": 1499.8,
+      "end": 1501.8,
+      "text": "entscheiden muss, gehe ich jetzt oben"
     },
     {
       "i": 524,
-      "start": 1436.95,
-      "end": 1437.95,
-      "text": "Ganz wichtig ist,"
+      "start": 1501.8,
+      "end": 1503.8,
+      "text": "durch oder gehe ich unten durch."
     },
     {
       "i": 525,
-      "start": 1437.95,
-      "end": 1438.95,
-      "text": "zu wissen,"
+      "start": 1503.8,
+      "end": 1505.8,
+      "text": "Das ist eigentlich so der Scheitelpunkt,"
     },
     {
       "i": 526,
-      "start": 1438.95,
-      "end": 1440.95,
-      "text": "wir reden eigentlich immer vom stationären Kleibflug."
+      "start": 1505.8,
+      "end": 1507.8,
+      "text": "wo sich die Strömung aufteilt."
     },
     {
       "i": 527,
-      "start": 1440.95,
-      "end": 1441.95,
-      "text": "Also,"
+      "start": 1507.8,
+      "end": 1509.8,
+      "text": "Und dieser Punkt verschiebt sich natürlich,"
     },
     {
       "i": 528,
-      "start": 1441.95,
-      "end": 1443.95,
-      "text": "wir sind jetzt stark abbremst,"
+      "start": 1509.8,
+      "end": 1511.8,
+      "text": "der bleibt nicht immer gleich,"
     },
     {
       "i": 529,
-      "start": 1443.95,
-      "end": 1445.95,
-      "text": "oder die Beschleunigen sind,"
+      "start": 1511.8,
+      "end": 1513.8,
+      "text": "um wieder mit dem Anstellwinkel"
     },
     {
       "i": 530,
-      "start": 1445.95,
-      "end": 1447.95,
-      "text": "es ist immer stationär und das Schirm"
+      "start": 1513.8,
+      "end": 1516.49,
+      "text": "zu tun. Diesen Punkt"
     },
     {
       "i": 531,
-      "start": 1447.95,
-      "end": 1449.95,
-      "text": "fliegt eigentlich auf einer Linie,"
+      "start": 1516.49,
+      "end": 1518.7,
+      "text": "seht ihr, wenn ich hier"
     },
     {
       "i": 532,
-      "start": 1449.95,
-      "end": 1451.95,
-      "text": "im Stabilen auch zustande."
+      "start": 1518.7,
+      "end": 1520.84,
+      "text": "den Anstellwinkel vergrössere,"
     },
     {
       "i": 533,
-      "start": 1451.95,
-      "end": 1453.95,
-      "text": "Und dann im stationären Kleibflug"
+      "start": 1520.84,
+      "end": 1522.84,
+      "text": "wandert dieser Punkt Richtung"
     },
     {
       "i": 534,
-      "start": 1453.95,
-      "end": 1455.95,
-      "text": "ist der Gelbfühl und der Violebfühl,"
+      "start": 1522.84,
+      "end": 1524.84,
+      "text": "Austrittskante hinterher."
     },
     {
       "i": 535,
-      "start": 1455.95,
-      "end": 1457.95,
-      "text": "also unser Kraft,"
+      "start": 1524.84,
+      "end": 1526.84,
+      "text": "Und hier seht ihr auch, wieso"
     },
     {
       "i": 536,
-      "start": 1457.95,
-      "end": 1459.95,
-      "text": "unser Luftkraft resultierende"
+      "start": 1526.84,
+      "end": 1528.84,
+      "text": "beim Gleitschirm Zellöffnungen"
     },
     {
       "i": 537,
-      "start": 1459.95,
-      "end": 1461.95,
-      "text": "und Gewichtskraft immer gleich grösser."
+      "start": 1528.84,
+      "end": 1530.92,
+      "text": "so im vorderen Bereich"
     },
     {
       "i": 538,
-      "start": 1461.95,
-      "end": 1463.95,
-      "text": "Wenn man natürlich aus vollem Fahr kommt"
+      "start": 1530.92,
+      "end": 1532.92,
+      "text": "unten dran sind und nicht einfach"
     },
     {
       "i": 539,
-      "start": 1463.95,
-      "end": 1465.95,
-      "text": "und da bremsen,"
+      "start": 1532.92,
+      "end": 1534.92,
+      "text": "gerade vorne oder oben."
     },
     {
       "i": 540,
-      "start": 1465.95,
-      "end": 1466.95,
-      "text": "dann wissen wir,"
+      "start": 1534.92,
+      "end": 1536.97,
+      "text": "Weil in diesem Bereich, in dem wir"
     },
     {
       "i": 541,
-      "start": 1466.95,
-      "end": 1469.95,
-      "text": "dass das Schirm am Anfang fläre"
+      "start": 1536.97,
+      "end": 1539.02,
+      "text": "eigentlich fliegen, haben wir unseren"
     },
     {
       "i": 542,
-      "start": 1469.95,
-      "end": 1471.95,
-      "text": "woke philosophers,"
+      "start": 1539.02,
+      "end": 1541.45,
+      "text": "Staupunkt immer ziemlich"
     },
     {
       "i": 543,
-      "start": 1471.95,
-      "end": 1473.95,
-      "text": "ein estate verbinden,"
+      "start": 1541.45,
+      "end": 1543.45,
+      "text": "genau in diesem Bereich, in dem auch"
     },
     {
       "i": 544,
-      "start": 1473.95,
-      "end": 1475.95,
-      "text": "manufact patent knobs,"
+      "start": 1543.45,
+      "end": 1545.45,
+      "text": "Zellöffnungen sind, was absolut Sinn macht."
     },
     {
       "i": 545,
-      "start": 1475.95,
-      "end": 1477.95,
-      "text": "dann ärgert den impulter handful die chain und leuchze in EU."
+      "start": 1545.45,
+      "end": 1548.26,
+      "text": "Der Ablösepunkt, der verhält sich"
     },
     {
       "i": 546,
-      "start": 1477.95,
-      "end": 1479.95,
-      "text": "Den Weltkern und eben die 사�urtandinzielle pensionistik"
+      "start": 1548.26,
+      "end": 1550.26,
+      "text": "genau umgekehrt, also wenn man"
     },
     {
       "i": 547,
-      "start": 1479.95,
-      "end": 1481.95,
-      "text": "wie man natürlich in EU advisory is."
+      "start": 1550.26,
+      "end": 1552.26,
+      "text": "mehr anbremst, dann wandert"
     },
     {
       "i": 548,
-      "start": 1481.95,
-      "end": 1494.43,
-      "text": "So können man natürlich позволien"
+      "start": 1552.26,
+      "end": 1554.26,
+      "text": "der Ablösepunkt, wo eben die Strömung"
     },
     {
       "i": 549,
-      "start": 1494.43,
-      "end": 1496.39,
-      "text": "einen Be overlapping Diana Er CE."
+      "start": 1554.26,
+      "end": 1556.26,
+      "text": "nicht mehr am Profil folgen kann, immer weiter"
     },
     {
       "i": 550,
-      "start": 1496.39,
-      "end": 1498.39,
-      "text": "Für den Menschen das Schirm,"
+      "start": 1556.26,
+      "end": 1558.26,
+      "text": "Richtung Eintrittskante hoch."
     },
     {
       "i": 551,
-      "start": 1498.39,
-      "end": 1501.77,
-      "text": "dienahme ist der"
+      "start": 1558.26,
+      "end": 1560.26,
+      "text": "Bis dann die Strömung irgendwann"
     },
     {
       "i": 552,
-      "start": 1501.77,
-      "end": 1503.77,
-      "text": "oder, oder gegen die Unterdauer."
+      "start": 1560.26,
+      "end": 1562.26,
+      "text": "hier oben komplett abreisst,"
     },
     {
       "i": 553,
-      "start": 1503.77,
-      "end": 1507.77,
-      "text": "So ist der Scheitelpunkt, die sich die Strömung aufteilt."
+      "start": 1562.26,
+      "end": 1564.26,
+      "text": "der Schirm keinen Auftrieb mehr erzeugt,"
     },
     {
       "i": 554,
-      "start": 1507.77,
-      "end": 1509.77,
-      "text": "Und dieser Punkt verschirbt sich natürlich,"
+      "start": 1564.26,
+      "end": 1566.26,
+      "text": "sich entleert"
     },
     {
       "i": 555,
-      "start": 1509.77,
-      "end": 1511.77,
-      "text": "der bleibt nicht immer gleich."
+      "start": 1566.26,
+      "end": 1568.26,
+      "text": "und wir in einem Full-Stall sind."
     },
     {
       "i": 556,
-      "start": 1511.77,
-      "end": 1516.09,
-      "text": "Er hat auch wieder mit der Anstelle mit dem Anstellewinkel zu tun."
+      "start": 1568.26,
+      "end": 1572.07,
+      "text": "Genau, das ist schon das,"
     },
     {
       "i": 557,
-      "start": 1516.09,
-      "end": 1521.09,
-      "text": "Der Punkt sieht, wenn ich hier der Anstellewinkel vergrößere,"
+      "start": 1572.07,
+      "end": 1574.07,
+      "text": "was passiert mit dem Staupunkt und mit dem"
     },
     {
       "i": 558,
-      "start": 1521.09,
-      "end": 1525.09,
-      "text": "wandere der Punkt richtig ausdrückende Hinder."
+      "start": 1574.07,
+      "end": 1576.15,
+      "text": "Ablösepunkt, wenn wir unseren"
     },
     {
       "i": 559,
-      "start": 1525.09,
-      "end": 1527.09,
-      "text": "Und da sieht er jetzt auch, wie so,"
+      "start": 1576.15,
+      "end": 1578.15,
+      "text": "Anstellwinkel verändern und stark"
     },
     {
       "i": 560,
-      "start": 1527.09,
-      "end": 1530.09,
-      "text": "dass beim Gleichschirm zellöffnigen,"
+      "start": 1578.15,
+      "end": 1581.51,
+      "text": "anbremsen. Dann kommen wir hier schon"
     },
     {
       "i": 561,
-      "start": 1530.09,
-      "end": 1532.09,
-      "text": "die fahrtere Bereiche unentraß sind,"
+      "start": 1581.51,
+      "end": 1583.53,
+      "text": "zum Randwirbel und"
     },
     {
       "i": 562,
-      "start": 1532.09,
-      "end": 1534.09,
-      "text": "und nicht einfach gerade vorne oder oben,"
+      "start": 1583.53,
+      "end": 1585.53,
+      "text": "zum Widerstand. Wir haben jetzt viel"
     },
     {
       "i": 563,
-      "start": 1534.09,
-      "end": 1536.09,
-      "text": "weil in diesem Bereich,"
+      "start": 1585.53,
+      "end": 1587.53,
+      "text": "vom Widerstand gesprochen, jetzt schauen wir uns"
     },
     {
       "i": 564,
-      "start": 1536.09,
-      "end": 1538.09,
-      "text": "wo wir eigentlich fliegen,"
+      "start": 1587.53,
+      "end": 1589.53,
+      "text": "das ganze System an und wie dann der Widerstand"
     },
     {
       "i": 565,
-      "start": 1538.09,
-      "end": 1542.18,
-      "text": "haben wir unser Staubpunkt immer ziemlich genau,"
+      "start": 1589.53,
+      "end": 1591.53,
+      "text": "ungefähr am Gleitschirm, am fliegenden"
     },
     {
       "i": 566,
-      "start": 1542.18,
-      "end": 1543.18,
-      "text": "in diesem Bereich,"
+      "start": 1591.53,
+      "end": 1594.02,
+      "text": "System verteilt ist."
     },
     {
       "i": 567,
-      "start": 1543.18,
-      "end": 1545.18,
-      "text": "wo auch Zellöffnigen sind, was absolut Sinn macht."
+      "start": 1594.02,
+      "end": 1596.02,
+      "text": "Der Profilwiderstand, wie Sie hier"
     },
     {
       "i": 568,
-      "start": 1545.18,
-      "end": 1549.63,
-      "text": "Der Ablösepunkt verhalten sich genau ungekehrt."
+      "start": 1596.02,
+      "end": 1598.02,
+      "text": "sehen, ist etwa 20%."
     },
     {
       "i": 569,
-      "start": 1549.63,
-      "end": 1551.63,
-      "text": "Also, wenn man mehr abremsigt,"
+      "start": 1598.02,
+      "end": 1600.23,
+      "text": "Die Leine sind etwa 20%,"
     },
     {
       "i": 570,
-      "start": 1551.63,
-      "end": 1553.63,
-      "text": "dann wandert der Ablösepunkt,"
+      "start": 1600.23,
+      "end": 1602.23,
+      "text": "der Pilot, die Pilotin ist etwa"
     },
     {
       "i": 571,
-      "start": 1553.63,
-      "end": 1555.63,
-      "text": "der bleibt die Strömung nicht mehr am Profil verfolgen,"
+      "start": 1602.23,
+      "end": 1604.23,
+      "text": "20% und der grösste"
     },
     {
       "i": 572,
-      "start": 1555.63,
-      "end": 1557.63,
-      "text": "immer weiter richtig,"
+      "start": 1604.23,
+      "end": 1606.23,
+      "text": "Teil, da kann man sich irgendwie"
     },
     {
       "i": 573,
-      "start": 1557.69,
-      "end": 1559.63,
-      "text": "auf ein bisschen Strömung."
+      "start": 1606.23,
+      "end": 1608.23,
+      "text": "schwierig vorstellen, weil das ist das,"
     },
     {
       "i": 574,
-      "start": 1559.63,
-      "end": 1561.63,
-      "text": "irgendwer in der oben komplett abreist,"
+      "start": 1608.23,
+      "end": 1610.23,
+      "text": "was man nicht sieht vom Auge,"
     },
     {
       "i": 575,
-      "start": 1561.63,
-      "end": 1563.63,
-      "text": "das hier haben keine Aufdreie mehr gezeigt,"
+      "start": 1610.23,
+      "end": 1612.23,
+      "text": "das ist der induzierte Widerstand."
     },
     {
       "i": 576,
-      "start": 1563.63,
-      "end": 1565.63,
-      "text": "sich er entlehrt,"
+      "start": 1612.23,
+      "end": 1614.23,
+      "text": "Und der induzierte Widerstand entsteht"
     },
     {
       "i": 577,
-      "start": 1565.63,
-      "end": 1567.63,
-      "text": "ertet, und wir sind immer eine Fulsstahl."
+      "start": 1614.23,
+      "end": 1616.23,
+      "text": "am Flügelende, weil"
     },
     {
       "i": 578,
-      "start": 1567.63,
-      "end": 1571.04,
-      "text": "Genau, das ist schon da,"
+      "start": 1616.23,
+      "end": 1618.41,
+      "text": "wir haben ja den Überdruck"
     },
     {
       "i": 579,
-      "start": 1571.04,
-      "end": 1574.04,
-      "text": "was passiert mit dem Staubpunkt und mit dem Ablösepunkt,"
+      "start": 1618.41,
+      "end": 1621.03,
+      "text": "und den Unterdruck und diese"
     },
     {
       "i": 580,
-      "start": 1574.04,
-      "end": 1577.04,
-      "text": "wenn man unser Anstellewinkel veränderet"
+      "start": 1621.03,
+      "end": 1623.05,
+      "text": "Druckausgleichen wollen sich irgendwie"
     },
     {
       "i": 581,
-      "start": 1577.04,
-      "end": 1579.04,
-      "text": "und stark abremsigt."
+      "start": 1623.05,
+      "end": 1625.05,
+      "text": "ausgleichen."
     },
     {
       "i": 582,
-      "start": 1579.04,
-      "end": 1583.03,
-      "text": "Dann kann man da schon zum Randwirbel und zum Widerstand."
+      "start": 1625.05,
+      "end": 1627.05,
+      "text": "So ein Ungleichgewicht ist"
     },
     {
       "i": 583,
-      "start": 1583.03,
-      "end": 1585.03,
-      "text": "Wenn man jetzt viel von Widerstand gerät,"
+      "start": 1627.05,
+      "end": 1629.05,
+      "text": "nie gut in der Natur"
     },
     {
       "i": 584,
-      "start": 1585.03,
-      "end": 1586.03,
-      "text": "jetzt schauen wir mal,"
+      "start": 1629.05,
+      "end": 1631.05,
+      "text": "oder in der Physik, das will sich immer"
     },
     {
       "i": 585,
-      "start": 1586.03,
-      "end": 1587.03,
-      "text": "ein ganzes Thema."
+      "start": 1631.05,
+      "end": 1633.05,
+      "text": "irgendwie ausgleichen und das gibt"
     },
     {
       "i": 586,
-      "start": 1587.03,
-      "end": 1590.03,
-      "text": "Und wir dann den Widerstand ungefähr am Kleidschirm,"
+      "start": 1633.05,
+      "end": 1635.19,
+      "text": "am Flügelende die Verwirbelung,"
     },
     {
       "i": 587,
-      "start": 1590.03,
-      "end": 1593.16,
-      "text": "am Flügenden-System verteilt ist."
+      "start": 1635.19,
+      "end": 1637.19,
+      "text": "die zum Teil auch relativ stark"
     },
     {
       "i": 588,
-      "start": 1593.16,
-      "end": 1595.16,
-      "text": "Der Profil wiederstand,"
+      "start": 1637.19,
+      "end": 1639.19,
+      "text": "sein können, also wenn"
     },
     {
       "i": 589,
-      "start": 1595.16,
-      "end": 1596.16,
-      "text": "wie ich das da gesehen habe,"
+      "start": 1639.19,
+      "end": 1641.19,
+      "text": "ihr jetzt an einem Gleitschirm"
     },
     {
       "i": 590,
-      "start": 1596.16,
-      "end": 1598.16,
-      "text": "ist etwa 20 Prozent."
+      "start": 1641.19,
+      "end": 1643.19,
+      "text": "ganz nahe hinan fliegt, dann merkt"
     },
     {
       "i": 591,
-      "start": 1598.16,
-      "end": 1600.16,
-      "text": "Kleines sind etwa 20 Prozent."
+      "start": 1643.19,
+      "end": 1645.19,
+      "text": "ihr, wie es ein wenig schütteln kann."
     },
     {
       "i": 592,
-      "start": 1600.16,
-      "end": 1602.16,
-      "text": "Pilot, Pilotin ist etwa 20 Prozent."
+      "start": 1645.19,
+      "end": 1647.19,
+      "text": "In der Landung darum auf jeden Fall nicht"
     },
     {
       "i": 593,
-      "start": 1602.16,
-      "end": 1604.16,
-      "text": "Und der größte Teil,"
+      "start": 1647.19,
+      "end": 1649.19,
+      "text": "empfohlen, um nahe aufeinander zu fliegen"
     },
     {
       "i": 594,
-      "start": 1604.16,
-      "end": 1607.16,
-      "text": "da kann man sich irgendwie ein Schwierig zum vorstellen,"
+      "start": 1649.19,
+      "end": 1651.19,
+      "text": "und lieber etwas Abstand zu halten."
     },
     {
       "i": 595,
-      "start": 1607.16,
-      "end": 1608.16,
-      "text": "weil da ist da,"
+      "start": 1651.19,
+      "end": 1653.19,
+      "text": "Je schwerer das Fluggerät ist,"
     },
     {
       "i": 596,
-      "start": 1608.16,
-      "end": 1609.16,
-      "text": "was man nicht sieht, vor auch."
+      "start": 1653.19,
+      "end": 1655.19,
+      "text": "ob es ein Gleitschirm ist oder"
     },
     {
       "i": 597,
-      "start": 1609.16,
-      "end": 1611.16,
-      "text": "Da ist der induziert Widerstand."
+      "start": 1655.19,
+      "end": 1657.19,
+      "text": "ein Jumbojet,"
     },
     {
       "i": 598,
-      "start": 1611.16,
-      "end": 1613.16,
-      "text": "Und der induziert Widerstand"
+      "start": 1657.19,
+      "end": 1659.24,
+      "text": "desto heftiger sind die Randwirbel."
     },
     {
       "i": 599,
-      "start": 1613.16,
-      "end": 1615.16,
-      "text": "entsteht an der Flügel End,"
+      "start": 1659.24,
+      "end": 1661.8,
+      "text": "Das heisst, wenn ihr jetzt in einer Landung"
     },
     {
       "i": 600,
-      "start": 1615.16,
-      "end": 1619.16,
-      "text": "weil wir haben ja den Überdruck und den Unterdruck."
+      "start": 1661.8,
+      "end": 1663.8,
+      "text": "fliegt, hinter einem Tandem"
     },
     {
       "i": 601,
-      "start": 1619.16,
-      "end": 1621.38,
-      "text": "Und die Druck ausgleichen,"
+      "start": 1663.8,
+      "end": 1665.8,
+      "text": "fliegt, müsst ihr ganz vorsichtig sein,"
     },
     {
       "i": 602,
-      "start": 1621.38,
-      "end": 1624.38,
-      "text": "wenn sich irgendwie ausgleichen."
+      "start": 1665.8,
+      "end": 1667.8,
+      "text": "weil dort sind die Wirbel"
     },
     {
       "i": 603,
-      "start": 1624.38,
-      "end": 1629.38,
-      "text": "So ein Ungleichgewicht ist nie gut in der Natur oder in der Physik."
+      "start": 1667.8,
+      "end": 1669.8,
+      "text": "deutlich grösser, wie bei einem"
     },
     {
       "i": 604,
-      "start": 1629.38,
-      "end": 1631.38,
-      "text": "Da wird sich immer irgendwie ausgleichen."
+      "start": 1669.8,
+      "end": 1673.37,
+      "text": "Soloschirm."
     },
     {
       "i": 605,
-      "start": 1631.38,
-      "end": 1634.38,
-      "text": "Und da gibt auch der Flügel End die Verwirrpligen."
+      "start": 1673.37,
+      "end": 1675.37,
+      "text": "Unser Ziel, wir haben ja am Anfang gesagt,"
     },
     {
       "i": 606,
-      "start": 1634.38,
-      "end": 1637.38,
-      "text": "Wo zum Teil auch relativ stark sind,"
+      "start": 1675.37,
+      "end": 1677.37,
+      "text": "der Idealfall wäre eigentlich, dass wir"
     },
     {
       "i": 607,
-      "start": 1637.38,
-      "end": 1640.38,
-      "text": "also wenn man jetzt mit einem Kleidschirm"
+      "start": 1677.37,
+      "end": 1679.37,
+      "text": "gar keinen Widerstand haben und nur Auftrieb."
     },
     {
       "i": 608,
-      "start": 1640.38,
-      "end": 1642.38,
-      "text": "ganz nach hinten anflügt,"
+      "start": 1679.37,
+      "end": 1681.37,
+      "text": "Wie kommen wir dem etwas"
     },
     {
       "i": 609,
-      "start": 1642.38,
-      "end": 1643.38,
-      "text": "dann merken wir,"
+      "start": 1681.37,
+      "end": 1683.37,
+      "text": "näher? Beim Profil"
     },
     {
       "i": 610,
-      "start": 1643.38,
-      "end": 1645.38,
-      "text": "wie man sich schüttelt,"
+      "start": 1683.37,
+      "end": 1685.37,
+      "text": "können wir etwas herausholen,"
     },
     {
       "i": 611,
-      "start": 1645.38,
-      "end": 1646.38,
-      "text": "in der Landung darum,"
+      "start": 1685.37,
+      "end": 1687.45,
+      "text": "dadurch, dass wir"
     },
     {
       "i": 612,
-      "start": 1646.38,
-      "end": 1647.38,
-      "text": "auf jeden Fall nicht empfohlen,"
+      "start": 1687.45,
+      "end": 1689.45,
+      "text": "den Schirm sehen,"
     },
     {
       "i": 613,
-      "start": 1647.38,
-      "end": 1648.38,
-      "text": "zum Neukaufenaumflügen"
+      "start": 1689.45,
+      "end": 1691.45,
+      "text": "hat durch die Zellen ganz viele"
     },
     {
       "i": 614,
-      "start": 1648.38,
-      "end": 1650.38,
-      "text": "und lieber ein Kleibstand halten."
+      "start": 1691.45,
+      "end": 1693.45,
+      "text": "Wellen und Hügel, wo"
     },
     {
       "i": 615,
-      "start": 1650.38,
-      "end": 1651.38,
-      "text": "Es wäre,"
+      "start": 1693.45,
+      "end": 1695.45,
+      "text": "eigentlich, wenn man Flugzeuge anschaut,"
     },
     {
       "i": 616,
-      "start": 1651.38,
-      "end": 1653.38,
-      "text": "dass das Fluggerät ist,"
+      "start": 1695.45,
+      "end": 1697.45,
+      "text": "wo die Fläche schön glatt ist, ist das ja"
     },
     {
       "i": 617,
-      "start": 1653.38,
-      "end": 1654.38,
-      "text": "über den Kleidschirm ist,"
+      "start": 1697.45,
+      "end": 1699.45,
+      "text": "eigentlich ineffizient und nicht so günstig."
     },
     {
       "i": 618,
-      "start": 1654.38,
-      "end": 1656.38,
-      "text": "oder ein Zumba-Jet."
+      "start": 1699.45,
+      "end": 1702.14,
+      "text": "Darum seht ihr auch Hochleistungsschirme"
     },
     {
       "i": 619,
-      "start": 1656.38,
-      "end": 1659.38,
-      "text": "Es ist hier heftig und sind die Erhandwirbel."
+      "start": 1702.14,
+      "end": 1704.14,
+      "text": "oder auch Intermediatschirme,"
     },
     {
       "i": 620,
-      "start": 1659.38,
-      "end": 1660.61,
-      "text": "Da heisst,"
+      "start": 1704.14,
+      "end": 1706.14,
+      "text": "je weiter hoch das geht in der Schwierigkeitsklasse,"
     },
     {
       "i": 621,
-      "start": 1660.61,
-      "end": 1662.61,
-      "text": "wenn er jetzt in einer Lande wollte,"
+      "start": 1706.14,
+      "end": 1708.14,
+      "text": "desto mehr Zellen haben"
     },
     {
       "i": 622,
-      "start": 1662.61,
-      "end": 1664.61,
-      "text": "hinter einem Tandem herflügt,"
+      "start": 1708.14,
+      "end": 1710.14,
+      "text": "diese Schirme. Und diese Zellen bringen"
     },
     {
       "i": 623,
-      "start": 1664.61,
-      "end": 1665.61,
-      "text": "ist er ganz vorsichtig,"
+      "start": 1710.14,
+      "end": 1712.14,
+      "text": "eigentlich hin, dass eben diese Wellen"
     },
     {
       "i": 624,
-      "start": 1665.61,
-      "end": 1668.61,
-      "text": "weil die Gewiebel deutlich grösser,"
+      "start": 1712.14,
+      "end": 1714.14,
+      "text": "möglichst"
     },
     {
       "i": 625,
-      "start": 1668.61,
-      "end": 1670.61,
-      "text": "wie bei einem Soloschirm."
+      "start": 1714.14,
+      "end": 1716.31,
+      "text": "flach ausfallen, also lieber"
     },
     {
       "i": 626,
-      "start": 1670.61,
-      "end": 1672.63,
-      "text": "Jetzt,"
+      "start": 1716.31,
+      "end": 1718.31,
+      "text": "ganz viele, ganz kleine Wellen, als"
     },
     {
       "i": 627,
-      "start": 1672.63,
-      "end": 1673.63,
-      "text": "unser Ziel,"
+      "start": 1718.31,
+      "end": 1720.42,
+      "text": "grosse Hügel. Da kommt man"
     },
     {
       "i": 628,
-      "start": 1673.63,
-      "end": 1674.63,
-      "text": "wenn du am Anfang gesagt,"
+      "start": 1720.42,
+      "end": 1722.42,
+      "text": "viel näher an den angestrebten"
     },
     {
       "i": 629,
-      "start": 1674.63,
-      "end": 1675.63,
-      "text": "sind die Ideale,"
+      "start": 1722.42,
+      "end": 1725.14,
+      "text": "Idealprofil. Bedingt aber auch,"
     },
     {
       "i": 630,
-      "start": 1675.63,
-      "end": 1676.63,
-      "text": "weil wir eigentlich,"
+      "start": 1725.14,
+      "end": 1727.14,
+      "text": "dass man dann das Gerät wieder beherrschen kann,"
     },
     {
       "i": 631,
-      "start": 1676.63,
-      "end": 1677.63,
-      "text": "dass wir Gärken wieder standen,"
+      "start": 1727.14,
+      "end": 1729.14,
+      "text": "weil es dann einfach viel schwieriger ist,"
     },
     {
       "i": 632,
-      "start": 1677.63,
-      "end": 1678.63,
-      "text": "du auftreibst."
+      "start": 1729.14,
+      "end": 1731.14,
+      "text": "zu fliegen. Den induzierten Widerstand"
     },
     {
       "i": 633,
-      "start": 1678.63,
-      "end": 1681.63,
-      "text": "Wie kann man dem ein bisschen näher machen?"
+      "start": 1731.14,
+      "end": 1733.14,
+      "text": "holt man raus über die Streckung."
     },
     {
       "i": 634,
-      "start": 1681.63,
-      "end": 1682.63,
-      "text": "Ich bin Profil,"
+      "start": 1733.14,
+      "end": 1735.14,
+      "text": "Bei den Flugzeugen gibt es auch"
     },
     {
       "i": 635,
-      "start": 1682.63,
-      "end": 1684.63,
-      "text": "kann man ein bisschen etwas auszuholen."
+      "start": 1735.14,
+      "end": 1737.14,
+      "text": "diese Winglets, die man sieht,"
     },
     {
       "i": 636,
-      "start": 1684.63,
-      "end": 1685.63,
-      "text": "Da,"
+      "start": 1737.14,
+      "end": 1739.14,
+      "text": "die am Spitz des Flügels so hochgehen,"
     },
     {
       "i": 637,
-      "start": 1685.63,
-      "end": 1687.63,
-      "text": "dass man gesehen hat,"
+      "start": 1739.14,
+      "end": 1741.14,
+      "text": "um diese Verwirbelung zu vermindern."
     },
     {
       "i": 638,
-      "start": 1687.63,
-      "end": 1688.63,
-      "text": "der Schirm hat,"
+      "start": 1741.14,
+      "end": 1743.14,
+      "text": "Beim Gleitschirm holt man es vor allem"
     },
     {
       "i": 639,
-      "start": 1688.63,
-      "end": 1690.63,
-      "text": "die Zellen ganz huffen,"
+      "start": 1743.14,
+      "end": 1745.14,
+      "text": "über die Streckung raus."
     },
     {
       "i": 640,
-      "start": 1690.63,
-      "end": 1692.63,
-      "text": "so Wellen und Hügel,"
+      "start": 1745.14,
+      "end": 1747.14,
+      "text": "Das heisst, auf die Streckung kommen wir"
     },
     {
       "i": 641,
-      "start": 1692.63,
-      "end": 1693.63,
-      "text": "wo eigentlich,"
+      "start": 1747.14,
+      "end": 1749.14,
+      "text": "dann später noch, eigentlich"
     },
     {
       "i": 642,
-      "start": 1693.63,
-      "end": 1694.63,
-      "text": "wenn man Flugzeuge auch schaut,"
+      "start": 1749.14,
+      "end": 1751.14,
+      "text": "einfach eine weitere Spannweite und"
     },
     {
       "i": 643,
-      "start": 1694.63,
-      "end": 1695.63,
-      "text": "wo die Fläche schön glatt ist,"
+      "start": 1751.14,
+      "end": 1753.14,
+      "text": "eine kleinere Flügeltiefe. Also,"
     },
     {
       "i": 644,
-      "start": 1695.63,
-      "end": 1697.63,
-      "text": "ist da ja ziemlich ineffizient"
+      "start": 1753.14,
+      "end": 1755.14,
+      "text": "je mehr der Gleitschirm so wie ein"
     },
     {
       "i": 645,
-      "start": 1697.63,
-      "end": 1699.63,
-      "text": "und nicht so günstig."
+      "start": 1755.14,
+      "end": 1757.14,
+      "text": "Sichler im Himmel ist und so schön"
     },
     {
       "i": 646,
-      "start": 1699.63,
-      "end": 1701.98,
-      "text": "Darum sehen der Hochleistungsschirm"
+      "start": 1757.14,
+      "end": 1759.14,
+      "text": "fein aussieht, desto"
     },
     {
       "i": 647,
-      "start": 1701.98,
-      "end": 1703.98,
-      "text": "oder auch Intermedia-Schirm,"
+      "start": 1759.14,
+      "end": 1761.14,
+      "text": "optimierter ist der induzierte Widerstand."
     },
     {
       "i": 648,
-      "start": 1703.98,
-      "end": 1704.98,
-      "text": "je weiter auf,"
+      "start": 1761.14,
+      "end": 1763.74,
+      "text": "Das nächste ist die Leine."
     },
     {
       "i": 649,
-      "start": 1704.98,
-      "end": 1705.98,
-      "text": "dass es da geht,"
+      "start": 1763.74,
+      "end": 1765.74,
+      "text": "Da will man natürlich im Idealfall"
     },
     {
       "i": 650,
-      "start": 1705.98,
-      "end": 1706.98,
-      "text": "die Schwierigkeitsklasse,"
+      "start": 1765.74,
+      "end": 1767.74,
+      "text": "so wenig wie möglich und möglichst"
     },
     {
       "i": 651,
-      "start": 1706.98,
-      "end": 1708.98,
-      "text": "desto mehr Zellenhändige Schirm."
+      "start": 1767.74,
+      "end": 1769.98,
+      "text": "dünne Leinen."
     },
     {
       "i": 652,
-      "start": 1708.98,
-      "end": 1710.98,
-      "text": "Und die Zellen bringen eigentlich an,"
+      "start": 1769.98,
+      "end": 1771.98,
+      "text": "Das bringt auch wieder mit sich,"
     },
     {
       "i": 653,
-      "start": 1710.98,
-      "end": 1712.98,
-      "text": "dass eben die Wellen"
+      "start": 1771.98,
+      "end": 1773.98,
+      "text": "dass es mehr Knöpfe gibt, dass es"
     },
     {
       "i": 654,
-      "start": 1712.98,
-      "end": 1713.98,
-      "text": "möglichst flach ausfallen,"
+      "start": 1773.98,
+      "end": 1775.98,
+      "text": "anspruchsvoller ist zum Fliegen bei einer"
     },
     {
       "i": 655,
-      "start": 1713.98,
-      "end": 1716.98,
-      "text": "also lieber ganz kleine Wellen,"
+      "start": 1775.98,
+      "end": 1778.06,
+      "text": "Störung und so weiter."
     },
     {
       "i": 656,
-      "start": 1716.98,
-      "end": 1718.98,
-      "text": "als grosse Hügel,"
+      "start": 1778.06,
+      "end": 1780.06,
+      "text": "Also, ihr seht, alle diese Faktoren"
     },
     {
       "i": 657,
-      "start": 1718.98,
-      "end": 1720.98,
-      "text": "da kommen viel näher"
+      "start": 1780.06,
+      "end": 1782.71,
+      "text": "bedeuten eigentlich, dass"
     },
     {
       "i": 658,
-      "start": 1720.98,
-      "end": 1722.98,
-      "text": "der angestrebte Ideal Profil."
+      "start": 1782.71,
+      "end": 1784.71,
+      "text": "der Schirm schwieriger wird zum Fliegen"
     },
     {
       "i": 659,
-      "start": 1722.98,
-      "end": 1725.34,
-      "text": "Bedingt aber auch,"
+      "start": 1784.71,
+      "end": 1786.71,
+      "text": "und viel mehr Kenntnis braucht."
     },
     {
       "i": 660,
-      "start": 1725.34,
-      "end": 1726.34,
-      "text": "dass man den da gerät wieder kann,"
+      "start": 1786.71,
+      "end": 1789.4,
+      "text": "Und zu guter Letzt"
     },
     {
       "i": 661,
-      "start": 1726.34,
-      "end": 1727.34,
-      "text": "beherrschen,"
+      "start": 1789.4,
+      "end": 1791.45,
+      "text": "Pilotin"
     },
     {
       "i": 662,
-      "start": 1727.34,
-      "end": 1729.34,
-      "text": "weil es einfach den viel schwieriger ist,"
-    },
-    {
-      "i": 663,
-      "start": 1729.34,
-      "end": 1730.34,
-      "text": "zum Flügen."
-    },
-    {
-      "i": 664,
-      "start": 1730.34,
-      "end": 1731.34,
-      "text": "Der induziert wieder stand,"
-    },
-    {
-      "i": 665,
-      "start": 1731.34,
-      "end": 1733.34,
-      "text": "und holt man raus über die Strecke."
-    },
-    {
-      "i": 666,
-      "start": 1733.34,
-      "end": 1735.34,
-      "text": "Bei der Flugzeuge geht es auch die Wingletz,"
-    },
-    {
-      "i": 667,
-      "start": 1735.34,
-      "end": 1736.34,
-      "text": "die man sieht,"
-    },
-    {
-      "i": 668,
-      "start": 1762.62,
-      "end": 1763.62,
-      "text": "das nächste ist die Leine."
-    },
-    {
-      "i": 669,
-      "start": 1763.62,
-      "end": 1765.62,
-      "text": "Da, wenn man natürlich im Idealfall"
-    },
-    {
-      "i": 670,
-      "start": 1765.62,
-      "end": 1768.62,
-      "text": "so wenig wie möglich und möglichst stündig leine,"
-    },
-    {
-      "i": 671,
-      "start": 1768.62,
-      "end": 1771.62,
-      "text": "bringt auch wieder mit sich,"
-    },
-    {
-      "i": 672,
-      "start": 1771.62,
-      "end": 1772.62,
-      "text": "dass es mehr knapp geht,"
-    },
-    {
-      "i": 673,
-      "start": 1772.62,
-      "end": 1774.62,
-      "text": "dass es anspruchsvoller ist,"
-    },
-    {
-      "i": 674,
-      "start": 1774.62,
-      "end": 1775.62,
-      "text": "zum Flügen,"
-    },
-    {
-      "i": 675,
-      "start": 1775.62,
-      "end": 1776.62,
-      "text": "bei einer Störung,"
-    },
-    {
-      "i": 676,
-      "start": 1776.62,
-      "end": 1778.62,
-      "text": "und so weiter."
-    },
-    {
-      "i": 677,
-      "start": 1778.62,
-      "end": 1779.62,
-      "text": "Also ihr gesehen,"
-    },
-    {
-      "i": 678,
-      "start": 1779.62,
-      "end": 1780.62,
-      "text": "alle die Faktoren"
-    },
-    {
-      "i": 679,
-      "start": 1780.62,
-      "end": 1782.88,
-      "text": "verdienen eigentlich,"
-    },
-    {
-      "i": 680,
-      "start": 1782.88,
-      "end": 1783.88,
-      "text": "dass das Schirm schwieriger wird,"
-    },
-    {
-      "i": 681,
-      "start": 1783.88,
-      "end": 1784.88,
-      "text": "zum Flügen."
-    },
-    {
-      "i": 682,
-      "start": 1784.88,
-      "end": 1786.88,
-      "text": "Und viel mehr Kenntnis braucht."
-    },
-    {
-      "i": 683,
-      "start": 1786.88,
-      "end": 1789.2,
-      "text": "Und zu guter Letzt,"
-    },
-    {
-      "i": 684,
-      "start": 1789.2,
-      "end": 1790.2,
-      "text": "Pilotin,"
-    },
-    {
-      "i": 685,
-      "start": 1790.2,
-      "end": 1792.2,
-      "text": "das Gurtzück,"
-    },
-    {
-      "i": 686,
-      "start": 1792.2,
-      "end": 1794.2,
+      "start": 1791.45,
+      "end": 1793.45,
       "text": "macht natürlich auch ganz viel aus,"
     },
     {
-      "i": 687,
-      "start": 1794.2,
-      "end": 1796.2,
-      "text": "dass wir aufreiche Dienne hocken,"
+      "i": 663,
+      "start": 1793.45,
+      "end": 1795.45,
+      "text": "ob wir aufrecht drinnen sitzen"
     },
     {
-      "i": 688,
-      "start": 1796.2,
-      "end": 1798.2,
-      "text": "und der große Agriffläche für den Wind haben,"
+      "i": 664,
+      "start": 1795.45,
+      "end": 1797.45,
+      "text": "und eine grosse Angriffsfläche"
     },
     {
-      "i": 689,
-      "start": 1798.2,
-      "end": 1800.2,
-      "text": "oder wir Dienne liegen,"
+      "i": 665,
+      "start": 1797.45,
+      "end": 1799.45,
+      "text": "für den Wind haben, oder ob wir"
     },
     {
-      "i": 690,
-      "start": 1800.2,
-      "end": 1801.2,
-      "text": "möglichst klein sind,"
+      "i": 666,
+      "start": 1799.45,
+      "end": 1801.45,
+      "text": "dünne liegen, möglichst klein sind."
     },
     {
-      "i": 691,
-      "start": 1801.2,
-      "end": 1802.2,
-      "text": "macht,"
+      "i": 667,
+      "start": 1801.45,
+      "end": 1803.45,
+      "text": "Das macht dann auch gleich wieder"
     },
     {
-      "i": 692,
-      "start": 1802.2,
-      "end": 1805.2,
-      "text": "dann halt auch wieder ein paar Prozent aus,"
+      "i": 668,
+      "start": 1803.45,
+      "end": 1805.45,
+      "text": "ein paar Prozent aus, die wir"
     },
     {
-      "i": 693,
-      "start": 1805.2,
-      "end": 1806.2,
-      "text": "wo man sich optimieren kann."
+      "i": 669,
+      "start": 1805.45,
+      "end": 1807.53,
+      "text": "optimieren können. Hier noch schnell"
     },
     {
-      "i": 694,
-      "start": 1806.2,
-      "end": 1808.2,
-      "text": "Da noch schnell aufzeichnet,"
+      "i": 670,
+      "start": 1807.53,
+      "end": 1809.53,
+      "text": "aufgezeichnet, wie so ein Liegegurtzeug"
     },
     {
-      "i": 695,
-      "start": 1808.2,
-      "end": 1809.2,
-      "text": "wie so ein Liga-Gurtzück,"
+      "i": 671,
+      "start": 1809.53,
+      "end": 1811.53,
+      "text": "ungefähr im Windkanal aussehen könnte."
     },
     {
-      "i": 696,
-      "start": 1809.2,
-      "end": 1810.2,
-      "text": "ungefähr im Wing-Kanal,"
+      "i": 672,
+      "start": 1811.53,
+      "end": 1813.53,
+      "text": "Also, auch hier seht ihr vorne"
     },
     {
-      "i": 697,
-      "start": 1810.2,
-      "end": 1812.2,
-      "text": "könnte die aussehen."
+      "i": 673,
+      "start": 1813.53,
+      "end": 1815.53,
+      "text": "möglichst rund, dass"
     },
     {
-      "i": 698,
-      "start": 1812.2,
-      "end": 1813.2,
-      "text": "Also auch hier,"
+      "i": 674,
+      "start": 1815.53,
+      "end": 1817.53,
+      "text": "die Luft, die aufgeprallt ist,"
     },
     {
-      "i": 699,
-      "start": 1813.2,
-      "end": 1814.2,
-      "text": "in der vorne,"
+      "i": 675,
+      "start": 1817.53,
+      "end": 1819.53,
+      "text": "diese Teile schön"
     },
     {
-      "i": 700,
-      "start": 1814.2,
-      "end": 1815.2,
-      "text": "möglichst rund,"
+      "i": 676,
+      "start": 1819.53,
+      "end": 1821.53,
+      "text": "rundherum strömen, wie ein Regentropfen."
     },
     {
-      "i": 701,
-      "start": 1815.2,
-      "end": 1817.2,
-      "text": "dass die Luft- und Aufpresse,"
+      "i": 677,
+      "start": 1821.53,
+      "end": 1823.53,
+      "text": "Danach läuft es schön hinterher."
     },
     {
-      "i": 702,
-      "start": 1817.2,
-      "end": 1818.2,
-      "text": "die teile Schöne,"
-    },
-    {
-      "i": 703,
-      "start": 1818.2,
-      "end": 1820.2,
-      "text": "und rund umströmen,"
-    },
-    {
-      "i": 704,
-      "start": 1820.2,
-      "end": 1821.2,
-      "text": "wie in Regen tropfen,"
-    },
-    {
-      "i": 705,
-      "start": 1821.2,
-      "end": 1822.2,
-      "text": "noch ein Lauf,"
-    },
-    {
-      "i": 706,
-      "start": 1822.2,
-      "end": 1824.2,
-      "text": "die schön hinteren."
-    },
-    {
-      "i": 707,
-      "start": 1824.2,
-      "end": 1826.46,
+      "i": 678,
+      "start": 1823.53,
+      "end": 1826.18,
       "text": "Im Idealfall"
     },
     {
-      "i": 708,
-      "start": 1826.46,
-      "end": 1828.46,
-      "text": "hat das Gurtzück hin,"
+      "i": 679,
+      "start": 1826.18,
+      "end": 1828.33,
+      "text": "läuft das Gurtzeug hinten"
     },
     {
-      "i": 709,
-      "start": 1828.46,
-      "end": 1830.46,
-      "text": "noch so ein Spitz aus,"
+      "i": 680,
+      "start": 1828.33,
+      "end": 1830.33,
+      "text": "so in die Spitze aus"
     },
     {
-      "i": 710,
-      "start": 1830.46,
-      "end": 1831.46,
-      "text": "und es ist nicht,"
+      "i": 681,
+      "start": 1830.33,
+      "end": 1832.33,
+      "text": "und ist nicht gleich scharfkantig,"
     },
     {
-      "i": 711,
-      "start": 1831.46,
-      "end": 1832.46,
-      "text": "es gibt Schafkantig,"
+      "i": 682,
+      "start": 1832.33,
+      "end": 1834.33,
+      "text": "wo die Strömung abrisst, sondern"
     },
     {
-      "i": 712,
-      "start": 1832.46,
-      "end": 1833.46,
-      "text": "wo die Strömung abrist,"
+      "i": 683,
+      "start": 1834.33,
+      "end": 1836.33,
+      "text": "läuft wirklich in den Schlitz"
     },
     {
-      "i": 713,
-      "start": 1833.46,
-      "end": 1834.46,
-      "text": "sondern läuft wirklich"
+      "i": 684,
+      "start": 1836.33,
+      "end": 1838.33,
+      "text": "oder in der Spitze hinterher aus"
     },
     {
-      "i": 714,
-      "start": 1834.46,
-      "end": 1835.46,
-      "text": "in die Schlitz,"
+      "i": 685,
+      "start": 1838.33,
+      "end": 1840.41,
+      "text": "und geht dann hinten wieder zusammen,"
     },
     {
-      "i": 715,
-      "start": 1835.46,
-      "end": 1837.46,
-      "text": "oder in der Spitzhinder aus,"
+      "i": 686,
+      "start": 1840.41,
+      "end": 1842.41,
+      "text": "sodass hier hinten möglichst wenig"
     },
     {
-      "i": 716,
-      "start": 1837.46,
-      "end": 1838.46,
-      "text": "und geht dann,"
+      "i": 687,
+      "start": 1842.41,
+      "end": 1844.41,
+      "text": "Verwirbelungen stattfinden."
     },
     {
-      "i": 717,
-      "start": 1838.46,
-      "end": 1839.46,
-      "text": "ja,"
+      "i": 688,
+      "start": 1844.41,
+      "end": 1846.41,
+      "text": "Und so kann man eben auch hier"
     },
     {
-      "i": 718,
-      "start": 1839.46,
-      "end": 1840.46,
-      "text": "hinten wieder zusammen."
+      "i": 689,
+      "start": 1846.41,
+      "end": 1848.41,
+      "text": "noch das Maximum herausholen."
     },
     {
-      "i": 719,
-      "start": 1840.46,
-      "end": 1841.46,
-      "text": "So, dass da hinten"
+      "i": 690,
+      "start": 1848.41,
+      "end": 1850.41,
+      "text": "Also, der Beisack ist nicht nur,"
     },
     {
-      "i": 720,
-      "start": 1841.46,
-      "end": 1843.46,
-      "text": "möglichst wenig verwirrpligen,"
+      "i": 691,
+      "start": 1850.41,
+      "end": 1852.41,
+      "text": "dass es schön bequem ist und auch warm"
     },
     {
-      "i": 721,
-      "start": 1843.46,
-      "end": 1844.46,
-      "text": "stattfindet."
+      "i": 692,
+      "start": 1852.41,
+      "end": 1854.41,
+      "text": "gibt, es ist wirklich auch"
     },
     {
-      "i": 722,
-      "start": 1844.46,
-      "end": 1846.46,
-      "text": "Und so kann man auch"
+      "i": 693,
+      "start": 1854.41,
+      "end": 1856.41,
+      "text": "aerodynamisch ein ziemlich grosser"
     },
     {
-      "i": 723,
-      "start": 1846.46,
-      "end": 1847.46,
-      "text": "das Maximum auszuholen."
+      "i": 694,
+      "start": 1856.41,
+      "end": 1859.0,
+      "text": "Unterschied, aber auch wieder"
     },
     {
-      "i": 724,
-      "start": 1847.46,
-      "end": 1848.46,
-      "text": "Also dabei sagt,"
+      "i": 695,
+      "start": 1859.0,
+      "end": 1861.78,
+      "text": "anspruchsvoller zum Fliegen."
     },
     {
-      "i": 725,
-      "start": 1848.46,
-      "end": 1849.46,
-      "text": "es ist nicht nur,"
+      "i": 696,
+      "start": 1861.78,
+      "end": 1863.83,
+      "text": "Dann kommen wir jetzt zur Begriffserklärung."
     },
     {
-      "i": 726,
-      "start": 1849.46,
-      "end": 1851.46,
-      "text": "weil es einfach extrem bequem ist,"
+      "i": 697,
+      "start": 1863.83,
+      "end": 1865.83,
+      "text": "Als erstes reden wir"
     },
     {
-      "i": 727,
-      "start": 1851.46,
-      "end": 1852.46,
-      "text": "und auch warm gibt."
+      "i": 698,
+      "start": 1865.83,
+      "end": 1867.83,
+      "text": "über die Spannweite"
     },
     {
-      "i": 728,
-      "start": 1852.46,
-      "end": 1854.46,
-      "text": "Es ist wirklich auch eradynamisch,"
+      "i": 699,
+      "start": 1867.83,
+      "end": 1869.83,
+      "text": "und wichtig ist noch zu wissen, dass"
     },
     {
-      "i": 729,
-      "start": 1854.46,
-      "end": 1856.46,
-      "text": "ein ziemlich grosses Unterschied."
+      "i": 700,
+      "start": 1869.83,
+      "end": 1872.38,
+      "text": "alle diese"
     },
     {
-      "i": 730,
-      "start": 1856.46,
-      "end": 1858.68,
-      "text": "Aber auch wieder,"
+      "i": 701,
+      "start": 1872.38,
+      "end": 1874.38,
+      "text": "Masse, die wir hier oben"
     },
     {
-      "i": 731,
-      "start": 1858.68,
-      "end": 1861.1,
-      "text": "anspruchsvoller zum Flügen."
+      "i": 702,
+      "start": 1874.38,
+      "end": 1876.38,
+      "text": "sprechen, gibt es beim Gleitschirm"
     },
     {
-      "i": 732,
-      "start": 1861.1,
-      "end": 1863.1,
-      "text": "Da kann man jetzt der Begriff sehr klärig."
+      "i": 703,
+      "start": 1876.38,
+      "end": 1878.38,
+      "text": "immer ausgelegt und projiziert."
     },
     {
-      "i": 733,
-      "start": 1863.1,
-      "end": 1867.1,
-      "text": "Als Erstes redet man über die Spanweite,"
+      "i": 704,
+      "start": 1878.38,
+      "end": 1880.38,
+      "text": "Weil ausgelegt ist auch ein"
     },
     {
-      "i": 734,
-      "start": 1867.1,
-      "end": 1869.1,
-      "text": "und wichtig ist noch zu wissen,"
+      "i": 705,
+      "start": 1880.38,
+      "end": 1882.38,
+      "text": "Schirm ja viel grösser, wie"
     },
     {
-      "i": 735,
-      "start": 1869.1,
-      "end": 1872.1,
-      "text": "dass alle, die Mass,"
-    },
-    {
-      "i": 736,
-      "start": 1872.1,
-      "end": 1874.1,
-      "text": "die man jetzt da besprechen,"
-    },
-    {
-      "i": 737,
-      "start": 1874.1,
-      "end": 1876.1,
-      "text": "gibt es beim Kleidschirm immer"
-    },
-    {
-      "i": 738,
-      "start": 1876.1,
-      "end": 1878.1,
-      "text": "ausgeleitet und projiziert."
-    },
-    {
-      "i": 739,
-      "start": 1878.1,
-      "end": 1880.1,
-      "text": "Weil ausgeleitet,"
-    },
-    {
-      "i": 740,
-      "start": 1880.1,
-      "end": 1881.1,
-      "text": "ist auch ein Schirm,"
-    },
-    {
-      "i": 741,
-      "start": 1881.1,
-      "end": 1882.1,
-      "text": "ja, viel grösser,"
-    },
-    {
-      "i": 742,
-      "start": 1882.1,
-      "end": 1883.1,
-      "text": "wie nachher,"
-    },
-    {
-      "i": 743,
-      "start": 1883.1,
-      "end": 1884.1,
+      "i": 706,
+      "start": 1882.38,
+      "end": 1884.38,
       "text": "wenn er in der Luft ist."
     },
     {
+      "i": 707,
+      "start": 1884.38,
+      "end": 1886.38,
+      "text": "Also, die äussersten beiden Punkte"
+    },
+    {
+      "i": 708,
+      "start": 1886.38,
+      "end": 1888.38,
+      "text": "gemessen sind in der Luft etwas kleiner,"
+    },
+    {
+      "i": 709,
+      "start": 1888.38,
+      "end": 1890.38,
+      "text": "als wenn der Schirm flach am Boden liegt."
+    },
+    {
+      "i": 710,
+      "start": 1890.38,
+      "end": 1892.38,
+      "text": "Und das, was schlussendlich aerodynamisch"
+    },
+    {
+      "i": 711,
+      "start": 1892.38,
+      "end": 1894.38,
+      "text": "interessant ist und diese Fläche,"
+    },
+    {
+      "i": 712,
+      "start": 1894.38,
+      "end": 1896.58,
+      "text": "die wir in der Luft gemessen"
+    },
+    {
+      "i": 713,
+      "start": 1896.58,
+      "end": 1898.58,
+      "text": "über dem Kopf haben und Auftrieb"
+    },
+    {
+      "i": 714,
+      "start": 1898.58,
+      "end": 1900.58,
+      "text": "erzeugt, ist immer die projizierte"
+    },
+    {
+      "i": 715,
+      "start": 1900.58,
+      "end": 1902.76,
+      "text": "Fläche. Aber da"
+    },
+    {
+      "i": 716,
+      "start": 1902.76,
+      "end": 1904.76,
+      "text": "muss man manchmal aufpassen,"
+    },
+    {
+      "i": 717,
+      "start": 1904.76,
+      "end": 1906.76,
+      "text": "dass man vom Gleichen spricht, wenn man"
+    },
+    {
+      "i": 718,
+      "start": 1906.76,
+      "end": 1908.76,
+      "text": "sagt, ah ja, hast du den 20m²"
+    },
+    {
+      "i": 719,
+      "start": 1908.76,
+      "end": 1910.76,
+      "text": "und der andere"
+    },
+    {
+      "i": 720,
+      "start": 1910.76,
+      "end": 1912.76,
+      "text": "sagt, nein, der 18er und wenn es eben nicht"
+    },
+    {
+      "i": 721,
+      "start": 1912.76,
+      "end": 1914.76,
+      "text": "von der gleichen Masse spricht,"
+    },
+    {
+      "i": 722,
+      "start": 1914.76,
+      "end": 1916.81,
+      "text": "dann ist es unter Umständen"
+    },
+    {
+      "i": 723,
+      "start": 1916.81,
+      "end": 1918.81,
+      "text": "eben gleich der Gleichschirm."
+    },
+    {
+      "i": 724,
+      "start": 1918.81,
+      "end": 1921.37,
+      "text": "Weil der eine von der ausgelegten"
+    },
+    {
+      "i": 725,
+      "start": 1921.37,
+      "end": 1923.37,
+      "text": "Spannweite oder Fläche und der andere"
+    },
+    {
+      "i": 726,
+      "start": 1923.37,
+      "end": 1925.37,
+      "text": "von der projizierten spricht."
+    },
+    {
+      "i": 727,
+      "start": 1925.37,
+      "end": 1927.37,
+      "text": "Dann sind wir hier bei der Flügeltiefe."
+    },
+    {
+      "i": 728,
+      "start": 1927.37,
+      "end": 1929.7,
+      "text": "Hier spricht man eigentlich immer von"
+    },
+    {
+      "i": 729,
+      "start": 1929.7,
+      "end": 1931.7,
+      "text": "der mittleren Flügeltiefe, weil"
+    },
+    {
+      "i": 730,
+      "start": 1931.7,
+      "end": 1933.7,
+      "text": "die Flügeltiefe beim Stabilo hier"
+    },
+    {
+      "i": 731,
+      "start": 1933.7,
+      "end": 1935.7,
+      "text": "ist ja viel minimaler"
+    },
+    {
+      "i": 732,
+      "start": 1935.7,
+      "end": 1937.7,
+      "text": "als in der Mitte und darum"
+    },
+    {
+      "i": 733,
+      "start": 1937.7,
+      "end": 1939.7,
+      "text": "berechnet man dort einen Durchschnitt"
+    },
+    {
+      "i": 734,
+      "start": 1939.7,
+      "end": 1941.7,
+      "text": "und spricht dann eigentlich von dieser"
+    },
+    {
+      "i": 735,
+      "start": 1941.7,
+      "end": 1944.65,
+      "text": "mittleren Flügeltiefe."
+    },
+    {
+      "i": 736,
+      "start": 1944.65,
+      "end": 1946.65,
+      "text": "Die Flügeltiefe ist eben da,"
+    },
+    {
+      "i": 737,
+      "start": 1946.65,
+      "end": 1948.65,
+      "text": "die einen Schirm schlussendlich effizienter"
+    },
+    {
+      "i": 738,
+      "start": 1948.65,
+      "end": 1950.65,
+      "text": "macht, weil, wie wir gesehen haben,"
+    },
+    {
+      "i": 739,
+      "start": 1950.65,
+      "end": 1952.65,
+      "text": "ist ja der induzierte Widerstand der"
+    },
+    {
+      "i": 740,
+      "start": 1952.65,
+      "end": 1954.65,
+      "text": "grösste Widerstand und mit der Strecke"
+    },
+    {
+      "i": 741,
+      "start": 1954.65,
+      "end": 1956.65,
+      "text": "kann man eben den etwas runterholen."
+    },
+    {
+      "i": 742,
+      "start": 1956.65,
+      "end": 1959.37,
+      "text": "Das ist das Verhältnis von der Spannweite"
+    },
+    {
+      "i": 743,
+      "start": 1959.37,
+      "end": 1961.45,
+      "text": "zu der mittleren Flügeltiefe."
+    },
+    {
       "i": 744,
-      "start": 1884.1,
-      "end": 1885.1,
-      "text": "Also die äußersten beiden"
+      "start": 1961.45,
+      "end": 1963.56,
+      "text": "Die mittlere Flügeltiefe kann man"
     },
     {
       "i": 745,
-      "start": 1885.1,
-      "end": 1886.1,
-      "text": "Punkten,"
+      "start": 1963.56,
+      "end": 1965.56,
+      "text": "nicht einfach heraus messen, da ist"
     },
     {
       "i": 746,
-      "start": 1886.1,
-      "end": 1887.1,
-      "text": "sind in der Luft,"
+      "start": 1965.56,
+      "end": 1967.56,
+      "text": "ein Wert, der vom Hersteller her"
     },
     {
       "i": 747,
-      "start": 1887.1,
-      "end": 1888.1,
-      "text": "ein bisschen kleiner,"
+      "start": 1967.56,
+      "end": 1969.56,
+      "text": "gegeben ist. Man kann, wenn ihr"
     },
     {
       "i": 748,
-      "start": 1888.1,
-      "end": 1891.1,
-      "text": "und da war es,"
+      "start": 1969.56,
+      "end": 1971.56,
+      "text": "hier den Bruch anschaut, obendrauf"
     },
     {
       "i": 749,
-      "start": 1891.1,
-      "end": 1892.1,
-      "text": "erodynamisch,"
+      "start": 1971.56,
+      "end": 1973.56,
+      "text": "Spannweite geteilt durch"
     },
     {
       "i": 750,
-      "start": 1892.1,
-      "end": 1893.1,
-      "text": "interessant ist,"
+      "start": 1973.56,
+      "end": 1975.56,
+      "text": "Flügeltiefe, Durchschnitt,"
     },
     {
       "i": 751,
-      "start": 1893.1,
-      "end": 1894.1,
-      "text": "und die Fläche,"
+      "start": 1975.56,
+      "end": 1978.22,
+      "text": "kann man den Bruch eben auch"
     },
     {
       "i": 752,
-      "start": 1894.1,
-      "end": 1895.1,
-      "text": "wo er in der Luft"
+      "start": 1978.22,
+      "end": 1980.22,
+      "text": "erweitern mit Spannweite oben,"
     },
     {
       "i": 753,
-      "start": 1895.1,
-      "end": 1896.1,
-      "text": "gemessen,"
+      "start": 1980.22,
+      "end": 1982.22,
+      "text": "Spannweite unten und dann"
     },
     {
       "i": 754,
-      "start": 1896.1,
-      "end": 1897.1,
-      "text": "über dem Kopf,"
+      "start": 1982.22,
+      "end": 1984.22,
+      "text": "gibt es unten daran Spannweite"
     },
     {
       "i": 755,
-      "start": 1897.1,
-      "end": 1899.1,
-      "text": "und auftreibert,"
+      "start": 1984.22,
+      "end": 1986.22,
+      "text": "im Quadrat geteilt durch Fläche."
     },
     {
       "i": 756,
-      "start": 1899.1,
-      "end": 1901.1,
-      "text": "ist immer die projiziert Fläche."
+      "start": 1986.22,
+      "end": 1988.22,
+      "text": "Also entweder Spannweite"
     },
     {
       "i": 757,
-      "start": 1901.1,
-      "end": 1902.1,
-      "text": "Aber da,"
+      "start": 1988.22,
+      "end": 1990.22,
+      "text": "geteilt durch mittlere Flügeltiefe"
     },
     {
       "i": 758,
-      "start": 1902.1,
-      "end": 1903.1,
-      "text": "da man manchmal,"
+      "start": 1990.22,
+      "end": 1992.22,
+      "text": "oder Spannweite"
     },
     {
       "i": 759,
-      "start": 1903.1,
-      "end": 1904.1,
-      "text": "muss man aufpassen,"
+      "start": 1992.22,
+      "end": 1994.22,
+      "text": "im Quadrat geteilt durch Fläche."
     },
     {
       "i": 760,
-      "start": 1904.1,
-      "end": 1906.1,
-      "text": "dass man vom gleichen Rett,"
+      "start": 1994.22,
+      "end": 1996.22,
+      "text": "Gibt dann den gleichen Betrag"
     },
     {
       "i": 761,
-      "start": 1906.1,
-      "end": 1907.1,
-      "text": "wenn man sagt,"
+      "start": 1996.22,
+      "end": 1998.22,
+      "text": "unter dem Strich und da ist dann eure"
     },
     {
       "i": 762,
-      "start": 1907.1,
-      "end": 1909.1,
-      "text": "ja, hast du 20 Quadratmeter,"
+      "start": 1998.22,
+      "end": 2003.3,
+      "text": "Streckung, die der Schirm hat."
     },
     {
       "i": 763,
-      "start": 1909.1,
-      "end": 1911.1,
-      "text": "und dann sagt man,"
+      "start": 2003.3,
+      "end": 2005.3,
+      "text": "Hier nochmal schnell die Erklärung, also"
     },
     {
       "i": 764,
-      "start": 1911.1,
-      "end": 1912.1,
-      "text": "ja, der 18er,"
+      "start": 2005.3,
+      "end": 2007.35,
+      "text": "projizierte Fläche ist"
     },
     {
       "i": 765,
-      "start": 1912.1,
-      "end": 1914.1,
-      "text": "und wenn sie nicht von der gleichen Mass redet,"
+      "start": 2007.35,
+      "end": 2009.35,
+      "text": "so übertrieben gesagt, wie wenn"
     },
     {
       "i": 766,
-      "start": 1914.1,
-      "end": 1915.1,
-      "text": "oder von der gleichen,"
+      "start": 2009.35,
+      "end": 2011.35,
+      "text": "jemand mit einer Lampenfolge zünden würde"
     },
     {
       "i": 767,
-      "start": 1915.1,
-      "end": 1916.1,
-      "text": "ja,"
+      "start": 2011.35,
+      "end": 2013.35,
+      "text": "oder noch besser zünden würde,"
     },
     {
       "i": 768,
-      "start": 1916.1,
-      "end": 1918.1,
-      "text": "dann ist es unter Umständen,"
+      "start": 2013.35,
+      "end": 2015.35,
+      "text": "die natürlich viel, viel weiter entfernt ist,"
     },
     {
       "i": 769,
-      "start": 1918.1,
-      "end": 1919.1,
-      "text": "dann begleitet der,"
+      "start": 2015.35,
+      "end": 2017.35,
+      "text": "wenn man jetzt gleich am Landeplatz"
     },
     {
       "i": 770,
-      "start": 1919.1,
-      "end": 1920.32,
-      "text": "der gleiche Schirm,"
+      "start": 2017.35,
+      "end": 2019.35,
+      "text": "zum Beispiel am Händler ist, wo man dann"
     },
     {
       "i": 771,
-      "start": 1920.32,
-      "end": 1922.32,
-      "text": "weil der ein der Ausgleichen,"
+      "start": 2019.35,
+      "end": 2021.35,
+      "text": "schauen kann, wie gross ist der Schatten."
     },
     {
       "i": 772,
-      "start": 1922.32,
-      "end": 1923.32,
-      "text": "Spanweite oder Fläche"
+      "start": 2021.35,
+      "end": 2023.35,
+      "text": "Da wäre dann ungefähr so die projizierte"
     },
     {
       "i": 773,
-      "start": 1923.32,
-      "end": 1925.32,
-      "text": "und dann der projizierte Rett."
-    },
-    {
-      "i": 774,
-      "start": 1925.32,
-      "end": 1927.32,
-      "text": "Jetzt sind wir da bei der Flügeltüfe."
-    },
-    {
-      "i": 775,
-      "start": 1927.32,
-      "end": 1929.32,
-      "text": "Da redt man eigentlich immer"
-    },
-    {
-      "i": 776,
-      "start": 1929.32,
-      "end": 1931.32,
-      "text": "von der mittleren Flügeltüfe,"
-    },
-    {
-      "i": 777,
-      "start": 1931.32,
-      "end": 1933.32,
-      "text": "weil die Flügeltüfe beim Stabilausset"
-    },
-    {
-      "i": 778,
-      "start": 1933.32,
-      "end": 1934.32,
-      "text": "oder beim Öl,"
-    },
-    {
-      "i": 779,
-      "start": 1934.32,
-      "end": 1936.32,
-      "text": "ist schon viel minimer wie der Mitte."
-    },
-    {
-      "i": 780,
-      "start": 1936.32,
-      "end": 1937.32,
-      "text": "Und darum"
-    },
-    {
-      "i": 781,
-      "start": 1937.32,
-      "end": 1939.32,
-      "text": "durch den Durchschnittbereich"
-    },
-    {
-      "i": 782,
-      "start": 1939.32,
-      "end": 1940.32,
-      "text": "und redet den eigentlich"
-    },
-    {
-      "i": 783,
-      "start": 1940.32,
-      "end": 1942.32,
-      "text": "von der mittleren Flügeltüfe."
-    },
-    {
-      "i": 784,
-      "start": 1942.32,
-      "end": 1944.9,
-      "text": "Und Strecke,"
-    },
-    {
-      "i": 785,
-      "start": 1944.9,
-      "end": 1945.9,
-      "text": "ist eben da,"
-    },
-    {
-      "i": 786,
-      "start": 1945.9,
-      "end": 1946.9,
-      "text": "wo eigentlich ein Schirm,"
-    },
-    {
-      "i": 787,
-      "start": 1946.9,
-      "end": 1948.9,
-      "text": "den schlussendlich effizienter macht,"
-    },
-    {
-      "i": 788,
-      "start": 1948.9,
-      "end": 1949.9,
-      "text": "weil,"
-    },
-    {
-      "i": 789,
-      "start": 1949.9,
-      "end": 1950.9,
-      "text": "wie man gesehen ist,"
-    },
-    {
-      "i": 790,
-      "start": 1950.9,
-      "end": 1951.9,
-      "text": "der induziert wiederstand,"
-    },
-    {
-      "i": 791,
-      "start": 1951.9,
-      "end": 1952.9,
-      "text": "der größte wiederstand,"
-    },
-    {
-      "i": 792,
-      "start": 1952.9,
-      "end": 1953.9,
-      "text": "und mit der Strecke"
-    },
-    {
-      "i": 793,
-      "start": 1953.9,
-      "end": 1954.9,
-      "text": "kann man aber da eigentlich,"
-    },
-    {
-      "i": 794,
-      "start": 1954.9,
-      "end": 1955.9,
-      "text": "aber holen,"
-    },
-    {
-      "i": 795,
-      "start": 1955.9,
-      "end": 1956.9,
-      "text": "da ist Verhältnis"
-    },
-    {
-      "i": 796,
-      "start": 1956.9,
-      "end": 1957.9,
-      "text": "von der Spanweite"
-    },
-    {
-      "i": 797,
-      "start": 1957.9,
-      "end": 1960.25,
-      "text": "zu den mittleren Flügeltüfe."
-    },
-    {
-      "i": 798,
-      "start": 1960.25,
-      "end": 1962.25,
-      "text": "Jetzt die mittleren Flügeltüfe,"
-    },
-    {
-      "i": 799,
-      "start": 1962.25,
-      "end": 1964.25,
-      "text": "die kann man nicht einfach aussemessen."
-    },
-    {
-      "i": 800,
-      "start": 1964.25,
-      "end": 1965.25,
-      "text": "Da muss das ein Wert,"
-    },
-    {
-      "i": 801,
-      "start": 1965.25,
-      "end": 1967.25,
-      "text": "der vom Hersteller hergelegt ist."
-    },
-    {
-      "i": 802,
-      "start": 1967.25,
-      "end": 1968.25,
-      "text": "Man kann,"
-    },
-    {
-      "i": 803,
-      "start": 1968.25,
-      "end": 1970.25,
-      "text": "wenn er jetzt da der Bruch auch schaut,"
-    },
-    {
-      "i": 804,
-      "start": 1970.25,
-      "end": 1972.25,
-      "text": "ob der Spanweite"
-    },
-    {
-      "i": 805,
-      "start": 1972.25,
-      "end": 1974.25,
-      "text": "gedeilt durch mittleren Flügeltüfe."
-    },
-    {
-      "i": 806,
-      "start": 1974.25,
-      "end": 1976.25,
-      "text": "Durchschnitt,"
-    },
-    {
-      "i": 807,
-      "start": 1976.25,
-      "end": 1976.29,
-      "text": "kann man der Bruch auch"
-    },
-    {
-      "i": 808,
-      "start": 1976.29,
-      "end": 1978.5,
-      "text": "erweitern,"
-    },
-    {
-      "i": 809,
-      "start": 1978.5,
-      "end": 1980.5,
-      "text": "mit Spanweite oben,"
-    },
-    {
-      "i": 810,
-      "start": 1980.5,
-      "end": 1981.5,
-      "text": "Spanweite unten,"
-    },
-    {
-      "i": 811,
-      "start": 1981.5,
-      "end": 1982.5,
-      "text": "und dann"
-    },
-    {
-      "i": 812,
-      "start": 1982.5,
-      "end": 1984.5,
-      "text": "gibt es unten der Spanweite"
-    },
-    {
-      "i": 813,
-      "start": 1984.5,
-      "end": 1986.5,
-      "text": "im Quadrat gedeilt durch Fläche."
-    },
-    {
-      "i": 814,
-      "start": 1986.5,
-      "end": 1987.5,
-      "text": "Also entweder"
-    },
-    {
-      "i": 815,
-      "start": 1987.5,
-      "end": 1990.5,
-      "text": "Spanweite gedeilt durch mittleren Flügeltüfe"
-    },
-    {
-      "i": 816,
-      "start": 1990.5,
-      "end": 1993.5,
-      "text": "oder Spanweite im Quadrat gedeilt durch Fläche."
-    },
-    {
-      "i": 817,
-      "start": 1993.5,
-      "end": 1994.5,
-      "text": "Gedeilt durch Fläche."
-    },
-    {
-      "i": 818,
-      "start": 1994.5,
-      "end": 1996.5,
-      "text": "Gedeilt durch Fläche."
-    },
-    {
-      "i": 819,
-      "start": 1996.5,
-      "end": 1997.5,
-      "text": "Gedeilt durch Fläche."
-    },
-    {
-      "i": 820,
-      "start": 1997.5,
-      "end": 1998.5,
-      "text": "Gedeilt durch Fläche."
-    },
-    {
-      "i": 821,
-      "start": 1998.5,
-      "end": 2003.22,
-      "text": "Und dann ist es die Strecke."
-    },
-    {
-      "i": 822,
-      "start": 2003.22,
-      "end": 2005.22,
-      "text": "Oder es ist schiumheit."
-    },
-    {
-      "i": 823,
-      "start": 2005.22,
-      "end": 2007.22,
-      "text": "Dann haben wir es auch der Klärung."
-    },
-    {
-      "i": 824,
-      "start": 2007.22,
-      "end": 2008.22,
-      "text": "Das Projezierte Fläche,"
-    },
-    {
-      "i": 825,
-      "start": 2008.22,
-      "end": 2010.22,
-      "text": "wurde sogar über die Treibergeseit"
-    },
-    {
-      "i": 826,
-      "start": 2010.22,
-      "end": 2012.22,
-      "text": "über die Lämter zu üben."
-    },
-    {
-      "i": 827,
-      "start": 2012.22,
-      "end": 2013.22,
-      "text": "Oder bessertzonen."
-    },
-    {
-      "i": 828,
-      "start": 2013.22,
-      "end": 2015.22,
-      "text": "Oder das Projezierte Fläche"
-    },
-    {
-      "i": 829,
-      "start": 2015.22,
-      "end": 2017.22,
-      "text": "wurde natürlich viel weiter im Fertis."
-    },
-    {
-      "i": 830,
-      "start": 2017.22,
-      "end": 2018.22,
-      "text": "Wenn man jetzt nicht im Landenplatz"
-    },
-    {
-      "i": 831,
-      "start": 2018.22,
-      "end": 2019.22,
-      "text": "zum Beispiel im Handel"
-    },
-    {
-      "i": 832,
-      "start": 2019.22,
-      "end": 2021.22,
-      "text": "ist, ob man den Kalogen wiederhaut."
-    },
-    {
-      "i": 833,
-      "start": 2021.22,
-      "end": 2022.22,
-      "text": "Wie groß ist das Schatten."
-    },
-    {
-      "i": 834,
-      "start": 2022.22,
-      "end": 2025.66,
-      "text": "So die projiziertfläche soll dazu erklären."
+      "start": 2023.35,
+      "end": 2025.35,
+      "text": "Fläche, so noch zum Erklären."
     }
   ]
 }

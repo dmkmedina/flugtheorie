@@ -2,153 +2,147 @@
   "slug": "aa_beschleunigt_fliegen",
   "language": "de",
   "duration": 145.5659375,
-  "transcribed_in_sec": 18.5,
-  "model": "base",
+  "transcribed_in_sec": 14.8,
+  "model": "large-v3",
+  "settings": {
+    "device": "cuda",
+    "compute_type": "float16",
+    "beam_size": 10,
+    "initial_prompt_chars": 568,
+    "vad_min_silence_ms": 300
+  },
   "segments": [
     {
       "i": 1,
-      "start": 6.35,
-      "end": 13.79,
-      "text": "Beschleunigt fliegen, beim beschleunigten Flug ist es wichtig, dass er probiert, die Hände"
+      "start": 6.46,
+      "end": 15.59,
+      "text": "Beschleunigt fliegen. Beim beschleunigten Flug ist es wichtig, dass ihr probiert, die Hände ganz oben streck zu halten."
     },
     {
       "i": 2,
-      "start": 13.79,
-      "end": 18.47,
-      "text": "ganz oben steckt zu halten. Ihr dürft auch, wenn ihr wollt, euch so ein bisschen an den"
+      "start": 15.91,
+      "end": 25.67,
+      "text": "Ihr dürft auch, wenn ihr wollt, euch so ein bisschen an den hinteren Tragegurten halten, weil wir können im beschleunigten Flug nur noch mit Gewichtsverlagerung steuern."
     },
     {
       "i": 3,
-      "start": 18.47,
-      "end": 25.07,
-      "text": "Liter von Trage wurden halten, weil wir können im beschleunigten Flug nur noch mit Gewichtsverlagerung"
+      "start": 25.67,
+      "end": 32.07,
+      "text": "Und wenn das eben nicht ausreicht, dann nehmen wir noch einen ganz leichten Zug am hintersten Tragegurt mit."
     },
     {
       "i": 4,
-      "start": 25.07,
-      "end": 30.35,
-      "text": "steuern. Und wenn das eben nicht ausfeicht, dann nehmen wir noch einen ganzen leichten Zug"
+      "start": 32.07,
+      "end": 39.89,
+      "text": "Also das heißt, Beschleuniger richten, oder wie beschleunigt man, wenn er da, so wie ich, gut in die erste Schlaufe reinkommt,"
     },
     {
       "i": 5,
-      "start": 30.35,
-      "end": 34.31,
-      "text": "an die unterste Trage gut mit. Also das heißt, beschleunigen Gerichten oder wie"
+      "start": 40.25,
+      "end": 49.23,
+      "text": "geht er mit der Ferse in diese erste Schlaufe, tretet die ein bisschen so weit, dass er mit dem zweiten Fuß auf die nächste Stufe zurücksteigen könnte"
     },
     {
       "i": 6,
-      "start": 34.31,
-      "end": 40.39,
-      "text": "beschleunigt man. Wenn er da so wie ich gut in die erste Schlauerei kommt, geht"
+      "start": 49.23,
+      "end": 54.41,
+      "text": "und dann den zweiten Fuß ebenfalls auf diese Stufe zurück holen."
     },
     {
       "i": 7,
-      "start": 40.39,
-      "end": 45.91,
-      "text": "damit der Fährse in diese erste Schlaufe, drehtet ihr ein bisschen soweit, dass er mit den"
+      "start": 54.41,
+      "end": 60.09,
+      "text": "Ihr seht, ich habe da so einen flexiblen, das haben die meisten von euch, wenn ihr Stange habt, geht das ein bisschen einfacher."
     },
     {
       "i": 8,
-      "start": 45.91,
-      "end": 50.99,
-      "text": "zweiten Fuß auf die nächste Stufe zurücksteigen könnt und dann den zweiten Fuß"
+      "start": 60.09,
+      "end": 68.62,
+      "text": "Ja, dann suchen wir so ein bisschen die Symmetrie mit den Füßen und dann drücken wir den Beschleuniger ganz langsam voll hoch."
     },
     {
       "i": 9,
-      "start": 50.99,
-      "end": 56.87,
-      "text": "ebenfalls auf diese Stufe zurückkommt. Ihr seht, ich habe das in den Flexiblen, das haben die meisten"
+      "start": 68.62,
+      "end": 78.14,
+      "text": "Und im Idealfall ist dann der Beschleuniger, so wie hier rechts, Rolle über Rolle drüber oder zumindest Rolle auf Rolle drauf."
     },
     {
       "i": 10,
-      "start": 56.87,
-      "end": 61.67,
-      "text": "von euch, wenn der Stange hat, geht das ein bisschen einfacher. Ja, dann suchen wir so ein"
+      "start": 78.14,
+      "end": 82.94,
+      "text": "Hier links seht ihr, haben wir noch ein bisschen Distanz zwischen den einzelnen Rollen."
     },
     {
       "i": 11,
-      "start": 61.67,
-      "end": 67.58,
-      "text": "bisschen diese Metrie mit den Füßen und dann drücken wir den Beschleuniger ganz langsam"
+      "start": 82.94,
+      "end": 87.58,
+      "text": "Ist jetzt nicht viel, das kommt halt dadurch, dass wir da eine gewisse Asymmetrie drinnen haben."
     },
     {
       "i": 12,
-      "start": 67.58,
-      "end": 71.62,
-      "text": "folgen. Und im Idealfall ist dann der Beschleuniger, so wie hier rechts, rolle, über"
+      "start": 87.58,
+      "end": 91.16,
+      "text": "Wenn ich die Beine weiter rausnehme, dann seht ihr, haben wir da,"
     },
     {
       "i": 13,
-      "start": 71.62,
-      "end": 79.5,
-      "text": "rolle drüber oder zumindest rolle auf, rolle drauf. Hier links"
+      "start": 91.18,
+      "end": 93.74,
+      "text": "Symmetrie und die Rollen wirken garantiert."
     },
     {
       "i": 14,
-      "start": 79.5,
-      "end": 83.06,
-      "text": "da haben ein bisschen Distanz zwischen den einzelnen Rollen."
+      "start": 93.74,
+      "end": 99.58,
+      "text": "Das wäre voll beschleunigt und jetzt ist wichtig, steuern nur noch mit Gewichtsverlagerung."
     },
     {
       "i": 15,
-      "start": 83.06,
-      "end": 87.34,
-      "text": "Jetzt sind viel das Gründigkeit dadurch, dass wir dann der Geräse Asimmetrie drinnen haben,"
+      "start": 99.58,
+      "end": 104.54,
+      "text": "Ja, wenn das nicht ausreicht, dann dürfen wir ganz leicht am hinteren Tragerohr ziehen."
     },
     {
       "i": 16,
-      "start": 87.34,
-      "end": 92.98,
-      "text": "wenn ich die Beine weiter rausnehme, dann seht ihr, da haben wir da Symmetrie und die Rollen"
+      "start": 104.54,
+      "end": 111.5,
+      "text": "Also ein Zentimeter, höchstens zwei, also da haben wir wenig Arbeitsbereich."
     },
     {
       "i": 17,
-      "start": 92.98,
-      "end": 98.06,
-      "text": "bequeren. Das wäre voll beschleunigt und jetzt ist wichtig, steuern nur noch mit"
+      "start": 111.5,
+      "end": 118.55,
+      "text": "Gut, Beschleuniger ausleiten, einfach neutral hinsetzen oder wenn wir eine Kurve machen auf die andere Seite,"
     },
     {
       "i": 18,
-      "start": 98.06,
-      "end": 102.9,
-      "text": "Gewichtsverlagerung, wenn das nicht ausreift, dann dürfen wir ganz leicht am"
+      "start": 118.55,
+      "end": 122.89,
+      "text": "machen wir die zuerst fertig und dann neutral hinsetzen."
     },
     {
       "i": 19,
-      "start": 102.9,
-      "end": 110.14,
-      "text": "hindern Trage so ziehen. Also ein Zentimeter, rückstens zwei, also da mal wenig Arbeitsverleicht."
+      "start": 122.89,
+      "end": 127.05,
+      "text": "Und langsam zurück aus dem Beschleuniger gehen."
     },
     {
       "i": 20,
-      "start": 110.86,
-      "end": 117.51,
-      "text": "Gut, Beschleuniger ausleiten, einfach neutral hinsetzen oder wenn wir eine Kurve machen"
+      "start": 127.05,
+      "end": 133.96,
+      "text": "Die letzten paar Zentimeter könnt ihr dann von mir aus ausspicken lassen."
     },
     {
       "i": 21,
-      "start": 117.51,
-      "end": 123.87,
-      "text": "auf die anderen Seite, machen wir die zuerst fertig und dann neutral hinsetzen. Und langsam"
+      "start": 133.96,
+      "end": 140.63,
+      "text": "Wichtig ist, während dem beschleunigten Flug dürft ihr nicht mit der Bremse steuern."
     },
     {
       "i": 22,
-      "start": 123.87,
-      "end": 130.29,
-      "text": "zurück aus dem Beschleuniger. Die letzten Trage, Zentimeter, Gründerinnen, von"
-    },
-    {
-      "i": 23,
-      "start": 130.29,
-      "end": 138.32,
-      "text": "wir so ausspicken was. Wichtig ist, während dem Beschleunigen Flug ist die nicht mit der"
-    },
-    {
-      "i": 24,
-      "start": 138.32,
-      "end": 144.82,
-      "text": "Grenze steuern. Die Erklärung kommt nachher bei der Grenzstelle."
+      "start": 140.63,
+      "end": 145.18,
+      "text": "Die Erklärung kommt nachher bei der Bremsstiftung."
     }
-  ],
-  "source_file": "air_active_videos.json"
+  ]
 }

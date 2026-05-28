@@ -2,2454 +2,2612 @@
   "slug": "materialkunde_0",
   "language": "de",
   "duration": 995.0506875,
-  "transcribed_in_sec": 1113.7,
-  "model": "medium",
+  "transcribed_in_sec": 146.1,
+  "model": "large-v3",
   "settings": {
+    "device": "cuda",
+    "compute_type": "float16",
     "beam_size": 10,
-    "initial_prompt_chars": 545,
+    "initial_prompt_chars": 568,
     "vad_min_silence_ms": 300
   },
   "segments": [
     {
       "i": 1,
       "start": 5.02,
-      "end": 11.42,
-      "text": "Hoi, ich bin der Sam von der Flüge Wings und wir schauen heute zusammen, dass das Thema Material kommt."
+      "end": 11.2,
+      "text": "Hallo zusammen, ich bin Sam von der Flugstelle Free Wings und wir schauen heute zusammen das Thema Materialkunde an."
     },
     {
       "i": 2,
-      "start": 11.42,
-      "end": 21.7,
-      "text": "Es ist ein Thema, das Sie vielleicht schon etwas angeschaut haben im Theorie-Büchlein und auch schon Theorie-Fragen angeschaut haben und es sind relativ viele Fachbegriffe, Fremdwörter im Spiel."
+      "start": 11.7,
+      "end": 21.48,
+      "text": "Es ist ein Thema, das ihr vielleicht schon ein bisschen angeschaut habt im Theoriebuch oder auch schon Theoriefragen angeschaut habt und es sind relativ viele Fachbegriffe, Fremdwörter im Spiel."
     },
     {
       "i": 3,
-      "start": 21.7,
-      "end": 31.65,
-      "text": "Das sind Sachen, die man auswendig lernen muss, aber wir versuchen heute, all dem Ganze ein bisschen ins Gesicht zu geben, damit Sie hier einen Bezug haben und es einfacher zu lernen wird."
+      "start": 21.94,
+      "end": 31.04,
+      "text": "Das sind Sachen, die man einerseits ein bisschen auswendig lernen muss, aber wir versuchen heute all dem Ganze ein bisschen ins Gesicht zu geben, damit ihr hier einen Bezug habt und es so einfacher zu lernen wird."
     },
     {
       "i": 4,
-      "start": 31.81,
-      "end": 46.38,
-      "text": "Was wir heute anschauen, ist, was gibt es überhaupt für Fluggeräte, dass Sie hier einen Hintergrund erfahren, wo es verschiedene Flug-Gleitschirme gibt, wo man auch verschiedene Sachen damit machen kann,"
+      "start": 31.04,
+      "end": 49.77,
+      "text": "Was wir heute anschauen, ist, dass wir mal schauen, was es überhaupt für Fluggeräte gibt, dass ihr hier einen Hintergrund erfahrt, wo es verschiedene Flug-Gleitschirme gibt, wo man auch verschiedene Sachen damit machen kann, das von hier beim Akrobatik-Gleitschirm bis zum Schulschirm."
     },
     {
       "i": 5,
-      "start": 46.38,
-      "end": 50.38,
-      "text": "z.B. das hier beim Akrobatik-Gleitschirm bis zum Schuhell-Schirm."
+      "start": 50.49,
+      "end": 61.29,
+      "text": "Wieso es überhaupt ein Gleitschirm aufgebaut ist, vom Material her schauen wir an, wir schauen die Kurzung an, wir schauen die Notschirme an und wir schauen die Materialien dafür spezifisch."
     },
     {
       "i": 6,
-      "start": 50.38,
-      "end": 63.67,
-      "text": "Wie sobald der Gleitschirm aufgebaut ist, vom Material her schauen wir an, wir schauen die Kurzung an, wir schauen die Nordschirm an und wir schauen die Materialien hier dafür spezifisch an, ganz speziell auch die Gleitschirm-Linen,"
+      "start": 61.39,
+      "end": 68.35,
+      "text": "Wir schauen ganz speziell auch die Leitschirmleine, weil dort noch richtig wichtig ist, dass man ein bisschen wissen kann, wie sich das Ganze verhalten tut."
     },
     {
       "i": 7,
-      "start": 63.67,
-      "end": 69.33,
-      "text": "weil dort noch relativ wichtig ist, dass wir ein bisschen wissen, wie das Ganze sich verhalten tut."
+      "start": 69.44,
+      "end": 86.54,
+      "text": "Wenn wir die Leitschirmkategorien anschauen, haben wir einerseits den Schulschirm, das ist jetzt dieses Bild ganz im linken Ecken oben, der weiß-rote, da sehen wir schon, das ist ein einfacher Schirm gebaut, der ist jetzt nicht wahnsinnig fest gestreckt, sondern eigentlich wirkt relativ kompakt."
     },
     {
       "i": 8,
-      "start": 69.61,
-      "end": 82.62,
-      "text": "Wenn wir die Gleitschirm-Kategorien anschauen, haben wir einerseits den Schuhell-Schirm, das ist jetzt hier das Bild ganz im linken Eck, der weiss-rote, da sehen wir schon, das ist ein einfacher Schirm gebaut,"
+      "start": 87.14,
+      "end": 91.86,
+      "text": "Und der grosse Unterschied zu einem Schulschirm und einem Wettkampfschirm,"
     },
     {
       "i": 9,
-      "start": 82.62,
-      "end": 95.74,
-      "text": "der ist jetzt nicht wahnsinnig fest gestreckt, sondern er ist relativ kompakt und der Unterschied zum Schuhell-Schirm und einem Wettkampf-Schirm ist, dass ein Schuhell-Schirm gebaut ist,"
+      "start": 91.86,
+      "end": 91.88,
+      "text": "wie man den mitten schlägt, ist, dass der Schirm nicht so sehr fest gestreckt ist, sondern er wirkt relativ kompakt."
     },
     {
       "i": 10,
-      "start": 95.74,
-      "end": 126.31,
-      "text": "damit er sicher ist, da ist Sicherheit absolut das Wichtigste, nicht so wichtig ist die Leistung. Unterkategoriert ist die Leistung wichtig"
+      "start": 91.88,
+      "end": 96.78,
+      "text": "Was wir hier in der Mitte vom Fatterli sehen, ist schlussendlich, dass der Schirm so bobbt, dass er sicher ist."
     },
     {
       "i": 11,
-      "start": 126.31,
-      "end": 129.31,
-      "text": "Dieser Flügel ist speziell für Hike'n'Fly gemacht,"
+      "start": 96.88,
+      "end": 102.25,
+      "text": "Dort ist die Sicherheit absolut das Wichtigste. Nicht so wichtig ist die Leistung."
     },
     {
       "i": 12,
-      "start": 129.31,
-      "end": 131.31,
-      "text": "damit man ein sehr kleines Packet hat,"
+      "start": 102.45,
+      "end": 106.09,
+      "text": "Unterkategorisiert wie der Wettkampfschirm ist es sehr gerade ein umgekehrtes."
     },
     {
       "i": 13,
-      "start": 131.31,
-      "end": 134.65,
-      "text": "mit ganz wenig Volumen und vor allem wenig Gewicht."
+      "start": 106.09,
+      "end": 109.23,
+      "text": "Dort ist die Leistung wichtig und die Sicherheit ein bisschen weiter heruntergestaucht."
     },
     {
       "i": 14,
-      "start": 134.65,
-      "end": 136.65,
-      "text": "Und dann geht es zum Gegenteil,"
+      "start": 109.23,
+      "end": 114.03,
+      "text": "Denn dort verlangt man vom Piloten bereits, dass er sehr viel kann und damit kann umgehen."
     },
     {
       "i": 15,
-      "start": 136.65,
-      "end": 138.65,
-      "text": "sehr robust gebaut."
+      "start": 114.03,
+      "end": 116.77,
+      "text": "Dann gibt es noch viele Unterkategorien."
     },
     {
       "i": 16,
-      "start": 138.65,
-      "end": 141.65,
-      "text": "Auch das Bild ist der Akrobatikschirm,"
+      "start": 116.77,
+      "end": 122.27,
+      "text": "Wir haben zum Beispiel in der rechten Ecke hier ein ganz spezielles Modell,"
     },
     {
       "i": 17,
-      "start": 141.65,
-      "end": 144.65,
-      "text": "wo man hier den Weissblau sieht,"
+      "start": 122.27,
+      "end": 124.27,
+      "text": "Untersegel hat, nur ein Obersegel."
     },
     {
       "i": 18,
-      "start": 144.65,
-      "end": 147.65,
-      "text": "damit man manöver mit dem Schirm fliegen kann,"
+      "start": 124.27,
+      "end": 126.27,
+      "text": "Da wird natürlich experimentiert und selbst"
     },
     {
       "i": 19,
-      "start": 147.65,
-      "end": 149.65,
-      "text": "der die extremsten Gehkräfte,"
+      "start": 126.27,
+      "end": 128.27,
+      "text": "dieser Flugteil ist speziell gemacht"
     },
     {
       "i": 20,
-      "start": 149.65,
-      "end": 152.65,
-      "text": "die extremsten Belastungen auf dem Schirm wirkt,"
+      "start": 128.27,
+      "end": 130.27,
+      "text": "für Hike & Fly, dass man ein sehr"
     },
     {
       "i": 21,
-      "start": 152.65,
-      "end": 154.65,
-      "text": "aber das Material hält,"
+      "start": 130.27,
+      "end": 132.27,
+      "text": "kleines Päckchen hat mit ganz wenig Volumen"
     },
     {
       "i": 22,
-      "start": 155.65,
-      "end": 157.65,
-      "text": "richtig stark gebaut ist."
+      "start": 132.27,
+      "end": 134.29,
+      "text": "und vor allem wenig Gewicht."
     },
     {
       "i": 23,
-      "start": 157.65,
-      "end": 160.65,
-      "text": "Und es gibt noch Kategorien von Speedgliedern,"
+      "start": 134.29,
+      "end": 136.29,
+      "text": "Und dann geht das Gegenteil,"
     },
     {
       "i": 24,
-      "start": 160.65,
-      "end": 163.65,
-      "text": "wo man mit der Ski und ganz kleinen Schirmchen"
+      "start": 136.29,
+      "end": 138.29,
+      "text": "die sehr robust gebaut sind,"
     },
     {
       "i": 25,
-      "start": 163.65,
-      "end": 164.65,
-      "text": "đượcerflügt."
+      "start": 138.29,
+      "end": 140.29,
+      "text": "auch das Gewicht spielt keine Rolle."
     },
     {
       "i": 26,
-      "start": 164.65,
-      "end": 167.65,
-      "text": "Auch das ist eine Form von Gliedschirmflügen,"
+      "start": 140.29,
+      "end": 142.29,
+      "text": "Das ist der Akrobatikschirm, den man hier"
     },
     {
       "i": 27,
-      "start": 167.65,
-      "end": 169.98,
-      "text": "allerdings eine andere Kategorie,"
+      "start": 142.29,
+      "end": 144.29,
+      "text": "in weiß-blau sieht, der gemacht ist,"
     },
     {
       "i": 28,
-      "start": 169.98,
-      "end": 171.98,
-      "text": "wo wir jetzt nicht genau darauf eingehen."
+      "start": 144.29,
+      "end": 146.29,
+      "text": "damit man Manöver mit dem"
     },
     {
       "i": 29,
-      "start": 171.98,
-      "end": 177.07,
-      "text": "Das ganze Gliedschirmflügen ist auch eingestuft"
+      "start": 146.29,
+      "end": 148.29,
+      "text": "Schirm fliegen kann, die"
     },
     {
       "i": 30,
-      "start": 177.07,
-      "end": 180.38,
-      "text": "in verschiedenen Homologationen."
+      "start": 148.29,
+      "end": 150.29,
+      "text": "extremste Gehkräfte, extremste Belastungen"
     },
     {
       "i": 31,
-      "start": 180.38,
-      "end": 182.38,
-      "text": "Wir haben A, B, C und D."
+      "start": 150.29,
+      "end": 152.29,
+      "text": "auf dem Schirm wirken, aber"
     },
     {
       "i": 32,
-      "start": 182.38,
-      "end": 185.55,
-      "text": "Und wir sprechen vom Schuhschirm."
+      "start": 152.29,
+      "end": 154.29,
+      "text": "das Material hält, weil"
     },
     {
       "i": 33,
-      "start": 185.55,
-      "end": 187.55,
-      "text": "Das heisst, wie es hier steht,"
+      "start": 154.29,
+      "end": 156.29,
+      "text": "es eben so verbaut ist, richtig stark"
     },
     {
       "i": 34,
-      "start": 187.55,
-      "end": 189.55,
-      "text": "dass die Passivsicherheit sehr hoch ist."
+      "start": 156.29,
+      "end": 158.29,
+      "text": "gebaut ist. Und"
     },
     {
       "i": 35,
-      "start": 189.55,
-      "end": 191.55,
-      "text": "Schlussendlich ist die Idee,"
+      "start": 158.29,
+      "end": 160.29,
+      "text": "gibt es noch Kategorien von"
     },
     {
       "i": 36,
-      "start": 191.55,
-      "end": 193.55,
-      "text": "dass wenn irgendeine Störung am Schuhschirm passiert"
+      "start": 160.29,
+      "end": 162.29,
+      "text": "Speedgliedern, wo man mit der Ski"
     },
     {
       "i": 37,
-      "start": 193.55,
-      "end": 195.82,
-      "text": "und der Pilot einfach loslässt,"
+      "start": 162.29,
+      "end": 164.29,
+      "text": "und ganz kleinen Schirmchen rumfliegt."
     },
     {
       "i": 38,
-      "start": 195.82,
-      "end": 197.82,
-      "text": "dass der Schirm wieder von selbstständigem"
+      "start": 164.29,
+      "end": 166.29,
+      "text": "Auch das ist schlussendlich"
     },
     {
       "i": 39,
-      "start": 197.82,
-      "end": 200.19,
-      "text": "Geradenausflug zurückkehrt."
+      "start": 166.29,
+      "end": 168.59,
+      "text": "eine Form von Gleitschirmfliegen."
     },
     {
       "i": 40,
-      "start": 200.19,
-      "end": 202.19,
-      "text": "Das wäre eigentlich der Wunsch,"
+      "start": 168.59,
+      "end": 170.59,
+      "text": "Allerdings eine andere Kategorie,"
     },
     {
       "i": 41,
-      "start": 202.19,
-      "end": 204.29,
-      "text": "den jeder Schuhschirm erfüllen müsste."
+      "start": 170.59,
+      "end": 173.41,
+      "text": "worauf wir jetzt nicht genau eingehen."
     },
     {
       "i": 42,
-      "start": 204.29,
-      "end": 206.29,
-      "text": "Jeder Konjunktur macht,"
+      "start": 173.41,
+      "end": 175.41,
+      "text": "Das ganze Gleitschirmfliegen"
     },
     {
       "i": 43,
-      "start": 206.29,
-      "end": 209.98,
-      "text": "versucht möglichst, das anzukommen."
+      "start": 175.41,
+      "end": 177.58,
+      "text": "ist auch eingestuft"
     },
     {
       "i": 44,
-      "start": 209.98,
-      "end": 211.98,
-      "text": "Und das haben wir heute in einem Bereich,"
+      "start": 177.58,
+      "end": 179.86,
+      "text": "in verschiedene"
     },
     {
       "i": 45,
-      "start": 211.98,
-      "end": 213.98,
-      "text": "wo wir wirklich sagen können,"
+      "start": 179.86,
+      "end": 181.86,
+      "text": "Kommunikationen. Wir haben A, B,"
     },
     {
       "i": 46,
-      "start": 213.98,
-      "end": 215.98,
-      "text": "die fliegen sehr, sehr sicher"
+      "start": 181.86,
+      "end": 183.86,
+      "text": "C und D. Und beim"
     },
     {
       "i": 47,
-      "start": 215.98,
-      "end": 218.98,
-      "text": "und wir haben auch schon eine relativ gute Leistung."
+      "start": 183.86,
+      "end": 185.86,
+      "text": "A-Schirm sprechen wir vom Schuhschirm."
     },
     {
       "i": 48,
-      "start": 218.98,
-      "end": 220.98,
-      "text": "Leistung, als kleine Gedankenstütze"
+      "start": 185.86,
+      "end": 187.86,
+      "text": "Das heisst, wie es hier steht, dass"
     },
     {
       "i": 49,
-      "start": 220.98,
-      "end": 223.98,
-      "text": "sprechen wir immer von Gleitleistung."
+      "start": 187.86,
+      "end": 189.86,
+      "text": "die Passivsicherheit sehr hoch ist."
     },
     {
       "i": 50,
-      "start": 223.98,
-      "end": 225.98,
-      "text": "Das heisst, wenn wir z.B. von 1000m"
+      "start": 189.86,
+      "end": 191.86,
+      "text": "Schlussendlich ist eigentlich die Idee, dass wenn"
     },
     {
       "i": 51,
-      "start": 225.98,
-      "end": 227.98,
-      "text": "bei ruhiger Luft starten"
+      "start": 191.86,
+      "end": 193.86,
+      "text": "irgendeine Störung am Schuhschirm passiert"
     },
     {
       "i": 52,
-      "start": 227.98,
-      "end": 229.98,
-      "text": "und einfach ins Tal fliegen,"
+      "start": 193.86,
+      "end": 195.87,
+      "text": "und der Pilot einfach los lässt,"
     },
     {
       "i": 53,
-      "start": 229.98,
-      "end": 231.98,
-      "text": "kommen wir vielleicht mit einem Schuhschirm"
+      "start": 195.87,
+      "end": 197.87,
+      "text": "dass der Schirm wieder für einen selbstständigen"
     },
     {
       "i": 54,
-      "start": 231.98,
-      "end": 233.98,
-      "text": "8 km weit."
+      "start": 197.87,
+      "end": 200.05,
+      "text": "Geradeausflug zurückkehrt."
     },
     {
       "i": 55,
-      "start": 233.98,
-      "end": 235.98,
-      "text": "Mit einem Wettkampfschirm sind wir mittlerweile"
+      "start": 200.05,
+      "end": 202.05,
+      "text": "Das wäre eigentlich der Wunsch, den jeder Schuhschirm"
     },
     {
       "i": 56,
-      "start": 235.98,
-      "end": 237.98,
-      "text": "etwa bei 12 km."
+      "start": 202.05,
+      "end": 204.05,
+      "text": "erfüllen müsste."
     },
     {
       "i": 57,
-      "start": 237.98,
-      "end": 239.98,
-      "text": "Hier ist schon eine Differenz,"
+      "start": 204.05,
+      "end": 206.06,
+      "text": "Jeder Konstrukteur, der einen Schirm"
     },
     {
       "i": 58,
-      "start": 239.98,
-      "end": 241.98,
-      "text": "aber 8 km ist schon sehr, sehr gut,"
+      "start": 206.06,
+      "end": 208.06,
+      "text": "macht, versucht möglichst fest"
     },
     {
       "i": 59,
-      "start": 241.98,
-      "end": 243.98,
-      "text": "wenn wir vergleichen, dass wir vor wenigen Jahren"
+      "start": 208.06,
+      "end": 210.75,
+      "text": "an das hinzukommen. Und da sind wir"
     },
     {
       "i": 60,
-      "start": 243.98,
-      "end": 245.98,
-      "text": "8 km sind und jetzt sind wir eher bei 8."
+      "start": 210.75,
+      "end": 212.75,
+      "text": "heute in einem Bereich, wo wir heute sagen können,"
     },
     {
       "i": 61,
-      "start": 245.98,
-      "end": 248.28,
-      "text": "Oder sogar etwas darüber."
+      "start": 212.75,
+      "end": 214.75,
+      "text": "wir fliegen die Fange sehr, sehr sicher"
     },
     {
       "i": 62,
-      "start": 248.28,
-      "end": 250.28,
-      "text": "Dann geht es weiter mit dem B,"
+      "start": 214.75,
+      "end": 216.75,
+      "text": "und haben eben trotzdem auch schon"
     },
     {
       "i": 63,
-      "start": 250.28,
-      "end": 252.28,
-      "text": "der Intermate-Schirm,"
+      "start": 216.75,
+      "end": 218.75,
+      "text": "eine relativ gute Leistung."
     },
     {
       "i": 64,
-      "start": 252.28,
-      "end": 254.28,
-      "text": "bei dem die meisten Piloten fliegen."
+      "start": 218.75,
+      "end": 220.75,
+      "text": "Leistung, als kleine Gedankenstütze,"
     },
     {
       "i": 65,
-      "start": 254.28,
-      "end": 256.28,
-      "text": "Nach dem Schuhschirm"
+      "start": 220.75,
+      "end": 222.75,
+      "text": "reden wir immer davon, von"
     },
     {
       "i": 66,
-      "start": 256.28,
-      "end": 258.28,
-      "text": "haben wir schon ein paar Flüge gemacht."
+      "start": 222.75,
+      "end": 224.75,
+      "text": "Gleitleistung. Das heisst, wenn wir"
     },
     {
       "i": 67,
-      "start": 258.28,
-      "end": 260.28,
-      "text": "Ich glaube, wir haben hoffentlich auch"
+      "start": 224.75,
+      "end": 226.75,
+      "text": "zum Beispiel von 1000 Metern"
     },
     {
       "i": 68,
-      "start": 260.28,
-      "end": 262.28,
-      "text": "ein paar Hundertflüge gemacht."
+      "start": 226.75,
+      "end": 228.75,
+      "text": "bei ruhiger Luft starten und einfach ins Tal"
     },
     {
       "i": 69,
-      "start": 262.28,
-      "end": 264.28,
-      "text": "Zum B-Schirm geht es,"
+      "start": 228.75,
+      "end": 230.75,
+      "text": "rausfliegen, kommen wir vielleicht"
     },
     {
       "i": 70,
-      "start": 264.28,
-      "end": 266.28,
-      "text": "der auch noch eine passive Sicherheit hat."
+      "start": 230.75,
+      "end": 232.75,
+      "text": "mit einem Schuhschirm 8 Kilometer"
     },
     {
       "i": 71,
-      "start": 266.28,
-      "end": 268.28,
-      "text": "Und der Pilot muss auch schon wissen,"
+      "start": 232.75,
+      "end": 234.75,
+      "text": "weit. Mit einem Wettkampfschirm sind wir"
     },
     {
       "i": 72,
-      "start": 268.28,
-      "end": 271.28,
-      "text": "dass er schnell auf eine Störung reagiert."
+      "start": 234.75,
+      "end": 236.75,
+      "text": "mittlerweile etwa bei 12 Kilometern."
     },
     {
       "i": 73,
-      "start": 271.28,
-      "end": 273.55,
-      "text": "Beim C-Schirm, das umso mehr,"
+      "start": 236.75,
+      "end": 238.75,
+      "text": "Also da ist schon eine Differenz, aber 8 Kilometer"
     },
     {
       "i": 74,
-      "start": 273.55,
-      "end": 275.55,
-      "text": "beimれた Wettkampfschirm,"
+      "start": 238.75,
+      "end": 240.75,
+      "text": "ist auch schon sehr, sehr gut, wenn wir"
     },
     {
       "i": 75,
-      "start": 275.55,
-      "end": 277.55,
-      "text": "ist das definitiv der Fall."
+      "start": 240.75,
+      "end": 242.75,
+      "text": "vergleichen, dass noch vor wenigen Jahren"
     },
     {
       "i": 76,
-      "start": 277.55,
-      "end": 279.55,
-      "text": "Hier verlangt es vom Pilot,"
+      "start": 242.75,
+      "end": 244.75,
+      "text": "wir bei 6, 7,5 Kilometern waren und jetzt"
     },
     {
       "i": 77,
-      "start": 279.55,
-      "end": 281.55,
-      "text": "dass er sofort reagiert, dass er"
+      "start": 244.75,
+      "end": 246.75,
+      "text": "sind wir eher bei 8 Kilometern."
     },
     {
       "i": 78,
-      "start": 281.55,
-      "end": 283.55,
-      "text": "nicht mehr überlegen muss was mache ich,"
+      "start": 246.75,
+      "end": 249.06,
+      "text": "Dann geht es weiter mit einem B,"
     },
     {
       "i": 79,
-      "start": 283.55,
-      "end": 285.55,
-      "text": "wenn die in diese Situation eintrifft."
+      "start": 249.06,
+      "end": 251.06,
+      "text": "welches der Intermade-Schirm ist,"
     },
     {
       "i": 80,
-      "start": 285.55,
-      "end": 287.55,
-      "text": "Sondern dann muss er direkt im Tief reagieren,"
+      "start": 251.06,
+      "end": 253.06,
+      "text": "bei dem die meisten Piloten wahrscheinlich fliegen."
     },
     {
       "i": 81,
-      "start": 287.55,
-      "end": 289.55,
-      "text": "ohne noch vorher gross zu überlegen,"
+      "start": 253.06,
+      "end": 255.06,
+      "text": "Weil das so ein bisschen das ist,"
     },
     {
       "i": 82,
-      "start": 289.55,
-      "end": 292.53,
-      "text": "was dann eigentlich los ist mit dem Schirm."
+      "start": 255.06,
+      "end": 257.06,
+      "text": "wo nach dem Schulschirm, wenn man schon ein paar Flüge"
     },
     {
       "i": 83,
-      "start": 292.53,
-      "end": 294.53,
-      "text": "Wie kommt denn ein Schirm überhaupt"
+      "start": 257.06,
+      "end": 259.06,
+      "text": "gemacht hat, ich rede hier eher von ein paar Hundert"
     },
     {
       "i": 84,
-      "start": 294.53,
-      "end": 296.53,
-      "text": "zu so einem A, B, C oder D?"
+      "start": 259.06,
+      "end": 261.06,
+      "text": "Flüge, die man hoffentlich im Schulschirm gemacht hat,"
     },
     {
       "i": 85,
-      "start": 296.53,
-      "end": 298.53,
-      "text": "Das Gürtelsiegel."
+      "start": 261.06,
+      "end": 263.06,
+      "text": "zum B-Schirm geht, welches auch noch eine"
     },
     {
       "i": 86,
-      "start": 298.53,
-      "end": 300.54,
-      "text": "Das Gürtelsiegel ist mittlerweile"
+      "start": 263.06,
+      "end": 265.06,
+      "text": "recht gute passive Sicherheit hat,"
     },
     {
       "i": 87,
-      "start": 300.54,
-      "end": 302.54,
-      "text": "eigentlich die N-Norm."
+      "start": 265.06,
+      "end": 267.06,
+      "text": "aber doch auch schon ein bisschen Leistung"
     },
     {
       "i": 88,
-      "start": 302.54,
-      "end": 304.54,
-      "text": "Die N-Norm, die man antrifft,"
+      "start": 267.06,
+      "end": 269.06,
+      "text": "und der Pilot muss auch schon ein bisschen wissen,"
     },
     {
       "i": 89,
-      "start": 304.54,
-      "end": 306.54,
-      "text": "ist weltweit gültig, aussen in Deutschland."
+      "start": 269.06,
+      "end": 271.06,
+      "text": "was er macht, also respektive auch schnell reagieren"
     },
     {
       "i": 90,
-      "start": 306.54,
-      "end": 308.54,
-      "text": "In Deutschland ist man nachher vor auf LTF,"
+      "start": 271.06,
+      "end": 273.06,
+      "text": "auf eine Störung."
     },
     {
       "i": 91,
-      "start": 308.54,
-      "end": 310.54,
-      "text": "das ist ehemalige DAV-Gürtelsiegel."
+      "start": 273.06,
+      "end": 275.06,
+      "text": "Und das umso mehr beim D-Schirm,"
     },
     {
       "i": 92,
-      "start": 310.54,
-      "end": 312.54,
-      "text": "Das ist ein absolutes Detail, nicht wichtig."
+      "start": 275.06,
+      "end": 277.06,
+      "text": "wenn wir richtig weg am Schirm gehen,"
     },
     {
       "i": 93,
-      "start": 312.54,
-      "end": 314.54,
-      "text": "Aber wir müssen wissen,"
+      "start": 277.06,
+      "end": 279.06,
+      "text": "ist das definitiv der Fall."
     },
     {
       "i": 94,
-      "start": 314.54,
-      "end": 316.54,
-      "text": "dass die deutschen Piloten"
+      "start": 279.06,
+      "end": 281.06,
+      "text": "Da verlangt es vom Pilot, dass er sofort reagiert,"
     },
     {
       "i": 95,
-      "start": 316.54,
-      "end": 318.66,
-      "text": "nur mit LTF-Briertengeräten fliegen."
+      "start": 281.06,
+      "end": 283.06,
+      "text": "dass er nicht mehr überlegen muss, was er macht,"
     },
     {
       "i": 96,
-      "start": 318.66,
-      "end": 320.86,
-      "text": "Und sonst weltweit gilt die N-Gürtelsiegel."
+      "start": 283.06,
+      "end": 285.06,
+      "text": "wenn die in diese Situation eintrifft,"
     },
     {
       "i": 97,
-      "start": 320.86,
-      "end": 323.01,
-      "text": "Was wird dort gemacht?"
+      "start": 285.06,
+      "end": 287.06,
+      "text": "sondern dann muss er auch gleich intuitiv reagieren,"
     },
     {
       "i": 98,
-      "start": 323.01,
-      "end": 325.01,
-      "text": "Das wird einerseits der Schirm"
+      "start": 287.06,
+      "end": 289.06,
+      "text": "ohne noch vorher gross überlegen zu müssen,"
     },
     {
       "i": 99,
-      "start": 325.01,
-      "end": 327.18,
-      "text": "mit einer Schockbelastung,"
+      "start": 289.06,
+      "end": 292.03,
+      "text": "was dann eigentlich los ist mit dem Schirm."
     },
     {
       "i": 100,
-      "start": 327.18,
-      "end": 329.18,
-      "text": "fest belastet,"
+      "start": 292.03,
+      "end": 294.03,
+      "text": "Wie kommt ein Schirm überhaupt"
     },
     {
       "i": 101,
-      "start": 329.18,
-      "end": 331.18,
-      "text": "nichts anderes als der Schirm an einem Fahrzeug,"
+      "start": 294.03,
+      "end": 296.03,
+      "text": "zu so einem A, B, C oder D?"
     },
     {
       "i": 102,
-      "start": 331.18,
-      "end": 333.18,
-      "text": "das Fahrzeug fährt los"
+      "start": 296.03,
+      "end": 298.03,
+      "text": "Das nennt man das Gütersiegel."
     },
     {
       "i": 103,
-      "start": 333.18,
-      "end": 335.18,
-      "text": "und das Seil hat eine Sohlbruchstelle drin,"
+      "start": 298.03,
+      "end": 300.03,
+      "text": "Und das Gütersiegel ist mittlerweile"
     },
     {
       "i": 104,
-      "start": 335.18,
-      "end": 337.18,
-      "text": "die dann reisst"
+      "start": 300.03,
+      "end": 302.03,
+      "text": "eigentlich die N-Norm,"
     },
     {
       "i": 105,
-      "start": 337.18,
-      "end": 339.18,
-      "text": "und nachher schaut man den Schirm an,"
+      "start": 302.03,
+      "end": 304.03,
+      "text": "die man antrifft."
     },
     {
       "i": 106,
-      "start": 339.18,
-      "end": 341.18,
-      "text": "hat Schä của und darf keinen Schaden haben."
+      "start": 304.03,
+      "end": 306.03,
+      "text": "Es ist weltweit gültig, ausser in Deutschland."
     },
     {
       "i": 107,
-      "start": 341.18,
-      "end": 343.46,
-      "text": "Wenn der Test erfolgreich war,"
+      "start": 306.03,
+      "end": 308.03,
+      "text": "In Deutschland ist man nach wie vor auf LTF,"
     },
     {
       "i": 108,
-      "start": 343.46,
-      "end": 345.46,
-      "text": "wird der Schirm nochmal eingespannt."
+      "start": 308.03,
+      "end": 310.03,
+      "text": "das ist das ehemalige DAV-Gütersiegel."
     },
     {
       "i": 109,
-      "start": 345.46,
-      "end": 347.46,
-      "text": "Das Auto"
+      "start": 310.03,
+      "end": 312.03,
+      "text": "Das ist ein absolutes Detail, nicht wichtig."
     },
     {
       "i": 110,
-      "start": 347.46,
-      "end": 349.46,
-      "text": "konjugierlich los,"
+      "start": 312.03,
+      "end": 314.03,
+      "text": "Aber wir müssen wissen, dass die deutschen Piloten"
     },
     {
       "i": 111,
-      "start": 349.46,
-      "end": 351.46,
-      "text": "beschleunigt immer mehr,"
+      "start": 314.03,
+      "end": 316.03,
+      "text": "nur mit LTF-Briefgeräten fliegen."
     },
     {
       "i": 112,
-      "start": 351.46,
-      "end": 353.47,
-      "text": "dass der Schirm, der hinten dran hängt,"
+      "start": 316.03,
+      "end": 318.03,
+      "text": "Und sonst weltweit"
     },
     {
       "i": 113,
-      "start": 353.47,
-      "end": 355.47,
-      "text": "auf 8G belastet wird."
+      "start": 318.03,
+      "end": 320.03,
+      "text": "gilt der DN-Gütersiegel."
     },
     {
       "i": 114,
-      "start": 355.47,
-      "end": 357.47,
-      "text": "8G ist das absolute Minimum."
+      "start": 320.03,
+      "end": 322.18,
+      "text": "Was wird dort gemacht?"
     },
     {
       "i": 115,
-      "start": 357.47,
-      "end": 359.47,
-      "text": "Die heutige Schirmherstellung"
+      "start": 322.18,
+      "end": 324.18,
+      "text": "Es wird einerseits der Schirm"
     },
     {
       "i": 116,
-      "start": 359.47,
-      "end": 361.47,
-      "text": "ist eher bei 12 oder 16G."
+      "start": 324.18,
+      "end": 326.38,
+      "text": "mit einer Schockbelastung"
     },
     {
       "i": 117,
-      "start": 361.47,
-      "end": 363.47,
-      "text": "Wenn wir den Akrobatikschirm nehmen,"
+      "start": 326.38,
+      "end": 328.38,
+      "text": "fest belastet."
     },
     {
       "i": 118,
-      "start": 363.47,
-      "end": 365.47,
-      "text": "sind wir sicher eher bei 16G."
+      "start": 328.38,
+      "end": 330.38,
+      "text": "Das ist auch nichts anderes, als der Schirm"
     },
     {
       "i": 119,
-      "start": 365.47,
-      "end": 367.47,
-      "text": "Und auch dort wird dann nachher"
+      "start": 330.38,
+      "end": 332.38,
+      "text": "an einem Fahrzeug mit einem langen Seil"
     },
     {
       "i": 120,
-      "start": 367.47,
-      "end": 369.47,
-      "text": "der Brief angeschaut,"
+      "start": 332.38,
+      "end": 334.38,
+      "text": "angehängt wird."
     },
     {
       "i": 121,
-      "start": 369.47,
-      "end": 371.47,
-      "text": "ist nichts kaputt gegangen,"
+      "start": 334.38,
+      "end": 336.38,
+      "text": "Da ist eine Vollbruchstelle drinnen,"
     },
     {
       "i": 122,
-      "start": 371.47,
-      "end": 373.47,
-      "text": "sind alle Bauteile noch so, wie es sein sollte."
+      "start": 336.38,
+      "end": 338.38,
+      "text": "die dann reisst."
     },
     {
       "i": 123,
-      "start": 373.47,
-      "end": 376.1,
-      "text": "Das hat einen Gesamteindruck gemacht"
+      "start": 338.38,
+      "end": 340.38,
+      "text": "Danach schaut man den Schirm an,"
     },
     {
       "i": 124,
-      "start": 376.1,
-      "end": 378.72,
-      "text": "und das alles protokolliert."
+      "start": 340.38,
+      "end": 342.38,
+      "text": "ob er Schäden hat."
     },
     {
       "i": 125,
-      "start": 378.72,
-      "end": 380.72,
-      "text": "Was auch gemacht wird,"
+      "start": 342.38,
+      "end": 344.38,
+      "text": "Wenn der Test erfolgreich war,"
     },
     {
       "i": 126,
-      "start": 380.72,
-      "end": 382.72,
-      "text": "ist noch die Leinenfestigkeit geprüft,"
+      "start": 344.38,
+      "end": 346.38,
+      "text": "wird der Schirm nochmals eingespannt."
     },
     {
       "i": 127,
-      "start": 382.72,
-      "end": 384.93,
-      "text": "sind die auch so, wie der Hersteller es angeht,"
+      "start": 346.38,
+      "end": 348.38,
+      "text": "Das Auto fährt jetzt konjugierlich los,"
     },
     {
       "i": 128,
-      "start": 384.93,
-      "end": 386.93,
-      "text": "und Knickbriefungen folgt,"
+      "start": 348.38,
+      "end": 350.38,
+      "text": "beschleunigt immer mehr,"
     },
     {
       "i": 129,
-      "start": 386.93,
-      "end": 388.93,
-      "text": "die der Hersteller vorgängig machen muss"
+      "start": 350.38,
+      "end": 352.38,
+      "text": "dass der Schirm, der hinten dranhängt,"
     },
     {
       "i": 130,
-      "start": 388.93,
-      "end": 390.93,
-      "text": "und dass seine Leine, die er hier verbaut hat,"
+      "start": 352.38,
+      "end": 354.38,
+      "text": "auf 8G belastet wird."
     },
     {
       "i": 131,
-      "start": 390.93,
-      "end": 392.94,
-      "text": "auch diese Belastung standhalten"
+      "start": 354.38,
+      "end": 356.38,
+      "text": "8G ist das absolute Minimum."
     },
     {
       "i": 132,
-      "start": 392.94,
-      "end": 394.94,
-      "text": "und der richtige Faden verwenden wurde."
+      "start": 356.38,
+      "end": 358.38,
+      "text": "Die heutigen Gleitschirmherstellungen"
     },
     {
       "i": 133,
-      "start": 396.94,
-      "end": 399.22,
-      "text": "Das Ganze wird einem"
+      "start": 358.38,
+      "end": 360.38,
+      "text": "gehen eher drüber."
     },
     {
       "i": 134,
-      "start": 399.22,
-      "end": 401.62,
-      "text": "Briefbericht festgehalten"
+      "start": 360.38,
+      "end": 362.38,
+      "text": "Wir sind eher bei 12 oder sogar 16G."
     },
     {
       "i": 135,
-      "start": 401.62,
-      "end": 403.62,
-      "text": "und dann geht man weiter zum"
+      "start": 362.38,
+      "end": 364.38,
+      "text": "Wenn wir den Akrobatikschirm nehmen,"
     },
     {
       "i": 136,
-      "start": 403.62,
-      "end": 405.62,
-      "text": "Flugtest."
+      "start": 364.38,
+      "end": 366.38,
+      "text": "sind wir sicher eher bei 16G."
     },
     {
       "i": 137,
-      "start": 405.62,
-      "end": 407.62,
-      "text": "Der Flugtest ist zuerst ganz allgemein"
+      "start": 366.38,
+      "end": 368.38,
+      "text": "Auch dort wird nachher geprüft."
     },
     {
       "i": 138,
-      "start": 407.62,
-      "end": 409.62,
-      "text": "wie sein Bremsweg."
+      "start": 368.38,
+      "end": 370.38,
+      "text": "Es ist nichts kaputt gegangen."
     },
     {
       "i": 139,
-      "start": 409.62,
-      "end": 411.62,
-      "text": "Bei einem Wettkampfschirm sind Bremswege"
+      "start": 370.38,
+      "end": 372.38,
+      "text": "Es sind alle Bauteile noch so,"
     },
     {
       "i": 140,
-      "start": 411.62,
-      "end": 413.62,
-      "text": "von 0 bis 30 cm."
+      "start": 372.38,
+      "end": 374.98,
+      "text": "wie sie sein sollten."
     },
     {
       "i": 141,
-      "start": 413.62,
-      "end": 415.62,
-      "text": "Bei einem Schulschirm sind sie eher"
+      "start": 374.98,
+      "end": 376.98,
+      "text": "Es wird Gesamteindruck gemacht"
     },
     {
       "i": 142,
-      "start": 415.62,
-      "end": 417.62,
-      "text": "von 0 bis 60 cm."
+      "start": 376.98,
+      "end": 379.6,
+      "text": "und alles protokolliert."
     },
     {
       "i": 143,
-      "start": 417.62,
-      "end": 419.62,
-      "text": "Das kann relativ lang sein."
+      "start": 379.6,
+      "end": 381.6,
+      "text": "Auch die Leinenfestigkeit wird geprüft."
     },
     {
       "i": 144,
-      "start": 419.62,
-      "end": 422.05,
-      "text": "Das schaut man an."
+      "start": 381.6,
+      "end": 383.6,
+      "text": "Sind die auch so,"
     },
     {
       "i": 145,
-      "start": 422.05,
-      "end": 424.05,
-      "text": "Und nachher werden die Manöver geflogen."
+      "start": 383.6,
+      "end": 385.6,
+      "text": "wie der Hersteller es angeht?"
     },
     {
       "i": 146,
-      "start": 424.05,
-      "end": 426.05,
-      "text": "Es werden 24 Manöver geflogen"
+      "start": 385.6,
+      "end": 387.6,
+      "text": "Eine Knickprüfung folgt."
     },
     {
       "i": 147,
-      "start": 426.05,
-      "end": 428.16,
-      "text": "mit dem Schirm."
+      "start": 387.6,
+      "end": 389.6,
+      "text": "Der Hersteller muss vorgängig machen"
     },
     {
       "i": 148,
-      "start": 428.16,
-      "end": 430.16,
-      "text": "Davon sind 90 Einzelpunkte,"
+      "start": 389.6,
+      "end": 391.6,
+      "text": "und beweisen, dass seine Leinen,"
     },
     {
       "i": 149,
-      "start": 430.16,
-      "end": 432.16,
-      "text": "die dann eben vergeben werden,"
+      "start": 391.6,
+      "end": 393.62,
+      "text": "die er hier verbaut hat,"
     },
     {
       "i": 150,
-      "start": 432.16,
-      "end": 434.16,
-      "text": "ist ein A-Schirm."
+      "start": 393.62,
+      "end": 395.62,
+      "text": "standhalten und der richtige Faden"
     },
     {
       "i": 151,
-      "start": 434.16,
-      "end": 436.16,
-      "text": "Wenn ein 9A hat, dann ist es ein A-Schirm."
+      "start": 395.62,
+      "end": 397.82,
+      "text": "verwendet wurde."
     },
     {
       "i": 152,
-      "start": 436.16,
-      "end": 438.16,
-      "text": "Jeder hat wie das Airbnb-Schirm"
+      "start": 397.82,
+      "end": 399.82,
+      "text": "Das Ganze wird in einem Briefbericht"
     },
     {
       "i": 153,
-      "start": 438.16,
-      "end": 440.16,
-      "text": "und so werden die ganzen Punkte vergeben."
+      "start": 399.82,
+      "end": 402.19,
+      "text": "festgehalten."
     },
     {
       "i": 154,
-      "start": 440.16,
-      "end": 442.16,
-      "text": "Das Ganze ist aber ein bisschen schwierig beim Gleitschirm,"
+      "start": 402.19,
+      "end": 404.19,
+      "text": "Danach geht man weiter zum Flugtest."
     },
     {
       "i": 155,
-      "start": 442.16,
-      "end": 444.16,
-      "text": "weil es gibt kein Messverfahren dafür."
+      "start": 404.19,
+      "end": 406.19,
+      "text": "Der Flugtest ist zuerst ganz allgemein."
     },
     {
       "i": 156,
-      "start": 444.16,
-      "end": 448.16,
-      "text": "Das heisst, es ist schlussendlich im Augen des Betrachtes."
+      "start": 406.19,
+      "end": 408.19,
+      "text": "Wie sind die Bremswege?"
     },
     {
       "i": 157,
-      "start": 448.16,
-      "end": 450.16,
-      "text": "Es ist ein Experten, der unten ist."
+      "start": 408.19,
+      "end": 410.19,
+      "text": "Bei einem Wettkampfschirm"
     },
     {
       "i": 158,
-      "start": 450.16,
-      "end": 452.16,
-      "text": "Und der Test-Piloten in der Luft,"
+      "start": 410.19,
+      "end": 412.19,
+      "text": "sind die Bremswege eher gekürzt."
     },
     {
       "i": 159,
-      "start": 452.16,
-      "end": 454.16,
-      "text": "der beurdeit ist das Manöver jetzt ein A."
+      "start": 412.19,
+      "end": 414.19,
+      "text": "Da spricht man von 0 bis 30 cm."
     },
     {
       "i": 160,
-      "start": 454.16,
-      "end": 456.16,
-      "text": "Oder eben ein B."
+      "start": 414.19,
+      "end": 416.19,
+      "text": "Bei einem Schuhheilschirm"
     },
     {
       "i": 161,
-      "start": 456.16,
-      "end": 458.35,
-      "text": "So, dass es,"
+      "start": 416.19,
+      "end": 418.19,
+      "text": "sind es eher von 0 bis 50 cm."
     },
     {
       "i": 162,
-      "start": 458.35,
-      "end": 462.35,
-      "text": "Jede Jede Jede Jede Jede Jede Jede Jede Jede Jede Jede Jede Jede Jede Jede Jede Jede Jede Jede Jede Jede Jede Jede."
+      "start": 418.19,
+      "end": 420.19,
+      "text": "Das kann ein relativ langer Weg sein."
     },
     {
       "i": 163,
-      "start": 470.53,
-      "end": 472.53,
-      "text": "Das ist etwas, was immer etwas kritisiert wird,"
+      "start": 420.19,
+      "end": 422.56,
+      "text": "Das schaut man an."
     },
     {
       "i": 164,
-      "start": 472.53,
-      "end": 474.53,
-      "text": "speziell von den Flugschulen."
+      "start": 422.56,
+      "end": 424.56,
+      "text": "Danach werden die Manöver geflogen."
     },
     {
       "i": 165,
-      "start": 474.53,
-      "end": 476.53,
-      "text": "Es wäre doch eher schöner,"
+      "start": 424.56,
+      "end": 426.56,
+      "text": "Es sind 24 Manöver geflogen mit diesem Schirm."
     },
     {
       "i": 166,
-      "start": 476.53,
-      "end": 478.53,
-      "text": "wenn es sein müsste,"
+      "start": 426.56,
+      "end": 428.56,
+      "text": "Davon sind 90 Einzelpunkte,"
     },
     {
       "i": 167,
-      "start": 478.53,
-      "end": 480.53,
-      "text": "als Mehrheit drei Mal in das Manöver"
+      "start": 428.56,
+      "end": 430.56,
+      "text": "die dann vergeben werden."
     },
     {
       "i": 168,
-      "start": 480.53,
-      "end": 483.28,
-      "text": "hineinzupassend in die Kategorie"
+      "start": 430.56,
+      "end": 432.56,
+      "text": "Das ist ein A-Schirm."
     },
     {
       "i": 169,
-      "start": 483.28,
-      "end": 485.28,
-      "text": "und vielleicht zweimal nicht bestehend."
+      "start": 432.56,
+      "end": 434.56,
+      "text": "Wenn er 90 A hat, ist es ein A-Schirm."
     },
     {
       "i": 170,
-      "start": 485.28,
-      "end": 487.28,
-      "text": "Ein bisschen aussagekräftiger."
+      "start": 434.56,
+      "end": 436.56,
+      "text": "Wenn er B hat, wird es eher ein B-Schirm."
     },
     {
       "i": 171,
-      "start": 487.28,
-      "end": 489.28,
-      "text": "Aber auch so wichtig,"
+      "start": 436.56,
+      "end": 438.56,
+      "text": "Und so werden die ganzen Punkte vergeben."
     },
     {
       "i": 172,
-      "start": 489.28,
-      "end": 491.28,
-      "text": "die Schirme, die wir haben,"
+      "start": 438.56,
+      "end": 440.56,
+      "text": "Das Ganze ist aber ein bisschen schwierig"
     },
     {
       "i": 173,
-      "start": 491.28,
-      "end": 493.28,
-      "text": "ist schlussendlich unverzichtbar,"
+      "start": 440.56,
+      "end": 442.56,
+      "text": "beim Gleitschirm,"
     },
     {
       "i": 174,
-      "start": 493.28,
-      "end": 495.28,
-      "text": "dass man Rote holt bei der Flugschule,"
+      "start": 442.56,
+      "end": 444.56,
+      "text": "weil es kein Messverfahren dafür gibt."
     },
     {
       "i": 175,
-      "start": 495.28,
-      "end": 497.28,
-      "text": "bei den Fluglehrern,"
+      "start": 444.56,
+      "end": 446.56,
+      "text": "Das heisst, es ist schlussendlich"
     },
     {
       "i": 176,
-      "start": 497.28,
-      "end": 499.28,
-      "text": "weil die kennen diese Schirme am besten."
+      "start": 446.56,
+      "end": 448.56,
+      "text": "im Auge des Betrachters."
     },
     {
       "i": 177,
-      "start": 499.28,
-      "end": 501.28,
-      "text": "Was wir überhaupt verbauen am Gleitschirm?"
+      "start": 448.56,
+      "end": 450.56,
+      "text": "Es ist ein Experte, der unten ist."
     },
     {
       "i": 178,
-      "start": 501.28,
-      "end": 503.28,
-      "text": "Grundsätzlich ist es ein Polyamid,"
+      "start": 450.56,
+      "end": 452.56,
+      "text": "Und der Testpilot in der Luft,"
     },
     {
       "i": 179,
-      "start": 503.28,
-      "end": 505.28,
-      "text": "ein Nylon,"
+      "start": 452.56,
+      "end": 454.56,
+      "text": "der beurteilt, dass das Manöver"
     },
     {
       "i": 180,
-      "start": 505.28,
-      "end": 508.77,
-      "text": "das Tuch ist."
+      "start": 454.56,
+      "end": 456.56,
+      "text": "ein A-Schirm oder ein B-Schirm ist."
     },
     {
       "i": 181,
-      "start": 508.77,
-      "end": 510.77,
-      "text": "Wir sehen es einerseits hier,"
+      "start": 456.56,
+      "end": 458.56,
+      "text": "Das Ganze ist so, dass"
     },
     {
       "i": 182,
-      "start": 510.77,
-      "end": 512.77,
-      "text": "mit dieser Struktur drin,"
+      "start": 458.56,
+      "end": 460.56,
+      "text": "jedes Manöver fünf Mal geflogen werden kann."
     },
     {
       "i": 183,
-      "start": 512.77,
-      "end": 514.77,
-      "text": "die nennt man Ripstop."
+      "start": 460.56,
+      "end": 462.56,
+      "text": "Und wenn es einmal in die Kategorie"
     },
     {
       "i": 184,
-      "start": 514.77,
-      "end": 516.77,
-      "text": "Und zwar ist das nichts anderes"
+      "start": 462.56,
+      "end": 464.56,
+      "text": "reingegangen ist, in die man will,"
     },
     {
       "i": 185,
-      "start": 516.77,
-      "end": 519.2,
-      "text": "als eine Web-Technik,"
+      "start": 464.56,
+      "end": 466.7,
+      "text": "dann gilt es."
     },
     {
       "i": 186,
-      "start": 519.2,
-      "end": 521.31,
-      "text": "in die Schuss erfolgt."
+      "start": 466.7,
+      "end": 468.7,
+      "text": "Das heisst, es kann vier Mal ein B-Schirm sein"
     },
     {
       "i": 187,
-      "start": 521.31,
-      "end": 523.31,
-      "text": "Und die sollte eigentlich verhindern,"
+      "start": 468.7,
+      "end": 470.7,
+      "text": "und einmal ein A-Schirm."
     },
     {
       "i": 188,
-      "start": 523.31,
-      "end": 525.31,
-      "text": "dass das Tuch, wenn es mal ein Loch hat,"
+      "start": 470.7,
+      "end": 472.7,
+      "text": "Dann weiss man, bei welchem Manöver ein A-Schirm ist."
     },
     {
       "i": 189,
-      "start": 525.31,
-      "end": 527.46,
-      "text": "weiter reisst."
+      "start": 472.7,
+      "end": 474.7,
+      "text": "Das wird immer etwas kritisiert,"
     },
     {
       "i": 190,
-      "start": 527.46,
-      "end": 529.57,
-      "text": "Das sind so wichtig."
+      "start": 474.7,
+      "end": 476.7,
+      "text": "speziell von den Flugschulen."
     },
     {
       "i": 191,
-      "start": 529.57,
-      "end": 531.57,
-      "text": "Wenn es mal ein Loch hat, weiter reisst."
+      "start": 476.7,
+      "end": 478.7,
+      "text": "Es wäre doch eher schöner,"
     },
     {
       "i": 192,
-      "start": 531.57,
-      "end": 533.81,
-      "text": "Das sind so wie kleine Barrieren im Tuch."
+      "start": 478.7,
+      "end": 480.7,
+      "text": "wenn es eine Mehrheit gäbe."
     },
     {
       "i": 193,
-      "start": 533.81,
-      "end": 535.81,
-      "text": "Und diese Barrieren sorgen dafür,"
+      "start": 480.7,
+      "end": 483.17,
+      "text": "Zum Beispiel drei Mal in das Manöver"
     },
     {
       "i": 194,
-      "start": 535.81,
-      "end": 537.81,
-      "text": "dass es nicht weiter reisst."
+      "start": 483.17,
+      "end": 485.17,
+      "text": "in die Kategorie."
     },
     {
       "i": 195,
-      "start": 537.81,
-      "end": 539.81,
-      "text": "Aber man kann natürlich auch sehr dünne Stoffe"
+      "start": 485.17,
+      "end": 487.17,
+      "text": "Dann wäre es etwas aussagekräftiger."
     },
     {
       "i": 196,
-      "start": 539.81,
-      "end": 541.81,
-      "text": "verwenden, die geringes Gewicht haben"
+      "start": 487.17,
+      "end": 489.17,
+      "text": "Aber auch so wichtig,"
     },
     {
       "i": 197,
-      "start": 541.81,
-      "end": 543.81,
-      "text": "und trotzdem sehr stabil sind."
+      "start": 489.17,
+      "end": 491.17,
+      "text": "die Schirme, die wir haben,"
     },
     {
       "i": 198,
-      "start": 543.81,
-      "end": 545.81,
-      "text": "Vor allem, wenn man es zieht."
+      "start": 491.17,
+      "end": 493.17,
+      "text": "ist schlussendlich unverzichtbar,"
     },
     {
       "i": 199,
-      "start": 545.81,
-      "end": 547.81,
-      "text": "Was nicht so gerne ist,"
+      "start": 493.17,
+      "end": 495.17,
+      "text": "dass man eine Beratung holt bei den Flugschulen,"
     },
     {
       "i": 200,
-      "start": 547.81,
-      "end": 550.18,
-      "text": "ist die Diagonalbelastung."
+      "start": 495.17,
+      "end": 497.17,
+      "text": "bei den Fluglehrern."
     },
     {
       "i": 201,
-      "start": 550.18,
-      "end": 552.18,
-      "text": "Dort ist eher mal ein Verzug drin."
+      "start": 497.17,
+      "end": 499.17,
+      "text": "Denn die kennen die Schirme am besten"
     },
     {
       "i": 202,
-      "start": 552.18,
-      "end": 554.26,
-      "text": "Allerdings verbaut man sie genau so,"
+      "start": 499.17,
+      "end": 501.17,
+      "text": "und wissen auch, wenn es einmal eine Macke hat."
     },
     {
       "i": 203,
-      "start": 554.26,
-      "end": 556.56,
-      "text": "dass die Belastung möglichst aufs Tuch"
+      "start": 501.17,
+      "end": 503.17,
+      "text": "Was aber sehr selten vorkommt."
     },
     {
       "i": 204,
-      "start": 556.56,
-      "end": 558.56,
-      "text": "sauber funktioniert."
+      "start": 503.17,
+      "end": 505.17,
+      "text": "Wir haben das Ganze heute sehr gut im Griff"
     },
     {
       "i": 205,
-      "start": 558.56,
-      "end": 560.56,
-      "text": "Von einem Gleitschirm,"
+      "start": 505.17,
+      "end": 508.4,
+      "text": "und es sind sehr gute Schirme auf dem Markt."
     },
     {
       "i": 206,
-      "start": 560.56,
-      "end": 562.56,
-      "text": "handelsübrigen Gleitschirm,"
+      "start": 508.4,
+      "end": 510.4,
+      "text": "Was wird überhaupt verbaut am Gleitschirm?"
     },
     {
       "i": 207,
-      "start": 562.56,
-      "end": 564.56,
-      "text": "der nicht speziell auf Licht gemacht ist,"
+      "start": 510.4,
+      "end": 512.4,
+      "text": "Grundsätzlich ist es"
     },
     {
       "i": 208,
-      "start": 564.56,
-      "end": 566.56,
-      "text": "sind wir ungefähr auf 49 Gramm pro Quadratmeter."
+      "start": 512.4,
+      "end": 514.4,
+      "text": "ein Polyamid, ein Nylon,"
     },
     {
       "i": 209,
-      "start": 566.56,
-      "end": 568.56,
-      "text": "Als Vergleich,"
+      "start": 514.4,
+      "end": 516.4,
+      "text": "das durch ist."
     },
     {
       "i": 210,
-      "start": 568.56,
-      "end": 570.56,
-      "text": "eine A4-Platte, die ich darauf schreibe,"
+      "start": 516.4,
+      "end": 518.83,
+      "text": "Mit dieser Struktur drinnen,"
     },
     {
       "i": 211,
-      "start": 570.56,
-      "end": 572.56,
-      "text": "hat 80 Gramm pro Quadratmeter."
+      "start": 518.83,
+      "end": 520.85,
+      "text": "die nennt man Ripstop."
     },
     {
       "i": 212,
-      "start": 572.56,
-      "end": 574.56,
-      "text": "Also sind wir dort schon sehr leichter."
+      "start": 520.85,
+      "end": 522.85,
+      "text": "Und zwar ist das nichts anderes"
     },
     {
       "i": 213,
-      "start": 574.56,
-      "end": 576.56,
-      "text": "Es geht aber noch viel leichter."
+      "start": 522.85,
+      "end": 524.85,
+      "text": "als eine Webtechnik,"
     },
     {
       "i": 214,
-      "start": 576.56,
-      "end": 578.56,
-      "text": "Nämlich mit 17 Gramm."
+      "start": 524.85,
+      "end": 526.85,
+      "text": "die in Kette und Schuss erfolgt."
     },
     {
       "i": 215,
-      "start": 578.56,
-      "end": 580.56,
-      "text": "Dort sind wir im Lichtbaubereich"
+      "start": 526.85,
+      "end": 528.85,
+      "text": "Und diese sollte eigentlich verhindern,"
     },
     {
       "i": 216,
-      "start": 580.56,
-      "end": 582.67,
-      "text": "hergestellt."
+      "start": 528.85,
+      "end": 530.85,
+      "text": "dass das Tuch, wenn es einmal ein Loch hat,"
     },
     {
       "i": 217,
-      "start": 582.67,
-      "end": 584.67,
-      "text": "Ein Schirm in Bau,"
+      "start": 530.85,
+      "end": 532.85,
+      "text": "weiterreisst."
     },
     {
       "i": 218,
-      "start": 584.67,
-      "end": 586.67,
-      "text": "der vielleicht für Hike-and-Fly gemacht ist,"
+      "start": 532.85,
+      "end": 535.09,
+      "text": "Das sind so kleine Barrieren im Tuch."
     },
     {
       "i": 219,
-      "start": 586.67,
-      "end": 588.67,
-      "text": "wenn wir ein bisschen mehr Packvolumen haben wollen,"
+      "start": 535.09,
+      "end": 537.09,
+      "text": "Und diese Barrieren sorgen dafür,"
     },
     {
       "i": 220,
-      "start": 588.67,
-      "end": 590.67,
-      "text": "sind wir noch bis 17 Gramm pro Quadratmeter."
+      "start": 537.09,
+      "end": 539.09,
+      "text": "dass es nicht weiterreisst."
     },
     {
       "i": 221,
-      "start": 590.67,
-      "end": 592.67,
-      "text": "Diese Zahl, bin ich sicher,"
+      "start": 539.09,
+      "end": 541.09,
+      "text": "Aber man kann auch sehr dünne Stoffe verwenden,"
     },
     {
       "i": 222,
-      "start": 592.67,
-      "end": 594.67,
-      "text": "wird in Zukunft noch weit oben runtergehen."
+      "start": 541.09,
+      "end": 543.09,
+      "text": "die ein geringes Gewicht haben"
     },
     {
       "i": 223,
-      "start": 594.67,
-      "end": 596.67,
-      "text": "Die Techniken werden vorgelaufen,"
+      "start": 543.09,
+      "end": 545.09,
+      "text": "und trotzdem sehr stabil sind."
     },
     {
       "i": 224,
-      "start": 596.67,
-      "end": 598.67,
-      "text": "geforscht und gemacht."
+      "start": 545.09,
+      "end": 547.09,
+      "text": "Was nicht so gerne ist,"
     },
     {
       "i": 225,
-      "start": 598.67,
-      "end": 600.67,
-      "text": "Es ist natürlich ein Anlieger,"
+      "start": 547.09,
+      "end": 549.14,
+      "text": "ist die Diagonalbelastung."
     },
     {
       "i": 226,
-      "start": 600.67,
-      "end": 602.67,
-      "text": "dass man einen Stoff hat, der gleich stabil ist"
+      "start": 549.14,
+      "end": 551.14,
+      "text": "Dort ist eher mal ein Zug drinnen."
     },
     {
       "i": 227,
-      "start": 602.67,
-      "end": 606.29,
-      "text": "und noch leichter ist als das Ganze."
+      "start": 551.14,
+      "end": 553.14,
+      "text": "Allerdings verpackt man sie genau so,"
     },
     {
       "i": 228,
-      "start": 606.29,
-      "end": 608.29,
-      "text": "Was haben wir denn noch weiter für Materialien verbaut?"
+      "start": 553.14,
+      "end": 555.41,
+      "text": "damit die Belastung möglichst"
     },
     {
       "i": 229,
-      "start": 608.29,
-      "end": 610.29,
-      "text": "Wir haben den Schirm selber gelernt."
+      "start": 555.41,
+      "end": 557.41,
+      "text": "aufs Tuch funktioniert."
     },
     {
       "i": 230,
-      "start": 610.29,
-      "end": 612.4,
-      "text": "Das ist ein N உllons."
+      "start": 557.41,
+      "end": 559.41,
+      "text": "Ein schweres Tuch,"
     },
     {
       "i": 231,
-      "start": 612.4,
-      "end": 614.4,
-      "text": "Ich sehe vielleicht auch in den Bergbahnen"
+      "start": 559.41,
+      "end": 561.41,
+      "text": "hier reden wir von einem Gleitschirm,"
     },
     {
       "i": 232,
-      "start": 614.4,
-      "end": 616.4,
-      "text": "diese Werbigen oben,"
+      "start": 561.41,
+      "end": 563.41,
+      "text": "handelsüblichen Gleitschirm,"
     },
     {
       "i": 233,
-      "start": 616.4,
-      "end": 618.4,
-      "text": "die man in den Gleitschirmen übertrieben sagt."
+      "start": 563.41,
+      "end": 565.41,
+      "text": "der nicht speziell auf Licht gemacht ist,"
     },
     {
       "i": 234,
-      "start": 618.4,
-      "end": 620.4,
-      "text": "Schlussendlich ein Kunststoffmix,"
+      "start": 565.41,
+      "end": 567.41,
+      "text": "sind wir ungefähr bei 49 Gramm pro Quadratmeter."
     },
     {
       "i": 235,
-      "start": 620.4,
-      "end": 622.4,
-      "text": "das im Gleitschirm-Bereich"
+      "start": 567.41,
+      "end": 569.41,
+      "text": "Als Vergleich ein A4-Brett,"
     },
     {
       "i": 236,
-      "start": 622.4,
-      "end": 624.67,
-      "text": "basiert."
+      "start": 569.41,
+      "end": 571.41,
+      "text": "das nicht darauf schreibt,"
     },
     {
       "i": 237,
-      "start": 624.67,
-      "end": 626.67,
-      "text": "Auch im Tragurt-Bereich,"
+      "start": 571.41,
+      "end": 573.41,
+      "text": "hat 80 Gramm pro Quadratmeter."
     },
     {
       "i": 238,
-      "start": 626.67,
-      "end": 628.67,
-      "text": "Tochnora."
+      "start": 573.41,
+      "end": 575.41,
+      "text": "Es geht aber noch viel leichter,"
     },
     {
       "i": 239,
-      "start": 628.67,
-      "end": 630.67,
-      "text": "Von den Leinen kommen wir gerade dazu."
+      "start": 575.41,
+      "end": 577.41,
+      "text": "nämlich mit 17 Gramm."
     },
     {
       "i": 240,
-      "start": 630.67,
-      "end": 632.67,
-      "text": "Wir haben"
+      "start": 577.41,
+      "end": 579.41,
+      "text": "Dort sind wir dann im"
     },
     {
       "i": 241,
-      "start": 632.67,
-      "end": 634.67,
-      "text": "den Notschirm selber,"
+      "start": 579.41,
+      "end": 581.41,
+      "text": "Lichtbaubereich,"
     },
     {
       "i": 242,
-      "start": 634.67,
-      "end": 636.67,
-      "text": "der aus einem Nylon ist."
+      "start": 581.41,
+      "end": 583.52,
+      "text": "wo der Hersteller einen Schirmbau"
     },
     {
       "i": 243,
-      "start": 636.67,
-      "end": 638.67,
-      "text": "Beim Notschirm selber ist es so,"
+      "start": 583.52,
+      "end": 585.52,
+      "text": "für High-Comfly gemacht hat,"
     },
     {
       "i": 244,
-      "start": 638.67,
-      "end": 640.67,
-      "text": "dass es das gleiche Tuch ist."
+      "start": 585.52,
+      "end": 587.52,
+      "text": "wo man Licht und wenig Packvolumen haben will."
     },
     {
       "i": 245,
-      "start": 640.67,
-      "end": 642.67,
-      "text": "Viel feiner gewebt."
+      "start": 587.52,
+      "end": 589.52,
+      "text": "Da sind wir noch bei 17 Gramm pro Quadratmeter."
     },
     {
       "i": 246,
-      "start": 642.67,
-      "end": 644.67,
-      "text": "Es ist noch dünner."
+      "start": 589.52,
+      "end": 591.52,
+      "text": "Und diese Zahl, bin ich sicher,"
     },
     {
       "i": 247,
-      "start": 644.67,
-      "end": 646.67,
-      "text": "Erstens, beim Notschirm darf es"
+      "start": 591.52,
+      "end": 593.52,
+      "text": "wird in Zukunft noch weit oben runter gehen,"
     },
     {
       "i": 248,
-      "start": 646.67,
-      "end": 648.69,
-      "text": "dehnen."
+      "start": 593.52,
+      "end": 595.52,
+      "text": "weil die Techniken werden fortgelaufen,"
     },
     {
       "i": 249,
-      "start": 648.69,
-      "end": 650.69,
-      "text": "Es ist nicht so wichtig, dass er voll formstabil ist."
+      "start": 595.52,
+      "end": 597.52,
+      "text": "geforscht und gemacht."
     },
     {
       "i": 250,
-      "start": 650.69,
-      "end": 652.69,
-      "text": "Gerade, wenn es eine Schlageöffnung gibt,"
+      "start": 597.52,
+      "end": 599.52,
+      "text": "Und natürlich ein Anliegen,"
     },
     {
       "i": 251,
-      "start": 652.69,
-      "end": 654.69,
-      "text": "ist es wichtig, dass das Ganze sich bei den Leinen anfängt."
+      "start": 599.52,
+      "end": 601.52,
+      "text": "dass man einen Stoff hat, der gleich stabil ist"
     },
     {
       "i": 252,
-      "start": 654.69,
-      "end": 656.69,
-      "text": "Aber auch beim Tuch."
+      "start": 601.52,
+      "end": 605.01,
+      "text": "und noch leichter ist als das Ganze."
     },
     {
       "i": 253,
-      "start": 656.69,
-      "end": 658.69,
-      "text": "Darum macht es dort weniger,"
+      "start": 605.01,
+      "end": 607.01,
+      "text": "Was haben wir dann noch weiter für Materialien verbaut?"
     },
     {
       "i": 254,
-      "start": 658.69,
-      "end": 660.69,
-      "text": "wenn das Tuch nicht ganz"
+      "start": 607.01,
+      "end": 609.01,
+      "text": "Wir haben den Schirm selbst,"
     },
     {
       "i": 255,
-      "start": 660.69,
-      "end": 662.69,
-      "text": "so stabil ist."
+      "start": 609.01,
+      "end": 611.01,
+      "text": "den haben wir jetzt gelernt,"
     },
     {
       "i": 256,
-      "start": 662.69,
-      "end": 664.69,
-      "text": "Dazu kommen wir nachher noch schnell."
+      "start": 611.01,
+      "end": 613.09,
+      "text": "das ist ein Nylon letztendlich."
     },
     {
       "i": 257,
-      "start": 664.69,
-      "end": 666.69,
-      "text": "Was wir auch haben, sind Karabiner."
+      "start": 613.09,
+      "end": 615.09,
+      "text": "Ihr seht vielleicht auch in den Bergbahnen"
     },
     {
       "i": 258,
-      "start": 666.69,
-      "end": 668.69,
-      "text": "Wir haben einerseits Stahl und Aluminium auf dem Markt."
+      "start": 615.09,
+      "end": 617.09,
+      "text": "die Werbung oben, dass man noch"
     },
     {
       "i": 259,
-      "start": 668.69,
-      "end": 670.69,
-      "text": "Hier scheiden sich"
+      "start": 617.09,
+      "end": 619.09,
+      "text": "Petflaschen verbaut,"
     },
     {
       "i": 260,
-      "start": 670.69,
-      "end": 672.69,
-      "text": "Geister. Lange Diskussion."
+      "start": 619.09,
+      "end": 621.09,
+      "text": "in der Gleitschirmübertriebung gesagt."
     },
     {
       "i": 261,
-      "start": 672.69,
-      "end": 674.69,
-      "text": "Der Aluminium hat"
+      "start": 621.09,
+      "end": 623.09,
+      "text": "Also schlussendlich einfach ein Kunststoffmix,"
     },
     {
       "i": 262,
-      "start": 674.69,
-      "end": 676.69,
-      "text": "sicher etwas Nachteile bei mechanischen"
+      "start": 623.09,
+      "end": 625.33,
+      "text": "was im Gleitschirmbereich passiert."
     },
     {
       "i": 263,
-      "start": 676.69,
-      "end": 678.69,
-      "text": "Belastungen."
+      "start": 625.33,
+      "end": 627.33,
+      "text": "Auch im Traggurtbereich"
     },
     {
       "i": 264,
-      "start": 678.69,
-      "end": 680.69,
-      "text": "Auf einem Stein ist ein Aluminium sicher"
+      "start": 627.33,
+      "end": 629.33,
+      "text": "ist das Dynema Tochnora."
     },
     {
       "i": 265,
-      "start": 680.69,
-      "end": 682.69,
-      "text": "schneller ein Deladin als bei einem Stahlkarabiner."
+      "start": 629.33,
+      "end": 631.33,
+      "text": "Von der Leine kommen wir dann gleich dazu,"
     },
     {
       "i": 266,
-      "start": 682.69,
-      "end": 684.69,
-      "text": "Allerdings halten sie"
+      "start": 631.33,
+      "end": 633.33,
+      "text": "speziell."
     },
     {
       "i": 267,
-      "start": 684.69,
-      "end": 686.69,
-      "text": "sehr, sehr lange"
+      "start": 633.33,
+      "end": 635.33,
+      "text": "Wir haben den Notschirm selbst,"
     },
     {
       "i": 268,
-      "start": 686.69,
-      "end": 688.69,
-      "text": "und gut."
+      "start": 635.33,
+      "end": 637.33,
+      "text": "der aus einem Nylon ist."
     },
     {
       "i": 269,
-      "start": 688.69,
-      "end": 690.69,
-      "text": "Im allgemeinen Brauch sagt man,"
+      "start": 637.33,
+      "end": 639.33,
+      "text": "Beim Notschirm selbst ist es so,"
     },
     {
       "i": 270,
-      "start": 690.69,
-      "end": 692.69,
-      "text": "dass man sie alle 5 Jahre wechseln sollte."
+      "start": 639.33,
+      "end": 641.33,
+      "text": "dass es eigentlich das gleiche Tuch ist,"
     },
     {
       "i": 271,
-      "start": 692.69,
-      "end": 694.88,
-      "text": "Der"
+      "start": 641.33,
+      "end": 643.33,
+      "text": "einfach viel, viel feiner gewebbt."
     },
     {
       "i": 272,
-      "start": 694.88,
-      "end": 696.88,
-      "text": "Aluminiumkarabiner"
+      "start": 643.33,
+      "end": 645.33,
+      "text": "Das ist es noch viel dünner,"
     },
     {
       "i": 273,
-      "start": 696.88,
-      "end": 698.88,
-      "text": "bei Tests schneidet sogar ganz leicht besser ab."
+      "start": 645.33,
+      "end": 647.34,
+      "text": "weil natürlich Belastung beim Notschirm ein anderer ist."
     },
     {
       "i": 274,
-      "start": 698.88,
-      "end": 700.88,
-      "text": "Wenn man einen Test gemacht hat,"
+      "start": 647.34,
+      "end": 649.34,
+      "text": "Erstens, beim Notschirm darf es dehnen."
     },
     {
       "i": 275,
-      "start": 700.88,
-      "end": 702.88,
-      "text": "hat man ein paar Millimeter Spiel auf und zu machen lassen."
+      "start": 649.34,
+      "end": 651.34,
+      "text": "Es ist nicht so wichtig, dass er voll formstabil ist,"
     },
     {
       "i": 276,
-      "start": 702.88,
-      "end": 704.88,
-      "text": "Und das ein paar tausend Mal"
+      "start": 651.34,
+      "end": 653.34,
+      "text": "weil, gerade wenn es eine Schlagöffnung gibt,"
     },
     {
       "i": 277,
-      "start": 704.88,
-      "end": 706.88,
-      "text": "hat die Festigkeit"
+      "start": 653.34,
+      "end": 655.34,
+      "text": "ist es wichtig, dass das Ganze sich dehnt."
     },
     {
       "i": 278,
-      "start": 706.88,
-      "end": 708.88,
-      "text": "beim Aluminium besser."
+      "start": 655.34,
+      "end": 657.34,
+      "text": "Das beginnt bei der Leine an, aber auch beim Tuch."
     },
     {
       "i": 279,
-      "start": 708.88,
-      "end": 710.88,
-      "text": "Aber wir sprechen hier von Festigkeit,"
+      "start": 657.34,
+      "end": 659.34,
+      "text": "Darum macht es dort weniger,"
     },
     {
       "i": 280,
-      "start": 710.88,
-      "end": 712.88,
-      "text": "die im normalen Gebrauch nicht"
+      "start": 659.34,
+      "end": 661.34,
+      "text": "wenn das Tuch nicht ganz so stabil ist."
     },
     {
       "i": 281,
-      "start": 712.88,
-      "end": 716.96,
-      "text": "unterschritten wird."
+      "start": 661.34,
+      "end": 663.34,
+      "text": "Kommen wir auch nachher noch schnell dazu."
     },
     {
       "i": 282,
-      "start": 716.96,
-      "end": 720.8,
-      "text": "Der Gleitschirm hat"
+      "start": 663.34,
+      "end": 665.34,
+      "text": "Was wir auch haben,"
     },
     {
       "i": 283,
-      "start": 720.8,
-      "end": 722.8,
-      "text": "Leine."
+      "start": 665.34,
+      "end": 667.34,
+      "text": "ist der Aluminium-Karabiner."
     },
     {
       "i": 284,
-      "start": 722.8,
-      "end": 724.8,
-      "text": "Das ist das, was auch entscheidend ist."
+      "start": 667.34,
+      "end": 669.34,
+      "text": "Wir haben einerseits Stahl und Aluminium auf dem Markt."
     },
     {
       "i": 285,
-      "start": 724.8,
-      "end": 726.8,
-      "text": "Mit dieser Leine kann man"
+      "start": 669.34,
+      "end": 671.34,
+      "text": "Hier scheiden sich die Geister."
     },
     {
       "i": 286,
-      "start": 726.8,
-      "end": 728.8,
-      "text": "viel machen, indem man Materialmix wählt."
+      "start": 671.34,
+      "end": 673.34,
+      "text": "Eine lange Diskussion,"
     },
     {
       "i": 287,
-      "start": 728.8,
-      "end": 730.98,
-      "text": "Und man versucht,"
+      "start": 673.34,
+      "end": 675.34,
+      "text": "wer denn wirklich besser ist."
     },
     {
       "i": 288,
-      "start": 730.98,
-      "end": 732.98,
-      "text": "die Besten herauszuholen."
+      "start": 675.34,
+      "end": 677.34,
+      "text": "Der Aluminium hat sicher ein wenig Nachteile"
     },
     {
       "i": 289,
-      "start": 732.98,
-      "end": 734.98,
-      "text": "Der Aluminiumkarabiner fliegt"
+      "start": 677.34,
+      "end": 679.34,
+      "text": "bei mechanischen Belastungen."
     },
     {
       "i": 290,
-      "start": 734.98,
-      "end": 736.98,
-      "text": "so lange, wie er neu gebaut wurde."
+      "start": 679.34,
+      "end": 681.34,
+      "text": "Wenn wir ihn auf einen Stein halten,"
     },
     {
       "i": 291,
-      "start": 736.98,
-      "end": 738.98,
-      "text": "Bei Anspruchungen gibt es da"
+      "start": 681.34,
+      "end": 683.34,
+      "text": "ist ein Aluminium sicher schneller eine Teledyn"
     },
     {
       "i": 292,
-      "start": 738.98,
-      "end": 740.98,
-      "text": "irgendeinen Unterschied."
+      "start": 683.34,
+      "end": 685.34,
+      "text": "als bei einem Stahlkarabiner."
     },
     {
       "i": 293,
-      "start": 740.98,
-      "end": 742.98,
-      "text": "Gewisse Leine schrumpfen"
+      "start": 685.34,
+      "end": 687.34,
+      "text": "Allerdings halten diese sehr, sehr lange und gut."
     },
     {
       "i": 294,
-      "start": 742.98,
-      "end": 744.98,
-      "text": "und gewisse Leine dehnen."
+      "start": 687.34,
+      "end": 689.34,
+      "text": "Und so im allgemeinen Gebrauch"
     },
     {
       "i": 295,
-      "start": 744.98,
-      "end": 746.98,
-      "text": "Darum ist es wichtig, dort einen Supermix zu haben."
+      "start": 689.34,
+      "end": 691.34,
+      "text": "sagen wir,"
     },
     {
       "i": 296,
-      "start": 746.98,
-      "end": 748.98,
-      "text": "Wir fangen aber zuerst an,"
+      "start": 691.34,
+      "end": 693.34,
+      "text": "wir müssen jetzt etwa alle fünf Jahre wechseln."
     },
     {
       "i": 297,
-      "start": 748.98,
-      "end": 750.98,
-      "text": "beim Leinen Materialmantel."
+      "start": 693.34,
+      "end": 695.52,
+      "text": "Der Aluminium-Karabiner"
     },
     {
       "i": 298,
-      "start": 750.98,
-      "end": 752.98,
-      "text": "Weil jede Leine,"
+      "start": 695.52,
+      "end": 697.52,
+      "text": "bei Tests schneidet sogar ganz leicht besser ab."
     },
     {
       "i": 299,
-      "start": 752.98,
-      "end": 755.38,
-      "text": "die ummantelt ist,"
+      "start": 697.52,
+      "end": 699.52,
+      "text": "Nämlich, wenn man den Test gemacht hat,"
     },
     {
       "i": 300,
-      "start": 755.38,
-      "end": 757.38,
-      "text": "ist letztendlich die Leine innen selber"
+      "start": 699.52,
+      "end": 701.52,
+      "text": "wo man ein paar Millimeter Spiel"
     },
     {
       "i": 301,
-      "start": 757.38,
-      "end": 759.38,
-      "text": "und der Mantel rundherum."
+      "start": 701.52,
+      "end": 703.52,
+      "text": "auf und zu lassen hat machen."
     },
     {
       "i": 302,
-      "start": 759.38,
-      "end": 761.38,
-      "text": "Den Mantel machen wir aus ganz einfachen Gründen."
+      "start": 703.52,
+      "end": 705.52,
+      "text": "Und das paar tausend Mal"
     },
     {
       "i": 303,
-      "start": 761.38,
-      "end": 763.38,
-      "text": "Vor allem die mechanische Belastung."
+      "start": 705.52,
+      "end": 707.52,
+      "text": "hat schlussendlich die Festigkeit beim Aluminium besser gewesen."
     },
     {
       "i": 304,
-      "start": 763.38,
-      "end": 765.38,
-      "text": "Wenn ich über einen Stein"
+      "start": 707.52,
+      "end": 709.52,
+      "text": "Aber wir reden hier von Festigkeit,"
     },
     {
       "i": 305,
-      "start": 765.38,
-      "end": 767.38,
-      "text": "oder die Leine untereinander reibe,"
+      "start": 709.52,
+      "end": 711.52,
+      "text": "die nicht unterschritten wird"
     },
     {
       "i": 306,
-      "start": 767.38,
-      "end": 769.38,
-      "text": "habe ich eine Schutzschicht drüber."
+      "start": 711.52,
+      "end": 713.52,
+      "text": "im normalen Gebrauch."
     },
     {
       "i": 307,
-      "start": 769.38,
-      "end": 771.38,
-      "text": "Das funktioniert sehr gut."
+      "start": 713.52,
+      "end": 716.9,
+      "text": "Genau."
     },
     {
       "i": 308,
-      "start": 771.38,
-      "end": 773.38,
-      "text": "Und ich kann diese saubere Farbe trennen."
+      "start": 716.9,
+      "end": 720.67,
+      "text": "Der Bleitschirm hat viele Leinen."
     },
     {
       "i": 309,
-      "start": 773.38,
-      "end": 775.38,
-      "text": "Bei Schuhschirmen haben wir oft"
+      "start": 720.67,
+      "end": 722.67,
+      "text": "Das ist das,"
     },
     {
       "i": 310,
-      "start": 775.38,
-      "end": 777.38,
-      "text": "in der A-Bereiche rote,"
+      "start": 722.67,
+      "end": 724.67,
+      "text": "was auch entscheidend ist."
     },
     {
       "i": 311,
-      "start": 777.38,
-      "end": 779.38,
-      "text": "und dann andere Farbe,"
+      "start": 724.67,
+      "end": 726.67,
+      "text": "Weil mit dieser Leine kann man einerseits"
     },
     {
       "i": 312,
-      "start": 779.38,
-      "end": 781.38,
-      "text": "dass man von Anfang an den Anfänger sieht,"
+      "start": 726.67,
+      "end": 728.67,
+      "text": "viel machen, indem man Materialmix wählt."
     },
     {
       "i": 313,
-      "start": 781.38,
-      "end": 783.38,
-      "text": "die Leine muss ich jetzt in die Hand nehmen"
+      "start": 728.67,
+      "end": 730.67,
+      "text": "Und wir versuchen natürlich"
     },
     {
       "i": 314,
-      "start": 783.38,
-      "end": 785.38,
-      "text": "und farblich sauber trennt ist."
+      "start": 730.67,
+      "end": 732.67,
+      "text": "das Beste daraus zu holen,"
     },
     {
       "i": 315,
-      "start": 785.38,
-      "end": 787.38,
-      "text": "Das Ganze hat einen Nachteil,"
+      "start": 732.67,
+      "end": 734.67,
+      "text": "dass jeder Schirm möglichst lang so fliegt,"
     },
     {
       "i": 316,
-      "start": 787.38,
-      "end": 789.38,
-      "text": "dass die Leine viel dicker macht"
+      "start": 734.67,
+      "end": 736.67,
+      "text": "wie er neu gebaut worden ist."
     },
     {
       "i": 317,
-      "start": 789.38,
-      "end": 791.38,
-      "text": "und mit der Luftwiderstand"
+      "start": 736.67,
+      "end": 738.67,
+      "text": "Weil dort bei Anspruchung gibt es da irgendeinen"
     },
     {
       "i": 318,
-      "start": 791.38,
-      "end": 793.38,
-      "text": "natürlich auch grösser ist."
+      "start": 738.67,
+      "end": 740.67,
+      "text": "Unterschied. Gewisse Leinen"
     },
     {
       "i": 319,
-      "start": 793.38,
-      "end": 795.38,
-      "text": "Die Luftwiderstand ist etwas,"
+      "start": 740.67,
+      "end": 742.67,
+      "text": "schrumpfen ein wenig, gewisse Leinen dehnen"
     },
     {
       "i": 320,
-      "start": 795.38,
-      "end": 797.38,
-      "text": "das wir gering halten."
+      "start": 742.67,
+      "end": 744.67,
+      "text": "ein wenig und darum ist es wichtig,"
     },
     {
       "i": 321,
-      "start": 797.38,
-      "end": 799.38,
-      "text": "Darum machen wir schlesendlich auch"
+      "start": 744.67,
+      "end": 746.67,
+      "text": "dort einen sauberen Mix zu haben."
     },
     {
       "i": 322,
-      "start": 799.38,
-      "end": 801.71,
-      "text": "die Leine, die nicht ummantelt sind,"
+      "start": 746.67,
+      "end": 748.67,
+      "text": "Wir fangen aber zuerst an beim Leinematerial,"
     },
     {
       "i": 323,
-      "start": 801.71,
-      "end": 803.71,
-      "text": "die dann so ausgesend,"
+      "start": 748.67,
+      "end": 750.67,
+      "text": "beim Mantel."
     },
     {
       "i": 324,
-      "start": 803.71,
-      "end": 806.34,
-      "text": "die kein Mantel haben."
+      "start": 750.67,
+      "end": 752.67,
+      "text": "Weil jede Leine, die ummantelt ist,"
     },
     {
       "i": 325,
-      "start": 806.34,
-      "end": 808.34,
-      "text": "Die haben natürlich auch wieder Vorteile,"
+      "start": 752.67,
+      "end": 754.94,
+      "text": "das zeige ich gleich so,"
     },
     {
       "i": 326,
-      "start": 808.34,
-      "end": 810.34,
-      "text": "dass wir eben rings Gewicht,"
+      "start": 754.94,
+      "end": 756.94,
+      "text": "ist schlussendlich die Leine innen selber"
     },
     {
       "i": 327,
-      "start": 810.34,
-      "end": 812.34,
-      "text": "wenig Widerstand,"
+      "start": 756.94,
+      "end": 758.94,
+      "text": "und der Mantel rundherum."
     },
     {
       "i": 328,
-      "start": 812.34,
-      "end": 814.34,
-      "text": "und verschiedene Material,"
+      "start": 758.94,
+      "end": 760.94,
+      "text": "Den Mantel macht man aus ganz einfachen Gründen,"
     },
     {
       "i": 329,
-      "start": 814.34,
-      "end": 816.34,
-      "text": "werden da auch verbaut."
+      "start": 760.94,
+      "end": 762.94,
+      "text": "nämlich vor allem die mechanische Belastung."
     },
     {
       "i": 330,
-      "start": 816.34,
-      "end": 818.34,
-      "text": "Wir nehmen zuerst"
+      "start": 762.94,
+      "end": 764.94,
+      "text": "Sprich, wenn ich natürlich über einen Stein ziehe"
     },
     {
       "i": 331,
-      "start": 818.34,
-      "end": 820.54,
-      "text": "das, was wir hier sehen."
+      "start": 764.94,
+      "end": 766.94,
+      "text": "oder die Leine untereinander reibe,"
     },
     {
       "i": 332,
-      "start": 820.54,
-      "end": 822.75,
-      "text": "Das ist Los Angeles Polyethylene,"
+      "start": 766.94,
+      "end": 768.94,
+      "text": "habe ich hier eine Schutzschicht drüber."
     },
     {
       "i": 333,
-      "start": 822.75,
-      "end": 824.75,
-      "text": "ein Kunststoff."
+      "start": 768.94,
+      "end": 770.94,
+      "text": "Das funktioniert sehr gut."
     },
     {
       "i": 334,
-      "start": 824.75,
-      "end": 826.86,
-      "text": "Polyethylene"
+      "start": 770.94,
+      "end": 772.94,
+      "text": "Und ich kann sie sauber farblich trennen."
     },
     {
       "i": 335,
-      "start": 826.86,
-      "end": 828.86,
-      "text": "ist Los Angeles Polyethylene"
+      "start": 772.94,
+      "end": 774.94,
+      "text": "Gerade bei Schulschirmen haben wir oftmals"
     },
     {
       "i": 336,
-      "start": 828.86,
-      "end": 830.86,
-      "text": "und hat den grossen Vorteil,"
+      "start": 774.94,
+      "end": 776.94,
+      "text": "in dem A-Bereich rote und dann andere Farben,"
     },
     {
       "i": 337,
-      "start": 830.86,
-      "end": 832.86,
-      "text": "dass sie sehr gut"
+      "start": 776.94,
+      "end": 778.94,
+      "text": "dass man von Anfang an den Anfänger sieht,"
     },
     {
       "i": 338,
-      "start": 832.86,
-      "end": 834.86,
-      "text": "im Festigkeitsverhältnis ist."
+      "start": 778.94,
+      "end": 780.94,
+      "text": "aha, diese Leine muss ich jetzt"
     },
     {
       "i": 339,
-      "start": 834.86,
-      "end": 836.86,
-      "text": "Sie ist leicht und hält sehr viel."
+      "start": 780.94,
+      "end": 782.94,
+      "text": "für das in die Hand nehmen"
     },
     {
       "i": 340,
-      "start": 836.86,
-      "end": 838.86,
-      "text": "Die Aufhabenständigkeit ist hoch."
+      "start": 782.94,
+      "end": 784.94,
+      "text": "und farblich sauber getrennt ist."
     },
     {
       "i": 341,
-      "start": 838.86,
-      "end": 840.86,
-      "text": "Die Alterung ist auch sehr gut"
+      "start": 784.94,
+      "end": 786.94,
+      "text": "Das hat natürlich auch einen kleinen Nachteil,"
     },
     {
       "i": 342,
-      "start": 840.86,
-      "end": 842.86,
-      "text": "und man kann sie sehr gut verarbeiten."
+      "start": 786.94,
+      "end": 788.94,
+      "text": "nämlich dass die Leine viel dicker macht"
     },
     {
       "i": 343,
-      "start": 842.86,
-      "end": 844.86,
-      "text": "Sie ist nicht ganz so sensibel,"
+      "start": 788.94,
+      "end": 790.94,
+      "text": "und somit der Luftwiderstand"
     },
     {
       "i": 344,
-      "start": 844.86,
-      "end": 847.55,
-      "text": "wenn man nicht super"
+      "start": 790.94,
+      "end": 792.94,
+      "text": "natürlich auch grösser ist."
     },
     {
       "i": 345,
-      "start": 847.55,
-      "end": 849.55,
-      "text": "spitzig ist."
+      "start": 792.94,
+      "end": 794.94,
+      "text": "Und gerade der Luftwiderstand ist etwas,"
     },
     {
       "i": 346,
-      "start": 849.55,
-      "end": 851.55,
-      "text": "Mit dieser kannst du Relief gut nähen"
+      "start": 794.94,
+      "end": 796.94,
+      "text": "das man möglichst wenig halten will."
     },
     {
       "i": 347,
-      "start": 851.55,
-      "end": 853.76,
-      "text": "und sie lässt sich gut bearbeiten."
+      "start": 796.94,
+      "end": 798.94,
+      "text": "Darum machen wir schlussendlich auch Leinen,"
     },
     {
       "i": 348,
-      "start": 853.76,
-      "end": 855.76,
-      "text": "Ein kleiner Nachteil hat sie,"
+      "start": 798.94,
+      "end": 801.25,
+      "text": "die nicht ummantelt sind."
     },
     {
       "i": 349,
-      "start": 855.76,
-      "end": 857.76,
-      "text": "dass sie bei der Belastung"
+      "start": 801.25,
+      "end": 803.25,
+      "text": "Die dann so aussehen,"
     },
     {
       "i": 350,
-      "start": 857.76,
-      "end": 859.76,
-      "text": "beim Checken,"
+      "start": 803.25,
+      "end": 805.84,
+      "text": "die keinen Mantel haben."
     },
     {
       "i": 351,
-      "start": 859.76,
-      "end": 861.76,
-      "text": "wenn man die Leine ausmesst,"
+      "start": 805.84,
+      "end": 807.84,
+      "text": "Die haben natürlich auch den Vorteil,"
     },
     {
       "i": 352,
-      "start": 861.76,
-      "end": 863.76,
-      "text": "und vor allem bei der Nichtbelastung"
+      "start": 807.84,
+      "end": 809.84,
+      "text": "dass wir sehr geringes Gewicht haben,"
     },
     {
       "i": 353,
-      "start": 863.76,
-      "end": 865.76,
-      "text": "schrumpft."
+      "start": 809.84,
+      "end": 811.84,
+      "text": "wenig Widerstand"
     },
     {
       "i": 354,
-      "start": 865.76,
-      "end": 868.67,
-      "text": "Das heisst, wenn natürlich"
+      "start": 811.84,
+      "end": 813.84,
+      "text": "und verschiedene Materialien werden hier aufgebaut."
     },
     {
       "i": 355,
-      "start": 868.67,
-      "end": 871.36,
-      "text": "der Gleitschirm fliegt,"
+      "start": 813.84,
+      "end": 815.84,
+      "text": "Wir nehmen zuerst den Markennamen"
     },
     {
       "i": 356,
-      "start": 871.36,
-      "end": 873.36,
-      "text": "hat er ungefähr 80"
+      "start": 815.84,
+      "end": 817.84,
+      "text": "der Leine Dynema."
     },
     {
       "i": 357,
-      "start": 873.36,
-      "end": 875.36,
-      "text": "80% der ganze Belastung"
+      "start": 817.84,
+      "end": 819.98,
+      "text": "Das ist die weisse Leine,"
     },
     {
       "i": 358,
-      "start": 875.36,
-      "end": 877.36,
-      "text": "auf A- und B-Ebene"
+      "start": 819.98,
+      "end": 821.98,
+      "text": "die wir hier sehen."
     },
     {
       "i": 359,
-      "start": 877.36,
-      "end": 879.36,
-      "text": "und die restlichen 20%"
+      "start": 821.98,
+      "end": 823.98,
+      "text": "Sie ist aus enterem Polyethylen,"
     },
     {
       "i": 360,
-      "start": 879.36,
-      "end": 881.36,
-      "text": "sind die restlichen 20%."
+      "start": 823.98,
+      "end": 825.98,
+      "text": "ein Kunststoff und die hat"
     },
     {
       "i": 361,
-      "start": 881.36,
-      "end": 883.36,
-      "text": "Das heisst, wenn man"
+      "start": 825.98,
+      "end": 827.98,
+      "text": "eine gute Form."
     },
     {
       "i": 362,
-      "start": 883.36,
-      "end": 885.66,
-      "text": "diese Leine verbaut"
+      "start": 827.98,
+      "end": 829.98,
+      "text": "Polyethylen ist aus enterem Kunststoff"
     },
     {
       "i": 363,
-      "start": 885.66,
-      "end": 887.66,
-      "text": "im C- und D-Bereich, wo sie kaum"
+      "start": 829.98,
+      "end": 831.98,
+      "text": "und die hat den grossen Vorteil,"
     },
     {
       "i": 364,
-      "start": 887.66,
-      "end": 889.66,
-      "text": "belastet werden,"
+      "start": 831.98,
+      "end": 833.98,
+      "text": "dass sie ein sehr gutes Gewicht-"
     },
     {
       "i": 365,
-      "start": 889.66,
-      "end": 891.66,
-      "text": "dann haben wir auch"
+      "start": 833.98,
+      "end": 835.98,
+      "text": "und Festigkeitsverhältnis ist."
     },
     {
       "i": 366,
-      "start": 891.66,
-      "end": 893.66,
-      "text": "bei 3-500 Gramm pro Leine"
+      "start": 835.98,
+      "end": 837.98,
+      "text": "Sie ist leicht und hält doch sehr sehr viel."
     },
     {
       "i": 367,
-      "start": 893.66,
-      "end": 897.18,
-      "text": "einen Schrumpf verdient."
+      "start": 837.98,
+      "end": 839.98,
+      "text": "Die UV-Beständigkeit ist hoch,"
     },
     {
       "i": 368,
-      "start": 897.18,
-      "end": 899.18,
-      "text": "Die andere, die auf dem Markt ist,"
+      "start": 839.98,
+      "end": 841.98,
+      "text": "die Alterung ist auch sehr gut"
     },
     {
       "i": 369,
-      "start": 899.18,
-      "end": 902.38,
-      "text": "ist die Aramid-Leine."
+      "start": 841.98,
+      "end": 843.98,
+      "text": "und man kann sie sehr gut verarbeiten."
     },
     {
       "i": 370,
-      "start": 902.38,
-      "end": 904.75,
-      "text": "Technora Kevlar,"
+      "start": 843.98,
+      "end": 846.58,
+      "text": "Sie hat eine super genaue Nadel,"
     },
     {
       "i": 371,
-      "start": 904.75,
-      "end": 906.75,
-      "text": "der Markenname,"
+      "start": 846.58,
+      "end": 848.58,
+      "text": "die super spitz ist."
     },
     {
       "i": 372,
-      "start": 906.75,
-      "end": 908.75,
-      "text": "ist sehr langenstabil"
+      "start": 848.58,
+      "end": 850.58,
+      "text": "Mit dieser kann man relativ gut nähen"
     },
     {
       "i": 373,
-      "start": 908.75,
-      "end": 910.75,
-      "text": "und hat eine brünnliche Farbe."
+      "start": 850.58,
+      "end": 852.58,
+      "text": "und sie lässt sich gut bearbeiten."
     },
     {
       "i": 374,
-      "start": 910.75,
-      "end": 914.02,
-      "text": "Und dort ist ganz klar"
+      "start": 852.58,
+      "end": 854.58,
+      "text": "Kleiner Nachteil hat sie,"
     },
     {
       "i": 375,
-      "start": 914.02,
-      "end": 916.02,
-      "text": "der grosse Nachteil, dass sie"
+      "start": 854.58,
+      "end": 856.58,
+      "text": "dass sie bei der Belastung auch dehnt."
     },
     {
       "i": 376,
-      "start": 916.02,
-      "end": 918.45,
-      "text": "knickerempfindlich ist."
+      "start": 856.58,
+      "end": 858.58,
+      "text": "Das sieht man beim Checken,"
     },
     {
       "i": 377,
-      "start": 918.45,
-      "end": 920.45,
-      "text": "Wenn sie knickerempfindlich ist,"
+      "start": 858.58,
+      "end": 860.58,
+      "text": "wenn man die Leine ausmessen muss."
     },
     {
       "i": 378,
-      "start": 920.45,
-      "end": 922.45,
-      "text": "dann muss man gut darauf schauen,"
+      "start": 860.58,
+      "end": 862.58,
+      "text": "Und vor allem bei der Nichtbelastung"
     },
     {
       "i": 379,
-      "start": 922.45,
-      "end": 924.66,
-      "text": "wo man sie verbaut."
+      "start": 862.58,
+      "end": 864.58,
+      "text": "schrumpft sie auch ein wenig."
     },
     {
       "i": 380,
-      "start": 924.66,
-      "end": 926.8,
-      "text": "Wenn am Schirm ein Teil ist,"
+      "start": 864.58,
+      "end": 866.58,
+      "text": "Das heisst, wenn natürlich"
     },
     {
       "i": 381,
-      "start": 926.8,
-      "end": 928.8,
-      "text": "wo man sagt, dort wird sie"
+      "start": 866.58,
+      "end": 869.49,
+      "text": "der Gleitschirm fliegt,"
     },
     {
       "i": 382,
-      "start": 928.8,
-      "end": 930.8,
-      "text": "eher stark belastet,"
+      "start": 869.49,
+      "end": 872.11,
+      "text": "hat er ungefähr"
     },
     {
       "i": 383,
-      "start": 930.8,
-      "end": 932.8,
-      "text": "dann ist es wichtig, dass sie dort"
+      "start": 872.11,
+      "end": 874.11,
+      "text": "80% der ganzen Belastung"
     },
     {
       "i": 384,
-      "start": 932.8,
-      "end": 935.22,
-      "text": "un-empfindlich ist"
+      "start": 874.11,
+      "end": 876.11,
+      "text": "auf A- und B-Ebene."
     },
     {
       "i": 385,
-      "start": 935.22,
-      "end": 937.22,
-      "text": "gegenüber dem Knicken"
+      "start": 876.11,
+      "end": 878.11,
+      "text": "Und hinten auf C- oder D-Ebene"
     },
     {
       "i": 386,
-      "start": 937.22,
-      "end": 939.22,
-      "text": "oder eben auch vor allem"
+      "start": 878.11,
+      "end": 880.11,
+      "text": "sind die restlichen 20%."
     },
     {
       "i": 387,
-      "start": 939.22,
-      "end": 941.22,
-      "text": "die Längestabilität."
+      "start": 880.11,
+      "end": 882.11,
+      "text": "Das heisst natürlich,"
     },
     {
       "i": 388,
-      "start": 941.22,
-      "end": 943.22,
-      "text": "Deshalb ist es immer ein Mix zwischen"
+      "start": 882.11,
+      "end": 884.42,
+      "text": "wenn man diese Leine verbaut"
     },
     {
       "i": 389,
-      "start": 943.22,
-      "end": 945.42,
-      "text": "Aramid-Leine"
+      "start": 884.42,
+      "end": 886.42,
+      "text": "im C- und D-Bereich,"
     },
     {
       "i": 390,
-      "start": 945.42,
-      "end": 947.42,
-      "text": "und Dynema-Leine,"
+      "start": 886.42,
+      "end": 888.42,
+      "text": "wo sie kaum belastet wird,"
     },
     {
       "i": 391,
-      "start": 947.42,
-      "end": 949.42,
-      "text": "dass man vielleicht"
+      "start": 888.42,
+      "end": 890.42,
+      "text": "da sind wir dann vielleicht"
     },
     {
       "i": 392,
-      "start": 949.42,
-      "end": 951.42,
-      "text": "im Bereich"
+      "start": 890.42,
+      "end": 892.42,
+      "text": "noch bei 300-500g pro Leine,"
     },
     {
       "i": 393,
-      "start": 951.42,
-      "end": 953.42,
-      "text": "einfach"
+      "start": 892.42,
+      "end": 894.42,
+      "text": "dann haben wir dort eher mal"
     },
     {
       "i": 394,
-      "start": 953.42,
-      "end": 955.42,
-      "text": "den Mix"
+      "start": 894.42,
+      "end": 897.9,
+      "text": "einen Schrumpf drin."
     },
     {
       "i": 395,
-      "start": 955.42,
-      "end": 957.42,
-      "text": "so hat, dass man ihn"
+      "start": 897.9,
+      "end": 901.07,
+      "text": "Die andere, die auf dem Markt ist,"
     },
     {
       "i": 396,
-      "start": 957.42,
-      "end": 960.82,
-      "text": "im Griff hat."
+      "start": 901.07,
+      "end": 903.44,
+      "text": "ist die Aramid-Leine Technora Kevlar."
     },
     {
       "i": 397,
-      "start": 960.82,
-      "end": 962.82,
-      "text": "Die Auffallbelastigkeit"
+      "start": 903.44,
+      "end": 905.44,
+      "text": "Der Markenname hat eine geringe Dehne,"
     },
     {
       "i": 398,
-      "start": 962.82,
-      "end": 964.82,
-      "text": "ist ein Nachteil, darum"
+      "start": 905.44,
+      "end": 907.44,
+      "text": "ist sehr länger stabil"
     },
     {
       "i": 399,
-      "start": 964.82,
-      "end": 966.82,
-      "text": "man sie oftmals vermanteln."
+      "start": 907.44,
+      "end": 909.44,
+      "text": "und ein hoher Schmelzpunkt."
     },
     {
       "i": 400,
-      "start": 966.82,
-      "end": 968.82,
-      "text": "Oder wenn man sie nicht vermantelt,"
+      "start": 909.44,
+      "end": 912.64,
+      "text": "Sie hat eine etwas brünliche Farbe."
     },
     {
       "i": 401,
-      "start": 968.82,
-      "end": 970.82,
-      "text": "kann man sie auch ein bisschen"
+      "start": 912.64,
+      "end": 914.64,
+      "text": "Und dort ist ganz klar der grosse"
     },
     {
       "i": 402,
-      "start": 970.82,
-      "end": 972.82,
-      "text": "einfärben, damit auch die farbliche"
+      "start": 914.64,
+      "end": 916.64,
+      "text": "Nachteil, dass sie etwas knickerpfindlich ist."
     },
     {
       "i": 403,
-      "start": 972.82,
-      "end": 974.82,
-      "text": "Training stattfindet."
+      "start": 916.64,
+      "end": 919.07,
+      "text": "Und gerade wenn sie"
     },
     {
       "i": 404,
-      "start": 974.82,
-      "end": 976.82,
-      "text": "Das ist die Kunst, dass man die"
+      "start": 919.07,
+      "end": 921.07,
+      "text": "knickerpfindlich ist,"
     },
     {
       "i": 405,
-      "start": 976.82,
-      "end": 978.82,
-      "text": "Unermantel so beschichten kann,"
+      "start": 921.07,
+      "end": 923.07,
+      "text": "muss man gut darauf schauen,"
     },
     {
       "i": 406,
-      "start": 978.82,
-      "end": 980.82,
-      "text": "dass die Auffallbelastigkeit"
+      "start": 923.07,
+      "end": 925.07,
+      "text": "wo man sie verbaut."
     },
     {
       "i": 407,
-      "start": 980.82,
-      "end": 982.82,
+      "start": 925.07,
+      "end": 927.22,
+      "text": "Weil, wenn natürlich am Schirm"
+    },
+    {
+      "i": 408,
+      "start": 927.22,
+      "end": 929.22,
+      "text": "ein Teil ist, wo man sagt,"
+    },
+    {
+      "i": 409,
+      "start": 929.22,
+      "end": 931.22,
+      "text": "es wird jetzt eher stark belastet,"
+    },
+    {
+      "i": 410,
+      "start": 931.22,
+      "end": 933.46,
+      "text": "dann ist es wichtig,"
+    },
+    {
+      "i": 411,
+      "start": 933.46,
+      "end": 935.46,
+      "text": "dass sie dort unempfindlich ist"
+    },
+    {
+      "i": 412,
+      "start": 935.46,
+      "end": 937.46,
+      "text": "gegenüber diesem Knicken"
+    },
+    {
+      "i": 413,
+      "start": 937.46,
+      "end": 939.46,
+      "text": "oder eben auch vor allem"
+    },
+    {
+      "i": 414,
+      "start": 939.46,
+      "end": 941.46,
+      "text": "einer geringen Stabilität."
+    },
+    {
+      "i": 415,
+      "start": 941.46,
+      "end": 943.46,
+      "text": "Darum ist es eigentlich immer ein Mix"
+    },
+    {
+      "i": 416,
+      "start": 943.46,
+      "end": 945.6,
+      "text": "zwischen der Aramid-Leine"
+    },
+    {
+      "i": 417,
+      "start": 945.6,
+      "end": 947.6,
+      "text": "und der Dyneema-Leine,"
+    },
+    {
+      "i": 418,
+      "start": 947.6,
+      "end": 949.6,
+      "text": "dass man sagt, man tut im oberen Bereich"
+    },
+    {
+      "i": 419,
+      "start": 949.6,
+      "end": 951.6,
+      "text": "vielleicht eher in die Dyneema hinein"
+    },
+    {
+      "i": 420,
+      "start": 951.6,
+      "end": 953.6,
+      "text": "und im unteren eher in die Aramid-Leine hinein."
+    },
+    {
+      "i": 421,
+      "start": 953.6,
+      "end": 955.6,
+      "text": "Einfach, um den Mix möglichst so zu haben,"
+    },
+    {
+      "i": 422,
+      "start": 955.6,
+      "end": 957.6,
+      "text": "dass man den schlussendlich im Griff hat."
+    },
+    {
+      "i": 423,
+      "start": 957.6,
+      "end": 960.93,
+      "text": "Die UV-Belastung"
+    },
+    {
+      "i": 424,
+      "start": 960.93,
+      "end": 962.93,
+      "text": "ist ein kleiner Nachteil."
+    },
+    {
+      "i": 425,
+      "start": 962.93,
+      "end": 964.93,
+      "text": "Darum vermantelt man sie oftmals."
+    },
+    {
+      "i": 426,
+      "start": 964.93,
+      "end": 966.93,
+      "text": "Oder wenn man sie nicht vermantelt,"
+    },
+    {
+      "i": 427,
+      "start": 966.93,
+      "end": 968.93,
+      "text": "gibt es eine solche Beschichtung,"
+    },
+    {
+      "i": 428,
+      "start": 968.93,
+      "end": 970.93,
+      "text": "wo man sie mittlerweile auch ein wenig einfärben kann."
+    },
+    {
+      "i": 429,
+      "start": 970.93,
+      "end": 972.93,
+      "text": "So findet die farbliche Trennung statt."
+    },
+    {
+      "i": 430,
+      "start": 972.93,
+      "end": 974.93,
+      "text": "Das ist eigentlich die Kunst,"
+    },
+    {
+      "i": 431,
+      "start": 974.93,
+      "end": 976.93,
+      "text": "dass man die Unmantel-Leine so beschichten kann,"
+    },
+    {
+      "i": 432,
+      "start": 976.93,
+      "end": 978.93,
+      "text": "dass trotzdem die UV-Belastung"
+    },
+    {
+      "i": 433,
+      "start": 978.93,
+      "end": 980.93,
       "text": "sehr gut ist und funktioniert."
     }
   ]
