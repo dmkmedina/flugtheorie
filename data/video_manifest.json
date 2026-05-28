@@ -1,6 +1,8 @@
 {
-  "source": "https://www.freewings.ch/shv-theoriekurs",
-  "fetched_at": "2026-05-28T06:27:00.987Z",
+  "sources": {
+    "freewings": "https://www.freewings.ch/shv-theoriekurs",
+    "airactive": "https://www.air-active.ch/academy"
+  },
   "decks": [
     {
       "id": "aerodynamik",
@@ -10,32 +12,30 @@
         {
           "id": "aerodynamik_0",
           "deck_id": "aerodynamik",
-          "deck_title": "Aerodynamik",
-          "deck_icon": "📐",
           "part": 0,
+          "provider": "freewings",
+          "provider_label": "Free Wings",
           "title": "Aerodynamik — Part 1",
           "mp4_url": "https://video.wixstatic.com/video/2c6d0a_2b947e967c544c9fb058e7c3232f35ab/1080p/mp4/file.mp4",
+          "poster": null,
           "duration_seconds": null,
           "duration_label": null,
           "has_de_vtt": false,
-          "has_en_vtt": false,
-          "de_vtt_path": null,
-          "en_vtt_path": null
+          "has_en_vtt": false
         },
         {
           "id": "aerodynamik_1",
           "deck_id": "aerodynamik",
-          "deck_title": "Aerodynamik",
-          "deck_icon": "📐",
           "part": 1,
+          "provider": "freewings",
+          "provider_label": "Free Wings",
           "title": "Aerodynamik — Part 2",
           "mp4_url": "https://video.wixstatic.com/video/2c6d0a_5258724a6bd5464b8a4acb42811fabeb/1080p/mp4/file.mp4",
-          "duration_seconds": null,
-          "duration_label": null,
-          "has_de_vtt": false,
-          "has_en_vtt": false,
-          "de_vtt_path": null,
-          "en_vtt_path": null
+          "poster": null,
+          "duration_seconds": 1386.5813125,
+          "duration_label": "23:06",
+          "has_de_vtt": true,
+          "has_en_vtt": false
         }
       ]
     },
@@ -47,32 +47,72 @@
         {
           "id": "meteo_0",
           "deck_id": "meteo",
-          "deck_title": "Meteo",
-          "deck_icon": "🌤️",
           "part": 0,
+          "provider": "freewings",
+          "provider_label": "Free Wings",
           "title": "Meteo — Part 1",
           "mp4_url": "https://video.wixstatic.com/video/2c6d0a_647e78113f34433a97e060e2be558653/1080p/mp4/file.mp4",
+          "poster": null,
           "duration_seconds": null,
           "duration_label": null,
           "has_de_vtt": false,
-          "has_en_vtt": false,
-          "de_vtt_path": null,
-          "en_vtt_path": null
+          "has_en_vtt": false
         },
         {
           "id": "meteo_1",
           "deck_id": "meteo",
-          "deck_title": "Meteo",
-          "deck_icon": "🌤️",
           "part": 1,
+          "provider": "freewings",
+          "provider_label": "Free Wings",
           "title": "Meteo — Part 2",
           "mp4_url": "https://video.wixstatic.com/video/2c6d0a_7bfb4c9a1b144437856a5b04b68e1490/1080p/mp4/file.mp4",
+          "poster": null,
           "duration_seconds": null,
           "duration_label": null,
           "has_de_vtt": false,
-          "has_en_vtt": false,
-          "de_vtt_path": null,
-          "en_vtt_path": null
+          "has_en_vtt": false
+        },
+        {
+          "id": "aa_meteo_teil_1",
+          "deck_id": "meteo",
+          "part": 0,
+          "provider": "airactive",
+          "provider_label": "Air Active",
+          "title": "Meteo Teil 1",
+          "mp4_url": "https://video.wixstatic.com/video/f2f7a2_4a09b26f749040e7af899a247ed8ded9/720p/mp4/file.mp4",
+          "poster": "https://static.wixstatic.com/media/f2f7a2_4a09b26f749040e7af899a247ed8ded9f003.jpg/v1/fill/w_277,h_370,q_90,enc_avif,quality_auto/f2f7a2_4a09b26f749040e7af899a247ed8ded9f003.jpg",
+          "duration_seconds": 2143.402,
+          "duration_label": "35:43",
+          "has_de_vtt": false,
+          "has_en_vtt": false
+        },
+        {
+          "id": "aa_meteo_teil_2",
+          "deck_id": "meteo",
+          "part": 1,
+          "provider": "airactive",
+          "provider_label": "Air Active",
+          "title": "Meteo Teil 2",
+          "mp4_url": "https://video.wixstatic.com/video/f2f7a2_33c36a6d26cc428b8e38db7048527681/720p/mp4/file.mp4",
+          "poster": "https://static.wixstatic.com/media/f2f7a2_33c36a6d26cc428b8e38db7048527681f003.jpg/v1/fill/w_278,h_370,q_90,enc_avif,quality_auto/f2f7a2_33c36a6d26cc428b8e38db7048527681f003.jpg",
+          "duration_seconds": 1501.525,
+          "duration_label": "25:01",
+          "has_de_vtt": false,
+          "has_en_vtt": false
+        },
+        {
+          "id": "aa_meteo_teil_3",
+          "deck_id": "meteo",
+          "part": 2,
+          "provider": "airactive",
+          "provider_label": "Air Active",
+          "title": "Meteo Teil 3",
+          "mp4_url": "https://video.wixstatic.com/video/f2f7a2_8e4602f8adaa441e855e0626e516578f/720p/mp4/file.mp4",
+          "poster": "https://static.wixstatic.com/media/f2f7a2_8e4602f8adaa441e855e0626e516578ff003.jpg/v1/fill/w_277,h_370,q_90,enc_avif,quality_auto/f2f7a2_8e4602f8adaa441e855e0626e516578ff003.jpg",
+          "duration_seconds": 2260.224,
+          "duration_label": "37:40",
+          "has_de_vtt": false,
+          "has_en_vtt": false
         }
       ]
     },
@@ -84,32 +124,30 @@
         {
           "id": "luftrecht_0",
           "deck_id": "luftrecht",
-          "deck_title": "Luftrecht",
-          "deck_icon": "⚖️",
           "part": 0,
+          "provider": "freewings",
+          "provider_label": "Free Wings",
           "title": "Luftrecht — Part 1",
           "mp4_url": "https://video.wixstatic.com/video/2c6d0a_cb3ecd1820544f9297facc40ea62b524/1080p/mp4/file.mp4",
+          "poster": null,
           "duration_seconds": null,
           "duration_label": null,
           "has_de_vtt": false,
-          "has_en_vtt": false,
-          "de_vtt_path": null,
-          "en_vtt_path": null
+          "has_en_vtt": false
         },
         {
           "id": "luftrecht_1",
           "deck_id": "luftrecht",
-          "deck_title": "Luftrecht",
-          "deck_icon": "⚖️",
           "part": 1,
+          "provider": "freewings",
+          "provider_label": "Free Wings",
           "title": "Luftrecht — Part 2",
           "mp4_url": "https://video.wixstatic.com/video/2c6d0a_d46e5f4c7c494f70830d65c8e1c95b57/1080p/mp4/file.mp4",
+          "poster": null,
           "duration_seconds": null,
           "duration_label": null,
           "has_de_vtt": false,
-          "has_en_vtt": false,
-          "de_vtt_path": null,
-          "en_vtt_path": null
+          "has_en_vtt": false
         }
       ]
     },
@@ -121,32 +159,30 @@
         {
           "id": "materialkunde_0",
           "deck_id": "material",
-          "deck_title": "Materialkunde",
-          "deck_icon": "🪂",
           "part": 0,
+          "provider": "freewings",
+          "provider_label": "Free Wings",
           "title": "Materialkunde — Part 1",
           "mp4_url": "https://video.wixstatic.com/video/2c6d0a_2a0103c5c0284600b2ae375f26b404b7/1080p/mp4/file.mp4",
-          "duration_seconds": null,
-          "duration_label": null,
-          "has_de_vtt": false,
-          "has_en_vtt": false,
-          "de_vtt_path": null,
-          "en_vtt_path": null
+          "poster": null,
+          "duration_seconds": 995.0506875,
+          "duration_label": "16:35",
+          "has_de_vtt": true,
+          "has_en_vtt": false
         },
         {
           "id": "materialkunde_1",
           "deck_id": "material",
-          "deck_title": "Materialkunde",
-          "deck_icon": "🪂",
           "part": 1,
+          "provider": "freewings",
+          "provider_label": "Free Wings",
           "title": "Materialkunde — Part 2",
           "mp4_url": "https://video.wixstatic.com/video/2c6d0a_64f8a7acd071464991cb493ddcff3c8b/1080p/mp4/file.mp4",
+          "poster": null,
           "duration_seconds": 874.2613125,
           "duration_label": "14:34",
           "has_de_vtt": true,
-          "has_en_vtt": true,
-          "de_vtt_path": "data/transcripts/materialkunde_1.de.vtt",
-          "en_vtt_path": "data/transcripts/materialkunde_1.en.vtt"
+          "has_en_vtt": true
         }
       ]
     },
@@ -158,34 +194,210 @@
         {
           "id": "flugpraxis_0",
           "deck_id": "flugpraxis",
-          "deck_title": "Flugpraxis",
-          "deck_icon": "🛫",
           "part": 0,
+          "provider": "freewings",
+          "provider_label": "Free Wings",
           "title": "Flugpraxis — Part 1",
           "mp4_url": "https://video.wixstatic.com/video/2c6d0a_a303fce189c84f529505ea2b60b33631/1080p/mp4/file.mp4",
+          "poster": null,
           "duration_seconds": null,
           "duration_label": null,
           "has_de_vtt": false,
-          "has_en_vtt": false,
-          "de_vtt_path": null,
-          "en_vtt_path": null
+          "has_en_vtt": false
         },
         {
           "id": "flugpraxis_1",
           "deck_id": "flugpraxis",
-          "deck_title": "Flugpraxis",
-          "deck_icon": "🛫",
           "part": 1,
+          "provider": "freewings",
+          "provider_label": "Free Wings",
           "title": "Flugpraxis — Part 2",
           "mp4_url": "https://video.wixstatic.com/video/2c6d0a_bfaa546ecddd447f9269d6ed150d8cec/1080p/mp4/file.mp4",
+          "poster": null,
           "duration_seconds": null,
           "duration_label": null,
           "has_de_vtt": false,
-          "has_en_vtt": false,
-          "de_vtt_path": null,
-          "en_vtt_path": null
+          "has_en_vtt": false
+        },
+        {
+          "id": "aa_stallpunkt",
+          "deck_id": "flugpraxis",
+          "part": 0,
+          "provider": "airactive",
+          "provider_label": "Air Active",
+          "title": "Stallpunkt",
+          "mp4_url": "https://video.wixstatic.com/video/f2f7a2_8a4f47d3c7f044838aa15f11ec06606c/720p/mp4/file.mp4",
+          "poster": "https://static.wixstatic.com/media/f2f7a2_8a4f47d3c7f044838aa15f11ec06606cf003.jpg/v1/fill/w_200,h_267,q_90,enc_avif,quality_auto/f2f7a2_8a4f47d3c7f044838aa15f11ec06606cf003.jpg",
+          "duration_seconds": 412.166667,
+          "duration_label": "6:52",
+          "has_de_vtt": false,
+          "has_en_vtt": false
+        },
+        {
+          "id": "aa_grosse_ohren",
+          "deck_id": "flugpraxis",
+          "part": 1,
+          "provider": "airactive",
+          "provider_label": "Air Active",
+          "title": "Grosse Ohren",
+          "mp4_url": "https://video.wixstatic.com/video/f2f7a2_834427da5d6a481e9af2adbd4955fc94/720p/mp4/file.mp4",
+          "poster": "https://static.wixstatic.com/media/f2f7a2_834427da5d6a481e9af2adbd4955fc94f003.jpg/v1/fill/w_200,h_267,q_90,enc_avif,quality_auto/f2f7a2_834427da5d6a481e9af2adbd4955fc94f003.jpg",
+          "duration_seconds": 268.608005,
+          "duration_label": "4:28",
+          "has_de_vtt": false,
+          "has_en_vtt": false
+        },
+        {
+          "id": "aa_b-stall",
+          "deck_id": "flugpraxis",
+          "part": 2,
+          "provider": "airactive",
+          "provider_label": "Air Active",
+          "title": "B-Stall",
+          "mp4_url": "https://video.wixstatic.com/video/f2f7a2_438b4ef3c16043719144ddfab222aa1c/720p/mp4/file.mp4",
+          "poster": "https://static.wixstatic.com/media/f2f7a2_438b4ef3c16043719144ddfab222aa1cf003.jpg/v1/fill/w_200,h_267,q_90,enc_avif,quality_auto/f2f7a2_438b4ef3c16043719144ddfab222aa1cf003.jpg",
+          "duration_seconds": 283.376009,
+          "duration_label": "4:43",
+          "has_de_vtt": false,
+          "has_en_vtt": false
+        },
+        {
+          "id": "aa_rollen",
+          "deck_id": "flugpraxis",
+          "part": 3,
+          "provider": "airactive",
+          "provider_label": "Air Active",
+          "title": "Rollen",
+          "mp4_url": "https://video.wixstatic.com/video/f2f7a2_c513bf1a031d418b87abbf8903669695/720p/mp4/file.mp4",
+          "poster": "https://static.wixstatic.com/media/f2f7a2_c513bf1a031d418b87abbf8903669695f003.jpg/v1/fill/w_200,h_267,q_90,enc_avif,quality_auto/f2f7a2_c513bf1a031d418b87abbf8903669695f003.jpg",
+          "duration_seconds": 404.166667,
+          "duration_label": "6:44",
+          "has_de_vtt": false,
+          "has_en_vtt": false
+        },
+        {
+          "id": "aa_kleine_ohren",
+          "deck_id": "flugpraxis",
+          "part": 4,
+          "provider": "airactive",
+          "provider_label": "Air Active",
+          "title": "Kleine Ohren",
+          "mp4_url": "https://video.wixstatic.com/video/f2f7a2_49ac01143125424ab4f6541573801f9d/720p/mp4/file.mp4",
+          "poster": "https://static.wixstatic.com/media/f2f7a2_49ac01143125424ab4f6541573801f9df003.jpg/v1/fill/w_200,h_267,q_90,enc_avif,quality_auto/f2f7a2_49ac01143125424ab4f6541573801f9df003.jpg",
+          "duration_seconds": 475.433333,
+          "duration_label": "7:55",
+          "has_de_vtt": false,
+          "has_en_vtt": false
+        },
+        {
+          "id": "aa_p2_leitlinien_acht",
+          "deck_id": "flugpraxis",
+          "part": 5,
+          "provider": "airactive",
+          "provider_label": "Air Active",
+          "title": "P2 Leitlinien Acht",
+          "mp4_url": "https://video.wixstatic.com/video/f2f7a2_dcfae3b8b8324726ad52b976b9843921/720p/mp4/file.mp4",
+          "poster": "https://static.wixstatic.com/media/f2f7a2_dcfae3b8b8324726ad52b976b9843921f003.jpg/v1/fill/w_200,h_267,q_90,enc_avif,quality_auto/f2f7a2_dcfae3b8b8324726ad52b976b9843921f003.jpg",
+          "duration_seconds": 344.072993,
+          "duration_label": "5:44",
+          "has_de_vtt": false,
+          "has_en_vtt": false
+        },
+        {
+          "id": "aa_p1_doppelkreis_rechts",
+          "deck_id": "flugpraxis",
+          "part": 6,
+          "provider": "airactive",
+          "provider_label": "Air Active",
+          "title": "P1 Doppelkreis Rechts",
+          "mp4_url": "https://video.wixstatic.com/video/f2f7a2_f47a358708e040ad93577b9d86ba429a/720p/mp4/file.mp4",
+          "poster": "https://static.wixstatic.com/media/f2f7a2_f47a358708e040ad93577b9d86ba429af003.jpg/v1/fill/w_200,h_267,q_90,enc_avif,quality_auto/f2f7a2_f47a358708e040ad93577b9d86ba429af003.jpg",
+          "duration_seconds": 271.633333,
+          "duration_label": "4:31",
+          "has_de_vtt": false,
+          "has_en_vtt": false
+        },
+        {
+          "id": "aa_seitenklapper_50pct",
+          "deck_id": "flugpraxis",
+          "part": 7,
+          "provider": "airactive",
+          "provider_label": "Air Active",
+          "title": "Seitenklapper 50%",
+          "mp4_url": "https://video.wixstatic.com/video/f2f7a2_4d433f4bc0414e2fbfe73a252b455c94/720p/mp4/file.mp4",
+          "poster": "https://static.wixstatic.com/media/f2f7a2_4d433f4bc0414e2fbfe73a252b455c94f003.jpg/v1/fill/w_200,h_267,q_90,enc_avif,quality_auto/f2f7a2_4d433f4bc0414e2fbfe73a252b455c94f003.jpg",
+          "duration_seconds": 515.4,
+          "duration_label": "8:35",
+          "has_de_vtt": false,
+          "has_en_vtt": false
+        },
+        {
+          "id": "aa_nicken",
+          "deck_id": "flugpraxis",
+          "part": 8,
+          "provider": "airactive",
+          "provider_label": "Air Active",
+          "title": "Nicken",
+          "mp4_url": "https://video.wixstatic.com/video/f2f7a2_7a7ad0153796475688e5ba29fd2cc6e0/720p/mp4/file.mp4",
+          "poster": "https://static.wixstatic.com/media/f2f7a2_7a7ad0153796475688e5ba29fd2cc6e0f003.jpg/v1/fill/w_200,h_267,q_90,enc_avif,quality_auto/f2f7a2_7a7ad0153796475688e5ba29fd2cc6e0f003.jpg",
+          "duration_seconds": 469.166667,
+          "duration_label": "7:49",
+          "has_de_vtt": false,
+          "has_en_vtt": false
+        },
+        {
+          "id": "aa_kurvenfliegen",
+          "deck_id": "flugpraxis",
+          "part": 9,
+          "provider": "airactive",
+          "provider_label": "Air Active",
+          "title": "Kurvenfliegen",
+          "mp4_url": "https://video.wixstatic.com/video/f2f7a2_ebbae091dd2448d88d741c18bdeee527/720p/mp4/file.mp4",
+          "poster": "https://static.wixstatic.com/media/f2f7a2_ebbae091dd2448d88d741c18bdeee527f003.jpg/v1/fill/w_200,h_267,q_90,enc_avif,quality_auto/f2f7a2_ebbae091dd2448d88d741c18bdeee527f003.jpg",
+          "duration_seconds": 137.670998,
+          "duration_label": "2:17",
+          "has_de_vtt": false,
+          "has_en_vtt": false
+        },
+        {
+          "id": "aa_bremshaltung",
+          "deck_id": "flugpraxis",
+          "part": 10,
+          "provider": "airactive",
+          "provider_label": "Air Active",
+          "title": "Bremshaltung",
+          "mp4_url": "https://video.wixstatic.com/video/f2f7a2_168c695154c0415c8c70e193e48eadfc/720p/mp4/file.mp4",
+          "poster": "https://static.wixstatic.com/media/f2f7a2_168c695154c0415c8c70e193e48eadfcf003.jpg/v1/fill/w_200,h_267,q_90,enc_avif,quality_auto/f2f7a2_168c695154c0415c8c70e193e48eadfcf003.jpg",
+          "duration_seconds": 352.2,
+          "duration_label": "5:52",
+          "has_de_vtt": false,
+          "has_en_vtt": false
+        },
+        {
+          "id": "aa_beschleunigt_fliegen",
+          "deck_id": "flugpraxis",
+          "part": 11,
+          "provider": "airactive",
+          "provider_label": "Air Active",
+          "title": "Beschleunigt Fliegen",
+          "mp4_url": "https://video.wixstatic.com/video/f2f7a2_326733b4f7a64b268de7fe0dc0718149/720p/mp4/file.mp4",
+          "poster": "https://static.wixstatic.com/media/f2f7a2_326733b4f7a64b268de7fe0dc0718149f003.jpg/v1/fill/w_200,h_267,q_90,enc_avif,quality_auto/f2f7a2_326733b4f7a64b268de7fe0dc0718149f003.jpg",
+          "duration_seconds": 145.566667,
+          "duration_label": "2:25",
+          "has_de_vtt": false,
+          "has_en_vtt": false
         }
       ]
     }
-  ]
+  ],
+  "stats": {
+    "total_videos": 25,
+    "by_provider": {
+      "freewings": 10,
+      "airactive": 15
+    },
+    "with_de_vtt": 3,
+    "with_en_vtt": 1,
+    "total_duration_seconds": 13240.5056515
+  }
 }

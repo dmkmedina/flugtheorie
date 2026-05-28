@@ -1,8 +1,17 @@
 // Renders the Air Active "airACTIVE Academy" page (Wix password-protected),
-// authenticates with the shared academy password, then walks the two Wix
-// pro-galleries on the page ("Flugpraxis Videos" and "Vorträge") and clicks
-// each video item so the player resolves the MP4 src. Maps every captured
-// media request to its gallery item title.
+// authenticates with the shared academy password, then walks both Wix
+// pro-galleries on the page ("Flugpraxis Videos" and "Vorträge").
+//
+// Each gallery item is a Wix pro-gallery video tile whose poster lives at
+// https://static.wixstatic.com/media/<f2f7a2_HEX>f003.jpg. The Wix gallery
+// stores the matching MP4 at https://video.wixstatic.com/video/<f2f7a2_HEX>/
+// 720p/mp4/file.mp4 — i.e. the media ID is the same. We derive each item's
+// MP4 URL from the poster ID, then probe with ffprobe to confirm and extract
+// duration.
+//
+// We also click items to trigger the player and capture any MP4 the page
+// actually loads — that's our ground truth and verifies the derivation
+// strategy.
 //
 // Usage: node scripts/extract_air_active_videos.mjs
 // Output: data/air_active_videos.json
@@ -10,6 +19,7 @@
 import { chromium } from 'playwright';
 import { writeFileSync, mkdirSync } from 'node:fs';
 import { dirname, resolve } from 'node:path';
+import { spawnSync } from 'node:child_process';
 
 const PAGE_URL = 'https://www.air-active.ch/academy';
 const PASSWORD = 'airAcademy2024';
@@ -58,28 +68,34 @@ const loggedIn = await tryPasswordLogin();
 console.error(`Password login: ${loggedIn}`);
 await page.waitForTimeout(3000);
 
-// Scroll to trigger lazy loading of galleries
-for (let i = 0; i < 30; i++) {
-  await page.evaluate((y) => window.scrollTo(0, y), i * 500);
-  await page.waitForTimeout(500);
+// Scroll fully so all gallery items render
+for (let i = 0; i < 40; i++) {
+  await page.evaluate((y) => window.scrollTo(0, y), i * 400);
+  await page.waitForTimeout(400);
 }
 await page.evaluate(() => window.scrollTo(0, 0));
 await page.waitForTimeout(1000);
 
-// Enumerate the two Wix pro-galleries and their items in DOM order.
-// Each gallery has data-id'd items with a title in `.info-element-title span`.
+// Enumerate the Wix pro-galleries and their items.
+// Section detection: Wix lays out the academy page as a stack of <section>s,
+// each with its own H1 (e.g. "Flugpraxis Videos", "Vorträge"). The gallery
+// for that section comes AFTER the H1 in document order — so we look at the
+// previous H1 that appears earlier in the DOM than the gallery.
 const galleryItems = await page.evaluate(() => {
+  const allHeadings = [...document.querySelectorAll('h1, h2')];
   const galleries = [...document.querySelectorAll('[id^="pro-gallery-comp-"]')];
   const all = [];
   for (const g of galleries) {
     const galleryId = g.id.replace('pro-gallery-comp-', '');
-    // Find nearest section heading for context
-    let cur = g;
+    // Find the last heading that comes before this gallery in document order
     let section = null;
-    for (let i = 0; i < 30 && cur; i++) {
-      const h = cur.querySelector?.('h1, h2, h3');
-      if (h && h.textContent?.trim()) { section = h.textContent.trim(); break; }
-      cur = cur.parentElement;
+    for (const h of allHeadings) {
+      if (h.compareDocumentPosition(g) & Node.DOCUMENT_POSITION_FOLLOWING) {
+        const t = h.textContent?.trim();
+        if (t) section = t;
+      } else {
+        break;
+      }
     }
     const items = [...g.querySelectorAll('[data-hook="item-container"]')];
     items.forEach((item, idx) => {
@@ -92,129 +108,136 @@ const galleryItems = await page.evaluate(() => {
   }
   return all;
 });
-console.error(`Found ${galleryItems.length} gallery items:`);
-for (const g of galleryItems) console.error(`  [${g.galleryId}] ${g.idx}: "${g.title}" (${g.dataId})`);
+console.error(`Found ${galleryItems.length} gallery items across ${new Set(galleryItems.map((g) => g.galleryId)).size} galleries`);
 
-// For each gallery item, click it to open the Wix video player dialog,
-// capture which MP4 loads, then close the dialog.
-const itemMediaMap = []; // { item: ..., mediaUrls: [...] }
+// Derive Wix media ID from poster URL.
+// Poster URL pattern: .../media/<prefix>_<32hex>f003.jpg/...
+// MP4 URL pattern:    https://video.wixstatic.com/video/<prefix>_<32hex>/720p/mp4/file.mp4
+function deriveMp4FromPoster(posterUrl) {
+  if (!posterUrl) return null;
+  const m = posterUrl.match(/\/media\/([a-f0-9]{6}_[a-f0-9]{32})(?:f\d{3})?\.[a-z]+/i);
+  if (!m) return null;
+  return `https://video.wixstatic.com/video/${m[1]}/720p/mp4/file.mp4`;
+}
+
+// Click items to verify and capture MP4 requests as ground-truth.
+// Strategy: click first item to open dialog; the Wix gallery's dialog
+// usually has next/prev arrows or responds to ArrowRight. We try clicking
+// each item-action individually after ensuring no dialog is open.
+async function closeAnyDialog() {
+  await page.keyboard.press('Escape').catch(() => {});
+  await page.waitForTimeout(500);
+  try {
+    const close = page
+      .locator(
+        '[role="dialog"] [aria-label*="close" i], [aria-label="Close" i], [data-hook="close-button"], [data-testid*="close" i]'
+      )
+      .first();
+    if ((await close.count()) && (await close.isVisible())) {
+      await close.click({ timeout: 1500, force: true });
+      await page.waitForTimeout(500);
+    }
+  } catch (_) {}
+}
 
 for (const item of galleryItems) {
-  const before = mediaHits.length;
-  const beforeUrls = new Set(mediaHits.map((m) => m.url));
-
-  // Click the item-action button for this data-id
-  const selector = `[data-id="${item.dataId}"] [data-hook="item-action"], #item-action-${item.dataId}`;
-  const action = page.locator(selector).first();
+  await closeAnyDialog();
+  const before = new Set(mediaHits.map((m) => m.url));
+  const selector = `#item-action-${item.dataId}`;
   try {
-    if (!(await action.count())) {
-      console.error(`  (no action for ${item.title})`);
-      continue;
-    }
+    const action = page.locator(selector).first();
+    if (!(await action.count())) continue;
+    // Use evaluate-based click as fallback — the dialog overlay can intercept
     await action.scrollIntoViewIfNeeded({ timeout: 2000 });
-    await action.click({ timeout: 5000, force: true });
+    await page.evaluate((sel) => {
+      const el = document.querySelector(sel);
+      if (el) {
+        el.scrollIntoView({ block: 'center' });
+        el.click();
+      }
+    }, selector);
+    await page.waitForTimeout(2500);
+    // Click any play button inside the now-open dialog
+    try {
+      const playables = await page.locator('[role="dialog"] video, [role="dialog"] [data-hook="play-button"], [role="dialog"] button[aria-label*="play" i]').all();
+      for (const p of playables) {
+        try { await p.click({ timeout: 1200, force: true }); await page.waitForTimeout(600); } catch (_) {}
+      }
+    } catch (_) {}
+    await page.waitForTimeout(2500);
+    const newUrls = mediaHits.map((m) => m.url).filter((u) => !before.has(u));
+    if (newUrls.length) console.error(`  ${item.title}: captured ${newUrls.length}`);
   } catch (e) {
-    console.error(`  click failed for ${item.title}: ${e.message}`);
-    continue;
+    // ignore — we'll fall back to poster derivation
   }
+}
+await closeAnyDialog();
 
-  // Wait for the dialog/player to load the video. The Wix pro-gallery fullscreen
-  // dialog loads MP4 on play; some galleries autoplay, others require an
-  // additional click on the play button inside the dialog.
-  await page.waitForTimeout(2000);
-  // Try to find a play button inside any newly-opened dialog and click it
+// Final mediaHits set
+const capturedUrls = new Set(mediaHits.map((m) => m.url));
+
+// Probe an MP4 URL with ffprobe to confirm it exists and get duration.
+function ffprobe(url) {
+  const res = spawnSync(
+    'ffprobe',
+    ['-v', 'error', '-show_entries', 'format=duration,size', '-of', 'json', url],
+    { encoding: 'utf8', timeout: 30_000 }
+  );
+  if (res.status !== 0) return { ok: false, error: (res.stderr || '').trim() };
   try {
-    const playInDialog = page.locator(
-      '[role="dialog"] video, [role="dialog"] [aria-label*="play" i], [role="dialog"] button:has-text("Play"), [data-hook="play-button"], video'
-    );
-    const count = await playInDialog.count();
-    for (let i = 0; i < count; i++) {
-      try {
-        const el = playInDialog.nth(i);
-        await el.scrollIntoViewIfNeeded({ timeout: 1000 });
-        await el.click({ timeout: 1500, force: true });
-        await page.waitForTimeout(800);
-      } catch (_) {}
-    }
-  } catch (_) {}
-
-  // Wait for any mp4 to be requested
-  await page.waitForTimeout(4500);
-
-  const newUrls = mediaHits
-    .map((m) => m.url)
-    .filter((u) => !beforeUrls.has(u));
-  itemMediaMap.push({ ...item, mediaUrls: [...new Set(newUrls)] });
-  console.error(`  -> "${item.title}" captured ${newUrls.length} url(s)`);
-
-  // Close dialog (Escape) to allow next item to be clicked
-  await page.keyboard.press('Escape').catch(() => {});
-  await page.waitForTimeout(800);
-  // Some Wix dialogs use a close button
-  try {
-    const close = page.locator(
-      '[role="dialog"] [aria-label*="close" i], [aria-label*="Close" i], [data-hook="close-button"]'
-    ).first();
-    if (await close.count()) await close.click({ timeout: 1500, force: true });
-  } catch (_) {}
-  await page.waitForTimeout(800);
+    const j = JSON.parse(res.stdout);
+    return {
+      ok: true,
+      durationSec: j.format?.duration ? Number(j.format.duration) : null,
+      sizeBytes: j.format?.size ? Number(j.format.size) : null,
+    };
+  } catch {
+    return { ok: false, error: 'parse failed' };
+  }
 }
 
-// Final fallback: do another full scroll-and-click pass on any generic
-// video/play surfaces (in case pro-gallery missed something).
-const generic = await page
-  .locator('video, [data-testid="videoPlayer"], [data-mesh-id*="VideoPlayer"], wix-video')
-  .all();
-for (const p of generic) {
-  try {
-    await p.scrollIntoViewIfNeeded({ timeout: 1500 });
-    await p.click({ timeout: 2000, force: true });
-    await page.waitForTimeout(1500);
-  } catch (_) {}
-}
-await page.waitForTimeout(3000);
-
-// Build final video list: prefer the per-item map; if a real MP4 was
-// captured, pair it with the title.
-const MP4_RE = /\.mp4(\?|$)/i;
-const isVideoUrl = (u) => MP4_RE.test(u) || /video\.wixstatic\.com\/.*\/(mp4|video)\//i.test(u);
-
+// Build final video records. Prefer captured URL; if absent, derive from poster.
 const videos = [];
-for (const entry of itemMediaMap) {
-  const mp4s = entry.mediaUrls.filter(isVideoUrl);
-  // Prefer the highest-quality stream (looks like .../1080p/mp4/file.mp4)
-  const chosen =
-    mp4s.find((u) => /1080p/i.test(u)) ||
-    mp4s.find((u) => /720p/i.test(u)) ||
-    mp4s.find((u) => /480p/i.test(u)) ||
-    mp4s[0] ||
-    null;
+for (const item of galleryItems) {
+  const derived = deriveMp4FromPoster(item.poster);
+  // captured URLs whose media ID matches this item's derived ID
+  const matchingCaptured = derived
+    ? [...capturedUrls].filter((u) => {
+        const m = derived.match(/video\/([a-f0-9_]+)\//i);
+        return m && u.includes(m[1]);
+      })
+    : [];
+  const src = matchingCaptured.find((u) => /720p/i.test(u)) || derived;
+  let probe = null;
+  if (src) {
+    console.error(`  probing ${item.title}: ${src}`);
+    probe = ffprobe(src);
+  }
   videos.push({
     tag: 'video',
-    heading: entry.title,
-    src: chosen,
-    section: entry.section,
-    galleryId: entry.galleryId,
-    galleryIndex: entry.idx,
-    dataId: entry.dataId,
-    poster: entry.poster,
-    allCapturedUrls: entry.mediaUrls,
+    heading: item.title,
+    src,
+    section: item.section,
+    galleryId: item.galleryId,
+    galleryIndex: item.idx,
+    dataId: item.dataId,
+    poster: item.poster,
+    derivedMediaId: src ? src.match(/video\/([a-f0-9_]+)\//i)?.[1] : null,
+    durationSec: probe?.ok ? probe.durationSec : null,
+    sizeBytes: probe?.ok ? probe.sizeBytes : null,
+    probeOk: probe?.ok ?? false,
+    probeError: probe?.ok ? null : probe?.error,
+    capturedDuringLoad: matchingCaptured.length > 0,
   });
 }
 
-// Gather sections (page headings) in order
 const sections = await page.evaluate(() =>
   [...document.querySelectorAll('h1, h2, h3')].map((h) => h.textContent?.trim()).filter(Boolean)
 );
 
-// Capture cookies for the transcribe step (Wix free-text-protected pages set
-// a `_wixSession`/`_wixUIDX`/`SmSession` style cookie that may be required
-// to fetch the MP4 from video.wixstatic.com).
 const cookies = await ctx.cookies();
-
 await browser.close();
 
-// Dedupe mediaHits
 const seen = new Set();
 const media = mediaHits.filter((m) => (seen.has(m.url) ? false : (seen.add(m.url), true)));
 
@@ -229,7 +252,7 @@ writeFileSync(
         type: 'wix-password-protected',
         password: PASSWORD,
         note:
-          'video.wixstatic.com URLs are public CDN — fetching the MP4 does NOT require the cookie. The password only gates the HTML page. Cookies are included for completeness.',
+          'The password gates only the HTML page. Once you have the MP4 URL, video.wixstatic.com serves it publicly without auth (CORS: *).',
         cookies,
       },
       domVideos: { videos, sections },
@@ -240,4 +263,9 @@ writeFileSync(
   )
 );
 
-console.error(`Wrote ${media.length} media requests + ${videos.length} mapped videos → ${OUT}`);
+const okCount = videos.filter((v) => v.probeOk).length;
+const totalDur = videos.reduce((s, v) => s + (v.durationSec || 0), 0);
+console.error(
+  `Wrote ${videos.length} videos (${okCount} probed OK) + ${media.length} media requests → ${OUT}`
+);
+console.error(`Total duration: ${(totalDur / 60).toFixed(1)} min`);

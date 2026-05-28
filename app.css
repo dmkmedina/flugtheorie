@@ -1836,12 +1836,14 @@ code, .mono { font-family: "SF Mono", Menlo, Consolas, monospace; font-size: 13p
   font-size: 11px;
   padding: 2px 8px;
   border-radius: 999px;
-  background: var(--good-soft);
-  color: var(--good);
+  background: var(--bg-hover);
+  color: var(--text-soft);
   font-weight: 500;
 }
 .video-card-meta .chip-good { background: var(--good-soft); color: var(--good); }
 .video-card-meta .chip-warn { background: var(--warn-soft); color: var(--warn); }
+.video-card-meta .chip-fw { background: rgba(2,132,199,0.15); color: var(--accent); }
+.video-card-meta .chip-aa { background: rgba(168,85,247,0.15); color: #a855f7; }
 .video-card-actions { margin-top: auto; }
 
 /* ---- Video player overlay ---- */

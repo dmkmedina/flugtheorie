@@ -1913,6 +1913,9 @@ function renderVideos() {
   const total = getAllVideos().length;
   const withSubs = getAllVideos().filter(v => v.has_en_vtt).length;
   const withDe = getAllVideos().filter(v => v.has_de_vtt).length;
+  const stats = (getVideoManifest().stats) || {};
+  const fwCount = stats.by_provider?.freewings || 0;
+  const aaCount = stats.by_provider?.airactive || 0;
 
   const tabsHtml = `
     <div class="subtabs">
@@ -1927,9 +1930,13 @@ function renderVideos() {
   const cardsHtml = deck.videos.map(v => {
     const enReady = v.has_en_vtt;
     const deReady = v.has_de_vtt;
+    const providerClass = v.provider === 'airactive' ? 'chip-aa' : 'chip-fw';
+    const posterStyle = v.poster
+      ? `style="background-image: url('${v.poster.replace(/'/g, '%27')}'); background-size: cover; background-position: center;"`
+      : '';
     return `
       <div class="video-card">
-        <button class="video-card-thumb" data-play-video="${v.id}" aria-label="Play ${escapeHtml(v.title)}">
+        <button class="video-card-thumb" data-play-video="${v.id}" aria-label="Play ${escapeHtml(v.title)}" ${posterStyle}>
           <div class="video-card-thumb-inner">
             <div class="video-card-play">▶</div>
             ${v.duration_label ? `<div class="video-card-duration">${v.duration_label}</div>` : ''}
@@ -1938,6 +1945,7 @@ function renderVideos() {
         <div class="video-card-body">
           <div class="video-card-title">${escapeHtml(v.title)}</div>
           <div class="video-card-meta">
+            <span class="chip ${providerClass}" title="Source: ${escapeHtml(v.provider_label)}">${escapeHtml(v.provider_label)}</span>
             ${enReady
               ? `<span class="chip chip-good" title="English subtitles ready">🇬🇧 EN subs</span>`
               : `<span class="chip chip-warn" title="Translation pending">🇬🇧 EN — pending</span>`}
@@ -1956,7 +1964,7 @@ function renderVideos() {
   return `
     <div class="page-header">
       <h1>Video lessons</h1>
-      <p class="page-subtitle">Free Wings SHV theory course — ${total} videos · ${withDe} German transcripts · ${withSubs} English subtitle tracks. Player auto-selects English subs; toggle the language with the CC button in the controls.</p>
+      <p class="page-subtitle">${total} videos from <strong>Free Wings</strong> (${fwCount}) and <strong>Air Active</strong> (${aaCount}) academies · ${withDe} German transcripts · ${withSubs} English subtitle tracks. Player auto-selects English subs; toggle the language with the buttons below the video.</p>
     </div>
     ${tabsHtml}
     <div class="deck-header">
