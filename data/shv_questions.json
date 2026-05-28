@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-05-28T16:08:35.681Z",
+  "fetchedAt": "2026-05-28T16:09:07.424Z",
   "questions": {
     "Aerodynamics_1": {
       "qid": 1,
@@ -8170,16 +8170,16 @@
     "Weather_118": {
       "qid": 118,
       "topic": "Weather",
-      "pos": 23,
+      "pos": 50,
       "total_in_topic": 164,
       "text": "What does the following drawing represent?",
       "options": [
         "A cold front.",
-        "A warm front.",
         "An occlusion with the characteristics of a warm front.",
+        "A warm front.",
         "An occlusion with the characteristics of a cold front."
       ],
-      "correct": 0
+      "correct": null
     },
     "Weather_159": {
       "qid": 159,
@@ -8268,16 +8268,16 @@
     "Weather_92": {
       "qid": 92,
       "topic": "Weather",
-      "pos": 3,
+      "pos": 40,
       "total_in_topic": 164,
       "text": "The valley wind in the Alps",
       "options": [
-        "is stronger from October till February than from March till July.",
         "is always the same strength independent of the time of year.",
         "is stronger from June till August than from December till March.",
+        "is stronger from October till February than from March till July.",
         "is stronger from December till April than from July till September."
       ],
-      "correct": 2
+      "correct": null
     },
     "Weather_133": {
       "qid": 133,
@@ -8842,16 +8842,16 @@
     "Weather_88": {
       "qid": 88,
       "topic": "Weather",
-      "pos": 89,
+      "pos": 48,
       "total_in_topic": 164,
       "text": "The valley wind occurs because the air",
       "options": [
         "cools quicker in the flatlands than in the mountains when the sun's radiation weakens.",
-        "warms up faster in the flatlands than in the mountains during the day.",
+        "warms up faster in the mountains than in the flatlands during the day.",
         "cools quicker in the mountains than in the flatlands when the sun's radiation weakens.",
-        "warms up faster in the mountains than in the flatlands during the day."
+        "warms up faster in the flatlands than in the mountains during the day."
       ],
-      "correct": 3
+      "correct": null
     },
     "Weather_75": {
       "qid": 75,
@@ -9090,6 +9090,76 @@
         "two neighbouring air masses moving in different directions or with different speeds rub against each other."
       ],
       "correct": 1
+    },
+    "Weather_160": {
+      "qid": 160,
+      "topic": "Weather",
+      "pos": 30,
+      "total_in_topic": 164,
+      "text": "What is the cloud distribution in Lulea most likely to be?",
+      "options": [
+        "5/8 - 7/8 cirrostratus",
+        "8/8 nimbostratus",
+        "5/8 - 7/8 cumulonimbus, isolated lenticulars in the east",
+        "3/8 - 5/8 cumulus"
+      ],
+      "correct": 0
+    },
+    "Weather_151": {
+      "qid": 151,
+      "topic": "Weather",
+      "pos": 41,
+      "total_in_topic": 164,
+      "text": "What is the wind direction in Algiers (Alger)?",
+      "options": [
+        "190°",
+        "280°",
+        "100°",
+        "320°"
+      ],
+      "correct": 1
+    },
+    "Weather_163": {
+      "qid": 163,
+      "topic": "Weather",
+      "pos": 49,
+      "total_in_topic": 164,
+      "text": "What is the cloud distribution in St Petersburg most likely to be?",
+      "options": [
+        "3/8 - 5/8 cumulus",
+        "5/8 - 7/8 cumulonimbus, isolated lenticulars in the east",
+        "5/8 - 7/8 cirrostratus",
+        "8/8 nimbostratus"
+      ],
+      "correct": 3
+    },
+    "Weather_124": {
+      "qid": 124,
+      "topic": "Weather",
+      "pos": 51,
+      "total_in_topic": 164,
+      "text": "At what time of day are thermal (local) thunderstorms most likely?",
+      "options": [
+        "The time of day has no influence on thermal (local) thunderstorms.",
+        "Shortly after midday.",
+        "Mornings.",
+        "Late afternoon."
+      ],
+      "correct": 3
+    },
+    "Weather_32": {
+      "qid": 32,
+      "topic": "Weather",
+      "pos": 57,
+      "total_in_topic": 164,
+      "text": "Which of the following radio soundings measured at 0:00 am indicates the presence of an isotherm? 421",
+      "options": [
+        "4",
+        "2",
+        "3",
+        "1"
+      ],
+      "correct": 0
     }
   },
   "topics": {
