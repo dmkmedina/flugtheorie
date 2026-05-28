@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-05-28T15:19:30.308Z",
+  "fetchedAt": "2026-05-28T15:23:08.304Z",
   "questions": {
     "1": {
       "qid": 1,
@@ -6093,12 +6093,111 @@
         "They inhibit the rapid exhausting of air from individual cells, and thereby inhibit collapses."
       ],
       "correct": 0
+    },
+    "Practical Flying_109": {
+      "qid": 109,
+      "topic": "Practical Flying",
+      "pos": 1,
+      "total_in_topic": 169,
+      "text": "Which part of the approach is #4?",
+      "options": [
+        "Final approach.",
+        "Downwind leg.",
+        "Base leg.",
+        "Zone for losing altitude."
+      ],
+      "correct": 0
+    },
+    "Practical Flying_7": {
+      "qid": 7,
+      "topic": "Practical Flying",
+      "pos": 2,
+      "total_in_topic": 169,
+      "text": "When a paraglider is flying at 32km/h in an air mass of 2ºC the cooling effect on your body is comparable to a temperature in calm air of",
+      "options": [
+        "+ 8° C",
+        "+ 2° C",
+        "- 11° C",
+        "- 0° C"
+      ],
+      "correct": 2
+    },
+    "Practical Flying_138": {
+      "qid": 138,
+      "topic": "Practical Flying",
+      "pos": 4,
+      "total_in_topic": 169,
+      "text": "A paraglider flies in the same thermal and at the same altitude as a delta. How can the paraglider pilot put himself and the delta at risk?",
+      "options": [
+        "By suddenly changing direction of rotation.",
+        "By turning in the same direction as the delta.",
+        "By circling very tightly.",
+        "By flying slowly."
+      ],
+      "correct": 0
+    },
+    "Practical Flying_81": {
+      "qid": 81,
+      "topic": "Practical Flying",
+      "pos": 5,
+      "total_in_topic": 169,
+      "text": "A pilot abruptly initiates a turn when flying in a straight line. What are the consequences?",
+      "options": [
+        "The airflow separates from the wing, resulting in a parachutal stall.",
+        "As a result of the asymmetric loading parts of the glider on that side could become stretched, resulting in the glider henceforth pulling lightly toward the stretched side.",
+        "The glider suffers a front collapse, whereby the wingtips overtake the centre of the glider causing it to collapse together.",
+        "The airflow separates on one side (stalls) resulting in the wing diving over to that side and entering a spin."
+      ],
+      "correct": 3
+    },
+    "Practical Flying_117": {
+      "qid": 117,
+      "topic": "Practical Flying",
+      "pos": 7,
+      "total_in_topic": 169,
+      "text": "A pilot reaches a landing field just before 2 others who are 50m from him. The wind is zero, there are no obstacles on any side and there is no agreed landing approach direction. How should he land?",
+      "options": [
+        "Being the first he can freely choose the landing direction but must execute a left hand approach.",
+        "He should carry out a landing approach but is free to choose the landing direction and approach turn direction.",
+        "The first to land must fly a left hand approach and land at 90° to the valley axis.",
+        "The first to land can choose the turn direction for landing approach but must land at 90° to the valley axis."
+      ],
+      "correct": 0
+    },
+    "Practical Flying_53": {
+      "qid": 53,
+      "topic": "Practical Flying",
+      "pos": 9,
+      "total_in_topic": 169,
+      "text": "A pilot is flying towards his landing field exactly south of his position with a 0 km/h west wind. If he aims his glider exactly towards his landing field all the time which of the following would be his flight path? 21",
+      "options": [
+        "4",
+        "3",
+        "2",
+        "1"
+      ],
+      "correct": 0
+    },
+    "Practical Flying_140": {
+      "qid": 140,
+      "topic": "Practical Flying",
+      "pos": 10,
+      "total_in_topic": 169,
+      "text": "In which of the following situations should the reserve chute be deployed immediately without hesitation?",
+      "options": [
+        "The right hand third of the wing is collapsed and caught in the lines (cravat).",
+        "If a delta and paraglider crash together head-on.",
+        "One side of the glider stalls and it goes into a spin.",
+        "The glider is being sucked into a cumulus cloud and is climbing at 8 m/s."
+      ],
+      "correct": 1
     }
   },
   "topics": {
     "Aerodynamics": 152,
     "Weather": 164,
     "Legislation": 180,
-    "Materials": 125
+    "Materials": 125,
+    "Practical Flying": 169
   }
 }
