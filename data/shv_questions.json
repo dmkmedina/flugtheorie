@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-05-28T15:14:48.804Z",
+  "fetchedAt": "2026-05-28T15:15:20.737Z",
   "questions": {
     "1": {
       "qid": 1,
@@ -4999,6 +4999,132 @@
         "they provide flotation in the event of a possible water landing, thereby also minimising the risk of non-swimmers drowning.",
         "they already provide full protection before commencing the launch.",
         "they have less drag."
+      ],
+      "correct": 0
+    },
+    "Materials_81": {
+      "qid": 81,
+      "topic": "Materials",
+      "pos": 32,
+      "total_in_topic": 125,
+      "text": "Harnesses with high carabiner hang points have what effect during turbulence?",
+      "options": [
+        "The pilot feels turbulence less but has more difficulty to lean forward when accelerating at launch.",
+        "The pilot feels turbulence more but has more difficulty to lean forward when accelerating at launch.",
+        "The pilot feels turbulence more but has less difficulty to lean forward when accelerating at launch.",
+        "The pilot feels turbulence less but has less difficulty to lean forward when accelerating at launch."
+      ],
+      "correct": 0
+    },
+    "Materials_2": {
+      "qid": 2,
+      "topic": "Materials",
+      "pos": 33,
+      "total_in_topic": 125,
+      "text": "The term “ripstop material” means",
+      "options": [
+        "the technique where stronger threads are intertwined at regular intervals in the warp and weft of the cloth to prevent a tear from spreading.",
+        "the reinforcing on heavily loaded areas of the glider.",
+        "the tear barriers which prevent the damage from one element of the glider from spreading to the next.",
+        "a special coating which increases the elasticity of the cloth and therefore improves the tear resistance of the cloth."
+      ],
+      "correct": 0
+    },
+    "Materials_80": {
+      "qid": 80,
+      "topic": "Materials",
+      "pos": 34,
+      "total_in_topic": 125,
+      "text": "If the distance between the riser connection points on the harness is increased",
+      "options": [
+        "the pilot feels the turbulence more and the danger of a twist is reduced.",
+        "the pilot feels the turbulence more and the danger of a twist is increased.",
+        "the pilot feels the turbulence less and the danger of a twist is reduced.",
+        "the pilot feels the turbulence less and the danger of a twist is increased."
+      ],
+      "correct": 0
+    },
+    "Materials_103": {
+      "qid": 103,
+      "topic": "Materials",
+      "pos": 35,
+      "total_in_topic": 125,
+      "text": "What needs to be taken into consideration when assessing reserve chutes with a stated maximum sink rate of 5.5 m/sec?",
+      "options": [
+        "In practice, test values don’t matter.",
+        "Emergency landings at higher altitudes (thinner air) were taken into account.",
+        "This value was achieved under artificial test conditions and may be higher in practice.",
+        "Any disturbances caused by the paraglider were taken into account."
+      ],
+      "correct": 2
+    },
+    "Materials_90": {
+      "qid": 90,
+      "topic": "Materials",
+      "pos": 37,
+      "total_in_topic": 125,
+      "text": "In paragliding terms, a wing loading of 3.5 daN/m² (3.5 Kg/m²) for a modern intermediate glider (calculated using flat surface area) is;",
+      "options": [
+        "normal.",
+        "definitely too low.",
+        "at the lower limit.",
+        "at the upper limit."
+      ],
+      "correct": 0
+    },
+    "Materials_96": {
+      "qid": 96,
+      "topic": "Materials",
+      "pos": 38,
+      "total_in_topic": 125,
+      "text": "Which material is best for the manufacture of reserve chutes?",
+      "options": [
+        "Polyethylene ripstop.",
+        "Polyester ripstop.",
+        "Polyamide (Nylon) ripstop.",
+        "Mylar coated polyester."
+      ],
+      "correct": 2
+    },
+    "Materials_10": {
+      "qid": 10,
+      "topic": "Materials",
+      "pos": 39,
+      "total_in_topic": 125,
+      "text": "The coating on Paraglider cloth",
+      "options": [
+        "increases porosity.",
+        "increases UV sensitivity.",
+        "decreases mechanical strength.",
+        "increases elasticity."
+      ],
+      "correct": 2
+    },
+    "Materials_52": {
+      "qid": 52,
+      "topic": "Materials",
+      "pos": 40,
+      "total_in_topic": 125,
+      "text": "What would change in the handling of a glider if the D lines are lengthened or stretch ?",
+      "options": [
+        "The glider is more difficult to inflate, requires larger but less powerful steering movements due to the lower centre of gravity and converts forward speed into height (flares) better upon landing.",
+        "The glider is easier to inflate, flies slower due to the decreased angle of attack, is more prone to frontal collapses and parachutal stalls.",
+        "The glider is easier to inflate, flies faster due to the decreased angle of attack, is more prone to frontal collapses but less likely to parachutal stall.",
+        "The glider is more difficult to inflate, flies slower due to the increased angle of attack, is less prone to frontal collapses but is more likely to parachutal stall."
+      ],
+      "correct": 2
+    },
+    "Materials_13": {
+      "qid": 13,
+      "topic": "Materials",
+      "pos": 42,
+      "total_in_topic": 125,
+      "text": "The quality of a wing coating can be considerably damaged by",
+      "options": [
+        "cleaning the wing with an household cleaning product.",
+        "storing a dry wing in place with large temperature variations.",
+        "consistently storing the wing in a dark place protected from sunlight.",
+        "the execution of extreme flying manoeuvres with the resulting collapses."
       ],
       "correct": 0
     }
