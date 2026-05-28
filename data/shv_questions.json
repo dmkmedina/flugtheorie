@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-05-28T14:44:45.208Z",
+  "fetchedAt": "2026-05-28T14:45:17.393Z",
   "questions": {
     "2": {
       "qid": 2,
@@ -42,6 +42,20 @@
         "R3"
       ],
       "correct": 1
+    },
+    "6": {
+      "qid": 6,
+      "topic": "Aerodynamics",
+      "pos": 117,
+      "total_in_topic": 152,
+      "text": "Which of the following has the most influence on the drag of a body?",
+      "options": [
+        "The size of the body.",
+        "The weight of the body.",
+        "The mass of the body.",
+        "The material characteristics of the body."
+      ],
+      "correct": 0
     },
     "8": {
       "qid": 8,
@@ -337,6 +351,20 @@
       ],
       "correct": 1
     },
+    "35": {
+      "qid": 35,
+      "topic": "Aerodynamics",
+      "pos": 116,
+      "total_in_topic": 152,
+      "text": "A body with a CD of 0.33 has in relation to a body with a CD of 1 in the same conditions",
+      "options": [
+        "approx. 30% more drag.",
+        "approx. 3 times more drag.",
+        "approx. 30% less drag.",
+        "approx. 3 times less drag."
+      ],
+      "correct": 3
+    },
     "36": {
       "qid": 36,
       "topic": "Aerodynamics",
@@ -435,6 +463,20 @@
       ],
       "correct": 0
     },
+    "45": {
+      "qid": 45,
+      "topic": "Aerodynamics",
+      "pos": 114,
+      "total_in_topic": 152,
+      "text": "Which of the following numbers represents the leading edge? 412",
+      "options": [
+        "3",
+        "4",
+        "1",
+        "2"
+      ],
+      "correct": 3
+    },
     "46": {
       "qid": 46,
       "topic": "Aerodynamics",
@@ -490,6 +532,20 @@
         "horizontal and the relative air flow."
       ],
       "correct": 0
+    },
+    "50": {
+      "qid": 50,
+      "topic": "Aerodynamics",
+      "pos": 112,
+      "total_in_topic": 152,
+      "text": "Whether an airfoil produces lift on not depends significantly on",
+      "options": [
+        "its weight.",
+        "its Cd of drag.",
+        "the angle of attack.",
+        "its wing surface area."
+      ],
+      "correct": 2
     },
     "51": {
       "qid": 51,
@@ -602,6 +658,20 @@
         "the speed of airflow."
       ],
       "correct": 0
+    },
+    "62": {
+      "qid": 62,
+      "topic": "Aerodynamics",
+      "pos": 119,
+      "total_in_topic": 152,
+      "text": "Which letter in the following diagram indicates the stagnation point? 21",
+      "options": [
+        "4",
+        "2",
+        "1",
+        "3"
+      ],
+      "correct": 2
     },
     "63": {
       "qid": 63,
@@ -782,6 +852,34 @@
         "a small span and a large average chord.",
         "a small span and a small average chord.",
         "a large span and a small average chord."
+      ],
+      "correct": 1
+    },
+    "80": {
+      "qid": 80,
+      "topic": "Aerodynamics",
+      "pos": 115,
+      "total_in_topic": 152,
+      "text": "A wing's aspect ratio is 5. Which of the following statements is correct?",
+      "options": [
+        "Its average chord is five times larger than its span",
+        "Its surface area is five times larger than its span",
+        "Its span is five times larger than its surface area",
+        "Its span is five times larger than its average chord"
+      ],
+      "correct": 3
+    },
+    "81": {
+      "qid": 81,
+      "topic": "Aerodynamics",
+      "pos": 113,
+      "total_in_topic": 152,
+      "text": "A wing's aspect ratio is 5. Which of the following statements is correct?",
+      "options": [
+        "Its surface area is five times smaller than its span",
+        "Its average chord is five times smaller that its span",
+        "Its span is five times smaller than its average chord",
+        "Its span is five times smaller than its surface area"
       ],
       "correct": 1
     },
@@ -1272,6 +1370,20 @@
         "28.8 km",
         "23.0 km",
         "12.0 km"
+      ],
+      "correct": 1
+    },
+    "129": {
+      "qid": 129,
+      "topic": "Aerodynamics",
+      "pos": 118,
+      "total_in_topic": 152,
+      "text": "What do we call the graphic representation of the relationship between the forward speed and sink rate over the whole speed range of the glider?",
+      "options": [
+        "Barogram.",
+        "Speed polar curve.",
+        "Profile polar curve.",
+        "Emmagram."
       ],
       "correct": 1
     },
