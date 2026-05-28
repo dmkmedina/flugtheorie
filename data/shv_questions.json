@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-05-28T15:29:24.774Z",
+  "fetchedAt": "2026-05-28T15:29:54.916Z",
   "questions": {
     "1": {
       "qid": 1,
@@ -7605,6 +7605,104 @@
         "Put them as quickly as possible into the recovery position."
       ],
       "correct": 0
+    },
+    "Practical Flying_80": {
+      "qid": 80,
+      "topic": "Practical Flying",
+      "pos": 137,
+      "total_in_topic": 169,
+      "text": "What are the consequences of braking too hard in a turn?",
+      "options": [
+        "The airflow separates on one side (stalls) resulting in the wing diving over to that side and entering a spin.",
+        "The wing enters a constantly increasing spiral dive.",
+        "The glider suffers a front collapse, whereby the wingtips overtake the centre of the glider causing it to collapse together.",
+        "The airflow separates from the wing, resulting in a parachutal stall."
+      ],
+      "correct": 0
+    },
+    "Practical Flying_23": {
+      "qid": 23,
+      "topic": "Practical Flying",
+      "pos": 138,
+      "total_in_topic": 169,
+      "text": "In the area of the launch site there is no wind. What are the most important criteria for a suitable spot for takeoff?",
+      "options": [
+        "There must be a windsock on the slope below the launch.",
+        "The area behind the glider should be as flat and free of small obstacles and unevenness as possible.",
+        "The terrain must be very steep to facilitate as quick a start as possible.",
+        "The area in front of the glider should be as free from small obstacles or unevenness as possible."
+      ],
+      "correct": 3
+    },
+    "Practical Flying_15": {
+      "qid": 15,
+      "topic": "Practical Flying",
+      "pos": 139,
+      "total_in_topic": 169,
+      "text": "15 A pilot is anticipating flying from the Alps far into the flatlands. Which of the following publications will give him information about the location of the dividing line Alps/Swiss Plateau and the resulting change in maximum flight altitude?",
+      "options": [
+        "The DABS.",
+        "The Notam.",
+        "The glider map.",
+        "The VFR-Manual."
+      ],
+      "correct": 2
+    },
+    "Practical Flying_96": {
+      "qid": 96,
+      "topic": "Practical Flying",
+      "pos": 141,
+      "total_in_topic": 169,
+      "text": "When descending with \"big ears\" it is important to be aware that the glider in this configuration",
+      "options": [
+        "flies with a larger angle of attack and hence is especially susceptible to parachutal stalls while exiting the manoeuvre.",
+        "flies extremely unstably.",
+        "flies with considerably increased forward speed thereby increasing the risk of front collapses.",
+        "requires exceptional pilot skill especially in turbulent air and also places great strain on the body over longer periods."
+      ],
+      "correct": 0
+    },
+    "Practical Flying_160": {
+      "qid": 160,
+      "topic": "Practical Flying",
+      "pos": 142,
+      "total_in_topic": 169,
+      "text": "On the landing site where I have just touched down, a helicopter rescue is about to occur. This has been communicated to me by other pilots calling out. How should I correctly behave?",
+      "options": [
+        "I pack my paraglider carefully and don’t move, so that the approaching pilot can clearly see me.",
+        "I leave my gear on the ground and move immediately out of the danger zone.",
+        "I leave the zone immediately with all my gear and make sure that, at a reasonable distance away, nothing will be blown away.",
+        "I weigh down my glider with my harness and rucksack to prevent an uncontrolled inflation."
+      ],
+      "correct": 2
+    },
+    "Practical Flying_125": {
+      "qid": 125,
+      "topic": "Practical Flying",
+      "pos": 143,
+      "total_in_topic": 169,
+      "text": "On the final leg of a landing approach the pilot realizes he is fractionally too high. What should he do?",
+      "options": [
+        "Fly another circle in the landing approach turn direction.",
+        "Extend the approach over the landing point, turn 180° and land from the opposite direction.",
+        "Brake the glider to reduce the glide ratio and stand up earlier in the harness to increase the drag.",
+        "Increase speed in order to increase the drag."
+      ],
+      "correct": 2
+    },
+    "Practical Flying_56": {
+      "qid": 56,
+      "topic": "Practical Flying",
+      "pos": 144,
+      "total_in_topic": 169,
+      "text": "The angle of correction for wind drift (crab angle) is the angle between",
+      "options": [
+        "the transverse axis of your glider and the wind direction.",
+        "the longitudinal axis (or roll axis) of your glider and the wind direction.",
+        "the wind direction and your trajectory.",
+        "the longitudinal axis (or roll axis) of your glider and your trajectory."
+      ],
+      "correct": 3
     }
   },
   "topics": {
