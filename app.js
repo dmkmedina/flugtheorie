@@ -116,7 +116,9 @@ function getSHVEnrichments() {
   return (window.SHV_ENRICHMENTS && window.SHV_ENRICHMENTS.enrichments) || {};
 }
 function getSHVEnrichmentFor(qid) {
-  return getSHVEnrichments()[String(qid)] || getSHVEnrichments()[qid] || null;
+  // qid may be a number OR a compound "Topic_<num>" string.
+  const e = getSHVEnrichments();
+  return e[qid] || e[String(qid)] || null;
 }
 function getGuide() { return window.GUIDE || { parts: [] }; }
 function getTipsMd() { return window.TIPS_MD || ''; }
@@ -1250,7 +1252,10 @@ function buildSHVExamSet() {
     }
   }
   pool = shuffle(pool).slice(0, requested);
-  return pool.map(q => q.qid);
+  // The pool is now keyed by `${topic}_${qid}` so the live renderer can do a
+  // direct lookup. Emit those compound keys instead of just q.qid (which
+  // collides across topics — Aerodynamics_1 and Materials_1 are distinct).
+  return pool.map(q => `${q.topic}_${q.qid}`);
 }
 
 function startSHVExam(mode = 'exam') {
