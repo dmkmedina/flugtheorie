@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-05-28T16:04:03.054Z",
+  "fetchedAt": "2026-05-28T16:04:34.385Z",
   "questions": {
     "Aerodynamics_1": {
       "qid": 1,
@@ -8142,16 +8142,16 @@
     "Weather_113": {
       "qid": 113,
       "topic": "Weather",
-      "pos": 20,
+      "pos": 22,
       "total_in_topic": 164,
       "text": "Which conditions are the most favourable for a north föhn in Tessin?",
       "options": [
-        "Switzerland is in a warm sector, with a cold front approaching the Jura.",
-        "A high altitude southwest airflow brings warm air to the Alps above a \"Bise\" (cool northeast wind) flow at lower levels.",
+        "Switzerland is behind a cold front, and moderately humid, cold air approaches the Alps from the northwest.",
         "The cirrostratus clouds of an approaching warm front begin to cover the sky above Switzerland.",
-        "Switzerland is behind a cold front, and moderately humid, cold air approaches the Alps from the northwest."
+        "Switzerland is in a warm sector, with a cold front approaching the Jura.",
+        "A high altitude southwest airflow brings warm air to the Alps above a \"Bise\" (cool northeast wind) flow at lower levels."
       ],
-      "correct": 3
+      "correct": null
     },
     "Weather_100": {
       "qid": 100,
@@ -8360,6 +8360,118 @@
         "50'000m above sea level.",
         "11'000m above sea level.",
         "4'000m above sea level."
+      ],
+      "correct": 2
+    },
+    "Weather_121": {
+      "qid": 121,
+      "topic": "Weather",
+      "pos": 20,
+      "total_in_topic": 164,
+      "text": "What does the following drawing represent?",
+      "options": [
+        "An occlusion with the characteristics of a cold front.",
+        "An occlusion with the characteristics of a warm front.",
+        "A cold front.",
+        "A warm front."
+      ],
+      "correct": 0
+    },
+    "Weather_73": {
+      "qid": 73,
+      "topic": "Weather",
+      "pos": 23,
+      "total_in_topic": 164,
+      "text": "When the distance between isobars is small",
+      "options": [
+        "there is a flat pressure gradient and likelihood of light winds.",
+        "there is a steep pressure gradient and likelihood of strong winds.",
+        "there is a steep pressure gradient and likelihood of light winds.",
+        "there is a flat pressure gradient and likelihood of strong winds."
+      ],
+      "correct": 1
+    },
+    "Weather_89": {
+      "qid": 89,
+      "topic": "Weather",
+      "pos": 25,
+      "total_in_topic": 164,
+      "text": "The mountain wind occurs because the air",
+      "options": [
+        "cools quicker in the mountains than in the valley when the sun's radiation weakens.",
+        "warms up faster in the valley than in the mountains during the day.",
+        "cools quicker in the valley than in the mountains when the sun's radiation weakens.",
+        "warms up faster in the mountains than in the valley during the day."
+      ],
+      "correct": 0
+    },
+    "Weather_41": {
+      "qid": 41,
+      "topic": "Weather",
+      "pos": 26,
+      "total_in_topic": 164,
+      "text": "What does the temperature gradient of saturated (humid), rising air particularly depend on?",
+      "options": [
+        "The relative humidity.",
+        "How much higher the temperature is than the surrounding air.",
+        "The intensity of the suns radiation.",
+        "The amount of water vapour that condenses."
+      ],
+      "correct": 3
+    },
+    "Weather_45": {
+      "qid": 45,
+      "topic": "Weather",
+      "pos": 29,
+      "total_in_topic": 164,
+      "text": "Sunny weather at higher altitudes with low altitude fog at the same time is an indication of",
+      "options": [
+        "a high level of stability in the lower portion of the troposphere.",
+        "the centre of a low-pressure system.",
+        "an approaching cold front.",
+        "a low level of stability in the lower levels of the troposphere."
+      ],
+      "correct": 0
+    },
+    "Weather_146": {
+      "qid": 146,
+      "topic": "Weather",
+      "pos": 30,
+      "total_in_topic": 164,
+      "text": "Where is the centre of the high-pressure system?",
+      "options": [
+        "Near Tunis",
+        "Over the Bay of Biscay (Golf von Biskaya)",
+        "Near Stockholm",
+        "Near Lulea"
+      ],
+      "correct": 1
+    },
+    "Weather_98": {
+      "qid": 98,
+      "topic": "Weather",
+      "pos": 32,
+      "total_in_topic": 164,
+      "text": "At 14:00 on a summer's day, during a northwest wind weather conditions after the passing of a cold front, a valley wind of 25km/h is blowing at the valley floor. What type of turbulence is to be expected in the middle of the valley at 500m above ground?",
+      "options": [
+        "No turbulence.",
+        "Föhn turbulence.",
+        "Shear turbulence.",
+        "Mechanical turbulence."
+      ],
+      "correct": null
+    },
+    "Weather_77": {
+      "qid": 77,
+      "topic": "Weather",
+      "pos": 33,
+      "total_in_topic": 164,
+      "text": "A wind from northwest direction comes from an angle of",
+      "options": [
+        "045°",
+        "225°",
+        "315°",
+        "135°"
       ],
       "correct": 2
     }
