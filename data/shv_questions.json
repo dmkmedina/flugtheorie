@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-05-28T16:07:21.009Z",
+  "fetchedAt": "2026-05-28T16:07:59.894Z",
   "questions": {
     "Aerodynamics_1": {
       "qid": 1,
@@ -2320,10 +2320,10 @@
       "total_in_topic": 164,
       "text": "According to the weather conditions shown on the map the forecast for Switzerland should be",
       "options": [
-        "generally sunny throughout the whole of Switzerland with light and variable winds.",
         "bise conditions with wind speeds of up to 50 km/h in the region of lake Geneva.",
-        "increasing cloud in the west and south, and mainly sunny in the east due to the influence of south föhn.",
-        "cloud congestion on the north side of the Alps. Sunny in Tessin due to north föhn influence."
+        "cloud congestion on the north side of the Alps. Sunny in Tessin due to north föhn influence.",
+        "generally sunny throughout the whole of Switzerland with light and variable winds.",
+        "increasing cloud in the west and south, and mainly sunny in the east due to the influence of south föhn."
       ],
       "correct": null
     },
@@ -8962,6 +8962,20 @@
         "reduces with increasing altitude.",
         "increases with increasing altitude.",
         "is above freezing level."
+      ],
+      "correct": 2
+    },
+    "Weather_144": {
+      "qid": 144,
+      "topic": "Weather",
+      "pos": 1,
+      "total_in_topic": 164,
+      "text": "This symbol on a weather map defines",
+      "options": [
+        "a warm front.",
+        "an isobar.",
+        "an occlusion.",
+        "a cold front."
       ],
       "correct": 2
     }
