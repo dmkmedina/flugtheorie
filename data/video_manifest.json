@@ -12,6 +12,7 @@
         {
           "id": "aerodynamik_0",
           "deck_id": "aerodynamik",
+          "deck_icon": "📐",
           "part": 0,
           "provider": "freewings",
           "provider_label": "Free Wings",
@@ -26,6 +27,7 @@
         {
           "id": "aerodynamik_1",
           "deck_id": "aerodynamik",
+          "deck_icon": "📐",
           "part": 1,
           "provider": "freewings",
           "provider_label": "Free Wings",
@@ -47,6 +49,7 @@
         {
           "id": "meteo_0",
           "deck_id": "meteo",
+          "deck_icon": "🌤️",
           "part": 0,
           "provider": "freewings",
           "provider_label": "Free Wings",
@@ -61,6 +64,7 @@
         {
           "id": "meteo_1",
           "deck_id": "meteo",
+          "deck_icon": "🌤️",
           "part": 1,
           "provider": "freewings",
           "provider_label": "Free Wings",
@@ -75,6 +79,7 @@
         {
           "id": "aa_meteo_teil_1",
           "deck_id": "meteo",
+          "deck_icon": "🌤️",
           "part": 0,
           "provider": "airactive",
           "provider_label": "Air Active",
@@ -89,6 +94,7 @@
         {
           "id": "aa_meteo_teil_2",
           "deck_id": "meteo",
+          "deck_icon": "🌤️",
           "part": 1,
           "provider": "airactive",
           "provider_label": "Air Active",
@@ -103,6 +109,7 @@
         {
           "id": "aa_meteo_teil_3",
           "deck_id": "meteo",
+          "deck_icon": "🌤️",
           "part": 2,
           "provider": "airactive",
           "provider_label": "Air Active",
@@ -124,6 +131,7 @@
         {
           "id": "luftrecht_0",
           "deck_id": "luftrecht",
+          "deck_icon": "⚖️",
           "part": 0,
           "provider": "freewings",
           "provider_label": "Free Wings",
@@ -138,6 +146,7 @@
         {
           "id": "luftrecht_1",
           "deck_id": "luftrecht",
+          "deck_icon": "⚖️",
           "part": 1,
           "provider": "freewings",
           "provider_label": "Free Wings",
@@ -159,6 +168,7 @@
         {
           "id": "materialkunde_0",
           "deck_id": "material",
+          "deck_icon": "🪂",
           "part": 0,
           "provider": "freewings",
           "provider_label": "Free Wings",
@@ -173,6 +183,7 @@
         {
           "id": "materialkunde_1",
           "deck_id": "material",
+          "deck_icon": "🪂",
           "part": 1,
           "provider": "freewings",
           "provider_label": "Free Wings",
@@ -194,6 +205,7 @@
         {
           "id": "flugpraxis_0",
           "deck_id": "flugpraxis",
+          "deck_icon": "🛫",
           "part": 0,
           "provider": "freewings",
           "provider_label": "Free Wings",
@@ -208,6 +220,7 @@
         {
           "id": "flugpraxis_1",
           "deck_id": "flugpraxis",
+          "deck_icon": "🛫",
           "part": 1,
           "provider": "freewings",
           "provider_label": "Free Wings",
@@ -222,6 +235,7 @@
         {
           "id": "aa_stallpunkt",
           "deck_id": "flugpraxis",
+          "deck_icon": "🛫",
           "part": 0,
           "provider": "airactive",
           "provider_label": "Air Active",
@@ -236,6 +250,7 @@
         {
           "id": "aa_grosse_ohren",
           "deck_id": "flugpraxis",
+          "deck_icon": "🛫",
           "part": 1,
           "provider": "airactive",
           "provider_label": "Air Active",
@@ -250,6 +265,7 @@
         {
           "id": "aa_b-stall",
           "deck_id": "flugpraxis",
+          "deck_icon": "🛫",
           "part": 2,
           "provider": "airactive",
           "provider_label": "Air Active",
@@ -264,6 +280,7 @@
         {
           "id": "aa_rollen",
           "deck_id": "flugpraxis",
+          "deck_icon": "🛫",
           "part": 3,
           "provider": "airactive",
           "provider_label": "Air Active",
@@ -278,6 +295,7 @@
         {
           "id": "aa_kleine_ohren",
           "deck_id": "flugpraxis",
+          "deck_icon": "🛫",
           "part": 4,
           "provider": "airactive",
           "provider_label": "Air Active",
@@ -292,6 +310,7 @@
         {
           "id": "aa_p2_leitlinien_acht",
           "deck_id": "flugpraxis",
+          "deck_icon": "🛫",
           "part": 5,
           "provider": "airactive",
           "provider_label": "Air Active",
@@ -306,6 +325,7 @@
         {
           "id": "aa_p1_doppelkreis_rechts",
           "deck_id": "flugpraxis",
+          "deck_icon": "🛫",
           "part": 6,
           "provider": "airactive",
           "provider_label": "Air Active",
@@ -320,6 +340,7 @@
         {
           "id": "aa_seitenklapper_50%",
           "deck_id": "flugpraxis",
+          "deck_icon": "🛫",
           "part": 7,
           "provider": "airactive",
           "provider_label": "Air Active",
@@ -334,6 +355,7 @@
         {
           "id": "aa_nicken",
           "deck_id": "flugpraxis",
+          "deck_icon": "🛫",
           "part": 8,
           "provider": "airactive",
           "provider_label": "Air Active",
@@ -348,6 +370,7 @@
         {
           "id": "aa_kurvenfliegen",
           "deck_id": "flugpraxis",
+          "deck_icon": "🛫",
           "part": 9,
           "provider": "airactive",
           "provider_label": "Air Active",
@@ -362,6 +385,7 @@
         {
           "id": "aa_bremshaltung",
           "deck_id": "flugpraxis",
+          "deck_icon": "🛫",
           "part": 10,
           "provider": "airactive",
           "provider_label": "Air Active",
@@ -376,6 +400,7 @@
         {
           "id": "aa_beschleunigt_fliegen",
           "deck_id": "flugpraxis",
+          "deck_icon": "🛫",
           "part": 11,
           "provider": "airactive",
           "provider_label": "Air Active",

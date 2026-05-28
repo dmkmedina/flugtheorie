@@ -78,12 +78,13 @@ def build_freewings() -> list[dict]:
         except ValueError:
             base, part = heading, 0
         deck_id = FW_HEADING_DECK.get(base, base)
-        title_base, _ = DECK_META.get(deck_id, (base.title(), "🎬"))
+        title_base, deck_icon = DECK_META.get(deck_id, (base.title(), "🎬"))
         slug = slugify(v["heading"])
         duration = load_transcript_duration(slug)
         out.append({
             "id": slug,
             "deck_id": deck_id,
+            "deck_icon": deck_icon,
             "part": part,
             "provider": "freewings",
             "provider_label": "Free Wings",
@@ -110,10 +111,12 @@ def build_airactive() -> list[dict]:
         # Prefix slug so it never collides with Free Wings
         slug = f"aa_{slugify(heading)}"
         deck_id = AA_HEADING_DECK.get(heading.lower(), "flugpraxis")
+        _, deck_icon = DECK_META.get(deck_id, (deck_id.title(), "🎬"))
         duration = v.get("durationSec") or load_transcript_duration(slug)
         out.append({
             "id": slug,
             "deck_id": deck_id,
+            "deck_icon": deck_icon,
             "part": v.get("galleryIndex", 0),
             "provider": "airactive",
             "provider_label": "Air Active",
