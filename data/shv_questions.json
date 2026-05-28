@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-05-28T16:09:07.424Z",
+  "fetchedAt": "2026-05-28T16:09:38.939Z",
   "questions": {
     "Aerodynamics_1": {
       "qid": 1,
@@ -2246,13 +2246,13 @@
     "Weather_7": {
       "qid": 7,
       "topic": "Weather",
-      "pos": 17,
+      "pos": 63,
       "total_in_topic": 164,
       "text": "What is the average sea level pressure (ICAO standard atmosphere) used by meteorologists?",
       "options": [
         "760.0 hPa",
-        "1013.2 hPa",
         "1033.6 hPa",
+        "1013.2 hPa",
         "998.7 hPa"
       ],
       "correct": null
@@ -2372,16 +2372,16 @@
     "Weather_135": {
       "qid": 135,
       "topic": "Weather",
-      "pos": 4,
+      "pos": 60,
       "total_in_topic": 164,
       "text": "In which of the following months do the thermals in the Alps reach the highest altitudes?",
       "options": [
-        "May",
-        "October",
         "August",
-        "January"
+        "October",
+        "January",
+        "May"
       ],
-      "correct": 2
+      "correct": null
     },
     "Weather_107": {
       "qid": 107,
@@ -2442,14 +2442,14 @@
     "Weather_17": {
       "qid": 17,
       "topic": "Weather",
-      "pos": 48,
+      "pos": 67,
       "total_in_topic": 164,
       "text": "Why does the temperature of a rising bubble of air change?",
       "options": [
-        "Because the angle of the sun's radiation reduces with increasing altitude, and therefore the air bubble receives less heat than at ground level.",
         "Because the bubble leaves the source of warmth, i.e. the earths surface, and cools down.",
+        "Because the pressure reduces with increasing altitude, resulting in the air bubble expanding and losing energy in the form of heat.",
         "Because rising air needs to evaporate water, there is a relationship between the increase in altitude and reduction in temperature.",
-        "Because the pressure reduces with increasing altitude, resulting in the air bubble expanding and losing energy in the form of heat."
+        "Because the angle of the sun's radiation reduces with increasing altitude, and therefore the air bubble receives less heat than at ground level."
       ],
       "correct": null
     },
@@ -2484,14 +2484,14 @@
     "Weather_138": {
       "qid": 138,
       "topic": "Weather",
-      "pos": 18,
+      "pos": 73,
       "total_in_topic": 164,
       "text": "The term \"blue thermal\" means",
       "options": [
-        "thermal rising air masses which are raised due to incoming continental cold air.",
-        "thermal rising air in which the humidity is so high that clouds form which cause precipitation.",
         "thermal rising air in which the humidity is so low that it doesn't allow the development of cumulus clouds.",
-        "thermal rising air over still waters during the night."
+        "thermal rising air over still waters during the night.",
+        "thermal rising air in which the humidity is so high that clouds form which cause precipitation.",
+        "thermal rising air masses which are raised due to incoming continental cold air."
       ],
       "correct": null
     },
@@ -9160,6 +9160,90 @@
         "1"
       ],
       "correct": 0
+    },
+    "Weather_110": {
+      "qid": 110,
+      "topic": "Weather",
+      "pos": 61,
+      "total_in_topic": 164,
+      "text": "What could the weather typically look like an hour before the arrival of a warm front?",
+      "options": [
+        "The sky is covered with 5/8 of cumulus, strong gusty wind, strong thermals with strong sink around them.",
+        "Clouds cover the mountains in the distance, cumulus and lenticular clouds in the blue portion of the sky, changing wind direction on the ground, freshening southwest wind at launch.",
+        "Blue sky, no wind, not much turbulence, steady lift at takeoff, smooth, widespread lift, cumulus congestus and cumulonimbus in the distance.",
+        "Poor visibility, low cloud base, rain, steady wind."
+      ],
+      "correct": 3
+    },
+    "Weather_6": {
+      "qid": 6,
+      "topic": "Weather",
+      "pos": 64,
+      "total_in_topic": 164,
+      "text": "How does air pressure vary with increasing altitude?",
+      "options": [
+        "It reduces by half up to the tropopause and beyond that stays constant.",
+        "It reduces by half approximately every 5'500m.",
+        "It reduces by half approximately every 11'000m.",
+        "It reduces at approx. 80hPa per 100m in altitude."
+      ],
+      "correct": 1
+    },
+    "Weather_58": {
+      "qid": 58,
+      "topic": "Weather",
+      "pos": 68,
+      "total_in_topic": 164,
+      "text": "Lenticular clouds can develop when",
+      "options": [
+        "large scale lifting of unstable surface air suddenly occurs.",
+        "thermals cause a föhn effect.",
+        "strong thermals rise at the saturated adiabatic lapse rate.",
+        "an air mass flows over mountainous terrain at a certain speeds."
+      ],
+      "correct": 3
+    },
+    "Weather_119": {
+      "qid": 119,
+      "topic": "Weather",
+      "pos": 74,
+      "total_in_topic": 164,
+      "text": "What does the following drawing represent?",
+      "options": [
+        "A cold front.",
+        "An occlusion with the characteristics of a cold front.",
+        "An occlusion with the characteristics of a warm front.",
+        "A warm front."
+      ],
+      "correct": 2
+    },
+    "Weather_142": {
+      "qid": 142,
+      "topic": "Weather",
+      "pos": 75,
+      "total_in_topic": 164,
+      "text": "This symbol on a weather map defines",
+      "options": [
+        "a warm front.",
+        "a cold front.",
+        "an occlusion.",
+        "an isobar."
+      ],
+      "correct": null
+    },
+    "Weather_130": {
+      "qid": 130,
+      "topic": "Weather",
+      "pos": 76,
+      "total_in_topic": 164,
+      "text": "In general what conditions cause an inversion at ground level?",
+      "options": [
+        "The heating of the air layers close to the ground during the course of the day.",
+        "The nightly radiation of heat from the ground when there are clear skies.",
+        "Incoming continental air masses in the air layers close to the ground.",
+        "Sinking air warming at the unsaturated (dry) adiabatic lapse rate in front of and in the centre of a high-pressure system."
+      ],
+      "correct": 1
     }
   },
   "topics": {
