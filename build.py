@@ -121,6 +121,11 @@ def main():
   <div class="slide-viewer-content" id="slide-viewer-content"></div>
 </div>
 
+<!-- Video Player (subtitled MP4 + transcript) -->
+<div class="video-player" id="video-player">
+  <div class="video-player-content" id="video-player-content"></div>
+</div>
+
 <!-- Inline data -->
 <script id="data-cards" type="application/json">{cards_json}</script>
 <script id="data-guide" type="application/json">{guide_json}</script>

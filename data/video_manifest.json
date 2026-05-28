@@ -141,12 +141,12 @@
           "part": 1,
           "title": "Materialkunde — Part 2",
           "mp4_url": "https://video.wixstatic.com/video/2c6d0a_64f8a7acd071464991cb493ddcff3c8b/1080p/mp4/file.mp4",
-          "duration_seconds": null,
-          "duration_label": null,
-          "has_de_vtt": false,
-          "has_en_vtt": false,
-          "de_vtt_path": null,
-          "en_vtt_path": null
+          "duration_seconds": 874.2613125,
+          "duration_label": "14:34",
+          "has_de_vtt": true,
+          "has_en_vtt": true,
+          "de_vtt_path": "data/transcripts/materialkunde_1.de.vtt",
+          "en_vtt_path": "data/transcripts/materialkunde_1.en.vtt"
         }
       ]
     },
