@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-05-28T16:01:53.328Z",
+  "fetchedAt": "2026-05-28T16:02:26.473Z",
   "questions": {
     "Aerodynamics_1": {
       "qid": 1,
@@ -2488,12 +2488,12 @@
       "total_in_topic": 164,
       "text": "The term \"blue thermal\" means",
       "options": [
-        "thermal rising air in which the humidity is so low that it doesn't allow the development of cumulus clouds.",
         "thermal rising air masses which are raised due to incoming continental cold air.",
-        "thermal rising air over still waters during the night.",
-        "thermal rising air in which the humidity is so high that clouds form which cause precipitation."
+        "thermal rising air in which the humidity is so high that clouds form which cause precipitation.",
+        "thermal rising air in which the humidity is so low that it doesn't allow the development of cumulus clouds.",
+        "thermal rising air over still waters during the night."
       ],
-      "correct": 0
+      "correct": null
     },
     "Weather_13": {
       "qid": 13,
@@ -8054,6 +8054,132 @@
         "Its volume increases, its temperature decreases."
       ],
       "correct": 2
+    },
+    "Weather_47": {
+      "qid": 47,
+      "topic": "Weather",
+      "pos": 12,
+      "total_in_topic": 164,
+      "text": "Clouds develop",
+      "options": [
+        "when the temperature rises and the evaporation increases.",
+        "When rising air meets an inversion.",
+        "when the air is cooled, mostly due to uplift, until it reaches its dew point.",
+        "only in the vicinity of a low-pressure system."
+      ],
+      "correct": 2
+    },
+    "Weather_1": {
+      "qid": 1,
+      "topic": "Weather",
+      "pos": 13,
+      "total_in_topic": 164,
+      "text": "Air is a mixture of different gases. The most important gases are",
+      "options": [
+        "approx. 78% oxygen and approx. 21% nitrogen.",
+        "approx. 78% nitrogen and approx. 21% oxygen.",
+        "approx. 78% oxygen and approx. 21% carbon dioxide.",
+        "approx. 78% carbon dioxide and approx. 21% oxygen."
+      ],
+      "correct": 1
+    },
+    "Weather_132": {
+      "qid": 132,
+      "topic": "Weather",
+      "pos": 14,
+      "total_in_topic": 164,
+      "text": "What are the best conditions for the creation of good thermals over a given area?",
+      "options": [
+        "High angle of incidence of the sun's rays, strong reflection.",
+        "Low angle of incidence of the sun's rays, strong reflection.",
+        "High angle of incidence of the sun's rays, weak reflection.",
+        "Low angle of incidence of the sun's rays, weak reflection."
+      ],
+      "correct": 2
+    },
+    "Weather_26": {
+      "qid": 26,
+      "topic": "Weather",
+      "pos": 15,
+      "total_in_topic": 164,
+      "text": "The vertical temperature gradient is defined as",
+      "options": [
+        "the pressure difference per km between two different geographical points.",
+        "the unit of measurement of temperature, as the expression says; grad(ient).",
+        "the temperature difference per 100m change in altitude.",
+        "the altitude difference per °C in an air mass."
+      ],
+      "correct": 2
+    },
+    "Weather_161": {
+      "qid": 161,
+      "topic": "Weather",
+      "pos": 16,
+      "total_in_topic": 164,
+      "text": "What is the cloud distribution in Paris most likely to be?",
+      "options": [
+        "8/8 nimbostratus",
+        "3/8 - 5/8 cumulus",
+        "5/8 - 7/8 cumulonimbus, isolated lenticulars in the east",
+        "5/8 - 7/8 cirrostratus"
+      ],
+      "correct": 1
+    },
+    "Weather_68": {
+      "qid": 68,
+      "topic": "Weather",
+      "pos": 19,
+      "total_in_topic": 164,
+      "text": "In a low pressure system in the northern hemisphere",
+      "options": [
+        "the air masses turn in a clockwise direction around their centre and sink over a large area.",
+        "the air masses turn in an anticlockwise direction around their centre and sink over a large area.",
+        "the air masses turn in a clockwise direction around their centre and rise over a large area.",
+        "the air masses turn in an anticlockwise direction around their centre and rise over a large area."
+      ],
+      "correct": 3
+    },
+    "Weather_113": {
+      "qid": 113,
+      "topic": "Weather",
+      "pos": 20,
+      "total_in_topic": 164,
+      "text": "Which conditions are the most favourable for a north föhn in Tessin?",
+      "options": [
+        "Switzerland is in a warm sector, with a cold front approaching the Jura.",
+        "A high altitude southwest airflow brings warm air to the Alps above a \"Bise\" (cool northeast wind) flow at lower levels.",
+        "The cirrostratus clouds of an approaching warm front begin to cover the sky above Switzerland.",
+        "Switzerland is behind a cold front, and moderately humid, cold air approaches the Alps from the northwest."
+      ],
+      "correct": 3
+    },
+    "Weather_100": {
+      "qid": 100,
+      "topic": "Weather",
+      "pos": 21,
+      "total_in_topic": 164,
+      "text": "In alpine valleys with pronounced valley wind systems, what type of turbulence is to be expected on a south-facing slope at 2,800m above sea level on a summer's day at 13:00?",
+      "options": [
+        "Windward side turbulence.",
+        "Shear turbulence.",
+        "Mechanical turbulence.",
+        "Thermic turbulence."
+      ],
+      "correct": 3
+    },
+    "Weather_118": {
+      "qid": 118,
+      "topic": "Weather",
+      "pos": 23,
+      "total_in_topic": 164,
+      "text": "What does the following drawing represent?",
+      "options": [
+        "A cold front.",
+        "A warm front.",
+        "An occlusion with the characteristics of a warm front.",
+        "An occlusion with the characteristics of a cold front."
+      ],
+      "correct": 0
     }
   },
   "topics": {
