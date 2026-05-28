@@ -49,31 +49,34 @@ async function login(page) {
   await page.waitForTimeout(2500);
 }
 
+async function setCheckbox(page, idAttr, want) {
+  const cb = page.locator(`input[id="${idAttr}"]`);
+  if (!(await cb.count())) return;
+  if ((await cb.isChecked()) === want) return;
+  const label = page.locator(`label[for="${idAttr}"]`);
+  if (await label.count()) await label.click({ force: true });
+  else await cb.click({ force: true });
+  await page.waitForTimeout(250);
+}
+
 async function selectOnlySubject(page, subjectId) {
-  // Subject checkbox ids contain `[`, `,`, ` `, `]` — use attribute selectors
-  // instead of `#id` (which is CSS and breaks on those chars).
+  // Subject checkbox ids contain `[`, `,`, ` `, `]` — use attribute selectors.
   for (const s of SUBJECTS) {
-    const idAttr = `subject[${s.id}, True]`;
-    const cb = page.locator(`input[id="${idAttr}"]`);
-    if (!(await cb.count())) continue;
-    const isChecked = await cb.isChecked();
-    const want = s.id === subjectId;
-    if (isChecked !== want) {
-      // Blazor checkbox: click the label, not the input
-      const label = page.locator(`label[for="${idAttr}"]`);
-      if (await label.count()) await label.click({ force: true });
-      else await cb.click({ force: true });
-      await page.waitForTimeout(250);
-    }
+    await setCheckbox(page, `subject[${s.id}, True]`, s.id === subjectId);
   }
-  // Verify only the target is checked
+  // Ensure Show solutions is ON (required for the back-navigation green/red reveal).
+  await setCheckbox(page, 'optionShowAnswer', true);
+  await setCheckbox(page, 'optionRandom', true);
+  // Verify
   const states = await page.evaluate((subjects) => {
-    return subjects.map(s => {
-      const el = document.querySelector(`input[id="subject[${s.id}, True]"]`);
-      return { id: s.id, label: s.label, checked: el ? el.checked : null };
-    });
+    const get = (id) => document.querySelector(`input[id="${id}"]`)?.checked ?? null;
+    return {
+      subjects: subjects.map(s => ({ id: s.id, checked: get(`subject[${s.id}, True]`) })),
+      showAnswer: get('optionShowAnswer'),
+      random: get('optionRandom'),
+    };
   }, SUBJECTS);
-  console.error(`  subject states: ${JSON.stringify(states.map(s => `${s.id}=${s.checked}`))}`);
+  console.error(`  config: ${JSON.stringify(states)}`);
   await page.waitForTimeout(500);
 }
 
@@ -180,8 +183,24 @@ async function scrapeOneSubject(targetSubject) {
     }
     const correctIdx = s.options.findIndex(o => o.isCorrect);
     if (correctIdx === -1) {
-      console.error(`[${targetSubject.label}] qid=${s.qid}: no green option — skipping`);
+      console.error(`[${targetSubject.label}] qid=${s.qid}: no green option — recording unknown, advancing`);
+      // Record what we have with correct=null; UI can flag "answer unknown"
+      const stuckQid = s.qid;
+      dataset.questions[`${s.topic}_${s.qid}`] = {
+        qid: s.qid, topic: s.topic, pos: s.pos, total_in_topic: s.total,
+        text: s.qText, options: s.options.map(o => o.text), correct: null,
+      };
+      seenKeys.add(`${s.topic}#${s.qid}`);
+      // Force-advance — select+commit so the page actually moves on
+      await clickOption0(page);
+      await page.waitForTimeout(300);
       await pressForward(page);
+      // Verify we left the stuck question; if not, break to avoid infinite loop
+      const after = await readState(page);
+      if (after.qid === stuckQid) {
+        console.error(`[${targetSubject.label}] couldn't advance past qid=${stuckQid} — bailing`);
+        break;
+      }
       continue;
     }
 
