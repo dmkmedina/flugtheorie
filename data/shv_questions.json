@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-05-28T15:27:52.789Z",
+  "fetchedAt": "2026-05-28T15:28:22.989Z",
   "questions": {
     "1": {
       "qid": 1,
@@ -7241,6 +7241,132 @@
         "circle to the left whenever possible."
       ],
       "correct": 0
+    },
+    "Practical Flying_36": {
+      "qid": 36,
+      "topic": "Practical Flying",
+      "pos": 106,
+      "total_in_topic": 169,
+      "text": "During which phase at the latest should you abort your takeoff?",
+      "options": [
+        "In the control and correction phase.",
+        "In the acceleration phase.",
+        "In the inflation phase.",
+        "In none of the phases."
+      ],
+      "correct": 0
+    },
+    "Practical Flying_30": {
+      "qid": 30,
+      "topic": "Practical Flying",
+      "pos": 107,
+      "total_in_topic": 169,
+      "text": "At what moment should the pilot be sure that the start and airspace are clear?",
+      "options": [
+        "Just before taking off.",
+        "Before the pilot lays out the glider on the start.",
+        "Before the pilot makes himself ready for the start.",
+        "When the pilot has finished laying out the glider."
+      ],
+      "correct": 0
+    },
+    "Practical Flying_119": {
+      "qid": 119,
+      "topic": "Practical Flying",
+      "pos": 108,
+      "total_in_topic": 169,
+      "text": "When landing with a tailwind, the angle of approach is",
+      "options": [
+        "shallower and the touchdown speed lower.",
+        "steeper and the touchdown speed lower.",
+        "steeper and the touchdown speed higher.",
+        "shallower and the touchdown speed higher."
+      ],
+      "correct": 3
+    },
+    "Practical Flying_106": {
+      "qid": 106,
+      "topic": "Practical Flying",
+      "pos": 109,
+      "total_in_topic": 169,
+      "text": "Which part of the approach is #1?",
+      "options": [
+        "Downwind leg.",
+        "Base leg.",
+        "Zone for losing altitude.",
+        "Final approach."
+      ],
+      "correct": 2
+    },
+    "Practical Flying_64": {
+      "qid": 64,
+      "topic": "Practical Flying",
+      "pos": 110,
+      "total_in_topic": 169,
+      "text": "A pilot is circling in a thermal with no prevailing wind. This current",
+      "options": [
+        "inclines to the west with increasing altitude.",
+        "rises vertically upwards.",
+        "inclines to the north with increasing altitude.",
+        "inclines to the east with increasing altitude."
+      ],
+      "correct": 1
+    },
+    "Practical Flying_37": {
+      "qid": 37,
+      "topic": "Practical Flying",
+      "pos": 111,
+      "total_in_topic": 169,
+      "text": "On a South facing launch you have a wind from 120º at 5 knots. What is the best approach?",
+      "options": [
+        "The start should be aborted as the side wind presents too high a risk.",
+        "Inflate the glider against the wind and accelerate diagonally down the slope against the wind.",
+        "Inflate the glider against wind and progressively turn towards the fall-line and accelerate.",
+        "Inflate the glider towards the south and then accelerate in a southwesterly direction to compensate for the side wind."
+      ],
+      "correct": 2
+    },
+    "Practical Flying_98": {
+      "qid": 98,
+      "topic": "Practical Flying",
+      "pos": 112,
+      "total_in_topic": 169,
+      "text": "When opening \"big ears\" it is important to note that",
+      "options": [
+        "they should be pumped opened with simultaneous, forceful application of both brakes.",
+        "at the latest during final approach, they should be fully opened by pumping of the brake lines.",
+        "during the landing approach they should only be opened by shaking the outermost A-lines.",
+        "at low altitude they should not be opened actively (by pumping of the brake lines)."
+      ],
+      "correct": 3
+    },
+    "Practical Flying_46": {
+      "qid": 46,
+      "topic": "Practical Flying",
+      "pos": 113,
+      "total_in_topic": 169,
+      "text": "A launch is at 1,600m AMSL and the valley below is at 400m AMSL. The manufacturer indicates the glider has a glide ratio of 9:1. What is the longest distance you can fly in calm air?",
+      "options": [
+        "14,4 km",
+        "10,8 km",
+        "6 km",
+        "9 km"
+      ],
+      "correct": 1
+    },
+    "Practical Flying_151": {
+      "qid": 151,
+      "topic": "Practical Flying",
+      "pos": 114,
+      "total_in_topic": 169,
+      "text": "Are there areas where takeoffs and landings are forbidden for environmental reasons?",
+      "options": [
+        "No, as long as I do not disturb the environment, I can take off and land anywhere.",
+        "Yes, however these areas are wooded or otherwise unsuitable for takeoffs and landings.",
+        "Yes, in national protected areas in accordance with the outlanding regulation of federal government and in accordance with regional special regulations.",
+        "Yes, in all national protected areas."
+      ],
+      "correct": 2
     }
   },
   "topics": {
