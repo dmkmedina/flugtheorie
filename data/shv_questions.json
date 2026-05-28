@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-05-28T14:44:12.996Z",
+  "fetchedAt": "2026-05-28T14:44:45.208Z",
   "questions": {
     "2": {
       "qid": 2,
@@ -295,6 +295,20 @@
       ],
       "correct": 3
     },
+    "31": {
+      "qid": 31,
+      "topic": "Aerodynamics",
+      "pos": 110,
+      "total_in_topic": 152,
+      "text": "A body exposed to an airflow at 1100m above sea level will have",
+      "options": [
+        "approx. 64% of the drag at sea level.",
+        "approx. 90% of the drag at sea level.",
+        "approx. 81% of the drag at sea level.",
+        "approx. 72% of the drag at sea level."
+      ],
+      "correct": 1
+    },
     "32": {
       "qid": 32,
       "topic": "Aerodynamics",
@@ -364,6 +378,20 @@
         "4"
       ],
       "correct": 3
+    },
+    "39": {
+      "qid": 39,
+      "topic": "Aerodynamics",
+      "pos": 111,
+      "total_in_topic": 152,
+      "text": "The bodies depicted below have a CD of 0.08, 0.17, 1 and 1.. Which has a CD of 1.00? 312",
+      "options": [
+        "4",
+        "3",
+        "1",
+        "2"
+      ],
+      "correct": 2
     },
     "40": {
       "qid": 40,
@@ -463,6 +491,20 @@
       ],
       "correct": 0
     },
+    "51": {
+      "qid": 51,
+      "topic": "Aerodynamics",
+      "pos": 109,
+      "total_in_topic": 152,
+      "text": "Which of the following profiles is exposed to an airflow with the largest angle of attack? 12",
+      "options": [
+        "3",
+        "1",
+        "4",
+        "2"
+      ],
+      "correct": 1
+    },
     "52": {
       "qid": 52,
       "topic": "Aerodynamics",
@@ -518,6 +560,20 @@
         "the speed of flight does not change."
       ],
       "correct": 1
+    },
+    "58": {
+      "qid": 58,
+      "topic": "Aerodynamics",
+      "pos": 106,
+      "total_in_topic": 152,
+      "text": "If the angle of attack of a paraglider flying at best glide is reduced by 2° then",
+      "options": [
+        "the lift coefiicient (CL) decreases.",
+        "the lift coefiicient (CL) increases.",
+        "the lift coefiicient (CL) doesn't change.",
+        "the lift coefficient (CL) initially increases momentarily before stabilizing at its original value."
+      ],
+      "correct": 0
     },
     "59": {
       "qid": 59,
@@ -841,6 +897,20 @@
       ],
       "correct": 1
     },
+    "93": {
+      "qid": 93,
+      "topic": "Aerodynamics",
+      "pos": 105,
+      "total_in_topic": 152,
+      "text": "Which of the following gliders has the smallest aspect ratio?",
+      "options": [
+        "surface area: 24m², span: 12m",
+        "surface area: 32m², span: 8m",
+        "surface area: 25m², span: 10m",
+        "surface area: 20m², span: 10m"
+      ],
+      "correct": 1
+    },
     "94": {
       "qid": 94,
       "topic": "Aerodynamics",
@@ -995,6 +1065,20 @@
       ],
       "correct": 0
     },
+    "108": {
+      "qid": 108,
+      "topic": "Aerodynamics",
+      "pos": 107,
+      "total_in_topic": 152,
+      "text": "Which of the following numbers represent the lift and drag? (Forces in balance in stable flight)",
+      "options": [
+        "2 and 3",
+        "3 and 6",
+        "5 and 6",
+        "5 and 3"
+      ],
+      "correct": 3
+    },
     "110": {
       "qid": 110,
       "topic": "Aerodynamics",
@@ -1132,6 +1216,20 @@
         "thrust and drag.",
         "thrust and total weight.",
         "lift and drag."
+      ],
+      "correct": 3
+    },
+    "121": {
+      "qid": 121,
+      "topic": "Aerodynamics",
+      "pos": 108,
+      "total_in_topic": 152,
+      "text": "The glide ratio of a glider gives information about the relationship between",
+      "options": [
+        "the span and average chord of the wing.",
+        "the static and dynamic pressure on the wing profile.",
+        "the lift on the upper and lower surfaces of the wing.",
+        "the value of the coefficients CL and CD of the wing."
       ],
       "correct": 3
     },
@@ -1428,6 +1526,20 @@
         "6.5"
       ],
       "correct": 0
+    },
+    "150": {
+      "qid": 150,
+      "topic": "Aerodynamics",
+      "pos": 104,
+      "total_in_topic": 152,
+      "text": "The term \"load factor\" defines",
+      "options": [
+        "the relationship between the minimum and maximum loading on a paraglider.",
+        "the relationship between the actual loading of a glider in flight compared with the total weight on the ground.",
+        "the wing loading.",
+        "the inbuilt extra load carrying capacity the manufacturer has included for safety."
+      ],
+      "correct": 1
     },
     "151": {
       "qid": 151,
