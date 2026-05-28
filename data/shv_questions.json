@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-05-28T16:05:08.938Z",
+  "fetchedAt": "2026-05-28T16:05:42.048Z",
   "questions": {
     "Aerodynamics_1": {
       "qid": 1,
@@ -2162,16 +2162,16 @@
     "Weather_59": {
       "qid": 59,
       "topic": "Weather",
-      "pos": 4,
+      "pos": 54,
       "total_in_topic": 164,
       "text": "Lenticular clouds",
       "options": [
+        "appear in Switzerland only during south föhn.",
         "change their position little despite high winds.",
         "consist exclusively of water, never of ice.",
-        "cause precipitation.",
-        "appear in Switzerland only during south föhn."
+        "cause precipitation."
       ],
-      "correct": 0
+      "correct": null
     },
     "Weather_29": {
       "qid": 29,
@@ -2344,16 +2344,16 @@
     "Weather_84": {
       "qid": 84,
       "topic": "Weather",
-      "pos": 2,
+      "pos": 51,
       "total_in_topic": 164,
       "text": "Mountain wind blows",
       "options": [
-        "during the day and uphill.",
-        "at night and down the valley.",
         "during the day and down the valley.",
-        "at night and uphill."
+        "at night and uphill.",
+        "during the day and uphill.",
+        "at night and down the valley."
       ],
-      "correct": 1
+      "correct": null
     },
     "Weather_127": {
       "qid": 127,
@@ -8030,16 +8030,16 @@
     "Weather_141": {
       "qid": 141,
       "topic": "Weather",
-      "pos": 10,
+      "pos": 61,
       "total_in_topic": 164,
       "text": "This symbol on a weather map defines",
       "options": [
         "a warm front.",
+        "an isobar.",
         "an occlusion.",
-        "a cold front.",
-        "an isobar."
+        "a cold front."
       ],
-      "correct": 2
+      "correct": null
     },
     "Weather_18": {
       "qid": 18,
@@ -8556,6 +8556,118 @@
         "About 11:00",
         "About 18:00",
         "About 15:00"
+      ],
+      "correct": 1
+    },
+    "Weather_96": {
+      "qid": 96,
+      "topic": "Weather",
+      "pos": 50,
+      "total_in_topic": 164,
+      "text": "The term \"shear turbulence\" describes in meteorological terms the movement of air which occurs when",
+      "options": [
+        "two neighbouring air masses moving in different directions or with different speeds rub against each other.",
+        "an airmass moving close to the ground is disturbed by the terrain, as well as obstacles such as houses, trees, etc.",
+        "warm air bubbles release from the ground and rise.",
+        "an airflow which is separated into shear layers by an obstacle."
+      ],
+      "correct": 0
+    },
+    "Weather_104": {
+      "qid": 104,
+      "topic": "Weather",
+      "pos": 52,
+      "total_in_topic": 164,
+      "text": "In meteorology what is meant by an \"air mass\"?",
+      "options": [
+        "The specific weight per cubic meter at 15°C at sea level at the equator.",
+        "A body of air having uniform characteristics.",
+        "An area with a higher air concentration in the centre of a high.",
+        "A part of the atmosphere with the same air density."
+      ],
+      "correct": 1
+    },
+    "Weather_117": {
+      "qid": 117,
+      "topic": "Weather",
+      "pos": 55,
+      "total_in_topic": 164,
+      "text": "An occlusion has",
+      "options": [
+        "harmless characteristics of a warm and cold front as both neutralise each other.",
+        "the weather characteristics of either a warm or a cold front, depending on the temperature of the inflowing cold air.",
+        "the weather characteristics of a cold front.",
+        "the weather characteristics of a warm front."
+      ],
+      "correct": 1
+    },
+    "Weather_94": {
+      "qid": 94,
+      "topic": "Weather",
+      "pos": 56,
+      "total_in_topic": 164,
+      "text": "Under which of the following conditions is a valley wind most likely in alpine valleys?",
+      "options": [
+        "30 August, 15:00pm, 3/8 to 5/8 cumulus.",
+        "30 December, 14:00pm, cloudless sky.",
+        "30 July, 14:00pm, overcast sky.",
+        "30 June, 20:00pm, cloudless sky."
+      ],
+      "correct": 0
+    },
+    "Weather_112": {
+      "qid": 112,
+      "topic": "Weather",
+      "pos": 58,
+      "total_in_topic": 164,
+      "text": "With which of the following weather conditions should one most likely expect south föhn in the alpine valleys?",
+      "options": [
+        "Switzerland is in a warm sector, with a cold front approaching the Jura.",
+        "The cirrostratus clouds of an approaching warm front begin to cover the sky above Switzerland.",
+        "A high altitude south west airflow brings warm air to the Alps above a \"Bise\" (cool northeast wind) flow at lower levels.",
+        "Switzerland is behind a cold front, and moderately humid, cold air approaches the Alps from the northwest."
+      ],
+      "correct": 0
+    },
+    "Weather_87": {
+      "qid": 87,
+      "topic": "Weather",
+      "pos": 62,
+      "total_in_topic": 164,
+      "text": "When there is mountain wind, thermal updrafts are found",
+      "options": [
+        "generally in the upper area of the valley sides.",
+        "in the middle of the valley as well as in the upper area of the valley sides.",
+        "generally in the middle of the valley.",
+        "neither in the middle of the valley or the upper area of the valley sides."
+      ],
+      "correct": 2
+    },
+    "Weather_49": {
+      "qid": 49,
+      "topic": "Weather",
+      "pos": 63,
+      "total_in_topic": 164,
+      "text": "What is the name for a covered cloud layer with a base height of 4,000m above sea level?",
+      "options": [
+        "Altostratus",
+        "Nimbostratus",
+        "Altocumulus",
+        "Cirrostratus"
+      ],
+      "correct": 0
+    },
+    "Weather_131": {
+      "qid": 131,
+      "topic": "Weather",
+      "pos": 64,
+      "total_in_topic": 164,
+      "text": "What causes the disappearance of a ground level inversion?",
+      "options": [
+        "Sinking warm air warming in front of and in the centre of a high-pressure system.",
+        "The heating of the air layers close to the ground during the course of the day.",
+        "The nightly radiation of heat from the ground when there are clear skies.",
+        "Incoming warm air in the upper air layers."
       ],
       "correct": 1
     }
