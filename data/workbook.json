@@ -134,7 +134,7 @@
             },
             {
               "kind": "p",
-              "text": "Air density has the same linear behaviour as surface area. If air density doubles, drag doubles. If it halves, drag halves. The atmospheric pressure halves at roughly 5500 m AMSL, and the density also drops broadly in line with pressure — so the drag at altitude on any given body is lower than at sea level for the same shape and airspeed."
+              "text": "Air density has the same linear behaviour as surface area. If air density doubles, drag doubles. If it halves, drag halves. Two distinct halving altitudes are worth memorising: air pressure halves at roughly 5500 m AMSL, while air density only halves at about 6600 m AMSL — they are not the same number because temperature also changes with altitude. The next chapter covers the density-with-altitude table in detail."
             },
             {
               "kind": "h2",
@@ -150,7 +150,7 @@
             },
             {
               "kind": "p",
-              "text": "The effect of shape on drag is captured by the drag coefficient Cx. A flat plate facing the wind has a Cx of about 1.0. A convex shape, like a hollow hemisphere with its open side into the wind, has a higher Cx of about 1.3 — about 30 percent more drag than the flat plate for the same frontal area. A streamlined body has a Cx of about 0.08 — more than twelve times less drag than the flat plate. A streamlined body misaligned with the wind has a Cx around 0.17."
+              "text": "The effect of shape on drag is captured by the drag coefficient Cx. A flat plate facing the wind has a Cx of about 1.0. A convex shape, like a hollow hemisphere with its open side into the wind, has a higher Cx of about 1.3 — about 30 percent more drag than the flat plate for the same frontal area. A streamlined teardrop body has a Cx of about 0.08 — more than twelve times less drag than the flat plate. A streamlined body misaligned with the wind has a Cx around 0.17. This is also the principle of an anemometer: half-shells catch much more wind on their open side than their convex back, so a wheel of half-shells spins reliably with the wind."
             },
             {
               "kind": "p",
@@ -163,13 +163,22 @@
               "caption": "Drag coefficients for typical shapes — from flat plate to streamlined body."
             },
             {
+              "kind": "h2",
+              "text": "How drag breaks down on a paraglider"
+            },
+            {
+              "kind": "p",
+              "text": "On the flying paraglider system the total drag is roughly split four ways, as rules of thumb: about 20% profile drag (the wing's own skin and shape), about 20% line drag (the suspension lines), about 20% pilot/harness drag, and around 40% induced drag — the largest share, produced at the wingtips where the high-pressure air underneath spills around to the low-pressure side on top. Designers attack each share separately: more cells and cleaner stitching for profile drag, fewer and thinner lines for line drag, pod harnesses and a tucked seating position for pilot drag, and a high aspect ratio (long, slim wing) for induced drag. Every gain in performance comes with the trade-off of harder handling."
+            },
+            {
               "kind": "callout",
               "title": "Memorise",
               "items": [
                 "Drag = f(surface area, wind speed, air density, shape).",
                 "Linear in area and density; squared in speed.",
                 "Weight, humidity and temperature have no direct effect.",
-                "1 kg of force is roughly 10 Newtons."
+                "1 kg of force is roughly 10 Newtons.",
+                "Drag share on a paraglider: ~20% profile, ~20% lines, ~20% pilot, ~40% induced (the biggest)."
               ]
             }
           ],
@@ -223,12 +232,21 @@
               "text": "Lift behaves exactly like drag with respect to density: it is also linear in density. So a wing at 1100 m AMSL produces about 90 percent of the drag and 90 percent of the lift it would at sea level, all else being equal. To produce the same lift, the wing must therefore fly slightly faster at altitude. This is why launches at high altitude need a longer run."
             },
             {
-              "kind": "p",
-              "text": "Air pressure follows the same general pattern but is not numerically identical to density. Pressure halves at approximately 5500 m AMSL; density does too but at a slightly different rate because temperature also changes with altitude. For exam purposes the density table at 1100, 2200, 3300 and 4400 m is what matters."
+              "kind": "callout",
+              "title": "Two halving altitudes — don't confuse them",
+              "items": [
+                "Air pressure halves at ~5500 m AMSL.",
+                "Air density halves at ~6600 m AMSL.",
+                "Both numbers can appear in the same multiple-choice question — read carefully."
+              ]
             },
             {
               "kind": "p",
-              "text": "Two more practical consequences follow. The first: stall speed rises with altitude. The wing has to fly faster to keep generating enough lift, so the minimum airspeed shifts up. The second: at altitude you can only compensate for the thinner air with speed — everything else (wing area, profile, your weight) stays the same. Choose a steeper launch and run harder, and do not over-brake the wing in the first moments after lift-off."
+              "text": "Why are the two halving altitudes different? Pressure depends only on the weight of the column of air above; that drops smoothly with altitude. Density depends on pressure AND temperature, and the temperature also falls with altitude — colder air at the same pressure is denser, which slows the density drop relative to the pressure drop. The result is the two distinct halving altitudes above. For the exam, the four-row density table at 1100, 2200, 3300 and 4400 m is what you need to memorise; the two halving altitudes are the trick question."
+            },
+            {
+              "kind": "p",
+              "text": "Two practical consequences follow. The first: stall speed rises with altitude. The wing has to fly faster to keep generating enough lift, so the minimum airspeed shifts up. The second: at altitude you can only compensate for the thinner air with speed — everything else (wing area, profile, your weight) stays the same. A useful estimate: if density halves, you do not need to run twice as fast, only by the square root of two (about 40 percent faster) because lift scales with the square of speed. In practice that means a noticeably longer run, on terrain that is often steep, snow-covered or tiring after the hike up. The upside: thinner air also forgives stronger wind on launch; a 30 km/h launch that would be marginal at 1500 m is sometimes possible at 3000 m for an experienced pilot."
             },
             {
               "kind": "callout",
@@ -288,6 +306,26 @@
             },
             {
               "kind": "h2",
+              "text": "Three principles of lift"
+            },
+            {
+              "kind": "p",
+              "text": "Aerodynamicists describe lift with three complementary explanations, all of which apply simultaneously to a paraglider. The exam doesn't ask you to derive any formulas, but you should recognise each of these on multiple-choice answers."
+            },
+            {
+              "kind": "p",
+              "text": "Bernoulli's principle: the upper surface is more curved than the lower surface, which forces the air on top to flow faster. Faster flow gives lower pressure; the slower flow underneath gives higher pressure. The difference creates a net upward force on the wing — the suction on top is roughly twice as strong as the push underneath."
+            },
+            {
+              "kind": "p",
+              "text": "Newton's recoil principle (action-reaction): a wing at a positive angle of attack deflects the airflow downward as it passes; the equal and opposite reaction is an upward force on the wing. You can feel exactly the same effect if you hold your hand flat out of a moving car and slowly tilt it: tilt one way and the hand is pushed up, tilt the other way and it is pushed down."
+            },
+            {
+              "kind": "p",
+              "text": "Circulation flow: at the sharp trailing edge of the wing a starting vortex develops, which sets up a steady circulation of air around the wing. The wake is deflected downward and the reaction is an additional upward force. These three explanations are not competing theories — they are three views of the same physics, and modern aerodynamics combines all three."
+            },
+            {
+              "kind": "h2",
               "text": "Where the lift comes from"
             },
             {
@@ -308,7 +346,7 @@
             },
             {
               "kind": "p",
-              "text": "The profile of a wing is the shape of the cross-section from leading edge to trailing edge. Modern paraglider profiles are quite thick and strongly asymmetric. The upper surface is markedly curved, particularly over the anterior third of the wing; the lower surface is only slightly convex. The profile is one of the most important elements that define a wing's flying and ground-handling characteristics, including stability and how it inflates on take-off."
+              "text": "The profile of a wing is the shape of the cross-section from leading edge to trailing edge. Modern paraglider profiles are quite thick and strongly asymmetric. The upper surface is markedly curved, particularly over the anterior third of the wing; the lower surface is only slightly convex. Slow aircraft like paragliders use thick, asymmetric profiles to generate lift at low launch speed; fast aircraft like fighter jets use much thinner, flatter, less asymmetric profiles."
             },
             {
               "kind": "image",
@@ -318,7 +356,7 @@
             },
             {
               "kind": "p",
-              "text": "Key geometric points of the profile are the leading edge (the front), the trailing edge (the rear), the mean chord (the line from leading to trailing edge) and the angle of attack — the angle between the chord and the direction of the relative airflow. Important aerodynamic points include the stagnation point on the leading edge (where the flow divides between upper and lower surfaces), the centre of thrust (where the resultant aerodynamic force effectively acts) and the separation point on the upper surface (where the flow detaches at high angles of attack). All of these are covered in the next chapter."
+              "text": "Key geometric points of the profile are the leading edge (the front), the trailing edge (the rear), the mean chord (the line from leading to trailing edge) and the angle of attack — the angle between the chord and the direction of the relative airflow (NOT the angle to the horizon — a paraglider is always sinking slightly, so the relative wind comes at a slight upward slope). Important aerodynamic points include the stagnation point on the leading edge (where the flow divides between upper and lower surfaces), the centre of thrust (where the resultant aerodynamic force effectively acts) and the separation point on the upper surface (where the flow detaches at high angles of attack). All of these are covered in the next chapter. One practical hint already: the cell openings on a paraglider sit on the underside of the leading edge precisely because in normal flight the stagnation point lies there, so air enters the cells naturally."
             },
             {
               "kind": "callout",
@@ -326,6 +364,7 @@
               "items": [
                 "Lift depends on size, lift coefficient, air density and wind speed.",
                 "Doubling airspeed quadruples lift (and drag).",
+                "Three explanations (all true at once): Bernoulli (pressure difference), Newton (action-reaction), circulation flow (starting vortex).",
                 "At ~10° AoA: 2/3 of lift on the upper surface, 1/3 on the lower.",
                 "Front 1/3 of the wing carries roughly 2/3 of the total lift."
               ]
@@ -460,7 +499,7 @@
             },
             {
               "kind": "p",
-              "text": "Area is the total surface of the wing, expressed in square metres. As with wingspan, there is a flat area (measured on the floor) and a projected area (the shadow of the inflated wing). The flat area is always greater than or equal to the projected area; only for a very flat wing are they nearly the same."
+              "text": "Area is the total surface of the wing, expressed in square metres. As with wingspan, there is a flat area (measured on the floor) and a projected area (the shadow of the inflated wing). The flat area is always greater than or equal to the projected area; only for a very flat wing are they nearly the same. Aerodynamically the projected area is what counts in flight, because that is the area actually held into the airflow above the pilot."
             },
             {
               "kind": "h2",
@@ -502,7 +541,7 @@
             },
             {
               "kind": "p",
-              "text": "Paragliders typically have an aspect ratio of about 5; hang gliders are typically around 8. A high aspect ratio means a long, narrow wing — better performance, but stronger wingtip vortices, larger induced drag and a less docile wing. With experience pilots can recognise a high-aspect-ratio wing at a glance: long and slim, narrow chord. Lower aspect-ratio wings are wider, shorter span — usually more forgiving."
+              "text": "Paragliders typically have an aspect ratio of about 5; hang gliders are typically around 8. A high aspect ratio means a long, narrow wing — more performance, primarily because it REDUCES induced drag. Induced drag is generated at the wingtip, where the high pressure underneath spills around to the suction above; the longer and narrower the wing, the smaller the proportion of the span that is affected by that wingtip leakage. This is the same idea behind aeroplane winglets: anything that makes the effective wing 'longer and slimmer' for the same area reduces induced drag. The cost of a higher aspect ratio is that the wing becomes more demanding to fly — collapses are more violent and recovery less spontaneous. With experience pilots can recognise a high-aspect-ratio wing at a glance: long and slim, narrow chord. Lower aspect-ratio wings are wider, shorter span — usually more forgiving."
             },
             {
               "kind": "p",
@@ -514,7 +553,7 @@
             },
             {
               "kind": "p",
-              "text": "Take-off weight is the total of everything in the air: pilot, harness, wing and anything carried. The wing load is the take-off weight minus the wing's own weight — the load the wing has to support in the air. For a typical paraglider with a 5 kg wing and a 70–95 kg pilot+gear load, the take-off weight is 75–100 kg."
+              "text": "Take-off weight is the total of everything in the air: pilot, harness, wing and anything carried. The wing load is the take-off weight minus the wing's own weight — the load the wing has to support in the air. For a typical paraglider with a 5 kg wing and a 70–95 kg pilot+gear load, the take-off weight is 75–100 kg. The simplest practical method: stand on the bathroom scale with your full flight kit (harness, reserve, instruments, food, water, hiking shoes) AND your wing in the pack — that figure is your take-off weight."
             },
             {
               "kind": "image",
@@ -524,7 +563,7 @@
             },
             {
               "kind": "p",
-              "text": "Wing loading is the take-off weight divided by the (usually projected) wing area, expressed in kg/m². For paragliders the typical range is 2.5 to 4 kg/m². For a 25 m² wing with the loads above, you get 75/25 = 3 kg/m² at the minimum and 100/25 = 4 kg/m² at the maximum. A heavier loading shifts the polar curve up and to the right — the wing flies faster at every angle of attack, including a higher stall speed."
+              "text": "Wing loading is the take-off weight divided by the (usually projected) wing area, expressed in kg/m². For paragliders the typical range is 2.5 to 4 kg/m². For a 25 m² wing with the loads above, you get 75/25 = 3 kg/m² at the minimum and 100/25 = 4 kg/m² at the maximum. A heavier loading shifts the polar curve up and to the right — the wing flies faster at every angle of attack, including a higher stall speed. A more heavily loaded wing is faster and more agile; a lightly loaded wing is slower, more sluggish and less demanding to fly."
             },
             {
               "kind": "p",
@@ -536,7 +575,9 @@
               "items": [
                 "Aspect ratio = wingspan² / area = wingspan / mean chord.",
                 "Paragliders ~5, hang gliders ~8.",
+                "Higher aspect ratio = LOWER induced drag = better performance (but harder to fly).",
                 "Wing loading = take-off weight / projected area, ~2.5–4 kg/m² for paragliders.",
+                "Heavier load = faster, more agile; lighter load = slower, less demanding.",
                 "Flat values always ≥ projected values."
               ]
             }
@@ -805,7 +846,7 @@
             },
             {
               "kind": "p",
-              "text": "A paraglider can have rotary motion about three principal axes. Motion about the vertical axis is called yaw — a rotation in plan view that swings the wingtips forward and backward as the wing rotates around a vertical line through the pilot. Motion about the longitudinal axis (running front-to-back through the pilot) is called roll — a sideways motion that tips one wingtip down and the other up. Motion about the transverse axis (running left-right) is called pitch — a forward/backward motion of the wing across the pilot's body."
+              "text": "A paraglider can have rotary motion about three principal axes. Motion about the vertical axis is called yaw — a rotation in plan view that swings the wingtips forward and backward as the wing rotates around a vertical line through the pilot. Motion about the longitudinal axis (running front-to-back through the pilot) is called roll — a sideways motion that tips one wingtip down and the other up; wingovers are essentially a roll motion. Motion about the transverse axis (running left-right) is called pitch — a forward/backward motion of the wing across the pilot's body. A wing entering a thermal pitches up; on the exit it pitches forward."
             },
             {
               "kind": "image",
@@ -856,6 +897,15 @@
               "caption": "Stability illustrated — the ball-in-bowl analogy."
             },
             {
+              "kind": "callout",
+              "title": "Ball-in-bowl analogy",
+              "items": [
+                "Stable wing = ball in a bowl: a push and it oscillates back to the middle.",
+                "Unstable wing = ball on an upturned bowl: a push and it runs away — accelerating frontal collapse.",
+                "Indifferent wing = ball on a flat surface: a push and it holds the new state forever (e.g. stays in a tight spiral)."
+              ]
+            },
+            {
               "kind": "p",
               "text": "Stability can be defined separately about each of the three axes. A wing that rolls in calm air without input is unstable about the longitudinal axis. A wing that changes its angle of attack by itself is unstable about its glide path. A wing that yaws spontaneously without input is unstable about the vertical axis. A small number of paragliders are described as 'indifferent in a tight spiral' — exit from a steady tight 360° turn is not necessarily spontaneous and may require active pilot intervention."
             },
@@ -887,16 +937,24 @@
             },
             {
               "kind": "p",
-              "text": "The whole speed range shifts upward in a turn. Minimum (stall) speed rises along with cruise speed and Vmax. Transitioning from straight flight into a stabilised turn therefore increases both the wing loading and the minimum flying speed. This is why over-braking in a steeply banked turn is so dangerous: the inside wing approaches its (now-higher) stall speed quickly and can drop into a spin."
+              "text": "The whole speed range shifts upward in a turn. Minimum (stall) speed rises along with cruise speed and Vmax. Transitioning from straight flight into a stabilised turn therefore increases both the wing loading and the minimum flying speed. A common misconception is that a very fast steep turn cannot stall — it can. Higher loading just means you need MORE speed to stay above the (also-higher) stall speed. Over-braking in a steeply banked turn is dangerous precisely because the inside wing approaches its now-higher stall speed quickly and can drop into a spin."
+            },
+            {
+              "kind": "h2",
+              "text": "Accelerated flight — never brake on the bar"
+            },
+            {
+              "kind": "p",
+              "text": "Trim flight leaves the brake line slightly bowed: there are 10–15 cm of slack at the trailing edge. When the speed bar is pushed, the leading edge is pulled down and the trailing edge rises, so the brake line becomes taut. In that state, pulling the brake briefly raises the trailing edge above its accelerated position and creates a strong local angle of attack spike while the rest of the wing is at a very low overall AoA. The result is a significantly increased collapse risk — typically frontal, sometimes asymmetric — with a more violent recovery because the wing is flying fast."
             },
             {
               "kind": "callout",
-              "title": "Bank vs load",
+              "title": "Accelerated-flight rule",
               "items": [
-                "30° → barely 1 G.",
-                "45° → ~1.4 G, speed × 1.2.",
-                "60° → 2 G, speed × 1.4.",
-                "70° → 3 G; 80° → 6 G — minimum speed rises with every degree."
+                "On the speed bar: never steer with the brake.",
+                "Steer with weight shift first.",
+                "If that is not enough, add a light pull on the rear risers (1–2 cm).",
+                "Come off the bar at altitude before landing in turbulent air."
               ]
             }
           ],
@@ -1177,7 +1235,7 @@
             },
             {
               "kind": "p",
-              "text": "Stable stratification is the meteorological term for an air layer in which vertical motion is suppressed. For a pilot it means the same thing as 'no thermals beyond this altitude'. Sunny weather at altitude with fog in the valleys is a strong sign of a stable layer — typically an anticyclonic morning with descending air and a ground inversion below."
+              "text": "Stable stratification is the meteorological term for an air layer in which vertical motion is suppressed. For a pilot it means the same thing as 'no thermals beyond this altitude'. Sunny weather at altitude with fog in the valleys is a strong sign of a stable layer — typically an anticyclonic morning with descending air and a ground inversion below. Inversions are most dramatic in winter: it can be cold and foggy at the lake in Zurich while skiers on the peaks sit in shirtsleeves in warm sun."
             },
             {
               "kind": "image",
@@ -1205,15 +1263,27 @@
             },
             {
               "kind": "h2",
-              "text": "Reverse thermal"
+              "text": "Reading the emagram"
             },
             {
               "kind": "p",
-              "text": "A reverse thermal (Umkehrthermik) is the descending counterpart of a normal thermal: cold air sinking down a shaded slope after warm air had been rising on it earlier, or pooling in valley floors as the sun goes off the slopes. For pilots, it appears as a steady downflow on slopes that should be lifting. In strong reverse thermal conditions, slopes that gave good lift only an hour earlier can suddenly stop producing — a useful sign that the daily thermal cycle is ending."
+              "text": "An emagram (or radiosonde sounding) plots actual ambient temperature against altitude. Reading one is largely about spotting flat or reversed sections that will cap the day's flying. A normal positive lapse rate of 0.6 to 0.8 °C per 100 m means good thermal potential. A zero (isothermal) or negative (inversion) gradient at any altitude is a ceiling — thermals will stop there."
             },
             {
               "kind": "p",
-              "text": "The lapse rate of an isothermal layer is zero — no temperature change with altitude. The lapse rate of an inversion is negative — temperature increases with altitude. Both contrast with the normal positive lapse rate of about 0.6 to 0.8 °C per 100 m on a good thermal day. Reading a temperature sounding (emagram) is largely about spotting these flat or reversed sections and predicting how they will limit the day's flying."
+              "text": "Typical exam-style emagram questions list ambient temperatures at successive altitudes (e.g. 500 m → 15 °C, 800 m → 16 °C, …). Walk up the list: where temperature increases with altitude you have an inversion; where it stays constant you have an isothermal layer; where the drop is well under 1 °C per 100 m you have a stable layer; where it is close to 1 °C per 100 m the layer is unstable and rich in thermals. In Switzerland the only radiosonde station is Payerne, which launches morning and midday balloons."
+            },
+            {
+              "kind": "h2",
+              "text": "Reverse thermal (Umkehrthermik)"
+            },
+            {
+              "kind": "p",
+              "text": "Two different phenomena are sometimes both called 'reverse thermal' in flying circles. The first is the descending counterpart of a normal thermal: cold air sliding down a shaded slope after the sun has gone off it, or cold air pooling at a valley floor as the daily cycle reverses. For a pilot this appears as a steady downflow on slopes that should be lifting — a useful sign that the thermal day is ending."
+            },
+            {
+              "kind": "p",
+              "text": "The second meaning is a convergence updraft that can develop in the evening, when the cold mountain-wind drainage from both sides of a valley meets in the middle and squeezes the warmer valley-floor air upward. This produces a brief but flyable lift along the valley centre line (a well-known example is the lift above Interlaken at dusk), persisting for tens of minutes until the warm air mass at the floor is exhausted."
             },
             {
               "kind": "callout",
@@ -1222,7 +1292,8 @@
                 "Inversion: temperature INCREASES with altitude.",
                 "Isothermal: temperature CONSTANT with altitude.",
                 "Both are stable: thermals stop at them.",
-                "Ground inversion forms overnight, dissolves with morning sun."
+                "Ground inversion forms overnight, dissolves with morning sun. Winter inversions can last all day with valley fog + sunny peaks.",
+                "Reverse thermal can mean either downflow on shaded slopes or evening convergence updraft along a valley centre."
               ]
             }
           ],
@@ -1654,7 +1725,7 @@
           "id": "meteo-07-local-winds-foehn",
           "title": "Local winds and Föhn",
           "subtitle": "Valley wind, mountain wind, alpine pumping, Föhn",
-          "intro": "Inside the Alps, local thermal circulations and Föhn often dominate over the synoptic wind. Learning their daily rhythm and danger signs is essential for safe flying.",
+          "intro": "Inside the Alps, local thermal circulations and Föhn often dominate over the synoptic wind. Learning their daily rhythm and danger signs is essential for safe flying. Together with thunderstorms, Föhn is the deadliest weather phenomenon for Swiss paraglider pilots.",
           "sourced_from": [
             "p2-local-winds",
             "p2-weather-switzerland"
@@ -1671,7 +1742,11 @@
             },
             {
               "kind": "p",
-              "text": "Since the valley wind is driven by solar intensity and is enhanced by ground that is free of snow, it is strongest in July and August and weakest in December and January. It is also at its strongest in mid-afternoon when the sky is clear. In summer it begins in the late morning and typically lasts until evening. With altitude the valley wind is stronger, but in wide valleys it gradually disappears around 2000 m, where the prevailing synoptic wind takes over."
+              "text": "The valley wind is driven by solar intensity and is enhanced by snow-free ground. It is strongest in July and August and weakest in December and January. The daily cycle: the wind begins around 11 h, peaks in mid-afternoon (~15 h), and the opposite mountain wind takes over around 18-19 h after sunset. With altitude the valley wind strengthens, but in wide valleys it gradually disappears around 2000 m, where the prevailing synoptic wind takes over."
+            },
+            {
+              "kind": "p",
+              "text": "In Switzerland the main alpine valleys — Rhone, Rhine, Reuss — channel by far the strongest valley winds because they collect the flow from many tributary valleys like the trunk of a tree. In spring, with snow-free pre-alps but still-cold inner-alpine air, valley winds in the Rhone valley routinely reach 50-60 km/h at the valley floor by mid-afternoon. A pilot thermalling above the valley must plan the descent carefully: it is often safer to top-land than to risk a high-wind valley landing. Local 'spillover' phenomena (e.g. at the Maloja or Grimsel pass) produce additional turbulent down-flows on the lee side of passes and require local knowledge."
             },
             {
               "kind": "image",
@@ -1697,7 +1772,7 @@
             },
             {
               "kind": "p",
-              "text": "After sunset each valley wall is cooled by nocturnal radiation. Cold, dense air slides down the slopes and accumulates at the bottom of the valley, then flows down-valley toward the broader and deeper main valley which cools more slowly. This is the katabatic mountain wind. It is generally lighter than the daytime valley wind, beginning typically around 18–19 h in summer, but can build into surprisingly strong drainage flows on long deep valleys."
+              "text": "After sunset each valley wall is cooled by nocturnal radiation. Cold, dense air slides down the slopes and accumulates at the bottom of the valley, then flows down-valley toward the broader and deeper main valley which cools more slowly. This is the katabatic mountain wind. It is generally lighter than the daytime valley wind, beginning typically around 18-19 h in summer, but can build into surprisingly strong drainage flows on long deep valleys. Pilots launching late in the day in deep Alpine valleys must factor in the moment the mountain wind 'switches on' — sometimes it becomes impossible to fly out from a take-off site once the drainage flow sets in."
             },
             {
               "kind": "image",
@@ -1707,7 +1782,7 @@
             },
             {
               "kind": "p",
-              "text": "Sometimes the convergence of evening downslope breezes from both sides of a valley generates a slight upward current in the middle, which can be just strong enough to keep a glider aloft for tens of minutes after sunset — locally known as 'rendition' lift."
+              "text": "Sometimes the convergence of evening downslope breezes from both sides of a valley generates a slight upward current in the middle, called a reverse thermal or convergence updraft. It can be just strong enough to keep a glider aloft for tens of minutes after sunset — a classic example is the late-evening lift above Interlaken. This is locally known as 'rendition' lift."
             },
             {
               "kind": "h2",
@@ -1715,7 +1790,11 @@
             },
             {
               "kind": "p",
-              "text": "Föhn is a warm, dry, gusty downslope wind. The classic ingredients are three: a strong pressure difference across the mountain chain, moist air on the windward side, and a barrier tall enough for the air to release its moisture as it rises. On the windward side the moist air ascends, condenses and drops its water as rain — cooling at the slow moist adiabatic rate of about 0.6 °C / 100 m. The cloud clings to the ridge and forms a compact band at the crest called the Föhn wall."
+              "text": "Föhn is a warm, dry, gusty downslope wind. The classic ingredients are two: a strong pressure difference across the mountain chain, and a barrier tall enough to force the air to release moisture as it rises. The same phenomenon exists wherever big mountains and a pressure gradient coincide — called Chinook in the Rockies, Zonda in the Andes, and many other regional names — but the dynamics are identical. In Switzerland the Alps make the Föhn a daily talking point in winter, spring and autumn."
+            },
+            {
+              "kind": "p",
+              "text": "On the windward side the moist air ascends, condenses and drops its water as rain — cooling at the slow moist adiabatic rate of about 0.6 °C / 100 m. The cloud clings to the ridge and forms a compact band at the crest called the Föhn wall. Föhn does NOT always produce a wall cloud or rain on the upwind side: a 'dry Föhn' can occur under a clear blue sky and is just as turbulent. A Föhn 'knee' (Föhnknie) in the isobars over the Alpine main ridge on the synoptic chart is another tell-tale."
             },
             {
               "kind": "image",
@@ -1731,7 +1810,7 @@
             },
             {
               "kind": "p",
-              "text": "On the lee side the now-dry air descends, warming at the fast dry adiabatic rate of 1 °C / 100 m. Because moisture has been removed on the way up, the descending air arrives much warmer and drier than the air that started on the windward side. It is also strong and gusty, with violent turbulence. The conclusion is simple: if the Föhn is active, do not fly, even if 'the weather looks good'."
+              "text": "On the lee side the now-dry air descends, warming at the fast dry adiabatic rate of 1 °C / 100 m. Because moisture has been removed on the way up, the descending air arrives much warmer and drier than the air that started on the windward side. It is also strong and gusty, with violent turbulence. The Föhn 'wedges' down into the lee-side valleys like a vacuum sucking in air, and can produce extremely strong winds at the valley floor even when the launch above seems calm. The conclusion is simple: if the Föhn is active, do not fly, even if 'the weather looks good'."
             },
             {
               "kind": "h2",
@@ -1739,7 +1818,7 @@
             },
             {
               "kind": "p",
-              "text": "Südföhn blows from the south across the Alps. It is driven by a depression over northwest Europe and higher pressure over northern Italy. On the ground there is a strong south-north pressure difference above 5 hPa — for example 1010 hPa at Zurich and 1019 hPa at Lugano. The effect is clouds and heavy rain on the southern slopes, strong winds, high temperatures and sunny dry conditions north of the Alps. Risk is concentrated in the northern Alpine valleys where the fine weather may tempt the pilot to fly."
+              "text": "Südföhn blows from the south across the Alps. It is driven by a depression over northwest Europe and higher pressure over northern Italy. On the ground there is a strong south-north pressure difference (south higher) — for example 1010 hPa at Zurich and 1019 hPa at Lugano. The effect is clouds and heavy rain on the southern slopes, strong winds, high temperatures and sunny dry conditions north of the Alps. Risk is concentrated in the northern Alpine valleys where the fine weather may tempt the pilot to fly. Südföhn very often develops just ahead of an approaching westerly cold front — but not always."
             },
             {
               "kind": "p",
@@ -1763,7 +1842,11 @@
             },
             {
               "kind": "p",
-              "text": "Föhn produces strong turbulence, rotor downwind of the mountains and rapid changes in wind direction. Visible warning signs include the Föhn wall (a stationary cloud bank piled on the windward side of the ridge), lenticular clouds in the lee, sudden clarity of the air at altitude and rapidly rising temperature in the lee valleys. The classic synoptic signature is a north-south pressure difference above 5 hPa between Zurich and Lugano."
+              "text": "Föhn produces strong turbulence, rotor downwind of the mountains and rapid changes in wind direction. Visible warning signs: the Föhn wall (a stationary cloud bank piled on the windward side of the ridge), lenticular clouds in the lee (smooth lens shapes that stay still while the wind howls through them), sudden clarity of the air at altitude, rapidly rising temperature in the lee valleys, and on the synoptic chart a sharp 'knee' in the isobars over the Alpine ridge."
+            },
+            {
+              "kind": "p",
+              "text": "The practical Swiss threshold is a north-south pressure difference of 4 hPa between Zurich and Lugano. Although some exam material quotes 5 hPa, the operational rule used by the SHV/FSVL and by experienced instructors is 4 hPa: at 4 hPa the Föhn already breaks through reliably. 8 hPa is the absolute outer limit at which only highly experienced local pilots will consider flying in specific Föhn-sheltered areas — and even there 'doors slam down' unpredictably. The forecast diagrams (MeteoSwiss Föhn diagram, SHV Föhn page) plot this difference: a curve above the 4 hPa line means Südföhn, below means Nordföhn."
             },
             {
               "kind": "image",
@@ -1775,11 +1858,12 @@
               "kind": "callout",
               "title": "Local winds checklist",
               "items": [
-                "Valley wind: anabatic, strongest mid-afternoon, July–August.",
+                "Valley wind: anabatic, starts ~11 h, peaks ~15 h, July–August. Up to 50–60 km/h in Rhone/Rhine/Reuss valleys in spring.",
                 "Mountain wind: katabatic, starts ~18–19 h after sunset.",
-                "Föhn needs strong pressure difference + moist windward + tall barrier.",
-                "Föhn signs: wall cloud on windward side, lenticularis on lee, sudden warming.",
-                "Δp Zurich–Lugano > 5 hPa: Föhn likely."
+                "Föhn needs strong pressure difference + tall barrier (moisture on windward side is helpful but not mandatory — 'dry Föhn' exists).",
+                "Föhn signs: wall cloud on windward side, lenticularis on lee, sudden warming and clarity, Föhnknie in isobars.",
+                "Δp Zurich–Lugano ≥ 4 hPa: Föhn likely — DO NOT FLY. 8 hPa is the absolute outer expert-only limit.",
+                "Lee thermals are stronger but bumpier than windward thermals — the prevailing wind shreds the column."
               ]
             }
           ],
@@ -1893,7 +1977,7 @@
           "id": "meteo-09-air-masses-fronts",
           "title": "Air masses and fronts",
           "subtitle": "Cold front, warm front, occlusion",
-          "intro": "Big weather changes come from the meeting of dissimilar air masses. The interface between them — the front — produces the characteristic cloud sequences and wind shifts every pilot has to recognise.",
+          "intro": "Big weather changes come from the meeting of dissimilar air masses. The interface between them — the front — produces the characteristic cloud sequences and wind shifts every pilot has to recognise. Cold fronts are among the three top dangers for paraglider pilots (alongside Föhn and valley wind).",
           "sourced_from": [
             "p2-air-masses-fronts"
           ],
@@ -1905,7 +1989,7 @@
             },
             {
               "kind": "p",
-              "text": "An air mass is an extensive body of air — a continental scale of hundreds or thousands of kilometres — with relatively uniform characteristics, especially temperature and humidity, extending horizontally to its boundaries. Examples are a polar maritime air mass (cold and wet) or a tropical continental one (hot and dry). An air mass is described as 'warm' when its temperature is higher than that of its neighbours, regardless of what an absolute thermometer says."
+              "text": "An air mass is an extensive body of air — a continental scale of hundreds or thousands of kilometres — with relatively uniform characteristics, especially temperature and humidity, extending horizontally to its boundaries. Examples are a polar maritime air mass (cold and wet) or a tropical continental one (hot and dry). An air mass is described as 'warm' when its temperature is higher than that of its neighbours, regardless of what an absolute thermometer says — two air masses at -20 °C and -10 °C define a 'warm' and 'cold' pair just as validly as +5 °C and +20 °C."
             },
             {
               "kind": "p",
@@ -1941,7 +2025,7 @@
             },
             {
               "kind": "p",
-              "text": "At our latitudes, depressions and frontal systems usually move from west to east at a few kilometres per hour. The anti-clockwise rotation of winds around a depression, combined with the eastern trajectory of the depression itself, drives the cold air west of the depression toward the southeast — forming a cold front — while warm air on the east side heads north, forming a warm front. Both fronts slant toward the cold air."
+              "text": "At our latitudes, depressions and frontal systems usually move from west to east. The anti-clockwise rotation of winds around a depression, combined with the eastern trajectory of the depression itself, drives the cold air west of the depression toward the southeast — forming a cold front — while warm air on the east side heads north, forming a warm front. Both fronts slant toward the cold air. The cold front moves about twice as fast as the warm front, so over time the cold front catches up and the system 'closes' into an occlusion."
             },
             {
               "kind": "image",
@@ -1967,11 +2051,11 @@
             },
             {
               "kind": "p",
-              "text": "A warm front occurs when warm, less dense air moves over the top of retreating cold air, sliding gently up the slope. Because the slope is gentle and the air mass is slow, an observer on the ground first sees the warm front high overhead, then watches it descend as the front passes. Cool air rises by expansion, water vapour saturates, clouds form and rain falls."
+              "text": "A warm front occurs when warm, less dense air moves over the top of retreating cold air, sliding gently up the slope. Because the slope is gentle and the air mass is slow, an observer on the ground first sees the warm front high overhead, then watches it descend as the front passes. Cool air rises by expansion, water vapour saturates, clouds form and rain falls. A warm front advances at roughly 15-25 km/h and takes 12-24 hours (sometimes more) to cross Switzerland — it is a long, slow event, sometimes spanning two days of poor flying."
             },
             {
               "kind": "p",
-              "text": "The cloud sequence in front of a warm front is a textbook display: high cirrus first, then cirrostratus and stratus, then altocumulus, and finally nimbostratus with rain at the front itself. Just before the warm front arrives on the ground, clouds are low and produce rain, visibility is poor and the wind strength increases. The whole sequence can stretch over hundreds of kilometres; the precipitation lasts for hours."
+              "text": "The cloud sequence in front of a warm front is a textbook display: high cirrus first, then cirrostratus and altostratus, then nimbostratus with steady rain at the front itself. Just before the warm front arrives on the ground, clouds are low and produce rain, visibility is poor and the wind strength increases. The whole sequence can stretch over hundreds of kilometres; precipitation lasts for hours. Embedded thunderstorms hidden behind the warm-front cloud layer (especially with an approaching occlusion) are a particular danger because they are invisible from below."
             },
             {
               "kind": "image",
@@ -1991,11 +2075,15 @@
             },
             {
               "kind": "p",
-              "text": "A cold front occurs when cold, denser air slides violently under warm air it encounters. The boundary is much steeper than for a warm front; the warm air is shoved abruptly upward. Cloud is shorter in horizontal extent but much taller. The front is characterised by a barrier of cumulonimbus coming from the west, often with thunderstorms, sharp gusts and rapid temperature drop. The passage is brutal but brief — typically minutes to an hour at any point."
+              "text": "A cold front occurs when cold, denser air slides violently under warm air it encounters. The boundary is much steeper than for a warm front; the warm air is shoved abruptly upward. Cloud is shorter in horizontal extent but much taller. The front is characterised by a barrier of cumulonimbus coming from the west, often with thunderstorms, sharp gusts and rapid temperature drop. A cold front advances at 40-70 km/h and crosses Switzerland in just 6-12 hours — about twice as fast as a warm front."
             },
             {
               "kind": "p",
-              "text": "The hours before a cold front can be calm and even sunny, then the front and its barrier of cumulonimbus arrive, sometimes with lightning, thunder and hail. Behind the cold front the trailing air is fresher, with good visibility and stratocumulus or shallow cumulus at modest altitude. Cumulonimbus and thunderstorms are more likely in summer cold fronts than winter ones, because the lower atmosphere is warmer. Meteorological forecasts that mention 'fresh polar air arriving in a hot stuffy summer' usually mean a cold-front passage with thunderstorms, hail and gusty winds."
+              "text": "The hours before a cold front can be calm and even sunny, sometimes preceded in Switzerland by Südföhn. Then the front and its barrier of cumulonimbus arrive, sometimes with lightning, thunder and hail. Behind the cold front the trailing air is fresher, with good visibility and stratocumulus or shallow cumulus at modest altitude. Cumulonimbus and thunderstorms are more likely in summer cold fronts than winter ones, because the lower atmosphere is warmer. Meteorological forecasts that mention 'fresh polar air arriving in a hot stuffy summer' usually mean a cold-front passage with thunderstorms, hail and gusty winds."
+            },
+            {
+              "kind": "p",
+              "text": "A particular danger sign on the weather radar is a 'squall line' — a row of cumulonimbus cells aligned along the cold front. A visible squall line on the radar demands an immediate landing decision even if the line is still 100 km away, because the cold-air outflow ahead of the storms can produce destructive ground-level winds far in advance of the visible precipitation. Always check both the radar and the sky: radar updates lag by 15-30 minutes."
             },
             {
               "kind": "image",
@@ -2021,11 +2109,11 @@
             },
             {
               "kind": "p",
-              "text": "The cold front moves slightly faster than the warm front. Eventually the cold front catches up with the warm front and the two merge — this is called an occlusion. Depending on the relative temperature of the cold air behind the cold front and the cold air ahead of the warm front, an occlusion presents either warm-front or cold-front characteristics at ground level."
+              "text": "The cold front moves about twice as fast as the warm front. Eventually the cold front catches up with the warm front and the two merge — this is called an occlusion. Depending on the relative temperature of the cold air behind the cold front and the cold air ahead of the warm front, an occlusion presents either warm-front or cold-front characteristics at ground level."
             },
             {
               "kind": "p",
-              "text": "If the cold air behind the cold front is warmer than the cold air ahead of the warm front, the cold front slides over the warm front and the conditions at ground level remain warm-front in character. If the situation is reversed and the trailing cold air is colder, the cold front slips under the warm front and the occlusion presents cold-front character at ground level."
+              "text": "If the cold air behind the cold front is warmer than the cold air ahead of the warm front, the cold front slides over the warm front and the conditions at ground level remain warm-front in character. If the situation is reversed and the trailing cold air is colder, the cold front slips under the warm front and the occlusion presents cold-front character at ground level. The practical danger of an occlusion is 'masked' thunderstorms: cumulonimbus towers can be embedded behind the warm-front cloud layer, invisible to the pilot under the overcast yet still producing the usual outflow and gusts when they pass overhead."
             },
             {
               "kind": "image",
@@ -2061,10 +2149,11 @@
               "kind": "callout",
               "title": "Front facts",
               "items": [
-                "Warm front: gentle slope, high cirrus first, long steady rain.",
-                "Cold front: steep slope, towering Cb, brief violent passage.",
-                "Cold fronts move faster than warm fronts.",
-                "Occlusion = cold front catches up with warm front."
+                "Warm front: gentle slope, high cirrus first, long steady rain. 15–25 km/h, 12–24 h across Switzerland.",
+                "Cold front: steep slope, towering Cb, brief violent passage. 40–70 km/h, 6–12 h across Switzerland — twice as fast as a warm front.",
+                "Squall-line radar signature ahead of a cold front: land immediately, even if the line is 100 km away.",
+                "Cold fronts move faster than warm fronts and can overtake them to form an OCCLUSION (mixed front type).",
+                "Occlusion danger: 'masked' thunderstorms hidden behind the warm-front cloud deck."
               ]
             }
           ],
@@ -2084,7 +2173,7 @@
           "id": "meteo-10-storms-synoptics",
           "title": "Heat, storms and Swiss weather",
           "subtitle": "Cumulonimbus, synoptic maps and typical situations",
-          "intro": "Heat storms and frontal storms have different drivers and different timings — and Switzerland's geography produces a small catalogue of repeating weather patterns that every alpine pilot learns to recognise.",
+          "intro": "Heat storms and frontal storms have different drivers and different timings — and Switzerland's geography produces a small catalogue of repeating weather patterns that every alpine pilot learns to recognise. Thunderstorms are the single greatest hazard in paragliding, and the gust-front outflow they produce is the most underestimated of all weather dangers.",
           "sourced_from": [
             "p2-heat-storms",
             "p2-synoptic-maps",
@@ -2129,12 +2218,32 @@
               "caption": "Thunderstorm hazards — gusts, hail, lightning."
             },
             {
-              "kind": "p",
-              "text": "A 'blue thermal' is convection that does not result in cumulus at the top. It occurs when the air is very dry — a low humidity or a wide gap between temperature and dew point — so condensation does not happen at the thermal top. Frontal thunderstorms, by contrast, are not tied to time of day. They are triggered by the violent uplift of warm humid air at a cold front and can occur day or night."
+              "kind": "h2",
+              "text": "Warning signs in the sky"
             },
             {
               "kind": "p",
-              "text": "Convective activity in Europe is best from April to August because solar radiation is stronger and the days are longer. Differences in average altitude shift the peak: snowmelt and thermals come earlier in the pre-Alps than in the Alps, so thermals are best in May in the pre-Alps and in August in the Alps."
+              "text": "The development of a thunderstorm is almost always visible in advance if you know what to look for. Watch the cumulus field. Early in the day small puffy cumulus form one by one over thermal triggers — these are friends. As the day matures: (1) the bases of neighbouring clouds start to merge into one large dark base spanning several kilometres; (2) the cloud base above darkens because the tower has grown tall enough to block the sun from below; (3) suddenly 'everything starts lifting' — instead of localised thermal cores, the whole valley produces broad lift, signalling that the storm's organised inflow has begun. By this point the door is closing fast."
+            },
+            {
+              "kind": "p",
+              "text": "If a grey curtain of precipitation is visible from the cloud base toward the ground, the storm is fully developed. Land immediately; ideally outside the storm's anvil region. Cumulonimbus can grow all the way to the tropopause (~10000 m) where the stratosphere blocks them and they spread sideways into the classic anvil."
+            },
+            {
+              "kind": "p",
+              "text": "Frontal thunderstorms are not tied to time of day. They are triggered by the violent uplift of warm humid air at a cold front and can occur day or night. A 'blue thermal' is convection that does not result in cumulus at the top — it occurs when the air is very dry (low humidity or a wide temperature/dew-point spread), so condensation does not happen at the thermal top. Convective activity in Europe is best from April to August because solar radiation is stronger and the days are longer; the snowmelt shifts the peak from May in the pre-Alps to August in the high Alps."
+            },
+            {
+              "kind": "h2",
+              "text": "The gust front — the underestimated killer"
+            },
+            {
+              "kind": "p",
+              "text": "Most pilots fear being sucked up under a thunderstorm. The greater danger is being hit by its cold-air outflow many kilometres away. As the storm matures, cold air sinks from the upper part of the cloud (where condensation has chilled it) like a bucket of water being tipped over, accelerated by evaporative cooling in the precipitation shaft. This dense cold air spreads horizontally along the ground in all directions, producing strong, gusty winds — a gust front — that can run 20–50 km ahead of the visible storm."
+            },
+            {
+              "kind": "p",
+              "text": "The gust front catches pilots in air that looks clear and calm. Landings under a developing gust front are extremely turbulent and have killed experienced pilots. A gust-front outflow from one storm can also trigger the next storm by lifting warm valley air, in a self-sustaining chain reaction. Practical rule: if any cumulonimbus is on the radar within ~50 km, land. A squall line of multiple cells along a cold front is a categorical no-fly signature."
             },
             {
               "kind": "h2",
@@ -2158,7 +2267,7 @@
             },
             {
               "kind": "p",
-              "text": "Three things on a synoptic map answer most flying questions. Isobar spacing indicates the pressure gradient and therefore the wind strength. Centres of action (H and L) determine the wind rotation: clockwise round a high, anti-clockwise round a low (northern hemisphere). The position and movement of fronts determine the next 24 hours of weather."
+              "text": "Three things on a synoptic map answer most flying questions. Isobar spacing indicates the pressure gradient and therefore the wind strength. Centres of action (H and L) determine the wind rotation: clockwise round a high, anti-clockwise round a low (northern hemisphere). The position and movement of fronts determine the next 24 hours of weather. A 'Föhnknie' — a sharp kink in the isobars over the Alpine main ridge — signals an active Föhn flow."
             },
             {
               "kind": "h2",
@@ -2166,11 +2275,15 @@
             },
             {
               "kind": "p",
-              "text": "From the synoptic maps over Europe we can identify six weather patterns typical for Switzerland. An anticyclone centred on the Alps gives stable weather: in winter, pressures of 1030–1040 hPa, often with strong inversion and stratus on the plateau; in summer, around 1020–1025 hPa, with usable thermals in the Alps and possible local thunderstorms. A barometric plateau gives light winds and good thermals but a real thunderstorm risk in the afternoon."
+              "text": "From the synoptic maps over Europe we can identify six weather patterns typical for Switzerland. An anticyclone centred on the Alps gives stable weather: in winter, pressures of 1030-1040 hPa, often with strong inversion and stratus on the plateau; in summer, around 1020-1025 hPa, with usable thermals in the Alps and possible local thunderstorms. A barometric plateau gives light winds and good thermals but a real thunderstorm risk in the afternoon."
             },
             {
               "kind": "p",
-              "text": "The Bise is a pronounced wind from the north-east on the central plateau around 2000 m, caused by a high pressure centred north of Germany. Westerly flow comes with a depression over Scandinavia: short periods of good weather alternate with disturbances, often with strong winds. The two Föhn situations — Südföhn (depression northwest, high over northern Italy, with south wind across the Alps) and Nordföhn (Azores high extending east, with north wind across the Alps) — are characterised by strong south-north pressure differences and dangerous turbulence."
+              "text": "The Bise is a pronounced wind from the north-east on the central plateau, caused by a high-pressure centre north of Germany. On the Plateau a Bise typically blows 30-50 km/h; in strong events high fog (Hochnebel) can be pushed up to 1500-1800 m, leaving the Plateau under a thick stratus deck while the Alps stay sunny above. Westerly flow comes with a depression over Scandinavia: short periods of good weather alternate with disturbances, often with strong winds. The two Föhn situations — Südföhn (depression northwest, high over northern Italy, with south wind across the Alps) and Nordföhn (Azores high extending east, with north wind across the Alps) — are characterised by strong south-north pressure differences and dangerous turbulence."
+            },
+            {
+              "kind": "p",
+              "text": "The practical Swiss Föhn threshold is a Zurich-Lugano pressure difference of 4 hPa, not 5 hPa. At 4 hPa Föhn already breaks through reliably; 8 hPa is the outer expert-only limit. The MeteoSwiss and SHV Föhn diagrams plot exactly this difference: a curve above 4 hPa indicates Südföhn, below it indicates Nordföhn."
             },
             {
               "kind": "p",
@@ -2193,8 +2306,12 @@
               "title": "Reading the weather",
               "items": [
                 "Heat storms peak in the afternoon; frontal storms can come any time.",
+                "Watch the sky: merging cumulus bases, darkening base, 'everything lifting at once' = the storm door is closing.",
+                "Gust front outflow can reach 20–50 km ahead of the visible storm — the most underestimated thunderstorm danger.",
+                "Squall line on radar = no-fly, even if 100 km away.",
                 "Synoptic map → highs, lows, fronts and pressure gradient.",
-                "Strong south-north Δp → Föhn.",
+                "Δp Zurich–Lugano ≥ 4 hPa → Föhn (NOT 5 hPa). 8 hPa is the expert-only outer limit.",
+                "Bise: NE wind on the Plateau, often 30–50 km/h, high fog up to ~1800 m.",
                 "Valley fog + clear summit → anticyclone + inversion."
               ]
             }
@@ -2340,7 +2457,7 @@
           "id": "law-02-abbreviations",
           "title": "Abbreviations every pilot needs",
           "subtitle": "The language of charts and bulletins",
-          "intro": "Airspace charts and bulletins are full of three- and four-letter codes. They make sense once you know what they stand for.",
+          "intro": "Airspace charts and bulletins are full of three- and four-letter codes. They make sense once you know what they stand for — and a few of them are exactly the abbreviations the instructor tells you to memorise before sitting the theory exam.",
           "sourced_from": [
             "p3-abbreviations"
           ],
@@ -2352,7 +2469,7 @@
             },
             {
               "kind": "p",
-              "text": "CTR is the Control Zone, the controlled airspace around an airport's runway. TMA stands for Terminal Maneuvering Area, the controlled airspace above and around the CTR. AWY is an airway: a corridor of controlled airspace connecting TMAs. FIZ is a Flight Information Zone, and RMZ is a Radio Mandatory Zone."
+              "text": "CTR is the Control Zone, the controlled airspace around an airport's runway, extending from the ground up to a defined altitude. TMA stands for Terminal Maneuvering Area, the controlled airspace stacked above and around the CTR. AWY is an airway: a corridor of controlled airspace connecting TMAs at high altitude. FIZ is a Flight Information Zone, RMZ is a Radio Mandatory Zone, and TMZ is a Transponder Mandatory Zone."
             },
             {
               "kind": "image",
@@ -2368,11 +2485,11 @@
             },
             {
               "kind": "h2",
-              "text": "Restricted areas"
+              "text": "Restricted, danger and gliding zones"
             },
             {
               "kind": "p",
-              "text": "LS-R means a restricted area in Swiss airspace; entry is forbidden or conditional during the activation hours. LS-D is a danger area: entry not strictly prohibited, but with elevated risks (gunnery, parachute drops, etc.). LS-P is a prohibited area, where flight is not permitted at any time."
+              "text": "LS-R means a restricted area; entry is forbidden when the area is active. LS-D is a danger area: entry is technically allowed but discouraged because dangerous activities (live firing, parachute drops) may be taking place below. Confusingly, LS-R for Gliders is also marked LS-R on the chart but is OPEN to paragliders and sailplanes — it is restricted only to IFR/airline traffic. The MO suffix on an LSR-for-Gliders zone means it is active only when the military is off; the MA suffix means it is also active when the military is not released, but you can call to ask for it to be opened."
             },
             {
               "kind": "h2",
@@ -2380,32 +2497,32 @@
             },
             {
               "kind": "p",
-              "text": "A NOTAM (Notice to Airmen) is an official short-term notice about changes to airspace, hazards or operations. The DABS (Daily Airspace Bulletin Switzerland) lists daily Swiss airspace activations and is read by virtually every Swiss pilot before flying. The AIP (Aeronautical Information Publication) is the master reference document for the Swiss airspace structure. The HX suffix on an airspace label means the airspace is active on demand, not by a fixed schedule."
+              "text": "GLDC is the Glider Chart, the Swiss VFR chart for free flight, reissued every March. AIP (Aeronautical Information Publication) is the master long-form reference, updated monthly. NOTAM (Notice to Airmen) is a daily bulletin of short-term changes — temporary airspace activations, hazards and obstacles. DABS (Daily Airspace Bulletin Switzerland), published at www.skybriefing.com, lists which airspaces are active today; it is the single most important pre-flight check. DABS times are in UTC: add 1 hour in winter and 2 hours in summer for Swiss local time."
             },
             {
               "kind": "p",
-              "text": "Three additional acronyms turn up regularly. FIZ is a Flight Information Zone — radio contact recommended, not strictly mandatory. RMZ is a Radio Mandatory Zone — radio contact required. ATIS is the Automatic Terminal Information Service, the recorded weather broadcast for an airport that pilots tune in before any controlled-airspace contact."
+              "text": "ATIS (Automatic Terminal Information Service) is the recorded weather broadcast at an airport. The HX suffix on an airspace label means the airspace has no fixed hours — assume it can be active at any time and query its status before approaching. The activity digit 9 means the airspace is permanently active. Only Sion and Alpnach have temporary TMAs announced via the DABS."
             },
             {
               "kind": "h2",
-              "text": "Flight levels and rules"
+              "text": "Flight levels and identifiers"
             },
             {
               "kind": "p",
-              "text": "FL stands for Flight Level — altitude in hundreds of feet referenced to the standard pressure of 1013.25 hPa. To convert a Flight Level to approximate metres, multiply the number by 30: FL30 ≈ 900 m, FL100 ≈ 3000 m, FL150 ≈ 4500 m, FL195 ≈ 5900 m. VFR means Visual Flight Rules: see and avoid is the pilot's job. IFR means Instrument Flight Rules — paragliders never fly IFR. The 'LS' prefix in ICAO codes refers to Switzerland — every Swiss aerodrome's identifier begins with LS (LSZH = Zurich, LSGG = Geneva)."
+              "text": "FL stands for Flight Level — altitude in hundreds of feet referenced to the standard pressure of 1013.25 hPa. One foot is 30.48 cm, so FL100 = 10000 feet = exactly 3048 m, rounded to 3050 m. To convert a Flight Level to approximate metres, multiply by 30: FL30 ~ 900 m, FL100 ~ 3050 m, FL130 ~ 3950 m, FL150 ~ 4550 m, FL195 ~ 5950 m. VFR (Visual Flight Rules) is the only mode paragliders may fly under; IFR (Instrument Flight Rules) requires an instrument-rated aircraft and pilot."
             },
             {
               "kind": "p",
-              "text": "Two more altitude references are vital: AGL stands for Above Ground Level, used for the 600 m upper limit of airspace G. AMSL stands for Above Mean Sea Level, used for almost every other altitude. The HX suffix on an airspace label means the airspace is active on demand, not by default. GND simply means Ground."
+              "text": "The 'LS' prefix in ICAO codes denotes Switzerland: L for Lower Europe, S for Switzerland. Every Swiss aerodrome's identifier begins with LS — LSZH = Zurich, LSGG = Geneva, LSZR = Altenrhein. AGL means Above Ground Level (used for the 600 m G ceiling), AMSL means Above Mean Sea Level (used for almost every other altitude on a chart). On the glider chart, upright numbers are AGL and italic numbers are AMSL — a small typographic distinction with very large practical consequences."
             },
             {
               "kind": "callout",
               "title": "Acronym crib",
               "items": [
-                "CTR / TMA / AWY: controlled airspaces around airports.",
-                "LS-R restricted, LS-D danger, LS-P prohibited.",
-                "NOTAM, DABS, AIP: where to find airspace updates.",
-                "FL = pressure altitude in hundreds of feet (QNE)."
+                "CTR / TMA / AWY: controlled airspaces around and between airports.",
+                "LS-R = restricted (forbidden when active). LS-D = danger (allowed, discouraged). LS-R for Gliders = green, open to paragliders.",
+                "DABS (skybriefing.com), NOTAM, AIP, GLDC: the four sources to check before flying.",
+                "FL = pressure altitude in hundreds of feet (QNE). DABS times are UTC: +1 winter, +2 summer."
               ]
             }
           ],
@@ -2433,7 +2550,7 @@
           "id": "law-03-airspace-structure",
           "title": "Airspace structure",
           "subtitle": "G, E, D, C — and the controlled zones",
-          "intro": "Switzerland uses four of the ICAO airspace classes. Knowing which class you are in — and what the upper and lower limits are — is the core competence of legal flying.",
+          "intro": "Switzerland uses four of the seven ICAO airspace classes. Knowing which class you are in, where its upper and lower limits sit, and how the limits change with time and topography is the core competence of legal flying.",
           "sourced_from": [
             "p3-airspace-structure"
           ],
@@ -2445,7 +2562,7 @@
             },
             {
               "kind": "p",
-              "text": "ICAO has legally defined seven airspace classes in the troposphere, designated by the letters A to G. In Switzerland only four of these classes apply: C, D, E and G. The spaces E and G are uncontrolled — they are the only airspaces a paraglider may use without permission and without radio contact. The spaces C and D are controlled airspace, requiring prior authorisation and continuous radio contact, and paragliders should not use them. A useful memory aid: 'Ceiling Defines Every Glide.'"
+              "text": "ICAO has defined seven airspace classes (A to G); in Switzerland only four apply: C, D, E and G. Airspaces E and G are uncontrolled — the only spaces a paraglider may use without clearance or radio. Airspaces C and D are controlled: C requires both clearance AND continuous radio contact, while D requires clearance but does not strictly require radio. Paragliders should not enter C or D; the only realistic situation is clipping the edge of an approach corridor on a long XC, where you may radio in and (sometimes) be granted a transit. A useful memory aid: 'Ceiling Defines Every Glide.'"
             },
             {
               "kind": "image",
@@ -2455,11 +2572,11 @@
             },
             {
               "kind": "h2",
-              "text": "Airspace G — close to the ground"
+              "text": "Airspace G — the carpet of Switzerland"
             },
             {
               "kind": "p",
-              "text": "Airspace G runs from the ground up to 600 m AGL across the entire country. It is uncontrolled — no clearance required — but VFR rules still apply. Within G, the rules below and above 300 m AGL differ in the visibility and cloud-clearance distances required. Because the upper limit is in AGL, the absolute height of the G ceiling rises and falls with the terrain — a useful detail when flying close to the ridges."
+              "text": "Picture airspace G as a 600 m thick carpet laid over the entire topography of Switzerland. It runs from the ground up to 600 m AGL — uncontrolled, no clearance required. Because the limit is AGL, the absolute height of the G ceiling rises and falls with the terrain. Inside G, the rules below and above 300 m AGL differ in the visibility and cloud-clearance requirements — the relaxed minima apply only in the lower 300 m, not the full 600 m."
             },
             {
               "kind": "h2",
@@ -2467,7 +2584,7 @@
             },
             {
               "kind": "p",
-              "text": "Airspace E begins above G and extends upward to a varying ceiling. On the Jura and Plateau the upper limit is FL100 (about 3050 m AMSL). In the Alps the upper limit depends on military activity: FL130 (about 3950 m) when military airspace is active (MIL ON), FL150 (about 4600 m) when MIL OFF."
+              "text": "Above G sits airspace E, the second uncontrolled space. Its upper limit varies by region. On the Jura and the Plateau (Mittelland) the limit is FL100 = 3050 m AMSL, regardless of military activity. In the Alps the limit depends on the military: 4550 m AMSL (FL150) when MIL OFF, and 3950 m AMSL (FL130) when MIL ON. The chart shows 'MIL ON' at the top when the Swiss Air Force is active."
             },
             {
               "kind": "image",
@@ -2487,7 +2604,7 @@
             },
             {
               "kind": "p",
-              "text": "Swiss military airspace activation (MIL ON) is typically Monday to Friday, 08:00–12:00 and 13:30–17:00, excluding public holidays. Exact daily times are published on the glider chart and in the DABS. During MIL OFF (evenings, weekends, holidays) the alpine ceiling for E rises from FL130 to FL150."
+              "text": "Swiss military airspace activation (MIL ON) is Monday to Friday, 07:35-12:05 and 13:15-17:05 — the five-minute buffer is intentional, to exclude overlap with civil traffic. Holidays count as MIL OFF, so on a Federal holiday the alpine ceiling stays at 4550 m. The exact times are printed at the top of the glider chart and confirmed daily in the DABS."
             },
             {
               "kind": "image",
@@ -2503,11 +2620,23 @@
             },
             {
               "kind": "h2",
+              "text": "Over a peak — the 600 m AGL rule wins"
+            },
+            {
+              "kind": "p",
+              "text": "Because G is measured AGL, the airspace ceiling rises with the terrain. Above a 4200 m alpine summit the G ceiling sits at 4800 m AMSL — above the nominal 4550 m E-to-C boundary. The exam-relevant rule: you may legally be at 4800 m above that peak as long as your ground clearance NEVER exceeds 600 m. As soon as the terrain drops away beneath you, the 4550 m limit reappears."
+            },
+            {
+              "kind": "h2",
               "text": "Controlled airspaces around airports"
             },
             {
               "kind": "p",
-              "text": "CTRs are controlled airspaces from the ground up around an airport runway. TMAs sit above the CTRs with stepped lower limits — the minimum lower limit of any TMA in the alpine region is generally 2350 m AMSL. AWYs are airway corridors connecting TMAs, with an upper limit of FL195."
+              "text": "CTRs (Control Zones, airspace D) extend from the ground around the runway up to a defined altitude. TMAs (Terminal Maneuvering Areas) sit above the CTR as stacked boxes; their lower limit is a FIXED altitude (not a flight level) because of terrain considerations, while their upper limit floats with pressure as a flight level. AWYs (airways) connect TMAs and have an upper limit of FL195. The activity coding has three states: digit 9 = permanently active (Zurich and other large airports), HX = on demand (status must be queried), and temporary = announced via the DABS — only Sion and Alpnach in Switzerland."
+            },
+            {
+              "kind": "p",
+              "text": "There is one crucial exception for paragliders: south of the Mittelland-Alps dividing line only, you may fly UNDER a TMA up to 300 m above ground without clearance. This makes valley flying possible in places like Meiringen, where the TMA lower limit would otherwise close the airspace. The dividing line runs roughly from Montreux across central Switzerland to the Alpstein and on to Austria, and is precisely drawn on the chart."
             },
             {
               "kind": "image",
@@ -2529,11 +2658,19 @@
             },
             {
               "kind": "h2",
-              "text": "Danger and restricted areas"
+              "text": "Aerodromes and heliports"
             },
             {
               "kind": "p",
-              "text": "Gliding zones (special LS-R for gliders) allow reduced cloud distances for sailplane-style flying. Cloud-flight zones are reserved for sailplanes. Military shooting zones (LS-R DCA) are danger areas around firing ranges. Exclusion zones around special events (G8 Evian 2003, Davos WEF 2009) are temporary, not permanent in Switzerland."
+              "text": "Without further information, paragliders must keep 5 km from an active airfield runway (civil or military without CTR) and 2.5 km from a heliport. The protective cylinder only extends 600 m above ground, so flying over an airfield ABOVE 600 m AGL is not a violation. Local agreements (e.g. a 'wedge' cut from the cylinder at Trogen) are listed under the SHV/FSVL local agreements — worth checking when planning an XC route that grazes such a zone."
+            },
+            {
+              "kind": "h2",
+              "text": "Danger, restricted and gliding zones"
+            },
+            {
+              "kind": "p",
+              "text": "LS-R restricted areas (red on the chart) are forbidden when active. Frequently active ones are pre-printed on the chart, but their daily status must still be verified on the DABS. LS-D danger areas allow entry but are not recommended — live firing or other hazards may be taking place below. LS-R for Gliders zones (green outline) are restricted to IFR/airline traffic but open to paragliders and sailplanes, with REDUCED cloud-clearance minima (50 m vertical, 100 m horizontal). They are active only from 1 March to 31 October; outside this window they have no effect, and examiners exploit this in winter exams. Exclusion zones around special events (G8 Evian 2003, Davos WEF) are temporary, never permanent in Switzerland."
             },
             {
               "kind": "image",
@@ -2549,12 +2686,16 @@
             },
             {
               "kind": "callout",
-              "title": "Class & ceiling",
+              "title": "Class, ceiling and exceptions",
               "items": [
-                "Paragliders may use only E and G airspace.",
-                "G: ground to 600 m AGL everywhere.",
-                "E: above G to FL100 (Jura/Plateau) or FL130 MIL ON / FL150 MIL OFF (Alps).",
-                "CTR/TMA/AWY: controlled — clearance required."
+                "Paragliders use only E and G. C = clearance + radio. D = clearance.",
+                "G: ground to 600 m AGL everywhere — the ceiling tracks the terrain.",
+                "E ceiling: 3050 m (Jura/Plateau); 4550 m / 3950 m (Alps, MIL OFF / MIL ON).",
+                "MIL ON: Mon-Fri 07:35-12:05 and 13:15-17:05; holidays count as MIL OFF.",
+                "Above peaks, you may exceed 4550 m as long as ground clearance stays under 600 m.",
+                "South of the Mittelland-Alps line you may fly under a TMA up to 300 m AGL without clearance.",
+                "Aerodrome 5 km / heliport 2.5 km — but only up to 600 m AGL.",
+                "LS-R for Gliders (green) active 1 Mar - 31 Oct only."
               ]
             }
           ],
@@ -2585,7 +2726,7 @@
           "id": "law-04-info-sources",
           "title": "Sources of airspace information",
           "subtitle": "Glider chart, AIP, DABS and NOTAMs",
-          "intro": "Even the best memory of the airspace is no substitute for checking the live status of each zone before flying. A handful of publications cover everything you need.",
+          "intro": "Even the best memory of the airspace is no substitute for checking the live status of each zone before flying. A handful of publications cover everything you need — and one of them must be checked DAILY.",
           "sourced_from": [
             "p3-airspace-info-sources"
           ],
@@ -2597,11 +2738,11 @@
             },
             {
               "kind": "p",
-              "text": "The Swiss Glider Chart is the basic reference for free-flight airspace. It shows airspace boundaries (CTR, TMA, AWY, LS-R, LS-D, LS-P), the upper and lower limits of every zone, the military operating hours, the Mittelland/Jura–Alps boundary and the cable obstacles that paragliders must avoid. Many pilots also use the online map.geo.admin.ch viewer, which carries the same information in layered form along with wildlife reserves and protected areas."
+              "text": "The Swiss Glider Chart (GLDC) is the basic reference for free-flight airspace. It shows airspace boundaries (CTR, TMA, AWY, LS-R, LS-D), the upper and lower limits of every zone, the military operating hours, the Mittelland-Alps dividing line, the marked obstacles (towers, cables), the LS-R for Gliders soaring zones, and the activity codes on each airspace. A new edition is published every March; many pilots keep a paper copy for a few seasons for overview, then always re-check the online version at map.geo.admin.ch before each flight for the most up-to-date status."
             },
             {
               "kind": "p",
-              "text": "The chart is reprinted every year by the SHV/FSVL with the latest airspace and operating-hour information. The colours, symbols and abbreviations have a fixed convention: green for gliding zones, red for restricted zones, hatched lines for danger zones, double lines for boundaries. Spend an evening with the legend before your first flight in unfamiliar terrain."
+              "text": "The chart uses a fixed visual convention: green outline = LS-R for Gliders, red shading = LS-R restricted, red 'R' on its own = restricted zones, and aerodromes appear with their protective cylinder (5 km airfield, 2.5 km heliport). Upright numbers on a tag are AGL, italic numbers are AMSL — a small typographic distinction with very large consequences. The upper number on a tag is highlighted in blue when it is given as a Flight Level (standard atmosphere) rather than an absolute altitude."
             },
             {
               "kind": "image",
@@ -2621,7 +2762,7 @@
             },
             {
               "kind": "p",
-              "text": "The DABS is published every day and lists temporary changes to Swiss airspace: actual MIL ON times, active LS-R restrictions, temporary TMA extensions (Sion, Alpnach), firing area activations and similar. Always check DABS before flying — never rely on the glider chart's general operating hours alone."
+              "text": "The DABS, at www.skybriefing.com, is the single most important pre-flight check. It is published every day and lists the temporary changes to Swiss airspace: actual MIL ON status, active LS-R restrictions, temporary TMA extensions (Sion and Alpnach), firing-range activations, parachute drops and similar. Before reading, verify that the displayed date is the day you intend to fly. Times are given in UTC — add 1 hour in winter and 2 hours in summer to get Swiss local time. A common rookie error is to look at yesterday's DABS or to forget the UTC conversion and end up flying into an active firing zone."
             },
             {
               "kind": "image",
@@ -2637,28 +2778,29 @@
             },
             {
               "kind": "h2",
-              "text": "AIP and NOTAMs"
+              "text": "AIP, NOTAM and KOSIF"
             },
             {
               "kind": "p",
-              "text": "The AIP is the official Aeronautical Information Publication: the long-form reference describing the structure of every airspace, navaid and aerodrome in Switzerland. It is the master document that the glider chart summarises in visual form. NOTAMs (Notices to Airmen) are short-term operational notices about temporary changes — short closures, special events, hazards, runway works. The VFR-NOTAM and KOSIF publications focus on items relevant to VFR and to military flying respectively."
+              "text": "The AIP (Aeronautical Information Publication) is Skyguide's master reference document, describing every airspace, navaid and aerodrome in Switzerland with all general and persistent information. It is updated monthly and is the long-form source the chart summarises in visual form. NOTAMs (Notices to Airmen) are short-term operational notices about temporary changes — closures, special events, hazards and ground obstacles. KOSIF (German) / COTSENA (French), at www.skyguide.ch/kosif_f, is the daily bulletin specifically for military shooting locations and schedules."
             },
             {
               "kind": "h2",
-              "text": "Aerodromes and heliports"
+              "text": "Aerodromes, heliports and local agreements"
             },
             {
               "kind": "p",
-              "text": "Aerodromes and heliports are marked on the chart with their exclusion circles: paragliders may not take off or land within 5 km of an aerodrome's runway (without CTR clearance) and within 2.5 km of a heliport. A small number of heliports have special rules — for instance Trogen, where the protective radius is set differently from the default."
+              "text": "Aerodromes and heliports are marked on the chart with their protective cylinders: 5 km from an active runway, 2.5 km from a heliport. The cylinder only extends 600 m AGL — you may legally overfly above that. Some heliports and airfields have local agreements with the SHV/FSVL that cut a 'wedge' out of the standard cylinder (Trogen is a frequently-cited example) or allow transit. Before planning an XC line that grazes such a zone, check the SHV/FSVL local-agreements page — it can turn an illegal route into a legal one."
             },
             {
               "kind": "callout",
-              "title": "Always check before flying",
+              "title": "Pre-flight check sequence",
               "items": [
-                "Glider chart for the static structure.",
-                "DABS for today's MIL hours and active restrictions.",
-                "NOTAMs for temporary issues.",
-                "AIP for the master long-form description."
+                "Glider chart (paper or map.geo.admin.ch) — static structure.",
+                "DABS at skybriefing.com — TODAY's MIL hours and active restrictions. Verify the date! Times in UTC (+1 winter, +2 summer).",
+                "NOTAM / VFR-NOTAM — temporary closures and hazards.",
+                "KOSIF / COTSENA — military shooting.",
+                "SHV/FSVL local agreements — site-specific exceptions (e.g. Trogen)."
               ]
             }
           ],
@@ -2681,7 +2823,7 @@
           "id": "law-05-vfr-rules",
           "title": "VFR rules and right of way",
           "subtitle": "Visibility, cloud distances and who yields to whom",
-          "intro": "Paragliders fly under Visual Flight Rules at all times. VFR defines minimum visibility, distance from cloud, and a strict priority for who has the right of way.",
+          "intro": "Paragliders fly under Visual Flight Rules at all times. VFR defines minimum visibility, distance from cloud, and a strict priority for who has the right of way. The Swiss values are precise — and they change depending on which half of airspace G you are in.",
           "sourced_from": [
             "p3-flight-rules-vfr"
           ],
@@ -2693,7 +2835,7 @@
             },
             {
               "kind": "p",
-              "text": "VFR requires the pilot to see and avoid other aircraft and terrain. In airspace G below 300 m AGL the minimum is 1500 m flight visibility and the pilot must remain clear of cloud, with the ground in sight. Above 300 m AGL in G the requirement increases: 5 km visibility, 1.5 km horizontal from cloud, 300 m vertically below cloud or 150 m above cloud. These thresholds exist so that other VFR traffic — a sailplane, a helicopter, a light aircraft — can see you in time to avoid a collision."
+              "text": "Below 300 m AGL — i.e. only the LOWER half of airspace G, not the full 600 m — the rule is simple: 1.5 km horizontal visibility, OUTSIDE the cloud at all times, ground always in sight, and you must always be able to perform a 180-degree turn. There is no numerical cloud-clearance figure in this band: the requirement is simply to be clear of cloud and able to turn around."
             },
             {
               "kind": "image",
@@ -2709,7 +2851,15 @@
             },
             {
               "kind": "p",
-              "text": "In airspace E up to 3050 m AMSL the rules are 5 km visibility and the same 1.5 km/300 m/150 m cloud separation. From 3050 m AMSL upward the visibility requirement rises to 8 km and the horizontal cloud separation becomes 1500 m, vertical 300 m below and 300 m above."
+              "text": "Above 300 m AGL — i.e. the upper half of G, and airspace E — the strict rule applies: 300 m vertical and 1500 m horizontal distance from any cloud at all times. Visibility must be 5 km below 3050 m AMSL and 8 km above 3050 m AMSL. The increased visibility above 3050 m exists because faster IFR traffic can emerge from cloud at high speed, leaving less time to see and avoid."
+            },
+            {
+              "kind": "h2",
+              "text": "Inside an LSR for Gliders"
+            },
+            {
+              "kind": "p",
+              "text": "Inside an active LS-R for Gliders zone (green outline on the chart, active 1 March to 31 October only) the cloud distances are MINIMISED to 50 m vertical and 100 m horizontal. The visibility minima (5 km below 3050 m, 8 km above) and 'ground in sight' requirement remain unchanged. Watch carefully for an exam trap: if you climb ABOVE the upper limit of an LSR-for-Gliders zone, the large cloud distances apply again — even though you started inside the reduced-distance zone, your altitude has carried you out of it."
             },
             {
               "kind": "h2",
@@ -2717,7 +2867,7 @@
             },
             {
               "kind": "p",
-              "text": "Below the transition altitude, altimeters are set to QNH (sea-level pressure correction) and altitudes are read in metres or feet AMSL. Above that, altimeters are set to the standard pressure 1013.25 hPa and the indication is called a Flight Level (FL). A change of 1 hPa equals about 8 m or 28 ft. With QNH 1015 reported (above standard) you actually fly slightly higher than your altimeter shows when set to 1013."
+              "text": "Below the transition altitude, altimeters are set to QNH (sea-level pressure correction) and altitudes are read in metres or feet AMSL. Above that, altimeters are set to the standard pressure 1013.25 hPa and the indication is called a Flight Level. One foot is 30.48 cm, so FL100 = 10000 ft = exactly 3048 m (rounded to 3050 m on the chart). Tag numbers on the chart that are highlighted in blue are given in standard atmosphere — they can drift up to about ±200 m from the true altitude when pressure is far from 1013 hPa. In a strong high the boundaries actually move UP (good for paragliders), in a deep low they move down (but you probably are not flying in such weather anyway)."
             },
             {
               "kind": "image",
@@ -2733,11 +2883,19 @@
             },
             {
               "kind": "h2",
+              "text": "Five questions to ask at the launch site"
+            },
+            {
+              "kind": "p",
+              "text": "Before launching, the instructor recommends asking yourself five questions: (1) Season — am I between 1 March and 31 October so the LSR-for-Gliders zones are active? (2) Day and time — is MIL ON or MIL OFF, and how high may I therefore climb? (3) Side of the dividing line — am I in the Mittelland/Jura or in the Alps? (4) Altitude — where am I currently, in AGL and AMSL? (5) Location — am I inside the radius of any restricted, danger or aerodrome zone? If you can answer all five, you can answer almost any exam question."
+            },
+            {
+              "kind": "h2",
               "text": "Right of way"
             },
             {
               "kind": "p",
-              "text": "Right-of-way rules give priority to the less manoeuvrable aircraft. Balloons have the highest priority, then sailplanes and hang gliders/paragliders, then powered aircraft. Aircraft approaching head-on must each turn right. Overtaking is done on the right and the overtaking aircraft must give way. In ridge soaring, the aircraft with the ridge on its right has priority; the other must yield."
+              "text": "Right-of-way ranks aircraft by manoeuvrability: the LESS manoeuvrable wins. From highest priority to lowest: aircraft in distress > balloon > paraglider / hang glider / sailplane (all equal) > airship > towing motor aircraft > powered aircraft and helicopters. The most important practical consequence is that powered aircraft must yield to us — but only when we are flying where we belong. Asserting right-of-way over an airliner in a TMA is not a defence in court."
             },
             {
               "kind": "image",
@@ -2765,24 +2923,26 @@
             },
             {
               "kind": "p",
-              "text": "In a thermal, all gliders circle the same direction — the one used by the first arrival. Joining a thermal in the opposite direction is forbidden and the most common cause of collisions in soaring. Watch other pilots inside and outside the thermal at all times."
-            },
-            {
-              "kind": "h2",
-              "text": "Altimetry"
+              "text": "Same-class converging: the aircraft on the RIGHT has priority. Head-on: both turn right. Overtaking is defined as approaching from within the rear 140-degree arc (i.e. behind the 70-degree-from-tail line on either side) — the overtaking aircraft never has priority. Overtaking is allowed in free airspace but FORBIDDEN on a slope. Spiral turns close to a slope are also forbidden. Landing: the LOWEST glider has priority. A yellow cross laid out on a field means the landing is temporarily closed."
             },
             {
               "kind": "p",
-              "text": "Below the transition altitude, altimeters are set to QNH and altitudes are read in metres or feet AMSL. Above that, altimeters are set to the standard pressure 1013.25 hPa and the indication is called a Flight Level. A change of 1 hPa equals about 8 m or 28 ft. With QNH 1015 reported (above standard), you actually fly slightly higher than your altimeter shows when set to 1013."
+              "text": "In a thermal, the FIRST glider into the core sets the direction of turn — not the lowest or the highest. Anyone joining must follow that turn direction, because a faster wing can catch up from below and a counter-rotating encounter would close at very high relative speed. The same applies when circling with birds: turn the way they turn."
+            },
+            {
+              "kind": "p",
+              "text": "On a ridge, head-on encounters are resolved by both pilots turning AWAY from the ridge — i.e. both turn right when their orientation allows. The pilot with the slope on the LEFT has no escape route, so the pilot with the slope on the right gives way. Signal the evasion early by turning out from the slope, so the other pilot sees that you have spotted them."
             },
             {
               "kind": "callout",
               "title": "Rules to live by",
               "items": [
-                "VFR always — see and avoid is your job.",
-                "Below 300 m AGL in G: 1500 m vis, clear of cloud, ground in sight.",
-                "Less manoeuvrable wins: balloon > glider > powered.",
-                "Ridge with ridge on right has priority; same direction in any thermal."
+                "Below 300 m AGL in G: 1.5 km visibility, OUT of cloud, ground in sight, 180-degree turn always possible.",
+                "Above 300 m AGL and in E: cloud 300 m vertical / 1500 m horizontal. Visibility 5 km below 3050 m AMSL, 8 km above.",
+                "Inside LSR for Gliders (1 Mar - 31 Oct): 50 m vertical / 100 m horizontal cloud distance. Above the zone's upper limit, the large clearances return.",
+                "Less manoeuvrable wins: balloon > paraglider/glider > airship > powered aircraft.",
+                "Same class converging: right has priority. Head-on: both turn right. Overtaking = approaching from the rear 140-degree arc; overtaken aircraft has priority.",
+                "Thermal: FIRST in sets the turn direction. Landing: LOWEST has priority. Yellow cross = closed."
               ]
             }
           ],
@@ -2978,7 +3138,7 @@
             },
             {
               "kind": "p",
-              "text": "Wing fabric is most commonly polyamide (Nylon) and less often polyester (Dacron). It is woven in a ripstop pattern: heavier threads at regular intervals stop a tear from propagating beyond a few millimetres. A coating — typically polyurethane, sometimes silicone or Mylar — fills the weave to reduce porosity, lower elasticity and improve UV resistance. A good coating can also improve mechanical strength."
+              "text": "Wing fabric is woven polyamide (nylon) in a ripstop pattern: stronger threads run in warp and weft at regular intervals so a tear cannot propagate beyond the next barrier. A standard paraglider cloth weighs about 49 g/m^2 — for comparison, an A4 sheet of office paper is around 80 g/m^2. Lightweight hike-and-fly wings already exist at about 17 g/m^2, and that number keeps falling as fabrics improve. A coating — typically polyurethane, sometimes silicone or Mylar — fills the weave to reduce porosity, lower elasticity and improve UV resistance. A good coating can also improve mechanical strength."
             },
             {
               "kind": "image",
@@ -3006,7 +3166,7 @@
             },
             {
               "kind": "p",
-              "text": "Coating is damaged by: detergents and solvents, humid storage, friction with sand, gravel or salt, prolonged UV and heat (a wing left in a hot car in summer is a classic ageing accelerator), seawater, cow dung and fuel. It is not damaged by extreme manoeuvres, by being washed in cold water, or by long cool dark storage."
+              "text": "Coating is damaged by: detergents and cleaning agents (which directly attack the coating), humid storage, friction with sand, gravel or salt, prolonged UV and heat (a wing left in a hot car in summer is a classic ageing accelerator), seawater, cow dung and fuel. The single worst combination is a wet wing locked in a hot car or stuffed wet into its bag for weeks. Clean the wing with lukewarm water only — never with detergents. It is not damaged by extreme manoeuvres themselves, by being washed in lukewarm water, or by long cool dark storage."
             },
             {
               "kind": "image",
@@ -3020,11 +3180,11 @@
             },
             {
               "kind": "p",
-              "text": "The wing is divided into cells running from leading to trailing edge. Each cell has internal openings on the leading edge so it can inflate. Between cells, vertical or oblique ribs connect the upper and lower surfaces and define the profile. More cells means a more accurate profile but more weight and folded volume."
+              "text": "The wing is divided into cells running from leading to trailing edge. Each cell has an opening at the leading edge so it can inflate; toward the wing tip (the stabilo) the openings are often closed. Between cells, vertical or oblique ribs connect the upper and lower surfaces and define the profile. More cells means a more accurate profile but more weight and folded volume."
             },
             {
               "kind": "p",
-              "text": "Small vent holes in the ribs allow pressure to equalise between cells. This helps the wing re-inflate quickly after a partial collapse. Diagonal V-ribs (sometimes called Diagonals) carry the load from one rib to another, reducing the number of attachment points and lines needed for the same span. Highest stress on the canopy is in the front half, where lift is concentrated, and on the cells closest to the line attachment points."
+              "text": "Small vent holes called crossports are cut through the ribs so air can flow sideways inside the wing. They equalise pressure between cells, fill the closed tip cells through the open central ones, and help the wing re-inflate quickly after a partial collapse. Diagonal V-ribs (sometimes called Diagonals) carry the load from one rib to another, reducing the number of attachment points and lines needed for the same span. Highest stress on the canopy is in the front half, where lift is concentrated, and on the cells closest to the line attachment points."
             },
             {
               "kind": "p",
@@ -3036,12 +3196,13 @@
             },
             {
               "kind": "callout",
-              "title": "Wing care",
+              "title": "Wing fabric facts",
               "items": [
-                "Avoid UV, heat (car!), seawater, sand, detergents and fuel.",
-                "Cool, dark, dry storage is fine even for long periods.",
-                "Porous coating → earlier stall, higher sink in parachutal stall.",
-                "Don't crease the leading edge — Mylar reinforcement is brittle."
+                "Standard cloth ~49 g/m^2; hike-and-fly cloth ~17 g/m^2 (A4 paper = 80 g/m^2).",
+                "Ripstop barriers are woven in warp AND weft so tears cannot propagate.",
+                "Crossports = holes in ribs that equalise pressure between cells, including the closed tip cells.",
+                "Mylar = stiff but brittle — never fold sharply at the leading edge.",
+                "Worst-case ageing: wet wing in a hot car or stuffed wet for weeks. Clean with lukewarm water only."
               ]
             }
           ],
@@ -3074,7 +3235,11 @@
             },
             {
               "kind": "p",
-              "text": "A paraglider line is typically built of two parts. The sheath is the outer braided cover, made of polyester or polyamide. It carries no significant load — its job is to protect the inner core from UV, abrasion and dirt. The core is what actually takes the tension. Modern lines use either polyethylene (Dyneema, very low stretch but sensitive to heat) or aramid (Kevlar, very strong but more brittle and UV-sensitive)."
+              "text": "A paraglider line is typically built of two parts. The sheath is the outer braided cover, made of polyester or polyamide. It carries no significant load — its job is to protect the inner core from UV and abrasion and to let manufacturers colour-separate the line groups (school wings often use red on the A group so a beginner can pick it out at a glance). The downside of a sheath is extra diameter and extra parasitic drag, so high-performance wings increasingly use unsheathed lines with a UV-resistant coating instead. The core is what actually takes the tension."
+            },
+            {
+              "kind": "p",
+              "text": "Modern cores are either oriented polyethylene (Dyneema, white) or aramid (Technora / Kevlar, light brown). Dyneema has an excellent strength-to-weight ratio, is easy to sew and resists UV well, but it stretches a little under load and slightly SHRINKS when not loaded — most noticeable in the C and D positions where each line only sees about 300-500 g in normal flight. Aramid is the opposite: dimensionally stable lengthwise, very low stretch, high melting point, but kink-sensitive and more UV-sensitive. Manufacturers therefore use a mix — typically Dyneema in the upper, lightly-loaded part of the wing and aramid in the lower, heavily-loaded sections — to keep the wing flying like new for as long as possible."
             },
             {
               "kind": "image",
@@ -3093,6 +3258,14 @@
               "deck": "material",
               "page": 10,
               "caption": "Line core (aramid) — Kevlar, very strong but more brittle."
+            },
+            {
+              "kind": "h2",
+              "text": "Load distribution"
+            },
+            {
+              "kind": "p",
+              "text": "Lift is concentrated on the front half of the wing, so the A and B risers together carry roughly 80% of the total load. The C and D risers together see only the remaining 20%. This is why the C and D lines can be slack with moderate brake input — and also why aramid is preferred in lower, heavily-loaded line positions while Dyneema can be tolerated higher up where loads are small."
             },
             {
               "kind": "h2",
@@ -3116,11 +3289,11 @@
             },
             {
               "kind": "h2",
-              "text": "Line ageing"
+              "text": "Line ageing and check"
             },
             {
               "kind": "p",
-              "text": "Lines stretch over their lifetime; some materials, especially aramid, can also shrink. UV exposure and repeated loading both degrade the core. With moderate brake input the D-lines may be loose (not under tension) — this is normal and means the wing is in a brake-induced angle-of-attack range where lift has shifted forward toward the leading edge. Sustained sagging beyond expectation, however, can indicate a stretch problem that warrants a workshop check."
+              "text": "Lines stretch over their lifetime; Dyneema also shrinks when not under load, especially when wet. UV exposure and repeated loading both degrade the core. With moderate brake input the D-lines may be loose (not under tension) — this is normal and means the wing is in a brake-induced angle-of-attack range where lift has shifted forward toward the leading edge. Sustained sagging beyond expectation, however, can indicate a stretch problem that warrants a workshop check. In a workshop check the lines are measured against the manufacturer specification and the wing is re-trimmed (typically with small tubes added to lengthen by 1-2 cm) so it flies like new again."
             },
             {
               "kind": "p",
@@ -3130,10 +3303,11 @@
               "kind": "callout",
               "title": "Line know-how",
               "items": [
-                "Sheath protects; core carries load.",
-                "Polyethylene = low stretch, heat-sensitive; aramid = strong, brittle, UV-sensitive.",
+                "Sheath protects and colour-codes; core carries load.",
+                "Dyneema = low stretch, slight shrinkage when unloaded (especially wet); Aramid = dimensionally stable, kink-sensitive, UV-sensitive. Manufacturers mix them by position.",
+                "A and B risers carry ~80% of the load; C and D only ~20%.",
                 "Spliced loops preserve strength; sewn loops weaken the line.",
-                "Never modify line lengths yourself — recheck trim periodically."
+                "Never modify line lengths yourself — workshop check measures and re-trims with tubes."
               ]
             }
           ],
@@ -3164,11 +3338,11 @@
             },
             {
               "kind": "p",
-              "text": "Risers are polyamide or polyester webbing strips, lettered A (front) through C or D (rear), matching the lines they carry. They are connected to the harness karabiners and to the lines via screw-locked quick links. Tighten quick links by hand and then add a final quarter turn with a wrench: no more, no less."
+              "text": "Risers are polyamide or polyester webbing strips, lettered A (front) through C or D (rear), matching the lines they carry. They are connected to the harness karabiners and to the lines via screw-locked quick links. Tighten quick links by hand and then add a final quarter turn with a wrench: no more, no less. Karabiners themselves are aluminium or steel; aluminium dents more easily against rocks but in long-term opening/closing tests actually shows slightly better strength than steel. Either way, replace karabiners about every five years."
             },
             {
               "kind": "p",
-              "text": "In stable straight-and-level flight the load is concentrated on the A risers, which carry the front portion of the wing where most of the lift is generated. The D risers carry the least load — which is why they are sometimes used as emergency steering if brake lines fail. With moderate brake input the D-lines may even be slack."
+              "text": "In stable straight-and-level flight roughly 80% of the load is on the A/B risers and only 20% on C/D, because lift is concentrated forward. The D risers are therefore sometimes used as emergency steering if brake lines fail, and with moderate brake input the D-lines may even be slack."
             },
             {
               "kind": "h2",
@@ -3176,7 +3350,7 @@
             },
             {
               "kind": "p",
-              "text": "The speed bar is a foot-operated pulley system that shortens the A risers the most, the B risers less, and sometimes the C risers slightly. The net effect is to reduce the wing's angle of attack without significantly changing its profile — the wing flies faster. Pushing the bar to the full deflection takes the wing to its maximum speed Vmax."
+              "text": "The speed bar is a foot-operated pulley system that shortens the A risers the most, the B risers less, and sometimes the C risers slightly. The net effect is to reduce the wing's angle of attack without significantly changing its profile — the wing flies faster. Pushing the bar to the full deflection takes the wing to its maximum speed Vmax. The foot bar is fitted to solo wings only: on a tandem the front passenger blocks the legs, so a tandem uses trimmers instead."
             },
             {
               "kind": "image",
@@ -3186,7 +3360,7 @@
             },
             {
               "kind": "p",
-              "text": "Trim tabs perform the same job as the speed bar but with a slower, finer adjustment that you set with your hand. They are common on tandems where a foot bar is impractical. Tabs engaged (slow): the wing is less prone to frontal collapses. Tabs released (fast): more prone to collapses."
+              "text": "Trim tabs perform the same job as the speed bar but with a slower, finer adjustment that you set with your hand. They are common on tandems where a foot bar is impractical. Tabs engaged (slow): the wing is less prone to frontal collapses. Tabs released (fast): more prone to collapses. The big practical difference vs the foot bar is that the bar springs back the instant you release it, while a trimmer has to be actively reached up to and let off — but you can see the trim setting clearly by hand."
             },
             {
               "kind": "h2",
@@ -3195,6 +3369,10 @@
             {
               "kind": "p",
               "text": "Brake lines run from the trailing edge of each half-wing through pulleys on the rear riser to handles you hold in each hand. Pulling a brake increases the angle of attack on that side, slowing it and turning the wing toward the brake. Brake line length is factory-set — never modify it. With your arms fully up, the brake lines should still form a slight rearward arc; straight lines mean the brakes are too short and the wing is permanently slightly braked, with a stall risk in turbulence."
+            },
+            {
+              "kind": "p",
+              "text": "How to hold the brake handle: pass the handle once around your wrist but never push your hand all the way through the loop. In an emergency (especially in winter with gloves) you must be able to drop the brake instantly and reach the reserve handle. A hand trapped through the loop fights you when you need it least."
             },
             {
               "kind": "h2",
@@ -3208,10 +3386,11 @@
               "kind": "callout",
               "title": "Riser and control facts",
               "items": [
-                "A risers most loaded, D risers least loaded in trim flight.",
-                "Speed bar shortens A most, B less, sometimes C — reduces AoA.",
-                "Trim tabs: engaged = slower, less collapse-prone; released = faster, more collapse-prone.",
-                "Best glide in still air: arms up, no accelerator."
+                "A+B risers carry ~80% of the load; C+D only ~20%.",
+                "Speed bar shortens A most, B less, sometimes C — reduces AoA. Solo wings only.",
+                "Trim tabs (used on tandems): engaged = slower, less collapse-prone; released = faster, more collapse-prone.",
+                "Tighten quick links hand-tight plus a 1/4 turn. Karabiners are good for ~5 years.",
+                "Brake handle: wrist through once, hand NEVER through the loop. Best glide in still air: arms up, no accelerator."
               ]
             }
           ],
@@ -3264,7 +3443,15 @@
             },
             {
               "kind": "p",
-              "text": "Two main systems are used. Foam back protectors work immediately on impact and require no preparation. Airbag systems use ram-air inflation in flight; they are more effective once filled but need time to inflate, so a take-off failure offers little protection. Many modern harnesses combine foam and airbag elements to give the best of both worlds — and a small added weight penalty in return."
+              "text": "There are several back-protection concepts and each has a trade-off. (1) Foam protectors give full protection from the very first second — you are protected during launch, in flight and on landing — but they are heavy and bulky to pack. (2) Airbag protectors are light and small to pack, but they only fill once the airflow blows into them in flight, so they offer essentially no protection on a botched take-off. (3) Convertible harnesses turn into a rucksack to save you carrying a separate backpack, but the same light fabric and zippers are stressed daily, and a packed-down foam protector inside a rucksack-mode harness can be compressed enough that it no longer unfolds properly. (4) One manufacturer has solved the airbag trade-off with an inflatable harness that you blow up by hand or with a pump BEFORE launch, so you have full air protection from take-off; you let the air out again to pack it down to a small volume. (5) Hike-and-fly minimal-strap harnesses dispense with protection altogether — you sit in essentially a band of webbing — and require a separately mounted reserve, because there is nothing to integrate it into."
+            },
+            {
+              "kind": "h2",
+              "text": "Sitting vs prone"
+            },
+            {
+              "kind": "p",
+              "text": "A prone (pod) harness lets the pilot lie almost horizontally, which gives lower drag and a measurably better glide; it also shelters you from the wind on long flights and leaves room for a cockpit. The trade-offs are that you cannot look directly upward and you do not sit fully upright, so climbing in feels foreign and twist risk is higher in collapses. For students, a sitting harness is the right choice — the upward view, the upright seat and the simpler launch behaviour matter more than the small glide gain."
             },
             {
               "kind": "h2",
@@ -3282,20 +3469,21 @@
             },
             {
               "kind": "p",
-              "text": "Karabiner geometry matters. Karabiners high and close together damp the turbulence transmitted to the wing — useful for relaxed flying. Karabiners low and far apart give the pilot more feedback, less risk of twisting on launch, and a stronger lean forward into the wing. Reclined (pod) harnesses present lower drag but, because the pilot is more horizontal, carry a higher risk of twisting if the wing collapses asymmetrically."
+              "text": "Karabiner geometry matters. Karabiners high and close together damp the turbulence transmitted to the wing — useful for relaxed flying. Karabiners low and far apart give the pilot more feedback, less risk of twisting on launch, and a stronger lean forward into the wing."
             },
             {
               "kind": "p",
-              "text": "The distance between the two karabiners (the bridle width) is one of the design choices that shape the feel of the harness. A narrow bridle gives a smoother, more damped ride and is often chosen for cross-country and long flights. A wider bridle transmits more turbulence to the pilot, who can then react earlier — at the cost of comfort. Pre-flight: always check that both karabiners are correctly screwed shut and that the leg straps and chest strap are buckled."
+              "text": "Pre-flight: always check that both karabiners are correctly screwed shut and that the leg straps and chest strap are buckled. Always try a harness before buying — fit and feel are very personal."
             },
             {
               "kind": "callout",
               "title": "Harness choices",
               "items": [
-                "Foam protection: immediate; airbag: more effective but needs inflation time.",
-                "Cross-brace: stable but dampens feedback.",
-                "Karabiners high & close: damps; low & wide: livelier and easier on launch.",
-                "Reclined harness: lower drag, higher twist risk."
+                "Foam: protects from second zero, heavy/bulky. Airbag: light/small, NO protection at launch.",
+                "Convertible (rucksack-mode): light to carry, but the fabric is stressed and the packed protector can lose loft.",
+                "Pre-inflated air harness: full protection from take-off, deflates to small volume to pack.",
+                "Hike-and-fly minimal strap: no protection, reserve must be mounted separately.",
+                "Prone (pod) harness: better glide, wind shelter, room for cockpit — NOT for school (no upward view, climb-in is awkward, higher twist risk)."
               ]
             }
           ],
@@ -3320,11 +3508,19 @@
           "sections": [
             {
               "kind": "h2",
+              "text": "Reserve canopy types"
+            },
+            {
+              "kind": "p",
+              "text": "Most modern reserves are cross-cell canopies (semi-square shapes built like a paraglider but with very loose weave). Their big advantage is that they are pendulum-stable in descent — you come down vertically without swinging. Older round (hemispherical) canopies still exist but are slowly being replaced because they tend to develop a pendulum motion that adds energy at the moment of touchdown. Steerable triangle or square reserves let an experienced pilot fly the reserve after deployment, but they require active piloting on top of an already stressful situation, so for a student a cross-cell reserve is the right answer."
+            },
+            {
+              "kind": "h2",
               "text": "Attachment to the harness"
             },
             {
               "kind": "p",
-              "text": "The reserve must attach high on the shoulder straps of the harness so that, when it deploys, it pulls the pilot upright into the suspended position under the open canopy. Attaching the reserve bridle to the riser karabiners instead leaves the pilot seated in the harness — a poor body position for the deceleration and landing roll. Reserve handle placement should always allow the pilot to find and grasp the handle with one hand in any flight orientation."
+              "text": "The reserve must attach high on the shoulder straps of the harness so that, when it deploys, it pulls the pilot upright into the suspended position under the open canopy. Attaching the reserve bridle to the riser karabiners instead leaves the pilot seated in the harness — a poor body position for the deceleration and landing roll. Reserve handle placement should always allow the pilot to find and grasp the handle with one hand in any flight orientation. Hike-and-fly minimal-strap harnesses cannot integrate a reserve and require a separate front-mount or chest-mount container."
             },
             {
               "kind": "image",
@@ -3344,7 +3540,15 @@
             },
             {
               "kind": "p",
-              "text": "Reserve fabric is elastic nylon ripstop, unlike the inelastic wing fabric. The elasticity softens the opening shock, which would otherwise injure the pilot. The target sink rate for a deployed reserve is about 5 to 6 m/s — equivalent to dropping from about 1.5 m. The pilot should land with a parachute landing roll (PLF) to absorb the impact through the entire body rather than just the legs."
+              "text": "Reserve fabric is the same nylon as the wing but woven much finer and looser — it is deliberately ALLOWED to stretch, both fabric and Dyneema lines, because that stretch is what absorbs the opening shock. The target descent rate of a deployed reserve is about 5.5 m/s, which in pure energy terms is equivalent to jumping from a height of 1.5 m. But you are not just landing yourself: you also have the harness, the wing, helmet and clothes attached, and in practice the actual impact feels more like jumping from 2 to 3 m. Manufacturers know this — the certification drop test for a reserve is done from a bridge or a helicopter with a weight attached and WITHOUT the paraglider hanging below it, so the lab figure is a best case. In the real world the still-connected paraglider can interfere with the reserve canopy, swing the system and raise the sink rate further."
+            },
+            {
+              "kind": "h2",
+              "text": "Landing technique"
+            },
+            {
+              "kind": "p",
+              "text": "The single most important thing after a reserve toss is to land on your feet. Your legs are a better impact absorber than any harness protector — no foam or airbag is as good. Aim for feet first, knees and ankles flexed, and roll through your body to spread the impact (the classic parachute landing fall, PLF). Sitting down onto the harness protector at the moment of impact is a recipe for an injured spine; the protector is a last-resort backup, not a target."
             },
             {
               "kind": "h2",
@@ -3374,10 +3578,12 @@
               "kind": "callout",
               "title": "Reserve discipline",
               "items": [
+                "Cross-cell = pendulum-stable, recommended for everyone. Round = older, pendulum-prone. Steerable = experts only.",
                 "Attach high on shoulder straps — pilot must hang upright.",
-                "Sink ~5–6 m/s, plan a PLF landing.",
-                "Repack every 4–6 months; 24 h airing each time.",
-                "Sequence: locate → grasp → pull out → look → throw hard."
+                "5.5 m/s = ~1.5 m drop in theory; with paraglider+harness still attached, expect 2-3 m.",
+                "Land on your FEET. The protector is never as good as your legs.",
+                "Repack every 4-6 months; 24 h airing each time.",
+                "Sequence: locate -> grasp -> pull out -> look -> throw hard, then neutralise main wing on B/C."
               ]
             }
           ],
@@ -3463,7 +3669,7 @@
             },
             {
               "kind": "p",
-              "text": "Paragliders are grouped into categories that reflect the demands they make on the pilot. EN A wings are the most forgiving — designed for school use and beginners, with self-correcting behaviour after most disturbances. EN B wings are aimed at recreational pilots after their licence. EN C is for more experienced pilots — quicker, more demanding, more useful performance. EN D and CCC are competition-class wings that require both training and recurrent currency."
+              "text": "Paragliders are grouped into categories that reflect the demands they make on the pilot. EN A wings are the most forgiving — designed for school use and beginners: if anything disturbs the wing and the pilot simply lets go, the wing returns to straight flight on its own. EN B wings are aimed at recreational pilots after their licence — typically after a few hundred flights on a school wing — and still have good passive safety with a step up in performance. EN C is for more experienced pilots — quicker, more demanding, more useful performance. EN D and CCC are competition-class wings: the pilot is expected to react instantly and intuitively to a disturbance without time to think."
             },
             {
               "kind": "image",
@@ -3479,11 +3685,19 @@
             },
             {
               "kind": "h2",
+              "text": "Performance vs safety in real numbers"
+            },
+            {
+              "kind": "p",
+              "text": "What does the safety/performance trade-off look like in practice? From a launch at 1000 m above the valley in calm air, a modern school wing reaches a landing field about 8 km away. A competition wing — same launch, same conditions — reaches about 12 km. The school-wing number is also a generational improvement: just a few years ago even good school wings were down at 6 to 7.5 km. So wings today are noticeably better gliders AND noticeably safer than they used to be."
+            },
+            {
+              "kind": "h2",
               "text": "What EN testing actually does"
             },
             {
               "kind": "p",
-              "text": "EN homologation is a test programme in which the wing is subjected to a standardised series of manoeuvres — collapses, stalls, spirals — and graded on its recovery behaviour from A (most docile) to D (most demanding). The certification applies to a specific wing model, size and weight range; flying outside the certified weight range invalidates the certification. Certification tells the buyer about the wing's behaviour in tested manoeuvres — not its absolute performance and not its absolute safety."
+              "text": "EN homologation is a multi-stage test. First the wing is shock-loaded behind a moving vehicle (with a defined breaking point); then it is ramped up to at least 8G of static load (modern wings often reach 12G, acro wings around 16G); the structure and lines are inspected, the line strength is checked against the manufacturer's specification and a knot test is run. Then the test pilot flies 24 manoeuvres — collapses, stalls, spirals, asymmetric inputs — and the wing is scored on 90 individual points. Each manoeuvre may be flown up to five times, and a single occurrence in the target category counts toward the rating (a rule schools criticise, because the wing's worst behaviour over five attempts is not what shows up on the label). Brake-travel ranges are also measured: a school wing typically uses 0 to 50 cm of brake travel before stall, a competition wing only 0 to 30 cm."
             },
             {
               "kind": "image",
@@ -3497,7 +3711,7 @@
             },
             {
               "kind": "p",
-              "text": "The EN standard itself is set at the European level. In Switzerland, the SHV / FSVL sets additional national norms for SHV-certified types. Wing inspection intervals are specified by the manufacturer, typically every 24 months or every 200 flight hours, whichever comes first. The owner is responsible for having inspections done on time — flying an overdue wing voids the certification and the insurance."
+              "text": "EN is the standard worldwide. The only major exception is Germany, which still uses the older LTF / DHV system; otherwise EN A-B-C-D is what you will see on the certification label. The SHV/FSVL accepts both EN and LTF for Swiss flights. Wing inspection intervals are specified by the manufacturer, typically every 24 months or every 200 flight hours, whichever comes first. The owner is responsible for having inspections done on time — flying an overdue wing voids the certification and the insurance."
             },
             {
               "kind": "h2",
@@ -3505,7 +3719,7 @@
             },
             {
               "kind": "p",
-              "text": "Stress is highest on the equipment during launches, hard landings and extreme manoeuvres. Repeated heavy launches concentrate wear on the cell walls near the line attachments. Trim-tabs released in stable straight-and-level flight have a small effect on the wing's behaviour; engaged, they reduce collapse-proneness but lower top speed."
+              "text": "Friction (dragging the wing along the ground, lines rubbing each other) is mechanical wear and should be minimised. UV is unavoidable in the air but easy to limit on the ground: pack the wing as soon as you land and keep it in the shade. Moisture on its own is not catastrophic if you dry the wing the same day — the disaster scenarios are a wet wing left in its bag for weeks (mould, coating damage) or a wet wing baking in a hot car (the oven effect is very destructive). Acid from a landing-field cow pat attacks the coating; rinse it off with lukewarm water. Cleaning agents and detergents are NEVER acceptable — they attack the coating directly. Always get advice from a flight school when choosing equipment: schools know the personality of each wing far better than the certification letter does."
             },
             {
               "kind": "image",
@@ -3517,10 +3731,11 @@
               "kind": "callout",
               "title": "Certification reminders",
               "items": [
-                "EN A → D + CCC, with rising pilot demands.",
-                "Certification = recovery behaviour in tested manoeuvres, not absolute safety.",
-                "Must fly inside the wing's weight range to keep certification valid.",
-                "Owner is responsible for inspections at manufacturer's intervals."
+                "EN A->D (LTF in Germany). EN A = school, EN B after a few hundred flights, EN C/D demand intuitive reactions.",
+                "Real numbers from 1000 m: school wing ~8 km, competition ~12 km. School wings used to be 6-7.5 km a few years ago.",
+                "8G minimum static load (acro ~16G). 24 manoeuvres, 90 points; 5 attempts per manoeuvre, one occurrence in category counts.",
+                "Brake travel: school wing 0-50 cm, competition 0-30 cm.",
+                "Owner is responsible for inspections at the manufacturer's interval; overdue = uncertified = uninsured."
               ]
             }
           ],
@@ -3785,6 +4000,14 @@
                 "Phases 1→2→3: inflate → check → accelerate.",
                 "Abort decision before phase 3."
               ]
+            },
+            {
+              "kind": "callout",
+              "text": "After take-off, brake hard on ONE side to stay straight = wing is asymmetric (knot / damage). Stabilise and investigate — never relax."
+            },
+            {
+              "kind": "callout",
+              "text": "Knot escalation: brake-impulse on knot side, then pull stabilo line, then induced 50% collapse — reserve over open meadow if still unsteerable."
             }
           ],
           "quiz": [
@@ -4026,6 +4249,22 @@
                 "Thermal: same direction as the first arrival.",
                 "Watch climb rate around the circle — ease or tighten."
               ]
+            },
+            {
+              "kind": "callout",
+              "text": "Soaring: terrain clearance, terrain clearance, terrain clearance — turbulence and other pilots are unpredictable when working a band."
+            },
+            {
+              "kind": "callout",
+              "text": "Thermal centring uses lots of WEIGHT-SHIFT, not just brake; many pilots over-use brake and under-use weight."
+            },
+            {
+              "kind": "callout",
+              "text": "Crisp alpine thermals from steep faces release fast — narrow, tight cores; flatland thermals are broader. Match bank angle to thermal width."
+            },
+            {
+              "kind": "callout",
+              "text": "Only leave a thermal once you have chosen the next target AND have enough altitude to reach it."
             }
           ],
           "quiz": [
@@ -4040,7 +4279,7 @@
           "id": "skills-07-incidents-recovery",
           "title": "Flight incidents and recovery",
           "subtitle": "Collapses, stalls, spirals and parachutal flight",
-          "intro": "Every paraglider pilot meets turbulence-induced collapses sooner or later. Knowing what each event looks like and exactly how to respond is the difference between a corrected incident and an accident.",
+          "intro": "Every paraglider pilot meets turbulence-induced collapses sooner or later. Knowing what each event looks like and exactly how to respond is the difference between a corrected incident and an accident. Each manoeuvre below also has a 'how to come OUT of it' that is usually more dangerous than the entry — pay equal attention to the exit.",
           "sourced_from": [
             "p5-flight-patterns"
           ],
@@ -4127,6 +4366,42 @@
                 "B-stall → both B risers; release quickly.",
                 "Asymmetric → brake & weight on open side; frontal → brake-release pulse."
               ]
+            },
+            {
+              "kind": "h2",
+              "text": "Brake grip variants"
+            },
+            {
+              "kind": "p",
+              "text": "Every brake line has 10-15 cm of slack — needed because accelerated flight tilts the canopy forward and would otherwise pull the trailing edge taut. THREE grip variants exist. CLASSIC: brake handle held by the loop. Safe, used by all students, but the working range for thermal flying ends up uncomfortably low. FRENCH: hand passes through the loop, brake line held between thumb and index finger. Shortens brake travel and gives feel, but has been linked to fatal accidents — a gloved pilot may be unable to release the loop to reach the reserve. DO NOT use this grip with thick gloves. HUNGARIAN: hold the brake line between thumb and index finger without going through the loop. You can release at any time, but accidentally losing the line is easy. RECOMMENDED (Swiss school): take a SINGLE OUTWARD WRAP — turn the brake line outward over the heel of the hand, then hold it loosely between thumb and index finger. This eats the 10-15 cm slack, gives a short and sensitive working range, AND can be released in one motion to grab the reserve. For a full stall on an A-rated wing you may need two wraps."
+            },
+            {
+              "kind": "h2",
+              "text": "Accelerated flight"
+            },
+            {
+              "kind": "p",
+              "text": "Hands stay fully up in accelerated flight — never steer with the brakes. Pulling brake while the bar is in moves the trailing edge AND tilts the leading edge unfavourably, sharply raising collapse risk (frontal or asymmetric). Steer with WEIGHT SHIFT only; if that is not enough, add a very light pull (1-2 cm) on the rearmost riser. Set the accelerator by stepping with the heel into the first stirrup, pushing it forward, then bringing the second foot onto the next step. Push slowly and symmetrically until pulley reaches pulley on both sides (asymmetry will leave one side short). Come off slowly — the last few centimetres can snap out."
+            },
+            {
+              "kind": "h2",
+              "text": "Pitching and rolling axes (training manoeuvres)"
+            },
+            {
+              "kind": "p",
+              "text": "PITCHING (transverse axis, brake pulse): start slowly. Pull, pull, pull, pull — then BANG, hands up. When the wing surges forward, WAIT — let it pass through the dead point at the bottom AND start the climb on the next swing before braking again. Braking on the down-swing kills the energy you built. Each subsequent pulse can pull a bit deeper. To exit: catch the surge with a brief, firm braking that stops the wing about 45-60 degrees in front of you. Common error: pulling too fast and too deep too early — that stalls the wing. If you stall: hands UP and let the wing recover by itself; only respond to a collapse afterwards. ROLLING (longitudinal axis): same principle but the timing differs. Weight first, brake later. The body comes onto the new side BEFORE the brake — when the pilot reaches the highest point, weight shift is already on the new side; the new-side brake comes just after the lowest dead point (a much shorter wait than for pitching). Exit: skip one input; on the last swing, brake both sides as the wing comes back overhead."
+            },
+            {
+              "kind": "h2",
+              "text": "Spiral with collapse held (advanced low-G descent)"
+            },
+            {
+              "kind": "p",
+              "text": "An advanced descent technique combines an intentional asymmetric collapse on one side with a spiral turn on the open side. It produces a high sink rate with much LOWER G-forces than a normal spiral. Not part of the brevet exam, but worth knowing exists — those G-forces are what make a steep spiral dangerous (blackout, exit asymmetry). Train only under SIV instruction."
+            },
+            {
+              "kind": "callout",
+              "text": ""
             }
           ],
           "quiz": [
@@ -4232,6 +4507,22 @@
                 "Strong wind on touchdown: face the wing and collapse it.",
                 "Emergencies: tree > sloped roof > water; unclip before water contact."
               ]
+            },
+            {
+              "kind": "callout",
+              "text": "Position circle (phase 1) MUST turn in the SAME direction as the volte — right-hand pattern starts with right-hand spirals."
+            },
+            {
+              "kind": "callout",
+              "text": "Too high on final = make yourself BIG (sit up out of harness, legs ready) for extra drag. Beware: >80% brake = parachutal stall close to the ground."
+            },
+            {
+              "kind": "callout",
+              "text": "Slope landing: parallel to the contour or perpendicular, never straight up the slope."
+            },
+            {
+              "kind": "callout",
+              "text": "Strong-wind landing: 180 degrees to face wing, run downwind toward it, pull B/C — never brake (lift increase will drag you)."
             }
           ],
           "quiz": [
@@ -4250,6 +4541,46 @@
             "prc-57",
             "prc-61"
           ]
+        },
+        {
+          "intro": "The Swiss brevet practical exam includes two compulsory flight figures, P1 and P2. Both are about orientation in space, controlling and exiting a bank angle, energy management — and about hitting the same axis you started on.",
+          "sections": [
+            {
+              "kind": "h2",
+              "text": "P1 — Double circle"
+            },
+            {
+              "kind": "p",
+              "text": "Two full 360 degree circles in the SAME direction, flown one straight after the other, entry and exit on the same axis (or parallel to it). Maximum 20 seconds. Start at MINIMUM SINK (both brakes pulled). Check airspace, then initiate the turn (the exam prescribes RIGHT). Set the bank angle with the INNER brake; if the bank is too steep, NEVER release the inner brake — pull the OUTER brake to reduce bank. Between the two circles the wing tends to pitch up and the bank slackens — pull a couple more centimetres of inner brake. Just before the second circle closes onto your heading, neutral body position, then pull the OUTER brake to brake both sides and stop on axis. Time stops only once the wing flies straight and stable."
+            },
+            {
+              "kind": "h2",
+              "text": "P2 — Figure-eight along a guide line"
+            },
+            {
+              "kind": "p",
+              "text": "Same principle as P1, but with a direction change: a full LEFT circle (always the first in the exam), then a full RIGHT circle, offset slightly along a guide line — looks like a shifted figure-eight. NOT a written '8' — both are CLOSED circles. Maximum 25 seconds. The most common error is initiating the first circle aggressively, doing an accidental wing-over on the change, then running out of energy. Cure: as you approach the axis at the end of the first circle, bring weight to neutral and pull the outer brake gently so you cross the axis BRAKED on both sides, then make the direct change into the second circle. Same exit as P1: outer-brake to neutral on axis, then release."
+            },
+            {
+              "kind": "h2",
+              "text": "P1/P2 — common errors and the outer-brake rule"
+            },
+            {
+              "kind": "p",
+              "text": "Three errors dominate both figures. (1) Releasing the inner brake to recover from too much bank — WRONG, this can spin the inner wing tip; keep inner brake, ADD outer brake instead. The outer brake is a fundamental tool in paragliding — also how you exit a spiral. (2) Not pulling enough inner brake to set the bank, then trying to fix it late in the circle. Train at minimum sink first, then progressively steeper. (3) Flying along the guide line between the two P2 circles. As soon as you have the axis, change direction — straight flight on the line wastes time."
+            }
+          ],
+          "id": "skills-09-brevet-figures",
+          "title": "Brevet flight figures: P1 double circle, P2 figure-eight",
+          "estimated_min": 8,
+          "subtitle": "Mandatory practical exam exercises",
+          "sourced_from": [
+            {
+              "kind": "video",
+              "title": "AA P1 Doppelkreis Rechts + P2 Leitlinien Acht"
+            }
+          ],
+          "quiz": []
         }
       ]
     }
