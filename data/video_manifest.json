@@ -35,7 +35,7 @@
           "duration_seconds": 1386.5813125,
           "duration_label": "23:06",
           "has_de_vtt": true,
-          "has_en_vtt": false
+          "has_en_vtt": true
         }
       ]
     },
@@ -133,7 +133,7 @@
           "duration_seconds": 1473.4506875,
           "duration_label": "24:33",
           "has_de_vtt": true,
-          "has_en_vtt": false
+          "has_en_vtt": true
         },
         {
           "id": "luftrecht_1",
@@ -397,7 +397,7 @@
       "airactive": 15
     },
     "with_de_vtt": 9,
-    "with_en_vtt": 2,
+    "with_en_vtt": 4,
     "total_duration_seconds": 25753.742964000012
   }
 }
