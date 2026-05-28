@@ -1,6 +1,20 @@
 {
-  "fetchedAt": "2026-05-28T14:46:23.071Z",
+  "fetchedAt": "2026-05-28T14:46:53.412Z",
   "questions": {
+    "1": {
+      "qid": 1,
+      "topic": "Aerodynamics",
+      "pos": 143,
+      "total_in_topic": 152,
+      "text": "Forces F1 and F2 are applied to a body. They have the same point of application. What is the resultant R of the two forces?",
+      "options": [
+        "R3",
+        "R4",
+        "R2",
+        "R1"
+      ],
+      "correct": 0
+    },
     "2": {
       "qid": 2,
       "topic": "Aerodynamics",
@@ -519,6 +533,20 @@
       ],
       "correct": 0
     },
+    "41": {
+      "qid": 41,
+      "topic": "Aerodynamics",
+      "pos": 139,
+      "total_in_topic": 152,
+      "text": "Which of the following parameters will have the most influence on a streamlined body?",
+      "options": [
+        "the characteristics of the body's surface.",
+        "the mass of the body.",
+        "the specific weight of the body.",
+        "the molecular density of the body."
+      ],
+      "correct": 0
+    },
     "42": {
       "qid": 42,
       "topic": "Aerodynamics",
@@ -869,6 +897,20 @@
       ],
       "correct": 1
     },
+    "68": {
+      "qid": 68,
+      "topic": "Aerodynamics",
+      "pos": 142,
+      "total_in_topic": 152,
+      "text": "The term stagnation point defines",
+      "options": [
+        "the point where the airflow separates from the wing.",
+        "the transition from the laminar to the turbulent boundary layer.",
+        "the point of application of the resultant aerodynamic force.",
+        "the point where the airflow is divided between the upper and lower wing surfaces."
+      ],
+      "correct": 3
+    },
     "69": {
       "qid": 69,
       "topic": "Aerodynamics",
@@ -894,6 +936,34 @@
         "moves towards the trailing edge on the wing lower surface.",
         "remains stationary.",
         "moves towards the leading edge on the wing lower surface."
+      ],
+      "correct": 3
+    },
+    "71": {
+      "qid": 71,
+      "topic": "Aerodynamics",
+      "pos": 137,
+      "total_in_topic": 152,
+      "text": "The term \"center of pressure /thrust\" means",
+      "options": [
+        "the centre of mass of the pilot and all equipment combined.",
+        "the point where the airflow is divided between the upper and lower wing surfaces.",
+        "the point of application of the resultant aerodynamic force.",
+        "the transition from laminar to turbulent boundary layer flow."
+      ],
+      "correct": 2
+    },
+    "72": {
+      "qid": 72,
+      "topic": "Aerodynamics",
+      "pos": 140,
+      "total_in_topic": 152,
+      "text": "The term \"wing span\" is defined as",
+      "options": [
+        "the difference in angle of attack of the wing cross-section at different points along the wing.",
+        "the average loading per unit of wing surface area.",
+        "the average distance between the leading and trailing edges of a wing.",
+        "the distance between the left and right wing tips."
       ],
       "correct": 3
     },
@@ -938,6 +1008,20 @@
         "load / wing surface area."
       ],
       "correct": 1
+    },
+    "76": {
+      "qid": 76,
+      "topic": "Aerodynamics",
+      "pos": 141,
+      "total_in_topic": 152,
+      "text": "The term \"aspect ratio\" is defined as the relationship between",
+      "options": [
+        "the wing span and the average chord of the wing.",
+        "the profile depth and the average chord of the wing.",
+        "the largest and smallest chord of the wing.",
+        "the square of the span and the square of the average chord."
+      ],
+      "correct": 0
     },
     "77": {
       "qid": 77,
@@ -1233,6 +1317,20 @@
       ],
       "correct": 3
     },
+    "100": {
+      "qid": 100,
+      "topic": "Aerodynamics",
+      "pos": 144,
+      "total_in_topic": 152,
+      "text": "The projected surface area is",
+      "options": [
+        "larger than the actual surface area.",
+        "on a hang glider smaller, on a paraglider larger than the actual surface area.",
+        "on hang glider larger, on a paraglider smaller than the actual surface area.",
+        "smaller or identical to the actual surface area."
+      ],
+      "correct": 3
+    },
     "101": {
       "qid": 101,
       "topic": "Aerodynamics",
@@ -1344,6 +1442,20 @@
         "5 and 3"
       ],
       "correct": 3
+    },
+    "109": {
+      "qid": 109,
+      "topic": "Aerodynamics",
+      "pos": 138,
+      "total_in_topic": 152,
+      "text": "Which of the following numbers represents the glide angle and total weight?",
+      "options": [
+        "1 and 6",
+        "1 and 2",
+        "2 and 4",
+        "4 and 6"
+      ],
+      "correct": 1
     },
     "110": {
       "qid": 110,
