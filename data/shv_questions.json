@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-05-28T16:00:20.321Z",
+  "fetchedAt": "2026-05-28T16:01:53.328Z",
   "questions": {
     "Aerodynamics_1": {
       "qid": 1,
@@ -2320,9 +2320,9 @@
       "total_in_topic": 164,
       "text": "According to the weather conditions shown on the map the forecast for Switzerland should be",
       "options": [
-        "increasing cloud in the west and south, and mainly sunny in the east due to the influence of south föhn.",
         "generally sunny throughout the whole of Switzerland with light and variable winds.",
         "bise conditions with wind speeds of up to 50 km/h in the region of lake Geneva.",
+        "increasing cloud in the west and south, and mainly sunny in the east due to the influence of south föhn.",
         "cloud congestion on the north side of the Alps. Sunny in Tessin due to north föhn influence."
       ],
       "correct": null
@@ -2404,26 +2404,26 @@
       "total_in_topic": 164,
       "text": "A lower atmospheric pressure can occur over an area",
       "options": [
-        "which is warmer than its surroundings over a long period.",
         "which receives less intense sunshine than its surroundings over a long period.",
-        "which is drier than its surroundings over a long period.",
-        "which is colder than its surroundings over a long period."
+        "which is colder than its surroundings over a long period.",
+        "which is warmer than its surroundings over a long period.",
+        "which is drier than its surroundings over a long period."
       ],
-      "correct": 0
+      "correct": null
     },
     "Weather_71": {
       "qid": 71,
       "topic": "Weather",
-      "pos": 11,
+      "pos": 7,
       "total_in_topic": 164,
       "text": "From the distribution of isobars on the surface weather chart, predictions can be made about",
       "options": [
         "the prevailing wind strength and direction.",
-        "the chance of precipitation.",
         "the prevailing wind direction and the chance of precipitation.",
+        "the chance of precipitation.",
         "the temperature gradient and the wind strength."
       ],
-      "correct": 0
+      "correct": null
     },
     "Weather_46": {
       "qid": 46,
@@ -7954,6 +7954,104 @@
         "Sudden and very acute headaches.",
         "Highly reduced ability to concentrate, impaired perception and judgement, reduced bodily performance.",
         ">>>"
+      ],
+      "correct": 2
+    },
+    "Weather_55": {
+      "qid": 55,
+      "topic": "Weather",
+      "pos": 1,
+      "total_in_topic": 164,
+      "text": "Which of the following cloud types consists mainly of ice crystals?",
+      "options": [
+        "Stratocumulus",
+        "Cumulus humilis",
+        "Nimbostratus",
+        "Cirrocumulus"
+      ],
+      "correct": 3
+    },
+    "Weather_48": {
+      "qid": 48,
+      "topic": "Weather",
+      "pos": 3,
+      "total_in_topic": 164,
+      "text": "Cumulus cloudbase is",
+      "options": [
+        "the lower level of the cloud and is at the height where the temperature of the rising air reaches its dew point.",
+        "the upper level of the cloud and is at the height where the temperature of the rising air reaches that of the surrounding air.",
+        "the upper level of the cloud and is at the height where the temperature of the rising air reaches its dew point.",
+        "the lower level of the cloud and is the height where the temperature of the rising air reaches that of the surrounding air."
+      ],
+      "correct": 0
+    },
+    "Weather_116": {
+      "qid": 116,
+      "topic": "Weather",
+      "pos": 4,
+      "total_in_topic": 164,
+      "text": "An occlusion occurs when",
+      "options": [
+        "a warm front overtakes a cold front at altitude.",
+        "a cold front overtakes a warm front at ground level.",
+        "a cold front overtakes a warm front at altitude.",
+        "a warm front overtakes a cold front at ground level."
+      ],
+      "correct": 1
+    },
+    "Weather_123": {
+      "qid": 123,
+      "topic": "Weather",
+      "pos": 5,
+      "total_in_topic": 164,
+      "text": "Hot and humid air lies over Switzerland. The forecast predicts the arrival of a cold polar air mass from the northwest during the day. What type of weather can one expect for this day?",
+      "options": [
+        "Continuous cooling of the warm humid air and gradual onset of precipitation.",
+        "Frontal thunderstorms bringing hail and strong gusty winds.",
+        "Very favourable conditions for thermal and distance flying due to the cold air being rapidly heated closed to the ground.",
+        "The arriving cold air will stabilise the atmosphere, making thermal flights impossible for quite a while."
+      ],
+      "correct": 1
+    },
+    "Weather_93": {
+      "qid": 93,
+      "topic": "Weather",
+      "pos": 8,
+      "total_in_topic": 164,
+      "text": "Which of the following statements is correct?",
+      "options": [
+        "The valley wind blows at 50m above ground with the same strength as at 800m above ground.",
+        "The valley wind is weak close to the ground and increases continuously with increasing altitude.",
+        "The valley wind is strongest about 500m above ground and reduces above and below this level.",
+        "The valley wind increases with decreasing altitude."
+      ],
+      "correct": 3
+    },
+    "Weather_141": {
+      "qid": 141,
+      "topic": "Weather",
+      "pos": 10,
+      "total_in_topic": 164,
+      "text": "This symbol on a weather map defines",
+      "options": [
+        "a warm front.",
+        "an occlusion.",
+        "a cold front.",
+        "an isobar."
+      ],
+      "correct": 2
+    },
+    "Weather_18": {
+      "qid": 18,
+      "topic": "Weather",
+      "pos": 11,
+      "total_in_topic": 164,
+      "text": "How do the volume and temperature of a sinking air mass change?",
+      "options": [
+        "Its volume decreases, its temperature decreases.",
+        "Its volume increases, its temperature increases.",
+        "Its volume decreases, its temperature increases.",
+        "Its volume increases, its temperature decreases."
       ],
       "correct": 2
     }
