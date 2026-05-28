@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-05-28T15:25:12.929Z",
+  "fetchedAt": "2026-05-28T15:25:44.612Z",
   "questions": {
     "1": {
       "qid": 1,
@@ -6639,6 +6639,132 @@
         "the glider speed will slowly and continuously increase."
       ],
       "correct": 0
+    },
+    "Practical Flying_129": {
+      "qid": 129,
+      "topic": "Practical Flying",
+      "pos": 53,
+      "total_in_topic": 169,
+      "text": "At the landing field there is a 25km/h wind. As soon as the pilot's feet touch the ground he should",
+      "options": [
+        "pull the brakes as far down as possible to immediately stop the glider flying.",
+        "turn 180º toward the glider and pull on the B or C-lines to immediately stop the glider flying.",
+        "pull the A-risers down as far as possible so that glider front collapses and stops flying immediately.",
+        "pull one brake fully so the glider comes down on its leading edge and ceases to produce lift."
+      ],
+      "correct": 1
+    },
+    "Practical Flying_77": {
+      "qid": 77,
+      "topic": "Practical Flying",
+      "pos": 54,
+      "total_in_topic": 169,
+      "text": "A pilot finds himself in an inflated or parachutal stall 500m above ground. What should he do?",
+      "options": [
+        "Pull one brake line abruptly fully down and immediately release again.",
+        "Pull both brakes abruptly fully down and immediately release again.",
+        "Push out on the A-risers or apply the accelerator until the glider flies normally again.",
+        "A certified glider will recover from a parachutal stall by itself. The pilot should therefore wait with brakes lightly applied until the glider recovers."
+      ],
+      "correct": 2
+    },
+    "Practical Flying_108": {
+      "qid": 108,
+      "topic": "Practical Flying",
+      "pos": 55,
+      "total_in_topic": 169,
+      "text": "Which part of the approach is #3?",
+      "options": [
+        "Zone for losing altitude.",
+        "Downwind leg.",
+        "Base leg.",
+        "Final approach."
+      ],
+      "correct": 2
+    },
+    "Practical Flying_41": {
+      "qid": 41,
+      "topic": "Practical Flying",
+      "pos": 56,
+      "total_in_topic": 169,
+      "text": "Directly after taking off the pilot realizes he must brake hard on the right side in order to fly straight ahead. What could be the cause?",
+      "options": [
+        "Strong side wind from the left.",
+        "He has a knot in the left suspension lines.",
+        "He has a knot in the right suspension lines.",
+        "Light side wind from the right."
+      ],
+      "correct": 1
+    },
+    "Practical Flying_40": {
+      "qid": 40,
+      "topic": "Practical Flying",
+      "pos": 57,
+      "total_in_topic": 169,
+      "text": "Why should the brakes never be released immediately after taking off?",
+      "options": [
+        "Because shortly after launch the danger exists that the static pressure in the glider drops and the glider collapses.",
+        "Because due to the turbulence that is often present close to the ground the pilot needs the brakes to pull himself back into an upright position should he touch the ground again.",
+        "Because the glider needs to be strongly braked directly after launch in order to increase glider performance enough to take off.",
+        "In the event of a collapse close to ground caused by turbulence a pilot has no time for correction if he first has to search for brakes."
+      ],
+      "correct": 3
+    },
+    "Practical Flying_59": {
+      "qid": 59,
+      "topic": "Practical Flying",
+      "pos": 58,
+      "total_in_topic": 169,
+      "text": "The angle of correction for wind drift (crab angle)",
+      "options": [
+        "is not influenced by the glider speed.",
+        "will become smaller when speed is increased.",
+        "will become larger when speed is increased.",
+        "is always half the angle between wind direction and trajectory."
+      ],
+      "correct": 1
+    },
+    "Practical Flying_113": {
+      "qid": 113,
+      "topic": "Practical Flying",
+      "pos": 59,
+      "total_in_topic": 169,
+      "text": "Each diagram shows a standard landing approach in zero wind (dotted line) and a practical approach in accordance with conditions (solid line). Which approach should a pilot take with zero wind when he realises on turning from downwind to base that he is too low? 1",
+      "options": [
+        "4",
+        "1",
+        "2",
+        "3"
+      ],
+      "correct": 2
+    },
+    "Practical Flying_167": {
+      "qid": 167,
+      "topic": "Practical Flying",
+      "pos": 60,
+      "total_in_topic": 169,
+      "text": "An approx. 6 x 6 metre red cloth with a diagonal yellow cross placed on the landing means",
+      "options": [
+        "A practical exam for flight instructor candidates is taking place. The cross is laid out because a very precise landing is required.",
+        "This marker signals the hunt for red and white deer. Within 5km of this marker one can expect shooting noise. There is no immediate danger for paragliding pilots. The signal is purely for information.",
+        "This marker is information for approaching helicopters and denotes a helipad, (outlanding site).",
+        "This marker signals a ban on landings for aircraft, regardless of whether they are fixed wing, helicopters, paragliders or hang gliders. Respect the landing ban and use an alternative landing site. If a rescue helicopter is approaching the landing ban marker should be removed temporarily so that it doesn’t get blown away by the heli’s downwash."
+      ],
+      "correct": 3
+    },
+    "Practical Flying_8": {
+      "qid": 8,
+      "topic": "Practical Flying",
+      "pos": 61,
+      "total_in_topic": 169,
+      "text": "What happens to the human body when the core temperature is reduced below its normal range?",
+      "options": [
+        "The physical performance increases and oxygen needs decrease.",
+        "The physical performance decreases and oxygen needs increase.",
+        "The physical performance and oxygen needs increase.",
+        "The physical performance and oxygen needs decrease."
+      ],
+      "correct": 1
     }
   },
   "topics": {
