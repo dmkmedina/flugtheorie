@@ -217,7 +217,7 @@
           "duration_seconds": 2203.0293125,
           "duration_label": "36:43",
           "has_de_vtt": true,
-          "has_en_vtt": false
+          "has_en_vtt": true
         },
         {
           "id": "aa_stallpunkt",
@@ -397,7 +397,7 @@
       "airactive": 15
     },
     "with_de_vtt": 9,
-    "with_en_vtt": 7,
+    "with_en_vtt": 8,
     "total_duration_seconds": 25753.742964000012
   }
 }
