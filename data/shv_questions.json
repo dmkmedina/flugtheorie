@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-05-28T16:04:34.385Z",
+  "fetchedAt": "2026-05-28T16:05:08.938Z",
   "questions": {
     "Aerodynamics_1": {
       "qid": 1,
@@ -2442,7 +2442,7 @@
     "Weather_17": {
       "qid": 17,
       "topic": "Weather",
-      "pos": 13,
+      "pos": 48,
       "total_in_topic": 164,
       "text": "Why does the temperature of a rising bubble of air change?",
       "options": [
@@ -2451,7 +2451,7 @@
         "Because rising air needs to evaporate water, there is a relationship between the increase in altitude and reduction in temperature.",
         "Because the pressure reduces with increasing altitude, resulting in the air bubble expanding and losing energy in the form of heat."
       ],
-      "correct": 3
+      "correct": null
     },
     "Weather_140": {
       "qid": 140,
@@ -8072,16 +8072,16 @@
     "Weather_1": {
       "qid": 1,
       "topic": "Weather",
-      "pos": 13,
+      "pos": 36,
       "total_in_topic": 164,
       "text": "Air is a mixture of different gases. The most important gases are",
       "options": [
-        "approx. 78% oxygen and approx. 21% nitrogen.",
         "approx. 78% nitrogen and approx. 21% oxygen.",
+        "approx. 78% carbon dioxide and approx. 21% oxygen.",
         "approx. 78% oxygen and approx. 21% carbon dioxide.",
-        "approx. 78% carbon dioxide and approx. 21% oxygen."
+        "approx. 78% oxygen and approx. 21% nitrogen."
       ],
-      "correct": 1
+      "correct": null
     },
     "Weather_132": {
       "qid": 132,
@@ -8474,6 +8474,90 @@
         "135°"
       ],
       "correct": 2
+    },
+    "Weather_82": {
+      "qid": 82,
+      "topic": "Weather",
+      "pos": 34,
+      "total_in_topic": 164,
+      "text": "When comparing surface wind to wind at 300m AGL in flat terrain, the surface wind is generally",
+      "options": [
+        "stronger and more turbulent.",
+        "stronger and less turbulent.",
+        "weaker and less turbulent.",
+        "weaker and more turbulent."
+      ],
+      "correct": 3
+    },
+    "Weather_72": {
+      "qid": 72,
+      "topic": "Weather",
+      "pos": 37,
+      "total_in_topic": 164,
+      "text": "Surface winds blow over flatlands",
+      "options": [
+        "roughly parallel to the isobars from the centre of a low to the centre of a high-pressure system.",
+        "roughly parallel to the isobars from the centre of a high to the centre of a low-pressure system.",
+        "in a direct path from a from the centre of a low to the centre of a high-pressure system.",
+        "in a direct path from the centre of a high to the centre of a low-pressure system."
+      ],
+      "correct": 1
+    },
+    "Weather_79": {
+      "qid": 79,
+      "topic": "Weather",
+      "pos": 38,
+      "total_in_topic": 164,
+      "text": "A wind from 270° / 10kt is",
+      "options": [
+        "an west wind with a velocity of approx. 18 km/h.",
+        "an east wind with a velocity of approx. 10 km/h.",
+        "an west wind with a velocity of approx. 10 km/h.",
+        "an east wind with a velocity of approx. 18 km/h."
+      ],
+      "correct": 0
+    },
+    "Weather_74": {
+      "qid": 74,
+      "topic": "Weather",
+      "pos": 41,
+      "total_in_topic": 164,
+      "text": "When the distance between isobars is large",
+      "options": [
+        "there is a flat pressure gradient and likelihood of light winds.",
+        "there is a steep pressure gradient and likelihood of strong winds.",
+        "there is a flat pressure gradient and likelihood of strong winds.",
+        "there is a steep pressure gradient and likelihood of light winds"
+      ],
+      "correct": 0
+    },
+    "Weather_5": {
+      "qid": 5,
+      "topic": "Weather",
+      "pos": 43,
+      "total_in_topic": 164,
+      "text": "Air pressure is a result of",
+      "options": [
+        "gravity",
+        "the magnetic poles.",
+        "floating water and dust particles in the air.",
+        "the earth's rotation."
+      ],
+      "correct": 0
+    },
+    "Weather_103": {
+      "qid": 103,
+      "topic": "Weather",
+      "pos": 49,
+      "total_in_topic": 164,
+      "text": "At which time of the day in alpine valleys with pronounced valley wind systems in good weather in July, should one expect more thermal and less mechanical and shear turbulence?",
+      "options": [
+        "About 9:00",
+        "About 11:00",
+        "About 18:00",
+        "About 15:00"
+      ],
+      "correct": 1
     }
   },
   "topics": {
