@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-05-28T15:15:20.737Z",
+  "fetchedAt": "2026-05-28T15:15:52.634Z",
   "questions": {
     "1": {
       "qid": 1,
@@ -5127,6 +5127,132 @@
         "the execution of extreme flying manoeuvres with the resulting collapses."
       ],
       "correct": 0
+    },
+    "Materials_33": {
+      "qid": 33,
+      "topic": "Materials",
+      "pos": 43,
+      "total_in_topic": 125,
+      "text": "What materials are used in the manufacture of suspension lines?",
+      "options": [
+        "Polyethylene (Dyneema) or Aramid (Kevlar).",
+        "Aramid (Kevlar) or Polyester.",
+        "Polyester or Polyamid (Nylon).",
+        "Polyester or Polyethylene (Dyneema)."
+      ],
+      "correct": 0
+    },
+    "Materials_99": {
+      "qid": 99,
+      "topic": "Materials",
+      "pos": 45,
+      "total_in_topic": 125,
+      "text": "The intervals at which you pack your reserve influence",
+      "options": [
+        "its opening speed.",
+        "the strength of individual parts of the chute.",
+        "the soiling of the chute.",
+        "the porosity of the cloth."
+      ],
+      "correct": 0
+    },
+    "Materials_34": {
+      "qid": 34,
+      "topic": "Materials",
+      "pos": 46,
+      "total_in_topic": 125,
+      "text": "In the construction of modern gliders suspension lines usually consist of a core and a covering (mantle),",
+      "options": [
+        "in order to protect the core from the effects of light and friction.",
+        "so that they can be coloured differently and therefore be more easily differentiated.",
+        "so that in the event of a break in the core the mantle can carry the load for a short period.",
+        "so that the load capacity of the line is increased by the covering."
+      ],
+      "correct": 0
+    },
+    "Materials_76": {
+      "qid": 76,
+      "topic": "Materials",
+      "pos": 47,
+      "total_in_topic": 125,
+      "text": "Whilst flying with a little brake the D lines are not under tension but form an arc, what can we conclude?",
+      "options": [
+        "The brakes take the load of the D lines which is normal when flying with light braking.",
+        "The D-lines have gradually stretched under load. The glider should be sent to the manufacturer for a check.",
+        "The brake/steering lines have been set too short and should therefore be lengthened.",
+        "The glider was delivered with the D-lines too long. They must be replaced."
+      ],
+      "correct": 0
+    },
+    "Materials_28": {
+      "qid": 28,
+      "topic": "Materials",
+      "pos": 48,
+      "total_in_topic": 125,
+      "text": "If the stitching on a wing is too close together",
+      "options": [
+        "the stitching conforms better to the shape of the cloth/wing.",
+        "the material is perforated and loses strength.",
+        "the porosity is minimised.",
+        "the tear resistance is increased."
+      ],
+      "correct": 1
+    },
+    "Materials_22": {
+      "qid": 22,
+      "topic": "Materials",
+      "pos": 49,
+      "total_in_topic": 125,
+      "text": "In which situation do the cell walls suffer the most loading?",
+      "options": [
+        "In strong thermals.",
+        "In a B - stall.",
+        "In \"big ears\".",
+        "In a spiral dive."
+      ],
+      "correct": 1
+    },
+    "Materials_30": {
+      "qid": 30,
+      "topic": "Materials",
+      "pos": 50,
+      "total_in_topic": 125,
+      "text": "Where do the A lines attach to the wing?",
+      "options": [
+        "At the trailing edge.",
+        "On the stabilos.",
+        "At the leading edge.",
+        "On the longitudinal axis."
+      ],
+      "correct": 2
+    },
+    "Materials_39": {
+      "qid": 39,
+      "topic": "Materials",
+      "pos": 51,
+      "total_in_topic": 125,
+      "text": "1mm suspension lines with a tensile strength of 100 daN (10kN) 100Kg differ from 1.5mm lines with the same tensile strength by the fact that they have",
+      "options": [
+        "increased drag and reduced tendency to knot during wing preparation.",
+        "reduced drag and increased tendency to knot during wing preparation.",
+        "reduced drag and reduced tendency to knot during wing preparation.",
+        "increased drag and increased tendency to knot during wing preparation."
+      ],
+      "correct": 1
+    },
+    "Materials_104": {
+      "qid": 104,
+      "topic": "Materials",
+      "pos": 52,
+      "total_in_topic": 125,
+      "text": "Which criteria are the most important when purchasing a reserve chute?",
+      "options": [
+        "Construction of the inner container.",
+        "Sufficient surface area.",
+        "Minimum possible pack volume.",
+        "Minimum possible weight."
+      ],
+      "correct": 1
     }
   },
   "topics": {
