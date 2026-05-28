@@ -1,0 +1,4952 @@
+{
+  "enrichments": {
+    "1": {
+      "qid": 1,
+      "topic": "Aerodynamics",
+      "explanation": "Forces F1 and F2 point in the same direction, so they are a special case of vector addition: you can simply add their magnitudes (count the squares). Two parallel forces in the same direction yield a vector of the same direction but with a length equal to their sum.",
+      "guide_chapter": {
+        "id": "p1-vectors",
+        "title": "Vectors"
+      },
+      "workbook_chapter": {
+        "id": "aero-01-vectors",
+        "title": "Vectors and forces"
+      },
+      "diagrams": [
+        {
+          "id": "p1-vectors-special-cases",
+          "title": "Vector addition: parallel and opposite special cases"
+        },
+        {
+          "id": "p1-vectors-add",
+          "title": "Vector addition: the parallelogram rule"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "aerodynamik_0",
+          "t_start": 590.92,
+          "t_end": 610.61,
+          "snippet": "Stefan: when forces act in the same direction, you can just add them up (F1+F2 = 6 squares = R3)."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "aerodynamik",
+          "page": 9
+        }
+      ]
+    },
+    "2": {
+      "qid": 2,
+      "topic": "Aerodynamics",
+      "explanation": "F1 and F3 are parallel but point in opposite directions, so this is the special case where you subtract their magnitudes. The smaller force weakens the larger one, and the resultant points in the direction of the stronger force with a length equal to the difference between them.",
+      "guide_chapter": {
+        "id": "p1-vectors",
+        "title": "Vectors"
+      },
+      "workbook_chapter": {
+        "id": "aero-01-vectors",
+        "title": "Vectors and forces"
+      },
+      "diagrams": [
+        {
+          "id": "p1-vectors-special-cases",
+          "title": "Vector addition: parallel and opposite special cases"
+        },
+        {
+          "id": "p1-vectors-add",
+          "title": "Vector addition: the parallelogram rule"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "aerodynamik_0",
+          "t_start": 610.61,
+          "t_end": 640.46,
+          "snippet": "Stefan: when two forces act in opposite directions, the smaller one weakens the bigger one - the result is R4."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "aerodynamik",
+          "page": 10
+        }
+      ]
+    },
+    "3": {
+      "qid": 3,
+      "topic": "Aerodynamics",
+      "explanation": "F1 and F4 point in different (non-parallel) directions, so apply the parallelogram rule: translate F4's origin to the tip of F1, then draw the diagonal from the original origin to the new tip of F4. That diagonal is the resultant - in this case R2. Always preserve both magnitude and direction when adding vectors graphically.",
+      "guide_chapter": {
+        "id": "p1-vectors",
+        "title": "Vectors"
+      },
+      "workbook_chapter": {
+        "id": "aero-01-vectors",
+        "title": "Vectors and forces"
+      },
+      "diagrams": [
+        {
+          "id": "p1-vectors-add",
+          "title": "Vector addition: the parallelogram rule"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "aerodynamik_0",
+          "t_start": 525.04,
+          "t_end": 590.92,
+          "snippet": "Stefan walks through the classic exam example: chain F1 and F4 tip-to-tail and the diagonal gives R2."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "aerodynamik",
+          "page": 8
+        }
+      ]
+    },
+    "4": {
+      "qid": 4,
+      "topic": "Aerodynamics",
+      "explanation": "F1 and F5 are not parallel, so use tip-to-tail chaining: place F5's origin at the tip of F1 and the diagonal from F1's start point to F5's end point is the resultant. The graphical construction gives R1 - vector addition cannot be done by simply summing lengths because direction matters.",
+      "guide_chapter": {
+        "id": "p1-vectors",
+        "title": "Vectors"
+      },
+      "workbook_chapter": {
+        "id": "aero-01-vectors",
+        "title": "Vectors and forces"
+      },
+      "diagrams": [
+        {
+          "id": "p1-vectors-add",
+          "title": "Vector addition: the parallelogram rule"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "aerodynamik_0",
+          "t_start": 525.04,
+          "t_end": 590.92,
+          "snippet": "Stefan: chain the two force vectors tip-to-tail, the diagonal is the resultant."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "aerodynamik",
+          "page": 8
+        }
+      ]
+    },
+    "5": {
+      "qid": 5,
+      "topic": "Aerodynamics",
+      "explanation": "F4 and F5 act on the same point, but apply the same tip-to-tail rule: translate one vector's origin to the tip of the other and draw the diagonal. The resultant in this geometric construction is R4. Remember vector addition is never just adding lengths - you must preserve direction.",
+      "guide_chapter": {
+        "id": "p1-vectors",
+        "title": "Vectors"
+      },
+      "workbook_chapter": {
+        "id": "aero-01-vectors",
+        "title": "Vectors and forces"
+      },
+      "diagrams": [
+        {
+          "id": "p1-vectors-add",
+          "title": "Vector addition: the parallelogram rule"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "aerodynamik_0",
+          "t_start": 525.04,
+          "t_end": 590.92,
+          "snippet": "Stefan: chain the two force vectors tip-to-tail and read off the diagonal."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "aerodynamik",
+          "page": 8
+        }
+      ]
+    },
+    "6": {
+      "qid": 6,
+      "topic": "Aerodynamics",
+      "explanation": "Drag depends on exactly four factors: exposed surface, airflow speed, air density and shape (Cd). Weight, mass and material properties do NOT influence drag - a heavy lead ball and a light wooden ball of the same size in the same airflow experience identical drag. Size (frontal area) is one of the dominant influences.",
+      "guide_chapter": {
+        "id": "p1-drag",
+        "title": "Drag"
+      },
+      "workbook_chapter": {
+        "id": "aero-02-drag",
+        "title": "Drag and the four factors"
+      },
+      "diagrams": [
+        {
+          "id": "p1-drag-scaling",
+          "title": "Drag scaling: linear vs quadratic"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "aerodynamik_0",
+          "t_start": 824.59,
+          "t_end": 916.88,
+          "snippet": "Stefan introduces the drag formula: shape coefficient, air density, velocity squared, and surface area - those are the only factors."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "aerodynamik",
+          "page": 13
+        },
+        {
+          "deck_id": "aerodynamik",
+          "page": 15
+        }
+      ]
+    },
+    "7": {
+      "qid": 7,
+      "topic": "Aerodynamics",
+      "explanation": "The relationship between drag and exposed frontal area is strictly linear. Doubling the area exposed to the airflow doubles the drag force. This makes intuitive sense: twice as many air molecules collide with the object per second, so the retarding force is twice as large.",
+      "guide_chapter": {
+        "id": "p1-drag",
+        "title": "Drag"
+      },
+      "workbook_chapter": {
+        "id": "aero-02-drag",
+        "title": "Drag and the four factors"
+      },
+      "diagrams": [
+        {
+          "id": "p1-drag-scaling",
+          "title": "Drag scaling: linear vs quadratic"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "aerodynamik_0",
+          "t_start": 954.89,
+          "t_end": 972.42,
+          "snippet": "Stefan: surface area is linear - double the area, double the drag; halve it, halve the drag."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "aerodynamik",
+          "page": 15
+        }
+      ]
+    },
+    "8": {
+      "qid": 8,
+      "topic": "Aerodynamics",
+      "explanation": "Drag scales linearly with exposed frontal area, so quadrupling the area multiplies the drag by exactly 4 (not 16 - that quadratic scaling only applies to speed). The trap in these questions is mixing up the linear factors (area, density) with the quadratic one (speed).",
+      "guide_chapter": {
+        "id": "p1-drag",
+        "title": "Drag"
+      },
+      "workbook_chapter": {
+        "id": "aero-02-drag",
+        "title": "Drag and the four factors"
+      },
+      "diagrams": [
+        {
+          "id": "p1-drag-scaling",
+          "title": "Drag scaling: linear vs quadratic"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "aerodynamik_0",
+          "t_start": 954.89,
+          "t_end": 972.42,
+          "snippet": "Stefan: area scales linearly - exam questions test whether you confuse linear (area, density) with quadratic (speed)."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "aerodynamik",
+          "page": 15
+        }
+      ]
+    },
+    "9": {
+      "qid": 9,
+      "topic": "Aerodynamics",
+      "explanation": "Halving the exposed frontal area halves the drag - a straight linear relationship. Each square metre of frontal area contributes its own share of drag, so removing half of the area removes half of the drag. This is one of the easier scaling questions; the tricky ones involve speed (which scales as the square).",
+      "guide_chapter": {
+        "id": "p1-drag",
+        "title": "Drag"
+      },
+      "workbook_chapter": {
+        "id": "aero-02-drag",
+        "title": "Drag and the four factors"
+      },
+      "diagrams": [
+        {
+          "id": "p1-drag-scaling",
+          "title": "Drag scaling: linear vs quadratic"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "aerodynamik_0",
+          "t_start": 954.89,
+          "t_end": 972.42,
+          "snippet": "Stefan: area is linear - halve the area and the drag halves too."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "aerodynamik",
+          "page": 15
+        }
+      ]
+    },
+    "10": {
+      "qid": 10,
+      "topic": "Aerodynamics",
+      "explanation": "Only the change in frontal area matters here - speed (30 km/h) and conditions (sea level) stay the same, so they are red herrings included to test whether you can ignore irrelevant data. Doubling the area from 2 to 4 m squared doubles the drag linearly, so 300 N becomes 600 N.",
+      "guide_chapter": {
+        "id": "p1-drag",
+        "title": "Drag"
+      },
+      "workbook_chapter": {
+        "id": "aero-02-drag",
+        "title": "Drag and the four factors"
+      },
+      "diagrams": [
+        {
+          "id": "p1-drag-scaling",
+          "title": "Drag scaling: linear vs quadratic"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "aerodynamik_0",
+          "t_start": 938.73,
+          "t_end": 972.42,
+          "snippet": "Stefan: when only the area changes it's linear - double the area, double the drag."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "aerodynamik",
+          "page": 15
+        },
+        {
+          "deck_id": "aerodynamik",
+          "page": 16
+        }
+      ]
+    },
+    "11": {
+      "qid": 11,
+      "topic": "Aerodynamics",
+      "explanation": "The wind speed and altitude information is irrelevant - only the area change matters. Halving the exposed area from 2 to 1 m squared cuts the drag in half, from 300 N to 150 N. Drag scales linearly with exposed surface area.",
+      "guide_chapter": {
+        "id": "p1-drag",
+        "title": "Drag"
+      },
+      "workbook_chapter": {
+        "id": "aero-02-drag",
+        "title": "Drag and the four factors"
+      },
+      "diagrams": [
+        {
+          "id": "p1-drag-scaling",
+          "title": "Drag scaling: linear vs quadratic"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "aerodynamik_0",
+          "t_start": 954.89,
+          "t_end": 972.42,
+          "snippet": "Stefan: area scales linearly - halve the area and drag halves to match."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "aerodynamik",
+          "page": 15
+        }
+      ]
+    },
+    "12": {
+      "qid": 12,
+      "topic": "Aerodynamics",
+      "explanation": "Reducing the area by a factor of 4 (from 8 to 2 m squared) reduces drag by the same factor of 4: 1200 N / 4 = 300 N. Drag is linear in exposed surface area - the same proportional change applies to both.",
+      "guide_chapter": {
+        "id": "p1-drag",
+        "title": "Drag"
+      },
+      "workbook_chapter": {
+        "id": "aero-02-drag",
+        "title": "Drag and the four factors"
+      },
+      "diagrams": [
+        {
+          "id": "p1-drag-scaling",
+          "title": "Drag scaling: linear vs quadratic"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "aerodynamik_0",
+          "t_start": 954.89,
+          "t_end": 972.42,
+          "snippet": "Stefan: linear scaling - divide the area by 4 and drag drops by the same factor."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "aerodynamik",
+          "page": 15
+        }
+      ]
+    },
+    "13": {
+      "qid": 13,
+      "topic": "Aerodynamics",
+      "explanation": "Going from 0.5 m squared to 3 m squared is a 6-fold increase in exposed area. Because drag is linear in area, the drag also increases 6 times: 150 N x 6 = 900 N. Speed and conditions are unchanged so they drop out of the calculation.",
+      "guide_chapter": {
+        "id": "p1-drag",
+        "title": "Drag"
+      },
+      "workbook_chapter": {
+        "id": "aero-02-drag",
+        "title": "Drag and the four factors"
+      },
+      "diagrams": [
+        {
+          "id": "p1-drag-scaling",
+          "title": "Drag scaling: linear vs quadratic"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "aerodynamik_0",
+          "t_start": 954.89,
+          "t_end": 972.42,
+          "snippet": "Stefan: area is linear - 6x the area means 6x the drag, the rest of the numbers are distractors."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "aerodynamik",
+          "page": 15
+        }
+      ]
+    },
+    "14": {
+      "qid": 14,
+      "topic": "Aerodynamics",
+      "explanation": "Of the four drag factors (surface area, airflow speed, air density, shape), the speed of the airflow is the only one listed among the options. Relative humidity, material properties and weight have no effect on drag. Crucially, speed enters the drag equation as v squared, so it dominates: doubling speed quadruples drag.",
+      "guide_chapter": {
+        "id": "p1-drag",
+        "title": "Drag"
+      },
+      "workbook_chapter": {
+        "id": "aero-02-drag",
+        "title": "Drag and the four factors"
+      },
+      "diagrams": [
+        {
+          "id": "p1-drag-scaling",
+          "title": "Drag scaling: linear vs quadratic"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "aerodynamik_0",
+          "t_start": 824.59,
+          "t_end": 909.9,
+          "snippet": "Stefan: drag formula has shape, density, velocity squared and area - nothing else."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "aerodynamik",
+          "page": 15
+        }
+      ]
+    },
+    "15": {
+      "qid": 15,
+      "topic": "Aerodynamics",
+      "explanation": "Speed enters the drag equation squared, so doubling the airflow speed multiplies the drag by 2 squared = 4. This is one of the most-tested concepts on the SHV exam - the big red exclamation mark, as the instructor puts it. Linear scaling (area, density) versus quadratic scaling (speed) is what catches most candidates out.",
+      "guide_chapter": {
+        "id": "p1-drag",
+        "title": "Drag"
+      },
+      "workbook_chapter": {
+        "id": "aero-02-drag",
+        "title": "Drag and the four factors"
+      },
+      "diagrams": [
+        {
+          "id": "p1-drag-scaling",
+          "title": "Drag scaling: linear vs quadratic"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "aerodynamik_0",
+          "t_start": 972.42,
+          "t_end": 1006.52,
+          "snippet": "Stefan: big red flag - velocity is squared. Double speed = 4x drag. Triple speed = 9x drag."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "aerodynamik",
+          "page": 15
+        }
+      ]
+    },
+    "16": {
+      "qid": 16,
+      "topic": "Aerodynamics",
+      "explanation": "Drag scales with the square of speed: tripling the airflow speed multiplies drag by 3 squared = 9. So a 30 km/h wind generating some drag F becomes 9F at 90 km/h. The exam trap is offering '12' (which would be 3 times 4) or '6' (which would be 3 times 2); only the squared scaling gives the right answer.",
+      "guide_chapter": {
+        "id": "p1-drag",
+        "title": "Drag"
+      },
+      "workbook_chapter": {
+        "id": "aero-02-drag",
+        "title": "Drag and the four factors"
+      },
+      "diagrams": [
+        {
+          "id": "p1-drag-scaling",
+          "title": "Drag scaling: linear vs quadratic"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "aerodynamik_0",
+          "t_start": 972.42,
+          "t_end": 1035.11,
+          "snippet": "Stefan: 30 km/h to 90 km/h tripled the wind, so drag goes from 100 N not to 300 N but to 900 N."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "aerodynamik",
+          "page": 15
+        }
+      ]
+    },
+    "17": {
+      "qid": 17,
+      "topic": "Aerodynamics",
+      "explanation": "Drag is proportional to v squared, so quadrupling the speed multiplies drag by 4 squared = 16. The most common wrong answer is 8 (mistakenly thinking 4 x 2) or 4 (forgetting the square altogether). Always square the speed factor when calculating drag changes.",
+      "guide_chapter": {
+        "id": "p1-drag",
+        "title": "Drag"
+      },
+      "workbook_chapter": {
+        "id": "aero-02-drag",
+        "title": "Drag and the four factors"
+      },
+      "diagrams": [
+        {
+          "id": "p1-drag-scaling",
+          "title": "Drag scaling: linear vs quadratic"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "aerodynamik_0",
+          "t_start": 972.42,
+          "t_end": 1006.52,
+          "snippet": "Stefan emphasises: velocity always scales as the square - 4x speed means 16x drag."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "aerodynamik",
+          "page": 15
+        }
+      ]
+    },
+    "18": {
+      "qid": 18,
+      "topic": "Aerodynamics",
+      "explanation": "The same squared relationship works downward: halving the speed multiplies drag by (1/2) squared = 1/4. So drag drops to one quarter when wind speed is cut in half. The v-squared rule applies in both directions.",
+      "guide_chapter": {
+        "id": "p1-drag",
+        "title": "Drag"
+      },
+      "workbook_chapter": {
+        "id": "aero-02-drag",
+        "title": "Drag and the four factors"
+      },
+      "diagrams": [
+        {
+          "id": "p1-drag-scaling",
+          "title": "Drag scaling: linear vs quadratic"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "aerodynamik_0",
+          "t_start": 972.42,
+          "t_end": 1006.52,
+          "snippet": "Stefan: the v squared rule works both ways - halve the speed and drag drops to one quarter."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "aerodynamik",
+          "page": 15
+        }
+      ]
+    },
+    "19": {
+      "qid": 19,
+      "topic": "Aerodynamics",
+      "explanation": "Wind speed doubles from 30 to 60 km/h, and drag scales as v squared, so drag is multiplied by 4: 300 N becomes 1200 N. The area and altitude information is unchanged in this question - only speed changes, and speed dominates because it is squared.",
+      "guide_chapter": {
+        "id": "p1-drag",
+        "title": "Drag"
+      },
+      "workbook_chapter": {
+        "id": "aero-02-drag",
+        "title": "Drag and the four factors"
+      },
+      "diagrams": [
+        {
+          "id": "p1-drag-scaling",
+          "title": "Drag scaling: linear vs quadratic"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "aerodynamik_0",
+          "t_start": 972.42,
+          "t_end": 1006.52,
+          "snippet": "Stefan: when only speed changes - and it doubles - drag quadruples (v squared)."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "aerodynamik",
+          "page": 15
+        },
+        {
+          "deck_id": "aerodynamik",
+          "page": 16
+        }
+      ]
+    },
+    "20": {
+      "qid": 20,
+      "topic": "Aerodynamics",
+      "explanation": "Tripling the wind speed from 30 to 90 km/h multiplies drag by 3 squared = 9. So 100 N becomes 900 N. The exact same example is used by the instructor in the SHV video to warn against the temptation to answer '300 N' by accidentally using linear scaling.",
+      "guide_chapter": {
+        "id": "p1-drag",
+        "title": "Drag"
+      },
+      "workbook_chapter": {
+        "id": "aero-02-drag",
+        "title": "Drag and the four factors"
+      },
+      "diagrams": [
+        {
+          "id": "p1-drag-scaling",
+          "title": "Drag scaling: linear vs quadratic"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "aerodynamik_0",
+          "t_start": 1006.52,
+          "t_end": 1035.11,
+          "snippet": "Stefan walks through the exam example: 30 to 90 km/h triples speed, so 100 N becomes 900 N, not 300 N."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "aerodynamik",
+          "page": 15
+        },
+        {
+          "deck_id": "aerodynamik",
+          "page": 16
+        }
+      ]
+    },
+    "21": {
+      "qid": 21,
+      "topic": "Aerodynamics",
+      "explanation": "Halving the wind speed from 80 to 40 km/h means drag is multiplied by (1/2) squared = 1/4: 1200 N / 4 = 300 N. Speed scales quadratically in the drag equation, so cutting speed in half reduces drag by a factor of four.",
+      "guide_chapter": {
+        "id": "p1-drag",
+        "title": "Drag"
+      },
+      "workbook_chapter": {
+        "id": "aero-02-drag",
+        "title": "Drag and the four factors"
+      },
+      "diagrams": [
+        {
+          "id": "p1-drag-scaling",
+          "title": "Drag scaling: linear vs quadratic"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "aerodynamik_0",
+          "t_start": 972.42,
+          "t_end": 1006.52,
+          "snippet": "Stefan: v squared works both ways - half speed gives one-quarter drag."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "aerodynamik",
+          "page": 15
+        }
+      ]
+    },
+    "22": {
+      "qid": 22,
+      "topic": "Aerodynamics",
+      "explanation": "Wind speed triples from 20 to 60 km/h, so drag is multiplied by 3 squared = 9: 100 N becomes 900 N. Surface area is irrelevant because it does not change. The squared relationship makes speed the most aggressive driver of drag.",
+      "guide_chapter": {
+        "id": "p1-drag",
+        "title": "Drag"
+      },
+      "workbook_chapter": {
+        "id": "aero-02-drag",
+        "title": "Drag and the four factors"
+      },
+      "diagrams": [
+        {
+          "id": "p1-drag-scaling",
+          "title": "Drag scaling: linear vs quadratic"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "aerodynamik_0",
+          "t_start": 1006.52,
+          "t_end": 1035.11,
+          "snippet": "Stefan: triple the speed, drag is multiplied by 9. Same calculation as the canonical SHV example."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "aerodynamik",
+          "page": 15
+        },
+        {
+          "deck_id": "aerodynamik",
+          "page": 16
+        }
+      ]
+    },
+    "23": {
+      "qid": 23,
+      "topic": "Aerodynamics",
+      "explanation": "The four factors that influence drag are surface area, airflow speed, air density and shape. Air density is the only one of the listed options. Humidity, dew point and pressure gradient do not enter the drag equation. Density matters because there are more (or fewer) air molecules per cubic metre colliding with the object.",
+      "guide_chapter": {
+        "id": "p1-drag",
+        "title": "Drag"
+      },
+      "workbook_chapter": {
+        "id": "aero-02-drag",
+        "title": "Drag and the four factors"
+      },
+      "diagrams": [
+        {
+          "id": "p1-drag-density-altitude",
+          "title": "Air density falls with altitude"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "aerodynamik_0",
+          "t_start": 880.98,
+          "t_end": 909.9,
+          "snippet": "Stefan: air density is in the drag formula - sea level is denser than 2000 m, and that changes drag."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "aerodynamik",
+          "page": 15
+        },
+        {
+          "deck_id": "aerodynamik",
+          "page": 17
+        }
+      ]
+    },
+    "24": {
+      "qid": 24,
+      "topic": "Aerodynamics",
+      "explanation": "Air density appears linearly in the drag equation, so doubling the density doubles the drag. Twice as many air molecules per cubic metre means twice the collisions per second and twice the retarding force. The same logic applies to halving density.",
+      "guide_chapter": {
+        "id": "p1-drag",
+        "title": "Drag"
+      },
+      "workbook_chapter": {
+        "id": "aero-02-drag",
+        "title": "Drag and the four factors"
+      },
+      "diagrams": [
+        {
+          "id": "p1-drag-density-altitude",
+          "title": "Air density falls with altitude"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "aerodynamik_0",
+          "t_start": 963.89,
+          "t_end": 972.42,
+          "snippet": "Stefan: density is also linear - if density halves the drag halves too."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "aerodynamik",
+          "page": 15
+        },
+        {
+          "deck_id": "aerodynamik",
+          "page": 17
+        }
+      ]
+    },
+    "25": {
+      "qid": 25,
+      "topic": "Aerodynamics",
+      "explanation": "Air density is linear in the drag equation: halving density halves the drag. This is why drag drops as you fly higher - at altitude there are fewer air molecules to resist motion. Note the contrast with speed, which is squared, not linear.",
+      "guide_chapter": {
+        "id": "p1-drag",
+        "title": "Drag"
+      },
+      "workbook_chapter": {
+        "id": "aero-02-drag",
+        "title": "Drag and the four factors"
+      },
+      "diagrams": [
+        {
+          "id": "p1-drag-density-altitude",
+          "title": "Air density falls with altitude"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "aerodynamik_0",
+          "t_start": 963.89,
+          "t_end": 972.42,
+          "snippet": "Stefan: halving the density halves the drag - it's linear like surface area."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "aerodynamik",
+          "page": 15
+        },
+        {
+          "deck_id": "aerodynamik",
+          "page": 17
+        }
+      ]
+    },
+    "26": {
+      "qid": 26,
+      "topic": "Aerodynamics",
+      "explanation": "Air density decreases with altitude, and drag depends linearly on density. So the higher the body, the lower the drag - fewer air molecules to push against. This is why launching from a high mountain requires a longer takeoff run: less drag means less lift at any given speed, so the wing has to move faster through the air.",
+      "guide_chapter": {
+        "id": "p1-drag",
+        "title": "Drag"
+      },
+      "workbook_chapter": {
+        "id": "aero-03-air-density-altitude",
+        "title": "Air density and altitude"
+      },
+      "diagrams": [
+        {
+          "id": "p1-drag-density-altitude",
+          "title": "Air density falls with altitude"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "aerodynamik_0",
+          "t_start": 1050.39,
+          "t_end": 1095.93,
+          "snippet": "Stefan: higher up means less density, fewer air particles - so we need more speed for the same lift."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "aerodynamik",
+          "page": 17
+        }
+      ]
+    },
+    "27": {
+      "qid": 27,
+      "topic": "Aerodynamics",
+      "explanation": "Air density falls exponentially with altitude (halving roughly every 6600 m), not linearly. That means the absolute drop is steepest in the lower atmosphere - the first 1000 m sees a bigger density change than the kilometre from 9000 to 10000 m. So drag also diminishes faster in the lower layers than the upper ones.",
+      "guide_chapter": {
+        "id": "p1-drag",
+        "title": "Drag"
+      },
+      "workbook_chapter": {
+        "id": "aero-03-air-density-altitude",
+        "title": "Air density and altitude"
+      },
+      "diagrams": [
+        {
+          "id": "p1-drag-density-altitude",
+          "title": "Air density falls with altitude"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "aerodynamik_0",
+          "t_start": 1066.55,
+          "t_end": 1087.93,
+          "snippet": "Stefan shows the curve: air pressure and density fall faster at low altitudes than high ones."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "aerodynamik",
+          "page": 17
+        }
+      ]
+    },
+    "28": {
+      "qid": 28,
+      "topic": "Aerodynamics",
+      "explanation": "The SHV memory aid for air density: at 1100 m density is ~90% of sea-level, at 2200 m ~81%, at 3300 m ~72%, at 4400 m ~64%. Each step is roughly the previous value times 0.9. Drag is linear in density, so the body experiences about 64% of its sea-level drag at 4400 m.",
+      "guide_chapter": {
+        "id": "p1-drag",
+        "title": "Drag"
+      },
+      "workbook_chapter": {
+        "id": "aero-03-air-density-altitude",
+        "title": "Air density and altitude"
+      },
+      "diagrams": [
+        {
+          "id": "p1-drag-density-altitude",
+          "title": "Air density falls with altitude"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "aerodynamik_0",
+          "t_start": 1066.55,
+          "t_end": 1087.93,
+          "snippet": "Stefan on the altitude-density curve: density falls as you climb."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "aerodynamik",
+          "page": 17
+        }
+      ]
+    },
+    "29": {
+      "qid": 29,
+      "topic": "Aerodynamics",
+      "explanation": "Using the SHV mnemonic - 1100 m gives 90%, 2200 m gives 81%, 3300 m gives 72%, 4400 m gives 64% - at 3300 m above sea level the air density is about 72% of sea-level density. Drag scales linearly with density, so the drag is also about 72% of the sea-level value.",
+      "guide_chapter": {
+        "id": "p1-drag",
+        "title": "Drag"
+      },
+      "workbook_chapter": {
+        "id": "aero-03-air-density-altitude",
+        "title": "Air density and altitude"
+      },
+      "diagrams": [
+        {
+          "id": "p1-drag-density-altitude",
+          "title": "Air density falls with altitude"
+        }
+      ],
+      "video_clips": [],
+      "slide_pages": [
+        {
+          "deck_id": "aerodynamik",
+          "page": 17
+        }
+      ]
+    },
+    "30": {
+      "qid": 30,
+      "topic": "Aerodynamics",
+      "explanation": "Each 1100 m step multiplies density by ~0.9: at 1100 m it is 0.9 = 90% of sea level, at 2200 m it is 0.9 squared = 0.81 = 81%. Drag depends linearly on air density, so drag at 2200 m is approximately 81% of the sea-level value.",
+      "guide_chapter": {
+        "id": "p1-drag",
+        "title": "Drag"
+      },
+      "workbook_chapter": {
+        "id": "aero-03-air-density-altitude",
+        "title": "Air density and altitude"
+      },
+      "diagrams": [
+        {
+          "id": "p1-drag-density-altitude",
+          "title": "Air density falls with altitude"
+        }
+      ],
+      "video_clips": [],
+      "slide_pages": [
+        {
+          "deck_id": "aerodynamik",
+          "page": 17
+        }
+      ]
+    },
+    "31": {
+      "qid": 31,
+      "topic": "Aerodynamics",
+      "explanation": "The SHV altitude-density ladder: every 1100 m up reduces density by a further 10%. So at 1100 m above sea level the air is about 90% as dense, and drag - which is linear in density - is about 90% of its sea-level value.",
+      "guide_chapter": {
+        "id": "p1-drag",
+        "title": "Drag"
+      },
+      "workbook_chapter": {
+        "id": "aero-03-air-density-altitude",
+        "title": "Air density and altitude"
+      },
+      "diagrams": [
+        {
+          "id": "p1-drag-density-altitude",
+          "title": "Air density falls with altitude"
+        }
+      ],
+      "video_clips": [],
+      "slide_pages": [
+        {
+          "deck_id": "aerodynamik",
+          "page": 17
+        }
+      ]
+    },
+    "32": {
+      "qid": 32,
+      "topic": "Aerodynamics",
+      "explanation": "Among the listed options, only shape influences drag. Weight, mass and material properties have no aerodynamic effect: a feather and a coin of the same frontal area and shape would see the same drag force. The shape factor is captured by the drag coefficient Cd - ranging from ~0.08 for a teardrop to over 1.3 for a hollow hemisphere.",
+      "guide_chapter": {
+        "id": "p1-drag",
+        "title": "Drag"
+      },
+      "workbook_chapter": {
+        "id": "aero-02-drag",
+        "title": "Drag and the four factors"
+      },
+      "diagrams": [
+        {
+          "id": "p1-drag-coefficients",
+          "title": "Drag coefficients of common shapes"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "aerodynamik_0",
+          "t_start": 862.33,
+          "t_end": 880.98,
+          "snippet": "Stefan: the Cd factor is all about shape - wing, car, stone, all behave differently."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "aerodynamik",
+          "page": 18
+        }
+      ]
+    },
+    "33": {
+      "qid": 33,
+      "topic": "Aerodynamics",
+      "explanation": "The drag coefficient is called Cd (or Cw in German, for Widerstand). The lift coefficient is Cl (or Cz). Both depend on shape and angle of attack but are otherwise independent. Cb and Cy are not standard aerodynamic coefficients.",
+      "guide_chapter": {
+        "id": "p1-drag",
+        "title": "Drag"
+      },
+      "workbook_chapter": {
+        "id": "aero-02-drag",
+        "title": "Drag and the four factors"
+      },
+      "diagrams": [
+        {
+          "id": "p1-drag-coefficients",
+          "title": "Drag coefficients of common shapes"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "aerodynamik_0",
+          "t_start": 824.59,
+          "t_end": 862.33,
+          "snippet": "Stefan on the drag formula: W (Widerstand) = Cd times other factors - the coefficient is the shape."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "aerodynamik",
+          "page": 18
+        }
+      ]
+    },
+    "34": {
+      "qid": 34,
+      "topic": "Aerodynamics",
+      "explanation": "Cd is a multiplier on drag, so a body with Cd = 1.3 generates 1.3 / 1.0 = 1.3 times the drag of an object with Cd = 1.0 in identical conditions - that's 30% more drag. The ratio of Cd values is the ratio of drag forces when surface area, density and speed are equal.",
+      "guide_chapter": {
+        "id": "p1-drag",
+        "title": "Drag"
+      },
+      "workbook_chapter": {
+        "id": "aero-02-drag",
+        "title": "Drag and the four factors"
+      },
+      "diagrams": [
+        {
+          "id": "p1-drag-coefficients",
+          "title": "Drag coefficients of common shapes"
+        }
+      ],
+      "video_clips": [],
+      "slide_pages": [
+        {
+          "deck_id": "aerodynamik",
+          "page": 18
+        }
+      ]
+    },
+    "35": {
+      "qid": 35,
+      "topic": "Aerodynamics",
+      "explanation": "A Cd of 0.33 versus 1.0 means the streamlined body has roughly 1/3 the drag of the blunt one (0.33 is approximately 1/3). The Cd is a direct linear multiplier on the drag force, so the ratio of Cd values is the ratio of drag forces under matched conditions.",
+      "guide_chapter": {
+        "id": "p1-drag",
+        "title": "Drag"
+      },
+      "workbook_chapter": {
+        "id": "aero-02-drag",
+        "title": "Drag and the four factors"
+      },
+      "diagrams": [
+        {
+          "id": "p1-drag-coefficients",
+          "title": "Drag coefficients of common shapes"
+        }
+      ],
+      "video_clips": [],
+      "slide_pages": [
+        {
+          "deck_id": "aerodynamik",
+          "page": 18
+        }
+      ]
+    },
+    "36": {
+      "qid": 36,
+      "topic": "Aerodynamics",
+      "explanation": "Cd 0.05 is 1/20 of Cd 1.0, so the streamlined body has approximately 20 times less drag in the same conditions. Cd is a linear multiplier in the drag equation - the ratio of Cd values is exactly the ratio of drag forces.",
+      "guide_chapter": {
+        "id": "p1-drag",
+        "title": "Drag"
+      },
+      "workbook_chapter": {
+        "id": "aero-02-drag",
+        "title": "Drag and the four factors"
+      },
+      "diagrams": [
+        {
+          "id": "p1-drag-coefficients",
+          "title": "Drag coefficients of common shapes"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "aerodynamik_0",
+          "t_start": 1263.54,
+          "t_end": 1283.51,
+          "snippet": "Stefan: a Cd of 0.1 is 10 times smaller than Cd 1 - that comes up as an exam question."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "aerodynamik",
+          "page": 18
+        }
+      ]
+    },
+    "37": {
+      "qid": 37,
+      "topic": "Aerodynamics",
+      "explanation": "The teardrop / streamlined shape has the lowest drag coefficient because it lets the airflow follow the body smoothly with little separation. Of the four shapes (sphere, half-shell open, half-shell closed, teardrop), the teardrop has Cd around 0.08 - the smallest value.",
+      "guide_chapter": {
+        "id": "p1-drag",
+        "title": "Drag"
+      },
+      "workbook_chapter": {
+        "id": "aero-02-drag",
+        "title": "Drag and the four factors"
+      },
+      "diagrams": [
+        {
+          "id": "p1-drag-coefficients",
+          "title": "Drag coefficients of common shapes"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "aerodynamik_0",
+          "t_start": 1283.51,
+          "t_end": 1320.46,
+          "snippet": "Stefan: the teardrop shape mimics nature - a raindrop falls in the shape of least drag, Cd around 0.1."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "aerodynamik",
+          "page": 18
+        }
+      ]
+    },
+    "38": {
+      "qid": 38,
+      "topic": "Aerodynamics",
+      "explanation": "Cd of 0.17 corresponds to a streamlined but not quite optimal shape - between a true teardrop (0.08) and a sphere (around 0.4). The classic SHV diagram uses these four shapes to illustrate how dramatically shape affects drag.",
+      "guide_chapter": {
+        "id": "p1-drag",
+        "title": "Drag"
+      },
+      "workbook_chapter": {
+        "id": "aero-02-drag",
+        "title": "Drag and the four factors"
+      },
+      "diagrams": [
+        {
+          "id": "p1-drag-coefficients",
+          "title": "Drag coefficients of common shapes"
+        }
+      ],
+      "video_clips": [],
+      "slide_pages": [
+        {
+          "deck_id": "aerodynamik",
+          "page": 18
+        }
+      ]
+    },
+    "39": {
+      "qid": 39,
+      "topic": "Aerodynamics",
+      "explanation": "A flat plate facing the airflow head-on has a drag coefficient of about 1.0 - the reference value most other shapes are compared against. The flow can't follow the abrupt edge and separates immediately, producing a wide turbulent wake.",
+      "guide_chapter": {
+        "id": "p1-drag",
+        "title": "Drag"
+      },
+      "workbook_chapter": {
+        "id": "aero-02-drag",
+        "title": "Drag and the four factors"
+      },
+      "diagrams": [
+        {
+          "id": "p1-drag-coefficients",
+          "title": "Drag coefficients of common shapes"
+        }
+      ],
+      "video_clips": [],
+      "slide_pages": [
+        {
+          "deck_id": "aerodynamik",
+          "page": 18
+        }
+      ]
+    },
+    "40": {
+      "qid": 40,
+      "topic": "Aerodynamics",
+      "explanation": "A hollow hemisphere (half-shell, open side into the wind) has the highest drag coefficient of the four - around 1.3. This is exactly why anemometers use cup shapes: the open cup catches more air than the convex back, creating an unbalanced force that turns the rotor.",
+      "guide_chapter": {
+        "id": "p1-drag",
+        "title": "Drag"
+      },
+      "workbook_chapter": {
+        "id": "aero-02-drag",
+        "title": "Drag and the four factors"
+      },
+      "diagrams": [
+        {
+          "id": "p1-drag-coefficients",
+          "title": "Drag coefficients of common shapes"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "aerodynamik_0",
+          "t_start": 1320.46,
+          "t_end": 1362.12,
+          "snippet": "Stefan: anemometers use half-shells because the open cup catches much more drag than the convex back - 13x more."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "aerodynamik",
+          "page": 18
+        }
+      ]
+    },
+    "41": {
+      "qid": 41,
+      "topic": "Aerodynamics",
+      "explanation": "For a streamlined body, residual drag comes from skin friction in the boundary layer, so the surface characteristics (smoothness, roughness, texture) become the dominant factor. Mass and material density don't affect drag at all on any body - they are red herrings.",
+      "guide_chapter": {
+        "id": "p1-drag",
+        "title": "Drag"
+      },
+      "workbook_chapter": {
+        "id": "aero-02-drag",
+        "title": "Drag and the four factors"
+      },
+      "diagrams": [
+        {
+          "id": "p1-drag-coefficients",
+          "title": "Drag coefficients of common shapes"
+        }
+      ],
+      "video_clips": [],
+      "slide_pages": [
+        {
+          "deck_id": "aerodynamik",
+          "page": 18
+        }
+      ]
+    },
+    "42": {
+      "qid": 42,
+      "topic": "Aerodynamics",
+      "explanation": "The chord of a profile is the straight line connecting the leading edge to the trailing edge - the geometric reference line of the airfoil. It is used to define the angle of attack (chord vs relative wind) and to measure profile properties like camber and thickness.",
+      "guide_chapter": {
+        "id": "p1-profile-of-a-wing",
+        "title": "Profile of a wing"
+      },
+      "workbook_chapter": {
+        "id": "aero-04-lift-and-profile",
+        "title": "Lift and the profile of a wing"
+      },
+      "diagrams": [
+        {
+          "id": "p1-wing-profile-geometry",
+          "title": "Geometric points of a wing profile"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "aerodynamik_0",
+          "t_start": 466.78,
+          "t_end": 494.48,
+          "snippet": "Stefan: the chord line is the straight line from leading edge to trailing edge - not the chord length."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "aerodynamik",
+          "page": 7
+        },
+        {
+          "deck_id": "aerodynamik",
+          "page": 29
+        }
+      ]
+    },
+    "43": {
+      "qid": 43,
+      "topic": "Aerodynamics",
+      "explanation": "The thickness of the profile is the perpendicular distance between the upper and lower surfaces of the wing - the 'fatness' of the airfoil. Modern paraglider profiles are relatively thick and asymmetric because slow-flying aircraft need lots of lift at low airspeed.",
+      "guide_chapter": {
+        "id": "p1-profile-of-a-wing",
+        "title": "Profile of a wing"
+      },
+      "workbook_chapter": {
+        "id": "aero-04-lift-and-profile",
+        "title": "Lift and the profile of a wing"
+      },
+      "diagrams": [
+        {
+          "id": "p1-wing-profile-geometry",
+          "title": "Geometric points of a wing profile"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "aerodynamik_0",
+          "t_start": 424.3,
+          "t_end": 466.78,
+          "snippet": "Stefan: profile thickness on a paraglider is relatively thick - slow aircraft need this, fast jets use thin profiles."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "aerodynamik",
+          "page": 7
+        },
+        {
+          "deck_id": "aerodynamik",
+          "page": 29
+        }
+      ]
+    },
+    "44": {
+      "qid": 44,
+      "topic": "Aerodynamics",
+      "explanation": "Profile depth (also called profile length or chord length) is the distance from the leading edge to the trailing edge measured along the chord - essentially the 'length' of the airfoil section. Not to be confused with the chord line itself, which is a geometric reference, or with the mean chord, which is the average across the whole wing.",
+      "guide_chapter": {
+        "id": "p1-profile-of-a-wing",
+        "title": "Profile of a wing"
+      },
+      "workbook_chapter": {
+        "id": "aero-04-lift-and-profile",
+        "title": "Lift and the profile of a wing"
+      },
+      "diagrams": [
+        {
+          "id": "p1-wing-profile-geometry",
+          "title": "Geometric points of a wing profile"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "aerodynamik_0",
+          "t_start": 466.78,
+          "t_end": 494.48,
+          "snippet": "Stefan: chord length is the distance from the front-most to the rear-most point - not to be confused with the chord line."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "aerodynamik",
+          "page": 7
+        },
+        {
+          "deck_id": "aerodynamik",
+          "page": 29
+        }
+      ]
+    },
+    "45": {
+      "qid": 45,
+      "topic": "Aerodynamics",
+      "explanation": "The leading edge is the front-most point of the wing profile - the rounded edge that meets the airflow first. In normal flight the stagnation point sits just behind the leading edge on the underside, which is why paraglider cell openings are placed there.",
+      "guide_chapter": {
+        "id": "p1-profile-of-a-wing",
+        "title": "Profile of a wing"
+      },
+      "workbook_chapter": {
+        "id": "aero-04-lift-and-profile",
+        "title": "Lift and the profile of a wing"
+      },
+      "diagrams": [
+        {
+          "id": "p1-wing-profile-geometry",
+          "title": "Geometric points of a wing profile"
+        }
+      ],
+      "video_clips": [],
+      "slide_pages": [
+        {
+          "deck_id": "aerodynamik",
+          "page": 7
+        },
+        {
+          "deck_id": "aerodynamik",
+          "page": 29
+        }
+      ]
+    },
+    "46": {
+      "qid": 46,
+      "topic": "Aerodynamics",
+      "explanation": "The trailing edge is the rear-most, sharp edge of the wing profile - where the airflows from above and below rejoin and where the brake line pulls down to change the angle of attack. The starting vortex forms at the trailing edge and contributes to lift through the circulation theory.",
+      "guide_chapter": {
+        "id": "p1-profile-of-a-wing",
+        "title": "Profile of a wing"
+      },
+      "workbook_chapter": {
+        "id": "aero-04-lift-and-profile",
+        "title": "Lift and the profile of a wing"
+      },
+      "diagrams": [
+        {
+          "id": "p1-wing-profile-geometry",
+          "title": "Geometric points of a wing profile"
+        }
+      ],
+      "video_clips": [],
+      "slide_pages": [
+        {
+          "deck_id": "aerodynamik",
+          "page": 7
+        },
+        {
+          "deck_id": "aerodynamik",
+          "page": 29
+        }
+      ]
+    },
+    "47": {
+      "qid": 47,
+      "topic": "Aerodynamics",
+      "explanation": "Each aircraft uses a specific profile chosen to match its desired flight characteristics: a slow paraglider uses a thick, asymmetric profile for high lift at low speed; a fighter jet uses a thin, less asymmetric profile optimised for high speed. The profile is one of the most important design decisions of a wing - it strongly affects performance and handling.",
+      "guide_chapter": {
+        "id": "p1-profile-of-a-wing",
+        "title": "Profile of a wing"
+      },
+      "workbook_chapter": {
+        "id": "aero-04-lift-and-profile",
+        "title": "Lift and the profile of a wing"
+      },
+      "diagrams": [
+        {
+          "id": "p1-wing-profile-geometry",
+          "title": "Geometric points of a wing profile"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "aerodynamik_0",
+          "t_start": 424.3,
+          "t_end": 466.78,
+          "snippet": "Stefan: the profile is chosen to suit the aircraft - fat asymmetric for slow paragliders, thin and flat for fast jets."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "aerodynamik",
+          "page": 7
+        }
+      ]
+    },
+    "48": {
+      "qid": 48,
+      "topic": "Aerodynamics",
+      "explanation": "Foot-launched aircraft (paragliders, hang gliders) need to produce significant lift at very low airspeeds, since the pilot can only run so fast. The solution is a relatively thick, asymmetric profile with a strongly curved upper surface - this maximises lift coefficient at low speed. Fast aircraft use thin, less asymmetric profiles instead.",
+      "guide_chapter": {
+        "id": "p1-profile-of-a-wing",
+        "title": "Profile of a wing"
+      },
+      "workbook_chapter": {
+        "id": "aero-04-lift-and-profile",
+        "title": "Lift and the profile of a wing"
+      },
+      "diagrams": [
+        {
+          "id": "p1-wing-profile-geometry",
+          "title": "Geometric points of a wing profile"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "aerodynamik_0",
+          "t_start": 444.94,
+          "t_end": 466.78,
+          "snippet": "Stefan: slow aircraft that need to launch with little speed use thick, asymmetric profiles - paragliders included."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "aerodynamik",
+          "page": 7
+        }
+      ]
+    },
+    "49": {
+      "qid": 49,
+      "topic": "Aerodynamics",
+      "explanation": "Angle of attack is the angle between the chord line (a geometric property of the airfoil) and the relative airflow (the air meeting the wing). Crucially it is NOT measured against the horizon - because a paraglider always sinks slightly, the relative airflow comes slightly from below, not horizontally.",
+      "guide_chapter": {
+        "id": "p1-profile-of-a-wing",
+        "title": "Profile of a wing"
+      },
+      "workbook_chapter": {
+        "id": "aero-05-angle-of-attack",
+        "title": "Angle of attack and the polar of forces"
+      },
+      "diagrams": [
+        {
+          "id": "p1-polar-forces-aoa-cases",
+          "title": "Four characteristic angles of attack"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "aerodynamik_0",
+          "t_start": 765.25,
+          "t_end": 824.59,
+          "snippet": "Stefan: very important - angle of attack is between the chord line and the oncoming air, NOT the horizon."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "aerodynamik",
+          "page": 19
+        }
+      ]
+    },
+    "50": {
+      "qid": 50,
+      "topic": "Aerodynamics",
+      "explanation": "Whether an airfoil produces lift at all is primarily determined by the angle of attack. At zero angle of attack on a symmetric profile there is essentially no lift; at the stall angle (~25 degrees) lift collapses. Weight, drag coefficient and wing area affect the amount of lift, but the angle of attack is the on/off switch.",
+      "guide_chapter": {
+        "id": "p1-profile-of-a-wing",
+        "title": "Profile of a wing"
+      },
+      "workbook_chapter": {
+        "id": "aero-05-angle-of-attack",
+        "title": "Angle of attack and the polar of forces"
+      },
+      "diagrams": [
+        {
+          "id": "p1-polar-forces-aoa-cases",
+          "title": "Four characteristic angles of attack"
+        },
+        {
+          "id": "p1-polar-forces-curve",
+          "title": "Polar curve of forces (Cz vs Cx)"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "aerodynamik_0",
+          "t_start": 1437.46,
+          "t_end": 1493.8,
+          "snippet": "Stefan: Cl and Cd values change with angle of attack - braking increases AoA and Cl, accelerating decreases them."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "aerodynamik",
+          "page": 19
+        },
+        {
+          "deck_id": "aerodynamik",
+          "page": 20
+        },
+        {
+          "deck_id": "aerodynamik",
+          "page": 21
+        }
+      ]
+    },
+    "51": {
+      "qid": 51,
+      "topic": "Aerodynamics",
+      "explanation": "The angle of attack is measured between the chord line and the relative airflow. The profile in the figure showing the chord most steeply pitched up relative to the airflow has the largest positive angle of attack. Look for the profile where the leading edge is highest above the airflow direction.",
+      "guide_chapter": {
+        "id": "p1-polar-forces",
+        "title": "Polar Forces & Angle of Attack"
+      },
+      "workbook_chapter": {
+        "id": "aero-05-angle-of-attack",
+        "title": "Angle of attack and the polar of forces"
+      },
+      "diagrams": [
+        {
+          "id": "p1-polar-forces-aoa-cases",
+          "title": "Four characteristic angles of attack"
+        }
+      ],
+      "video_clips": [],
+      "slide_pages": [
+        {
+          "deck_id": "aerodynamik",
+          "page": 19
+        }
+      ]
+    },
+    "52": {
+      "qid": 52,
+      "topic": "Aerodynamics",
+      "explanation": "A negative angle of attack means the chord line is below the relative airflow direction - the leading edge points below the airflow. In the diagram set, the profile where the leading edge sits lower than the trailing edge relative to the airflow has the negative AoA.",
+      "guide_chapter": {
+        "id": "p1-polar-forces",
+        "title": "Polar Forces & Angle of Attack"
+      },
+      "workbook_chapter": {
+        "id": "aero-05-angle-of-attack",
+        "title": "Angle of attack and the polar of forces"
+      },
+      "diagrams": [
+        {
+          "id": "p1-polar-forces-aoa-cases",
+          "title": "Four characteristic angles of attack"
+        }
+      ],
+      "video_clips": [],
+      "slide_pages": [
+        {
+          "deck_id": "aerodynamik",
+          "page": 19
+        }
+      ]
+    },
+    "53": {
+      "qid": 53,
+      "topic": "Aerodynamics",
+      "explanation": "An angle of attack of 0 degrees means the chord line is exactly aligned with the relative airflow. There is still some drag and even a small lift on an asymmetric profile, but the chord and the airflow run parallel. The profile drawn flat to the wind is the answer.",
+      "guide_chapter": {
+        "id": "p1-polar-forces",
+        "title": "Polar Forces & Angle of Attack"
+      },
+      "workbook_chapter": {
+        "id": "aero-05-angle-of-attack",
+        "title": "Angle of attack and the polar of forces"
+      },
+      "diagrams": [
+        {
+          "id": "p1-polar-forces-aoa-cases",
+          "title": "Four characteristic angles of attack"
+        }
+      ],
+      "video_clips": [],
+      "slide_pages": [
+        {
+          "deck_id": "aerodynamik",
+          "page": 19
+        }
+      ]
+    },
+    "54": {
+      "qid": 54,
+      "topic": "Aerodynamics",
+      "explanation": "At a typical operating angle of attack of around 10 degrees, the upper surface generates about 2/3 of the total lift (through suction / low pressure) and the lower surface about 1/3 (through positive pressure). This 2-to-1 ratio is a standard SHV exam fact and is easy to confuse: most lift comes from the suction on top, not the push from below.",
+      "guide_chapter": {
+        "id": "p1-lift-and-drag",
+        "title": "Lift and Drag: Profile of a Flat Object Subjected to Wind"
+      },
+      "workbook_chapter": {
+        "id": "aero-04-lift-and-profile",
+        "title": "Lift and the profile of a wing"
+      },
+      "diagrams": [
+        {
+          "id": "p1-lift-distribution",
+          "title": "Where lift comes from on the profile"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "aerodynamik_0",
+          "t_start": 261.71,
+          "t_end": 284.9,
+          "snippet": "Stefan: 2/3 from low pressure on top, 1/3 from high pressure underneath - easy to mix up."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "aerodynamik",
+          "page": 14
+        }
+      ]
+    },
+    "55": {
+      "qid": 55,
+      "topic": "Aerodynamics",
+      "explanation": "On a cambered wing at positive angle of attack, lift is distributed very asymmetrically along the chord: about 2/3 of the total lift is generated on the front third of the wing, where the airfoil curvature is greatest and the suction peak is highest. The remaining 1/3 is spread across the rest of the chord.",
+      "guide_chapter": {
+        "id": "p1-lift-and-drag",
+        "title": "Lift and Drag: Profile of a Flat Object Subjected to Wind"
+      },
+      "workbook_chapter": {
+        "id": "aero-04-lift-and-profile",
+        "title": "Lift and the profile of a wing"
+      },
+      "diagrams": [
+        {
+          "id": "p1-lift-distribution",
+          "title": "Where lift comes from on the profile"
+        }
+      ],
+      "video_clips": [],
+      "slide_pages": [
+        {
+          "deck_id": "aerodynamik",
+          "page": 14
+        }
+      ]
+    },
+    "56": {
+      "qid": 56,
+      "topic": "Aerodynamics",
+      "explanation": "Lift depends on the same four factors as drag: exposed wing area, lift coefficient Cl, air density and the square of the airflow speed. Note that the drag coefficient is NOT a lift factor - the two coefficients are independent. Weight doesn't enter the formula either; it's what lift has to overcome, not what produces it.",
+      "guide_chapter": {
+        "id": "p1-lift-and-drag",
+        "title": "Lift and Drag: Profile of a Flat Object Subjected to Wind"
+      },
+      "workbook_chapter": {
+        "id": "aero-04-lift-and-profile",
+        "title": "Lift and the profile of a wing"
+      },
+      "diagrams": [
+        {
+          "id": "p1-lift-distribution",
+          "title": "Where lift comes from on the profile"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "aerodynamik_0",
+          "t_start": 913.9,
+          "t_end": 938.73,
+          "snippet": "Stefan: lift uses the same formula as drag, only the coefficient changes - Cl instead of Cd."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "aerodynamik",
+          "page": 14
+        },
+        {
+          "deck_id": "aerodynamik",
+          "page": 15
+        }
+      ]
+    },
+    "57": {
+      "qid": 57,
+      "topic": "Aerodynamics",
+      "explanation": "Reducing the angle of attack means accelerating: the wing pitches forward, more like a dart, and flies faster. From best glide, a 2-degree reduction in AoA brings the wing into accelerated trim - the trade-off is more speed but a worse glide ratio.",
+      "guide_chapter": {
+        "id": "p1-polar-speeds",
+        "title": "Polar Speeds"
+      },
+      "workbook_chapter": {
+        "id": "aero-08-polar-speeds",
+        "title": "Polar curve of speeds"
+      },
+      "diagrams": [
+        {
+          "id": "p1-polar-curve-speeds",
+          "title": "Polar curve of speeds"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "aerodynamik_0",
+          "t_start": 1425.24,
+          "t_end": 1437.46,
+          "snippet": "Stefan: accelerate the wing and the angle of attack decreases, Cl and Cd values decrease."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "aerodynamik",
+          "page": 37
+        }
+      ]
+    },
+    "58": {
+      "qid": 58,
+      "topic": "Aerodynamics",
+      "explanation": "On the polar curve of forces, the lift coefficient Cl rises monotonically from low AoA up to ~20 degrees (where Cl is maximum at minimum sink). So reducing the AoA from best glide brings you down the Cl curve - the lift coefficient drops. Conversely, you have to fly faster (with higher speed squared) to generate the same total lift force.",
+      "guide_chapter": {
+        "id": "p1-polar-forces",
+        "title": "Polar Forces & Angle of Attack"
+      },
+      "workbook_chapter": {
+        "id": "aero-05-angle-of-attack",
+        "title": "Angle of attack and the polar of forces"
+      },
+      "diagrams": [
+        {
+          "id": "p1-polar-forces-curve",
+          "title": "Polar curve of forces (Cz vs Cx)"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "aerodynamik_0",
+          "t_start": 1425.24,
+          "t_end": 1437.46,
+          "snippet": "Stefan: accelerate, AoA decreases, Cl and Cd values decrease."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "aerodynamik",
+          "page": 21
+        },
+        {
+          "deck_id": "aerodynamik",
+          "page": 22
+        }
+      ]
+    },
+    "59": {
+      "qid": 59,
+      "topic": "Aerodynamics",
+      "explanation": "Increasing the angle of attack is what braking does: the wing pitches up, the lift coefficient rises, and the wing slows down. From best glide a 2-degree increase brings you closer to minimum sink - slower forward speed but longer airtime per metre of altitude.",
+      "guide_chapter": {
+        "id": "p1-polar-speeds",
+        "title": "Polar Speeds"
+      },
+      "workbook_chapter": {
+        "id": "aero-08-polar-speeds",
+        "title": "Polar curve of speeds"
+      },
+      "diagrams": [
+        {
+          "id": "p1-polar-curve-speeds",
+          "title": "Polar curve of speeds"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "aerodynamik_0",
+          "t_start": 1411.22,
+          "t_end": 1425.24,
+          "snippet": "Stefan: when angle of attack increases (braking), Cl and Cd values both rise and the wing flies slower."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "aerodynamik",
+          "page": 20
+        }
+      ]
+    },
+    "60": {
+      "qid": 60,
+      "topic": "Aerodynamics",
+      "explanation": "Above zero AoA up to about 20 degrees, the lift coefficient Cl increases with AoA. So going from best glide (~10 degrees) up to ~12 degrees moves Cl up the curve - it rises. The wing generates more lift per unit speed, which is why you can fly slower without losing altitude as fast (until you push past Tmin).",
+      "guide_chapter": {
+        "id": "p1-polar-forces",
+        "title": "Polar Forces & Angle of Attack"
+      },
+      "workbook_chapter": {
+        "id": "aero-05-angle-of-attack",
+        "title": "Angle of attack and the polar of forces"
+      },
+      "diagrams": [
+        {
+          "id": "p1-polar-forces-curve",
+          "title": "Polar curve of forces (Cz vs Cx)"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "aerodynamik_0",
+          "t_start": 1411.22,
+          "t_end": 1425.24,
+          "snippet": "Stefan: when angle of attack increases (brake), Cl and Cd both go up."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "aerodynamik",
+          "page": 20
+        }
+      ]
+    },
+    "61": {
+      "qid": 61,
+      "topic": "Aerodynamics",
+      "explanation": "The lift-to-drag ratio (Cl / Cd, i.e. the glide ratio) is primarily a function of angle of attack. The polar curve of forces shows that the ratio peaks around 10 degrees AoA - the best glide angle. Wing area, density and airspeed scale both lift and drag together, so they don't affect the ratio between them.",
+      "guide_chapter": {
+        "id": "p1-polar-forces",
+        "title": "Polar Forces & Angle of Attack"
+      },
+      "workbook_chapter": {
+        "id": "aero-05-angle-of-attack",
+        "title": "Angle of attack and the polar of forces"
+      },
+      "diagrams": [
+        {
+          "id": "p1-polar-forces-curve",
+          "title": "Polar curve of forces (Cz vs Cx)"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "aerodynamik_0",
+          "t_start": 1437.46,
+          "t_end": 1493.8,
+          "snippet": "Stefan: in steady flight the ratio of lift to drag depends on the angle of attack you're flying at."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "aerodynamik",
+          "page": 19
+        }
+      ]
+    },
+    "62": {
+      "qid": 62,
+      "topic": "Aerodynamics",
+      "explanation": "The stagnation point is on the leading edge where the airflow divides between the upper and lower surfaces. In the SHV diagram it is marked at the front of the wing. In normal flight it sits just under the leading edge, which is why cell openings are placed there.",
+      "guide_chapter": {
+        "id": "p1-profile-of-a-wing",
+        "title": "Profile of a wing"
+      },
+      "workbook_chapter": {
+        "id": "aero-04-lift-and-profile",
+        "title": "Lift and the profile of a wing"
+      },
+      "diagrams": [
+        {
+          "id": "p1-profile-aero-points",
+          "title": "Aerodynamic points of the profile"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "aerodynamik_0",
+          "t_start": 1493.8,
+          "t_end": 1545.45,
+          "snippet": "Stefan: stagnation point is where the air decides over or under - which is exactly where the cell openings are."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "aerodynamik",
+          "page": 23
+        },
+        {
+          "deck_id": "aerodynamik",
+          "page": 24
+        }
+      ]
+    },
+    "63": {
+      "qid": 63,
+      "topic": "Aerodynamics",
+      "explanation": "The centre of pressure (also called the centre of thrust) is the point on the profile where all the distributed aerodynamic forces - lift and drag - can be considered to act as a single resultant force. It lies on the upper surface roughly a third of the way back from the leading edge, where lift is concentrated.",
+      "guide_chapter": {
+        "id": "p1-profile-of-a-wing",
+        "title": "Profile of a wing"
+      },
+      "workbook_chapter": {
+        "id": "aero-04-lift-and-profile",
+        "title": "Lift and the profile of a wing"
+      },
+      "diagrams": [
+        {
+          "id": "p1-profile-aero-points",
+          "title": "Aerodynamic points of the profile"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "aerodynamik_0",
+          "t_start": 735.15,
+          "t_end": 765.25,
+          "snippet": "Stefan: the centre of pressure is where the sum of all those small force vectors acts - and equals weight in steady flight."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "aerodynamik",
+          "page": 23
+        }
+      ]
+    },
+    "64": {
+      "qid": 64,
+      "topic": "Aerodynamics",
+      "explanation": "The separation point is where the boundary-layer airflow detaches from the upper surface of the wing - on the trailing edge side of the profile. Behind it the flow becomes turbulent and lift drops away. As the angle of attack increases (more brake), the separation point migrates forward; at stall it has reached the leading edge.",
+      "guide_chapter": {
+        "id": "p1-profile-of-a-wing",
+        "title": "Profile of a wing"
+      },
+      "workbook_chapter": {
+        "id": "aero-04-lift-and-profile",
+        "title": "Lift and the profile of a wing"
+      },
+      "diagrams": [
+        {
+          "id": "p1-profile-aero-points",
+          "title": "Aerodynamic points of the profile"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "aerodynamik_0",
+          "t_start": 1545.45,
+          "t_end": 1581.51,
+          "snippet": "Stefan: when you brake more, the separation point migrates toward the leading edge until the wing fully stalls."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "aerodynamik",
+          "page": 23
+        },
+        {
+          "deck_id": "aerodynamik",
+          "page": 25
+        },
+        {
+          "deck_id": "aerodynamik",
+          "page": 26
+        }
+      ]
+    },
+    "65": {
+      "qid": 65,
+      "topic": "Aerodynamics",
+      "explanation": "The separation point is the position on the wing's upper surface where the airflow can no longer follow the profile curvature and detaches into the turbulent wake. It moves forward as the angle of attack increases - when it reaches the leading edge the wing is in a full stall.",
+      "guide_chapter": {
+        "id": "p1-profile-of-a-wing",
+        "title": "Profile of a wing"
+      },
+      "workbook_chapter": {
+        "id": "aero-04-lift-and-profile",
+        "title": "Lift and the profile of a wing"
+      },
+      "diagrams": [
+        {
+          "id": "p1-profile-aero-points",
+          "title": "Aerodynamic points of the profile"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "aerodynamik_0",
+          "t_start": 277.3,
+          "t_end": 302.94,
+          "snippet": "Stefan: the separation point is where the flow stops following the profile and creates turbulence."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "aerodynamik",
+          "page": 23
+        }
+      ]
+    },
+    "66": {
+      "qid": 66,
+      "topic": "Aerodynamics",
+      "explanation": "Stall happens at a fixed angle of attack (around 25 degrees), but a heavily loaded glider must fly faster to generate the same lift force. So the speed at which Cl-max is reached is higher under maximum load. The stall AoA is the same, but the stall airspeed rises with wing loading.",
+      "guide_chapter": {
+        "id": "p1-polar-speeds",
+        "title": "Polar Speeds"
+      },
+      "workbook_chapter": {
+        "id": "aero-08-polar-speeds",
+        "title": "Polar curve of speeds"
+      },
+      "diagrams": [
+        {
+          "id": "p1-polar-wing-loading",
+          "title": "Polar shift with wing loading"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "aerodynamik_1",
+          "t_start": 1287.82,
+          "t_end": 1311.82,
+          "snippet": "Stefan: hanging extra weight or flying a tight turn raises wing loading - all speeds increase, including stall speed."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "aerodynamik",
+          "page": 34
+        }
+      ]
+    },
+    "67": {
+      "qid": 67,
+      "topic": "Aerodynamics",
+      "explanation": "Wing loading sets where the polar curve sits in the speed plane: lighter loading = lower stall speed (the whole polar shifts left and down). The stall angle of attack is the same, but a lightly loaded wing reaches that AoA at a slower airspeed. That's why a wing flown near min load is more docile and slower than the same wing flown at max load.",
+      "guide_chapter": {
+        "id": "p1-polar-speeds",
+        "title": "Polar Speeds"
+      },
+      "workbook_chapter": {
+        "id": "aero-08-polar-speeds",
+        "title": "Polar curve of speeds"
+      },
+      "diagrams": [
+        {
+          "id": "p1-polar-wing-loading",
+          "title": "Polar shift with wing loading"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "aerodynamik_1",
+          "t_start": 20.24,
+          "t_end": 43.14,
+          "snippet": "Stefan: lighter wing loading (around 3 kg/m squared) makes the wing slower and more sluggish; heavier loading makes it faster."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "aerodynamik",
+          "page": 34
+        }
+      ]
+    },
+    "68": {
+      "qid": 68,
+      "topic": "Aerodynamics",
+      "explanation": "The stagnation point is the location on the leading edge where the oncoming air is brought to rest and divides into the streams that flow over the upper and lower surfaces. It's not the centre of pressure (that's where forces act) or the separation point (that's at the back) - it's the dividing point at the very front.",
+      "guide_chapter": {
+        "id": "p1-profile-of-a-wing",
+        "title": "Profile of a wing"
+      },
+      "workbook_chapter": {
+        "id": "aero-04-lift-and-profile",
+        "title": "Lift and the profile of a wing"
+      },
+      "diagrams": [
+        {
+          "id": "p1-profile-aero-points",
+          "title": "Aerodynamic points of the profile"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "aerodynamik_0",
+          "t_start": 1493.8,
+          "t_end": 1545.45,
+          "snippet": "Stefan: stagnation point is where the air decides whether to go over the top or under the bottom."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "aerodynamik",
+          "page": 23
+        },
+        {
+          "deck_id": "aerodynamik",
+          "page": 24
+        }
+      ]
+    },
+    "69": {
+      "qid": 69,
+      "topic": "Aerodynamics",
+      "explanation": "When you increase the positive angle of attack (e.g. by braking), the wing pitches up so that more air now hits the underside. The stagnation point - the dividing line - moves rearward along the lower surface (toward the trailing edge). The separation point moves the opposite way: forward along the top surface.",
+      "guide_chapter": {
+        "id": "p1-profile-of-a-wing",
+        "title": "Profile of a wing"
+      },
+      "workbook_chapter": {
+        "id": "aero-04-lift-and-profile",
+        "title": "Lift and the profile of a wing"
+      },
+      "diagrams": [
+        {
+          "id": "p1-profile-aero-points",
+          "title": "Aerodynamic points of the profile"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "aerodynamik_0",
+          "t_start": 1513.8,
+          "t_end": 1545.45,
+          "snippet": "Stefan: increase AoA and the stagnation point migrates toward the trailing edge along the underside."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "aerodynamik",
+          "page": 25
+        },
+        {
+          "deck_id": "aerodynamik",
+          "page": 26
+        }
+      ]
+    },
+    "70": {
+      "qid": 70,
+      "topic": "Aerodynamics",
+      "explanation": "Decreasing the angle of attack (accelerating) tips the wing nose-down. The dividing stagnation point moves forward toward the leading edge on the lower surface - the air now splits earlier. The separation point on the upper surface moves rearward, restoring more attached flow.",
+      "guide_chapter": {
+        "id": "p1-profile-of-a-wing",
+        "title": "Profile of a wing"
+      },
+      "workbook_chapter": {
+        "id": "aero-04-lift-and-profile",
+        "title": "Lift and the profile of a wing"
+      },
+      "diagrams": [
+        {
+          "id": "p1-profile-aero-points",
+          "title": "Aerodynamic points of the profile"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "aerodynamik_0",
+          "t_start": 1513.8,
+          "t_end": 1545.45,
+          "snippet": "Stefan: decrease AoA and the stagnation point migrates forward along the underside."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "aerodynamik",
+          "page": 22
+        }
+      ]
+    },
+    "71": {
+      "qid": 71,
+      "topic": "Aerodynamics",
+      "explanation": "The centre of pressure (or centre of thrust) is the single point on the profile where the resultant aerodynamic force - the combined lift and drag - effectively acts. It is the mathematical centroid of the pressure distribution, not the centre of mass of pilot and gear and not the stagnation point at the front of the wing.",
+      "guide_chapter": {
+        "id": "p1-profile-of-a-wing",
+        "title": "Profile of a wing"
+      },
+      "workbook_chapter": {
+        "id": "aero-04-lift-and-profile",
+        "title": "Lift and the profile of a wing"
+      },
+      "diagrams": [
+        {
+          "id": "p1-profile-aero-points",
+          "title": "Aerodynamic points of the profile"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "aerodynamik_0",
+          "t_start": 735.15,
+          "t_end": 765.25,
+          "snippet": "Stefan: the centre of pressure is where the sum of all force vectors acts."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "aerodynamik",
+          "page": 23
+        }
+      ]
+    },
+    "72": {
+      "qid": 72,
+      "topic": "Aerodynamics",
+      "explanation": "Wing span (Spannweite) is simply the distance between the two wingtips - measured tip to tip, perpendicular to the flight direction. It can be measured either flat (wing on the ground) or projected (shadow of the inflated wing); flat is always longer.",
+      "guide_chapter": {
+        "id": "p1-geometry-wing-loading",
+        "title": "Geometry of a Wing & Wing Loading"
+      },
+      "workbook_chapter": {
+        "id": "aero-06-wing-geometry-loading",
+        "title": "Wing geometry and wing loading"
+      },
+      "diagrams": [
+        {
+          "id": "p1-geometry-flat-vs-projected",
+          "title": "Flat vs projected wingspan and area"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "aerodynamik_0",
+          "t_start": 1861.78,
+          "t_end": 1925.37,
+          "snippet": "Stefan: wing span is the distance between the two outermost wingtips, measured flat or projected."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "aerodynamik",
+          "page": 30
+        }
+      ]
+    },
+    "73": {
+      "qid": 73,
+      "topic": "Aerodynamics",
+      "explanation": "The average chord (mean chord) is the average distance between the leading edge and trailing edge across the wing's span. Because the chord varies along the span (it's smaller at the stabilo than in the middle), an average is taken. Mathematically: average chord = wing area / wing span.",
+      "guide_chapter": {
+        "id": "p1-geometry-wing-loading",
+        "title": "Geometry of a Wing & Wing Loading"
+      },
+      "workbook_chapter": {
+        "id": "aero-06-wing-geometry-loading",
+        "title": "Wing geometry and wing loading"
+      },
+      "diagrams": [
+        {
+          "id": "p1-geometry-flat-vs-projected",
+          "title": "Flat vs projected wingspan and area"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "aerodynamik_0",
+          "t_start": 1925.37,
+          "t_end": 1961.45,
+          "snippet": "Stefan: we compute an average chord because at the wingtip the chord is much smaller than in the middle."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "aerodynamik",
+          "page": 31
+        }
+      ]
+    },
+    "74": {
+      "qid": 74,
+      "topic": "Aerodynamics",
+      "explanation": "Wing loading is the average weight carried per unit of wing surface area, typically in kg/m squared. It tells you how much each square metre of wing has to support, which directly drives how fast and agile - or slow and docile - the wing will feel.",
+      "guide_chapter": {
+        "id": "p1-geometry-wing-loading",
+        "title": "Geometry of a Wing & Wing Loading"
+      },
+      "workbook_chapter": {
+        "id": "aero-06-wing-geometry-loading",
+        "title": "Wing geometry and wing loading"
+      },
+      "diagrams": [
+        {
+          "id": "p1-geometry-flat-vs-projected",
+          "title": "Flat vs projected wingspan and area"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "aerodynamik_1",
+          "t_start": 79.15,
+          "t_end": 90.95,
+          "snippet": "Stefan: wing loading is total flight weight divided by projected area."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "aerodynamik",
+          "page": 34
+        }
+      ]
+    },
+    "75": {
+      "qid": 75,
+      "topic": "Aerodynamics",
+      "explanation": "Wing loading = total take-off weight / wing surface area. The total weight includes pilot, harness, reserve, instruments and the wing itself - everything that is in the air. Note: 'load' refers to what hangs below the wing while 'total weight' adds the wing itself, so the question's correct option uses 'total weight'.",
+      "guide_chapter": {
+        "id": "p1-geometry-wing-loading",
+        "title": "Geometry of a Wing & Wing Loading"
+      },
+      "workbook_chapter": {
+        "id": "aero-06-wing-geometry-loading",
+        "title": "Wing geometry and wing loading"
+      },
+      "diagrams": [
+        {
+          "id": "p1-geometry-flat-vs-projected",
+          "title": "Flat vs projected wingspan and area"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "aerodynamik_1",
+          "t_start": 79.15,
+          "t_end": 123.89,
+          "snippet": "Stefan: wing loading is total flight weight (including the wing) divided by projected area. Stand on a scale with all your gear and the wing - that's it."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "aerodynamik",
+          "page": 34
+        }
+      ]
+    },
+    "76": {
+      "qid": 76,
+      "topic": "Aerodynamics",
+      "explanation": "Aspect ratio (Streckung) is the ratio of wing span to average chord. A wing with span = 10 m and average chord = 2 m has an aspect ratio of 5. Equivalently AR = span squared / area. High aspect ratio = long and slender wing (better glide, less induced drag, but more demanding to fly).",
+      "guide_chapter": {
+        "id": "p1-geometry-wing-loading",
+        "title": "Geometry of a Wing & Wing Loading"
+      },
+      "workbook_chapter": {
+        "id": "aero-06-wing-geometry-loading",
+        "title": "Wing geometry and wing loading"
+      },
+      "diagrams": [
+        {
+          "id": "p1-aspect-ratio",
+          "title": "High vs low aspect ratio"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "aerodynamik_0",
+          "t_start": 1944.65,
+          "t_end": 1994.22,
+          "snippet": "Stefan: aspect ratio is the ratio of span to mean chord; equivalently span squared divided by area."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "aerodynamik",
+          "page": 32
+        }
+      ]
+    },
+    "77": {
+      "qid": 77,
+      "topic": "Aerodynamics",
+      "explanation": "Aspect ratio = (wing span) squared / wing surface area. This is the equivalent algebraic form of the simpler 'span / average chord' definition - they give the same number. A 10 m span over a 20 m squared wing gives AR = 100/20 = 5.",
+      "guide_chapter": {
+        "id": "p1-geometry-wing-loading",
+        "title": "Geometry of a Wing & Wing Loading"
+      },
+      "workbook_chapter": {
+        "id": "aero-06-wing-geometry-loading",
+        "title": "Wing geometry and wing loading"
+      },
+      "diagrams": [
+        {
+          "id": "p1-aspect-ratio",
+          "title": "High vs low aspect ratio"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "aerodynamik_0",
+          "t_start": 1975.56,
+          "t_end": 2003.3,
+          "snippet": "Stefan derives: span / mean chord = span squared / area - same value, your aspect ratio."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "aerodynamik",
+          "page": 32
+        }
+      ]
+    },
+    "78": {
+      "qid": 78,
+      "topic": "Aerodynamics",
+      "explanation": "A large aspect ratio means a long, slender wing: large span and small average chord. Sailplanes and competition paragliders look like this - the wing is wide and narrow, like a sickle in the sky. This geometry reduces induced drag, the dominant component of total drag on a paraglider.",
+      "guide_chapter": {
+        "id": "p1-geometry-wing-loading",
+        "title": "Geometry of a Wing & Wing Loading"
+      },
+      "workbook_chapter": {
+        "id": "aero-06-wing-geometry-loading",
+        "title": "Wing geometry and wing loading"
+      },
+      "diagrams": [
+        {
+          "id": "p1-aspect-ratio",
+          "title": "High vs low aspect ratio"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "aerodynamik_0",
+          "t_start": 1731.14,
+          "t_end": 1761.14,
+          "snippet": "Stefan: induced drag is reduced via aspect ratio - the more sickle-shaped and slender, the better."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "aerodynamik",
+          "page": 32
+        }
+      ]
+    },
+    "79": {
+      "qid": 79,
+      "topic": "Aerodynamics",
+      "explanation": "A small aspect ratio means a 'stubby' wing - relatively small span paired with a large average chord. School wings sit on the lower end of the aspect-ratio range (around 5) because the deeper chord helps with stability and recovery, at the cost of glide performance.",
+      "guide_chapter": {
+        "id": "p1-geometry-wing-loading",
+        "title": "Geometry of a Wing & Wing Loading"
+      },
+      "workbook_chapter": {
+        "id": "aero-06-wing-geometry-loading",
+        "title": "Wing geometry and wing loading"
+      },
+      "diagrams": [
+        {
+          "id": "p1-aspect-ratio",
+          "title": "High vs low aspect ratio"
+        }
+      ],
+      "video_clips": [],
+      "slide_pages": [
+        {
+          "deck_id": "aerodynamik",
+          "page": 32
+        }
+      ]
+    },
+    "80": {
+      "qid": 80,
+      "topic": "Aerodynamics",
+      "explanation": "Aspect ratio = wing span / average chord, so AR = 5 means the span is exactly 5 times the chord. For a wing with average chord 2 m, the span would be 10 m. This is just the definition restated in plain language.",
+      "guide_chapter": {
+        "id": "p1-geometry-wing-loading",
+        "title": "Geometry of a Wing & Wing Loading"
+      },
+      "workbook_chapter": {
+        "id": "aero-06-wing-geometry-loading",
+        "title": "Wing geometry and wing loading"
+      },
+      "diagrams": [
+        {
+          "id": "p1-aspect-ratio",
+          "title": "High vs low aspect ratio"
+        }
+      ],
+      "video_clips": [],
+      "slide_pages": [
+        {
+          "deck_id": "aerodynamik",
+          "page": 32
+        }
+      ]
+    },
+    "81": {
+      "qid": 81,
+      "topic": "Aerodynamics",
+      "explanation": "Aspect ratio = span / average chord = 5 is equivalent to saying the chord is 1/5 of the span, i.e. five times smaller. It is the same statement as 'span is five times larger than average chord' - just rearranged.",
+      "guide_chapter": {
+        "id": "p1-geometry-wing-loading",
+        "title": "Geometry of a Wing & Wing Loading"
+      },
+      "workbook_chapter": {
+        "id": "aero-06-wing-geometry-loading",
+        "title": "Wing geometry and wing loading"
+      },
+      "diagrams": [
+        {
+          "id": "p1-aspect-ratio",
+          "title": "High vs low aspect ratio"
+        }
+      ],
+      "video_clips": [],
+      "slide_pages": [
+        {
+          "deck_id": "aerodynamik",
+          "page": 32
+        }
+      ]
+    },
+    "82": {
+      "qid": 82,
+      "topic": "Aerodynamics",
+      "explanation": "Using AR = span squared / area: AR = 10 squared / 25 = 100 / 25 = 4. The weight numbers in the question are distractors - aspect ratio only depends on wing geometry, not load.",
+      "guide_chapter": {
+        "id": "p1-geometry-wing-loading",
+        "title": "Geometry of a Wing & Wing Loading"
+      },
+      "workbook_chapter": {
+        "id": "aero-06-wing-geometry-loading",
+        "title": "Wing geometry and wing loading"
+      },
+      "diagrams": [
+        {
+          "id": "p1-aspect-ratio",
+          "title": "High vs low aspect ratio"
+        }
+      ],
+      "video_clips": [],
+      "slide_pages": [
+        {
+          "deck_id": "aerodynamik",
+          "page": 32
+        }
+      ]
+    },
+    "83": {
+      "qid": 83,
+      "topic": "Aerodynamics",
+      "explanation": "Average chord = wing area / wing span = 25 m squared / 10 m = 2.5 m. The pilot weights are irrelevant - the chord is a pure geometric property of the wing. This relationship rearranges to area = average chord x span, useful for cross-checking.",
+      "guide_chapter": {
+        "id": "p1-geometry-wing-loading",
+        "title": "Geometry of a Wing & Wing Loading"
+      },
+      "workbook_chapter": {
+        "id": "aero-06-wing-geometry-loading",
+        "title": "Wing geometry and wing loading"
+      },
+      "diagrams": [
+        {
+          "id": "p1-geometry-flat-vs-projected",
+          "title": "Flat vs projected wingspan and area"
+        }
+      ],
+      "video_clips": [],
+      "slide_pages": [
+        {
+          "deck_id": "aerodynamik",
+          "page": 31
+        }
+      ]
+    },
+    "84": {
+      "qid": 84,
+      "topic": "Aerodynamics",
+      "explanation": "Total take-off weight = max load + glider weight = 95 + 5 = 100 kg. Wing loading = 100 kg / 25 m squared = 4.0 kg/m squared. Always include the wing's own weight in the calculation - wing loading uses total flight weight, not just the payload hanging below.",
+      "guide_chapter": {
+        "id": "p1-geometry-wing-loading",
+        "title": "Geometry of a Wing & Wing Loading"
+      },
+      "workbook_chapter": {
+        "id": "aero-06-wing-geometry-loading",
+        "title": "Wing geometry and wing loading"
+      },
+      "diagrams": [
+        {
+          "id": "p1-geometry-flat-vs-projected",
+          "title": "Flat vs projected wingspan and area"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "aerodynamik_1",
+          "t_start": 85.77,
+          "t_end": 123.89,
+          "snippet": "Stefan: include the wing in the total weight - it counts toward wing loading even though it flies on its own."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "aerodynamik",
+          "page": 34
+        }
+      ]
+    },
+    "85": {
+      "qid": 85,
+      "topic": "Aerodynamics",
+      "explanation": "Minimum total take-off weight = min load + glider = 70 + 5 = 75 kg. Wing loading = 75 kg / 25 m squared = 3.0 kg/m squared. A lower wing loading makes the wing slower and more docile - typical lower bound for a paraglider.",
+      "guide_chapter": {
+        "id": "p1-geometry-wing-loading",
+        "title": "Geometry of a Wing & Wing Loading"
+      },
+      "workbook_chapter": {
+        "id": "aero-06-wing-geometry-loading",
+        "title": "Wing geometry and wing loading"
+      },
+      "diagrams": [
+        {
+          "id": "p1-geometry-flat-vs-projected",
+          "title": "Flat vs projected wingspan and area"
+        }
+      ],
+      "video_clips": [],
+      "slide_pages": [
+        {
+          "deck_id": "aerodynamik",
+          "page": 34
+        }
+      ]
+    },
+    "86": {
+      "qid": 86,
+      "topic": "Aerodynamics",
+      "explanation": "AR = span squared / area = 10 squared / 12.5 = 100 / 12.5 = 8. With area 12.5 m squared and a 30 kg glider weight, this is clearly a hang glider, which typically has aspect ratios around 7-8 compared to ~5 for paragliders.",
+      "guide_chapter": {
+        "id": "p1-geometry-wing-loading",
+        "title": "Geometry of a Wing & Wing Loading"
+      },
+      "workbook_chapter": {
+        "id": "aero-06-wing-geometry-loading",
+        "title": "Wing geometry and wing loading"
+      },
+      "diagrams": [
+        {
+          "id": "p1-aspect-ratio",
+          "title": "High vs low aspect ratio"
+        }
+      ],
+      "video_clips": [],
+      "slide_pages": [
+        {
+          "deck_id": "aerodynamik",
+          "page": 32
+        }
+      ]
+    },
+    "87": {
+      "qid": 87,
+      "topic": "Aerodynamics",
+      "explanation": "Average chord = wing area / span = 12.5 / 10 = 1.25 m. The pilot and equipment weights in the question are red herrings - the chord is purely geometric.",
+      "guide_chapter": {
+        "id": "p1-geometry-wing-loading",
+        "title": "Geometry of a Wing & Wing Loading"
+      },
+      "workbook_chapter": {
+        "id": "aero-06-wing-geometry-loading",
+        "title": "Wing geometry and wing loading"
+      },
+      "diagrams": [
+        {
+          "id": "p1-geometry-flat-vs-projected",
+          "title": "Flat vs projected wingspan and area"
+        }
+      ],
+      "video_clips": [],
+      "slide_pages": [
+        {
+          "deck_id": "aerodynamik",
+          "page": 31
+        }
+      ]
+    },
+    "88": {
+      "qid": 88,
+      "topic": "Aerodynamics",
+      "explanation": "Total take-off weight = max load + glider weight = 90 + 35 = 125 kg. Wing loading = 125 / 12.5 = 10 kg/m squared. Hang gliders carry much higher wing loadings than paragliders (typically 8-12 kg/m squared vs 3-5).",
+      "guide_chapter": {
+        "id": "p1-geometry-wing-loading",
+        "title": "Geometry of a Wing & Wing Loading"
+      },
+      "workbook_chapter": {
+        "id": "aero-06-wing-geometry-loading",
+        "title": "Wing geometry and wing loading"
+      },
+      "diagrams": [
+        {
+          "id": "p1-geometry-flat-vs-projected",
+          "title": "Flat vs projected wingspan and area"
+        }
+      ],
+      "video_clips": [],
+      "slide_pages": [
+        {
+          "deck_id": "aerodynamik",
+          "page": 34
+        }
+      ]
+    },
+    "89": {
+      "qid": 89,
+      "topic": "Aerodynamics",
+      "explanation": "Minimum total take-off weight = min load + glider weight = 65 + 35 = 100 kg. Wing loading = 100 / 12.5 = 8 kg/m squared. The same wing flown lightly is still much more loaded than a typical paraglider - hang gliders fly considerably faster as a result.",
+      "guide_chapter": {
+        "id": "p1-geometry-wing-loading",
+        "title": "Geometry of a Wing & Wing Loading"
+      },
+      "workbook_chapter": {
+        "id": "aero-06-wing-geometry-loading",
+        "title": "Wing geometry and wing loading"
+      },
+      "diagrams": [
+        {
+          "id": "p1-geometry-flat-vs-projected",
+          "title": "Flat vs projected wingspan and area"
+        }
+      ],
+      "video_clips": [],
+      "slide_pages": [
+        {
+          "deck_id": "aerodynamik",
+          "page": 34
+        }
+      ]
+    },
+    "90": {
+      "qid": 90,
+      "topic": "Aerodynamics",
+      "explanation": "Modern intermediate paragliders sit in the aspect-ratio range of approximately 5-6. Beginner / school wings are lower (4.5-5), and high-performance wings reach 7+. Numbers like 12-14 are typical of competition sailplanes, not paragliders.",
+      "guide_chapter": {
+        "id": "p1-geometry-wing-loading",
+        "title": "Geometry of a Wing & Wing Loading"
+      },
+      "workbook_chapter": {
+        "id": "aero-06-wing-geometry-loading",
+        "title": "Wing geometry and wing loading"
+      },
+      "diagrams": [
+        {
+          "id": "p1-aspect-ratio",
+          "title": "High vs low aspect ratio"
+        }
+      ],
+      "video_clips": [],
+      "slide_pages": [
+        {
+          "deck_id": "aerodynamik",
+          "page": 32
+        }
+      ]
+    },
+    "91": {
+      "qid": 91,
+      "topic": "Aerodynamics",
+      "explanation": "Modern intermediate hang gliders have aspect ratios around 7. Hang glider wings are stiffer and longer relative to their chord than paraglider wings, which is why their aspect ratios sit higher than paragliders (~5) but well below sailplanes (~20).",
+      "guide_chapter": {
+        "id": "p1-geometry-wing-loading",
+        "title": "Geometry of a Wing & Wing Loading"
+      },
+      "workbook_chapter": {
+        "id": "aero-06-wing-geometry-loading",
+        "title": "Wing geometry and wing loading"
+      },
+      "diagrams": [
+        {
+          "id": "p1-aspect-ratio",
+          "title": "High vs low aspect ratio"
+        }
+      ],
+      "video_clips": [],
+      "slide_pages": [
+        {
+          "deck_id": "aerodynamik",
+          "page": 32
+        }
+      ]
+    },
+    "92": {
+      "qid": 92,
+      "topic": "Aerodynamics",
+      "explanation": "Compute AR = span squared / area for each option. With span 12 m and area 24 m squared, AR = 144 / 24 = 6 - the highest of the four. Always use the formula consistently when comparing wings of different sizes.",
+      "guide_chapter": {
+        "id": "p1-geometry-wing-loading",
+        "title": "Geometry of a Wing & Wing Loading"
+      },
+      "workbook_chapter": {
+        "id": "aero-06-wing-geometry-loading",
+        "title": "Wing geometry and wing loading"
+      },
+      "diagrams": [
+        {
+          "id": "p1-aspect-ratio",
+          "title": "High vs low aspect ratio"
+        }
+      ],
+      "video_clips": [],
+      "slide_pages": [
+        {
+          "deck_id": "aerodynamik",
+          "page": 32
+        }
+      ]
+    },
+    "93": {
+      "qid": 93,
+      "topic": "Aerodynamics",
+      "explanation": "AR = span squared / area. With span 8 m and area 32 m squared, AR = 64 / 32 = 2 - by far the smallest. A stubby, low-AR wing like this would have lots of induced drag and a poor glide ratio.",
+      "guide_chapter": {
+        "id": "p1-geometry-wing-loading",
+        "title": "Geometry of a Wing & Wing Loading"
+      },
+      "workbook_chapter": {
+        "id": "aero-06-wing-geometry-loading",
+        "title": "Wing geometry and wing loading"
+      },
+      "diagrams": [
+        {
+          "id": "p1-aspect-ratio",
+          "title": "High vs low aspect ratio"
+        }
+      ],
+      "video_clips": [],
+      "slide_pages": [
+        {
+          "deck_id": "aerodynamik",
+          "page": 32
+        }
+      ]
+    },
+    "94": {
+      "qid": 94,
+      "topic": "Aerodynamics",
+      "explanation": "AR = span squared / area. With span 12 m and area 12 m squared, AR = 144 / 12 = 12 - the largest of the four options. A wing this slender would be high-performance, with very low induced drag but demanding to fly.",
+      "guide_chapter": {
+        "id": "p1-geometry-wing-loading",
+        "title": "Geometry of a Wing & Wing Loading"
+      },
+      "workbook_chapter": {
+        "id": "aero-06-wing-geometry-loading",
+        "title": "Wing geometry and wing loading"
+      },
+      "diagrams": [
+        {
+          "id": "p1-aspect-ratio",
+          "title": "High vs low aspect ratio"
+        }
+      ],
+      "video_clips": [],
+      "slide_pages": [
+        {
+          "deck_id": "aerodynamik",
+          "page": 32
+        }
+      ]
+    },
+    "95": {
+      "qid": 95,
+      "topic": "Aerodynamics",
+      "explanation": "AR = span squared / area. The 20 m squared area paired with 10 m span gives AR = 100/20 = 5 - the smallest of the four. Lower aspect ratio means a wider chord and more induced drag, but generally a more forgiving wing.",
+      "guide_chapter": {
+        "id": "p1-geometry-wing-loading",
+        "title": "Geometry of a Wing & Wing Loading"
+      },
+      "workbook_chapter": {
+        "id": "aero-06-wing-geometry-loading",
+        "title": "Wing geometry and wing loading"
+      },
+      "diagrams": [
+        {
+          "id": "p1-aspect-ratio",
+          "title": "High vs low aspect ratio"
+        }
+      ],
+      "video_clips": [],
+      "slide_pages": [
+        {
+          "deck_id": "aerodynamik",
+          "page": 32
+        }
+      ]
+    },
+    "96": {
+      "qid": 96,
+      "topic": "Aerodynamics",
+      "explanation": "Tip vortices arise because there is high pressure on the underside of the wing and low pressure (suction) on the upper side. Nature tries to equalise pressure differences, so high-pressure air spills around the wingtip toward the suction side, creating a spiral vortex. The bigger the pressure difference (heavier wing loading), the stronger the vortex.",
+      "guide_chapter": {
+        "id": "p1-lift-and-drag",
+        "title": "Lift and Drag: Profile of a Flat Object Subjected to Wind"
+      },
+      "workbook_chapter": {
+        "id": "aero-04-lift-and-profile",
+        "title": "Lift and the profile of a wing"
+      },
+      "diagrams": [
+        {
+          "id": "p1-lift-distribution",
+          "title": "Where lift comes from on the profile"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "aerodynamik_0",
+          "t_start": 1572.07,
+          "t_end": 1640.46,
+          "snippet": "Stefan: induced drag and tip vortices come from the pressure difference between upper and lower surface trying to equalise around the wingtip."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "aerodynamik",
+          "page": 27
+        }
+      ]
+    },
+    "97": {
+      "qid": 97,
+      "topic": "Aerodynamics",
+      "explanation": "Wake turbulence and vortices form behind the wing - mainly behind the trailing edge and wingtips. This is why pilots are warned not to fly close behind a heavier glider on landing: the trailing vortex can shake or even collapse a following wing.",
+      "guide_chapter": {
+        "id": "p1-lift-and-drag",
+        "title": "Lift and Drag: Profile of a Flat Object Subjected to Wind"
+      },
+      "workbook_chapter": {
+        "id": "aero-04-lift-and-profile",
+        "title": "Lift and the profile of a wing"
+      },
+      "diagrams": [
+        {
+          "id": "p1-lift-distribution",
+          "title": "Where lift comes from on the profile"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "aerodynamik_0",
+          "t_start": 1640.46,
+          "t_end": 1673.37,
+          "snippet": "Stefan: tip vortices form behind the wing and can shake a following pilot - keep distance on landing."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "aerodynamik",
+          "page": 27
+        }
+      ]
+    },
+    "98": {
+      "qid": 98,
+      "topic": "Aerodynamics",
+      "explanation": "Glide ratio = lift / drag. If drag goes up while lift stays the same, the ratio falls. A smaller glide ratio means a steeper glide angle (the wing sinks more per metre of forward travel). So 'more drag' = 'steeper glide' = 'larger glide angle'.",
+      "guide_chapter": {
+        "id": "p1-glide-ratio",
+        "title": "Glide Ratio of a Wing"
+      },
+      "workbook_chapter": {
+        "id": "aero-07-equilibrium-glide-ratio",
+        "title": "Equilibrium of forces and the glide ratio"
+      },
+      "diagrams": [
+        {
+          "id": "p1-glide-ratio-geometry",
+          "title": "Glide ratio - geometric interpretation"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "aerodynamik_1",
+          "t_start": 277.44,
+          "t_end": 313.62,
+          "snippet": "Stefan: less drag means a larger glide ratio (good); more drag steepens the glide angle."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "aerodynamik",
+          "page": 35
+        },
+        {
+          "deck_id": "aerodynamik",
+          "page": 36
+        }
+      ]
+    },
+    "99": {
+      "qid": 99,
+      "topic": "Aerodynamics",
+      "explanation": "Glide ratio = lift / drag. Reducing drag while keeping lift the same makes the ratio bigger - a larger glide ratio means the wing flies further per metre of altitude lost. This is exactly why pod harnesses, slim profiles and few thin lines all help: every bit of drag cut translates directly into more glide.",
+      "guide_chapter": {
+        "id": "p1-glide-ratio",
+        "title": "Glide Ratio of a Wing"
+      },
+      "workbook_chapter": {
+        "id": "aero-07-equilibrium-glide-ratio",
+        "title": "Equilibrium of forces and the glide ratio"
+      },
+      "diagrams": [
+        {
+          "id": "p1-glide-ratio-geometry",
+          "title": "Glide ratio - geometric interpretation"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "aerodynamik_1",
+          "t_start": 277.44,
+          "t_end": 295.86,
+          "snippet": "Stefan: if drag shrinks while lift stays the same, glide ratio grows."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "aerodynamik",
+          "page": 35
+        }
+      ]
+    },
+    "100": {
+      "qid": 100,
+      "topic": "Aerodynamics",
+      "explanation": "The projected area is the shadow of the inflated wing on the ground - it is always smaller than (or at most equal to) the flat area you measure with the wing laid out flat. An inflated paraglider has a curved arc shape, so its overhead shadow is smaller than the spread-out fabric. The projected area is what actually counts aerodynamically.",
+      "guide_chapter": {
+        "id": "p1-geometry-wing-loading",
+        "title": "Geometry of a Wing & Wing Loading"
+      },
+      "workbook_chapter": {
+        "id": "aero-06-wing-geometry-loading",
+        "title": "Wing geometry and wing loading"
+      },
+      "diagrams": [
+        {
+          "id": "p1-geometry-flat-vs-projected",
+          "title": "Flat vs projected wingspan and area"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "aerodynamik_0",
+          "t_start": 2003.3,
+          "t_end": 2025.35,
+          "snippet": "Stefan: the projected area is like the wing's shadow from the sun - always smaller than the flat layout."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "aerodynamik",
+          "page": 33
+        }
+      ]
+    },
+    "101": {
+      "qid": 101,
+      "topic": "Aerodynamics",
+      "explanation": "The resultant aerodynamic force (FRA / Gesamtluftkraft) is the vector sum of lift and drag - the two perpendicular aerodynamic forces on the wing. Weight is a separate force (gravity); it's what FRA has to balance in steady flight, not a component of it.",
+      "guide_chapter": {
+        "id": "p1-equilibrium-normal-flight",
+        "title": "Equilibrium of Forces for a Glider in Normal Flight"
+      },
+      "workbook_chapter": {
+        "id": "aero-07-equilibrium-glide-ratio",
+        "title": "Equilibrium of forces and the glide ratio"
+      },
+      "diagrams": [
+        {
+          "id": "p1-equilibrium-forces",
+          "title": "Forces on a paraglider in stable glide"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "aerodynamik_0",
+          "t_start": 691.0,
+          "t_end": 735.15,
+          "snippet": "Stefan: total aerodynamic force is the diagonal of the lift-drag triangle - lift and drag are always at 90 degrees."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "aerodynamik",
+          "page": 11
+        },
+        {
+          "deck_id": "aerodynamik",
+          "page": 12
+        }
+      ]
+    },
+    "102": {
+      "qid": 102,
+      "topic": "Aerodynamics",
+      "explanation": "In stable straight flight all forces sum to zero. The vertical-down weight force must be exactly opposed by an equal vertical-up force - that's the resultant aerodynamic force. So in steady flight |FRA| = total weight. If you're heavier you need a proportionally larger FRA (more lift and drag combined).",
+      "guide_chapter": {
+        "id": "p1-equilibrium-normal-flight",
+        "title": "Equilibrium of Forces for a Glider in Normal Flight"
+      },
+      "workbook_chapter": {
+        "id": "aero-07-equilibrium-glide-ratio",
+        "title": "Equilibrium of forces and the glide ratio"
+      },
+      "diagrams": [
+        {
+          "id": "p1-equilibrium-forces",
+          "title": "Forces on a paraglider in stable glide"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "aerodynamik_0",
+          "t_start": 745.62,
+          "t_end": 765.25,
+          "snippet": "Stefan: the weight force always equals the total aerodynamic force in steady flight."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "aerodynamik",
+          "page": 11
+        }
+      ]
+    },
+    "103": {
+      "qid": 103,
+      "topic": "Aerodynamics",
+      "explanation": "In any stable (non-accelerating) glide - whether trim or fully accelerated - the resultant aerodynamic force equals the total weight. Since weight doesn't change between trim and speed bar, FRA must also stay the same. What changes is the breakdown of FRA into lift and drag, and the glide ratio.",
+      "guide_chapter": {
+        "id": "p1-equilibrium-normal-flight",
+        "title": "Equilibrium of Forces for a Glider in Normal Flight"
+      },
+      "workbook_chapter": {
+        "id": "aero-07-equilibrium-glide-ratio",
+        "title": "Equilibrium of forces and the glide ratio"
+      },
+      "diagrams": [
+        {
+          "id": "p1-equilibrium-forces",
+          "title": "Forces on a paraglider in stable glide"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "aerodynamik_0",
+          "t_start": 1493.8,
+          "t_end": 1519.58,
+          "snippet": "Stefan: whether braked or accelerated, in steady flight the total aerodynamic force always equals weight."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "aerodynamik",
+          "page": 11
+        }
+      ]
+    },
+    "104": {
+      "qid": 104,
+      "topic": "Aerodynamics",
+      "explanation": "The total weight acts straight down. The only force that can balance it in stable flight is one of equal magnitude pointing straight up - that's the resultant aerodynamic force. Lift alone is not enough (it points perpendicular to the trajectory, not vertical) - it's the combination of lift and drag (= FRA) that opposes weight.",
+      "guide_chapter": {
+        "id": "p1-equilibrium-normal-flight",
+        "title": "Equilibrium of Forces for a Glider in Normal Flight"
+      },
+      "workbook_chapter": {
+        "id": "aero-07-equilibrium-glide-ratio",
+        "title": "Equilibrium of forces and the glide ratio"
+      },
+      "diagrams": [
+        {
+          "id": "p1-equilibrium-forces",
+          "title": "Forces on a paraglider in stable glide"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "aerodynamik_0",
+          "t_start": 745.62,
+          "t_end": 765.25,
+          "snippet": "Stefan: weight is opposed by the resultant aerodynamic force, not by lift alone."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "aerodynamik",
+          "page": 11
+        },
+        {
+          "deck_id": "aerodynamik",
+          "page": 12
+        }
+      ]
+    },
+    "105": {
+      "qid": 105,
+      "topic": "Aerodynamics",
+      "explanation": "Lift and drag are by definition perpendicular to each other: lift is perpendicular to the airflow direction, drag is parallel to it. So the force acting at 90 degrees to lift is drag - exactly along the relative wind / flight path.",
+      "guide_chapter": {
+        "id": "p1-equilibrium-normal-flight",
+        "title": "Equilibrium of Forces for a Glider in Normal Flight"
+      },
+      "workbook_chapter": {
+        "id": "aero-07-equilibrium-glide-ratio",
+        "title": "Equilibrium of forces and the glide ratio"
+      },
+      "diagrams": [
+        {
+          "id": "p1-equilibrium-forces",
+          "title": "Forces on a paraglider in stable glide"
+        },
+        {
+          "id": "p1-lift-drag-vectors",
+          "title": "Lift and drag on a flat object"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "aerodynamik_0",
+          "t_start": 701.56,
+          "t_end": 723.15,
+          "snippet": "Stefan: lift and drag are always exactly 90 degrees to each other, drag along the airflow."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "aerodynamik",
+          "page": 12
+        }
+      ]
+    },
+    "106": {
+      "qid": 106,
+      "topic": "Aerodynamics",
+      "explanation": "Drag is one of the two components of the resultant aerodynamic force (lift is the other). Drag points along the direction of the airflow / flight path, opposing the wing's motion. It's not a component of weight, and it doesn't act vertically.",
+      "guide_chapter": {
+        "id": "p1-equilibrium-normal-flight",
+        "title": "Equilibrium of Forces for a Glider in Normal Flight"
+      },
+      "workbook_chapter": {
+        "id": "aero-07-equilibrium-glide-ratio",
+        "title": "Equilibrium of forces and the glide ratio"
+      },
+      "diagrams": [
+        {
+          "id": "p1-equilibrium-forces",
+          "title": "Forces on a paraglider in stable glide"
+        },
+        {
+          "id": "p1-lift-drag-vectors",
+          "title": "Lift and drag on a flat object"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "aerodynamik_0",
+          "t_start": 711.67,
+          "t_end": 745.62,
+          "snippet": "Stefan: drag runs along the airflow, perpendicular to lift - both components of the total aerodynamic force."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "aerodynamik",
+          "page": 12
+        }
+      ]
+    },
+    "107": {
+      "qid": 107,
+      "topic": "Aerodynamics",
+      "explanation": "In the standard SHV force-balance diagram, position 1 marks the glide angle alpha (between trajectory and horizon) and position 3 marks drag (along the trajectory, opposite to motion). Identify each component by its direction relative to the airflow and weight.",
+      "guide_chapter": {
+        "id": "p1-equilibrium-normal-flight",
+        "title": "Equilibrium of Forces for a Glider in Normal Flight"
+      },
+      "workbook_chapter": {
+        "id": "aero-07-equilibrium-glide-ratio",
+        "title": "Equilibrium of forces and the glide ratio"
+      },
+      "diagrams": [
+        {
+          "id": "p1-equilibrium-forces",
+          "title": "Forces on a paraglider in stable glide"
+        }
+      ],
+      "video_clips": [],
+      "slide_pages": [
+        {
+          "deck_id": "aerodynamik",
+          "page": 11
+        },
+        {
+          "deck_id": "aerodynamik",
+          "page": 36
+        }
+      ]
+    },
+    "108": {
+      "qid": 108,
+      "topic": "Aerodynamics",
+      "explanation": "In the SHV equilibrium diagram, lift is perpendicular to the trajectory (position 5) and drag is parallel to the trajectory in the opposing direction (position 3). The two together at 90 degrees to each other make up the resultant aerodynamic force.",
+      "guide_chapter": {
+        "id": "p1-equilibrium-normal-flight",
+        "title": "Equilibrium of Forces for a Glider in Normal Flight"
+      },
+      "workbook_chapter": {
+        "id": "aero-07-equilibrium-glide-ratio",
+        "title": "Equilibrium of forces and the glide ratio"
+      },
+      "diagrams": [
+        {
+          "id": "p1-equilibrium-forces",
+          "title": "Forces on a paraglider in stable glide"
+        },
+        {
+          "id": "p1-lift-drag-vectors",
+          "title": "Lift and drag on a flat object"
+        }
+      ],
+      "video_clips": [],
+      "slide_pages": [
+        {
+          "deck_id": "aerodynamik",
+          "page": 11
+        }
+      ]
+    },
+    "109": {
+      "qid": 109,
+      "topic": "Aerodynamics",
+      "explanation": "Glide angle alpha (between the trajectory and horizon) is position 1. Total weight (vertically downward through the pilot) is position 2. In the diagram these are the two horizontal/vertical references against which the aerodynamic forces are measured.",
+      "guide_chapter": {
+        "id": "p1-equilibrium-normal-flight",
+        "title": "Equilibrium of Forces for a Glider in Normal Flight"
+      },
+      "workbook_chapter": {
+        "id": "aero-07-equilibrium-glide-ratio",
+        "title": "Equilibrium of forces and the glide ratio"
+      },
+      "diagrams": [
+        {
+          "id": "p1-equilibrium-forces",
+          "title": "Forces on a paraglider in stable glide"
+        }
+      ],
+      "video_clips": [],
+      "slide_pages": [
+        {
+          "deck_id": "aerodynamik",
+          "page": 11
+        }
+      ]
+    },
+    "110": {
+      "qid": 110,
+      "topic": "Aerodynamics",
+      "explanation": "The resultant aerodynamic force FRA (vertical, opposite to weight in steady flight) is position 6 in the SHV diagram, and the angle of attack (between chord and airflow) is position 4. FRA opposes weight; AoA defines how lift and drag are split.",
+      "guide_chapter": {
+        "id": "p1-equilibrium-normal-flight",
+        "title": "Equilibrium of Forces for a Glider in Normal Flight"
+      },
+      "workbook_chapter": {
+        "id": "aero-05-angle-of-attack",
+        "title": "Angle of attack and the polar of forces"
+      },
+      "diagrams": [
+        {
+          "id": "p1-equilibrium-forces",
+          "title": "Forces on a paraglider in stable glide"
+        }
+      ],
+      "video_clips": [],
+      "slide_pages": [
+        {
+          "deck_id": "aerodynamik",
+          "page": 11
+        },
+        {
+          "deck_id": "aerodynamik",
+          "page": 19
+        }
+      ]
+    },
+    "111": {
+      "qid": 111,
+      "topic": "Aerodynamics",
+      "explanation": "The longitudinal axis runs front-to-back through the pilot. Rotation around this axis moves the wingtips up and down alternately - that's a roll. Wingovers are essentially large rolls (with a touch of pitch). Yaw is the vertical axis; pitch is transverse.",
+      "guide_chapter": {
+        "id": "p1-axes-stability",
+        "title": "Axes and Flight Stability"
+      },
+      "workbook_chapter": {
+        "id": "aero-09-axes-stability-turns",
+        "title": "Axes, stability and turning flight"
+      },
+      "diagrams": [
+        {
+          "id": "p1-axes-three",
+          "title": "Three rotation axes"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "aerodynamik_1",
+          "t_start": 995.15,
+          "t_end": 1018.08,
+          "snippet": "Stefan: rolling - or wingovers - happens around the longitudinal axis."
+        },
+        {
+          "video_id": "aa_rollen",
+          "t_start": 20.54,
+          "t_end": 75.61,
+          "snippet": "Air Active rolling drill: motion around the longitudinal axis - we stabilise the wing back over our head."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "aerodynamik",
+          "page": 55
+        },
+        {
+          "deck_id": "aerodynamik",
+          "page": 56
+        }
+      ]
+    },
+    "112": {
+      "qid": 112,
+      "topic": "Aerodynamics",
+      "explanation": "The transverse axis runs left-to-right across the wing. Rotation around it tips the wing forward or backward relative to the pilot - that's pitch. When you enter a thermal the wing pitches up; exiting it pitches forward. Pitch is the axis you manage with timed brake inputs.",
+      "guide_chapter": {
+        "id": "p1-axes-stability",
+        "title": "Axes and Flight Stability"
+      },
+      "workbook_chapter": {
+        "id": "aero-09-axes-stability-turns",
+        "title": "Axes, stability and turning flight"
+      },
+      "diagrams": [
+        {
+          "id": "p1-axes-three",
+          "title": "Three rotation axes"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "aerodynamik_1",
+          "t_start": 980.9,
+          "t_end": 995.15,
+          "snippet": "Stefan: motion around the transverse axis is pitching - the wing rocks forward and back."
+        },
+        {
+          "video_id": "aa_nicken",
+          "t_start": 20.82,
+          "t_end": 75.88,
+          "snippet": "Air Active pitching drill: the transverse axis is across the wing - thermals cause pitch-up, exits cause pitch-forward."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "aerodynamik",
+          "page": 55
+        },
+        {
+          "deck_id": "aerodynamik",
+          "page": 57
+        }
+      ]
+    },
+    "113": {
+      "qid": 113,
+      "topic": "Aerodynamics",
+      "explanation": "The vertical axis runs through the pilot and up through the wing. Rotation around it swings the wingtips forward and back asymmetrically - that's yaw. A wing that spontaneously yaws in smooth air is described as not directionally stable. Roll is around the longitudinal axis; pitch is around the transverse.",
+      "guide_chapter": {
+        "id": "p1-axes-stability",
+        "title": "Axes and Flight Stability"
+      },
+      "workbook_chapter": {
+        "id": "aero-09-axes-stability-turns",
+        "title": "Axes, stability and turning flight"
+      },
+      "diagrams": [
+        {
+          "id": "p1-axes-three",
+          "title": "Three rotation axes"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "aerodynamik_1",
+          "t_start": 1018.08,
+          "t_end": 1032.54,
+          "snippet": "Stefan: yaw stability - that's the vertical axis through pilot and wing."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "aerodynamik",
+          "page": 55
+        },
+        {
+          "deck_id": "aerodynamik",
+          "page": 58
+        }
+      ]
+    },
+    "114": {
+      "qid": 114,
+      "topic": "Aerodynamics",
+      "explanation": "A wing that spontaneously accelerates and keeps accelerating without pilot input is unstable: small perturbations grow rather than damp out. The ball-in-bowl analogy: it's like a ball on top of an upturned bowl - the slightest push makes it roll away. Stable wings, by contrast, return to trim by themselves.",
+      "guide_chapter": {
+        "id": "p1-axes-stability",
+        "title": "Axes and Flight Stability"
+      },
+      "workbook_chapter": {
+        "id": "aero-09-axes-stability-turns",
+        "title": "Axes, stability and turning flight"
+      },
+      "diagrams": [
+        {
+          "id": "p1-stability-types",
+          "title": "Stable, unstable and indifferent flight characteristics"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "aerodynamik_1",
+          "t_start": 1119.16,
+          "t_end": 1149.16,
+          "snippet": "Stefan with the upturned-bowl analogy: unstable means it just keeps getting worse, accelerates and tumbles."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "aerodynamik",
+          "page": 59
+        },
+        {
+          "deck_id": "aerodynamik",
+          "page": 60
+        }
+      ]
+    },
+    "115": {
+      "qid": 115,
+      "topic": "Aerodynamics",
+      "explanation": "A wing that holds whatever new flight state it is put into (after a disturbance or pilot input) without returning or running away is indifferent / neutral. The ball-on-flat-table analogy: push it once and it just keeps rolling at constant speed. Stable would return to centre; unstable would accelerate.",
+      "guide_chapter": {
+        "id": "p1-axes-stability",
+        "title": "Axes and Flight Stability"
+      },
+      "workbook_chapter": {
+        "id": "aero-09-axes-stability-turns",
+        "title": "Axes, stability and turning flight"
+      },
+      "diagrams": [
+        {
+          "id": "p1-stability-types",
+          "title": "Stable, unstable and indifferent flight characteristics"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "aerodynamik_1",
+          "t_start": 1152.69,
+          "t_end": 1197.9,
+          "snippet": "Stefan: indifferent is the ball on a flat surface - push it once and it just keeps rolling, doesn't settle, doesn't accelerate."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "aerodynamik",
+          "page": 60
+        },
+        {
+          "deck_id": "aerodynamik",
+          "page": 61
+        }
+      ]
+    },
+    "116": {
+      "qid": 116,
+      "topic": "Aerodynamics",
+      "explanation": "A wing that automatically returns to trim after the speedbar is released - without pilot input - has stable characteristics. Like a ball at the bottom of a bowl: a disturbance moves it temporarily but it always rolls back to centre. This is the desired property manufacturers aim for, especially on school wings.",
+      "guide_chapter": {
+        "id": "p1-axes-stability",
+        "title": "Axes and Flight Stability"
+      },
+      "workbook_chapter": {
+        "id": "aero-09-axes-stability-turns",
+        "title": "Axes, stability and turning flight"
+      },
+      "diagrams": [
+        {
+          "id": "p1-stability-types",
+          "title": "Stable, unstable and indifferent flight characteristics"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "aerodynamik_1",
+          "t_start": 1052.39,
+          "t_end": 1119.16,
+          "snippet": "Stefan: stable wing returns to trim by itself after a disturbance - like a ball at the bottom of a bowl."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "aerodynamik",
+          "page": 59
+        }
+      ]
+    },
+    "117": {
+      "qid": 117,
+      "topic": "Aerodynamics",
+      "explanation": "Yaw is rotation around the vertical axis. A wing that continuously yaws on its own in smooth air lacks stability about the vertical axis - the technical term is 'not directionally stable'. Each axis has its own stability category: roll, pitch (longitudinal stability for trim), and yaw (directional).",
+      "guide_chapter": {
+        "id": "p1-axes-stability",
+        "title": "Axes and Flight Stability"
+      },
+      "workbook_chapter": {
+        "id": "aero-09-axes-stability-turns",
+        "title": "Axes, stability and turning flight"
+      },
+      "diagrams": [
+        {
+          "id": "p1-axes-three",
+          "title": "Three rotation axes"
+        }
+      ],
+      "video_clips": [],
+      "slide_pages": [
+        {
+          "deck_id": "aerodynamik",
+          "page": 58
+        }
+      ]
+    },
+    "118": {
+      "qid": 118,
+      "topic": "Aerodynamics",
+      "explanation": "Angle of attack varies around the transverse (pitch) axis. A wing that won't hold its angle of attack by itself - it pitches up or down on its own - is not pitch stable. This is different from directional or roll stability, which are about the other two axes.",
+      "guide_chapter": {
+        "id": "p1-axes-stability",
+        "title": "Axes and Flight Stability"
+      },
+      "workbook_chapter": {
+        "id": "aero-09-axes-stability-turns",
+        "title": "Axes, stability and turning flight"
+      },
+      "diagrams": [
+        {
+          "id": "p1-axes-three",
+          "title": "Three rotation axes"
+        }
+      ],
+      "video_clips": [],
+      "slide_pages": [
+        {
+          "deck_id": "aerodynamik",
+          "page": 57
+        }
+      ]
+    },
+    "119": {
+      "qid": 119,
+      "topic": "Aerodynamics",
+      "explanation": "Roll is rotation around the longitudinal axis. A wing that continuously rolls on its own in calm air lacks roll stability - it doesn't damp out lateral oscillations of the wingtips. The matching label is 'not roll stable' (or 'not longitudinally stable' in older terminology where longitudinal refers to the rolling axis).",
+      "guide_chapter": {
+        "id": "p1-axes-stability",
+        "title": "Axes and Flight Stability"
+      },
+      "workbook_chapter": {
+        "id": "aero-09-axes-stability-turns",
+        "title": "Axes, stability and turning flight"
+      },
+      "diagrams": [
+        {
+          "id": "p1-axes-three",
+          "title": "Three rotation axes"
+        }
+      ],
+      "video_clips": [],
+      "slide_pages": [
+        {
+          "deck_id": "aerodynamik",
+          "page": 56
+        }
+      ]
+    },
+    "120": {
+      "qid": 120,
+      "topic": "Aerodynamics",
+      "explanation": "Glide ratio is the lift-to-drag ratio (Cl / Cd). It's one of four equivalent ways to express the same number: lift/drag, Cl/Cd, horizontal speed / sink rate, and horizontal distance / altitude lost. Higher lift relative to drag = better glide = flying further for each metre of altitude.",
+      "guide_chapter": {
+        "id": "p1-glide-ratio",
+        "title": "Glide Ratio of a Wing"
+      },
+      "workbook_chapter": {
+        "id": "aero-07-equilibrium-glide-ratio",
+        "title": "Equilibrium of forces and the glide ratio"
+      },
+      "diagrams": [
+        {
+          "id": "p1-glide-ratio-geometry",
+          "title": "Glide ratio - geometric interpretation"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "aerodynamik_1",
+          "t_start": 265.08,
+          "t_end": 295.86,
+          "snippet": "Stefan: glide ratio can be calculated four ways - distance/height, speeds, lift/drag, or Cl/Cd."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "aerodynamik",
+          "page": 35
+        }
+      ]
+    },
+    "121": {
+      "qid": 121,
+      "topic": "Aerodynamics",
+      "explanation": "Glide ratio is the ratio of the lift coefficient Cl to the drag coefficient Cd. Since Cl and Cd are proportional to lift and drag (with the same speed, density and area factors), Cl/Cd = lift/drag = glide ratio. This is one of the four equivalent definitions.",
+      "guide_chapter": {
+        "id": "p1-glide-ratio",
+        "title": "Glide Ratio of a Wing"
+      },
+      "workbook_chapter": {
+        "id": "aero-07-equilibrium-glide-ratio",
+        "title": "Equilibrium of forces and the glide ratio"
+      },
+      "diagrams": [
+        {
+          "id": "p1-glide-ratio-geometry",
+          "title": "Glide ratio - geometric interpretation"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "aerodynamik_1",
+          "t_start": 263.51,
+          "t_end": 295.86,
+          "snippet": "Stefan: glide ratio equals lift over drag, or equivalently Cl over Cd."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "aerodynamik",
+          "page": 35
+        }
+      ]
+    },
+    "122": {
+      "qid": 122,
+      "topic": "Aerodynamics",
+      "explanation": "Glide ratio = horizontal speed / vertical speed (sink rate). A wing flying 10 m/s forward and sinking 1 m/s has a glide ratio of 10. This is identical to the distance-over-altitude formula because both distances accumulate at the same speeds over the same time.",
+      "guide_chapter": {
+        "id": "p1-glide-ratio",
+        "title": "Glide Ratio of a Wing"
+      },
+      "workbook_chapter": {
+        "id": "aero-07-equilibrium-glide-ratio",
+        "title": "Equilibrium of forces and the glide ratio"
+      },
+      "diagrams": [
+        {
+          "id": "p1-glide-ratio-geometry",
+          "title": "Glide ratio - geometric interpretation"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "aerodynamik_1",
+          "t_start": 252.12,
+          "t_end": 277.44,
+          "snippet": "Stefan: another way - horizontal speed 10 m/s, sink 1 m/s, glide ratio of 10."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "aerodynamik",
+          "page": 35
+        }
+      ]
+    },
+    "123": {
+      "qid": 123,
+      "topic": "Aerodynamics",
+      "explanation": "Glide ratio is the ratio of horizontal distance travelled to vertical altitude lost. A glide ratio of 9 means 9 m forward for every 1 m of altitude lost - or 9 km for every 1000 m. It's a dimensionless number measuring how far the wing flies per unit of altitude.",
+      "guide_chapter": {
+        "id": "p1-glide-ratio",
+        "title": "Glide Ratio of a Wing"
+      },
+      "workbook_chapter": {
+        "id": "aero-07-equilibrium-glide-ratio",
+        "title": "Equilibrium of forces and the glide ratio"
+      },
+      "diagrams": [
+        {
+          "id": "p1-glide-ratio-geometry",
+          "title": "Glide ratio - geometric interpretation"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "aerodynamik_1",
+          "t_start": 170.75,
+          "t_end": 245.32,
+          "snippet": "Stefan: glide ratio is the vertical/horizontal distance ratio - 9 metres forward per metre of altitude."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "aerodynamik",
+          "page": 35
+        }
+      ]
+    },
+    "124": {
+      "qid": 124,
+      "topic": "Aerodynamics",
+      "explanation": "Distance = glide ratio x altitude lost = 8 x 0.8 km = 6.4 km. The wing flies 8 m horizontally for each metre of altitude lost, so from 800 m the longest possible distance in calm air is 6.4 km. In practice you would plan more conservatively (glide ratio ~5-6) to leave margin for sink and wind.",
+      "guide_chapter": {
+        "id": "p1-glide-ratio",
+        "title": "Glide Ratio of a Wing"
+      },
+      "workbook_chapter": {
+        "id": "aero-07-equilibrium-glide-ratio",
+        "title": "Equilibrium of forces and the glide ratio"
+      },
+      "diagrams": [
+        {
+          "id": "p1-glide-ratio-geometry",
+          "title": "Glide ratio - geometric interpretation"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "aerodynamik_1",
+          "t_start": 195.99,
+          "t_end": 245.32,
+          "snippet": "Stefan: glide ratio 9 from 1000 m gives 9 km - but in practice plan conservatively with 5 or 6."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "aerodynamik",
+          "page": 35
+        },
+        {
+          "deck_id": "aerodynamik",
+          "page": 54
+        }
+      ]
+    },
+    "125": {
+      "qid": 125,
+      "topic": "Aerodynamics",
+      "explanation": "Distance = glide ratio x altitude = 12 x 2.4 km = 28.8 km. A glide ratio of 12 is more typical of high-performance / competition wings than school wings. Even so, the calm-air calculation is an upper bound; real flight always involves some sink and headwind.",
+      "guide_chapter": {
+        "id": "p1-glide-ratio",
+        "title": "Glide Ratio of a Wing"
+      },
+      "workbook_chapter": {
+        "id": "aero-07-equilibrium-glide-ratio",
+        "title": "Equilibrium of forces and the glide ratio"
+      },
+      "diagrams": [
+        {
+          "id": "p1-glide-ratio-geometry",
+          "title": "Glide ratio - geometric interpretation"
+        }
+      ],
+      "video_clips": [],
+      "slide_pages": [
+        {
+          "deck_id": "aerodynamik",
+          "page": 35
+        }
+      ]
+    },
+    "126": {
+      "qid": 126,
+      "topic": "Aerodynamics",
+      "explanation": "Glide ratio = horizontal distance / altitude lost = 7.0 km / 1.4 km = 5. The wing has travelled 5 m forward for every metre of altitude given up. Always convert to the same units (here both in km) before dividing.",
+      "guide_chapter": {
+        "id": "p1-glide-ratio",
+        "title": "Glide Ratio of a Wing"
+      },
+      "workbook_chapter": {
+        "id": "aero-07-equilibrium-glide-ratio",
+        "title": "Equilibrium of forces and the glide ratio"
+      },
+      "diagrams": [
+        {
+          "id": "p1-glide-ratio-geometry",
+          "title": "Glide ratio - geometric interpretation"
+        }
+      ],
+      "video_clips": [],
+      "slide_pages": [
+        {
+          "deck_id": "aerodynamik",
+          "page": 35
+        }
+      ]
+    },
+    "127": {
+      "qid": 127,
+      "topic": "Aerodynamics",
+      "explanation": "Glide angle is the angle between the trajectory and the horizon. A flatter glide (more horizontal distance per metre lost) means a SMALLER glide angle. So as the glide ratio increases, the glide angle decreases. This is the classic SHV gotcha - 'good glide' = 'small angle'.",
+      "guide_chapter": {
+        "id": "p1-glide-ratio",
+        "title": "Glide Ratio of a Wing"
+      },
+      "workbook_chapter": {
+        "id": "aero-07-equilibrium-glide-ratio",
+        "title": "Equilibrium of forces and the glide ratio"
+      },
+      "diagrams": [
+        {
+          "id": "p1-glide-ratio-geometry",
+          "title": "Glide ratio - geometric interpretation"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "aerodynamik_1",
+          "t_start": 295.86,
+          "t_end": 334.7,
+          "snippet": "Stefan: the glide angle is NOT the glide ratio - large glide ratio means small glide angle."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "aerodynamik",
+          "page": 35
+        },
+        {
+          "deck_id": "aerodynamik",
+          "page": 36
+        }
+      ]
+    },
+    "128": {
+      "qid": 128,
+      "topic": "Aerodynamics",
+      "explanation": "Inverse of the previous: if the glide angle (the steepness of descent) increases, you're sinking more per metre of forward travel, so the glide ratio (distance / altitude) decreases. Steeper angle = worse glide; flatter angle = better glide.",
+      "guide_chapter": {
+        "id": "p1-glide-ratio",
+        "title": "Glide Ratio of a Wing"
+      },
+      "workbook_chapter": {
+        "id": "aero-07-equilibrium-glide-ratio",
+        "title": "Equilibrium of forces and the glide ratio"
+      },
+      "diagrams": [
+        {
+          "id": "p1-glide-ratio-geometry",
+          "title": "Glide ratio - geometric interpretation"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "aerodynamik_1",
+          "t_start": 295.86,
+          "t_end": 334.7,
+          "snippet": "Stefan: bigger glide angle = smaller glide ratio - they move in opposite directions."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "aerodynamik",
+          "page": 35
+        },
+        {
+          "deck_id": "aerodynamik",
+          "page": 36
+        }
+      ]
+    },
+    "129": {
+      "qid": 129,
+      "topic": "Aerodynamics",
+      "explanation": "The graph that plots horizontal airspeed against sink rate across the whole speed range of the glider is the speed polar curve (Geschwindigkeitspolare). The four key points - stall, minimum sink, best glide, Vmax - lie on this curve. A barogram is altitude vs time; emagram is meteorological.",
+      "guide_chapter": {
+        "id": "p1-polar-speeds",
+        "title": "Polar Speeds"
+      },
+      "workbook_chapter": {
+        "id": "aero-08-polar-speeds",
+        "title": "Polar curve of speeds"
+      },
+      "diagrams": [
+        {
+          "id": "p1-polar-curve-speeds",
+          "title": "Polar curve of speeds"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "aerodynamik_1",
+          "t_start": 334.7,
+          "t_end": 400.76,
+          "snippet": "Stefan introduces the speed polar - horizontal speed vs sink rate over the full speed range."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "aerodynamik",
+          "page": 37
+        },
+        {
+          "deck_id": "aerodynamik",
+          "page": 38
+        }
+      ]
+    },
+    "130": {
+      "qid": 130,
+      "topic": "Aerodynamics",
+      "explanation": "On the speed polar, best glide angle (Fmax) is identified by the tangent from the origin to the curve. For the SHV reference glider this lands at around 9 m/s horizontal airspeed (approximately 33 km/h) - the speed for the maximum glide ratio in calm air. That's the trim point at which the wing flies furthest per metre lost.",
+      "guide_chapter": {
+        "id": "p1-polar-speeds",
+        "title": "Polar Speeds"
+      },
+      "workbook_chapter": {
+        "id": "aero-08-polar-speeds",
+        "title": "Polar curve of speeds"
+      },
+      "diagrams": [
+        {
+          "id": "p1-polar-curve-speeds",
+          "title": "Polar curve of speeds"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "aerodynamik_1",
+          "t_start": 437.26,
+          "t_end": 482.27,
+          "snippet": "Stefan: best glide is where the tangent from the origin touches the polar - in this example around 9 m/s."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "aerodynamik",
+          "page": 38
+        },
+        {
+          "deck_id": "aerodynamik",
+          "page": 43
+        }
+      ]
+    },
+    "131": {
+      "qid": 131,
+      "topic": "Aerodynamics",
+      "explanation": "Read off the polar: best glide point is at ~9.2 m/s horizontal speed and ~1.7 m/s sink rate. Glide ratio = 9.2 / 1.7 ≈ 5.3. This is the maximum glide ratio for the reference glider - flatter than any other point on the polar by definition.",
+      "guide_chapter": {
+        "id": "p1-polar-speeds",
+        "title": "Polar Speeds"
+      },
+      "workbook_chapter": {
+        "id": "aero-08-polar-speeds",
+        "title": "Polar curve of speeds"
+      },
+      "diagrams": [
+        {
+          "id": "p1-polar-curve-speeds",
+          "title": "Polar curve of speeds"
+        }
+      ],
+      "video_clips": [],
+      "slide_pages": [
+        {
+          "deck_id": "aerodynamik",
+          "page": 38
+        },
+        {
+          "deck_id": "aerodynamik",
+          "page": 43
+        }
+      ]
+    },
+    "132": {
+      "qid": 132,
+      "topic": "Aerodynamics",
+      "explanation": "Minimum sink (Tmin) is the apex of the polar curve - the highest point - found by drawing a horizontal tangent. For the SHV reference glider that is at about 7.2 m/s (~26 km/h) horizontal speed and ~1.5 m/s sink. Used when you want to stay up the longest, e.g. in weak lift.",
+      "guide_chapter": {
+        "id": "p1-polar-speeds",
+        "title": "Polar Speeds"
+      },
+      "workbook_chapter": {
+        "id": "aero-08-polar-speeds",
+        "title": "Polar curve of speeds"
+      },
+      "diagrams": [
+        {
+          "id": "p1-polar-curve-speeds",
+          "title": "Polar curve of speeds"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "aerodynamik_1",
+          "t_start": 414.13,
+          "t_end": 434.26,
+          "snippet": "Stefan: minimum sink point - the wing sinks the least, around 15-20% braked."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "aerodynamik",
+          "page": 37
+        },
+        {
+          "deck_id": "aerodynamik",
+          "page": 38
+        }
+      ]
+    },
+    "133": {
+      "qid": 133,
+      "topic": "Aerodynamics",
+      "explanation": "At minimum sink: ~7.2 m/s horizontal / ~1.5 m/s sink ≈ 4.6 - 4.8. Min sink has a worse glide ratio than best glide, even though you sink slower in absolute terms. You're trading distance for airtime.",
+      "guide_chapter": {
+        "id": "p1-polar-speeds",
+        "title": "Polar Speeds"
+      },
+      "workbook_chapter": {
+        "id": "aero-08-polar-speeds",
+        "title": "Polar curve of speeds"
+      },
+      "diagrams": [
+        {
+          "id": "p1-polar-curve-speeds",
+          "title": "Polar curve of speeds"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "aerodynamik_1",
+          "t_start": 418.18,
+          "t_end": 437.26,
+          "snippet": "Stefan: at minimum sink the glide ratio is worse than at best glide, but you sink the least."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "aerodynamik",
+          "page": 38
+        }
+      ]
+    },
+    "134": {
+      "qid": 134,
+      "topic": "Aerodynamics",
+      "explanation": "Minimum flight speed - just above stall - is the leftmost point on the polar curve where lift is still being generated. For the reference glider this is around 5.6 m/s (~20 km/h). Below this the wing stalls and ceases to fly forward.",
+      "guide_chapter": {
+        "id": "p1-polar-speeds",
+        "title": "Polar Speeds"
+      },
+      "workbook_chapter": {
+        "id": "aero-08-polar-speeds",
+        "title": "Polar curve of speeds"
+      },
+      "diagrams": [
+        {
+          "id": "p1-polar-curve-speeds",
+          "title": "Polar curve of speeds"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "aerodynamik_1",
+          "t_start": 400.76,
+          "t_end": 414.13,
+          "snippet": "Stefan: stall is the leftmost point - too slow, flow detaches, wing no longer flies."
+        },
+        {
+          "video_id": "aa_stallpunkt",
+          "t_start": 23.29,
+          "t_end": 100.83,
+          "snippet": "Air Active stall-point drill: pull brakes deep and the wing transitions from forward flight to deep stall."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "aerodynamik",
+          "page": 37
+        }
+      ]
+    },
+    "135": {
+      "qid": 135,
+      "topic": "Aerodynamics",
+      "explanation": "At minimum speed the sink rate has shot up dramatically (close to stall). Roughly 5.6 m/s horizontal over 2.8 m/s sink gives glide ratio = 2.0. Heavy braking ruins the glide - the wing falls almost as fast as it moves forward.",
+      "guide_chapter": {
+        "id": "p1-polar-speeds",
+        "title": "Polar Speeds"
+      },
+      "workbook_chapter": {
+        "id": "aero-08-polar-speeds",
+        "title": "Polar curve of speeds"
+      },
+      "diagrams": [
+        {
+          "id": "p1-polar-curve-speeds",
+          "title": "Polar curve of speeds"
+        }
+      ],
+      "video_clips": [],
+      "slide_pages": [
+        {
+          "deck_id": "aerodynamik",
+          "page": 37
+        },
+        {
+          "deck_id": "aerodynamik",
+          "page": 38
+        }
+      ]
+    },
+    "136": {
+      "qid": 136,
+      "topic": "Aerodynamics",
+      "explanation": "Vmax (full speedbar): ~11.3 m/s horizontal / ~3 m/s sink ≈ 3.7. Max speed comes with a heavy sink-rate penalty - the glide ratio is much worse than at trim. Use accelerator only when fighting headwind or sink, not for maximum glide in calm air.",
+      "guide_chapter": {
+        "id": "p1-polar-speeds",
+        "title": "Polar Speeds"
+      },
+      "workbook_chapter": {
+        "id": "aero-08-polar-speeds",
+        "title": "Polar curve of speeds"
+      },
+      "diagrams": [
+        {
+          "id": "p1-polar-curve-speeds",
+          "title": "Polar curve of speeds"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "aerodynamik_1",
+          "t_start": 437.26,
+          "t_end": 470.5,
+          "snippet": "Stefan: Vmax has a smaller glide ratio than Fmax - you're trading glide for speed."
+        },
+        {
+          "video_id": "aa_beschleunigt_fliegen",
+          "t_start": 6.46,
+          "t_end": 60.09,
+          "snippet": "Air Active accelerated-flight drill: how to set up and use the speedbar."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "aerodynamik",
+          "page": 38
+        },
+        {
+          "deck_id": "aerodynamik",
+          "page": 43
+        }
+      ]
+    },
+    "137": {
+      "qid": 137,
+      "topic": "Aerodynamics",
+      "explanation": "In a strong headwind the best-glide tangent shifts forward on the polar - to maintain the highest glide ratio over the ground, you must accelerate. With 8 m/s of headwind (close to the wing's own trim speed) the new tangent often touches the polar near Vmax. Push the speedbar fully (with safety margin to the slope).",
+      "guide_chapter": {
+        "id": "p1-polar-speeds-moving-air",
+        "title": "Polar Speeds in Moving Air Mass"
+      },
+      "workbook_chapter": {
+        "id": "aero-08-polar-speeds",
+        "title": "Polar curve of speeds"
+      },
+      "diagrams": [
+        {
+          "id": "p1-polar-headwind-sink",
+          "title": "Polar curve with wind and sink"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "aerodynamik_1",
+          "t_start": 485.27,
+          "t_end": 526.64,
+          "snippet": "Stefan walks through the headwind polar shift - the tangent moves forward to maximum speed."
+        },
+        {
+          "video_id": "aa_beschleunigt_fliegen",
+          "t_start": 6.46,
+          "t_end": 99.58,
+          "snippet": "Air Active: how to engage the accelerator for accelerated flight."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "aerodynamik",
+          "page": 39
+        },
+        {
+          "deck_id": "aerodynamik",
+          "page": 53
+        }
+      ]
+    },
+    "138": {
+      "qid": 138,
+      "topic": "Aerodynamics",
+      "explanation": "Glide ratio is the ratio of distance to altitude lost. From the same altitude, a glider with ratio 10 flies twice as far as one with ratio 5 - 10/5 = 2. Sink rates depend on airspeed too, not just glide ratio, so the sink-rate options in the question are not directly derivable.",
+      "guide_chapter": {
+        "id": "p1-glide-ratio",
+        "title": "Glide Ratio of a Wing"
+      },
+      "workbook_chapter": {
+        "id": "aero-07-equilibrium-glide-ratio",
+        "title": "Equilibrium of forces and the glide ratio"
+      },
+      "diagrams": [
+        {
+          "id": "p1-glide-ratio-geometry",
+          "title": "Glide ratio - geometric interpretation"
+        }
+      ],
+      "video_clips": [],
+      "slide_pages": [
+        {
+          "deck_id": "aerodynamik",
+          "page": 35
+        }
+      ]
+    },
+    "139": {
+      "qid": 139,
+      "topic": "Aerodynamics",
+      "explanation": "In sinking air, shift the origin of the polar down by the sink rate. The new tangent for best glide-over-ground touches the polar at a higher airspeed than best glide in calm air - so accelerate. Same rule as for headwind: fly faster to get out of the bad air mass and improve ground-relative glide.",
+      "guide_chapter": {
+        "id": "p1-polar-speeds-moving-air",
+        "title": "Polar Speeds in Moving Air Mass"
+      },
+      "workbook_chapter": {
+        "id": "aero-08-polar-speeds",
+        "title": "Polar curve of speeds"
+      },
+      "diagrams": [
+        {
+          "id": "p1-polar-headwind-sink",
+          "title": "Polar curve with wind and sink"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "aerodynamik_1",
+          "t_start": 707.64,
+          "t_end": 744.55,
+          "snippet": "Stefan: in sink, accelerate - get out of the bad air and your glide ratio improves dramatically."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "aerodynamik",
+          "page": 38
+        },
+        {
+          "deck_id": "aerodynamik",
+          "page": 53
+        }
+      ]
+    },
+    "140": {
+      "qid": 140,
+      "topic": "Aerodynamics",
+      "explanation": "In a headwind, the polar origin shifts to the right (subtract wind from ground speed). The new best-glide tangent touches the polar at a higher airspeed - so accelerate. The stronger the headwind, the more accelerator you need to maximise glide over the ground.",
+      "guide_chapter": {
+        "id": "p1-polar-speeds-moving-air",
+        "title": "Polar Speeds in Moving Air Mass"
+      },
+      "workbook_chapter": {
+        "id": "aero-08-polar-speeds",
+        "title": "Polar curve of speeds"
+      },
+      "diagrams": [
+        {
+          "id": "p1-polar-headwind-sink",
+          "title": "Polar curve with wind and sink"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "aerodynamik_1",
+          "t_start": 485.27,
+          "t_end": 526.64,
+          "snippet": "Stefan: headwind shifts the tangent forward - you have to accelerate to maintain max ground glide."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "aerodynamik",
+          "page": 39
+        },
+        {
+          "deck_id": "aerodynamik",
+          "page": 53
+        }
+      ]
+    },
+    "141": {
+      "qid": 141,
+      "topic": "Aerodynamics",
+      "explanation": "Relative to the air mass, the wing flies at the same airspeed (36 km/h) and sinks at the same 1 m/s. But the whole air mass is itself sinking at 1 m/s, so the wing's sink rate over the ground is 1 + 1 = 2 m/s. Air speed stays the same; only the ground-relative sink changes.",
+      "guide_chapter": {
+        "id": "p1-polar-speeds-moving-air",
+        "title": "Polar Speeds in Moving Air Mass"
+      },
+      "workbook_chapter": {
+        "id": "aero-08-polar-speeds",
+        "title": "Polar curve of speeds"
+      },
+      "diagrams": [
+        {
+          "id": "p1-polar-headwind-sink",
+          "title": "Polar curve with wind and sink"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "aerodynamik_1",
+          "t_start": 920.27,
+          "t_end": 963.55,
+          "snippet": "Stefan: 10 m/s forward, 1 m/s wing sink, plus 1 m/s sinking air = total 2 m/s sink, glide drops from 10 to 5."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "aerodynamik",
+          "page": 52
+        },
+        {
+          "deck_id": "aerodynamik",
+          "page": 54
+        }
+      ]
+    },
+    "142": {
+      "qid": 142,
+      "topic": "Aerodynamics",
+      "explanation": "Forward speed still 10 m/s, but total sink rate over the ground is now 2 m/s (wing's 1 m/s + air mass's 1 m/s). New glide ratio = 10 / 2 = 5. Even moderate sink halves the glide ratio of an excellent glider - a powerful reminder that 'manufacturer glide ratio' rarely matches reality.",
+      "guide_chapter": {
+        "id": "p1-polar-speeds-moving-air",
+        "title": "Polar Speeds in Moving Air Mass"
+      },
+      "workbook_chapter": {
+        "id": "aero-08-polar-speeds",
+        "title": "Polar curve of speeds"
+      },
+      "diagrams": [
+        {
+          "id": "p1-polar-headwind-sink",
+          "title": "Polar curve with wind and sink"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "aerodynamik_1",
+          "t_start": 920.27,
+          "t_end": 973.55,
+          "snippet": "Stefan: 10 / 2 = 5 - the glider's glide ratio collapses from 10 to 5 just because of a 1 m/s sinking air mass."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "aerodynamik",
+          "page": 52
+        },
+        {
+          "deck_id": "aerodynamik",
+          "page": 54
+        }
+      ]
+    },
+    "143": {
+      "qid": 143,
+      "topic": "Aerodynamics",
+      "explanation": "Sink rate doesn't change with horizontal wind - the wing's behaviour relative to the air mass is unaffected. Only the ground speed changes: 15 m/s air speed - 5 m/s headwind = 10 m/s ground speed (= 36 km/h). Sink stays at 2 m/s.",
+      "guide_chapter": {
+        "id": "p1-polar-speeds-moving-air",
+        "title": "Polar Speeds in Moving Air Mass"
+      },
+      "workbook_chapter": {
+        "id": "aero-08-polar-speeds",
+        "title": "Polar curve of speeds"
+      },
+      "diagrams": [
+        {
+          "id": "p1-polar-headwind-sink",
+          "title": "Polar curve with wind and sink"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "aerodynamik_1",
+          "t_start": 836.07,
+          "t_end": 893.44,
+          "snippet": "Stefan: horizontal wind only changes ground speed - sink rate stays the same."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "aerodynamik",
+          "page": 52
+        },
+        {
+          "deck_id": "aerodynamik",
+          "page": 53
+        }
+      ]
+    },
+    "144": {
+      "qid": 144,
+      "topic": "Aerodynamics",
+      "explanation": "Ground speed = 15 - 5 = 10 m/s, sink = 2 m/s, so glide-over-ground = 10 / 2 = 5. In calm air the same wing would have glide 15/2 = 7.5; the headwind has reduced effective glide by a third. This is why you accelerate in headwind to push the ratio back up.",
+      "guide_chapter": {
+        "id": "p1-polar-speeds-moving-air",
+        "title": "Polar Speeds in Moving Air Mass"
+      },
+      "workbook_chapter": {
+        "id": "aero-08-polar-speeds",
+        "title": "Polar curve of speeds"
+      },
+      "diagrams": [
+        {
+          "id": "p1-polar-headwind-sink",
+          "title": "Polar curve with wind and sink"
+        }
+      ],
+      "video_clips": [],
+      "slide_pages": [
+        {
+          "deck_id": "aerodynamik",
+          "page": 53
+        },
+        {
+          "deck_id": "aerodynamik",
+          "page": 54
+        }
+      ]
+    },
+    "145": {
+      "qid": 145,
+      "topic": "Aerodynamics",
+      "explanation": "Sink rate = horizontal speed / glide ratio = 12 / 10 = 1.2 m/s. The four equivalent definitions of glide ratio let you solve for any single missing quantity if the other two are given.",
+      "guide_chapter": {
+        "id": "p1-glide-ratio",
+        "title": "Glide Ratio of a Wing"
+      },
+      "workbook_chapter": {
+        "id": "aero-07-equilibrium-glide-ratio",
+        "title": "Equilibrium of forces and the glide ratio"
+      },
+      "diagrams": [
+        {
+          "id": "p1-glide-ratio-geometry",
+          "title": "Glide ratio - geometric interpretation"
+        }
+      ],
+      "video_clips": [],
+      "slide_pages": [
+        {
+          "deck_id": "aerodynamik",
+          "page": 35
+        }
+      ]
+    },
+    "146": {
+      "qid": 146,
+      "topic": "Aerodynamics",
+      "explanation": "Glide ratio 8 means 8 m forward per 1 m lost, so altitude lost = distance / glide ratio = 1600 / 8 = 200 m. Simple division - any conservative crossing plan would build in margin above this minimum.",
+      "guide_chapter": {
+        "id": "p1-glide-ratio",
+        "title": "Glide Ratio of a Wing"
+      },
+      "workbook_chapter": {
+        "id": "aero-07-equilibrium-glide-ratio",
+        "title": "Equilibrium of forces and the glide ratio"
+      },
+      "diagrams": [
+        {
+          "id": "p1-glide-ratio-geometry",
+          "title": "Glide ratio - geometric interpretation"
+        }
+      ],
+      "video_clips": [],
+      "slide_pages": [
+        {
+          "deck_id": "aerodynamik",
+          "page": 35
+        }
+      ]
+    },
+    "147": {
+      "qid": 147,
+      "topic": "Aerodynamics",
+      "explanation": "Forward speed = glide ratio x sink rate = 9 x 1 m/s = 9 m/s. Converting: 9 x 3.6 = 32.4 km/h. Always remember the m/s to km/h conversion factor of 3.6 - critical for these questions.",
+      "guide_chapter": {
+        "id": "p1-glide-ratio",
+        "title": "Glide Ratio of a Wing"
+      },
+      "workbook_chapter": {
+        "id": "aero-07-equilibrium-glide-ratio",
+        "title": "Equilibrium of forces and the glide ratio"
+      },
+      "diagrams": [
+        {
+          "id": "p1-glide-ratio-geometry",
+          "title": "Glide ratio - geometric interpretation"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "aerodynamik_1",
+          "t_start": 886.44,
+          "t_end": 928.45,
+          "snippet": "Stefan: conversion factor 3.6 - 36 km/h divided by 3.6 = 10 m/s; the m/s and ratio together give glide."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "aerodynamik",
+          "page": 35
+        }
+      ]
+    },
+    "148": {
+      "qid": 148,
+      "topic": "Aerodynamics",
+      "explanation": "Glide ratio = forward speed / sink rate = 9 / 1.5 = 6.0. Straight application of the definition. Don't be fooled by km/h - first convert both speeds to the same units, or note that 32.4 km/h divided by something in km/h gives the same ratio as the m/s calculation.",
+      "guide_chapter": {
+        "id": "p1-glide-ratio",
+        "title": "Glide Ratio of a Wing"
+      },
+      "workbook_chapter": {
+        "id": "aero-07-equilibrium-glide-ratio",
+        "title": "Equilibrium of forces and the glide ratio"
+      },
+      "diagrams": [
+        {
+          "id": "p1-glide-ratio-geometry",
+          "title": "Glide ratio - geometric interpretation"
+        }
+      ],
+      "video_clips": [],
+      "slide_pages": [
+        {
+          "deck_id": "aerodynamik",
+          "page": 35
+        }
+      ]
+    },
+    "149": {
+      "qid": 149,
+      "topic": "Aerodynamics",
+      "explanation": "Airspeed at a given angle of attack depends only on wing loading and the air around it - not on whether the whole air mass is rising or sinking. So the airspeed for minimum sink is the same in lift, sink and calm air. What changes is the ground-relative sink rate, not the airspeed.",
+      "guide_chapter": {
+        "id": "p1-polar-speeds-moving-air",
+        "title": "Polar Speeds in Moving Air Mass"
+      },
+      "workbook_chapter": {
+        "id": "aero-08-polar-speeds",
+        "title": "Polar curve of speeds"
+      },
+      "diagrams": [
+        {
+          "id": "p1-polar-headwind-sink",
+          "title": "Polar curve with wind and sink"
+        }
+      ],
+      "video_clips": [],
+      "slide_pages": [
+        {
+          "deck_id": "aerodynamik",
+          "page": 52
+        }
+      ]
+    },
+    "150": {
+      "qid": 150,
+      "topic": "Aerodynamics",
+      "explanation": "Load factor (in G) is the ratio of the actual loading on the glider during a manoeuvre to the static weight at rest on the ground. In a tight turn the centrifugal force adds to weight, so the wing 'feels' heavier; the load factor measures that increase.",
+      "guide_chapter": {
+        "id": "p1-equilibrium-turning",
+        "title": "Equilibrium of Forces for a Glider while Turning & Load Factor"
+      },
+      "workbook_chapter": {
+        "id": "aero-09-axes-stability-turns",
+        "title": "Axes, stability and turning flight"
+      },
+      "diagrams": [
+        {
+          "id": "p1-turning-forces",
+          "title": "Forces and load factor in a turn"
+        },
+        {
+          "id": "p1-turning-bank-load",
+          "title": "Load factor vs bank angle"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "aerodynamik_1",
+          "t_start": 1197.9,
+          "t_end": 1257.55,
+          "snippet": "Stefan: load factor in a turn - at 45 degrees bank it's 1.4 G, at 60 degrees 2 G, at 70 degrees 3 G."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "aerodynamik",
+          "page": 63
+        }
+      ]
+    },
+    "151": {
+      "qid": 151,
+      "topic": "Aerodynamics",
+      "explanation": "Load factor = actual load / normal weight = 250 kg / 100 kg = 2.5 G. The wing carries 2.5 times its straight-flight weight - corresponding to a bank angle around 65 degrees. Load factor is dimensionless (always expressed as a multiple of G).",
+      "guide_chapter": {
+        "id": "p1-equilibrium-turning",
+        "title": "Equilibrium of Forces for a Glider while Turning & Load Factor"
+      },
+      "workbook_chapter": {
+        "id": "aero-09-axes-stability-turns",
+        "title": "Axes, stability and turning flight"
+      },
+      "diagrams": [
+        {
+          "id": "p1-turning-bank-load",
+          "title": "Load factor vs bank angle"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "aerodynamik_1",
+          "t_start": 1197.9,
+          "t_end": 1257.55,
+          "snippet": "Stefan: at 60 degrees bank you experience 2 G, at 70 degrees 3 G - hanging a second wing has the same effect."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "aerodynamik",
+          "page": 63
+        }
+      ]
+    },
+    "152": {
+      "qid": 152,
+      "topic": "Aerodynamics",
+      "explanation": "Entering a turn introduces centrifugal force, which adds to weight - the effective load on the wing increases. To balance this larger 'effective weight', the wing must fly faster, which shifts the entire speed polar up: trim speed, max speed AND minimum (stall) speed all increase. Wing loading rises proportionally to the load factor.",
+      "guide_chapter": {
+        "id": "p1-equilibrium-turning",
+        "title": "Equilibrium of Forces for a Glider while Turning & Load Factor"
+      },
+      "workbook_chapter": {
+        "id": "aero-09-axes-stability-turns",
+        "title": "Axes, stability and turning flight"
+      },
+      "diagrams": [
+        {
+          "id": "p1-turning-forces",
+          "title": "Forces and load factor in a turn"
+        },
+        {
+          "id": "p1-turning-bank-load",
+          "title": "Load factor vs bank angle"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "aerodynamik_1",
+          "t_start": 1281.82,
+          "t_end": 1349.46,
+          "snippet": "Stefan: load multiples raise wing loading, the polar shifts forward and minimum speed rises with everything else."
+        },
+        {
+          "video_id": "aa_kurvenfliegen",
+          "t_start": 6.68,
+          "t_end": 94.58,
+          "snippet": "Air Active turn flying: weight shift first, then brake - load factor and minimum speed both rise."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "aerodynamik",
+          "page": 63
+        }
+      ]
+    }
+  },
+  "generated_at": "2026-05-28T15:18:15Z"
+}

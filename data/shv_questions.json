@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-05-28T15:18:28.528Z",
+  "fetchedAt": "2026-05-28T15:19:30.308Z",
   "questions": {
     "1": {
       "qid": 1,
@@ -5869,6 +5869,230 @@
         "Integral helmets."
       ],
       "correct": 3
+    },
+    "Materials_112": {
+      "qid": 112,
+      "topic": "Materials",
+      "pos": 103,
+      "total_in_topic": 125,
+      "text": "During flight an Anemometer measures",
+      "options": [
+        "the drift speed relative to the forward speed.",
+        "the speed in relation to the ambient air.",
+        "the speed over ground.",
+        "the wind direction."
+      ],
+      "correct": 1
+    },
+    "Materials_108": {
+      "qid": 108,
+      "topic": "Materials",
+      "pos": 104,
+      "total_in_topic": 125,
+      "text": "Which form of radiation causes the most damage to a paraglider?",
+      "options": [
+        "X-ray radiation.",
+        "Gamma radiation.",
+        "Infrared radiation.",
+        "Ultra-violet radiation."
+      ],
+      "correct": 3
+    },
+    "Materials_122": {
+      "qid": 122,
+      "topic": "Materials",
+      "pos": 105,
+      "total_in_topic": 125,
+      "text": "Flying with a EN tested wing in Switzerland is",
+      "options": [
+        "obligatory for SHV members, otherwise strongly recommended.",
+        "obligatory for exams as stipulated by BAZL (OFAC) otherwise strongly recommended.",
+        "obligatory for pilots with SHV 3rd party insurance, otherwise strongly recommended.",
+        "required by law."
+      ],
+      "correct": 1
+    },
+    "Materials_93": {
+      "qid": 93,
+      "topic": "Materials",
+      "pos": 106,
+      "total_in_topic": 125,
+      "text": "If the connection point of a reserve chute main line is situated about the pilots center of gravity (same height) then",
+      "options": [
+        "the likelihood of the main and reserve chutes tangling is smaller.",
+        "the pilot is automatically brought into an upright position upon throwing the reserve.",
+        "the glider will automatically cease flying, resulting in a more stable descent.",
+        "the pilot must remember to move into an upright stance before landing."
+      ],
+      "correct": 3
+    },
+    "Materials_123": {
+      "qid": 123,
+      "topic": "Materials",
+      "pos": 108,
+      "total_in_topic": 125,
+      "text": "The compliance of a wing to EN norms is a declaration concerning",
+      "options": [
+        "the structural strength and flight characteristics of a specific glider model in new condition.",
+        "the construction (conforming to SHV standards) and durability/resistance to aging of a specific glider model.",
+        "the flight characteristics and construction conforming to SHV standards of a specific glider model in new condition.",
+        "the structural strength and durability/resistance to aging of a specific glider model."
+      ],
+      "correct": 0
+    },
+    "Materials_26": {
+      "qid": 26,
+      "topic": "Materials",
+      "pos": 109,
+      "total_in_topic": 125,
+      "text": "Paraglider X has 18 cells, glider Y has 24 cells. Both have a surface area of 24m2 and a span of 10m. They are constructed from the same materials and principles. Which of the following is true?",
+      "options": [
+        "X has a thicker profile and larger pack volume than Y.",
+        "X has a smaller aspect ratio than Y, but both have the same pack volume.",
+        "Y has a more precise profile and a larger pack volume than X.",
+        "Y has a larger aspect ratio and a greater pack volume than X."
+      ],
+      "correct": 2
+    },
+    "Materials_115": {
+      "qid": 115,
+      "topic": "Materials",
+      "pos": 110,
+      "total_in_topic": 125,
+      "text": "A variometer works by measuring",
+      "options": [
+        "the horizontal speed.",
+        "the vertical speed.",
+        "the changes in altitude.",
+        "atmospheric pressure differences."
+      ],
+      "correct": 3
+    },
+    "Materials_5": {
+      "qid": 5,
+      "topic": "Materials",
+      "pos": 111,
+      "total_in_topic": 125,
+      "text": "The porosity of the materials used for paragliders (canopy)",
+      "options": [
+        "is not important, the strength is what counts.",
+        "should be as low as possible.",
+        "should be as high as possible.",
+        "should never be below a predetermined value, as the boundary layer becomes too laminar."
+      ],
+      "correct": 1
+    },
+    "Materials_101": {
+      "qid": 101,
+      "topic": "Materials",
+      "pos": 112,
+      "total_in_topic": 125,
+      "text": "Which part of a reserve chute takes the longest to dry after a water landing?",
+      "options": [
+        "The outer container.",
+        "The inner container.",
+        "The chute itself.",
+        "The suspension lines."
+      ],
+      "correct": 3
+    },
+    "Materials_43": {
+      "qid": 43,
+      "topic": "Materials",
+      "pos": 113,
+      "total_in_topic": 125,
+      "text": "What circumstances can cause a change in the initial length of the suspension lines?",
+      "options": [
+        "Only the use of lines of different types or different dimensions.",
+        "Only a very high loading on individual lines, for example when a line gets caught somewhere during launch or landing.",
+        "Modern glider lines never change their length permanently.",
+        "Different loading on the lines during normal usage."
+      ],
+      "correct": 3
+    },
+    "Materials_98": {
+      "qid": 98,
+      "topic": "Materials",
+      "pos": 114,
+      "total_in_topic": 125,
+      "text": "What are the important factors in the construction of reserve chutes?",
+      "options": [
+        "Absolute resistence to UV radiation.",
+        "Minimal elasticity.",
+        "High strength and elasticity within clearly defined limits.",
+        "Minimal porosity."
+      ],
+      "correct": 2
+    },
+    "Materials_75": {
+      "qid": 75,
+      "topic": "Materials",
+      "pos": 115,
+      "total_in_topic": 125,
+      "text": "The length of the brake/steering lines are set so that",
+      "options": [
+        "it is never necessary to wrap the brakes upon landing.",
+        "it is possible to fly the entire speed range of the glider without problems.",
+        "the glider can be flown at best glide with brakes at shoulder height.",
+        "they are as short as possible to avoid tangling with the D lines."
+      ],
+      "correct": 1
+    },
+    "Materials_49": {
+      "qid": 49,
+      "topic": "Materials",
+      "pos": 116,
+      "total_in_topic": 125,
+      "text": "What are the consequences of a lengthening of the D lines?",
+      "options": [
+        "Angle of attack increases, the profile remains unchanged and handling of the wing changes.",
+        "Angle of attack remains unchanged and the profile and handling of the wing changes.",
+        "Angle of attack reduces and the profile and handling of the wing changes.",
+        "Angle of attack increases and the profile and handling of the wing changes."
+      ],
+      "correct": 2
+    },
+    "Materials_113": {
+      "qid": 113,
+      "topic": "Materials",
+      "pos": 118,
+      "total_in_topic": 125,
+      "text": "Which of the following mounting positions would give the most accurate reading from an Anemometer?",
+      "options": [
+        "1 meter under the pilot's foot.",
+        "On the thigh of the pilot.",
+        "On the front riser.",
+        "On the A-lines half way between the pilot and the canopy."
+      ],
+      "correct": 0
+    },
+    "Materials_18": {
+      "qid": 18,
+      "topic": "Materials",
+      "pos": 120,
+      "total_in_topic": 125,
+      "text": "The largest load on a wing during flight is",
+      "options": [
+        "on the upper side of the wing surface near the leading edge.",
+        "on the lower side of the wing surface near the trailing edge.",
+        "on the upper side of the wing surface near the trailing edge.",
+        "on the lower side of the wing surface near the leading edge."
+      ],
+      "correct": 0
+    },
+    "Materials_24": {
+      "qid": 24,
+      "topic": "Materials",
+      "pos": 122,
+      "total_in_topic": 125,
+      "text": "Why are diagonal V-ribs or cell walls built into the wing construction?",
+      "options": [
+        "They allow the load on the upper wing surface to be carried by a reduced number of suspension lines thus reducing drag.",
+        "They encourage a gentle, continuous reopening of the wing after a collapse.",
+        "They inhibit permanent deformation of the wing as a result of the slow stretching of the cloth.",
+        "They inhibit the rapid exhausting of air from individual cells, and thereby inhibit collapses."
+      ],
+      "correct": 0
     }
   },
   "topics": {
