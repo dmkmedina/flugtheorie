@@ -13189,6 +13189,3988 @@
         }
       ],
       "subcategory": "abbreviations"
+    },
+    "Practical Flying_2": {
+      "qid": 2,
+      "topic": "Practical Flying",
+      "explanation": "When you fly with a head cold or middle-ear infection, the Eustachian tubes are swollen and can no longer equalise pressure on the way down. As the outside pressure rises, the trapped air in the inner ear is compressed, the eardrum is pushed inward and stretches violently - producing sudden, very sharp pain (and risk of barotrauma) rather than slow performance loss. The textbook reasons not to fly that day.",
+      "guide_chapter": {
+        "id": "p5-physiology",
+        "title": "Physiology, Pathology, Trauma and First Aid"
+      },
+      "workbook_chapter": {
+        "id": "skills-01-physiology",
+        "title": "Physiology and first aid"
+      },
+      "diagrams": [
+        {
+          "id": "p5-hypoxia-altitude",
+          "title": "Hypoxia onset by altitude"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "flugpraxis_0",
+          "t_start": 89.8,
+          "t_end": 124.1,
+          "snippet": "Sam: the very first thing is whether you're even fit to fly - clear-headed, not hungover, no medication that could mask pain, no condition that flying could worsen."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "flugpraxis",
+          "page": 3
+        }
+      ]
+    },
+    "Practical Flying_3": {
+      "qid": 3,
+      "topic": "Practical Flying",
+      "explanation": "Up to about 4000 m above sea level a resting body still adapts well to the falling oxygen partial pressure - hyperventilation and faster pulse compensate enough that you keep functioning. Higher up, those mechanisms run out and acute mountain sickness or hypoxia set in. Paragliding without oxygen above this band is risky for anyone not specifically acclimatised.",
+      "guide_chapter": {
+        "id": "p5-physiology",
+        "title": "Physiology, Pathology, Trauma and First Aid"
+      },
+      "workbook_chapter": {
+        "id": "skills-01-physiology",
+        "title": "Physiology and first aid"
+      },
+      "diagrams": [
+        {
+          "id": "p5-hypoxia-altitude",
+          "title": "Hypoxia onset by altitude"
+        }
+      ],
+      "video_clips": [],
+      "slide_pages": [
+        {
+          "deck_id": "flugpraxis",
+          "page": 3
+        }
+      ]
+    },
+    "Practical Flying_6": {
+      "qid": 6,
+      "topic": "Practical Flying",
+      "explanation": "Hypoxia tolerance is genuinely improved only by raising the body's aerobic baseline and by spending time at altitude so the blood/lung response adapts. Regular endurance training and a stepwise acclimatisation week (sleep low, climb high) are the two interventions with measurable effect; deep breaths, vitamin pills and motion-sickness drugs do not change how much O2 the blood can carry.",
+      "guide_chapter": {
+        "id": "p5-physiology",
+        "title": "Physiology, Pathology, Trauma and First Aid"
+      },
+      "workbook_chapter": {
+        "id": "skills-01-physiology",
+        "title": "Physiology and first aid"
+      },
+      "diagrams": [
+        {
+          "id": "p5-hypoxia-altitude",
+          "title": "Hypoxia onset by altitude"
+        }
+      ],
+      "video_clips": [],
+      "slide_pages": [
+        {
+          "deck_id": "flugpraxis",
+          "page": 3
+        }
+      ]
+    },
+    "Practical Flying_7": {
+      "qid": 7,
+      "topic": "Practical Flying",
+      "explanation": "The standard wind-chill table for paragliding tabulates exactly this scenario: ambient air 2 deg C and an airspeed of about 32 km/h feels like -11 deg C on exposed skin. The 13-degree drop comes from forced convection stripping the warmed boundary layer off your face and hands - and is why a hard-shell collar, full-finger gloves and a hot drink before launch matter even on a mild spring day.",
+      "guide_chapter": {
+        "id": "p5-physiology",
+        "title": "Physiology, Pathology, Trauma and First Aid"
+      },
+      "workbook_chapter": {
+        "id": "skills-01-physiology",
+        "title": "Physiology and first aid"
+      },
+      "diagrams": [
+        {
+          "id": "p5-windchill",
+          "title": "Wind chill in flight"
+        }
+      ],
+      "video_clips": [],
+      "slide_pages": []
+    },
+    "Practical Flying_8": {
+      "qid": 8,
+      "topic": "Practical Flying",
+      "explanation": "A cold body has to spend a much larger fraction of its energy budget on shivering and on maintaining core temperature, so muscle output drops while basal oxygen demand actually rises. The net effect for the pilot: slower reactions, weaker grip on the brakes and a much smaller decision window - which is exactly when accidents happen.",
+      "guide_chapter": {
+        "id": "p5-physiology",
+        "title": "Physiology, Pathology, Trauma and First Aid"
+      },
+      "workbook_chapter": {
+        "id": "skills-01-physiology",
+        "title": "Physiology and first aid"
+      },
+      "diagrams": [
+        {
+          "id": "p5-windchill",
+          "title": "Wind chill in flight"
+        }
+      ],
+      "video_clips": [],
+      "slide_pages": []
+    },
+    "Practical Flying_9": {
+      "qid": 9,
+      "topic": "Practical Flying",
+      "explanation": "Constant airflow over the body, mouth and nose accelerates evaporation from skin and respiratory tract, so fluid loss climbs sharply during a long flight. The result of skipping fluids is a headache, sluggish thinking and slower reflexes hours into the flight - that's why Sam stresses 'drink, drink, drink' in the pre-flight checklist even though it means using a urinal condom or similar in the air.",
+      "guide_chapter": {
+        "id": "p5-physiology",
+        "title": "Physiology, Pathology, Trauma and First Aid"
+      },
+      "workbook_chapter": {
+        "id": "skills-01-physiology",
+        "title": "Physiology and first aid"
+      },
+      "diagrams": [
+        {
+          "id": "p5-windchill",
+          "title": "Wind chill in flight"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "flugpraxis_0",
+          "t_start": 367.6,
+          "t_end": 415.0,
+          "snippet": "Sam: drinking matters most - skipping it because of the toilet problem gives you a headache, slows you down and ruins the flying day; bring a solution and drink throughout."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "flugpraxis",
+          "page": 3
+        }
+      ]
+    },
+    "Practical Flying_10": {
+      "qid": 10,
+      "topic": "Practical Flying",
+      "explanation": "QNH is the local sea-level pressure that aerodromes broadcast after correcting the station reading down to mean sea level using the ICAO standard atmosphere. With this number dialled into the altimeter it then reads altitude above sea level rather than above the station. So 'Zurich QNH 1015' is purely a calibration value, not the maximum or standard pressure for that day.",
+      "guide_chapter": {
+        "id": "p5-flight-preparation",
+        "title": "Flight Preparation"
+      },
+      "workbook_chapter": {
+        "id": "skills-02-flight-preparation",
+        "title": "Flight preparation"
+      },
+      "diagrams": [
+        {
+          "id": "p5-flight-prep",
+          "title": "Four pre-flight factors"
+        }
+      ],
+      "video_clips": [],
+      "slide_pages": [
+        {
+          "deck_id": "flugpraxis",
+          "page": 3
+        }
+      ]
+    },
+    "Practical Flying_11": {
+      "qid": 11,
+      "topic": "Practical Flying",
+      "explanation": "Both stations report QNH at sea level, so the 8 hPa drop from Zurich (1015) to Lugano (1007) is a real north-south pressure gradient across the Alps. Wind always blows from high to low pressure, so this configuration drives air over the main Alpine crest from north to south - the classic north-foehn pattern with strong, gusty winds on the south side.",
+      "guide_chapter": {
+        "id": "p5-flight-preparation",
+        "title": "Flight Preparation"
+      },
+      "workbook_chapter": {
+        "id": "skills-02-flight-preparation",
+        "title": "Flight preparation"
+      },
+      "diagrams": [
+        {
+          "id": "p5-flight-prep",
+          "title": "Four pre-flight factors"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "flugpraxis_0",
+          "t_start": 124.1,
+          "t_end": 195.9,
+          "snippet": "Sam: the FFG rule covers foehn, front and thunderstorm - if any of these turn up in the forecast, ears get big and we check carefully."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "flugpraxis",
+          "page": 3
+        }
+      ]
+    },
+    "Practical Flying_13": {
+      "qid": 13,
+      "topic": "Practical Flying",
+      "explanation": "The 4 hPa rule of thumb between Zurich (north of the Alps) and Lugano (south) is the practical foehn threshold used by Swiss pilots. Below that the pressure gradient is too weak to drive the cross-Alpine flow, above it the air is forced over or around the ridge and you get the characteristic strong, gusty, dry winds on the lee side. Always check the QNH pair before flying.",
+      "guide_chapter": {
+        "id": "p5-flight-preparation",
+        "title": "Flight Preparation"
+      },
+      "workbook_chapter": {
+        "id": "skills-02-flight-preparation",
+        "title": "Flight preparation"
+      },
+      "diagrams": [
+        {
+          "id": "p5-flight-prep",
+          "title": "Four pre-flight factors"
+        }
+      ],
+      "video_clips": [],
+      "slide_pages": [
+        {
+          "deck_id": "flugpraxis",
+          "page": 3
+        }
+      ]
+    },
+    "Practical Flying_15": {
+      "qid": 15,
+      "topic": "Practical Flying",
+      "explanation": "When the route leaves familiar Alpine terrain for the flatlands you need the document that shows controlled airspace, prohibited zones, glider sectors and especially the high-tension power lines that criss-cross the lowlands - the glider/gliding map (Segelflugkarte). DABS and NOTAM cover only short-term restrictions; the VFR Manual is reference material rather than a navigation chart.",
+      "guide_chapter": {
+        "id": "p5-flight-preparation",
+        "title": "Flight Preparation"
+      },
+      "workbook_chapter": {
+        "id": "skills-02-flight-preparation",
+        "title": "Flight preparation"
+      },
+      "diagrams": [
+        {
+          "id": "p5-flight-prep",
+          "title": "Four pre-flight factors"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "flugpraxis_0",
+          "t_start": 216.1,
+          "t_end": 273.3,
+          "snippet": "Sam: the glider chart describes the legal situation, and you also have to check the DABS each flying day for active airspace restrictions."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "flugpraxis",
+          "page": 3
+        }
+      ]
+    },
+    "Practical Flying_17": {
+      "qid": 17,
+      "topic": "Practical Flying",
+      "explanation": "Good preparation always covers the same four pillars: match your plan to the actual conditions, walk the landing field, identify all cables and obstacles, and respect wildlife sanctuaries. There is no requirement to register a flight or notify an airfield chief - those distractor options exist only to pad the question.",
+      "guide_chapter": {
+        "id": "p5-flight-preparation",
+        "title": "Flight Preparation"
+      },
+      "workbook_chapter": {
+        "id": "skills-02-flight-preparation",
+        "title": "Flight preparation"
+      },
+      "diagrams": [
+        {
+          "id": "p5-flight-prep",
+          "title": "Four pre-flight factors"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "flugpraxis_0",
+          "t_start": 417.7,
+          "t_end": 506.3,
+          "snippet": "Sam: at the site you inspect the landing field first - cables, big trees, where Plan B is - because down low you have very little altitude to react."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "flugpraxis",
+          "page": 4
+        }
+      ]
+    },
+    "Practical Flying_18": {
+      "qid": 18,
+      "topic": "Practical Flying",
+      "explanation": "When you fly into an unfamiliar landing field, the very first questions are: in which wind directions can I approach safely, and which obstacles must I clear on each approach? Doctor surgeries and pack-up spots are operational details for after landing, not life-and-death information you need while still in the air.",
+      "guide_chapter": {
+        "id": "p5-flight-preparation",
+        "title": "Flight Preparation"
+      },
+      "workbook_chapter": {
+        "id": "skills-02-flight-preparation",
+        "title": "Flight preparation"
+      },
+      "diagrams": [
+        {
+          "id": "p5-flight-prep",
+          "title": "Four pre-flight factors"
+        },
+        {
+          "id": "p5-landing-volte",
+          "title": "Volte landing pattern (U)"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "flugpraxis_0",
+          "t_start": 437.4,
+          "t_end": 480.5,
+          "snippet": "Sam: walk the landing field, identify obstacles (cables, big trees), and ask the locals which way the standard pattern goes - usually left, but it varies."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "flugpraxis",
+          "page": 4
+        }
+      ]
+    },
+    "Practical Flying_19": {
+      "qid": 19,
+      "topic": "Practical Flying",
+      "explanation": "Permanent obstacles like overhead lines and cableways are catalogued on the federal aerial obstacle map (Luftfahrthindernisverzeichnis) and many of them also appear directly on the glider/gliding map. DABS and NOTAM publish only short-term, time-limited information; the VLK regulations are about aircraft categories, not obstacles.",
+      "guide_chapter": {
+        "id": "p5-flight-preparation",
+        "title": "Flight Preparation"
+      },
+      "workbook_chapter": {
+        "id": "skills-02-flight-preparation",
+        "title": "Flight preparation"
+      },
+      "diagrams": [
+        {
+          "id": "p5-flight-prep",
+          "title": "Four pre-flight factors"
+        }
+      ],
+      "video_clips": [],
+      "slide_pages": [
+        {
+          "deck_id": "flugpraxis",
+          "page": 3
+        }
+      ]
+    },
+    "Practical Flying_20": {
+      "qid": 20,
+      "topic": "Practical Flying",
+      "explanation": "Sam states the guiding principle bluntly: a launch site is only suitable when an abort remains possible at any moment in the run. A cliff with a short run that drops away into space fails this test even though it looks dramatic and steep. Wind direction, slope angle and windsock are secondary - if you cannot stop, you should not be there.",
+      "guide_chapter": {
+        "id": "p5-take-off",
+        "title": "Take-Off"
+      },
+      "workbook_chapter": {
+        "id": "skills-03-takeoff-check-launch",
+        "title": "Pre-flight check and the three-phase launch"
+      },
+      "diagrams": [
+        {
+          "id": "p5-takeoff-zones",
+          "title": "Takeoff: decision line and point of no return"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "flugpraxis_0",
+          "t_start": 691.1,
+          "t_end": 718.5,
+          "snippet": "Sam: from every launch site it must be possible at any time to safely abort the take-off - if you can't stop, the site isn't right."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "flugpraxis",
+          "page": 5
+        }
+      ]
+    },
+    "Practical Flying_21": {
+      "qid": 21,
+      "topic": "Practical Flying",
+      "explanation": "Airspeed is what makes the wing fly; the ground roll just has to add enough speed-over-ground to reach that airspeed. With 15 km/h of head wind already on the wing, you only need to run up another ~10 km/h of airspeed to lift off, so the take-off run is short and your groundspeed at lift-off is modest. Strong head wind = short run, low ground speed.",
+      "guide_chapter": {
+        "id": "p5-take-off",
+        "title": "Take-Off"
+      },
+      "workbook_chapter": {
+        "id": "skills-03-takeoff-check-launch",
+        "title": "Pre-flight check and the three-phase launch"
+      },
+      "diagrams": [
+        {
+          "id": "p5-launch-by-wind",
+          "title": "Launch method by wind"
+        }
+      ],
+      "video_clips": [],
+      "slide_pages": [
+        {
+          "deck_id": "flugpraxis",
+          "page": 5
+        }
+      ]
+    },
+    "Practical Flying_23": {
+      "qid": 23,
+      "topic": "Practical Flying",
+      "explanation": "Zero-wind launches are forward launches in which all the airspeed has to be built by running. The area in front of the glider (the actual run-out) therefore has to be flat, smooth and obstacle-free so you can accelerate without tripping. What lies behind the wing matters very little once it is overhead.",
+      "guide_chapter": {
+        "id": "p5-take-off",
+        "title": "Take-Off"
+      },
+      "workbook_chapter": {
+        "id": "skills-03-takeoff-check-launch",
+        "title": "Pre-flight check and the three-phase launch"
+      },
+      "diagrams": [
+        {
+          "id": "p5-launch-by-wind",
+          "title": "Launch method by wind"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "flugpraxis_0",
+          "t_start": 727.2,
+          "t_end": 749.2,
+          "snippet": "Sam: nil/light wind needs a forward launch on a clean, obstacle-free run-out so we can build the airspeed by running."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "flugpraxis",
+          "page": 5
+        }
+      ]
+    },
+    "Practical Flying_24": {
+      "qid": 24,
+      "topic": "Practical Flying",
+      "explanation": "At 20 km/h head wind you do a reverse launch. Once the wing comes up it can lift you a step or two backwards before you stabilise it, so the critical zone is now behind you, not in front. That ground has to be free of stones and holes - tripping while being dragged backward is the classic injury here.",
+      "guide_chapter": {
+        "id": "p5-take-off",
+        "title": "Take-Off"
+      },
+      "workbook_chapter": {
+        "id": "skills-03-takeoff-check-launch",
+        "title": "Pre-flight check and the three-phase launch"
+      },
+      "diagrams": [
+        {
+          "id": "p5-launch-by-wind",
+          "title": "Launch method by wind"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "flugpraxis_0",
+          "t_start": 749.2,
+          "t_end": 789.0,
+          "snippet": "Sam: with 20 km/h head wind we reverse launch; we may run up-slope a step or two toward the wing, so behind us must be obstacle-free."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "flugpraxis",
+          "page": 5
+        }
+      ]
+    },
+    "Practical Flying_25": {
+      "qid": 25,
+      "topic": "Practical Flying",
+      "explanation": "Inside a forest corridor the trees shelter the launch and you'll often feel essentially no wind at ground level - while at canopy height the actual ridge wind is blowing. The moment the wing climbs above the tree tops it abruptly meets that wind, often with a hard pull or sudden swing. Plan the launch and the first seconds of climb-out for that transition.",
+      "guide_chapter": {
+        "id": "p5-take-off",
+        "title": "Take-Off"
+      },
+      "workbook_chapter": {
+        "id": "skills-03-takeoff-check-launch",
+        "title": "Pre-flight check and the three-phase launch"
+      },
+      "diagrams": [
+        {
+          "id": "p5-launch-by-wind",
+          "title": "Launch method by wind"
+        }
+      ],
+      "video_clips": [],
+      "slide_pages": [
+        {
+          "deck_id": "flugpraxis",
+          "page": 5
+        }
+      ]
+    },
+    "Practical Flying_26": {
+      "qid": 26,
+      "topic": "Practical Flying",
+      "explanation": "On the lee side, air spills over the ridge in rolling eddies rather than as steady flow. The result on the launch is exactly what gives it away: wind that swings rapidly in direction and strength, sometimes blowing up, sometimes down, sometimes from the side. Steady, predictable wind is the windward signature; abrupt shifts mean you're behind the obstacle.",
+      "guide_chapter": {
+        "id": "p5-take-off",
+        "title": "Take-Off"
+      },
+      "workbook_chapter": {
+        "id": "skills-03-takeoff-check-launch",
+        "title": "Pre-flight check and the three-phase launch"
+      },
+      "diagrams": [
+        {
+          "id": "p5-launch-by-wind",
+          "title": "Launch method by wind"
+        }
+      ],
+      "video_clips": [],
+      "slide_pages": [
+        {
+          "deck_id": "flugpraxis",
+          "page": 5
+        }
+      ]
+    },
+    "Practical Flying_27": {
+      "qid": 27,
+      "topic": "Practical Flying",
+      "explanation": "At 25 km/h head wind a forward launch is dangerous - the wing comes up far above you and you have very little chance of controlling it. The textbook solution is a reverse launch on a shallow slope: shallow so the wing does not overshoot and pluck you off before you are ready, reverse so you can watch and control the canopy through the gust. Steep slope plus that wind = immediate uncontrolled lift-off.",
+      "guide_chapter": {
+        "id": "p5-take-off",
+        "title": "Take-Off"
+      },
+      "workbook_chapter": {
+        "id": "skills-03-takeoff-check-launch",
+        "title": "Pre-flight check and the three-phase launch"
+      },
+      "diagrams": [
+        {
+          "id": "p5-launch-by-wind",
+          "title": "Launch method by wind"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "flugpraxis_0",
+          "t_start": 749.2,
+          "t_end": 785.7,
+          "snippet": "Sam: 20+ km/h means reverse launch facing the wing, taking care not to be lifted off prematurely."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "flugpraxis",
+          "page": 5
+        }
+      ]
+    },
+    "Practical Flying_28": {
+      "qid": 28,
+      "topic": "Practical Flying",
+      "explanation": "Sam goes through the check in the order: body and equipment first (reserve pins, all buckles closed and secured), then risers and lines, then the wing layout, then wind direction and strength, and finally the launch path and airspace - the last item is checked again right before the take-off run.",
+      "guide_chapter": {
+        "id": "p5-take-off",
+        "title": "Take-Off"
+      },
+      "workbook_chapter": {
+        "id": "skills-03-takeoff-check-launch",
+        "title": "Pre-flight check and the three-phase launch"
+      },
+      "diagrams": [
+        {
+          "id": "p5-5point-check",
+          "title": "5-point pre-flight check"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "flugpraxis_0",
+          "t_start": 850.8,
+          "t_end": 964.1,
+          "snippet": "Sam: 5-point check from inside out - reserve handle and all buckles, risers not twisted with lines free, wing laid out, wind direction and strength, and launch path/airspace clear."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "flugpraxis",
+          "page": 6
+        }
+      ]
+    },
+    "Practical Flying_30": {
+      "qid": 30,
+      "topic": "Practical Flying",
+      "explanation": "Of all five points, the airspace check is the only one that can change in the few seconds between setting up and running. A pilot flying past, an animal walking into the corridor or a paraglider you didn't see - all of these can appear after the check. That is why the rule is to look up one more time just before lifting off.",
+      "guide_chapter": {
+        "id": "p5-take-off",
+        "title": "Take-Off"
+      },
+      "workbook_chapter": {
+        "id": "skills-03-takeoff-check-launch",
+        "title": "Pre-flight check and the three-phase launch"
+      },
+      "diagrams": [
+        {
+          "id": "p5-5point-check",
+          "title": "5-point pre-flight check"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "flugpraxis_0",
+          "t_start": 992.1,
+          "t_end": 1017.8,
+          "snippet": "Sam: after the reverse turn, points 1-4 don't really change, but point 5 - launch path and airspace clear - is repeated carefully immediately before take-off."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "flugpraxis",
+          "page": 6
+        }
+      ]
+    },
+    "Practical Flying_34": {
+      "qid": 34,
+      "topic": "Practical Flying",
+      "explanation": "The launch decision is yours alone. 'I fly here often' or 'other people are launching' are answers that have killed pilots; the safety of an officially permitted launch site does not transfer to your skill, gear or condition. Only the pilot can judge whether the conditions match their abilities, and the rule is to launch only when convinced you can do so without problem.",
+      "guide_chapter": {
+        "id": "p5-take-off",
+        "title": "Take-Off"
+      },
+      "workbook_chapter": {
+        "id": "skills-03-takeoff-check-launch",
+        "title": "Pre-flight check and the three-phase launch"
+      },
+      "diagrams": [
+        {
+          "id": "p5-takeoff-zones",
+          "title": "Takeoff: decision line and point of no return"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "flugpraxis_0",
+          "t_start": 815.3,
+          "t_end": 832.6,
+          "snippet": "Sam: take your time, work calmly, never hectically - especially if you are uncertain and still internalising the launch process."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "flugpraxis",
+          "page": 5
+        }
+      ]
+    },
+    "Practical Flying_36": {
+      "qid": 36,
+      "topic": "Practical Flying",
+      "explanation": "The launch has three phases: inflation, control/correction, and acceleration. An abort decision belongs in the control phase - the moment you decide 'no, something is wrong' before you commit to the run. Once you are in the acceleration phase you are committed; trying to abort during the sprint is what produces injuries.",
+      "guide_chapter": {
+        "id": "p5-take-off",
+        "title": "Take-Off"
+      },
+      "workbook_chapter": {
+        "id": "skills-03-takeoff-check-launch",
+        "title": "Pre-flight check and the three-phase launch"
+      },
+      "diagrams": [
+        {
+          "id": "p5-takeoff-phases",
+          "title": "Three launch phases"
+        },
+        {
+          "id": "p5-takeoff-zones",
+          "title": "Takeoff: decision line and point of no return"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "flugpraxis_0",
+          "t_start": 1017.8,
+          "t_end": 1115.2,
+          "snippet": "Sam: do phase 1 (inflation) and phase 2 (check and correct) cleanly, then decide; aborting in phase 3 means phase 2 wasn't done properly and costs a penalty point in the exam."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "flugpraxis",
+          "page": 7
+        }
+      ]
+    },
+    "Practical Flying_37": {
+      "qid": 37,
+      "topic": "Practical Flying",
+      "explanation": "Wind from 120 deg on a south-facing slope means it comes from your left at about 60 deg off the fall line. The standard solution: inflate against the wind so the canopy comes up clean and symmetric, then gradually pivot the wing back toward the fall line while you accelerate down the slope. Trying to launch and accelerate directly into the cross component is a recipe for a slide and a side collapse.",
+      "guide_chapter": {
+        "id": "p5-take-off",
+        "title": "Take-Off"
+      },
+      "workbook_chapter": {
+        "id": "skills-03-takeoff-check-launch",
+        "title": "Pre-flight check and the three-phase launch"
+      },
+      "diagrams": [
+        {
+          "id": "p5-launch-by-wind",
+          "title": "Launch method by wind"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "flugpraxis_0",
+          "t_start": 773.5,
+          "t_end": 789.0,
+          "snippet": "Sam: with a bit of crosswind, pull the wing up against the wind first and then run a small distance in the fall direction, with no obstacles to trip on."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "flugpraxis",
+          "page": 5
+        }
+      ]
+    },
+    "Practical Flying_40": {
+      "qid": 40,
+      "topic": "Practical Flying",
+      "explanation": "In the first seconds after lift-off you are flying low, slow and inside ground-level turbulence. If a gust collapses one side of the wing while your hands are up, you have no time to brake-recover before you reach the ground. Keep the brakes engaged ready to react - sliding into the harness can wait until you have altitude and clean air below you.",
+      "guide_chapter": {
+        "id": "p5-take-off",
+        "title": "Take-Off"
+      },
+      "workbook_chapter": {
+        "id": "skills-04-takeoff-special",
+        "title": "Take-off — special conditions"
+      },
+      "diagrams": [
+        {
+          "id": "p5-takeoff-phases",
+          "title": "Three launch phases"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "flugpraxis_0",
+          "t_start": 1129.0,
+          "t_end": 1180.7,
+          "snippet": "Sam: don't release the brakes right after launch - only sit into the harness once you are flying far, far straight with plenty of air below."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "flugpraxis",
+          "page": 8
+        }
+      ]
+    },
+    "Practical Flying_41": {
+      "qid": 41,
+      "topic": "Practical Flying",
+      "explanation": "A knot on the left brings the left wingtip down a bit, increases the angle of attack on that side and produces extra drag - so the wing veers left. To fly straight you have to brake the right (open) side hard. Strong side wind would produce a body drift, not a constant pull to one side.",
+      "guide_chapter": {
+        "id": "p5-take-off",
+        "title": "Take-Off"
+      },
+      "workbook_chapter": {
+        "id": "skills-04-takeoff-special",
+        "title": "Take-off — special conditions"
+      },
+      "diagrams": [
+        {
+          "id": "p5-takeoff-phases",
+          "title": "Three launch phases"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "flugpraxis_0",
+          "t_start": 1283.5,
+          "t_end": 1338.7,
+          "snippet": "Sam: if you fly out crooked there are several causes - launch line not in the fall line, an unseen knot, or strong crosswind; stabilise first with weight shift and opposite brake, then diagnose."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "flugpraxis",
+          "page": 8
+        }
+      ]
+    },
+    "Practical Flying_42": {
+      "qid": 42,
+      "topic": "Practical Flying",
+      "explanation": "A knot in the rear (D-line/brake-line) area shortens that side and effectively pre-brakes it. The angle of attack stays high, so the parachutal-stall tendency is increased; if you also turn into the knotted side the inside brake will reach stall point much sooner than normal. Plan a wide, gentle turn pattern and land using the rear riser of the knotted side rather than full brake.",
+      "guide_chapter": {
+        "id": "p5-take-off",
+        "title": "Take-Off"
+      },
+      "workbook_chapter": {
+        "id": "skills-04-takeoff-special",
+        "title": "Take-off — special conditions"
+      },
+      "diagrams": [
+        {
+          "id": "p5-takeoff-phases",
+          "title": "Three launch phases"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "flugpraxis_0",
+          "t_start": 1339.7,
+          "t_end": 1420.3,
+          "snippet": "Sam: tools for opening a knot - brake impulse, pull the stabilo line, even a controlled 50% collapse to unload that side; if it doesn't open and you can fly straight, you decide whether to land like that."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "flugpraxis",
+          "page": 8
+        }
+      ]
+    },
+    "Practical Flying_43": {
+      "qid": 43,
+      "topic": "Practical Flying",
+      "explanation": "A knot in the front A-lines pulls the leading edge of that side downward, reducing the angle of attack and the internal pressure on that half of the wing. That side is then much more vulnerable to turbulence and will collapse more easily than the open side - the opposite problem to a rear-line knot.",
+      "guide_chapter": {
+        "id": "p5-take-off",
+        "title": "Take-Off"
+      },
+      "workbook_chapter": {
+        "id": "skills-04-takeoff-special",
+        "title": "Take-off — special conditions"
+      },
+      "diagrams": [
+        {
+          "id": "p5-takeoff-phases",
+          "title": "Three launch phases"
+        },
+        {
+          "id": "p5-collapses",
+          "title": "Lateral and frontal collapses"
+        }
+      ],
+      "video_clips": [],
+      "slide_pages": [
+        {
+          "deck_id": "flugpraxis",
+          "page": 8
+        }
+      ]
+    },
+    "Practical Flying_44": {
+      "qid": 44,
+      "topic": "Practical Flying",
+      "explanation": "A jammed brake is treated as a steering failure. The first priority is to fly away from the slope on the rear riser of the affected side, which still steers and decelerates the wing without the broken brake. Pumping the brakes or throwing the reserve over an unstable, uncollapsed wing makes things worse; turning straight into the hill is the worst option of all.",
+      "guide_chapter": {
+        "id": "p5-take-off",
+        "title": "Take-Off"
+      },
+      "workbook_chapter": {
+        "id": "skills-04-takeoff-special",
+        "title": "Take-off — special conditions"
+      },
+      "diagrams": [
+        {
+          "id": "p5-takeoff-phases",
+          "title": "Three launch phases"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "flugpraxis_0",
+          "t_start": 1207.5,
+          "t_end": 1243.9,
+          "snippet": "Sam: the absolute priority after launch is right stabilisation - weight to the side, dosed opposite brake, fly straight far out and build distance before tackling the problem."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "flugpraxis",
+          "page": 8
+        }
+      ]
+    },
+    "Practical Flying_45": {
+      "qid": 45,
+      "topic": "Practical Flying",
+      "explanation": "In calm air the wing's best glide is at trim speed - arms up, brakes just touching. Any extra brake increases the angle of attack and the sink rate without buying speed; accelerator increases speed but the polar drops faster than glide ratio improves. So calm air, maximum distance: zero brake at trim speed.",
+      "guide_chapter": {
+        "id": "p5-range-optimization",
+        "title": "Range and Optimization of Flight, Lateral Drift, Flight in Lift"
+      },
+      "workbook_chapter": {
+        "id": "skills-05-range-and-drift",
+        "title": "Range, speed-to-fly and lateral drift"
+      },
+      "diagrams": [
+        {
+          "id": "p5-speed-to-fly",
+          "title": "Speed-to-fly decisions"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "flugpraxis_1",
+          "t_start": 853.0,
+          "t_end": 870.4,
+          "snippet": "Sam: for best glide on a school wing, the brakes are at 5-15 cm of contact - that's trim speed; deeper brake gives minimum sink, not best glide."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "flugpraxis",
+          "page": 13
+        }
+      ]
+    },
+    "Practical Flying_46": {
+      "qid": 46,
+      "topic": "Practical Flying",
+      "explanation": "Maximum distance over ground = glide ratio x altitude lost. You start 1200 m above the valley floor (1600 - 400); with the wing's best glide of 9 you can cover 9 x 1.2 km = 10.8 km in calm air. The other distances come from the wrong altitude difference or the wrong arithmetic.",
+      "guide_chapter": {
+        "id": "p5-range-optimization",
+        "title": "Range and Optimization of Flight, Lateral Drift, Flight in Lift"
+      },
+      "workbook_chapter": {
+        "id": "skills-05-range-and-drift",
+        "title": "Range, speed-to-fly and lateral drift"
+      },
+      "diagrams": [
+        {
+          "id": "p5-speed-to-fly",
+          "title": "Speed-to-fly decisions"
+        }
+      ],
+      "video_clips": [],
+      "slide_pages": [
+        {
+          "deck_id": "flugpraxis",
+          "page": 13
+        }
+      ]
+    },
+    "Practical Flying_48": {
+      "qid": 48,
+      "topic": "Practical Flying",
+      "explanation": "Your body is the biggest drag-producing object hanging under the wing, so the polar genuinely changes with posture. A compact, reclined position with arms tight to the risers cuts pressure drag and adds 1-2 km/h. Extended legs or shoulders pushed forward actually move the centre of gravity backward and increase drag - which is why a clean aerodynamic position is part of the syllabus.",
+      "guide_chapter": {
+        "id": "p5-range-optimization",
+        "title": "Range and Optimization of Flight, Lateral Drift, Flight in Lift"
+      },
+      "workbook_chapter": {
+        "id": "skills-05-range-and-drift",
+        "title": "Range, speed-to-fly and lateral drift"
+      },
+      "diagrams": [
+        {
+          "id": "p5-aero-position",
+          "title": "Aerodynamic body position"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "flugpraxis_1",
+          "t_start": 200.0,
+          "t_end": 235.5,
+          "snippet": "Sam: sit compactly and you glide well with little drag - or sit up and stand out of the harness to add drag and bleed altitude efficiently on final."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "flugpraxis",
+          "page": 13
+        }
+      ]
+    },
+    "Practical Flying_49": {
+      "qid": 49,
+      "topic": "Practical Flying",
+      "explanation": "Against a 25 km/h head wind, trim speed gives you almost no progress over ground - the wing crawls. You need to fly the wing fast: trimmers open if you have them, accelerator on. Yes, the sink rate increases, but ground covered per metre lost is greater because you're not standing in the air. This is the classic 'speed up in headwind/sink' rule.",
+      "guide_chapter": {
+        "id": "p5-range-optimization",
+        "title": "Range and Optimization of Flight, Lateral Drift, Flight in Lift"
+      },
+      "workbook_chapter": {
+        "id": "skills-05-range-and-drift",
+        "title": "Range, speed-to-fly and lateral drift"
+      },
+      "diagrams": [
+        {
+          "id": "p5-speed-to-fly",
+          "title": "Speed-to-fly decisions"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "flugpraxis_1",
+          "t_start": 931.4,
+          "t_end": 970.9,
+          "snippet": "Sam: with a 30 km/h headwind on a 30 km/h wing you'd stand still - thank goodness you can accelerate to get another 10 km/h and actually still move forward."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "flugpraxis",
+          "page": 13
+        }
+      ]
+    },
+    "Practical Flying_52": {
+      "qid": 52,
+      "topic": "Practical Flying",
+      "explanation": "Wind from the west at 25 km/h would drift the wing east of the target. To still reach a landing exactly south, you have to angle the heading into the wind component (south-westerly) so that drift plus heading produce a true south track. And because you also have a head-wind component, you must fly fast (accelerator on) to keep the over-ground progress as high as possible.",
+      "guide_chapter": {
+        "id": "p5-range-optimization",
+        "title": "Range and Optimization of Flight, Lateral Drift, Flight in Lift"
+      },
+      "workbook_chapter": {
+        "id": "skills-05-range-and-drift",
+        "title": "Range, speed-to-fly and lateral drift"
+      },
+      "diagrams": [
+        {
+          "id": "p5-crab-angle",
+          "title": "Crab angle in crosswind"
+        },
+        {
+          "id": "p5-speed-to-fly",
+          "title": "Speed-to-fly decisions"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "flugpraxis_0",
+          "t_start": 1425.3,
+          "t_end": 1477.3,
+          "snippet": "Sam: in crosswind, choose a wind-correction angle - point the longitudinal axis a bit into the wind so the ground track is a straight line to the landing."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "flugpraxis",
+          "page": 9
+        }
+      ]
+    },
+    "Practical Flying_53": {
+      "qid": 53,
+      "topic": "Practical Flying",
+      "explanation": "With no wind, aiming the heading directly at the target produces a straight line over ground to the target - the simplest case shown in track 4. The other tracks are crosswind paths or dogleg arcs; they would only happen if there were wind or you constantly readjusted the heading.",
+      "guide_chapter": {
+        "id": "p5-range-optimization",
+        "title": "Range and Optimization of Flight, Lateral Drift, Flight in Lift"
+      },
+      "workbook_chapter": {
+        "id": "skills-05-range-and-drift",
+        "title": "Range, speed-to-fly and lateral drift"
+      },
+      "diagrams": [
+        {
+          "id": "p5-crab-angle",
+          "title": "Crab angle in crosswind"
+        }
+      ],
+      "video_clips": [],
+      "slide_pages": [
+        {
+          "deck_id": "flugpraxis",
+          "page": 9
+        }
+      ]
+    },
+    "Practical Flying_54": {
+      "qid": 54,
+      "topic": "Practical Flying",
+      "explanation": "Zero wind, heading due south, target exactly south - this just gives a straight south track (path 3). The west wind in the question stem is 0 km/h, so the geometry collapses to the no-wind case. The visual gotcha is that students sometimes read 'west wind' as 'crosswind' even when its speed is zero.",
+      "guide_chapter": {
+        "id": "p5-range-optimization",
+        "title": "Range and Optimization of Flight, Lateral Drift, Flight in Lift"
+      },
+      "workbook_chapter": {
+        "id": "skills-05-range-and-drift",
+        "title": "Range, speed-to-fly and lateral drift"
+      },
+      "diagrams": [
+        {
+          "id": "p5-crab-angle",
+          "title": "Crab angle in crosswind"
+        }
+      ],
+      "video_clips": [],
+      "slide_pages": [
+        {
+          "deck_id": "flugpraxis",
+          "page": 9
+        }
+      ]
+    },
+    "Practical Flying_55": {
+      "qid": 55,
+      "topic": "Practical Flying",
+      "explanation": "Heading south-west with a 20 km/h west wind: the wing slides east because of the crosswind from the west, but the south-west heading already builds in some westerly correction. The vector sum produces the straight-south track to the target shown in path 1 - exactly the standard crab-angle solution.",
+      "guide_chapter": {
+        "id": "p5-range-optimization",
+        "title": "Range and Optimization of Flight, Lateral Drift, Flight in Lift"
+      },
+      "workbook_chapter": {
+        "id": "skills-05-range-and-drift",
+        "title": "Range, speed-to-fly and lateral drift"
+      },
+      "diagrams": [
+        {
+          "id": "p5-crab-angle",
+          "title": "Crab angle in crosswind"
+        }
+      ],
+      "video_clips": [],
+      "slide_pages": [
+        {
+          "deck_id": "flugpraxis",
+          "page": 9
+        }
+      ]
+    },
+    "Practical Flying_56": {
+      "qid": 56,
+      "topic": "Practical Flying",
+      "explanation": "The crab angle is purely a geometry term: it is the angle between where the nose of the wing is pointing (longitudinal axis) and where the wing is actually travelling over the ground (the trajectory). Wind direction or aircraft transverse axis don't enter the definition - they only set the size of the angle you need.",
+      "guide_chapter": {
+        "id": "p5-range-optimization",
+        "title": "Range and Optimization of Flight, Lateral Drift, Flight in Lift"
+      },
+      "workbook_chapter": {
+        "id": "skills-05-range-and-drift",
+        "title": "Range, speed-to-fly and lateral drift"
+      },
+      "diagrams": [
+        {
+          "id": "p5-crab-angle",
+          "title": "Crab angle in crosswind"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "flugpraxis_0",
+          "t_start": 1458.8,
+          "t_end": 1477.3,
+          "snippet": "Sam: the wind-correction angle is nothing other than the angle between the longitudinal axis of the wing and the flight path we choose."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "flugpraxis",
+          "page": 9
+        }
+      ]
+    },
+    "Practical Flying_57": {
+      "qid": 57,
+      "topic": "Practical Flying",
+      "explanation": "The harder the side wind blows, the more the wind vector pushes the wing sideways relative to its own airspeed, so the heading has to be cranked further into the wind to compensate. Direction matters too (no wind = no crab) but the question is about magnitude: stronger crosswind always means a bigger correction angle.",
+      "guide_chapter": {
+        "id": "p5-range-optimization",
+        "title": "Range and Optimization of Flight, Lateral Drift, Flight in Lift"
+      },
+      "workbook_chapter": {
+        "id": "skills-05-range-and-drift",
+        "title": "Range, speed-to-fly and lateral drift"
+      },
+      "diagrams": [
+        {
+          "id": "p5-crab-angle",
+          "title": "Crab angle in crosswind"
+        }
+      ],
+      "video_clips": [],
+      "slide_pages": [
+        {
+          "deck_id": "flugpraxis",
+          "page": 9
+        }
+      ]
+    },
+    "Practical Flying_59": {
+      "qid": 59,
+      "topic": "Practical Flying",
+      "explanation": "The wind component is fixed; only your airspeed is in your control. Going faster makes the side-wind vector shrink relative to your own velocity, so the heading has to bend into wind less to keep the ground track straight - the crab angle gets smaller. Accelerator-on in strong crosswind also keeps the ground track honest.",
+      "guide_chapter": {
+        "id": "p5-range-optimization",
+        "title": "Range and Optimization of Flight, Lateral Drift, Flight in Lift"
+      },
+      "workbook_chapter": {
+        "id": "skills-05-range-and-drift",
+        "title": "Range, speed-to-fly and lateral drift"
+      },
+      "diagrams": [
+        {
+          "id": "p5-crab-angle",
+          "title": "Crab angle in crosswind"
+        }
+      ],
+      "video_clips": [],
+      "slide_pages": [
+        {
+          "deck_id": "flugpraxis",
+          "page": 9
+        }
+      ]
+    },
+    "Practical Flying_60": {
+      "qid": 60,
+      "topic": "Practical Flying",
+      "explanation": "The crab-angle vector triangle is built from three quantities: how fast the wing is going (airspeed), how fast the wind is blowing (strength) and from where (direction). Flight distance and sink rate don't enter the geometry at all - they only tell you how long you stay aloft, not which heading to fly.",
+      "guide_chapter": {
+        "id": "p5-range-optimization",
+        "title": "Range and Optimization of Flight, Lateral Drift, Flight in Lift"
+      },
+      "workbook_chapter": {
+        "id": "skills-05-range-and-drift",
+        "title": "Range, speed-to-fly and lateral drift"
+      },
+      "diagrams": [
+        {
+          "id": "p5-crab-angle",
+          "title": "Crab angle in crosswind"
+        }
+      ],
+      "video_clips": [],
+      "slide_pages": [
+        {
+          "deck_id": "flugpraxis",
+          "page": 9
+        }
+      ]
+    },
+    "Practical Flying_61": {
+      "qid": 61,
+      "topic": "Practical Flying",
+      "explanation": "A cumulus is the visible top of a thermal column. With head wind the column tilts away from the pilot (downwind), so by the time you reach the cumulus the rising air is already behind it. The lift you can still tap is therefore on the windward side - between your position and the cloud, not under or downwind of it.",
+      "guide_chapter": {
+        "id": "p5-range-optimization",
+        "title": "Range and Optimization of Flight, Lateral Drift, Flight in Lift"
+      },
+      "workbook_chapter": {
+        "id": "skills-06-soaring",
+        "title": "Ridge soaring and thermalling"
+      },
+      "diagrams": [
+        {
+          "id": "p5-thermal-wind-tilt",
+          "title": "Thermal column tilted by wind"
+        },
+        {
+          "id": "p5-thermal-centering",
+          "title": "Thermal centering"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "flugpraxis_1",
+          "t_start": 1120.0,
+          "t_end": 1148.0,
+          "snippet": "Sam: with wind, fly into the upwind side of the cloud so you can climb in the column together with the drift and optimally catch the thermal."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "flugpraxis",
+          "page": 15
+        }
+      ]
+    },
+    "Practical Flying_62": {
+      "qid": 62,
+      "topic": "Practical Flying",
+      "explanation": "If you drift 3 km in 10 minutes while circling, the average wind at your altitude is 3 km / (10/60 h) = 18 km/h. You don't need any extra information about ground-level conditions to compute it - the thermal effectively makes you a wind drogue. Stronger ground wind is possible but isn't derivable from the question.",
+      "guide_chapter": {
+        "id": "p5-range-optimization",
+        "title": "Range and Optimization of Flight, Lateral Drift, Flight in Lift"
+      },
+      "workbook_chapter": {
+        "id": "skills-06-soaring",
+        "title": "Ridge soaring and thermalling"
+      },
+      "diagrams": [
+        {
+          "id": "p5-thermal-wind-tilt",
+          "title": "Thermal column tilted by wind"
+        }
+      ],
+      "video_clips": [],
+      "slide_pages": [
+        {
+          "deck_id": "flugpraxis",
+          "page": 15
+        }
+      ]
+    },
+    "Practical Flying_63": {
+      "qid": 63,
+      "topic": "Practical Flying",
+      "explanation": "A vario showing sink after 90 deg of turn typically means you've turned right out of the column. Reversing direction makes you do another 180 deg back to where you came from; flying straight a short way often puts you back into rising air. Continuing the turn in the same direction or instantly switching usually wastes height without finding the core again.",
+      "guide_chapter": {
+        "id": "p5-range-optimization",
+        "title": "Range and Optimization of Flight, Lateral Drift, Flight in Lift"
+      },
+      "workbook_chapter": {
+        "id": "skills-06-soaring",
+        "title": "Ridge soaring and thermalling"
+      },
+      "diagrams": [
+        {
+          "id": "p5-thermal-centering",
+          "title": "Thermal centering"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "flugpraxis_1",
+          "t_start": 1186.8,
+          "t_end": 1238.1,
+          "snippet": "Sam: core the thermal nicely on one hand but really work hard with weight shift; only leave it when you're sure you'll reach the next planned point."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "flugpraxis",
+          "page": 15
+        }
+      ]
+    },
+    "Practical Flying_64": {
+      "qid": 64,
+      "topic": "Practical Flying",
+      "explanation": "Without ambient wind there is nothing to push the rising air sideways - the thermal goes straight up like a chimney. Any inclination of the column always traces to a horizontal wind component; remove the wind and the column is vertical.",
+      "guide_chapter": {
+        "id": "p5-range-optimization",
+        "title": "Range and Optimization of Flight, Lateral Drift, Flight in Lift"
+      },
+      "workbook_chapter": {
+        "id": "skills-06-soaring",
+        "title": "Ridge soaring and thermalling"
+      },
+      "diagrams": [
+        {
+          "id": "p5-thermal-wind-tilt",
+          "title": "Thermal column tilted by wind"
+        }
+      ],
+      "video_clips": [],
+      "slide_pages": [
+        {
+          "deck_id": "flugpraxis",
+          "page": 15
+        }
+      ]
+    },
+    "Practical Flying_65": {
+      "qid": 65,
+      "topic": "Practical Flying",
+      "explanation": "Mass conservation: the air rising in the thermal has to be replenished from the sides, and it then sinks back down outside the column. So the thermal is surrounded by a halo of compensating sink. Leave the core and you don't merely 'stop climbing' - you start descending faster than normal sink. That's why centring matters so much.",
+      "guide_chapter": {
+        "id": "p5-range-optimization",
+        "title": "Range and Optimization of Flight, Lateral Drift, Flight in Lift"
+      },
+      "workbook_chapter": {
+        "id": "skills-06-soaring",
+        "title": "Ridge soaring and thermalling"
+      },
+      "diagrams": [
+        {
+          "id": "p5-thermal-centering",
+          "title": "Thermal centering"
+        }
+      ],
+      "video_clips": [],
+      "slide_pages": [
+        {
+          "deck_id": "flugpraxis",
+          "page": 15
+        }
+      ]
+    },
+    "Practical Flying_66": {
+      "qid": 66,
+      "topic": "Practical Flying",
+      "explanation": "Strong sink right after losing the lift means you've drifted out of the column and into the compensating sink around it. A tight 120-180 deg turn brings you back into the core faster than a flat half-circle and much faster than searching for new lift. Flat turns lose altitude in sink; flying straight just continues the bleed.",
+      "guide_chapter": {
+        "id": "p5-range-optimization",
+        "title": "Range and Optimization of Flight, Lateral Drift, Flight in Lift"
+      },
+      "workbook_chapter": {
+        "id": "skills-06-soaring",
+        "title": "Ridge soaring and thermalling"
+      },
+      "diagrams": [
+        {
+          "id": "p5-thermal-centering",
+          "title": "Thermal centering"
+        }
+      ],
+      "video_clips": [],
+      "slide_pages": [
+        {
+          "deck_id": "flugpraxis",
+          "page": 15
+        }
+      ]
+    },
+    "Practical Flying_67": {
+      "qid": 67,
+      "topic": "Practical Flying",
+      "explanation": "A wind from 270 deg is a westerly. The thermal column drifts with the wind, so it tilts in the direction the wind is blowing - toward the east. That's why on a westerly day you fly to the west of the visible cumulus to find the core at higher altitudes.",
+      "guide_chapter": {
+        "id": "p5-range-optimization",
+        "title": "Range and Optimization of Flight, Lateral Drift, Flight in Lift"
+      },
+      "workbook_chapter": {
+        "id": "skills-06-soaring",
+        "title": "Ridge soaring and thermalling"
+      },
+      "diagrams": [
+        {
+          "id": "p5-thermal-wind-tilt",
+          "title": "Thermal column tilted by wind"
+        }
+      ],
+      "video_clips": [],
+      "slide_pages": [
+        {
+          "deck_id": "flugpraxis",
+          "page": 15
+        }
+      ]
+    },
+    "Practical Flying_68": {
+      "qid": 68,
+      "topic": "Practical Flying",
+      "explanation": "The compensating sink around a tilted thermal isn't symmetric: it is strongest on the leeward (downwind) side, because that is where the air spills off the tilted column. Cross the thermal on the lee side and the sink is much harder than on the windward side - good incentive to stay upwind of the core.",
+      "guide_chapter": {
+        "id": "p5-range-optimization",
+        "title": "Range and Optimization of Flight, Lateral Drift, Flight in Lift"
+      },
+      "workbook_chapter": {
+        "id": "skills-06-soaring",
+        "title": "Ridge soaring and thermalling"
+      },
+      "diagrams": [
+        {
+          "id": "p5-thermal-wind-tilt",
+          "title": "Thermal column tilted by wind"
+        }
+      ],
+      "video_clips": [],
+      "slide_pages": [
+        {
+          "deck_id": "flugpraxis",
+          "page": 15
+        }
+      ]
+    },
+    "Practical Flying_69": {
+      "qid": 69,
+      "topic": "Practical Flying",
+      "explanation": "Since a tilted column has stronger sink on the lee side, staying upwind of the core when circling keeps you in the column for longer as both you and it drift downwind together. The choice of turn direction matters much less than knowing where the strong sink lives.",
+      "guide_chapter": {
+        "id": "p5-range-optimization",
+        "title": "Range and Optimization of Flight, Lateral Drift, Flight in Lift"
+      },
+      "workbook_chapter": {
+        "id": "skills-06-soaring",
+        "title": "Ridge soaring and thermalling"
+      },
+      "diagrams": [
+        {
+          "id": "p5-thermal-wind-tilt",
+          "title": "Thermal column tilted by wind"
+        }
+      ],
+      "video_clips": [],
+      "slide_pages": [
+        {
+          "deck_id": "flugpraxis",
+          "page": 15
+        }
+      ]
+    },
+    "Practical Flying_70": {
+      "qid": 70,
+      "topic": "Practical Flying",
+      "explanation": "On XC, leaving a thermal is a planned decision, not a habit. You commit to the next objective - cumulus, ridge, possible source - and you stay in the climb until your altitude on the polar reaches that point with margin. Leaving at cloudbase or when the climb dies are habits that cost you the day.",
+      "guide_chapter": {
+        "id": "p5-range-optimization",
+        "title": "Range and Optimization of Flight, Lateral Drift, Flight in Lift"
+      },
+      "workbook_chapter": {
+        "id": "skills-06-soaring",
+        "title": "Ridge soaring and thermalling"
+      },
+      "diagrams": [
+        {
+          "id": "p5-thermal-centering",
+          "title": "Thermal centering"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "flugpraxis_1",
+          "t_start": 1196.1,
+          "t_end": 1240.1,
+          "snippet": "Sam: only leave the thermal when you're sure you'll reach the next chosen point - core it out, take patience, and arrive with the altitude you need."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "flugpraxis",
+          "page": 15
+        }
+      ]
+    },
+    "Practical Flying_71": {
+      "qid": 71,
+      "topic": "Practical Flying",
+      "explanation": "Thermal turbulence next to a ridge means thermals are detaching and rolling against the slope. The defensive answer is twofold: widen your distance to the terrain so a collapse never puts you in rock contact, and trim your airspeed to suit the conditions (a touch of speed bar usually makes the wing fly through gusts more cleanly). Releasing trimmers or quitting soaring entirely is not the standard procedure.",
+      "guide_chapter": {
+        "id": "p5-range-optimization",
+        "title": "Range and Optimization of Flight, Lateral Drift, Flight in Lift"
+      },
+      "workbook_chapter": {
+        "id": "skills-06-soaring",
+        "title": "Ridge soaring and thermalling"
+      },
+      "diagrams": [
+        {
+          "id": "p5-ridge-soaring-turn",
+          "title": "Ridge soaring turn direction"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "flugpraxis_1",
+          "t_start": 1013.0,
+          "t_end": 1067.4,
+          "snippet": "Sam: terrain clearance, terrain clearance and again terrain clearance - and always turn the curve away from the slope, never toward it."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "flugpraxis",
+          "page": 14
+        }
+      ]
+    },
+    "Practical Flying_73": {
+      "qid": 73,
+      "topic": "Practical Flying",
+      "explanation": "Every wing produces wingtip vortices and a churned-up trail behind it. For a paraglider the wake is short-lived but very real - fly close behind another wing, especially near the ground, and you can feel the rolling sink and pitch upsets. The polite spacing is the same as for any aircraft: a generous offset so you stay out of the lead pilot's wake.",
+      "guide_chapter": {
+        "id": "p5-range-optimization",
+        "title": "Range and Optimization of Flight, Lateral Drift, Flight in Lift"
+      },
+      "workbook_chapter": {
+        "id": "skills-06-soaring",
+        "title": "Ridge soaring and thermalling"
+      },
+      "diagrams": [
+        {
+          "id": "p5-thermal-wind-tilt",
+          "title": "Thermal column tilted by wind"
+        }
+      ],
+      "video_clips": [],
+      "slide_pages": [
+        {
+          "deck_id": "flugpraxis",
+          "page": 14
+        }
+      ]
+    },
+    "Practical Flying_75": {
+      "qid": 75,
+      "topic": "Practical Flying",
+      "explanation": "Pulling both brakes too hard takes airspeed away symmetrically, so the airflow detaches at the same moment on both sides of the wing. With no airflow the wing either hangs vertically with no forward speed (parachutal/inflated stall) or tips backwards and deflates (full stall). Spiral and front collapse happen from asymmetric input, not symmetric over-braking.",
+      "guide_chapter": {
+        "id": "p5-flight-patterns",
+        "title": "Flight Patterns, Exit from the Flight Area, Flight Incidents"
+      },
+      "workbook_chapter": {
+        "id": "skills-07-incidents-recovery",
+        "title": "Flight incidents and recovery"
+      },
+      "diagrams": [
+        {
+          "id": "p5-stall-types",
+          "title": "Full stall vs parachutal stall vs spin"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "aa_stallpunkt",
+          "t_start": 23.3,
+          "t_end": 86.2,
+          "snippet": "Stefan: brake too deep and you reach the stall point - the wing goes from forward flight to deep stall and possibly into full stall behind you."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "flugpraxis",
+          "page": 16
+        }
+      ]
+    },
+    "Practical Flying_76": {
+      "qid": 76,
+      "topic": "Practical Flying",
+      "explanation": "In a parachutal stall the wing keeps its span but stops moving forward. The classic indicators all show the loss of airflow: no wind in your face, slack brake pressure that gives no resistance, and the underside fabric ballooning concave because the relative wind now hits it from below. High sink without brake pressure is the giveaway.",
+      "guide_chapter": {
+        "id": "p5-flight-patterns",
+        "title": "Flight Patterns, Exit from the Flight Area, Flight Incidents"
+      },
+      "workbook_chapter": {
+        "id": "skills-07-incidents-recovery",
+        "title": "Flight incidents and recovery"
+      },
+      "diagrams": [
+        {
+          "id": "p5-stall-types",
+          "title": "Full stall vs parachutal stall vs spin"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "aa_stallpunkt",
+          "t_start": 100.0,
+          "t_end": 166.5,
+          "snippet": "Stefan: at the stall point brake pressure suddenly drops like a pistol shot; visually you see the lower surface bulging upward because the air now pushes on it from below."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "flugpraxis",
+          "page": 16
+        }
+      ]
+    },
+    "Practical Flying_77": {
+      "qid": 77,
+      "topic": "Practical Flying",
+      "explanation": "Out of parachutal stall at altitude you have to give the wing speed again. Pushing forward on the A-risers or stepping on the accelerator tilts the canopy nose down, restores forward flight and resolves the stall. Pumping brakes either side risks driving the wing into full stall or spin; waiting for a self-recovery is unsafe because some parachutal stalls are stable.",
+      "guide_chapter": {
+        "id": "p5-flight-patterns",
+        "title": "Flight Patterns, Exit from the Flight Area, Flight Incidents"
+      },
+      "workbook_chapter": {
+        "id": "skills-07-incidents-recovery",
+        "title": "Flight incidents and recovery"
+      },
+      "diagrams": [
+        {
+          "id": "p5-stall-types",
+          "title": "Full stall vs parachutal stall vs spin"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "aa_stallpunkt",
+          "t_start": 342.8,
+          "t_end": 369.7,
+          "snippet": "Stefan: stuck in deep stall - move forward to the A-risers, pull, release; that's the exit to forward flight."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "flugpraxis",
+          "page": 16
+        }
+      ]
+    },
+    "Practical Flying_78": {
+      "qid": 78,
+      "topic": "Practical Flying",
+      "explanation": "Ten metres above the ground you have no altitude to recover a forward surge. The least bad option is to keep the wing in parachutal stall (it descends roughly vertically at controlled sink), sit upright, get the legs ready and execute a parachute landing fall. Pumping brakes near the ground would cause a forward surge into the ground; throwing the reserve from 10 m is too low to inflate.",
+      "guide_chapter": {
+        "id": "p5-flight-patterns",
+        "title": "Flight Patterns, Exit from the Flight Area, Flight Incidents"
+      },
+      "workbook_chapter": {
+        "id": "skills-07-incidents-recovery",
+        "title": "Flight incidents and recovery"
+      },
+      "diagrams": [
+        {
+          "id": "p5-stall-types",
+          "title": "Full stall vs parachutal stall vs spin"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "flugpraxis_1",
+          "t_start": 1462.2,
+          "t_end": 1486.2,
+          "snippet": "Sam: in parachutal stall we have no forward speed - the cure is fast: hands on the A-risers and push, or hit the accelerator, to get the wing back into normal flight."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "flugpraxis",
+          "page": 16
+        }
+      ]
+    },
+    "Practical Flying_79": {
+      "qid": 79,
+      "topic": "Practical Flying",
+      "explanation": "All three are well-documented routes into a stable parachutal stall: stretched (out-of-trim) lines from age, brakes set too short at the line lock, and rain-soaked fabric (heavier wing, distorted profile). That's why annual line trim checks, correct brake-line length and dropping into landing instead of climbing into showers all matter for safety.",
+      "guide_chapter": {
+        "id": "p5-flight-patterns",
+        "title": "Flight Patterns, Exit from the Flight Area, Flight Incidents"
+      },
+      "workbook_chapter": {
+        "id": "skills-07-incidents-recovery",
+        "title": "Flight incidents and recovery"
+      },
+      "diagrams": [
+        {
+          "id": "p5-stall-types",
+          "title": "Full stall vs parachutal stall vs spin"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "flugpraxis_1",
+          "t_start": 1425.9,
+          "t_end": 1462.2,
+          "snippet": "Sam: parachutal stall is just flying too slowly - reasons can include flying with a very wet wing or having the brake too far down."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "flugpraxis",
+          "page": 16
+        }
+      ]
+    },
+    "Practical Flying_80": {
+      "qid": 80,
+      "topic": "Practical Flying",
+      "explanation": "In a turn, the inside half of the wing flies slower than the outside half. Pull the inside brake too hard and the inside half drops below stall speed first - airflow detaches there, the wing whips over to that side and the asymmetric stall develops into a spin. Symmetric over-braking from straight flight goes to parachutal stall; this is different.",
+      "guide_chapter": {
+        "id": "p5-flight-patterns",
+        "title": "Flight Patterns, Exit from the Flight Area, Flight Incidents"
+      },
+      "workbook_chapter": {
+        "id": "skills-07-incidents-recovery",
+        "title": "Flight incidents and recovery"
+      },
+      "diagrams": [
+        {
+          "id": "p5-stall-types",
+          "title": "Full stall vs parachutal stall vs spin"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "flugpraxis_1",
+          "t_start": 1751.8,
+          "t_end": 1801.9,
+          "snippet": "Sam: a spin happens when you pull one side down too much - typically over-braking the inside to land - and the wing turns negatively while you follow underneath, sometimes into a twist."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "flugpraxis",
+          "page": 16
+        }
+      ]
+    },
+    "Practical Flying_81": {
+      "qid": 81,
+      "topic": "Practical Flying",
+      "explanation": "An abrupt turn input from straight flight is essentially the same as suddenly over-braking one side: the inside half of the wing loses airspeed too quickly, the airflow separates and the wing pitches over and starts to spin. Smooth turn initiation with weight shift first, then dosed brake, keeps you well inside the stable envelope.",
+      "guide_chapter": {
+        "id": "p5-flight-patterns",
+        "title": "Flight Patterns, Exit from the Flight Area, Flight Incidents"
+      },
+      "workbook_chapter": {
+        "id": "skills-07-incidents-recovery",
+        "title": "Flight incidents and recovery"
+      },
+      "diagrams": [
+        {
+          "id": "p5-stall-types",
+          "title": "Full stall vs parachutal stall vs spin"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "aa_kurvenfliegen",
+          "t_start": 64.1,
+          "t_end": 119.0,
+          "snippet": "Stefan: in a turn put weight on first, then take the brake along to support - work slowly with the brake so you build the bank progressively, not abruptly."
+        }
+      ],
+      "slide_pages": []
+    },
+    "Practical Flying_82": {
+      "qid": 82,
+      "topic": "Practical Flying",
+      "explanation": "When the inside of the wing stalls, the airflow on that half collapses and the brake line goes slack: you can pull it almost to your hip without ever feeling pressure. That sudden 'nothing there' on the inside brake is the unmistakable signature. Spiral builds G-forces; pendulum is about pitch; a side collapse releases pressure differently.",
+      "guide_chapter": {
+        "id": "p5-flight-patterns",
+        "title": "Flight Patterns, Exit from the Flight Area, Flight Incidents"
+      },
+      "workbook_chapter": {
+        "id": "skills-07-incidents-recovery",
+        "title": "Flight incidents and recovery"
+      },
+      "diagrams": [
+        {
+          "id": "p5-stall-types",
+          "title": "Full stall vs parachutal stall vs spin"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "aa_stallpunkt",
+          "t_start": 100.0,
+          "t_end": 166.5,
+          "snippet": "Stefan: brake pressure rises as you pull deeper, then drops like a pistol shot when the stall point is reached - immediately hands up."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "flugpraxis",
+          "page": 16
+        }
+      ]
+    },
+    "Practical Flying_83": {
+      "qid": 83,
+      "topic": "Practical Flying",
+      "explanation": "Once one side has stalled, the recipe is the same as for any stall: release brake pressure so the wing can take a clean profile and accelerate. Both hands up lets the airflow reattach and the wing return to normal flight. Pumping the inside brake just deepens the stall; loading the outside brake or grabbing the risers can drive you into a spin or twist.",
+      "guide_chapter": {
+        "id": "p5-flight-patterns",
+        "title": "Flight Patterns, Exit from the Flight Area, Flight Incidents"
+      },
+      "workbook_chapter": {
+        "id": "skills-07-incidents-recovery",
+        "title": "Flight incidents and recovery"
+      },
+      "diagrams": [
+        {
+          "id": "p5-stall-types",
+          "title": "Full stall vs parachutal stall vs spin"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "aa_nicken",
+          "t_start": 388.5,
+          "t_end": 441.2,
+          "snippet": "Stefan: if we've stalled the wing - keep the hands up, let the wing fly, and only react if a collapse develops."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "flugpraxis",
+          "page": 16
+        }
+      ]
+    },
+    "Practical Flying_84": {
+      "qid": 84,
+      "topic": "Practical Flying",
+      "explanation": "Asymmetric stall risk is minimised by keeping the wing well above its stall speed - 'reserve speed' - and by flying with fingertip feel rather than hauling the brakes. You never lose much by being a bit faster; you can lose everything by being a bit too slow. Anemometers measure groundspeed and brake/turn rules don't replace airspeed margin.",
+      "guide_chapter": {
+        "id": "p5-flight-patterns",
+        "title": "Flight Patterns, Exit from the Flight Area, Flight Incidents"
+      },
+      "workbook_chapter": {
+        "id": "skills-07-incidents-recovery",
+        "title": "Flight incidents and recovery"
+      },
+      "diagrams": [
+        {
+          "id": "p5-stall-types",
+          "title": "Full stall vs parachutal stall vs spin"
+        }
+      ],
+      "video_clips": [],
+      "slide_pages": [
+        {
+          "deck_id": "flugpraxis",
+          "page": 16
+        }
+      ]
+    },
+    "Practical Flying_85": {
+      "qid": 85,
+      "topic": "Practical Flying",
+      "explanation": "Pulling only the A-risers does the opposite of accelerating: it tips the leading edge downward, drops the angle of attack on every cell at once, and the wing folds inward as the wingtips swing forward past the centre. That's a textbook front (frontal) collapse. The accelerator does the same job safely because it pulls the A and B groups together in a coordinated way.",
+      "guide_chapter": {
+        "id": "p5-flight-patterns",
+        "title": "Flight Patterns, Exit from the Flight Area, Flight Incidents"
+      },
+      "workbook_chapter": {
+        "id": "skills-07-incidents-recovery",
+        "title": "Flight incidents and recovery"
+      },
+      "diagrams": [
+        {
+          "id": "p5-collapses",
+          "title": "Lateral and frontal collapses"
+        }
+      ],
+      "video_clips": [],
+      "slide_pages": [
+        {
+          "deck_id": "flugpraxis",
+          "page": 16
+        }
+      ]
+    },
+    "Practical Flying_86": {
+      "qid": 86,
+      "topic": "Practical Flying",
+      "explanation": "When more than half the wing folds away, the asymmetric drag and lift loss start a rotation toward the collapsed side. If the pilot does nothing, that rotation accelerates - the wing tips dive and the rotation tightens into a constantly increasing spiral. Active counter-braking and weight shift are needed; passive 'wait and see' usually ends badly.",
+      "guide_chapter": {
+        "id": "p5-flight-patterns",
+        "title": "Flight Patterns, Exit from the Flight Area, Flight Incidents"
+      },
+      "workbook_chapter": {
+        "id": "skills-07-incidents-recovery",
+        "title": "Flight incidents and recovery"
+      },
+      "diagrams": [
+        {
+          "id": "p5-collapses",
+          "title": "Lateral and frontal collapses"
+        },
+        {
+          "id": "p5-rapid-descent",
+          "title": "Rapid descent maneuvers"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "aa_seitenklapper_50%",
+          "t_start": 31.9,
+          "t_end": 88.3,
+          "snippet": "Stefan: an asymmetric collapse brakes that side - the wing wants to rotate; we want to fly straight, so we counter with weight and dosed opposite brake."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "flugpraxis",
+          "page": 16
+        }
+      ]
+    },
+    "Practical Flying_87": {
+      "qid": 87,
+      "topic": "Practical Flying",
+      "explanation": "The procedure on a side collapse is sequential, not simultaneous: first stabilise the direction with weight shift toward the open side and a gentle dose of brake on the open side so the wing flies straight, then - and only then - pump the collapsed side if it hasn't reopened by itself. Full brake on either side, or symmetric full brake, all risk stalling on top of the collapse.",
+      "guide_chapter": {
+        "id": "p5-flight-patterns",
+        "title": "Flight Patterns, Exit from the Flight Area, Flight Incidents"
+      },
+      "workbook_chapter": {
+        "id": "skills-07-incidents-recovery",
+        "title": "Flight incidents and recovery"
+      },
+      "diagrams": [
+        {
+          "id": "p5-collapses",
+          "title": "Lateral and frontal collapses"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "aa_seitenklapper_50%",
+          "t_start": 269.0,
+          "t_end": 349.0,
+          "snippet": "Stefan: work carefully with the open-side brake, seek straight heading and keep flying for a few seconds; if the collapse doesn't come out by itself, pump it - but always with two-three second spacing."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "flugpraxis",
+          "page": 16
+        }
+      ]
+    },
+    "Practical Flying_88": {
+      "qid": 88,
+      "topic": "Practical Flying",
+      "explanation": "A bit of pendulum motion in turbulence is normal. The right response is to take the brakes down to about 25-30 % and just feel the wing - active 'fight back' braking risks introducing the wing into oscillation cycles. Sit relaxed, let your body absorb the motion, and the wing self-stabilises. Aggressive opposite brake and high speed both make things worse.",
+      "guide_chapter": {
+        "id": "p5-flight-patterns",
+        "title": "Flight Patterns, Exit from the Flight Area, Flight Incidents"
+      },
+      "workbook_chapter": {
+        "id": "skills-07-incidents-recovery",
+        "title": "Flight incidents and recovery"
+      },
+      "diagrams": [
+        {
+          "id": "p5-collapses",
+          "title": "Lateral and frontal collapses"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "aa_bremshaltung",
+          "t_start": 270.0,
+          "t_end": 335.0,
+          "snippet": "Stefan: holding the brake with a short outward wrap gives you very good feel and a short steering travel, much less strenuous in turbulence."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "flugpraxis",
+          "page": 16
+        }
+      ]
+    },
+    "Practical Flying_91": {
+      "qid": 91,
+      "topic": "Practical Flying",
+      "explanation": "A wingover is a deliberate, rhythmic alternation of turns that builds energy each cycle until the wing momentarily exceeds 90 deg of bank. It is a swinging manoeuvre around the longitudinal axis - very different from a spiral (constant tight turn) or a twist (risers cross). The exam requires demonstrating wingovers to stabilo height.",
+      "guide_chapter": {
+        "id": "p5-flight-patterns",
+        "title": "Flight Patterns, Exit from the Flight Area, Flight Incidents"
+      },
+      "workbook_chapter": {
+        "id": "skills-07-incidents-recovery",
+        "title": "Flight incidents and recovery"
+      },
+      "diagrams": [
+        {
+          "id": "p5-rapid-descent",
+          "title": "Rapid descent maneuvers"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "aa_rollen",
+          "t_start": 20.5,
+          "t_end": 119.5,
+          "snippet": "Stefan: rolling is the motion around the longitudinal axis - body first, then dosed brake, weight onto the new side at the highest point and the brake comes shortly after the lowest point."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "flugpraxis",
+          "page": 16
+        }
+      ]
+    },
+    "Practical Flying_92": {
+      "qid": 92,
+      "topic": "Practical Flying",
+      "explanation": "A spiral dive is a sustained tight turn in which the wing screws downward and the load factor climbs as centrifugal force grows. 4 G is realistic on a school wing - twice your normal weight pressing on you. That's why the safety syllabus reserves it for training under supervision: it descends fast but punishes the body.",
+      "guide_chapter": {
+        "id": "p5-flight-patterns",
+        "title": "Flight Patterns, Exit from the Flight Area, Flight Incidents"
+      },
+      "workbook_chapter": {
+        "id": "skills-07-incidents-recovery",
+        "title": "Flight incidents and recovery"
+      },
+      "diagrams": [
+        {
+          "id": "p5-rapid-descent",
+          "title": "Rapid descent maneuvers"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "flugpraxis_1",
+          "t_start": 1646.2,
+          "t_end": 1714.2,
+          "snippet": "Sam: in a spiral dive G-forces increase - 100 kg can become 400 kg at 4 G; this is why you only learn it under guidance, at SIV or on a G-Force trainer."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "flugpraxis",
+          "page": 16
+        }
+      ]
+    },
+    "Practical Flying_93": {
+      "qid": 93,
+      "topic": "Practical Flying",
+      "explanation": "Big ears is the rapid-descent of choice when you also need horizontal control. The wing still flies forward (you only fold the outer A-line in), the body doesn't take G-forces and weight-shift steering still works - so you can leave a lift band, head into the wind, or pick a landing field. The other rapid-descent options (B-stall, spiral) either descend on the spot or load the body hard.",
+      "guide_chapter": {
+        "id": "p5-flight-patterns",
+        "title": "Flight Patterns, Exit from the Flight Area, Flight Incidents"
+      },
+      "workbook_chapter": {
+        "id": "skills-07-incidents-recovery",
+        "title": "Flight incidents and recovery"
+      },
+      "diagrams": [
+        {
+          "id": "p5-rapid-descent",
+          "title": "Rapid descent maneuvers"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "aa_grosse_ohren",
+          "t_start": 21.9,
+          "t_end": 65.4,
+          "snippet": "Stefan: big-ears gives very high sink rates already in straight flight, with weight shift even double-digit m/s, very easily and without physical strain."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "flugpraxis",
+          "page": 16
+        }
+      ]
+    },
+    "Practical Flying_95": {
+      "qid": 95,
+      "topic": "Practical Flying",
+      "explanation": "All three side notes apply to big-ears: only the intended outer A-lines must be pulled (others on the A-row would fold the centre and front-collapse the wing); a clumsy grab can pick up the middle A-line and produce that frontal collapse; and inexperienced pilots can take the ears in one at a time to avoid pulling both centre lines together.",
+      "guide_chapter": {
+        "id": "p5-flight-patterns",
+        "title": "Flight Patterns, Exit from the Flight Area, Flight Incidents"
+      },
+      "workbook_chapter": {
+        "id": "skills-07-incidents-recovery",
+        "title": "Flight incidents and recovery"
+      },
+      "diagrams": [
+        {
+          "id": "p5-rapid-descent",
+          "title": "Rapid descent maneuvers"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "aa_grosse_ohren",
+          "t_start": 95.4,
+          "t_end": 130.9,
+          "snippet": "Stefan: don't pull too low at the line lock - you would drag the innermost A-line down and produce a frontal; grab high above the lock and kink them first."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "flugpraxis",
+          "page": 16
+        }
+      ]
+    },
+    "Practical Flying_96": {
+      "qid": 96,
+      "topic": "Practical Flying",
+      "explanation": "Folding the wingtips in cuts surface area but keeps your weight the same, so wing loading goes up and forward speed drops. The pilot has to fly at a higher angle of attack than usual, which puts the wing much closer to its stall point than in normal flight. That's why entering and especially exiting big ears can drop you into a parachutal stall if you're not on the bar.",
+      "guide_chapter": {
+        "id": "p5-flight-patterns",
+        "title": "Flight Patterns, Exit from the Flight Area, Flight Incidents"
+      },
+      "workbook_chapter": {
+        "id": "skills-07-incidents-recovery",
+        "title": "Flight incidents and recovery"
+      },
+      "diagrams": [
+        {
+          "id": "p5-rapid-descent",
+          "title": "Rapid descent maneuvers"
+        },
+        {
+          "id": "p5-stall-types",
+          "title": "Full stall vs parachutal stall vs spin"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "aa_kleine_ohren",
+          "t_start": 75.6,
+          "t_end": 200.9,
+          "snippet": "Stefan: with ears in, wing loading rises, the angle of attack rises and the stall point shifts to higher speed - that's why we always combine ears with the accelerator."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "flugpraxis",
+          "page": 16
+        }
+      ]
+    },
+    "Practical Flying_97": {
+      "qid": 97,
+      "topic": "Practical Flying",
+      "explanation": "The accelerator is what tilts the canopy forward enough to keep angle of attack out of the stall band when ears are in. The combination is therefore safe: ears for area reduction (high sink) plus accelerator to keep airflow attached. The notion that they should not be combined is exactly the wrong way around.",
+      "guide_chapter": {
+        "id": "p5-flight-patterns",
+        "title": "Flight Patterns, Exit from the Flight Area, Flight Incidents"
+      },
+      "workbook_chapter": {
+        "id": "skills-07-incidents-recovery",
+        "title": "Flight incidents and recovery"
+      },
+      "diagrams": [
+        {
+          "id": "p5-rapid-descent",
+          "title": "Rapid descent maneuvers"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "aa_kleine_ohren",
+          "t_start": 200.9,
+          "t_end": 256.7,
+          "snippet": "Stefan: by accelerating, the canopy tilts forward and down, the angle of attack decreases and the stall window widens again - that's why ears always go with the accelerator."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "flugpraxis",
+          "page": 16
+        }
+      ]
+    },
+    "Practical Flying_98": {
+      "qid": 98,
+      "topic": "Practical Flying",
+      "explanation": "Close to the ground you don't want a forward surge or a brake-induced stall. Pumping the brakes to pop the ears back open could either over-brake the now slow-flying wing into parachutal stall or trigger a pitch surge into the ground. So at low altitude let them open passively (release the A-lines, weight shift) and keep flying - never actively pump on short final.",
+      "guide_chapter": {
+        "id": "p5-flight-patterns",
+        "title": "Flight Patterns, Exit from the Flight Area, Flight Incidents"
+      },
+      "workbook_chapter": {
+        "id": "skills-07-incidents-recovery",
+        "title": "Flight incidents and recovery"
+      },
+      "diagrams": [
+        {
+          "id": "p5-rapid-descent",
+          "title": "Rapid descent maneuvers"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "aa_grosse_ohren",
+          "t_start": 161.1,
+          "t_end": 197.2,
+          "snippet": "Stefan: stay fully on the bar, release the A-lines symmetrically, only if needed pump them - but with full bar - and only come off the accelerator once the ears are fully out."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "flugpraxis",
+          "page": 16
+        }
+      ]
+    },
+    "Practical Flying_99": {
+      "qid": 99,
+      "topic": "Practical Flying",
+      "explanation": "Spiral dive achieves a very high sink rate, but at the cost of sustained G-forces of 2-4 G on the body. After a minute or two many pilots blackout or vomit; for older pilots the load is genuinely dangerous. That's why it isn't a 'go-to' descent manoeuvre - big ears with bar is gentler and works for everyone.",
+      "guide_chapter": {
+        "id": "p5-flight-patterns",
+        "title": "Flight Patterns, Exit from the Flight Area, Flight Incidents"
+      },
+      "workbook_chapter": {
+        "id": "skills-07-incidents-recovery",
+        "title": "Flight incidents and recovery"
+      },
+      "diagrams": [
+        {
+          "id": "p5-rapid-descent",
+          "title": "Rapid descent maneuvers"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "aa_b-stall",
+          "t_start": 71.8,
+          "t_end": 95.6,
+          "snippet": "Stefan: steep spiral isn't suitable for losing altitude over a longer period, especially on today's wings - the physical load is just too much."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "flugpraxis",
+          "page": 16
+        }
+      ]
+    },
+    "Practical Flying_100": {
+      "qid": 100,
+      "topic": "Practical Flying",
+      "explanation": "In a stable spiral you keep both speed and G-load under control by feeding outside brake and shifting weight outwards. Releasing the inside brake alone might let the wing reopen too suddenly; the outside brake is what tames the rotation while the inside hand stays planted. The myth that spiral exits cause parachutal stall is wrong - the issue is over-shoot and G-spike.",
+      "guide_chapter": {
+        "id": "p5-flight-patterns",
+        "title": "Flight Patterns, Exit from the Flight Area, Flight Incidents"
+      },
+      "workbook_chapter": {
+        "id": "skills-07-incidents-recovery",
+        "title": "Flight incidents and recovery"
+      },
+      "diagrams": [
+        {
+          "id": "p5-rapid-descent",
+          "title": "Rapid descent maneuvers"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "aa_p1_doppelkreis_rechts",
+          "t_start": 100.0,
+          "t_end": 132.4,
+          "snippet": "Stefan: never just release the inner brake - keep it and pull the outer brake until you come back out of the bank angle."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "flugpraxis",
+          "page": 16
+        }
+      ]
+    },
+    "Practical Flying_101": {
+      "qid": 101,
+      "topic": "Practical Flying",
+      "explanation": "All three caveats are textbook: an established spiral has to be actively controlled with outside brake and outside weight; depending on harness/glider/body geometry it can become 'stable' and the wing won't exit on its own; lifting the outer leg over the inner tightens the spin and increases the dive tendency. That's why spiral training belongs in SIV, not in everyday flying.",
+      "guide_chapter": {
+        "id": "p5-flight-patterns",
+        "title": "Flight Patterns, Exit from the Flight Area, Flight Incidents"
+      },
+      "workbook_chapter": {
+        "id": "skills-07-incidents-recovery",
+        "title": "Flight incidents and recovery"
+      },
+      "diagrams": [
+        {
+          "id": "p5-rapid-descent",
+          "title": "Rapid descent maneuvers"
+        }
+      ],
+      "video_clips": [],
+      "slide_pages": [
+        {
+          "deck_id": "flugpraxis",
+          "page": 16
+        }
+      ]
+    },
+    "Practical Flying_104": {
+      "qid": 104,
+      "topic": "Practical Flying",
+      "explanation": "Landing up the slope brings you against a rising surface that effectively cuts your touchdown speed to zero very fast - the geometry makes pinpoint placement easy. The drawback is that the same wedge of ground is decelerating you violently, so the impact is harsh on legs and spine. Down-slope landings keep the contact gentler but the run-out is uncontrolled.",
+      "guide_chapter": {
+        "id": "p5-landing",
+        "title": "Landing"
+      },
+      "workbook_chapter": {
+        "id": "skills-08-landing",
+        "title": "Landing"
+      },
+      "diagrams": [
+        {
+          "id": "p5-landing-volte",
+          "title": "Volte landing pattern (U)"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "flugpraxis_1",
+          "t_start": 365.1,
+          "t_end": 395.8,
+          "snippet": "Sam: a slope landing has to be parallel to the slope; flying straight into the slope wrecks the flare calculation."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "flugpraxis",
+          "page": 12
+        }
+      ]
+    },
+    "Practical Flying_105": {
+      "qid": 105,
+      "topic": "Practical Flying",
+      "explanation": "The landing volte is not just a beginner crutch - it's a shared protocol. Everyone in the pattern can predict where everyone else is going, so collisions on short final are avoided, and the geometry happens to be the best for hitting a spot accurately. That's why licensed pilots still fly it, including on outlandings.",
+      "guide_chapter": {
+        "id": "p5-landing",
+        "title": "Landing"
+      },
+      "workbook_chapter": {
+        "id": "skills-08-landing",
+        "title": "Landing"
+      },
+      "diagrams": [
+        {
+          "id": "p5-landing-volte",
+          "title": "Volte landing pattern (U)"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "flugpraxis_1",
+          "t_start": 5.2,
+          "t_end": 47.0,
+          "snippet": "Sam: when landing everything happens faster because the ground is close - we all stick to the landing pattern so each pilot can see what the one ahead is doing."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "flugpraxis",
+          "page": 10
+        },
+        {
+          "deck_id": "flugpraxis",
+          "page": 11
+        }
+      ]
+    },
+    "Practical Flying_106": {
+      "qid": 106,
+      "topic": "Practical Flying",
+      "explanation": "In the standard volte the first phase, #1, is the altitude-loss zone (position circles): you circle in the same direction as your downwind leg until you've bled off enough height to enter the pattern at a healthy altitude. Only then do you fly off into the downwind leg.",
+      "guide_chapter": {
+        "id": "p5-landing",
+        "title": "Landing"
+      },
+      "workbook_chapter": {
+        "id": "skills-08-landing",
+        "title": "Landing"
+      },
+      "diagrams": [
+        {
+          "id": "p5-landing-volte",
+          "title": "Volte landing pattern (U)"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "flugpraxis_1",
+          "t_start": 51.0,
+          "t_end": 95.0,
+          "snippet": "Sam: the pattern starts with position (holding) circles in the same direction as the pattern, until you're at a healthy altitude."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "flugpraxis",
+          "page": 11
+        }
+      ]
+    },
+    "Practical Flying_107": {
+      "qid": 107,
+      "topic": "Practical Flying",
+      "explanation": "#2 in the diagram is the downwind leg - flown along the side of the landing field with the wind from behind, at a constant safe altitude. From here you set up the base leg perpendicular and finally turn final into wind.",
+      "guide_chapter": {
+        "id": "p5-landing",
+        "title": "Landing"
+      },
+      "workbook_chapter": {
+        "id": "skills-08-landing",
+        "title": "Landing"
+      },
+      "diagrams": [
+        {
+          "id": "p5-landing-volte",
+          "title": "Volte landing pattern (U)"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "flugpraxis_1",
+          "t_start": 99.0,
+          "t_end": 141.9,
+          "snippet": "Sam: don't use visual cues like tree height - it changes with the air mass; downwind, base, final, learn it by feel."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "flugpraxis",
+          "page": 11
+        }
+      ]
+    },
+    "Practical Flying_108": {
+      "qid": 108,
+      "topic": "Practical Flying",
+      "explanation": "#3 is the base leg - the crosswind segment that connects the downwind leg to the final approach. It is the only segment of the volte you can stretch (you're too high) or shorten (you're too low) to fine-tune your descent path.",
+      "guide_chapter": {
+        "id": "p5-landing",
+        "title": "Landing"
+      },
+      "workbook_chapter": {
+        "id": "skills-08-landing",
+        "title": "Landing"
+      },
+      "diagrams": [
+        {
+          "id": "p5-landing-volte",
+          "title": "Volte landing pattern (U)"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "flugpraxis_1",
+          "t_start": 146.9,
+          "t_end": 185.7,
+          "snippet": "Sam: too high on downwind - extend or repeat the base with S-turns; too low - shorten or skip it."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "flugpraxis",
+          "page": 11
+        }
+      ]
+    },
+    "Practical Flying_109": {
+      "qid": 109,
+      "topic": "Practical Flying",
+      "explanation": "#4 is the final leg - the straight segment from the end of base into wind to the landing spot. It must be flown as straight as you can manage, with only small wind-correction adjustments so you don't drift sideways into another pilot's flare zone.",
+      "guide_chapter": {
+        "id": "p5-landing",
+        "title": "Landing"
+      },
+      "workbook_chapter": {
+        "id": "skills-08-landing",
+        "title": "Landing"
+      },
+      "diagrams": [
+        {
+          "id": "p5-landing-volte",
+          "title": "Volte landing pattern (U)"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "flugpraxis_1",
+          "t_start": 185.7,
+          "t_end": 200.0,
+          "snippet": "Sam: final should be straight - small corrections only if the wind comes from an angle - flying straight toward the landing point."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "flugpraxis",
+          "page": 11
+        }
+      ]
+    },
+    "Practical Flying_110": {
+      "qid": 110,
+      "topic": "Practical Flying",
+      "explanation": "Always circle in the same sense as the pattern itself so other pilots can predict your motion - if you'll fly a left-hand pattern, do left position circles. Random left-or-right circles, S-turns or contradictory directions all break the predictability that the volte is supposed to provide.",
+      "guide_chapter": {
+        "id": "p5-landing",
+        "title": "Landing"
+      },
+      "workbook_chapter": {
+        "id": "skills-08-landing",
+        "title": "Landing"
+      },
+      "diagrams": [
+        {
+          "id": "p5-landing-volte",
+          "title": "Volte landing pattern (U)"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "flugpraxis_1",
+          "t_start": 60.0,
+          "t_end": 80.0,
+          "snippet": "Sam: right-hand pattern means right-hand circles, left-hand pattern means left-hand circles - then we go to a healthy altitude to enter the pattern."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "flugpraxis",
+          "page": 11
+        }
+      ]
+    },
+    "Practical Flying_111": {
+      "qid": 111,
+      "topic": "Practical Flying",
+      "explanation": "For a left-hand approach the altitude-loss circles are placed in sector 2 of the diagram, so that you naturally end up on the upwind side and can fly the left downwind leg parallel to the landing field. Any other sector forces you to cross your own pattern to enter the downwind leg.",
+      "guide_chapter": {
+        "id": "p5-landing",
+        "title": "Landing"
+      },
+      "workbook_chapter": {
+        "id": "skills-08-landing",
+        "title": "Landing"
+      },
+      "diagrams": [
+        {
+          "id": "p5-landing-volte",
+          "title": "Volte landing pattern (U)"
+        }
+      ],
+      "video_clips": [],
+      "slide_pages": [
+        {
+          "deck_id": "flugpraxis",
+          "page": 11
+        }
+      ]
+    },
+    "Practical Flying_113": {
+      "qid": 113,
+      "topic": "Practical Flying",
+      "explanation": "Too low on the turn from downwind to base means you have no spare height to spend - so the right correction is to cut the corner: turn directly toward the final aim point rather than continuing to the planned base position. Diagram 2 shows that shortened path; anything that extends the route loses you the rest of your altitude.",
+      "guide_chapter": {
+        "id": "p5-landing",
+        "title": "Landing"
+      },
+      "workbook_chapter": {
+        "id": "skills-08-landing",
+        "title": "Landing"
+      },
+      "diagrams": [
+        {
+          "id": "p5-landing-corrections",
+          "title": "Landing height corrections"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "flugpraxis_1",
+          "t_start": 146.9,
+          "t_end": 185.7,
+          "snippet": "Sam: too short - shorten the base or skip it entirely; the S-turn option only works when you have altitude to spare."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "flugpraxis",
+          "page": 11
+        }
+      ]
+    },
+    "Practical Flying_114": {
+      "qid": 114,
+      "topic": "Practical Flying",
+      "explanation": "Too high on the base leg means too much energy remaining. Lengthen the base leg by flying farther past the planned turn-onto-final, possibly add S-turns, and only then turn final - diagram 4 shows that extended base. Tightening the path makes the height excess even worse.",
+      "guide_chapter": {
+        "id": "p5-landing",
+        "title": "Landing"
+      },
+      "workbook_chapter": {
+        "id": "skills-08-landing",
+        "title": "Landing"
+      },
+      "diagrams": [
+        {
+          "id": "p5-landing-corrections",
+          "title": "Landing height corrections"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "flugpraxis_1",
+          "t_start": 141.0,
+          "t_end": 200.0,
+          "snippet": "Sam: too high on downwind - turn base early and extend it far forward; the S-turns let you bleed extra altitude on a clean line."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "flugpraxis",
+          "page": 11
+        }
+      ]
+    },
+    "Practical Flying_115": {
+      "qid": 115,
+      "topic": "Practical Flying",
+      "explanation": "With 10-15 km/h of wind, the standard volte (diagram 1) lines up exactly: downwind along the side of the field, short crosswind base, final straight into wind. The 'standard pattern is the right pattern' is exactly what these diagrams are designed to reinforce.",
+      "guide_chapter": {
+        "id": "p5-landing",
+        "title": "Landing"
+      },
+      "workbook_chapter": {
+        "id": "skills-08-landing",
+        "title": "Landing"
+      },
+      "diagrams": [
+        {
+          "id": "p5-landing-volte",
+          "title": "Volte landing pattern (U)"
+        }
+      ],
+      "video_clips": [],
+      "slide_pages": [
+        {
+          "deck_id": "flugpraxis",
+          "page": 11
+        }
+      ]
+    },
+    "Practical Flying_116": {
+      "qid": 116,
+      "topic": "Practical Flying",
+      "explanation": "In very light or zero wind the wing covers the same distance per metre of altitude no matter which way it points. The pattern has to be opened out (wider downwind, longer base) so you don't arrive too high - diagram 3 shows that expanded pattern. A tight standard volte at 0-5 km/h would put you well above the field on final.",
+      "guide_chapter": {
+        "id": "p5-landing",
+        "title": "Landing"
+      },
+      "workbook_chapter": {
+        "id": "skills-08-landing",
+        "title": "Landing"
+      },
+      "diagrams": [
+        {
+          "id": "p5-landing-volte",
+          "title": "Volte landing pattern (U)"
+        },
+        {
+          "id": "p5-landing-corrections",
+          "title": "Landing height corrections"
+        }
+      ],
+      "video_clips": [],
+      "slide_pages": [
+        {
+          "deck_id": "flugpraxis",
+          "page": 11
+        }
+      ]
+    },
+    "Practical Flying_117": {
+      "qid": 117,
+      "topic": "Practical Flying",
+      "explanation": "First pilot down picks the direction. Convention here defaults to the standard left-hand pattern, which lets the followers copy it without negotiation. Forcing a 90-degree-to-valley-axis landing or simply 'free choice' both lead to chaos when the next pilots are only 50 m behind.",
+      "guide_chapter": {
+        "id": "p5-landing",
+        "title": "Landing"
+      },
+      "workbook_chapter": {
+        "id": "skills-08-landing",
+        "title": "Landing"
+      },
+      "diagrams": [
+        {
+          "id": "p5-landing-volte",
+          "title": "Volte landing pattern (U)"
+        }
+      ],
+      "video_clips": [],
+      "slide_pages": [
+        {
+          "deck_id": "flugpraxis",
+          "page": 10
+        }
+      ]
+    },
+    "Practical Flying_118": {
+      "qid": 118,
+      "topic": "Practical Flying",
+      "explanation": "You've already committed to the pattern, and the two pilots behind you have committed to copy it. With a 2 m/s tailwind on what was going to be your final, the glide is flatter and your touchdown will overshoot - so the right adjustment is a shallower final, not a steeper one, and an earlier flare. Abandoning the pattern mid-base or landing across the wind invites collisions with the others.",
+      "guide_chapter": {
+        "id": "p5-landing",
+        "title": "Landing"
+      },
+      "workbook_chapter": {
+        "id": "skills-08-landing",
+        "title": "Landing"
+      },
+      "diagrams": [
+        {
+          "id": "p5-landing-corrections",
+          "title": "Landing height corrections"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "flugpraxis_1",
+          "t_start": 288.9,
+          "t_end": 365.1,
+          "snippet": "Sam: if the wind shifts and final becomes downwind, follow through with the pattern you chose - tailwind landing means more speed on final, brake decisively, but don't bail mid-pattern."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "flugpraxis",
+          "page": 12
+        }
+      ]
+    },
+    "Practical Flying_119": {
+      "qid": 119,
+      "topic": "Practical Flying",
+      "explanation": "With tailwind, ground speed equals airspeed plus wind speed. The wing crosses the ground faster, so the glide angle relative to the ground is shallower (it 'travels further per metre lost') - and you touch down with higher speed than airspeed alone, making the run-out harder. Both effects work against soft landings.",
+      "guide_chapter": {
+        "id": "p5-landing",
+        "title": "Landing"
+      },
+      "workbook_chapter": {
+        "id": "skills-08-landing",
+        "title": "Landing"
+      },
+      "diagrams": [
+        {
+          "id": "p5-landing-corrections",
+          "title": "Landing height corrections"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "flugpraxis_1",
+          "t_start": 314.9,
+          "t_end": 350.0,
+          "snippet": "Sam: with a tailwind you have more speed on final - you have to brake through more decisively, higher up, to build the moment when the wing stands up and you're on the ground."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "flugpraxis",
+          "page": 12
+        }
+      ]
+    },
+    "Practical Flying_120": {
+      "qid": 120,
+      "topic": "Practical Flying",
+      "explanation": "Head wind subtracts from the ground speed, so the wing comes down at a steeper angle and touches down with lower over-ground speed. This is the easy case: short flare, gentle run-out, exactly what the volte is optimised for. Stronger headwind = steeper, slower, kinder landing.",
+      "guide_chapter": {
+        "id": "p5-landing",
+        "title": "Landing"
+      },
+      "workbook_chapter": {
+        "id": "skills-08-landing",
+        "title": "Landing"
+      },
+      "diagrams": [
+        {
+          "id": "p5-landing-corrections",
+          "title": "Landing height corrections"
+        }
+      ],
+      "video_clips": [],
+      "slide_pages": [
+        {
+          "deck_id": "flugpraxis",
+          "page": 11
+        }
+      ]
+    },
+    "Practical Flying_123": {
+      "qid": 123,
+      "topic": "Practical Flying",
+      "explanation": "If you arrive at the base leg with too much height, the cleanest answer is to fly the base segment longer - and if necessary repeat it with S-turns - so the altitude bleeds off on a predictable, straight track. Returning to the holding pattern wastes time, circling on base risks others, and pulling brakes reduces glide but increases stall risk.",
+      "guide_chapter": {
+        "id": "p5-landing",
+        "title": "Landing"
+      },
+      "workbook_chapter": {
+        "id": "skills-08-landing",
+        "title": "Landing"
+      },
+      "diagrams": [
+        {
+          "id": "p5-landing-corrections",
+          "title": "Landing height corrections"
+        }
+      ],
+      "video_clips": [],
+      "slide_pages": [
+        {
+          "deck_id": "flugpraxis",
+          "page": 11
+        }
+      ]
+    },
+    "Practical Flying_124": {
+      "qid": 124,
+      "topic": "Practical Flying",
+      "explanation": "Too low on the base leg means you have to head directly to the field. Shortening or abandoning the base entirely lets you turn final immediately and arrive with whatever altitude is left. Trying to improve glide with brakes actually steepens the descent; circling at low altitude crashes you out.",
+      "guide_chapter": {
+        "id": "p5-landing",
+        "title": "Landing"
+      },
+      "workbook_chapter": {
+        "id": "skills-08-landing",
+        "title": "Landing"
+      },
+      "diagrams": [
+        {
+          "id": "p5-landing-corrections",
+          "title": "Landing height corrections"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "flugpraxis_1",
+          "t_start": 161.7,
+          "t_end": 174.2,
+          "snippet": "Sam: if we're too short, we can also shorten the whole thing - the S-turns and base length are how we manage altitude on the way to final."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "flugpraxis",
+          "page": 11
+        }
+      ]
+    },
+    "Practical Flying_125": {
+      "qid": 125,
+      "topic": "Practical Flying",
+      "explanation": "A small height excess on short final is corrected by adding drag from your body: brake the wing slightly to lower the glide ratio, and stand up out of the harness so the seat board, legs and torso work as a parachute. Acceleration would do the opposite (less drag, more glide), and S-turning or U-turning at low altitude is dangerous.",
+      "guide_chapter": {
+        "id": "p5-landing",
+        "title": "Landing"
+      },
+      "workbook_chapter": {
+        "id": "skills-08-landing",
+        "title": "Landing"
+      },
+      "diagrams": [
+        {
+          "id": "p5-landing-corrections",
+          "title": "Landing height corrections"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "flugpraxis_1",
+          "t_start": 206.8,
+          "t_end": 235.5,
+          "snippet": "Sam: too high - make yourself big, sit up out of the harness with legs ready, a lot of drag, poor glide - the altitude bleeds off efficiently."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "flugpraxis",
+          "page": 11
+        }
+      ]
+    },
+    "Practical Flying_126": {
+      "qid": 126,
+      "topic": "Practical Flying",
+      "explanation": "Already too low on base, you need maximum glide: keep the brakes off and the body compact in the harness so the wing flies the polar's flattest path. Only just before touchdown do you slowly and continuously start to brake for the flare. Heavy brake or 50% drag would steepen the descent and you'd land short.",
+      "guide_chapter": {
+        "id": "p5-landing",
+        "title": "Landing"
+      },
+      "workbook_chapter": {
+        "id": "skills-08-landing",
+        "title": "Landing"
+      },
+      "diagrams": [
+        {
+          "id": "p5-landing-corrections",
+          "title": "Landing height corrections"
+        }
+      ],
+      "video_clips": [],
+      "slide_pages": [
+        {
+          "deck_id": "flugpraxis",
+          "page": 11
+        }
+      ]
+    },
+    "Practical Flying_127": {
+      "qid": 127,
+      "topic": "Practical Flying",
+      "explanation": "80% brake puts the wing right at the edge of the stall envelope. The polar is at minimum sink but the wing is flying slowly with high angle of attack. Any gust or tiny brake increase will drop airflow off the wing and you fall into parachutal or full stall. That's why 80% brake is fine for a moment in the flare but not a sustained state.",
+      "guide_chapter": {
+        "id": "p5-flight-patterns",
+        "title": "Flight Patterns, Exit from the Flight Area, Flight Incidents"
+      },
+      "workbook_chapter": {
+        "id": "skills-08-landing",
+        "title": "Landing"
+      },
+      "diagrams": [
+        {
+          "id": "p5-stall-types",
+          "title": "Full stall vs parachutal stall vs spin"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "aa_stallpunkt",
+          "t_start": 100.0,
+          "t_end": 130.0,
+          "snippet": "Stefan: brake pressure rises as you pull deeper, but the closer to the stall point the more dangerous - a small extra input releases the pressure and the wing has stalled."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "flugpraxis",
+          "page": 13
+        }
+      ]
+    },
+    "Practical Flying_128": {
+      "qid": 128,
+      "topic": "Practical Flying",
+      "explanation": "The landing area belongs to whoever comes next. Folding, removing gear or filling in the logbook all happen off the landing strip. Step off the field with your wing as soon as you can - the pilot behind you is already on final.",
+      "guide_chapter": {
+        "id": "p5-landing",
+        "title": "Landing"
+      },
+      "workbook_chapter": {
+        "id": "skills-08-landing",
+        "title": "Landing"
+      },
+      "diagrams": [
+        {
+          "id": "p5-landing-volte",
+          "title": "Volte landing pattern (U)"
+        }
+      ],
+      "video_clips": [],
+      "slide_pages": [
+        {
+          "deck_id": "flugpraxis",
+          "page": 11
+        }
+      ]
+    },
+    "Practical Flying_129": {
+      "qid": 129,
+      "topic": "Practical Flying",
+      "explanation": "At 25 km/h, brake pulls only make the wing produce more lift and drag you. The classic procedure is the opposite: spin 180 deg to face the wing, pull on the B or C-line group (or rear risers) to collapse the lifting surface from the back, and run forward toward the wing. Pulling A-risers can cause an asymmetric collapse that drags you sideways.",
+      "guide_chapter": {
+        "id": "p5-landing",
+        "title": "Landing"
+      },
+      "workbook_chapter": {
+        "id": "skills-08-landing",
+        "title": "Landing"
+      },
+      "diagrams": [
+        {
+          "id": "p5-landing-volte",
+          "title": "Volte landing pattern (U)"
+        }
+      ],
+      "video_clips": [],
+      "slide_pages": []
+    },
+    "Practical Flying_130": {
+      "qid": 130,
+      "topic": "Practical Flying",
+      "explanation": "On a steep slope, landing straight uphill or downhill leaves no margin in the flare - the slope geometry wrecks your reference. Approaching parallel to the contour lets you touch down with the slope just to your side, flare normally, and step off cleanly. Landing 'against the wind' is the rule on flat ground but is overridden by the slope on terrain.",
+      "guide_chapter": {
+        "id": "p5-landing",
+        "title": "Landing"
+      },
+      "workbook_chapter": {
+        "id": "skills-08-landing",
+        "title": "Landing"
+      },
+      "diagrams": [
+        {
+          "id": "p5-landing-volte",
+          "title": "Volte landing pattern (U)"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "flugpraxis_1",
+          "t_start": 365.1,
+          "t_end": 395.8,
+          "snippet": "Sam: a slope landing must be parallel to the slope - if you fly straight at the slope, the inclination wrecks your flare calculation."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "flugpraxis",
+          "page": 12
+        }
+      ]
+    },
+    "Practical Flying_131": {
+      "qid": 131,
+      "topic": "Practical Flying",
+      "explanation": "In valley wind, mechanical turbulence is produced by anything upstream of the field - trees, buildings, ridges. The most important criterion is therefore that the windward side is flat and obstacle-free, so the air arrives at the landing point smoothly. Sheltered or wind-shadow fields actually create rotor zones over the landing area.",
+      "guide_chapter": {
+        "id": "p5-landing",
+        "title": "Landing"
+      },
+      "workbook_chapter": {
+        "id": "skills-08-landing",
+        "title": "Landing"
+      },
+      "diagrams": [
+        {
+          "id": "p5-emergency-landing",
+          "title": "Emergency landing priorities"
+        }
+      ],
+      "video_clips": [],
+      "slide_pages": [
+        {
+          "deck_id": "flugpraxis",
+          "page": 12
+        }
+      ]
+    },
+    "Practical Flying_132": {
+      "qid": 132,
+      "topic": "Practical Flying",
+      "explanation": "Buildings shed rotor turbulence on their downwind side that extends a long way and reaches all the way down to ground level - that's why you can be pummelled for the entire final, not just at roof height. Don't expect a calm ground-level pocket and don't expect ground-effect float to save you; plan an aggressive flare with margin.",
+      "guide_chapter": {
+        "id": "p5-landing",
+        "title": "Landing"
+      },
+      "workbook_chapter": {
+        "id": "skills-08-landing",
+        "title": "Landing"
+      },
+      "diagrams": [
+        {
+          "id": "p5-emergency-landing",
+          "title": "Emergency landing priorities"
+        }
+      ],
+      "video_clips": [],
+      "slide_pages": [
+        {
+          "deck_id": "flugpraxis",
+          "page": 12
+        }
+      ]
+    },
+    "Practical Flying_133": {
+      "qid": 133,
+      "topic": "Practical Flying",
+      "explanation": "A wind gradient on final means the wing meets slower air as you descend - it briefly flies above stall but with reduced internal pressure and can sag back. The correct response is to leave the brakes alone (extra brake stalls it cleanly) and let the wing re-accelerate, only braking gently to flare. Full brake here drops you straight in.",
+      "guide_chapter": {
+        "id": "p5-landing",
+        "title": "Landing"
+      },
+      "workbook_chapter": {
+        "id": "skills-08-landing",
+        "title": "Landing"
+      },
+      "diagrams": [
+        {
+          "id": "p5-landing-corrections",
+          "title": "Landing height corrections"
+        },
+        {
+          "id": "p5-stall-types",
+          "title": "Full stall vs parachutal stall vs spin"
+        }
+      ],
+      "video_clips": [],
+      "slide_pages": [
+        {
+          "deck_id": "flugpraxis",
+          "page": 12
+        }
+      ]
+    },
+    "Practical Flying_134": {
+      "qid": 134,
+      "topic": "Practical Flying",
+      "explanation": "Water landings are life-threatening because the harness and lines tangle around you. The standard mitigation is to open as many harness buckles as possible while still airborne (chest strap, leg straps) so that on contact you can immediately fall out and away from the gear. Tightening straps locks you to the sinking wing; throwing reserves over water is a flotation myth.",
+      "guide_chapter": {
+        "id": "p5-landing",
+        "title": "Landing"
+      },
+      "workbook_chapter": {
+        "id": "skills-08-landing",
+        "title": "Landing"
+      },
+      "diagrams": [
+        {
+          "id": "p5-emergency-landing",
+          "title": "Emergency landing priorities"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "flugpraxis_1",
+          "t_start": 623.2,
+          "t_end": 705.2,
+          "snippet": "Sam: as early as possible, when you see you'll go into the water, open the harness buckles so you can fly away from the gear immediately - but never jump out before you hit the water."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "flugpraxis",
+          "page": 12
+        }
+      ]
+    },
+    "Practical Flying_135": {
+      "qid": 135,
+      "topic": "Practical Flying",
+      "explanation": "Falling out of the tree is the single biggest cause of serious injury in tree landings. The wing is usually caught in the branches and supports you safely; impatient pilots who unbuckle to climb down or wait for branches to give way fall the last few metres onto roots and rocks. Stay clipped in and wait for rescue.",
+      "guide_chapter": {
+        "id": "p5-landing",
+        "title": "Landing"
+      },
+      "workbook_chapter": {
+        "id": "skills-08-landing",
+        "title": "Landing"
+      },
+      "diagrams": [
+        {
+          "id": "p5-emergency-landing",
+          "title": "Emergency landing priorities"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "flugpraxis_1",
+          "t_start": 525.9,
+          "t_end": 583.9,
+          "snippet": "Sam: most tree-rescue injuries happen because the pilot tries to free themselves and falls - stay calm, stay where you are, call mountain rescue."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "flugpraxis",
+          "page": 12
+        }
+      ]
+    },
+    "Practical Flying_136": {
+      "qid": 136,
+      "topic": "Practical Flying",
+      "explanation": "To minimise damage when retrieving the wing from the crown, the gentlest method is to undo the quick-links connecting the risers to the harness and untie the brake lines. The wing can then be lifted out vertically without dragging it through the branches. Disconnecting harness-to-riser still pulls fabric down; helicopters and rope-yanks cause heavy damage.",
+      "guide_chapter": {
+        "id": "p5-landing",
+        "title": "Landing"
+      },
+      "workbook_chapter": {
+        "id": "skills-08-landing",
+        "title": "Landing"
+      },
+      "diagrams": [
+        {
+          "id": "p5-emergency-landing",
+          "title": "Emergency landing priorities"
+        }
+      ],
+      "video_clips": [],
+      "slide_pages": [
+        {
+          "deck_id": "flugpraxis",
+          "page": 12
+        }
+      ]
+    },
+    "Practical Flying_137": {
+      "qid": 137,
+      "topic": "Practical Flying",
+      "explanation": "Delta pilots have a poor blind-spot looking up and forward; paraglider pilots have a poor blind-spot looking down and behind. A delta closing from behind and below combines both blind spots - neither pilot can see the other - and the delta's higher speed closes the gap quickly. This is statistically the most dangerous co-altitude scenario in mixed traffic.",
+      "guide_chapter": {
+        "id": "p5-flight-patterns",
+        "title": "Flight Patterns, Exit from the Flight Area, Flight Incidents"
+      },
+      "workbook_chapter": {
+        "id": "skills-07-incidents-recovery",
+        "title": "Flight incidents and recovery"
+      },
+      "diagrams": [
+        {
+          "id": "p5-collapses",
+          "title": "Lateral and frontal collapses"
+        }
+      ],
+      "video_clips": [],
+      "slide_pages": []
+    },
+    "Practical Flying_138": {
+      "qid": 138,
+      "topic": "Practical Flying",
+      "explanation": "In a shared thermal you respect the existing rotation direction - both pilots can predict each other, and the spacing stays roughly constant. Suddenly reversing your turn direction sets you and the delta on intersecting paths at the same altitude with closure speeds that leave no time to react. The cardinal rule is: first one in sets the direction, everybody follows.",
+      "guide_chapter": {
+        "id": "p5-range-optimization",
+        "title": "Range and Optimization of Flight, Lateral Drift, Flight in Lift"
+      },
+      "workbook_chapter": {
+        "id": "skills-07-incidents-recovery",
+        "title": "Flight incidents and recovery"
+      },
+      "diagrams": [
+        {
+          "id": "p5-thermal-centering",
+          "title": "Thermal centering"
+        }
+      ],
+      "video_clips": [],
+      "slide_pages": [
+        {
+          "deck_id": "flugpraxis",
+          "page": 15
+        }
+      ]
+    },
+    "Practical Flying_139": {
+      "qid": 139,
+      "topic": "Practical Flying",
+      "explanation": "The reserve is a 'second chance' tool with one rule: deploy whenever the situation appears uncontrollable and won't stabilise within 2-3 seconds. Asymmetric collapses on final, cloud suction or even a single full frontal are still situations a trained pilot can manage; uncontrollable is the threshold.",
+      "guide_chapter": {
+        "id": "p5-flight-patterns",
+        "title": "Flight Patterns, Exit from the Flight Area, Flight Incidents"
+      },
+      "workbook_chapter": {
+        "id": "skills-07-incidents-recovery",
+        "title": "Flight incidents and recovery"
+      },
+      "diagrams": [
+        {
+          "id": "p5-emergency-landing",
+          "title": "Emergency landing priorities"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "flugpraxis_1",
+          "t_start": 1907.6,
+          "t_end": 2009.0,
+          "snippet": "Sam: the reserve is a second chance - the principle is: out of control, situation doesn't stabilise within 2-3 seconds, low altitude with a problem, mid-air collision - pull immediately."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "flugpraxis",
+          "page": 17
+        }
+      ]
+    },
+    "Practical Flying_140": {
+      "qid": 140,
+      "topic": "Practical Flying",
+      "explanation": "A delta-paraglider head-on collision is an instant non-controllable situation: the wing is shredded or entangled with another aircraft, you have no idea of damage and the closure rate has put you in freefall. Pull the reserve immediately - the other options (cravat, spin, cloud climb) are recoverable with technique and altitude.",
+      "guide_chapter": {
+        "id": "p5-flight-patterns",
+        "title": "Flight Patterns, Exit from the Flight Area, Flight Incidents"
+      },
+      "workbook_chapter": {
+        "id": "skills-07-incidents-recovery",
+        "title": "Flight incidents and recovery"
+      },
+      "diagrams": [
+        {
+          "id": "p5-emergency-landing",
+          "title": "Emergency landing priorities"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "flugpraxis_1",
+          "t_start": 2009.0,
+          "t_end": 2049.5,
+          "snippet": "Sam: if we have a collision in the air it's also definitely time to pull the reserve - we don't know how badly damaged our aircraft is."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "flugpraxis",
+          "page": 17
+        }
+      ]
+    },
+    "Practical Flying_141": {
+      "qid": 141,
+      "topic": "Practical Flying",
+      "explanation": "A twisted-line spiral after a spin is the classic 'uncontrollable and getting worse' situation: you can't reach the brakes through the twist, the wing is in an accelerating dive and there is no recovery technique that solves both at once. Throw the reserve. A single cravat or one-sided stall in a spin is still flyable with the right inputs.",
+      "guide_chapter": {
+        "id": "p5-flight-patterns",
+        "title": "Flight Patterns, Exit from the Flight Area, Flight Incidents"
+      },
+      "workbook_chapter": {
+        "id": "skills-07-incidents-recovery",
+        "title": "Flight incidents and recovery"
+      },
+      "diagrams": [
+        {
+          "id": "p5-emergency-landing",
+          "title": "Emergency landing priorities"
+        },
+        {
+          "id": "p5-rapid-descent",
+          "title": "Rapid descent maneuvers"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "flugpraxis_1",
+          "t_start": 1907.6,
+          "t_end": 1971.6,
+          "snippet": "Sam: when the wing is no longer controllable and it doesn't stabilise within 2-3 seconds - or worse, you don't know where up and down are - that's reserve time."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "flugpraxis",
+          "page": 17
+        }
+      ]
+    },
+    "Practical Flying_143": {
+      "qid": 143,
+      "topic": "Practical Flying",
+      "explanation": "Pale skin, blue lips, cold sweat, weak rapid pulse and confusion are the classic signs of shock - circulatory failure that follows trauma. Position the casualty as they prefer (don't force them flat), shelter them from sun/wind/cold/wet, and give nothing to drink (internal injuries are likely and the stomach must stay empty for surgery). Recovery position is only for the unresponsive but breathing.",
+      "guide_chapter": {
+        "id": "p5-physiology",
+        "title": "Physiology, Pathology, Trauma and First Aid"
+      },
+      "workbook_chapter": {
+        "id": "skills-01-physiology",
+        "title": "Physiology and first aid"
+      },
+      "diagrams": [
+        {
+          "id": "p5-abc-protocol",
+          "title": "Accident response: ABC and key actions"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "flugpraxis_1",
+          "t_start": 715.3,
+          "t_end": 829.6,
+          "snippet": "Sam: with spinal injury the principle is leave them lying, don't let them drink, immediately call Rega - moving the casualty risks paralysis."
+        }
+      ],
+      "slide_pages": []
+    },
+    "Practical Flying_144": {
+      "qid": 144,
+      "topic": "Practical Flying",
+      "explanation": "Unresponsive but breathing means the airway is the next thing to fail. Recovery position (on the side, lower arm forward, knee bent up) keeps the tongue out of the airway and lets vomit drain rather than aspirate. Then shelter from sun/wind/cold/wet and monitor breathing continuously - if it stops, start CPR.",
+      "guide_chapter": {
+        "id": "p5-physiology",
+        "title": "Physiology, Pathology, Trauma and First Aid"
+      },
+      "workbook_chapter": {
+        "id": "skills-01-physiology",
+        "title": "Physiology and first aid"
+      },
+      "diagrams": [
+        {
+          "id": "p5-abc-protocol",
+          "title": "Accident response: ABC and key actions"
+        }
+      ],
+      "video_clips": [],
+      "slide_pages": []
+    },
+    "Practical Flying_146": {
+      "qid": 146,
+      "topic": "Practical Flying",
+      "explanation": "A spinal cord injury characteristically presents with back pain plus loss of sensation in the limbs - the nerves below the damage level no longer report. Unconsciousness, leg pain alone or shock symptoms can occur with many other injuries. The action is the opposite of moving: immobilise and call Rega.",
+      "guide_chapter": {
+        "id": "p5-physiology",
+        "title": "Physiology, Pathology, Trauma and First Aid"
+      },
+      "workbook_chapter": {
+        "id": "skills-01-physiology",
+        "title": "Physiology and first aid"
+      },
+      "diagrams": [
+        {
+          "id": "p5-abc-protocol",
+          "title": "Accident response: ABC and key actions"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "flugpraxis_1",
+          "t_start": 749.5,
+          "t_end": 829.6,
+          "snippet": "Sam: spinal injuries are common in paragliding because we sit; if the pilot is hurt in the back and breathing, leave them lying and call Rega."
+        }
+      ],
+      "slide_pages": []
+    },
+    "Practical Flying_147": {
+      "qid": 147,
+      "topic": "Practical Flying",
+      "explanation": "Before a rescue helicopter arrives, the area has to be made completely safe for it: stop all paragliding traffic nearby (downwash zones can collapse wings), remove every loose item (gliders, jackets, packs) that could be lifted by the rotors and damage them or hit the casualty. Don't strip the casualty of helmet/harness - the rescue team will manage that.",
+      "guide_chapter": {
+        "id": "p5-physiology",
+        "title": "Physiology, Pathology, Trauma and First Aid"
+      },
+      "workbook_chapter": {
+        "id": "skills-01-physiology",
+        "title": "Physiology and first aid"
+      },
+      "diagrams": [
+        {
+          "id": "p5-heli-rescue",
+          "title": "Helicopter rescue preparation"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "flugpraxis_1",
+          "t_start": 781.9,
+          "t_end": 801.9,
+          "snippet": "Sam: when the helicopter comes it generates a lot of wind - gather the wing with a quick fold, pack everything up and weigh it down so nothing can fly away and endanger the helicopter."
+        }
+      ],
+      "slide_pages": []
+    },
+    "Practical Flying_148": {
+      "qid": 148,
+      "topic": "Practical Flying",
+      "explanation": "Golden eagles breed in early spring, March through May. Pairs are monogamous, the territory is large (~100 km^2), and the hen lays one or two eggs in the eyrie. Paraglider passage through the territory during this window is exactly when the female can be flushed off the eggs - which kills the brood.",
+      "guide_chapter": {
+        "id": "p5-flight-preparation",
+        "title": "Flight Preparation"
+      },
+      "workbook_chapter": {
+        "id": "skills-02-flight-preparation",
+        "title": "Flight preparation"
+      },
+      "diagrams": [
+        {
+          "id": "p5-flight-prep",
+          "title": "Four pre-flight factors"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "flugpraxis_0",
+          "t_start": 596.4,
+          "t_end": 622.4,
+          "snippet": "Sam: with eagles you have to expect from March to May that they're sitting on the eyrie and defending their territory; chamois have their young in May, ibex in June."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "flugpraxis",
+          "page": 4
+        }
+      ]
+    },
+    "Practical Flying_149": {
+      "qid": 149,
+      "topic": "Practical Flying",
+      "explanation": "The 'garland flight' (Girlandenflug) is a sinuous, undulating display flight that golden eagles use to mark territory boundaries - swooping low then rising, again and again, as a visible warning to rivals. If you see an eagle doing this near you, the message is exactly 'this is mine, my chicks are here, leave': turn away.",
+      "guide_chapter": {
+        "id": "p5-flight-preparation",
+        "title": "Flight Preparation"
+      },
+      "workbook_chapter": {
+        "id": "skills-02-flight-preparation",
+        "title": "Flight preparation"
+      },
+      "diagrams": [
+        {
+          "id": "p5-flight-prep",
+          "title": "Four pre-flight factors"
+        }
+      ],
+      "video_clips": [],
+      "slide_pages": [
+        {
+          "deck_id": "flugpraxis",
+          "page": 4
+        }
+      ]
+    },
+    "Practical Flying_151": {
+      "qid": 151,
+      "topic": "Practical Flying",
+      "explanation": "Yes - in officially designated protected zones (national parks, wildlife sanctuaries) outlandings and take-offs are banned by federal regulation plus local agreements. The blanket 'no, anywhere is fine' answer ignores the legal framework; 'all national protected areas' overstates it (regulation is zone-specific).",
+      "guide_chapter": {
+        "id": "p5-flight-preparation",
+        "title": "Flight Preparation"
+      },
+      "workbook_chapter": {
+        "id": "skills-02-flight-preparation",
+        "title": "Flight preparation"
+      },
+      "diagrams": [
+        {
+          "id": "p5-flight-prep",
+          "title": "Four pre-flight factors"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "flugpraxis_0",
+          "t_start": 564.9,
+          "t_end": 658.3,
+          "snippet": "Sam: there are local wildlife agreements, also on the info board - zones you should not fly into; ask the locals or read the board."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "flugpraxis",
+          "page": 4
+        }
+      ]
+    },
+    "Practical Flying_152": {
+      "qid": 152,
+      "topic": "Practical Flying",
+      "explanation": "Eagles are most disturbed when paragliders cross the airspace near their nest during the breeding window. The female flushes off the eggs, the embryos cool, and the brood is lost. Marking-boundary flights and prey hunting carry stress but not the same direct cost to next year's population.",
+      "guide_chapter": {
+        "id": "p5-flight-preparation",
+        "title": "Flight Preparation"
+      },
+      "workbook_chapter": {
+        "id": "skills-02-flight-preparation",
+        "title": "Flight preparation"
+      },
+      "diagrams": [
+        {
+          "id": "p5-flight-prep",
+          "title": "Four pre-flight factors"
+        }
+      ],
+      "video_clips": [],
+      "slide_pages": [
+        {
+          "deck_id": "flugpraxis",
+          "page": 4
+        }
+      ]
+    },
+    "Practical Flying_153": {
+      "qid": 153,
+      "topic": "Practical Flying",
+      "explanation": "From winter through early spring, chamois and ibex congregate on the steep south-facing slopes where the snow melts first and they can scrape down to grass. North-facing slopes stay frozen and forested gullies offer no food. So fly that fact into your planning: south slopes in winter/spring carry the densest wildlife.",
+      "guide_chapter": {
+        "id": "p5-flight-preparation",
+        "title": "Flight Preparation"
+      },
+      "workbook_chapter": {
+        "id": "skills-02-flight-preparation",
+        "title": "Flight preparation"
+      },
+      "diagrams": [
+        {
+          "id": "p5-flight-prep",
+          "title": "Four pre-flight factors"
+        }
+      ],
+      "video_clips": [],
+      "slide_pages": [
+        {
+          "deck_id": "flugpraxis",
+          "page": 4
+        }
+      ]
+    },
+    "Practical Flying_155": {
+      "qid": 155,
+      "topic": "Practical Flying",
+      "explanation": "Alpine huts, holiday chalets and surrounding land are private property even when their owners are absent. The flying-fee covers the launch site, not the entire mountain. Respecting privacy and not bringing flying neighbours into conflict is the only sustainable approach if you want the site to stay open in the long run.",
+      "guide_chapter": {
+        "id": "p5-flight-preparation",
+        "title": "Flight Preparation"
+      },
+      "workbook_chapter": {
+        "id": "skills-02-flight-preparation",
+        "title": "Flight preparation"
+      },
+      "diagrams": [
+        {
+          "id": "p5-flight-prep",
+          "title": "Four pre-flight factors"
+        }
+      ],
+      "video_clips": [],
+      "slide_pages": [
+        {
+          "deck_id": "flugpraxis",
+          "page": 4
+        }
+      ]
+    },
+    "Practical Flying_156": {
+      "qid": 156,
+      "topic": "Practical Flying",
+      "explanation": "End-of-winter snow still covers the grass, while fat reserves accumulated in autumn are spent and the animals can't yet feed. March-April is when most chamois and ibex die - so they are also most fragile then. A flush at that point can finish an animal that would have made it through with just two more weeks.",
+      "guide_chapter": {
+        "id": "p5-flight-preparation",
+        "title": "Flight Preparation"
+      },
+      "workbook_chapter": {
+        "id": "skills-02-flight-preparation",
+        "title": "Flight preparation"
+      },
+      "diagrams": [
+        {
+          "id": "p5-flight-prep",
+          "title": "Four pre-flight factors"
+        }
+      ],
+      "video_clips": [],
+      "slide_pages": [
+        {
+          "deck_id": "flugpraxis",
+          "page": 4
+        }
+      ]
+    },
+    "Practical Flying_157": {
+      "qid": 157,
+      "topic": "Practical Flying",
+      "explanation": "Summer routine for chamois/ibex: graze the high pastures in the cool morning, then retreat to shaded cliffs and wind-exposed knolls above the pastures to rest through the hot midday. That's exactly where soaring paragliders go - the overlap is the source of the conflict.",
+      "guide_chapter": {
+        "id": "p5-flight-preparation",
+        "title": "Flight Preparation"
+      },
+      "workbook_chapter": {
+        "id": "skills-02-flight-preparation",
+        "title": "Flight preparation"
+      },
+      "diagrams": [
+        {
+          "id": "p5-flight-prep",
+          "title": "Four pre-flight factors"
+        }
+      ],
+      "video_clips": [],
+      "slide_pages": [
+        {
+          "deck_id": "flugpraxis",
+          "page": 4
+        }
+      ]
+    },
+    "Practical Flying_158": {
+      "qid": 158,
+      "topic": "Practical Flying",
+      "explanation": "The worst disturbance is flying close along mountain slopes and cliffs above the tree line, in remote areas where humans rarely appear - exactly the terrain animals retreat to expecting safety. The unexpected airborne predator silhouette triggers flight, which costs energy and exposes them to snow patches/avalanches.",
+      "guide_chapter": {
+        "id": "p5-flight-preparation",
+        "title": "Flight Preparation"
+      },
+      "workbook_chapter": {
+        "id": "skills-02-flight-preparation",
+        "title": "Flight preparation"
+      },
+      "diagrams": [
+        {
+          "id": "p5-flight-prep",
+          "title": "Four pre-flight factors"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "flugpraxis_0",
+          "t_start": 621.5,
+          "t_end": 645.7,
+          "snippet": "Sam: if you see animals, fly away from them - don't tell yourself the thermal is too good, the animals already have enough stress from the environment."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "flugpraxis",
+          "page": 4
+        }
+      ]
+    },
+    "Practical Flying_159": {
+      "qid": 159,
+      "topic": "Practical Flying",
+      "explanation": "The most effective wildlife protection a single pilot can practice is to follow the negotiated agreements between clubs and gamekeepers - they already encode local seasonal sensitivities, no-fly zones and times. Reacting to fleeing animals is reactive, shouting is counterproductive and flying low is just more disturbance.",
+      "guide_chapter": {
+        "id": "p5-flight-preparation",
+        "title": "Flight Preparation"
+      },
+      "workbook_chapter": {
+        "id": "skills-02-flight-preparation",
+        "title": "Flight preparation"
+      },
+      "diagrams": [
+        {
+          "id": "p5-flight-prep",
+          "title": "Four pre-flight factors"
+        }
+      ],
+      "video_clips": [],
+      "slide_pages": [
+        {
+          "deck_id": "flugpraxis",
+          "page": 4
+        }
+      ]
+    },
+    "Practical Flying_160": {
+      "qid": 160,
+      "topic": "Practical Flying",
+      "explanation": "Helicopter rescues need the landing area completely clear. Pack up everything you've brought and walk out to a safe distance where wind/rotor wash can't catch your gear and send it through the rotor disc - that endangers the crew and the patient. Leaving gear behind risks it being lifted, which is worse than not moving at all.",
+      "guide_chapter": {
+        "id": "p5-physiology",
+        "title": "Physiology, Pathology, Trauma and First Aid"
+      },
+      "workbook_chapter": {
+        "id": "skills-01-physiology",
+        "title": "Physiology and first aid"
+      },
+      "diagrams": [
+        {
+          "id": "p5-heli-rescue",
+          "title": "Helicopter rescue preparation"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "flugpraxis_1",
+          "t_start": 781.9,
+          "t_end": 801.9,
+          "snippet": "Sam: the helicopter generates a lot of wind - gather the wing, pack everything, weigh things down so nothing can fly away."
+        }
+      ],
+      "slide_pages": []
+    },
+    "Practical Flying_162": {
+      "qid": 162,
+      "topic": "Practical Flying",
+      "explanation": "If anyone has seen your reserve descent and reported a likely crash, the Rega will already be coordinating a rescue you don't need. Calling Rega on 1414 with your position and 'unhurt' avoids a wasted, expensive, dangerous helicopter mission. Just packing up and going home leaves searchers continuing for hours.",
+      "guide_chapter": {
+        "id": "p5-physiology",
+        "title": "Physiology, Pathology, Trauma and First Aid"
+      },
+      "workbook_chapter": {
+        "id": "skills-01-physiology",
+        "title": "Physiology and first aid"
+      },
+      "diagrams": [
+        {
+          "id": "p5-heli-rescue",
+          "title": "Helicopter rescue preparation"
+        },
+        {
+          "id": "p5-abc-protocol",
+          "title": "Accident response: ABC and key actions"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "flugpraxis_1",
+          "t_start": 605.1,
+          "t_end": 623.2,
+          "snippet": "Sam: if you're in a civilised area inform mountain rescue or Rega - they probably already know about it and you save them the search."
+        }
+      ],
+      "slide_pages": []
+    },
+    "Practical Flying_164": {
+      "qid": 164,
+      "topic": "Practical Flying",
+      "explanation": "A paraglider silhouette against the valley is small and stationary; helicopter pilots scanning a wide field of view can easily miss you. The right reaction is to make yourself visible: small pitch or roll oscillations, or a tighter circle, change your silhouette and motion so the helicopter sees you. Phone calls take too long and big ears don't change visibility.",
+      "guide_chapter": {
+        "id": "p5-flight-patterns",
+        "title": "Flight Patterns, Exit from the Flight Area, Flight Incidents"
+      },
+      "workbook_chapter": {
+        "id": "skills-07-incidents-recovery",
+        "title": "Flight incidents and recovery"
+      },
+      "diagrams": [
+        {
+          "id": "p5-heli-rescue",
+          "title": "Helicopter rescue preparation"
+        }
+      ],
+      "video_clips": [],
+      "slide_pages": []
+    },
+    "Practical Flying_165": {
+      "qid": 165,
+      "topic": "Practical Flying",
+      "explanation": "A rescue helicopter at the landing field means the field is closed. The right behaviour is to delay your take-off until the rescue completes and the helicopter is clear, and to broadcast the situation to other pilots on launch so nobody else accidentally tries to land into the rescue. Adding more aircraft to the situation - even 'to help' - just gets in the way.",
+      "guide_chapter": {
+        "id": "p5-physiology",
+        "title": "Physiology, Pathology, Trauma and First Aid"
+      },
+      "workbook_chapter": {
+        "id": "skills-01-physiology",
+        "title": "Physiology and first aid"
+      },
+      "diagrams": [
+        {
+          "id": "p5-heli-rescue",
+          "title": "Helicopter rescue preparation"
+        }
+      ],
+      "video_clips": [],
+      "slide_pages": []
+    },
+    "Practical Flying_167": {
+      "qid": 167,
+      "topic": "Practical Flying",
+      "explanation": "The 6x6 m red cloth with a diagonal yellow cross is the standard ICAO landing-prohibited symbol. Placed on a landing field it tells every approaching aircraft - paragliders, deltas, helicopters and small fixed-wing - that landings are forbidden right now (typically because of an emergency, hazard or test). Find another field.",
+      "guide_chapter": {
+        "id": "p5-landing",
+        "title": "Landing"
+      },
+      "workbook_chapter": {
+        "id": "skills-08-landing",
+        "title": "Landing"
+      },
+      "diagrams": [
+        {
+          "id": "p5-landing-volte",
+          "title": "Volte landing pattern (U)"
+        }
+      ],
+      "video_clips": [],
+      "slide_pages": []
+    },
+    "Practical Flying_168": {
+      "qid": 168,
+      "topic": "Practical Flying",
+      "explanation": "Wildlife and forest protection zones are not just polite suggestions - failure to respect them is the most common reason that flying sites are closed by the municipality or the cantonal authority. The whole pilot community then loses a launch. So 'yes, observe them' is the answer that protects your own flying future.",
+      "guide_chapter": {
+        "id": "p5-flight-preparation",
+        "title": "Flight Preparation"
+      },
+      "workbook_chapter": {
+        "id": "skills-02-flight-preparation",
+        "title": "Flight preparation"
+      },
+      "diagrams": [
+        {
+          "id": "p5-flight-prep",
+          "title": "Four pre-flight factors"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "flugpraxis_0",
+          "t_start": 543.9,
+          "t_end": 658.3,
+          "snippet": "Sam: wildlife protection used to be a side issue but new studies show paragliders do disturb wildlife - respect local agreements or you jeopardise the flying site itself."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "flugpraxis",
+          "page": 4
+        }
+      ]
     }
   },
   "subcategories": {

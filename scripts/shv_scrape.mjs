@@ -60,6 +60,17 @@ async function setCheckbox(page, idAttr, want) {
 }
 
 async function selectOnlySubject(page, subjectId) {
+  // Wait for Blazor to wire up the dashboard checkboxes. The previous failure
+  // mode: setCheckbox ran while the inputs hadn't rendered yet, so every
+  // input.checked read returned null, every click was a no-op, and the quiz
+  // started with the default (Aerodynamics) selected.
+  await page.locator('input[id="subject[S1, True]"]').waitFor({ state: 'attached', timeout: 30_000 });
+  // Also wait until at least one checkbox reports a real boolean value.
+  await page.waitForFunction(() => {
+    const el = document.querySelector('input[id="subject[S1, True]"]');
+    return el && typeof el.checked === 'boolean';
+  }, { timeout: 10_000 }).catch(() => {});
+
   // Subject checkbox ids contain `[`, `,`, ` `, `]` — use attribute selectors.
   for (const s of SUBJECTS) {
     await setCheckbox(page, `subject[${s.id}, True]`, s.id === subjectId);
