@@ -50,21 +50,30 @@ async function login(page) {
 }
 
 async function selectOnlySubject(page, subjectId) {
-  // Subject checkbox ids look like `subject[S1, True]`
+  // Subject checkbox ids contain `[`, `,`, ` `, `]` — use attribute selectors
+  // instead of `#id` (which is CSS and breaks on those chars).
   for (const s of SUBJECTS) {
-    const cssId = `subject\\[${s.id}\\, True\\]`;
-    const want = s.id === subjectId;
-    const cb = page.locator(`#${cssId}`);
+    const idAttr = `subject[${s.id}, True]`;
+    const cb = page.locator(`input[id="${idAttr}"]`);
     if (!(await cb.count())) continue;
     const isChecked = await cb.isChecked();
+    const want = s.id === subjectId;
     if (isChecked !== want) {
-      // Click the label (Blazor sometimes ignores raw checkbox clicks)
-      const label = page.locator(`label[for="subject[${s.id}, True]"]`);
+      // Blazor checkbox: click the label, not the input
+      const label = page.locator(`label[for="${idAttr}"]`);
       if (await label.count()) await label.click({ force: true });
       else await cb.click({ force: true });
-      await page.waitForTimeout(200);
+      await page.waitForTimeout(250);
     }
   }
+  // Verify only the target is checked
+  const states = await page.evaluate((subjects) => {
+    return subjects.map(s => {
+      const el = document.querySelector(`input[id="subject[${s.id}, True]"]`);
+      return { id: s.id, label: s.label, checked: el ? el.checked : null };
+    });
+  }, SUBJECTS);
+  console.error(`  subject states: ${JSON.stringify(states.map(s => `${s.id}=${s.checked}`))}`);
   await page.waitForTimeout(500);
 }
 
@@ -125,7 +134,10 @@ async function pressBack(page) {
 }
 
 async function scrapeOneSubject(targetSubject) {
-  const page = await ctx.newPage();
+  // Fresh browser context per subject — guarantees a clean login flow
+  // (the previous one ends up mid-quiz and breaks re-auth).
+  const freshCtx = await browser.newContext({ ignoreHTTPSErrors: true, viewport: { width: 1440, height: 900 } });
+  const page = await freshCtx.newPage();
   console.error(`\n=== Scraping ${targetSubject.label} (subject ${targetSubject.id}) ===`);
   await login(page);
   await selectOnlySubject(page, targetSubject.id);
@@ -200,6 +212,7 @@ async function scrapeOneSubject(targetSubject) {
   dataset.fetchedAt = new Date().toISOString();
   writeFileSync(OUT, JSON.stringify(dataset, null, 2));
   await page.close();
+  await freshCtx.close();
 }
 
 // --- Main loop
