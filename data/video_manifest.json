@@ -56,7 +56,7 @@
           "duration_seconds": 3031.2533125,
           "duration_label": "50:31",
           "has_de_vtt": true,
-          "has_en_vtt": false
+          "has_en_vtt": true
         },
         {
           "id": "meteo_1",
@@ -286,7 +286,7 @@
           "poster": "https://static.wixstatic.com/media/f2f7a2_49ac01143125424ab4f6541573801f9df003.jpg/v1/fill/w_200,h_267,q_90,enc_avif,quality_auto/f2f7a2_49ac01143125424ab4f6541573801f9df003.jpg",
           "duration_seconds": 475.433333,
           "duration_label": "7:55",
-          "has_de_vtt": false,
+          "has_de_vtt": true,
           "has_en_vtt": false
         },
         {
@@ -342,7 +342,7 @@
           "poster": "https://static.wixstatic.com/media/f2f7a2_7a7ad0153796475688e5ba29fd2cc6e0f003.jpg/v1/fill/w_200,h_267,q_90,enc_avif,quality_auto/f2f7a2_7a7ad0153796475688e5ba29fd2cc6e0f003.jpg",
           "duration_seconds": 469.166667,
           "duration_label": "7:49",
-          "has_de_vtt": false,
+          "has_de_vtt": true,
           "has_en_vtt": false
         },
         {
@@ -396,8 +396,8 @@
       "freewings": 10,
       "airactive": 15
     },
-    "with_de_vtt": 19,
-    "with_en_vtt": 16,
+    "with_de_vtt": 21,
+    "with_en_vtt": 17,
     "total_duration_seconds": 28834.318964000013
   }
 }
