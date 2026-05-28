@@ -1,0 +1,5307 @@
+{
+  "slug": "luftrecht_1",
+  "language": "de",
+  "duration": 2287.6586875,
+  "transcribed_in_sec": 399.6,
+  "model": "base",
+  "segments": [
+    {
+      "i": 1,
+      "start": 0.08,
+      "end": 14.8,
+      "text": "In der Aufbau der Sägelflugkarten."
+    },
+    {
+      "i": 2,
+      "start": 14.8,
+      "end": 17.8,
+      "text": "Wie gesagt, wenn man so auf Einblick drauf schaut,"
+    },
+    {
+      "i": 3,
+      "start": 17.8,
+      "end": 19.8,
+      "text": "wenn man Karten im Liebsten geht, wieder zu tun."
+    },
+    {
+      "i": 4,
+      "start": 19.8,
+      "end": 21.8,
+      "text": "Es gibt fast ein bisschen Angstgefühl."
+    },
+    {
+      "i": 5,
+      "start": 21.8,
+      "end": 23.8,
+      "text": "Mal, wie mehr zu mindestens das so sieht,"
+    },
+    {
+      "i": 6,
+      "start": 23.8,
+      "end": 25.8,
+      "text": "am Anfang, was ich mit dem aus dem Angesetzt habe,"
+    },
+    {
+      "i": 7,
+      "start": 25.8,
+      "end": 29.8,
+      "text": "wenn man aber den Aufbau von Grund auf einmal anschaut."
+    },
+    {
+      "i": 8,
+      "start": 29.8,
+      "end": 31.8,
+      "text": "Und alle, die Kästchen aus der Pichte"
+    },
+    {
+      "i": 9,
+      "start": 31.8,
+      "end": 34.8,
+      "text": "und nachher wieder in der Leid quasi karten,"
+    },
+    {
+      "i": 10,
+      "start": 34.8,
+      "end": 36.8,
+      "text": "dann ist es gerne,"
+    },
+    {
+      "i": 11,
+      "start": 36.8,
+      "end": 38.8,
+      "text": "wenn sie nicht kompliziert."
+    },
+    {
+      "i": 12,
+      "start": 38.8,
+      "end": 40.8,
+      "text": "Dann weiss man mal grundsätzlich,"
+    },
+    {
+      "i": 13,
+      "start": 40.8,
+      "end": 42.8,
+      "text": "weil es Kästchen und Welle-Linien bedeutet."
+    },
+    {
+      "i": 14,
+      "start": 42.8,
+      "end": 45.8,
+      "text": "Und nachher sind es einfach wahnsinnig viel über den Angestacheln."
+    },
+    {
+      "i": 15,
+      "start": 45.8,
+      "end": 47.8,
+      "text": "Und manchmal ist es noch schwierig,"
+    },
+    {
+      "i": 16,
+      "start": 47.8,
+      "end": 50.8,
+      "text": "zu finden, Welle-Linien körte zu wellem Luftraum."
+    },
+    {
+      "i": 17,
+      "start": 50.8,
+      "end": 53.8,
+      "text": "Aber da ist ein mehr auch ein bisschen optisch Problem."
+    },
+    {
+      "i": 18,
+      "start": 53.8,
+      "end": 55.8,
+      "text": "Also, ein Verständnis für Karten"
+    },
+    {
+      "i": 19,
+      "start": 55.8,
+      "end": 57.8,
+      "text": "werde ich auch probieren,"
+    },
+    {
+      "i": 20,
+      "start": 57.8,
+      "end": 58.8,
+      "text": "um jetzt ein bisschen aufzuzeigen"
+    },
+    {
+      "i": 21,
+      "start": 58.8,
+      "end": 61.8,
+      "text": "und von Grund auf die Karten aufbauen."
+    },
+    {
+      "i": 22,
+      "start": 61.8,
+      "end": 68.89,
+      "text": "Als Erste,"
+    },
+    {
+      "i": 23,
+      "start": 68.89,
+      "end": 70.89,
+      "text": "man kannte Linien,"
+    },
+    {
+      "i": 24,
+      "start": 70.89,
+      "end": 73.89,
+      "text": "die Trennlinien von Mittelland und Jura,"
+    },
+    {
+      "i": 25,
+      "start": 73.89,
+      "end": 74.89,
+      "text": "und von Alpen."
+    },
+    {
+      "i": 26,
+      "start": 74.89,
+      "end": 76.89,
+      "text": "Der Strekt sich eigentlich,"
+    },
+    {
+      "i": 27,
+      "start": 76.89,
+      "end": 78.89,
+      "text": "quer durch die Schweiz,"
+    },
+    {
+      "i": 28,
+      "start": 78.89,
+      "end": 80.89,
+      "text": "ungefähr im Gämpfersee,"
+    },
+    {
+      "i": 29,
+      "start": 80.89,
+      "end": 81.89,
+      "text": "bei Montreux,"
+    },
+    {
+      "i": 30,
+      "start": 81.89,
+      "end": 83.89,
+      "text": "geht die quer durch die Zentralschweiz,"
+    },
+    {
+      "i": 31,
+      "start": 83.89,
+      "end": 85.89,
+      "text": "bis zu uns,"
+    },
+    {
+      "i": 32,
+      "start": 85.89,
+      "end": 87.89,
+      "text": "ist die Ital-Besteilregion"
+    },
+    {
+      "i": 33,
+      "start": 87.89,
+      "end": 89.89,
+      "text": "und nachher über einen richtigen Österreich."
+    },
+    {
+      "i": 34,
+      "start": 89.89,
+      "end": 91.89,
+      "text": "Und so wird die Schweiz dann unterteilt."
+    },
+    {
+      "i": 35,
+      "start": 91.89,
+      "end": 94.89,
+      "text": "Und da hat einfach ein topografischer Hintergrund,"
+    },
+    {
+      "i": 36,
+      "start": 94.89,
+      "end": 97.89,
+      "text": "dass im Jura und im Mittelland natürlich"
+    },
+    {
+      "i": 37,
+      "start": 97.89,
+      "end": 99.89,
+      "text": "alle Berger viel tiefer sind"
+    },
+    {
+      "i": 38,
+      "start": 99.89,
+      "end": 101.89,
+      "text": "und in Alpen ein bisschen höher."
+    },
+    {
+      "i": 39,
+      "start": 101.89,
+      "end": 104.89,
+      "text": "Und da sind die Lufträume ein bisschen höher aufgeschoben."
+    },
+    {
+      "i": 40,
+      "start": 104.89,
+      "end": 106.89,
+      "text": "Und da hat dann auch ein E-Fluss"
+    },
+    {
+      "i": 41,
+      "start": 106.89,
+      "end": 110.24,
+      "text": "auf uns als Glacian-Piloten."
+    },
+    {
+      "i": 42,
+      "start": 110.24,
+      "end": 112.24,
+      "text": "Zudem kann man nämlich gar jetzt."
+    },
+    {
+      "i": 43,
+      "start": 112.24,
+      "end": 113.24,
+      "text": "Wie gesagt,"
+    },
+    {
+      "i": 44,
+      "start": 113.24,
+      "end": 114.24,
+      "text": "G und E,"
+    },
+    {
+      "i": 45,
+      "start": 114.24,
+      "end": 116.24,
+      "text": "der man ja jederzeit beflügen,"
+    },
+    {
+      "i": 46,
+      "start": 116.24,
+      "end": 118.24,
+      "text": "beim C und beim D,"
+    },
+    {
+      "i": 47,
+      "start": 118.24,
+      "end": 120.37,
+      "text": "brauchen wir eine Bewilligung."
+    },
+    {
+      "i": 48,
+      "start": 120.37,
+      "end": 121.37,
+      "text": "Und G,"
+    },
+    {
+      "i": 49,
+      "start": 121.37,
+      "end": 123.37,
+      "text": "da können wir jetzt einfach mal vorstellen,"
+    },
+    {
+      "i": 50,
+      "start": 123.37,
+      "end": 124.37,
+      "text": "den Blaubalken,"
+    },
+    {
+      "i": 51,
+      "start": 124.37,
+      "end": 125.37,
+      "text": "wie ein Teppich,"
+    },
+    {
+      "i": 52,
+      "start": 125.37,
+      "end": 126.37,
+      "text": "wo über die ganze Schweiz,"
+    },
+    {
+      "i": 53,
+      "start": 126.37,
+      "end": 129.37,
+      "text": "über die ganze topografische Karten gleiten wird."
+    },
+    {
+      "i": 54,
+      "start": 129.37,
+      "end": 132.37,
+      "text": "Und der Teppich ist 600 m hoch."
+    },
+    {
+      "i": 55,
+      "start": 132.37,
+      "end": 135.4,
+      "text": "Und der Übergang,"
+    },
+    {
+      "i": 56,
+      "start": 135.4,
+      "end": 137.4,
+      "text": "nachher über den 600 m."
+    },
+    {
+      "i": 57,
+      "start": 137.4,
+      "end": 139.4,
+      "text": "Da geht es E-Überen."
+    },
+    {
+      "i": 58,
+      "start": 139.4,
+      "end": 141.4,
+      "text": "Dort dürfen wir immer noch flügen."
+    },
+    {
+      "i": 59,
+      "start": 141.4,
+      "end": 143.4,
+      "text": "Es ist einfach ein anderer Luftraum,"
+    },
+    {
+      "i": 60,
+      "start": 143.4,
+      "end": 146.4,
+      "text": "mit anderen Regeln."
+    },
+    {
+      "i": 61,
+      "start": 146.4,
+      "end": 147.4,
+      "text": "Für uns als Glacian-Piloten"
+    },
+    {
+      "i": 62,
+      "start": 147.4,
+      "end": 149.4,
+      "text": "können wir aber in beide Innenflügen."
+    },
+    {
+      "i": 63,
+      "start": 149.4,
+      "end": 151.4,
+      "text": "Nachher wird es für uns interessant,"
+    },
+    {
+      "i": 64,
+      "start": 151.4,
+      "end": 153.4,
+      "text": "nämlich wo ist die Grenzen,"
+    },
+    {
+      "i": 65,
+      "start": 153.4,
+      "end": 155.4,
+      "text": "wo es nämlich vom E ist,"
+    },
+    {
+      "i": 66,
+      "start": 155.4,
+      "end": 156.4,
+      "text": "die C übergeht,"
+    },
+    {
+      "i": 67,
+      "start": 156.4,
+      "end": 158.4,
+      "text": "und wir nimmer tören weiter flügen,"
+    },
+    {
+      "i": 68,
+      "start": 158.4,
+      "end": 160.4,
+      "text": "auch bei Superthermic."
+    },
+    {
+      "i": 69,
+      "start": 160.4,
+      "end": 161.4,
+      "text": "Irgendwann wir uns sagen,"
+    },
+    {
+      "i": 70,
+      "start": 161.4,
+      "end": 163.4,
+      "text": "okay, jetzt zwar immer ein Schluch,"
+    },
+    {
+      "i": 71,
+      "start": 163.4,
+      "end": 165.4,
+      "text": "dann werden wir noch weiter steigen."
+    },
+    {
+      "i": 72,
+      "start": 165.4,
+      "end": 167.4,
+      "text": "Die Wolkenbasis ist eher schöker oben,"
+    },
+    {
+      "i": 73,
+      "start": 167.4,
+      "end": 169.4,
+      "text": "aber wir müssen aus dem Schluch aussehen."
+    },
+    {
+      "i": 74,
+      "start": 169.4,
+      "end": 171.4,
+      "text": "Und schauen, dass man nicht die C innen kommt."
+    },
+    {
+      "i": 75,
+      "start": 171.4,
+      "end": 173.4,
+      "text": "Und dort wird es den Eberspannend,"
+    },
+    {
+      "i": 76,
+      "start": 173.4,
+      "end": 174.4,
+      "text": "und auch sehr wichtig,"
+    },
+    {
+      "i": 77,
+      "start": 174.4,
+      "end": 177.42,
+      "text": "dass man wissen, wo die Grenze ist."
+    },
+    {
+      "i": 78,
+      "start": 177.42,
+      "end": 178.42,
+      "text": "Im Jura,"
+    },
+    {
+      "i": 79,
+      "start": 178.42,
+      "end": 179.42,
+      "text": "also alles,"
+    },
+    {
+      "i": 80,
+      "start": 179.42,
+      "end": 181.42,
+      "text": "weil links ist jetzt vor dem Querschnitt,"
+    },
+    {
+      "i": 81,
+      "start": 181.42,
+      "end": 184.49,
+      "text": "ist die Grenze bei 3050 m."
+    },
+    {
+      "i": 82,
+      "start": 184.49,
+      "end": 185.49,
+      "text": "In der Alpen"
+    },
+    {
+      "i": 83,
+      "start": 185.49,
+      "end": 188.49,
+      "text": "ist die Grenze bei 4550 m."
+    },
+    {
+      "i": 84,
+      "start": 188.49,
+      "end": 190.49,
+      "text": "Also, sieht man hier schon ein ziemliches Unterschied"
+    },
+    {
+      "i": 85,
+      "start": 190.49,
+      "end": 191.49,
+      "text": "von der Höchung,"
+    },
+    {
+      "i": 86,
+      "start": 191.49,
+      "end": 193.49,
+      "text": "und natürlich auch von der Möglichkeit,"
+    },
+    {
+      "i": 87,
+      "start": 193.49,
+      "end": 195.49,
+      "text": "die wir mit dem Gleichschirm haben."
+    },
+    {
+      "i": 88,
+      "start": 195.49,
+      "end": 197.49,
+      "text": "Ganz wichtig ist noch zu wissen,"
+    },
+    {
+      "i": 89,
+      "start": 197.49,
+      "end": 199.49,
+      "text": "jetzt auch genau,"
+    },
+    {
+      "i": 90,
+      "start": 199.49,
+      "end": 202.49,
+      "text": "den Berg da wäre 4200 m hoch,"
+    },
+    {
+      "i": 91,
+      "start": 202.49,
+      "end": 205.49,
+      "text": "dann darf man da trotzdem 600 m drüber."
+    },
+    {
+      "i": 92,
+      "start": 205.49,
+      "end": 210.49,
+      "text": "Also dann kann man jetzt in dem Fall bis auf 4800 m drüber flügen."
+    },
+    {
+      "i": 93,
+      "start": 210.49,
+      "end": 212.49,
+      "text": "Und ja,"
+    },
+    {
+      "i": 94,
+      "start": 212.49,
+      "end": 214.49,
+      "text": "deutlich über die 4550."
+    },
+    {
+      "i": 95,
+      "start": 214.49,
+      "end": 216.49,
+      "text": "Verursetzung ist einfach,"
+    },
+    {
+      "i": 96,
+      "start": 216.49,
+      "end": 243.02,
+      "text": "also, ja,"
+    },
+    {
+      "i": 97,
+      "start": 243.02,
+      "end": 246.02,
+      "text": "1050 m dieser Grenze ein einzig Mal."
+    },
+    {
+      "i": 98,
+      "start": 246.02,
+      "end": 248.02,
+      "text": "auf 3.950 m."
+    },
+    {
+      "i": 99,
+      "start": 248.02,
+      "end": 251.02,
+      "text": "Unedrags senden noch Militärzeiten."
+    },
+    {
+      "i": 100,
+      "start": 251.02,
+      "end": 256.02,
+      "text": "Die sind auch auf der Sägelflugkarte drauf und ganz wichtig."
+    },
+    {
+      "i": 101,
+      "start": 256.02,
+      "end": 260.02,
+      "text": "Das ist immer vom Äntig bis Freitag, vom halbe Achte bis am 5.12."
+    },
+    {
+      "i": 102,
+      "start": 260.02,
+      "end": 263.02,
+      "text": "Und vom Viertelbeiß bis am 5.15."
+    },
+    {
+      "i": 103,
+      "start": 263.02,
+      "end": 267.02,
+      "text": "Die 5-Minuten sind einfach zum überschneidigen Ausschliessen."
+    },
+    {
+      "i": 104,
+      "start": 267.02,
+      "end": 271.3,
+      "text": "Dass es da sicher keine Koalition oder Zwischenfälle gibt."
+    },
+    {
+      "i": 105,
+      "start": 271.3,
+      "end": 274.3,
+      "text": "Also ganz wichtig, wenn das Militär aktiv ist,"
+    },
+    {
+      "i": 106,
+      "start": 274.3,
+      "end": 278.3,
+      "text": "dann kommt die Grenzen in den Alpen ein bisschen oben ab."
+    },
+    {
+      "i": 107,
+      "start": 278.3,
+      "end": 282.3,
+      "text": "Es ist aber immer noch deutlich höher, wie im Jura und im Mittelland."
+    },
+    {
+      "i": 108,
+      "start": 282.3,
+      "end": 284.3,
+      "text": "Also da noch mal schnell zur Überblick,"
+    },
+    {
+      "i": 109,
+      "start": 284.3,
+      "end": 290.3,
+      "text": "der Übergang vom EISC erfolgt im Mittelland bei 3.50."
+    },
+    {
+      "i": 110,
+      "start": 290.3,
+      "end": 295.3,
+      "text": "In den Alpen variiert es je nach Aktivität von Militär."
+    },
+    {
+      "i": 111,
+      "start": 295.3,
+      "end": 302.1,
+      "text": "Ein kleiner Punkt,"
+    },
+    {
+      "i": 112,
+      "start": 302.1,
+      "end": 304.1,
+      "text": "habe ich da noch vergessen bei all den Lufträumen,"
+    },
+    {
+      "i": 113,
+      "start": 304.1,
+      "end": 306.1,
+      "text": "der Lufträum Tee, wo ihr auch kontrolliert ist"
+    },
+    {
+      "i": 114,
+      "start": 306.1,
+      "end": 310.1,
+      "text": "und wo man auch eine Freigab und einen Funktakt brauchen kann."
+    },
+    {
+      "i": 115,
+      "start": 310.1,
+      "end": 314.1,
+      "text": "Das kommt vor allem in der Nähe von Flugplatz zur A-Wendung."
+    },
+    {
+      "i": 116,
+      "start": 314.1,
+      "end": 315.1,
+      "text": "Also man hat es G."
+    },
+    {
+      "i": 117,
+      "start": 315.1,
+      "end": 317.1,
+      "text": "Der Teppich, der Übergleit ist,"
+    },
+    {
+      "i": 118,
+      "start": 317.1,
+      "end": 319.1,
+      "text": "nach einem Kunst E und 3.30."
+    },
+    {
+      "i": 119,
+      "start": 319.1,
+      "end": 323.1,
+      "text": "Und D kommt dann vor allem im Besuch des Pläts zum Zug."
+    },
+    {
+      "i": 120,
+      "start": 323.1,
+      "end": 329.42,
+      "text": "Dann sind alle, die Lufträum mit so genannten Text kennen zeichnet."
+    },
+    {
+      "i": 121,
+      "start": 329.42,
+      "end": 333.42,
+      "text": "Da sehen wir jetzt hier links einmal in der Theorie und rechts,"
+    },
+    {
+      "i": 122,
+      "start": 333.42,
+      "end": 335.42,
+      "text": "wie es dann auf den Karte aufgesehen hat."
+    },
+    {
+      "i": 123,
+      "start": 335.42,
+      "end": 339.42,
+      "text": "Die Texte haben immer einen Untergrenzen und den Obergrenzen."
+    },
+    {
+      "i": 124,
+      "start": 339.42,
+      "end": 342.74,
+      "text": "Dort ist es ganz wichtig,"
+    },
+    {
+      "i": 125,
+      "start": 342.74,
+      "end": 347.74,
+      "text": "dass der Unterschied von gerade Zahlen und Koseifenzahlen,"
+    },
+    {
+      "i": 126,
+      "start": 347.74,
+      "end": 349.74,
+      "text": "wenn es gerade ist, übergrund,"
+    },
+    {
+      "i": 127,
+      "start": 349.74,
+      "end": 351.74,
+      "text": ". Wenn es koseifgeschrieben ist, ist es über mehr."
+    },
+    {
+      "i": 128,
+      "start": 351.74,
+      "end": 354.74,
+      "text": "Und der zweite große Unterschied,"
+    },
+    {
+      "i": 129,
+      "start": 354.74,
+      "end": 356.74,
+      "text": "wo ich jetzt bei den Zahlen gesehen habe,"
+    },
+    {
+      "i": 130,
+      "start": 356.74,
+      "end": 359.74,
+      "text": "ist, dass die Obergzahlen blaue in der Leite."
+    },
+    {
+      "i": 131,
+      "start": 359.74,
+      "end": 362.74,
+      "text": "Auch in der Leite zahlen bedeutet,"
+    },
+    {
+      "i": 132,
+      "start": 362.74,
+      "end": 366.74,
+      "text": "es ist höchig nach Standardatmosphären."
+    },
+    {
+      "i": 133,
+      "start": 366.74,
+      "end": 370.74,
+      "text": "Jetzt sehen wir, wie im Gleichschirmspart"
+    },
+    {
+      "i": 134,
+      "start": 370.74,
+      "end": 372.74,
+      "text": "oder in der Gleichschirmtheorie,"
+    },
+    {
+      "i": 135,
+      "start": 372.74,
+      "end": 374.74,
+      "text": "auch immer alle Themen mit einem Verwand sind"
+    },
+    {
+      "i": 136,
+      "start": 374.74,
+      "end": 376.74,
+      "text": "und irgendwo in einem anderen Griff."
+    },
+    {
+      "i": 137,
+      "start": 376.74,
+      "end": 380.74,
+      "text": "Beim Meteor haben da schon viel über die Standardatmosphäre gehört."
+    },
+    {
+      "i": 138,
+      "start": 380.74,
+      "end": 383.74,
+      "text": "Jetzt geht es genau wieder darum,"
+    },
+    {
+      "i": 139,
+      "start": 383.74,
+      "end": 386.74,
+      "text": "dass eben ein Standarddruck hier auch genommen wird."
+    },
+    {
+      "i": 140,
+      "start": 386.74,
+      "end": 390.74,
+      "text": "Und somit ist die Weisgeschriebenen Zahlen,"
+    },
+    {
+      "i": 141,
+      "start": 390.74,
+      "end": 392.74,
+      "text": "ist die Effektivheuche,"
+    },
+    {
+      "i": 142,
+      "start": 392.74,
+      "end": 395.74,
+      "text": "also wenn man die GPS-Messung zum Beispiel anliegt,"
+    },
+    {
+      "i": 143,
+      "start": 395.74,
+      "end": 398.74,
+      "text": "oder irgendetwas auf der Berge oder mit der Höhe nachgab,"
+    },
+    {
+      "i": 144,
+      "start": 398.74,
+      "end": 401.74,
+      "text": "also wirklich die Effektivheche aufkanten."
+    },
+    {
+      "i": 145,
+      "start": 401.74,
+      "end": 404.74,
+      "text": "Und die Blaue in der Leite zahlen,"
+    },
+    {
+      "i": 146,
+      "start": 404.74,
+      "end": 407.74,
+      "text": "ist der Zahlen, die je nach Wetter auch ein Schwanken,"
+    },
+    {
+      "i": 147,
+      "start": 407.74,
+      "end": 411.74,
+      "text": "weil man einfach die Druckmässchen rechnen,"
+    },
+    {
+      "i": 148,
+      "start": 411.74,
+      "end": 412.74,
+      "text": "auf mehres Höhe."
+    },
+    {
+      "i": 149,
+      "start": 412.74,
+      "end": 414.74,
+      "text": "Und einfach immer davon ausgehen,"
+    },
+    {
+      "i": 150,
+      "start": 414.74,
+      "end": 417.74,
+      "text": "auf mehres Höhe ist der Gleichdruck,"
+    },
+    {
+      "i": 151,
+      "start": 417.74,
+      "end": 420.74,
+      "text": "nämlich die 30,25 Hektup-Bass-Gall."
+    },
+    {
+      "i": 152,
+      "start": 420.74,
+      "end": 423.9,
+      "text": "Und wie so das genau so ist,"
+    },
+    {
+      "i": 153,
+      "start": 423.9,
+      "end": 426.9,
+      "text": "probieren wir jetzt in den nächsten paar Folien,"
+    },
+    {
+      "i": 154,
+      "start": 426.9,
+      "end": 429.16,
+      "text": "ein bisschen nachher zu bringen."
+    },
+    {
+      "i": 155,
+      "start": 429.16,
+      "end": 432.16,
+      "text": "Die Höhe, die man ja messen,"
+    },
+    {
+      "i": 156,
+      "start": 432.16,
+      "end": 435.16,
+      "text": "passiert auf einer Druckmässung."
+    },
+    {
+      "i": 157,
+      "start": 435.16,
+      "end": 436.16,
+      "text": "Das heißt,"
+    },
+    {
+      "i": 158,
+      "start": 436.16,
+      "end": 440.51,
+      "text": "auch ein Gerät messen gewissen Druck,"
+    },
+    {
+      "i": 159,
+      "start": 440.51,
+      "end": 443.51,
+      "text": "außer der Höhemässung mit GPS,"
+    },
+    {
+      "i": 160,
+      "start": 443.51,
+      "end": 444.51,
+      "text": "aber auch,"
+    },
+    {
+      "i": 161,
+      "start": 444.51,
+      "end": 445.51,
+      "text": "aber auch,"
+    },
+    {
+      "i": 162,
+      "start": 445.51,
+      "end": 446.51,
+      "text": "der Vergrund,"
+    },
+    {
+      "i": 163,
+      "start": 446.51,
+      "end": 447.51,
+      "text": "auch,"
+    },
+    {
+      "i": 164,
+      "start": 447.51,
+      "end": 450.51,
+      "text": "der Ver�대ver Nunme,"
+    },
+    {
+      "i": 165,
+      "start": 450.51,
+      "end": 451.51,
+      "text": "ist der Viertel."
+    },
+    {
+      "i": 166,
+      "start": 451.51,
+      "end": 454.51,
+      "text": "Und beim Herd und beim Gerät gespeckt."
+    },
+    {
+      "i": 167,
+      "start": 454.51,
+      "end": 457.51,
+      "text": "Wir können auch bei der Mille vorgeschlagen."
+    },
+    {
+      "i": 168,
+      "start": 457.51,
+      "end": 459.01,
+      "text": "Das heißt,"
+    },
+    {
+      "i": 169,
+      "start": 459.01,
+      "end": 460.51,
+      "text": "auch,"
+    },
+    {
+      "i": 170,
+      "start": 460.51,
+      "end": 461.51,
+      "text": "die Gerätzes,"
+    },
+    {
+      "i": 171,
+      "start": 461.51,
+      "end": 464.51,
+      "text": "die Regierze erheben,"
+    },
+    {
+      "i": 172,
+      "start": 464.51,
+      "end": 465.51,
+      "text": "erheben,"
+    },
+    {
+      "i": 173,
+      "start": 465.51,
+      "end": 466.51,
+      "text": "die R後-Defense,"
+    },
+    {
+      "i": 174,
+      "start": 466.51,
+      "end": 467.51,
+      "text": "die Räbenshausen,"
+    },
+    {
+      "i": 175,
+      "start": 467.51,
+      "end": 468.51,
+      "text": "die Räbenshausen und die Queuesen,"
+    },
+    {
+      "i": 176,
+      "start": 468.51,
+      "end": 469.51,
+      "text": "die Präventenen,"
+    },
+    {
+      "i": 177,
+      "start": 469.51,
+      "end": 471.51,
+      "text": "die Veggie und die Räbenshausen,"
+    },
+    {
+      "i": 178,
+      "start": 471.51,
+      "end": 472.51,
+      "text": "die Meme von der Stief,"
+    },
+    {
+      "i": 179,
+      "start": 472.51,
+      "end": 479.07,
+      "text": "Im Volauf- und Tag kann der Druck auch mal wechseln und dann am Abend nach der Landung"
+    },
+    {
+      "i": 180,
+      "start": 479.07,
+      "end": 482.79,
+      "text": "kann der Hörmässer schon wieder um ein paar Meter verfälscht sein."
+    },
+    {
+      "i": 181,
+      "start": 482.79,
+      "end": 492.36,
+      "text": "Und für das haben wir jetzt eine Lösung gefunden und die Lösung, die heißt eben"
+    },
+    {
+      "i": 182,
+      "start": 492.36,
+      "end": 497.92,
+      "text": "Flight-Levels-Flugflächen, und das kommt aus der internationale Flügelerei,"
+    },
+    {
+      "i": 183,
+      "start": 497.92,
+      "end": 503.48,
+      "text": "weil ja Flugzeug, die vom Eintenart zum anderen über weitere Stazzen flügt,"
+    },
+    {
+      "i": 184,
+      "start": 504.0,
+      "end": 508.8,
+      "text": "auf verschiedene Wetterzonen und verschiedene Druckgebiet flügt."
+    },
+    {
+      "i": 185,
+      "start": 508.8,
+      "end": 513.36,
+      "text": "Und das bedeutet, dass man eigentlich den Hörmässer ein paar Meter, oder?"
+    },
+    {
+      "i": 186,
+      "start": 513.36,
+      "end": 520.76,
+      "text": "Ja, ein paar Kilometer Flug müssen neu kalibrieren, neu auf den Boden-Druck-Einstellen."
+    },
+    {
+      "i": 187,
+      "start": 520.76,
+      "end": 525.08,
+      "text": "Wir müssen irgendwie immer wieder funken, wie ist das Wetter, wie ist das Drucken-Baden,"
+    },
+    {
+      "i": 188,
+      "start": 525.08,
+      "end": 529.88,
+      "text": "dass die Höhe stimmt. Und das wäre natürlich fast unmöglich und extrem aufwendig."
+    },
+    {
+      "i": 189,
+      "start": 530.16,
+      "end": 535.16,
+      "text": "Und es würde auch aus Risiko bergen, dass man den vielleicht gleichen Berechnungsfällen"
+    },
+    {
+      "i": 190,
+      "start": 535.16,
+      "end": 541.18,
+      "text": "oder vielleicht Druckschwanker glichert wechselt und dass es den Zähmesteuß gibt."
+    },
+    {
+      "i": 191,
+      "start": 541.18,
+      "end": 548.57,
+      "text": "Und darum hat man sich in der Flügelerei geeinigt, dass man eben nicht nach effektiver"
+    },
+    {
+      "i": 192,
+      "start": 548.57,
+      "end": 552.23,
+      "text": "Höchene flügt, sondern nach Standarddruck."
+    },
+    {
+      "i": 193,
+      "start": 552.23,
+      "end": 558.19,
+      "text": "Das Standarddruck, wie gesagt, bei 3030 kann man zwei, fünf Hicktup-Bassgel auf mehrer Höhe."
+    },
+    {
+      "i": 194,
+      "start": 558.19,
+      "end": 565.19,
+      "text": "Und jetzt haben wir hier eine ganz schnell rechnungsbeispiele, bevor man die Flight-Levels e-gönnt."
+    },
+    {
+      "i": 195,
+      "start": 565.19,
+      "end": 571.71,
+      "text": "Und wie es in der Praxis funktioniert, einfach, dass wir hier ein bisschen vorstellen werden, damit bedeutet."
+    },
+    {
+      "i": 196,
+      "start": 571.71,
+      "end": 577.93,
+      "text": "Also das Beispiel mit Flight-Level 100, Eiffleit-Level sind 100 Fours."
+    },
+    {
+      "i": 197,
+      "start": 577.93,
+      "end": 586.41,
+      "text": "Das heißt, Flight-Level 100 sind 10.000 Fours und weil 1 Fours 30,48 Zentimeter hoch ist,"
+    },
+    {
+      "i": 198,
+      "start": 586.41,
+      "end": 590.21,
+      "text": "ist dann eben Flight-Level 100, 3000 und 48 Zentimeter."
+    },
+    {
+      "i": 199,
+      "start": 590.21,
+      "end": 593.25,
+      "text": "Und so sieht man wieder ein bisschen Verbindung."
+    },
+    {
+      "i": 200,
+      "start": 593.25,
+      "end": 600.57,
+      "text": "Oder ja, können wir uns erklären, wie so das zum Beispiel im Jura, das Level oder der Luftrumm"
+    },
+    {
+      "i": 201,
+      "start": 600.57,
+      "end": 603.09,
+      "text": "10, bei 3000 und 50 Zentimeter anfängt."
+    },
+    {
+      "i": 202,
+      "start": 603.09,
+      "end": 608.09,
+      "text": "Das ist nämlich Flight-Level 100 und kommt aus der Flügelerei, aus der Linie-Flügelerei aus."
+    },
+    {
+      "i": 203,
+      "start": 608.09,
+      "end": 614.41,
+      "text": "Und genau so ist in der Alpen die 3.50 Zentimeter, nämlich Flight-Level 100 Trisk und die 455"
+    },
+    {
+      "i": 204,
+      "start": 614.41,
+      "end": 621.22,
+      "text": "sind Flight-Level 150."
+    },
+    {
+      "i": 205,
+      "start": 621.22,
+      "end": 627.95,
+      "text": "Und in der unteren Lager ist natürlich wichtig, dass ein Flugzeug nach der exakte Höchernacher Flügel"
+    },
+    {
+      "i": 206,
+      "start": 627.95,
+      "end": 633.55,
+      "text": "einfach auch wegen der Topografie, dass es keine Koalition mit Berge gibt oder mit Hindernis."
+    },
+    {
+      "i": 207,
+      "start": 633.55,
+      "end": 642.47,
+      "text": "Aber eine gewisse Höhe spielt es gerne immer so ein Rollen, über die Flügel sich so krützen oder weiterrunnen."
+    },
+    {
+      "i": 208,
+      "start": 642.47,
+      "end": 648.91,
+      "text": "Das Wichtigste ist einfach, dass die Flügel separiert sind und nicht auf der gleichen Höhe flügt."
+    },
+    {
+      "i": 209,
+      "start": 648.91,
+      "end": 654.87,
+      "text": "Und da hat man dann eben mit dem Flight-Level eigentlich einen gebracht und der Ziele erreicht."
+    },
+    {
+      "i": 210,
+      "start": 654.87,
+      "end": 659.59,
+      "text": "Wie wir sehen, wenn jetzt ein Flügel, von einem hoch in einen tief innen flügt,"
+    },
+    {
+      "i": 211,
+      "start": 659.59,
+      "end": 664.07,
+      "text": "dann muss es nicht so eine Extremik-Hurve sein, natürlich, da ist es jetzt ein bisschen über drei Beden dargestellt."
+    },
+    {
+      "i": 212,
+      "start": 664.07,
+      "end": 666.95,
+      "text": "Aber dann schwenkt der Flight-Level immer ein bisschen."
+    },
+    {
+      "i": 213,
+      "start": 666.95,
+      "end": 670.91,
+      "text": "Also der Flügel schwimmt immer ein bisschen, geht einmal ein bisschen auf die Lieben."
+    },
+    {
+      "i": 214,
+      "start": 670.91,
+      "end": 675.11,
+      "text": "Aber es ist immer auf dem gleichen Druck, also ein Flügel genau auf der gleichen Druckfläche."
+    },
+    {
+      "i": 215,
+      "start": 675.11,
+      "end": 681.33,
+      "text": "Und dann spielt es gerne so ein Rollen, ob jetzt auf 11000 oder auf 10.000 900 ist,"
+    },
+    {
+      "i": 216,
+      "start": 681.33,
+      "end": 688.51,
+      "text": "wichtig ist, dass die Flügel auf verschiedenen Levels flügt und so eine Koalition können vermieten."
+    },
+    {
+      "i": 217,
+      "start": 688.51,
+      "end": 696.99,
+      "text": "Auch wenn die Segelflugkater hat es vor allem bei der TMS und der Airways."
+    },
+    {
+      "i": 218,
+      "start": 697.07,
+      "end": 702.23,
+      "text": "Zu dem können wir gerne später wieder aufgebaut sind, aber einfach wenn er jetzt da noch mal die Texte a-lugert"
+    },
+    {
+      "i": 219,
+      "start": 702.23,
+      "end": 706.23,
+      "text": "und mit dem D-Luftraum D, die haben immer ein Unterkanten."
+    },
+    {
+      "i": 220,
+      "start": 706.23,
+      "end": 708.31,
+      "text": "Da ist es jetzt der Boden, ground."
+    },
+    {
+      "i": 221,
+      "start": 708.31,
+      "end": 711.99,
+      "text": "Da haben wir auch ein Unterkanten von 225 und 26."
+    },
+    {
+      "i": 222,
+      "start": 711.99,
+      "end": 713.19,
+      "text": "Und die ist fix."
+    },
+    {
+      "i": 223,
+      "start": 713.19,
+      "end": 716.43,
+      "text": "Das ist da ganz wichtig, dass die Fix ist, wegt der Topografie."
+    },
+    {
+      "i": 224,
+      "start": 716.43,
+      "end": 722.42,
+      "text": "Das ist jetzt da beim Beispiel von Meiringen, die so links und rechts sehr hochig bergen hat."
+    },
+    {
+      "i": 225,
+      "start": 722.5,
+      "end": 726.1,
+      "text": "Die Obergrenze, die 53, dort sind wir dann eben wieder in den Bereich,"
+    },
+    {
+      "i": 226,
+      "start": 726.1,
+      "end": 729.9,
+      "text": "was gerne kein Rollen spielt, weil es kein Hindernisse mehr hat."
+    },
+    {
+      "i": 227,
+      "start": 729.9,
+      "end": 733.02,
+      "text": "Die kann dann schwanken, die Höhe."
+    },
+    {
+      "i": 228,
+      "start": 733.02,
+      "end": 737.62,
+      "text": "Und da ist jetzt auf dieser Folie normalerweise erklärt."
+    },
+    {
+      "i": 229,
+      "start": 737.62,
+      "end": 742.18,
+      "text": "Also, wir haben da Topografie, die Unterkanten ist sehr scharf,"
+    },
+    {
+      "i": 230,
+      "start": 742.18,
+      "end": 746.1,
+      "text": "weil wenn dir da Druck passiert wird, schwanken, dann hätten wir da Probleme."
+    },
+    {
+      "i": 231,
+      "start": 746.1,
+      "end": 751.9,
+      "text": "Dann würde es mal so ein Thema, so ein Aufflug schneiden, nämlich in den Berg."
+    },
+    {
+      "i": 232,
+      "start": 752.18,
+      "end": 756.46,
+      "text": "Topografie innen laufen und können den Koalition verursachen."
+    },
+    {
+      "i": 233,
+      "start": 756.46,
+      "end": 760.05,
+      "text": "Die Obergrenze, die schwanken, aber."
+    },
+    {
+      "i": 234,
+      "start": 760.05,
+      "end": 762.61,
+      "text": "Und wie viel das da ausmacht, gesehen oder da."
+    },
+    {
+      "i": 235,
+      "start": 762.61,
+      "end": 766.33,
+      "text": "Das ist auch noch interessant, zum Wissen, wenn wir am Gletschenflügen sind."
+    },
+    {
+      "i": 236,
+      "start": 766.33,
+      "end": 769.93,
+      "text": "Da ist übrigens auf der Sägelflugkarte drauf die Zellen."
+    },
+    {
+      "i": 237,
+      "start": 769.93,
+      "end": 774.17,
+      "text": "Also, gesehen, bei 10.000 und 37 Hektopassgall."
+    },
+    {
+      "i": 238,
+      "start": 774.17,
+      "end": 775.05,
+      "text": "Bodendruck."
+    },
+    {
+      "i": 239,
+      "start": 775.05,
+      "end": 778.81,
+      "text": "Und da ist schon, also, aber gerechnet der Bodendruck."
+    },
+    {
+      "i": 240,
+      "start": 778.81,
+      "end": 782.29,
+      "text": "Da ist natürlich schon sehr hochs Stachshoch."
+    },
+    {
+      "i": 241,
+      "start": 782.57,
+      "end": 785.37,
+      "text": "Und da macht es etwa 200 m aus."
+    },
+    {
+      "i": 242,
+      "start": 785.37,
+      "end": 790.73,
+      "text": "Wiederum immer ein sehr tiefes Tiefdruck gibt, macht es minus 200 m."
+    },
+    {
+      "i": 243,
+      "start": 790.73,
+      "end": 796.44,
+      "text": "Also, es ist schon relativ viel, wenn man dazu sagen kann,"
+    },
+    {
+      "i": 244,
+      "start": 796.44,
+      "end": 799.32,
+      "text": "bei so einem Tiefdruck sind wir wahrscheinlich nicht am Flügen."
+    },
+    {
+      "i": 245,
+      "start": 799.32,
+      "end": 803.84,
+      "text": "Im Normalfall, weil es einfach ganz schlecht zwetter ist und Sturm angeseit ist."
+    },
+    {
+      "i": 246,
+      "start": 803.84,
+      "end": 806.64,
+      "text": "Bei einem extrem hochen Hoch,"
+    },
+    {
+      "i": 247,
+      "start": 806.64,
+      "end": 810.2,
+      "text": "machen wir vielleicht ein Kleidflug von einem Hochalb in den Berg."
+    },
+    {
+      "i": 248,
+      "start": 810.2,
+      "end": 813.8,
+      "text": "Aber wahrscheinlich auch weniger ein Thermikflug, weil es einfach schon wieder zu stabil ist."
+    },
+    {
+      "i": 249,
+      "start": 813.8,
+      "end": 817.4,
+      "text": "Jetzt können wir schon wieder ein bisschen in die Wetterkunde innen."
+    },
+    {
+      "i": 250,
+      "start": 817.4,
+      "end": 821.92,
+      "text": "Aber meistens sind wir ja so ein bisschen im Bereich von vielleicht plus,"
+    },
+    {
+      "i": 251,
+      "start": 821.92,
+      "end": 826.28,
+      "text": "vielleicht da mal sogar 100 m in der Luft ein Thermikflügen."
+    },
+    {
+      "i": 252,
+      "start": 826.28,
+      "end": 830.16,
+      "text": "Und das Gute ist, dass ja die Gegend vor allem gegen Aufwanderen."
+    },
+    {
+      "i": 253,
+      "start": 830.16,
+      "end": 834.76,
+      "text": "Also, wenn er wissen, ob er ein Luftraum, wo bei 3050 gefangen hat,"
+    },
+    {
+      "i": 254,
+      "start": 834.76,
+      "end": 839.88,
+      "text": "und wir sind im Thermikflügen, ist es meistens so, dass der ehrlich höher ist."
+    },
+    {
+      "i": 255,
+      "start": 839.88,
+      "end": 843.48,
+      "text": "Aber das natürlich auch wichtig, dass das Gerät richtig eingestellt ist"
+    },
+    {
+      "i": 256,
+      "start": 843.48,
+      "end": 847.07,
+      "text": "und dass man dann nicht drei fliegen."
+    },
+    {
+      "i": 257,
+      "start": 847.07,
+      "end": 851.72,
+      "text": "Danach zur Abwechslung einmal eine Prüfungsfrage,"
+    },
+    {
+      "i": 258,
+      "start": 851.72,
+      "end": 855.72,
+      "text": "die auch auf einen Zuchen an der Glacium-Theorie prüfigt."
+    },
+    {
+      "i": 259,
+      "start": 855.72,
+      "end": 861.96,
+      "text": "Da sehen wir jetzt Dopagrenzen vom Luftraum-Klass E über einem Jura."
+    },
+    {
+      "i": 260,
+      "start": 861.96,
+      "end": 866.96,
+      "text": "Dann müssen wir den ersten Mal Gedanken machen, wie hoch wäre es denn normal?"
+    },
+    {
+      "i": 261,
+      "start": 866.96,
+      "end": 871.76,
+      "text": "Jura haben wir gesagt, es ist egal, ob das Militär aktiv oder inaktiv ist,"
+    },
+    {
+      "i": 262,
+      "start": 871.76,
+      "end": 874.8,
+      "text": "ist Dopagrenzen für uns bei 3050."
+    },
+    {
+      "i": 263,
+      "start": 874.8,
+      "end": 877.12,
+      "text": "Jetzt haben wir einen sehr starken Hoch."
+    },
+    {
+      "i": 264,
+      "start": 877.12,
+      "end": 880.48,
+      "text": "Auf der ersten Blick gesehen, man hat viel zu zahlen und hat jetzt Gefühl,"
+    },
+    {
+      "i": 265,
+      "start": 880.48,
+      "end": 883.48,
+      "text": "oh wow, man muss jetzt hier genau berechnen und so."
+    },
+    {
+      "i": 266,
+      "start": 883.48,
+      "end": 888.2,
+      "text": "Aber es würde eigentlich nicht verlangt, dass man so eine Berechnung durchführen kann."
+    },
+    {
+      "i": 267,
+      "start": 888.2,
+      "end": 889.44,
+      "text": "Wir haben einfach gesehen,"
+    },
+    {
+      "i": 268,
+      "start": 889.44,
+      "end": 892.28,
+      "text": "wo auch, es ist ein wahnsinnig starkes Hoch,"
+    },
+    {
+      "i": 269,
+      "start": 892.28,
+      "end": 897.12,
+      "text": "bei einem sehr starken Hoch macht es maximal ungefähr 200 m aus."
+    },
+    {
+      "i": 270,
+      "start": 897.12,
+      "end": 900.52,
+      "text": "Und hier sehen wir dann schnell drei, drei, drei oder vier Eis."
+    },
+    {
+      "i": 271,
+      "start": 900.52,
+      "end": 902.16,
+      "text": "Wir haben natürlich viel, viel zu viel."
+    },
+    {
+      "i": 272,
+      "start": 902.16,
+      "end": 903.92,
+      "text": "Also so viel macht es denn nicht aus,"
+    },
+    {
+      "i": 273,
+      "start": 903.92,
+      "end": 908.54,
+      "text": "es macht eben immer ein Rahmen von plus minus 200 m bis aus."
+    },
+    {
+      "i": 274,
+      "start": 908.54,
+      "end": 913.11,
+      "text": "Falls es eine Prx-Frage zur Zuchen gibt."
+    },
+    {
+      "i": 275,
+      "start": 913.11,
+      "end": 917.11,
+      "text": "Jetzt haben wir einen kleinen Ausflug gemacht, richtig fleidlevel."
+    },
+    {
+      "i": 276,
+      "start": 917.11,
+      "end": 920.95,
+      "text": "Ja, leicht abgeschweift vor der Sägerflugkarten."
+    },
+    {
+      "i": 277,
+      "start": 920.95,
+      "end": 926.19,
+      "text": "Aber auch nötig ist für das Verständnis, wie die Lufträume aufbaut sind."
+    },
+    {
+      "i": 278,
+      "start": 926.19,
+      "end": 928.03,
+      "text": "Ich hoffe, es hat auch ein bisschen geholfen."
+    },
+    {
+      "i": 279,
+      "start": 928.03,
+      "end": 931.35,
+      "text": "Jetzt können wir wieder zurück zur weiteren Lufträume zurückkommen."
+    },
+    {
+      "i": 280,
+      "start": 931.35,
+      "end": 934.91,
+      "text": "Da ist jetzt die Lufträume D, die ich vorher kurz angesprochen habe."
+    },
+    {
+      "i": 281,
+      "start": 934.91,
+      "end": 938.67,
+      "text": "Das sind die Z-Erste-Kontrollzonen,"
+    },
+    {
+      "i": 282,
+      "start": 938.67,
+      "end": 942.55,
+      "text": "die gerade ummittelbarer Nähe von der grossen Flughefe sind."
+    },
+    {
+      "i": 283,
+      "start": 942.55,
+      "end": 946.91,
+      "text": "Und die gehen immer vom Boden bis auf eine gewisse Höhe."
+    },
+    {
+      "i": 284,
+      "start": 946.91,
+      "end": 950.31,
+      "text": "Die Töcke und Abform sind natürlich sehr topografieabhängig"
+    },
+    {
+      "i": 285,
+      "start": 950.31,
+      "end": 954.34,
+      "text": "und auch abhängig von der A-Flugschneißen"
+    },
+    {
+      "i": 286,
+      "start": 954.34,
+      "end": 956.74,
+      "text": "und vom Bedarf von dem Flughafen."
+    },
+    {
+      "i": 287,
+      "start": 956.74,
+      "end": 958.62,
+      "text": "Und die sind natürlich nicht immer rund."
+    },
+    {
+      "i": 288,
+      "start": 958.62,
+      "end": 961.26,
+      "text": "Da ist jetzt nur so ein boliger Stahl gestellt."
+    },
+    {
+      "i": 289,
+      "start": 961.26,
+      "end": 971.22,
+      "text": "D"
+    },
+    {
+      "i": 290,
+      "start": 971.22,
+      "end": 972.74,
+      "text": "Bei den Tema gibt es noch etwas speziell."
+    },
+    {
+      "i": 291,
+      "start": 972.74,
+      "end": 975.18,
+      "text": "Also, ich habe jetzt zum Beispiel eine Z-Ter,"
+    },
+    {
+      "i": 292,
+      "start": 975.3,
+      "end": 981.62,
+      "text": "den händere Tema, wo in einem Berg innen läuft oder in einer topografie innen läuft."
+    },
+    {
+      "i": 293,
+      "start": 981.62,
+      "end": 983.14,
+      "text": "Da gibt es manchmal."
+    },
+    {
+      "i": 294,
+      "start": 983.14,
+      "end": 988.1,
+      "text": "Und da ist noch ganz wichtig zu wissen, dass er mit dem Kleidschirm"
+    },
+    {
+      "i": 295,
+      "start": 988.1,
+      "end": 993.38,
+      "text": "aber Achtung nur südlich vor der Trendlinie mit Land Alpen, also nur der Alpen,"
+    },
+    {
+      "i": 296,
+      "start": 993.38,
+      "end": 997.1,
+      "text": "der man 300 m drunter auserflügen."
+    },
+    {
+      "i": 297,
+      "start": 997.1,
+      "end": 998.94,
+      "text": "Da gibt es in ganz wenigen Fällen."
+    },
+    {
+      "i": 298,
+      "start": 999.02,
+      "end": 1002.74,
+      "text": "Hier ist auch Eibrüfungsfrag, wo ein bisschen tricky ist,"
+    },
+    {
+      "i": 299,
+      "start": 1002.74,
+      "end": 1007.06,
+      "text": "wo man innen kei, darum passen du auf mit den 300 m."
+    },
+    {
+      "i": 300,
+      "start": 1007.06,
+      "end": 1011.98,
+      "text": "Es gibt natürlich, es gibt Staplätze, die man z.B. hier startet"
+    },
+    {
+      "i": 301,
+      "start": 1011.98,
+      "end": 1015.38,
+      "text": "und super schön unter den 300 m hier unten auserflügen."
+    },
+    {
+      "i": 302,
+      "start": 1015.38,
+      "end": 1018.58,
+      "text": "Und man jederzeit absolut legal im Rahmen ist"
+    },
+    {
+      "i": 303,
+      "start": 1018.58,
+      "end": 1020.54,
+      "text": "und auch keine Bewilligung dafür brucht."
+    },
+    {
+      "i": 304,
+      "start": 1020.54,
+      "end": 1024.17,
+      "text": "Dann haben wir noch die Luftstrasse."
+    },
+    {
+      "i": 305,
+      "start": 1024.17,
+      "end": 1027.89,
+      "text": "Die verbindet die grösseren Flughafen"
+    },
+    {
+      "i": 306,
+      "start": 1027.89,
+      "end": 1032.89,
+      "text": "und auch die Hauptverbindungsachse von internationalen Luftverkehr."
+    },
+    {
+      "i": 307,
+      "start": 1032.89,
+      "end": 1036.13,
+      "text": "Dann haben wir eine kleine Aussicht von der Sitten."
+    },
+    {
+      "i": 308,
+      "start": 1036.13,
+      "end": 1042.41,
+      "text": "Wir sehen, es gibt mehrere Tema, es gibt 5, 6, 7 Tema,"
+    },
+    {
+      "i": 309,
+      "start": 1042.41,
+      "end": 1044.89,
+      "text": "es gibt nur eine, das ist ganz unterschiedlich."
+    },
+    {
+      "i": 310,
+      "start": 1044.89,
+      "end": 1047.89,
+      "text": "Und wie gesagt, kommt ganz auf der Flugverkehr und auf der Topografie"
+    },
+    {
+      "i": 311,
+      "start": 1047.89,
+      "end": 1049.72,
+      "text": "vom Flughafen darauf an."
+    },
+    {
+      "i": 312,
+      "start": 1049.72,
+      "end": 1055.78,
+      "text": "Die Aktivität von den 10.000 Tema, es gibt auch unterschiedlich 7 Tema,"
+    },
+    {
+      "i": 313,
+      "start": 1056.06,
+      "end": 1061.06,
+      "text": "wenn 9 steht, also wenn die Abbezeichnung CTR, LSZR,"
+    },
+    {
+      "i": 314,
+      "start": 1061.06,
+      "end": 1064.3,
+      "text": "wenn jetzt 9 Wörs steht, dann ist die Paramount aktiv,"
+    },
+    {
+      "i": 315,
+      "start": 1064.3,
+      "end": 1066.86,
+      "text": "wie zum Beispiel die Zürich bei der grossen Flughafen."
+    },
+    {
+      "i": 316,
+      "start": 1066.86,
+      "end": 1070.62,
+      "text": "Wenn das HX ist, dann hat sie keine Fixe betriebszitten."
+    },
+    {
+      "i": 317,
+      "start": 1070.62,
+      "end": 1074.06,
+      "text": "Muss aber grundsätzlich davon ausgehen,"
+    },
+    {
+      "i": 318,
+      "start": 1074.06,
+      "end": 1077.82,
+      "text": "dass sie jederzeit aktiv ist und man kann den Status abfragen."
+    },
+    {
+      "i": 319,
+      "start": 1077.82,
+      "end": 1080.02,
+      "text": "Und dann gibt es noch die Temporären."
+    },
+    {
+      "i": 320,
+      "start": 1080.02,
+      "end": 1084.3,
+      "text": "Die Temporären würden dann über das Daps"
+    },
+    {
+      "i": 321,
+      "start": 1084.58,
+      "end": 1087.26,
+      "text": "bekannt gewinnen, dass sie aktiv sind."
+    },
+    {
+      "i": 322,
+      "start": 1087.26,
+      "end": 1089.14,
+      "text": "Da gibt es in der Schweiz nur zwei Fälle."
+    },
+    {
+      "i": 323,
+      "start": 1089.14,
+      "end": 1092.82,
+      "text": "SIA und Altnach, z.B. können wir den Nachgang noch."
+    },
+    {
+      "i": 324,
+      "start": 1092.82,
+      "end": 1100.47,
+      "text": "Es gibt hier drei Aktivitätsstatus von TMS, TMS und CTRs."
+    },
+    {
+      "i": 325,
+      "start": 1100.47,
+      "end": 1105.49,
+      "text": "Wir haben in der Schweiz ganz ein hoher Helipot,"
+    },
+    {
+      "i": 326,
+      "start": 1105.49,
+      "end": 1109.33,
+      "text": "die sind so im Zeichnet und wir müssen Radius"
+    },
+    {
+      "i": 327,
+      "start": 1109.33,
+      "end": 1112.21,
+      "text": "von 2,5 Kilometer zu diesen E-Halten."
+    },
+    {
+      "i": 328,
+      "start": 1112.97,
+      "end": 1117.72,
+      "text": "Die kleineren Flugbleize ohne CTRs sind so im Zeichnet."
+    },
+    {
+      "i": 329,
+      "start": 1117.72,
+      "end": 1122.84,
+      "text": "Die haben Radius von 5 Kilometer, die wir in der Abstand halten."
+    },
+    {
+      "i": 330,
+      "start": 1122.84,
+      "end": 1124.84,
+      "text": "Da haben wir noch 10 Mephassig."
+    },
+    {
+      "i": 331,
+      "start": 1124.84,
+      "end": 1128.84,
+      "text": "Da im Raum Luzern, das ist so ein bisschen Bermuda-Dreue für uns."
+    },
+    {
+      "i": 332,
+      "start": 1128.84,
+      "end": 1131.24,
+      "text": "Die Glacian-Piloten, die wir ganz gut haben,"
+    },
+    {
+      "i": 333,
+      "start": 1131.24,
+      "end": 1133.64,
+      "text": "schauen, dass wir nie einen Luftraum innen kommen."
+    },
+    {
+      "i": 334,
+      "start": 1133.64,
+      "end": 1135.44,
+      "text": "Aber ganz schönes Fluggebiet."
+    },
+    {
+      "i": 335,
+      "start": 1135.44,
+      "end": 1137.44,
+      "text": "Und wir können durchaus auch fliegen."
+    },
+    {
+      "i": 336,
+      "start": 1137.44,
+      "end": 1139.92,
+      "text": "Aber wenn es jetzt sehr, sehr komplex ausgesetzt ist."
+    },
+    {
+      "i": 337,
+      "start": 1140.92,
+      "end": 1142.92,
+      "text": "Da hat er auch gesehen, er hat alle Beispiele,"
+    },
+    {
+      "i": 338,
+      "start": 1142.92,
+      "end": 1143.92,
+      "text": "die es gibt."
+    },
+    {
+      "i": 339,
+      "start": 1143.92,
+      "end": 1146.92,
+      "text": "Es gibt ein Helipot mit 2,5 Kilometer."
+    },
+    {
+      "i": 340,
+      "start": 1146.92,
+      "end": 1149.92,
+      "text": "Die Zivilflugplatz, dann gibt es gemischte Flugbleize,"
+    },
+    {
+      "i": 341,
+      "start": 1149.92,
+      "end": 1152.92,
+      "text": "die militärisch und zivilverwendet werden."
+    },
+    {
+      "i": 342,
+      "start": 1152.92,
+      "end": 1154.92,
+      "text": "Dann gibt es rein militärische Flugbleize,"
+    },
+    {
+      "i": 343,
+      "start": 1154.92,
+      "end": 1158.21,
+      "text": "die so rot und kreiselt sind."
+    },
+    {
+      "i": 344,
+      "start": 1158.21,
+      "end": 1163.21,
+      "text": "Interessant ist, es geht nur 600 m übergrund."
+    },
+    {
+      "i": 345,
+      "start": 1163.21,
+      "end": 1167.21,
+      "text": "Wir können dort mit über 600 m drüber fliegen."
+    },
+    {
+      "i": 346,
+      "start": 1167.21,
+      "end": 1170.43,
+      "text": "Oder nicht, dass man da Probleme bekämpft hat."
+    },
+    {
+      "i": 347,
+      "start": 1170.43,
+      "end": 1174.8,
+      "text": "Zu diesem Thema ist es noch wichtig,"
+    },
+    {
+      "i": 348,
+      "start": 1174.8,
+      "end": 1176.8,
+      "text": "wenn ein Streckerflug?"
+    },
+    {
+      "i": 349,
+      "start": 1176.8,
+      "end": 1177.8,
+      "text": "Und das Gefühl hat,"
+    },
+    {
+      "i": 350,
+      "start": 1177.8,
+      "end": 1181.8,
+      "text": "äh, das geht meine Idealflug-Routen und Thermik"
+    },
+    {
+      "i": 351,
+      "start": 1181.8,
+      "end": 1183.8,
+      "text": "und der Winkel von Glend und so."
+    },
+    {
+      "i": 352,
+      "start": 1183.8,
+      "end": 1186.8,
+      "text": "Meine Routen gängt eigentlich genau dort durch."
+    },
+    {
+      "i": 353,
+      "start": 1186.8,
+      "end": 1188.8,
+      "text": "Oder wir gehen so knapp."
+    },
+    {
+      "i": 354,
+      "start": 1188.8,
+      "end": 1190.8,
+      "text": "Der Helipot kratzen."
+    },
+    {
+      "i": 355,
+      "start": 1190.8,
+      "end": 1192.8,
+      "text": "Dann ist es sicher,"
+    },
+    {
+      "i": 356,
+      "start": 1192.8,
+      "end": 1195.8,
+      "text": "die Zeit wird zum Schnelle dem Nogau."
+    },
+    {
+      "i": 357,
+      "start": 1196.8,
+      "end": 1199.8,
+      "text": "Und beim SFV, bei den lokale Verieberungen,"
+    },
+    {
+      "i": 358,
+      "start": 1199.8,
+      "end": 1201.8,
+      "text": "die schauen, ob es bei diesem Helipot"
+    },
+    {
+      "i": 359,
+      "start": 1201.8,
+      "end": 1203.8,
+      "text": "sogar eine lokale Abmechung gibt."
+    },
+    {
+      "i": 360,
+      "start": 1203.8,
+      "end": 1205.8,
+      "text": "Wenn er kein Witter im Voshens,"
+    },
+    {
+      "i": 361,
+      "start": 1205.8,
+      "end": 1207.8,
+      "text": "dann müssen wir immer davon ausgehen."
+    },
+    {
+      "i": 362,
+      "start": 1207.8,
+      "end": 1209.8,
+      "text": "Es sind 2,5 Kilometer Radius"
+    },
+    {
+      "i": 363,
+      "start": 1209.8,
+      "end": 1212.8,
+      "text": "und 5 Kilometer Radius bei der Flugbleize und 600 m."
+    },
+    {
+      "i": 364,
+      "start": 1212.8,
+      "end": 1215.8,
+      "text": "Vielleicht ist es aber, wie jetzt hier zu trocken,"
+    },
+    {
+      "i": 365,
+      "start": 1215.8,
+      "end": 1217.8,
+      "text": "wo so ein Speklapp geschnitten ist,"
+    },
+    {
+      "i": 366,
+      "start": 1217.8,
+      "end": 1219.8,
+      "text": "wo eine Durchhausautörer durchfliegen."
+    },
+    {
+      "i": 367,
+      "start": 1219.8,
+      "end": 1220.8,
+      "text": "Und zudem sieht er,"
+    },
+    {
+      "i": 368,
+      "start": 1220.8,
+      "end": 1224.8,
+      "text": "dass jetzt da Ground bis 1200 m steht."
+    },
+    {
+      "i": 369,
+      "start": 1224.8,
+      "end": 1227.8,
+      "text": "Drocken ist aber auf 800-900 m."
+    },
+    {
+      "i": 370,
+      "start": 1227.8,
+      "end": 1230.8,
+      "text": "Das heißt, es sind auch deutlich weniger als 600 m."
+    },
+    {
+      "i": 371,
+      "start": 1230.8,
+      "end": 1233.8,
+      "text": "Und da kann einem sehr weiterhelfen,"
+    },
+    {
+      "i": 372,
+      "start": 1233.8,
+      "end": 1235.8,
+      "text": "nachher in der Praxis,"
+    },
+    {
+      "i": 373,
+      "start": 1235.8,
+      "end": 1238.8,
+      "text": "wenn man einfach so eine solche Informationen hat."
+    },
+    {
+      "i": 374,
+      "start": 1238.8,
+      "end": 1244.66,
+      "text": "Dann haben wir auf der Segelflugkarte auch Hindernis-Seite zeichnet,"
+    },
+    {
+      "i": 375,
+      "start": 1244.66,
+      "end": 1246.66,
+      "text": "die Gesänte in ungefähr so aus."
+    },
+    {
+      "i": 376,
+      "start": 1246.66,
+      "end": 1250.23,
+      "text": "Da jetzt, z.B. vom Centis,"
+    },
+    {
+      "i": 377,
+      "start": 1250.23,
+      "end": 1254.23,
+      "text": "wir haben das Hindernis oben daraus statt,"
+    },
+    {
+      "i": 378,
+      "start": 1254.23,
+      "end": 1256.23,
+      "text": "dass es ein Licht hat,"
+    },
+    {
+      "i": 379,
+      "start": 1256.23,
+      "end": 1258.23,
+      "text": "das ist jetzt eher ein Flugzeug dann wichtig,"
+    },
+    {
+      "i": 380,
+      "start": 1258.23,
+      "end": 1259.23,
+      "text": "wo in der Nacht unterwegs sind,"
+    },
+    {
+      "i": 381,
+      "start": 1259.23,
+      "end": 1262.23,
+      "text": "dass es belüchtert ist für uns jetzt weniger interessant."
+    },
+    {
+      "i": 382,
+      "start": 1262.23,
+      "end": 1264.23,
+      "text": "Für uns ist auch noch spannend,"
+    },
+    {
+      "i": 383,
+      "start": 1264.23,
+      "end": 1265.23,
+      "text": "Töchitz gesehen"
+    },
+    {
+      "i": 384,
+      "start": 1265.23,
+      "end": 1268.23,
+      "text": "und da kommt jetzt dazu mit der Kursieferschrift"
+    },
+    {
+      "i": 385,
+      "start": 1268.23,
+      "end": 1269.23,
+      "text": "und der Graderschrift."
+    },
+    {
+      "i": 386,
+      "start": 1269.23,
+      "end": 1271.23,
+      "text": "Kursiefgeschrieben heißt über mehr,"
+    },
+    {
+      "i": 387,
+      "start": 1271.23,
+      "end": 1273.23,
+      "text": "da ist also die Spitze von Antennen"
+    },
+    {
+      "i": 388,
+      "start": 1273.23,
+      "end": 1275.23,
+      "text": "und die 124 m die Gradschrift,"
+    },
+    {
+      "i": 389,
+      "start": 1275.23,
+      "end": 1278.23,
+      "text": "so hoch ist dann dann effektiv."
+    },
+    {
+      "i": 390,
+      "start": 1278.23,
+      "end": 1279.23,
+      "text": "Also man wissen,"
+    },
+    {
+      "i": 391,
+      "start": 1279.23,
+      "end": 1281.23,
+      "text": "okay, die Antennen ist so gross,"
+    },
+    {
+      "i": 392,
+      "start": 1281.23,
+      "end": 1283.23,
+      "text": "dass sie sie von weitem so sehen oder so."
+    },
+    {
+      "i": 393,
+      "start": 1283.23,
+      "end": 1285.23,
+      "text": "Ja, es geht jetzt einfach ein halts Punkt."
+    },
+    {
+      "i": 394,
+      "start": 1285.23,
+      "end": 1287.23,
+      "text": "Wichtig sind auch noch die Seile,"
+    },
+    {
+      "i": 395,
+      "start": 1287.23,
+      "end": 1288.23,
+      "text": "die jetzt zeichnet sind."
+    },
+    {
+      "i": 396,
+      "start": 1288.23,
+      "end": 1291.23,
+      "text": "Mit den 1264 m"
+    },
+    {
+      "i": 397,
+      "start": 1291.23,
+      "end": 1293.23,
+      "text": "gibt es einfach der höchste Abstand über den Boden."
+    },
+    {
+      "i": 398,
+      "start": 1293.23,
+      "end": 1295.23,
+      "text": "Also da können wir etwas abschätzen,"
+    },
+    {
+      "i": 399,
+      "start": 1295.23,
+      "end": 1297.23,
+      "text": "wie gross das Seile ist."
+    },
+    {
+      "i": 400,
+      "start": 1297.23,
+      "end": 1299.65,
+      "text": "Ganz wichtig,"
+    },
+    {
+      "i": 401,
+      "start": 1299.65,
+      "end": 1300.65,
+      "text": "passend auf,"
+    },
+    {
+      "i": 402,
+      "start": 1300.65,
+      "end": 1303.65,
+      "text": "nicht jedes Hindernis ist auf der Segelflugkarte."
+    },
+    {
+      "i": 403,
+      "start": 1303.65,
+      "end": 1305.65,
+      "text": "Es gibt ein Haufen Hindernis,"
+    },
+    {
+      "i": 404,
+      "start": 1305.65,
+      "end": 1307.65,
+      "text": "die da nicht drin sind."
+    },
+    {
+      "i": 405,
+      "start": 1307.65,
+      "end": 1310.65,
+      "text": "Dazu sollte der Luftfahrt-Z Hindernis-Karten auch schauen,"
+    },
+    {
+      "i": 406,
+      "start": 1310.65,
+      "end": 1313.65,
+      "text": "und auch wenn er die abklärt hat,"
+    },
+    {
+      "i": 407,
+      "start": 1313.65,
+      "end": 1315.65,
+      "text": "dann fliegen mit auf den Augen."
+    },
+    {
+      "i": 408,
+      "start": 1315.65,
+      "end": 1317.65,
+      "text": "Die Flüge nicht einfach blind irgendwo innen,"
+    },
+    {
+      "i": 409,
+      "start": 1317.65,
+      "end": 1319.65,
+      "text": "weil es kann immer sein,"
+    },
+    {
+      "i": 410,
+      "start": 1319.65,
+      "end": 1321.65,
+      "text": "dass irgendwo ein Holz"
+    },
+    {
+      "i": 411,
+      "start": 1321.65,
+      "end": 1323.65,
+      "text": "oder ein Häusseile hängen,"
+    },
+    {
+      "i": 412,
+      "start": 1323.65,
+      "end": 1325.65,
+      "text": "wo er gesetzlich sieht,"
+    },
+    {
+      "i": 413,
+      "start": 1325.65,
+      "end": 1326.65,
+      "text": "nicht muss sie dreizei,"
+    },
+    {
+      "i": 414,
+      "start": 1326.65,
+      "end": 1327.65,
+      "text": "und wo er dann kennt,"
+    },
+    {
+      "i": 415,
+      "start": 1327.65,
+      "end": 1328.65,
+      "text": "ja,"
+    },
+    {
+      "i": 416,
+      "start": 1328.65,
+      "end": 1330.65,
+      "text": "wo er dann zum Verhängnis wörend."
+    },
+    {
+      "i": 417,
+      "start": 1330.65,
+      "end": 1332.65,
+      "text": "Darum immer mit auf die Flüge"
+    },
+    {
+      "i": 418,
+      "start": 1332.65,
+      "end": 1334.65,
+      "text": "und auch mit den Lokelsreden"
+    },
+    {
+      "i": 419,
+      "start": 1334.65,
+      "end": 1336.65,
+      "text": "und bei den Klubs und Vereinen"
+    },
+    {
+      "i": 420,
+      "start": 1336.65,
+      "end": 1338.65,
+      "text": "und auch bei den Dastationen"
+    },
+    {
+      "i": 421,
+      "start": 1338.65,
+      "end": 1339.65,
+      "text": "von den Bahnen finden,"
+    },
+    {
+      "i": 422,
+      "start": 1339.65,
+      "end": 1341.65,
+      "text": "bei der meistens auch ganz gute Infos"
+    },
+    {
+      "i": 423,
+      "start": 1341.65,
+      "end": 1343.65,
+      "text": "zum Luftfahrt-H Hindernis."
+    },
+    {
+      "i": 424,
+      "start": 1343.65,
+      "end": 1344.65,
+      "text": "Zu diesem Thema"
+    },
+    {
+      "i": 425,
+      "start": 1344.65,
+      "end": 1348.65,
+      "text": "nicht 100% nur auf den Segelflugkarten schauen."
+    },
+    {
+      "i": 426,
+      "start": 1348.65,
+      "end": 1353.82,
+      "text": "Denen von denen sieht man ja auch ganz ein Haufen,"
+    },
+    {
+      "i": 427,
+      "start": 1353.82,
+      "end": 1356.86,
+      "text": "die LSRs, die roten,"
+    },
+    {
+      "i": 428,
+      "start": 1356.86,
+      "end": 1358.86,
+      "text": "die roten Rs, die sind restriktet."
+    },
+    {
+      "i": 429,
+      "start": 1358.86,
+      "end": 1359.86,
+      "text": "Also nicht darum,"
+    },
+    {
+      "i": 430,
+      "start": 1359.86,
+      "end": 1360.86,
+      "text": "wir nicht in der Flüge."
+    },
+    {
+      "i": 431,
+      "start": 1360.86,
+      "end": 1362.86,
+      "text": "Auf den Segelflugkarten"
+    },
+    {
+      "i": 432,
+      "start": 1362.86,
+      "end": 1363.86,
+      "text": "sind die,"
+    },
+    {
+      "i": 433,
+      "start": 1363.86,
+      "end": 1365.86,
+      "text": "die ganz häufig aktiv sind,"
+    },
+    {
+      "i": 434,
+      "start": 1365.86,
+      "end": 1366.86,
+      "text": "die E-Zeichnet,"
+    },
+    {
+      "i": 435,
+      "start": 1366.86,
+      "end": 1368.86,
+      "text": "und nachher wiederum"
+    },
+    {
+      "i": 436,
+      "start": 1368.86,
+      "end": 1369.86,
+      "text": "gehen wir den Stabs innen,"
+    },
+    {
+      "i": 437,
+      "start": 1369.86,
+      "end": 1370.86,
+      "text": "am Vorabend,"
+    },
+    {
+      "i": 438,
+      "start": 1370.86,
+      "end": 1371.86,
+      "text": "schauen,"
+    },
+    {
+      "i": 439,
+      "start": 1371.86,
+      "end": 1373.86,
+      "text": "da jetzt auch aktiv ist,"
+    },
+    {
+      "i": 440,
+      "start": 1373.86,
+      "end": 1374.86,
+      "text": "am Tag,"
+    },
+    {
+      "i": 441,
+      "start": 1374.86,
+      "end": 1377.65,
+      "text": "wo ich wegflüge oder nicht."
+    },
+    {
+      "i": 442,
+      "start": 1377.65,
+      "end": 1378.65,
+      "text": "Denen geht es nach"
+    },
+    {
+      "i": 443,
+      "start": 1378.65,
+      "end": 1379.65,
+      "text": "LSD."
+    },
+    {
+      "i": 444,
+      "start": 1379.65,
+      "end": 1380.65,
+      "text": "Da ist nicht restriktet."
+    },
+    {
+      "i": 445,
+      "start": 1380.65,
+      "end": 1381.65,
+      "text": "Da ist Danger."
+    },
+    {
+      "i": 446,
+      "start": 1383.68,
+      "end": 1385.68,
+      "text": "Da können die Grundsätze innen"
+    },
+    {
+      "i": 447,
+      "start": 1385.68,
+      "end": 1386.68,
+      "text": "flügen."
+    },
+    {
+      "i": 448,
+      "start": 1386.68,
+      "end": 1387.68,
+      "text": "Es wird einfach nicht empfullen,"
+    },
+    {
+      "i": 449,
+      "start": 1387.68,
+      "end": 1389.68,
+      "text": "weil gefährliche Fragen können stattfinden."
+    },
+    {
+      "i": 450,
+      "start": 1389.68,
+      "end": 1390.68,
+      "text": "Wir schüßen übrigens,"
+    },
+    {
+      "i": 451,
+      "start": 1390.68,
+      "end": 1391.68,
+      "text": "zum Beispiel,"
+    },
+    {
+      "i": 452,
+      "start": 1391.68,
+      "end": 1393.68,
+      "text": "am Boden nun,"
+    },
+    {
+      "i": 453,
+      "start": 1393.68,
+      "end": 1395.68,
+      "text": "und dass man den Licht der Öfterung"
+    },
+    {
+      "i": 454,
+      "start": 1395.68,
+      "end": 1396.68,
+      "text": "innen fliegen darf."
+    },
+    {
+      "i": 455,
+      "start": 1396.68,
+      "end": 1398.68,
+      "text": "Ist natürlich nicht empfullen,"
+    },
+    {
+      "i": 456,
+      "start": 1398.68,
+      "end": 1399.68,
+      "text": "aber grundsätzlich"
+    },
+    {
+      "i": 457,
+      "start": 1399.68,
+      "end": 1404.69,
+      "text": "nicht gesetzlich verboten."
+    },
+    {
+      "i": 458,
+      "start": 1404.69,
+      "end": 1405.69,
+      "text": "Da haben wir den Beispiel"
+    },
+    {
+      "i": 459,
+      "start": 1405.69,
+      "end": 1406.69,
+      "text": "von einem LSR,"
+    },
+    {
+      "i": 460,
+      "start": 1406.69,
+      "end": 1407.69,
+      "text": "bei uns in der Region,"
+    },
+    {
+      "i": 461,
+      "start": 1407.69,
+      "end": 1408.69,
+      "text": "über einem Albstahl,"
+    },
+    {
+      "i": 462,
+      "start": 1408.69,
+      "end": 1409.69,
+      "text": "und im Wellessee,"
+    },
+    {
+      "i": 463,
+      "start": 1409.69,
+      "end": 1411.69,
+      "text": "der LSR drühe."
+    },
+    {
+      "i": 464,
+      "start": 1411.69,
+      "end": 1412.69,
+      "text": "Und da,"
+    },
+    {
+      "i": 465,
+      "start": 1412.69,
+      "end": 1413.69,
+      "text": "gesehen da jetzt auch wieder,"
+    },
+    {
+      "i": 466,
+      "start": 1413.69,
+      "end": 1415.17,
+      "text": "einen Untergrenzen"
+    },
+    {
+      "i": 467,
+      "start": 1415.17,
+      "end": 1416.17,
+      "text": "und Dopfergrenzen."
+    },
+    {
+      "i": 468,
+      "start": 1416.17,
+      "end": 1418.17,
+      "text": "Die sind jetzt so rot"
+    },
+    {
+      "i": 469,
+      "start": 1418.17,
+      "end": 1419.17,
+      "text": "hinter leid."
+    },
+    {
+      "i": 470,
+      "start": 1419.17,
+      "end": 1420.17,
+      "text": "Und da bedeutet,"
+    },
+    {
+      "i": 471,
+      "start": 1420.17,
+      "end": 1421.17,
+      "text": "wieder,"
+    },
+    {
+      "i": 472,
+      "start": 1421.17,
+      "end": 1422.17,
+      "text": "dass ein Standardatmosfern ist,"
+    },
+    {
+      "i": 473,
+      "start": 1422.17,
+      "end": 1423.17,
+      "text": "und dass die Ganzbox"
+    },
+    {
+      "i": 474,
+      "start": 1423.17,
+      "end": 1425.17,
+      "text": "von dem Trainingsraum"
+    },
+    {
+      "i": 475,
+      "start": 1425.17,
+      "end": 1426.17,
+      "text": "von Militär"
+    },
+    {
+      "i": 476,
+      "start": 1426.17,
+      "end": 1427.17,
+      "text": "kann schwanker."
+    },
+    {
+      "i": 477,
+      "start": 1427.17,
+      "end": 1428.17,
+      "text": "Da kann man auch ein bisschen höher sein,"
+    },
+    {
+      "i": 478,
+      "start": 1428.17,
+      "end": 1430.17,
+      "text": "oder ein bisschen tiefer sein."
+    },
+    {
+      "i": 479,
+      "start": 1430.17,
+      "end": 1433.28,
+      "text": "Genau,"
+    },
+    {
+      "i": 480,
+      "start": 1433.28,
+      "end": 1434.28,
+      "text": "da noch ein bisschen besser anzeichen,"
+    },
+    {
+      "i": 481,
+      "start": 1434.28,
+      "end": 1435.28,
+      "text": "dass wir einen gogen sieht,"
+    },
+    {
+      "i": 482,
+      "start": 1435.28,
+      "end": 1441.28,
+      "text": "kleine Erklärung zum Dabs,"
+    },
+    {
+      "i": 483,
+      "start": 1442.28,
+      "end": 1443.28,
+      "text": "das Dabs finde"
+    },
+    {
+      "i": 484,
+      "start": 1443.28,
+      "end": 1446.28,
+      "text": "auf www.geibriefing.com."
+    },
+    {
+      "i": 485,
+      "start": 1446.28,
+      "end": 1448.28,
+      "text": "Gerade das erste Impult,"
+    },
+    {
+      "i": 486,
+      "start": 1448.28,
+      "end": 1449.28,
+      "text": "ganz wichtig,"
+    },
+    {
+      "i": 487,
+      "start": 1449.28,
+      "end": 1450.28,
+      "text": "die immer ein Datum stimmt,"
+    },
+    {
+      "i": 488,
+      "start": 1450.28,
+      "end": 1452.28,
+      "text": "weil wenn er für den Fall stark"
+    },
+    {
+      "i": 489,
+      "start": 1452.28,
+      "end": 1453.28,
+      "text": "schaut,"
+    },
+    {
+      "i": 490,
+      "start": 1453.28,
+      "end": 1454.28,
+      "text": "uns gefühlen auch,"
+    },
+    {
+      "i": 491,
+      "start": 1454.28,
+      "end": 1455.28,
+      "text": "alles im gogenen Bereich,"
+    },
+    {
+      "i": 492,
+      "start": 1455.28,
+      "end": 1457.28,
+      "text": "ich habe überall innen fliegen."
+    },
+    {
+      "i": 493,
+      "start": 1457.28,
+      "end": 1458.28,
+      "text": "Und an diesem Tag,"
+    },
+    {
+      "i": 494,
+      "start": 1458.28,
+      "end": 1459.28,
+      "text": "wenn er unterwegs sind,"
+    },
+    {
+      "i": 495,
+      "start": 1459.28,
+      "end": 1460.28,
+      "text": "finde ich irgendwelche Schüssehürbungen statt,"
+    },
+    {
+      "i": 496,
+      "start": 1460.28,
+      "end": 1462.28,
+      "text": "ist natürlich sehr, sehr ungünstig darum,"
+    },
+    {
+      "i": 497,
+      "start": 1462.28,
+      "end": 1463.28,
+      "text": "die Leute,"
+    },
+    {
+      "i": 498,
+      "start": 1463.28,
+      "end": 1464.28,
+      "text": "die immer ganz,"
+    },
+    {
+      "i": 499,
+      "start": 1464.28,
+      "end": 1465.28,
+      "text": "ganz wichtig,"
+    },
+    {
+      "i": 500,
+      "start": 1465.28,
+      "end": 1466.28,
+      "text": "dass das Datum stimmt."
+    },
+    {
+      "i": 501,
+      "start": 1466.28,
+      "end": 1467.28,
+      "text": "Jetzt,"
+    },
+    {
+      "i": 502,
+      "start": 1467.28,
+      "end": 1468.28,
+      "text": "da gesehen auf dieser Karte,"
+    },
+    {
+      "i": 503,
+      "start": 1468.28,
+      "end": 1470.28,
+      "text": "die rot-idzeichneten LSR"
+    },
+    {
+      "i": 504,
+      "start": 1470.28,
+      "end": 1472.28,
+      "text": "sind nicht groß verbreitet."
+    },
+    {
+      "i": 505,
+      "start": 1472.28,
+      "end": 1474.28,
+      "text": "Das sind nicht sehr viel aktiv."
+    },
+    {
+      "i": 506,
+      "start": 1474.28,
+      "end": 1475.28,
+      "text": "Dabei,"
+    },
+    {
+      "i": 507,
+      "start": 1475.28,
+      "end": 1476.28,
+      "text": "bei uns,"
+    },
+    {
+      "i": 508,
+      "start": 1476.28,
+      "end": 1478.28,
+      "text": "im Alpsteil,"
+    },
+    {
+      "i": 509,
+      "start": 1478.28,
+      "end": 1479.28,
+      "text": "ist auch nicht aktiv,"
+    },
+    {
+      "i": 510,
+      "start": 1479.28,
+      "end": 1480.28,
+      "text": "also es heisst nicht,"
+    },
+    {
+      "i": 511,
+      "start": 1480.28,
+      "end": 1481.28,
+      "text": "dass die immer mehr aktiv sind,"
+    },
+    {
+      "i": 512,
+      "start": 1481.28,
+      "end": 1483.28,
+      "text": "weil es auf der Segelflowkarte sind."
+    },
+    {
+      "i": 513,
+      "start": 1483.28,
+      "end": 1484.28,
+      "text": "Das sind einfach die,"
+    },
+    {
+      "i": 514,
+      "start": 1484.28,
+      "end": 1485.28,
+      "text": "die sehr häufig benutzt werden,"
+    },
+    {
+      "i": 515,
+      "start": 1485.28,
+      "end": 1486.28,
+      "text": "und darum,"
+    },
+    {
+      "i": 516,
+      "start": 1486.28,
+      "end": 1487.28,
+      "text": "dort permanent auf der Karte,"
+    },
+    {
+      "i": 517,
+      "start": 1487.28,
+      "end": 1488.28,
+      "text": "sind."
+    },
+    {
+      "i": 518,
+      "start": 1488.28,
+      "end": 1489.28,
+      "text": "Aber am Tag selber,"
+    },
+    {
+      "i": 519,
+      "start": 1489.28,
+      "end": 1490.28,
+      "text": "wenn er immer im Dabs schnell"
+    },
+    {
+      "i": 520,
+      "start": 1490.28,
+      "end": 1491.28,
+      "text": "gehen kann,"
+    },
+    {
+      "i": 521,
+      "start": 1491.28,
+      "end": 1492.28,
+      "text": "ich habe jetzt da,"
+    },
+    {
+      "i": 522,
+      "start": 1492.28,
+      "end": 1493.28,
+      "text": "als Beispiel,"
+    },
+    {
+      "i": 523,
+      "start": 1493.28,
+      "end": 1495.28,
+      "text": "das D12-Ausengenau,"
+    },
+    {
+      "i": 524,
+      "start": 1495.28,
+      "end": 1496.28,
+      "text": "bei eisidlen,"
+    },
+    {
+      "i": 525,
+      "start": 1496.28,
+      "end": 1497.28,
+      "text": "in der Nähe,"
+    },
+    {
+      "i": 526,
+      "start": 1497.28,
+      "end": 1498.28,
+      "text": "da haben,"
+    },
+    {
+      "i": 527,
+      "start": 1498.28,
+      "end": 1500.28,
+      "text": "sehr wenig Infosetz drüber,"
+    },
+    {
+      "i": 528,
+      "start": 1500.28,
+      "end": 1501.28,
+      "text": "und unten dran,"
+    },
+    {
+      "i": 529,
+      "start": 1501.28,
+      "end": 1502.28,
+      "text": "in den Legenden,"
+    },
+    {
+      "i": 530,
+      "start": 1502.28,
+      "end": 1503.79,
+      "text": "sehen wir dann,"
+    },
+    {
+      "i": 531,
+      "start": 1503.79,
+      "end": 1505.89,
+      "text": "wenn,"
+    },
+    {
+      "i": 532,
+      "start": 1505.89,
+      "end": 1506.89,
+      "text": "und wie hoch,"
+    },
+    {
+      "i": 533,
+      "start": 1506.89,
+      "end": 1507.89,
+      "text": "dass,"
+    },
+    {
+      "i": 534,
+      "start": 1507.89,
+      "end": 1508.89,
+      "text": "darum,"
+    },
+    {
+      "i": 535,
+      "start": 1508.89,
+      "end": 1509.89,
+      "text": "gesperrt ist,"
+    },
+    {
+      "i": 536,
+      "start": 1509.89,
+      "end": 1510.89,
+      "text": "oder,"
+    },
+    {
+      "i": 537,
+      "start": 1510.89,
+      "end": 1511.89,
+      "text": "als Denscher-Area"
+    },
+    {
+      "i": 538,
+      "start": 1511.89,
+      "end": 1512.89,
+      "text": "deklariert wird,"
+    },
+    {
+      "i": 539,
+      "start": 1512.89,
+      "end": 1513.89,
+      "text": "und auch,"
+    },
+    {
+      "i": 540,
+      "start": 1513.89,
+      "end": 1514.89,
+      "text": "wann,"
+    },
+    {
+      "i": 541,
+      "start": 1514.89,
+      "end": 1515.89,
+      "text": "dahin,"
+    },
+    {
+      "i": 542,
+      "start": 1515.89,
+      "end": 1516.89,
+      "text": "gemacht wird."
+    },
+    {
+      "i": 543,
+      "start": 1516.89,
+      "end": 1517.89,
+      "text": "Da empfehle ich auch,"
+    },
+    {
+      "i": 544,
+      "start": 1517.89,
+      "end": 1518.89,
+      "text": "schauen,"
+    },
+    {
+      "i": 545,
+      "start": 1518.89,
+      "end": 1519.89,
+      "text": "einfach ab und zu wollen,"
+    },
+    {
+      "i": 546,
+      "start": 1519.89,
+      "end": 1520.89,
+      "text": "auch, wenn er,"
+    },
+    {
+      "i": 547,
+      "start": 1520.89,
+      "end": 1521.89,
+      "text": "vielleicht einmal nicht gegenflügen"
+    },
+    {
+      "i": 548,
+      "start": 1521.89,
+      "end": 1522.89,
+      "text": "und im Büro sind,"
+    },
+    {
+      "i": 549,
+      "start": 1522.89,
+      "end": 1523.89,
+      "text": "geht er dem Tag,"
+    },
+    {
+      "i": 550,
+      "start": 1523.89,
+      "end": 1524.89,
+      "text": "schauen,"
+    },
+    {
+      "i": 551,
+      "start": 1524.89,
+      "end": 1525.89,
+      "text": "kurz hin,"
+    },
+    {
+      "i": 552,
+      "start": 1525.89,
+      "end": 1526.89,
+      "text": "ich mein mal spannend,"
+    },
+    {
+      "i": 553,
+      "start": 1526.89,
+      "end": 1527.89,
+      "text": "wenn man alles entdeckt,"
+    },
+    {
+      "i": 554,
+      "start": 1527.89,
+      "end": 1531.18,
+      "text": "gut."
+    },
+    {
+      "i": 555,
+      "start": 1531.18,
+      "end": 1532.18,
+      "text": "Es ist einfach nicht viel,"
+    },
+    {
+      "i": 556,
+      "start": 1532.18,
+      "end": 1534.18,
+      "text": "und dann tactile und ich möchte directional,"
+    },
+    {
+      "i": 557,
+      "start": 1534.18,
+      "end": 1536.18,
+      "text": "und heating und low.\""
+    },
+    {
+      "i": 558,
+      "start": 1536.18,
+      "end": 1537.18,
+      "text": "Naja,"
+    },
+    {
+      "i": 559,
+      "start": 1537.18,
+      "end": 1555.18,
+      "text": "natürlich ist es,"
+    },
+    {
+      "i": 560,
+      "start": 1555.18,
+      "end": 1557.18,
+      "text": "in der Turner-Color-Color-Color-Color-Color-Color-Color-Color denn"
+    },
+    {
+      "i": 561,
+      "start": 1592.74,
+      "end": 1596.74,
+      "text": "und da sieht man jetzt, wie die ausgesehen wird."
+    },
+    {
+      "i": 562,
+      "start": 1596.74,
+      "end": 1599.87,
+      "text": "In der Sägerflugkarte ist ganz ein Fies."
+    },
+    {
+      "i": 563,
+      "start": 1599.87,
+      "end": 1601.87,
+      "text": "Dort haben wir gesagt, fast nicht,"
+    },
+    {
+      "i": 564,
+      "start": 1601.87,
+      "end": 1604.87,
+      "text": "aber dummeramig ist ein bittselig feiner."
+    },
+    {
+      "i": 565,
+      "start": 1604.87,
+      "end": 1606.87,
+      "text": "Drum ist die Themen, die Themen,"
+    },
+    {
+      "i": 566,
+      "start": 1606.87,
+      "end": 1608.87,
+      "text": "ein bittselig anderes zu behandeln wie andere."
+    },
+    {
+      "i": 567,
+      "start": 1608.87,
+      "end": 1615.56,
+      "text": "Jetzt haben wir extrem viel über die Restruktionen,"
+    },
+    {
+      "i": 568,
+      "start": 1615.56,
+      "end": 1617.56,
+      "text": "über Gefahren, über Einschränkungen kredet."
+    },
+    {
+      "i": 569,
+      "start": 1617.56,
+      "end": 1623.56,
+      "text": "Jetzt werde ich noch ein bisschen positiv auf der Sägerflugkarte reden,"
+    },
+    {
+      "i": 570,
+      "start": 1623.56,
+      "end": 1626.56,
+      "text": "über eine Erleichterung für uns geladen Piloten."
+    },
+    {
+      "i": 571,
+      "start": 1626.56,
+      "end": 1629.56,
+      "text": "Und das sind die LSR for Gliders."
+    },
+    {
+      "i": 572,
+      "start": 1629.56,
+      "end": 1631.56,
+      "text": "Das sind die Sägerflug-Zonen."
+    },
+    {
+      "i": 573,
+      "start": 1631.56,
+      "end": 1633.56,
+      "text": "Die sind grühe E-zeichnet."
+    },
+    {
+      "i": 574,
+      "start": 1633.56,
+      "end": 1634.56,
+      "text": "Es ist zwar auch LSR,"
+    },
+    {
+      "i": 575,
+      "start": 1634.56,
+      "end": 1636.56,
+      "text": "ist aber nicht restriktet für uns."
+    },
+    {
+      "i": 576,
+      "start": 1636.56,
+      "end": 1640.56,
+      "text": "Es ist restriktet für Instrumenteflugzeug"
+    },
+    {
+      "i": 577,
+      "start": 1640.56,
+      "end": 1643.56,
+      "text": "oder Instrumenteflug im Luftfahrzeug"
+    },
+    {
+      "i": 578,
+      "start": 1643.56,
+      "end": 1646.56,
+      "text": "und ist drum eine Erleichterung für uns,"
+    },
+    {
+      "i": 579,
+      "start": 1646.56,
+      "end": 1648.56,
+      "text": "die man nähert, da er den Wohlkananen."
+    },
+    {
+      "i": 580,
+      "start": 1648.56,
+      "end": 1650.56,
+      "text": "Zu den Wohlkananabständen können wir den Nachgang an."
+    },
+    {
+      "i": 581,
+      "start": 1650.56,
+      "end": 1652.56,
+      "text": "Und weil da genau bedeutet,"
+    },
+    {
+      "i": 582,
+      "start": 1652.56,
+      "end": 1658.56,
+      "text": "die LSR sind vom 1. März bis am 3. Oktober aktiv."
+    },
+    {
+      "i": 583,
+      "start": 1658.56,
+      "end": 1661.56,
+      "text": "Aber da passen auf, dass er auf die Zeit erlaubt hat."
+    },
+    {
+      "i": 584,
+      "start": 1661.56,
+      "end": 1663.56,
+      "text": "Und das sind nicht, zum Beispiel,"
+    },
+    {
+      "i": 585,
+      "start": 1663.56,
+      "end": 1666.56,
+      "text": "auch wenn man einen super guten Tag im Februar,"
+    },
+    {
+      "i": 586,
+      "start": 1666.56,
+      "end": 1668.56,
+      "text": "am Termikflüge sind."
+    },
+    {
+      "i": 587,
+      "start": 1668.56,
+      "end": 1670.56,
+      "text": "Aber vielleicht gar nicht bewusst,"
+    },
+    {
+      "i": 588,
+      "start": 1670.56,
+      "end": 1672.56,
+      "text": "dass die Sägerflugze und nicht aktiv sind."
+    },
+    {
+      "i": 589,
+      "start": 1672.56,
+      "end": 1676.56,
+      "text": "Also passen auf, dass die erst am 1. März anfangen."
+    },
+    {
+      "i": 590,
+      "start": 1676.56,
+      "end": 1679.56,
+      "text": "Und auch für Prüfung, für Theorieprüfung."
+    },
+    {
+      "i": 591,
+      "start": 1679.56,
+      "end": 1681.56,
+      "text": "Aber auch für Theorieprüfung,"
+    },
+    {
+      "i": 592,
+      "start": 1681.56,
+      "end": 1683.56,
+      "text": "auch für praktische Prüfung."
+    },
+    {
+      "i": 593,
+      "start": 1683.56,
+      "end": 1685.56,
+      "text": "Wenn er im Winter auch in Prüfung absolviert,"
+    },
+    {
+      "i": 594,
+      "start": 1685.56,
+      "end": 1687.56,
+      "text": "kann sie, dass der Experts vielleicht"
+    },
+    {
+      "i": 595,
+      "start": 1687.56,
+      "end": 1689.56,
+      "text": "ein bisschen eine Fise frage stellt,"
+    },
+    {
+      "i": 596,
+      "start": 1689.56,
+      "end": 1691.56,
+      "text": "zu den Sägelflugzeonen,"
+    },
+    {
+      "i": 597,
+      "start": 1691.56,
+      "end": 1693.56,
+      "text": "die dann eben noch gerne aktiv ist."
+    },
+    {
+      "i": 598,
+      "start": 1693.56,
+      "end": 1695.56,
+      "text": "Ausgesehen uns so,"
+    },
+    {
+      "i": 599,
+      "start": 1695.56,
+      "end": 1697.56,
+      "text": "grüro umrahmen,"
+    },
+    {
+      "i": 600,
+      "start": 1697.56,
+      "end": 1700.56,
+      "text": "auch da wieder haben wir unter- und obengrenze AG"
+    },
+    {
+      "i": 601,
+      "start": 1700.56,
+      "end": 1704.0,
+      "text": "auf der Sägelflugkarten."
+    },
+    {
+      "i": 602,
+      "start": 1704.0,
+      "end": 1707.0,
+      "text": "Und wenn man von den LSRs redet,"
+    },
+    {
+      "i": 603,
+      "start": 1707.0,
+      "end": 1709.0,
+      "text": "können wir die Zwangsläufung"
+    },
+    {
+      "i": 604,
+      "start": 1709.0,
+      "end": 1711.0,
+      "text": "zum Thema Wolkenabstände abstellen."
+    },
+    {
+      "i": 605,
+      "start": 1711.0,
+      "end": 1713.45,
+      "text": "Die Wolkenabstände sind so geregelt,"
+    },
+    {
+      "i": 606,
+      "start": 1713.45,
+      "end": 1717.45,
+      "text": "dass es bis zu 300 m übergrund"
+    },
+    {
+      "i": 607,
+      "start": 1717.45,
+      "end": 1719.45,
+      "text": "kein Wolkenabstand braucht."
+    },
+    {
+      "i": 608,
+      "start": 1719.45,
+      "end": 1722.45,
+      "text": "Wir müssen jederzeit außerhalb der Wolken sein"
+    },
+    {
+      "i": 609,
+      "start": 1722.45,
+      "end": 1724.45,
+      "text": "und und auch einen Unkehr-Kur von können machen."
+    },
+    {
+      "i": 610,
+      "start": 1724.45,
+      "end": 1727.45,
+      "text": "Also wir können nicht von den Talen auf den Wolken zu flügen."
+    },
+    {
+      "i": 611,
+      "start": 1727.45,
+      "end": 1729.45,
+      "text": "Bisher fast in den Sägen sind,"
+    },
+    {
+      "i": 612,
+      "start": 1729.45,
+      "end": 1731.45,
+      "text": "sondern wie jederzeit können umkehren."
+    },
+    {
+      "i": 613,
+      "start": 1731.45,
+      "end": 1733.45,
+      "text": "Das ist ganz wichtig."
+    },
+    {
+      "i": 614,
+      "start": 1733.45,
+      "end": 1736.45,
+      "text": "Sicht im Torizontalen muss einer halben Kilometer sein"
+    },
+    {
+      "i": 615,
+      "start": 1736.45,
+      "end": 1738.45,
+      "text": "und man immer im Boden abgesehen."
+    },
+    {
+      "i": 616,
+      "start": 1738.45,
+      "end": 1741.45,
+      "text": "Die Regel gilt bis auf 300 m."
+    },
+    {
+      "i": 617,
+      "start": 1741.45,
+      "end": 1743.45,
+      "text": "Es ist ein bisschen speziell."
+    },
+    {
+      "i": 618,
+      "start": 1743.45,
+      "end": 1745.45,
+      "text": "Es wird nicht einfach gesagt,"
+    },
+    {
+      "i": 619,
+      "start": 1745.45,
+      "end": 1747.45,
+      "text": "es ist im Luftraum G,"
+    },
+    {
+      "i": 620,
+      "start": 1747.45,
+      "end": 1749.45,
+      "text": "sondern es ist nur die Hälfte des Gs."
+    },
+    {
+      "i": 621,
+      "start": 1749.45,
+      "end": 1752.45,
+      "text": "Es sind nur 300 m und nicht 600 m,"
+    },
+    {
+      "i": 622,
+      "start": 1752.45,
+      "end": 1754.45,
+      "text": "wo die Grenzen zu sagen wird."
+    },
+    {
+      "i": 623,
+      "start": 1754.45,
+      "end": 1756.45,
+      "text": "Dann müssen wir auch drinnen denken."
+    },
+    {
+      "i": 624,
+      "start": 1756.45,
+      "end": 1758.45,
+      "text": "Alles, was über 300 m ist,"
+    },
+    {
+      "i": 625,
+      "start": 1758.45,
+      "end": 1761.45,
+      "text": "muss man nach einem ziemlich grossen Wolkenabstände haben."
+    },
+    {
+      "i": 626,
+      "start": 1761.45,
+      "end": 1765.45,
+      "text": "In den Wertekalen sind es 300 m und in den Horizontalen"
+    },
+    {
+      "i": 627,
+      "start": 1765.45,
+      "end": 1768.45,
+      "text": "15 m Abstände zu den Wolken."
+    },
+    {
+      "i": 628,
+      "start": 1768.45,
+      "end": 1772.61,
+      "text": "Von der Sicht her sind es nicht nur eine halbe Kilometer,"
+    },
+    {
+      "i": 629,
+      "start": 1772.61,
+      "end": 1775.61,
+      "text": "sondern es geht dann auf 5 km,"
+    },
+    {
+      "i": 630,
+      "start": 1775.61,
+      "end": 1777.61,
+      "text": "respektive 8 km,"
+    },
+    {
+      "i": 631,
+      "start": 1777.61,
+      "end": 1780.61,
+      "text": "sobald man über 3050 fliegen."
+    },
+    {
+      "i": 632,
+      "start": 1780.61,
+      "end": 1782.61,
+      "text": "Und dann einfach mit der Geschwindigkeiten"
+    },
+    {
+      "i": 633,
+      "start": 1782.61,
+      "end": 1784.61,
+      "text": "von der Flugzüge zu tun,"
+    },
+    {
+      "i": 634,
+      "start": 1784.61,
+      "end": 1787.61,
+      "text": "weil weiter oben würde höchere Geschwindigkeiten fliegen"
+    },
+    {
+      "i": 635,
+      "start": 1787.61,
+      "end": 1789.61,
+      "text": "und braucht natürlich auch mehr Zeit"
+    },
+    {
+      "i": 636,
+      "start": 1789.61,
+      "end": 1791.61,
+      "text": "zu reagieren und können ausweichen."
+    },
+    {
+      "i": 637,
+      "start": 1791.61,
+      "end": 1794.61,
+      "text": "Und Flüge, die dort in den Wolken fliegen,"
+    },
+    {
+      "i": 638,
+      "start": 1794.61,
+      "end": 1796.61,
+      "text": "und ja, wenn die aus der Wolken auskommt,"
+    },
+    {
+      "i": 639,
+      "start": 1796.61,
+      "end": 1799.61,
+      "text": "um nur 500 m Abstände zu der Wolken,"
+    },
+    {
+      "i": 640,
+      "start": 1799.61,
+      "end": 1800.61,
+      "text": "dann würde es dann natürlich"
+    },
+    {
+      "i": 641,
+      "start": 1800.61,
+      "end": 1802.61,
+      "text": "ca. unter Umständen knapp werden."
+    },
+    {
+      "i": 642,
+      "start": 1802.61,
+      "end": 1804.61,
+      "text": "Darum haben wir höchere,"
+    },
+    {
+      "i": 643,
+      "start": 1804.61,
+      "end": 1808.34,
+      "text": "grossere Wolkenabstände."
+    },
+    {
+      "i": 644,
+      "start": 1808.34,
+      "end": 1809.34,
+      "text": "Außerdem,"
+    },
+    {
+      "i": 645,
+      "start": 1809.34,
+      "end": 1811.34,
+      "text": "im Spezialfall,"
+    },
+    {
+      "i": 646,
+      "start": 1811.34,
+      "end": 1812.34,
+      "text": "Segelflugzeonen,"
+    },
+    {
+      "i": 647,
+      "start": 1812.34,
+      "end": 1814.59,
+      "text": "alle sehr vor Gleiders,"
+    },
+    {
+      "i": 648,
+      "start": 1814.59,
+      "end": 1816.59,
+      "text": "da sieht es ein bisschen anders aus."
+    },
+    {
+      "i": 649,
+      "start": 1816.59,
+      "end": 1818.59,
+      "text": "In diesen Zonen haben wir nämlich"
+    },
+    {
+      "i": 650,
+      "start": 1818.59,
+      "end": 1820.59,
+      "text": "einen minimierten Wolkenabstand"
+    },
+    {
+      "i": 651,
+      "start": 1820.59,
+      "end": 1822.59,
+      "text": "und zwar sind das 50 m Wertekal"
+    },
+    {
+      "i": 652,
+      "start": 1822.59,
+      "end": 1824.59,
+      "text": "und 100 m Horizontal,"
+    },
+    {
+      "i": 653,
+      "start": 1824.59,
+      "end": 1826.59,
+      "text": "da auf der rechten Seite"
+    },
+    {
+      "i": 654,
+      "start": 1826.59,
+      "end": 1828.59,
+      "text": "auch wieder die Untergrenze"
+    },
+    {
+      "i": 655,
+      "start": 1828.59,
+      "end": 1829.59,
+      "text": "und die Oppengrenze"
+    },
+    {
+      "i": 656,
+      "start": 1829.59,
+      "end": 1831.59,
+      "text": "von der Zonen"
+    },
+    {
+      "i": 657,
+      "start": 1831.59,
+      "end": 1833.59,
+      "text": "oder von dem Luftraum."
+    },
+    {
+      "i": 658,
+      "start": 1833.59,
+      "end": 1835.59,
+      "text": "Und da ist es wichtig,"
+    },
+    {
+      "i": 659,
+      "start": 1835.59,
+      "end": 1838.59,
+      "text": "dass er nicht einfach wieder löhnt"
+    },
+    {
+      "i": 660,
+      "start": 1838.59,
+      "end": 1839.59,
+      "text": "oder denkt,"
+    },
+    {
+      "i": 661,
+      "start": 1839.59,
+      "end": 1843.59,
+      "text": "dass er jetzt bei 2450 immer eine Supertherme geschlucht"
+    },
+    {
+      "i": 662,
+      "start": 1843.59,
+      "end": 1845.59,
+      "text": "mit Aufhören fliegen"
+    },
+    {
+      "i": 663,
+      "start": 1845.59,
+      "end": 1847.59,
+      "text": "und wieder abgehen muss."
+    },
+    {
+      "i": 664,
+      "start": 1847.59,
+      "end": 1848.59,
+      "text": "Und dort, also durchaus,"
+    },
+    {
+      "i": 665,
+      "start": 1848.59,
+      "end": 1850.59,
+      "text": "über die höchere Ausstiegen."
+    },
+    {
+      "i": 666,
+      "start": 1850.59,
+      "end": 1851.59,
+      "text": "Das Einzige,"
+    },
+    {
+      "i": 667,
+      "start": 1851.59,
+      "end": 1852.59,
+      "text": "wo den Halt wieder wechselt,"
+    },
+    {
+      "i": 668,
+      "start": 1852.59,
+      "end": 1853.59,
+      "text": "oder drüber sind,"
+    },
+    {
+      "i": 669,
+      "start": 1853.59,
+      "end": 1854.59,
+      "text": "sind Wolkenabstände."
+    },
+    {
+      "i": 670,
+      "start": 1854.59,
+      "end": 1856.59,
+      "text": "Also sobald er da auf,"
+    },
+    {
+      "i": 671,
+      "start": 1856.59,
+      "end": 1858.59,
+      "text": "zum Beispiel jetzt auf 2.5 sind,"
+    },
+    {
+      "i": 672,
+      "start": 1858.59,
+      "end": 1861.91,
+      "text": "gilt er wieder die grossen Wolkenabstände."
+    },
+    {
+      "i": 673,
+      "start": 1861.91,
+      "end": 1863.91,
+      "text": "Da ist es noch wichtig zu wissen"
+    },
+    {
+      "i": 674,
+      "start": 1863.91,
+      "end": 1864.91,
+      "text": "und hat manchmal"
+    },
+    {
+      "i": 675,
+      "start": 1864.91,
+      "end": 1866.91,
+      "text": "mit der Theorieprüfung auch Fragen,"
+    },
+    {
+      "i": 676,
+      "start": 1866.91,
+      "end": 1868.91,
+      "text": "also gesteilt,"
+    },
+    {
+      "i": 677,
+      "start": 1868.91,
+      "end": 1870.91,
+      "text": "dass man dann vielleicht drickheit"
+    },
+    {
+      "i": 678,
+      "start": 1870.91,
+      "end": 1871.91,
+      "text": "ummeint,"
+    },
+    {
+      "i": 679,
+      "start": 1871.91,
+      "end": 1872.91,
+      "text": "mit der nur auf 2450 gehen."
+    },
+    {
+      "i": 680,
+      "start": 1872.91,
+      "end": 1874.91,
+      "text": "Da gilt er aber nicht fürs Flügen,"
+    },
+    {
+      "i": 681,
+      "start": 1874.91,
+      "end": 1876.91,
+      "text": "sondern da gilt er nur für die Wolkenabstände,"
+    },
+    {
+      "i": 682,
+      "start": 1876.91,
+      "end": 1879.74,
+      "text": "die man die erhalten."
+    },
+    {
+      "i": 683,
+      "start": 1879.74,
+      "end": 1881.74,
+      "text": "Denn viele von diesen LSRs"
+    },
+    {
+      "i": 684,
+      "start": 1881.74,
+      "end": 1883.74,
+      "text": "haben keine Zusatz."
+    },
+    {
+      "i": 685,
+      "start": 1883.74,
+      "end": 1884.74,
+      "text": "Und einfach nur Töche,"
+    },
+    {
+      "i": 686,
+      "start": 1884.74,
+      "end": 1886.74,
+      "text": "manchmal stehen an der Atmosphäre,"
+    },
+    {
+      "i": 687,
+      "start": 1886.74,
+      "end": 1888.74,
+      "text": "manchmal über mehr."
+    },
+    {
+      "i": 688,
+      "start": 1888.74,
+      "end": 1891.74,
+      "text": "Und gewisse haben hier noch ein Zusatz"
+    },
+    {
+      "i": 689,
+      "start": 1891.74,
+      "end": 1892.74,
+      "text": "von MO."
+    },
+    {
+      "i": 690,
+      "start": 1892.74,
+      "end": 1893.74,
+      "text": "MO heißt,"
+    },
+    {
+      "i": 691,
+      "start": 1893.74,
+      "end": 1895.74,
+      "text": "es ist nur aktiv,"
+    },
+    {
+      "i": 692,
+      "start": 1895.74,
+      "end": 1896.74,
+      "text": "wenn es Militär"
+    },
+    {
+      "i": 693,
+      "start": 1896.74,
+      "end": 1898.74,
+      "text": "aufwischen,"
+    },
+    {
+      "i": 694,
+      "start": 1898.74,
+      "end": 1900.74,
+      "text": "also wenn es Militär nicht aktiv ist."
+    },
+    {
+      "i": 695,
+      "start": 1900.74,
+      "end": 1903.74,
+      "text": "Das MO ist auch immer aktiv,"
+    },
+    {
+      "i": 696,
+      "start": 1903.74,
+      "end": 1906.74,
+      "text": "wenn es Militär nicht rein ist."
+    },
+    {
+      "i": 697,
+      "start": 1906.74,
+      "end": 1908.74,
+      "text": "Beim MO ist der Unterschied,"
+    },
+    {
+      "i": 698,
+      "start": 1908.74,
+      "end": 1910.74,
+      "text": "wenn das,"
+    },
+    {
+      "i": 699,
+      "start": 1910.74,
+      "end": 1912.74,
+      "text": "kann es sein,"
+    },
+    {
+      "i": 700,
+      "start": 1912.74,
+      "end": 1914.74,
+      "text": "dass es dann gleich freigewirrt."
+    },
+    {
+      "i": 701,
+      "start": 1914.74,
+      "end": 1916.74,
+      "text": "Und jetzt müssen wir den Aufrag."
+    },
+    {
+      "i": 702,
+      "start": 1916.74,
+      "end": 1918.74,
+      "text": "Also wenn es Militär aktiv ist,"
+    },
+    {
+      "i": 703,
+      "start": 1918.74,
+      "end": 1919.74,
+      "text": "und MO steht,"
+    },
+    {
+      "i": 704,
+      "start": 1919.74,
+      "end": 1920.74,
+      "text": "kann man aufragen."
+    },
+    {
+      "i": 705,
+      "start": 1920.74,
+      "end": 1922.74,
+      "text": "Vielleicht tun es dann den Luftraum,"
+    },
+    {
+      "i": 706,
+      "start": 1922.74,
+      "end": 1923.74,
+      "text": "weil es Militär"
+    },
+    {
+      "i": 707,
+      "start": 1923.74,
+      "end": 1925.74,
+      "text": "vielleicht gar nicht am anderen Ort"
+    },
+    {
+      "i": 708,
+      "start": 1925.74,
+      "end": 1927.74,
+      "text": "oder der Luftraum gar nicht benutzt,"
+    },
+    {
+      "i": 709,
+      "start": 1927.74,
+      "end": 1928.74,
+      "text": "zu diesem Zeitpunkt."
+    },
+    {
+      "i": 710,
+      "start": 1928.74,
+      "end": 1929.74,
+      "text": "Genau."
+    },
+    {
+      "i": 711,
+      "start": 1929.74,
+      "end": 1933.98,
+      "text": "So, jetzt haben wir ganz,"
+    },
+    {
+      "i": 712,
+      "start": 1933.98,
+      "end": 1935.98,
+      "text": "ganz viel Theorie gehört."
+    },
+    {
+      "i": 713,
+      "start": 1935.98,
+      "end": 1936.98,
+      "text": "Ich hoffe,"
+    },
+    {
+      "i": 714,
+      "start": 1936.98,
+      "end": 1938.98,
+      "text": "ermögert nach zu lassen."
+    },
+    {
+      "i": 715,
+      "start": 1938.98,
+      "end": 1940.98,
+      "text": "Jetzt kämpfen wir zu einer Theorie-Frag,"
+    },
+    {
+      "i": 716,
+      "start": 1940.98,
+      "end": 1943.98,
+      "text": "so etwas als Aufwärmung für Theorieprüfung,"
+    },
+    {
+      "i": 717,
+      "start": 1943.98,
+      "end": 1946.98,
+      "text": "und natürlich auch für das Flügel."
+    },
+    {
+      "i": 718,
+      "start": 1946.98,
+      "end": 1948.98,
+      "text": "Wenn wir irgendwann mal einen Startplatz stehen,"
+    },
+    {
+      "i": 719,
+      "start": 1948.98,
+      "end": 1949.98,
+      "text": "und wir wissen,"
+    },
+    {
+      "i": 720,
+      "start": 1949.98,
+      "end": 1951.98,
+      "text": "okay, wie hoch da in der Flügel,"
+    },
+    {
+      "i": 721,
+      "start": 1951.98,
+      "end": 1953.98,
+      "text": "wie es im 12. Abstehen,"
+    },
+    {
+      "i": 722,
+      "start": 1953.98,
+      "end": 1954.98,
+      "text": "wie weit muss ich sehen?"
+    },
+    {
+      "i": 723,
+      "start": 1954.98,
+      "end": 1956.98,
+      "text": "Und bin hier überhaupt legal unterwegs,"
+    },
+    {
+      "i": 724,
+      "start": 1956.98,
+      "end": 1959.98,
+      "text": "oder müsste es starten, vielleicht lieber Silo."
+    },
+    {
+      "i": 725,
+      "start": 1959.98,
+      "end": 1962.85,
+      "text": "Grundsätzlich stelle ich mir immer"
+    },
+    {
+      "i": 726,
+      "start": 1962.85,
+      "end": 1964.85,
+      "text": "eigentlich die 5 Fragen,"
+    },
+    {
+      "i": 727,
+      "start": 1964.85,
+      "end": 1966.85,
+      "text": "wenn ich irgendwo einen Punkt bin."
+    },
+    {
+      "i": 728,
+      "start": 1966.85,
+      "end": 1968.85,
+      "text": "Zum einen ist es die Jahreszeit,"
+    },
+    {
+      "i": 729,
+      "start": 1968.85,
+      "end": 1970.85,
+      "text": "weg der Segelflugzeit."
+    },
+    {
+      "i": 730,
+      "start": 1970.85,
+      "end": 1973.85,
+      "text": "Also bin ich zwischen März und Oktoberdrahe"
+    },
+    {
+      "i": 731,
+      "start": 1973.85,
+      "end": 1974.85,
+      "text": "oder bin ich im Winter,"
+    },
+    {
+      "i": 732,
+      "start": 1974.85,
+      "end": 1976.85,
+      "text": "weil dann meine Wolkenabstände"
+    },
+    {
+      "i": 733,
+      "start": 1976.85,
+      "end": 1978.85,
+      "text": "in einer gegebenen Fall"
+    },
+    {
+      "i": 734,
+      "start": 1978.85,
+      "end": 1981.85,
+      "text": "in einer Segelflugzonen-Würbe einflussen."
+    },
+    {
+      "i": 735,
+      "start": 1981.85,
+      "end": 1983.85,
+      "text": "Das zweite ist der Wochentag"
+    },
+    {
+      "i": 736,
+      "start": 1983.85,
+      "end": 1985.85,
+      "text": "und durchzeit wegen Militär."
+    },
+    {
+      "i": 737,
+      "start": 1985.85,
+      "end": 1988.85,
+      "text": "Zum Wissen, wie hoch da in den Stiegen,"
+    },
+    {
+      "i": 738,
+      "start": 1988.85,
+      "end": 1990.85,
+      "text": "wenn es jetzt geht, super läuft."
+    },
+    {
+      "i": 739,
+      "start": 1990.85,
+      "end": 1991.85,
+      "text": "Denen muss ich wissen,"
+    },
+    {
+      "i": 740,
+      "start": 1991.85,
+      "end": 1992.85,
+      "text": "bin ich nördlich oder südlich"
+    },
+    {
+      "i": 741,
+      "start": 1992.85,
+      "end": 1994.85,
+      "text": "von der Trennlinie,"
+    },
+    {
+      "i": 742,
+      "start": 1994.85,
+      "end": 1996.85,
+      "text": "bin ich im Mittelland oder bin ich in den Alpen."
+    },
+    {
+      "i": 743,
+      "start": 1996.85,
+      "end": 1999.23,
+      "text": "Die Höhe, die ich gerade im Moment bin,"
+    },
+    {
+      "i": 744,
+      "start": 1999.23,
+      "end": 2001.23,
+      "text": "ist sehr wichtig zu wissen"
+    },
+    {
+      "i": 745,
+      "start": 2001.23,
+      "end": 2002.23,
+      "text": "und auch das Standart."
+    },
+    {
+      "i": 746,
+      "start": 2002.23,
+      "end": 2003.23,
+      "text": "Also befinde ich mich,"
+    },
+    {
+      "i": 747,
+      "start": 2003.23,
+      "end": 2005.23,
+      "text": "vielleicht schon irgendwo im Radius,"
+    },
+    {
+      "i": 748,
+      "start": 2005.23,
+      "end": 2007.23,
+      "text": "von einem Helipad"
+    },
+    {
+      "i": 749,
+      "start": 2007.23,
+      "end": 2010.23,
+      "text": "oder bin ich in einer Spärzonen-Dinner."
+    },
+    {
+      "i": 750,
+      "start": 2010.23,
+      "end": 2012.23,
+      "text": "Und das ist sehr wichtig."
+    },
+    {
+      "i": 751,
+      "start": 2012.23,
+      "end": 2014.23,
+      "text": "Wenn du diese 5 Fragen euch könnt,"
+    },
+    {
+      "i": 752,
+      "start": 2014.23,
+      "end": 2015.23,
+      "text": "beantwarten,"
+    },
+    {
+      "i": 753,
+      "start": 2015.23,
+      "end": 2016.23,
+      "text": "dann kommen wir auch"
+    },
+    {
+      "i": 754,
+      "start": 2016.23,
+      "end": 2019.23,
+      "text": "relativ schnell auf die Lösung."
+    },
+    {
+      "i": 755,
+      "start": 2019.23,
+      "end": 2022.46,
+      "text": "Vielleicht können du schnell Pause drücken"
+    },
+    {
+      "i": 756,
+      "start": 2022.46,
+      "end": 2024.46,
+      "text": "und noch nicht auf die nächste Folie weitergehen"
+    },
+    {
+      "i": 757,
+      "start": 2024.46,
+      "end": 2026.46,
+      "text": "und auch einmal die Aufgabe überlegen."
+    },
+    {
+      "i": 758,
+      "start": 2026.46,
+      "end": 2028.46,
+      "text": "Und in der nächsten Folie kommt"
+    },
+    {
+      "i": 759,
+      "start": 2028.46,
+      "end": 2033.82,
+      "text": "dann geht der Klärung dazu."
+    },
+    {
+      "i": 760,
+      "start": 2033.82,
+      "end": 2034.82,
+      "text": "Ja, gesehen,"
+    },
+    {
+      "i": 761,
+      "start": 2034.82,
+      "end": 2036.82,
+      "text": "es ist Standart B."
+    },
+    {
+      "i": 762,
+      "start": 2036.82,
+      "end": 2038.82,
+      "text": "Es ist ein Maximall,"
+    },
+    {
+      "i": 763,
+      "start": 2038.82,
+      "end": 2040.82,
+      "text": "Höhe von 3.050,"
+    },
+    {
+      "i": 764,
+      "start": 2040.82,
+      "end": 2043.82,
+      "text": "weil wir nämlich nördlich von der Linie sind."
+    },
+    {
+      "i": 765,
+      "start": 2043.82,
+      "end": 2044.82,
+      "text": "Es ist jetzt ein bisschen fies."
+    },
+    {
+      "i": 766,
+      "start": 2044.82,
+      "end": 2045.82,
+      "text": "Es ist wirklich,"
+    },
+    {
+      "i": 767,
+      "start": 2045.82,
+      "end": 2047.82,
+      "text": "geht bei den Grenzen bei Montreu,"
+    },
+    {
+      "i": 768,
+      "start": 2047.82,
+      "end": 2048.82,
+      "text": "aber leicht,"
+    },
+    {
+      "i": 769,
+      "start": 2048.82,
+      "end": 2050.82,
+      "text": "oder leicht links davon,"
+    },
+    {
+      "i": 770,
+      "start": 2050.82,
+      "end": 2051.82,
+      "text": "da heisst man,"
+    },
+    {
+      "i": 771,
+      "start": 2051.82,
+      "end": 2052.82,
+      "text": "wir sind im Mittelland."
+    },
+    {
+      "i": 772,
+      "start": 2052.82,
+      "end": 2053.82,
+      "text": "Da heisst du,"
+    },
+    {
+      "i": 773,
+      "start": 2053.82,
+      "end": 2055.82,
+      "text": "die Antwort mit 4.550"
+    },
+    {
+      "i": 774,
+      "start": 2055.82,
+      "end": 2057.82,
+      "text": "können wir eigentlich schon mal streichen."
+    },
+    {
+      "i": 775,
+      "start": 2057.82,
+      "end": 2059.82,
+      "text": "Und ganz oft kommt man dann"
+    },
+    {
+      "i": 776,
+      "start": 2059.82,
+      "end": 2061.82,
+      "text": "so, was die Theorieprüfung auch verlangt,"
+    },
+    {
+      "i": 777,
+      "start": 2061.82,
+      "end": 2064.82,
+      "text": "sodass die Ausschlussverfahren auf die richtigen Lösung."
+    },
+    {
+      "i": 778,
+      "start": 2064.82,
+      "end": 2066.82,
+      "text": "Flüge verboten,"
+    },
+    {
+      "i": 779,
+      "start": 2066.82,
+      "end": 2068.82,
+      "text": "gesehen jetzt hier kein Grund,"
+    },
+    {
+      "i": 780,
+      "start": 2068.82,
+      "end": 2069.82,
+      "text": "wir haben kein Flug,"
+    },
+    {
+      "i": 781,
+      "start": 2069.82,
+      "end": 2071.82,
+      "text": "Platz, kein Helipart in der Nähe,"
+    },
+    {
+      "i": 782,
+      "start": 2071.82,
+      "end": 2073.82,
+      "text": "wir sind nicht in einer roten Danger"
+    },
+    {
+      "i": 783,
+      "start": 2073.82,
+      "end": 2076.82,
+      "text": "oder was die Richter daher besser gesagt."
+    },
+    {
+      "i": 784,
+      "start": 2076.82,
+      "end": 2080.17,
+      "text": "Die Nähe sieht alles nach Flüge aus."
+    },
+    {
+      "i": 785,
+      "start": 2080.17,
+      "end": 2084.17,
+      "text": "Töche ist beim B und beim C gleich hoch."
+    },
+    {
+      "i": 786,
+      "start": 2084.17,
+      "end": 2086.17,
+      "text": "Jetzt müssen wir rausfinden,"
+    },
+    {
+      "i": 787,
+      "start": 2086.17,
+      "end": 2088.17,
+      "text": "wie es mit den Wolken abständigt."
+    },
+    {
+      "i": 788,
+      "start": 2088.17,
+      "end": 2091.17,
+      "text": "Wir sind auf 2.700 Meter oben."
+    },
+    {
+      "i": 789,
+      "start": 2091.17,
+      "end": 2092.17,
+      "text": "Da heisst,"
+    },
+    {
+      "i": 790,
+      "start": 2092.17,
+      "end": 2094.17,
+      "text": "die Sicht ist 5 Kilometer."
+    },
+    {
+      "i": 791,
+      "start": 2094.17,
+      "end": 2095.17,
+      "text": "Da sieht man da."
+    },
+    {
+      "i": 792,
+      "start": 2095.17,
+      "end": 2097.17,
+      "text": "Da steht bei beiden 5 Kilometer."
+    },
+    {
+      "i": 793,
+      "start": 2097.17,
+      "end": 2099.17,
+      "text": "Weil wir noch unter den drei,"
+    },
+    {
+      "i": 794,
+      "start": 2099.17,
+      "end": 2101.17,
+      "text": "3050 sind."
+    },
+    {
+      "i": 795,
+      "start": 2101.17,
+      "end": 2103.17,
+      "text": "Beziehungsweise,"
+    },
+    {
+      "i": 796,
+      "start": 2103.17,
+      "end": 2104.17,
+      "text": "höchend öfter wir ja nicht,"
+    },
+    {
+      "i": 797,
+      "start": 2104.17,
+      "end": 2105.17,
+      "text": "weil wir sind im Mittelland."
+    },
+    {
+      "i": 798,
+      "start": 2105.17,
+      "end": 2107.52,
+      "text": "Was die Wolken abständigt,"
+    },
+    {
+      "i": 799,
+      "start": 2107.52,
+      "end": 2109.52,
+      "text": "aber langt oder geht,"
+    },
+    {
+      "i": 800,
+      "start": 2109.52,
+      "end": 2110.52,
+      "text": "müssen wir überlegen,"
+    },
+    {
+      "i": 801,
+      "start": 2110.52,
+      "end": 2113.52,
+      "text": "sind wir in einer Segelfluktion oder nicht."
+    },
+    {
+      "i": 802,
+      "start": 2113.52,
+      "end": 2115.52,
+      "text": "Und da ist ein bisschen gemein."
+    },
+    {
+      "i": 803,
+      "start": 2115.52,
+      "end": 2116.52,
+      "text": "Man könnte meinen,"
+    },
+    {
+      "i": 804,
+      "start": 2116.52,
+      "end": 2117.52,
+      "text": "wir stehnen."
+    },
+    {
+      "i": 805,
+      "start": 2117.52,
+      "end": 2118.52,
+      "text": "Aber wenn er zahlen,"
+    },
+    {
+      "i": 806,
+      "start": 2118.52,
+      "end": 2119.52,
+      "text": "unten dran,"
+    },
+    {
+      "i": 807,
+      "start": 2119.52,
+      "end": 2121.52,
+      "text": "beim LSR 21 genau auch,"
+    },
+    {
+      "i": 808,
+      "start": 2121.52,
+      "end": 2124.52,
+      "text": "geht eben die LSR vor Gliders"
+    },
+    {
+      "i": 809,
+      "start": 2124.52,
+      "end": 2127.52,
+      "text": "nur auf 2450 Meter auf."
+    },
+    {
+      "i": 810,
+      "start": 2127.52,
+      "end": 2131.52,
+      "text": "Wir befinden uns aber schon in der Luft auf 277."
+    },
+    {
+      "i": 811,
+      "start": 2131.52,
+      "end": 2132.52,
+      "text": "Da heisst man,"
+    },
+    {
+      "i": 812,
+      "start": 2132.52,
+      "end": 2133.52,
+      "text": "wir sind drüber."
+    },
+    {
+      "i": 813,
+      "start": 2133.52,
+      "end": 2134.52,
+      "text": "Wir tören den Flügen."
+    },
+    {
+      "i": 814,
+      "start": 2134.52,
+      "end": 2135.52,
+      "text": "Es ist nicht verboten."
+    },
+    {
+      "i": 815,
+      "start": 2135.52,
+      "end": 2137.52,
+      "text": "Aber wir müssen leider wieder"
+    },
+    {
+      "i": 816,
+      "start": 2137.52,
+      "end": 2138.52,
+      "text": "die grossen Wolken abständigen."
+    },
+    {
+      "i": 817,
+      "start": 2138.52,
+      "end": 2141.52,
+      "text": "Also 300 Meter und eineinhalb Kilometer inhalten."
+    },
+    {
+      "i": 818,
+      "start": 2141.52,
+      "end": 2142.52,
+      "text": "Und das so..."
+    },
+    {
+      "i": 819,
+      "start": 2142.52,
+      "end": 2143.52,
+      "text": "Ja,"
+    },
+    {
+      "i": 820,
+      "start": 2143.52,
+      "end": 2145.52,
+      "text": "wir versuchen,"
+    },
+    {
+      "i": 821,
+      "start": 2145.52,
+      "end": 2147.52,
+      "text": "damit auf den Weg zu gehen,"
+    },
+    {
+      "i": 822,
+      "start": 2147.52,
+      "end": 2150.52,
+      "text": "nach diesen Kriterien zu verfahren,"
+    },
+    {
+      "i": 823,
+      "start": 2150.52,
+      "end": 2152.52,
+      "text": "sodass er immer legal unterwegs ist"
+    },
+    {
+      "i": 824,
+      "start": 2152.52,
+      "end": 2154.52,
+      "text": "und auch Fragen für Prüfungen"
+    },
+    {
+      "i": 825,
+      "start": 2154.52,
+      "end": 2156.52,
+      "text": "so korrekt können, beantworten können."
+    },
+    {
+      "i": 826,
+      "start": 2156.52,
+      "end": 2159.52,
+      "text": "Dann haben wir da noch mal ein bisschen ein Beispiel."
+    },
+    {
+      "i": 827,
+      "start": 2159.52,
+      "end": 2162.84,
+      "text": "Da wird jetzt nicht mehr auf alles Ego"
+    },
+    {
+      "i": 828,
+      "start": 2162.84,
+      "end": 2164.84,
+      "text": "da einfach auch aufpassen."
+    },
+    {
+      "i": 829,
+      "start": 2164.84,
+      "end": 2165.84,
+      "text": "Wir sehen,"
+    },
+    {
+      "i": 830,
+      "start": 2165.84,
+      "end": 2168.84,
+      "text": "wir sind auf 1850 Meter oben."
+    },
+    {
+      "i": 831,
+      "start": 2168.84,
+      "end": 2173.19,
+      "text": "Der Luftrum D geht von 1650 bis auf 350."
+    },
+    {
+      "i": 832,
+      "start": 2173.19,
+      "end": 2176.19,
+      "text": "Also ist man doch recht schnell verleitet,"
+    },
+    {
+      "i": 833,
+      "start": 2176.19,
+      "end": 2177.19,
+      "text": "um zu sagen,"
+    },
+    {
+      "i": 834,
+      "start": 2177.19,
+      "end": 2178.19,
+      "text": "oh, da ist verboten,"
+    },
+    {
+      "i": 835,
+      "start": 2178.19,
+      "end": 2179.19,
+      "text": "da bin ich voll in der Themen,,"
+    },
+    {
+      "i": 836,
+      "start": 2179.19,
+      "end": 2181.19,
+      "text": "auch deine Fliegen verboten."
+    },
+    {
+      "i": 837,
+      "start": 2181.19,
+      "end": 2182.19,
+      "text": "Ja,"
+    },
+    {
+      "i": 838,
+      "start": 2182.19,
+      "end": 2184.19,
+      "text": "entweder nicht starten,"
+    },
+    {
+      "i": 839,
+      "start": 2184.19,
+      "end": 2185.19,
+      "text": "oder Prüfung,"
+    },
+    {
+      "i": 840,
+      "start": 2185.19,
+      "end": 2187.19,
+      "text": "Fliegen verboten, auch klicken und weiter gehen."
+    },
+    {
+      "i": 841,
+      "start": 2187.19,
+      "end": 2191.19,
+      "text": "Da sind wir hier noch mal ganz gut überlegend."
+    },
+    {
+      "i": 842,
+      "start": 2191.19,
+      "end": 2193.19,
+      "text": "Es gibt nämlich hier die Sonderregeln,"
+    },
+    {
+      "i": 843,
+      "start": 2193.19,
+      "end": 2195.19,
+      "text": "die uns ein bisschen entgegenkommt."
+    },
+    {
+      "i": 844,
+      "start": 2195.19,
+      "end": 2197.19,
+      "text": "Wir sind da zu meiringen."
+    },
+    {
+      "i": 845,
+      "start": 2197.19,
+      "end": 2198.45,
+      "text": "Es hilft natürlich,"
+    },
+    {
+      "i": 846,
+      "start": 2198.45,
+      "end": 2201.45,
+      "text": "wenn man die Karte ein bisschen kennt."
+    },
+    {
+      "i": 847,
+      "start": 2201.45,
+      "end": 2203.45,
+      "text": "Man ist aber da südlich von der Linie."
+    },
+    {
+      "i": 848,
+      "start": 2203.45,
+      "end": 2204.45,
+      "text": "Man ist in der Alpen."
+    },
+    {
+      "i": 849,
+      "start": 2204.45,
+      "end": 2207.45,
+      "text": "Und darum kommt der Neben,"
+    },
+    {
+      "i": 850,
+      "start": 2207.45,
+      "end": 2210.45,
+      "text": "die Sonderregelung zum Zug,"
+    },
+    {
+      "i": 851,
+      "start": 2210.45,
+      "end": 2215.45,
+      "text": "dass man ja 300 Meter unter den Themen der Turen fliegen."
+    },
+    {
+      "i": 852,
+      "start": 2215.45,
+      "end": 2217.45,
+      "text": "Und wir sind ja immer oben gesagt,"
+    },
+    {
+      "i": 853,
+      "start": 2217.45,
+      "end": 2219.45,
+      "text": "auf 150 Meter übergrund."
+    },
+    {
+      "i": 854,
+      "start": 2219.45,
+      "end": 2223.45,
+      "text": "Und die Zentrum absolut legal unterwegs."
+    },
+    {
+      "i": 855,
+      "start": 2223.45,
+      "end": 2228.64,
+      "text": "Mit einer maximale Höhe von 300 Meter übergrund natürlich."
+    },
+    {
+      "i": 856,
+      "start": 2229.64,
+      "end": 2231.64,
+      "text": "Da ist jetzt keine Höhe über mehr Rage,"
+    },
+    {
+      "i": 857,
+      "start": 2231.64,
+      "end": 2233.64,
+      "text": "weil der Grund variiert auch."
+    },
+    {
+      "i": 858,
+      "start": 2233.64,
+      "end": 2235.64,
+      "text": "Und wenn man am Glend noch fliegen,"
+    },
+    {
+      "i": 859,
+      "start": 2235.64,
+      "end": 2237.64,
+      "text": "und einfach immer die 300 Meter inhaltet,"
+    },
+    {
+      "i": 860,
+      "start": 2237.64,
+      "end": 2240.67,
+      "text": "sind wir also jederzeit legal unterwegs."
+    },
+    {
+      "i": 861,
+      "start": 2240.67,
+      "end": 2244.22,
+      "text": "Es sind nur 300 Meter,"
+    },
+    {
+      "i": 862,
+      "start": 2244.22,
+      "end": 2245.22,
+      "text": "darum,"
+    },
+    {
+      "i": 863,
+      "start": 2245.22,
+      "end": 2246.22,
+      "text": "wo man abstand,"
+    },
+    {
+      "i": 864,
+      "start": 2246.22,
+      "end": 2247.22,
+      "text": "kein Wohlkennabstand,"
+    },
+    {
+      "i": 865,
+      "start": 2247.22,
+      "end": 2249.22,
+      "text": "außerhalb der Wohlkern fliegen,"
+    },
+    {
+      "i": 866,
+      "start": 2249.22,
+      "end": 2250.22,
+      "text": "mit Umkehr,"
+    },
+    {
+      "i": 867,
+      "start": 2250.22,
+      "end": 2253.22,
+      "text": "auf der jederzeit möglich und ein paar der Sicht."
+    },
+    {
+      "i": 868,
+      "start": 2253.22,
+      "end": 2259.35,
+      "text": "Ja, dann werden wir für eure Aufmerksamkeit bedanken."
+    },
+    {
+      "i": 869,
+      "start": 2259.35,
+      "end": 2261.35,
+      "text": "Merci fürs Zulassen."
+    },
+    {
+      "i": 870,
+      "start": 2261.35,
+      "end": 2262.35,
+      "text": "Ich hoffe,"
+    },
+    {
+      "i": 871,
+      "start": 2262.35,
+      "end": 2263.35,
+      "text": "auch ich glaube,"
+    },
+    {
+      "i": 872,
+      "start": 2263.35,
+      "end": 2264.35,
+      "text": "es kann damit auf den Weg gehen."
+    },
+    {
+      "i": 873,
+      "start": 2264.35,
+      "end": 2266.35,
+      "text": "Das ist immer eine erste Schritt,"
+    },
+    {
+      "i": 874,
+      "start": 2266.35,
+      "end": 2267.35,
+      "text": "mal positiv,"
+    },
+    {
+      "i": 875,
+      "start": 2267.35,
+      "end": 2269.35,
+      "text": "können die Trennen gehen,"
+    },
+    {
+      "i": 876,
+      "start": 2269.35,
+      "end": 2271.35,
+      "text": "können die auch in Vorbereiten auf die Prüfung."
+    },
+    {
+      "i": 877,
+      "start": 2271.35,
+      "end": 2273.35,
+      "text": "Und dann immer eine zweite Schritt,"
+    },
+    {
+      "i": 878,
+      "start": 2273.35,
+      "end": 2274.35,
+      "text": "natürlich ganz viel Spaß,"
+    },
+    {
+      "i": 879,
+      "start": 2274.35,
+      "end": 2276.35,
+      "text": "im Flügeralltag."
+    },
+    {
+      "i": 880,
+      "start": 2276.35,
+      "end": 2278.35,
+      "text": "Und das sind jederzeit sicher und legal,"
+    },
+    {
+      "i": 881,
+      "start": 2278.35,
+      "end": 2280.35,
+      "text": "wie sich ein Luftraum unterwegs sind."
+    },
+    {
+      "i": 882,
+      "start": 2280.35,
+      "end": 2281.35,
+      "text": "Merci für mal."
+    },
+    {
+      "i": 883,
+      "start": 2281.35,
+      "end": 2282.35,
+      "text": "Bis bald."
+    }
+  ]
+}
