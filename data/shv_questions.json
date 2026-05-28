@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-05-28T15:26:48.229Z",
+  "fetchedAt": "2026-05-28T15:27:20.144Z",
   "questions": {
     "1": {
       "qid": 1,
@@ -6989,6 +6989,146 @@
         "Sit relaxed in the harness and pull gently to moderately on the brakes without trying to compensate for the pendulum."
       ],
       "correct": 3
+    },
+    "Practical Flying_153": {
+      "qid": 153,
+      "topic": "Practical Flying",
+      "pos": 83,
+      "total_in_topic": 169,
+      "text": "Where do the Chamois and Ibex live in the alps from winter to spring?",
+      "options": [
+        "Mostly in south facing mountain forests.",
+        "Mostly on the steep south facing mountain sides.",
+        "On mountain pastures untouched by ski tourism.",
+        "On north facing slopes largely unaffected by tourism."
+      ],
+      "correct": 1
+    },
+    "Practical Flying_123": {
+      "qid": 123,
+      "topic": "Practical Flying",
+      "pos": 85,
+      "total_in_topic": 169,
+      "text": "On the base leg of an approach the pilot realizes he is too high. What should he do?",
+      "options": [
+        "Extend the base leg and if necessary repeat it.",
+        "Fly back to the position to lose height and restart the downwind leg.",
+        "Fly another circle in the landing approach turn direction.",
+        "Brake the glider in order to reduce the glide performance."
+      ],
+      "correct": 0
+    },
+    "Practical Flying_48": {
+      "qid": 48,
+      "topic": "Practical Flying",
+      "pos": 86,
+      "total_in_topic": 169,
+      "text": "Can the speed of your glider be greatly influenced by your body position?",
+      "options": [
+        "If during the flight a good aerodynamic position is assumed, the drag is reduced and the speed slightly increased.",
+        "If the legs are outstretched, the centre of mass moves forward, thereby reducing the angle of attack and increasing speed.",
+        "No.",
+        "If during the flight the pilot leans forward with his shoulders against the risers the glider will be accelerated."
+      ],
+      "correct": 0
+    },
+    "Practical Flying_101": {
+      "qid": 101,
+      "topic": "Practical Flying",
+      "pos": 87,
+      "total_in_topic": 169,
+      "text": "When descending in a spiral dive, it should be noted that",
+      "options": [
+        "a stable spiral must be actively controlled using the outside brake and with weight-shift to the outside. [z]",
+        "depending on the harness geometry, body position and glider characteristics, every glider can theoretically remain in a stable spiral. [x]",
+        "answers x, y and z are correct.",
+        "when the outside leg is lifted over the inside leg in order to lean more to the inside of the turn, the tendency for the glider to remain in a stable spiral is markedly increased. [y]"
+      ],
+      "correct": 2
+    },
+    "Practical Flying_162": {
+      "qid": 162,
+      "topic": "Practical Flying",
+      "pos": 88,
+      "total_in_topic": 169,
+      "text": "While flying over a large forest I have to deploy the reserve chute after a large collapse. I land uninjured in a large clearing in the forest. What should I do?",
+      "options": [
+        "I pack my glider and make my way home, leaving a note with my name, address and phone number in the clearing.",
+        "Pack the glider and reserve as quickly as possible so that hikers don’t get the idea that they need to call the emergency services or the police.",
+        "I wait in place for at least an hour in order to give my personal details to the rescuers upon their arrival.",
+        "I contact the REGA on 1414 as soon as possible to report my position and details of the incident, so as to avoid an unnecessary deployment of the emergency services."
+      ],
+      "correct": 3
+    },
+    "Practical Flying_152": {
+      "qid": 152,
+      "topic": "Practical Flying",
+      "pos": 89,
+      "total_in_topic": 169,
+      "text": "Golden eagles are most bothered by pilots when they",
+      "options": [
+        "encroach on their territory, forcing the eagles to fly out and mark the boundaries.",
+        "soar south facing cliffs in spring.",
+        "fly in spring in the proximity of the nests causing the eagles to leave their eggs.",
+        "fly above the tree line and drive away their most important prey - marmots."
+      ],
+      "correct": 2
+    },
+    "Practical Flying_28": {
+      "qid": 28,
+      "topic": "Practical Flying",
+      "pos": 91,
+      "total_in_topic": 169,
+      "text": "Which of the following is the correct 5 point check on take off?",
+      "options": [
+        "1. Harness, helmet and reserve closed and secure; 2. Risers and lines run correctly; 3. Canopy layout is satisfactory; 4. Wind direction and strength; 5. Start and air space are clear.",
+        "1. Wind direction and strength; 2. Start and air space are clear. 3. Harness, helmet and reserve closed and secure; 4. Risers and lines run correctly; 5. Canopy layout is satisfactory.",
+        "1. Canopy layout is satisfactory; 2. Wind direction and strength; 3. Start and air space are clear. 4. Harness, helmet and reserve closed and secure; 5. Risers and lines run correctly.",
+        "1. Risers and lines run correctly; 2. Canopy layout is satisfactory; 3. Wind direction and strength; 4. Start and air space are clear. 5. Harness, helmet and reserve closed and secure."
+      ],
+      "correct": 0
+    },
+    "Practical Flying_55": {
+      "qid": 55,
+      "topic": "Practical Flying",
+      "pos": 92,
+      "total_in_topic": 169,
+      "text": "A pilot is flying towards his landing field exactly south of his position with a 20 km/h west wind. If he aims his glider towards southwest all the time which of the following would be his flight path? 12",
+      "options": [
+        "1",
+        "2",
+        "4",
+        "3"
+      ],
+      "correct": 0
+    },
+    "Practical Flying_10": {
+      "qid": 10,
+      "topic": "Practical Flying",
+      "pos": 93,
+      "total_in_topic": 169,
+      "text": "Zürich-Kloten announces a QNH of 1015. What does this signify?",
+      "options": [
+        "At Zürich-Kloten the sea level pressure calculated in accordance with the ICAO standard atmosphere is 1015 hPa.",
+        "The maximum pressure in Zürich-Kloten on this day is 1015 hPa.",
+        "In Zürich-Kloten the atmospheric pressure is 1015 hPa.",
+        "The standard pressure in Zürich-Kloten according to ICAO is 1015 hPa."
+      ],
+      "correct": 0
+    },
+    "Practical Flying_54": {
+      "qid": 54,
+      "topic": "Practical Flying",
+      "pos": 94,
+      "total_in_topic": 169,
+      "text": "A pilot is flying towards his landing field exactly south of his position with a 0 km/h west wind. If he aims his glider due south all the time, which of the following would be his flight path? 142",
+      "options": [
+        "3",
+        "1",
+        "4",
+        "2"
+      ],
+      "correct": 0
     }
   },
   "topics": {
