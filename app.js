@@ -3091,9 +3091,6 @@ function render() {
   const navItems = [
     { id: 'dashboard',  icon: '📊', label: 'Dashboard' },
     { id: 'workbook',   icon: '📒', label: 'Workbook', badge: getWorkbook().reduce((a, b) => a + b.chapters.length, 0) || null },
-    { id: 'flashcards', icon: '📇', label: 'Flashcards', badge: getCards().length },
-    { id: 'quiz',       icon: '📝', label: 'Quiz' },
-    { id: 'exam',       icon: '⏱️', label: 'Mock Exam' },
     { id: 'shv-exam',   icon: '🎯', label: 'SHV Practice', badge: Object.keys(getSHVQuestions() || {}).length || null },
     { id: 'guide',      icon: '📚', label: 'Study Guide' },
     { id: 'slides',     icon: '🎬', label: 'Slide Decks', badge: getDecks().reduce((a, d) => a + deckSlideCount(d), 0) || null },
@@ -3101,13 +3098,38 @@ function render() {
     { id: 'cheatsheet', icon: '⚡', label: 'Cheat Sheet' },
     { id: 'tips',       icon: '💡', label: 'Tips' }
   ];
-  sb.innerHTML = navItems.map(n => `
+  // Superseded by the official SHV question pool — kept around but archived in a
+  // permanently-collapsed group so they no longer compete with SHV Practice.
+  const legacyItems = [
+    { id: 'flashcards', icon: '📇', label: 'Flashcards' },
+    { id: 'quiz',       icon: '📝', label: 'Quiz' },
+    { id: 'exam',       icon: '⏱️', label: 'Mock Exam' }
+  ];
+  const navHtml = navItems.map(n => `
     <button class="nav-item ${state.view === n.id ? 'active' : ''}" data-nav="${n.id}">
       <span class="nav-icon">${n.icon}</span>
       <span>${n.label}</span>
       ${n.badge ? `<span class="nav-badge">${n.badge}</span>` : ''}
     </button>
   `).join('');
+  const legacyHtml = `
+    <div class="nav-group nav-group-locked" title="Replaced by SHV Practice — archived">
+      <div class="nav-section nav-group-header">
+        <span class="nav-group-chevron">▸</span>
+        <span>Legacy</span>
+        <span class="nav-group-lock">🔒</span>
+      </div>
+      <div class="nav-group-body">
+        ${legacyItems.map(n => `
+          <div class="nav-item nav-item-legacy">
+            <span class="nav-icon">${n.icon}</span>
+            <span>${n.label}</span>
+          </div>
+        `).join('')}
+      </div>
+    </div>
+  `;
+  sb.innerHTML = navHtml + legacyHtml;
 
   // theme indicator
   const themeBtn = document.getElementById('theme-toggle');
