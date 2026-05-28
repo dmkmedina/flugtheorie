@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-05-28T16:07:59.894Z",
+  "fetchedAt": "2026-05-28T16:08:35.681Z",
   "questions": {
     "Aerodynamics_1": {
       "qid": 1,
@@ -8142,14 +8142,14 @@
     "Weather_113": {
       "qid": 113,
       "topic": "Weather",
-      "pos": 22,
+      "pos": 28,
       "total_in_topic": 164,
       "text": "Which conditions are the most favourable for a north föhn in Tessin?",
       "options": [
-        "Switzerland is behind a cold front, and moderately humid, cold air approaches the Alps from the northwest.",
-        "The cirrostratus clouds of an approaching warm front begin to cover the sky above Switzerland.",
         "Switzerland is in a warm sector, with a cold front approaching the Jura.",
-        "A high altitude southwest airflow brings warm air to the Alps above a \"Bise\" (cool northeast wind) flow at lower levels."
+        "A high altitude southwest airflow brings warm air to the Alps above a \"Bise\" (cool northeast wind) flow at lower levels.",
+        "Switzerland is behind a cold front, and moderately humid, cold air approaches the Alps from the northwest.",
+        "The cirrostratus clouds of an approaching warm front begin to cover the sky above Switzerland."
       ],
       "correct": null
     },
@@ -8198,16 +8198,16 @@
     "Weather_143": {
       "qid": 143,
       "topic": "Weather",
-      "pos": 25,
+      "pos": 15,
       "total_in_topic": 164,
       "text": "This symbol on a weather map defines",
       "options": [
         "a cold front.",
         "an occlusion.",
-        "a warm front.",
-        "an isobar."
+        "an isobar.",
+        "a warm front."
       ],
-      "correct": 3
+      "correct": null
     },
     "Weather_91": {
       "qid": 91,
@@ -8240,14 +8240,14 @@
     "Weather_111": {
       "qid": 111,
       "topic": "Weather",
-      "pos": 78,
+      "pos": 5,
       "total_in_topic": 164,
       "text": "What signs indicate south föhn on the north side of the Alps?",
       "options": [
-        "Clouds cover the mountains in the distance, cumulus and lenticular clouds in the blue portion of the sky, changing wind direction on the ground, freshening southwest wind at launch.",
-        "Poor visibility, low cloud base, rain, steady wind.",
         "The sky is covered with 5/8 cumulus, gusty increasing winds, strong thermals with large amounts of neighbouring sink.",
-        "Blue sky, no wind, not much turbulence, steady lift at takeoff, smooth, widespread lift, cumulus congestus and cumulonimbus in the distance."
+        "Blue sky, no wind, not much turbulence, steady lift at takeoff, smooth, widespread lift, cumulus congestus and cumulonimbus in the distance.",
+        "Poor visibility, low cloud base, rain, steady wind.",
+        "Clouds cover the mountains in the distance, cumulus and lenticular clouds in the blue portion of the sky, changing wind direction on the ground, freshening southwest wind at launch."
       ],
       "correct": null
     },
@@ -8296,16 +8296,16 @@
     "Weather_20": {
       "qid": 20,
       "topic": "Weather",
-      "pos": 8,
+      "pos": 2,
       "total_in_topic": 164,
       "text": "On average the air temperature in the troposphere reduces with increasing altitude. However, it can occur that the temperature in a particular layer increases. What is this phenomenon called?",
       "options": [
-        "Isotherm",
         "Superadiabatic",
+        "Isotherm",
         "Inversion",
         "Restitution"
       ],
-      "correct": 2
+      "correct": null
     },
     "Weather_60": {
       "qid": 60,
@@ -8978,6 +8978,118 @@
         "a cold front."
       ],
       "correct": 2
+    },
+    "Weather_57": {
+      "qid": 57,
+      "topic": "Weather",
+      "pos": 3,
+      "total_in_topic": 164,
+      "text": "Which of the following cloud types is the most dangerous for paragliders and hang gliders in its vicinity?",
+      "options": [
+        "Cirrocumulus",
+        "Cumulus humilis",
+        "Cumulonimbus",
+        "Stratocumulus"
+      ],
+      "correct": 2
+    },
+    "Weather_120": {
+      "qid": 120,
+      "topic": "Weather",
+      "pos": 6,
+      "total_in_topic": 164,
+      "text": "What does the following drawing represent?",
+      "options": [
+        "An occlusion with the characteristics of a cold front.",
+        "A cold front.",
+        "An occlusion with the characteristics of a warm front.",
+        "A warm front."
+      ],
+      "correct": 3
+    },
+    "Weather_106": {
+      "qid": 106,
+      "topic": "Weather",
+      "pos": 8,
+      "total_in_topic": 164,
+      "text": "In meteorology, the term \"front\" describes",
+      "options": [
+        "the dividing line between two air masses at sea level.",
+        "a zone of precipitation with high winds.",
+        "a line of zones of precipitation.",
+        "the boundary between two different air masses."
+      ],
+      "correct": null
+    },
+    "Weather_162": {
+      "qid": 162,
+      "topic": "Weather",
+      "pos": 9,
+      "total_in_topic": 164,
+      "text": "What is the cloud distribution in northeastern Switzerland most likely to be?",
+      "options": [
+        "8/8 nimbostratus",
+        "2/8 - 4/8 cumulus, with lenticulars at altitude",
+        "5/8 - 7/8 cirrocumulus",
+        "5/8 - 7/8 cirrostratus"
+      ],
+      "correct": 1
+    },
+    "Weather_37": {
+      "qid": 37,
+      "topic": "Weather",
+      "pos": 13,
+      "total_in_topic": 164,
+      "text": "Which of the following changes of state releases energy in the form of heat?",
+      "options": [
+        "Transformation from liquid to solid state.",
+        "Transformation from solid to liquid state.",
+        "Transformation from solid to gaseous state.",
+        "Transformation from liquid to gaseous state."
+      ],
+      "correct": null
+    },
+    "Weather_8": {
+      "qid": 8,
+      "topic": "Weather",
+      "pos": 14,
+      "total_in_topic": 164,
+      "text": "The pressure at sea level",
+      "options": [
+        "can in rare cases increase from the average.",
+        "varies above or below the average depending on the weather conditions.",
+        "is always constant.",
+        "can in rare cases reduce from the average."
+      ],
+      "correct": 1
+    },
+    "Weather_66": {
+      "qid": 66,
+      "topic": "Weather",
+      "pos": 16,
+      "total_in_topic": 164,
+      "text": "In Europe, the atmospheric pressure at sea level of an extensive low-pressure system could be",
+      "options": [
+        "1,055 hPa",
+        "915 hPa",
+        "955 hPa",
+        "1,035 hPa"
+      ],
+      "correct": 2
+    },
+    "Weather_97": {
+      "qid": 97,
+      "topic": "Weather",
+      "pos": 29,
+      "total_in_topic": 164,
+      "text": "The term \"thermal turbulence\" describes in meteorological terms the movement of air which occurs when",
+      "options": [
+        "an airmass moving close to the ground is disturbed by the terrain, as well obstacles such as as houses, trees, etc.",
+        "warm air bubbles release from the ground and rise.",
+        "two neighbouring air masses rubbing against each other heat up and therefore rise.",
+        "two neighbouring air masses moving in different directions or with different speeds rub against each other."
+      ],
+      "correct": 1
     }
   },
   "topics": {
