@@ -23,6 +23,7 @@ def main():
     distractors = load_json('data/distractors.json') if os.path.exists(os.path.join(ROOT, 'data/distractors.json')) else {}
     diagrams = load_json('data/diagrams.json') if os.path.exists(os.path.join(ROOT, 'data/diagrams.json')) else {'diagrams': []}
     video_manifest = load_json('data/video_manifest.json') if os.path.exists(os.path.join(ROOT, 'data/video_manifest.json')) else {'decks': []}
+    shv_questions = load_json('data/shv_questions.json') if os.path.exists(os.path.join(ROOT, 'data/shv_questions.json')) else {'questions': {}, 'topics': {}}
     tips_md = load_file('data/study_tips.md')
 
     # Inline any VTTs that are present so the deployed single-file build can
@@ -54,6 +55,7 @@ def main():
     diagrams_json = json.dumps(diagrams, ensure_ascii=False, separators=(',', ':'))
     video_manifest_json = json.dumps(video_manifest, ensure_ascii=False, separators=(',', ':'))
     video_vtt_json = json.dumps(video_vtt, ensure_ascii=False, separators=(',', ':'))
+    shv_questions_json = json.dumps(shv_questions, ensure_ascii=False, separators=(',', ':'))
 
     # Encode tips markdown as a JS string-safe literal
     # Use JSON.parse('...') trick - escape backslashes/quotes/newlines
@@ -135,6 +137,7 @@ def main():
 <script id="data-diagrams" type="application/json">{diagrams_json}</script>
 <script id="data-video-manifest" type="application/json">{video_manifest_json}</script>
 <script id="data-video-vtt" type="application/json">{video_vtt_json}</script>
+<script id="data-shv-questions" type="application/json">{shv_questions_json}</script>
 <script>
 window.CARDS = JSON.parse(document.getElementById('data-cards').textContent);
 window.GUIDE = JSON.parse(document.getElementById('data-guide').textContent);
@@ -144,6 +147,7 @@ window.DISTRACTORS = JSON.parse(document.getElementById('data-distractors').text
 window.DIAGRAMS = JSON.parse(document.getElementById('data-diagrams').textContent);
 window.VIDEO_MANIFEST = JSON.parse(document.getElementById('data-video-manifest').textContent);
 window.VIDEO_VTT = JSON.parse(document.getElementById('data-video-vtt').textContent);
+window.SHV_QUESTIONS = JSON.parse(document.getElementById('data-shv-questions').textContent);
 window.TIPS_MD = {tips_js};
 </script>
 
@@ -166,6 +170,7 @@ window.TIPS_MD = {tips_js};
     print(f"Wrote {out} ({size_kb:.1f} KB)")
     print(f"  Cards: {len(cards)} · Guide chapters: {sum(len(p['chapters']) for p in guide['parts'])} · Slides: {total_slides} across {len(decks['decks'])} decks · Workbook: {wb_chapters} chapters across {len(workbook.get('books', []))} books")
     print(f"  Videos: {video_count} ({de_vtt} DE / {en_vtt} EN VTTs inlined)")
+    print(f"  SHV pool: {len(shv_questions.get('questions') or {})} questions across {len(shv_questions.get('topics') or {})} topics")
 
 if __name__ == '__main__':
     main()

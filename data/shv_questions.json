@@ -1,0 +1,1002 @@
+{
+  "fetchedAt": "2026-05-28T14:42:06.088Z",
+  "questions": {
+    "2": {
+      "qid": 2,
+      "topic": "Aerodynamics",
+      "pos": 67,
+      "total_in_topic": 152,
+      "text": "Forces F1 and F3 are applied to a body. They have the same point of application. What is the resultant R of the two forces?",
+      "options": [
+        "R2",
+        "R3",
+        "R1",
+        "R4"
+      ],
+      "correct": 3
+    },
+    "3": {
+      "qid": 3,
+      "topic": "Aerodynamics",
+      "pos": 2,
+      "total_in_topic": 152,
+      "text": "Forces F1 and F4 are applied to a body. They have the same point of application. What is the resultant R of the two forces?",
+      "options": [
+        "R2",
+        "R3",
+        "R4",
+        "R1"
+      ],
+      "correct": 0
+    },
+    "4": {
+      "qid": 4,
+      "topic": "Aerodynamics",
+      "pos": 40,
+      "total_in_topic": 152,
+      "text": "Forces F1 and F5 are applied to a body. They have the same point of application. What is the resultant R of the two forces?",
+      "options": [
+        "R2",
+        "R1",
+        "R4",
+        "R3"
+      ],
+      "correct": 1
+    },
+    "8": {
+      "qid": 8,
+      "topic": "Aerodynamics",
+      "pos": 46,
+      "total_in_topic": 152,
+      "text": "What is the effect on the drag of a body if you quadruple its frontal area relative to the airflow?",
+      "options": [
+        "It is multiplied by 4.",
+        "It is multiplied by 16.",
+        "It is divided by 4.",
+        "It does not change."
+      ],
+      "correct": 0
+    },
+    "10": {
+      "qid": 10,
+      "topic": "Aerodynamics",
+      "pos": 63,
+      "total_in_topic": 152,
+      "text": "An object with a frontal area of 2m² exposed to an airflow of 30km/h produces a drag of 300N (approx. 30kp) at sea level. Under the same conditions, how much drag is produced by an object of similar shape but with a frontal area of 4m²?",
+      "options": [
+        "about 300 N",
+        "about 600 N",
+        "about 900 N",
+        "about 150 N"
+      ],
+      "correct": 1
+    },
+    "11": {
+      "qid": 11,
+      "topic": "Aerodynamics",
+      "pos": 69,
+      "total_in_topic": 152,
+      "text": "An object with a frontal area of 2m² exposed to an airflow of 30km/h produces a drag of 300N (approx. 30kp) at sea level. Under the same conditions, how much drag is produced by an object of similar shape but with a frontal area of 1m²?",
+      "options": [
+        "about 600 N",
+        "about 300 N",
+        "about 150 N",
+        "about 900 N"
+      ],
+      "correct": 2
+    },
+    "15": {
+      "qid": 15,
+      "topic": "Aerodynamics",
+      "pos": 58,
+      "total_in_topic": 152,
+      "text": "If the speed of the airflow to which a body is exposed doubles,",
+      "options": [
+        "the drag will be multiplied by 4.",
+        "the drag will be multiplied by 16.",
+        "the drag will be multiplied by 8.",
+        "the drag will double."
+      ],
+      "correct": 0
+    },
+    "16": {
+      "qid": 16,
+      "topic": "Aerodynamics",
+      "pos": 9,
+      "total_in_topic": 152,
+      "text": "If the speed of the airflow to which a body is exposed is tripled,",
+      "options": [
+        "the drag will be multiplied by 12.",
+        "the drag will be multiplied by 9.",
+        "the drag will be multiplied by 6.",
+        "the drag will be multiplied by 3."
+      ],
+      "correct": 1
+    },
+    "18": {
+      "qid": 18,
+      "topic": "Aerodynamics",
+      "pos": 39,
+      "total_in_topic": 152,
+      "text": "If the speed of the airflow to which a body is exposed is divided by 2,",
+      "options": [
+        "the drag will be divided by 4.",
+        "the drag will be divided by 2.",
+        "the drag will double.",
+        "the drag will be multiplied by 4."
+      ],
+      "correct": 0
+    },
+    "20": {
+      "qid": 20,
+      "topic": "Aerodynamics",
+      "pos": 12,
+      "total_in_topic": 152,
+      "text": "An object with a frontal area of 0.75m² exposed to an airflow of 30km/h produces a drag of 100N (approx. 10kp) at sea level. What will the drag be of the same body in an airflow of 90km/h?",
+      "options": [
+        "about 600N",
+        "about 300N",
+        "about 1200N",
+        "about 900N"
+      ],
+      "correct": 3
+    },
+    "23": {
+      "qid": 23,
+      "topic": "Aerodynamics",
+      "pos": 65,
+      "total_in_topic": 152,
+      "text": "Which of the following has the most effect on drag on a body?",
+      "options": [
+        "The difference between temperature and dew point.",
+        "The pressure gradient.",
+        "The absolute humidity of the air.",
+        "The density of the air."
+      ],
+      "correct": 3
+    },
+    "24": {
+      "qid": 24,
+      "topic": "Aerodynamics",
+      "pos": 24,
+      "total_in_topic": 152,
+      "text": "If the density of the airflow to which a body is exposed doubles,",
+      "options": [
+        "there is no change in the drag.",
+        "the drag will be quadrupled.",
+        "the drag is halved.",
+        "the drag will double."
+      ],
+      "correct": 3
+    },
+    "25": {
+      "qid": 25,
+      "topic": "Aerodynamics",
+      "pos": 42,
+      "total_in_topic": 152,
+      "text": "If the density of the airflow to which a body is exposed is halved,",
+      "options": [
+        "the drag is halved.",
+        "the drag will be quadrupled.",
+        "the drag will double.",
+        "there is no change in the drag."
+      ],
+      "correct": 0
+    },
+    "29": {
+      "qid": 29,
+      "topic": "Aerodynamics",
+      "pos": 32,
+      "total_in_topic": 152,
+      "text": "A body exposed to an airflow at 3300m above sea level will have",
+      "options": [
+        "approx. 72% of the drag at sea level.",
+        "approx. 81% of the drag at sea level.",
+        "approx. 64% of the drag at sea level.",
+        "approx. 90% of the drag at sea level."
+      ],
+      "correct": 0
+    },
+    "30": {
+      "qid": 30,
+      "topic": "Aerodynamics",
+      "pos": 50,
+      "total_in_topic": 152,
+      "text": "A body exposed to an airflow at 2200m above sea level will have",
+      "options": [
+        "approx. 90% of the drag at sea level.",
+        "approx. 64% of the drag at sea level.",
+        "approx. 72% of the drag at sea level.",
+        "approx. 81% of the drag at sea level."
+      ],
+      "correct": 3
+    },
+    "32": {
+      "qid": 32,
+      "topic": "Aerodynamics",
+      "pos": 11,
+      "total_in_topic": 152,
+      "text": "Which of the following has the most influence on the drag of a body?",
+      "options": [
+        "the weight.",
+        "the material characteristics of the body.",
+        "the shape.",
+        "the mass."
+      ],
+      "correct": 2
+    },
+    "33": {
+      "qid": 33,
+      "topic": "Aerodynamics",
+      "pos": 56,
+      "total_in_topic": 152,
+      "text": "Which of the following coefficients relates to the drag of a body?",
+      "options": [
+        "The CY coefficient.",
+        "The CD coefficient.",
+        "The CB coefficient.",
+        "The CL coefficient."
+      ],
+      "correct": 1
+    },
+    "36": {
+      "qid": 36,
+      "topic": "Aerodynamics",
+      "pos": 61,
+      "total_in_topic": 152,
+      "text": "A body with a CD of 0.05 has in relation to a body with a CD of 1 in the same conditions",
+      "options": [
+        "approx. 50 times less drag.",
+        "approx. 20 times less drag.",
+        "approx. 5 times more drag.",
+        "approx. 2 times less drag."
+      ],
+      "correct": 1
+    },
+    "37": {
+      "qid": 37,
+      "topic": "Aerodynamics",
+      "pos": 10,
+      "total_in_topic": 152,
+      "text": "The bodies depicted below have a CD (drag coefficient) of 0.08, 0.17, 1 and 1.. Which has a CD of 0.08? 312",
+      "options": [
+        "3",
+        "1",
+        "4",
+        "2"
+      ],
+      "correct": 0
+    },
+    "42": {
+      "qid": 42,
+      "topic": "Aerodynamics",
+      "pos": 51,
+      "total_in_topic": 152,
+      "text": "Which of the following numbers represents the chord of the profile? 21",
+      "options": [
+        "4",
+        "3",
+        "2",
+        "1"
+      ],
+      "correct": 2
+    },
+    "43": {
+      "qid": 43,
+      "topic": "Aerodynamics",
+      "pos": 70,
+      "total_in_topic": 152,
+      "text": "Which of the following numbers represents the thickness of the profile? 12",
+      "options": [
+        "3",
+        "1",
+        "2",
+        "4"
+      ],
+      "correct": 0
+    },
+    "46": {
+      "qid": 46,
+      "topic": "Aerodynamics",
+      "pos": 62,
+      "total_in_topic": 152,
+      "text": "Which of the following numbers represents the trailing edge? 21",
+      "options": [
+        "2",
+        "4",
+        "3",
+        "1"
+      ],
+      "correct": 2
+    },
+    "47": {
+      "qid": 47,
+      "topic": "Aerodynamics",
+      "pos": 25,
+      "total_in_topic": 152,
+      "text": "The profile of an airfoil",
+      "options": [
+        "is purely determined by the angle of attack.",
+        "has little influence on the performance of the aircraft, as this is primarily determined by the total weight.",
+        "is determined for each aircraft to the suit the desired flight characteristics.",
+        "is practically identical on all non-motorised aircraft."
+      ],
+      "correct": 2
+    },
+    "57": {
+      "qid": 57,
+      "topic": "Aerodynamics",
+      "pos": 47,
+      "total_in_topic": 152,
+      "text": "If the angle of attack of a paraglider flying at best glide is reduced by 2° from the angle for best glide then",
+      "options": [
+        "the speed of flight increases initially and then stabilizes at the original value.",
+        "the speed of flight increases.",
+        "the flight speed reduces.",
+        "the speed of flight does not change."
+      ],
+      "correct": 1
+    },
+    "61": {
+      "qid": 61,
+      "topic": "Aerodynamics",
+      "pos": 13,
+      "total_in_topic": 152,
+      "text": "The relationship between lift and drag of a wing is mainly dependent on",
+      "options": [
+        "the angle of attack.",
+        "the wing surface area.",
+        "the air density.",
+        "the speed of airflow."
+      ],
+      "correct": 0
+    },
+    "63": {
+      "qid": 63,
+      "topic": "Aerodynamics",
+      "pos": 31,
+      "total_in_topic": 152,
+      "text": "Aerodynamics From 15 Which letter in the following diagram indicates the centre of pressure? 213",
+      "options": [
+        "2",
+        "1",
+        "3",
+        "4"
+      ],
+      "correct": 2
+    },
+    "64": {
+      "qid": 64,
+      "topic": "Aerodynamics",
+      "pos": 21,
+      "total_in_topic": 152,
+      "text": "Aerodynamics From 152 Which letter in the following diagram indicates the separation point? 12",
+      "options": [
+        "3",
+        "1",
+        "4",
+        "2"
+      ],
+      "correct": 2
+    },
+    "65": {
+      "qid": 65,
+      "topic": "Aerodynamics",
+      "pos": 35,
+      "total_in_topic": 152,
+      "text": "The term \"separation point\" describes?",
+      "options": [
+        "the point where the airflow is divided between the upper and lower wing surfaces.",
+        "the point of application of the resultant aerodynamic force.",
+        "the point where the airflow separates from the wing.",
+        "the point where the airflow on the wing upper surface rejoins the flow from the lower surface."
+      ],
+      "correct": 2
+    },
+    "66": {
+      "qid": 66,
+      "topic": "Aerodynamics",
+      "pos": 17,
+      "total_in_topic": 152,
+      "text": "When a glider is flown with maximum load, the point of stall",
+      "options": [
+        "occurs at the same speed and angle of attack independent of load.",
+        "occurs at a lower speed than with minimum load.",
+        "occurs at a higher speed than with minimum loading.",
+        "never occurs."
+      ],
+      "correct": 2
+    },
+    "73": {
+      "qid": 73,
+      "topic": "Aerodynamics",
+      "pos": 4,
+      "total_in_topic": 152,
+      "text": "The term \"average chord\" is defined as",
+      "options": [
+        "the average distance between the leading and trailing edges of a wing.",
+        "the difference in angle of attack of the wing cross-section at different points along the wing.",
+        "the distance between both wing tips.",
+        "the average loading per unit of wing surface area."
+      ],
+      "correct": 0
+    },
+    "74": {
+      "qid": 74,
+      "topic": "Aerodynamics",
+      "pos": 59,
+      "total_in_topic": 152,
+      "text": "The term \"wing loading\" is defined as",
+      "options": [
+        "the difference in angle of attack of the wing cross-section at different points along the wing.",
+        "the average distance between the leading and trailing edges of a wing.",
+        "the distance between the left and right wing tips.",
+        "the average loading per unit of wing surface area."
+      ],
+      "correct": 3
+    },
+    "75": {
+      "qid": 75,
+      "topic": "Aerodynamics",
+      "pos": 28,
+      "total_in_topic": 152,
+      "text": "The wing loading of a paraglider is determined by",
+      "options": [
+        "(air pressure/2) x (airspeed)² .",
+        "total weight / wing surface area.",
+        "(pilot weight + equipment weight) / (wingspan)² .",
+        "load / wing surface area."
+      ],
+      "correct": 1
+    },
+    "77": {
+      "qid": 77,
+      "topic": "Aerodynamics",
+      "pos": 29,
+      "total_in_topic": 152,
+      "text": "The aspect ratio is calculated in the following way",
+      "options": [
+        "span x average chord.",
+        "average chord x wing surface area.",
+        "(span)² / wing surface area.",
+        "(average chord)² / wing surface area."
+      ],
+      "correct": 2
+    },
+    "78": {
+      "qid": 78,
+      "topic": "Aerodynamics",
+      "pos": 60,
+      "total_in_topic": 152,
+      "text": "Wings with a large aspect ratio have",
+      "options": [
+        "a small span and a small average chord.",
+        "a large span and a small average chord",
+        "a large span and a large average chord.",
+        "a small span and a large average chord."
+      ],
+      "correct": 1
+    },
+    "82": {
+      "qid": 82,
+      "topic": "Aerodynamics",
+      "pos": 26,
+      "total_in_topic": 152,
+      "text": "What is the aspect ratio of a glider with the following characteristics: Span: 10 m, Surface area: 25 m², Minimum load: 70 kg, Maximum load: 95 kg, Glider weight: 5 kg",
+      "options": [
+        "3.5",
+        "2.5",
+        "4.5",
+        "4.0"
+      ],
+      "correct": 3
+    },
+    "84": {
+      "qid": 84,
+      "topic": "Aerodynamics",
+      "pos": 30,
+      "total_in_topic": 152,
+      "text": "What is the wing loading of the following glider at maximum load? Span: 10 m, Surface area: 25 m², Minimum load: 70 kg, Maximum load: 95 kg, Glider weight: 5 kg",
+      "options": [
+        "4.0 kg/m²",
+        "3.5 kg/m²",
+        "4.5 kg/m²",
+        "3.0 kg/m²"
+      ],
+      "correct": 0
+    },
+    "85": {
+      "qid": 85,
+      "topic": "Aerodynamics",
+      "pos": 16,
+      "total_in_topic": 152,
+      "text": "What is the wing loading of the following glider at minimum load? Span: 10 m, Surface area: 25 m², Minimum load: 70 kg, Maximum load: 95 kg, Glider weight: 5 kg",
+      "options": [
+        "4.5 kg/m²",
+        "3.0 kg/m²",
+        "3.5 kg/m²",
+        "4.0 kg/m²"
+      ],
+      "correct": 1
+    },
+    "89": {
+      "qid": 89,
+      "topic": "Aerodynamics",
+      "pos": 45,
+      "total_in_topic": 152,
+      "text": "What is the wing loading of the following glider at minimum load? Span: 10m , surface: 12.5m², minimum load: 65kg, maximum load: 90kg, weight: 35kg",
+      "options": [
+        "8 kg/m²",
+        "10 kg/m²",
+        "12 kg/m²",
+        "6 kg/m²"
+      ],
+      "correct": 0
+    },
+    "90": {
+      "qid": 90,
+      "topic": "Aerodynamics",
+      "pos": 6,
+      "total_in_topic": 152,
+      "text": "What is the aspect ratio of a modern intermediate paraglider?",
+      "options": [
+        "approximately 12-14",
+        "approximately 3-4",
+        "approximately 5-6",
+        "approximately 8-10"
+      ],
+      "correct": 2
+    },
+    "91": {
+      "qid": 91,
+      "topic": "Aerodynamics",
+      "pos": 68,
+      "total_in_topic": 152,
+      "text": "What is a common aspect ratio on a modern intermediate hang glider?",
+      "options": [
+        "around 7",
+        "around 12",
+        "around 3",
+        "around 20"
+      ],
+      "correct": 0
+    },
+    "92": {
+      "qid": 92,
+      "topic": "Aerodynamics",
+      "pos": 36,
+      "total_in_topic": 152,
+      "text": "Which of the following gliders has the largest aspect ratio?",
+      "options": [
+        "surface area: 32m², span: 8m",
+        "surface area: 24m², span: 12m",
+        "surface area: 25m², span: 10m",
+        "surface area: 20m², span: 10m"
+      ],
+      "correct": 1
+    },
+    "94": {
+      "qid": 94,
+      "topic": "Aerodynamics",
+      "pos": 8,
+      "total_in_topic": 152,
+      "text": "Which of the following gliders has the largest aspect ratio?",
+      "options": [
+        "surface area: 16m², span: 12m",
+        "surface area: 12m², span: 12m",
+        "surface area: 20m², span: 10m",
+        "surface area: 12.5m², span: 10m"
+      ],
+      "correct": 1
+    },
+    "95": {
+      "qid": 95,
+      "topic": "Aerodynamics",
+      "pos": 38,
+      "total_in_topic": 152,
+      "text": "Which of the following gliders has the smallest aspect ratio?",
+      "options": [
+        "surface area: 12.5m², span: 10m",
+        "surface area: 12m², span: 12m",
+        "surface area: 16m², span: 12m",
+        "surface area: 20m², span: 10m"
+      ],
+      "correct": 3
+    },
+    "96": {
+      "qid": 96,
+      "topic": "Aerodynamics",
+      "pos": 64,
+      "total_in_topic": 152,
+      "text": "Tip vortices occur during flight because",
+      "options": [
+        "the cables and suspension lines produce eddies that are deflected upward.",
+        "there is a difference of pressure between the lower and upper surfaces.",
+        "the wingtips are poorly designed.",
+        "the boundary layer behind the transition point changes to turbulent flow."
+      ],
+      "correct": 1
+    },
+    "98": {
+      "qid": 98,
+      "topic": "Aerodynamics",
+      "pos": 66,
+      "total_in_topic": 152,
+      "text": "If the drag of a glider is increased",
+      "options": [
+        "the glide angle increases.",
+        "the glide angle decreases.",
+        "the glide angle decreases to a point and then increases abruptly.",
+        "this has no effect on the glide angle."
+      ],
+      "correct": 0
+    },
+    "107": {
+      "qid": 107,
+      "topic": "Aerodynamics",
+      "pos": 49,
+      "total_in_topic": 152,
+      "text": "Which of the following numbers represents the glide angle and drag? (Forces in balance in stable flight)",
+      "options": [
+        "1 and 3",
+        "4 and 5",
+        "4 and 3",
+        "1 and 5"
+      ],
+      "correct": 0
+    },
+    "112": {
+      "qid": 112,
+      "topic": "Aerodynamics",
+      "pos": 22,
+      "total_in_topic": 152,
+      "text": "On a paraglider the movement about the transverse axis is called",
+      "options": [
+        "Yaw.",
+        "Spin.",
+        "Pitch.",
+        "Roll."
+      ],
+      "correct": 2
+    },
+    "114": {
+      "qid": 114,
+      "topic": "Aerodynamics",
+      "pos": 48,
+      "total_in_topic": 152,
+      "text": "A paraglider which continually increases speed unless the pilot actively intervenes has",
+      "options": [
+        "stable flight characteristics.",
+        "indifferent flight characteristics.",
+        "inverse flight characteristics.",
+        "unstable flight characteristics."
+      ],
+      "correct": 3
+    },
+    "115": {
+      "qid": 115,
+      "topic": "Aerodynamics",
+      "pos": 41,
+      "total_in_topic": 152,
+      "text": "A paraglider which, after an external disturbance or after a strong pilot input, continues to maintain that flight state without further action by the pilot, has",
+      "options": [
+        "inverse flight characteristics.",
+        "stable flight characteristics.",
+        "indifferent flight characteristics.",
+        "unstable flight characteristics."
+      ],
+      "correct": 2
+    },
+    "118": {
+      "qid": 118,
+      "topic": "Aerodynamics",
+      "pos": 33,
+      "total_in_topic": 152,
+      "text": "A paraglider which, without active pilot input, noticeably reduces its angle of attack is not",
+      "options": [
+        "transverse stable.",
+        "pitch stable.",
+        "directionally stable.",
+        "vertically/height stable."
+      ],
+      "correct": 1
+    },
+    "119": {
+      "qid": 119,
+      "topic": "Aerodynamics",
+      "pos": 1,
+      "total_in_topic": 152,
+      "text": "A paraglider which, without active pilot input, continually rolls about the longitudinal axis is not",
+      "options": [
+        "vertically/height stable.",
+        "directionally stable.",
+        "roll stable.",
+        "pitch stable."
+      ],
+      "correct": 2
+    },
+    "120": {
+      "qid": 120,
+      "topic": "Aerodynamics",
+      "pos": 55,
+      "total_in_topic": 152,
+      "text": "The glide ratio of a glider gives information about the relationship between",
+      "options": [
+        "lift and total weight.",
+        "thrust and drag.",
+        "thrust and total weight.",
+        "lift and drag."
+      ],
+      "correct": 3
+    },
+    "123": {
+      "qid": 123,
+      "topic": "Aerodynamics",
+      "pos": 57,
+      "total_in_topic": 152,
+      "text": "The glide ratio of a glider gives information about the relationship between",
+      "options": [
+        "the span and the average chord of the glider",
+        "the speed at best glide and the speed at minimum sink.",
+        "the horizontal distance and the height difference.",
+        "the thrust and the total weight"
+      ],
+      "correct": 2
+    },
+    "124": {
+      "qid": 124,
+      "topic": "Aerodynamics",
+      "pos": 19,
+      "total_in_topic": 152,
+      "text": "A paraglider with a glide ratio of 8 flies 800 m above the ground. What is the longest distance it can fly with this glide ratio in calm air?",
+      "options": [
+        "8.1 km",
+        "10.0 km",
+        "6.4 km",
+        "24.0 km"
+      ],
+      "correct": 2
+    },
+    "125": {
+      "qid": 125,
+      "topic": "Aerodynamics",
+      "pos": 7,
+      "total_in_topic": 152,
+      "text": "A paraglider with a glide ratio of 12 flies 2'400 m above the ground. What is the longest distance it can fly with this glide ratio in calm air?",
+      "options": [
+        "24.0 km",
+        "28.8 km",
+        "23.0 km",
+        "12.0 km"
+      ],
+      "correct": 1
+    },
+    "130": {
+      "qid": 130,
+      "topic": "Aerodynamics",
+      "pos": 52,
+      "total_in_topic": 152,
+      "text": "What is the speed of the following glider at its best glide angle?",
+      "options": [
+        "9.2m/s (33 km/h)",
+        "7.2m/s (26 km/h)",
+        "5.6m/s (20 km/h)",
+        "11.3m/s (41 km/s)"
+      ],
+      "correct": 0
+    },
+    "131": {
+      "qid": 131,
+      "topic": "Aerodynamics",
+      "pos": 5,
+      "total_in_topic": 152,
+      "text": "What is the best glide ratio of the following glider?",
+      "options": [
+        "3.7",
+        "4.7",
+        "6.8",
+        "5.3"
+      ],
+      "correct": 3
+    },
+    "132": {
+      "qid": 132,
+      "topic": "Aerodynamics",
+      "pos": 3,
+      "total_in_topic": 152,
+      "text": "What is the speed corresponding to minimum sink of the following paraglider?",
+      "options": [
+        "5.6 m/s (20 km/h)",
+        "7.2 m/s (26 km/h)",
+        "11.3 m/s (41 km/h)",
+        "9.2 m/s (33 km/h)"
+      ],
+      "correct": 1
+    },
+    "134": {
+      "qid": 134,
+      "topic": "Aerodynamics",
+      "pos": 23,
+      "total_in_topic": 152,
+      "text": "What is the minimum speed of the following glider?",
+      "options": [
+        "5.6 m/s (20 km/h)",
+        "4.2 m/s (15km/h)",
+        "7.2 m/s (26 km/h)",
+        "9.2 m/s (33 km/h)"
+      ],
+      "correct": 0
+    },
+    "135": {
+      "qid": 135,
+      "topic": "Aerodynamics",
+      "pos": 53,
+      "total_in_topic": 152,
+      "text": "What is the glide ratio of the following glider if it is flying at minimum speed?",
+      "options": [
+        "4.6",
+        "5.3",
+        "2.0",
+        "3.7"
+      ],
+      "correct": 2
+    },
+    "136": {
+      "qid": 136,
+      "topic": "Aerodynamics",
+      "pos": 44,
+      "total_in_topic": 152,
+      "text": "What is the glide ratio of the following paraglider if it is flying at maximum speed?",
+      "options": [
+        "2.0",
+        "3.7",
+        "5.3",
+        "4.6"
+      ],
+      "correct": 1
+    },
+    "137": {
+      "qid": 137,
+      "topic": "Aerodynamics",
+      "pos": 15,
+      "total_in_topic": 152,
+      "text": "At what speed should the following glider fly in order to go the furthest possible distance if it has a head wind of 8 m/s (29 km/h)?",
+      "options": [
+        "9 m/s (32 km/h)",
+        "11 m/s (40 km/h)",
+        "7 m/s (25 km/h)",
+        "With its maximum speed"
+      ],
+      "correct": 3
+    },
+    "138": {
+      "qid": 138,
+      "topic": "Aerodynamics",
+      "pos": 54,
+      "total_in_topic": 152,
+      "text": "Paraglider X has a glide ratio of 10, Paraglider Y has a glide ratio of 5. What conclusions can be drawn?",
+      "options": [
+        "Y has a sink rate double that of X.",
+        "X flies twice as far as Y.",
+        "X flies half as far as Y.",
+        "Y has a sink rate half that of X."
+      ],
+      "correct": 1
+    },
+    "139": {
+      "qid": 139,
+      "topic": "Aerodynamics",
+      "pos": 18,
+      "total_in_topic": 152,
+      "text": "A paraglider is flying in a zone of sink. To get the best glide the pilot flies at",
+      "options": [
+        "the speed for minimum sink.",
+        "the speed for best glide in calm air.",
+        "the average between the speed for best glide and speed for minimum sink.",
+        "a speed faster than the speed for best glide in calm air."
+      ],
+      "correct": 3
+    },
+    "140": {
+      "qid": 140,
+      "topic": "Aerodynamics",
+      "pos": 14,
+      "total_in_topic": 152,
+      "text": "In order to get the best glide performance in relation to the ground in a head wind, a paraglider should fly at",
+      "options": [
+        "the speed for best glide in calm air.",
+        "the speed for minimum sink.",
+        "a speed faster than the speed for best glide in calm air.",
+        "the average between the speed for best glide and speed for minimum sink."
+      ],
+      "correct": 2
+    },
+    "142": {
+      "qid": 142,
+      "topic": "Aerodynamics",
+      "pos": 34,
+      "total_in_topic": 152,
+      "text": "A hang glider pilot flies at 36 km/h (10 m/s) with a sink rate of 1 m/s. He reaches an area of sink where the air descends at 1 m/s. What happens if the glider maintains its speed?",
+      "options": [
+        "The sink rate and the glide ratio decrease.",
+        "The sink rate and the glide ratio increase.",
+        "Its glide ratio will reduce from 10 to 5.",
+        "Its glide ratio will increase from 5 to 10."
+      ],
+      "correct": 2
+    },
+    "143": {
+      "qid": 143,
+      "topic": "Aerodynamics",
+      "pos": 20,
+      "total_in_topic": 152,
+      "text": "A paraglider flies at a speed of 54 km/h (15 m/s) and has a sink rate of 2m/s. It encounters a head wind of 18 km/h (5m/s). What is its sink rate and forwards speed in relation to the ground?",
+      "options": [
+        "sink rate: 2 m/s, Groundspeed: 36 km/h (10 m/s)",
+        "sink rate: 2 m/s, Groundspeed: 72 km/h (20 m/s)",
+        "sink rate: 2 m/s, Groundspeed: 54 km/h (15 m/s)",
+        "sink rate: 3 m/s, Groundspeed: 54 km/h (15 m/s)"
+      ],
+      "correct": 0
+    },
+    "144": {
+      "qid": 144,
+      "topic": "Aerodynamics",
+      "pos": 43,
+      "total_in_topic": 152,
+      "text": "A paraglider flies at a speed of 54 km/h (1 5m/s) and has a sink rate of 2m/s. It encounters a head wind of 18 km/h (5 m/s). What will its glide ratio be?",
+      "options": [
+        "10.0",
+        "7.5",
+        "5.0",
+        "6.0"
+      ],
+      "correct": 2
+    },
+    "145": {
+      "qid": 145,
+      "topic": "Aerodynamics",
+      "pos": 71,
+      "total_in_topic": 152,
+      "text": "A hang glider flies in calm air with a glide ratio of 10 and a speed of 43 km/h (about 12 m/s). Its sink rate is:",
+      "options": [
+        "around 1.0 m/s",
+        "around 1.5 m/s",
+        "around 1.2 m/s",
+        "around 1.8 m/s"
+      ],
+      "correct": 2
+    },
+    "146": {
+      "qid": 146,
+      "topic": "Aerodynamics",
+      "pos": 27,
+      "total_in_topic": 152,
+      "text": "A paraglider flies with a glide ratio of 8. When it flies a distance of 1'600m in calm air how much altitude will it lose?",
+      "options": [
+        "240 m",
+        "180 m",
+        "200 m",
+        "150 m"
+      ],
+      "correct": 2
+    },
+    "148": {
+      "qid": 148,
+      "topic": "Aerodynamics",
+      "pos": 37,
+      "total_in_topic": 152,
+      "text": "A paraglider flies with a forward speed of 32.4 km/h (9 m/s) in calm air with a sink rate of 1.5 m/s. What is its glide ratio?",
+      "options": [
+        "6.0",
+        "5.5",
+        "7.0",
+        "6.5"
+      ],
+      "correct": 0
+    }
+  },
+  "topics": {
+    "Aerodynamics": 152
+  }
+}
