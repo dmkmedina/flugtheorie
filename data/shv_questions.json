@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-05-28T15:17:26.780Z",
+  "fetchedAt": "2026-05-28T15:17:57.645Z",
   "questions": {
     "1": {
       "qid": 1,
@@ -5629,6 +5629,118 @@
         "decreases mechanical strength.",
         "reduces UV sensitivity.",
         "increases elasticity."
+      ],
+      "correct": 2
+    },
+    "Materials_35": {
+      "qid": 35,
+      "topic": "Materials",
+      "pos": 83,
+      "total_in_topic": 125,
+      "text": "If the core is made from a material where the elasticity is very small, should we expect long term changes in the length of the suspension lines?",
+      "options": [
+        "Yes, definitely with temperatures over 60° C.",
+        "Yes, as all materals under continuous load significantly change their length.",
+        "Yes, especially because the outer coating tends to shrink and therefore shorten the lines.",
+        "No, lines made from materials with minimal stretch never change their length significantly."
+      ],
+      "correct": 2
+    },
+    "Materials_41": {
+      "qid": 41,
+      "topic": "Materials",
+      "pos": 85,
+      "total_in_topic": 125,
+      "text": "What is the advantage of suspension lines looped as opposed to sewn to the cloth of the glider?",
+      "options": [
+        "Maintenance is easier as damaged lines may be easily replaced.",
+        "The looped connections are aerodynamically more efficient and are therefore used on all modern high performance gliders.",
+        "Looped connections hold better as the line is not weakened by the sewing.",
+        "None. It is a purely cosmetic measure."
+      ],
+      "correct": 0
+    },
+    "Materials_27": {
+      "qid": 27,
+      "topic": "Materials",
+      "pos": 86,
+      "total_in_topic": 125,
+      "text": "In which direction can the loading on ripstop material over a period of time cause the most deformities?",
+      "options": [
+        "Loads vertical (at 90 degrees) to the material.",
+        "Loads parallel to the \"warp\" thread direction in the cloth.",
+        "Loads diagonally across the material in relation to the structure of the fabric.",
+        "Loads parallel to the \"weft\" thread direction in the cloth."
+      ],
+      "correct": 2
+    },
+    "Materials_29": {
+      "qid": 29,
+      "topic": "Materials",
+      "pos": 87,
+      "total_in_topic": 125,
+      "text": "How do you distinguish the different groups of lines on a paraglider?",
+      "options": [
+        "By their diameter; eg. 0.9mm, 1.3mm, 1.5mm.",
+        "By their point of attachment to the wing; eg. A, B, C, D-lines.",
+        "By their materials; eg. polyester, dyneema, kevlar, polyamide.",
+        "By their colour; eg. yellow, red lines."
+      ],
+      "correct": 1
+    },
+    "Materials_86": {
+      "qid": 86,
+      "topic": "Materials",
+      "pos": 88,
+      "total_in_topic": 125,
+      "text": "Harnesses with built-in back protection",
+      "options": [
+        "are compulsory for all candidates of pilot exams.",
+        "increase passive safety but in no way mean that launch and landing procedures should be disregarded.",
+        "are compulsory for participants of SHV organised competitions.",
+        "should only be used if the pilot believes it is an absolute necessary as they admit to having difficulty starting and landing."
+      ],
+      "correct": 1
+    },
+    "Materials_64": {
+      "qid": 64,
+      "topic": "Materials",
+      "pos": 89,
+      "total_in_topic": 125,
+      "text": "A glider is equipped with A,B,C and D risers. Which risers on this wing have the least load in stable flight?",
+      "options": [
+        "The A risers.",
+        "The B risers.",
+        "The C risers.",
+        "The D risers."
+      ],
+      "correct": 3
+    },
+    "Materials_31": {
+      "qid": 31,
+      "topic": "Materials",
+      "pos": 91,
+      "total_in_topic": 125,
+      "text": "What requirements among others must modern suspension lines satisfy?",
+      "options": [
+        "Low elasticity, high load capacity with a minimum diameter.",
+        "High elasticity, high load capacity with a minimum diameter.",
+        "High elasticity, low load capacity with a minimum diameter.",
+        "Low elasticity, low load capacity with a minimum diameter."
+      ],
+      "correct": 0
+    },
+    "Materials_21": {
+      "qid": 21,
+      "topic": "Materials",
+      "pos": 92,
+      "total_in_topic": 125,
+      "text": "The load suffered by the cell walls is highest",
+      "options": [
+        "at the rear half of the wing where the suspension lines are attached.",
+        "between the suspension line connection points at the rear half of the wing.",
+        "at the front half of the wing where the suspension lines are attached.",
+        "between the suspension line connection points at the front half of the wing."
       ],
       "correct": 2
     }
