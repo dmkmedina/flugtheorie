@@ -2119,3 +2119,12 @@ code, .mono { font-family: "SF Mono", Menlo, Consolas, monospace; font-size: 13p
   font-weight: 600;
 }
 
+.shv-subcat-tag {
+  display: inline-block;
+  font-size: 11px;
+  color: var(--text-soft);
+  margin-left: 4px;
+  font-weight: 500;
+  font-style: italic;
+}
+

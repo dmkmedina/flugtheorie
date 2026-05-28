@@ -33,7 +33,7 @@ const DEFAULT_STATE = {
     answers: [],                        // selected option indexes (null = skipped)
     flagged: [],
     current: 0,
-    setup: { topic: 'all', count: 100 },
+    setup: { topic: 'all', subcategory: 'all', count: 100 },
     history: []
   },
   // guide
@@ -119,6 +119,18 @@ function getSHVEnrichmentFor(qid) {
   // qid may be a number OR a compound "Topic_<num>" string.
   const e = getSHVEnrichments();
   return e[qid] || e[String(qid)] || null;
+}
+function getSHVSubcategories() {
+  return (window.SHV_ENRICHMENTS && window.SHV_ENRICHMENTS.subcategories) || {};
+}
+function getSHVSubcategoriesForTopic(topic) {
+  return getSHVSubcategories()[topic] || [];
+}
+function getSHVSubcategoryFor(qid) {
+  const e = getSHVEnrichmentFor(qid);
+  if (!e || !e.subcategory) return null;
+  const subs = getSHVSubcategoriesForTopic(e.topic);
+  return subs.find(s => s.id === e.subcategory) || { id: e.subcategory, title: e.subcategory };
 }
 function getGuide() { return window.GUIDE || { parts: [] }; }
 function getTipsMd() { return window.TIPS_MD || ''; }
@@ -1243,6 +1255,13 @@ function buildSHVExamSet() {
   let pool = [];
   if (setup.topic && setup.topic !== 'all' && byTopic[setup.topic]) {
     pool = byTopic[setup.topic].slice();
+    // Optional subcategory filter (only relevant when a specific topic is picked)
+    if (setup.subcategory && setup.subcategory !== 'all') {
+      pool = pool.filter(q => {
+        const e = getSHVEnrichmentFor(`${q.topic}_${q.qid}`);
+        return e && e.subcategory === setup.subcategory;
+      });
+    }
   } else {
     // 'all' — proportional draw mirroring the real-exam category mix
     const topics = Object.keys(byTopic);
@@ -1252,9 +1271,6 @@ function buildSHVExamSet() {
     }
   }
   pool = shuffle(pool).slice(0, requested);
-  // The pool is now keyed by `${topic}_${qid}` so the live renderer can do a
-  // direct lookup. Emit those compound keys instead of just q.qid (which
-  // collides across topics — Aerodynamics_1 and Materials_1 are distinct).
   return pool.map(q => `${q.topic}_${q.qid}`);
 }
 
@@ -1307,6 +1323,7 @@ function finishSHVExam() {
   const sections = {};
   let totalRight = 0;
   const wrong = [];
+  const subSections = {};  // by-subcategory breakdown
   state.shvExam.qids.forEach((qid, i) => {
     const q = pool[qid]; if (!q) return;
     const sec = sections[q.topic] = sections[q.topic] || { total: 0, right: 0 };
@@ -1315,6 +1332,14 @@ function finishSHVExam() {
     const correct = ans === q.correct;
     if (correct) { sec.right++; totalRight++; }
     else { wrong.push({ qid, picked: ans }); }
+    // Subcategory roll-up
+    const subcat = getSHVSubcategoryFor(qid);
+    if (subcat) {
+      const key = `${q.topic}::${subcat.id}`;
+      const ss = subSections[key] = subSections[key] || { topic: q.topic, id: subcat.id, title: subcat.title, total: 0, right: 0 };
+      ss.total++;
+      if (correct) ss.right++;
+    }
   });
   // Real SHV: ≥ 75% per section to pass. Auto-relax to 60% on shorter practice
   // exams since per-section sample size is tiny.
@@ -1328,6 +1353,7 @@ function finishSHVExam() {
     scorePct: Math.round(100 * totalRight / state.shvExam.qids.length),
     passed,
     sections,
+    subSections,
     wrong,
     pass_threshold_pct: Math.round(minPct * 100),
     setup: { ...state.shvExam.setup },
@@ -1362,6 +1388,33 @@ function renderSHVExamSetup() {
     return `<option value="${escapeHtml(t)}" ${setup.topic === t ? 'selected' : ''}>${escapeHtml(label)}</option>`;
   }).join('');
 
+  // Subcategory filter — only shown when a specific topic is chosen
+  let subcategoryFilter = '';
+  if (setup.topic && setup.topic !== 'all') {
+    const subs = getSHVSubcategoriesForTopic(setup.topic);
+    if (subs.length > 0) {
+      // Count questions per subcategory in this topic
+      const counts = {};
+      for (const q of byTopic[setup.topic] || []) {
+        const e = getSHVEnrichmentFor(`${q.topic}_${q.qid}`);
+        const sid = (e && e.subcategory) || 'unassigned';
+        counts[sid] = (counts[sid] || 0) + 1;
+      }
+      const subOptions = ['all', ...subs.map(s => s.id)].map(sid => {
+        if (sid === 'all') return `<option value="all" ${setup.subcategory === 'all' || !setup.subcategory ? 'selected' : ''}>All subtopics (${byTopic[setup.topic].length})</option>`;
+        const s = subs.find(x => x.id === sid);
+        const n = counts[sid] || 0;
+        return `<option value="${escapeHtml(sid)}" ${setup.subcategory === sid ? 'selected' : ''}>${escapeHtml(s.title)} (${n})</option>`;
+      }).join('');
+      subcategoryFilter = `
+        <div style="flex:1; min-width:220px;">
+          <label class="muted" style="font-size:12px;">Subtopic</label>
+          <select id="shv-setup-subcategory" class="form-select" style="width:100%;">${subOptions}</select>
+        </div>
+      `;
+    }
+  }
+
   return `
     <div class="page-header">
       <h1>🎯 SHV Practice Exam</h1>
@@ -1374,6 +1427,7 @@ function renderSHVExamSetup() {
           <label class="muted" style="font-size:12px;">Topic</label>
           <select id="shv-setup-topic" class="form-select" style="width:100%;">${topicOptions}</select>
         </div>
+        ${subcategoryFilter}
         <div style="flex:1; min-width:180px;">
           <label class="muted" style="font-size:12px;">Question count</label>
           <select id="shv-setup-count" class="form-select" style="width:100%;">
@@ -1531,6 +1585,7 @@ function renderSHVExamLive() {
   const q = pool[qid];
   if (!q) return `<div class="empty"><div>Question ${qid} missing from pool.</div></div>`;
   const meta = shvTopicMeta(q.topic);
+  const subcat = getSHVSubcategoryFor(qid);
   const markers = ['A', 'B', 'C', 'D'];
   const mode = state.shvExam.mode || 'exam';
   const isStudy = mode === 'study';
@@ -1563,7 +1618,10 @@ function renderSHVExamLive() {
     </div>
     <div class="flashcard">
       <div class="fc-meta">
-        <div><span class="cat-dot" style="background:${meta.color}"></span>${meta.icon} ${escapeHtml(q.topic)}</div>
+        <div>
+          <span class="cat-dot" style="background:${meta.color}"></span>${meta.icon} ${escapeHtml(q.topic)}
+          ${subcat ? `<span class="shv-subcat-tag" title="${escapeHtml(subcat.description || '')}">· ${escapeHtml(subcat.title)}</span>` : ''}
+        </div>
         <div>
           ${!isStudy ? `<button class="btn small ${state.shvExam.flagged.includes(i) ? 'primary' : ''}" id="shv-exam-flag">${state.shvExam.flagged.includes(i) ? '🚩 Flagged' : '🚩 Flag'}</button>` : ''}
         </div>
@@ -1677,6 +1735,30 @@ function renderSHVExamResult(r) {
         ${sectionsHtml}
       </div>
     </div>
+    ${r.subSections && Object.keys(r.subSections).length > 0 ? `
+      <div class="card" style="margin-top:18px;">
+        <h3 style="margin-top:0;">Per-subtopic breakdown</h3>
+        <p class="muted" style="font-size:12px; margin:-4px 0 10px;">Where to grind: subtopics you got wrong are likely where you need targeted study.</p>
+        ${Object.entries(r.subSections).sort(([,a],[,b]) => {
+          const aPct = a.right / a.total, bPct = b.right / b.total;
+          return aPct - bPct; // weakest first
+        }).map(([key, s]) => {
+          const meta = shvTopicMeta(s.topic);
+          const pct = s.total ? Math.round(100 * s.right / s.total) : 0;
+          const pass = pct >= r.pass_threshold_pct;
+          return `
+            <div class="exam-section-row" style="border-bottom:1px solid var(--border);">
+              <div class="name" style="font-size:13px;">
+                <span style="color:${meta.color}; font-size:11px;">${meta.icon} ${escapeHtml(s.topic)}</span>
+                <span> · ${escapeHtml(s.title)}</span>
+              </div>
+              <div class="score">${s.right}/${s.total} (${pct}%)</div>
+              <div class="verdict ${pass ? 'pass' : 'fail'}" style="font-size:11px;">${pass ? '✓' : '✗'}</div>
+            </div>
+          `;
+        }).join('')}
+      </div>
+    ` : ''}
     <div class="row" style="margin-top:18px; flex-wrap:wrap;">
       <button class="btn primary" id="shv-exam-new">↻ New timed exam</button>
       <button class="btn" id="shv-study-new">🎓 Study mode</button>
@@ -1688,7 +1770,14 @@ function renderSHVExamResult(r) {
 
 function attachSHVExamEvents() {
   const topicSel = document.getElementById('shv-setup-topic');
-  if (topicSel) topicSel.onchange = (e) => { state.shvExam.setup.topic = e.target.value; saveState(); render(); };
+  if (topicSel) topicSel.onchange = (e) => {
+    state.shvExam.setup.topic = e.target.value;
+    state.shvExam.setup.subcategory = 'all'; // reset subcategory when topic changes
+    saveState();
+    render();
+  };
+  const subcatSel = document.getElementById('shv-setup-subcategory');
+  if (subcatSel) subcatSel.onchange = (e) => { state.shvExam.setup.subcategory = e.target.value; saveState(); render(); };
   const countSel = document.getElementById('shv-setup-count');
   if (countSel) countSel.onchange = (e) => { state.shvExam.setup.count = parseInt(e.target.value, 10); saveState(); render(); };
 

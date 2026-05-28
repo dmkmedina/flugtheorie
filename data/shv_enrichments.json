@@ -35,7 +35,8 @@
           "deck_id": "aerodynamik",
           "page": 9
         }
-      ]
+      ],
+      "subcategory": "vectors-and-forces"
     },
     "Aerodynamics_2": {
       "qid": 2,
@@ -72,7 +73,8 @@
           "deck_id": "aerodynamik",
           "page": 10
         }
-      ]
+      ],
+      "subcategory": "vectors-and-forces"
     },
     "Aerodynamics_3": {
       "qid": 3,
@@ -105,7 +107,8 @@
           "deck_id": "aerodynamik",
           "page": 8
         }
-      ]
+      ],
+      "subcategory": "vectors-and-forces"
     },
     "Aerodynamics_4": {
       "qid": 4,
@@ -138,7 +141,8 @@
           "deck_id": "aerodynamik",
           "page": 8
         }
-      ]
+      ],
+      "subcategory": "vectors-and-forces"
     },
     "Aerodynamics_5": {
       "qid": 5,
@@ -171,7 +175,8 @@
           "deck_id": "aerodynamik",
           "page": 8
         }
-      ]
+      ],
+      "subcategory": "vectors-and-forces"
     },
     "Aerodynamics_6": {
       "qid": 6,
@@ -208,7 +213,8 @@
           "deck_id": "aerodynamik",
           "page": 15
         }
-      ]
+      ],
+      "subcategory": "drag-fundamentals"
     },
     "Aerodynamics_7": {
       "qid": 7,
@@ -241,7 +247,8 @@
           "deck_id": "aerodynamik",
           "page": 15
         }
-      ]
+      ],
+      "subcategory": "drag-scaling"
     },
     "Aerodynamics_8": {
       "qid": 8,
@@ -274,7 +281,8 @@
           "deck_id": "aerodynamik",
           "page": 15
         }
-      ]
+      ],
+      "subcategory": "drag-scaling"
     },
     "Aerodynamics_9": {
       "qid": 9,
@@ -307,7 +315,8 @@
           "deck_id": "aerodynamik",
           "page": 15
         }
-      ]
+      ],
+      "subcategory": "drag-scaling"
     },
     "Aerodynamics_10": {
       "qid": 10,
@@ -344,7 +353,8 @@
           "deck_id": "aerodynamik",
           "page": 16
         }
-      ]
+      ],
+      "subcategory": "drag-scaling"
     },
     "Aerodynamics_11": {
       "qid": 11,
@@ -377,7 +387,8 @@
           "deck_id": "aerodynamik",
           "page": 15
         }
-      ]
+      ],
+      "subcategory": "drag-scaling"
     },
     "Aerodynamics_12": {
       "qid": 12,
@@ -410,7 +421,8 @@
           "deck_id": "aerodynamik",
           "page": 15
         }
-      ]
+      ],
+      "subcategory": "drag-scaling"
     },
     "Aerodynamics_13": {
       "qid": 13,
@@ -443,7 +455,8 @@
           "deck_id": "aerodynamik",
           "page": 15
         }
-      ]
+      ],
+      "subcategory": "drag-scaling"
     },
     "Aerodynamics_14": {
       "qid": 14,
@@ -476,7 +489,8 @@
           "deck_id": "aerodynamik",
           "page": 15
         }
-      ]
+      ],
+      "subcategory": "drag-fundamentals"
     },
     "Aerodynamics_15": {
       "qid": 15,
@@ -509,7 +523,8 @@
           "deck_id": "aerodynamik",
           "page": 15
         }
-      ]
+      ],
+      "subcategory": "drag-scaling"
     },
     "Aerodynamics_16": {
       "qid": 16,
@@ -542,7 +557,8 @@
           "deck_id": "aerodynamik",
           "page": 15
         }
-      ]
+      ],
+      "subcategory": "drag-scaling"
     },
     "Aerodynamics_17": {
       "qid": 17,
@@ -575,7 +591,8 @@
           "deck_id": "aerodynamik",
           "page": 15
         }
-      ]
+      ],
+      "subcategory": "drag-scaling"
     },
     "Aerodynamics_18": {
       "qid": 18,
@@ -608,7 +625,8 @@
           "deck_id": "aerodynamik",
           "page": 15
         }
-      ]
+      ],
+      "subcategory": "drag-scaling"
     },
     "Aerodynamics_19": {
       "qid": 19,
@@ -645,7 +663,8 @@
           "deck_id": "aerodynamik",
           "page": 16
         }
-      ]
+      ],
+      "subcategory": "drag-scaling"
     },
     "Aerodynamics_20": {
       "qid": 20,
@@ -682,7 +701,8 @@
           "deck_id": "aerodynamik",
           "page": 16
         }
-      ]
+      ],
+      "subcategory": "drag-scaling"
     },
     "Aerodynamics_21": {
       "qid": 21,
@@ -715,7 +735,8 @@
           "deck_id": "aerodynamik",
           "page": 15
         }
-      ]
+      ],
+      "subcategory": "drag-scaling"
     },
     "Aerodynamics_22": {
       "qid": 22,
@@ -752,7 +773,8 @@
           "deck_id": "aerodynamik",
           "page": 16
         }
-      ]
+      ],
+      "subcategory": "drag-scaling"
     },
     "Aerodynamics_23": {
       "qid": 23,
@@ -789,7 +811,8 @@
           "deck_id": "aerodynamik",
           "page": 17
         }
-      ]
+      ],
+      "subcategory": "drag-fundamentals"
     },
     "Aerodynamics_24": {
       "qid": 24,
@@ -826,7 +849,8 @@
           "deck_id": "aerodynamik",
           "page": 17
         }
-      ]
+      ],
+      "subcategory": "drag-scaling"
     },
     "Aerodynamics_25": {
       "qid": 25,
@@ -863,7 +887,8 @@
           "deck_id": "aerodynamik",
           "page": 17
         }
-      ]
+      ],
+      "subcategory": "drag-scaling"
     },
     "Aerodynamics_26": {
       "qid": 26,
@@ -896,7 +921,8 @@
           "deck_id": "aerodynamik",
           "page": 17
         }
-      ]
+      ],
+      "subcategory": "air-density-altitude"
     },
     "Aerodynamics_27": {
       "qid": 27,
@@ -929,7 +955,8 @@
           "deck_id": "aerodynamik",
           "page": 17
         }
-      ]
+      ],
+      "subcategory": "air-density-altitude"
     },
     "Aerodynamics_28": {
       "qid": 28,
@@ -962,7 +989,8 @@
           "deck_id": "aerodynamik",
           "page": 17
         }
-      ]
+      ],
+      "subcategory": "air-density-altitude"
     },
     "Aerodynamics_29": {
       "qid": 29,
@@ -988,7 +1016,8 @@
           "deck_id": "aerodynamik",
           "page": 17
         }
-      ]
+      ],
+      "subcategory": "air-density-altitude"
     },
     "Aerodynamics_30": {
       "qid": 30,
@@ -1014,7 +1043,8 @@
           "deck_id": "aerodynamik",
           "page": 17
         }
-      ]
+      ],
+      "subcategory": "air-density-altitude"
     },
     "Aerodynamics_31": {
       "qid": 31,
@@ -1040,7 +1070,8 @@
           "deck_id": "aerodynamik",
           "page": 17
         }
-      ]
+      ],
+      "subcategory": "air-density-altitude"
     },
     "Aerodynamics_32": {
       "qid": 32,
@@ -1073,7 +1104,8 @@
           "deck_id": "aerodynamik",
           "page": 18
         }
-      ]
+      ],
+      "subcategory": "drag-fundamentals"
     },
     "Aerodynamics_33": {
       "qid": 33,
@@ -1106,7 +1138,8 @@
           "deck_id": "aerodynamik",
           "page": 18
         }
-      ]
+      ],
+      "subcategory": "drag-fundamentals"
     },
     "Aerodynamics_34": {
       "qid": 34,
@@ -1132,7 +1165,8 @@
           "deck_id": "aerodynamik",
           "page": 18
         }
-      ]
+      ],
+      "subcategory": "drag-fundamentals"
     },
     "Aerodynamics_35": {
       "qid": 35,
@@ -1158,7 +1192,8 @@
           "deck_id": "aerodynamik",
           "page": 18
         }
-      ]
+      ],
+      "subcategory": "drag-fundamentals"
     },
     "Aerodynamics_36": {
       "qid": 36,
@@ -1191,7 +1226,8 @@
           "deck_id": "aerodynamik",
           "page": 18
         }
-      ]
+      ],
+      "subcategory": "drag-fundamentals"
     },
     "Aerodynamics_37": {
       "qid": 37,
@@ -1224,7 +1260,8 @@
           "deck_id": "aerodynamik",
           "page": 18
         }
-      ]
+      ],
+      "subcategory": "drag-fundamentals"
     },
     "Aerodynamics_38": {
       "qid": 38,
@@ -1250,7 +1287,8 @@
           "deck_id": "aerodynamik",
           "page": 18
         }
-      ]
+      ],
+      "subcategory": "drag-fundamentals"
     },
     "Aerodynamics_39": {
       "qid": 39,
@@ -1276,7 +1314,8 @@
           "deck_id": "aerodynamik",
           "page": 18
         }
-      ]
+      ],
+      "subcategory": "drag-fundamentals"
     },
     "Aerodynamics_40": {
       "qid": 40,
@@ -1309,7 +1348,8 @@
           "deck_id": "aerodynamik",
           "page": 18
         }
-      ]
+      ],
+      "subcategory": "drag-fundamentals"
     },
     "Aerodynamics_41": {
       "qid": 41,
@@ -1335,7 +1375,8 @@
           "deck_id": "aerodynamik",
           "page": 18
         }
-      ]
+      ],
+      "subcategory": "drag-fundamentals"
     },
     "Aerodynamics_42": {
       "qid": 42,
@@ -1372,7 +1413,8 @@
           "deck_id": "aerodynamik",
           "page": 29
         }
-      ]
+      ],
+      "subcategory": "wing-profile-and-lift"
     },
     "Aerodynamics_43": {
       "qid": 43,
@@ -1409,7 +1451,8 @@
           "deck_id": "aerodynamik",
           "page": 29
         }
-      ]
+      ],
+      "subcategory": "wing-profile-and-lift"
     },
     "Aerodynamics_44": {
       "qid": 44,
@@ -1446,7 +1489,8 @@
           "deck_id": "aerodynamik",
           "page": 29
         }
-      ]
+      ],
+      "subcategory": "wing-profile-and-lift"
     },
     "Aerodynamics_45": {
       "qid": 45,
@@ -1476,7 +1520,8 @@
           "deck_id": "aerodynamik",
           "page": 29
         }
-      ]
+      ],
+      "subcategory": "wing-profile-and-lift"
     },
     "Aerodynamics_46": {
       "qid": 46,
@@ -1506,7 +1551,8 @@
           "deck_id": "aerodynamik",
           "page": 29
         }
-      ]
+      ],
+      "subcategory": "wing-profile-and-lift"
     },
     "Aerodynamics_47": {
       "qid": 47,
@@ -1539,7 +1585,8 @@
           "deck_id": "aerodynamik",
           "page": 7
         }
-      ]
+      ],
+      "subcategory": "wing-profile-and-lift"
     },
     "Aerodynamics_48": {
       "qid": 48,
@@ -1572,7 +1619,8 @@
           "deck_id": "aerodynamik",
           "page": 7
         }
-      ]
+      ],
+      "subcategory": "wing-profile-and-lift"
     },
     "Aerodynamics_49": {
       "qid": 49,
@@ -1605,7 +1653,8 @@
           "deck_id": "aerodynamik",
           "page": 19
         }
-      ]
+      ],
+      "subcategory": "angle-of-attack-and-stall"
     },
     "Aerodynamics_50": {
       "qid": 50,
@@ -1650,7 +1699,8 @@
           "deck_id": "aerodynamik",
           "page": 21
         }
-      ]
+      ],
+      "subcategory": "angle-of-attack-and-stall"
     },
     "Aerodynamics_51": {
       "qid": 51,
@@ -1676,7 +1726,8 @@
           "deck_id": "aerodynamik",
           "page": 19
         }
-      ]
+      ],
+      "subcategory": "angle-of-attack-and-stall"
     },
     "Aerodynamics_52": {
       "qid": 52,
@@ -1702,7 +1753,8 @@
           "deck_id": "aerodynamik",
           "page": 19
         }
-      ]
+      ],
+      "subcategory": "angle-of-attack-and-stall"
     },
     "Aerodynamics_53": {
       "qid": 53,
@@ -1728,7 +1780,8 @@
           "deck_id": "aerodynamik",
           "page": 19
         }
-      ]
+      ],
+      "subcategory": "angle-of-attack-and-stall"
     },
     "Aerodynamics_54": {
       "qid": 54,
@@ -1761,7 +1814,8 @@
           "deck_id": "aerodynamik",
           "page": 14
         }
-      ]
+      ],
+      "subcategory": "wing-profile-and-lift"
     },
     "Aerodynamics_55": {
       "qid": 55,
@@ -1787,7 +1841,8 @@
           "deck_id": "aerodynamik",
           "page": 14
         }
-      ]
+      ],
+      "subcategory": "wing-profile-and-lift"
     },
     "Aerodynamics_56": {
       "qid": 56,
@@ -1824,7 +1879,8 @@
           "deck_id": "aerodynamik",
           "page": 15
         }
-      ]
+      ],
+      "subcategory": "wing-profile-and-lift"
     },
     "Aerodynamics_57": {
       "qid": 57,
@@ -1857,7 +1913,8 @@
           "deck_id": "aerodynamik",
           "page": 37
         }
-      ]
+      ],
+      "subcategory": "angle-of-attack-and-stall"
     },
     "Aerodynamics_58": {
       "qid": 58,
@@ -1894,7 +1951,8 @@
           "deck_id": "aerodynamik",
           "page": 22
         }
-      ]
+      ],
+      "subcategory": "angle-of-attack-and-stall"
     },
     "Aerodynamics_59": {
       "qid": 59,
@@ -1927,7 +1985,8 @@
           "deck_id": "aerodynamik",
           "page": 20
         }
-      ]
+      ],
+      "subcategory": "angle-of-attack-and-stall"
     },
     "Aerodynamics_60": {
       "qid": 60,
@@ -1960,7 +2019,8 @@
           "deck_id": "aerodynamik",
           "page": 20
         }
-      ]
+      ],
+      "subcategory": "angle-of-attack-and-stall"
     },
     "Aerodynamics_61": {
       "qid": 61,
@@ -1993,7 +2053,8 @@
           "deck_id": "aerodynamik",
           "page": 19
         }
-      ]
+      ],
+      "subcategory": "angle-of-attack-and-stall"
     },
     "Aerodynamics_62": {
       "qid": 62,
@@ -2030,7 +2091,8 @@
           "deck_id": "aerodynamik",
           "page": 24
         }
-      ]
+      ],
+      "subcategory": "wing-profile-and-lift"
     },
     "Aerodynamics_63": {
       "qid": 63,
@@ -2063,7 +2125,8 @@
           "deck_id": "aerodynamik",
           "page": 23
         }
-      ]
+      ],
+      "subcategory": "wing-profile-and-lift"
     },
     "Aerodynamics_64": {
       "qid": 64,
@@ -2104,7 +2167,8 @@
           "deck_id": "aerodynamik",
           "page": 26
         }
-      ]
+      ],
+      "subcategory": "wing-profile-and-lift"
     },
     "Aerodynamics_65": {
       "qid": 65,
@@ -2137,7 +2201,8 @@
           "deck_id": "aerodynamik",
           "page": 23
         }
-      ]
+      ],
+      "subcategory": "wing-profile-and-lift"
     },
     "Aerodynamics_66": {
       "qid": 66,
@@ -2170,7 +2235,8 @@
           "deck_id": "aerodynamik",
           "page": 34
         }
-      ]
+      ],
+      "subcategory": "angle-of-attack-and-stall"
     },
     "Aerodynamics_67": {
       "qid": 67,
@@ -2203,7 +2269,8 @@
           "deck_id": "aerodynamik",
           "page": 34
         }
-      ]
+      ],
+      "subcategory": "angle-of-attack-and-stall"
     },
     "Aerodynamics_68": {
       "qid": 68,
@@ -2240,7 +2307,8 @@
           "deck_id": "aerodynamik",
           "page": 24
         }
-      ]
+      ],
+      "subcategory": "wing-profile-and-lift"
     },
     "Aerodynamics_69": {
       "qid": 69,
@@ -2277,7 +2345,8 @@
           "deck_id": "aerodynamik",
           "page": 26
         }
-      ]
+      ],
+      "subcategory": "wing-profile-and-lift"
     },
     "Aerodynamics_70": {
       "qid": 70,
@@ -2310,7 +2379,8 @@
           "deck_id": "aerodynamik",
           "page": 22
         }
-      ]
+      ],
+      "subcategory": "wing-profile-and-lift"
     },
     "Aerodynamics_71": {
       "qid": 71,
@@ -2343,7 +2413,8 @@
           "deck_id": "aerodynamik",
           "page": 23
         }
-      ]
+      ],
+      "subcategory": "wing-profile-and-lift"
     },
     "Aerodynamics_72": {
       "qid": 72,
@@ -2376,7 +2447,8 @@
           "deck_id": "aerodynamik",
           "page": 30
         }
-      ]
+      ],
+      "subcategory": "wing-geometry-loading"
     },
     "Aerodynamics_73": {
       "qid": 73,
@@ -2409,7 +2481,8 @@
           "deck_id": "aerodynamik",
           "page": 31
         }
-      ]
+      ],
+      "subcategory": "wing-geometry-loading"
     },
     "Aerodynamics_74": {
       "qid": 74,
@@ -2442,7 +2515,8 @@
           "deck_id": "aerodynamik",
           "page": 34
         }
-      ]
+      ],
+      "subcategory": "wing-geometry-loading"
     },
     "Aerodynamics_75": {
       "qid": 75,
@@ -2475,7 +2549,8 @@
           "deck_id": "aerodynamik",
           "page": 34
         }
-      ]
+      ],
+      "subcategory": "wing-geometry-loading"
     },
     "Aerodynamics_76": {
       "qid": 76,
@@ -2508,7 +2583,8 @@
           "deck_id": "aerodynamik",
           "page": 32
         }
-      ]
+      ],
+      "subcategory": "wing-geometry-loading"
     },
     "Aerodynamics_77": {
       "qid": 77,
@@ -2541,7 +2617,8 @@
           "deck_id": "aerodynamik",
           "page": 32
         }
-      ]
+      ],
+      "subcategory": "wing-geometry-loading"
     },
     "Aerodynamics_78": {
       "qid": 78,
@@ -2574,7 +2651,8 @@
           "deck_id": "aerodynamik",
           "page": 32
         }
-      ]
+      ],
+      "subcategory": "wing-geometry-loading"
     },
     "Aerodynamics_79": {
       "qid": 79,
@@ -2600,7 +2678,8 @@
           "deck_id": "aerodynamik",
           "page": 32
         }
-      ]
+      ],
+      "subcategory": "wing-geometry-loading"
     },
     "Aerodynamics_80": {
       "qid": 80,
@@ -2626,7 +2705,8 @@
           "deck_id": "aerodynamik",
           "page": 32
         }
-      ]
+      ],
+      "subcategory": "wing-geometry-loading"
     },
     "Aerodynamics_81": {
       "qid": 81,
@@ -2652,7 +2732,8 @@
           "deck_id": "aerodynamik",
           "page": 32
         }
-      ]
+      ],
+      "subcategory": "wing-geometry-loading"
     },
     "Aerodynamics_82": {
       "qid": 82,
@@ -2678,7 +2759,8 @@
           "deck_id": "aerodynamik",
           "page": 32
         }
-      ]
+      ],
+      "subcategory": "wing-geometry-loading"
     },
     "Aerodynamics_83": {
       "qid": 83,
@@ -2704,7 +2786,8 @@
           "deck_id": "aerodynamik",
           "page": 31
         }
-      ]
+      ],
+      "subcategory": "wing-geometry-loading"
     },
     "Aerodynamics_84": {
       "qid": 84,
@@ -2737,7 +2820,8 @@
           "deck_id": "aerodynamik",
           "page": 34
         }
-      ]
+      ],
+      "subcategory": "wing-geometry-loading"
     },
     "Aerodynamics_85": {
       "qid": 85,
@@ -2763,7 +2847,8 @@
           "deck_id": "aerodynamik",
           "page": 34
         }
-      ]
+      ],
+      "subcategory": "wing-geometry-loading"
     },
     "Aerodynamics_86": {
       "qid": 86,
@@ -2789,7 +2874,8 @@
           "deck_id": "aerodynamik",
           "page": 32
         }
-      ]
+      ],
+      "subcategory": "wing-geometry-loading"
     },
     "Aerodynamics_87": {
       "qid": 87,
@@ -2815,7 +2901,8 @@
           "deck_id": "aerodynamik",
           "page": 31
         }
-      ]
+      ],
+      "subcategory": "wing-geometry-loading"
     },
     "Aerodynamics_88": {
       "qid": 88,
@@ -2841,7 +2928,8 @@
           "deck_id": "aerodynamik",
           "page": 34
         }
-      ]
+      ],
+      "subcategory": "wing-geometry-loading"
     },
     "Aerodynamics_89": {
       "qid": 89,
@@ -2867,7 +2955,8 @@
           "deck_id": "aerodynamik",
           "page": 34
         }
-      ]
+      ],
+      "subcategory": "wing-geometry-loading"
     },
     "Aerodynamics_90": {
       "qid": 90,
@@ -2893,7 +2982,8 @@
           "deck_id": "aerodynamik",
           "page": 32
         }
-      ]
+      ],
+      "subcategory": "wing-geometry-loading"
     },
     "Aerodynamics_91": {
       "qid": 91,
@@ -2919,7 +3009,8 @@
           "deck_id": "aerodynamik",
           "page": 32
         }
-      ]
+      ],
+      "subcategory": "wing-geometry-loading"
     },
     "Aerodynamics_92": {
       "qid": 92,
@@ -2945,7 +3036,8 @@
           "deck_id": "aerodynamik",
           "page": 32
         }
-      ]
+      ],
+      "subcategory": "wing-geometry-loading"
     },
     "Aerodynamics_93": {
       "qid": 93,
@@ -2971,7 +3063,8 @@
           "deck_id": "aerodynamik",
           "page": 32
         }
-      ]
+      ],
+      "subcategory": "wing-geometry-loading"
     },
     "Aerodynamics_94": {
       "qid": 94,
@@ -2997,7 +3090,8 @@
           "deck_id": "aerodynamik",
           "page": 32
         }
-      ]
+      ],
+      "subcategory": "wing-geometry-loading"
     },
     "Aerodynamics_95": {
       "qid": 95,
@@ -3023,7 +3117,8 @@
           "deck_id": "aerodynamik",
           "page": 32
         }
-      ]
+      ],
+      "subcategory": "wing-geometry-loading"
     },
     "Aerodynamics_96": {
       "qid": 96,
@@ -3056,7 +3151,8 @@
           "deck_id": "aerodynamik",
           "page": 27
         }
-      ]
+      ],
+      "subcategory": "wing-profile-and-lift"
     },
     "Aerodynamics_97": {
       "qid": 97,
@@ -3089,7 +3185,8 @@
           "deck_id": "aerodynamik",
           "page": 27
         }
-      ]
+      ],
+      "subcategory": "wing-profile-and-lift"
     },
     "Aerodynamics_98": {
       "qid": 98,
@@ -3126,7 +3223,8 @@
           "deck_id": "aerodynamik",
           "page": 36
         }
-      ]
+      ],
+      "subcategory": "glide-ratio"
     },
     "Aerodynamics_99": {
       "qid": 99,
@@ -3159,7 +3257,8 @@
           "deck_id": "aerodynamik",
           "page": 35
         }
-      ]
+      ],
+      "subcategory": "glide-ratio"
     },
     "Aerodynamics_100": {
       "qid": 100,
@@ -3192,7 +3291,8 @@
           "deck_id": "aerodynamik",
           "page": 33
         }
-      ]
+      ],
+      "subcategory": "wing-geometry-loading"
     },
     "Aerodynamics_101": {
       "qid": 101,
@@ -3229,7 +3329,8 @@
           "deck_id": "aerodynamik",
           "page": 12
         }
-      ]
+      ],
+      "subcategory": "equilibrium-forces"
     },
     "Aerodynamics_102": {
       "qid": 102,
@@ -3262,7 +3363,8 @@
           "deck_id": "aerodynamik",
           "page": 11
         }
-      ]
+      ],
+      "subcategory": "equilibrium-forces"
     },
     "Aerodynamics_103": {
       "qid": 103,
@@ -3295,7 +3397,8 @@
           "deck_id": "aerodynamik",
           "page": 11
         }
-      ]
+      ],
+      "subcategory": "equilibrium-forces"
     },
     "Aerodynamics_104": {
       "qid": 104,
@@ -3332,7 +3435,8 @@
           "deck_id": "aerodynamik",
           "page": 12
         }
-      ]
+      ],
+      "subcategory": "equilibrium-forces"
     },
     "Aerodynamics_105": {
       "qid": 105,
@@ -3369,7 +3473,8 @@
           "deck_id": "aerodynamik",
           "page": 12
         }
-      ]
+      ],
+      "subcategory": "equilibrium-forces"
     },
     "Aerodynamics_106": {
       "qid": 106,
@@ -3406,7 +3511,8 @@
           "deck_id": "aerodynamik",
           "page": 12
         }
-      ]
+      ],
+      "subcategory": "equilibrium-forces"
     },
     "Aerodynamics_107": {
       "qid": 107,
@@ -3436,7 +3542,8 @@
           "deck_id": "aerodynamik",
           "page": 36
         }
-      ]
+      ],
+      "subcategory": "equilibrium-forces"
     },
     "Aerodynamics_108": {
       "qid": 108,
@@ -3466,7 +3573,8 @@
           "deck_id": "aerodynamik",
           "page": 11
         }
-      ]
+      ],
+      "subcategory": "equilibrium-forces"
     },
     "Aerodynamics_109": {
       "qid": 109,
@@ -3492,7 +3600,8 @@
           "deck_id": "aerodynamik",
           "page": 11
         }
-      ]
+      ],
+      "subcategory": "equilibrium-forces"
     },
     "Aerodynamics_110": {
       "qid": 110,
@@ -3522,7 +3631,8 @@
           "deck_id": "aerodynamik",
           "page": 19
         }
-      ]
+      ],
+      "subcategory": "equilibrium-forces"
     },
     "Aerodynamics_111": {
       "qid": 111,
@@ -3565,7 +3675,8 @@
           "deck_id": "aerodynamik",
           "page": 56
         }
-      ]
+      ],
+      "subcategory": "axes-stability-turns"
     },
     "Aerodynamics_112": {
       "qid": 112,
@@ -3608,7 +3719,8 @@
           "deck_id": "aerodynamik",
           "page": 57
         }
-      ]
+      ],
+      "subcategory": "axes-stability-turns"
     },
     "Aerodynamics_113": {
       "qid": 113,
@@ -3645,7 +3757,8 @@
           "deck_id": "aerodynamik",
           "page": 58
         }
-      ]
+      ],
+      "subcategory": "axes-stability-turns"
     },
     "Aerodynamics_114": {
       "qid": 114,
@@ -3682,7 +3795,8 @@
           "deck_id": "aerodynamik",
           "page": 60
         }
-      ]
+      ],
+      "subcategory": "axes-stability-turns"
     },
     "Aerodynamics_115": {
       "qid": 115,
@@ -3719,7 +3833,8 @@
           "deck_id": "aerodynamik",
           "page": 61
         }
-      ]
+      ],
+      "subcategory": "axes-stability-turns"
     },
     "Aerodynamics_116": {
       "qid": 116,
@@ -3752,7 +3867,8 @@
           "deck_id": "aerodynamik",
           "page": 59
         }
-      ]
+      ],
+      "subcategory": "axes-stability-turns"
     },
     "Aerodynamics_117": {
       "qid": 117,
@@ -3778,7 +3894,8 @@
           "deck_id": "aerodynamik",
           "page": 58
         }
-      ]
+      ],
+      "subcategory": "axes-stability-turns"
     },
     "Aerodynamics_118": {
       "qid": 118,
@@ -3804,7 +3921,8 @@
           "deck_id": "aerodynamik",
           "page": 57
         }
-      ]
+      ],
+      "subcategory": "axes-stability-turns"
     },
     "Aerodynamics_119": {
       "qid": 119,
@@ -3830,7 +3948,8 @@
           "deck_id": "aerodynamik",
           "page": 56
         }
-      ]
+      ],
+      "subcategory": "axes-stability-turns"
     },
     "Aerodynamics_120": {
       "qid": 120,
@@ -3863,7 +3982,8 @@
           "deck_id": "aerodynamik",
           "page": 35
         }
-      ]
+      ],
+      "subcategory": "glide-ratio"
     },
     "Aerodynamics_121": {
       "qid": 121,
@@ -3896,7 +4016,8 @@
           "deck_id": "aerodynamik",
           "page": 35
         }
-      ]
+      ],
+      "subcategory": "glide-ratio"
     },
     "Aerodynamics_122": {
       "qid": 122,
@@ -3929,7 +4050,8 @@
           "deck_id": "aerodynamik",
           "page": 35
         }
-      ]
+      ],
+      "subcategory": "glide-ratio"
     },
     "Aerodynamics_123": {
       "qid": 123,
@@ -3962,7 +4084,8 @@
           "deck_id": "aerodynamik",
           "page": 35
         }
-      ]
+      ],
+      "subcategory": "glide-ratio"
     },
     "Aerodynamics_124": {
       "qid": 124,
@@ -3999,7 +4122,8 @@
           "deck_id": "aerodynamik",
           "page": 54
         }
-      ]
+      ],
+      "subcategory": "glide-ratio"
     },
     "Aerodynamics_125": {
       "qid": 125,
@@ -4025,7 +4149,8 @@
           "deck_id": "aerodynamik",
           "page": 35
         }
-      ]
+      ],
+      "subcategory": "glide-ratio"
     },
     "Aerodynamics_126": {
       "qid": 126,
@@ -4051,7 +4176,8 @@
           "deck_id": "aerodynamik",
           "page": 35
         }
-      ]
+      ],
+      "subcategory": "glide-ratio"
     },
     "Aerodynamics_127": {
       "qid": 127,
@@ -4088,7 +4214,8 @@
           "deck_id": "aerodynamik",
           "page": 36
         }
-      ]
+      ],
+      "subcategory": "glide-ratio"
     },
     "Aerodynamics_128": {
       "qid": 128,
@@ -4125,7 +4252,8 @@
           "deck_id": "aerodynamik",
           "page": 36
         }
-      ]
+      ],
+      "subcategory": "glide-ratio"
     },
     "Aerodynamics_129": {
       "qid": 129,
@@ -4162,7 +4290,8 @@
           "deck_id": "aerodynamik",
           "page": 38
         }
-      ]
+      ],
+      "subcategory": "polar-curve-speeds"
     },
     "Aerodynamics_130": {
       "qid": 130,
@@ -4199,7 +4328,8 @@
           "deck_id": "aerodynamik",
           "page": 43
         }
-      ]
+      ],
+      "subcategory": "polar-curve-speeds"
     },
     "Aerodynamics_131": {
       "qid": 131,
@@ -4229,7 +4359,8 @@
           "deck_id": "aerodynamik",
           "page": 43
         }
-      ]
+      ],
+      "subcategory": "polar-curve-speeds"
     },
     "Aerodynamics_132": {
       "qid": 132,
@@ -4266,7 +4397,8 @@
           "deck_id": "aerodynamik",
           "page": 38
         }
-      ]
+      ],
+      "subcategory": "polar-curve-speeds"
     },
     "Aerodynamics_133": {
       "qid": 133,
@@ -4299,7 +4431,8 @@
           "deck_id": "aerodynamik",
           "page": 38
         }
-      ]
+      ],
+      "subcategory": "polar-curve-speeds"
     },
     "Aerodynamics_134": {
       "qid": 134,
@@ -4338,7 +4471,8 @@
           "deck_id": "aerodynamik",
           "page": 37
         }
-      ]
+      ],
+      "subcategory": "polar-curve-speeds"
     },
     "Aerodynamics_135": {
       "qid": 135,
@@ -4368,7 +4502,8 @@
           "deck_id": "aerodynamik",
           "page": 38
         }
-      ]
+      ],
+      "subcategory": "polar-curve-speeds"
     },
     "Aerodynamics_136": {
       "qid": 136,
@@ -4411,7 +4546,8 @@
           "deck_id": "aerodynamik",
           "page": 43
         }
-      ]
+      ],
+      "subcategory": "polar-curve-speeds"
     },
     "Aerodynamics_137": {
       "qid": 137,
@@ -4454,7 +4590,8 @@
           "deck_id": "aerodynamik",
           "page": 53
         }
-      ]
+      ],
+      "subcategory": "polar-curve-speeds"
     },
     "Aerodynamics_138": {
       "qid": 138,
@@ -4480,7 +4617,8 @@
           "deck_id": "aerodynamik",
           "page": 35
         }
-      ]
+      ],
+      "subcategory": "glide-ratio"
     },
     "Aerodynamics_139": {
       "qid": 139,
@@ -4517,7 +4655,8 @@
           "deck_id": "aerodynamik",
           "page": 53
         }
-      ]
+      ],
+      "subcategory": "polar-curve-speeds"
     },
     "Aerodynamics_140": {
       "qid": 140,
@@ -4554,7 +4693,8 @@
           "deck_id": "aerodynamik",
           "page": 53
         }
-      ]
+      ],
+      "subcategory": "polar-curve-speeds"
     },
     "Aerodynamics_141": {
       "qid": 141,
@@ -4591,7 +4731,8 @@
           "deck_id": "aerodynamik",
           "page": 54
         }
-      ]
+      ],
+      "subcategory": "polar-curve-speeds"
     },
     "Aerodynamics_142": {
       "qid": 142,
@@ -4628,7 +4769,8 @@
           "deck_id": "aerodynamik",
           "page": 54
         }
-      ]
+      ],
+      "subcategory": "polar-curve-speeds"
     },
     "Aerodynamics_143": {
       "qid": 143,
@@ -4665,7 +4807,8 @@
           "deck_id": "aerodynamik",
           "page": 53
         }
-      ]
+      ],
+      "subcategory": "polar-curve-speeds"
     },
     "Aerodynamics_144": {
       "qid": 144,
@@ -4695,7 +4838,8 @@
           "deck_id": "aerodynamik",
           "page": 54
         }
-      ]
+      ],
+      "subcategory": "polar-curve-speeds"
     },
     "Aerodynamics_145": {
       "qid": 145,
@@ -4721,7 +4865,8 @@
           "deck_id": "aerodynamik",
           "page": 35
         }
-      ]
+      ],
+      "subcategory": "glide-ratio"
     },
     "Aerodynamics_146": {
       "qid": 146,
@@ -4747,7 +4892,8 @@
           "deck_id": "aerodynamik",
           "page": 35
         }
-      ]
+      ],
+      "subcategory": "glide-ratio"
     },
     "Aerodynamics_147": {
       "qid": 147,
@@ -4780,7 +4926,8 @@
           "deck_id": "aerodynamik",
           "page": 35
         }
-      ]
+      ],
+      "subcategory": "glide-ratio"
     },
     "Aerodynamics_148": {
       "qid": 148,
@@ -4806,7 +4953,8 @@
           "deck_id": "aerodynamik",
           "page": 35
         }
-      ]
+      ],
+      "subcategory": "glide-ratio"
     },
     "Aerodynamics_149": {
       "qid": 149,
@@ -4832,7 +4980,8 @@
           "deck_id": "aerodynamik",
           "page": 52
         }
-      ]
+      ],
+      "subcategory": "polar-curve-speeds"
     },
     "Aerodynamics_150": {
       "qid": 150,
@@ -4869,7 +5018,8 @@
           "deck_id": "aerodynamik",
           "page": 63
         }
-      ]
+      ],
+      "subcategory": "axes-stability-turns"
     },
     "Aerodynamics_151": {
       "qid": 151,
@@ -4902,7 +5052,8 @@
           "deck_id": "aerodynamik",
           "page": 63
         }
-      ]
+      ],
+      "subcategory": "axes-stability-turns"
     },
     "Aerodynamics_152": {
       "qid": 152,
@@ -4945,7 +5096,8 @@
           "deck_id": "aerodynamik",
           "page": 63
         }
-      ]
+      ],
+      "subcategory": "axes-stability-turns"
     },
     "Materials_2": {
       "qid": 2,
@@ -4978,7 +5130,8 @@
           "deck_id": "material",
           "page": 6
         }
-      ]
+      ],
+      "subcategory": "sail-cloth-and-coating"
     },
     "Materials_3": {
       "qid": 3,
@@ -5011,7 +5164,8 @@
           "deck_id": "material",
           "page": 6
         }
-      ]
+      ],
+      "subcategory": "sail-cloth-and-coating"
     },
     "Materials_4": {
       "qid": 4,
@@ -5044,7 +5198,8 @@
           "deck_id": "material",
           "page": 6
         }
-      ]
+      ],
+      "subcategory": "sail-cloth-and-coating"
     },
     "Materials_5": {
       "qid": 5,
@@ -5077,7 +5232,8 @@
           "deck_id": "material",
           "page": 6
         }
-      ]
+      ],
+      "subcategory": "sail-cloth-and-coating"
     },
     "Materials_6": {
       "qid": 6,
@@ -5110,7 +5266,8 @@
           "deck_id": "material",
           "page": 6
         }
-      ]
+      ],
+      "subcategory": "sail-cloth-and-coating"
     },
     "Materials_7": {
       "qid": 7,
@@ -5147,7 +5304,8 @@
           "deck_id": "material",
           "page": 20
         }
-      ]
+      ],
+      "subcategory": "sail-cloth-and-coating"
     },
     "Materials_8": {
       "qid": 8,
@@ -5180,7 +5338,8 @@
           "deck_id": "material",
           "page": 6
         }
-      ]
+      ],
+      "subcategory": "sail-cloth-and-coating"
     },
     "Materials_9": {
       "qid": 9,
@@ -5213,7 +5372,8 @@
           "deck_id": "material",
           "page": 6
         }
-      ]
+      ],
+      "subcategory": "sail-cloth-and-coating"
     },
     "Materials_10": {
       "qid": 10,
@@ -5246,7 +5406,8 @@
           "deck_id": "material",
           "page": 6
         }
-      ]
+      ],
+      "subcategory": "sail-cloth-and-coating"
     },
     "Materials_11": {
       "qid": 11,
@@ -5283,7 +5444,8 @@
           "deck_id": "material",
           "page": 20
         }
-      ]
+      ],
+      "subcategory": "sail-cloth-and-coating"
     },
     "Materials_12": {
       "qid": 12,
@@ -5316,7 +5478,8 @@
           "deck_id": "material",
           "page": 20
         }
-      ]
+      ],
+      "subcategory": "sail-cloth-and-coating"
     },
     "Materials_13": {
       "qid": 13,
@@ -5349,7 +5512,8 @@
           "deck_id": "material",
           "page": 20
         }
-      ]
+      ],
+      "subcategory": "sail-cloth-and-coating"
     },
     "Materials_17": {
       "qid": 17,
@@ -5382,7 +5546,8 @@
           "deck_id": "material",
           "page": 20
         }
-      ]
+      ],
+      "subcategory": "sail-cloth-and-coating"
     },
     "Materials_18": {
       "qid": 18,
@@ -5408,7 +5573,8 @@
           "deck_id": "material",
           "page": 16
         }
-      ]
+      ],
+      "subcategory": "wing-construction"
     },
     "Materials_20": {
       "qid": 20,
@@ -5445,7 +5611,8 @@
           "deck_id": "material",
           "page": 17
         }
-      ]
+      ],
+      "subcategory": "wing-construction"
     },
     "Materials_21": {
       "qid": 21,
@@ -5471,7 +5638,8 @@
           "deck_id": "material",
           "page": 16
         }
-      ]
+      ],
+      "subcategory": "wing-construction"
     },
     "Materials_22": {
       "qid": 22,
@@ -5497,7 +5665,8 @@
           "deck_id": "material",
           "page": 16
         }
-      ]
+      ],
+      "subcategory": "wing-construction"
     },
     "Materials_23": {
       "qid": 23,
@@ -5534,7 +5703,8 @@
           "deck_id": "material",
           "page": 17
         }
-      ]
+      ],
+      "subcategory": "wing-construction"
     },
     "Materials_24": {
       "qid": 24,
@@ -5560,7 +5730,8 @@
           "deck_id": "material",
           "page": 16
         }
-      ]
+      ],
+      "subcategory": "wing-construction"
     },
     "Materials_26": {
       "qid": 26,
@@ -5586,7 +5757,8 @@
           "deck_id": "material",
           "page": 16
         }
-      ]
+      ],
+      "subcategory": "wing-construction"
     },
     "Materials_27": {
       "qid": 27,
@@ -5619,7 +5791,8 @@
           "deck_id": "material",
           "page": 6
         }
-      ]
+      ],
+      "subcategory": "sail-cloth-and-coating"
     },
     "Materials_28": {
       "qid": 28,
@@ -5645,7 +5818,8 @@
           "deck_id": "material",
           "page": 6
         }
-      ]
+      ],
+      "subcategory": "wing-construction"
     },
     "Materials_29": {
       "qid": 29,
@@ -5678,7 +5852,8 @@
           "deck_id": "material",
           "page": 8
         }
-      ]
+      ],
+      "subcategory": "line-geometry-and-load"
     },
     "Materials_30": {
       "qid": 30,
@@ -5711,7 +5886,8 @@
           "deck_id": "material",
           "page": 17
         }
-      ]
+      ],
+      "subcategory": "line-geometry-and-load"
     },
     "Materials_31": {
       "qid": 31,
@@ -5748,7 +5924,8 @@
           "deck_id": "material",
           "page": 10
         }
-      ]
+      ],
+      "subcategory": "line-materials-and-construction"
     },
     "Materials_32": {
       "qid": 32,
@@ -5769,7 +5946,8 @@
         }
       ],
       "video_clips": [],
-      "slide_pages": []
+      "slide_pages": [],
+      "subcategory": "line-care-and-replacement"
     },
     "Materials_33": {
       "qid": 33,
@@ -5810,7 +5988,8 @@
           "deck_id": "material",
           "page": 10
         }
-      ]
+      ],
+      "subcategory": "line-materials-and-construction"
     },
     "Materials_34": {
       "qid": 34,
@@ -5843,7 +6022,8 @@
           "deck_id": "material",
           "page": 8
         }
-      ]
+      ],
+      "subcategory": "line-materials-and-construction"
     },
     "Materials_35": {
       "qid": 35,
@@ -5880,7 +6060,8 @@
           "deck_id": "material",
           "page": 9
         }
-      ]
+      ],
+      "subcategory": "line-care-and-replacement"
     },
     "Materials_36": {
       "qid": 36,
@@ -5913,7 +6094,8 @@
           "deck_id": "material",
           "page": 10
         }
-      ]
+      ],
+      "subcategory": "line-materials-and-construction"
     },
     "Materials_37": {
       "qid": 37,
@@ -5946,7 +6128,8 @@
           "deck_id": "material",
           "page": 10
         }
-      ]
+      ],
+      "subcategory": "line-materials-and-construction"
     },
     "Materials_38": {
       "qid": 38,
@@ -5983,7 +6166,8 @@
           "deck_id": "material",
           "page": 9
         }
-      ]
+      ],
+      "subcategory": "line-care-and-replacement"
     },
     "Materials_39": {
       "qid": 39,
@@ -6016,7 +6200,8 @@
           "deck_id": "material",
           "page": 8
         }
-      ]
+      ],
+      "subcategory": "line-materials-and-construction"
     },
     "Materials_40": {
       "qid": 40,
@@ -6044,7 +6229,8 @@
           "snippet": "Sam: 80% of the load is on the A and B group, only 20% on C and D - that's why C/D lines barely see any tension."
         }
       ],
-      "slide_pages": []
+      "slide_pages": [],
+      "subcategory": "line-geometry-and-load"
     },
     "Materials_41": {
       "qid": 41,
@@ -6065,7 +6251,8 @@
         }
       ],
       "video_clips": [],
-      "slide_pages": []
+      "slide_pages": [],
+      "subcategory": "line-care-and-replacement"
     },
     "Materials_42": {
       "qid": 42,
@@ -6093,7 +6280,8 @@
           "snippet": "Sam: the line mix is what makes the wing fly like it was newly built - you don't change it casually."
         }
       ],
-      "slide_pages": []
+      "slide_pages": [],
+      "subcategory": "line-care-and-replacement"
     },
     "Materials_43": {
       "qid": 43,
@@ -6126,7 +6314,8 @@
           "deck_id": "material",
           "page": 19
         }
-      ]
+      ],
+      "subcategory": "line-care-and-replacement"
     },
     "Materials_44": {
       "qid": 44,
@@ -6154,7 +6343,8 @@
           "snippet": "Sam: lines deform - get longer or shorter - which you measure during a check and correct by trimming."
         }
       ],
-      "slide_pages": []
+      "slide_pages": [],
+      "subcategory": "line-care-and-replacement"
     },
     "Materials_45": {
       "qid": 45,
@@ -6191,7 +6381,8 @@
           "deck_id": "material",
           "page": 9
         }
-      ]
+      ],
+      "subcategory": "line-care-and-replacement"
     },
     "Materials_47": {
       "qid": 47,
@@ -6217,7 +6408,8 @@
           "deck_id": "material",
           "page": 19
         }
-      ]
+      ],
+      "subcategory": "line-trim-and-effects"
     },
     "Materials_48": {
       "qid": 48,
@@ -6243,7 +6435,8 @@
           "deck_id": "material",
           "page": 19
         }
-      ]
+      ],
+      "subcategory": "line-trim-and-effects"
     },
     "Materials_49": {
       "qid": 49,
@@ -6269,7 +6462,8 @@
           "deck_id": "material",
           "page": 19
         }
-      ]
+      ],
+      "subcategory": "line-trim-and-effects"
     },
     "Materials_50": {
       "qid": 50,
@@ -6295,7 +6489,8 @@
           "deck_id": "material",
           "page": 19
         }
-      ]
+      ],
+      "subcategory": "line-trim-and-effects"
     },
     "Materials_52": {
       "qid": 52,
@@ -6328,7 +6523,8 @@
           "deck_id": "material",
           "page": 19
         }
-      ]
+      ],
+      "subcategory": "line-trim-and-effects"
     },
     "Materials_53": {
       "qid": 53,
@@ -6354,7 +6550,8 @@
           "deck_id": "material",
           "page": 19
         }
-      ]
+      ],
+      "subcategory": "line-trim-and-effects"
     },
     "Materials_54": {
       "qid": 54,
@@ -6380,7 +6577,8 @@
           "deck_id": "material",
           "page": 19
         }
-      ]
+      ],
+      "subcategory": "line-trim-and-effects"
     },
     "Materials_55": {
       "qid": 55,
@@ -6408,7 +6606,8 @@
           "snippet": "Sam: lines hold a lot - you don't just replace them with anything."
         }
       ],
-      "slide_pages": []
+      "slide_pages": [],
+      "subcategory": "line-care-and-replacement"
     },
     "Materials_56": {
       "qid": 56,
@@ -6429,7 +6628,8 @@
         }
       ],
       "video_clips": [],
-      "slide_pages": []
+      "slide_pages": [],
+      "subcategory": "line-geometry-and-load"
     },
     "Materials_60": {
       "qid": 60,
@@ -6462,7 +6662,8 @@
           "deck_id": "material",
           "page": 5
         }
-      ]
+      ],
+      "subcategory": "certification-and-loads"
     },
     "Materials_61": {
       "qid": 61,
@@ -6483,7 +6684,8 @@
         }
       ],
       "video_clips": [],
-      "slide_pages": []
+      "slide_pages": [],
+      "subcategory": "certification-and-loads"
     },
     "Materials_64": {
       "qid": 64,
@@ -6511,7 +6713,8 @@
           "snippet": "Sam: about 80% of the load is on A and B, only 20% on C and D - so C and D are lightly loaded."
         }
       ],
-      "slide_pages": []
+      "slide_pages": [],
+      "subcategory": "line-geometry-and-load"
     },
     "Materials_65": {
       "qid": 65,
@@ -6544,7 +6747,8 @@
           "deck_id": "material",
           "page": 20
         }
-      ]
+      ],
+      "subcategory": "certification-and-loads"
     },
     "Materials_66": {
       "qid": 66,
@@ -6577,7 +6781,8 @@
           "deck_id": "material",
           "page": 18
         }
-      ]
+      ],
+      "subcategory": "risers-speed-and-trimmers"
     },
     "Materials_67": {
       "qid": 67,
@@ -6610,7 +6815,8 @@
           "deck_id": "material",
           "page": 18
         }
-      ]
+      ],
+      "subcategory": "risers-speed-and-trimmers"
     },
     "Materials_68": {
       "qid": 68,
@@ -6643,7 +6849,8 @@
           "deck_id": "material",
           "page": 18
         }
-      ]
+      ],
+      "subcategory": "risers-speed-and-trimmers"
     },
     "Materials_69": {
       "qid": 69,
@@ -6676,7 +6883,8 @@
           "deck_id": "material",
           "page": 19
         }
-      ]
+      ],
+      "subcategory": "risers-speed-and-trimmers"
     },
     "Materials_70": {
       "qid": 70,
@@ -6709,7 +6917,8 @@
           "deck_id": "material",
           "page": 19
         }
-      ]
+      ],
+      "subcategory": "risers-speed-and-trimmers"
     },
     "Materials_71": {
       "qid": 71,
@@ -6742,7 +6951,8 @@
           "deck_id": "material",
           "page": 19
         }
-      ]
+      ],
+      "subcategory": "risers-speed-and-trimmers"
     },
     "Materials_73": {
       "qid": 73,
@@ -6779,7 +6989,8 @@
           "deck_id": "material",
           "page": 18
         }
-      ]
+      ],
+      "subcategory": "brake-and-steering"
     },
     "Materials_74": {
       "qid": 74,
@@ -6809,7 +7020,8 @@
           "deck_id": "material",
           "page": 18
         }
-      ]
+      ],
+      "subcategory": "brake-and-steering"
     },
     "Materials_75": {
       "qid": 75,
@@ -6839,7 +7051,8 @@
           "deck_id": "material",
           "page": 18
         }
-      ]
+      ],
+      "subcategory": "brake-and-steering"
     },
     "Materials_76": {
       "qid": 76,
@@ -6865,7 +7078,8 @@
           "deck_id": "material",
           "page": 18
         }
-      ]
+      ],
+      "subcategory": "brake-and-steering"
     },
     "Materials_77": {
       "qid": 77,
@@ -6891,7 +7105,8 @@
           "deck_id": "material",
           "page": 13
         }
-      ]
+      ],
+      "subcategory": "harness-geometry"
     },
     "Materials_78": {
       "qid": 78,
@@ -6917,7 +7132,8 @@
           "deck_id": "material",
           "page": 13
         }
-      ]
+      ],
+      "subcategory": "harness-geometry"
     },
     "Materials_79": {
       "qid": 79,
@@ -6943,7 +7159,8 @@
           "deck_id": "material",
           "page": 13
         }
-      ]
+      ],
+      "subcategory": "harness-geometry"
     },
     "Materials_80": {
       "qid": 80,
@@ -6969,7 +7186,8 @@
           "deck_id": "material",
           "page": 13
         }
-      ]
+      ],
+      "subcategory": "harness-geometry"
     },
     "Materials_81": {
       "qid": 81,
@@ -6995,7 +7213,8 @@
           "deck_id": "material",
           "page": 13
         }
-      ]
+      ],
+      "subcategory": "harness-geometry"
     },
     "Materials_82": {
       "qid": 82,
@@ -7021,7 +7240,8 @@
           "deck_id": "material",
           "page": 13
         }
-      ]
+      ],
+      "subcategory": "harness-geometry"
     },
     "Materials_83": {
       "qid": 83,
@@ -7047,7 +7267,8 @@
           "deck_id": "material",
           "page": 13
         }
-      ]
+      ],
+      "subcategory": "harness-geometry"
     },
     "Materials_84": {
       "qid": 84,
@@ -7080,7 +7301,8 @@
           "deck_id": "material",
           "page": 15
         }
-      ]
+      ],
+      "subcategory": "harness-geometry"
     },
     "Materials_85": {
       "qid": 85,
@@ -7113,7 +7335,8 @@
           "deck_id": "material",
           "page": 15
         }
-      ]
+      ],
+      "subcategory": "harness-geometry"
     },
     "Materials_86": {
       "qid": 86,
@@ -7139,7 +7362,8 @@
           "deck_id": "material",
           "page": 13
         }
-      ]
+      ],
+      "subcategory": "harness-back-protection"
     },
     "Materials_87": {
       "qid": 87,
@@ -7172,7 +7396,8 @@
           "deck_id": "material",
           "page": 13
         }
-      ]
+      ],
+      "subcategory": "harness-back-protection"
     },
     "Materials_88": {
       "qid": 88,
@@ -7205,7 +7430,8 @@
           "deck_id": "material",
           "page": 13
         }
-      ]
+      ],
+      "subcategory": "harness-back-protection"
     },
     "Materials_89": {
       "qid": 89,
@@ -7226,7 +7452,8 @@
         }
       ],
       "video_clips": [],
-      "slide_pages": []
+      "slide_pages": [],
+      "subcategory": "certification-and-loads"
     },
     "Materials_90": {
       "qid": 90,
@@ -7252,7 +7479,8 @@
           "deck_id": "material",
           "page": 3
         }
-      ]
+      ],
+      "subcategory": "certification-and-loads"
     },
     "Materials_91": {
       "qid": 91,
@@ -7273,7 +7501,8 @@
         }
       ],
       "video_clips": [],
-      "slide_pages": []
+      "slide_pages": [],
+      "subcategory": "certification-and-loads"
     },
     "Materials_92": {
       "qid": 92,
@@ -7299,7 +7528,8 @@
           "deck_id": "material",
           "page": 11
         }
-      ]
+      ],
+      "subcategory": "reserve-parachute"
     },
     "Materials_93": {
       "qid": 93,
@@ -7332,7 +7562,8 @@
           "deck_id": "material",
           "page": 12
         }
-      ]
+      ],
+      "subcategory": "reserve-parachute"
     },
     "Materials_95": {
       "qid": 95,
@@ -7365,7 +7596,8 @@
           "deck_id": "material",
           "page": 12
         }
-      ]
+      ],
+      "subcategory": "reserve-parachute"
     },
     "Materials_96": {
       "qid": 96,
@@ -7402,7 +7634,8 @@
           "deck_id": "material",
           "page": 11
         }
-      ]
+      ],
+      "subcategory": "reserve-parachute"
     },
     "Materials_98": {
       "qid": 98,
@@ -7435,7 +7668,8 @@
           "deck_id": "material",
           "page": 11
         }
-      ]
+      ],
+      "subcategory": "reserve-parachute"
     },
     "Materials_99": {
       "qid": 99,
@@ -7465,7 +7699,8 @@
           "deck_id": "material",
           "page": 12
         }
-      ]
+      ],
+      "subcategory": "reserve-parachute"
     },
     "Materials_100": {
       "qid": 100,
@@ -7498,7 +7733,8 @@
           "deck_id": "material",
           "page": 20
         }
-      ]
+      ],
+      "subcategory": "reserve-parachute"
     },
     "Materials_101": {
       "qid": 101,
@@ -7524,7 +7760,8 @@
           "deck_id": "material",
           "page": 11
         }
-      ]
+      ],
+      "subcategory": "reserve-parachute"
     },
     "Materials_102": {
       "qid": 102,
@@ -7557,7 +7794,8 @@
           "deck_id": "material",
           "page": 12
         }
-      ]
+      ],
+      "subcategory": "reserve-parachute"
     },
     "Materials_103": {
       "qid": 103,
@@ -7590,7 +7828,8 @@
           "deck_id": "material",
           "page": 12
         }
-      ]
+      ],
+      "subcategory": "reserve-parachute"
     },
     "Materials_104": {
       "qid": 104,
@@ -7623,7 +7862,8 @@
           "deck_id": "material",
           "page": 12
         }
-      ]
+      ],
+      "subcategory": "reserve-parachute"
     },
     "Materials_105": {
       "qid": 105,
@@ -7649,7 +7889,8 @@
           "deck_id": "material",
           "page": 12
         }
-      ]
+      ],
+      "subcategory": "reserve-parachute"
     },
     "Materials_107": {
       "qid": 107,
@@ -7682,7 +7923,8 @@
           "deck_id": "material",
           "page": 20
         }
-      ]
+      ],
+      "subcategory": "sail-cloth-and-coating"
     },
     "Materials_108": {
       "qid": 108,
@@ -7715,7 +7957,8 @@
           "deck_id": "material",
           "page": 20
         }
-      ]
+      ],
+      "subcategory": "sail-cloth-and-coating"
     },
     "Materials_109": {
       "qid": 109,
@@ -7736,7 +7979,8 @@
         }
       ],
       "video_clips": [],
-      "slide_pages": []
+      "slide_pages": [],
+      "subcategory": "pilot-protective-gear"
     },
     "Materials_110": {
       "qid": 110,
@@ -7757,7 +8001,8 @@
         }
       ],
       "video_clips": [],
-      "slide_pages": []
+      "slide_pages": [],
+      "subcategory": "pilot-protective-gear"
     },
     "Materials_111": {
       "qid": 111,
@@ -7778,7 +8023,8 @@
         }
       ],
       "video_clips": [],
-      "slide_pages": []
+      "slide_pages": [],
+      "subcategory": "pilot-protective-gear"
     },
     "Materials_112": {
       "qid": 112,
@@ -7799,7 +8045,8 @@
         }
       ],
       "video_clips": [],
-      "slide_pages": []
+      "slide_pages": [],
+      "subcategory": "flight-instruments"
     },
     "Materials_113": {
       "qid": 113,
@@ -7820,7 +8067,8 @@
         }
       ],
       "video_clips": [],
-      "slide_pages": []
+      "slide_pages": [],
+      "subcategory": "flight-instruments"
     },
     "Materials_114": {
       "qid": 114,
@@ -7841,7 +8089,8 @@
         }
       ],
       "video_clips": [],
-      "slide_pages": []
+      "slide_pages": [],
+      "subcategory": "flight-instruments"
     },
     "Materials_115": {
       "qid": 115,
@@ -7862,7 +8111,8 @@
         }
       ],
       "video_clips": [],
-      "slide_pages": []
+      "slide_pages": [],
+      "subcategory": "flight-instruments"
     },
     "Materials_117": {
       "qid": 117,
@@ -7883,7 +8133,8 @@
         }
       ],
       "video_clips": [],
-      "slide_pages": []
+      "slide_pages": [],
+      "subcategory": "flight-instruments"
     },
     "Materials_118": {
       "qid": 118,
@@ -7904,7 +8155,8 @@
         }
       ],
       "video_clips": [],
-      "slide_pages": []
+      "slide_pages": [],
+      "subcategory": "flight-instruments"
     },
     "Materials_119": {
       "qid": 119,
@@ -7941,7 +8193,8 @@
           "deck_id": "material",
           "page": 5
         }
-      ]
+      ],
+      "subcategory": "certification-and-loads"
     },
     "Materials_122": {
       "qid": 122,
@@ -7974,7 +8227,8 @@
           "deck_id": "material",
           "page": 4
         }
-      ]
+      ],
+      "subcategory": "certification-and-loads"
     },
     "Materials_123": {
       "qid": 123,
@@ -8011,7 +8265,8 @@
           "deck_id": "material",
           "page": 5
         }
-      ]
+      ],
+      "subcategory": "certification-and-loads"
     },
     "Legislation_3": {
       "qid": 3,
@@ -8048,7 +8303,8 @@
           "deck_id": "luftrecht",
           "page": 4
         }
-      ]
+      ],
+      "subcategory": "legal-framework-oacs"
     },
     "Legislation_4": {
       "qid": 4,
@@ -8076,7 +8332,8 @@
           "deck_id": "luftrecht",
           "page": 2
         }
-      ]
+      ],
+      "subcategory": "legal-framework-oacs"
     },
     "Legislation_5": {
       "qid": 5,
@@ -8109,7 +8366,8 @@
           "deck_id": "luftrecht",
           "page": 4
         }
-      ]
+      ],
+      "subcategory": "legal-framework-oacs"
     },
     "Legislation_6": {
       "qid": 6,
@@ -8137,7 +8395,8 @@
           "deck_id": "luftrecht",
           "page": 4
         }
-      ]
+      ],
+      "subcategory": "legal-framework-oacs"
     },
     "Legislation_7": {
       "qid": 7,
@@ -8165,7 +8424,8 @@
           "deck_id": "luftrecht",
           "page": 4
         }
-      ]
+      ],
+      "subcategory": "legal-framework-oacs"
     },
     "Legislation_9": {
       "qid": 9,
@@ -8193,7 +8453,8 @@
           "deck_id": "luftrecht",
           "page": 4
         }
-      ]
+      ],
+      "subcategory": "insurance-liability-equipment"
     },
     "Legislation_10": {
       "qid": 10,
@@ -8226,7 +8487,8 @@
           "deck_id": "luftrecht",
           "page": 4
         }
-      ]
+      ],
+      "subcategory": "insurance-liability-equipment"
     },
     "Legislation_11": {
       "qid": 11,
@@ -8254,7 +8516,8 @@
           "deck_id": "luftrecht",
           "page": 4
         }
-      ]
+      ],
+      "subcategory": "insurance-liability-equipment"
     },
     "Legislation_12": {
       "qid": 12,
@@ -8282,7 +8545,8 @@
           "deck_id": "luftrecht",
           "page": 4
         }
-      ]
+      ],
+      "subcategory": "insurance-liability-equipment"
     },
     "Legislation_13": {
       "qid": 13,
@@ -8310,7 +8574,8 @@
           "deck_id": "luftrecht",
           "page": 4
         }
-      ]
+      ],
+      "subcategory": "insurance-liability-equipment"
     },
     "Legislation_14": {
       "qid": 14,
@@ -8343,7 +8608,8 @@
           "deck_id": "luftrecht",
           "page": 4
         }
-      ]
+      ],
+      "subcategory": "identification-marking"
     },
     "Legislation_15": {
       "qid": 15,
@@ -8376,7 +8642,8 @@
           "deck_id": "luftrecht",
           "page": 4
         }
-      ]
+      ],
+      "subcategory": "identification-marking"
     },
     "Legislation_16": {
       "qid": 16,
@@ -8413,7 +8680,8 @@
           "deck_id": "luftrecht",
           "page": 4
         }
-      ]
+      ],
+      "subcategory": "identification-marking"
     },
     "Legislation_17": {
       "qid": 17,
@@ -8439,7 +8707,8 @@
           "deck_id": "luftrecht",
           "page": 4
         }
-      ]
+      ],
+      "subcategory": "identification-marking"
     },
     "Legislation_18": {
       "qid": 18,
@@ -8472,7 +8741,8 @@
           "deck_id": "luftrecht",
           "page": 4
         }
-      ]
+      ],
+      "subcategory": "identification-marking"
     },
     "Legislation_19": {
       "qid": 19,
@@ -8498,7 +8768,8 @@
           "deck_id": "luftrecht",
           "page": 4
         }
-      ]
+      ],
+      "subcategory": "identification-marking"
     },
     "Legislation_20": {
       "qid": 20,
@@ -8524,7 +8795,8 @@
           "deck_id": "luftrecht",
           "page": 4
         }
-      ]
+      ],
+      "subcategory": "identification-marking"
     },
     "Legislation_21": {
       "qid": 21,
@@ -8545,7 +8817,8 @@
           "deck_id": "luftrecht",
           "page": 6
         }
-      ]
+      ],
+      "subcategory": "brevet-licensing-exam"
     },
     "Legislation_22": {
       "qid": 22,
@@ -8578,7 +8851,8 @@
           "deck_id": "luftrecht",
           "page": 41
         }
-      ]
+      ],
+      "subcategory": "special-zones-lsr-lsd"
     },
     "Legislation_23": {
       "qid": 23,
@@ -8599,7 +8873,8 @@
           "deck_id": "luftrecht",
           "page": 6
         }
-      ]
+      ],
+      "subcategory": "brevet-licensing-exam"
     },
     "Legislation_24": {
       "qid": 24,
@@ -8620,7 +8895,8 @@
           "deck_id": "luftrecht",
           "page": 6
         }
-      ]
+      ],
+      "subcategory": "brevet-licensing-exam"
     },
     "Legislation_25": {
       "qid": 25,
@@ -8641,7 +8917,8 @@
           "deck_id": "luftrecht",
           "page": 6
         }
-      ]
+      ],
+      "subcategory": "brevet-licensing-exam"
     },
     "Legislation_26": {
       "qid": 26,
@@ -8667,7 +8944,8 @@
           "deck_id": "luftrecht",
           "page": 6
         }
-      ]
+      ],
+      "subcategory": "brevet-licensing-exam"
     },
     "Legislation_27": {
       "qid": 27,
@@ -8693,7 +8971,8 @@
           "deck_id": "luftrecht",
           "page": 6
         }
-      ]
+      ],
+      "subcategory": "brevet-licensing-exam"
     },
     "Legislation_28": {
       "qid": 28,
@@ -8719,7 +8998,8 @@
           "deck_id": "luftrecht",
           "page": 6
         }
-      ]
+      ],
+      "subcategory": "brevet-licensing-exam"
     },
     "Legislation_29": {
       "qid": 29,
@@ -8747,7 +9027,8 @@
           "deck_id": "luftrecht",
           "page": 6
         }
-      ]
+      ],
+      "subcategory": "brevet-licensing-exam"
     },
     "Legislation_30": {
       "qid": 30,
@@ -8784,7 +9065,8 @@
           "deck_id": "luftrecht",
           "page": 6
         }
-      ]
+      ],
+      "subcategory": "brevet-licensing-exam"
     },
     "Legislation_32": {
       "qid": 32,
@@ -8817,7 +9099,8 @@
           "deck_id": "luftrecht",
           "page": 50
         }
-      ]
+      ],
+      "subcategory": "special-zones-lsr-lsd"
     },
     "Legislation_34": {
       "qid": 34,
@@ -8854,7 +9137,8 @@
           "deck_id": "luftrecht",
           "page": 62
         }
-      ]
+      ],
+      "subcategory": "special-zones-lsr-lsd"
     },
     "Legislation_35": {
       "qid": 35,
@@ -8879,7 +9163,8 @@
           "deck_id": "luftrecht",
           "page": 46
         }
-      ]
+      ],
+      "subcategory": "operating-rules-distances"
     },
     "Legislation_36": {
       "qid": 36,
@@ -8900,7 +9185,8 @@
           "deck_id": "luftrecht",
           "page": 4
         }
-      ]
+      ],
+      "subcategory": "legal-framework-oacs"
     },
     "Legislation_37": {
       "qid": 37,
@@ -8921,7 +9207,8 @@
           "deck_id": "luftrecht",
           "page": 4
         }
-      ]
+      ],
+      "subcategory": "operating-rules-distances"
     },
     "Legislation_39": {
       "qid": 39,
@@ -8958,7 +9245,8 @@
           "deck_id": "luftrecht",
           "page": 44
         }
-      ]
+      ],
+      "subcategory": "operating-rules-distances"
     },
     "Legislation_42": {
       "qid": 42,
@@ -8995,7 +9283,8 @@
           "deck_id": "luftrecht",
           "page": 44
         }
-      ]
+      ],
+      "subcategory": "operating-rules-distances"
     },
     "Legislation_43": {
       "qid": 43,
@@ -9016,7 +9305,8 @@
           "deck_id": "luftrecht",
           "page": 4
         }
-      ]
+      ],
+      "subcategory": "operating-rules-distances"
     },
     "Legislation_44": {
       "qid": 44,
@@ -9044,7 +9334,8 @@
           "deck_id": "luftrecht",
           "page": 6
         }
-      ]
+      ],
+      "subcategory": "brevet-licensing-exam"
     },
     "Legislation_45": {
       "qid": 45,
@@ -9072,7 +9363,8 @@
           "deck_id": "luftrecht",
           "page": 6
         }
-      ]
+      ],
+      "subcategory": "brevet-licensing-exam"
     },
     "Legislation_46": {
       "qid": 46,
@@ -9098,7 +9390,8 @@
           "deck_id": "luftrecht",
           "page": 6
         }
-      ]
+      ],
+      "subcategory": "brevet-licensing-exam"
     },
     "Legislation_47": {
       "qid": 47,
@@ -9119,7 +9412,8 @@
           "deck_id": "luftrecht",
           "page": 6
         }
-      ]
+      ],
+      "subcategory": "brevet-licensing-exam"
     },
     "Legislation_50": {
       "qid": 50,
@@ -9140,7 +9434,8 @@
           "deck_id": "luftrecht",
           "page": 4
         }
-      ]
+      ],
+      "subcategory": "operating-rules-distances"
     },
     "Legislation_51": {
       "qid": 51,
@@ -9161,7 +9456,8 @@
           "deck_id": "luftrecht",
           "page": 4
         }
-      ]
+      ],
+      "subcategory": "operating-rules-distances"
     },
     "Legislation_52": {
       "qid": 52,
@@ -9189,7 +9485,8 @@
           "deck_id": "luftrecht",
           "page": 19
         }
-      ]
+      ],
+      "subcategory": "abbreviations"
     },
     "Legislation_54": {
       "qid": 54,
@@ -9222,7 +9519,8 @@
           "deck_id": "luftrecht",
           "page": 17
         }
-      ]
+      ],
+      "subcategory": "info-sources-publications"
     },
     "Legislation_55": {
       "qid": 55,
@@ -9255,7 +9553,8 @@
           "deck_id": "luftrecht",
           "page": 17
         }
-      ]
+      ],
+      "subcategory": "info-sources-publications"
     },
     "Legislation_56": {
       "qid": 56,
@@ -9292,7 +9591,8 @@
           "deck_id": "luftrecht",
           "page": 17
         }
-      ]
+      ],
+      "subcategory": "info-sources-publications"
     },
     "Legislation_57": {
       "qid": 57,
@@ -9329,7 +9629,8 @@
           "deck_id": "luftrecht",
           "page": 20
         }
-      ]
+      ],
+      "subcategory": "info-sources-publications"
     },
     "Legislation_58": {
       "qid": 58,
@@ -9362,7 +9663,8 @@
           "deck_id": "luftrecht",
           "page": 17
         }
-      ]
+      ],
+      "subcategory": "info-sources-publications"
     },
     "Legislation_59": {
       "qid": 59,
@@ -9395,7 +9697,8 @@
           "deck_id": "luftrecht",
           "page": 17
         }
-      ]
+      ],
+      "subcategory": "info-sources-publications"
     },
     "Legislation_60": {
       "qid": 60,
@@ -9432,7 +9735,8 @@
           "deck_id": "luftrecht",
           "page": 52
         }
-      ]
+      ],
+      "subcategory": "info-sources-publications"
     },
     "Legislation_61": {
       "qid": 61,
@@ -9473,7 +9777,8 @@
           "deck_id": "luftrecht",
           "page": 54
         }
-      ]
+      ],
+      "subcategory": "info-sources-publications"
     },
     "Legislation_62": {
       "qid": 62,
@@ -9501,7 +9806,8 @@
           "deck_id": "luftrecht",
           "page": 18
         }
-      ]
+      ],
+      "subcategory": "abbreviations"
     },
     "Legislation_63": {
       "qid": 63,
@@ -9534,7 +9840,8 @@
           "deck_id": "luftrecht",
           "page": 18
         }
-      ]
+      ],
+      "subcategory": "abbreviations"
     },
     "Legislation_64": {
       "qid": 64,
@@ -9562,7 +9869,8 @@
           "deck_id": "luftrecht",
           "page": 18
         }
-      ]
+      ],
+      "subcategory": "abbreviations"
     },
     "Legislation_66": {
       "qid": 66,
@@ -9595,7 +9903,8 @@
           "deck_id": "luftrecht",
           "page": 18
         }
-      ]
+      ],
+      "subcategory": "cloud-clearance-visibility"
     },
     "Legislation_67": {
       "qid": 67,
@@ -9616,7 +9925,8 @@
           "deck_id": "luftrecht",
           "page": 18
         }
-      ]
+      ],
+      "subcategory": "abbreviations"
     },
     "Legislation_68": {
       "qid": 68,
@@ -9644,7 +9954,8 @@
           "deck_id": "luftrecht",
           "page": 18
         }
-      ]
+      ],
+      "subcategory": "abbreviations"
     },
     "Legislation_69": {
       "qid": 69,
@@ -9672,7 +9983,8 @@
           "deck_id": "luftrecht",
           "page": 18
         }
-      ]
+      ],
+      "subcategory": "abbreviations"
     },
     "Legislation_71": {
       "qid": 71,
@@ -9705,7 +10017,8 @@
           "deck_id": "luftrecht",
           "page": 30
         }
-      ]
+      ],
+      "subcategory": "abbreviations"
     },
     "Legislation_72": {
       "qid": 72,
@@ -9738,7 +10051,8 @@
           "deck_id": "luftrecht",
           "page": 30
         }
-      ]
+      ],
+      "subcategory": "abbreviations"
     },
     "Legislation_73": {
       "qid": 73,
@@ -9771,7 +10085,8 @@
           "deck_id": "luftrecht",
           "page": 30
         }
-      ]
+      ],
+      "subcategory": "abbreviations"
     },
     "Legislation_74": {
       "qid": 74,
@@ -9797,7 +10112,8 @@
           "deck_id": "luftrecht",
           "page": 30
         }
-      ]
+      ],
+      "subcategory": "abbreviations"
     },
     "Legislation_75": {
       "qid": 75,
@@ -9834,7 +10150,8 @@
           "deck_id": "luftrecht",
           "page": 40
         }
-      ]
+      ],
+      "subcategory": "abbreviations"
     },
     "Legislation_76": {
       "qid": 76,
@@ -9871,7 +10188,8 @@
           "deck_id": "luftrecht",
           "page": 40
         }
-      ]
+      ],
+      "subcategory": "abbreviations"
     },
     "Legislation_77": {
       "qid": 77,
@@ -9904,7 +10222,8 @@
           "deck_id": "luftrecht",
           "page": 35
         }
-      ]
+      ],
+      "subcategory": "abbreviations"
     },
     "Legislation_78": {
       "qid": 78,
@@ -9941,7 +10260,8 @@
           "deck_id": "luftrecht",
           "page": 40
         }
-      ]
+      ],
+      "subcategory": "airspace-classes-structure"
     },
     "Legislation_79": {
       "qid": 79,
@@ -9978,7 +10298,8 @@
           "deck_id": "luftrecht",
           "page": 40
         }
-      ]
+      ],
+      "subcategory": "abbreviations"
     },
     "Legislation_80": {
       "qid": 80,
@@ -10015,7 +10336,8 @@
           "deck_id": "luftrecht",
           "page": 40
         }
-      ]
+      ],
+      "subcategory": "airspace-classes-structure"
     },
     "Legislation_81": {
       "qid": 81,
@@ -10060,7 +10382,8 @@
           "deck_id": "luftrecht",
           "page": 66
         }
-      ]
+      ],
+      "subcategory": "airspace-classes-structure"
     },
     "Legislation_82": {
       "qid": 82,
@@ -10093,7 +10416,8 @@
           "deck_id": "luftrecht",
           "page": 19
         }
-      ]
+      ],
+      "subcategory": "airspace-classes-structure"
     },
     "Legislation_84": {
       "qid": 84,
@@ -10126,7 +10450,8 @@
           "deck_id": "luftrecht",
           "page": 19
         }
-      ]
+      ],
+      "subcategory": "airspace-classes-structure"
     },
     "Legislation_85": {
       "qid": 85,
@@ -10163,7 +10488,8 @@
           "deck_id": "luftrecht",
           "page": 22
         }
-      ]
+      ],
+      "subcategory": "airspace-classes-structure"
     },
     "Legislation_86": {
       "qid": 86,
@@ -10196,7 +10522,8 @@
           "deck_id": "luftrecht",
           "page": 19
         }
-      ]
+      ],
+      "subcategory": "airspace-classes-structure"
     },
     "Legislation_87": {
       "qid": 87,
@@ -10233,7 +10560,8 @@
           "deck_id": "luftrecht",
           "page": 22
         }
-      ]
+      ],
+      "subcategory": "airspace-classes-structure"
     },
     "Legislation_88": {
       "qid": 88,
@@ -10270,7 +10598,8 @@
           "deck_id": "luftrecht",
           "page": 27
         }
-      ]
+      ],
+      "subcategory": "altitude-ceilings-pressure"
     },
     "Legislation_89": {
       "qid": 89,
@@ -10307,7 +10636,8 @@
           "deck_id": "luftrecht",
           "page": 59
         }
-      ]
+      ],
+      "subcategory": "cloud-clearance-visibility"
     },
     "Legislation_90": {
       "qid": 90,
@@ -10344,7 +10674,8 @@
           "deck_id": "luftrecht",
           "page": 24
         }
-      ]
+      ],
+      "subcategory": "altitude-ceilings-pressure"
     },
     "Legislation_91": {
       "qid": 91,
@@ -10377,7 +10708,8 @@
           "deck_id": "luftrecht",
           "page": 59
         }
-      ]
+      ],
+      "subcategory": "cloud-clearance-visibility"
     },
     "Legislation_93": {
       "qid": 93,
@@ -10422,7 +10754,8 @@
           "deck_id": "luftrecht",
           "page": 50
         }
-      ]
+      ],
+      "subcategory": "altitude-ceilings-pressure"
     },
     "Legislation_94": {
       "qid": 94,
@@ -10452,7 +10785,8 @@
           "deck_id": "luftrecht",
           "page": 55
         }
-      ]
+      ],
+      "subcategory": "info-sources-publications"
     },
     "Legislation_97": {
       "qid": 97,
@@ -10485,7 +10819,8 @@
           "deck_id": "luftrecht",
           "page": 59
         }
-      ]
+      ],
+      "subcategory": "cloud-clearance-visibility"
     },
     "Legislation_99": {
       "qid": 99,
@@ -10518,7 +10853,8 @@
           "deck_id": "luftrecht",
           "page": 59
         }
-      ]
+      ],
+      "subcategory": "cloud-clearance-visibility"
     },
     "Legislation_100": {
       "qid": 100,
@@ -10551,7 +10887,8 @@
           "deck_id": "luftrecht",
           "page": 58
         }
-      ]
+      ],
+      "subcategory": "cloud-clearance-visibility"
     },
     "Legislation_101": {
       "qid": 101,
@@ -10588,7 +10925,8 @@
           "deck_id": "luftrecht",
           "page": 24
         }
-      ]
+      ],
+      "subcategory": "info-sources-publications"
     },
     "Legislation_102": {
       "qid": 102,
@@ -10625,7 +10963,8 @@
           "deck_id": "luftrecht",
           "page": 59
         }
-      ]
+      ],
+      "subcategory": "cloud-clearance-visibility"
     },
     "Legislation_103": {
       "qid": 103,
@@ -10657,7 +10996,8 @@
           "deck_id": "luftrecht",
           "page": 55
         }
-      ]
+      ],
+      "subcategory": "special-zones-lsr-lsd"
     },
     "Legislation_104": {
       "qid": 104,
@@ -10694,7 +11034,8 @@
           "deck_id": "luftrecht",
           "page": 50
         }
-      ]
+      ],
+      "subcategory": "info-sources-publications"
     },
     "Legislation_105": {
       "qid": 105,
@@ -10731,7 +11072,8 @@
           "deck_id": "luftrecht",
           "page": 59
         }
-      ]
+      ],
+      "subcategory": "cloud-clearance-visibility"
     },
     "Legislation_106": {
       "qid": 106,
@@ -10768,7 +11110,8 @@
           "deck_id": "luftrecht",
           "page": 59
         }
-      ]
+      ],
+      "subcategory": "cloud-clearance-visibility"
     },
     "Legislation_107": {
       "qid": 107,
@@ -10805,7 +11148,8 @@
           "deck_id": "luftrecht",
           "page": 59
         }
-      ]
+      ],
+      "subcategory": "cloud-clearance-visibility"
     },
     "Legislation_108": {
       "qid": 108,
@@ -10838,7 +11182,8 @@
           "deck_id": "luftrecht",
           "page": 55
         }
-      ]
+      ],
+      "subcategory": "special-zones-lsr-lsd"
     },
     "Legislation_109": {
       "qid": 109,
@@ -10866,7 +11211,8 @@
           "deck_id": "luftrecht",
           "page": 49
         }
-      ]
+      ],
+      "subcategory": "special-zones-lsr-lsd"
     },
     "Legislation_110": {
       "qid": 110,
@@ -10887,7 +11233,8 @@
           "deck_id": "luftrecht",
           "page": 6
         }
-      ]
+      ],
+      "subcategory": "brevet-licensing-exam"
     },
     "Legislation_111": {
       "qid": 111,
@@ -10924,7 +11271,8 @@
           "deck_id": "luftrecht",
           "page": 6
         }
-      ]
+      ],
+      "subcategory": "brevet-licensing-exam"
     },
     "Legislation_112": {
       "qid": 112,
@@ -10950,7 +11298,8 @@
           "deck_id": "luftrecht",
           "page": 6
         }
-      ]
+      ],
+      "subcategory": "brevet-licensing-exam"
     },
     "Legislation_114": {
       "qid": 114,
@@ -10976,7 +11325,8 @@
           "deck_id": "luftrecht",
           "page": 6
         }
-      ]
+      ],
+      "subcategory": "brevet-licensing-exam"
     },
     "Legislation_115": {
       "qid": 115,
@@ -11002,7 +11352,8 @@
           "deck_id": "luftrecht",
           "page": 6
         }
-      ]
+      ],
+      "subcategory": "brevet-licensing-exam"
     },
     "Legislation_117": {
       "qid": 117,
@@ -11028,7 +11379,8 @@
           "deck_id": "luftrecht",
           "page": 6
         }
-      ]
+      ],
+      "subcategory": "brevet-licensing-exam"
     },
     "Legislation_118": {
       "qid": 118,
@@ -11054,7 +11406,8 @@
           "deck_id": "luftrecht",
           "page": 6
         }
-      ]
+      ],
+      "subcategory": "brevet-licensing-exam"
     },
     "Legislation_119": {
       "qid": 119,
@@ -11084,7 +11437,8 @@
           "deck_id": "luftrecht",
           "page": 6
         }
-      ]
+      ],
+      "subcategory": "brevet-licensing-exam"
     },
     "Legislation_120": {
       "qid": 120,
@@ -11110,7 +11464,8 @@
           "deck_id": "luftrecht",
           "page": 6
         }
-      ]
+      ],
+      "subcategory": "brevet-licensing-exam"
     },
     "Legislation_121": {
       "qid": 121,
@@ -11136,7 +11491,8 @@
           "deck_id": "luftrecht",
           "page": 6
         }
-      ]
+      ],
+      "subcategory": "brevet-licensing-exam"
     },
     "Legislation_123": {
       "qid": 123,
@@ -11169,7 +11525,8 @@
           "deck_id": "luftrecht",
           "page": 13
         }
-      ]
+      ],
+      "subcategory": "traffic-rules-right-of-way"
     },
     "Legislation_125": {
       "qid": 125,
@@ -11202,7 +11559,8 @@
           "deck_id": "luftrecht",
           "page": 13
         }
-      ]
+      ],
+      "subcategory": "traffic-rules-right-of-way"
     },
     "Legislation_126": {
       "qid": 126,
@@ -11235,7 +11593,8 @@
           "deck_id": "luftrecht",
           "page": 13
         }
-      ]
+      ],
+      "subcategory": "traffic-rules-right-of-way"
     },
     "Legislation_127": {
       "qid": 127,
@@ -11272,7 +11631,8 @@
           "deck_id": "luftrecht",
           "page": 13
         }
-      ]
+      ],
+      "subcategory": "traffic-rules-right-of-way"
     },
     "Legislation_128": {
       "qid": 128,
@@ -11305,7 +11665,8 @@
           "deck_id": "luftrecht",
           "page": 13
         }
-      ]
+      ],
+      "subcategory": "traffic-rules-right-of-way"
     },
     "Legislation_129": {
       "qid": 129,
@@ -11338,7 +11699,8 @@
           "deck_id": "luftrecht",
           "page": 8
         }
-      ]
+      ],
+      "subcategory": "traffic-rules-right-of-way"
     },
     "Legislation_130": {
       "qid": 130,
@@ -11379,7 +11741,8 @@
           "deck_id": "luftrecht",
           "page": 11
         }
-      ]
+      ],
+      "subcategory": "traffic-rules-right-of-way"
     },
     "Legislation_132": {
       "qid": 132,
@@ -11412,7 +11775,8 @@
           "deck_id": "luftrecht",
           "page": 8
         }
-      ]
+      ],
+      "subcategory": "traffic-rules-right-of-way"
     },
     "Legislation_133": {
       "qid": 133,
@@ -11449,7 +11813,8 @@
           "deck_id": "luftrecht",
           "page": 12
         }
-      ]
+      ],
+      "subcategory": "traffic-rules-right-of-way"
     },
     "Legislation_134": {
       "qid": 134,
@@ -11482,7 +11847,8 @@
           "deck_id": "luftrecht",
           "page": 12
         }
-      ]
+      ],
+      "subcategory": "traffic-rules-right-of-way"
     },
     "Legislation_137": {
       "qid": 137,
@@ -11515,7 +11881,8 @@
           "deck_id": "luftrecht",
           "page": 8
         }
-      ]
+      ],
+      "subcategory": "traffic-rules-right-of-way"
     },
     "Legislation_138": {
       "qid": 138,
@@ -11548,7 +11915,8 @@
           "deck_id": "luftrecht",
           "page": 8
         }
-      ]
+      ],
+      "subcategory": "traffic-rules-right-of-way"
     },
     "Legislation_140": {
       "qid": 140,
@@ -11574,7 +11942,8 @@
           "deck_id": "luftrecht",
           "page": 8
         }
-      ]
+      ],
+      "subcategory": "traffic-rules-right-of-way"
     },
     "Legislation_141": {
       "qid": 141,
@@ -11604,7 +11973,8 @@
           "deck_id": "luftrecht",
           "page": 10
         }
-      ]
+      ],
+      "subcategory": "traffic-rules-right-of-way"
     },
     "Legislation_142": {
       "qid": 142,
@@ -11625,7 +11995,8 @@
           "deck_id": "luftrecht",
           "page": 8
         }
-      ]
+      ],
+      "subcategory": "operating-rules-distances"
     },
     "Legislation_144": {
       "qid": 144,
@@ -11646,7 +12017,8 @@
           "deck_id": "luftrecht",
           "page": 4
         }
-      ]
+      ],
+      "subcategory": "legal-framework-oacs"
     },
     "Legislation_145": {
       "qid": 145,
@@ -11687,7 +12059,8 @@
           "deck_id": "luftrecht",
           "page": 63
         }
-      ]
+      ],
+      "subcategory": "chart-reading-scenarios"
     },
     "Legislation_146": {
       "qid": 146,
@@ -11720,7 +12093,8 @@
           "deck_id": "luftrecht",
           "page": 58
         }
-      ]
+      ],
+      "subcategory": "chart-reading-scenarios"
     },
     "Legislation_147": {
       "qid": 147,
@@ -11753,7 +12127,8 @@
           "deck_id": "luftrecht",
           "page": 63
         }
-      ]
+      ],
+      "subcategory": "chart-reading-scenarios"
     },
     "Legislation_148": {
       "qid": 148,
@@ -11794,7 +12169,8 @@
           "deck_id": "luftrecht",
           "page": 65
         }
-      ]
+      ],
+      "subcategory": "chart-reading-scenarios"
     },
     "Legislation_150": {
       "qid": 150,
@@ -11835,7 +12211,8 @@
           "deck_id": "luftrecht",
           "page": 66
         }
-      ]
+      ],
+      "subcategory": "chart-reading-scenarios"
     },
     "Legislation_152": {
       "qid": 152,
@@ -11872,7 +12249,8 @@
           "deck_id": "luftrecht",
           "page": 64
         }
-      ]
+      ],
+      "subcategory": "chart-reading-scenarios"
     },
     "Legislation_153": {
       "qid": 153,
@@ -11913,7 +12291,8 @@
           "deck_id": "luftrecht",
           "page": 64
         }
-      ]
+      ],
+      "subcategory": "chart-reading-scenarios"
     },
     "Legislation_154": {
       "qid": 154,
@@ -11946,7 +12325,8 @@
           "deck_id": "luftrecht",
           "page": 63
         }
-      ]
+      ],
+      "subcategory": "chart-reading-scenarios"
     },
     "Legislation_155": {
       "qid": 155,
@@ -11987,7 +12367,8 @@
           "deck_id": "luftrecht",
           "page": 27
         }
-      ]
+      ],
+      "subcategory": "chart-reading-scenarios"
     },
     "Legislation_156": {
       "qid": 156,
@@ -12032,7 +12413,8 @@
           "deck_id": "luftrecht",
           "page": 64
         }
-      ]
+      ],
+      "subcategory": "chart-reading-scenarios"
     },
     "Legislation_157": {
       "qid": 157,
@@ -12073,7 +12455,8 @@
           "deck_id": "luftrecht",
           "page": 65
         }
-      ]
+      ],
+      "subcategory": "chart-reading-scenarios"
     },
     "Legislation_158": {
       "qid": 158,
@@ -12118,7 +12501,8 @@
           "deck_id": "luftrecht",
           "page": 59
         }
-      ]
+      ],
+      "subcategory": "chart-reading-scenarios"
     },
     "Legislation_162": {
       "qid": 162,
@@ -12167,7 +12551,8 @@
           "deck_id": "luftrecht",
           "page": 62
         }
-      ]
+      ],
+      "subcategory": "chart-reading-scenarios"
     },
     "Legislation_163": {
       "qid": 163,
@@ -12208,7 +12593,8 @@
           "deck_id": "luftrecht",
           "page": 62
         }
-      ]
+      ],
+      "subcategory": "chart-reading-scenarios"
     },
     "Legislation_164": {
       "qid": 164,
@@ -12245,7 +12631,8 @@
           "deck_id": "luftrecht",
           "page": 65
         }
-      ]
+      ],
+      "subcategory": "chart-reading-scenarios"
     },
     "Legislation_165": {
       "qid": 165,
@@ -12282,7 +12669,8 @@
           "deck_id": "luftrecht",
           "page": 44
         }
-      ]
+      ],
+      "subcategory": "chart-reading-scenarios"
     },
     "Legislation_166": {
       "qid": 166,
@@ -12319,7 +12707,8 @@
           "deck_id": "luftrecht",
           "page": 54
         }
-      ]
+      ],
+      "subcategory": "chart-reading-scenarios"
     },
     "Legislation_167": {
       "qid": 167,
@@ -12364,7 +12753,8 @@
           "deck_id": "luftrecht",
           "page": 50
         }
-      ]
+      ],
+      "subcategory": "chart-reading-scenarios"
     },
     "Legislation_168": {
       "qid": 168,
@@ -12409,7 +12799,8 @@
           "deck_id": "luftrecht",
           "page": 50
         }
-      ]
+      ],
+      "subcategory": "chart-reading-scenarios"
     },
     "Legislation_169": {
       "qid": 169,
@@ -12446,7 +12837,8 @@
           "deck_id": "luftrecht",
           "page": 65
         }
-      ]
+      ],
+      "subcategory": "airspace-classes-structure"
     },
     "Legislation_170": {
       "qid": 170,
@@ -12487,7 +12879,8 @@
           "deck_id": "luftrecht",
           "page": 66
         }
-      ]
+      ],
+      "subcategory": "altitude-ceilings-pressure"
     },
     "Legislation_171": {
       "qid": 171,
@@ -12536,7 +12929,8 @@
           "deck_id": "luftrecht",
           "page": 34
         }
-      ]
+      ],
+      "subcategory": "altitude-ceilings-pressure"
     },
     "Legislation_172": {
       "qid": 172,
@@ -12581,7 +12975,8 @@
           "deck_id": "luftrecht",
           "page": 34
         }
-      ]
+      ],
+      "subcategory": "altitude-ceilings-pressure"
     },
     "Legislation_173": {
       "qid": 173,
@@ -12618,7 +13013,8 @@
           "deck_id": "luftrecht",
           "page": 66
         }
-      ]
+      ],
+      "subcategory": "airspace-classes-structure"
     },
     "Legislation_174": {
       "qid": 174,
@@ -12643,7 +13039,8 @@
           "deck_id": "luftrecht",
           "page": 18
         }
-      ]
+      ],
+      "subcategory": "abbreviations"
     },
     "Legislation_176": {
       "qid": 176,
@@ -12684,7 +13081,8 @@
           "deck_id": "luftrecht",
           "page": 54
         }
-      ]
+      ],
+      "subcategory": "chart-reading-scenarios"
     },
     "Legislation_177": {
       "qid": 177,
@@ -12725,7 +13123,8 @@
           "deck_id": "luftrecht",
           "page": 34
         }
-      ]
+      ],
+      "subcategory": "altitude-ceilings-pressure"
     },
     "Legislation_178": {
       "qid": 178,
@@ -12766,7 +13165,8 @@
           "deck_id": "luftrecht",
           "page": 59
         }
-      ]
+      ],
+      "subcategory": "chart-reading-scenarios"
     },
     "Legislation_179": {
       "qid": 179,
@@ -12787,7 +13187,206 @@
           "deck_id": "luftrecht",
           "page": 18
         }
-      ]
+      ],
+      "subcategory": "abbreviations"
     }
+  },
+  "subcategories": {
+    "Aerodynamics": [
+      {
+        "id": "vectors-and-forces",
+        "title": "Vectors and forces",
+        "description": "Resolve and combine forces with the parallelogram rule and special-case vector addition."
+      },
+      {
+        "id": "drag-fundamentals",
+        "title": "Drag fundamentals and drag coefficient",
+        "description": "Identify what drives drag on a body and interpret the drag coefficient (Cd) for different shapes."
+      },
+      {
+        "id": "drag-scaling",
+        "title": "Drag scaling with area and speed",
+        "description": "Work out how drag changes when frontal area or airflow speed is scaled up or down."
+      },
+      {
+        "id": "air-density-altitude",
+        "title": "Air density and altitude",
+        "description": "Reason about how decreasing air density with altitude changes the drag a body experiences."
+      },
+      {
+        "id": "wing-profile-and-lift",
+        "title": "Wing profile and lift generation",
+        "description": "Read airfoil geometry (chord, leading edge, stagnation, separation, centre of pressure) and understand how lift is produced and distributed."
+      },
+      {
+        "id": "angle-of-attack-and-stall",
+        "title": "Angle of attack and stall",
+        "description": "Use the angle of attack to predict lift, speed, and the onset of stall under different loadings."
+      },
+      {
+        "id": "wing-geometry-loading",
+        "title": "Wing geometry and wing loading",
+        "description": "Compute and compare span, average chord, aspect ratio, surface area, and wing loading for a glider."
+      },
+      {
+        "id": "equilibrium-forces",
+        "title": "Equilibrium and the resultant aerodynamic force",
+        "description": "Balance lift, drag, and weight in stable flight and read force diagrams showing the resultant aerodynamic force."
+      },
+      {
+        "id": "glide-ratio",
+        "title": "Glide ratio and glide distance",
+        "description": "Relate glide ratio to glide angle, distance flown, height lost, forward speed, and sink rate."
+      },
+      {
+        "id": "polar-curve-speeds",
+        "title": "Polar curve and speed selection",
+        "description": "Read the polar curve to find best-glide, minimum-sink, trim, and maximum speeds, and choose the right speed in sink or head wind."
+      },
+      {
+        "id": "axes-stability-turns",
+        "title": "Axes, stability, and turns",
+        "description": "Name roll, pitch, and yaw axes, classify glider stability, and apply load factor in turning flight."
+      }
+    ],
+    "Materials": [
+      {
+        "id": "sail-cloth-and-coating",
+        "title": "Sail cloth and coating",
+        "description": "Ripstop weave, porosity, the role of the canopy coating, UV damage and protecting fabric from chemicals and abrasion."
+      },
+      {
+        "id": "wing-construction",
+        "title": "Wing construction",
+        "description": "Cells, ribs, V-ribs, stitching, leading-edge loads and how the canopy structure carries lift to the lines."
+      },
+      {
+        "id": "line-materials-and-construction",
+        "title": "Line materials and construction",
+        "description": "Aramid versus Dyneema cores, sheath function, splicing versus sewing, line diameter and tensile strength."
+      },
+      {
+        "id": "line-trim-and-effects",
+        "title": "Line trim and tuning effects",
+        "description": "How shortening or lengthening A, B, C or D lines changes angle of attack, handling and flight behaviour."
+      },
+      {
+        "id": "line-care-and-replacement",
+        "title": "Line care, damage and replacement",
+        "description": "Line stretch, shrinkage, overload damage, torn lines, replacement rules and the line check."
+      },
+      {
+        "id": "line-geometry-and-load",
+        "title": "Line groups, geometry and load distribution",
+        "description": "Naming and attachment of line groups, A and B versus C and D load share, and the effect of total line length on the pendulum."
+      },
+      {
+        "id": "risers-speed-and-trimmers",
+        "title": "Risers, speed bar and trimmers",
+        "description": "How the foot accelerator and trim tabs change riser lengths, angle of attack and airspeed."
+      },
+      {
+        "id": "brake-and-steering",
+        "title": "Brake and steering lines",
+        "description": "Brake-line length, pulleys, brake travel calibration and trailing-edge effects under brake input."
+      },
+      {
+        "id": "harness-geometry",
+        "title": "Harness geometry and feedback",
+        "description": "Diagonal bracing, hang-point height, karabiner spacing, recline angle and their effect on swing and pilot feedback."
+      },
+      {
+        "id": "harness-back-protection",
+        "title": "Harness back protection",
+        "description": "Foam versus ram-air airbag protectors, what they cover and the limits of passive impact protection."
+      },
+      {
+        "id": "reserve-parachute",
+        "title": "Reserve parachute",
+        "description": "Reserve canopy material, mounting and handle access, packing intervals, sink-rate certification and connection geometry."
+      },
+      {
+        "id": "certification-and-loads",
+        "title": "EN certification, wing loading and structural loads",
+        "description": "EN test scheme, wing-loading ranges, tensile loading of fabric and lines, and effects of repeated extreme manoeuvres."
+      },
+      {
+        "id": "flight-instruments",
+        "title": "Flight instruments",
+        "description": "Variometer, altimeter and anemometer operation and mounting, plus how pressure changes affect altitude readings."
+      },
+      {
+        "id": "pilot-protective-gear",
+        "title": "Pilot protective gear",
+        "description": "Gloves and helmets, what injuries they prevent and which designs offer the best protection."
+      }
+    ],
+    "Legislation": [
+      {
+        "id": "legal-framework-oacs",
+        "title": "Legal framework (OACS/VLK)",
+        "description": "Federal ordinance basics defining hang gliders, register status, airworthiness responsibility, and the legal source of free-flight rules."
+      },
+      {
+        "id": "identification-marking",
+        "title": "Aircraft identification & markings",
+        "description": "VKZ rules on identification numbers and manufacturer plaques on the wing."
+      },
+      {
+        "id": "insurance-liability-equipment",
+        "title": "Insurance, liability & equipment",
+        "description": "Mandatory third-party liability cover, helmet/reserve obligations and who pays when damages exceed the insured sum."
+      },
+      {
+        "id": "brevet-licensing-exam",
+        "title": "Brevet, licensing & exam",
+        "description": "Licence categories, validity, minimum age, training/tandem/instructor prerequisites and exam content, sites, complaints."
+      },
+      {
+        "id": "airspace-classes-structure",
+        "title": "Airspace classes & structure",
+        "description": "ICAO class system, Swiss usage of C/D/E/G, CTR and TMA general definitions, radio/clearance and transponder requirements."
+      },
+      {
+        "id": "cloud-clearance-visibility",
+        "title": "Cloud clearance & VFR visibility",
+        "description": "VFR visibility minima and cloud-distance values for the various airspaces and altitude bands (including 300 m AGL and LSR-Gliders variants)."
+      },
+      {
+        "id": "altitude-ceilings-pressure",
+        "title": "Altitude ceilings & pressure references",
+        "description": "Upper limits of class G and E airspace in Jura vs Alps, flight-level conversions, QNH effect on ceilings and the local 600 m AGL peak rule."
+      },
+      {
+        "id": "special-zones-lsr-lsd",
+        "title": "Restricted, danger & glider zones",
+        "description": "LS-R restricted areas, LS-R for Gliders, LS-D danger zones, MA/HX suffixes and military operating hours."
+      },
+      {
+        "id": "traffic-rules-right-of-way",
+        "title": "Traffic rules & right of way",
+        "description": "Priority by manoeuvrability, head-on encounters in free air and on slopes, overtaking, vertical separation and landing-approach precedence."
+      },
+      {
+        "id": "abbreviations",
+        "title": "Aviation abbreviations",
+        "description": "Pure abbreviation lookups for terms such as ICAO, VFR, IFR, AGL, AMSL, GND, FL, AWY, CTR, TMA, FIZ, RMZ."
+      },
+      {
+        "id": "info-sources-publications",
+        "title": "Information sources & publications",
+        "description": "AIP, GLDK/GLDC, NOTAM and DABS as the standard publications used to plan a VFR flight."
+      },
+      {
+        "id": "chart-reading-scenarios",
+        "title": "Glider chart reading & scenarios",
+        "description": "Map symbols, airspace markings and 'X on the chart' situations combining altitude, day/time and zone status."
+      },
+      {
+        "id": "operating-rules-distances",
+        "title": "Operating rules & ground distances",
+        "description": "Distance to aerodromes, runways, gatherings and obstacles, water take-offs, ground-signal yellow cross and the dedicated free-flight radio frequency."
+      }
+    ]
   }
 }
