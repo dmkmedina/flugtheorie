@@ -38,6 +38,13 @@ const DEFAULT_STATE = {
     setup: { topic: 'all', subcategory: 'all', count: 100 },
     history: []
   },
+  // SHV browse view (no exam — explore the pool by topic + subcategory)
+  shvBrowse: {
+    topic: null,                        // null = pick first available on render
+    expandedSubs: {},                   // { '<topic>::<subcat-id>': true }
+    expandedQs: {},                     // { '<topic>_<qid>': true }
+    query: ''
+  },
   // guide
   guide: { partId: null, chapterId: null },
   // slide decks (Freewings)
@@ -68,6 +75,7 @@ function loadState() {
       fc: { ...DEFAULT_STATE.fc, ...(parsed.fc || {}) },
       exam: { ...DEFAULT_STATE.exam, ...(parsed.exam || {}) },
       shvExam: { ...DEFAULT_STATE.shvExam, ...(parsed.shvExam || {}), setup: { ...DEFAULT_STATE.shvExam.setup, ...((parsed.shvExam && parsed.shvExam.setup) || {}) } },
+      shvBrowse: { ...DEFAULT_STATE.shvBrowse, ...(parsed.shvBrowse || {}) },
       guide: { ...DEFAULT_STATE.guide, ...(parsed.guide || {}) },
       slides: { ...DEFAULT_STATE.slides, ...(parsed.slides || {}) },
       videos: { ...DEFAULT_STATE.videos, ...(parsed.videos || {}) },
@@ -317,7 +325,7 @@ function applyTheme() {
 }
 
 // ---- Routing ----------------------------------------------------------------
-const VIEWS = ['dashboard', 'flashcards', 'workbook', 'quiz', 'exam', 'shv-exam', 'guide', 'slides', 'videos', 'cheatsheet', 'tips'];
+const VIEWS = ['dashboard', 'flashcards', 'workbook', 'quiz', 'exam', 'shv-exam', 'shv-browse', 'guide', 'slides', 'videos', 'cheatsheet', 'tips'];
 function navigate(view) {
   if (!VIEWS.includes(view)) view = 'dashboard';
   if (state.view !== view) {
@@ -439,6 +447,7 @@ function renderDashboard() {
         <button class="btn" data-nav="quiz">📝 Take a quiz</button>
         <button class="btn" data-nav="exam">⏱️ Start mock exam</button>
         <button class="btn" data-nav="shv-exam">🎯 SHV practice exam</button>
+        <button class="btn" data-nav="shv-browse">🗂️ Browse SHV pool</button>
         <button class="btn" data-nav="guide">📚 Study guide</button>
         <button class="btn" data-nav="slides">🎬 Slide decks</button>
         <button class="btn" data-nav="videos">📺 Videos (EN subs)</button>
@@ -1772,6 +1781,232 @@ function renderSHVExamResult(r) {
   `;
 }
 
+// ============================================================================
+// VIEW: SHV Browse (explore the pool by topic + subcategory, expand inline)
+// ============================================================================
+function getSHVQuestionsForTopic(topic) {
+  return Object.values(getSHVQuestions() || {}).filter(q => q.topic === topic);
+}
+function getSHVQuestionsForSubcat(topic, subcatId) {
+  return getSHVQuestionsForTopic(topic).filter(q => {
+    const e = getSHVEnrichmentFor(`${q.topic}_${q.qid}`);
+    return e && e.subcategory === subcatId;
+  });
+}
+
+function ensureShvBrowseTopic() {
+  const byTopic = getSHVQuestionsByTopic();
+  const topics = Object.keys(byTopic);
+  if (!state.shvBrowse.topic || !byTopic[state.shvBrowse.topic]) {
+    state.shvBrowse.topic = topics[0] || null;
+  }
+}
+
+function renderSHVBrowse() {
+  const pool = getSHVQuestions();
+  if (!pool) {
+    return `<div class="empty"><div class="emoji">🗂️</div><div>SHV question pool not loaded.</div></div>`;
+  }
+  ensureShvBrowseTopic();
+  const byTopic = getSHVQuestionsByTopic();
+  const topics = Object.keys(byTopic).sort();
+  const cur = state.shvBrowse.topic;
+  const total = Object.keys(pool).length;
+
+  // Tabs
+  const tabsHtml = `
+    <div class="subtabs">
+      ${topics.map(t => {
+        const meta = shvTopicMeta(t);
+        return `<button class="subtab ${cur === t ? 'active' : ''}" data-shv-browse-topic="${escapeHtml(t)}">
+          ${meta.icon} ${escapeHtml(t)} <span class="count">${byTopic[t].length}</span>
+        </button>`;
+      }).join('')}
+    </div>`;
+
+  if (!cur || !byTopic[cur]) {
+    return `<div class="page-header"><h1>🗂️ SHV Browse</h1></div>${tabsHtml}<div class="empty">Pick a topic.</div>`;
+  }
+
+  const meta = shvTopicMeta(cur);
+  const subs = getSHVSubcategoriesForTopic(cur);
+  const topicQs = byTopic[cur];
+  const q = (state.shvBrowse.query || '').trim().toLowerCase();
+
+  // Group questions by subcategory for the selected topic
+  const bySub = new Map();
+  for (const qq of topicQs) {
+    const e = getSHVEnrichmentFor(`${qq.topic}_${qq.qid}`);
+    const sid = (e && e.subcategory) || '_unassigned';
+    if (!bySub.has(sid)) bySub.set(sid, []);
+    bySub.get(sid).push(qq);
+  }
+  for (const list of bySub.values()) list.sort((a, b) => a.qid - b.qid);
+
+  // Build subcategory list (canonical order from subcats catalog, then any unassigned)
+  const orderedSubcats = subs.slice();
+  if (bySub.has('_unassigned')) orderedSubcats.push({ id: '_unassigned', title: 'Unsorted', description: 'Not yet assigned to a subcategory' });
+
+  // Filter by query if any
+  const matches = (qq) => {
+    if (!q) return true;
+    if (qq.text && qq.text.toLowerCase().includes(q)) return true;
+    if (qq.options && qq.options.some(o => o.toLowerCase().includes(q))) return true;
+    return false;
+  };
+
+  const subsHtml = orderedSubcats.map(s => {
+    const list = (bySub.get(s.id) || []).filter(matches);
+    if (list.length === 0 && q) return '';  // hide empty subcats during search
+    const subKey = `${cur}::${s.id}`;
+    const expanded = !!state.shvBrowse.expandedSubs[subKey] || !!q;
+    const qsHtml = expanded ? list.map(qq => renderShvBrowseQuestionRow(qq)).join('') : '';
+    return `
+      <div class="shv-browse-subcat">
+        <button class="shv-browse-subcat-header" data-shv-toggle-sub="${escapeHtml(subKey)}">
+          <span class="shv-browse-subcat-chevron">${expanded ? '▾' : '▸'}</span>
+          <span class="shv-browse-subcat-title">${escapeHtml(s.title)}</span>
+          <span class="shv-browse-subcat-count">${list.length}${list.length !== (bySub.get(s.id) || []).length ? '/' + (bySub.get(s.id) || []).length : ''}</span>
+        </button>
+        ${s.description ? `<div class="shv-browse-subcat-desc">${escapeHtml(s.description)}</div>` : ''}
+        ${expanded ? `<div class="shv-browse-question-list">${qsHtml}</div>` : ''}
+      </div>
+    `;
+  }).join('');
+
+  return `
+    <div class="page-header">
+      <h1>🗂️ SHV Browse</h1>
+      <p class="page-subtitle">All ${total} scraped questions, grouped by topic and subtopic — expand to see content, answer, and references inline.</p>
+    </div>
+    ${tabsHtml}
+    <div class="shv-browse-toolbar">
+      <input class="search-input" id="shv-browse-q" type="search" placeholder="Search ${escapeHtml(cur)} questions and answers…" value="${escapeHtml(state.shvBrowse.query || '')}" />
+      <button class="btn small" id="shv-browse-expand-all">Expand all subtopics</button>
+      <button class="btn small ghost" id="shv-browse-collapse-all">Collapse all</button>
+    </div>
+    <div class="shv-browse-topic-header">
+      <div><span class="cat-dot" style="background:${meta.color}"></span>${meta.icon} <strong>${escapeHtml(cur)}</strong>
+        <span class="muted"> · ${topicQs.length} questions in ${subs.length} subtopics</span>
+      </div>
+    </div>
+    <div class="shv-browse-subcats">${subsHtml}</div>
+  `;
+}
+
+function renderShvBrowseQuestionRow(q) {
+  const key = `${q.topic}_${q.qid}`;
+  const expanded = !!state.shvBrowse.expandedQs[key];
+  const markers = ['A', 'B', 'C', 'D'];
+  const hasImg = q.has_image && q.image_path;
+  const e = getSHVEnrichmentFor(key);
+  const hasEnrich = !!(e && (e.explanation || e.video_clips?.length || e.diagrams?.length));
+
+  if (!expanded) {
+    return `
+      <button class="shv-browse-question shv-browse-question-collapsed" data-shv-toggle-q="${escapeHtml(key)}">
+        <span class="shv-browse-qid">Q${q.qid}</span>
+        <span class="shv-browse-qpreview">${escapeHtml(q.text.slice(0, 140))}${q.text.length > 140 ? '…' : ''}</span>
+        <span class="shv-browse-qbadges">
+          ${hasImg ? '<span class="shv-browse-badge" title="Has reference image">🖼</span>' : ''}
+          ${hasEnrich ? '<span class="shv-browse-badge" title="Has explanation + links">💡</span>' : ''}
+          <span class="shv-browse-chevron">▸</span>
+        </span>
+      </button>
+    `;
+  }
+
+  return `
+    <div class="shv-browse-question shv-browse-question-expanded">
+      <button class="shv-browse-question-header" data-shv-toggle-q="${escapeHtml(key)}">
+        <span class="shv-browse-qid">Q${q.qid}</span>
+        <span class="shv-browse-qfulltext">${escapeHtml(q.text)}</span>
+        <span class="shv-browse-chevron">▾</span>
+      </button>
+      ${hasImg ? `<div class="shv-question-image"><img src="${escapeHtml(q.image_path)}" alt="" loading="lazy" /></div>` : ''}
+      <div class="choices">
+        ${q.options.map((opt, idx) => {
+          const isCorrect = idx === q.correct;
+          return `<div class="choice ${isCorrect ? 'correct' : ''}" style="cursor:default; ${isCorrect ? 'background:var(--good-soft); border-color:var(--good); color:var(--good);' : ''}">
+            <span class="marker">${markers[idx]}</span><span class="ct">${escapeHtml(opt)}${isCorrect ? ' ✓' : ''}</span>
+          </div>`;
+        }).join('')}
+      </div>
+      ${renderShvEnrichmentPanel(key, q)}
+    </div>
+  `;
+}
+
+function attachShvBrowseEvents() {
+  document.querySelectorAll('[data-shv-browse-topic]').forEach(b => b.onclick = () => {
+    state.shvBrowse.topic = b.dataset.shvBrowseTopic;
+    // Don't reset expansion when switching topics — but visibility filters by topic anyway
+    saveState();
+    render();
+  });
+  document.querySelectorAll('[data-shv-toggle-sub]').forEach(b => b.onclick = () => {
+    const key = b.dataset.shvToggleSub;
+    state.shvBrowse.expandedSubs[key] = !state.shvBrowse.expandedSubs[key];
+    saveState();
+    render();
+  });
+  document.querySelectorAll('[data-shv-toggle-q]').forEach(b => b.onclick = () => {
+    const key = b.dataset.shvToggleQ;
+    state.shvBrowse.expandedQs[key] = !state.shvBrowse.expandedQs[key];
+    saveState();
+    render();
+  });
+  const q = document.getElementById('shv-browse-q');
+  if (q) q.oninput = (e) => {
+    state.shvBrowse.query = e.target.value;
+    saveState();
+    render();
+    const inp = document.getElementById('shv-browse-q');
+    if (inp) { inp.focus(); inp.setSelectionRange(state.shvBrowse.query.length, state.shvBrowse.query.length); }
+  };
+  const exp = document.getElementById('shv-browse-expand-all');
+  if (exp) exp.onclick = () => {
+    const subs = getSHVSubcategoriesForTopic(state.shvBrowse.topic);
+    for (const s of subs) state.shvBrowse.expandedSubs[`${state.shvBrowse.topic}::${s.id}`] = true;
+    saveState();
+    render();
+  };
+  const col = document.getElementById('shv-browse-collapse-all');
+  if (col) col.onclick = () => {
+    state.shvBrowse.expandedSubs = {};
+    state.shvBrowse.expandedQs = {};
+    saveState();
+    render();
+  };
+  // Click-into-app handlers also work in browse view (chips → guide/workbook, video clips, slides)
+  // The chips are produced by renderShvEnrichmentPanel and pick up the same data-shv-* attributes
+  // bound by attachSHVExamEvents — re-bind here:
+  document.querySelectorAll('[data-shv-goto-guide]').forEach(b => b.onclick = () => {
+    state.guide.partId = b.dataset.shvGotoPart;
+    state.guide.chapterId = b.dataset.shvGotoGuide;
+    saveState();
+    navigate('guide');
+  });
+  document.querySelectorAll('[data-shv-goto-workbook]').forEach(b => b.onclick = () => {
+    state.workbook.bookId = b.dataset.shvGotoBook;
+    state.workbook.chapterId = b.dataset.shvGotoWorkbook;
+    saveState();
+    navigate('workbook');
+  });
+  document.querySelectorAll('[data-shv-play-clip]').forEach(b => b.onclick = () => {
+    const [videoId, tStart] = b.dataset.shvPlayClip.split('|');
+    openVideoPlayer(videoId);
+    setTimeout(() => {
+      const v = document.getElementById('vp-video');
+      if (v) { v.currentTime = parseFloat(tStart); v.play().catch(() => {}); }
+    }, 600);
+  });
+  document.querySelectorAll('[data-shv-open-slide]').forEach(b => b.onclick = () => {
+    const [deckId, page] = b.dataset.shvOpenSlide.split('|');
+    openSlideViewer(deckId, parseInt(page, 10));
+  });
+}
+
 function attachSHVExamEvents() {
   const topicSel = document.getElementById('shv-setup-topic');
   if (topicSel) topicSel.onchange = (e) => {
@@ -3096,6 +3331,7 @@ function render() {
     { id: 'dashboard',  icon: '📊', label: 'Dashboard' },
     { id: 'workbook',   icon: '📒', label: 'Workbook', badge: getWorkbook().reduce((a, b) => a + b.chapters.length, 0) || null },
     { id: 'shv-exam',   icon: '🎯', label: 'SHV Practice', badge: Object.keys(getSHVQuestions() || {}).length || null },
+    { id: 'shv-browse', icon: '🗂️', label: 'SHV Browse', badge: Object.keys(getSHVQuestions() || {}).length || null },
     { id: 'guide',      icon: '📚', label: 'Study Guide' },
     { id: 'slides',     icon: '🎬', label: 'Slide Decks', badge: getDecks().reduce((a, d) => a + deckSlideCount(d), 0) || null },
     { id: 'videos',     icon: '📺', label: 'Videos (EN subs)', badge: getAllVideos().length || null },
@@ -3152,6 +3388,7 @@ function render() {
     case 'quiz':       html = renderQuiz(); break;
     case 'exam':       html = renderExam(); break;
     case 'shv-exam':   html = renderSHVExam(); break;
+    case 'shv-browse': html = renderSHVBrowse(); break;
     case 'guide':      html = renderGuide(); break;
     case 'slides':     html = renderSlides(); break;
     case 'videos':     html = renderVideos(); break;
@@ -3182,6 +3419,7 @@ function render() {
   } else {
     stopSHVExamTimer();
   }
+  if (state.view === 'shv-browse') attachShvBrowseEvents();
   if (state.view === 'guide') attachGuideEvents();
   if (state.view === 'slides') attachSlidesEvents();
   if (state.view === 'videos') attachVideosEvents();
