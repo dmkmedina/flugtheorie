@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-05-28T15:24:42.047Z",
+  "fetchedAt": "2026-05-28T15:25:12.929Z",
   "questions": {
     "1": {
       "qid": 1,
@@ -6527,6 +6527,118 @@
         "Final approach."
       ],
       "correct": 2
+    },
+    "Practical Flying_168": {
+      "qid": 168,
+      "topic": "Practical Flying",
+      "pos": 42,
+      "total_in_topic": 169,
+      "text": "Are local wildlife and forest protection zones to be observed by paragliding pilots?",
+      "options": [
+        "No. They are also not important for cross country pilots.",
+        "Yes, because failure to do so may jeopardize the flying site concerned.",
+        "Yes. Flying into these zones is illegal and will be punished.",
+        "No, these are purely voluntary agreements and non-compliance has no consequences."
+      ],
+      "correct": 1
+    },
+    "Practical Flying_91": {
+      "qid": 91,
+      "topic": "Practical Flying",
+      "pos": 44,
+      "total_in_topic": 169,
+      "text": "What is a \"Wingover\" ?",
+      "options": [
+        "Rapid alternating turns, whereby the glider occasionally exhibits a bank angle of over 90°.",
+        "Very tight turns whereby the G loading due to the centrifugal force increases markedly.",
+        "A rapid rotation of the wing about the vertical axis, whereby one half of the glider flies forwards, the other backwards.",
+        "Twisting of risers and lines provoked by rotation of glider around the vertical axis. Due to the pilot's inertia he can't rotate as fast as the glider."
+      ],
+      "correct": 0
+    },
+    "Practical Flying_9": {
+      "qid": 9,
+      "topic": "Practical Flying",
+      "pos": 45,
+      "total_in_topic": 169,
+      "text": "When the human body is exposed to an airflow for an extended period",
+      "options": [
+        "its demand for oxygen increases considerably.",
+        "its demand for protein increases considerably.",
+        "its demand for vitamins increases considerably.",
+        "its demand for liquids increases considerably."
+      ],
+      "correct": 3
+    },
+    "Practical Flying_135": {
+      "qid": 135,
+      "topic": "Practical Flying",
+      "pos": 47,
+      "total_in_topic": 169,
+      "text": "In the case of landing in a tree what causes most serious injuries?",
+      "options": [
+        "The pilot gets out of his harness without using a rope to secure himself, the branches break and he falls out of the tree.",
+        "The glider and pilot slide down the tree and fall to the ground.",
+        "The branches give way under the weight of the pilot and glider, and the pilot falls to the ground.",
+        "The pilot is injured by the crash into the tree."
+      ],
+      "correct": 0
+    },
+    "Practical Flying_116": {
+      "qid": 116,
+      "topic": "Practical Flying",
+      "pos": 48,
+      "total_in_topic": 169,
+      "text": "Each diagram shows a standard landing approach in zero wind (dotted line) and a practical approach in accordance with conditions (solid line). Which approach should a pilot take with 5 - 0 km/h wind? 4213",
+      "options": [
+        "4",
+        "2",
+        "1",
+        "3"
+      ],
+      "correct": 3
+    },
+    "Practical Flying_13": {
+      "qid": 13,
+      "topic": "Practical Flying",
+      "pos": 49,
+      "total_in_topic": 169,
+      "text": "From what difference in pressure between Zurich and Lugano can one expect foehn in the Alpine valleys?",
+      "options": [
+        "From 8 hPa upwards.",
+        "From 2 hPa upwards.",
+        "From 16 hPa upwards.",
+        "From 4 hPa upwards."
+      ],
+      "correct": 3
+    },
+    "Practical Flying_82": {
+      "qid": 82,
+      "topic": "Practical Flying",
+      "pos": 50,
+      "total_in_topic": 169,
+      "text": "What are the indications that your wing has stalled on one side?",
+      "options": [
+        "The glider becomes unstable about the longitudinal axis and begins to pendulum.",
+        "The tension on the inside brake suddenly decreases and gives no more resistance throughout the brake range.",
+        "The glider enters a spiral dive resulting in a constant, high G loading.",
+        "The glider half on the inside of the turn collapses due to the decrease in pressure inside the glider."
+      ],
+      "correct": 1
+    },
+    "Practical Flying_127": {
+      "qid": 127,
+      "topic": "Practical Flying",
+      "pos": 52,
+      "total_in_topic": 169,
+      "text": "On a final the pilot applies 80% brakes without stalling, if he maintains this much brake for a long time",
+      "options": [
+        "it is highly likely that after a while the glider will stall.",
+        "the forward speed and sink rate will continuously decrease.",
+        "because of the high internal pressure the glider will fly safely and stably.",
+        "the glider speed will slowly and continuously increase."
+      ],
+      "correct": 0
     }
   },
   "topics": {
