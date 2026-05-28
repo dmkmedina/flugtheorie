@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-05-28T16:11:37.975Z",
+  "fetchedAt": "2026-05-28T16:12:10.467Z",
   "questions": {
     "Aerodynamics_1": {
       "qid": 1,
@@ -8660,16 +8660,16 @@
     "Weather_131": {
       "qid": 131,
       "topic": "Weather",
-      "pos": 64,
+      "pos": 39,
       "total_in_topic": 164,
       "text": "What causes the disappearance of a ground level inversion?",
       "options": [
-        "Sinking warm air warming in front of and in the centre of a high-pressure system.",
-        "The heating of the air layers close to the ground during the course of the day.",
         "The nightly radiation of heat from the ground when there are clear skies.",
-        "Incoming warm air in the upper air layers."
+        "Sinking warm air warming in front of and in the centre of a high-pressure system.",
+        "Incoming warm air in the upper air layers.",
+        "The heating of the air layers close to the ground during the course of the day."
       ],
-      "correct": 1
+      "correct": null
     },
     "Weather_83": {
       "qid": 83,
@@ -9290,16 +9290,16 @@
     "Weather_11": {
       "qid": 11,
       "topic": "Weather",
-      "pos": 115,
+      "pos": 53,
       "total_in_topic": 164,
       "text": "A child releases a balloon with a volume of about 5 dm3 at sea level. What is the volume of the balloon when it reaches an altitude of 5,500m above sea level?",
       "options": [
-        "2.5 dm³",
         "10 dm³",
+        "2.5 dm³",
         "20 dm³",
         "5 dm³"
       ],
-      "correct": 1
+      "correct": null
     },
     "Weather_129": {
       "qid": 129,
@@ -9370,6 +9370,62 @@
         "Cumulonimbus"
       ],
       "correct": 1
+    },
+    "Weather_154": {
+      "qid": 154,
+      "topic": "Weather",
+      "pos": 40,
+      "total_in_topic": 164,
+      "text": "What is the wind direction in Zürich?",
+      "options": [
+        "280°",
+        "030°",
+        "210°",
+        "100°"
+      ],
+      "correct": 2
+    },
+    "Weather_156": {
+      "qid": 156,
+      "topic": "Weather",
+      "pos": 54,
+      "total_in_topic": 164,
+      "text": "Which of the following cities are in a warm sector?",
+      "options": [
+        "Lulea and St. Petersburg",
+        "Paris and London",
+        "Lisbon (Lissabon) and Athens (Athen)",
+        "Zürich and Stockholm"
+      ],
+      "correct": 3
+    },
+    "Weather_64": {
+      "qid": 64,
+      "topic": "Weather",
+      "pos": 62,
+      "total_in_topic": 164,
+      "text": "A higher atmospheric pressure can occur over an area",
+      "options": [
+        "which receives more intense sunshine than its surroundings over a long period.",
+        "which is colder than its surroundings over a long period.",
+        "which is drier than its surroundings over a long period.",
+        "which is warmer than its surroundings over a long period."
+      ],
+      "correct": null
+    },
+    "Weather_76": {
+      "qid": 76,
+      "topic": "Weather",
+      "pos": 63,
+      "total_in_topic": 164,
+      "text": "A wind from direction 135° is",
+      "options": [
+        "a northeast wind",
+        "a southwest wind",
+        "a northwest wind",
+        "a southeast wind"
+      ],
+      "correct": 3
     }
   },
   "topics": {
