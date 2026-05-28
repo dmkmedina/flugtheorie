@@ -193,6 +193,21 @@ a:hover { text-decoration: underline; }
 }
 .nav-item.active .nav-badge { background: var(--accent); color: var(--accent-text); }
 
+/* Legacy group — archived sections, permanently collapsed and not openable */
+.nav-group-locked { margin-top: 6px; opacity: 0.65; }
+.nav-group-header {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  cursor: not-allowed;
+}
+.nav-group-chevron { font-size: 9px; display: inline-block; }
+.nav-group-lock { margin-left: auto; font-size: 11px; }
+/* Children stay hidden: the group starts closed and cannot be opened */
+.nav-group-locked .nav-group-body { display: none; }
+.nav-item-legacy { cursor: not-allowed; opacity: 0.7; }
+.nav-item-legacy:hover { background: transparent; color: var(--text-soft); }
+
 .sidebar-footer {
   margin-top: auto;
   padding-top: 18px;
