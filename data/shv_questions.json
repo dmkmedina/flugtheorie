@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-05-28T15:29:54.916Z",
+  "fetchedAt": "2026-05-28T15:30:25.814Z",
   "questions": {
     "1": {
       "qid": 1,
@@ -7703,6 +7703,118 @@
         "the longitudinal axis (or roll axis) of your glider and your trajectory."
       ],
       "correct": 3
+    },
+    "Practical Flying_131": {
+      "qid": 131,
+      "topic": "Practical Flying",
+      "pos": 145,
+      "total_in_topic": 169,
+      "text": "When required at altitude to choose a landing field situated in a valley with a valley wind of 25km/h, which landing field features are the most important in order to carry out a safe landing?",
+      "options": [
+        "The landing field should be protected from the wind as much as possible by the terrain, trees or buildings.",
+        "The terrain should never slope upwards against the wind.",
+        "The lee side of the field must be free of trees or buildings for at least 100m for the base and final legs.",
+        "The windward side terrain should be as flat and free of trees and buildings as possible."
+      ],
+      "correct": 3
+    },
+    "Practical Flying_45": {
+      "qid": 45,
+      "topic": "Practical Flying",
+      "pos": 146,
+      "total_in_topic": 169,
+      "text": "A pilot wants to fly as far as possible with calm air. What should he do?",
+      "options": [
+        "Fly as fast as possible, opening trimmers if installed and using the accelerator as much as the glider and turbulence allows.",
+        "Fly the glider with approx. 50% brakes.",
+        "Fly the glider with zero brakes at trim speed.",
+        "Fly the glider with approx. 20 - 30% brakes."
+      ],
+      "correct": 2
+    },
+    "Practical Flying_164": {
+      "qid": 164,
+      "topic": "Practical Flying",
+      "pos": 148,
+      "total_in_topic": 169,
+      "text": "I am high above the valley during a valley crossing. Suddenly I hear a helicopter and see it approaching me head-on, at the same height and at a distance of about one kilometer. How should I behave?",
+      "options": [
+        "I enlarge my silhouette by pitching and rolling, or circling so that he can see and avoid me.",
+        "I call the REGA operations centre so that they can contact the helicopter pilot to make him aware of me.",
+        "I pull big ears to increase my sink rate so that we don’t cross at the same height, while turning 90° to avoid the helicopter.",
+        "I release the brakes in order to gain his attention by waving and shouting. If that doesn’t work I deploy the reserve chute."
+      ],
+      "correct": 0
+    },
+    "Practical Flying_118": {
+      "qid": 118,
+      "topic": "Practical Flying",
+      "pos": 149,
+      "total_in_topic": 169,
+      "text": "A pilot reaches a landing field just before 2 others who are 50m from him. The wind is zero. He decides to make a left hand approach landing towards the west. On the base leg he realizes there is a 2-5km/h east wind. What should he do?",
+      "options": [
+        "Immediately abort the approach, fly to the lee side of the landing point and land into the wind.",
+        "Consider the downwind leg to be the base leg and land across the wind.",
+        "Continue with the same approach, choosing a somewhat steeper final approach angle.",
+        "Continue with his approach choosing a somewhat shallower final approach angle."
+      ],
+      "correct": 3
+    },
+    "Practical Flying_139": {
+      "qid": 139,
+      "topic": "Practical Flying",
+      "pos": 151,
+      "total_in_topic": 169,
+      "text": "The reserve parachute should be used",
+      "options": [
+        "as soon as a situation appears to be uncontrollable.",
+        "with an asymmetric collapse in the final landing approach.",
+        "when being sucked into a cumulus cloud and the vario shows over 6 m/s climb rate.",
+        "as soon as the wing collapses (full frontal collapse over the entire span of the wing)."
+      ],
+      "correct": 0
+    },
+    "Practical Flying_57": {
+      "qid": 57,
+      "topic": "Practical Flying",
+      "pos": 152,
+      "total_in_topic": 169,
+      "text": "The angle of correction for wind drift (crab angle)",
+      "options": [
+        "is influenced by the direction but not the strength of the side wind.",
+        "increases as the side wind increases.",
+        "is influenced by the strength but not the direction of the side wind.",
+        "decreases as the side wind increases."
+      ],
+      "correct": 1
+    },
+    "Practical Flying_146": {
+      "qid": 146,
+      "topic": "Practical Flying",
+      "pos": 153,
+      "total_in_topic": 169,
+      "text": "What symptoms signal spinal injury?",
+      "options": [
+        "The victim is unconscious.",
+        "The victim has strong pain in the legs.",
+        "The victim is pale, has blue lips, cold sweat, a fast, weak pulse and talks incoherently.",
+        "The victim has back pains, no sensation in the feet, legs, arms or hands."
+      ],
+      "correct": 3
+    },
+    "Practical Flying_130": {
+      "qid": 130,
+      "topic": "Practical Flying",
+      "pos": 154,
+      "total_in_topic": 169,
+      "text": "When landing on a steep slope the final approach should be",
+      "options": [
+        "down the slope.",
+        "parallel to the slope.",
+        "up the slope.",
+        "against the wind."
+      ],
+      "correct": 1
     }
   },
   "topics": {
