@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-05-28T14:42:06.088Z",
+  "fetchedAt": "2026-05-28T14:42:37.332Z",
   "questions": {
     "2": {
       "qid": 2,
@@ -141,6 +141,20 @@
       ],
       "correct": 3
     },
+    "21": {
+      "qid": 21,
+      "topic": "Aerodynamics",
+      "pos": 79,
+      "total_in_topic": 152,
+      "text": "An object with a frontal area of 2m² exposed to an airflow of 80km/h produces a drag of 1,200N (approx. 120kp) at sea level. What will the drag be of the same body in an airflow of 40km/h?",
+      "options": [
+        "about 900N",
+        "about 300N",
+        "about 600N",
+        "about 1200N"
+      ],
+      "correct": 1
+    },
     "23": {
       "qid": 23,
       "topic": "Aerodynamics",
@@ -264,6 +278,34 @@
         "1",
         "4",
         "2"
+      ],
+      "correct": 0
+    },
+    "38": {
+      "qid": 38,
+      "topic": "Aerodynamics",
+      "pos": 77,
+      "total_in_topic": 152,
+      "text": "The bodies depicted below have a CD of 0.08, 0.17, 1 and 1.. Which has a CD of 0.17? 213",
+      "options": [
+        "2",
+        "1",
+        "3",
+        "4"
+      ],
+      "correct": 3
+    },
+    "40": {
+      "qid": 40,
+      "topic": "Aerodynamics",
+      "pos": 76,
+      "total_in_topic": 152,
+      "text": "The bodies depicted below have a CD of 0.08, 0.17, 1 and 1.. Which has a CD of 1.3? 231",
+      "options": [
+        "2",
+        "3",
+        "1",
+        "4"
       ],
       "correct": 0
     },
@@ -407,6 +449,20 @@
       ],
       "correct": 2
     },
+    "67": {
+      "qid": 67,
+      "topic": "Aerodynamics",
+      "pos": 78,
+      "total_in_topic": 152,
+      "text": "When a glider is flown with minimum load, the point of stall occurs",
+      "options": [
+        "at the same speed and angle of attack independent of load.",
+        "at a lower speed than with maximum load.",
+        "at a higher speed than with maximum load.",
+        "at a smaller angle of attack."
+      ],
+      "correct": 1
+    },
     "73": {
       "qid": 73,
       "topic": "Aerodynamics",
@@ -519,6 +575,20 @@
       ],
       "correct": 1
     },
+    "86": {
+      "qid": 86,
+      "topic": "Aerodynamics",
+      "pos": 73,
+      "total_in_topic": 152,
+      "text": "What is the aspect ratio of the following glider? Span: m, Surface area: 12.5m², Minimum load: 0 kg, Maximum load: 0 kg, Glider weight: 30kg 1068",
+      "options": [
+        "10",
+        "4",
+        "6",
+        "8"
+      ],
+      "correct": 3
+    },
     "89": {
       "qid": 89,
       "topic": "Aerodynamics",
@@ -628,6 +698,34 @@
         "the glide angle decreases.",
         "the glide angle decreases to a point and then increases abruptly.",
         "this has no effect on the glide angle."
+      ],
+      "correct": 0
+    },
+    "103": {
+      "qid": 103,
+      "topic": "Aerodynamics",
+      "pos": 75,
+      "total_in_topic": 152,
+      "text": "In stable flight, both at trim speed and fully accelerated, the resultant aerodynamic force",
+      "options": [
+        "is higher in trim speed flight.",
+        "stays the same.",
+        "is lower in trim speed flight.",
+        "only stays the same with an identical glide ratio."
+      ],
+      "correct": 1
+    },
+    "106": {
+      "qid": 106,
+      "topic": "Aerodynamics",
+      "pos": 74,
+      "total_in_topic": 152,
+      "text": "Drag is a component of",
+      "options": [
+        "the resultant aerodynamic force and acts in the direction of the airflow.",
+        "the lift and always acts vertically.",
+        "the weight and acts in the direction opposite to the airflow.",
+        "the weight acting parallel to the flight path and produces the forward movement of the glider."
       ],
       "correct": 0
     },
@@ -812,6 +910,20 @@
         "9.2 m/s (33 km/h)"
       ],
       "correct": 1
+    },
+    "133": {
+      "qid": 133,
+      "topic": "Aerodynamics",
+      "pos": 72,
+      "total_in_topic": 152,
+      "text": "What is the glide ratio of the following glider if it is flying at minimum sink?",
+      "options": [
+        "2.0",
+        "3.7",
+        "4.6",
+        "5.3"
+      ],
+      "correct": 2
     },
     "134": {
       "qid": 134,
