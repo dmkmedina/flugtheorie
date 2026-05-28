@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-05-28T15:15:52.634Z",
+  "fetchedAt": "2026-05-28T15:16:24.967Z",
   "questions": {
     "1": {
       "qid": 1,
@@ -5251,6 +5251,146 @@
         "Sufficient surface area.",
         "Minimum possible pack volume.",
         "Minimum possible weight."
+      ],
+      "correct": 1
+    },
+    "Materials_56": {
+      "qid": 56,
+      "topic": "Materials",
+      "pos": 53,
+      "total_in_topic": 125,
+      "text": "Compared to a paraglider with 5m lines, one with 7m lines has",
+      "options": [
+        "A higher center of gravity and a bigger pendulum when rapidly changing direction.",
+        "A lower center of gravity and a smaller pendulum when rapidly changing direction.",
+        "A higher center of gravity and a smaller pendulum when rapidly changing direction.",
+        "A lower center of gravity and a bigger pendulum when rapidly changing direction."
+      ],
+      "correct": 3
+    },
+    "Materials_74": {
+      "qid": 74,
+      "topic": "Materials",
+      "pos": 54,
+      "total_in_topic": 125,
+      "text": "The correct length of the brake/steering lines",
+      "options": [
+        "depends on the pilot weight and desired airspeed.",
+        "is determined by the manufacturer and must only be shortened by them or their representatives.",
+        "must be adjusted to suit the body size, especially the arm length of the pilot.",
+        "must be adjusted to suit the harness and pilot position."
+      ],
+      "correct": 1
+    },
+    "Materials_78": {
+      "qid": 78,
+      "topic": "Materials",
+      "pos": 55,
+      "total_in_topic": 125,
+      "text": "A harness without diagonal bracing has what effect on the pilot?",
+      "options": [
+        "The pilot feels the turbulence less but has less ability to control the glider with weight shift.",
+        "The pilot feels the turbulence more but has less ability to control the glider with weight shift.",
+        "The pilot feels the turbulence more and has more ability to control the glider with weight shift.",
+        "The pilot feels the turbulence less and has more ability to control the glider with weight shift."
+      ],
+      "correct": 2
+    },
+    "Materials_95": {
+      "qid": 95,
+      "topic": "Materials",
+      "pos": 56,
+      "total_in_topic": 125,
+      "text": "To ensure that the pilot’s body be as vertical as possible the harness should be joined to the reserve chute lines",
+      "options": [
+        "in front of the pilot and low.",
+        "in front of the pilot and high.",
+        "behind the pilot and low.",
+        "behind the pilot and high."
+      ],
+      "correct": 3
+    },
+    "Materials_70": {
+      "qid": 70,
+      "topic": "Materials",
+      "pos": 57,
+      "total_in_topic": 125,
+      "text": "Trim tabs or trimmers",
+      "options": [
+        "seriously affect the flight behaviour of every glider with every trim setting.",
+        "are to vary the riser lengths and therefore the flight characteristics of the glider. A glider with trimmers can only be guaranteed as certified if it was actually tested with trimmers.",
+        "don't affect the flight behaviour of a glider, but compromise the strength of the risers.",
+        "up to a length of 5cm can be added to all serial gliders without affecting the certification or safety of the glider."
+      ],
+      "correct": 1
+    },
+    "Materials_65": {
+      "qid": 65,
+      "topic": "Materials",
+      "pos": 58,
+      "total_in_topic": 125,
+      "text": "Continual execution of extreme manoeuvres on a normal, certified glider",
+      "options": [
+        "will diagonally load the stabilos, resulting in an altered profile in the middle of the glider.",
+        "can result in hairline cracks in the quick links due to the shock loading on them.",
+        "will not result in any appreciable stretching of the glider cloth.",
+        "can result in the stretching of various parts of the glider and therefore a change in the flight characteristics of the glider."
+      ],
+      "correct": 3
+    },
+    "Materials_48": {
+      "qid": 48,
+      "topic": "Materials",
+      "pos": 59,
+      "total_in_topic": 125,
+      "text": "What are the consequences of a shortening of the B lines on a school glider?",
+      "options": [
+        "Angle of attack increases, the profile remains unchanged and handling of the wing changes.",
+        "Angle of attack increases and the profile and handling of the wing changes.",
+        "Angle of attack reduces and the profile and handling of the wing changes.",
+        "Angle of attack stays approximately the same and the profile and handling of the wing changes."
+      ],
+      "correct": 3
+    },
+    "Materials_85": {
+      "qid": 85,
+      "topic": "Materials",
+      "pos": 60,
+      "total_in_topic": 125,
+      "text": "If a harness is set so that the pilot is in a very reclined position the disadvantage is",
+      "options": [
+        "there is more drag and a worse glide ratio.",
+        "the risk of twist in a uncontrolled situation is increased.",
+        "the glider cannot be steered with weight-shift.",
+        "the glider is harder to start."
+      ],
+      "correct": 1
+    },
+    "Materials_54": {
+      "qid": 54,
+      "topic": "Materials",
+      "pos": 61,
+      "total_in_topic": 125,
+      "text": "What would be the effect on a wing if the D lines are too short or shrink?",
+      "options": [
+        "The glider is easier to inflate, flies faster due to the decreased angle of attack, is more prone to frontal collapses but less likely to parachutal stall.",
+        "The glider is easier to inflate, flies slower due to the decreased angle of attack, is more prone to frontal collapses and parachutal stalls.",
+        "The glider is more difficult to inflate, requires larger but less powerful steering movements due to the lower centre of gravity and converts forward speed into height (flares) better upon landing.",
+        "The glider is more difficult to inflate, flies slower due to the increased angle of attack, is less prone to frontal collapses but is more likely to parachutal stall."
+      ],
+      "correct": 3
+    },
+    "Materials_82": {
+      "qid": 82,
+      "topic": "Materials",
+      "pos": 62,
+      "total_in_topic": 125,
+      "text": "Harnesses with low carabiners have what effect during turbulence?",
+      "options": [
+        "The pilot feels turbulence more but has more difficulty to lean forward when accelerating at launch.",
+        "The pilot feels turbulence more but has less difficulty to lean forward when accelerating at launch.",
+        "The pilot feels turbulence less but has more difficulty to lean forward when accelerating at launch.",
+        "The pilot feels turbulence less but has less difficulty to lean forward when accelerating at launch."
       ],
       "correct": 1
     }
