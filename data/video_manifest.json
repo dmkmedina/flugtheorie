@@ -343,7 +343,7 @@
           "duration_seconds": 469.166667,
           "duration_label": "7:49",
           "has_de_vtt": true,
-          "has_en_vtt": false
+          "has_en_vtt": true
         },
         {
           "id": "aa_kurvenfliegen",
@@ -397,7 +397,7 @@
       "airactive": 15
     },
     "with_de_vtt": 25,
-    "with_en_vtt": 18,
+    "with_en_vtt": 19,
     "total_duration_seconds": 28834.318964000013
   }
 }
