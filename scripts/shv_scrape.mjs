@@ -183,22 +183,39 @@ async function scrapeOneSubject(targetSubject) {
     }
     const correctIdx = s.options.findIndex(o => o.isCorrect);
     if (correctIdx === -1) {
-      console.error(`[${targetSubject.label}] qid=${s.qid}: no green option — recording unknown, advancing`);
-      // Record what we have with correct=null; UI can flag "answer unknown"
+      console.error(`[${targetSubject.label}] qid=${s.qid}: no green — recording unknown, attempting to advance`);
       const stuckQid = s.qid;
       dataset.questions[`${s.topic}_${s.qid}`] = {
         qid: s.qid, topic: s.topic, pos: s.pos, total_in_topic: s.total,
         text: s.qText, options: s.options.map(o => o.text), correct: null,
       };
       seenKeys.add(`${s.topic}#${s.qid}`);
-      // Force-advance — select+commit so the page actually moves on
-      await clickOption0(page);
-      await page.waitForTimeout(300);
-      await pressForward(page);
-      // Verify we left the stuck question; if not, break to avoid infinite loop
-      const after = await readState(page);
-      if (after.qid === stuckQid) {
-        console.error(`[${targetSubject.label}] couldn't advance past qid=${stuckQid} — bailing`);
+
+      // Try a sequence of escape moves to leave this question:
+      // (a) plain `>`, (b) click option then `>`, (c) `>>` skip, (d) cancel + new Start
+      const escapes = [
+        async () => { await pressForward(page); },
+        async () => { await clickOption0(page); await page.waitForTimeout(300); await pressForward(page); },
+        async () => {
+          const skip = page.locator('button:has-text(">>")').first();
+          if (await skip.count()) { await skip.click(); await page.waitForTimeout(800); }
+        },
+        async () => {
+          const cancel = page.locator('button:has-text("Cancel")').first();
+          if (await cancel.count()) { await cancel.click(); await page.waitForTimeout(2000); }
+          const start = page.locator('button:has-text("Start")').first();
+          if (await start.count()) { await start.click(); await page.waitForTimeout(2500); }
+        },
+      ];
+      let escaped = false;
+      for (let attempt = 0; attempt < escapes.length; attempt++) {
+        await escapes[attempt]();
+        const after = await readState(page);
+        if (after.qid && after.qid !== stuckQid) { escaped = true; break; }
+        console.error(`  escape ${attempt + 1} did not change qid (still ${after.qid})`);
+      }
+      if (!escaped) {
+        console.error(`[${targetSubject.label}] all escapes failed past qid=${stuckQid} — bailing`);
         break;
       }
       continue;
