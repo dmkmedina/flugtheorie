@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-05-28T15:28:53.870Z",
+  "fetchedAt": "2026-05-28T15:29:24.774Z",
   "questions": {
     "1": {
       "qid": 1,
@@ -7479,6 +7479,132 @@
         "some outside brake is always applied in a turn so that the wing cannot stall on one side."
       ],
       "correct": 1
+    },
+    "Practical Flying_92": {
+      "qid": 92,
+      "topic": "Practical Flying",
+      "pos": 125,
+      "total_in_topic": 169,
+      "text": "What is a spiral dive?",
+      "options": [
+        "Twisting of risers and lines provoked by rotation of glider around the vertical axis. Due to the pilot's inertia he can't rotate as fast as the glider.",
+        "Very tight turns whereby the load factor due to the centrifugal force increases markedly.",
+        "Rapid alternating turns, whereby the glider occasionally exhibits a bank angle of over 90° .",
+        "A rapid rotation of the wing about the vertical axis, whereby one half of the glider flies forwards, the other backwards."
+      ],
+      "correct": 1
+    },
+    "Practical Flying_78": {
+      "qid": 78,
+      "topic": "Practical Flying",
+      "pos": 127,
+      "total_in_topic": 169,
+      "text": "On final approach, 10m above ground a pilot finds himself in an inflated or parachutal stall. What should he do?",
+      "options": [
+        "Leave the glider in inflated stall, get upright and prepare for a parachute landing fall (PLF).",
+        "Throw the reserve.",
+        "Immediately pull on the front risers.",
+        "Leave the glider in inflated stall, get into an upright position and pull both brakes down fully at around 4m above the ground."
+      ],
+      "correct": 0
+    },
+    "Practical Flying_111": {
+      "qid": 111,
+      "topic": "Practical Flying",
+      "pos": 128,
+      "total_in_topic": 169,
+      "text": "If you are obliged to do a left hand approach, in which sector should you lose height before going into the downwind leg? 21",
+      "options": [
+        "2",
+        "4",
+        "1",
+        "3"
+      ],
+      "correct": 0
+    },
+    "Practical Flying_87": {
+      "qid": 87,
+      "topic": "Practical Flying",
+      "pos": 129,
+      "total_in_topic": 169,
+      "text": "Whilst flying the wing suddenly collapses on one side. What is the appropriate action?",
+      "options": [
+        "Immediately forcefully pump the brake on the collapsed side in order to reopen it as fast as possible thereby minimising the altitude lost.",
+        "Immediately fully apply the brake on the open side in order to prevent the glider turning towards the collapsed side.",
+        "Apply both brakes fully until the glider reopens.",
+        "Stabilise the direction using weight-shift and careful braking on the open side then, if necessary, pump on the collapsed side to reopen it."
+      ],
+      "correct": 3
+    },
+    "Practical Flying_155": {
+      "qid": 155,
+      "topic": "Practical Flying",
+      "pos": 130,
+      "total_in_topic": 169,
+      "text": "In my flying site there are many alpine huts and holiday chalets.",
+      "options": [
+        "I have paid a fee for launch and am therefore entitled to use all areas.",
+        "Paragliders are an attraction for everyone, the more the better.",
+        "Alpine huts don’t belong to anyone, that’s why everyone can use them.",
+        "I respect people’s property and privacy and behave accordingly."
+      ],
+      "correct": 3
+    },
+    "Practical Flying_63": {
+      "qid": 63,
+      "topic": "Practical Flying",
+      "pos": 131,
+      "total_in_topic": 169,
+      "text": "A pilot finds a mass of rising air and tries to circle within it. After a turn of 90º his vario tells him he is descending. What should he do?",
+      "options": [
+        "He should immediately change the turn direction, as he most probably turned too early in the thermal.",
+        "As the horizontal extent or circumference of the rising air mass doesn't allow a full circle, he should look for another one.",
+        "He should turn another 180º then fly straight for a short distance, as the rising air must be in front of him, and then try to centre himself in the lift again.",
+        "He should definitely continue the turn with the same bank angle and speed."
+      ],
+      "correct": 2
+    },
+    "Practical Flying_18": {
+      "qid": 18,
+      "topic": "Practical Flying",
+      "pos": 132,
+      "total_in_topic": 169,
+      "text": "What do you need to pay particular attention to when visiting a new landing field?",
+      "options": [
+        "Where is the next doctor's surgery, where is the next telephone.",
+        "What are the access options, where is the place to pack up the gear.",
+        "By which wind directions you can approach, which obstacles are to be noted for each different landing approach.",
+        "Where is the next telephone, what are the access options."
+      ],
+      "correct": 2
+    },
+    "Practical Flying_100": {
+      "qid": 100,
+      "topic": "Practical Flying",
+      "pos": 133,
+      "total_in_topic": 169,
+      "text": "When descending in a spiral dive, it should be noted that",
+      "options": [
+        "only the inside brake is applied during the manoeuvre.",
+        "the speed, sink rate and G forces can be actively controlled using the outside brake and with weight-shift to the outside.",
+        "there is a risk of parachutal stall when exiting the manoeuvre.",
+        "only by simultaneously applying the accelerator will the sink rate markedly increase."
+      ],
+      "correct": 1
+    },
+    "Practical Flying_143": {
+      "qid": 143,
+      "topic": "Practical Flying",
+      "pos": 135,
+      "total_in_topic": 169,
+      "text": "After a violent contact with the ground, a pilot is pale, has bluish lips, cold sweat, a weak, rapid pulse and talks incoherently.",
+      "options": [
+        "Signs of shock, positioned as desired, protected from the elements, give nothing to drink.",
+        "This is just fright, they will soon recover.",
+        "Give them a lot to drink.",
+        "Put them as quickly as possible into the recovery position."
+      ],
+      "correct": 0
     }
   },
   "topics": {
