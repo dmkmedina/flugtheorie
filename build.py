@@ -22,7 +22,25 @@ def main():
     workbook = load_json('data/workbook.json') if os.path.exists(os.path.join(ROOT, 'data/workbook.json')) else {'books': []}
     distractors = load_json('data/distractors.json') if os.path.exists(os.path.join(ROOT, 'data/distractors.json')) else {}
     diagrams = load_json('data/diagrams.json') if os.path.exists(os.path.join(ROOT, 'data/diagrams.json')) else {'diagrams': []}
+    video_manifest = load_json('data/video_manifest.json') if os.path.exists(os.path.join(ROOT, 'data/video_manifest.json')) else {'decks': []}
     tips_md = load_file('data/study_tips.md')
+
+    # Inline any VTTs that are present so the deployed single-file build can
+    # mount them as blob URLs for the <track> elements.
+    video_vtt = {}
+    transcripts_dir = os.path.join(ROOT, 'data', 'transcripts')
+    if os.path.isdir(transcripts_dir):
+        for fname in sorted(os.listdir(transcripts_dir)):
+            if not fname.endswith('.vtt'):
+                continue
+            # e.g. meteo_0.de.vtt  →  vid=meteo_0, lang=de
+            stem = fname[:-4]
+            try:
+                vid, lang = stem.rsplit('.', 1)
+            except ValueError:
+                continue
+            with open(os.path.join(transcripts_dir, fname), 'r', encoding='utf-8') as f:
+                video_vtt.setdefault(vid, {})[lang] = f.read()
 
     css = load_file('app.css')
     js = load_file('app.js')
@@ -34,6 +52,8 @@ def main():
     workbook_json = json.dumps(workbook, ensure_ascii=False, separators=(',', ':'))
     distractors_json = json.dumps(distractors, ensure_ascii=False, separators=(',', ':'))
     diagrams_json = json.dumps(diagrams, ensure_ascii=False, separators=(',', ':'))
+    video_manifest_json = json.dumps(video_manifest, ensure_ascii=False, separators=(',', ':'))
+    video_vtt_json = json.dumps(video_vtt, ensure_ascii=False, separators=(',', ':'))
 
     # Encode tips markdown as a JS string-safe literal
     # Use JSON.parse('...') trick - escape backslashes/quotes/newlines
@@ -108,6 +128,8 @@ def main():
 <script id="data-workbook" type="application/json">{workbook_json}</script>
 <script id="data-distractors" type="application/json">{distractors_json}</script>
 <script id="data-diagrams" type="application/json">{diagrams_json}</script>
+<script id="data-video-manifest" type="application/json">{video_manifest_json}</script>
+<script id="data-video-vtt" type="application/json">{video_vtt_json}</script>
 <script>
 window.CARDS = JSON.parse(document.getElementById('data-cards').textContent);
 window.GUIDE = JSON.parse(document.getElementById('data-guide').textContent);
@@ -115,6 +137,8 @@ window.DECKS = JSON.parse(document.getElementById('data-decks').textContent);
 window.WORKBOOK = JSON.parse(document.getElementById('data-workbook').textContent);
 window.DISTRACTORS = JSON.parse(document.getElementById('data-distractors').textContent);
 window.DIAGRAMS = JSON.parse(document.getElementById('data-diagrams').textContent);
+window.VIDEO_MANIFEST = JSON.parse(document.getElementById('data-video-manifest').textContent);
+window.VIDEO_VTT = JSON.parse(document.getElementById('data-video-vtt').textContent);
 window.TIPS_MD = {tips_js};
 </script>
 
@@ -131,8 +155,12 @@ window.TIPS_MD = {tips_js};
 
     size_kb = os.path.getsize(out) / 1024
     wb_chapters = sum(len(b['chapters']) for b in workbook.get('books', []))
+    video_count = sum(len(d.get('videos', [])) for d in video_manifest.get('decks', []))
+    de_vtt = sum(1 for v in video_vtt.values() if 'de' in v)
+    en_vtt = sum(1 for v in video_vtt.values() if 'en' in v)
     print(f"Wrote {out} ({size_kb:.1f} KB)")
     print(f"  Cards: {len(cards)} · Guide chapters: {sum(len(p['chapters']) for p in guide['parts'])} · Slides: {total_slides} across {len(decks['decks'])} decks · Workbook: {wb_chapters} chapters across {len(workbook.get('books', []))} books")
+    print(f"  Videos: {video_count} ({de_vtt} DE / {en_vtt} EN VTTs inlined)")
 
 if __name__ == '__main__':
     main()

@@ -1,0 +1,191 @@
+{
+  "source": "https://www.freewings.ch/shv-theoriekurs",
+  "fetched_at": "2026-05-28T06:27:00.987Z",
+  "decks": [
+    {
+      "id": "aerodynamik",
+      "title": "Aerodynamik",
+      "icon": "📐",
+      "videos": [
+        {
+          "id": "aerodynamik_0",
+          "deck_id": "aerodynamik",
+          "deck_title": "Aerodynamik",
+          "deck_icon": "📐",
+          "part": 0,
+          "title": "Aerodynamik — Part 1",
+          "mp4_url": "https://video.wixstatic.com/video/2c6d0a_2b947e967c544c9fb058e7c3232f35ab/1080p/mp4/file.mp4",
+          "duration_seconds": null,
+          "duration_label": null,
+          "has_de_vtt": false,
+          "has_en_vtt": false,
+          "de_vtt_path": null,
+          "en_vtt_path": null
+        },
+        {
+          "id": "aerodynamik_1",
+          "deck_id": "aerodynamik",
+          "deck_title": "Aerodynamik",
+          "deck_icon": "📐",
+          "part": 1,
+          "title": "Aerodynamik — Part 2",
+          "mp4_url": "https://video.wixstatic.com/video/2c6d0a_5258724a6bd5464b8a4acb42811fabeb/1080p/mp4/file.mp4",
+          "duration_seconds": null,
+          "duration_label": null,
+          "has_de_vtt": false,
+          "has_en_vtt": false,
+          "de_vtt_path": null,
+          "en_vtt_path": null
+        }
+      ]
+    },
+    {
+      "id": "meteo",
+      "title": "Meteo",
+      "icon": "🌤️",
+      "videos": [
+        {
+          "id": "meteo_0",
+          "deck_id": "meteo",
+          "deck_title": "Meteo",
+          "deck_icon": "🌤️",
+          "part": 0,
+          "title": "Meteo — Part 1",
+          "mp4_url": "https://video.wixstatic.com/video/2c6d0a_647e78113f34433a97e060e2be558653/1080p/mp4/file.mp4",
+          "duration_seconds": null,
+          "duration_label": null,
+          "has_de_vtt": false,
+          "has_en_vtt": false,
+          "de_vtt_path": null,
+          "en_vtt_path": null
+        },
+        {
+          "id": "meteo_1",
+          "deck_id": "meteo",
+          "deck_title": "Meteo",
+          "deck_icon": "🌤️",
+          "part": 1,
+          "title": "Meteo — Part 2",
+          "mp4_url": "https://video.wixstatic.com/video/2c6d0a_7bfb4c9a1b144437856a5b04b68e1490/1080p/mp4/file.mp4",
+          "duration_seconds": null,
+          "duration_label": null,
+          "has_de_vtt": false,
+          "has_en_vtt": false,
+          "de_vtt_path": null,
+          "en_vtt_path": null
+        }
+      ]
+    },
+    {
+      "id": "luftrecht",
+      "title": "Luftrecht",
+      "icon": "⚖️",
+      "videos": [
+        {
+          "id": "luftrecht_0",
+          "deck_id": "luftrecht",
+          "deck_title": "Luftrecht",
+          "deck_icon": "⚖️",
+          "part": 0,
+          "title": "Luftrecht — Part 1",
+          "mp4_url": "https://video.wixstatic.com/video/2c6d0a_cb3ecd1820544f9297facc40ea62b524/1080p/mp4/file.mp4",
+          "duration_seconds": null,
+          "duration_label": null,
+          "has_de_vtt": false,
+          "has_en_vtt": false,
+          "de_vtt_path": null,
+          "en_vtt_path": null
+        },
+        {
+          "id": "luftrecht_1",
+          "deck_id": "luftrecht",
+          "deck_title": "Luftrecht",
+          "deck_icon": "⚖️",
+          "part": 1,
+          "title": "Luftrecht — Part 2",
+          "mp4_url": "https://video.wixstatic.com/video/2c6d0a_d46e5f4c7c494f70830d65c8e1c95b57/1080p/mp4/file.mp4",
+          "duration_seconds": null,
+          "duration_label": null,
+          "has_de_vtt": false,
+          "has_en_vtt": false,
+          "de_vtt_path": null,
+          "en_vtt_path": null
+        }
+      ]
+    },
+    {
+      "id": "material",
+      "title": "Materialkunde",
+      "icon": "🪂",
+      "videos": [
+        {
+          "id": "materialkunde_0",
+          "deck_id": "material",
+          "deck_title": "Materialkunde",
+          "deck_icon": "🪂",
+          "part": 0,
+          "title": "Materialkunde — Part 1",
+          "mp4_url": "https://video.wixstatic.com/video/2c6d0a_2a0103c5c0284600b2ae375f26b404b7/1080p/mp4/file.mp4",
+          "duration_seconds": null,
+          "duration_label": null,
+          "has_de_vtt": false,
+          "has_en_vtt": false,
+          "de_vtt_path": null,
+          "en_vtt_path": null
+        },
+        {
+          "id": "materialkunde_1",
+          "deck_id": "material",
+          "deck_title": "Materialkunde",
+          "deck_icon": "🪂",
+          "part": 1,
+          "title": "Materialkunde — Part 2",
+          "mp4_url": "https://video.wixstatic.com/video/2c6d0a_64f8a7acd071464991cb493ddcff3c8b/1080p/mp4/file.mp4",
+          "duration_seconds": null,
+          "duration_label": null,
+          "has_de_vtt": false,
+          "has_en_vtt": false,
+          "de_vtt_path": null,
+          "en_vtt_path": null
+        }
+      ]
+    },
+    {
+      "id": "flugpraxis",
+      "title": "Flugpraxis",
+      "icon": "🛫",
+      "videos": [
+        {
+          "id": "flugpraxis_0",
+          "deck_id": "flugpraxis",
+          "deck_title": "Flugpraxis",
+          "deck_icon": "🛫",
+          "part": 0,
+          "title": "Flugpraxis — Part 1",
+          "mp4_url": "https://video.wixstatic.com/video/2c6d0a_a303fce189c84f529505ea2b60b33631/1080p/mp4/file.mp4",
+          "duration_seconds": null,
+          "duration_label": null,
+          "has_de_vtt": false,
+          "has_en_vtt": false,
+          "de_vtt_path": null,
+          "en_vtt_path": null
+        },
+        {
+          "id": "flugpraxis_1",
+          "deck_id": "flugpraxis",
+          "deck_title": "Flugpraxis",
+          "deck_icon": "🛫",
+          "part": 1,
+          "title": "Flugpraxis — Part 2",
+          "mp4_url": "https://video.wixstatic.com/video/2c6d0a_bfaa546ecddd447f9269d6ed150d8cec/1080p/mp4/file.mp4",
+          "duration_seconds": null,
+          "duration_label": null,
+          "has_de_vtt": false,
+          "has_en_vtt": false,
+          "de_vtt_path": null,
+          "en_vtt_path": null
+        }
+      ]
+    }
+  ]
+}

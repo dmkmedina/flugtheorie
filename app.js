@@ -27,6 +27,8 @@ const DEFAULT_STATE = {
   guide: { partId: null, chapterId: null },
   // slide decks (Freewings)
   slides: { deckId: null, page: 1 },
+  // videos (Freewings)
+  videos: { deckId: null, openId: null, lang: 'en' },
   // workbook
   workbook: {
     bookId: null,
@@ -52,6 +54,7 @@ function loadState() {
       exam: { ...DEFAULT_STATE.exam, ...(parsed.exam || {}) },
       guide: { ...DEFAULT_STATE.guide, ...(parsed.guide || {}) },
       slides: { ...DEFAULT_STATE.slides, ...(parsed.slides || {}) },
+      videos: { ...DEFAULT_STATE.videos, ...(parsed.videos || {}) },
       workbook: { ...DEFAULT_STATE.workbook, ...(parsed.workbook || {}), completed: { ...(parsed.workbook && parsed.workbook.completed || {}) } }
     };
   } catch { return JSON.parse(JSON.stringify(DEFAULT_STATE)); }
@@ -82,6 +85,11 @@ function getCards() { return window.CARDS || []; }
 function getGuide() { return window.GUIDE || { parts: [] }; }
 function getTipsMd() { return window.TIPS_MD || ''; }
 function getDecks() { return (window.DECKS && window.DECKS.decks) || []; }
+function getVideoManifest() { return window.VIDEO_MANIFEST || { decks: [] }; }
+function getVideoDecks() { return getVideoManifest().decks || []; }
+function getAllVideos() { return getVideoDecks().flatMap(d => d.videos || []); }
+function getVideoById(id) { return getAllVideos().find(v => v.id === id) || null; }
+function getVideoDeck(deckId) { return getVideoDecks().find(d => d.id === deckId) || null; }
 function getDiagrams() { return (window.DIAGRAMS && window.DIAGRAMS.diagrams) || []; }
 function getWorkbook() { return (window.WORKBOOK && window.WORKBOOK.books) || []; }
 function getBookById(id) { return getWorkbook().find(b => b.id === id); }
@@ -257,7 +265,7 @@ function applyTheme() {
 }
 
 // ---- Routing ----------------------------------------------------------------
-const VIEWS = ['dashboard', 'flashcards', 'workbook', 'quiz', 'exam', 'guide', 'slides', 'cheatsheet', 'tips'];
+const VIEWS = ['dashboard', 'flashcards', 'workbook', 'quiz', 'exam', 'guide', 'slides', 'videos', 'cheatsheet', 'tips'];
 function navigate(view) {
   if (!VIEWS.includes(view)) view = 'dashboard';
   if (state.view !== view) {
@@ -380,6 +388,7 @@ function renderDashboard() {
         <button class="btn" data-nav="exam">⏱️ Start mock exam</button>
         <button class="btn" data-nav="guide">📚 Study guide</button>
         <button class="btn" data-nav="slides">🎬 Slide decks</button>
+        <button class="btn" data-nav="videos">📺 Videos (EN subs)</button>
         <button class="btn" data-nav="cheatsheet">⚡ Cheat sheet</button>
       </div>
       <div class="muted" style="margin-top:16px; font-size:13px;">
@@ -1860,6 +1869,299 @@ function renderSlideViewer() {
 }
 
 // ============================================================================
+// VIEW: Videos (Freewings) — embedded player + bilingual transcript
+// ============================================================================
+// VTT strings are inlined into the build (window.VIDEO_VTT[videoId][lang])
+// and converted to blob URLs at runtime so <track> can load them.
+const _vttBlobUrls = {};
+function vttBlobUrl(videoId, lang) {
+  const key = `${videoId}|${lang}`;
+  if (_vttBlobUrls[key]) return _vttBlobUrls[key];
+  const store = window.VIDEO_VTT || {};
+  const text = store[videoId] && store[videoId][lang];
+  if (!text) return null;
+  const url = URL.createObjectURL(new Blob([text], { type: 'text/vtt' }));
+  _vttBlobUrls[key] = url;
+  return url;
+}
+
+function fmtClock(seconds) {
+  if (!Number.isFinite(seconds)) return '';
+  const s = Math.max(0, Math.round(seconds));
+  const h = Math.floor(s / 3600);
+  const m = Math.floor((s % 3600) / 60);
+  const ss = s % 60;
+  return h ? `${h}:${String(m).padStart(2, '0')}:${String(ss).padStart(2, '0')}`
+           : `${m}:${String(ss).padStart(2, '0')}`;
+}
+
+function ensureVideoSelection() {
+  const decks = getVideoDecks();
+  if (decks.length === 0) return;
+  if (!decks.find(d => d.id === state.videos.deckId)) {
+    state.videos.deckId = decks[0].id;
+  }
+}
+
+function renderVideos() {
+  const decks = getVideoDecks();
+  if (decks.length === 0) {
+    return `<div class="empty"><div class="emoji">📺</div><div>No videos loaded.</div></div>`;
+  }
+  ensureVideoSelection();
+  const deck = getVideoDeck(state.videos.deckId);
+  const total = getAllVideos().length;
+  const withSubs = getAllVideos().filter(v => v.has_en_vtt).length;
+  const withDe = getAllVideos().filter(v => v.has_de_vtt).length;
+
+  const tabsHtml = `
+    <div class="subtabs">
+      ${decks.map(d => `
+        <button class="subtab ${state.videos.deckId === d.id ? 'active' : ''}" data-video-deck="${d.id}">
+          ${d.icon} ${escapeHtml(d.title)} <span class="count">${d.videos.length}</span>
+        </button>
+      `).join('')}
+    </div>
+  `;
+
+  const cardsHtml = deck.videos.map(v => {
+    const enReady = v.has_en_vtt;
+    const deReady = v.has_de_vtt;
+    return `
+      <div class="video-card">
+        <button class="video-card-thumb" data-play-video="${v.id}" aria-label="Play ${escapeHtml(v.title)}">
+          <div class="video-card-thumb-inner">
+            <div class="video-card-play">▶</div>
+            ${v.duration_label ? `<div class="video-card-duration">${v.duration_label}</div>` : ''}
+          </div>
+        </button>
+        <div class="video-card-body">
+          <div class="video-card-title">${escapeHtml(v.title)}</div>
+          <div class="video-card-meta">
+            ${enReady
+              ? `<span class="chip chip-good" title="English subtitles ready">🇬🇧 EN subs</span>`
+              : `<span class="chip chip-warn" title="Translation pending">🇬🇧 EN — pending</span>`}
+            ${deReady
+              ? `<span class="chip" title="German transcript ready">🇩🇪 DE transcript</span>`
+              : `<span class="chip chip-warn" title="Transcription pending">🇩🇪 DE — transcribing</span>`}
+          </div>
+          <div class="video-card-actions">
+            <button class="btn small primary" data-play-video="${v.id}">Watch with subtitles</button>
+          </div>
+        </div>
+      </div>
+    `;
+  }).join('');
+
+  return `
+    <div class="page-header">
+      <h1>Video lessons</h1>
+      <p class="page-subtitle">Free Wings SHV theory course — ${total} videos · ${withDe} German transcripts · ${withSubs} English subtitle tracks. Player auto-selects English subs; toggle the language with the CC button in the controls.</p>
+    </div>
+    ${tabsHtml}
+    <div class="deck-header">
+      <div>
+        <div class="deck-title">${deck.icon} ${escapeHtml(deck.title)}</div>
+        <div class="deck-meta">${deck.videos.length} videos · MP4 streamed from Free Wings · subtitles served locally</div>
+      </div>
+    </div>
+    <div class="video-grid">
+      ${cardsHtml}
+    </div>
+  `;
+}
+
+function attachVideosEvents() {
+  document.querySelectorAll('[data-video-deck]').forEach(b => b.onclick = () => {
+    state.videos.deckId = b.dataset.videoDeck;
+    saveState();
+    render();
+  });
+  document.querySelectorAll('[data-play-video]').forEach(b => b.onclick = () => {
+    openVideoPlayer(b.dataset.playVideo);
+  });
+}
+
+// ---- Video Player overlay ---------------------------------------------------
+let _vpVideoId = null;
+let _vpCues = [];           // parsed cues for the bilingual transcript panel
+let _vpCueIdxByLang = { en: [], de: [] };
+
+function openVideoPlayer(videoId) {
+  _vpVideoId = videoId;
+  state.videos.openId = videoId;
+  saveState();
+  renderVideoPlayer();
+  document.getElementById('video-player').classList.add('show');
+}
+
+function closeVideoPlayer() {
+  document.getElementById('video-player').classList.remove('show');
+  // pause + free the <video> by clearing innerHTML on the host
+  const host = document.getElementById('video-player-content');
+  if (host) host.innerHTML = '';
+  _vpVideoId = null;
+  state.videos.openId = null;
+  _vpCues = [];
+  saveState();
+}
+
+function parseVtt(text) {
+  // Minimal VTT cue parser → [{start, end, text}]
+  if (!text) return [];
+  const out = [];
+  const blocks = text.replace(/\r/g, '').split('\n\n');
+  for (const blk of blocks) {
+    const lines = blk.split('\n').filter(Boolean);
+    if (lines.length === 0) continue;
+    const tsIdx = lines.findIndex(l => l.includes('-->'));
+    if (tsIdx === -1) continue;
+    const m = lines[tsIdx].match(/(\d+:)?(\d+):(\d+\.\d+)\s*-->\s*(\d+:)?(\d+):(\d+\.\d+)/);
+    if (!m) continue;
+    const toSec = (h, mm, ss) => (parseInt(h || '0', 10) * 3600) + (parseInt(mm, 10) * 60) + parseFloat(ss);
+    const start = toSec((m[1] || '').replace(':', ''), m[2], m[3]);
+    const end = toSec((m[4] || '').replace(':', ''), m[5], m[6]);
+    const text = lines.slice(tsIdx + 1).join(' ').trim();
+    if (text) out.push({ start, end, text });
+  }
+  return out;
+}
+
+function renderVideoPlayer() {
+  const v = getVideoById(_vpVideoId);
+  const host = document.getElementById('video-player-content');
+  if (!v || !host) return;
+
+  const enUrl = vttBlobUrl(v.id, 'en');
+  const deUrl = vttBlobUrl(v.id, 'de');
+
+  // Prefer EN if available, else DE, else state preference
+  let initialLang = state.videos.lang || 'en';
+  if (initialLang === 'en' && !enUrl) initialLang = deUrl ? 'de' : 'en';
+
+  // Parse cues for the transcript panel
+  const store = window.VIDEO_VTT || {};
+  const enCues = parseVtt(store[v.id] && store[v.id].en);
+  const deCues = parseVtt(store[v.id] && store[v.id].de);
+
+  // Decide which cue list drives the side-by-side transcript:
+  // EN if available, otherwise DE. We align by index since both come from the
+  // same Whisper segmentation.
+  const primary = enCues.length ? enCues : deCues;
+  _vpCues = primary;
+  _vpCueIdxByLang = { en: enCues, de: deCues };
+
+  const transcriptHtml = primary.length
+    ? primary.map((c, i) => {
+        const en = enCues[i]?.text || '';
+        const de = deCues[i]?.text || '';
+        return `
+          <li class="vp-cue" data-cue-idx="${i}" data-cue-start="${c.start.toFixed(2)}">
+            <button class="vp-cue-time tabnum" data-cue-seek="${c.start.toFixed(2)}">${fmtClock(c.start)}</button>
+            <div class="vp-cue-text">
+              ${en ? `<div class="vp-cue-en">${escapeHtml(en)}</div>` : ''}
+              ${de ? `<div class="vp-cue-de">${escapeHtml(de)}</div>` : ''}
+            </div>
+          </li>
+        `;
+      }).join('')
+    : `<li class="muted" style="padding:16px;">Transcript still processing — check back shortly.</li>`;
+
+  host.innerHTML = `
+    <div class="vp-header">
+      <div>
+        <div class="vp-title">${v.deck_icon} ${escapeHtml(v.title)}</div>
+        <div class="vp-sub muted">${v.duration_label || ''} · MP4 from Free Wings · Subtitles localized for this app</div>
+      </div>
+      <button class="vp-close" id="vp-close">Close ✕</button>
+    </div>
+    <div class="vp-body">
+      <div class="vp-video-wrap">
+        <video id="vp-video" controls crossorigin="anonymous" preload="metadata" playsinline>
+          <source src="${v.mp4_url}" type="video/mp4" />
+          ${enUrl ? `<track id="vp-track-en" kind="subtitles" label="English" srclang="en" src="${enUrl}" ${initialLang === 'en' ? 'default' : ''} />` : ''}
+          ${deUrl ? `<track id="vp-track-de" kind="subtitles" label="Deutsch" srclang="de" src="${deUrl}" ${initialLang === 'de' ? 'default' : ''} />` : ''}
+        </video>
+        <div class="vp-controls">
+          <span class="vp-lang-label">Subtitles:</span>
+          ${enUrl ? `<button class="vp-lang-btn ${initialLang === 'en' ? 'active' : ''}" data-vp-lang="en">🇬🇧 English</button>` : ''}
+          ${deUrl ? `<button class="vp-lang-btn ${initialLang === 'de' ? 'active' : ''}" data-vp-lang="de">🇩🇪 Deutsch</button>` : ''}
+          <button class="vp-lang-btn" data-vp-lang="off">Off</button>
+        </div>
+      </div>
+      <aside class="vp-transcript">
+        <div class="vp-transcript-head">
+          <div class="vp-transcript-title">Transcript</div>
+          <div class="vp-transcript-sub muted">EN over DE · click a timestamp to jump</div>
+        </div>
+        <ol class="vp-cue-list" id="vp-cue-list">${transcriptHtml}</ol>
+      </aside>
+    </div>
+  `;
+
+  const video = document.getElementById('vp-video');
+  // Force the initial subtitle selection (some browsers ignore `default`)
+  video.addEventListener('loadedmetadata', () => setSubtitleLang(initialLang), { once: true });
+
+  // Highlight + auto-scroll active cue
+  let lastActive = -1;
+  video.addEventListener('timeupdate', () => {
+    const t = video.currentTime;
+    // Binary search-ish: cues are time-ordered
+    let idx = -1;
+    for (let i = 0; i < _vpCues.length; i++) {
+      if (t >= _vpCues[i].start && t <= _vpCues[i].end) { idx = i; break; }
+      if (_vpCues[i].start > t) { idx = Math.max(0, i - 1); break; }
+    }
+    if (idx !== lastActive) {
+      const list = document.getElementById('vp-cue-list');
+      if (!list) return;
+      const old = list.querySelector('.vp-cue.active');
+      if (old) old.classList.remove('active');
+      const next = list.querySelector(`.vp-cue[data-cue-idx="${idx}"]`);
+      if (next) {
+        next.classList.add('active');
+        // gentle auto-scroll only when near the bottom of viewport
+        const r = next.getBoundingClientRect();
+        const lr = list.getBoundingClientRect();
+        if (r.top < lr.top + 40 || r.bottom > lr.bottom - 40) {
+          next.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        }
+      }
+      lastActive = idx;
+    }
+  });
+
+  document.getElementById('vp-close').onclick = closeVideoPlayer;
+  document.querySelectorAll('[data-vp-lang]').forEach(b => b.onclick = () => {
+    const lang = b.dataset.vpLang;
+    setSubtitleLang(lang);
+    state.videos.lang = lang === 'off' ? state.videos.lang : lang;
+    saveState();
+    document.querySelectorAll('[data-vp-lang]').forEach(x => x.classList.toggle('active', x.dataset.vpLang === lang));
+  });
+  document.querySelectorAll('[data-cue-seek]').forEach(b => b.onclick = () => {
+    const video = document.getElementById('vp-video');
+    if (video) {
+      video.currentTime = parseFloat(b.dataset.cueSeek);
+      video.play().catch(() => {});
+    }
+  });
+}
+
+function setSubtitleLang(lang) {
+  const video = document.getElementById('vp-video');
+  if (!video) return;
+  for (const t of video.textTracks) {
+    if (lang === 'off') {
+      t.mode = 'disabled';
+    } else {
+      t.mode = (t.language === lang) ? 'showing' : 'disabled';
+    }
+  }
+}
+
+// ============================================================================
 // VIEW: Cheat Sheet
 // ============================================================================
 function renderCheatsheet() {
@@ -2102,6 +2404,7 @@ function render() {
     { id: 'exam',       icon: '⏱️', label: 'Mock Exam' },
     { id: 'guide',      icon: '📚', label: 'Study Guide' },
     { id: 'slides',     icon: '🎬', label: 'Slide Decks', badge: getDecks().reduce((a, d) => a + deckSlideCount(d), 0) || null },
+    { id: 'videos',     icon: '📺', label: 'Videos (EN subs)', badge: getAllVideos().length || null },
     { id: 'cheatsheet', icon: '⚡', label: 'Cheat Sheet' },
     { id: 'tips',       icon: '💡', label: 'Tips' }
   ];
@@ -2128,6 +2431,7 @@ function render() {
     case 'exam':       html = renderExam(); break;
     case 'guide':      html = renderGuide(); break;
     case 'slides':     html = renderSlides(); break;
+    case 'videos':     html = renderVideos(); break;
     case 'cheatsheet': html = renderCheatsheet(); break;
     case 'tips':       html = renderTips(); break;
     default:           html = renderDashboard();
@@ -2150,6 +2454,7 @@ function render() {
   }
   if (state.view === 'guide') attachGuideEvents();
   if (state.view === 'slides') attachSlidesEvents();
+  if (state.view === 'videos') attachVideosEvents();
   if (state.view === 'workbook') attachWorkbookEvents();
 }
 
@@ -2191,6 +2496,18 @@ function init() {
       if (e.key === 'Escape') closeSlideViewer();
       else if (e.key === 'ArrowLeft') slideViewerNav(-1);
       else if (e.key === 'ArrowRight') slideViewerNav(1);
+      return;
+    }
+    // Video player shortcuts
+    const vp = document.getElementById('video-player');
+    if (vp && vp.classList.contains('show')) {
+      if (e.key === 'Escape') { closeVideoPlayer(); return; }
+      const video = document.getElementById('vp-video');
+      if (video) {
+        if (e.key === ' ') { e.preventDefault(); video.paused ? video.play() : video.pause(); return; }
+        if (e.key === 'ArrowLeft')  { video.currentTime = Math.max(0, video.currentTime - 5); return; }
+        if (e.key === 'ArrowRight') { video.currentTime = video.currentTime + 5; return; }
+      }
       return;
     }
     // Lightbox shortcuts
