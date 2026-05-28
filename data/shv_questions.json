@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-05-28T14:42:37.332Z",
+  "fetchedAt": "2026-05-28T14:43:09.514Z",
   "questions": {
     "2": {
       "qid": 2,
@@ -127,6 +127,20 @@
       ],
       "correct": 0
     },
+    "19": {
+      "qid": 19,
+      "topic": "Aerodynamics",
+      "pos": 84,
+      "total_in_topic": 152,
+      "text": "An object with a frontal area of 2m² exposed to an airflow of 30km/h produces a drag of 300N (approx. 30kp) at sea level. What will the drag be of the same body in an airflow of 60km/h?",
+      "options": [
+        "about 900N",
+        "about 300N",
+        "about 600N",
+        "about 1200N"
+      ],
+      "correct": 3
+    },
     "20": {
       "qid": 20,
       "topic": "Aerodynamics",
@@ -151,6 +165,20 @@
         "about 900N",
         "about 300N",
         "about 600N",
+        "about 1200N"
+      ],
+      "correct": 1
+    },
+    "22": {
+      "qid": 22,
+      "topic": "Aerodynamics",
+      "pos": 85,
+      "total_in_topic": 152,
+      "text": "An object with a frontal area of 0.75m² exposed to an airflow of 20km/h produces a drag of 100N (approx. 10kp) at sea level. What will the drag be of the same body in an airflow of 60km/h?",
+      "options": [
+        "about 600N",
+        "about 900N",
+        "about 300N",
         "about 1200N"
       ],
       "correct": 1
@@ -463,6 +491,20 @@
       ],
       "correct": 1
     },
+    "69": {
+      "qid": 69,
+      "topic": "Aerodynamics",
+      "pos": 83,
+      "total_in_topic": 152,
+      "text": "If the positive angle of attack of a wing in an airflow is increased, the stagnation point moves",
+      "options": [
+        "along the wing upper surface towards the trailing edge.",
+        "along the wing lower surface towards the leading edge.",
+        "along the wing lower surface towards the trailing edge.",
+        "along the wing upper surface towards the leading edge."
+      ],
+      "correct": 2
+    },
     "73": {
       "qid": 73,
       "topic": "Aerodynamics",
@@ -701,6 +743,34 @@
       ],
       "correct": 0
     },
+    "101": {
+      "qid": 101,
+      "topic": "Aerodynamics",
+      "pos": 80,
+      "total_in_topic": 152,
+      "text": "The resultant aerodynamic force is the resultant of",
+      "options": [
+        "weight and lift.",
+        "weight and drag.",
+        "lift and drag.",
+        "weight, lift and drag."
+      ],
+      "correct": 2
+    },
+    "102": {
+      "qid": 102,
+      "topic": "Aerodynamics",
+      "pos": 82,
+      "total_in_topic": 152,
+      "text": "During the stable flight of a glider the resultant aerodynamic force has the same value as",
+      "options": [
+        "the lift.",
+        "the total weight.",
+        "the drag.",
+        "lift, drag and total weight."
+      ],
+      "correct": 1
+    },
     "103": {
       "qid": 103,
       "topic": "Aerodynamics",
@@ -743,6 +813,34 @@
       ],
       "correct": 0
     },
+    "110": {
+      "qid": 110,
+      "topic": "Aerodynamics",
+      "pos": 81,
+      "total_in_topic": 152,
+      "text": "Which of the following numbers represent the resultant aerodynamic force and angle of attack?",
+      "options": [
+        "3 and 4",
+        "5 and 6",
+        "2 and 5",
+        "6 and 4"
+      ],
+      "correct": 3
+    },
+    "111": {
+      "qid": 111,
+      "topic": "Aerodynamics",
+      "pos": 87,
+      "total_in_topic": 152,
+      "text": "On a paraglider the movement about the longitudinal axis is called",
+      "options": [
+        "Yaw.",
+        "Pitch.",
+        "Spin.",
+        "Roll."
+      ],
+      "correct": 3
+    },
     "112": {
       "qid": 112,
       "topic": "Aerodynamics",
@@ -756,6 +854,20 @@
         "Roll."
       ],
       "correct": 2
+    },
+    "113": {
+      "qid": 113,
+      "topic": "Aerodynamics",
+      "pos": 86,
+      "total_in_topic": 152,
+      "text": "On a paraglider the movement about the vertical axis is called",
+      "options": [
+        "Yaw.",
+        "Roll.",
+        "Pendulum.",
+        "Pitch."
+      ],
+      "correct": 0
     },
     "114": {
       "qid": 114,
