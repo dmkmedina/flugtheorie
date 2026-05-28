@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-05-28T14:43:09.514Z",
+  "fetchedAt": "2026-05-28T14:43:40.780Z",
   "questions": {
     "2": {
       "qid": 2,
@@ -53,6 +53,20 @@
         "It is multiplied by 4.",
         "It is multiplied by 16.",
         "It is divided by 4.",
+        "It does not change."
+      ],
+      "correct": 0
+    },
+    "9": {
+      "qid": 9,
+      "topic": "Aerodynamics",
+      "pos": 93,
+      "total_in_topic": 152,
+      "text": "What is the effect on the drag of a body if you halve its frontal area relative to the airflow?",
+      "options": [
+        "It is divided by 2.",
+        "It doubles.",
+        "It is multiplied by 4.",
         "It does not change."
       ],
       "correct": 0
@@ -225,6 +239,20 @@
       ],
       "correct": 0
     },
+    "28": {
+      "qid": 28,
+      "topic": "Aerodynamics",
+      "pos": 88,
+      "total_in_topic": 152,
+      "text": "A body exposed to an airflow at 4400m above sea level will have,",
+      "options": [
+        "approx. 81% of the drag at sea level.",
+        "approx. 72% of the drag at sea level.",
+        "approx. 64% of the drag at sea level.",
+        "approx. 90% of the drag at sea level."
+      ],
+      "correct": 2
+    },
     "29": {
       "qid": 29,
       "topic": "Aerodynamics",
@@ -393,6 +421,62 @@
       ],
       "correct": 2
     },
+    "48": {
+      "qid": 48,
+      "topic": "Aerodynamics",
+      "pos": 89,
+      "total_in_topic": 152,
+      "text": "The airfoils of slow flying aircraft such as foot launched aircraft are for the most part",
+      "options": [
+        "relatively thick and symmetrical profiles.",
+        "relatively thick and asymmetrical.",
+        "thin and asymmetrical.",
+        "thin and symmetrical."
+      ],
+      "correct": 1
+    },
+    "52": {
+      "qid": 52,
+      "topic": "Aerodynamics",
+      "pos": 94,
+      "total_in_topic": 152,
+      "text": "Which of the following profiles is exposed to an airflow with a negative angle of attack of -10°? 412",
+      "options": [
+        "4",
+        "3",
+        "1",
+        "2"
+      ],
+      "correct": 3
+    },
+    "54": {
+      "qid": 54,
+      "topic": "Aerodynamics",
+      "pos": 90,
+      "total_in_topic": 152,
+      "text": "What is more or less the spread of lift over a wing which is exposed to an airflow with an angle of attack of + 10° ?",
+      "options": [
+        "2/3 on the upper surface, 1/3 on the lower surface.",
+        "1/3 on the upper surface, 2/3 on the lower surface.",
+        "1/2 on the upper surface, 1/2 on the lower surface.",
+        "1/4 on the upper surface, 3/4 on the lower surface."
+      ],
+      "correct": 0
+    },
+    "55": {
+      "qid": 55,
+      "topic": "Aerodynamics",
+      "pos": 95,
+      "total_in_topic": 152,
+      "text": "Which of the following statements about the lift distribution is correct for a cambered wing flying an airflow with a positive angle of attack of 10° ?",
+      "options": [
+        "1/2 of the lift is created on the first third of the wing.",
+        "2/3 of the lift is created on the second third of the wing.",
+        "1/3 of the lift is created on the first third of the wing.",
+        "2/3 of the lift is created on the first third of the wing."
+      ],
+      "correct": 3
+    },
     "57": {
       "qid": 57,
       "topic": "Aerodynamics",
@@ -406,6 +490,20 @@
         "the speed of flight does not change."
       ],
       "correct": 1
+    },
+    "59": {
+      "qid": 59,
+      "topic": "Aerodynamics",
+      "pos": 91,
+      "total_in_topic": 152,
+      "text": "If the angle of attack of a paraglider flying at best glide is increased by 2° then",
+      "options": [
+        "the speed of flight increases.",
+        "the speed of flight increases initially before stabilizing at the original value.",
+        "the speed of flight does not change.",
+        "the speed of flight reduces"
+      ],
+      "correct": 3
     },
     "61": {
       "qid": 61,
@@ -1218,6 +1316,20 @@
         "6.5"
       ],
       "correct": 0
+    },
+    "151": {
+      "qid": 151,
+      "topic": "Aerodynamics",
+      "pos": 92,
+      "total_in_topic": 152,
+      "text": "A paraglider's total weight (pilot and glider) is 100 kg. In a tight turn, the glider is subject to a load of kg. What is its load factor? 025",
+      "options": [
+        "250",
+        "0.25",
+        "2.5",
+        "25"
+      ],
+      "correct": 2
     }
   },
   "topics": {
