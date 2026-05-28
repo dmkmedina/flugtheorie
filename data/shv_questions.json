@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-05-28T16:02:26.473Z",
+  "fetchedAt": "2026-05-28T16:03:28.495Z",
   "questions": {
     "Aerodynamics_1": {
       "qid": 1,
@@ -2512,16 +2512,16 @@
     "Weather_134": {
       "qid": 134,
       "topic": "Weather",
-      "pos": 21,
+      "pos": 31,
       "total_in_topic": 164,
       "text": "In which of the following months in the pre-Alps are the thermals the most pronounced?",
       "options": [
+        "October",
         "May",
         "August",
-        "January",
-        "October"
+        "January"
       ],
-      "correct": 0
+      "correct": null
     },
     "Weather_15": {
       "qid": 15,
@@ -8178,6 +8178,90 @@
         "A warm front.",
         "An occlusion with the characteristics of a warm front.",
         "An occlusion with the characteristics of a cold front."
+      ],
+      "correct": 0
+    },
+    "Weather_159": {
+      "qid": 159,
+      "topic": "Weather",
+      "pos": 24,
+      "total_in_topic": 164,
+      "text": "Which of the following cities are under the influence of the high-pressure system?",
+      "options": [
+        "Paris and London",
+        "Zürich and Stockholm",
+        "Lisbon (Lissabon) and Athens (Athen)",
+        "Lulea and St.Petersburg"
+      ],
+      "correct": 2
+    },
+    "Weather_143": {
+      "qid": 143,
+      "topic": "Weather",
+      "pos": 25,
+      "total_in_topic": 164,
+      "text": "This symbol on a weather map defines",
+      "options": [
+        "a cold front.",
+        "an occlusion.",
+        "a warm front.",
+        "an isobar."
+      ],
+      "correct": 3
+    },
+    "Weather_91": {
+      "qid": 91,
+      "topic": "Weather",
+      "pos": 26,
+      "total_in_topic": 164,
+      "text": "From which time in the Alps in summer is there a likelihood of mountain wind?",
+      "options": [
+        "About 08:00 am",
+        "About 22:00 pm",
+        "About 18:00 pm",
+        "About 11:00 am"
+      ],
+      "correct": 2
+    },
+    "Weather_114": {
+      "qid": 114,
+      "topic": "Weather",
+      "pos": 28,
+      "total_in_topic": 164,
+      "text": "Which conditions favor the development of föhn in alpine valleys?",
+      "options": [
+        "A large pressure difference between the north and south sides of the Alps.",
+        "An extensive high-pressure system with its center above the Alps.",
+        "A small pressure difference between the north and south sides of the Alps.",
+        "An extensive low-pressure system with its center above the Alps."
+      ],
+      "correct": 0
+    },
+    "Weather_111": {
+      "qid": 111,
+      "topic": "Weather",
+      "pos": 32,
+      "total_in_topic": 164,
+      "text": "What signs indicate south föhn on the north side of the Alps?",
+      "options": [
+        "Poor visibility, low cloud base, rain, steady wind.",
+        "The sky is covered with 5/8 cumulus, gusty increasing winds, strong thermals with large amounts of neighbouring sink.",
+        "Blue sky, no wind, not much turbulence, steady lift at takeoff, smooth, widespread lift, cumulus congestus and cumulonimbus in the distance.",
+        "Clouds cover the mountains in the distance, cumulus and lenticular clouds in the blue portion of the sky, changing wind direction on the ground, freshening southwest wind at launch."
+      ],
+      "correct": 3
+    },
+    "Weather_43": {
+      "qid": 43,
+      "topic": "Weather",
+      "pos": 1,
+      "total_in_topic": 164,
+      "text": "Which cloud form is an indicator of good thermals",
+      "options": [
+        "Cumulus",
+        "Stratus",
+        "Cirrus",
+        "Lenticular"
       ],
       "correct": 0
     }
