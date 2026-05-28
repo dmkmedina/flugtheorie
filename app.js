@@ -26,6 +26,7 @@ const DEFAULT_STATE = {
   // SHV official-pool exam
   shvExam: {
     active: false,
+    mode: 'exam',                       // 'exam' | 'study' | 'review' (review = post-exam review)
     startedAt: 0,
     durationSec: 90 * 60,
     qids: [],                           // question ids drawn from window.SHV_QUESTIONS
@@ -110,6 +111,12 @@ function getSHVQuestionsByTopic() {
     (byTopic[q.topic] = byTopic[q.topic] || []).push(q);
   }
   return byTopic;
+}
+function getSHVEnrichments() {
+  return (window.SHV_ENRICHMENTS && window.SHV_ENRICHMENTS.enrichments) || {};
+}
+function getSHVEnrichmentFor(qid) {
+  return getSHVEnrichments()[String(qid)] || getSHVEnrichments()[qid] || null;
 }
 function getGuide() { return window.GUIDE || { parts: [] }; }
 function getTipsMd() { return window.TIPS_MD || ''; }
@@ -1246,14 +1253,15 @@ function buildSHVExamSet() {
   return pool.map(q => q.qid);
 }
 
-function startSHVExam() {
+function startSHVExam(mode = 'exam') {
   const qids = buildSHVExamSet();
   if (qids.length === 0) return;
-  // Auto-scale time: roughly real-exam pace (90 min / 100 questions = 54s each)
-  const durationSec = Math.max(10 * 60, Math.round(qids.length * 54));
+  // Exam mode: real-exam pace (~54s/question). Study mode: no timer.
+  const durationSec = mode === 'study' ? 0 : Math.max(10 * 60, Math.round(qids.length * 54));
   state.shvExam = {
     ...state.shvExam,
     active: true,
+    mode,
     startedAt: Date.now(),
     durationSec,
     qids,
@@ -1263,7 +1271,7 @@ function startSHVExam() {
     lastResult: null,
   };
   saveState();
-  startSHVExamTimer();
+  if (mode === 'exam') startSHVExamTimer();
   render();
 }
 
@@ -1318,6 +1326,7 @@ function finishSHVExam() {
     wrong,
     pass_threshold_pct: Math.round(minPct * 100),
     setup: { ...state.shvExam.setup },
+    mode: state.shvExam.mode,
   };
   state.shvExam.history.push(result);
   state.shvExam.active = false;
@@ -1373,9 +1382,13 @@ function renderSHVExamSetup() {
         <li>Flag questions and revisit them via the dot strip at the top.</li>
         <li>Wrong answers show the correct option on the result screen.</li>
       </ul>
-      <div class="row" style="margin-top:18px;">
-        <button class="btn primary large" id="shv-exam-start">🎯 Start practice exam</button>
-        ${last ? `<button class="btn" id="shv-exam-view-last">View last result</button>` : ''}
+      <div class="row" style="margin-top:18px; flex-wrap:wrap;">
+        <button class="btn primary large" id="shv-exam-start">⏱️ Timed exam</button>
+        <button class="btn large" id="shv-study-start" title="No timer · explanations + related content shown inline · free navigation">🎓 Study mode</button>
+        ${last ? `<button class="btn ghost" id="shv-exam-view-last">View last result</button>` : ''}
+      </div>
+      <div class="muted" style="font-size:12px; margin-top:10px;">
+        <strong>Timed exam</strong>: realistic conditions, score breakdown at the end · <strong>Study mode</strong>: each question explained inline with links to the guide, workbook, diagrams, video clips, and slides.
       </div>
     </div>
     ${state.shvExam.history.length > 0 ? `
@@ -1393,6 +1406,119 @@ function renderSHVExamSetup() {
   `;
 }
 
+// Render a per-question enrichment card from window.SHV_ENRICHMENTS
+function renderShvEnrichmentPanel(qid, q) {
+  const e = getSHVEnrichmentFor(qid);
+  if (!e) {
+    return `<div class="shv-enrichment shv-enrichment-pending">
+      <div class="shv-enrichment-pending-icon">📚</div>
+      <div>
+        <div style="font-weight:600;">Study material in preparation</div>
+        <div class="muted" style="font-size:12px; margin-top:4px;">Curated explanations and links to the guide, transcripts, diagrams, and slides land here as topics finish processing.</div>
+      </div>
+    </div>`;
+  }
+
+  const guide = getGuide();
+  const decks = getDecks();
+  const allDiagrams = getDiagrams();
+
+  // Explanation block
+  const explanationHtml = e.explanation ? `
+    <div class="shv-enrichment-section">
+      <div class="shv-enrichment-section-title">💡 Why</div>
+      <div class="shv-enrichment-text">${escapeHtml(e.explanation)}</div>
+    </div>
+  ` : '';
+
+  // Guide chapter link
+  const gc = e.guide_chapter;
+  let guideHtml = '';
+  if (gc && gc.id) {
+    const part = guide.parts?.find(p => p.chapters?.some(c => c.id === gc.id));
+    if (part) {
+      guideHtml = `<a class="shv-enrichment-chip" data-shv-goto-guide="${gc.id}" data-shv-goto-part="${part.id}">
+        <span class="shv-enrichment-chip-icon">📚</span>
+        <span class="shv-enrichment-chip-text">${escapeHtml(gc.title || gc.id)}</span>
+      </a>`;
+    }
+  }
+
+  // Workbook chapter link
+  const wc = e.workbook_chapter;
+  let workbookHtml = '';
+  if (wc && wc.id) {
+    const book = getWorkbook().find(b => b.chapters?.some(c => c.id === wc.id));
+    if (book) {
+      workbookHtml = `<a class="shv-enrichment-chip" data-shv-goto-workbook="${wc.id}" data-shv-goto-book="${book.id}">
+        <span class="shv-enrichment-chip-icon">📒</span>
+        <span class="shv-enrichment-chip-text">${escapeHtml(wc.title || wc.id)}</span>
+      </a>`;
+    }
+  }
+
+  // Diagrams — render the SVGs inline (they're tiny)
+  const diagramsHtml = (e.diagrams && e.diagrams.length)
+    ? `<div class="shv-enrichment-section">
+        <div class="shv-enrichment-section-title">📐 Diagrams</div>
+        <div class="shv-enrichment-diagrams">
+          ${e.diagrams.map(d => {
+            const dd = allDiagrams.find(x => x.id === d.id);
+            if (!dd) return '';
+            return `<figure class="shv-enrichment-diagram">
+              <div class="shv-enrichment-diagram-svg">${dd.svg}</div>
+              <figcaption>${escapeHtml(d.title || dd.title || '')}</figcaption>
+            </figure>`;
+          }).join('')}
+        </div>
+      </div>` : '';
+
+  // Video clips with click-to-play
+  const videoHtml = (e.video_clips && e.video_clips.length)
+    ? `<div class="shv-enrichment-section">
+        <div class="shv-enrichment-section-title">📺 Listen to the instructor</div>
+        ${e.video_clips.map(vc => {
+          const v = getVideoById(vc.video_id);
+          if (!v) return '';
+          return `<a class="shv-enrichment-clip" data-shv-play-clip="${vc.video_id}|${vc.t_start}|${vc.t_end || ''}">
+            <div class="shv-enrichment-clip-ts">${v.deck_icon || '🎬'} ${escapeHtml(v.title)} · ${fmtClock(vc.t_start)}${vc.t_end ? '–' + fmtClock(vc.t_end) : ''}</div>
+            ${vc.snippet ? `<div class="shv-enrichment-clip-snip">"${escapeHtml(vc.snippet)}"</div>` : ''}
+          </a>`;
+        }).join('')}
+      </div>` : '';
+
+  // Slide pages
+  const slidesHtml = (e.slide_pages && e.slide_pages.length)
+    ? `<div class="shv-enrichment-section">
+        <div class="shv-enrichment-section-title">🎬 Slides</div>
+        <div class="shv-enrichment-slides">
+          ${e.slide_pages.map(sp => {
+            const deck = decks.find(d => d.id === sp.deck_id);
+            if (!deck) return '';
+            return `<a class="shv-enrichment-slide" data-shv-open-slide="${sp.deck_id}|${sp.page}" title="${escapeHtml(deck.title)} · page ${sp.page}">
+              <img src="${slideUrl(deck, sp.page)}" alt="" loading="lazy"/>
+              <span>${deck.icon} ${sp.page}</span>
+            </a>`;
+          }).join('')}
+        </div>
+      </div>` : '';
+
+  const chipsHtml = (guideHtml || workbookHtml) ? `
+    <div class="shv-enrichment-section">
+      <div class="shv-enrichment-section-title">📖 Read more</div>
+      <div class="shv-enrichment-chips">${guideHtml}${workbookHtml}</div>
+    </div>
+  ` : '';
+
+  return `<div class="shv-enrichment">
+    ${explanationHtml}
+    ${chipsHtml}
+    ${videoHtml}
+    ${diagramsHtml}
+    ${slidesHtml}
+  </div>`;
+}
+
 function renderSHVExamLive() {
   const pool = getSHVQuestions() || {};
   const i = state.shvExam.current;
@@ -1401,18 +1527,26 @@ function renderSHVExamLive() {
   if (!q) return `<div class="empty"><div>Question ${qid} missing from pool.</div></div>`;
   const meta = shvTopicMeta(q.topic);
   const markers = ['A', 'B', 'C', 'D'];
+  const mode = state.shvExam.mode || 'exam';
+  const isStudy = mode === 'study';
   const elapsed = Math.floor((Date.now() - state.shvExam.startedAt) / 1000);
   const remaining = Math.max(0, state.shvExam.durationSec - elapsed);
   const answered = state.shvExam.answers.filter(a => a !== null).length;
   const answer = state.shvExam.answers[i];
 
+  // In study mode: once an answer is selected, the choice colours reveal
+  // correct vs. wrong AND the enrichment panel appears below.
+  const studyRevealed = isStudy && answer !== null;
+
+  const headerHtml = isStudy
+    ? `<div class="exam-header"><div><strong>🎓 SHV Study Mode</strong> · <span class="muted">Question ${i + 1} of ${state.shvExam.qids.length}</span></div></div>`
+    : `<div class="exam-header">
+        <div><strong>SHV Practice</strong> · <span class="muted">${answered}/${state.shvExam.qids.length} answered</span></div>
+        <div class="exam-timer" id="shv-exam-timer">${fmtTime(remaining)}</div>
+      </div>`;
+
   return `
-    <div class="exam-header">
-      <div>
-        <strong>SHV Practice</strong> · <span class="muted">${answered}/${state.shvExam.qids.length} answered</span>
-      </div>
-      <div class="exam-timer" id="shv-exam-timer">${fmtTime(remaining)}</div>
-    </div>
+    ${headerHtml}
     <div class="exam-progress">
       ${state.shvExam.qids.map((_, idx) => {
         let cls = 'dot';
@@ -1426,7 +1560,7 @@ function renderSHVExamLive() {
       <div class="fc-meta">
         <div><span class="cat-dot" style="background:${meta.color}"></span>${meta.icon} ${escapeHtml(q.topic)}</div>
         <div>
-          <button class="btn small ${state.shvExam.flagged.includes(i) ? 'primary' : ''}" id="shv-exam-flag">${state.shvExam.flagged.includes(i) ? '🚩 Flagged' : '🚩 Flag'}</button>
+          ${!isStudy ? `<button class="btn small ${state.shvExam.flagged.includes(i) ? 'primary' : ''}" id="shv-exam-flag">${state.shvExam.flagged.includes(i) ? '🚩 Flagged' : '🚩 Flag'}</button>` : ''}
         </div>
       </div>
       <div class="fc-question">
@@ -1435,20 +1569,39 @@ function renderSHVExamLive() {
       <div class="choices">
         ${q.options.map((opt, idx) => {
           const selected = answer === idx;
-          return `<button class="choice ${selected ? 'correct' : ''}" data-shv-choice="${idx}" style="${selected ? 'background:var(--accent-soft); border-color:var(--accent); color:var(--accent);' : ''}">
+          // In study mode after answering, color the correct option green
+          // and the user's wrong pick red (peek-at-answer reveal).
+          let style = '';
+          let cls = '';
+          if (studyRevealed) {
+            if (idx === q.correct) {
+              cls = 'correct';
+              style = 'background:var(--good-soft); border-color:var(--good); color:var(--good);';
+            } else if (selected) {
+              cls = 'wrong';
+              style = 'background:var(--bad-soft); border-color:var(--bad); color:var(--bad);';
+            }
+          } else if (selected) {
+            cls = 'correct';
+            style = 'background:var(--accent-soft); border-color:var(--accent); color:var(--accent);';
+          }
+          return `<button class="choice ${cls}" data-shv-choice="${idx}" style="${style}">
             <span class="marker">${markers[idx]}</span><span class="ct">${escapeHtml(opt)}</span>
           </button>`;
         }).join('')}
       </div>
     </div>
+    ${studyRevealed ? renderShvEnrichmentPanel(qid, q) : ''}
     <div class="nav-controls">
       <button class="btn" id="shv-exam-prev" ${i === 0 ? 'disabled' : ''}>← Previous</button>
       ${i === state.shvExam.qids.length - 1
-        ? `<button class="btn primary" id="shv-exam-finish">Finish exam</button>`
+        ? (isStudy
+            ? `<button class="btn primary" id="shv-exam-finish">Finish study session</button>`
+            : `<button class="btn primary" id="shv-exam-finish">Finish exam</button>`)
         : `<button class="btn primary" id="shv-exam-next">Next →</button>`}
     </div>
     <div class="row" style="margin-top:14px; justify-content:center;">
-      <button class="btn ghost danger small" id="shv-exam-abort">Abort exam</button>
+      <button class="btn ghost danger small" id="shv-exam-abort">${isStudy ? 'Exit study mode' : 'Abort exam'}</button>
     </div>
   `;
 }
@@ -1456,6 +1609,7 @@ function renderSHVExamLive() {
 function renderSHVExamResult(r) {
   const pool = getSHVQuestions() || {};
   const dur = fmtTime(r.duration);
+  const isStudy = r.mode === 'study';
   const circumference = 2 * Math.PI * 60;
   const dashOffset = circumference - circumference * r.scorePct / 100;
   const sectionsHtml = Object.entries(r.sections).map(([t, s]) => {
@@ -1476,7 +1630,7 @@ function renderSHVExamResult(r) {
       const q = pool[w.qid]; if (!q) return '';
       const meta = shvTopicMeta(q.topic);
       return `
-        <div class="card" style="margin-bottom:10px;">
+        <div class="card" style="margin-bottom:14px;">
           <div class="muted" style="font-size:11px;">
             <span class="cat-dot" style="background:${meta.color}"></span>${meta.icon} ${escapeHtml(q.topic)}
           </div>
@@ -1490,6 +1644,7 @@ function renderSHVExamResult(r) {
               <span class="marker">${markers[idx]}</span><span class="ct">${escapeHtml(opt)}${tag}</span>
             </div>`;
           }).join('')}
+          ${renderShvEnrichmentPanel(w.qid, q)}
         </div>
       `;
     }).join('');
@@ -1517,8 +1672,9 @@ function renderSHVExamResult(r) {
         ${sectionsHtml}
       </div>
     </div>
-    <div class="row" style="margin-top:18px;">
-      <button class="btn primary" id="shv-exam-new">↻ New exam</button>
+    <div class="row" style="margin-top:18px; flex-wrap:wrap;">
+      <button class="btn primary" id="shv-exam-new">↻ New timed exam</button>
+      <button class="btn" id="shv-study-new">🎓 Study mode</button>
       <button class="btn ghost" id="shv-exam-clear">Clear result</button>
     </div>
     ${r.wrong.length > 0 ? `<h2 style="margin-top:30px;">Review wrong answers (${r.wrong.length})</h2>${wrongHtml}` : ''}
@@ -1532,13 +1688,44 @@ function attachSHVExamEvents() {
   if (countSel) countSel.onchange = (e) => { state.shvExam.setup.count = parseInt(e.target.value, 10); saveState(); render(); };
 
   const startBtn = document.getElementById('shv-exam-start');
-  if (startBtn) startBtn.onclick = () => { state.shvExam.lastResult = null; startSHVExam(); };
+  if (startBtn) startBtn.onclick = () => { state.shvExam.lastResult = null; startSHVExam('exam'); };
+  const studyBtn = document.getElementById('shv-study-start');
+  if (studyBtn) studyBtn.onclick = () => { state.shvExam.lastResult = null; startSHVExam('study'); };
   const newBtn = document.getElementById('shv-exam-new');
-  if (newBtn) newBtn.onclick = () => { state.shvExam.lastResult = null; startSHVExam(); };
+  if (newBtn) newBtn.onclick = () => { state.shvExam.lastResult = null; startSHVExam('exam'); };
+  const newStudyBtn = document.getElementById('shv-study-new');
+  if (newStudyBtn) newStudyBtn.onclick = () => { state.shvExam.lastResult = null; startSHVExam('study'); };
   const clrBtn = document.getElementById('shv-exam-clear');
   if (clrBtn) clrBtn.onclick = () => { state.shvExam.lastResult = null; saveState(); render(); };
   const viewLast = document.getElementById('shv-exam-view-last');
   if (viewLast) viewLast.onclick = () => { state.shvExam.lastResult = state.shvExam.history[state.shvExam.history.length - 1]; render(); };
+
+  // Enrichment chip clicks: jump to guide / workbook / video / slide
+  document.querySelectorAll('[data-shv-goto-guide]').forEach(b => b.onclick = () => {
+    state.guide.partId = b.dataset.shvGotoPart;
+    state.guide.chapterId = b.dataset.shvGotoGuide;
+    saveState();
+    navigate('guide');
+  });
+  document.querySelectorAll('[data-shv-goto-workbook]').forEach(b => b.onclick = () => {
+    state.workbook.bookId = b.dataset.shvGotoBook;
+    state.workbook.chapterId = b.dataset.shvGotoWorkbook;
+    saveState();
+    navigate('workbook');
+  });
+  document.querySelectorAll('[data-shv-play-clip]').forEach(b => b.onclick = () => {
+    const [videoId, tStart] = b.dataset.shvPlayClip.split('|');
+    openVideoPlayer(videoId);
+    // Seek to the timestamp once the video has loaded
+    setTimeout(() => {
+      const v = document.getElementById('vp-video');
+      if (v) { v.currentTime = parseFloat(tStart); v.play().catch(() => {}); }
+    }, 600);
+  });
+  document.querySelectorAll('[data-shv-open-slide]').forEach(b => b.onclick = () => {
+    const [deckId, page] = b.dataset.shvOpenSlide.split('|');
+    openSlideViewer(deckId, parseInt(page, 10));
+  });
 
   document.querySelectorAll('[data-shv-choice]').forEach(b => b.onclick = () => {
     state.shvExam.answers[state.shvExam.current] = parseInt(b.dataset.shvChoice, 10);
@@ -2867,7 +3054,8 @@ function render() {
   }
   if (state.view === 'shv-exam') {
     attachSHVExamEvents();
-    if (state.shvExam.active) startSHVExamTimer(); else stopSHVExamTimer();
+    if (state.shvExam.active && state.shvExam.mode !== 'study') startSHVExamTimer();
+    else stopSHVExamTimer();
   } else {
     stopSHVExamTimer();
   }

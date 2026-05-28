@@ -24,6 +24,8 @@ def main():
     diagrams = load_json('data/diagrams.json') if os.path.exists(os.path.join(ROOT, 'data/diagrams.json')) else {'diagrams': []}
     video_manifest = load_json('data/video_manifest.json') if os.path.exists(os.path.join(ROOT, 'data/video_manifest.json')) else {'decks': []}
     shv_questions = load_json('data/shv_questions.json') if os.path.exists(os.path.join(ROOT, 'data/shv_questions.json')) else {'questions': {}, 'topics': {}}
+    shv_enrichments_path = os.path.join(ROOT, 'data/shv_enrichments.json')
+    shv_enrichments = load_json('data/shv_enrichments.json') if os.path.exists(shv_enrichments_path) else {'enrichments': {}}
     tips_md = load_file('data/study_tips.md')
 
     # Inline any VTTs that are present so the deployed single-file build can
@@ -56,6 +58,7 @@ def main():
     video_manifest_json = json.dumps(video_manifest, ensure_ascii=False, separators=(',', ':'))
     video_vtt_json = json.dumps(video_vtt, ensure_ascii=False, separators=(',', ':'))
     shv_questions_json = json.dumps(shv_questions, ensure_ascii=False, separators=(',', ':'))
+    shv_enrichments_json = json.dumps(shv_enrichments, ensure_ascii=False, separators=(',', ':'))
 
     # Encode tips markdown as a JS string-safe literal
     # Use JSON.parse('...') trick - escape backslashes/quotes/newlines
@@ -138,6 +141,7 @@ def main():
 <script id="data-video-manifest" type="application/json">{video_manifest_json}</script>
 <script id="data-video-vtt" type="application/json">{video_vtt_json}</script>
 <script id="data-shv-questions" type="application/json">{shv_questions_json}</script>
+<script id="data-shv-enrichments" type="application/json">{shv_enrichments_json}</script>
 <script>
 window.CARDS = JSON.parse(document.getElementById('data-cards').textContent);
 window.GUIDE = JSON.parse(document.getElementById('data-guide').textContent);
@@ -148,6 +152,7 @@ window.DIAGRAMS = JSON.parse(document.getElementById('data-diagrams').textConten
 window.VIDEO_MANIFEST = JSON.parse(document.getElementById('data-video-manifest').textContent);
 window.VIDEO_VTT = JSON.parse(document.getElementById('data-video-vtt').textContent);
 window.SHV_QUESTIONS = JSON.parse(document.getElementById('data-shv-questions').textContent);
+window.SHV_ENRICHMENTS = JSON.parse(document.getElementById('data-shv-enrichments').textContent);
 window.TIPS_MD = {tips_js};
 </script>
 
