@@ -2,1622 +2,669 @@
   "slug": "materialkunde_1",
   "language": "de",
   "duration": 874.2613125,
-  "transcribed_in_sec": 178.2,
-  "model": "base",
+  "transcribed_in_sec": 1084.8,
+  "model": "medium",
+  "settings": {
+    "beam_size": 10,
+    "temperature_fallback": [
+      0.0,
+      0.2,
+      0.4,
+      0.6,
+      0.8,
+      1.0
+    ],
+    "initial_prompt_chars": 545,
+    "vad_min_silence_ms": 300
+  },
   "segments": [
     {
       "i": 1,
-      "start": 0.08,
-      "end": 11.38,
-      "text": "Beim Rettungsschirm verwenden wir schlussendlich ganz einfach die einzelnen Meistens Autonema,"
+      "start": 0.28,
+      "end": 16.3,
+      "text": "Im Rettungsschirm verwenden wir schlussendlich ganz einfache Leinen, meistens auch Dynema, die aber eher dick sind und auch viel viel weniger dicht gewoben sind."
     },
     {
       "i": 2,
-      "start": 11.38,
-      "end": 16.38,
-      "text": "wo er dick sind und auch viel weniger dicht gewoppen sind."
+      "start": 36.2,
+      "end": 45.16,
+      "text": "Hier sehen wir schnell, das in der Mitte ist eine sogenannte Kreuzkappe, das ist etwas das, was aktuell auf dem Markt ist und sehr gut funktioniert."
     },
     {
       "i": 3,
-      "start": 16.38,
-      "end": 21.26,
-      "text": "Wie geht der, ist das Wichtige vor der Schuhe angesprochen, dass wenn man ein Öffnung hättet,"
+      "start": 45.16,
+      "end": 58.54,
+      "text": "Dann links unten, die rote, ist eher ein ältes Modell, das momentan etwas verdrängt wird von der Kreuzkappe, aus einem einfachen Grund, weil die Kreuzkappe sehr pendelst."
     },
     {
       "i": 4,
-      "start": 21.26,
-      "end": 26.0,
-      "text": "dass es nicht riesige Belastung gibt, sondern das ganze System, das Däne ist absolut"
+      "start": 58.86,
+      "end": 72.71,
+      "text": "Bei der Rund-Rundkappe haben wir eher mal einen Pendel drin, auch noch verschiedene andere Formen, das ist jetzt noch eine Dreiecke, die man ein wenig an Fahrt aufnehmen kann und mit der man steuern kann."
     },
     {
       "i": 5,
-      "start": 26.0,
-      "end": 30.6,
-      "text": "säckend, dass das Formstabil, Längestabil ist, das Döffsichtäne, Sätze, Däne,"
+      "start": 72.71,
+      "end": 80.95,
+      "text": "Das ist allerdings mehr für Profis vorbehalten, weil man nach dem Treppenzug auch noch aktiv den Rettungsschirm steuern muss."
     },
     {
       "i": 6,
-      "start": 30.6,
-      "end": 34.26,
-      "text": "hat eigentlich die positiven Eigenschaften."
+      "start": 81.27,
+      "end": 92.15,
+      "text": "Für einen Schieler, für jemanden, der anfängt zu fliegen, macht das Absatz in der Kreuzkappe, mit der kommst du runter und alles ist gut und du musst dich nicht noch in irgendeinem Rettungssystem konzentrieren."
     },
     {
       "i": 7,
-      "start": 34.26,
-      "end": 39.22,
-      "text": "Beim Rettungsschirm gibt es ganz verschiedene Modell, da gesehen wir schnell momentan, da es in der Mitte"
+      "start": 92.15,
+      "end": 109.22,
+      "text": "Wenn man ein Rettungsgerät zieht, dann kommt man ungefähr mit 5,5 Metern pro Sekunde runter, das entspricht ungefähr, wie wir hier auf dem Bild sehen, von einer Höhe von 1,5 Metern."
     },
     {
       "i": 8,
-      "start": 39.22,
-      "end": 45.54,
-      "text": "ist so genannte Kreuzkappen, das ist so ein bisschen das, was aktuell vom Markt ist und sehr gut funktioniert."
+      "start": 109.3,
+      "end": 129.26,
+      "text": "Jetzt haben wir aber auch bei 1,5 Metern Sprung nichts an, sondern wir haben die ganze Gleitschirmausrüstung, das Gurrzeug nämlich, unsere Helme etc. an, viel Gewicht und dann sind vielleicht die 1,5 Meter plötzlich eher schwierig oder auch doch mit dem Impact am Boden, dass man so herabspringt."
     },
     {
       "i": 9,
-      "start": 45.54,
-      "end": 51.14,
-      "text": "Den links unten, die rot ist eher älteres Modell, das ist eine Rundkappen,"
+      "start": 129.26,
+      "end": 152.79,
+      "text": "In Realität sieht es nämlich so aus, dass wir eher von 2,3 Metern herabspringen, weil die Rettungsschirme werden getestet, indem das von einem"
     },
     {
       "i": 10,
-      "start": 51.14,
-      "end": 55.9,
-      "text": "wo man danklich verdrängt wird von der Kreuzkappen aus einem einfachen Grund,"
+      "start": 152.79,
+      "end": 166.73,
+      "text": "Gleitschirm nach uns verbunden und der Gleitschirm kann auch ein bisschen stören, das heisst, das ganze System wird vielleicht eher mal ein bisschen an Schaukeln und beeinflusst dann die Zinkgeschwindigkeiten definitiv und schnell mal etwas höher sein."
     },
     {
       "i": 11,
-      "start": 55.9,
-      "end": 63.18,
-      "text": "weil die Kreuzkappen sehr pendelstabil ist und bei der Rundkappen haben wir ehrenmal ein Pendeln innen Commissionen."
+      "start": 166.73,
+      "end": 184.54,
+      "text": "Allerdings ist es wirklich so gebaut, dass wenn man auf den Fuss kommt, dass es eigentlich ein Impact ist, den man gut verkraften kann. Am allerwichtigsten einfach, dass man wirklich auf die Beine kommt und nicht das Gefühl hat, dass man irgendwie absitzt und auf den Protektor vom Gurrzeug kommt."
     },
     {
       "i": 12,
-      "start": 63.18,
-      "end": 67.66,
-      "text": "Und da gibt es auch noch verschiedene andere Formen, das ist jetzt noch so ein Dreieck,"
+      "start": 184.54,
+      "end": 194.06,
+      "text": "Der Protektor ist nie so gut wie eure Beine, es gibt keinen besseren Protektor als eure Beine, darum absolute Priorität nach einem Retterwurf muss sie auf die Beine landen."
     },
     {
       "i": 13,
-      "start": 67.66,
-      "end": 75.46,
-      "text": "wo man gleich an Fahrt aufnehmen kann und mit dem kann stören, dass alle Dinge mehr für Profis vorbehalten,"
+      "start": 194.06,
+      "end": 206.65,
+      "text": "Wenn wir schon bei den Protektoren sind, da gibt es ganz verschiedene Gurrzeuge, die Protektoren in den Protektoren haben. Und auf der linken Seite haben wir jetzt so eines, das einen Schaumstoff verbaut hat."
     },
     {
       "i": 14,
-      "start": 75.46,
-      "end": 81.18,
-      "text": "weil man doch nach dem Drehbezug auch nochmals aktiv den Rettungsschirm stören."
+      "start": 206.65,
+      "end": 215.61,
+      "text": "Das hat natürlich den, den Vorteil, der Schutz ist von Anfang an hier, hat einfach den grossen Nachteil, es ist relativ schwer und vor allem das Volumen, wenn wir es einpacken, chúngst recht gross."
     },
     {
       "i": 15,
-      "start": 81.18,
-      "end": 87.06,
-      "text": "Für einen Schieler, für jemanden, der abanken, macht das Absatz in den Kreuzkappen mit dieser Kunstabend."
+      "start": 215.61,
+      "end": 226.81,
+      "text": "Da gibt es andere Formen, wo man gesagt hat, man will das Volumen sehr klein haben und hat dann so Airbags gemacht? gemacht, die sich allerdings erst füllen, wenn wir in die Luft sind, wenn der Fahrtwind reinbläst."
     },
     {
       "i": 16,
-      "start": 87.06,
-      "end": 95.04,
-      "text": "Und alles ist gut und du musst die nicht nach irgendwelchen Verrettungssystem konzentrieren."
+      "start": 226.81,
+      "end": 230.65,
+      "text": "Und am Start, wo es eigentlich sehr wichtig wäre, haben wir keinen Schutz."
     },
     {
       "i": 17,
-      "start": 95.04,
-      "end": 99.81,
-      "text": "Wenn man einen Rettungsschirm, einen Rettungsschirm gratuziert,"
+      "start": 230.73,
+      "end": 243.77,
+      "text": "Da gibt es auch Unterformen, wo zum Beispiel ein Gurrzeug direkt zu einem Rucksack geschmacht wird, das nennt man den Wendegurrzeug."
     },
     {
       "i": 18,
-      "start": 99.81,
-      "end": 103.61,
-      "text": "dann kommt man ungefähr mit 5,5 Meter pro Sekunden, aber das entsp"
+      "start": 243.77,
+      "end": 252.41,
+      "text": "Das Wendegurrzeug hat natürlich den Vorteil, dass du keinen extra Rucksack brauchst, also Gewichtsersparnis, aber man bräuchte das Material relativ fest."
     },
     {
       "i": 19,
-      "start": 103.61,
-      "end": 109.41,
-      "text": "das entspricht ungefähr, wie man hier auf dem Bild gesehen hat, von der Höhe von 1,5 Meter."
+      "start": 252.41,
+      "end": 258.12,
+      "text": "Und man bräuchte die Reissverschlüsse auch sehr oft auf und zu, d.h. es gibt eher mal einen Schaden."
     },
     {
       "i": 20,
-      "start": 109.41,
-      "end": 113.41,
-      "text": "Jetzt haben wir aber bei 1,5 Meter Sprung nichts nichts an,"
+      "start": 258.12,
+      "end": 289.29,
+      "text": "Und der Protektor wird vielleicht so eingepackt, dass er relativ komprimiert drin ist und entlüftet sich nachher, entfaltet sich nicht mehr so schön"
     },
     {
       "i": 21,
-      "start": 113.41,
-      "end": 116.37,
-      "text": "sondern wir haben die ganze Gleichschirm aus der Üstungsgurz,"
+      "start": 290.25,
+      "end": 296.57,
+      "text": "und wenn man ihn nicht braucht, bläst man die Luft ab und hat ganz geringes Volumen und ganz wenig Gewicht dabei."
     },
     {
       "i": 22,
-      "start": 116.37,
-      "end": 118.65,
-      "text": "unsere Kleiderhelme z. a."
+      "start": 296.57,
+      "end": 305.61,
+      "text": "Es gibt natürlich auch die Extremformen, die die Leute wählen, zum Beispiel Highcom Flyer, die sagen, sie verzichten komplett auf den Schutz, das seht ihr oben,"
     },
     {
       "i": 23,
-      "start": 118.65,
-      "end": 120.45,
-      "text": "Das heißt, das ist schnell noch viel Gewicht."
+      "start": 305.61,
+      "end": 314.89,
+      "text": "der dann wirklich nur das Basic ist, also ein Gurr, in dem man bequem drin sitzt, der hat keinen Schutz und man muss den Notschirm auch separat aufhängen,"
     },
     {
       "i": 24,
-      "start": 120.45,
-      "end": 123.09,
-      "text": "Und dann sind die 1,5 Meter plötzlich eher schwierig."
+      "start": 314.89,
+      "end": 320.25,
+      "text": "damit er nicht integriert im Gurrzüge drin ist."
     },
     {
       "i": 25,
-      "start": 123.09,
-      "end": 129.21,
-      "text": "Oder auch doch mit einer kleinen Impact an dem Boden verbunden, wenn man so abspringt."
+      "start": 320.25,
+      "end": 325.29,
+      "text": "Eine andere Form sind die Liegegurzüge, da gibt es auch mittlerweile einen Riesenmarkt von leicht bis schwer."
     },
     {
       "i": 26,
-      "start": 129.21,
-      "end": 135.01,
-      "text": "In der Realität sieht es nämlich so aus, dass man eher von 2,3 Meter abspringen will."
+      "start": 325.29,
+      "end": 330.97,
+      "text": "Schlussendlich, die grossen Vorteile des Liegegurzüges sind ganz klar, dass man natürlich aerodynamisch in der Luft liegt,"
     },
     {
       "i": 27,
-      "start": 135.53,
-      "end": 142.17,
-      "text": "Die Rettungsschirm werden testet, in dem das von der Helikopter oder der Brug ausgelöst werden wird."
+      "start": 330.97,
+      "end": 333.77,
+      "text": "also das ist natürlich die beste Vergleitleistung des Schirms."
     },
     {
       "i": 28,
-      "start": 142.17,
-      "end": 146.13,
-      "text": "Aber immer ohne die Gleichschirmdrahe."
+      "start": 333.77,
+      "end": 341.37,
+      "text": "Und man ist relativ fest windgeschützt, hat also warm, wenn man lange Flüge macht und hat relativ viel Platz für ein Cockpit."
     },
     {
       "i": 29,
-      "start": 146.13,
-      "end": 149.97,
-      "text": "Also es spricht, dass es Gewicht ist, aber du hast keine Taben ausgelöst."
+      "start": 341.45,
+      "end": 349.45,
+      "text": "Wie man hier oben sieht, da ist sogar ein leichtes Schiebchen vorhanden, wo man die Geräte optimal platzieren kann und gute Sicht auf sie hat."
     },
     {
       "i": 30,
-      "start": 149.97,
-      "end": 150.97,
-      "text": "Das ist jetzt nicht."
+      "start": 349.45,
+      "end": 349.53,
+      "text": "Alle, die so ein bisschen Wettkampf fliegen oder"
     },
     {
       "i": 31,
-      "start": 150.97,
-      "end": 154.29,
-      "text": "In der Realität haben wir meistens die Gleichschirmdrahe nach uns verbunden."
+      "start": 380.06,
+      "end": 386.54,
+      "text": "wieder ein anderes Gurrzüge, da gibt es ganz verschiedene und gute Gurzüge auf dem Markt."
     },
     {
       "i": 32,
-      "start": 154.29,
-      "end": 156.29,
-      "text": "Die Gleichschirm kann auch ein bisschen stören."
+      "start": 386.54,
+      "end": 393.06,
+      "text": "Lasst auch dort euch beraten, das lohnt sich mal reinzusitzen, um so herauszufinden, welches Gurzüge für euch passt."
     },
     {
       "i": 33,
-      "start": 156.29,
-      "end": 159.49,
-      "text": "Das heisst, das ganze System, das vielleicht eher etwas schaukeln."
+      "start": 393.06,
+      "end": 402.5,
+      "text": "Den Ofenlight-Shift haben wir schlussend, ganz, ganz einfach dargestellt."
     },
     {
       "i": 34,
-      "start": 159.53,
-      "end": 166.83,
-      "text": "Und beeinflusst diesen Zinkenschwindigkeiten definitiv, und das kann auch schnell etwas höher sein."
+      "start": 402.5,
+      "end": 409.11,
+      "text": "Es geht darum, dass wir einen Drahtgurt haben, da sehen wir auch hier, wo wir schlussendlich aufgehängt sind,"
     },
     {
       "i": 35,
-      "start": 166.83,
-      "end": 170.51,
-      "text": "Allerdings ist es wirklich so, dass, wenn man auf 4 kommt,"
+      "start": 409.43,
+      "end": 415.43,
+      "text": "dann die Handschlaufen, wo wir schlussendlich drin sind, hier noch eine kleine Anmerkung."
     },
     {
       "i": 36,
-      "start": 170.51,
-      "end": 174.11,
-      "text": "dass es eigentlich ein Impact ist, wo man gut an sich kraft."
+      "start": 415.43,
+      "end": 424.39,
+      "text": "Wenn ihr die Handschlaufen habt, dann halten sie so, dann wickeln sie so einmal, aber gehen sie nie so durch die Hand und fliegen sie so."
     },
     {
       "i": 37,
-      "start": 174.11,
-      "end": 177.67,
-      "text": "Am allerwichtigsten einfach, dass man wirklich auf Beih kommt"
+      "start": 424.39,
+      "end": 431.83,
+      "text": "Weil wenn ihr so in der Handschlaufen drin werdet und ihr müsstet den Notschirm ziehen, gerade speziell im Winter, wenn wir noch Handschlaufen haben,"
     },
     {
       "i": 38,
-      "start": 177.67,
-      "end": 180.79,
-      "text": "und nicht gefühlt hat, mit du irgendwie Absitzen."
+      "start": 431.83,
+      "end": 435.35,
+      "text": "dass wir uns wie wieЗs so durchhören und so fliegen, weil wenn ihr so in der Handschlaufen drin werdet und ihr müsstet den Notsch"
     },
     {
       "i": 39,
-      "start": 180.79,
-      "end": 184.39,
-      "text": "Und auf der Protektor von einem Gurt zu kommen."
+      "start": 497.64,
+      "end": 504.44,
+      "text": "finden den Luftausgleich statt und das ganze Schirmchen sieht wunderschön in der Luft gefüllt aus."
     },
     {
       "i": 40,
-      "start": 184.39,
-      "end": 186.87,
-      "text": "Der Protektor ist nie so gut, wie bei uns."
+      "start": 504.44,
+      "end": 515.93,
+      "text": "Den Drahtgurt selber haben wir vorhin gesehen, da sind kleine Schlösschen, wo so kleine Schraubkarabiner sind und wir haben den Beschleuniger."
     },
     {
       "i": 41,
-      "start": 186.87,
-      "end": 191.31,
-      "text": "Es gibt kein Besserbedeck, dass ich bei drum absolut die Priorität nach einem Räter"
+      "start": 516.73,
+      "end": 518.73,
+      "text": "Hier drauf sehen wir einen Fussbeschleuniger."
     },
     {
       "i": 42,
-      "start": 191.31,
-      "end": 195.3,
-      "text": "auf Beih lande."
+      "start": 518.73,
+      "end": 524.73,
+      "text": "Mit dem Fuss einhängen, meinen Gurtzeug verbinden und dann mit dem Fuss drücken."
     },
     {
       "i": 43,
-      "start": 195.3,
-      "end": 199.5,
-      "text": "Wenn wir schon bei den Protektoren sind, da gibt es ganz verschiedene Gurtzüge,"
+      "start": 524.73,
+      "end": 528.73,
+      "text": "Es passiert nichts, als hier oben runter tôi."
     },
     {
       "i": 44,
-      "start": 199.5,
-      "end": 202.1,
-      "text": "die Protektoren haben."
+      "start": 528.73,
+      "end": 538.73,
+      "text": "Durch das, was den Winkel beschleunigt, wird mit schnellen Fussbeschleunigern, wie man hier auf dem Bild sieht, auch wie verbaut."
     },
     {
       "i": 45,
-      "start": 202.1,
-      "end": 206.74,
-      "text": "Und auf der linke Seite haben wir jetzt so ein Schumstoffen gebaut."
+      "start": 539.53,
+      "end": 547.53,
+      "text": "Dort können die Pil mit dem Bein strecken und entlasten, das hat einen super Beinfluss auf ihrem Schirm."
     },
     {
       "i": 46,
-      "start": 206.74,
-      "end": 209.9,
-      "text": "Das hat natürlich den Vorteil, der Schutz ist von Anfang an da,"
+      "start": 547.53,
+      "end": 549.53,
+      "text": "Wo es weniger gut geht, ist beim Handschirm."
     },
     {
       "i": 47,
-      "start": 209.9,
-      "end": 212.42,
-      "text": "hat einfach den großen Nachtheißes relativ schwer."
+      "start": 550.33,
+      "end": 556.33,
+      "text": "Mit dem Handschirm haben wir MIKE Trimmers drauf, wie man sie hier sieht, die man hinten auflassen kann, wie besprochen."
     },
     {
       "i": 48,
-      "start": 212.42,
-      "end": 215.78,
-      "text": "Und vor allem, wenn man sie packen, ist recht groß."
+      "start": 556.33,
+      "end": 563.33,
+      "text": "Das kann man wunderbar von Hand machen und braucht den Fuss nicht, da vorne ist der Passagier thôi und hat keinen Platz."
     },
     {
       "i": 49,
-      "start": 215.9,
-      "end": 217.7,
-      "text": "Da gibt es andere Formen, um zu zeigen,"
+      "start": 563.33,
+      "end": 570.33,
+      "text": "Der Vorteil der Trimmer ist natürlich, wenn man es von Hand machen kann, kann man auch sehr schön dazugesehen."
     },
     {
       "i": 50,
-      "start": 217.7,
-      "end": 219.54,
-      "text": "wir wollen das Volumen, wenn ich fliehe."
+      "start": 570.33,
+      "end": 575.33,
+      "text": "Der Nachteil ist, man kann es các nicht so schnell wieder lösen, da muss man aktiv mit der Hand aufgreifen."
     },
     {
       "i": 51,
-      "start": 219.54,
-      "end": 221.86,
-      "text": "Und hat dann so Erbecks gemacht,"
+      "start": 576.13,
+      "end": 581.13,
+      "text": "Die Fussbeschleuniger kann man drücken und loslassen, geht von selber zurück, ist etwas einfacher zu bedienen."
     },
     {
       "i": 52,
-      "start": 221.86,
-      "end": 225.42,
-      "text": "die sich allerdings erst füllen, wenn man in den Luft sind,"
+      "start": 581.13,
+      "end": 586.82,
+      "text": ", Trimmer, Tr, Trimming, nicht zu verwechseln,LAUGHS."
     },
     {
       "i": 53,
-      "start": 225.42,
-      "end": 226.98,
-      "text": "wenn der Fahrt in den bloßen muss."
+      "start": 587.62,
+      "end": 589.62,
+      "text": "Hier reden wir von den Leinen, die man trimmen kann."
     },
     {
       "i": 54,
-      "start": 226.98,
-      "end": 230.82,
-      "text": "Am Start, wo es sehr wichtig ist, haben wir keinen Schutz."
+      "start": 589.62,
+      "end": 596.62,
+      "text": "Jetzt haben wir bei den Leinenmaterialien gehört, dass es verschiedene Leine gibt, die zum Teil schrumpfen."
     },
     {
       "i": 55,
-      "start": 230.82,
-      "end": 236.98,
-      "text": "Da gibt es auch..."
+      "start": 596.62,
+      "end": 598.62,
+      "text": "Der Bein klebt, den nicht."
     },
     {
       "i": 56,
-      "start": 236.98,
-      "end": 238.42,
-      "text": "Da gibt es auch unten Formen,"
+      "start": 598.62,
+      "end": 604.64,
+      "text": "Er versucht das möglichst verhindern, dass er einen guten Mix macht von den jeweigen Leinen."
     },
     {
       "i": 57,
-      "start": 238.42,
-      "end": 241.14,
-      "text": "die z.B. ein"
+      "start": 604.64,
+      "end": 612.66,
+      "text": "Es gibt es trotzdem, dass die Leine sich verformen, respektive verlängern oder etwas verkürzen."
     },
     {
       "i": 58,
-      "start": 241.14,
-      "end": 242.1,
-      "text": "ein Gurtzüge direkt zum Rucksackerschmacher."
+      "start": 612.66,
+      "end": 614.66,
+      "text": "Das misst man im Check noch."
     },
     {
       "i": 59,
-      "start": 242.1,
-      "end": 243.9,
-      "text": "Das sind wir den Wendegurtzüge."
+      "start": 615.66,
+      "end": 616.66,
+      "text": "Wenn die?"
     },
     {
       "i": 60,
-      "start": 243.9,
-      "end": 247.74,
-      "text": "Das Wendegurtz der Vorder, dass kein extra Rucksack brauche,"
+      "start": 616.66,
+      "end": 626.72,
+      "text": "Jetzt stellt man fest, dass die Leine, doch tatsächlich verlängt sind, dann kann man zum Beispiel einen Schlaufe rein machen und so 1-2 cm den Schirm trimmen,"
     },
     {
       "i": 61,
-      "start": 247.74,
-      "end": 249.18,
-      "text": "als Gewichtsersparnis."
+      "start": 626.72,
+      "end": 629.72,
+      "text": "dass er wieder wie im neuen Zustand fliegt."
     },
     {
       "i": 62,
-      "start": 249.18,
-      "end": 252.54,
-      "text": "Aber wir brauchen jetzt mal die Jahre in den Fest- beasch."
+      "start": 645.15,
+      "end": 654.27,
+      "text": "Was für das ganzeNZE Material gilt, egal ob vào Schirm, GUR-ZUG oder Leine, schlussendlich will man lang Spass daran haben."
     },
     {
       "i": 63,
-      "start": 252.54,
-      "end": 256.14,
-      "text": "Und mit der Riesverschlüsse, auch sehr viel auf dem Zuhör,"
+      "start": 654.27,
+      "end": 658.27,
+      "text": "Darum ist es wichtig, dass man es den eigentlichen Material schadet."
     },
     {
       "i": 64,
-      "start": 256.14,
-      "end": 258.26,
-      "text": "das heisst, es gibt eher mal einen Schaden."
+      "start": 658.27,
+      "end": 665.27,
+      "text": "Grundsätzlich kann man sagen, dass die mechanische Belastung sicher eine Belastung ist, die sehr vermieden wird."
     },
     {
       "i": 65,
-      "start": 258.26,
-      "end": 260.42,
-      "text": "Und der Protekt wird vielleicht so einpackt,"
+      "start": 665.27,
+      "end": 668.27,
+      "text": "Dadurch das Material nicht im Bodenholt ziehen."
     },
     {
       "i": 66,
-      "start": 260.42,
-      "end": 262.46,
-      "text": "dass er relativ komprimiert drin ist"
+      "start": 668.27,
+      "end": 671.27,
+      "text": "Schliesslich ist die Reibung schlecht für alle Materialien."
     },
     {
       "i": 67,
-      "start": 262.46,
-      "end": 265.78,
-      "text": "und entlüfte sich nachher empfaltet sich nicht so schön"
+      "start": 671.27,
+      "end": 679.27,
+      "text": "Und mit der mechanischen Belastung ist ja gemeint, wenn man starke Manöver fliegt oder den Schirm stark beanspricht mit mit viel G-Belastung,"
     },
     {
       "i": 68,
-      "start": 265.78,
-      "end": 268.96,
-      "text": "nach mehrmaliger Gebrauch."
+      "start": 679.27,
+      "end": 683.42,
+      "text": "dann wird der Schirm sich näher altern, als wenn man man das nicht macht."
     },
     {
       "i": 69,
-      "start": 268.96,
-      "end": 271.32,
-      "text": "So, um das Ganze zu lösen,"
+      "start": 683.42,
+      "end": 686.42,
+      "text": "Die Auffahrstrahlung spielt eine grosse Rolle."
     },
     {
       "i": 70,
-      "start": 271.32,
-      "end": 274.16,
-      "text": "hat ein Hersteller sehr gut System entwickelt,"
+      "start": 686.42,
+      "end": 693.04,
+      "text": "Wenn wir es in der Luft nicht vermeiden, wo wir vào vermeiden können, ist, wenn wir das Material am Boden haben,"
     },
     {
       "i": 71,
-      "start": 274.16,
-      "end": 277.08,
-      "text": "wo wir hier im rechten Bild sehen,"
+      "start": 693.04,
+      "end": 696.04,
+      "text": "Wenn wir natürlich in der Luft sind, können wir es nicht vermeiden."
     },
     {
       "i": 72,
-      "start": 277.08,
-      "end": 278.8,
-      "text": "wo ein Gurtzüge entwickeln,"
+      "start": 696.04,
+      "end": 699.04,
+      "text": "Wo wir es aber vermieden können, ist, wenn wir das Material am Boden haben,"
     },
     {
       "i": 73,
-      "start": 278.8,
-      "end": 281.52,
-      "text": "wo wir aufblosen durch die Bereitsform starten,"
+      "start": 699.04,
+      "end": 705.05,
+      "text": "dass wir es eben auch zusammenpacken und in den Schatten stellen, damit die Auffahrstrahlung..."
     },
     {
       "i": 74,
-      "start": 281.52,
-      "end": 285.04,
-      "text": "also handisch oder mit so einem Blossack,"
+      "start": 705.05,
+      "end": 709.05,
+      "text": "Die Auffahrstrahlung ist etwas, das man nicht ganz vermeiden kann."
     },
     {
       "i": 75,
-      "start": 285.04,
-      "end": 286.44,
-      "text": "damit die Luft innen ist,"
+      "start": 709.05,
+      "end": 712.05,
+      "text": "Denn in der Luft ist es natürlich so, dass die Auffahrstrahlung gesetzt ist."
     },
     {
       "i": 76,
-      "start": 286.44,
-      "end": 288.68,
-      "text": "wir machen zu und haben bereits ab dem Start"
+      "start": 712.05,
+      "end": 714.05,
+      "text": "Wo man es vermeiden kann, ist am Boden."
     },
     {
       "i": 77,
-      "start": 288.68,
-      "end": 290.44,
-      "text": "ein super Protekt."
+      "start": 714.05,
+      "end": 717.26,
+      "text": "Wenn wir gelandet sind, ist es, wenn wir verpacken, in den Boden."
     },
     {
       "i": 78,
-      "start": 290.44,
-      "end": 291.8,
-      "text": "Und wenn man nicht braucht,"
+      "start": 717.26,
+      "end": 720.26,
+      "text": "Wenn wir gelandet sind, ist, wenn wir in den Boden."
     },
     {
       "i": 79,
-      "start": 291.8,
-      "end": 294.0,
-      "text": "dann braucht man die Luftablomie ganz grins,"
+      "start": 720.26,
+      "end": 724.26,
+      "text": "und eigentlich Auffahrstunden möglichst reduziert werden können,"
     },
     {
       "i": 80,
-      "start": 294.0,
-      "end": 296.84,
-      "text": "die Lumen und ganz wenig Gewicht dabei."
+      "start": 724.26,
+      "end": 727.5,
+      "text": "und nur in der Luft dann ausgesetzt ist."
     },
     {
       "i": 81,
-      "start": 296.88,
-      "end": 298.4,
-      "text": "Es gibt auch die Extreme-Form,"
+      "start": 727.5,
+      "end": 729.5,
+      "text": "Nässe ist allgemeines Thema."
     },
     {
       "i": 82,
-      "start": 298.4,
-      "end": 301.72,
-      "text": "die Leute wählen, zum Beispiel Heikensleihen,"
+      "start": 729.5,
+      "end": 734.5,
+      "text": "Einerseits, bei den Leinen ist es nicht gut, weil es anfängt zu schrumpfen, wenn sie viel nass sind."
     },
     {
       "i": 83,
-      "start": 301.72,
-      "end": 304.08,
-      "text": "die sagen, sie verzichten komplett auf den Schutz,"
+      "start": 735.5,
+      "end": 739.5,
+      "text": "Und der Schirm ist nass nicht ein Problem, wenn man ihn auch sofort trocknet."
     },
     {
       "i": 84,
-      "start": 304.08,
-      "end": 305.8,
-      "text": "das können wir im linken Ecken haben,"
+      "start": 739.5,
+      "end": 757.54,
+      "text": "Sprich, schlimm ist, wenn ein Kleidschirm n"
     },
     {
       "i": 85,
-      "start": 305.8,
-      "end": 308.16,
-      "text": "wo den Wücke nur ein Beißig ist,"
+      "start": 765.5,
+      "end": 769.5,
+      "text": "ist das klassische Auto im Sommer, wird schnell übertragen,"
     },
     {
       "i": 86,
-      "start": 308.16,
-      "end": 309.92,
-      "text": "also ein Gurt, das man bequem drin hat,"
+      "start": 769.5,
+      "end": 776.5,
+      "text": "und dann haben wir wirklich einen Bachofen, und das ganze Material ist sehr, sehr schlecht."
     },
     {
       "i": 87,
-      "start": 309.92,
-      "end": 311.28,
-      "text": "dann hat kein Schutz."
+      "start": 776.5,
+      "end": 779.58,
+      "text": "Also, schaut euch, wie das Material trocken ist,"
     },
     {
       "i": 88,
-      "start": 311.28,
-      "end": 315.0,
-      "text": "Und wir müssen den Notschirm auch separat aufhängen,"
+      "start": 779.58,
+      "end": 782.58,
+      "text": "und dass es nicht in extremen Temperaturen ausgesetzt ist."
     },
     {
       "i": 89,
-      "start": 315.0,
-      "end": 320.08,
-      "text": "nicht integriert im Gurtzüge innen."
+      "start": 782.58,
+      "end": 786.23,
+      "text": "Säure ist etwas, ich habe nochmals Landerblatt-Sou�지er aufgelesen,"
     },
     {
       "i": 90,
-      "start": 320.08,
-      "end": 322.24,
-      "text": "In anderen Formen sind die Liga Gurtzüge,"
+      "start": 786.23,
+      "end": 789.23,
+      "text": "nämlich ein Kuhfladen ist letzt khi auch etwas,"
     },
     {
       "i": 91,
-      "start": 322.24,
-      "end": 323.92,
-      "text": "gibt es auch mittlerweile einen Reisemarkt,"
+      "start": 789.23,
+      "end": 792.23,
+      "text": "was den Schirm, respektive der Beschichtung, angreift."
     },
     {
       "i": 92,
-      "start": 323.92,
-      "end": 325.36,
-      "text": "die verliert bei Schwer,"
+      "start": 792.23,
+      "end": 796.23,
+      "text": "Und was aber auch wichtig ist, ist, dass man es zwar mit Wasser, Lava, Masse,"
     },
     {
       "i": 93,
-      "start": 325.36,
-      "end": 327.16,
-      "text": "schlussendlich die grossen Vorteile"
+      "start": 796.23,
+      "end": 801.27,
+      "text": "aber nicht irgendwie mit Reinigungsmitteln putzt"
     },
     {
       "i": 94,
-      "start": 327.16,
-      "end": 328.8,
-      "text": "vom Liga Gurtzüge sind ganz klar,"
+      "start": 801.27,
+      "end": 802.47,
+      "text": "weil das Ganze die Beschichtung angreift."
     },
     {
       "i": 95,
-      "start": 328.8,
-      "end": 330.96,
-      "text": "dass man durch eher dynamische Luft liegt,"
+      "start": 802.47,
+      "end": 805.47,
+      "text": "Und gerade wenn wir bei der Beschichtung sind, ein gutes Stichwort,"
     },
     {
       "i": 96,
-      "start": 330.96,
-      "end": 333.76,
-      "text": "das ist eine bessere Verkleidleistung vom Schirm."
+      "start": 805.47,
+      "end": 807.47,
+      "text": "der Kleidschirm hat ja die Beschichtung darauf,"
     },
     {
       "i": 97,
-      "start": 333.76,
-      "end": 336.16,
-      "text": "Und man ist relativ fest windgeschützt,"
+      "start": 807.47,
+      "end": 811.52,
+      "text": "dass er eben möglichst nicht zu fest auf Auffahrstrelle reagiert"
     },
     {
       "i": 98,
-      "start": 336.16,
-      "end": 338.76,
-      "text": "hat auch so warm, wenn man lange Flüge macht,"
+      "start": 811.52,
+      "end": 815.52,
+      "text": "und dass er vor allem auch nicht zu fest Luft durchlässt."
     },
     {
       "i": 99,
-      "start": 338.76,
-      "end": 342.52,
-      "text": "und hat relativ viel Platz für ein Cockpit mitgesehen."
+      "start": 815.52,
+      "end": 819.52,
+      "text": "Die Porosität, wenn man zu fest Luft durchlässt,"
     },
     {
       "i": 100,
-      "start": 342.52,
-      "end": 344.84,
-      "text": "Das ist sogar so ein leichtes Schibeligvortrag,"
+      "start": 819.52,
+      "end": 822.52,
+      "text": "verläuft die Leistung, verläuft die Geschwindigkeit"
     },
     {
       "i": 101,
-      "start": 344.84,
-      "end": 347.28,
-      "text": "wo man durch ein Gerät optimal platzieren"
+      "start": 822.52,
+      "end": 826.52,
+      "text": "und dann will man verhindern mit der Beschichtung, dass das passiert."
     },
     {
       "i": 102,
-      "start": 347.28,
-      "end": 349.36,
-      "text": "und gute Sicht auf die Gerät."
+      "start": 826.52,
+      "end": 830.52,
+      "text": "Die Beschichtung, siehst du hier, die Maserik,"
     },
     {
       "i": 103,
-      "start": 349.36,
-      "end": 351.6,
-      "text": "Alle, die so ein wenig Wettkampf flügt"
+      "start": 830.52,
+      "end": 832.52,
+      "text": "die ist natürlich auch unterschiedlich dick,"
     },
     {
       "i": 104,
-      "start": 351.6,
-      "end": 353.44,
-      "text": "oder ein langes Treckerflüge machen,"
+      "start": 832.52,
+      "end": 834.52,
+      "text": "weil die Fäden unterschiedlich dick,"
     },
     {
       "i": 105,
-      "start": 353.44,
-      "end": 354.92,
-      "text": "mehrere Stunden Luft sind,"
+      "start": 834.52,
+      "end": 836.52,
+      "text": "tbspd. und die Beschichtung wird draufgepackt"
     },
     {
       "i": 106,
-      "start": 354.92,
-      "end": 356.96,
-      "text": "die jeweil ein eigenes Liga Gurtzüge ist,"
+      "start": 836.52,
+      "end": 846.52,
+      "text": "und darauf sorgt, dass die Unterschiede der Dicke der Fäden ausgeglichen werden."
     },
     {
       "i": 107,
-      "start": 356.96,
-      "end": 358.96,
-      "text": "die sehr tief für diese Vorteile hat."
+      "start": 846.52,
+      "end": 860.04,
+      "text": "Ich hoffe, dass dieser Vortrag Materialkund"
     },
     {
       "i": 108,
-      "start": 358.96,
-      "end": 361.76,
-      "text": "Nachdauer sind halt, dass man immer eine frier Umwege ist,"
-    },
-    {
-      "i": 109,
-      "start": 361.76,
-      "end": 363.36,
-      "text": "wenn man nicht ganz aufrecht hat."
-    },
-    {
-      "i": 110,
-      "start": 363.36,
-      "end": 364.76,
-      "text": "Das ist völlig ein anderes Gefühl."
-    },
-    {
-      "i": 111,
-      "start": 364.76,
-      "end": 366.36,
-      "text": "Wir müssen sich auch lernen."
-    },
-    {
-      "i": 112,
-      "start": 366.36,
-      "end": 368.36,
-      "text": "Und wir haben nicht die Direktblieck nach oben,"
-    },
-    {
-      "i": 113,
-      "start": 368.36,
-      "end": 370.36,
-      "text": "darum, in der Schule macht es absolut Sinn,"
-    },
-    {
-      "i": 114,
-      "start": 370.36,
-      "end": 371.96,
-      "text": "einen Sitzgurtzüge zu wählen."
-    },
-    {
-      "i": 115,
-      "start": 371.96,
-      "end": 375.56,
-      "text": "Und dann geht es wie eine klare Schiedene Klasse,"
-    },
-    {
-      "i": 116,
-      "start": 375.56,
-      "end": 377.16,
-      "text": "da gibt es Heikoblei Gurtzüge,"
-    },
-    {
-      "i": 117,
-      "start": 377.16,
-      "end": 378.56,
-      "text": "da gibt es Steckengurtzüge,"
-    },
-    {
-      "i": 118,
-      "start": 378.56,
-      "end": 380.56,
-      "text": "Dachrobatik-Peloten, Freestyle-Peloten,"
-    },
-    {
-      "i": 119,
-      "start": 380.56,
-      "end": 381.76,
-      "text": "dann wieder ein anderes Gurtzüge."
-    },
-    {
-      "i": 120,
-      "start": 381.76,
-      "end": 386.56,
-      "text": "Jetzt ganz verschiedene und gute Gurtzüge vom Markt."
-    },
-    {
-      "i": 121,
-      "start": 386.56,
-      "end": 388.76,
-      "text": "Löhnt auch dort, ich beruhte,"
-    },
-    {
-      "i": 122,
-      "start": 388.76,
-      "end": 390.36,
-      "text": "das Lohn zu innen zu setzen"
-    },
-    {
-      "i": 123,
-      "start": 390.36,
-      "end": 391.36,
-      "text": "und so aus den Finden,"
-    },
-    {
-      "i": 124,
-      "start": 391.36,
-      "end": 393.36,
-      "text": "weil es Gurtzüge für euch passt."
-    },
-    {
-      "i": 125,
-      "start": 393.36,
-      "end": 395.94,
-      "text": "Der Aufbau von Leitschirm"
-    },
-    {
-      "i": 126,
-      "start": 395.94,
-      "end": 399.19,
-      "text": "haben wir schlussendlich"
-    },
-    {
-      "i": 127,
-      "start": 399.19,
-      "end": 402.28,
-      "text": "so ganz einfach dargestellt."
-    },
-    {
-      "i": 128,
-      "start": 402.28,
-      "end": 405.28,
-      "text": "Es geht darum, dass wir einen Drago haben."
-    },
-    {
-      "i": 129,
-      "start": 405.28,
-      "end": 407.08,
-      "text": "Da sehen wir auch hier,"
-    },
-    {
-      "i": 130,
-      "start": 407.08,
-      "end": 409.08,
-      "text": "wo wir schlussend aufkankt sind."
-    },
-    {
-      "i": 131,
-      "start": 409.08,
-      "end": 411.28,
-      "text": "Dann Tandschlaufen,"
-    },
-    {
-      "i": 132,
-      "start": 411.28,
-      "end": 413.08,
-      "text": "die schlussendlich drin sind,"
-    },
-    {
-      "i": 133,
-      "start": 413.08,
-      "end": 415.48,
-      "text": "da haben wir eine kleine A-Märkung,"
-    },
-    {
-      "i": 134,
-      "start": 415.48,
-      "end": 417.48,
-      "text": "wenn wir Tandschlaufen haben,"
-    },
-    {
-      "i": 135,
-      "start": 417.48,
-      "end": 419.08,
-      "text": "haben sie so,"
-    },
-    {
-      "i": 136,
-      "start": 419.08,
-      "end": 421.08,
-      "text": "dann sie so einmal wickeln,"
-    },
-    {
-      "i": 137,
-      "start": 421.08,
-      "end": 424.28,
-      "text": "aber nicht so durchführen und fliegen so."
-    },
-    {
-      "i": 138,
-      "start": 424.28,
-      "end": 426.68,
-      "text": "Denn wenn es so in der Handschlaufe drin wäre,"
-    },
-    {
-      "i": 139,
-      "start": 426.68,
-      "end": 428.68,
-      "text": "und ich müsste den Noltschirm ziehen,"
-    },
-    {
-      "i": 140,
-      "start": 428.68,
-      "end": 430.48,
-      "text": "gerade speziell im Winter,"
-    },
-    {
-      "i": 141,
-      "start": 430.48,
-      "end": 431.68,
-      "text": "wenn wir noch Handschen haben,"
-    },
-    {
-      "i": 142,
-      "start": 431.68,
-      "end": 434.08,
-      "text": "dass wir uns wie ein Festler nicht auskennen."
-    },
-    {
-      "i": 143,
-      "start": 434.08,
-      "end": 435.88,
-      "text": "Darum eigentlich eine Technik,"
-    },
-    {
-      "i": 144,
-      "start": 435.88,
-      "end": 438.28,
-      "text": "wo jederzeit Tandsüber auszubringen."
-    },
-    {
-      "i": 145,
-      "start": 438.28,
-      "end": 441.15,
-      "text": "Dann haben wir kleine,"
-    },
-    {
-      "i": 146,
-      "start": 441.15,
-      "end": 442.95,
-      "text": "nämlich Bräumsleinemagans hin,"
-    },
-    {
-      "i": 147,
-      "start": 442.95,
-      "end": 445.75,
-      "text": "oder aus der Kanten vom Schirm angemacht ist."
-    },
-    {
-      "i": 148,
-      "start": 446.89,
-      "end": 449.89,
-      "text": "Und nachher geht es ZB und A-Ebenie."
-    },
-    {
-      "i": 149,
-      "start": 449.89,
-      "end": 460.27,
-      "text": "A-Ebenie ist die Vortestelle"
-    },
-    {
-      "i": 150,
-      "start": 460.27,
-      "end": 461.79,
-      "text": "oder E-Trittkanten,"
-    },
-    {
-      "i": 151,
-      "start": 461.79,
-      "end": 463.29,
-      "text": "die die Luft ist drümmt."
-    },
-    {
-      "i": 152,
-      "start": 463.29,
-      "end": 465.29,
-      "text": "Und dann haben wir es über den Untersegel."
-    },
-    {
-      "i": 153,
-      "start": 465.29,
-      "end": 467.29,
-      "text": "Und im Gleichschirm,"
-    },
-    {
-      "i": 154,
-      "start": 467.29,
-      "end": 469.29,
-      "text": "haben wir auch noch ganz viele Innenleben,"
-    },
-    {
-      "i": 155,
-      "start": 469.29,
-      "end": 471.29,
-      "text": "da haben wir Zellen zwischend,"
-    },
-    {
-      "i": 156,
-      "start": 471.29,
-      "end": 473.29,
-      "text": "und wir haben die sogenannte Crosspots."
-    },
-    {
-      "i": 157,
-      "start": 473.29,
-      "end": 475.79,
-      "text": "Die Crosspots sind nichts anderes als Löcher."
-    },
-    {
-      "i": 158,
-      "start": 475.89,
-      "end": 478.39,
-      "text": "Die Zellenwände, die verursachen,"
-    },
-    {
-      "i": 159,
-      "start": 478.39,
-      "end": 481.29,
-      "text": "sind die Luft sich gleichmässig am Flügel auf die Teile."
-    },
-    {
-      "i": 160,
-      "start": 481.29,
-      "end": 483.29,
-      "text": "Wie wir einen Gleichschirm schon mal gesehen haben,"
-    },
-    {
-      "i": 161,
-      "start": 483.29,
-      "end": 484.79,
-      "text": "haben wir einen vornen Öffnigen,"
-    },
-    {
-      "i": 162,
-      "start": 484.79,
-      "end": 486.79,
-      "text": "und gegen den Außen, gegen den Stabilen,"
-    },
-    {
-      "i": 163,
-      "start": 486.79,
-      "end": 487.79,
-      "text": "den Rand zum Gleichschirm,"
-    },
-    {
-      "i": 164,
-      "start": 487.79,
-      "end": 489.29,
-      "text": "sind die Öffnigen aufmals zu."
-    },
-    {
-      "i": 165,
-      "start": 489.29,
-      "end": 491.29,
-      "text": "Und das hat die Luft dort in den Kanten,"
-    },
-    {
-      "i": 166,
-      "start": 491.29,
-      "end": 492.79,
-      "text": "einen super Stahldruck verursacht."
-    },
-    {
-      "i": 167,
-      "start": 492.79,
-      "end": 494.79,
-      "text": "Dass der Flügel super schön in den Luft liegt."
-    },
-    {
-      "i": 168,
-      "start": 494.79,
-      "end": 495.79,
-      "text": "Und offen ist,"
-    },
-    {
-      "i": 169,
-      "start": 495.79,
-      "end": 496.79,
-      "text": "machen wir die Crosspots,"
-    },
-    {
-      "i": 170,
-      "start": 496.79,
-      "end": 504.47,
-      "text": "dann finden wir den Luft"
-    },
-    {
-      "i": 171,
-      "start": 506.06,
-      "end": 507.56,
-      "text": "Der Trager selber,"
-    },
-    {
-      "i": 172,
-      "start": 507.56,
-      "end": 508.56,
-      "text": "haben wir vorgesehen,"
-    },
-    {
-      "i": 173,
-      "start": 508.56,
-      "end": 509.56,
-      "text": "das sind die kleinen Ebene,"
-    },
-    {
-      "i": 174,
-      "start": 509.56,
-      "end": 511.06,
-      "text": "wir haben die kleinen Schlösschen,"
-    },
-    {
-      "i": 175,
-      "start": 511.06,
-      "end": 513.06,
-      "text": "die so kleine Schruppkarabiner sind,"
-    },
-    {
-      "i": 176,
-      "start": 513.06,
-      "end": 516.06,
-      "text": "und wir haben den Beschleuniger."
-    },
-    {
-      "i": 177,
-      "start": 516.06,
-      "end": 518.56,
-      "text": "Hier sehen wir jetzt ein Fussbeschleuniger,"
-    },
-    {
-      "i": 178,
-      "start": 518.56,
-      "end": 520.06,
-      "text": "die wir mit dem Fuss,"
-    },
-    {
-      "i": 179,
-      "start": 520.06,
-      "end": 521.56,
-      "text": "als die erste und einhängt,"
-    },
-    {
-      "i": 180,
-      "start": 521.56,
-      "end": 523.06,
-      "text": "mit dem Gurt zu verbinden,"
-    },
-    {
-      "i": 181,
-      "start": 523.06,
-      "end": 524.56,
-      "text": "und dem mit dem Fuss kann drücken."
-    },
-    {
-      "i": 182,
-      "start": 524.56,
-      "end": 527.06,
-      "text": "Was ihr nicht anders als hier,"
-    },
-    {
-      "i": 183,
-      "start": 527.06,
-      "end": 529.56,
-      "text": "da Ebene oben abzogen wird,"
-    },
-    {
-      "i": 184,
-      "start": 529.56,
-      "end": 531.06,
-      "text": "das, was passiert,"
-    },
-    {
-      "i": 185,
-      "start": 531.06,
-      "end": 533.06,
-      "text": "der Arsch der Winkel wird klingert,"
-    },
-    {
-      "i": 186,
-      "start": 533.06,
-      "end": 534.56,
-      "text": "ist hier mit schneller."
-    },
-    {
-      "i": 187,
-      "start": 534.56,
-      "end": 535.56,
-      "text": "Der Fussbeschleuniger,"
-    },
-    {
-      "i": 188,
-      "start": 535.56,
-      "end": 537.06,
-      "text": "wie wir hier auf dem Bild gsennt,"
-    },
-    {
-      "i": 189,
-      "start": 537.06,
-      "end": 539.06,
-      "text": "da wir v.a. bei der Soloschein verbaut,"
-    },
-    {
-      "i": 190,
-      "start": 539.06,
-      "end": 541.56,
-      "text": "weil dort Piloten können wunderbar"
-    },
-    {
-      "i": 191,
-      "start": 541.56,
-      "end": 544.56,
-      "text": "mit dem Beistrecke und Endlasten"
-    },
-    {
-      "i": 192,
-      "start": 544.56,
-      "end": 546.56,
-      "text": "die Geschwindigkeit zu beiflosen,"
-    },
-    {
-      "i": 193,
-      "start": 546.56,
-      "end": 547.56,
-      "text": "für den Schirm,"
-    },
-    {
-      "i": 194,
-      "start": 547.56,
-      "end": 548.56,
-      "text": "was weniger gut geht."
-    },
-    {
-      "i": 195,
-      "start": 548.56,
-      "end": 549.56,
-      "text": "Das ist beim Tandemschirm,"
-    },
-    {
-      "i": 196,
-      "start": 549.56,
-      "end": 550.56,
-      "text": "mit Tandemschirm,"
-    },
-    {
-      "i": 197,
-      "start": 550.56,
-      "end": 552.06,
-      "text": "haben wir die Trimmens drauf,"
-    },
-    {
-      "i": 198,
-      "start": 552.06,
-      "end": 553.06,
-      "text": "wenn man hier gsennta,"
-    },
-    {
-      "i": 199,
-      "start": 553.06,
-      "end": 555.06,
-      "text": "wo man hin und aufgelogen kann,"
-    },
-    {
-      "i": 200,
-      "start": 555.06,
-      "end": 556.56,
-      "text": "wie wir besprochen,"
-    },
-    {
-      "i": 201,
-      "start": 556.56,
-      "end": 558.56,
-      "text": "und das kann man natürlich wunderbar"
-    },
-    {
-      "i": 202,
-      "start": 558.56,
-      "end": 559.56,
-      "text": "von Hand machen,"
-    },
-    {
-      "i": 203,
-      "start": 559.56,
-      "end": 560.56,
-      "text": "und braucht den Fuss nicht,"
-    },
-    {
-      "i": 204,
-      "start": 560.56,
-      "end": 561.56,
-      "text": "weil dort vorne ist,"
-    },
-    {
-      "i": 205,
-      "start": 561.56,
-      "end": 562.56,
-      "text": "oder bassen schirmlich,"
-    },
-    {
-      "i": 206,
-      "start": 562.56,
-      "end": 563.56,
-      "text": "gar kein Platz."
-    },
-    {
-      "i": 207,
-      "start": 563.56,
-      "end": 565.06,
-      "text": "Der Vorteil der Trimmer,"
-    },
-    {
-      "i": 208,
-      "start": 565.06,
-      "end": 566.06,
-      "text": "ist natürlich,"
-    },
-    {
-      "i": 209,
-      "start": 566.06,
-      "end": 567.06,
-      "text": "wenn man von Hand ist,"
-    },
-    {
-      "i": 210,
-      "start": 567.06,
-      "end": 570.06,
-      "text": "kann man hier auch sehr schön dazu sehen."
-    },
-    {
-      "i": 211,
-      "start": 570.06,
-      "end": 573.06,
-      "text": "Danach der Liste kann es nicht einfach so schnell wieder lösen."
-    },
-    {
-      "i": 212,
-      "start": 573.06,
-      "end": 575.06,
-      "text": "Da muss man aktiv mit der Hand aufgerufen."
-    },
-    {
-      "i": 213,
-      "start": 575.06,
-      "end": 577.06,
-      "text": "Beim Fussbeschleuniger kann man drücken"
-    },
-    {
-      "i": 214,
-      "start": 577.06,
-      "end": 578.06,
-      "text": "und loslocken."
-    },
-    {
-      "i": 215,
-      "start": 578.06,
-      "end": 581.06,
-      "text": "Es ist einfach zu bedienen."
-    },
-    {
-      "i": 216,
-      "start": 581.06,
-      "end": 586.36,
-      "text": "Trimmer, Trimming,"
-    },
-    {
-      "i": 217,
-      "start": 586.36,
-      "end": 587.36,
-      "text": "nicht zu verwechseln,"
-    },
-    {
-      "i": 218,
-      "start": 587.36,
-      "end": 589.36,
-      "text": "da werden wir dann von der Leine,"
-    },
-    {
-      "i": 219,
-      "start": 589.36,
-      "end": 590.36,
-      "text": "wo man drüben kann."
-    },
-    {
-      "i": 220,
-      "start": 590.36,
-      "end": 591.36,
-      "text": "Jetzt haben wir folgen,"
-    },
-    {
-      "i": 221,
-      "start": 591.36,
-      "end": 593.36,
-      "text": "bei der Leine-Materialie gehört,"
-    },
-    {
-      "i": 222,
-      "start": 593.36,
-      "end": 595.36,
-      "text": "dass man da verschiedene Reine haben,"
-    },
-    {
-      "i": 223,
-      "start": 595.86,
-      "end": 596.86,
-      "text": "ein bisschen schrumpfen,"
-    },
-    {
-      "i": 224,
-      "start": 596.86,
-      "end": 597.86,
-      "text": "bei die Liteinend."
-    },
-    {
-      "i": 225,
-      "start": 597.86,
-      "end": 599.86,
-      "text": "Und der Hersteller versucht,"
-    },
-    {
-      "i": 226,
-      "start": 599.86,
-      "end": 600.86,
-      "text": "dass möglichst verhindern,"
-    },
-    {
-      "i": 227,
-      "start": 600.86,
-      "end": 602.86,
-      "text": "dass wir einen guten Mix macht"
-    },
-    {
-      "i": 228,
-      "start": 602.86,
-      "end": 603.86,
-      "text": "von der jeweiligen Leine."
-    },
-    {
-      "i": 229,
-      "start": 603.86,
-      "end": 604.86,
-      "text": "en."
-    },
-    {
-      "i": 230,
-      "start": 604.86,
-      "end": 605.86,
-      "text": "Es gibt es trotzdem,"
-    },
-    {
-      "i": 231,
-      "start": 605.86,
-      "end": 608.86,
-      "text": "dass die Leine sich verformet,"
-    },
-    {
-      "i": 232,
-      "start": 608.86,
-      "end": 612.36,
-      "text": "respektive für verlängnere oder klipperkürzend,"
-    },
-    {
-      "i": 233,
-      "start": 612.36,
-      "end": 614.36,
-      "text": "und dass du mit dem Check nur messen."
-    },
-    {
-      "i": 234,
-      "start": 614.36,
-      "end": 615.86,
-      "text": "Und jetzt stellt man fest,"
-    },
-    {
-      "i": 235,
-      "start": 615.86,
-      "end": 617.86,
-      "text": "dass die Leine doch tatsächlich"
-    },
-    {
-      "i": 236,
-      "start": 617.86,
-      "end": 619.86,
-      "text": "verlängt sind,"
-    },
-    {
-      "i": 237,
-      "start": 619.86,
-      "end": 622.86,
-      "text": "dann kann man z.B. ein Schlauffinemachen"
-    },
-    {
-      "i": 238,
-      "start": 622.86,
-      "end": 623.36,
-      "text": "und so 1, 2, 1,"
-    },
-    {
-      "i": 239,
-      "start": 683.59,
-      "end": 685.59,
-      "text": "6, 6, 5, 6, 7, 8,"
-    },
-    {
-      "i": 240,
-      "start": 685.59,
-      "end": 687.59,
-      "text": "6, 10, 11, 11, 11, 10, 11,"
-    },
-    {
-      "i": 241,
-      "start": 687.59,
-      "end": 689.59,
-      "text": "11, 11, 8, 12, 11,"
-    },
-    {
-      "i": 242,
-      "start": 698.48,
-      "end": 703.72,
-      "text": "11"
-    },
-    {
-      "i": 243,
-      "start": 714.42,
-      "end": 715.6,
-      "text": "Die Landen sind schön verpacken in die Artenstelle, damit sie möglichst wenig Sonnen draufschient und so auf die Aufwache stunden"
-    },
-    {
-      "i": 244,
-      "start": 715.6,
-      "end": 726.8,
-      "text": "möglichst intensiert werden und nur in der Luft dann ausgesetzt ist."
-    },
-    {
-      "i": 245,
-      "start": 726.8,
-      "end": 729.36,
-      "text": "Nächste ist allgemeines Thema."
-    },
-    {
-      "i": 246,
-      "start": 729.36,
-      "end": 734.2,
-      "text": "Einerseits bei der Leinen ist es nicht gut, weil es schrumpfen, wenn es fest nass sind,"
-    },
-    {
-      "i": 247,
-      "start": 734.2,
-      "end": 735.46,
-      "text": "freu am Filn nass sind."
-    },
-    {
-      "i": 248,
-      "start": 735.46,
-      "end": 740.4,
-      "text": "Und das Schirm ist nass nicht das Problem, wenn man auch sofort dreckend spricht."
-    },
-    {
-      "i": 249,
-      "start": 740.4,
-      "end": 744.58,
-      "text": "Schlimm ist, wenn ein Kleidschirm nass ist und nachher durch einen Backsack innen"
-    },
-    {
-      "i": 250,
-      "start": 744.58,
-      "end": 750.8,
-      "text": "und der Backsack langst du zwei, drei Wochen im A, dann ist das, wie das Material sicher nicht das Beste."
-    },
-    {
-      "i": 251,
-      "start": 750.8,
-      "end": 755.98,
-      "text": "Umbedingst für mieten, wenn ein nasses Schirm haben, dann dröchnern, die heil ausbreiten"
-    },
-    {
-      "i": 252,
-      "start": 755.98,
-      "end": 758.94,
-      "text": "und das ist in der rochenden Zustand wieder verpacken."
-    },
-    {
-      "i": 253,
-      "start": 758.94,
-      "end": 764.44,
-      "text": "Am alles Schlimm, was man machen kann, ist, wenn man nasses Schirm haben und dann noch in Temperaturen aussetzen."
-    },
-    {
-      "i": 254,
-      "start": 764.44,
-      "end": 770.5,
-      "text": "Mit Temperaturen ist das klassische Beispiel im Auto, im Sommer, mit schnell über 30, 40 Grad im Auto."
-    },
-    {
-      "i": 255,
-      "start": 770.5,
-      "end": 776.7,
-      "text": "Und dann haben wir den kleinen Backhofen und das Ganze wirklich im Material sehr schlecht."
-    },
-    {
-      "i": 256,
-      "start": 776.7,
-      "end": 783.16,
-      "text": "Also, schauen, wie es Material trocken ist und dass es nicht in die extremen Temperaturen ausgesetzt ist."
-    },
-    {
-      "i": 257,
-      "start": 783.16,
-      "end": 787.6,
-      "text": "Süre ist etwas, fich dann noch einmal das Landenblatt zu unier aufklassen, dann haben wir einen K coolen Fladen."
-    },
-    {
-      "i": 258,
-      "start": 787.62,
-      "end": 792.08,
-      "text": "Das sind auch etwas, was der Schirm in der Respektive bei der Beschichtung angreift."
-    },
-    {
-      "i": 259,
-      "start": 792.08,
-      "end": 798.04,
-      "text": "Was aber auch wichtig ist, dass man das Zwei putzen muss, mit Wasserlau warm ist, aber nicht irgendwie mit Reinigungsmitteln."
-    },
-    {
-      "i": 260,
-      "start": 798.04,
-      "end": 802.1,
-      "text": "Weil das Ganze durch die Beschichtung angreifen."
-    },
-    {
-      "i": 261,
-      "start": 802.1,
-      "end": 805.34,
-      "text": "Und gerade, wenn man bei der Beschichtung sind, ist es gut stichwort."
-    },
-    {
-      "i": 262,
-      "start": 805.34,
-      "end": 813.58,
-      "text": "Der Gleichschirm hat ja die Beschichtung darauf, dass er eben möglichst nicht die Zwei-Strahle reagiert und dass er vor allem auch"
-    },
-    {
-      "i": 263,
-      "start": 813.58,
-      "end": 821.18,
-      "text": "nichts fest luft durch die Parosität, wie wenn ein Schirm zu fest luft durch die Durch-Lod-Verlütel-Leistung,"
-    },
-    {
-      "i": 264,
-      "start": 821.18,
-      "end": 827.02,
-      "text": "Verlüt-Kriegung und dann will man verhindern mit dieser Beschichtung, dass das passiert."
-    },
-    {
-      "i": 265,
-      "start": 827.02,
-      "end": 834.86,
-      "text": "Die Beschichtung, die Rips-Stopmasse, die ist natürlich auch unterschiedlich dick, weil die Fälle unterschiedlich dick ist."
-    },
-    {
-      "i": 266,
-      "start": 834.86,
-      "end": 841.24,
-      "text": "Und die Beschichtung wird wieder draufpacken und darauf wird eigentlich besorgt, dass die"
-    },
-    {
-      "i": 267,
-      "start": 841.24,
-      "end": 848.84,
-      "text": "Unterschiede von der dicklichen Fälle ausgleichen werden, dass eine Gleichmässungsdurchwerte, dass es auf Abbeständung wird,"
-    },
-    {
-      "i": 268,
-      "start": 848.84,
-      "end": 854.84,
-      "text": "dass die Luft durchlässig gut ist und allgemein auf man kann, ist überlastlich weniger schnell reagiert."
-    },
-    {
-      "i": 269,
-      "start": 854.84,
-      "end": 866.86,
-      "text": "Ich hoffe, der Vortrag-Material-Kund hat ich gefallen, ich wiederbringt im Lernen und dass er das Fach-Material-Kult spielt und einfach an der Briefung bestellt."
+      "start": 860.04,
+      "end": 866.04,
+      "text": "das Fachmaterialkultt spielen und einfach an der Briefe stehen."
     }
   ]
 }
