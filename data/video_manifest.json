@@ -70,7 +70,7 @@
           "duration_seconds": 3080.576,
           "duration_label": "51:20",
           "has_de_vtt": true,
-          "has_en_vtt": false
+          "has_en_vtt": true
         },
         {
           "id": "aa_meteo_teil_1",
@@ -133,7 +133,7 @@
           "duration_seconds": 1473.4506875,
           "duration_label": "24:33",
           "has_de_vtt": true,
-          "has_en_vtt": false
+          "has_en_vtt": true
         },
         {
           "id": "luftrecht_1",
@@ -259,7 +259,7 @@
           "duration_seconds": 283.376009,
           "duration_label": "4:43",
           "has_de_vtt": true,
-          "has_en_vtt": false
+          "has_en_vtt": true
         },
         {
           "id": "aa_rollen",
@@ -273,7 +273,7 @@
           "duration_seconds": 404.166667,
           "duration_label": "6:44",
           "has_de_vtt": true,
-          "has_en_vtt": false
+          "has_en_vtt": true
         },
         {
           "id": "aa_kleine_ohren",
@@ -397,7 +397,7 @@
       "airactive": 15
     },
     "with_de_vtt": 25,
-    "with_en_vtt": 2,
+    "with_en_vtt": 6,
     "total_duration_seconds": 28834.318964000013
   }
 }
