@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-05-28T16:06:15.549Z",
+  "fetchedAt": "2026-05-28T16:06:48.662Z",
   "questions": {
     "Aerodynamics_1": {
       "qid": 1,
@@ -2218,16 +2218,16 @@
     "Weather_153": {
       "qid": 153,
       "topic": "Weather",
-      "pos": 9,
+      "pos": 88,
       "total_in_topic": 164,
       "text": "What is the wind direction in Athens (Athen)?",
       "options": [
-        "130°",
         "270°",
+        "130°",
         "190°",
         "310°"
       ],
-      "correct": 0
+      "correct": null
     },
     "Weather_16": {
       "qid": 16,
@@ -2386,16 +2386,16 @@
     "Weather_107": {
       "qid": 107,
       "topic": "Weather",
-      "pos": 7,
+      "pos": 92,
       "total_in_topic": 164,
       "text": "Which statement is true?",
       "options": [
-        "The passing of a warm front occurs first at altitude, then at ground level. The passing of a cold front occurs first at ground level, then at altitude.",
-        "The passing of warm and cold fronts occurs first at high altitude and then at ground level.",
         "The passing of a warm front occurs first at ground level, then at altitude. The passing of a cold front occurs first at altitude, then at ground level.",
-        "The passing of warm and cold fronts occurs first at ground level and then at altitude."
+        "The passing of warm and cold fronts occurs first at ground level and then at altitude.",
+        "The passing of a warm front occurs first at altitude, then at ground level. The passing of a cold front occurs first at ground level, then at altitude.",
+        "The passing of warm and cold fronts occurs first at high altitude and then at ground level."
       ],
-      "correct": 0
+      "correct": null
     },
     "Weather_65": {
       "qid": 65,
@@ -8058,16 +8058,16 @@
     "Weather_47": {
       "qid": 47,
       "topic": "Weather",
-      "pos": 12,
+      "pos": 90,
       "total_in_topic": 164,
       "text": "Clouds develop",
       "options": [
+        "when the air is cooled, mostly due to uplift, until it reaches its dew point.",
         "when the temperature rises and the evaporation increases.",
         "When rising air meets an inversion.",
-        "when the air is cooled, mostly due to uplift, until it reaches its dew point.",
         "only in the vicinity of a low-pressure system."
       ],
-      "correct": 2
+      "correct": null
     },
     "Weather_1": {
       "qid": 1,
@@ -8768,6 +8768,118 @@
         "Altocumulus"
       ],
       "correct": 3
+    },
+    "Weather_150": {
+      "qid": 150,
+      "topic": "Weather",
+      "pos": 81,
+      "total_in_topic": 164,
+      "text": "Where is the wind the weakest?",
+      "options": [
+        "In north Africa",
+        "In southern Scandinavia",
+        "In Switzerland",
+        "In Iceland"
+      ],
+      "correct": 0
+    },
+    "Weather_102": {
+      "qid": 102,
+      "topic": "Weather",
+      "pos": 83,
+      "total_in_topic": 164,
+      "text": "At which time of the day in alpine valleys with pronounced valley wind systems in good weather in July, can the strongest turbulence be expected?",
+      "options": [
+        "About 15:00",
+        "About 9:00",
+        "About 19:00",
+        "About 12:00"
+      ],
+      "correct": 0
+    },
+    "Weather_3": {
+      "qid": 3,
+      "topic": "Weather",
+      "pos": 84,
+      "total_in_topic": 164,
+      "text": "In order to guarantee that all users of airspace have their altimeters set to the same altitude, the atmosphere has been standardised (ICAO standard atmosphere). What are the values for standard atmosphere in the region of the troposphere? (Sea level Pressure, Temperature and Temperature gradient)",
+      "options": [
+        "1013.25 hPa 15°C 1°C/100m",
+        "1013.25 hPa 15°C 0.65°C/100m",
+        "1033.65 hPa 15°C 0.5°C/100m",
+        "1033.65 hPa 15°C 1°C/100m"
+      ],
+      "correct": 1
+    },
+    "Weather_86": {
+      "qid": 86,
+      "topic": "Weather",
+      "pos": 85,
+      "total_in_topic": 164,
+      "text": "When there is valley wind, thermal updrafts are found",
+      "options": [
+        "generally in the middle of the valley.",
+        "generally in the upper area of the valley sides.",
+        "neither in the middle of the valley or the upper area of the valley sides.",
+        "in the middle of the valley as well as in the upper area of the valley sides."
+      ],
+      "correct": 1
+    },
+    "Weather_90": {
+      "qid": 90,
+      "topic": "Weather",
+      "pos": 87,
+      "total_in_topic": 164,
+      "text": "From which time in the Alps in summer is there a likelihood of valley wind?",
+      "options": [
+        "About 11:00 am",
+        "About 08:00 am",
+        "About 18:00 pm",
+        "About 22:00 pm"
+      ],
+      "correct": 0
+    },
+    "Weather_88": {
+      "qid": 88,
+      "topic": "Weather",
+      "pos": 89,
+      "total_in_topic": 164,
+      "text": "The valley wind occurs because the air",
+      "options": [
+        "cools quicker in the flatlands than in the mountains when the sun's radiation weakens.",
+        "warms up faster in the flatlands than in the mountains during the day.",
+        "cools quicker in the mountains than in the flatlands when the sun's radiation weakens.",
+        "warms up faster in the mountains than in the flatlands during the day."
+      ],
+      "correct": 3
+    },
+    "Weather_75": {
+      "qid": 75,
+      "topic": "Weather",
+      "pos": 91,
+      "total_in_topic": 164,
+      "text": "Thermal updrafts develop best",
+      "options": [
+        "where there is a steep pressure gradient, and new cold air is continuously being blown in across a heated surface, eliminating the need for the thermal updrafts to sink again.",
+        "in the centre of a high-pressure system where, because of the cloudless skies, the sun's radiation is the most intense.",
+        "in the centre of a low-pressure system, where the air masses have a tendency to rise under the influence of the system.",
+        "in an area with a flat pressure gradient, where the air can be heated without disturbance from wind, and no subsidence (subsidence Inversion) exists to block the heated air from rising."
+      ],
+      "correct": 3
+    },
+    "Weather_148": {
+      "qid": 148,
+      "topic": "Weather",
+      "pos": 93,
+      "total_in_topic": 164,
+      "text": "Where is the pressure gradient the steepest?",
+      "options": [
+        "Near Lulea",
+        "Near Stockholm",
+        "Near Tunis",
+        "Over the Bay of Biscay (Golf von Biskaya)"
+      ],
+      "correct": 1
     }
   },
   "topics": {
