@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-05-28T15:16:56.615Z",
+  "fetchedAt": "2026-05-28T15:17:26.780Z",
   "questions": {
     "1": {
       "qid": 1,
@@ -5517,6 +5517,118 @@
         "the pilot feels the turbulence less and the danger of a twist is reduced.",
         "the pilot feels the turbulence less and the danger of a twist is increased.",
         "the pilot feels the turbulence more and the danger of a twist is reduced."
+      ],
+      "correct": 2
+    },
+    "Materials_77": {
+      "qid": 77,
+      "topic": "Materials",
+      "pos": 73,
+      "total_in_topic": 125,
+      "text": "A harness with strong diagonal bracing has what effect on the pilot?",
+      "options": [
+        "The pilot feels the turbulence less and has more ability to control the glider with weight shift.",
+        "The pilot feels the turbulence less but has less ability to control the glider with weight shift.",
+        "The pilot feels the turbulence more but has less ability to control the glider with weight shift.",
+        "The pilot feels the turbulence more and has more ability to control the glider with weight shift."
+      ],
+      "correct": 1
+    },
+    "Materials_83": {
+      "qid": 83,
+      "topic": "Materials",
+      "pos": 75,
+      "total_in_topic": 125,
+      "text": "If a harness without diagonal bracing on a paraglider is replaced with a harness with diagonal bracing this will have, amongst other things, an influence on",
+      "options": [
+        "the behaviour of the glider in extreme flight situations.",
+        "the profile and therefore angle of attack of the glider.",
+        "the polar graph of the speeds for the glider.",
+        "the \"twist\" of the glider profile."
+      ],
+      "correct": 0
+    },
+    "Materials_117": {
+      "qid": 117,
+      "topic": "Materials",
+      "pos": 76,
+      "total_in_topic": 125,
+      "text": "A zone of high pressure is extending from Spain in the direction of central Europe. In Switzerland it can be expected that after calibrating an altimeter in the morning, by the afternoon the reading from the altimeter will be",
+      "options": [
+        "too low.",
+        "too high.",
+        "Correct as before.",
+        "too high or too low depending on the temperature."
+      ],
+      "correct": 0
+    },
+    "Materials_88": {
+      "qid": 88,
+      "topic": "Materials",
+      "pos": 77,
+      "total_in_topic": 125,
+      "text": "Harnesses with foam back protection instead of ram-air type airbags have the advantage that",
+      "options": [
+        "they provide flotation in the event of a possible water landing, thereby also minimising the risk of non-swimmers drowning.",
+        "they generally have a lower pack volume and less weight.",
+        "they provide better insulation against the cold.",
+        "they already provide full protection when commencing the launch."
+      ],
+      "correct": 3
+    },
+    "Materials_36": {
+      "qid": 36,
+      "topic": "Materials",
+      "pos": 79,
+      "total_in_topic": 125,
+      "text": "The technique used for sewing suspension lines",
+      "options": [
+        "Can, especially for Aramid lines, diminish their strength by up to 40%",
+        "is the only production method which permanently guarantees sufficient strength.",
+        "requires great care in production and doesn't reduce the line's strength noticeably.",
+        "is purely for cosmetic reasons."
+      ],
+      "correct": 0
+    },
+    "Materials_47": {
+      "qid": 47,
+      "topic": "Materials",
+      "pos": 80,
+      "total_in_topic": 125,
+      "text": "What are the consequences of a shortening of the A lines?",
+      "options": [
+        "Angle of attack remains unchanged and the profile and handling of the wing changes.",
+        "Angle of attack increases, the profile remains unchanged and handling of the wing changes.",
+        "Angle of attack increases and the profile and handling of the wing changes.",
+        "Angle of attack reduces and the profile and handling of the wing changes."
+      ],
+      "correct": 3
+    },
+    "Materials_110": {
+      "qid": 110,
+      "topic": "Materials",
+      "pos": 81,
+      "total_in_topic": 125,
+      "text": "The helmet is mostly to protect the pilot",
+      "options": [
+        "after pilot error resulting in a landing on the pilot's head.",
+        "during a crash with another aircraft.",
+        "during a fall from high altitude.",
+        "during a fall on launch and landing."
+      ],
+      "correct": 3
+    },
+    "Materials_8": {
+      "qid": 8,
+      "topic": "Materials",
+      "pos": 82,
+      "total_in_topic": 125,
+      "text": "The coating on Paraglider cloth",
+      "options": [
+        "increases porosity.",
+        "decreases mechanical strength.",
+        "reduces UV sensitivity.",
+        "increases elasticity."
       ],
       "correct": 2
     }
