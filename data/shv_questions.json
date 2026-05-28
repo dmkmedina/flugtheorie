@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-05-28T15:23:39.949Z",
+  "fetchedAt": "2026-05-28T15:24:11.164Z",
   "questions": {
     "1": {
       "qid": 1,
@@ -6315,6 +6315,104 @@
         "shallower and the touchdown speed higher.",
         "steeper and the touchdown speed higher.",
         "shallower and the touchdown speed lower."
+      ],
+      "correct": 0
+    },
+    "Practical Flying_49": {
+      "qid": 49,
+      "topic": "Practical Flying",
+      "pos": 22,
+      "total_in_topic": 169,
+      "text": "A pilot wants to fly as far as possible with a head wind of 25 km/h. What should he do?",
+      "options": [
+        "Fly as fast as possible, opening trimmers if installed and using the accelerator as much as the glider and turbulence allows.",
+        "Fly the glider with light brake pressure (1 - 10% braked).",
+        "Fly the glider with approx. 20 - 30% brakes.",
+        "Fly the glider with approx. 50% brakes."
+      ],
+      "correct": 0
+    },
+    "Practical Flying_149": {
+      "qid": 149,
+      "topic": "Practical Flying",
+      "pos": 23,
+      "total_in_topic": 169,
+      "text": "What is meant by the \"garland flight\" of the golden eagle?",
+      "options": [
+        "The eagle is defending his territory and his young.",
+        "The eagle is happy and flies playfully.",
+        "The eagle is hunting smaller birds.",
+        "The eagle is courting a mate."
+      ],
+      "correct": 0
+    },
+    "Practical Flying_141": {
+      "qid": 141,
+      "topic": "Practical Flying",
+      "pos": 24,
+      "total_in_topic": 169,
+      "text": "In which of the following situations should the reserve chute be deployed immediately without hesitation?",
+      "options": [
+        "The right hand third of the wing is collapsed and caught in the lines (cravat).",
+        "After a spin the lines are twisted a few times and the glider starts to go into a spiral dive by itself.",
+        "The glider is being sucked into a cumulus cloud and is climbing at 8 m/s.",
+        "One side of the glider stalls and it goes into a spin."
+      ],
+      "correct": 1
+    },
+    "Practical Flying_25": {
+      "qid": 25,
+      "topic": "Practical Flying",
+      "pos": 26,
+      "total_in_topic": 169,
+      "text": "When taking off in a corridor in a forest, you have to be aware and ready for the possibility that",
+      "options": [
+        "it is calm at ground level although at tree-top height the wind will be present, resulting in strong turbulence at that height.",
+        "when clearing the first trees there may be strong thermals due to the temperature difference between the forest and the clearing.",
+        "in the cool clearing between the sunny forests there will be back-wind close to the ground, making it difficult to clear the launch.",
+        "due to the large temperature difference between the forest and field, especially strong and frequent thermals with the corresponding turbulence will be present."
+      ],
+      "correct": 0
+    },
+    "Practical Flying_27": {
+      "qid": 27,
+      "topic": "Practical Flying",
+      "pos": 27,
+      "total_in_topic": 169,
+      "text": "At the launch site there is a 25km/h head wind, what is the best method to take off?",
+      "options": [
+        "The Pilot should forward launch whenever conditions allow as this is by far the safest launch method.",
+        "The pilot positions himself on a steep slope as close to the glider's trailing edge as possible and accelerates as fast as possible, in order to energetically pull up the glider.",
+        "The pilot inflates the glider in reverse fashion on a shallow slope and takes care not be involuntarily lifted up before he is ready.",
+        "The pilot inflates the glider in reverse fashion on a steep slope so that he is lifted as soon as the glider is up."
+      ],
+      "correct": 2
+    },
+    "Practical Flying_137": {
+      "qid": 137,
+      "topic": "Practical Flying",
+      "pos": 29,
+      "total_in_topic": 169,
+      "text": "In which situation in air is the danger of collision between a delta and paraglider at its greatest, notably as neither of the pilots can see each other.",
+      "options": [
+        "A delta approaches a paraglider from behind and from below.",
+        "A delta approaches a paraglider from behind and from above.",
+        "A delta approaches a paraglider from the front and from above.",
+        "A delta approaches a paraglider from the front and from below."
+      ],
+      "correct": 0
+    },
+    "Practical Flying_159": {
+      "qid": 159,
+      "topic": "Practical Flying",
+      "pos": 31,
+      "total_in_topic": 169,
+      "text": "Pilots can help to protect wild life most efficiently by",
+      "options": [
+        "following agreements between the clubs and gamekeepers.",
+        "turning away immediately, when they see fleeing wildlife.",
+        "warning wild animals by shouting loudly.",
+        "flying close to the ground so that the wild animals can see them."
       ],
       "correct": 0
     }
