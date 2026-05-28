@@ -21,7 +21,7 @@
           "duration_seconds": 2030.848,
           "duration_label": "33:50",
           "has_de_vtt": true,
-          "has_en_vtt": true
+          "has_en_vtt": false
         },
         {
           "id": "aerodynamik_1",
@@ -35,7 +35,7 @@
           "duration_seconds": 1386.5813125,
           "duration_label": "23:06",
           "has_de_vtt": true,
-          "has_en_vtt": true
+          "has_en_vtt": false
         }
       ]
     },
@@ -56,7 +56,7 @@
           "duration_seconds": 3031.2533125,
           "duration_label": "50:31",
           "has_de_vtt": true,
-          "has_en_vtt": true
+          "has_en_vtt": false
         },
         {
           "id": "meteo_1",
@@ -70,7 +70,7 @@
           "duration_seconds": 3080.576,
           "duration_label": "51:20",
           "has_de_vtt": true,
-          "has_en_vtt": true
+          "has_en_vtt": false
         },
         {
           "id": "aa_meteo_teil_1",
@@ -84,7 +84,7 @@
           "duration_seconds": 2143.402,
           "duration_label": "35:43",
           "has_de_vtt": true,
-          "has_en_vtt": true
+          "has_en_vtt": false
         },
         {
           "id": "aa_meteo_teil_2",
@@ -98,7 +98,7 @@
           "duration_seconds": 1501.525,
           "duration_label": "25:01",
           "has_de_vtt": true,
-          "has_en_vtt": true
+          "has_en_vtt": false
         },
         {
           "id": "aa_meteo_teil_3",
@@ -112,7 +112,7 @@
           "duration_seconds": 2260.224,
           "duration_label": "37:40",
           "has_de_vtt": true,
-          "has_en_vtt": true
+          "has_en_vtt": false
         }
       ]
     },
@@ -133,7 +133,7 @@
           "duration_seconds": 1473.4506875,
           "duration_label": "24:33",
           "has_de_vtt": true,
-          "has_en_vtt": true
+          "has_en_vtt": false
         },
         {
           "id": "luftrecht_1",
@@ -147,7 +147,7 @@
           "duration_seconds": 2287.6586875,
           "duration_label": "38:07",
           "has_de_vtt": true,
-          "has_en_vtt": true
+          "has_en_vtt": false
         }
       ]
     },
@@ -168,7 +168,7 @@
           "duration_seconds": 995.0506875,
           "duration_label": "16:35",
           "has_de_vtt": true,
-          "has_en_vtt": true
+          "has_en_vtt": false
         },
         {
           "id": "materialkunde_1",
@@ -182,7 +182,7 @@
           "duration_seconds": 874.2613125,
           "duration_label": "14:34",
           "has_de_vtt": true,
-          "has_en_vtt": true
+          "has_en_vtt": false
         }
       ]
     },
@@ -203,7 +203,7 @@
           "duration_seconds": 1486.9973125,
           "duration_label": "24:46",
           "has_de_vtt": true,
-          "has_en_vtt": true
+          "has_en_vtt": false
         },
         {
           "id": "flugpraxis_1",
@@ -217,7 +217,7 @@
           "duration_seconds": 2203.0293125,
           "duration_label": "36:43",
           "has_de_vtt": true,
-          "has_en_vtt": true
+          "has_en_vtt": false
         },
         {
           "id": "aa_stallpunkt",
@@ -231,7 +231,7 @@
           "duration_seconds": 412.166667,
           "duration_label": "6:52",
           "has_de_vtt": true,
-          "has_en_vtt": true
+          "has_en_vtt": false
         },
         {
           "id": "aa_grosse_ohren",
@@ -245,7 +245,7 @@
           "duration_seconds": 268.608005,
           "duration_label": "4:28",
           "has_de_vtt": true,
-          "has_en_vtt": true
+          "has_en_vtt": false
         },
         {
           "id": "aa_b-stall",
@@ -259,7 +259,7 @@
           "duration_seconds": 283.376009,
           "duration_label": "4:43",
           "has_de_vtt": true,
-          "has_en_vtt": true
+          "has_en_vtt": false
         },
         {
           "id": "aa_rollen",
@@ -273,7 +273,7 @@
           "duration_seconds": 404.166667,
           "duration_label": "6:44",
           "has_de_vtt": true,
-          "has_en_vtt": true
+          "has_en_vtt": false
         },
         {
           "id": "aa_kleine_ohren",
@@ -287,7 +287,7 @@
           "duration_seconds": 475.433333,
           "duration_label": "7:55",
           "has_de_vtt": true,
-          "has_en_vtt": true
+          "has_en_vtt": false
         },
         {
           "id": "aa_p2_leitlinien_acht",
@@ -301,7 +301,7 @@
           "duration_seconds": 344.072993,
           "duration_label": "5:44",
           "has_de_vtt": true,
-          "has_en_vtt": true
+          "has_en_vtt": false
         },
         {
           "id": "aa_p1_doppelkreis_rechts",
@@ -315,10 +315,10 @@
           "duration_seconds": 271.633333,
           "duration_label": "4:31",
           "has_de_vtt": true,
-          "has_en_vtt": true
+          "has_en_vtt": false
         },
         {
-          "id": "aa_seitenklapper_50pct",
+          "id": "aa_seitenklapper_50%",
           "deck_id": "flugpraxis",
           "part": 7,
           "provider": "airactive",
@@ -328,7 +328,7 @@
           "poster": "https://static.wixstatic.com/media/f2f7a2_4d433f4bc0414e2fbfe73a252b455c94f003.jpg/v1/fill/w_200,h_267,q_90,enc_avif,quality_auto/f2f7a2_4d433f4bc0414e2fbfe73a252b455c94f003.jpg",
           "duration_seconds": 515.4,
           "duration_label": "8:35",
-          "has_de_vtt": false,
+          "has_de_vtt": true,
           "has_en_vtt": false
         },
         {
@@ -343,7 +343,7 @@
           "duration_seconds": 469.166667,
           "duration_label": "7:49",
           "has_de_vtt": true,
-          "has_en_vtt": true
+          "has_en_vtt": false
         },
         {
           "id": "aa_kurvenfliegen",
@@ -357,7 +357,7 @@
           "duration_seconds": 137.670998,
           "duration_label": "2:17",
           "has_de_vtt": true,
-          "has_en_vtt": true
+          "has_en_vtt": false
         },
         {
           "id": "aa_bremshaltung",
@@ -371,7 +371,7 @@
           "duration_seconds": 352.2,
           "duration_label": "5:52",
           "has_de_vtt": true,
-          "has_en_vtt": true
+          "has_en_vtt": false
         },
         {
           "id": "aa_beschleunigt_fliegen",
@@ -385,7 +385,7 @@
           "duration_seconds": 145.566667,
           "duration_label": "2:25",
           "has_de_vtt": true,
-          "has_en_vtt": true
+          "has_en_vtt": false
         }
       ]
     }
@@ -396,8 +396,8 @@
       "freewings": 10,
       "airactive": 15
     },
-    "with_de_vtt": 24,
-    "with_en_vtt": 24,
+    "with_de_vtt": 25,
+    "with_en_vtt": 0,
     "total_duration_seconds": 28834.318964000013
   }
 }

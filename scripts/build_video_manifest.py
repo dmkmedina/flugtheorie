@@ -42,7 +42,9 @@ AA_HEADING_DECK = {
 
 
 def slugify(text: str) -> str:
-    return text.strip().lower().replace(" ", "_").replace("%", "pct").replace("ä", "ae").replace("ö", "oe").replace("ü", "ue")
+    # Keep `%` literal — that's what the transcribe/translate pipeline writes
+    # to disk (e.g. aa_seitenklapper_50%.de.vtt).
+    return text.strip().lower().replace(" ", "_").replace("ä", "ae").replace("ö", "oe").replace("ü", "ue")
 
 
 def fmt_duration(sec: float | None) -> str | None:
