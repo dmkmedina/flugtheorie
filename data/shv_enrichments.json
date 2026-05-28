@@ -13221,7 +13221,8 @@
           "deck_id": "flugpraxis",
           "page": 3
         }
-      ]
+      ],
+      "subcategory": "physiology-cold-altitude"
     },
     "Practical Flying_3": {
       "qid": 3,
@@ -13247,7 +13248,8 @@
           "deck_id": "flugpraxis",
           "page": 3
         }
-      ]
+      ],
+      "subcategory": "physiology-cold-altitude"
     },
     "Practical Flying_6": {
       "qid": 6,
@@ -13273,7 +13275,8 @@
           "deck_id": "flugpraxis",
           "page": 3
         }
-      ]
+      ],
+      "subcategory": "physiology-cold-altitude"
     },
     "Practical Flying_7": {
       "qid": 7,
@@ -13294,7 +13297,8 @@
         }
       ],
       "video_clips": [],
-      "slide_pages": []
+      "slide_pages": [],
+      "subcategory": "physiology-cold-altitude"
     },
     "Practical Flying_8": {
       "qid": 8,
@@ -13315,7 +13319,8 @@
         }
       ],
       "video_clips": [],
-      "slide_pages": []
+      "slide_pages": [],
+      "subcategory": "physiology-cold-altitude"
     },
     "Practical Flying_9": {
       "qid": 9,
@@ -13348,7 +13353,8 @@
           "deck_id": "flugpraxis",
           "page": 3
         }
-      ]
+      ],
+      "subcategory": "physiology-cold-altitude"
     },
     "Practical Flying_10": {
       "qid": 10,
@@ -13374,7 +13380,8 @@
           "deck_id": "flugpraxis",
           "page": 3
         }
-      ]
+      ],
+      "subcategory": "flight-prep-airspace"
     },
     "Practical Flying_11": {
       "qid": 11,
@@ -13407,7 +13414,8 @@
           "deck_id": "flugpraxis",
           "page": 3
         }
-      ]
+      ],
+      "subcategory": "flight-prep-airspace"
     },
     "Practical Flying_13": {
       "qid": 13,
@@ -13433,7 +13441,8 @@
           "deck_id": "flugpraxis",
           "page": 3
         }
-      ]
+      ],
+      "subcategory": "flight-prep-airspace"
     },
     "Practical Flying_15": {
       "qid": 15,
@@ -13466,7 +13475,8 @@
           "deck_id": "flugpraxis",
           "page": 3
         }
-      ]
+      ],
+      "subcategory": "flight-prep-airspace"
     },
     "Practical Flying_17": {
       "qid": 17,
@@ -13499,7 +13509,8 @@
           "deck_id": "flugpraxis",
           "page": 4
         }
-      ]
+      ],
+      "subcategory": "flight-prep-airspace"
     },
     "Practical Flying_18": {
       "qid": 18,
@@ -13536,7 +13547,8 @@
           "deck_id": "flugpraxis",
           "page": 4
         }
-      ]
+      ],
+      "subcategory": "flight-prep-airspace"
     },
     "Practical Flying_19": {
       "qid": 19,
@@ -13562,7 +13574,8 @@
           "deck_id": "flugpraxis",
           "page": 3
         }
-      ]
+      ],
+      "subcategory": "flight-prep-airspace"
     },
     "Practical Flying_20": {
       "qid": 20,
@@ -13595,7 +13608,8 @@
           "deck_id": "flugpraxis",
           "page": 5
         }
-      ]
+      ],
+      "subcategory": "take-off-site-and-conditions"
     },
     "Practical Flying_21": {
       "qid": 21,
@@ -13621,7 +13635,8 @@
           "deck_id": "flugpraxis",
           "page": 5
         }
-      ]
+      ],
+      "subcategory": "take-off-site-and-conditions"
     },
     "Practical Flying_23": {
       "qid": 23,
@@ -13654,7 +13669,8 @@
           "deck_id": "flugpraxis",
           "page": 5
         }
-      ]
+      ],
+      "subcategory": "take-off-site-and-conditions"
     },
     "Practical Flying_24": {
       "qid": 24,
@@ -13687,7 +13703,8 @@
           "deck_id": "flugpraxis",
           "page": 5
         }
-      ]
+      ],
+      "subcategory": "take-off-site-and-conditions"
     },
     "Practical Flying_25": {
       "qid": 25,
@@ -13713,7 +13730,8 @@
           "deck_id": "flugpraxis",
           "page": 5
         }
-      ]
+      ],
+      "subcategory": "take-off-site-and-conditions"
     },
     "Practical Flying_26": {
       "qid": 26,
@@ -13739,7 +13757,8 @@
           "deck_id": "flugpraxis",
           "page": 5
         }
-      ]
+      ],
+      "subcategory": "take-off-site-and-conditions"
     },
     "Practical Flying_27": {
       "qid": 27,
@@ -13772,7 +13791,8 @@
           "deck_id": "flugpraxis",
           "page": 5
         }
-      ]
+      ],
+      "subcategory": "take-off-site-and-conditions"
     },
     "Practical Flying_28": {
       "qid": 28,
@@ -13805,7 +13825,8 @@
           "deck_id": "flugpraxis",
           "page": 6
         }
-      ]
+      ],
+      "subcategory": "take-off-site-and-conditions"
     },
     "Practical Flying_30": {
       "qid": 30,
@@ -13838,7 +13859,8 @@
           "deck_id": "flugpraxis",
           "page": 6
         }
-      ]
+      ],
+      "subcategory": "take-off-site-and-conditions"
     },
     "Practical Flying_34": {
       "qid": 34,
@@ -13871,7 +13893,8 @@
           "deck_id": "flugpraxis",
           "page": 5
         }
-      ]
+      ],
+      "subcategory": "take-off-site-and-conditions"
     },
     "Practical Flying_36": {
       "qid": 36,
@@ -13908,7 +13931,8 @@
           "deck_id": "flugpraxis",
           "page": 7
         }
-      ]
+      ],
+      "subcategory": "take-off-execution-and-faults"
     },
     "Practical Flying_37": {
       "qid": 37,
@@ -13941,7 +13965,8 @@
           "deck_id": "flugpraxis",
           "page": 5
         }
-      ]
+      ],
+      "subcategory": "take-off-site-and-conditions"
     },
     "Practical Flying_40": {
       "qid": 40,
@@ -13974,7 +13999,8 @@
           "deck_id": "flugpraxis",
           "page": 8
         }
-      ]
+      ],
+      "subcategory": "take-off-execution-and-faults"
     },
     "Practical Flying_41": {
       "qid": 41,
@@ -14007,7 +14033,8 @@
           "deck_id": "flugpraxis",
           "page": 8
         }
-      ]
+      ],
+      "subcategory": "take-off-execution-and-faults"
     },
     "Practical Flying_42": {
       "qid": 42,
@@ -14040,7 +14067,8 @@
           "deck_id": "flugpraxis",
           "page": 8
         }
-      ]
+      ],
+      "subcategory": "take-off-execution-and-faults"
     },
     "Practical Flying_43": {
       "qid": 43,
@@ -14070,7 +14098,8 @@
           "deck_id": "flugpraxis",
           "page": 8
         }
-      ]
+      ],
+      "subcategory": "take-off-execution-and-faults"
     },
     "Practical Flying_44": {
       "qid": 44,
@@ -14103,7 +14132,8 @@
           "deck_id": "flugpraxis",
           "page": 8
         }
-      ]
+      ],
+      "subcategory": "take-off-execution-and-faults"
     },
     "Practical Flying_45": {
       "qid": 45,
@@ -14136,7 +14166,8 @@
           "deck_id": "flugpraxis",
           "page": 13
         }
-      ]
+      ],
+      "subcategory": "glide-wind-and-crab"
     },
     "Practical Flying_46": {
       "qid": 46,
@@ -14162,7 +14193,8 @@
           "deck_id": "flugpraxis",
           "page": 13
         }
-      ]
+      ],
+      "subcategory": "glide-wind-and-crab"
     },
     "Practical Flying_48": {
       "qid": 48,
@@ -14195,7 +14227,8 @@
           "deck_id": "flugpraxis",
           "page": 13
         }
-      ]
+      ],
+      "subcategory": "glide-wind-and-crab"
     },
     "Practical Flying_49": {
       "qid": 49,
@@ -14228,7 +14261,8 @@
           "deck_id": "flugpraxis",
           "page": 13
         }
-      ]
+      ],
+      "subcategory": "glide-wind-and-crab"
     },
     "Practical Flying_52": {
       "qid": 52,
@@ -14265,7 +14299,8 @@
           "deck_id": "flugpraxis",
           "page": 9
         }
-      ]
+      ],
+      "subcategory": "glide-wind-and-crab"
     },
     "Practical Flying_53": {
       "qid": 53,
@@ -14291,7 +14326,8 @@
           "deck_id": "flugpraxis",
           "page": 9
         }
-      ]
+      ],
+      "subcategory": "glide-wind-and-crab"
     },
     "Practical Flying_54": {
       "qid": 54,
@@ -14317,7 +14353,8 @@
           "deck_id": "flugpraxis",
           "page": 9
         }
-      ]
+      ],
+      "subcategory": "glide-wind-and-crab"
     },
     "Practical Flying_55": {
       "qid": 55,
@@ -14343,7 +14380,8 @@
           "deck_id": "flugpraxis",
           "page": 9
         }
-      ]
+      ],
+      "subcategory": "glide-wind-and-crab"
     },
     "Practical Flying_56": {
       "qid": 56,
@@ -14376,7 +14414,8 @@
           "deck_id": "flugpraxis",
           "page": 9
         }
-      ]
+      ],
+      "subcategory": "glide-wind-and-crab"
     },
     "Practical Flying_57": {
       "qid": 57,
@@ -14402,7 +14441,8 @@
           "deck_id": "flugpraxis",
           "page": 9
         }
-      ]
+      ],
+      "subcategory": "glide-wind-and-crab"
     },
     "Practical Flying_59": {
       "qid": 59,
@@ -14428,7 +14468,8 @@
           "deck_id": "flugpraxis",
           "page": 9
         }
-      ]
+      ],
+      "subcategory": "glide-wind-and-crab"
     },
     "Practical Flying_60": {
       "qid": 60,
@@ -14454,7 +14495,8 @@
           "deck_id": "flugpraxis",
           "page": 9
         }
-      ]
+      ],
+      "subcategory": "glide-wind-and-crab"
     },
     "Practical Flying_61": {
       "qid": 61,
@@ -14491,7 +14533,8 @@
           "deck_id": "flugpraxis",
           "page": 15
         }
-      ]
+      ],
+      "subcategory": "thermalling-and-ridge"
     },
     "Practical Flying_62": {
       "qid": 62,
@@ -14517,7 +14560,8 @@
           "deck_id": "flugpraxis",
           "page": 15
         }
-      ]
+      ],
+      "subcategory": "thermalling-and-ridge"
     },
     "Practical Flying_63": {
       "qid": 63,
@@ -14550,7 +14594,8 @@
           "deck_id": "flugpraxis",
           "page": 15
         }
-      ]
+      ],
+      "subcategory": "thermalling-and-ridge"
     },
     "Practical Flying_64": {
       "qid": 64,
@@ -14576,7 +14621,8 @@
           "deck_id": "flugpraxis",
           "page": 15
         }
-      ]
+      ],
+      "subcategory": "thermalling-and-ridge"
     },
     "Practical Flying_65": {
       "qid": 65,
@@ -14602,7 +14648,8 @@
           "deck_id": "flugpraxis",
           "page": 15
         }
-      ]
+      ],
+      "subcategory": "thermalling-and-ridge"
     },
     "Practical Flying_66": {
       "qid": 66,
@@ -14628,7 +14675,8 @@
           "deck_id": "flugpraxis",
           "page": 15
         }
-      ]
+      ],
+      "subcategory": "thermalling-and-ridge"
     },
     "Practical Flying_67": {
       "qid": 67,
@@ -14654,7 +14702,8 @@
           "deck_id": "flugpraxis",
           "page": 15
         }
-      ]
+      ],
+      "subcategory": "thermalling-and-ridge"
     },
     "Practical Flying_68": {
       "qid": 68,
@@ -14680,7 +14729,8 @@
           "deck_id": "flugpraxis",
           "page": 15
         }
-      ]
+      ],
+      "subcategory": "thermalling-and-ridge"
     },
     "Practical Flying_69": {
       "qid": 69,
@@ -14706,7 +14756,8 @@
           "deck_id": "flugpraxis",
           "page": 15
         }
-      ]
+      ],
+      "subcategory": "thermalling-and-ridge"
     },
     "Practical Flying_70": {
       "qid": 70,
@@ -14739,7 +14790,8 @@
           "deck_id": "flugpraxis",
           "page": 15
         }
-      ]
+      ],
+      "subcategory": "thermalling-and-ridge"
     },
     "Practical Flying_71": {
       "qid": 71,
@@ -14772,7 +14824,8 @@
           "deck_id": "flugpraxis",
           "page": 14
         }
-      ]
+      ],
+      "subcategory": "thermalling-and-ridge"
     },
     "Practical Flying_73": {
       "qid": 73,
@@ -14798,7 +14851,8 @@
           "deck_id": "flugpraxis",
           "page": 14
         }
-      ]
+      ],
+      "subcategory": "traffic-collision-and-reserve"
     },
     "Practical Flying_75": {
       "qid": 75,
@@ -14831,7 +14885,8 @@
           "deck_id": "flugpraxis",
           "page": 16
         }
-      ]
+      ],
+      "subcategory": "active-piloting-and-turns"
     },
     "Practical Flying_76": {
       "qid": 76,
@@ -14864,7 +14919,8 @@
           "deck_id": "flugpraxis",
           "page": 16
         }
-      ]
+      ],
+      "subcategory": "stalls-and-collapses"
     },
     "Practical Flying_77": {
       "qid": 77,
@@ -14897,7 +14953,8 @@
           "deck_id": "flugpraxis",
           "page": 16
         }
-      ]
+      ],
+      "subcategory": "stalls-and-collapses"
     },
     "Practical Flying_78": {
       "qid": 78,
@@ -14930,7 +14987,8 @@
           "deck_id": "flugpraxis",
           "page": 16
         }
-      ]
+      ],
+      "subcategory": "stalls-and-collapses"
     },
     "Practical Flying_79": {
       "qid": 79,
@@ -14963,7 +15021,8 @@
           "deck_id": "flugpraxis",
           "page": 16
         }
-      ]
+      ],
+      "subcategory": "stalls-and-collapses"
     },
     "Practical Flying_80": {
       "qid": 80,
@@ -14996,7 +15055,8 @@
           "deck_id": "flugpraxis",
           "page": 16
         }
-      ]
+      ],
+      "subcategory": "active-piloting-and-turns"
     },
     "Practical Flying_81": {
       "qid": 81,
@@ -15024,7 +15084,8 @@
           "snippet": "Stefan: in a turn put weight on first, then take the brake along to support - work slowly with the brake so you build the bank progressively, not abruptly."
         }
       ],
-      "slide_pages": []
+      "slide_pages": [],
+      "subcategory": "active-piloting-and-turns"
     },
     "Practical Flying_82": {
       "qid": 82,
@@ -15057,7 +15118,8 @@
           "deck_id": "flugpraxis",
           "page": 16
         }
-      ]
+      ],
+      "subcategory": "stalls-and-collapses"
     },
     "Practical Flying_83": {
       "qid": 83,
@@ -15090,7 +15152,8 @@
           "deck_id": "flugpraxis",
           "page": 16
         }
-      ]
+      ],
+      "subcategory": "stalls-and-collapses"
     },
     "Practical Flying_84": {
       "qid": 84,
@@ -15116,7 +15179,8 @@
           "deck_id": "flugpraxis",
           "page": 16
         }
-      ]
+      ],
+      "subcategory": "stalls-and-collapses"
     },
     "Practical Flying_85": {
       "qid": 85,
@@ -15142,7 +15206,8 @@
           "deck_id": "flugpraxis",
           "page": 16
         }
-      ]
+      ],
+      "subcategory": "active-piloting-and-turns"
     },
     "Practical Flying_86": {
       "qid": 86,
@@ -15179,7 +15244,8 @@
           "deck_id": "flugpraxis",
           "page": 16
         }
-      ]
+      ],
+      "subcategory": "stalls-and-collapses"
     },
     "Practical Flying_87": {
       "qid": 87,
@@ -15212,7 +15278,8 @@
           "deck_id": "flugpraxis",
           "page": 16
         }
-      ]
+      ],
+      "subcategory": "stalls-and-collapses"
     },
     "Practical Flying_88": {
       "qid": 88,
@@ -15245,7 +15312,8 @@
           "deck_id": "flugpraxis",
           "page": 16
         }
-      ]
+      ],
+      "subcategory": "active-piloting-and-turns"
     },
     "Practical Flying_91": {
       "qid": 91,
@@ -15278,7 +15346,8 @@
           "deck_id": "flugpraxis",
           "page": 16
         }
-      ]
+      ],
+      "subcategory": "active-piloting-and-turns"
     },
     "Practical Flying_92": {
       "qid": 92,
@@ -15311,7 +15380,8 @@
           "deck_id": "flugpraxis",
           "page": 16
         }
-      ]
+      ],
+      "subcategory": "rapid-descent-techniques"
     },
     "Practical Flying_93": {
       "qid": 93,
@@ -15344,7 +15414,8 @@
           "deck_id": "flugpraxis",
           "page": 16
         }
-      ]
+      ],
+      "subcategory": "rapid-descent-techniques"
     },
     "Practical Flying_95": {
       "qid": 95,
@@ -15377,7 +15448,8 @@
           "deck_id": "flugpraxis",
           "page": 16
         }
-      ]
+      ],
+      "subcategory": "rapid-descent-techniques"
     },
     "Practical Flying_96": {
       "qid": 96,
@@ -15414,7 +15486,8 @@
           "deck_id": "flugpraxis",
           "page": 16
         }
-      ]
+      ],
+      "subcategory": "rapid-descent-techniques"
     },
     "Practical Flying_97": {
       "qid": 97,
@@ -15447,7 +15520,8 @@
           "deck_id": "flugpraxis",
           "page": 16
         }
-      ]
+      ],
+      "subcategory": "rapid-descent-techniques"
     },
     "Practical Flying_98": {
       "qid": 98,
@@ -15480,7 +15554,8 @@
           "deck_id": "flugpraxis",
           "page": 16
         }
-      ]
+      ],
+      "subcategory": "rapid-descent-techniques"
     },
     "Practical Flying_99": {
       "qid": 99,
@@ -15513,7 +15588,8 @@
           "deck_id": "flugpraxis",
           "page": 16
         }
-      ]
+      ],
+      "subcategory": "rapid-descent-techniques"
     },
     "Practical Flying_100": {
       "qid": 100,
@@ -15546,7 +15622,8 @@
           "deck_id": "flugpraxis",
           "page": 16
         }
-      ]
+      ],
+      "subcategory": "rapid-descent-techniques"
     },
     "Practical Flying_101": {
       "qid": 101,
@@ -15572,7 +15649,8 @@
           "deck_id": "flugpraxis",
           "page": 16
         }
-      ]
+      ],
+      "subcategory": "rapid-descent-techniques"
     },
     "Practical Flying_104": {
       "qid": 104,
@@ -15605,7 +15683,8 @@
           "deck_id": "flugpraxis",
           "page": 12
         }
-      ]
+      ],
+      "subcategory": "landing-special-and-emergency"
     },
     "Practical Flying_105": {
       "qid": 105,
@@ -15642,7 +15721,8 @@
           "deck_id": "flugpraxis",
           "page": 11
         }
-      ]
+      ],
+      "subcategory": "landing-approach-pattern"
     },
     "Practical Flying_106": {
       "qid": 106,
@@ -15675,7 +15755,8 @@
           "deck_id": "flugpraxis",
           "page": 11
         }
-      ]
+      ],
+      "subcategory": "landing-approach-pattern"
     },
     "Practical Flying_107": {
       "qid": 107,
@@ -15708,7 +15789,8 @@
           "deck_id": "flugpraxis",
           "page": 11
         }
-      ]
+      ],
+      "subcategory": "landing-approach-pattern"
     },
     "Practical Flying_108": {
       "qid": 108,
@@ -15741,7 +15823,8 @@
           "deck_id": "flugpraxis",
           "page": 11
         }
-      ]
+      ],
+      "subcategory": "landing-approach-pattern"
     },
     "Practical Flying_109": {
       "qid": 109,
@@ -15774,7 +15857,8 @@
           "deck_id": "flugpraxis",
           "page": 11
         }
-      ]
+      ],
+      "subcategory": "landing-approach-pattern"
     },
     "Practical Flying_110": {
       "qid": 110,
@@ -15807,7 +15891,8 @@
           "deck_id": "flugpraxis",
           "page": 11
         }
-      ]
+      ],
+      "subcategory": "landing-approach-pattern"
     },
     "Practical Flying_111": {
       "qid": 111,
@@ -15833,7 +15918,8 @@
           "deck_id": "flugpraxis",
           "page": 11
         }
-      ]
+      ],
+      "subcategory": "landing-approach-pattern"
     },
     "Practical Flying_113": {
       "qid": 113,
@@ -15866,7 +15952,8 @@
           "deck_id": "flugpraxis",
           "page": 11
         }
-      ]
+      ],
+      "subcategory": "landing-approach-pattern"
     },
     "Practical Flying_114": {
       "qid": 114,
@@ -15899,7 +15986,8 @@
           "deck_id": "flugpraxis",
           "page": 11
         }
-      ]
+      ],
+      "subcategory": "landing-approach-pattern"
     },
     "Practical Flying_115": {
       "qid": 115,
@@ -15925,7 +16013,8 @@
           "deck_id": "flugpraxis",
           "page": 11
         }
-      ]
+      ],
+      "subcategory": "landing-approach-pattern"
     },
     "Practical Flying_116": {
       "qid": 116,
@@ -15955,7 +16044,8 @@
           "deck_id": "flugpraxis",
           "page": 11
         }
-      ]
+      ],
+      "subcategory": "landing-approach-pattern"
     },
     "Practical Flying_117": {
       "qid": 117,
@@ -15981,7 +16071,8 @@
           "deck_id": "flugpraxis",
           "page": 10
         }
-      ]
+      ],
+      "subcategory": "landing-approach-pattern"
     },
     "Practical Flying_118": {
       "qid": 118,
@@ -16014,7 +16105,8 @@
           "deck_id": "flugpraxis",
           "page": 12
         }
-      ]
+      ],
+      "subcategory": "landing-approach-pattern"
     },
     "Practical Flying_119": {
       "qid": 119,
@@ -16047,7 +16139,8 @@
           "deck_id": "flugpraxis",
           "page": 12
         }
-      ]
+      ],
+      "subcategory": "landing-approach-pattern"
     },
     "Practical Flying_120": {
       "qid": 120,
@@ -16073,7 +16166,8 @@
           "deck_id": "flugpraxis",
           "page": 11
         }
-      ]
+      ],
+      "subcategory": "landing-approach-pattern"
     },
     "Practical Flying_123": {
       "qid": 123,
@@ -16099,7 +16193,8 @@
           "deck_id": "flugpraxis",
           "page": 11
         }
-      ]
+      ],
+      "subcategory": "landing-approach-pattern"
     },
     "Practical Flying_124": {
       "qid": 124,
@@ -16132,7 +16227,8 @@
           "deck_id": "flugpraxis",
           "page": 11
         }
-      ]
+      ],
+      "subcategory": "landing-approach-pattern"
     },
     "Practical Flying_125": {
       "qid": 125,
@@ -16165,7 +16261,8 @@
           "deck_id": "flugpraxis",
           "page": 11
         }
-      ]
+      ],
+      "subcategory": "landing-approach-pattern"
     },
     "Practical Flying_126": {
       "qid": 126,
@@ -16191,7 +16288,8 @@
           "deck_id": "flugpraxis",
           "page": 11
         }
-      ]
+      ],
+      "subcategory": "landing-approach-pattern"
     },
     "Practical Flying_127": {
       "qid": 127,
@@ -16224,7 +16322,8 @@
           "deck_id": "flugpraxis",
           "page": 13
         }
-      ]
+      ],
+      "subcategory": "active-piloting-and-turns"
     },
     "Practical Flying_128": {
       "qid": 128,
@@ -16250,7 +16349,8 @@
           "deck_id": "flugpraxis",
           "page": 11
         }
-      ]
+      ],
+      "subcategory": "landing-special-and-emergency"
     },
     "Practical Flying_129": {
       "qid": 129,
@@ -16271,7 +16371,8 @@
         }
       ],
       "video_clips": [],
-      "slide_pages": []
+      "slide_pages": [],
+      "subcategory": "landing-special-and-emergency"
     },
     "Practical Flying_130": {
       "qid": 130,
@@ -16304,7 +16405,8 @@
           "deck_id": "flugpraxis",
           "page": 12
         }
-      ]
+      ],
+      "subcategory": "landing-special-and-emergency"
     },
     "Practical Flying_131": {
       "qid": 131,
@@ -16330,7 +16432,8 @@
           "deck_id": "flugpraxis",
           "page": 12
         }
-      ]
+      ],
+      "subcategory": "landing-special-and-emergency"
     },
     "Practical Flying_132": {
       "qid": 132,
@@ -16356,7 +16459,8 @@
           "deck_id": "flugpraxis",
           "page": 12
         }
-      ]
+      ],
+      "subcategory": "landing-special-and-emergency"
     },
     "Practical Flying_133": {
       "qid": 133,
@@ -16386,7 +16490,8 @@
           "deck_id": "flugpraxis",
           "page": 12
         }
-      ]
+      ],
+      "subcategory": "landing-special-and-emergency"
     },
     "Practical Flying_134": {
       "qid": 134,
@@ -16419,7 +16524,8 @@
           "deck_id": "flugpraxis",
           "page": 12
         }
-      ]
+      ],
+      "subcategory": "landing-special-and-emergency"
     },
     "Practical Flying_135": {
       "qid": 135,
@@ -16452,7 +16558,8 @@
           "deck_id": "flugpraxis",
           "page": 12
         }
-      ]
+      ],
+      "subcategory": "landing-special-and-emergency"
     },
     "Practical Flying_136": {
       "qid": 136,
@@ -16478,7 +16585,8 @@
           "deck_id": "flugpraxis",
           "page": 12
         }
-      ]
+      ],
+      "subcategory": "landing-special-and-emergency"
     },
     "Practical Flying_137": {
       "qid": 137,
@@ -16499,7 +16607,8 @@
         }
       ],
       "video_clips": [],
-      "slide_pages": []
+      "slide_pages": [],
+      "subcategory": "traffic-collision-and-reserve"
     },
     "Practical Flying_138": {
       "qid": 138,
@@ -16525,7 +16634,8 @@
           "deck_id": "flugpraxis",
           "page": 15
         }
-      ]
+      ],
+      "subcategory": "traffic-collision-and-reserve"
     },
     "Practical Flying_139": {
       "qid": 139,
@@ -16558,7 +16668,8 @@
           "deck_id": "flugpraxis",
           "page": 17
         }
-      ]
+      ],
+      "subcategory": "traffic-collision-and-reserve"
     },
     "Practical Flying_140": {
       "qid": 140,
@@ -16591,7 +16702,8 @@
           "deck_id": "flugpraxis",
           "page": 17
         }
-      ]
+      ],
+      "subcategory": "traffic-collision-and-reserve"
     },
     "Practical Flying_141": {
       "qid": 141,
@@ -16628,7 +16740,8 @@
           "deck_id": "flugpraxis",
           "page": 17
         }
-      ]
+      ],
+      "subcategory": "traffic-collision-and-reserve"
     },
     "Practical Flying_143": {
       "qid": 143,
@@ -16656,7 +16769,8 @@
           "snippet": "Sam: with spinal injury the principle is leave them lying, don't let them drink, immediately call Rega - moving the casualty risks paralysis."
         }
       ],
-      "slide_pages": []
+      "slide_pages": [],
+      "subcategory": "landing-special-and-emergency"
     },
     "Practical Flying_144": {
       "qid": 144,
@@ -16677,7 +16791,8 @@
         }
       ],
       "video_clips": [],
-      "slide_pages": []
+      "slide_pages": [],
+      "subcategory": "landing-special-and-emergency"
     },
     "Practical Flying_146": {
       "qid": 146,
@@ -16705,7 +16820,8 @@
           "snippet": "Sam: spinal injuries are common in paragliding because we sit; if the pilot is hurt in the back and breathing, leave them lying and call Rega."
         }
       ],
-      "slide_pages": []
+      "slide_pages": [],
+      "subcategory": "landing-special-and-emergency"
     },
     "Practical Flying_147": {
       "qid": 147,
@@ -16733,7 +16849,8 @@
           "snippet": "Sam: when the helicopter comes it generates a lot of wind - gather the wing with a quick fold, pack everything up and weigh it down so nothing can fly away and endanger the helicopter."
         }
       ],
-      "slide_pages": []
+      "slide_pages": [],
+      "subcategory": "landing-special-and-emergency"
     },
     "Practical Flying_148": {
       "qid": 148,
@@ -16766,7 +16883,8 @@
           "deck_id": "flugpraxis",
           "page": 4
         }
-      ]
+      ],
+      "subcategory": "wildlife-and-nature"
     },
     "Practical Flying_149": {
       "qid": 149,
@@ -16792,7 +16910,8 @@
           "deck_id": "flugpraxis",
           "page": 4
         }
-      ]
+      ],
+      "subcategory": "wildlife-and-nature"
     },
     "Practical Flying_151": {
       "qid": 151,
@@ -16825,7 +16944,8 @@
           "deck_id": "flugpraxis",
           "page": 4
         }
-      ]
+      ],
+      "subcategory": "wildlife-and-nature"
     },
     "Practical Flying_152": {
       "qid": 152,
@@ -16851,7 +16971,8 @@
           "deck_id": "flugpraxis",
           "page": 4
         }
-      ]
+      ],
+      "subcategory": "wildlife-and-nature"
     },
     "Practical Flying_153": {
       "qid": 153,
@@ -16877,7 +16998,8 @@
           "deck_id": "flugpraxis",
           "page": 4
         }
-      ]
+      ],
+      "subcategory": "wildlife-and-nature"
     },
     "Practical Flying_155": {
       "qid": 155,
@@ -16903,7 +17025,8 @@
           "deck_id": "flugpraxis",
           "page": 4
         }
-      ]
+      ],
+      "subcategory": "wildlife-and-nature"
     },
     "Practical Flying_156": {
       "qid": 156,
@@ -16929,7 +17052,8 @@
           "deck_id": "flugpraxis",
           "page": 4
         }
-      ]
+      ],
+      "subcategory": "wildlife-and-nature"
     },
     "Practical Flying_157": {
       "qid": 157,
@@ -16955,7 +17079,8 @@
           "deck_id": "flugpraxis",
           "page": 4
         }
-      ]
+      ],
+      "subcategory": "wildlife-and-nature"
     },
     "Practical Flying_158": {
       "qid": 158,
@@ -16988,7 +17113,8 @@
           "deck_id": "flugpraxis",
           "page": 4
         }
-      ]
+      ],
+      "subcategory": "wildlife-and-nature"
     },
     "Practical Flying_159": {
       "qid": 159,
@@ -17014,7 +17140,8 @@
           "deck_id": "flugpraxis",
           "page": 4
         }
-      ]
+      ],
+      "subcategory": "wildlife-and-nature"
     },
     "Practical Flying_160": {
       "qid": 160,
@@ -17042,7 +17169,8 @@
           "snippet": "Sam: the helicopter generates a lot of wind - gather the wing, pack everything, weigh things down so nothing can fly away."
         }
       ],
-      "slide_pages": []
+      "slide_pages": [],
+      "subcategory": "landing-special-and-emergency"
     },
     "Practical Flying_162": {
       "qid": 162,
@@ -17074,7 +17202,8 @@
           "snippet": "Sam: if you're in a civilised area inform mountain rescue or Rega - they probably already know about it and you save them the search."
         }
       ],
-      "slide_pages": []
+      "slide_pages": [],
+      "subcategory": "landing-special-and-emergency"
     },
     "Practical Flying_164": {
       "qid": 164,
@@ -17095,7 +17224,8 @@
         }
       ],
       "video_clips": [],
-      "slide_pages": []
+      "slide_pages": [],
+      "subcategory": "traffic-collision-and-reserve"
     },
     "Practical Flying_165": {
       "qid": 165,
@@ -17116,7 +17246,8 @@
         }
       ],
       "video_clips": [],
-      "slide_pages": []
+      "slide_pages": [],
+      "subcategory": "landing-special-and-emergency"
     },
     "Practical Flying_167": {
       "qid": 167,
@@ -17137,7 +17268,8 @@
         }
       ],
       "video_clips": [],
-      "slide_pages": []
+      "slide_pages": [],
+      "subcategory": "landing-special-and-emergency"
     },
     "Practical Flying_168": {
       "qid": 168,
@@ -17170,7 +17302,8 @@
           "deck_id": "flugpraxis",
           "page": 4
         }
-      ]
+      ],
+      "subcategory": "wildlife-and-nature"
     }
   },
   "subcategories": {
@@ -17368,6 +17501,73 @@
         "id": "operating-rules-distances",
         "title": "Operating rules & ground distances",
         "description": "Distance to aerodromes, runways, gatherings and obstacles, water take-offs, ground-signal yellow cross and the dedicated free-flight radio frequency."
+      }
+    ],
+    "Practical Flying": [
+      {
+        "id": "flight-prep-airspace",
+        "title": "Flight preparation and airspace info",
+        "description": "Researching new sites, reading QNH and foehn pressure differences and consulting glider maps, NOTAM, DABS and obstacle maps before flying."
+      },
+      {
+        "id": "physiology-cold-altitude",
+        "title": "Pilot physiology, cold and altitude",
+        "description": "Effects of altitude, oxygen, wind chill and a head cold on the pilot's body and how to mitigate them in flight."
+      },
+      {
+        "id": "wildlife-and-nature",
+        "title": "Wildlife and nature awareness",
+        "description": "Respecting golden eagles, chamois, ibex, protected zones, alpine huts and the seasons that matter for wildlife."
+      },
+      {
+        "id": "take-off-site-and-conditions",
+        "title": "Take-off site choice and conditions",
+        "description": "Selecting a launch spot, judging wind direction and strength, leeward indicators, forest corridors and the 5-point check."
+      },
+      {
+        "id": "take-off-execution-and-faults",
+        "title": "Take-off execution and immediate problems",
+        "description": "Launching technique, abort decisions, brake release timing and reacting to line knots or asymmetric tension right after take-off."
+      },
+      {
+        "id": "active-piloting-and-turns",
+        "title": "Active piloting, turns and wingovers",
+        "description": "Damping pendulum motion, brake limits in straight flight and turns, A-riser acceleration, prolonged deep braking and the dynamics of wingovers."
+      },
+      {
+        "id": "stalls-and-collapses",
+        "title": "Stalls and collapses",
+        "description": "Recognising and recovering from parachutal stalls, one-sided stalls and asymmetric or large collapses at altitude and near the ground."
+      },
+      {
+        "id": "rapid-descent-techniques",
+        "title": "Big-ears and spiral-dive descents",
+        "description": "Entering, holding and exiting big-ears and spiral dives, their behaviour, sink rates and limits."
+      },
+      {
+        "id": "thermalling-and-ridge",
+        "title": "Thermalling and ridge soaring",
+        "description": "Centring thermals, anticipating their position in wind, leaving for cross country and managing turbulence when soaring a ridge."
+      },
+      {
+        "id": "glide-wind-and-crab",
+        "title": "Glide, wind drift and crab angle",
+        "description": "Reaching a goal under head, tail and cross winds, choosing speed for best glide, computing crab angle and predicting ground track."
+      },
+      {
+        "id": "traffic-collision-and-reserve",
+        "title": "Traffic, collision avoidance and reserve use",
+        "description": "Sharing airspace with deltas and helicopters, wake turbulence and the situations that demand an immediate reserve deployment."
+      },
+      {
+        "id": "landing-approach-pattern",
+        "title": "Landing approach pattern and corrections",
+        "description": "Standard downwind/base/final pattern, why we fly an approach, height corrections on each leg and headwind/tailwind/calm-air approach angles."
+      },
+      {
+        "id": "landing-special-and-emergency",
+        "title": "Special-field landings, post-flight and first aid",
+        "description": "Slope, water, tree, valley-wind and obstacle-surrounded fields, wind gradient on touchdown, post-landing actions, helicopter rescue conduct and basic first aid."
       }
     ]
   }
