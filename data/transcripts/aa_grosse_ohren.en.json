@@ -1,0 +1,28 @@
+{
+  "slug": "aa_grosse_ohren",
+  "language": "en",
+  "provider": "claude-sub-agent",
+  "model": "manual",
+  "duration": 268.6084375,
+  "note": "Re-translated from large-v3 GPU transcript.",
+  "segments": [
+    {"i": 1, "start": 21.94, "end": 49.57, "text": "Big-ears means simply taking even more surface area in — folding it in. Very, very high sink rates, really very high sink values, already in straight flight, and with a little bit of roll and weight shift we can reach values in the double-digit range, so very easily and without much physical strain."},
+    {"i": 2, "start": 49.57, "end": 55.66, "text": "But it's more of an advanced technique, so we only do it at the end of training."},
+    {"i": 3, "start": 56.32, "end": 63.72, "text": "Still, I want to give you this one too, because it's another option and really useful for losing altitude when you absolutely have to."},
+    {"i": 4, "start": 65.38, "end": 73.14, "text": "The technique is practically identical to little-ears, except that we now take two A-lines on the right and two on the left."},
+    {"i": 5, "start": 73.14, "end": 83.03, "text": "Again, the brake stays at the loop in the hand. Why? That's of course for re-inflating — we always have to be a bit ready for that."},
+    {"i": 6, "start": 83.07, "end": 104.74, "text": "That's why we keep the brakes in our hands, then take the accelerator, again gently push the bar, symmetrically. And now the important part: we have to try to grab the outermost A-line on the right plus the A-line next to it."},
+    {"i": 7, "start": 104.74, "end": 116.3, "text": "And we now must not pull too low down — that is, not too close to the line-lock — because otherwise we'd pull the innermost A-line along with it and end up with a full collapse, a frontal."},
+    {"i": 8, "start": 117.22, "end": 129.54, "text": "And that's why we have to try to grip as high as possible, high above the line-lock; then we can kink them first and then pull down, and then we push the bar."},
+    {"i": 9, "start": 130.91, "end": 140.99, "text": "If the ears end up folded in firmly, we can let our hands come up a little, fold in slightly less ear, and so we can even fine-tune the size of the ears a bit."},
+    {"i": 10, "start": 141.51, "end": 148.16, "text": "Then perhaps fix them at the position you have, or you can keep them like that — whatever suits."},
+    {"i": 11, "start": 148.16, "end": 161.05, "text": "Simply fix them to the main riser as close as possible, then with weight shift either increase the sink rate or not, just keep the wing straight — whichever you want."},
+    {"i": 12, "start": 161.05, "end": 173.45, "text": "And for the exit it's now important: we stay fully in the accelerator, release the A-lines symmetrically up, and if the ears stay in, pump them — but with full bar."},
+    {"i": 13, "start": 173.45, "end": 177.08, "text": "And only once the ears are out do we come fully off the bar again."},
+    {"i": 14, "start": 177.08, "end": 182.79, "text": "Easy — you just have to do it a few times."},
+    {"i": 15, "start": 183.31, "end": 197.15, "text": "Don't be alarmed: at the start a lot of surface area gets folded in, and that can leave you a bit shocked at first, but we'll train the whole thing a few times."},
+    {"i": 16, "start": 197.15, "end": 204.45, "text": "And the key point is that you also try to look up and see how much have I actually folded in."},
+    {"i": 17, "start": 204.45, "end": 215.2, "text": "If it's too much and the wing isn't really properly open in the middle, we let the A-lines up a bit and naturally end up with a little..."},
+    {"i": 18, "start": 216.35, "end": 265.13, "text": "...more room to actually steer the wing and stay on heading and course."}
+  ]
+}
