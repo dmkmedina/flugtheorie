@@ -17308,696 +17308,5247 @@
     "Weather_1": {
       "qid": 1,
       "topic": "Weather",
+      "explanation": "Dry tropospheric air is roughly 78 percent nitrogen and 21 percent oxygen, with the remaining ~1 percent made up of carbon dioxide, water vapour and noble gases such as helium and argon. Memorise the nitrogen/oxygen split exactly: every variant of this question on the SHV exam is built on those two numbers being the right way round.",
+      "guide_chapter": {
+        "id": "p2-atmosphere",
+        "title": "Atmosphere and Atmospheric Pressure"
+      },
+      "workbook_chapter": {
+        "id": "meteo-01-atmosphere",
+        "title": "The atmosphere and atmospheric pressure"
+      },
+      "diagrams": [
+        {
+          "id": "p2-atmosphere-reference",
+          "title": "Air composition and standard atmosphere"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "meteo_0",
+          "t_start": 187.7,
+          "t_end": 216.4,
+          "snippet": "Fabio: for the theory exam, remember 21% oxygen, 78% nitrogen and 1% noble gases in the troposphere."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "meteo",
+          "page": 8
+        }
+      ],
       "subcategory": "atmospheric-basics"
     },
     "Weather_3": {
       "qid": 3,
       "topic": "Weather",
+      "explanation": "The ICAO standard atmosphere defines sea-level conditions as 1013.25 hPa, 15°C, with a temperature gradient of 0.65°C per 100 m (i.e. 6.5°C per 1000 m). These three numbers anchor every altimeter setting, density calculation and exam question — there is no rounding to 1°C/100 m and no 1033 hPa value.",
+      "guide_chapter": {
+        "id": "p2-atmosphere",
+        "title": "Atmosphere and Atmospheric Pressure"
+      },
+      "workbook_chapter": {
+        "id": "meteo-01-atmosphere",
+        "title": "The atmosphere and atmospheric pressure"
+      },
+      "diagrams": [
+        {
+          "id": "p2-atmosphere-reference",
+          "title": "Air composition and standard atmosphere"
+        },
+        {
+          "id": "p2-pressure-altitude",
+          "title": "Pressure vs altitude"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "meteo_0",
+          "t_start": 354.3,
+          "t_end": 466.1,
+          "snippet": "Fabio: standard atmosphere = 1013.25 hPa, 15°C at sea level, 0.65°C per 100 m lapse rate, tropopause at 11 km."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "meteo",
+          "page": 10
+        },
+        {
+          "deck_id": "meteo",
+          "page": 12
+        }
+      ],
       "subcategory": "atmospheric-basics"
     },
     "Weather_4": {
       "qid": 4,
       "topic": "Weather",
+      "explanation": "At our latitudes (Europe) the tropopause sits at about 11 km above sea level — slightly thinner at the poles (~8 km) and thicker at the equator (~18 km), and a touch lower in winter when the cold troposphere shrinks. All weather and all paragliding happens beneath that boundary.",
+      "guide_chapter": {
+        "id": "p2-atmosphere",
+        "title": "Atmosphere and Atmospheric Pressure"
+      },
+      "workbook_chapter": {
+        "id": "meteo-01-atmosphere",
+        "title": "The atmosphere and atmospheric pressure"
+      },
+      "diagrams": [
+        {
+          "id": "p2-atmosphere-reference",
+          "title": "Air composition and standard atmosphere"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "meteo_0",
+          "t_start": 216.4,
+          "t_end": 261.6,
+          "snippet": "Fabio: at our latitudes the troposphere is about 11–13 km thick; in the standard atmosphere the tropopause is at 11 km."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "meteo",
+          "page": 5
+        },
+        {
+          "deck_id": "meteo",
+          "page": 7
+        }
+      ],
       "subcategory": "atmospheric-basics"
     },
     "Weather_5": {
       "qid": 5,
       "topic": "Weather",
+      "explanation": "Atmospheric pressure is simply the weight of the column of air above pressed down by gravity. That is why pressure is highest at sea level (longest air column) and decreases steadily with altitude — it has nothing to do with the magnetic poles, dust or Earth's rotation.",
+      "guide_chapter": {
+        "id": "p2-atmosphere",
+        "title": "Atmosphere and Atmospheric Pressure"
+      },
+      "workbook_chapter": {
+        "id": "meteo-01-atmosphere",
+        "title": "The atmosphere and atmospheric pressure"
+      },
+      "diagrams": [
+        {
+          "id": "p2-pressure-altitude",
+          "title": "Pressure vs altitude"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "meteo_0",
+          "t_start": 425.4,
+          "t_end": 462.1,
+          "snippet": "Fabio: air pressure is the column of air above us, just like water pressure when you dive — gravity does the work."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "meteo",
+          "page": 11
+        }
+      ],
       "subcategory": "atmospheric-basics"
     },
     "Weather_6": {
       "qid": 6,
       "topic": "Weather",
+      "explanation": "Pressure does not fall linearly: it halves every 5500 m. So 1013 hPa at sea level becomes about 500 hPa at 5500 m and roughly a quarter of sea-level pressure (~250 hPa) at 11000 m. The 80 hPa/100 m and the constant-above-tropopause options are wrong by a wide margin.",
+      "guide_chapter": {
+        "id": "p2-atmosphere",
+        "title": "Atmosphere and Atmospheric Pressure"
+      },
+      "workbook_chapter": {
+        "id": "meteo-01-atmosphere",
+        "title": "The atmosphere and atmospheric pressure"
+      },
+      "diagrams": [
+        {
+          "id": "p2-pressure-altitude",
+          "title": "Pressure vs altitude"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "meteo_0",
+          "t_start": 394.3,
+          "t_end": 425.4,
+          "snippet": "Fabio: every 5500 m of altitude, air pressure halves — so 506 hPa at 5500 m, a value the exam loves."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "meteo",
+          "page": 12
+        },
+        {
+          "deck_id": "meteo",
+          "page": 13
+        }
+      ],
       "subcategory": "atmospheric-basics"
     },
     "Weather_7": {
       "qid": 7,
       "topic": "Weather",
+      "explanation": "The ICAO standard sea-level pressure used by meteorologists worldwide is 1013.2 hPa (often written 1013.25). 760 hPa would correspond to a value in mmHg, while 1033 and 998 are arbitrary high/low values found around real weather systems but never used as the \"standard\".",
+      "guide_chapter": {
+        "id": "p2-atmosphere",
+        "title": "Atmosphere and Atmospheric Pressure"
+      },
+      "workbook_chapter": {
+        "id": "meteo-01-atmosphere",
+        "title": "The atmosphere and atmospheric pressure"
+      },
+      "diagrams": [
+        {
+          "id": "p2-atmosphere-reference",
+          "title": "Air composition and standard atmosphere"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "meteo_0",
+          "t_start": 358.3,
+          "t_end": 394.3,
+          "snippet": "Fabio: the standard air pressure number you must memorise — 1013.25 hPa at sea level."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "meteo",
+          "page": 11
+        }
+      ],
       "subcategory": "atmospheric-basics"
     },
     "Weather_8": {
       "qid": 8,
       "topic": "Weather",
+      "explanation": "Sea-level pressure is never constant — weather systems continuously push it up (anticyclones, 1020–1040 hPa) or down (depressions, often 955–990 hPa). Barometers move both ways from the standard 1013 hPa value, depending entirely on the prevailing weather situation.",
+      "guide_chapter": {
+        "id": "p2-atmosphere",
+        "title": "Atmosphere and Atmospheric Pressure"
+      },
+      "workbook_chapter": {
+        "id": "meteo-06-pressure-and-prevailing-winds",
+        "title": "Pressure systems and prevailing winds"
+      },
+      "diagrams": [
+        {
+          "id": "p2-isobar-rotation",
+          "title": "Wind rotation around pressure centers"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "meteo_0",
+          "t_start": 722.2,
+          "t_end": 770.7,
+          "snippet": "Fabio: pronounced lows in Europe go down to ~955 hPa, strong highs reach 1035 hPa or more — these swings drive our weather."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "meteo",
+          "page": 20
+        }
+      ],
       "subcategory": "atmospheric-basics"
     },
     "Weather_9": {
       "qid": 9,
       "topic": "Weather",
+      "explanation": "Reduced-to-sea-level pressure at any given spot depends on the current weather pattern — the warming or cooling of the overlying air mass, its humidity and the position of nearby highs and lows. Surface characteristics, longitude and tides do not move barometric pressure.",
+      "guide_chapter": {
+        "id": "p2-action-centers-isobars",
+        "title": "Action Centers, Isobars and Prevailing Winds"
+      },
+      "workbook_chapter": {
+        "id": "meteo-06-pressure-and-prevailing-winds",
+        "title": "Pressure systems and prevailing winds"
+      },
+      "diagrams": [
+        {
+          "id": "p2-isobar-rotation",
+          "title": "Wind rotation around pressure centers"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "meteo_0",
+          "t_start": 619.8,
+          "t_end": 670.0,
+          "snippet": "Fabio: pressure differences arise because some regions stay warmer or colder than their surroundings for a long time."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "meteo",
+          "page": 18
+        },
+        {
+          "deck_id": "meteo",
+          "page": 20
+        }
+      ],
       "subcategory": "atmospheric-basics"
     },
     "Weather_11": {
       "qid": 11,
       "topic": "Weather",
+      "explanation": "Boyle's law: at 5500 m the air pressure is half the sea-level value. With pressure halved, a balloon expands to twice its original volume, so 5 dm³ at sea level becomes 10 dm³ at 5500 m. (At 11000 m where pressure is a quarter of sea level, the same balloon would reach 20 dm³.)",
+      "guide_chapter": {
+        "id": "p2-atmosphere",
+        "title": "Atmosphere and Atmospheric Pressure"
+      },
+      "workbook_chapter": {
+        "id": "meteo-01-atmosphere",
+        "title": "The atmosphere and atmospheric pressure"
+      },
+      "diagrams": [
+        {
+          "id": "p2-pressure-altitude",
+          "title": "Pressure vs altitude"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "meteo_0",
+          "t_start": 394.3,
+          "t_end": 425.4,
+          "snippet": "Fabio: as the balloon rises and pressure halves at 5500 m, its volume doubles — Boyle's law in action."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "meteo",
+          "page": 12
+        }
+      ],
       "subcategory": "atmospheric-basics"
     },
     "Weather_13": {
       "qid": 13,
       "topic": "Weather",
+      "explanation": "The sun's rays pass through the atmosphere almost unimpeded and primarily heat the ground; the ground then warms the thin layer of air in contact with it by conduction and radiation. So near-surface air temperature is governed by ground temperature, not by direct solar radiation on the air particles themselves.",
+      "guide_chapter": {
+        "id": "p2-air-temperature",
+        "title": "Air Temperature, Atmospheric Warming & Temperature Curves"
+      },
+      "workbook_chapter": {
+        "id": "meteo-02-temperature-warming",
+        "title": "How the air really warms up"
+      },
+      "diagrams": [
+        {
+          "id": "p2-warming-three-phase",
+          "title": "Indirect warming of the atmosphere"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "meteo_0",
+          "t_start": 523.6,
+          "t_end": 595.5,
+          "snippet": "Fabio: the sun does not warm the air it passes through — it warms the ground, and the ground warms the thin layer of air sitting on it."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "meteo",
+          "page": 14
+        }
+      ],
       "subcategory": "temperature-and-lapse-rates"
     },
     "Weather_15": {
       "qid": 15,
       "topic": "Weather",
+      "explanation": "At the same altitude, warm air is less dense (lighter) than cold air — that is exactly why hot-air balloons fly and why thermal bubbles rise. Density depends on temperature, not on the adiabatic lapse rate, and is certainly not the same for warm and cold parcels.",
+      "guide_chapter": {
+        "id": "p2-air-temperature",
+        "title": "Air Temperature, Atmospheric Warming & Temperature Curves"
+      },
+      "workbook_chapter": {
+        "id": "meteo-02-temperature-warming",
+        "title": "How the air really warms up"
+      },
+      "diagrams": [
+        {
+          "id": "p2-thermal-vs-emagram",
+          "title": "Why thermals stop rising"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "meteo_1",
+          "t_start": 160.6,
+          "t_end": 188.0,
+          "snippet": "Fabio: a hot-air balloon rises because warm air is less dense than the surrounding cold air — the same principle drives every thermal."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "meteo",
+          "page": 53
+        }
+      ],
       "subcategory": "temperature-and-lapse-rates"
     },
     "Weather_16": {
       "qid": 16,
       "topic": "Weather",
+      "explanation": "A dry-adiabatic parcel that rises without condensing always cools at 1°C per 100 m. The reason is the pressure drop with altitude: as pressure decreases the parcel expands, and that expansion (without exchanging heat with the surroundings) dilutes its energy. The 0.65°C/100 m value applies only to the ambient (environmental) lapse rate, not to a rising bubble.",
+      "guide_chapter": {
+        "id": "p2-air-temperature",
+        "title": "Air Temperature, Atmospheric Warming & Temperature Curves"
+      },
+      "workbook_chapter": {
+        "id": "meteo-02-temperature-warming",
+        "title": "How the air really warms up"
+      },
+      "diagrams": [
+        {
+          "id": "p2-thermal-vs-emagram",
+          "title": "Why thermals stop rising"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "meteo_1",
+          "t_start": 609.4,
+          "t_end": 632.4,
+          "snippet": "Fabio: as long as it rises dry-adiabatically, the bubble cools by exactly 1°C per 100 m."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "meteo",
+          "page": 60
+        }
+      ],
       "subcategory": "temperature-and-lapse-rates"
     },
     "Weather_17": {
       "qid": 17,
       "topic": "Weather",
+      "explanation": "A rising bubble of air cools because the surrounding pressure falls with altitude, so the bubble expands (work is done against lower outside pressure) and its temperature drops. This is purely the adiabatic decompression process — nothing to do with leaving a heat source, with evaporating water, or with the angle of the sun.",
+      "guide_chapter": {
+        "id": "p2-air-temperature",
+        "title": "Air Temperature, Atmospheric Warming & Temperature Curves"
+      },
+      "workbook_chapter": {
+        "id": "meteo-02-temperature-warming",
+        "title": "How the air really warms up"
+      },
+      "diagrams": [
+        {
+          "id": "p2-thermal-vs-emagram",
+          "title": "Why thermals stop rising"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "meteo_1",
+          "t_start": 218.1,
+          "t_end": 248.7,
+          "snippet": "Fabio: when the balloon rises the pressure drops, the gas expands, and so the temperature decreases — like the cold air rushing out of a compressed-air gun."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "meteo",
+          "page": 54
+        },
+        {
+          "deck_id": "meteo",
+          "page": 56
+        }
+      ],
       "subcategory": "temperature-and-lapse-rates"
     },
     "Weather_18": {
       "qid": 18,
       "topic": "Weather",
+      "explanation": "A sinking air mass moves into higher pressure, so it is compressed: its volume decreases and the same energy is concentrated into a smaller space, raising its temperature. This is the mirror image of a rising parcel and is the mechanism behind Föhn warming on the lee side of mountains.",
+      "guide_chapter": {
+        "id": "p2-air-temperature",
+        "title": "Air Temperature, Atmospheric Warming & Temperature Curves"
+      },
+      "workbook_chapter": {
+        "id": "meteo-02-temperature-warming",
+        "title": "How the air really warms up"
+      },
+      "diagrams": [
+        {
+          "id": "p2-thermal-vs-emagram",
+          "title": "Why thermals stop rising"
+        },
+        {
+          "id": "p2-foehn",
+          "title": "Foehn over a mountain range"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "meteo_1",
+          "t_start": 248.7,
+          "t_end": 276.0,
+          "snippet": "Fabio: when an air mass is compressed, like pumping up a tyre, it warms — the opposite of expansion-cooling."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "meteo",
+          "page": 56
+        }
+      ],
       "subcategory": "temperature-and-lapse-rates"
     },
     "Weather_20": {
       "qid": 20,
       "topic": "Weather",
+      "explanation": "When temperature in a layer actually rises with altitude — instead of falling — that layer is called an \"inversion\". Inversions form classically on clear nights as the ground radiates heat away, and they cap thermal activity by removing the buoyancy advantage of a rising bubble.",
+      "guide_chapter": {
+        "id": "p2-air-temperature",
+        "title": "Air Temperature, Atmospheric Warming & Temperature Curves"
+      },
+      "workbook_chapter": {
+        "id": "meteo-03-inversions-stability",
+        "title": "Inversions, isothermal layers and stability"
+      },
+      "diagrams": [
+        {
+          "id": "p2-emagram-inversion",
+          "title": "Emagram with inversion and isothermal layers"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "meteo_1",
+          "t_start": 1041.1,
+          "t_end": 1080.4,
+          "snippet": "Fabio: in winter Zurich is in cold fog while the peaks are warm — that classic temperature-with-altitude reversal is called an inversion."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "meteo",
+          "page": 64
+        },
+        {
+          "deck_id": "meteo",
+          "page": 65
+        }
+      ],
       "subcategory": "inversions-and-stability"
     },
     "Weather_21": {
       "qid": 21,
       "topic": "Weather",
+      "explanation": "When temperature stays the same across an entire layer (no decrease and no increase with altitude), it is called an \"isotherm\" or isothermal layer. Like an inversion, an isothermal layer also stops thermals because the rising bubble no longer has any buoyancy advantage over the ambient air.",
+      "guide_chapter": {
+        "id": "p2-air-temperature",
+        "title": "Air Temperature, Atmospheric Warming & Temperature Curves"
+      },
+      "workbook_chapter": {
+        "id": "meteo-03-inversions-stability",
+        "title": "Inversions, isothermal layers and stability"
+      },
+      "diagrams": [
+        {
+          "id": "p2-emagram-inversion",
+          "title": "Emagram with inversion and isothermal layers"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "meteo_1",
+          "t_start": 1080.4,
+          "t_end": 1103.5,
+          "snippet": "Fabio: 6°C in the valley and 6°C on the mountain — that constant stratification is an isothermal layer."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "meteo",
+          "page": 64
+        }
+      ],
       "subcategory": "inversions-and-stability"
     },
     "Weather_23": {
       "qid": 23,
       "topic": "Weather",
+      "explanation": "An inversion is, by definition, an air layer where temperature increases with increasing altitude. It is a \"reversal\" of the normal tropospheric pattern (where temperature decreases with height) and acts as a stable cap that blocks thermal development.",
+      "guide_chapter": {
+        "id": "p2-air-temperature",
+        "title": "Air Temperature, Atmospheric Warming & Temperature Curves"
+      },
+      "workbook_chapter": {
+        "id": "meteo-03-inversions-stability",
+        "title": "Inversions, isothermal layers and stability"
+      },
+      "diagrams": [
+        {
+          "id": "p2-emagram-inversion",
+          "title": "Emagram with inversion and isothermal layers"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "meteo_1",
+          "t_start": 1010.3,
+          "t_end": 1053.5,
+          "snippet": "Fabio: inversion = the inverse stratification, cold at the bottom and warm above; thermals stop dead."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "meteo",
+          "page": 64
+        },
+        {
+          "deck_id": "meteo",
+          "page": 65
+        }
+      ],
       "subcategory": "inversions-and-stability"
     },
     "Weather_24": {
       "qid": 24,
       "topic": "Weather",
+      "explanation": "An isotherm is a layer in which the temperature remains constant with altitude — it neither falls nor rises. Like an inversion it is a stable layer that blocks thermals, even though the temperature is not reversed but just flat.",
+      "guide_chapter": {
+        "id": "p2-air-temperature",
+        "title": "Air Temperature, Atmospheric Warming & Temperature Curves"
+      },
+      "workbook_chapter": {
+        "id": "meteo-03-inversions-stability",
+        "title": "Inversions, isothermal layers and stability"
+      },
+      "diagrams": [
+        {
+          "id": "p2-emagram-inversion",
+          "title": "Emagram with inversion and isothermal layers"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "meteo_1",
+          "t_start": 1080.4,
+          "t_end": 1103.5,
+          "snippet": "Fabio: when the temperature stays the same from the valley to the peak, that constant air stratification is an isothermal layer."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "meteo",
+          "page": 64
+        }
+      ],
       "subcategory": "inversions-and-stability"
     },
     "Weather_25": {
       "qid": 25,
       "topic": "Weather",
+      "explanation": "Inversions and isothermal layers both act as a lid on thermal updrafts: the rising bubble loses its buoyancy advantage once it enters air that is not colder than itself. They are stable layers and therefore barriers to thermals — they neither trigger nor accelerate convection.",
+      "guide_chapter": {
+        "id": "p2-air-temperature",
+        "title": "Air Temperature, Atmospheric Warming & Temperature Curves"
+      },
+      "workbook_chapter": {
+        "id": "meteo-03-inversions-stability",
+        "title": "Inversions, isothermal layers and stability"
+      },
+      "diagrams": [
+        {
+          "id": "p2-emagram-inversion",
+          "title": "Emagram with inversion and isothermal layers"
+        },
+        {
+          "id": "p2-thermal-vs-emagram",
+          "title": "Why thermals stop rising"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "meteo_1",
+          "t_start": 1053.5,
+          "t_end": 1080.4,
+          "snippet": "Fabio: when the thermal hits an inversion it loses its temperature advantage and stops rising — a stable cap."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "meteo",
+          "page": 64
+        },
+        {
+          "deck_id": "meteo",
+          "page": 65
+        }
+      ],
       "subcategory": "inversions-and-stability"
     },
     "Weather_26": {
       "qid": 26,
       "topic": "Weather",
+      "explanation": "The vertical temperature gradient is simply the difference in temperature per 100 m change in altitude. It is the standard meteorological measure of how quickly temperature changes with height through the troposphere (around 0.65°C/100 m on average, 1°C/100 m for a dry adiabat).",
+      "guide_chapter": {
+        "id": "p2-air-temperature",
+        "title": "Air Temperature, Atmospheric Warming & Temperature Curves"
+      },
+      "workbook_chapter": {
+        "id": "meteo-02-temperature-warming",
+        "title": "How the air really warms up"
+      },
+      "diagrams": [
+        {
+          "id": "p2-emagram-inversion",
+          "title": "Emagram with inversion and isothermal layers"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "meteo_0",
+          "t_start": 1556.9,
+          "t_end": 1577.2,
+          "snippet": "Fabio: a gradient in meteorology always describes a progression with altitude — temperature gradient is degrees per 100 m of altitude."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "meteo",
+          "page": 55
+        }
+      ],
       "subcategory": "temperature-and-lapse-rates"
     },
     "Weather_28": {
       "qid": 28,
       "topic": "Weather",
+      "explanation": "The classic visual sign of an inversion in flight is a sharply-bounded layer of haze, dust or fog beneath clear air above — the inversion has trapped all the humidity and pollutants in the lower atmosphere. Cumulus bases, zero dew-point spread or \"only on the ground\" are all wrong: elevated inversions exist too.",
+      "guide_chapter": {
+        "id": "p2-air-temperature",
+        "title": "Air Temperature, Atmospheric Warming & Temperature Curves"
+      },
+      "workbook_chapter": {
+        "id": "meteo-03-inversions-stability",
+        "title": "Inversions, isothermal layers and stability"
+      },
+      "diagrams": [
+        {
+          "id": "p2-emagram-inversion",
+          "title": "Emagram with inversion and isothermal layers"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "meteo_1",
+          "t_start": 1041.1,
+          "t_end": 1080.4,
+          "snippet": "Fabio: when you see hazy layers below clear air, that is an inversion trapping moisture below the cap."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "meteo",
+          "page": 64
+        },
+        {
+          "deck_id": "meteo",
+          "page": 65
+        }
+      ],
       "subcategory": "inversions-and-stability"
     },
     "Weather_29": {
       "qid": 29,
       "topic": "Weather",
+      "explanation": "A persistent ground-level fog or stratus layer is the textbook visible signature of an inversion in winter — radiation cooling trapped the cold, moist air below the warmer layer above. Cirrus, lenticulars and cumulonimbus all signal completely different processes (high humidity, mountain wave, convective storm).",
+      "guide_chapter": {
+        "id": "p2-clouds-fog-mist",
+        "title": "Clouds, Fog and Mist"
+      },
+      "workbook_chapter": {
+        "id": "meteo-03-inversions-stability",
+        "title": "Inversions, isothermal layers and stability"
+      },
+      "diagrams": [
+        {
+          "id": "p2-emagram-inversion",
+          "title": "Emagram with inversion and isothermal layers"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "meteo_1",
+          "t_start": 1041.1,
+          "t_end": 1080.4,
+          "snippet": "Fabio: the Zurich fog with sunshine on the ski peaks above is the textbook winter inversion — fog below, clear and warmer above."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "meteo",
+          "page": 64
+        },
+        {
+          "deck_id": "meteo",
+          "page": 65
+        }
+      ],
       "subcategory": "inversions-and-stability"
     },
     "Weather_32": {
       "qid": 32,
       "topic": "Weather",
+      "explanation": "In a radio-sounding table, an isothermal layer shows up as two adjacent altitudes that report the same temperature (no change with height). You spot it just by scanning the rows for an identical value between two levels — the constant-temperature column in the source data.",
+      "guide_chapter": {
+        "id": "p2-air-temperature",
+        "title": "Air Temperature, Atmospheric Warming & Temperature Curves"
+      },
+      "workbook_chapter": {
+        "id": "meteo-03-inversions-stability",
+        "title": "Inversions, isothermal layers and stability"
+      },
+      "diagrams": [
+        {
+          "id": "p2-emagram-inversion",
+          "title": "Emagram with inversion and isothermal layers"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "meteo_1",
+          "t_start": 1111.3,
+          "t_end": 1168.5,
+          "snippet": "Fabio: when the exam gives you a sounding, just scan for the layer where the same temperature is listed at two altitudes — that is the isothermal."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "meteo",
+          "page": 64
+        }
+      ],
       "subcategory": "inversions-and-stability"
     },
     "Weather_33": {
       "qid": 33,
       "topic": "Weather",
+      "explanation": "Condensation is the phase change from gaseous water vapour to liquid water — the process that produces clouds, fog and dew. It releases latent heat into the surrounding air, which is why moist-adiabatic cooling is gentler than dry-adiabatic cooling.",
+      "guide_chapter": {
+        "id": "p2-water-humidity",
+        "title": "Physical State of Water & Humidity"
+      },
+      "workbook_chapter": {
+        "id": "meteo-04-water-humidity",
+        "title": "Water in the air"
+      },
+      "diagrams": [
+        {
+          "id": "p2-water-states",
+          "title": "Water phase transitions"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "meteo_1",
+          "t_start": 526.0,
+          "t_end": 552.8,
+          "snippet": "Fabio: condensation = gaseous water vapour turning into tiny liquid droplets — that is what makes clouds and fog."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "meteo",
+          "page": 57
+        },
+        {
+          "deck_id": "meteo",
+          "page": 58
+        }
+      ],
       "subcategory": "humidity-and-condensation"
     },
     "Weather_34": {
       "qid": 34,
       "topic": "Weather",
+      "explanation": "Melting (solid → liquid) requires energy: the intermolecular bonds of ice must be broken by adding heat to free the water molecules. The other three transitions listed — vapour to liquid, liquid to solid, vapour to solid — all release energy, not absorb it.",
+      "guide_chapter": {
+        "id": "p2-water-humidity",
+        "title": "Physical State of Water & Humidity"
+      },
+      "workbook_chapter": {
+        "id": "meteo-04-water-humidity",
+        "title": "Water in the air"
+      },
+      "diagrams": [
+        {
+          "id": "p2-water-states",
+          "title": "Water phase transitions"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "meteo_1",
+          "t_start": 565.3,
+          "t_end": 596.8,
+          "snippet": "Fabio: from solid → liquid → gaseous requires energy, while the opposite direction releases energy as latent heat."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "meteo",
+          "page": 58
+        }
+      ],
       "subcategory": "humidity-and-condensation"
     },
     "Weather_37": {
       "qid": 37,
       "topic": "Weather",
+      "explanation": "Going from liquid water to solid ice (freezing) releases energy — the latent heat of fusion is given off to the surroundings. The two energy-absorbing transitions are melting and evaporation; sublimation (solid → gaseous) also absorbs energy. Only the rightward-to-leftward direction on the phase diagram releases heat.",
+      "guide_chapter": {
+        "id": "p2-water-humidity",
+        "title": "Physical State of Water & Humidity"
+      },
+      "workbook_chapter": {
+        "id": "meteo-04-water-humidity",
+        "title": "Water in the air"
+      },
+      "diagrams": [
+        {
+          "id": "p2-water-states",
+          "title": "Water phase transitions"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "meteo_1",
+          "t_start": 565.3,
+          "t_end": 596.8,
+          "snippet": "Fabio: vapour-to-liquid and liquid-to-solid both release heat — energy comes back out of the system as the molecules bond more tightly."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "meteo",
+          "page": 58
+        }
+      ],
       "subcategory": "humidity-and-condensation"
     },
     "Weather_39": {
       "qid": 39,
       "topic": "Weather",
+      "explanation": "The dew point is the temperature to which air must be cooled, at constant pressure and water-vapour content, for saturation (100% relative humidity) to be reached and the first liquid water to condense out. It is not the relative humidity itself, and it is not specifically about ground radiation — it is a thermodynamic property of the air.",
+      "guide_chapter": {
+        "id": "p2-water-humidity",
+        "title": "Physical State of Water & Humidity"
+      },
+      "workbook_chapter": {
+        "id": "meteo-04-water-humidity",
+        "title": "Water in the air"
+      },
+      "diagrams": [
+        {
+          "id": "p2-saturation-curve",
+          "title": "Saturation curve and dew point"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "meteo_1",
+          "t_start": 530.1,
+          "t_end": 552.8,
+          "snippet": "Fabio: the dew point is the temperature at which the air starts to condense its water vapour — the condensation level."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "meteo",
+          "page": 57
+        }
+      ],
       "subcategory": "humidity-and-condensation"
     },
     "Weather_40": {
       "qid": 40,
       "topic": "Weather",
+      "explanation": "Saturated (humid) rising air cools at less than 1°C per 100 m because condensation releases latent heat back into the parcel and partly offsets the adiabatic cooling. In Swiss lower-troposphere conditions the moist-adiabatic rate is roughly 0.65°C/100 m — clearly less than 1°C/100 m, and never as high as 1.5 or 2°C/100 m.",
+      "guide_chapter": {
+        "id": "p2-water-humidity",
+        "title": "Physical State of Water & Humidity"
+      },
+      "workbook_chapter": {
+        "id": "meteo-04-water-humidity",
+        "title": "Water in the air"
+      },
+      "diagrams": [
+        {
+          "id": "p2-saturation-curve",
+          "title": "Saturation curve and dew point"
+        },
+        {
+          "id": "p2-thermal-vs-emagram",
+          "title": "Why thermals stop rising"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "meteo_1",
+          "t_start": 632.4,
+          "t_end": 693.0,
+          "snippet": "Fabio: moist-adiabatic cooling is roughly 0.65°C per 100 m, because condensation gives back latent heat."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "meteo",
+          "page": 61
+        }
+      ],
       "subcategory": "temperature-and-lapse-rates"
     },
     "Weather_41": {
       "qid": 41,
       "topic": "Weather",
+      "explanation": "The moist-adiabatic lapse rate depends most strongly on how much water vapour actually condenses in the rising parcel. The more vapour condenses, the more latent heat is released, the warmer the parcel stays, and the smaller the temperature gradient. It is not driven by relative humidity, temperature offset from the surroundings or solar intensity.",
+      "guide_chapter": {
+        "id": "p2-water-humidity",
+        "title": "Physical State of Water & Humidity"
+      },
+      "workbook_chapter": {
+        "id": "meteo-04-water-humidity",
+        "title": "Water in the air"
+      },
+      "diagrams": [
+        {
+          "id": "p2-saturation-curve",
+          "title": "Saturation curve and dew point"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "meteo_1",
+          "t_start": 656.8,
+          "t_end": 693.0,
+          "snippet": "Fabio: how much the moist adiabatic differs from 1°C/100 m depends on how much water vapour condenses in the bubble."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "meteo",
+          "page": 61
+        }
+      ],
       "subcategory": "temperature-and-lapse-rates"
     },
     "Weather_43": {
       "qid": 43,
       "topic": "Weather",
+      "explanation": "Fluffy cumulus clouds are the visible signature of good thermal activity: each cumulus marks the top of a rising thermal column where moisture has condensed at the cloud base. Stratus = stable, cirrus = high ice, lenticular = strong wind aloft — none of them indicate thermals.",
+      "guide_chapter": {
+        "id": "p2-clouds-fog-mist",
+        "title": "Clouds, Fog and Mist"
+      },
+      "workbook_chapter": {
+        "id": "meteo-05-clouds-fog-mist",
+        "title": "Clouds, fog and mist"
+      },
+      "diagrams": [
+        {
+          "id": "p2-clouds-bands",
+          "title": "Cloud altitude bands"
+        },
+        {
+          "id": "p2-thermal-column",
+          "title": "Structure of a thermal column"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "meteo_1",
+          "t_start": 775.6,
+          "t_end": 813.8,
+          "snippet": "Fabio: cumulus clouds form at the top of thermals — they mark where the rising bubbles are condensing."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "meteo",
+          "page": 51
+        },
+        {
+          "deck_id": "meteo",
+          "page": 52
+        },
+        {
+          "deck_id": "meteo",
+          "page": 72
+        }
+      ],
       "subcategory": "cloud-types-and-formation"
     },
     "Weather_44": {
       "qid": 44,
       "topic": "Weather",
+      "explanation": "Altocumulus castellanus — towered, castle-shaped mid-level clouds — appearing just a couple of hours after sunrise signal an unstable, humid layer at their altitude. They are the classic morning warning sign for afternoon thunderstorms because that mid-level instability will be amplified once the boundary layer fully heats.",
+      "guide_chapter": {
+        "id": "p2-clouds-fog-mist",
+        "title": "Clouds, Fog and Mist"
+      },
+      "workbook_chapter": {
+        "id": "meteo-05-clouds-fog-mist",
+        "title": "Clouds, fog and mist"
+      },
+      "diagrams": [
+        {
+          "id": "p2-clouds-bands",
+          "title": "Cloud altitude bands"
+        },
+        {
+          "id": "p2-cumulonimbus",
+          "title": "Cumulonimbus storm structure"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "meteo_1",
+          "t_start": 2050.0,
+          "t_end": 2078.1,
+          "snippet": "Fabio: a basic rule — when small clouds early in the morning start to grow upward, the day is unstable."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "meteo",
+          "page": 67
+        },
+        {
+          "deck_id": "meteo",
+          "page": 73
+        }
+      ],
       "subcategory": "cloud-types-and-formation"
     },
     "Weather_45": {
       "qid": 45,
       "topic": "Weather",
+      "explanation": "Sunshine at altitude combined with low-altitude fog or stratus is the textbook signature of a strong, stable inversion in the lower troposphere — typically a winter anticyclone. The fog is trapped beneath the warm layer above, and the sky is blue from the mountain tops.",
+      "guide_chapter": {
+        "id": "p2-clouds-fog-mist",
+        "title": "Clouds, Fog and Mist"
+      },
+      "workbook_chapter": {
+        "id": "meteo-03-inversions-stability",
+        "title": "Inversions, isothermal layers and stability"
+      },
+      "diagrams": [
+        {
+          "id": "p2-emagram-inversion",
+          "title": "Emagram with inversion and isothermal layers"
+        },
+        {
+          "id": "p2-clouds-bands",
+          "title": "Cloud altitude bands"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "meteo_1",
+          "t_start": 1041.1,
+          "t_end": 1080.4,
+          "snippet": "Fabio: classic winter inversion — Zurich sits in fog while the peaks are warm and sunny."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "meteo",
+          "page": 64
+        },
+        {
+          "deck_id": "meteo",
+          "page": 65
+        }
+      ],
       "subcategory": "cloud-types-and-formation"
     },
     "Weather_46": {
       "qid": 46,
       "topic": "Weather",
+      "explanation": "Radiation (ground) fog needs a clear sky (so the ground can radiate heat away freely), no wind (so the cold, moist surface layer is not mixed out) and a small temperature–dew-point spread (so only a little cooling is required to reach saturation). Big spreads, cloud cover or a 10 kt wind would each kill the process.",
+      "guide_chapter": {
+        "id": "p2-clouds-fog-mist",
+        "title": "Clouds, Fog and Mist"
+      },
+      "workbook_chapter": {
+        "id": "meteo-05-clouds-fog-mist",
+        "title": "Clouds, fog and mist"
+      },
+      "diagrams": [
+        {
+          "id": "p2-cloud-formation",
+          "title": "Three causes of cloud formation"
+        },
+        {
+          "id": "p2-saturation-curve",
+          "title": "Saturation curve and dew point"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "meteo_0",
+          "t_start": 587.3,
+          "t_end": 670.0,
+          "snippet": "Fabio: clear sky, calm wind and humid air at night cool the ground by infrared radiation — the textbook recipe for radiation fog."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "meteo",
+          "page": 64
+        }
+      ],
       "subcategory": "cloud-types-and-formation"
     },
     "Weather_47": {
       "qid": 47,
       "topic": "Weather",
+      "explanation": "Clouds form when air is cooled, most commonly by being lifted (orographic, thermal or frontal uplift), until its temperature drops to its dew point and water vapour begins to condense. Heating and evaporation, blocked uplift at an inversion, or being inside a low-pressure system are not the universal cloud-formation mechanism.",
+      "guide_chapter": {
+        "id": "p2-clouds-fog-mist",
+        "title": "Clouds, Fog and Mist"
+      },
+      "workbook_chapter": {
+        "id": "meteo-05-clouds-fog-mist",
+        "title": "Clouds, fog and mist"
+      },
+      "diagrams": [
+        {
+          "id": "p2-cloud-formation",
+          "title": "Three causes of cloud formation"
+        },
+        {
+          "id": "p2-saturation-curve",
+          "title": "Saturation curve and dew point"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "meteo_1",
+          "t_start": 478.3,
+          "t_end": 530.1,
+          "snippet": "Fabio: as the parcel rises and cools, at the condensation level the water vapour turns into tiny droplets — that is how a cloud forms."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "meteo",
+          "page": 57
+        },
+        {
+          "deck_id": "meteo",
+          "page": 52
+        }
+      ],
       "subcategory": "humidity-and-condensation"
     },
     "Weather_48": {
       "qid": 48,
       "topic": "Weather",
+      "explanation": "Cumulus cloud base = the lower edge of the cloud, sitting at the altitude where the rising thermal first cools enough for its temperature to equal its dew point. Above this level condensation continues, building the cloud upward; below it the air remains too warm/dry to condense.",
+      "guide_chapter": {
+        "id": "p2-clouds-fog-mist",
+        "title": "Clouds, Fog and Mist"
+      },
+      "workbook_chapter": {
+        "id": "meteo-05-clouds-fog-mist",
+        "title": "Clouds, fog and mist"
+      },
+      "diagrams": [
+        {
+          "id": "p2-saturation-curve",
+          "title": "Saturation curve and dew point"
+        },
+        {
+          "id": "p2-thermal-column",
+          "title": "Structure of a thermal column"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "meteo_1",
+          "t_start": 698.8,
+          "t_end": 749.4,
+          "snippet": "Fabio: the rising bubble cools dry-adiabatically until it reaches the condensation level — that level is the cumulus base."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "meteo",
+          "page": 57
+        },
+        {
+          "deck_id": "meteo",
+          "page": 62
+        }
+      ],
       "subcategory": "cloud-types-and-formation"
     },
     "Weather_49": {
       "qid": 49,
       "topic": "Weather",
+      "explanation": "A continuous cloud layer with a base at about 4000 m is classified as altostratus — \"alto-\" denotes the mid-level altitude band (3000–6000 m) and \"stratus\" the sheet-like, layered form. Nimbostratus is lower and rain-producing; altocumulus is patchy; cirrostratus sits much higher.",
+      "guide_chapter": {
+        "id": "p2-clouds-fog-mist",
+        "title": "Clouds, Fog and Mist"
+      },
+      "workbook_chapter": {
+        "id": "meteo-05-clouds-fog-mist",
+        "title": "Clouds, fog and mist"
+      },
+      "diagrams": [
+        {
+          "id": "p2-clouds-bands",
+          "title": "Cloud altitude bands"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "meteo_1",
+          "t_start": 1369.6,
+          "t_end": 1417.2,
+          "snippet": "Fabio: altostratus and altocumulus are both the alto level — between roughly 3 and 7 km."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "meteo",
+          "page": 67
+        },
+        {
+          "deck_id": "meteo",
+          "page": 68
+        }
+      ],
       "subcategory": "cloud-types-and-formation"
     },
     "Weather_50": {
       "qid": 50,
       "topic": "Weather",
+      "explanation": "Small patchy clouds with a base around 4500 m are altocumulus — \"alto-\" for the mid-level altitude band, \"cumulus\" for the heaped/puffy form. Cirrocumulus would be much higher (above 6000 m), altostratus is a sheet, cumulonimbus a towering storm cloud.",
+      "guide_chapter": {
+        "id": "p2-clouds-fog-mist",
+        "title": "Clouds, Fog and Mist"
+      },
+      "workbook_chapter": {
+        "id": "meteo-05-clouds-fog-mist",
+        "title": "Clouds, fog and mist"
+      },
+      "diagrams": [
+        {
+          "id": "p2-clouds-bands",
+          "title": "Cloud altitude bands"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "meteo_1",
+          "t_start": 1369.6,
+          "t_end": 1417.2,
+          "snippet": "Fabio: altocumulus is mid-level cumulus around 4–5 km; alto = the mid storey of the cloud grid."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "meteo",
+          "page": 67
+        },
+        {
+          "deck_id": "meteo",
+          "page": 68
+        }
+      ],
       "subcategory": "cloud-types-and-formation"
     },
     "Weather_52": {
       "qid": 52,
       "topic": "Weather",
+      "explanation": "Cirrocumulus sits above 6000 m (often higher than 8 km), the highest base of the cumulus family and far above stratocumulus, cumulus or cumulonimbus — the others have bases under 3000 m or extend down to it. Cirro-clouds are also pure ice crystals at that altitude.",
+      "guide_chapter": {
+        "id": "p2-clouds-fog-mist",
+        "title": "Clouds, Fog and Mist"
+      },
+      "workbook_chapter": {
+        "id": "meteo-05-clouds-fog-mist",
+        "title": "Clouds, fog and mist"
+      },
+      "diagrams": [
+        {
+          "id": "p2-clouds-bands",
+          "title": "Cloud altitude bands"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "meteo_1",
+          "t_start": 1338.4,
+          "t_end": 1369.6,
+          "snippet": "Fabio: cirro-clouds live above 8 km — really, really high; alto is the mid level around 4–7 km."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "meteo",
+          "page": 67
+        },
+        {
+          "deck_id": "meteo",
+          "page": 68
+        },
+        {
+          "deck_id": "meteo",
+          "page": 69
+        }
+      ],
       "subcategory": "cloud-types-and-formation"
     },
     "Weather_54": {
       "qid": 54,
       "topic": "Weather",
+      "explanation": "Nimbostratus is the thick, rain-producing layer cloud — \"nimbo-\" means rain in cloud-naming. It is the classic precipitation cloud of warm fronts and well-established low-pressure systems. Stratocumulus, cumulus humilis and cirrostratus produce, at most, drizzle, no rain or only halos.",
+      "guide_chapter": {
+        "id": "p2-clouds-fog-mist",
+        "title": "Clouds, Fog and Mist"
+      },
+      "workbook_chapter": {
+        "id": "meteo-05-clouds-fog-mist",
+        "title": "Clouds, fog and mist"
+      },
+      "diagrams": [
+        {
+          "id": "p2-clouds-bands",
+          "title": "Cloud altitude bands"
+        },
+        {
+          "id": "p2-warm-front",
+          "title": "Warm front cross-section"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "meteo_1",
+          "t_start": 1437.2,
+          "t_end": 1455.6,
+          "snippet": "Fabio: nimbus stands for rain — nimbostratus is the layered cloud that just keeps raining, classic warm-front weather."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "meteo",
+          "page": 47
+        },
+        {
+          "deck_id": "meteo",
+          "page": 69
+        }
+      ],
       "subcategory": "cloud-types-and-formation"
     },
     "Weather_55": {
       "qid": 55,
       "topic": "Weather",
+      "explanation": "Cirrocumulus sits above 6000 m where temperatures are well below freezing, so the small flake-like puffs are always made entirely of ice crystals — like dust hanging in the upper troposphere. The other listed types are too low to be ice-only: nimbostratus, cumulus humilis and stratocumulus all sit in water-droplet territory.",
+      "guide_chapter": {
+        "id": "p2-clouds-fog-mist",
+        "title": "Clouds, Fog and Mist"
+      },
+      "workbook_chapter": {
+        "id": "meteo-05-clouds-fog-mist",
+        "title": "Clouds, fog and mist"
+      },
+      "diagrams": [
+        {
+          "id": "p2-clouds-bands",
+          "title": "Cloud altitude bands"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "meteo_1",
+          "t_start": 1291.7,
+          "t_end": 1338.4,
+          "snippet": "Fabio: cirro-clouds at high altitudes consist purely of ice crystals — it is freezing up there."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "meteo",
+          "page": 69
+        },
+        {
+          "deck_id": "meteo",
+          "page": 70
+        }
+      ],
       "subcategory": "cloud-types-and-formation"
     },
     "Weather_57": {
       "qid": 57,
       "topic": "Weather",
+      "explanation": "Cumulonimbus is by far the most dangerous cloud type for paragliders and hang-gliders: vertical drafts of over 30 m/s, hail, lightning, gust fronts and even being sucked in to high altitude. Cirrocumulus, cumulus humilis and stratocumulus pose almost no threat by comparison.",
+      "guide_chapter": {
+        "id": "p2-clouds-fog-mist",
+        "title": "Clouds, Fog and Mist"
+      },
+      "workbook_chapter": {
+        "id": "meteo-10-storms-synoptics",
+        "title": "Heat, storms and Swiss weather"
+      },
+      "diagrams": [
+        {
+          "id": "p2-cumulonimbus",
+          "title": "Cumulonimbus storm structure"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "meteo_1",
+          "t_start": 1475.2,
+          "t_end": 1495.7,
+          "snippet": "Fabio: for us the cumulonimbus is the most dangerous cloud — thunderstorm, lightning, hail, all of it."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "meteo",
+          "page": 75
+        },
+        {
+          "deck_id": "meteo",
+          "page": 76
+        }
+      ],
       "subcategory": "thunderstorms-and-convective"
     },
     "Weather_58": {
       "qid": 58,
       "topic": "Weather",
+      "explanation": "Lenticular (lens-shaped) clouds develop when a moist air mass flows over a mountain ridge at a sufficient speed and gets pushed into a standing wave. They form at the wave crests where the rising air condenses, and dissolve again as the air descends — which is why they look stationary in a strong wind.",
+      "guide_chapter": {
+        "id": "p2-clouds-fog-mist",
+        "title": "Clouds, Fog and Mist"
+      },
+      "workbook_chapter": {
+        "id": "meteo-05-clouds-fog-mist",
+        "title": "Clouds, fog and mist"
+      },
+      "diagrams": [
+        {
+          "id": "p2-lenticular",
+          "title": "Lenticular cloud from mountain wave"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "meteo_1",
+          "t_start": 1583.4,
+          "t_end": 1629.5,
+          "snippet": "Fabio: lenticularis needs a mountain range, strong wind and some humidity — the air condenses at the wave crest and evaporates again as it descends."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "meteo",
+          "page": 85
+        }
+      ],
       "subcategory": "cloud-types-and-formation"
     },
     "Weather_59": {
       "qid": 59,
       "topic": "Weather",
+      "explanation": "Lenticular clouds appear stationary despite very strong winds because they form at the fixed crest of a mountain wave: air condenses entering the crest, evaporates leaving it, so the cloud itself stays put while the wind blows through it. They occur in any wind situation — not only south Föhn — and contain ice as well as water.",
+      "guide_chapter": {
+        "id": "p2-clouds-fog-mist",
+        "title": "Clouds, Fog and Mist"
+      },
+      "workbook_chapter": {
+        "id": "meteo-05-clouds-fog-mist",
+        "title": "Clouds, fog and mist"
+      },
+      "diagrams": [
+        {
+          "id": "p2-lenticular",
+          "title": "Lenticular cloud from mountain wave"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "meteo_1",
+          "t_start": 1629.5,
+          "t_end": 1661.5,
+          "snippet": "Fabio: just because a lenticularis stays in place does not mean there is no wind — it is a fixed wave above strong wind."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "meteo",
+          "page": 85
+        }
+      ],
       "subcategory": "cloud-types-and-formation"
     },
     "Weather_60": {
       "qid": 60,
       "topic": "Weather",
+      "explanation": "A grey curtain hanging from the cloud base toward the ground is the textbook far-visible sign that a cumulus congestus or cumulonimbus is precipitating — the vertical streaks of rain or hail are unmistakable from kilometres away. Vertical extent, dark colour or rising fog are not specific precipitation indicators.",
+      "guide_chapter": {
+        "id": "p2-clouds-fog-mist",
+        "title": "Clouds, Fog and Mist"
+      },
+      "workbook_chapter": {
+        "id": "meteo-10-storms-synoptics",
+        "title": "Heat, storms and Swiss weather"
+      },
+      "diagrams": [
+        {
+          "id": "p2-cumulonimbus",
+          "title": "Cumulonimbus storm structure"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "meteo_1",
+          "t_start": 1976.8,
+          "t_end": 2002.2,
+          "snippet": "Fabio: when you see the grey precipitation curtain coming out below, the bucket is being poured out — land immediately."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "meteo",
+          "page": 75
+        },
+        {
+          "deck_id": "meteo",
+          "page": 76
+        }
+      ],
       "subcategory": "thunderstorms-and-convective"
     },
     "Weather_61": {
       "qid": 61,
       "topic": "Weather",
+      "explanation": "Once precipitation is visible under a cumulus congestus or cumulonimbus, evaporative cooling of the falling rain produces very cold, dense air that crashes to the surface as a powerful, gusty downdraft — the gust front. That is exactly the storm phase where outflows spread far ahead of the cloud and cause many paraglider accidents.",
+      "guide_chapter": {
+        "id": "p2-heat-storms",
+        "title": "Heat and Storms"
+      },
+      "workbook_chapter": {
+        "id": "meteo-10-storms-synoptics",
+        "title": "Heat, storms and Swiss weather"
+      },
+      "diagrams": [
+        {
+          "id": "p2-cumulonimbus",
+          "title": "Cumulonimbus storm structure"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "meteo_1",
+          "t_start": 1895.0,
+          "t_end": 1974.8,
+          "snippet": "Fabio: when the bucket of cold air is dumped out under the storm, the outflow sends very strong gusts kilometres ahead of the cloud — that is the underestimated danger."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "meteo",
+          "page": 75
+        },
+        {
+          "deck_id": "meteo",
+          "page": 76
+        }
+      ],
       "subcategory": "thunderstorms-and-convective"
     },
     "Weather_62": {
       "qid": 62,
       "topic": "Weather",
+      "explanation": "Cumulus congestus and cumulonimbus clouds frequently produce hail aloft, but the hail does not always reach the ground — small hailstones may melt in warmer layers below. The other statements (hail as large as a fist, evaporative downdrafts, 30 m/s gusts) are all true for big storm cells.",
+      "guide_chapter": {
+        "id": "p2-heat-storms",
+        "title": "Heat and Storms"
+      },
+      "workbook_chapter": {
+        "id": "meteo-10-storms-synoptics",
+        "title": "Heat, storms and Swiss weather"
+      },
+      "diagrams": [
+        {
+          "id": "p2-cumulonimbus",
+          "title": "Cumulonimbus storm structure"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "meteo_1",
+          "t_start": 1879.5,
+          "t_end": 1936.2,
+          "snippet": "Fabio: thunderstorm clouds can generate hail and very strong gusts — but hail at ground is not guaranteed, while the gust front is."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "meteo",
+          "page": 75
+        },
+        {
+          "deck_id": "meteo",
+          "page": 76
+        }
+      ],
       "subcategory": "cloud-types-and-formation"
     },
     "Weather_64": {
       "qid": 64,
       "topic": "Weather",
+      "explanation": "Higher pressure at the surface develops over an area that stays colder than its surroundings for a long time — the dense, cool air piles up. Classic examples are the Siberian or North-Atlantic anticyclones in winter. Warmth, intense sunshine or simply being dry produce the opposite tendency.",
+      "guide_chapter": {
+        "id": "p2-action-centers-isobars",
+        "title": "Action Centers, Isobars and Prevailing Winds"
+      },
+      "workbook_chapter": {
+        "id": "meteo-06-pressure-and-prevailing-winds",
+        "title": "Pressure systems and prevailing winds"
+      },
+      "diagrams": [
+        {
+          "id": "p2-isobar-rotation",
+          "title": "Wind rotation around pressure centers"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "meteo_0",
+          "t_start": 627.9,
+          "t_end": 670.0,
+          "snippet": "Fabio: an area that has been colder for longer than its surroundings produces higher air pressure."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "meteo",
+          "page": 18
+        },
+        {
+          "deck_id": "meteo",
+          "page": 19
+        }
+      ],
       "subcategory": "pressure-systems-and-isobars"
     },
     "Weather_65": {
       "qid": 65,
       "topic": "Weather",
+      "explanation": "Lower surface pressure develops over an area that stays warmer than its surroundings for a long time — the warm, less dense air rises and \"thins\" the column. Classic examples: the equator, the summer Sahara, the warm winter ocean compared with cold continents.",
+      "guide_chapter": {
+        "id": "p2-action-centers-isobars",
+        "title": "Action Centers, Isobars and Prevailing Winds"
+      },
+      "workbook_chapter": {
+        "id": "meteo-06-pressure-and-prevailing-winds",
+        "title": "Pressure systems and prevailing winds"
+      },
+      "diagrams": [
+        {
+          "id": "p2-isobar-rotation",
+          "title": "Wind rotation around pressure centers"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "meteo_0",
+          "t_start": 638.1,
+          "t_end": 670.0,
+          "snippet": "Fabio: an area that has been warm for longer than its surroundings has lower air pressure — the rising warm air thins the column."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "meteo",
+          "page": 18
+        },
+        {
+          "deck_id": "meteo",
+          "page": 20
+        }
+      ],
       "subcategory": "pressure-systems-and-isobars"
     },
     "Weather_66": {
       "qid": 66,
       "topic": "Weather",
+      "explanation": "An extensive low-pressure system at European latitudes typically reads around 955 hPa at its centre — pronounced but not record-breaking. 1035 hPa is a strong high, 915 hPa would be a record-deep cyclone, and 1055 hPa is essentially unheard of in extra-tropical Europe.",
+      "guide_chapter": {
+        "id": "p2-action-centers-isobars",
+        "title": "Action Centers, Isobars and Prevailing Winds"
+      },
+      "workbook_chapter": {
+        "id": "meteo-06-pressure-and-prevailing-winds",
+        "title": "Pressure systems and prevailing winds"
+      },
+      "diagrams": [
+        {
+          "id": "p2-isobar-rotation",
+          "title": "Wind rotation around pressure centers"
+        },
+        {
+          "id": "p2-isobar-spacing",
+          "title": "Isobar spacing and wind strength"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "meteo_0",
+          "t_start": 729.7,
+          "t_end": 770.7,
+          "snippet": "Fabio: a pronounced low in Europe sits around 955 hPa; very strong highs reach 1035 hPa."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "meteo",
+          "page": 20
+        }
+      ],
       "subcategory": "pressure-systems-and-isobars"
     },
     "Weather_67": {
       "qid": 67,
       "topic": "Weather",
+      "explanation": "A typical pronounced European anticyclone tops out around 1035 hPa at sea level; in winter, with cold dense air, it can reach 1040 hPa. 1055 hPa is essentially unheard of, while 915 and 955 hPa describe deep lows, not highs.",
+      "guide_chapter": {
+        "id": "p2-action-centers-isobars",
+        "title": "Action Centers, Isobars and Prevailing Winds"
+      },
+      "workbook_chapter": {
+        "id": "meteo-06-pressure-and-prevailing-winds",
+        "title": "Pressure systems and prevailing winds"
+      },
+      "diagrams": [
+        {
+          "id": "p2-isobar-rotation",
+          "title": "Wind rotation around pressure centers"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "meteo_0",
+          "t_start": 736.7,
+          "t_end": 770.7,
+          "snippet": "Fabio: a strongly developed European high is around 1035 hPa — climate change is now pushing some to 1048 hPa."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "meteo",
+          "page": 20
+        }
+      ],
       "subcategory": "pressure-systems-and-isobars"
     },
     "Weather_68": {
       "qid": 68,
       "topic": "Weather",
+      "explanation": "In a northern-hemisphere low (cyclone), surface air spirals anticlockwise around the centre, converges and rises over a large area — this large-scale lift is what produces the cloud and precipitation associated with lows. Clockwise belongs to highs in this hemisphere, and lows don't produce sinking air at their centres.",
+      "guide_chapter": {
+        "id": "p2-action-centers-isobars",
+        "title": "Action Centers, Isobars and Prevailing Winds"
+      },
+      "workbook_chapter": {
+        "id": "meteo-06-pressure-and-prevailing-winds",
+        "title": "Pressure systems and prevailing winds"
+      },
+      "diagrams": [
+        {
+          "id": "p2-isobar-rotation",
+          "title": "Wind rotation around pressure centers"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "meteo_0",
+          "t_start": 998.8,
+          "t_end": 1080.5,
+          "snippet": "Fabio: in the northern hemisphere a high rotates clockwise, a low rotates counterclockwise — and air rises in the low."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "meteo",
+          "page": 24
+        },
+        {
+          "deck_id": "meteo",
+          "page": 25
+        }
+      ],
       "subcategory": "pressure-systems-and-isobars"
     },
     "Weather_69": {
       "qid": 69,
       "topic": "Weather",
+      "explanation": "In a northern-hemisphere high (anticyclone), surface air spirals clockwise around the centre, sinks over a large area and warms by compression — this subsidence is what gives anticyclones their famously clear, dry weather. Anticlockwise belongs to lows in this hemisphere, and rising air belongs to lows.",
+      "guide_chapter": {
+        "id": "p2-action-centers-isobars",
+        "title": "Action Centers, Isobars and Prevailing Winds"
+      },
+      "workbook_chapter": {
+        "id": "meteo-06-pressure-and-prevailing-winds",
+        "title": "Pressure systems and prevailing winds"
+      },
+      "diagrams": [
+        {
+          "id": "p2-isobar-rotation",
+          "title": "Wind rotation around pressure centers"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "meteo_0",
+          "t_start": 1058.5,
+          "t_end": 1098.7,
+          "snippet": "Fabio: high pressure = clockwise rotation in the northern hemisphere = positive sunny flying weather, with air sinking."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "meteo",
+          "page": 23
+        },
+        {
+          "deck_id": "meteo",
+          "page": 24
+        }
+      ],
       "subcategory": "pressure-systems-and-isobars"
     },
     "Weather_70": {
       "qid": 70,
       "topic": "Weather",
+      "explanation": "An isobar is a contour line on a surface chart connecting points of equal atmospheric pressure, reduced to mean sea level so that high and low altitudes can be compared on the same map. Iso = equal, bar = pressure; not equal temperature, not constant 500 hPa, not the steepest gradient.",
+      "guide_chapter": {
+        "id": "p2-action-centers-isobars",
+        "title": "Action Centers, Isobars and Prevailing Winds"
+      },
+      "workbook_chapter": {
+        "id": "meteo-06-pressure-and-prevailing-winds",
+        "title": "Pressure systems and prevailing winds"
+      },
+      "diagrams": [
+        {
+          "id": "p2-isobar-rotation",
+          "title": "Wind rotation around pressure centers"
+        },
+        {
+          "id": "p2-isobar-spacing",
+          "title": "Isobar spacing and wind strength"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "meteo_0",
+          "t_start": 879.7,
+          "t_end": 937.1,
+          "snippet": "Fabio: isobar = line of equal pressure, reduced to sea level — iso means equal, bar means pressure."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "meteo",
+          "page": 22
+        },
+        {
+          "deck_id": "meteo",
+          "page": 23
+        }
+      ],
       "subcategory": "pressure-systems-and-isobars"
     },
     "Weather_71": {
       "qid": 71,
       "topic": "Weather",
+      "explanation": "From the spacing and orientation of isobars on a surface chart you can read off the prevailing wind strength (close spacing = strong wind) and the prevailing wind direction (parallel to isobars, clockwise around highs / anticlockwise around lows). Temperature gradient or chance of precipitation are not directly encoded in the isobar pattern alone.",
+      "guide_chapter": {
+        "id": "p2-action-centers-isobars",
+        "title": "Action Centers, Isobars and Prevailing Winds"
+      },
+      "workbook_chapter": {
+        "id": "meteo-06-pressure-and-prevailing-winds",
+        "title": "Pressure systems and prevailing winds"
+      },
+      "diagrams": [
+        {
+          "id": "p2-isobar-spacing",
+          "title": "Isobar spacing and wind strength"
+        },
+        {
+          "id": "p2-isobar-rotation",
+          "title": "Wind rotation around pressure centers"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "meteo_0",
+          "t_start": 1949.0,
+          "t_end": 1982.0,
+          "snippet": "Fabio: from the isobars we read wind direction parallel to the lines and wind strength from how close together they are."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "meteo",
+          "page": 26
+        },
+        {
+          "deck_id": "meteo",
+          "page": 27
+        },
+        {
+          "deck_id": "meteo",
+          "page": 28
+        }
+      ],
       "subcategory": "pressure-systems-and-isobars"
     },
     "Weather_72": {
       "qid": 72,
       "topic": "Weather",
+      "explanation": "Surface winds in flat terrain blow roughly parallel to the isobars, flowing from the centre of a high toward the centre of a low (the air mass is equalising pressure, but the Coriolis force deflects it so it travels along the isobars rather than straight across them). A direct path or the opposite direction would ignore the Coriolis effect.",
+      "guide_chapter": {
+        "id": "p2-action-centers-isobars",
+        "title": "Action Centers, Isobars and Prevailing Winds"
+      },
+      "workbook_chapter": {
+        "id": "meteo-06-pressure-and-prevailing-winds",
+        "title": "Pressure systems and prevailing winds"
+      },
+      "diagrams": [
+        {
+          "id": "p2-isobar-rotation",
+          "title": "Wind rotation around pressure centers"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "meteo_0",
+          "t_start": 1131.6,
+          "t_end": 1178.4,
+          "snippet": "Fabio: air does not flow straight from high to low — the Coriolis force deflects it into a spiral, parallel to the isobars."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "meteo",
+          "page": 26
+        }
+      ],
       "subcategory": "pressure-systems-and-isobars"
     },
     "Weather_73": {
       "qid": 73,
       "topic": "Weather",
+      "explanation": "When isobars are squeezed close together the pressure gradient is steep (a lot of hPa change over little distance) — and that drives a strong wind, exactly as a steep slope makes water flow fast. Far-apart isobars = weak gradient = light wind.",
+      "guide_chapter": {
+        "id": "p2-action-centers-isobars",
+        "title": "Action Centers, Isobars and Prevailing Winds"
+      },
+      "workbook_chapter": {
+        "id": "meteo-06-pressure-and-prevailing-winds",
+        "title": "Pressure systems and prevailing winds"
+      },
+      "diagrams": [
+        {
+          "id": "p2-isobar-spacing",
+          "title": "Isobar spacing and wind strength"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "meteo_0",
+          "t_start": 1959.1,
+          "t_end": 1982.0,
+          "snippet": "Fabio: the closer the isobars are together, the stronger the wind — and the further apart, the weaker."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "meteo",
+          "page": 27
+        },
+        {
+          "deck_id": "meteo",
+          "page": 28
+        }
+      ],
       "subcategory": "pressure-systems-and-isobars"
     },
     "Weather_74": {
       "qid": 74,
       "topic": "Weather",
+      "explanation": "When isobars are spread far apart, the pressure gradient is flat (very few hPa per hundred kilometres) and the surface wind is light — there is little \"push\" to equalise the pressure. Steep gradients with strong winds need the lines packed tightly together.",
+      "guide_chapter": {
+        "id": "p2-action-centers-isobars",
+        "title": "Action Centers, Isobars and Prevailing Winds"
+      },
+      "workbook_chapter": {
+        "id": "meteo-06-pressure-and-prevailing-winds",
+        "title": "Pressure systems and prevailing winds"
+      },
+      "diagrams": [
+        {
+          "id": "p2-isobar-spacing",
+          "title": "Isobar spacing and wind strength"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "meteo_0",
+          "t_start": 1959.1,
+          "t_end": 1982.0,
+          "snippet": "Fabio: when the isobars are spread out, the pressure gradient is flat and the wind is weak — think of a topographic map with widely-spaced contours."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "meteo",
+          "page": 27
+        }
+      ],
       "subcategory": "pressure-systems-and-isobars"
     },
     "Weather_75": {
       "qid": 75,
       "topic": "Weather",
+      "explanation": "Thermal updrafts develop best in an area of flat pressure gradient (light winds — no mixing-out of the surface bubble) without subsidence inversion (so the rising warm air is not blocked aloft). High-pressure centres usually have a subsidence inversion that caps thermals, low-pressure centres bring weather, and strong gradients mean strong wind, not steady thermals.",
+      "guide_chapter": {
+        "id": "p2-heat-storms",
+        "title": "Heat and Storms"
+      },
+      "workbook_chapter": {
+        "id": "meteo-10-storms-synoptics",
+        "title": "Heat, storms and Swiss weather"
+      },
+      "diagrams": [
+        {
+          "id": "p2-thermal-column",
+          "title": "Structure of a thermal column"
+        },
+        {
+          "id": "p2-isobar-spacing",
+          "title": "Isobar spacing and wind strength"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "meteo_0",
+          "t_start": 763.6,
+          "t_end": 770.7,
+          "snippet": "Fabio: the barometric plateau — flat gradient, weak wind, often-good thermals with high ceiling."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "meteo",
+          "page": 51
+        },
+        {
+          "deck_id": "meteo",
+          "page": 64
+        }
+      ],
       "subcategory": "thermals-and-conditions"
     },
     "Weather_76": {
       "qid": 76,
       "topic": "Weather",
+      "explanation": "Winds are named by the direction they come FROM, not where they head to. 135° on the compass rose is the southeast quadrant (between 90° = east and 180° = south), so a wind from 135° is a southeast wind. Northeast is 045°, northwest 315°, southwest 225°.",
+      "guide_chapter": {
+        "id": "p2-wind-measurements",
+        "title": "Wind Measurements"
+      },
+      "workbook_chapter": {
+        "id": "meteo-06-pressure-and-prevailing-winds",
+        "title": "Pressure systems and prevailing winds"
+      },
+      "diagrams": [
+        {
+          "id": "p2-wind-rose",
+          "title": "Wind direction conventions"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "meteo_0",
+          "t_start": 1395.9,
+          "t_end": 1445.1,
+          "snippet": "Fabio: a wind is named for where it comes from — picture the compass rose, 135° comes from the southeast."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "meteo",
+          "page": 30
+        }
+      ],
       "subcategory": "wind-direction-and-speed"
     },
     "Weather_77": {
       "qid": 77,
       "topic": "Weather",
+      "explanation": "A northwest wind comes from 315° on the compass rose — halfway between north (000°/360°) and west (270°). 045° would be northeast, 135° southeast and 225° southwest.",
+      "guide_chapter": {
+        "id": "p2-wind-measurements",
+        "title": "Wind Measurements"
+      },
+      "workbook_chapter": {
+        "id": "meteo-06-pressure-and-prevailing-winds",
+        "title": "Pressure systems and prevailing winds"
+      },
+      "diagrams": [
+        {
+          "id": "p2-wind-rose",
+          "title": "Wind direction conventions"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "meteo_0",
+          "t_start": 1395.9,
+          "t_end": 1445.1,
+          "snippet": "Fabio: north 0°, east 90°, south 180°, west 270° — so northwest is 315°."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "meteo",
+          "page": 30
+        }
+      ],
       "subcategory": "wind-direction-and-speed"
     },
     "Weather_78": {
       "qid": 78,
       "topic": "Weather",
+      "explanation": "Conversion shortcut: knots × 2 − 10% ≈ km/h. So 25 kt × 2 = 50 km/h, minus 10% (5 km/h) = 45 km/h. That is also why the popular Beaufort cut-offs (15 kt ≈ 27 km/h, 20 kt ≈ 36 km/h) come out so clean.",
+      "guide_chapter": {
+        "id": "p2-wind-measurements",
+        "title": "Wind Measurements"
+      },
+      "workbook_chapter": {
+        "id": "meteo-06-pressure-and-prevailing-winds",
+        "title": "Pressure systems and prevailing winds"
+      },
+      "diagrams": [
+        {
+          "id": "p2-wind-rose",
+          "title": "Wind direction conventions"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "meteo_0",
+          "t_start": 1457.2,
+          "t_end": 1499.7,
+          "snippet": "Fabio: the simple formula — knots times 2, minus 10%, gives km/h. So 25 kt is 45 km/h."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "meteo",
+          "page": 31
+        }
+      ],
       "subcategory": "wind-direction-and-speed"
     },
     "Weather_79": {
       "qid": 79,
       "topic": "Weather",
+      "explanation": "270° on the compass rose is due west, so a wind from 270° is a west wind. Speed: 10 kt × 2 − 10% = 20 − 2 = 18 km/h. East would be 090°, and a 10 kt wind is 18 km/h not 10 km/h.",
+      "guide_chapter": {
+        "id": "p2-wind-measurements",
+        "title": "Wind Measurements"
+      },
+      "workbook_chapter": {
+        "id": "meteo-06-pressure-and-prevailing-winds",
+        "title": "Pressure systems and prevailing winds"
+      },
+      "diagrams": [
+        {
+          "id": "p2-wind-rose",
+          "title": "Wind direction conventions"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "meteo_0",
+          "t_start": 1395.9,
+          "t_end": 1499.7,
+          "snippet": "Fabio: 270° comes from the west, and 10 kt times 2 minus 10% gives 18 km/h."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "meteo",
+          "page": 30
+        },
+        {
+          "deck_id": "meteo",
+          "page": 31
+        }
+      ],
       "subcategory": "wind-direction-and-speed"
     },
     "Weather_82": {
       "qid": 82,
       "topic": "Weather",
+      "explanation": "In flat terrain the surface wind is weaker than the wind at 300 m AGL (ground friction slows it) and at the same time more turbulent (the same friction breaks the flow into eddies). Aloft the wind is faster and smoother — the classic wind gradient profile.",
+      "guide_chapter": {
+        "id": "p2-wind-measurements",
+        "title": "Wind Measurements"
+      },
+      "workbook_chapter": {
+        "id": "meteo-08-turbulence",
+        "title": "Turbulence"
+      },
+      "diagrams": [
+        {
+          "id": "p2-turbulence-types",
+          "title": "Three types of turbulence"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "meteo_0",
+          "t_start": 1499.7,
+          "t_end": 1556.9,
+          "snippet": "Fabio: near the ground the wind is weaker but more turbulent because of friction; aloft it is stronger and more laminar."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "meteo",
+          "page": 32
+        }
+      ],
       "subcategory": "wind-direction-and-speed"
     },
     "Weather_83": {
       "qid": 83,
       "topic": "Weather",
+      "explanation": "Conversely, at 300 m AGL in flat terrain the wind is stronger (no friction with the ground) and more laminar (less mechanical mixing) than at the surface. This is the wind gradient pilots feel on every flight: smoother and quicker as you climb away from the ground.",
+      "guide_chapter": {
+        "id": "p2-wind-measurements",
+        "title": "Wind Measurements"
+      },
+      "workbook_chapter": {
+        "id": "meteo-08-turbulence",
+        "title": "Turbulence"
+      },
+      "diagrams": [
+        {
+          "id": "p2-turbulence-types",
+          "title": "Three types of turbulence"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "meteo_0",
+          "t_start": 1499.7,
+          "t_end": 1556.9,
+          "snippet": "Fabio: in higher air layers the wind is stronger and more laminar — the classic wind gradient."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "meteo",
+          "page": 32
+        }
+      ],
       "subcategory": "wind-direction-and-speed"
     },
     "Weather_84": {
       "qid": 84,
       "topic": "Weather",
+      "explanation": "The mountain wind is a nighttime katabatic flow: cold air drains from the rapidly-cooling peaks and side valleys down into the main valley. It is the night-and-down-the-valley component of the alpine wind cycle, the opposite of the daytime upslope valley wind.",
+      "guide_chapter": {
+        "id": "p2-local-winds",
+        "title": "Local Winds"
+      },
+      "workbook_chapter": {
+        "id": "meteo-07-local-winds-foehn",
+        "title": "Local winds and Föhn"
+      },
+      "diagrams": [
+        {
+          "id": "p2-valley-winds",
+          "title": "Valley winds: day vs night"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "meteo_1",
+          "t_start": 2196.2,
+          "t_end": 2280.4,
+          "snippet": "Fabio: at night the mountains cool faster than the lowlands — cold air drains down the valley, that is the mountain wind."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "meteo",
+          "page": 79
+        }
+      ],
       "subcategory": "local-alpine-winds"
     },
     "Weather_86": {
       "qid": 86,
       "topic": "Weather",
+      "explanation": "Under a developed valley wind, thermals concentrate in the upper area of the valley sides — the slopes facing the sun heat strongly, lift slope thermals, and the rising warm air feeds the wind that climbs up the valley. The valley centre is mostly downflow/return air, not lift.",
+      "guide_chapter": {
+        "id": "p2-local-winds",
+        "title": "Local Winds"
+      },
+      "workbook_chapter": {
+        "id": "meteo-07-local-winds-foehn",
+        "title": "Local winds and Föhn"
+      },
+      "diagrams": [
+        {
+          "id": "p2-valley-winds",
+          "title": "Valley winds: day vs night"
+        },
+        {
+          "id": "p2-thermal-column",
+          "title": "Structure of a thermal column"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "meteo_0",
+          "t_start": 1689.2,
+          "t_end": 1733.5,
+          "snippet": "Fabio: each sunny slope contributes a thin layer of ascending air on its surface — that is where the lift is during valley wind."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "meteo",
+          "page": 78
+        }
+      ],
       "subcategory": "local-alpine-winds"
     },
     "Weather_87": {
       "qid": 87,
       "topic": "Weather",
+      "explanation": "When the mountain wind takes over at night, the cold drainage flow runs down the valley slopes and the only remaining lift is the slightly warmer air in the middle of the valley being pushed upward — restitution lift. That is why nighttime thermals are usually centred on the valley axis, not on the cold slopes.",
+      "guide_chapter": {
+        "id": "p2-local-winds",
+        "title": "Local Winds"
+      },
+      "workbook_chapter": {
+        "id": "meteo-07-local-winds-foehn",
+        "title": "Local winds and Föhn"
+      },
+      "diagrams": [
+        {
+          "id": "p2-valley-winds",
+          "title": "Valley winds: day vs night"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "meteo_1",
+          "t_start": 2235.6,
+          "t_end": 2280.4,
+          "snippet": "Fabio: at night, as cold air drains down, the warmer air in the middle of the valley sometimes rises — the restitution thermal."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "meteo",
+          "page": 79
+        }
+      ],
       "subcategory": "local-alpine-winds"
     },
     "Weather_88": {
       "qid": 88,
       "topic": "Weather",
+      "explanation": "The valley wind exists because mountains heat more efficiently than the flatlands during the day: the slopes warm faster and harder, lowering the pressure over the peaks. Air flows up the valley from the cooler flatlands to equalise — the daytime upslope component of the cycle.",
+      "guide_chapter": {
+        "id": "p2-local-winds",
+        "title": "Local Winds"
+      },
+      "workbook_chapter": {
+        "id": "meteo-07-local-winds-foehn",
+        "title": "Local winds and Föhn"
+      },
+      "diagrams": [
+        {
+          "id": "p2-valley-winds",
+          "title": "Valley winds: day vs night"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "meteo_1",
+          "t_start": 2105.4,
+          "t_end": 2151.0,
+          "snippet": "Fabio: the alpine slopes heat faster than the lowlands, lowering pressure over the mountains and pulling the valley wind up from the flatlands."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "meteo",
+          "page": 77
+        },
+        {
+          "deck_id": "meteo",
+          "page": 78
+        }
+      ],
       "subcategory": "local-alpine-winds"
     },
     "Weather_89": {
       "qid": 89,
       "topic": "Weather",
+      "explanation": "Mountain (katabatic) wind sets in because mountain slopes lose heat by radiation faster than the broad valley floor when the sun weakens — the cold, dense air on the slopes runs downhill into the warmer main valley. The opposite happens during the day (slopes warm faster), driving the valley wind.",
+      "guide_chapter": {
+        "id": "p2-local-winds",
+        "title": "Local Winds"
+      },
+      "workbook_chapter": {
+        "id": "meteo-07-local-winds-foehn",
+        "title": "Local winds and Föhn"
+      },
+      "diagrams": [
+        {
+          "id": "p2-valley-winds",
+          "title": "Valley winds: day vs night"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "meteo_1",
+          "t_start": 2196.2,
+          "t_end": 2235.6,
+          "snippet": "Fabio: at night the mountains cool faster than the lowlands — that pressure difference drives the mountain wind down the valley."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "meteo",
+          "page": 79
+        }
+      ],
       "subcategory": "local-alpine-winds"
     },
     "Weather_90": {
       "qid": 90,
       "topic": "Weather",
+      "explanation": "In summer in the Alps, the valley wind starts to set in around 11:00 once the sun has warmed the slopes enough to drive the upslope flow; it peaks mid-afternoon around 15:00. At 08:00 the system is too cold and at 18:00–22:00 it has already reversed into the mountain wind.",
+      "guide_chapter": {
+        "id": "p2-local-winds",
+        "title": "Local Winds"
+      },
+      "workbook_chapter": {
+        "id": "meteo-07-local-winds-foehn",
+        "title": "Local winds and Föhn"
+      },
+      "diagrams": [
+        {
+          "id": "p2-valley-winds",
+          "title": "Valley winds: day vs night"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "meteo_1",
+          "t_start": 2151.0,
+          "t_end": 2196.2,
+          "snippet": "Fabio: the valley wind kicks in around 11, peaks around 3 in the afternoon — and the mountain wind takes over around 6 pm."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "meteo",
+          "page": 78
+        }
+      ],
       "subcategory": "local-alpine-winds"
     },
     "Weather_91": {
       "qid": 91,
       "topic": "Weather",
+      "explanation": "In summer in the Alps, the mountain wind starts to set in around 18:00 — the sun is fading, the high slopes cool fastest and the cold drainage begins. By 22:00 it is fully established and by 11:00 the next morning it has reversed back to the valley wind.",
+      "guide_chapter": {
+        "id": "p2-local-winds",
+        "title": "Local Winds"
+      },
+      "workbook_chapter": {
+        "id": "meteo-07-local-winds-foehn",
+        "title": "Local winds and Föhn"
+      },
+      "diagrams": [
+        {
+          "id": "p2-valley-winds",
+          "title": "Valley winds: day vs night"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "meteo_1",
+          "t_start": 2196.2,
+          "t_end": 2235.6,
+          "snippet": "Fabio: the mountain wind usually starts around 6 pm as the mountains cool faster than the lowlands."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "meteo",
+          "page": 79
+        }
+      ],
       "subcategory": "local-alpine-winds"
     },
     "Weather_92": {
       "qid": 92,
       "topic": "Weather",
+      "explanation": "The alpine valley-wind system is driven by solar heating of the slopes, so it is strongest in the summer half-year (June–August) when the sun is high and the inner Alps are snow-free. December–January, with low sun, snow cover and weak heating, sees the weakest valley winds.",
+      "guide_chapter": {
+        "id": "p2-local-winds",
+        "title": "Local Winds"
+      },
+      "workbook_chapter": {
+        "id": "meteo-07-local-winds-foehn",
+        "title": "Local winds and Föhn"
+      },
+      "diagrams": [
+        {
+          "id": "p2-valley-winds",
+          "title": "Valley winds: day vs night"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "meteo_1",
+          "t_start": 2151.0,
+          "t_end": 2196.2,
+          "snippet": "Fabio: the valley wind needs thermal activity to kick in — it is strongest in summer, almost absent in winter."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "meteo",
+          "page": 78
+        }
+      ],
       "subcategory": "local-alpine-winds"
     },
     "Weather_93": {
       "qid": 93,
       "topic": "Weather",
+      "explanation": "The valley wind increases with decreasing altitude — it is strongest right on the valley floor where the cross-section is narrowed and the flow concentrates, and it gradually fades with height, typically disappearing around 2000 m where the prevailing wind takes over. At 800 m above ground it is already much weaker than at 50 m.",
+      "guide_chapter": {
+        "id": "p2-local-winds",
+        "title": "Local Winds"
+      },
+      "workbook_chapter": {
+        "id": "meteo-07-local-winds-foehn",
+        "title": "Local winds and Föhn"
+      },
+      "diagrams": [
+        {
+          "id": "p2-valley-winds",
+          "title": "Valley winds: day vs night"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "meteo_1",
+          "t_start": 2325.6,
+          "t_end": 2350.6,
+          "snippet": "Fabio: the valley wind is really in the valley floor — at 500 m above ground, depending on the valley, it is already much weaker."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "meteo",
+          "page": 78
+        }
+      ],
       "subcategory": "local-alpine-winds"
     },
     "Weather_94": {
       "qid": 94,
       "topic": "Weather",
+      "explanation": "A late-summer afternoon (30 August, 15:00) with 3/8 to 5/8 cumulus is the textbook valley-wind situation: good solar heating, plenty of thermal activity, sun-driven slope heating — all the ingredients are present. Cloudless December at 14:00 is too weak, overcast or 20:00 in June miss the heating, and so on.",
+      "guide_chapter": {
+        "id": "p2-local-winds",
+        "title": "Local Winds"
+      },
+      "workbook_chapter": {
+        "id": "meteo-07-local-winds-foehn",
+        "title": "Local winds and Föhn"
+      },
+      "diagrams": [
+        {
+          "id": "p2-valley-winds",
+          "title": "Valley winds: day vs night"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "meteo_1",
+          "t_start": 2151.0,
+          "t_end": 2196.2,
+          "snippet": "Fabio: the valley wind needs thermal activity, sun and good heating — summer afternoons under broken cumulus are perfect."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "meteo",
+          "page": 78
+        }
+      ],
       "subcategory": "local-alpine-winds"
     },
     "Weather_95": {
       "qid": 95,
       "topic": "Weather",
+      "explanation": "Mechanical turbulence is generated when air moving close to the ground is forced around solid obstacles — trees, houses, ridges, mountains. The flow breaks into eddies on the leeward side of each obstacle, which is why landing zones behind buildings or behind a ridge get bumpy.",
+      "guide_chapter": {
+        "id": "p2-turbulence",
+        "title": "Turbulence"
+      },
+      "workbook_chapter": {
+        "id": "meteo-08-turbulence",
+        "title": "Turbulence"
+      },
+      "diagrams": [
+        {
+          "id": "p2-turbulence-types",
+          "title": "Three types of turbulence"
+        },
+        {
+          "id": "p2-venturi-effect",
+          "title": "Venturi effect at terrain constrictions"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "meteo_0",
+          "t_start": 1702.2,
+          "t_end": 1751.5,
+          "snippet": "Fabio: mechanical turbulence is when wind flows over a house, a forest or a mountain and creates eddies behind it."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "meteo",
+          "page": 33
+        }
+      ],
       "subcategory": "turbulence"
     },
     "Weather_96": {
       "qid": 96,
       "topic": "Weather",
+      "explanation": "Shear turbulence occurs at the boundary between two air masses moving in different directions or at different speeds: they rub against each other and the friction breaks the flow into eddies. Mechanical turbulence is obstacle-driven, thermal turbulence is buoyancy-driven, and \"shear layers from an obstacle\" is mostly mechanical.",
+      "guide_chapter": {
+        "id": "p2-turbulence",
+        "title": "Turbulence"
+      },
+      "workbook_chapter": {
+        "id": "meteo-08-turbulence",
+        "title": "Turbulence"
+      },
+      "diagrams": [
+        {
+          "id": "p2-turbulence-types",
+          "title": "Three types of turbulence"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "meteo_0",
+          "t_start": 1655.3,
+          "t_end": 1702.2,
+          "snippet": "Fabio: when low-level Bise meets upper west wind, the two layers rub and shear turbulence develops where they meet."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "meteo",
+          "page": 33
+        }
+      ],
       "subcategory": "turbulence"
     },
     "Weather_97": {
       "qid": 97,
       "topic": "Weather",
+      "explanation": "Thermal turbulence is generated when warm air bubbles release from the ground and rise — the climbing column is surrounded by sink at its edges, creating the characteristic bumpy edge of every thermal. Mechanical and shear turbulence have different origins (obstacles, wind shear).",
+      "guide_chapter": {
+        "id": "p2-turbulence",
+        "title": "Turbulence"
+      },
+      "workbook_chapter": {
+        "id": "meteo-08-turbulence",
+        "title": "Turbulence"
+      },
+      "diagrams": [
+        {
+          "id": "p2-turbulence-types",
+          "title": "Three types of turbulence"
+        },
+        {
+          "id": "p2-thermal-column",
+          "title": "Structure of a thermal column"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "meteo_0",
+          "t_start": 1628.9,
+          "t_end": 1655.3,
+          "snippet": "Fabio: thermal turbulence happens because the rising thermal is surrounded by small downdraft zones — wind shear in the vertical."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "meteo",
+          "page": 33
+        }
+      ],
       "subcategory": "turbulence"
     },
     "Weather_98": {
       "qid": 98,
       "topic": "Weather",
+      "explanation": "At 500 m above ground in the middle of a valley, behind a passed cold front with strong NW wind aloft and a 25 km/h valley wind below, the bumps come from wind shear between the two different flows meeting in mid-valley. This is shear (not mechanical or thermal) turbulence.",
+      "guide_chapter": {
+        "id": "p2-turbulence",
+        "title": "Turbulence"
+      },
+      "workbook_chapter": {
+        "id": "meteo-08-turbulence",
+        "title": "Turbulence"
+      },
+      "diagrams": [
+        {
+          "id": "p2-turbulence-types",
+          "title": "Three types of turbulence"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "meteo_0",
+          "t_start": 1655.3,
+          "t_end": 1702.2,
+          "snippet": "Fabio: when valley wind blows under a different prevailing wind above, the meeting layer is full of shear turbulence."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "meteo",
+          "page": 33
+        }
+      ],
       "subcategory": "turbulence"
     },
     "Weather_100": {
       "qid": 100,
       "topic": "Weather",
+      "explanation": "On a summer afternoon at 13:00, a sun-baked south-facing slope at 2800 m AGL is a thermal factory — the rising columns of warm air over the slope are the dominant turbulence source there. Mechanical and shear effects are present but much weaker than the buoyant thermal activity at that time and place.",
+      "guide_chapter": {
+        "id": "p2-turbulence",
+        "title": "Turbulence"
+      },
+      "workbook_chapter": {
+        "id": "meteo-08-turbulence",
+        "title": "Turbulence"
+      },
+      "diagrams": [
+        {
+          "id": "p2-turbulence-types",
+          "title": "Three types of turbulence"
+        },
+        {
+          "id": "p2-thermal-column",
+          "title": "Structure of a thermal column"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "meteo_0",
+          "t_start": 1628.9,
+          "t_end": 1655.3,
+          "snippet": "Fabio: above a sunny south-facing slope at altitude on a summer day, the dominant turbulence is thermal — the rising bubbles."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "meteo",
+          "page": 33
+        }
+      ],
       "subcategory": "turbulence"
     },
     "Weather_101": {
       "qid": 101,
       "topic": "Weather",
+      "explanation": "In mid-summer in an alpine valley, the calmest, smoothest air is in the early morning around 09:00 — the night inversion is still in place, the valley wind has not started, and thermals have barely begun. By 11:00 thermals kick in, 15:00 is peak turbulence, and 18:00 brings the mountain wind transition.",
+      "guide_chapter": {
+        "id": "p2-turbulence",
+        "title": "Turbulence"
+      },
+      "workbook_chapter": {
+        "id": "meteo-08-turbulence",
+        "title": "Turbulence"
+      },
+      "diagrams": [
+        {
+          "id": "p2-turbulence-types",
+          "title": "Three types of turbulence"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "meteo_1",
+          "t_start": 2151.0,
+          "t_end": 2196.2,
+          "snippet": "Fabio: the valley wind starts around 11, peaks around 3 — so 9 am is the calmest moment."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "meteo",
+          "page": 33
+        },
+        {
+          "deck_id": "meteo",
+          "page": 78
+        }
+      ],
       "subcategory": "turbulence"
     },
     "Weather_102": {
       "qid": 102,
       "topic": "Weather",
+      "explanation": "In an alpine valley in summer, turbulence peaks in mid-afternoon around 15:00 — that is when thermals are strongest, the valley wind is at its peak (often 30–60 km/h on the floor) and shear plus mechanical effects pile on top. 09:00 is still calm, 12:00 building, 19:00 already calming as the mountain wind sets in.",
+      "guide_chapter": {
+        "id": "p2-turbulence",
+        "title": "Turbulence"
+      },
+      "workbook_chapter": {
+        "id": "meteo-08-turbulence",
+        "title": "Turbulence"
+      },
+      "diagrams": [
+        {
+          "id": "p2-turbulence-types",
+          "title": "Three types of turbulence"
+        },
+        {
+          "id": "p2-valley-winds",
+          "title": "Valley winds: day vs night"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "meteo_1",
+          "t_start": 2151.0,
+          "t_end": 2196.2,
+          "snippet": "Fabio: peak valley wind is around 3 pm — that is also peak turbulence in the alpine valleys in summer."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "meteo",
+          "page": 33
+        },
+        {
+          "deck_id": "meteo",
+          "page": 78
+        }
+      ],
       "subcategory": "turbulence"
     },
     "Weather_103": {
       "qid": 103,
       "topic": "Weather",
+      "explanation": "Around 11:00 the day is heating up but the strong valley wind has not yet fully kicked in — thermals are present but mechanical and shear turbulence (from the still-weak valley flow) are minimal. By 15:00 the valley wind is hammering and shear/mechanical effects dominate the bumpiness; 09:00 has no thermals yet; 18:00 the wind has shifted.",
+      "guide_chapter": {
+        "id": "p2-turbulence",
+        "title": "Turbulence"
+      },
+      "workbook_chapter": {
+        "id": "meteo-08-turbulence",
+        "title": "Turbulence"
+      },
+      "diagrams": [
+        {
+          "id": "p2-turbulence-types",
+          "title": "Three types of turbulence"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "meteo_1",
+          "t_start": 2151.0,
+          "t_end": 2196.2,
+          "snippet": "Fabio: the valley wind only really starts firing around 11 — so that is when thermals dominate before the wind shear builds in the afternoon."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "meteo",
+          "page": 33
+        },
+        {
+          "deck_id": "meteo",
+          "page": 78
+        }
+      ],
       "subcategory": "turbulence"
     },
     "Weather_104": {
       "qid": 104,
       "topic": "Weather",
+      "explanation": "In meteorology an \"air mass\" is a body of air with uniform characteristics — temperature, humidity, pressure — over a large horizontal area (often continental-scale). Mass per cubic metre at a specific reference, density-uniform air, or a concentration centre describe other concepts.",
+      "guide_chapter": {
+        "id": "p2-air-masses-fronts",
+        "title": "Air Masses, Fronts & Disturbances"
+      },
+      "workbook_chapter": {
+        "id": "meteo-09-air-masses-fronts",
+        "title": "Air masses and fronts"
+      },
+      "diagrams": [
+        {
+          "id": "p2-warm-front",
+          "title": "Warm front cross-section"
+        },
+        {
+          "id": "p2-cold-front",
+          "title": "Cold front cross-section"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "meteo_0",
+          "t_start": 595.5,
+          "t_end": 631.9,
+          "snippet": "Fabio: an air mass is simply a volume of air with the same properties spanning hundreds of kilometres — same temperature, same humidity."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "meteo",
+          "page": 35
+        },
+        {
+          "deck_id": "meteo",
+          "page": 37
+        }
+      ],
       "subcategory": "fronts-and-air-masses"
     },
     "Weather_105": {
       "qid": 105,
       "topic": "Weather",
+      "explanation": "For frontal analysis, an air mass is \"warm\" only relative to the adjacent air mass it borders — temperatures are always compared between masses, not against any absolute number. A −10°C polar air mass can be the \"warm\" one if its neighbour sits at −20°C.",
+      "guide_chapter": {
+        "id": "p2-air-masses-fronts",
+        "title": "Air Masses, Fronts & Disturbances"
+      },
+      "workbook_chapter": {
+        "id": "meteo-09-air-masses-fronts",
+        "title": "Air masses and fronts"
+      },
+      "diagrams": [
+        {
+          "id": "p2-warm-front",
+          "title": "Warm front cross-section"
+        },
+        {
+          "id": "p2-cold-front",
+          "title": "Cold front cross-section"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "meteo_0",
+          "t_start": 2513.6,
+          "t_end": 2545.9,
+          "snippet": "Fabio: air masses are always relative — one is colder, one is warmer; even at minus 20 vs minus 10, the −10 is the \"warm\" one."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "meteo",
+          "page": 36
+        },
+        {
+          "deck_id": "meteo",
+          "page": 37
+        }
+      ],
       "subcategory": "fronts-and-air-masses"
     },
     "Weather_106": {
       "qid": 106,
       "topic": "Weather",
+      "explanation": "A front is the boundary surface between two different air masses — typically with very different temperatures and humidities. It is a three-dimensional, sloped surface (not just a line at sea level), and is the geometric/thermodynamic divide rather than a precipitation zone.",
+      "guide_chapter": {
+        "id": "p2-air-masses-fronts",
+        "title": "Air Masses, Fronts & Disturbances"
+      },
+      "workbook_chapter": {
+        "id": "meteo-09-air-masses-fronts",
+        "title": "Air masses and fronts"
+      },
+      "diagrams": [
+        {
+          "id": "p2-warm-front",
+          "title": "Warm front cross-section"
+        },
+        {
+          "id": "p2-cold-front",
+          "title": "Cold front cross-section"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "meteo_0",
+          "t_start": 2075.6,
+          "t_end": 2106.3,
+          "snippet": "Fabio: in between two different air masses there is an air-mass boundary — that is described by a front."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "meteo",
+          "page": 37
+        },
+        {
+          "deck_id": "meteo",
+          "page": 38
+        }
+      ],
       "subcategory": "fronts-and-air-masses"
     },
     "Weather_107": {
       "qid": 107,
       "topic": "Weather",
+      "explanation": "Because the warm air slopes up and over the cold air ahead, a warm front reaches a ground observer first as high cloud (cirrus, then thickening layers) before the surface front arrives — it is felt at altitude first, then descends to ground level. A cold front is the opposite: cold air slides under at the surface first, then the warm air aloft retreats.",
+      "guide_chapter": {
+        "id": "p2-air-masses-fronts",
+        "title": "Air Masses, Fronts & Disturbances"
+      },
+      "workbook_chapter": {
+        "id": "meteo-09-air-masses-fronts",
+        "title": "Air masses and fronts"
+      },
+      "diagrams": [
+        {
+          "id": "p2-warm-front",
+          "title": "Warm front cross-section"
+        },
+        {
+          "id": "p2-cold-front",
+          "title": "Cold front cross-section"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "meteo_0",
+          "t_start": 2543.9,
+          "t_end": 2585.2,
+          "snippet": "Fabio: the warm front comes in in a wedge shape — first the high clouds, then the front slowly slopes down to the ground."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "meteo",
+          "page": 47
+        }
+      ],
       "subcategory": "fronts-and-air-masses"
     },
     "Weather_109": {
       "qid": 109,
       "topic": "Weather",
+      "explanation": "A warm front pushes warm humid air up over the retreating cold air, so its cloud sequence shows the slow approach: high cirrus first, then cirrostratus, then thickening altostratus, finally low rain-producing nimbostratus. The other sequences mix cumulus-family or cold-front clouds and do not match the warm-front geometry.",
+      "guide_chapter": {
+        "id": "p2-air-masses-fronts",
+        "title": "Air Masses, Fronts & Disturbances"
+      },
+      "workbook_chapter": {
+        "id": "meteo-09-air-masses-fronts",
+        "title": "Air masses and fronts"
+      },
+      "diagrams": [
+        {
+          "id": "p2-warm-front",
+          "title": "Warm front cross-section"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "meteo_0",
+          "t_start": 2657.1,
+          "t_end": 2704.6,
+          "snippet": "Fabio: a warm front brings cirrostratus, then altostratus, then nimbostratus — always tied to stratus clouds."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "meteo",
+          "page": 47
+        },
+        {
+          "deck_id": "meteo",
+          "page": 48
+        }
+      ],
       "subcategory": "fronts-and-air-masses"
     },
     "Weather_110": {
       "qid": 110,
       "topic": "Weather",
+      "explanation": "The hour before a warm front arrives at the ground typically brings poor visibility, a low cloud base, steady rain or drizzle from the dense nimbostratus deck, and a steady increasing wind — not gusty cumulus weather and not a clear, calm break. The other options describe pre-cold-front or general fair-weather conditions.",
+      "guide_chapter": {
+        "id": "p2-air-masses-fronts",
+        "title": "Air Masses, Fronts & Disturbances"
+      },
+      "workbook_chapter": {
+        "id": "meteo-09-air-masses-fronts",
+        "title": "Air masses and fronts"
+      },
+      "diagrams": [
+        {
+          "id": "p2-warm-front",
+          "title": "Warm front cross-section"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "meteo_0",
+          "t_start": 2629.1,
+          "t_end": 2657.1,
+          "snippet": "Fabio: just before a warm front arrives, the cloud base is low, visibility is poor and rain is steady — definitely not flying weather."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "meteo",
+          "page": 47
+        }
+      ],
       "subcategory": "fronts-and-air-masses"
     },
     "Weather_111": {
       "qid": 111,
       "topic": "Weather",
+      "explanation": "South Föhn on the north side of the Alps announces itself with mountain-clinging clouds (the Föhn wall) in the distance to the south, cumulus and lenticular clouds in the otherwise blue sky, a freshening southwest wind at launch and shifty ground-wind directions. Steady west wind with cumulonimbus distant, blue sky with widespread lift, or solid rain are all different patterns.",
+      "guide_chapter": {
+        "id": "p2-weather-switzerland",
+        "title": "Some Weather Situations Typical For Switzerland"
+      },
+      "workbook_chapter": {
+        "id": "meteo-07-local-winds-foehn",
+        "title": "Local winds and Föhn"
+      },
+      "diagrams": [
+        {
+          "id": "p2-foehn",
+          "title": "Foehn over a mountain range"
+        },
+        {
+          "id": "p2-swiss-foehn-rule",
+          "title": "Swiss foehn pressure rule"
+        },
+        {
+          "id": "p2-lenticular",
+          "title": "Lenticular cloud from mountain wave"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "aa_meteo_teil_1",
+          "t_start": 386.0,
+          "t_end": 433.9,
+          "snippet": "Air Active instructor: read off the Föhn from the temperature difference between Ticino and the north side — and even a 4 hPa difference puts Föhn fully in motion."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "meteo",
+          "page": 81
+        },
+        {
+          "deck_id": "meteo",
+          "page": 82
+        },
+        {
+          "deck_id": "meteo",
+          "page": 85
+        }
+      ],
       "subcategory": "foehn-winds"
     },
     "Weather_112": {
       "qid": 112,
       "topic": "Weather",
+      "explanation": "South Föhn in the alpine valleys is most likely when Switzerland sits in the warm sector of a depression with a cold front approaching the Jura — pressure builds south of the Alps, drops north, and the south-to-north pressure difference drives air over the ridges. Cirrostratus advance, southwest aloft over Bise below or post-cold-front patterns don't produce that specific south-to-north pressure gradient.",
+      "guide_chapter": {
+        "id": "p2-weather-switzerland",
+        "title": "Some Weather Situations Typical For Switzerland"
+      },
+      "workbook_chapter": {
+        "id": "meteo-07-local-winds-foehn",
+        "title": "Local winds and Föhn"
+      },
+      "diagrams": [
+        {
+          "id": "p2-foehn",
+          "title": "Foehn over a mountain range"
+        },
+        {
+          "id": "p2-swiss-foehn-rule",
+          "title": "Swiss foehn pressure rule"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "meteo_1",
+          "t_start": 2674.7,
+          "t_end": 2706.5,
+          "snippet": "Fabio: classic Föhn pattern — a cold front approaches from the west, a Föhn knee forms, and the Föhn flow sets up ahead of the front."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "meteo",
+          "page": 81
+        },
+        {
+          "deck_id": "meteo",
+          "page": 82
+        }
+      ],
       "subcategory": "foehn-winds"
     },
     "Weather_113": {
       "qid": 113,
       "topic": "Weather",
+      "explanation": "North Föhn in Ticino develops when Switzerland sits behind a cold front and moderately humid, cold polar air piles up against the north side of the Alps — pressure builds north, drops south, and air is forced from north to south over the ridges. The result: rain and clouds on the north side, dry warm wind in Ticino.",
+      "guide_chapter": {
+        "id": "p2-weather-switzerland",
+        "title": "Some Weather Situations Typical For Switzerland"
+      },
+      "workbook_chapter": {
+        "id": "meteo-07-local-winds-foehn",
+        "title": "Local winds and Föhn"
+      },
+      "diagrams": [
+        {
+          "id": "p2-foehn",
+          "title": "Foehn over a mountain range"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "meteo_1",
+          "t_start": 2491.1,
+          "t_end": 2517.0,
+          "snippet": "Fabio: in our case Foehn goes south to north, but a North Foehn is the mirror situation — strong wind and dry warm conditions in Ticino, rain on the north side."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "meteo",
+          "page": 81
+        },
+        {
+          "deck_id": "meteo",
+          "page": 84
+        }
+      ],
       "subcategory": "foehn-winds"
     },
     "Weather_114": {
       "qid": 114,
       "topic": "Weather",
+      "explanation": "Föhn requires a strong pressure difference between the north and south sides of the Alps — typically more than 4 hPa across Zurich-Lugano. The greater the difference, the more violently air is forced over the ridges. A small difference cannot drive Föhn, and a high or low centred directly over the Alps eliminates the cross-Alps gradient entirely.",
+      "guide_chapter": {
+        "id": "p2-weather-switzerland",
+        "title": "Some Weather Situations Typical For Switzerland"
+      },
+      "workbook_chapter": {
+        "id": "meteo-07-local-winds-foehn",
+        "title": "Local winds and Föhn"
+      },
+      "diagrams": [
+        {
+          "id": "p2-swiss-foehn-rule",
+          "title": "Swiss foehn pressure rule"
+        },
+        {
+          "id": "p2-foehn",
+          "title": "Foehn over a mountain range"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "aa_meteo_teil_3",
+          "t_start": 1183.2,
+          "t_end": 1212.2,
+          "snippet": "Air Active instructor: 4 hPa is the practical cut-off for Föhn — from 4 hPa upward it really becomes noticeably strong, so I never go above."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "meteo",
+          "page": 82
+        },
+        {
+          "deck_id": "meteo",
+          "page": 83
+        }
+      ],
       "subcategory": "foehn-winds"
     },
     "Weather_116": {
       "qid": 116,
       "topic": "Weather",
+      "explanation": "An occlusion forms when the faster cold front catches up with the slower warm front at ground level and pinches the warm sector aloft. Mechanically it is always the cold front at ground level overtaking the warm front there — high-altitude overtaking or the reverse pattern is not what defines an occlusion.",
+      "guide_chapter": {
+        "id": "p2-air-masses-fronts",
+        "title": "Air Masses, Fronts & Disturbances"
+      },
+      "workbook_chapter": {
+        "id": "meteo-09-air-masses-fronts",
+        "title": "Air masses and fronts"
+      },
+      "diagrams": [
+        {
+          "id": "p2-occlusion",
+          "title": "Occluded front: two types"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "meteo_0",
+          "t_start": 2183.3,
+          "t_end": 2208.9,
+          "snippet": "Fabio: the cold front is roughly twice as fast as the warm front, catches up at ground level, and occlusions form."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "meteo",
+          "page": 42
+        },
+        {
+          "deck_id": "meteo",
+          "page": 49
+        }
+      ],
       "subcategory": "fronts-and-air-masses"
     },
     "Weather_117": {
       "qid": 117,
       "topic": "Weather",
+      "explanation": "An occluded front carries the weather characteristics of either a warm front or a cold front depending on whether the cold air behind the cold front is warmer or colder than the cold air ahead of the warm front — that comparison sets which front is at the surface and therefore what observers experience.",
+      "guide_chapter": {
+        "id": "p2-air-masses-fronts",
+        "title": "Air Masses, Fronts & Disturbances"
+      },
+      "workbook_chapter": {
+        "id": "meteo-09-air-masses-fronts",
+        "title": "Air masses and fronts"
+      },
+      "diagrams": [
+        {
+          "id": "p2-occlusion",
+          "title": "Occluded front: two types"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "meteo_0",
+          "t_start": 2780.7,
+          "t_end": 2828.7,
+          "snippet": "Fabio: occlusion with cold-front character vs warm-front character — depending on which dividing line touches the ground."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "meteo",
+          "page": 43
+        },
+        {
+          "deck_id": "meteo",
+          "page": 49
+        }
+      ],
       "subcategory": "fronts-and-air-masses"
     },
     "Weather_118": {
       "qid": 118,
       "topic": "Weather",
+      "explanation": "This sketch shows an occlusion with cold-front character — the cold-front dividing line is the one that reaches the ground, meaning the cold air behind the system is colder than the cold air ahead of it. So at the surface, observers experience cold-front weather (gusts, thunder, abrupt change) while warm-front cloud layers hide aloft.",
+      "guide_chapter": {
+        "id": "p2-air-masses-fronts",
+        "title": "Air Masses, Fronts & Disturbances"
+      },
+      "workbook_chapter": {
+        "id": "meteo-09-air-masses-fronts",
+        "title": "Air masses and fronts"
+      },
+      "diagrams": [
+        {
+          "id": "p2-occlusion",
+          "title": "Occluded front: two types"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "meteo_0",
+          "t_start": 2796.7,
+          "t_end": 2828.7,
+          "snippet": "Fabio: which dividing line touches the ground decides the character — cold-front line at ground = cold-front-character occlusion."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "meteo",
+          "page": 49
+        },
+        {
+          "deck_id": "meteo",
+          "page": 50
+        }
+      ],
       "subcategory": "synoptic-chart-reading"
     },
     "Weather_119": {
       "qid": 119,
       "topic": "Weather",
+      "explanation": "This sketch shows an occlusion with warm-front character — the warm-front dividing line is the one that reaches the ground, meaning the cold air behind the system is warmer than the cold air ahead of it. Surface weather looks like a warm front (steady rain, layered clouds), with cold-front clouds hidden above.",
+      "guide_chapter": {
+        "id": "p2-air-masses-fronts",
+        "title": "Air Masses, Fronts & Disturbances"
+      },
+      "workbook_chapter": {
+        "id": "meteo-09-air-masses-fronts",
+        "title": "Air masses and fronts"
+      },
+      "diagrams": [
+        {
+          "id": "p2-occlusion",
+          "title": "Occluded front: two types"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "meteo_0",
+          "t_start": 2796.7,
+          "t_end": 2828.7,
+          "snippet": "Fabio: when the warm-front line touches the ground, the occlusion has warm-front character — surface weather mimics a warm front."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "meteo",
+          "page": 49
+        },
+        {
+          "deck_id": "meteo",
+          "page": 50
+        }
+      ],
       "subcategory": "synoptic-chart-reading"
     },
     "Weather_120": {
       "qid": 120,
       "topic": "Weather",
+      "explanation": "This cross-section shows the wedge of warm air gently sliding up over the retreating cold air — the slowly-rising slope and high-to-low cloud sequence above are the hallmarks of a classic warm front (cirrus → cirrostratus → altostratus → nimbostratus).",
+      "guide_chapter": {
+        "id": "p2-air-masses-fronts",
+        "title": "Air Masses, Fronts & Disturbances"
+      },
+      "workbook_chapter": {
+        "id": "meteo-09-air-masses-fronts",
+        "title": "Air masses and fronts"
+      },
+      "diagrams": [
+        {
+          "id": "p2-warm-front",
+          "title": "Warm front cross-section"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "meteo_0",
+          "t_start": 2506.7,
+          "t_end": 2585.2,
+          "snippet": "Fabio: the warm front comes in as a wedge — the warm air glides up on top of the colder air, far less dangerous than a cold front."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "meteo",
+          "page": 47
+        }
+      ],
       "subcategory": "synoptic-chart-reading"
     },
     "Weather_121": {
       "qid": 121,
       "topic": "Weather",
+      "explanation": "This cross-section shows the teardrop of cold dense air pushing in under the warm air and shoving it abruptly upward — the steep frontal slope and barrier-style cumulonimbus tower above are the signature of a cold front, not a warm front or an occlusion.",
+      "guide_chapter": {
+        "id": "p2-air-masses-fronts",
+        "title": "Air Masses, Fronts & Disturbances"
+      },
+      "workbook_chapter": {
+        "id": "meteo-09-air-masses-fronts",
+        "title": "Air masses and fronts"
+      },
+      "diagrams": [
+        {
+          "id": "p2-cold-front",
+          "title": "Cold front cross-section"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "meteo_0",
+          "t_start": 2214.9,
+          "t_end": 2287.4,
+          "snippet": "Fabio: the cold front comes in as a teardrop — cold air pushes in underneath, warm air is forced violently upward and thunderstorms form."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "meteo",
+          "page": 44
+        },
+        {
+          "deck_id": "meteo",
+          "page": 45
+        }
+      ],
       "subcategory": "synoptic-chart-reading"
     },
     "Weather_122": {
       "qid": 122,
       "topic": "Weather",
+      "explanation": "Frontal cumulonimbus and thunderstorms are most likely with a cold front in August: in summer the lower atmosphere is hot and humid, so the abrupt cold-front uplift of warm moist air triggers the most violent storms. Warm fronts in any season have gentle uplift, and January cold fronts lack the warm sector's heat and humidity.",
+      "guide_chapter": {
+        "id": "p2-air-masses-fronts",
+        "title": "Air Masses, Fronts & Disturbances"
+      },
+      "workbook_chapter": {
+        "id": "meteo-10-storms-synoptics",
+        "title": "Heat, storms and Swiss weather"
+      },
+      "diagrams": [
+        {
+          "id": "p2-cold-front",
+          "title": "Cold front cross-section"
+        },
+        {
+          "id": "p2-cumulonimbus",
+          "title": "Cumulonimbus storm structure"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "meteo_0",
+          "t_start": 2271.0,
+          "t_end": 2306.7,
+          "snippet": "Fabio: a really active cold front always brings thunderstorms — especially when the lower atmosphere is hot and humid, i.e. in summer."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "meteo",
+          "page": 44
+        },
+        {
+          "deck_id": "meteo",
+          "page": 45
+        }
+      ],
       "subcategory": "thunderstorms-and-convective"
     },
     "Weather_123": {
       "qid": 123,
       "topic": "Weather",
+      "explanation": "When hot humid air sits over Switzerland and cold polar air is forecast to push in from the northwest, the textbook outcome is a violent cold-front passage with frontal thunderstorms, hail and strong gusty winds — the rapidly-rising warm humid air feeds powerful cumulonimbus along the front. Continuous gentle cooling or stable post-frontal conditions don't fit this synoptic setup.",
+      "guide_chapter": {
+        "id": "p2-air-masses-fronts",
+        "title": "Air Masses, Fronts & Disturbances"
+      },
+      "workbook_chapter": {
+        "id": "meteo-10-storms-synoptics",
+        "title": "Heat, storms and Swiss weather"
+      },
+      "diagrams": [
+        {
+          "id": "p2-cold-front",
+          "title": "Cold front cross-section"
+        },
+        {
+          "id": "p2-cumulonimbus",
+          "title": "Cumulonimbus storm structure"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "meteo_0",
+          "t_start": 2271.0,
+          "t_end": 2341.3,
+          "snippet": "Fabio: a really active cold front always brings thunderstorms, strong wind and gusts — and very dangerous flying conditions."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "meteo",
+          "page": 44
+        },
+        {
+          "deck_id": "meteo",
+          "page": 45
+        }
+      ],
       "subcategory": "fronts-and-air-masses"
     },
     "Weather_124": {
       "qid": 124,
       "topic": "Weather",
+      "explanation": "Thermal (local) thunderstorms develop late in the afternoon, after hours of solar heating have built deep cumulus towers into mature cumulonimbus. Mornings are far too cool and only just-after-noon is rarely warm enough; \"no time-of-day effect\" applies only to frontal storms.",
+      "guide_chapter": {
+        "id": "p2-heat-storms",
+        "title": "Heat and Storms"
+      },
+      "workbook_chapter": {
+        "id": "meteo-10-storms-synoptics",
+        "title": "Heat, storms and Swiss weather"
+      },
+      "diagrams": [
+        {
+          "id": "p2-cumulonimbus",
+          "title": "Cumulonimbus storm structure"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "meteo_1",
+          "t_start": 1700.1,
+          "t_end": 1740.2,
+          "snippet": "Fabio: thermal storms need the engine of the sun — they form late in the afternoon when cumulus towers have grown all morning."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "meteo",
+          "page": 73
+        },
+        {
+          "deck_id": "meteo",
+          "page": 74
+        }
+      ],
       "subcategory": "thunderstorms-and-convective"
     },
     "Weather_125": {
       "qid": 125,
       "topic": "Weather",
+      "explanation": "Frontal thunderstorms can occur at any time of day or night — they are driven by the dynamic uplift of warm air at the front, not by solar heating. So time of day has no influence on frontal storms, unlike thermal/local storms which peak in late afternoon.",
+      "guide_chapter": {
+        "id": "p2-air-masses-fronts",
+        "title": "Air Masses, Fronts & Disturbances"
+      },
+      "workbook_chapter": {
+        "id": "meteo-10-storms-synoptics",
+        "title": "Heat, storms and Swiss weather"
+      },
+      "diagrams": [
+        {
+          "id": "p2-cold-front",
+          "title": "Cold front cross-section"
+        },
+        {
+          "id": "p2-cumulonimbus",
+          "title": "Cumulonimbus storm structure"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "meteo_0",
+          "t_start": 2271.0,
+          "t_end": 2306.7,
+          "snippet": "Fabio: a really active cold front always brings thunderstorms — and the front moves at 40–70 km/h regardless of time of day."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "meteo",
+          "page": 44
+        },
+        {
+          "deck_id": "meteo",
+          "page": 75
+        }
+      ],
       "subcategory": "thunderstorms-and-convective"
     },
     "Weather_126": {
       "qid": 126,
       "topic": "Weather",
+      "explanation": "A high centred over northern Germany sets up Bise: surface winds wrap clockwise around the high, so on the Swiss plateau the flow comes from the northeast. Northwest wind, west wind or south Föhn require different synoptic setups.",
+      "guide_chapter": {
+        "id": "p2-weather-switzerland",
+        "title": "Some Weather Situations Typical For Switzerland"
+      },
+      "workbook_chapter": {
+        "id": "meteo-10-storms-synoptics",
+        "title": "Heat, storms and Swiss weather"
+      },
+      "diagrams": [
+        {
+          "id": "p2-isobar-rotation",
+          "title": "Wind rotation around pressure centers"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "meteo_1",
+          "t_start": 1665.9,
+          "t_end": 1689.2,
+          "snippet": "Fabio: a Bise — northeast wind — comes when a high sits to the north or northeast of Switzerland."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "meteo",
+          "page": 24
+        },
+        {
+          "deck_id": "meteo",
+          "page": 26
+        }
+      ],
       "subcategory": "synoptic-chart-reading"
     },
     "Weather_127": {
       "qid": 127,
       "topic": "Weather",
+      "explanation": "When the Azores high extends towards central Europe, the clockwise circulation on its northern flank pushes air across the Alps from the northwest. That gives Switzerland a northwest wind — not a westerly, not Bise, and not Föhn.",
+      "guide_chapter": {
+        "id": "p2-weather-switzerland",
+        "title": "Some Weather Situations Typical For Switzerland"
+      },
+      "workbook_chapter": {
+        "id": "meteo-10-storms-synoptics",
+        "title": "Heat, storms and Swiss weather"
+      },
+      "diagrams": [
+        {
+          "id": "p2-isobar-rotation",
+          "title": "Wind rotation around pressure centers"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "meteo_0",
+          "t_start": 1052.5,
+          "t_end": 1080.5,
+          "snippet": "Fabio: high pressure rotates clockwise in the northern hemisphere — on the eastern flank of the Azores high you get northwest flow over central Europe."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "meteo",
+          "page": 24
+        }
+      ],
       "subcategory": "synoptic-chart-reading"
     },
     "Weather_129": {
       "qid": 129,
       "topic": "Weather",
+      "explanation": "High-reaching alpine thermals develop best under a weak high-pressure system centred over the Alps — pressure difference is small (so wind stays light), the air column is dry enough to allow strong heating, and the temperature gradient becomes steep enough for deep convection. A strong high suppresses convection, a low over Genoa brings unstable wet weather, and the Azores ridge pushes in wind.",
+      "guide_chapter": {
+        "id": "p2-heat-storms",
+        "title": "Heat and Storms"
+      },
+      "workbook_chapter": {
+        "id": "meteo-10-storms-synoptics",
+        "title": "Heat, storms and Swiss weather"
+      },
+      "diagrams": [
+        {
+          "id": "p2-thermal-column",
+          "title": "Structure of a thermal column"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "meteo_0",
+          "t_start": 763.6,
+          "t_end": 793.6,
+          "snippet": "Fabio: in highs the air sinks, in lows it rises — for great thermals you want the weak high-pressure barometric plateau where the lapse rate is large but winds stay calm."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "meteo",
+          "page": 51
+        },
+        {
+          "deck_id": "meteo",
+          "page": 72
+        }
+      ],
       "subcategory": "thermals-and-conditions"
     },
     "Weather_130": {
       "qid": 130,
       "topic": "Weather",
+      "explanation": "A ground-level inversion forms classically when the sky is clear at night: the ground radiates heat away into space, the air in contact with it cools below the temperature of the air a few hundred metres above, and a stable, cold layer sets up. Daytime heating, advection or anticyclonic subsidence don't create the same near-surface temperature reversal.",
+      "guide_chapter": {
+        "id": "p2-air-temperature",
+        "title": "Air Temperature, Atmospheric Warming & Temperature Curves"
+      },
+      "workbook_chapter": {
+        "id": "meteo-03-inversions-stability",
+        "title": "Inversions, isothermal layers and stability"
+      },
+      "diagrams": [
+        {
+          "id": "p2-emagram-inversion",
+          "title": "Emagram with inversion and isothermal layers"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "meteo_0",
+          "t_start": 587.3,
+          "t_end": 670.0,
+          "snippet": "Fabio: clear nights cool the ground by radiation, and the cold air pool at the surface ends up below warmer air aloft — that is a nocturnal ground inversion."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "meteo",
+          "page": 64
+        },
+        {
+          "deck_id": "meteo",
+          "page": 65
+        }
+      ],
       "subcategory": "inversions-and-stability"
     },
     "Weather_131": {
       "qid": 131,
       "topic": "Weather",
+      "explanation": "The morning sun is what kills a ground-level inversion: once solar radiation starts heating the ground again, the surface air warms, convection kicks in and the cold pool mixes out. Nocturnal radiation, sinking warm air aloft and advection above can't reverse the surface inversion on their own.",
+      "guide_chapter": {
+        "id": "p2-air-temperature",
+        "title": "Air Temperature, Atmospheric Warming & Temperature Curves"
+      },
+      "workbook_chapter": {
+        "id": "meteo-03-inversions-stability",
+        "title": "Inversions, isothermal layers and stability"
+      },
+      "diagrams": [
+        {
+          "id": "p2-warming-three-phase",
+          "title": "Indirect warming of the atmosphere"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "meteo_1",
+          "t_start": 329.4,
+          "t_end": 370.1,
+          "snippet": "Fabio: at sunrise the engine — the sun — starts firing, heats the ground, and the ground-level inversion gradually disappears through the morning."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "meteo",
+          "page": 14
+        },
+        {
+          "deck_id": "meteo",
+          "page": 65
+        }
+      ],
       "subcategory": "inversions-and-stability"
     },
     "Weather_132": {
       "qid": 132,
       "topic": "Weather",
+      "explanation": "The best thermals develop where the sun's rays strike the ground at a high (near-perpendicular) angle and reflection is weak (dark, dry surface like a ploughed field) — so the maximum solar energy goes into heating the soil. Low sun angles or reflective surfaces (snow, water) waste the energy.",
+      "guide_chapter": {
+        "id": "p2-heat-storms",
+        "title": "Heat and Storms"
+      },
+      "workbook_chapter": {
+        "id": "meteo-10-storms-synoptics",
+        "title": "Heat, storms and Swiss weather"
+      },
+      "diagrams": [
+        {
+          "id": "p2-thermal-column",
+          "title": "Structure of a thermal column"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "meteo_1",
+          "t_start": 84.3,
+          "t_end": 113.0,
+          "snippet": "Fabio: the sun's rays hitting a surface at a right angle warm it much more strongly — and a reflective surface like snow basically wastes the energy."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "meteo",
+          "page": 51
+        },
+        {
+          "deck_id": "meteo",
+          "page": 53
+        }
+      ],
       "subcategory": "thermals-and-conditions"
     },
     "Weather_133": {
       "qid": 133,
       "topic": "Weather",
+      "explanation": "Good thermals form best over ground that is wind-protected (so the warm surface pocket can build up without being blown away) and dry (no energy wasted on evaporation). A wind-exposed or moist surface lets either the wind or the latent-heat draw of evaporation kill the thermal before it triggers.",
+      "guide_chapter": {
+        "id": "p2-heat-storms",
+        "title": "Heat and Storms"
+      },
+      "workbook_chapter": {
+        "id": "meteo-10-storms-synoptics",
+        "title": "Heat, storms and Swiss weather"
+      },
+      "diagrams": [
+        {
+          "id": "p2-thermal-column",
+          "title": "Structure of a thermal column"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "meteo_1",
+          "t_start": 56.9,
+          "t_end": 84.3,
+          "snippet": "Fabio: a dry harvested field warms much more than a wet green meadow — wet ground loses energy to evaporation."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "meteo",
+          "page": 51
+        }
+      ],
       "subcategory": "thermals-and-conditions"
     },
     "Weather_134": {
       "qid": 134,
       "topic": "Weather",
+      "explanation": "In the pre-Alps, thermals peak in May: the snow has just gone, the ground heats fast, the sun is high, and the contrast with still-snowy higher Alps drives strong convection. August thermals are best in the high Alps (snow then gone there too), October/January are too weak.",
+      "guide_chapter": {
+        "id": "p2-heat-storms",
+        "title": "Heat and Storms"
+      },
+      "workbook_chapter": {
+        "id": "meteo-10-storms-synoptics",
+        "title": "Heat, storms and Swiss weather"
+      },
+      "diagrams": [
+        {
+          "id": "p2-thermal-column",
+          "title": "Structure of a thermal column"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "meteo_1",
+          "t_start": 2278.4,
+          "t_end": 2289.1,
+          "snippet": "Fabio: the valley wind in spring can be very strong — same logic: the pre-Alps lose their snow first, so May is peak thermal season there."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "meteo",
+          "page": 78
+        }
+      ],
       "subcategory": "thermals-and-conditions"
     },
     "Weather_135": {
       "qid": 135,
       "topic": "Weather",
+      "explanation": "In the Alps, thermals reach their highest altitudes in August — the inner alpine snowfields are finally gone, the heating is at its strongest, and the temperature gradient through the deep convective layer (often 2–4 km AGL) is steepest. May is the pre-Alps peak; October/January are far too cold and snowy.",
+      "guide_chapter": {
+        "id": "p2-heat-storms",
+        "title": "Heat and Storms"
+      },
+      "workbook_chapter": {
+        "id": "meteo-10-storms-synoptics",
+        "title": "Heat, storms and Swiss weather"
+      },
+      "diagrams": [
+        {
+          "id": "p2-thermal-column",
+          "title": "Structure of a thermal column"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "meteo_1",
+          "t_start": 2151.0,
+          "t_end": 2196.2,
+          "snippet": "Fabio: peak thermal activity is in summer once the inner Alps are snow-free — that is August in the high Alps."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "meteo",
+          "page": 72
+        }
+      ],
       "subcategory": "thermals-and-conditions"
     },
     "Weather_136": {
       "qid": 136,
       "topic": "Weather",
+      "explanation": "A \"lee thermal\" forms on the wind-protected (lee) side of a mountain. The wind-sheltered slope lets warm air build up there for longer than on a wind-swept windward face, so the thermal that does release tends to be stronger — but also more turbulent because of the lee rotor.",
+      "guide_chapter": {
+        "id": "p2-heat-storms",
+        "title": "Heat and Storms"
+      },
+      "workbook_chapter": {
+        "id": "meteo-10-storms-synoptics",
+        "title": "Heat, storms and Swiss weather"
+      },
+      "diagrams": [
+        {
+          "id": "p2-thermal-column",
+          "title": "Structure of a thermal column"
+        },
+        {
+          "id": "p2-turbulence-types",
+          "title": "Three types of turbulence"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "meteo_1",
+          "t_start": 850.6,
+          "t_end": 920.7,
+          "snippet": "Fabio: a lee thermal is a thermal on the wind-protected side of a mountain — usually stronger, but more turbulent because of mechanical lee rotors."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "meteo",
+          "page": 63
+        }
+      ],
       "subcategory": "thermals-and-conditions"
     },
     "Weather_138": {
       "qid": 138,
       "topic": "Weather",
+      "explanation": "A \"blue thermal\" is convection rising in air so dry that the parcel never reaches its dew point — no condensation, no cumulus marker. The visible clue is a clear sky despite active thermals; pilots have to find lift without the helpful cumulus signposts.",
+      "guide_chapter": {
+        "id": "p2-heat-storms",
+        "title": "Heat and Storms"
+      },
+      "workbook_chapter": {
+        "id": "meteo-10-storms-synoptics",
+        "title": "Heat, storms and Swiss weather"
+      },
+      "diagrams": [
+        {
+          "id": "p2-thermal-column",
+          "title": "Structure of a thermal column"
+        },
+        {
+          "id": "p2-saturation-curve",
+          "title": "Saturation curve and dew point"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "meteo_1",
+          "t_start": 813.8,
+          "t_end": 850.6,
+          "snippet": "Fabio: blue thermals — the temperature advantage is exhausted before condensation can happen, so no cloud marker forms."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "meteo",
+          "page": 51
+        }
+      ],
       "subcategory": "thermals-and-conditions"
     },
     "Weather_139": {
       "qid": 139,
       "topic": "Weather",
+      "explanation": "Blue thermals occur specifically when the temperature–dew-point spread of the rising air is so large that the dew point is never reached during the climb — no condensation, no cumulus. Origin from higher layers, cooling water bodies or stable stratification describe other conditions entirely.",
+      "guide_chapter": {
+        "id": "p2-heat-storms",
+        "title": "Heat and Storms"
+      },
+      "workbook_chapter": {
+        "id": "meteo-10-storms-synoptics",
+        "title": "Heat, storms and Swiss weather"
+      },
+      "diagrams": [
+        {
+          "id": "p2-saturation-curve",
+          "title": "Saturation curve and dew point"
+        },
+        {
+          "id": "p2-thermal-column",
+          "title": "Structure of a thermal column"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "meteo_1",
+          "t_start": 813.8,
+          "t_end": 850.6,
+          "snippet": "Fabio: blue thermals exist when the air is dry enough that the rising bubble never reaches its dew point and so no cloud forms."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "meteo",
+          "page": 57
+        }
+      ],
       "subcategory": "thermals-and-conditions"
     },
     "Weather_140": {
       "qid": 140,
       "topic": "Weather",
+      "explanation": "\"Restitution lift\" is the gentle thermal updraft that forms in the middle of the valley after the katabatic mountain wind has set in — the slightly warmer valley-floor air is squeezed upward by the cold drainage flow on either side, producing a soft, often nighttime lift on the valley axis.",
+      "guide_chapter": {
+        "id": "p2-local-winds",
+        "title": "Local Winds"
+      },
+      "workbook_chapter": {
+        "id": "meteo-07-local-winds-foehn",
+        "title": "Local winds and Föhn"
+      },
+      "diagrams": [
+        {
+          "id": "p2-valley-winds",
+          "title": "Valley winds: day vs night"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "meteo_1",
+          "t_start": 2235.6,
+          "t_end": 2280.4,
+          "snippet": "Fabio: as cold air drains down at night, the warmer air in the middle of the valley sometimes rises — a kind of reverse thermal, a convergence."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "meteo",
+          "page": 79
+        }
+      ],
       "subcategory": "thermals-and-conditions"
     },
     "Weather_141": {
       "qid": 141,
       "topic": "Weather",
+      "explanation": "A symbol on a weather map showing the curved line with the regularly-spaced semicircular bumps (no triangles, no purple half/half mix) is the standard meteorological pictogram for a warm front — semicircles point in the direction of frontal advance.",
+      "guide_chapter": {
+        "id": "p2-synoptic-maps",
+        "title": "Analysis of Synoptic Maps (European)"
+      },
+      "workbook_chapter": {
+        "id": "meteo-10-storms-synoptics",
+        "title": "Heat, storms and Swiss weather"
+      },
+      "diagrams": [
+        {
+          "id": "p2-synoptic-symbols",
+          "title": "Synoptic chart symbols"
+        },
+        {
+          "id": "p2-warm-front",
+          "title": "Warm front cross-section"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "meteo_0",
+          "t_start": 2879.7,
+          "t_end": 2937.1,
+          "snippet": "Fabio: red bumps — semicircles — describe a warm front, blue triangles describe a cold front."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "meteo",
+          "page": 21
+        }
+      ],
       "subcategory": "synoptic-chart-reading"
     },
     "Weather_142": {
       "qid": 142,
       "topic": "Weather",
+      "explanation": "A symbol on a weather map showing the curved line with the regularly-spaced triangular spikes is the standard meteorological pictogram for a cold front — triangles point in the direction of frontal advance, mirroring the abrupt teardrop shape of the front.",
+      "guide_chapter": {
+        "id": "p2-synoptic-maps",
+        "title": "Analysis of Synoptic Maps (European)"
+      },
+      "workbook_chapter": {
+        "id": "meteo-10-storms-synoptics",
+        "title": "Heat, storms and Swiss weather"
+      },
+      "diagrams": [
+        {
+          "id": "p2-synoptic-symbols",
+          "title": "Synoptic chart symbols"
+        },
+        {
+          "id": "p2-cold-front",
+          "title": "Cold front cross-section"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "meteo_0",
+          "t_start": 2879.7,
+          "t_end": 2937.1,
+          "snippet": "Fabio: blue triangles describe a cold front — the shape of the symbol reflects the steep cold-air wedge."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "meteo",
+          "page": 21
+        }
+      ],
       "subcategory": "synoptic-chart-reading"
     },
     "Weather_143": {
       "qid": 143,
       "topic": "Weather",
+      "explanation": "The same warm-front pictogram appears again here — curved line with semicircles pointing in the direction of advance. (Multiple identical questions appear on the SHV exam to test that you know the symbol regardless of orientation.)",
+      "guide_chapter": {
+        "id": "p2-synoptic-maps",
+        "title": "Analysis of Synoptic Maps (European)"
+      },
+      "workbook_chapter": {
+        "id": "meteo-10-storms-synoptics",
+        "title": "Heat, storms and Swiss weather"
+      },
+      "diagrams": [
+        {
+          "id": "p2-synoptic-symbols",
+          "title": "Synoptic chart symbols"
+        },
+        {
+          "id": "p2-warm-front",
+          "title": "Warm front cross-section"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "meteo_0",
+          "t_start": 2879.7,
+          "t_end": 2937.1,
+          "snippet": "Fabio: red bumps — semicircles — always describe a warm front, regardless of orientation."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "meteo",
+          "page": 21
+        }
+      ],
       "subcategory": "synoptic-chart-reading"
     },
     "Weather_144": {
       "qid": 144,
       "topic": "Weather",
+      "explanation": "A symbol combining both semicircles and triangles on the same line — typically purple in colour — is the meteorological pictogram for an occluded front, where the cold front has overtaken the warm front and the two air-mass boundaries have merged.",
+      "guide_chapter": {
+        "id": "p2-synoptic-maps",
+        "title": "Analysis of Synoptic Maps (European)"
+      },
+      "workbook_chapter": {
+        "id": "meteo-10-storms-synoptics",
+        "title": "Heat, storms and Swiss weather"
+      },
+      "diagrams": [
+        {
+          "id": "p2-synoptic-symbols",
+          "title": "Synoptic chart symbols"
+        },
+        {
+          "id": "p2-occlusion",
+          "title": "Occluded front: two types"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "meteo_0",
+          "t_start": 2096.0,
+          "t_end": 2106.3,
+          "snippet": "Fabio: occlusion = mixed form of the two fronts; the symbol mixes the semicircles and triangles."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "meteo",
+          "page": 21
+        },
+        {
+          "deck_id": "meteo",
+          "page": 43
+        }
+      ],
       "subcategory": "synoptic-chart-reading"
     },
     "Weather_145": {
       "qid": 145,
       "topic": "Weather",
+      "explanation": "On Figure M32 the centre of the depression lies just south of Lulea (Sweden), where the isobars circle around a value near 975 hPa — the lowest pressure on the chart. Stockholm and the Bay of Biscay are nowhere near a closed low; Tunis is firmly in high-pressure territory.",
+      "guide_chapter": {
+        "id": "p2-synoptic-maps",
+        "title": "Analysis of Synoptic Maps (European)"
+      },
+      "workbook_chapter": {
+        "id": "meteo-10-storms-synoptics",
+        "title": "Heat, storms and Swiss weather"
+      },
+      "diagrams": [
+        {
+          "id": "p2-synoptic-symbols",
+          "title": "Synoptic chart symbols"
+        },
+        {
+          "id": "p2-isobar-rotation",
+          "title": "Wind rotation around pressure centers"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "meteo_0",
+          "t_start": 2820.3,
+          "t_end": 2904.3,
+          "snippet": "Fabio: on this chart the strong low is at Lulea, the strong high is at the Bay of Biscay — recognise the closed-rings pattern."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "meteo",
+          "page": 22
+        },
+        {
+          "deck_id": "meteo",
+          "page": 23
+        }
+      ],
       "subcategory": "synoptic-chart-reading"
     },
     "Weather_146": {
       "qid": 146,
       "topic": "Weather",
+      "explanation": "On Figure M32 the centre of the anticyclone sits over the Bay of Biscay — closed isobars rising to about 1030 hPa surround the centre there. Tunis, Stockholm and Lulea lie at lower pressures or are nearer the low.",
+      "guide_chapter": {
+        "id": "p2-synoptic-maps",
+        "title": "Analysis of Synoptic Maps (European)"
+      },
+      "workbook_chapter": {
+        "id": "meteo-10-storms-synoptics",
+        "title": "Heat, storms and Swiss weather"
+      },
+      "diagrams": [
+        {
+          "id": "p2-synoptic-symbols",
+          "title": "Synoptic chart symbols"
+        },
+        {
+          "id": "p2-isobar-rotation",
+          "title": "Wind rotation around pressure centers"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "meteo_0",
+          "t_start": 2820.3,
+          "t_end": 2904.3,
+          "snippet": "Fabio: the strong high is over the Bay of Biscay at around 1030 hPa — that is where the closed high-pressure rings sit."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "meteo",
+          "page": 22
+        },
+        {
+          "deck_id": "meteo",
+          "page": 23
+        }
+      ],
       "subcategory": "synoptic-chart-reading"
     },
     "Weather_147": {
       "qid": 147,
       "topic": "Weather",
+      "explanation": "The flattest pressure gradient on Figure M32 is over North Africa — the isobars are very widely spaced near Tunis, indicating little change of pressure with distance and therefore weak winds. Closer-packed lines (Stockholm, around the low) mean steeper gradients.",
+      "guide_chapter": {
+        "id": "p2-synoptic-maps",
+        "title": "Analysis of Synoptic Maps (European)"
+      },
+      "workbook_chapter": {
+        "id": "meteo-10-storms-synoptics",
+        "title": "Heat, storms and Swiss weather"
+      },
+      "diagrams": [
+        {
+          "id": "p2-isobar-spacing",
+          "title": "Isobar spacing and wind strength"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "meteo_0",
+          "t_start": 2880.3,
+          "t_end": 2904.3,
+          "snippet": "Fabio: where the isobars are well-spaced, the gradient is flat and the wind weak — Tunis on this chart."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "meteo",
+          "page": 27
+        },
+        {
+          "deck_id": "meteo",
+          "page": 28
+        }
+      ],
       "subcategory": "synoptic-chart-reading"
     },
     "Weather_148": {
       "qid": 148,
       "topic": "Weather",
+      "explanation": "On Figure M32 the steepest pressure gradient — most tightly packed isobars — runs around Stockholm in southern Scandinavia, where the air streams from the high toward the deep low at Lulea. That is where the wind is strongest on the chart.",
+      "guide_chapter": {
+        "id": "p2-synoptic-maps",
+        "title": "Analysis of Synoptic Maps (European)"
+      },
+      "workbook_chapter": {
+        "id": "meteo-10-storms-synoptics",
+        "title": "Heat, storms and Swiss weather"
+      },
+      "diagrams": [
+        {
+          "id": "p2-isobar-spacing",
+          "title": "Isobar spacing and wind strength"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "meteo_0",
+          "t_start": 2842.2,
+          "t_end": 2884.3,
+          "snippet": "Fabio: close-together isobars near Stockholm mean a steep gradient and strong wind — far apart in the Mediterranean means weak wind."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "meteo",
+          "page": 27
+        },
+        {
+          "deck_id": "meteo",
+          "page": 28
+        }
+      ],
       "subcategory": "synoptic-chart-reading"
     },
     "Weather_149": {
       "qid": 149,
       "topic": "Weather",
+      "explanation": "On Figure M32 the highest wind speeds are over southern Scandinavia, where the isobars are packed most tightly — strong west-to-northwest flow parallel to the lines as air streams from the Biscay high toward the Lulea low.",
+      "guide_chapter": {
+        "id": "p2-synoptic-maps",
+        "title": "Analysis of Synoptic Maps (European)"
+      },
+      "workbook_chapter": {
+        "id": "meteo-10-storms-synoptics",
+        "title": "Heat, storms and Swiss weather"
+      },
+      "diagrams": [
+        {
+          "id": "p2-isobar-spacing",
+          "title": "Isobar spacing and wind strength"
+        },
+        {
+          "id": "p2-isobar-rotation",
+          "title": "Wind rotation around pressure centers"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "meteo_0",
+          "t_start": 2842.2,
+          "t_end": 2884.3,
+          "snippet": "Fabio: tightly-packed isobars near Stockholm = strong winds, parallel to the lines."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "meteo",
+          "page": 27
+        },
+        {
+          "deck_id": "meteo",
+          "page": 28
+        }
+      ],
       "subcategory": "synoptic-chart-reading"
     },
     "Weather_150": {
       "qid": 150,
       "topic": "Weather",
+      "explanation": "On Figure M32 the weakest winds are over North Africa: the isobars are widely spaced (flat gradient) and that area also sits near the edge of the anticyclone, where surface flow is slow. Switzerland is in moderate flow, southern Scandinavia is the windy zone.",
+      "guide_chapter": {
+        "id": "p2-synoptic-maps",
+        "title": "Analysis of Synoptic Maps (European)"
+      },
+      "workbook_chapter": {
+        "id": "meteo-10-storms-synoptics",
+        "title": "Heat, storms and Swiss weather"
+      },
+      "diagrams": [
+        {
+          "id": "p2-isobar-spacing",
+          "title": "Isobar spacing and wind strength"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "meteo_0",
+          "t_start": 2880.3,
+          "t_end": 2898.3,
+          "snippet": "Fabio: very wide isobar spacing in North Africa and the Mediterranean = weak wind there."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "meteo",
+          "page": 27
+        }
+      ],
       "subcategory": "synoptic-chart-reading"
     },
     "Weather_151": {
       "qid": 151,
       "topic": "Weather",
+      "explanation": "On Figure M32, with isobars arching from the Biscay high around toward the Mediterranean, the wind direction over Algiers reads as a weak westerly, around 280° — parallel to the isobars and following the clockwise circulation around the high to its south.",
+      "guide_chapter": {
+        "id": "p2-synoptic-maps",
+        "title": "Analysis of Synoptic Maps (European)"
+      },
+      "workbook_chapter": {
+        "id": "meteo-10-storms-synoptics",
+        "title": "Heat, storms and Swiss weather"
+      },
+      "diagrams": [
+        {
+          "id": "p2-isobar-rotation",
+          "title": "Wind rotation around pressure centers"
+        },
+        {
+          "id": "p2-wind-rose",
+          "title": "Wind direction conventions"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "meteo_0",
+          "t_start": 1238.7,
+          "t_end": 1339.5,
+          "snippet": "Fabio: the wind is read parallel to the isobars — and around a high in the northern hemisphere the circulation is clockwise."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "meteo",
+          "page": 26
+        },
+        {
+          "deck_id": "meteo",
+          "page": 30
+        }
+      ],
       "subcategory": "synoptic-chart-reading"
     },
     "Weather_152": {
       "qid": 152,
       "topic": "Weather",
+      "explanation": "On Figure M32, London sits between the Biscay high and the Lulea low in tightly packed isobars; the surface wind reads as a fresh northwesterly around 310°, parallel to the isobars as air streams from the high toward the low.",
+      "guide_chapter": {
+        "id": "p2-synoptic-maps",
+        "title": "Analysis of Synoptic Maps (European)"
+      },
+      "workbook_chapter": {
+        "id": "meteo-10-storms-synoptics",
+        "title": "Heat, storms and Swiss weather"
+      },
+      "diagrams": [
+        {
+          "id": "p2-isobar-rotation",
+          "title": "Wind rotation around pressure centers"
+        },
+        {
+          "id": "p2-wind-rose",
+          "title": "Wind direction conventions"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "meteo_0",
+          "t_start": 1311.5,
+          "t_end": 1339.5,
+          "snippet": "Fabio: read the wind parallel to the isobars — close-together lines mean strong wind."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "meteo",
+          "page": 26
+        },
+        {
+          "deck_id": "meteo",
+          "page": 30
+        }
+      ],
       "subcategory": "synoptic-chart-reading"
     },
     "Weather_153": {
       "qid": 153,
       "topic": "Weather",
+      "explanation": "On Figure M32, Athens sits under the southern flank of an anticyclone over Russia, with sparse isobars; surface wind reads as a weak southeasterly around 130° — parallel to the isobars, following the clockwise flow on the south side of the high.",
+      "guide_chapter": {
+        "id": "p2-synoptic-maps",
+        "title": "Analysis of Synoptic Maps (European)"
+      },
+      "workbook_chapter": {
+        "id": "meteo-10-storms-synoptics",
+        "title": "Heat, storms and Swiss weather"
+      },
+      "diagrams": [
+        {
+          "id": "p2-isobar-rotation",
+          "title": "Wind rotation around pressure centers"
+        },
+        {
+          "id": "p2-wind-rose",
+          "title": "Wind direction conventions"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "meteo_0",
+          "t_start": 1311.5,
+          "t_end": 1339.5,
+          "snippet": "Fabio: pick the isobar passing through the city and read off the wind direction parallel to it."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "meteo",
+          "page": 26
+        },
+        {
+          "deck_id": "meteo",
+          "page": 30
+        }
+      ],
       "subcategory": "synoptic-chart-reading"
     },
     "Weather_154": {
       "qid": 154,
       "topic": "Weather",
+      "explanation": "On Figure M33 (the south Föhn situation), Zurich sits in the warm sector with isobars running from southwest to northeast over Switzerland; surface wind reads as a fairly strong southwesterly, around 210°. That south-to-west flow is the very gradient that drives Föhn.",
+      "guide_chapter": {
+        "id": "p2-synoptic-maps",
+        "title": "Analysis of Synoptic Maps (European)"
+      },
+      "workbook_chapter": {
+        "id": "meteo-10-storms-synoptics",
+        "title": "Heat, storms and Swiss weather"
+      },
+      "diagrams": [
+        {
+          "id": "p2-isobar-rotation",
+          "title": "Wind rotation around pressure centers"
+        },
+        {
+          "id": "p2-wind-rose",
+          "title": "Wind direction conventions"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "meteo_0",
+          "t_start": 1311.5,
+          "t_end": 1339.5,
+          "snippet": "Fabio: read the wind parallel to the isobars — southwest over Zurich on a Föhn day."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "meteo",
+          "page": 82
+        }
+      ],
       "subcategory": "synoptic-chart-reading"
     },
     "Weather_155": {
       "qid": 155,
       "topic": "Weather",
+      "explanation": "On Figure M33, Lisbon sits behind the cold-front trailing edge under the Atlantic anticyclone; surface wind reads as a weak northwesterly around 320° — parallel to the widely-spaced isobars on the eastern flank of the high.",
+      "guide_chapter": {
+        "id": "p2-synoptic-maps",
+        "title": "Analysis of Synoptic Maps (European)"
+      },
+      "workbook_chapter": {
+        "id": "meteo-10-storms-synoptics",
+        "title": "Heat, storms and Swiss weather"
+      },
+      "diagrams": [
+        {
+          "id": "p2-isobar-rotation",
+          "title": "Wind rotation around pressure centers"
+        },
+        {
+          "id": "p2-wind-rose",
+          "title": "Wind direction conventions"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "meteo_0",
+          "t_start": 1311.5,
+          "t_end": 1339.5,
+          "snippet": "Fabio: at Lisbon, in light pressure gradient, weak northwesterly parallel to the isobars."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "meteo",
+          "page": 26
+        }
+      ],
       "subcategory": "synoptic-chart-reading"
     },
     "Weather_156": {
       "qid": 156,
       "topic": "Weather",
+      "explanation": "On Figure M33 the warm sector lies between the leading warm front and the trailing cold front and stretches across central and northern Europe. Zurich and Stockholm both sit inside that wedge of warm subtropical air — Paris and London are behind the cold front, Lisbon and Athens are in anticyclonic high-pressure air.",
+      "guide_chapter": {
+        "id": "p2-synoptic-maps",
+        "title": "Analysis of Synoptic Maps (European)"
+      },
+      "workbook_chapter": {
+        "id": "meteo-10-storms-synoptics",
+        "title": "Heat, storms and Swiss weather"
+      },
+      "diagrams": [
+        {
+          "id": "p2-isobar-rotation",
+          "title": "Wind rotation around pressure centers"
+        },
+        {
+          "id": "p2-warm-front",
+          "title": "Warm front cross-section"
+        },
+        {
+          "id": "p2-cold-front",
+          "title": "Cold front cross-section"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "meteo_0",
+          "t_start": 2161.0,
+          "t_end": 2175.2,
+          "snippet": "Fabio: in a low, a warm front leads and a cold front trails — the warm sector is the wedge between them."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "meteo",
+          "page": 36
+        },
+        {
+          "deck_id": "meteo",
+          "page": 82
+        }
+      ],
       "subcategory": "synoptic-chart-reading"
     },
     "Weather_157": {
       "qid": 157,
       "topic": "Weather",
+      "explanation": "On Figure M33, Paris and London lie just behind the cold front in the post-frontal \"train\" — typical cumulus clouds, fresh polar air, good visibility and stratocumulus. Zurich and Stockholm are still in the warm sector, Lisbon and Athens under anticyclonic influence.",
+      "guide_chapter": {
+        "id": "p2-synoptic-maps",
+        "title": "Analysis of Synoptic Maps (European)"
+      },
+      "workbook_chapter": {
+        "id": "meteo-10-storms-synoptics",
+        "title": "Heat, storms and Swiss weather"
+      },
+      "diagrams": [
+        {
+          "id": "p2-cold-front",
+          "title": "Cold front cross-section"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "meteo_0",
+          "t_start": 2287.4,
+          "t_end": 2341.3,
+          "snippet": "Fabio: behind a cold front the air is fresher, with cumulus clouds at low altitudes — Paris and London in the train."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "meteo",
+          "page": 45
+        }
+      ],
       "subcategory": "synoptic-chart-reading"
     },
     "Weather_158": {
       "qid": 158,
       "topic": "Weather",
+      "explanation": "On Figure M33 the warm front lies far to the north; Lulea and St. Petersburg sit ahead of it and feel the approach first — cirrostratus and high cloud streaming in, pressure falling. Paris/London are post-cold-front, Zurich/Stockholm are in the warm sector, Lisbon/Athens are under highs.",
+      "guide_chapter": {
+        "id": "p2-synoptic-maps",
+        "title": "Analysis of Synoptic Maps (European)"
+      },
+      "workbook_chapter": {
+        "id": "meteo-10-storms-synoptics",
+        "title": "Heat, storms and Swiss weather"
+      },
+      "diagrams": [
+        {
+          "id": "p2-warm-front",
+          "title": "Warm front cross-section"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "meteo_0",
+          "t_start": 2629.1,
+          "t_end": 2680.4,
+          "snippet": "Fabio: ahead of a warm front you see cirrostratus and altostratus advancing — the high-cloud announcement."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "meteo",
+          "page": 47
+        }
+      ],
       "subcategory": "synoptic-chart-reading"
     },
     "Weather_159": {
       "qid": 159,
       "topic": "Weather",
+      "explanation": "On Figure M33 Lisbon sits under the Atlantic anticyclone and Athens sits under the Russian anticyclone — both cities are in high-pressure influence with stable, settled weather. Paris/London are post-frontal, Zurich/Stockholm are in the warm sector, Lulea/St. Petersburg are ahead of the warm front.",
+      "guide_chapter": {
+        "id": "p2-synoptic-maps",
+        "title": "Analysis of Synoptic Maps (European)"
+      },
+      "workbook_chapter": {
+        "id": "meteo-10-storms-synoptics",
+        "title": "Heat, storms and Swiss weather"
+      },
+      "diagrams": [
+        {
+          "id": "p2-isobar-rotation",
+          "title": "Wind rotation around pressure centers"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "meteo_0",
+          "t_start": 2949.0,
+          "t_end": 2965.5,
+          "snippet": "Fabio: at Athens we have high-pressure influence with nice weather; Lisbon is under the Atlantic high."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "meteo",
+          "page": 20
+        },
+        {
+          "deck_id": "meteo",
+          "page": 23
+        }
+      ],
       "subcategory": "synoptic-chart-reading"
     },
     "Weather_160": {
       "qid": 160,
       "topic": "Weather",
+      "explanation": "At Lulea on Figure M33, hundreds of kilometres ahead of the warm front advancing from the south, the cirrostratus deck is already overhead with 5/8–7/8 cover — the textbook warm-front herald. Cumulus, cumulonimbus or nimbostratus belong to other parts of the frontal cycle.",
+      "guide_chapter": {
+        "id": "p2-synoptic-maps",
+        "title": "Analysis of Synoptic Maps (European)"
+      },
+      "workbook_chapter": {
+        "id": "meteo-10-storms-synoptics",
+        "title": "Heat, storms and Swiss weather"
+      },
+      "diagrams": [
+        {
+          "id": "p2-warm-front",
+          "title": "Warm front cross-section"
+        },
+        {
+          "id": "p2-clouds-bands",
+          "title": "Cloud altitude bands"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "meteo_0",
+          "t_start": 2629.1,
+          "t_end": 2680.4,
+          "snippet": "Fabio: warm front cloud sequence — cirrus, then cirrostratus far ahead of the front itself."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "meteo",
+          "page": 47
+        },
+        {
+          "deck_id": "meteo",
+          "page": 48
+        }
+      ],
       "subcategory": "synoptic-chart-reading"
     },
     "Weather_161": {
       "qid": 161,
       "topic": "Weather",
+      "explanation": "At Paris on Figure M33, behind the cold front in the post-frontal \"train\", broken cumulus dominates at 3/8–5/8 cover — fresh, cool air with bubbling shallow convection. 8/8 nimbostratus is warm-front, 5/8–7/8 cumulonimbus belongs ahead of the cold front, cirrostratus is far ahead of the warm front.",
+      "guide_chapter": {
+        "id": "p2-synoptic-maps",
+        "title": "Analysis of Synoptic Maps (European)"
+      },
+      "workbook_chapter": {
+        "id": "meteo-10-storms-synoptics",
+        "title": "Heat, storms and Swiss weather"
+      },
+      "diagrams": [
+        {
+          "id": "p2-cold-front",
+          "title": "Cold front cross-section"
+        },
+        {
+          "id": "p2-clouds-bands",
+          "title": "Cloud altitude bands"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "meteo_0",
+          "t_start": 2287.4,
+          "t_end": 2341.3,
+          "snippet": "Fabio: behind a cold front the air is fresher with cumulus clouds at low altitudes."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "meteo",
+          "page": 45
+        }
+      ],
       "subcategory": "synoptic-chart-reading"
     },
     "Weather_162": {
       "qid": 162,
       "topic": "Weather",
+      "explanation": "At northeastern Switzerland on Figure M33, just ahead of an advancing cold front in a warm-sector Föhn pattern, expect light cumulus cover (2/8–4/8) plus lenticular clouds at altitude — strong southwesterly wind over the alpine ridges generates the lee waves. Nimbostratus or cirrostratus belong elsewhere on the chart.",
+      "guide_chapter": {
+        "id": "p2-synoptic-maps",
+        "title": "Analysis of Synoptic Maps (European)"
+      },
+      "workbook_chapter": {
+        "id": "meteo-10-storms-synoptics",
+        "title": "Heat, storms and Swiss weather"
+      },
+      "diagrams": [
+        {
+          "id": "p2-cumulonimbus",
+          "title": "Cumulonimbus storm structure"
+        },
+        {
+          "id": "p2-lenticular",
+          "title": "Lenticular cloud from mountain wave"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "meteo_1",
+          "t_start": 1583.4,
+          "t_end": 1629.5,
+          "snippet": "Fabio: with strong wind over a mountain range you get the wave clouds — lenticulars to the east."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "meteo",
+          "page": 85
+        }
+      ],
       "subcategory": "synoptic-chart-reading"
     },
     "Weather_163": {
       "qid": 163,
       "topic": "Weather",
+      "explanation": "At St. Petersburg on Figure M33, very close to (and just under) the advancing warm front, the warm air rising over the cold air mass is producing a fully-developed nimbostratus deck — 8/8 cover with steady rain. Cumulus belongs post-front, cumulonimbus belongs ahead of the cold front.",
+      "guide_chapter": {
+        "id": "p2-synoptic-maps",
+        "title": "Analysis of Synoptic Maps (European)"
+      },
+      "workbook_chapter": {
+        "id": "meteo-10-storms-synoptics",
+        "title": "Heat, storms and Swiss weather"
+      },
+      "diagrams": [
+        {
+          "id": "p2-warm-front",
+          "title": "Warm front cross-section"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "meteo_0",
+          "t_start": 2657.1,
+          "t_end": 2704.6,
+          "snippet": "Fabio: nimbostratus with showers is the wrap-up of the warm-front sequence as it arrives at the ground."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "meteo",
+          "page": 47
+        },
+        {
+          "deck_id": "meteo",
+          "page": 48
+        }
+      ],
       "subcategory": "synoptic-chart-reading"
     },
     "Weather_164": {
       "qid": 164,
       "topic": "Weather",
+      "explanation": "Figure M33 is a south-Föhn synoptic situation: strong southwesterly flow with cumulonimbus advancing ahead of a cold front from the west, lenticulars in the east, and dry warm conditions over the Alpine valleys due to south Föhn. So the forecast is \"increasing cloud in west and south, mainly sunny in the east due to south Föhn\".",
+      "guide_chapter": {
+        "id": "p2-weather-switzerland",
+        "title": "Some Weather Situations Typical For Switzerland"
+      },
+      "workbook_chapter": {
+        "id": "meteo-10-storms-synoptics",
+        "title": "Heat, storms and Swiss weather"
+      },
+      "diagrams": [
+        {
+          "id": "p2-foehn",
+          "title": "Foehn over a mountain range"
+        },
+        {
+          "id": "p2-swiss-foehn-rule",
+          "title": "Swiss foehn pressure rule"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "meteo_0",
+          "t_start": 2674.7,
+          "t_end": 2706.5,
+          "snippet": "Fabio: the classic south Föhn pattern — cold front approaching from the west, Föhn knee over the Alps, strong southwest wind."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "meteo",
+          "page": 81
+        },
+        {
+          "deck_id": "meteo",
+          "page": 82
+        }
+      ],
       "subcategory": "synoptic-chart-reading"
     }
   },
