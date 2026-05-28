@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-05-28T15:01:30.604Z",
+  "fetchedAt": "2026-05-28T15:05:01.159Z",
   "questions": {
     "1": {
       "qid": 1,
@@ -2522,10 +2522,445 @@
         "October"
       ],
       "correct": 0
+    },
+    "Weather_15": {
+      "qid": 15,
+      "topic": "Weather",
+      "pos": 22,
+      "total_in_topic": 164,
+      "text": "At the same altitude above sea level",
+      "options": [
+        "warm air is denser than cold air.",
+        "warm air is less dense than cold air.",
+        "the air density is dependent on the adiabatic gradient.",
+        "warm air is the same density as cold air."
+      ],
+      "correct": 1
+    },
+    "Weather_78": {
+      "qid": 78,
+      "topic": "Weather",
+      "pos": 23,
+      "total_in_topic": 164,
+      "text": "A wind with a strength of 25 kt blows with about",
+      "options": [
+        "25 km/h",
+        "35 km/h",
+        "45 km/h",
+        "15 km/h"
+      ],
+      "correct": 2
+    },
+    "Weather_109": {
+      "qid": 109,
+      "topic": "Weather",
+      "pos": 25,
+      "total_in_topic": 164,
+      "text": "Which order of cloud types is typical for the passing of a warm front?",
+      "options": [
+        "Cirrus, cirrostratus, altostratus, nimbostratus.",
+        "Lenticulars, cumulus congestus, cirrocumulus, altocumulus.",
+        "Altocumulus, stratocumulus, altostratus, nimbostratus.",
+        "Cumulus, cumulus congestus, cumulus calvus, cumulonimbus."
+      ],
+      "correct": 0
+    },
+    "Weather_34": {
+      "qid": 34,
+      "topic": "Weather",
+      "pos": 26,
+      "total_in_topic": 164,
+      "text": "Which of the following changes of state requires energy in the form of heat?",
+      "options": [
+        "Transformation from gaseous to liquid state.",
+        "Transformation from liquid to solid state.",
+        "Transformation from solid to liquid state.",
+        "Transformation from gaseous to solid state."
+      ],
+      "correct": 2
+    },
+    "Weather_126": {
+      "qid": 126,
+      "topic": "Weather",
+      "pos": 27,
+      "total_in_topic": 164,
+      "text": "What wind would one expect over the Swiss plateau (between the Alps and the Jura mountains) when Switzerland is situated on the edge of an extensive high whose centre is located above northern Germany?",
+      "options": [
+        "Northwest wind",
+        "Bise",
+        "West wind",
+        "South Föhn"
+      ],
+      "correct": 1
+    },
+    "Weather_122": {
+      "qid": 122,
+      "topic": "Weather",
+      "pos": 29,
+      "total_in_topic": 164,
+      "text": "the formation of cumulonimbus and therefore thunderstorms before the arrival of a front is most likely with",
+      "options": [
+        "cold fronts in August.",
+        "warm fronts in August.",
+        "cold fronts in January.",
+        "warm fronts in January."
+      ],
+      "correct": 0
+    },
+    "Legislation_46": {
+      "qid": 46,
+      "topic": "Legislation",
+      "pos": 1,
+      "total_in_topic": 180,
+      "text": "How long is a paragliding gliding licence valid?",
+      "options": [
+        "For the categories of pilot as well as tandem 1 and 2: unlimited. For the categories of tandem 3 and flight instructor: 3 years.",
+        "For the categories of pilot as well as tandem 1 and 2: unlimited. For the categories of tandem 3 and flight instructor: 5 years.",
+        "All categories: unlimited.",
+        "All categories: 3 years."
+      ],
+      "correct": 0
+    },
+    "Legislation_57": {
+      "qid": 57,
+      "topic": "Legislation",
+      "pos": 2,
+      "total_in_topic": 180,
+      "text": "The GLDK or GLDC",
+      "options": [
+        "is a weekly summary of all information published for VFR aviation.",
+        "contains the latest information about the location and times of military firing practice and is issued daily.",
+        "is a topographical map showing the different categories of airspace, dangerous and restricted areas, aerial obstructions, sailplane/glider zones (LS-R for gliders) and military operating hours.",
+        "contains general information for users of Swiss airspace."
+      ],
+      "correct": 2
+    },
+    "Legislation_158": {
+      "qid": 158,
+      "topic": "Legislation",
+      "pos": 3,
+      "total_in_topic": 180,
+      "text": "Which rules apply for hang gliders and paragliders at the location marked with an X at 4100 m AMSL (~1600 m AGL) on a Saturday at 15:00 in February when, according to DABS, LS-R11 (red) = inactive.",
+      "options": [
+        "Flying is prohibited",
+        "Maximum height 4550m AMSL, minimum visibility 8 km, distance to clouds 1500 m horizontal / 300 m vertical",
+        "Maximum height 4550 m AMSL, minimum visibility 8 km, distance to clouds 100 m horizontal / 50 m vertical",
+        "Maximum height 4550m AMSL, minimum visibility 8 km, out of clouds, ground visibility"
+      ],
+      "correct": 1
+    },
+    "Legislation_111": {
+      "qid": 111,
+      "topic": "Legislation",
+      "pos": 4,
+      "total_in_topic": 180,
+      "text": "Who is responsible for issuing official licences",
+      "options": [
+        "The Federal Office of Civil Aviation (FOCA/BAZL).",
+        "The Canton Department for Road Traffic and Aviation.",
+        "The examiner (expert).",
+        "The Swiss Hang Gliding Association (SHV)."
+      ],
+      "correct": 3
+    },
+    "Legislation_170": {
+      "qid": 170,
+      "topic": "Legislation",
+      "pos": 5,
+      "total_in_topic": 180,
+      "text": "What is the minimum lower limit of a TMA in the Jura?",
+      "options": [
+        "600m AMSL.",
+        "GND.",
+        "The height indicated on the map.",
+        "300m AGL."
+      ],
+      "correct": 2
+    },
+    "Legislation_152": {
+      "qid": 152,
+      "topic": "Legislation",
+      "pos": 6,
+      "total_in_topic": 180,
+      "text": "Which rules apply for hang gliders and paragliders at the location marked with an X at 2500 m AMSL on a Monday at 15:00 in March when, according to DABS, LS-R2 (red) = active?",
+      "options": [
+        "Maximum height 4550 m AMSL, minimum visibility 8 km, distance to clouds 1500 m horizontal / 300 m vertical",
+        "Maximum height 3050 m AMSL, minimum visibility 5 km, distance to clouds 1500 m horizontal / 300 m vertical",
+        "Maximum height 3950 m AMSL, minimum visibility 5 km, distance to clouds 1500 m horizontal / 300 m vertical",
+        "Flying is prohibited"
+      ],
+      "correct": 1
+    },
+    "Legislation_169": {
+      "qid": 169,
+      "topic": "Legislation",
+      "pos": 8,
+      "total_in_topic": 180,
+      "text": "What is the minimum lower limit of a TMA in the Alps?",
+      "options": [
+        "300m AGL.",
+        "GND.",
+        "600m AMSL.",
+        "The height indicated on the map."
+      ],
+      "correct": 0
+    },
+    "Legislation_29": {
+      "qid": 29,
+      "topic": "Legislation",
+      "pos": 9,
+      "total_in_topic": 180,
+      "text": "After acquiring an official Swiss hang glider pilots licence,",
+      "options": [
+        "Answers a, b and c are correct.",
+        "It is recommended to record your flights in a log book, as your need to prove that you have completed 200 flights before beginning training to be a tandem pilot.",
+        "there is basically no obligation to record your flights in a log book.",
+        "It is recommended to record your flights in a log book, as you need to prove that you have completed 200 flights before the practical flight instructor exam."
+      ],
+      "correct": 0
+    },
+    "Legislation_14": {
+      "qid": 14,
+      "topic": "Legislation",
+      "pos": 10,
+      "total_in_topic": 180,
+      "text": "In Switzerland, all hang gliders and paragliders must have the following markings",
+      "options": [
+        "SHV airworthiness label; SHV issued identification number.",
+        "SHV issued identification number; owner's name and address.",
+        "SHV issued identification number; manufacturer's label.",
+        "Manufacturer's label; SHV airworthiness label."
+      ],
+      "correct": 2
+    },
+    "Legislation_84": {
+      "qid": 84,
+      "topic": "Legislation",
+      "pos": 12,
+      "total_in_topic": 180,
+      "text": "The airspace classes found in Switzerland are",
+      "options": [
+        "categories C, D, E and G.",
+        "categories A, C, E and G.",
+        "categories A, D, E and G.",
+        "categories B, C, E and G."
+      ],
+      "correct": 0
+    },
+    "Legislation_34": {
+      "qid": 34,
+      "topic": "Legislation",
+      "pos": 13,
+      "total_in_topic": 180,
+      "text": "From march until 31 October, an LS-R for gliders with the notation “MA” is",
+      "options": [
+        "active only in the mornings.",
+        "active during MIL-OFF, inactive during MIL-ON.",
+        "active during MIL-OFF. During MIL-ON it can be activated upon request by the appropriate authority.",
+        "permanently active."
+      ],
+      "correct": 2
+    },
+    "Legislation_150": {
+      "qid": 150,
+      "topic": "Legislation",
+      "pos": 14,
+      "total_in_topic": 180,
+      "text": "Which general rules apply for hang gliders and paragliders without special permission at the location marked with an X at 2000 m AMSL on a Wednesday at 15:00 in May?",
+      "options": [
+        "Flying is prohibited",
+        "Maximum height 3050 m AMSL, minimum height 1350 m AMSL, minimum visibility 5 km, distance to clouds 1500 m horizontal / 300 m vertical",
+        "Maximum height 3050 m AMSL, minimum visibility 1.5 km, out of clouds, ground visibility",
+        "Maximum height 1350 m AMSL, minimum visibility 5 km, distance to clouds 1500 m horizontal / 300 m vertical"
+      ],
+      "correct": 1
+    },
+    "Legislation_66": {
+      "qid": 66,
+      "topic": "Legislation",
+      "pos": 15,
+      "total_in_topic": 180,
+      "text": "When can hang gliders and paragliders fly?",
+      "options": [
+        "Neither in VFR or IFR conditions, as they apply only to commercial aviation.",
+        "Exclusively in IFR conditions.",
+        "According to the visibility in IFR as well as VFR flight conditions.",
+        "Exclusively in VFR conditions."
+      ],
+      "correct": 3
+    },
+    "Legislation_144": {
+      "qid": 144,
+      "topic": "Legislation",
+      "pos": 16,
+      "total_in_topic": 180,
+      "text": "Is it possible to fly in every country with the Swiss hang gliding licence?",
+      "options": [
+        "No.",
+        "Only for occasional flights.",
+        "Yes.",
+        "Depends on the country. The local laws and regulations have to be respected."
+      ],
+      "correct": 3
+    },
+    "Legislation_86": {
+      "qid": 86,
+      "topic": "Legislation",
+      "pos": 17,
+      "total_in_topic": 180,
+      "text": "In which classes of airspace does legislation not require permanent radio contact?",
+      "options": [
+        "D and E.",
+        "C and D.",
+        "G and C.",
+        "E and G."
+      ],
+      "correct": 3
+    },
+    "Legislation_43": {
+      "qid": 43,
+      "topic": "Legislation",
+      "pos": 18,
+      "total_in_topic": 180,
+      "text": "Under what conditions is it legal to land with a hang glider or paraglider on a fixed wing aircraft runway?",
+      "options": [
+        "When there are no aircraft on approach and the runway is clear.",
+        "Never",
+        "With the permission of the aerodrome director.",
+        "When landing witnesses are urgently required after a cross-country flight."
+      ],
+      "correct": 2
+    },
+    "Legislation_77": {
+      "qid": 77,
+      "topic": "Legislation",
+      "pos": 19,
+      "total_in_topic": 180,
+      "text": "The abbreviation \"CTR\" stands for",
+      "options": [
+        "Flight information region.",
+        "Terminal control area.",
+        "Control Zone.",
+        "Airway."
+      ],
+      "correct": 2
+    },
+    "Legislation_87": {
+      "qid": 87,
+      "topic": "Legislation",
+      "pos": 21,
+      "total_in_topic": 180,
+      "text": "For which classes of airspace do all aircraft require clearance or permission to enter?",
+      "options": [
+        "C and D",
+        "E and G",
+        "D and E",
+        "G and C"
+      ],
+      "correct": 0
+    },
+    "Legislation_37": {
+      "qid": 37,
+      "topic": "Legislation",
+      "pos": 22,
+      "total_in_topic": 180,
+      "text": "Starts and landings on public waterways",
+      "options": [
+        "are allowed without restriction if the appropriate equipment is used.",
+        "are forbidden.",
+        "require the permission of the canton's shipping administrator.",
+        "require permission from BAZL."
+      ],
+      "correct": 2
+    },
+    "Legislation_15": {
+      "qid": 15,
+      "topic": "Legislation",
+      "pos": 23,
+      "total_in_topic": 180,
+      "text": "According to Art. 11a of the regulations for identification of aircraft (VKZ) from 6. September 1984, SR 748.216.1, each hang glider and paraglider must have the following identification",
+      "options": [
+        "An easily identifiable number with a maximum of 5 digits on the upper side of the load-bearing surface of the wing.",
+        "An easily identifiable number with a maximum of 5 digits on both the upper and lower side of the load-bearing surface of the wing.",
+        "An easily identifiable number with a maximum of 5 digits on the underside of the load-bearing surface of the wing.",
+        "An easily identifiable number with a maximum of 5 digits on either the upper or lower side of the load-bearing surface of the wing."
+      ],
+      "correct": 2
+    },
+    "Legislation_167": {
+      "qid": 167,
+      "topic": "Legislation",
+      "pos": 25,
+      "total_in_topic": 180,
+      "text": "Up to what height is it permitted to climb in LS-R24 on a Sunday afternoon in July?",
+      "options": [
+        "up to 4550m pressure altitude (QNE) or 600m above ground (whichever gives the higher altitude)",
+        "up to 600m above ground",
+        "up to 3950m pressure altitude (QNE) or 600m above ground (whichever is higher)",
+        "up to 4550m pressure altitude (QNE)"
+      ],
+      "correct": 0
+    },
+    "Legislation_125": {
+      "qid": 125,
+      "topic": "Legislation",
+      "pos": 26,
+      "total_in_topic": 180,
+      "text": "Airspace is used by different categories of aircraft, each enjoying different priorities (precedence) in accordance with their capabilities. Which of the following is correct?",
+      "options": [
+        "Sailplanes and tow planes have priority over paragliders and hang gliders.",
+        "Tow planes have priority over paragliders and hang gliders, which have priority over sailplanes.",
+        "Paragliders, hang gliders and tow planes have priority over sailplanes.",
+        "Paragliders, hang gliders and sailplanes have priority over tow planes."
+      ],
+      "correct": 3
+    },
+    "Legislation_172": {
+      "qid": 172,
+      "topic": "Legislation",
+      "pos": 28,
+      "total_in_topic": 180,
+      "text": "To what altitude can you climb in the Jura with a QNH of 1005 hPa?",
+      "options": [
+        "Slightly less than 3050m AMSL.",
+        "Exactly 3950m AMSL.",
+        "Slightly higher than 3050m AMSL.",
+        "Exactly 3050m AMSL."
+      ],
+      "correct": 0
+    },
+    "Legislation_88": {
+      "qid": 88,
+      "topic": "Legislation",
+      "pos": 29,
+      "total_in_topic": 180,
+      "text": "The upper limit of class G airspace in Switzerland is fixed at",
+      "options": [
+        "600 m AGL.",
+        "300 m AGL.",
+        "None of the above is correct.",
+        "150 m AGL."
+      ],
+      "correct": 0
+    },
+    "Legislation_119": {
+      "qid": 119,
+      "topic": "Legislation",
+      "pos": 31,
+      "total_in_topic": 180,
+      "text": "What prerequisites must a glider have in order that a candidate is allowed to start the exam? The glider must",
+      "options": [
+        "be recognised by SHV as having been tested for airworthiness, (exception: rigid wings) and have all markings according to regulations.",
+        "have all markings according to regulations.",
+        "be a class 1 glider and have all markings according to regulations.",
+        "have an aspect ratio of less than 4 and have all markings according to regulations."
+      ],
+      "correct": 0
     }
   },
   "topics": {
     "Aerodynamics": 152,
-    "Weather": 164
+    "Weather": 164,
+    "Legislation": 180
   }
 }

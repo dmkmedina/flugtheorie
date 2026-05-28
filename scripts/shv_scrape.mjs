@@ -136,19 +136,26 @@ async function pressBack(page) {
   await page.waitForTimeout(700);
 }
 
-async function scrapeOneSubject(targetSubject) {
-  // Fresh browser context per subject — guarantees a clean login flow
-  // (the previous one ends up mid-quiz and breaks re-auth).
+async function startNewSession(targetSubject) {
+  // Fresh browser context = fresh login = the platform forgets which
+  // questions we've already "answered" in this session, so we get a
+  // new random batch of unanswered ones.
   const freshCtx = await browser.newContext({ ignoreHTTPSErrors: true, viewport: { width: 1440, height: 900 } });
   const page = await freshCtx.newPage();
-  console.error(`\n=== Scraping ${targetSubject.label} (subject ${targetSubject.id}) ===`);
   await login(page);
   await selectOnlySubject(page, targetSubject.id);
   await page.locator('button:has-text("Start")').first().click();
   await page.waitForTimeout(2500);
+  return { ctx: freshCtx, page };
+}
+
+async function scrapeOneSubject(targetSubject) {
+  console.error(`\n=== Scraping ${targetSubject.label} (subject ${targetSubject.id}) ===`);
+  let { ctx: freshCtx, page } = await startNewSession(targetSubject);
 
   let consecutiveDupes = 0;
   let captured = 0;
+  let sessionsUsed = 1;
   let lastSave = Date.now();
 
   for (let step = 0; step < 10000; step++) {
@@ -165,8 +172,30 @@ async function scrapeOneSubject(targetSubject) {
     if (seenKeys.has(key)) {
       consecutiveDupes++;
       if (consecutiveDupes >= 35) {
-        console.error(`[${targetSubject.label}] 35 dupes in a row → topic exhausted (${captured} new captured this run)`);
-        break;
+        // This SHV session has shown us everything new it has. Stop
+        // here if we've captured all questions for the topic, otherwise
+        // open a fresh session (logout + relogin) which resets the
+        // "already answered" state and serves the questions we haven't
+        // seen yet.
+        const haveForTopic = Object.values(dataset.questions).filter(q => q.topic === targetSubject.label).length;
+        const totalForTopic = dataset.topics[targetSubject.label];
+        console.error(`[${targetSubject.label}] session ${sessionsUsed} exhausted: have ${haveForTopic}/${totalForTopic} after +${captured}`);
+        if (totalForTopic && haveForTopic >= totalForTopic) {
+          console.error(`[${targetSubject.label}] full coverage reached`);
+          break;
+        }
+        if (sessionsUsed >= 12) {
+          console.error(`[${targetSubject.label}] 12 sessions used — giving up (${haveForTopic}/${totalForTopic})`);
+          break;
+        }
+        await page.close().catch(() => {});
+        await freshCtx.close().catch(() => {});
+        ({ ctx: freshCtx, page } = await startNewSession(targetSubject));
+        sessionsUsed++;
+        consecutiveDupes = 0;
+        captured = 0;  // reset per-session counter for clarity
+        console.error(`[${targetSubject.label}] opened session ${sessionsUsed}`);
+        continue;
       }
       await pressForward(page);
       continue;
