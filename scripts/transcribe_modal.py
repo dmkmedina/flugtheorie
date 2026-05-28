@@ -53,7 +53,7 @@ INITIAL_PROMPT = (
     "EN-A, EN-B, EN-C, EN-D, SHV, FSVL, Aramidfasern, Dyneema."
 )
 
-MODEL_NAME = "large-v3-turbo"  # 8× faster than large-v3, similar quality
+MODEL_NAME = "large-v3"  # faster-whisper 1.0.3 doesn't recognise large-v3-turbo
 
 
 def _fmt_ts(seconds: float) -> str:
