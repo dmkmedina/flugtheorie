@@ -2078,8 +2078,8 @@ function renderVideoPlayer() {
   host.innerHTML = `
     <div class="vp-header">
       <div>
-        <div class="vp-title">${v.deck_icon} ${escapeHtml(v.title)}</div>
-        <div class="vp-sub muted">${v.duration_label || ''} · MP4 from Free Wings · Subtitles localized for this app</div>
+        <div class="vp-title">${v.deck_icon || '🎬'} ${escapeHtml(v.title)}</div>
+        <div class="vp-sub muted">${v.duration_label || ''} · MP4 from ${escapeHtml(v.provider_label || 'source')} · Subtitles localized for this app</div>
       </div>
       <button class="vp-close" id="vp-close">Close ✕</button>
     </div>
