@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-05-28T15:17:57.645Z",
+  "fetchedAt": "2026-05-28T15:18:28.528Z",
   "questions": {
     "1": {
       "qid": 1,
@@ -5743,6 +5743,132 @@
         "between the suspension line connection points at the front half of the wing."
       ],
       "correct": 2
+    },
+    "Materials_40": {
+      "qid": 40,
+      "topic": "Materials",
+      "pos": 93,
+      "total_in_topic": 125,
+      "text": "What can be said about the loading on lines of a stable wing?",
+      "options": [
+        "A and C lines carry the load, whilst B and D lines primarily create the profile shape.",
+        "The load on a modern glider is distributed equally on all main lines.",
+        "A and B lines take more than double the load of C and D lines.",
+        "C and D lines take more than double the load of A and B lines."
+      ],
+      "correct": 2
+    },
+    "Materials_32": {
+      "qid": 32,
+      "topic": "Materials",
+      "pos": 95,
+      "total_in_topic": 125,
+      "text": "On a modern paraglider, what is the tolerable stretch of a 6m suspension line, under a load of 50 N (5kg)?",
+      "options": [
+        "approx. 3cm.",
+        "The suspension lines on modern paragliders are made of materials that don't stretch.",
+        "approx. 6cm.",
+        "approx. 9cm."
+      ],
+      "correct": 0
+    },
+    "Materials_20": {
+      "qid": 20,
+      "topic": "Materials",
+      "pos": 96,
+      "total_in_topic": 125,
+      "text": "What are the purpose of cell walls and ribs in a wing?",
+      "options": [
+        "To spread the load from the suspension lines evenly to the upper surface of the wing.",
+        "To limit the air circulation within the glider and thereby minimize the porosity of the wing.",
+        "To regulate the air circulation inside the wing and therefore maintain an even internal pressure.",
+        "To improve the structural strength of the wing in the longitudinal and transverse axis."
+      ],
+      "correct": 0
+    },
+    "Materials_6": {
+      "qid": 6,
+      "topic": "Materials",
+      "pos": 97,
+      "total_in_topic": 125,
+      "text": "The cloth used for paragliders are coated to",
+      "options": [
+        "minimise elasticity and mechanical strength.",
+        "increase porosity and mechanical strength.",
+        "increase elasticity and mechanical strength.",
+        "minimise porosity and elasticity."
+      ],
+      "correct": 3
+    },
+    "Materials_107": {
+      "qid": 107,
+      "topic": "Materials",
+      "pos": 98,
+      "total_in_topic": 125,
+      "text": "If a paraglider is put in a car boot there are different fluids that it may come into contact with. Which of the following would damage it the least?",
+      "options": [
+        "Antifreeze for the radiator.",
+        "Distilled water for the battery.",
+        "Cleaning fluid for the windscreen washer.",
+        "Petrol."
+      ],
+      "correct": 1
+    },
+    "Materials_71": {
+      "qid": 71,
+      "topic": "Materials",
+      "pos": 99,
+      "total_in_topic": 125,
+      "text": "For fast flights, trim tabs or trimmers are",
+      "options": [
+        "tightened to increase the angle of attack and lift the profile at the rear.",
+        "tightened to reduce the angle of attack and lower the profile at the rear.",
+        "released to reduce the angle of attack and lift the profile at the rear.",
+        "released to increase the angle of attack and lift the profile at the rear."
+      ],
+      "correct": 2
+    },
+    "Materials_11": {
+      "qid": 11,
+      "topic": "Materials",
+      "pos": 100,
+      "total_in_topic": 125,
+      "text": "What are the effects on the performance of a wing where the coating is old, damaged or insufficient?",
+      "options": [
+        "The entire speed range of the glider increases and the tendency to collapse increases.",
+        "The entire speed range of the glider reduces and the polar curve becomes flater.",
+        "The stall speed is higher as well as its tendency to go into parachutal stalls.",
+        "The glider is hard to steer and has a tendency towards instability in the longitudinal axis."
+      ],
+      "correct": 2
+    },
+    "Materials_37": {
+      "qid": 37,
+      "topic": "Materials",
+      "pos": 101,
+      "total_in_topic": 125,
+      "text": "Which technique allows us to secure loops in the ends of unmantled suspension lines when they are made from \"Aramid\" without significantly diminishing their strength?",
+      "options": [
+        "Fusing.",
+        "None.",
+        "Sewing.",
+        "Splicing."
+      ],
+      "correct": 3
+    },
+    "Materials_111": {
+      "qid": 111,
+      "topic": "Materials",
+      "pos": 102,
+      "total_in_topic": 125,
+      "text": "Which helmet protects pilots the best?",
+      "options": [
+        "Bicycle helmets.",
+        "Climbing helmets.",
+        "Jet helmets.",
+        "Integral helmets."
+      ],
+      "correct": 3
     }
   },
   "topics": {
