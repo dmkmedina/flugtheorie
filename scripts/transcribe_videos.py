@@ -19,7 +19,11 @@ from pathlib import Path
 from faster_whisper import WhisperModel
 
 ROOT = Path(__file__).resolve().parent.parent
-VIDEOS_FILE = ROOT / "data" / "videos.json"
+SOURCES = [
+    # (json file, slug-prefix)
+    (ROOT / "data" / "videos.json", ""),
+    (ROOT / "data" / "air_active_videos.json", "aa_"),
+]
 OUT_DIR = ROOT / "data" / "transcripts"
 OUT_DIR.mkdir(parents=True, exist_ok=True)
 
@@ -86,16 +90,28 @@ def transcribe(model: WhisperModel, wav: Path, slug: str) -> dict:
 def main() -> int:
     only = set(sys.argv[1:])  # optional slug filter
 
-    payload = json.loads(VIDEOS_FILE.read_text())
-    videos = payload["domVideos"]["videos"]
+    # Gather videos from every source we have on disk.
+    # Each entry is (slug, heading, src, source_label).
+    videos: list[dict] = []
+    for src_file, prefix in SOURCES:
+        if not src_file.exists():
+            continue
+        payload = json.loads(src_file.read_text())
+        for v in payload.get("domVideos", {}).get("videos", []):
+            if not v.get("src"):
+                continue
+            slug = f"{prefix}{slugify(v['heading'])}"
+            videos.append({
+                "slug": slug,
+                "heading": v["heading"],
+                "src": v["src"],
+                "source": src_file.name,
+                # Use ffprobed duration when present (Air Active extractor saves it as
+                # `durationSec`), otherwise fall back to hard-coded Free Wings values.
+                "duration_hint": v.get("durationSec") or v.get("duration"),
+            })
 
     # Shortest videos first so completed transcripts show up sooner.
-    # Duration only known if ffprobe was run; fall back to filename order otherwise.
-    def estimate(v: dict) -> float:
-        url = v["src"]
-        # cached probe via /tmp/_probe_<hash> would be nice; for now do nothing
-        return 0.0
-    # Hard-coded durations from earlier ffprobe (in seconds) — saves a probe round-trip
     DURATIONS = {
         "meteo_0": 3031, "meteo_1": 3080,
         "aerodynamik_0": 2030, "aerodynamik_1": 1386,
@@ -103,13 +119,13 @@ def main() -> int:
         "materialkunde_0": 995, "materialkunde_1": 874,
         "flugpraxis_0": 1486, "flugpraxis_1": 2203,
     }
-    videos.sort(key=lambda v: DURATIONS.get(slugify(v["heading"]), 99999))
+    videos.sort(key=lambda v: v.get("duration_hint") or DURATIONS.get(v["slug"], 99999))
 
     print(f"Loading Whisper model: {MODEL_SIZE} ({COMPUTE}, {CPU_THREADS} threads)", flush=True)
     model = WhisperModel(MODEL_SIZE, device="cpu", compute_type=COMPUTE, cpu_threads=CPU_THREADS)
 
     for v in videos:
-        slug = slugify(v["heading"])
+        slug = v["slug"]
         if only and slug not in only:
             continue
         vtt_path = OUT_DIR / f"{slug}.de.vtt"
@@ -125,7 +141,8 @@ def main() -> int:
             print(f"[{slug}] {sz_mb:.1f} MB wav -> transcribing", flush=True)
             result = transcribe(model, wav, slug)
             vtt_path.write_text(result["vtt"], encoding="utf-8")
-            sidecar = {k: v for k, v in result.items() if k != "vtt"}
+            sidecar = {k: val for k, val in result.items() if k != "vtt"}
+            sidecar["source_file"] = v["source"]
             json_path.write_text(json.dumps(sidecar, ensure_ascii=False, indent=2), encoding="utf-8")
             print(
                 f"[{slug}] done in {result['transcribed_in_sec']}s "

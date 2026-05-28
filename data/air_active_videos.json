@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-05-28T06:58:43.479Z",
+  "fetchedAt": "2026-05-28T07:02:23.826Z",
   "source": "https://www.air-active.ch/academy",
   "auth": {
     "type": "wix-password-protected",
@@ -8,7 +8,7 @@
     "cookies": [
       {
         "name": "server-session-bind",
-        "value": "13e57ed8-bfe5-40e7-b8c5-dc6fddbaab3e",
+        "value": "2555c398-8ec2-42aa-a822-e47a9a751e0f",
         "domain": "www.air-active.ch",
         "path": "/",
         "expires": -1,
@@ -18,7 +18,7 @@
       },
       {
         "name": "XSRF-TOKEN",
-        "value": "1779951352|AatfBWVOjgBv",
+        "value": "1779951572|HaRzmRA75YqC",
         "domain": ".www.air-active.ch",
         "path": "/",
         "expires": -1,
@@ -28,7 +28,7 @@
       },
       {
         "name": "hs",
-        "value": "-1492022154",
+        "value": "1578163038",
         "domain": ".www.air-active.ch",
         "path": "/",
         "expires": -1,
@@ -38,17 +38,17 @@
       },
       {
         "name": "svSession",
-        "value": "fc81588275fb27482a1fcc2597af334251842d039c0fa9035420101442a31b5182296b9708e7f373e0ab205edee503141e60994d53964e647acf431e4f798bcd2b00ff7eec7513801abb345dbbe77fa57cc2679c143ecac017a0ea03a099dc49a447862de64418592dfd80f5600d197161438f9d96ecb68ab0e79a6007f519e5faf568b771ef8e9cb422d83067b3983e",
+        "value": "b46e18bc3983872295dd465c802382f549000d41e3413226a9b599f7604619037bcc265dfb40251d47cd73dfe2da613d1e60994d53964e647acf431e4f798bcdc1f083f4456e54c12ee2ffff45772fcb2f1f364100e9620563983f787d0b265ba447862de64418592dfd80f5600d197161438f9d96ecb68ab0e79a6007f519e5faf568b771ef8e9cb422d83067b3983e",
         "domain": ".www.air-active.ch",
         "path": "/",
-        "expires": 1814511352.05682,
+        "expires": 1814511572.179539,
         "httpOnly": true,
         "secure": true,
         "sameSite": "None"
       },
       {
         "name": "XSRF-TOKEN",
-        "value": "1779951357|TAzgz_YXYdP8",
+        "value": "1779951576|1qRbNuluj5yW",
         "domain": ".serverless.parastorage.com",
         "path": "/",
         "expires": -1,
@@ -256,7 +256,7 @@
         "tag": "video",
         "heading": "Meteo Teil 1",
         "src": "https://video.wixstatic.com/video/f2f7a2_4a09b26f749040e7af899a247ed8ded9/720p/mp4/file.mp4",
-        "section": "KarteAlpines Pumpen",
+        "section": "Vorträge",
         "galleryId": "m5p64s3y2",
         "galleryIndex": 0,
         "dataId": "2f492e06-8a60-4998-a630-6fcffe8e1d96",
@@ -272,7 +272,7 @@
         "tag": "video",
         "heading": "Meteo Teil 2",
         "src": "https://video.wixstatic.com/video/f2f7a2_33c36a6d26cc428b8e38db7048527681/720p/mp4/file.mp4",
-        "section": "KarteAlpines Pumpen",
+        "section": "Vorträge",
         "galleryId": "m5p64s3y2",
         "galleryIndex": 1,
         "dataId": "408c81d7-14e3-43d4-b6f9-6cec0de34186",
@@ -288,7 +288,7 @@
         "tag": "video",
         "heading": "Meteo Teil 3",
         "src": "https://video.wixstatic.com/video/f2f7a2_8e4602f8adaa441e855e0626e516578f/720p/mp4/file.mp4",
-        "section": "KarteAlpines Pumpen",
+        "section": "Vorträge",
         "galleryId": "m5p64s3y2",
         "galleryIndex": 2,
         "dataId": "00ea5fd7-cc7b-497d-91fa-30c9dc7b3468",
@@ -321,47 +321,47 @@
     {
       "url": "https://video.wixstatic.com/video/f2f7a2_8a4f47d3c7f044838aa15f11ec06606c/720p/mp4/file.mp4",
       "method": "GET",
-      "tsMs": 1779951375390
+      "tsMs": 1779951595430
     },
     {
       "url": "https://video.wixstatic.com/video/f2f7a2_834427da5d6a481e9af2adbd4955fc94/720p/mp4/file.mp4",
       "method": "GET",
-      "tsMs": 1779951377680
+      "tsMs": 1779951597750
     },
     {
       "url": "https://video.wixstatic.com/video/f2f7a2_438b4ef3c16043719144ddfab222aa1c/720p/mp4/file.mp4",
       "method": "GET",
-      "tsMs": 1779951377684
+      "tsMs": 1779951597753
     },
     {
       "url": "https://video.wixstatic.com/video/f2f7a2_c513bf1a031d418b87abbf8903669695/720p/mp4/file.mp4",
       "method": "GET",
-      "tsMs": 1779951377685
+      "tsMs": 1779951597754
     },
     {
       "url": "https://video.wixstatic.com/video/f2f7a2_49ac01143125424ab4f6541573801f9d/720p/mp4/file.mp4",
       "method": "GET",
-      "tsMs": 1779951377685
+      "tsMs": 1779951597755
     },
     {
       "url": "https://video.wixstatic.com/video/f2f7a2_dcfae3b8b8324726ad52b976b9843921/720p/mp4/file.mp4",
       "method": "GET",
-      "tsMs": 1779951377686
+      "tsMs": 1779951597757
     },
     {
       "url": "https://video.wixstatic.com/video/f2f7a2_4a09b26f749040e7af899a247ed8ded9/1080p/mp4/file.mp4",
       "method": "GET",
-      "tsMs": 1779951483592
+      "tsMs": 1779951703611
     },
     {
       "url": "https://video.wixstatic.com/video/f2f7a2_33c36a6d26cc428b8e38db7048527681/1080p/mp4/file.mp4",
       "method": "GET",
-      "tsMs": 1779951486003
+      "tsMs": 1779951706026
     },
     {
       "url": "https://video.wixstatic.com/video/f2f7a2_8e4602f8adaa441e855e0626e516578f/1080p/mp4/file.mp4",
       "method": "GET",
-      "tsMs": 1779951486003
+      "tsMs": 1779951706030
     }
   ]
 }

@@ -77,24 +77,29 @@ await page.evaluate(() => window.scrollTo(0, 0));
 await page.waitForTimeout(1000);
 
 // Enumerate the Wix pro-galleries and their items.
-// Section detection: Wix lays out the academy page as a stack of <section>s,
-// each with its own H1 (e.g. "Flugpraxis Videos", "Vorträge"). The gallery
-// for that section comes AFTER the H1 in document order — so we look at the
-// previous H1 that appears earlier in the DOM than the gallery.
+// Section detection: Wix uses absolute positioning, so DOM order doesn't match
+// visual order. Instead, find the H1 visually nearest above each gallery by
+// comparing absolute Y positions.
 const galleryItems = await page.evaluate(() => {
-  const allHeadings = [...document.querySelectorAll('h1, h2')];
+  const headings = [...document.querySelectorAll('h1, h2')]
+    .map((h) => {
+      const r = h.getBoundingClientRect();
+      return { text: h.textContent?.trim() || '', top: r.top + window.scrollY };
+    })
+    .filter((h) => h.text);
   const galleries = [...document.querySelectorAll('[id^="pro-gallery-comp-"]')];
   const all = [];
   for (const g of galleries) {
     const galleryId = g.id.replace('pro-gallery-comp-', '');
-    // Find the last heading that comes before this gallery in document order
+    const r = g.getBoundingClientRect();
+    const galleryTop = r.top + window.scrollY;
+    // Pick the heading with the greatest top that is still <= galleryTop
     let section = null;
-    for (const h of allHeadings) {
-      if (h.compareDocumentPosition(g) & Node.DOCUMENT_POSITION_FOLLOWING) {
-        const t = h.textContent?.trim();
-        if (t) section = t;
-      } else {
-        break;
+    let bestTop = -Infinity;
+    for (const h of headings) {
+      if (h.top <= galleryTop && h.top > bestTop) {
+        bestTop = h.top;
+        section = h.text;
       }
     }
     const items = [...g.querySelectorAll('[data-hook="item-container"]')];

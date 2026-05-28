@@ -130,9 +130,9 @@
           "title": "Luftrecht — Part 1",
           "mp4_url": "https://video.wixstatic.com/video/2c6d0a_cb3ecd1820544f9297facc40ea62b524/1080p/mp4/file.mp4",
           "poster": null,
-          "duration_seconds": null,
-          "duration_label": null,
-          "has_de_vtt": false,
+          "duration_seconds": 1473.4506875,
+          "duration_label": "24:33",
+          "has_de_vtt": true,
           "has_en_vtt": false
         },
         {
@@ -396,8 +396,8 @@
       "freewings": 10,
       "airactive": 15
     },
-    "with_de_vtt": 3,
+    "with_de_vtt": 4,
     "with_en_vtt": 1,
-    "total_duration_seconds": 13240.5056515
+    "total_duration_seconds": 14713.956339
   }
 }
