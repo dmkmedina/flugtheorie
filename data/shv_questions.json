@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-05-28T16:10:19.304Z",
+  "fetchedAt": "2026-05-28T16:11:37.975Z",
   "questions": {
     "Aerodynamics_1": {
       "qid": 1,
@@ -2148,16 +2148,16 @@
     "Weather_158": {
       "qid": 158,
       "topic": "Weather",
-      "pos": 2,
+      "pos": 122,
       "total_in_topic": 164,
       "text": "Which of the following cities already feel the influence of the approaching warm front?",
       "options": [
         "Paris and London",
+        "Zürich and Stockholm",
         "Lisbon (Lissabon) and Athens (Athen)",
-        "Lulea and St.Petersburg",
-        "Zürich and Stockholm"
+        "Lulea and St.Petersburg"
       ],
-      "correct": 2
+      "correct": null
     },
     "Weather_59": {
       "qid": 59,
@@ -2414,14 +2414,14 @@
     "Weather_71": {
       "qid": 71,
       "topic": "Weather",
-      "pos": 7,
+      "pos": 118,
       "total_in_topic": 164,
       "text": "From the distribution of isobars on the surface weather chart, predictions can be made about",
       "options": [
-        "the prevailing wind strength and direction.",
         "the prevailing wind direction and the chance of precipitation.",
-        "the chance of precipitation.",
-        "the temperature gradient and the wind strength."
+        "the temperature gradient and the wind strength.",
+        "the prevailing wind strength and direction.",
+        "the chance of precipitation."
       ],
       "correct": null
     },
@@ -9150,16 +9150,16 @@
     "Weather_32": {
       "qid": 32,
       "topic": "Weather",
-      "pos": 57,
+      "pos": 28,
       "total_in_topic": 164,
-      "text": "Which of the following radio soundings measured at 0:00 am indicates the presence of an isotherm? 421",
+      "text": "Which of the following radio soundings measured at 02:00 am indicates the presence of an isotherm? 241",
       "options": [
-        "4",
         "2",
+        "4",
         "3",
         "1"
       ],
-      "correct": 0
+      "correct": null
     },
     "Weather_110": {
       "qid": 110,
@@ -9298,6 +9298,76 @@
         "10 dm³",
         "20 dm³",
         "5 dm³"
+      ],
+      "correct": 1
+    },
+    "Weather_129": {
+      "qid": 129,
+      "topic": "Weather",
+      "pos": 119,
+      "total_in_topic": 164,
+      "text": "Which of the following weather conditions would most favour the development of high reaching thermals in the Alps?",
+      "options": [
+        "An extensive high-pressure system centred over northern Germany.",
+        "An extensive low-pressure system centred over the gulf of Genoa.",
+        "A weak high-pressure system centred over the Alps.",
+        "The Azores high-pressure system extends towards central Europe."
+      ],
+      "correct": 2
+    },
+    "Weather_33": {
+      "qid": 33,
+      "topic": "Weather",
+      "pos": 123,
+      "total_in_topic": 164,
+      "text": "Which of the following changes of state defines condensation?",
+      "options": [
+        "Transformation from liquid to solid state.",
+        "Transformation from gaseous to solid state.",
+        "Transformation from gaseous to liquid state.",
+        "Transformation from liquid to gaseous state."
+      ],
+      "correct": 2
+    },
+    "Weather_67": {
+      "qid": 67,
+      "topic": "Weather",
+      "pos": 125,
+      "total_in_topic": 164,
+      "text": "In Europe, the atmospheric pressure at sea level of an extensive high-pressure system could be",
+      "options": [
+        "1,035 hPa",
+        "915 hPa",
+        "955 hPa",
+        "1,055 hPa"
+      ],
+      "correct": 0
+    },
+    "Weather_101": {
+      "qid": 101,
+      "topic": "Weather",
+      "pos": 126,
+      "total_in_topic": 164,
+      "text": "At which time of the day in alpine valleys with pronounced valley wind systems in good weather in July, can the least turbulence be expected?",
+      "options": [
+        "About 9:00",
+        "About 18:00",
+        "About 11:00",
+        "About 13:00"
+      ],
+      "correct": 0
+    },
+    "Weather_52": {
+      "qid": 52,
+      "topic": "Weather",
+      "pos": 29,
+      "total_in_topic": 164,
+      "text": "Which of the following cloud types has its cloud base much higher than the others?",
+      "options": [
+        "Cumulus",
+        "Cirrocumulus",
+        "Stratocumulus",
+        "Cumulonimbus"
       ],
       "correct": 1
     }
