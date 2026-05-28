@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-05-28T15:25:44.612Z",
+  "fetchedAt": "2026-05-28T15:26:15.514Z",
   "questions": {
     "1": {
       "qid": 1,
@@ -6765,6 +6765,118 @@
         "The physical performance and oxygen needs decrease."
       ],
       "correct": 1
+    },
+    "Practical Flying_52": {
+      "qid": 52,
+      "topic": "Practical Flying",
+      "pos": 63,
+      "total_in_topic": 169,
+      "text": "A pilot is flying towards his landing field exactly south of his position with a 25 km/h west wind. What should he do to arrive as high as possible?",
+      "options": [
+        "He should aim the glider in a south-westerly direction and fly as fast as possible.",
+        "He should aim the glider towards the landing and fly with brakes lightly applied.",
+        "He should aim the glider in a southerly direction and fly as fast as possible.",
+        "He should aim the glider towards the landing and fly as fast as possible."
+      ],
+      "correct": 0
+    },
+    "Practical Flying_95": {
+      "qid": 95,
+      "topic": "Practical Flying",
+      "pos": 64,
+      "total_in_topic": 169,
+      "text": "When applying big ears it should be observed that",
+      "options": [
+        "only the intended A-lines resp. the separate A-risers are pulled, otherwise the entire leading edge may be collapsed. [x]",
+        "answers x, y and z are correct.",
+        "with a clumsy application, the middle A-lines could be pulled as well, resulting in a full frontal collapse. [y]",
+        "inexperienced pilots can avoid the danger of a front collapse by pulling in one ear after the other. [z]"
+      ],
+      "correct": 1
+    },
+    "Practical Flying_65": {
+      "qid": 65,
+      "topic": "Practical Flying",
+      "pos": 65,
+      "total_in_topic": 169,
+      "text": "A pilot is circling in a thermal with no prevailing wind. What happens when he flies too far from the centre of the thermal?",
+      "options": [
+        "He ceases to climb and flies with his normal sink-rate.",
+        "The lift becomes stronger and more turbulent.",
+        "He flies into the surrounding sink and loses altitude rapidly.",
+        "The lift becomes stronger and less turbulent."
+      ],
+      "correct": 2
+    },
+    "Practical Flying_134": {
+      "qid": 134,
+      "topic": "Practical Flying",
+      "pos": 66,
+      "total_in_topic": 169,
+      "text": "Which of the following precautions should be taken when you are forced to land in still or flowing water?",
+      "options": [
+        "Disconnect all electronic devices (radio, vario etc) and hold them over your head so that they don't get wet.",
+        "Tighten all harness straps so that you don't inadvertently slip out after landing and the glider sinks or floats away.",
+        "Throw the reserve just before landing so that it provides additional buoyancy in the water.",
+        "Open as many of the harness buckles as possible before landing."
+      ],
+      "correct": 3
+    },
+    "Practical Flying_148": {
+      "qid": 148,
+      "topic": "Practical Flying",
+      "pos": 68,
+      "total_in_topic": 169,
+      "text": "When does the golden eagle breed?",
+      "options": [
+        "March-May",
+        "January-March",
+        "May-July",
+        "June-August"
+      ],
+      "correct": 0
+    },
+    "Practical Flying_83": {
+      "qid": 83,
+      "topic": "Practical Flying",
+      "pos": 69,
+      "total_in_topic": 169,
+      "text": "While turning a pilot realizes that one side of the wing has stalled. What is the most appropriate action?",
+      "options": [
+        "Pump the inside brake in order to increase the internal pressure.",
+        "Release both brakes and allow glider to regain speed.",
+        "Apply the outside brake immediately in order to stabilise the direction.",
+        "Immediately grab and hold the risers to minimise the risk of a twist."
+      ],
+      "correct": 1
+    },
+    "Practical Flying_73": {
+      "qid": 73,
+      "topic": "Practical Flying",
+      "pos": 70,
+      "total_in_topic": 169,
+      "text": "A paraglider",
+      "options": [
+        "leaves no perceptible wake turbulence when flying in the lower speed range.",
+        "leaves a band of sink behind it.",
+        "leaves a band of lift behind it.",
+        "leaves a zone of perceptible wake turbulence for a short time, which can be felt by other gliders."
+      ],
+      "correct": 3
+    },
+    "Practical Flying_26": {
+      "qid": 26,
+      "topic": "Practical Flying",
+      "pos": 72,
+      "total_in_topic": 169,
+      "text": "What indications are there that you are taking off on the leeward side of a mountain?",
+      "options": [
+        "Force and direction of wind can change abruptly.",
+        "At higher altitudes the clouds drift over the launch from front.",
+        "Constant cycles between zero wind and warm front-winds of varying strength.",
+        "Constant front wind of 5 - 10 km/h."
+      ],
+      "correct": 0
     }
   },
   "topics": {
