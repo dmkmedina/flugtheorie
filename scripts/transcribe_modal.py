@@ -31,26 +31,26 @@ import modal
 HF_CACHE = modal.Volume.from_name("flugtheorie-hf-cache", create_if_missing=True)
 
 image = (
-    modal.Image.from_registry(
-        "nvidia/cuda:12.4.0-cudnn-devel-ubuntu22.04",
-        add_python="3.11",
-    )
+    modal.Image.debian_slim(python_version="3.11")
     .apt_install("ffmpeg")
     .pip_install(
         "faster-whisper==1.0.3",
         "huggingface_hub>=0.24",
         "requests>=2.31",
-        # faster-whisper / CTranslate2 need cuBLAS + cuDNN at runtime.
-        # Even with the CUDA base image these pip wheels pin the exact
-        # ABI versions CTranslate2 was built against.
+        # CTranslate2 (used by faster-whisper) links against these at runtime.
+        # The driver (libcuda.so) is provided by Modal when GPU is mounted;
+        # everything else we pull in via pip wheels.
+        "nvidia-cuda-runtime-cu12",
         "nvidia-cublas-cu12",
         "nvidia-cudnn-cu12==9.*",
     )
     .env({
         "HF_HOME": "/hf-cache",
-        # Add the pip-installed nvidia libs to the loader path so
-        # CTranslate2 picks them up.
-        "LD_LIBRARY_PATH": "/usr/local/lib/python3.11/site-packages/nvidia/cublas/lib:/usr/local/lib/python3.11/site-packages/nvidia/cudnn/lib:$LD_LIBRARY_PATH",
+        "LD_LIBRARY_PATH": (
+            "/usr/local/lib/python3.11/site-packages/nvidia/cuda_runtime/lib:"
+            "/usr/local/lib/python3.11/site-packages/nvidia/cublas/lib:"
+            "/usr/local/lib/python3.11/site-packages/nvidia/cudnn/lib"
+        ),
     })
 )
 
