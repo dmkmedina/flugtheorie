@@ -8012,6 +8012,4782 @@
           "page": 5
         }
       ]
+    },
+    "Legislation_3": {
+      "qid": 3,
+      "topic": "Legislation",
+      "explanation": "Free flight in Switzerland is governed by the Ordinance on Aircraft of Special Categories (German VLK, French OACS), which entered into force in 1994. This federal ordinance is the specific text that covers hang gliders and paragliders - it defines who may fly, what equipment is required, the insurance minimum and the marking obligation. The Confederation alone has the authority to legislate on the use of Swiss airspace.",
+      "guide_chapter": {
+        "id": "p3-legal-framework",
+        "title": "General Legal Framework and OACS"
+      },
+      "workbook_chapter": {
+        "id": "law-01-legal-framework",
+        "title": "Legal framework"
+      },
+      "diagrams": [
+        {
+          "id": "p3-authority-hierarchy",
+          "title": "Swiss free-flight authority hierarchy"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "luftrecht_0",
+          "t_start": 239.8,
+          "t_end": 281.8,
+          "snippet": "Stefan: the VLK / OACS is the Ordinance on Aircraft of Special Categories - the law that governs who may fly a paraglider and how."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "luftrecht",
+          "page": 3
+        },
+        {
+          "deck_id": "luftrecht",
+          "page": 4
+        }
+      ]
+    },
+    "Legislation_4": {
+      "qid": 4,
+      "topic": "Legislation",
+      "explanation": "The OACS defines a hang glider (which legally includes paragliders) as a foot-launched aircraft that, immediately after the running start, performs gliding or soaring flights along a slope. No motor, no wheeled launch - the body and the slope are the only means of getting airborne.",
+      "guide_chapter": {
+        "id": "p3-legal-framework",
+        "title": "General Legal Framework and OACS"
+      },
+      "workbook_chapter": {
+        "id": "law-01-legal-framework",
+        "title": "Legal framework"
+      },
+      "diagrams": [],
+      "video_clips": [
+        {
+          "video_id": "luftrecht_0",
+          "t_start": 128.8,
+          "t_end": 178.4,
+          "snippet": "Stefan: a hang glider is foot-launchable and immediately after launch is used for gliding or soaring flights."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "luftrecht",
+          "page": 2
+        }
+      ]
+    },
+    "Legislation_5": {
+      "qid": 5,
+      "topic": "Legislation",
+      "explanation": "Hang gliders and paragliders are explicitly NOT entered in the Swiss aircraft register - this is one of the legal peculiarities of free flight. Every other category of aircraft has a federal registration; for paragliders the only obligation is the SHV-issued identification number affixed to the underside of the wing.",
+      "guide_chapter": {
+        "id": "p3-legal-framework",
+        "title": "General Legal Framework and OACS"
+      },
+      "workbook_chapter": {
+        "id": "law-01-legal-framework",
+        "title": "Legal framework"
+      },
+      "diagrams": [
+        {
+          "id": "p3-required-documents",
+          "title": "Required markings and documents"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "luftrecht_0",
+          "t_start": 281.8,
+          "t_end": 312.8,
+          "snippet": "Stefan: a paraglider is NOT entered in the aircraft register - that's unusual in aviation; only an SHV identification number must be on the wing."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "luftrecht",
+          "page": 4
+        }
+      ]
+    },
+    "Legislation_6": {
+      "qid": 6,
+      "topic": "Legislation",
+      "explanation": "Under the OACS no authority is required to test or certify the airworthiness of a paraglider - unlike a car there is no mandatory periodic check. Swiss free-flight law leaves a lot to personal responsibility; it is only recommended (not required) to have your wing checked roughly every two years.",
+      "guide_chapter": {
+        "id": "p3-legal-framework",
+        "title": "General Legal Framework and OACS"
+      },
+      "workbook_chapter": {
+        "id": "law-01-legal-framework",
+        "title": "Legal framework"
+      },
+      "diagrams": [],
+      "video_clips": [
+        {
+          "video_id": "luftrecht_0",
+          "t_start": 323.1,
+          "t_end": 366.9,
+          "snippet": "Stefan: airworthiness does NOT have to be checked by any authority - in Switzerland a lot is left to personal responsibility, a 2-year check is only recommended."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "luftrecht",
+          "page": 4
+        }
+      ]
+    },
+    "Legislation_7": {
+      "qid": 7,
+      "topic": "Legislation",
+      "explanation": "Because no authority tests the wing, the pilot bears the primary, first-line responsibility for the airworthiness of the equipment. Every flight begins with the pilot's own check of lines, risers, harness and reserve - and the legal consequence of any defect that should have been spotted falls on the pilot.",
+      "guide_chapter": {
+        "id": "p3-legal-framework",
+        "title": "General Legal Framework and OACS"
+      },
+      "workbook_chapter": {
+        "id": "law-01-legal-framework",
+        "title": "Legal framework"
+      },
+      "diagrams": [],
+      "video_clips": [
+        {
+          "video_id": "luftrecht_0",
+          "t_start": 323.1,
+          "t_end": 366.9,
+          "snippet": "Stefan: airworthiness isn't checked by any authority - a lot is left to personal responsibility, meaning the pilot."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "luftrecht",
+          "page": 4
+        }
+      ]
+    },
+    "Legislation_9": {
+      "qid": 9,
+      "topic": "Legislation",
+      "explanation": "Astonishingly, Swiss law only requires a helmet (and reserve parachute) for the official practical flying exam. Outside the exam they are not legally mandatory, although every responsible pilot wears them and most competition organisers require them for safety reasons.",
+      "guide_chapter": {
+        "id": "p3-legal-framework",
+        "title": "General Legal Framework and OACS"
+      },
+      "workbook_chapter": {
+        "id": "law-01-legal-framework",
+        "title": "Legal framework"
+      },
+      "diagrams": [],
+      "video_clips": [
+        {
+          "video_id": "luftrecht_0",
+          "t_start": 366.9,
+          "t_end": 396.9,
+          "snippet": "Stefan: helmet and reserve parachute are only legally required for exam flights, although organisers usually mandate them for safety."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "luftrecht",
+          "page": 4
+        }
+      ]
+    },
+    "Legislation_10": {
+      "qid": 10,
+      "topic": "Legislation",
+      "explanation": "The OACS makes only ONE type of insurance compulsory: hang-glider/paraglider third-party liability insurance. Your personal accident or health insurance covers injuries you suffer yourself, but damage you cause to others on the ground - branches falling on a car after landing, for example - is only covered by this specific paragliding liability policy.",
+      "guide_chapter": {
+        "id": "p3-legal-framework",
+        "title": "General Legal Framework and OACS"
+      },
+      "workbook_chapter": {
+        "id": "law-01-legal-framework",
+        "title": "Legal framework"
+      },
+      "diagrams": [
+        {
+          "id": "p3-required-documents",
+          "title": "Required markings and documents"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "luftrecht_0",
+          "t_start": 389.5,
+          "t_end": 435.8,
+          "snippet": "Stefan: you must carry hang-glider liability insurance - your private liability won't cover damage you cause on the ground while flying."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "luftrecht",
+          "page": 4
+        }
+      ]
+    },
+    "Legislation_11": {
+      "qid": 11,
+      "topic": "Legislation",
+      "explanation": "The legally required liability insurance covers damages caused to uninvolved third parties on the ground - the classic case being objects or people on the landing field. Damage to other aircraft in flight is NOT covered by the legal minimum, although the SHV offers an enhanced policy that does include in-flight third-party damage.",
+      "guide_chapter": {
+        "id": "p3-legal-framework",
+        "title": "General Legal Framework and OACS"
+      },
+      "workbook_chapter": {
+        "id": "law-01-legal-framework",
+        "title": "Legal framework"
+      },
+      "diagrams": [],
+      "video_clips": [
+        {
+          "video_id": "luftrecht_0",
+          "t_start": 389.5,
+          "t_end": 435.8,
+          "snippet": "Stefan: liability insurance is what covers damage to people or objects on the ground if you cause an accident."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "luftrecht",
+          "page": 4
+        }
+      ]
+    },
+    "Legislation_12": {
+      "qid": 12,
+      "topic": "Legislation",
+      "explanation": "The OACS sets the minimum cover of paraglider liability insurance at CHF 1,000,000 for third-party damages on the ground. SHV members get an enhanced policy that goes well beyond this; the federal minimum, however, is exactly one million Swiss francs.",
+      "guide_chapter": {
+        "id": "p3-legal-framework",
+        "title": "General Legal Framework and OACS"
+      },
+      "workbook_chapter": {
+        "id": "law-01-legal-framework",
+        "title": "Legal framework"
+      },
+      "diagrams": [],
+      "video_clips": [
+        {
+          "video_id": "luftrecht_0",
+          "t_start": 389.5,
+          "t_end": 435.8,
+          "snippet": "Stefan: paragliding liability insurance is required - the SHV cooperates with a major insurer to secure good cover at low cost."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "luftrecht",
+          "page": 4
+        }
+      ]
+    },
+    "Legislation_13": {
+      "qid": 13,
+      "topic": "Legislation",
+      "explanation": "Liability insurance is a cap, not a ceiling on legal responsibility. If the damages caused exceed the policy limit (CHF 1,000,000 minimum, or whatever higher cover the pilot took out), the person who caused the accident must pay the remainder out of their own pocket. That is exactly why pilots commonly take the SHV's enhanced policy.",
+      "guide_chapter": {
+        "id": "p3-legal-framework",
+        "title": "General Legal Framework and OACS"
+      },
+      "workbook_chapter": {
+        "id": "law-01-legal-framework",
+        "title": "Legal framework"
+      },
+      "diagrams": [],
+      "video_clips": [
+        {
+          "video_id": "luftrecht_0",
+          "t_start": 389.5,
+          "t_end": 435.8,
+          "snippet": "Stefan: liability insurance is critical - it covers damage you cause on the ground."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "luftrecht",
+          "page": 4
+        }
+      ]
+    },
+    "Legislation_14": {
+      "qid": 14,
+      "topic": "Legislation",
+      "explanation": "Every Swiss hang glider or paraglider must carry two sets of markings: (1) the SHV-issued identification number on the underside of the wing, and (2) the manufacturer's plaque sewn into an edge or wingtip with the basic data of the wing. Both are required by the OACS / VKZ.",
+      "guide_chapter": {
+        "id": "p3-legal-framework",
+        "title": "General Legal Framework and OACS"
+      },
+      "workbook_chapter": {
+        "id": "law-01-legal-framework",
+        "title": "Legal framework"
+      },
+      "diagrams": [
+        {
+          "id": "p3-required-documents",
+          "title": "Required markings and documents"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "luftrecht_0",
+          "t_start": 298.4,
+          "t_end": 339.5,
+          "snippet": "Stefan: an SHV-issued identification number must be attached to the wing - always the same personal number, even on multiple wings."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "luftrecht",
+          "page": 4
+        }
+      ]
+    },
+    "Legislation_15": {
+      "qid": 15,
+      "topic": "Legislation",
+      "explanation": "Article 11a VKZ requires an easily recognisable identification number (commonly written as 'max 5 digits' on the question) affixed to the underside of the load-bearing surface of the wing. The digits must be on the lower surface so that the wing can be identified from the ground in flight.",
+      "guide_chapter": {
+        "id": "p3-legal-framework",
+        "title": "General Legal Framework and OACS"
+      },
+      "workbook_chapter": {
+        "id": "law-01-legal-framework",
+        "title": "Legal framework"
+      },
+      "diagrams": [
+        {
+          "id": "p3-required-documents",
+          "title": "Required markings and documents"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "luftrecht_0",
+          "t_start": 298.4,
+          "t_end": 339.5,
+          "snippet": "Stefan: the SHV number is attached to the wing - the underside is what's seen from below."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "luftrecht",
+          "page": 4
+        }
+      ]
+    },
+    "Legislation_16": {
+      "qid": 16,
+      "topic": "Legislation",
+      "explanation": "The SHV/FSVL (Swiss Hang Gliding Association) is the body mandated to manage and allocate identification numbers to pilots. In practice the number is usually identical to the pilot's SHV licence number - one personal number that follows the pilot to every wing he or she flies.",
+      "guide_chapter": {
+        "id": "p3-legal-framework",
+        "title": "General Legal Framework and OACS"
+      },
+      "workbook_chapter": {
+        "id": "law-01-legal-framework",
+        "title": "Legal framework"
+      },
+      "diagrams": [
+        {
+          "id": "p3-authority-hierarchy",
+          "title": "Swiss free-flight authority hierarchy"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "luftrecht_0",
+          "t_start": 298.4,
+          "t_end": 323.1,
+          "snippet": "Stefan: each pilot personally receives the ID number from the SHV, and it gets attached to the wing."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "luftrecht",
+          "page": 3
+        },
+        {
+          "deck_id": "luftrecht",
+          "page": 4
+        }
+      ]
+    },
+    "Legislation_17": {
+      "qid": 17,
+      "topic": "Legislation",
+      "explanation": "Article 11a VKZ fixes the height of the identification digits at 40 cm - that is large enough to be read from the ground when the wing passes overhead. The numbers are usually adhered as iron-on or sewn-on numerals to the underside of the wing.",
+      "guide_chapter": {
+        "id": "p3-legal-framework",
+        "title": "General Legal Framework and OACS"
+      },
+      "workbook_chapter": {
+        "id": "law-01-legal-framework",
+        "title": "Legal framework"
+      },
+      "diagrams": [
+        {
+          "id": "p3-required-documents",
+          "title": "Required markings and documents"
+        }
+      ],
+      "video_clips": [],
+      "slide_pages": [
+        {
+          "deck_id": "luftrecht",
+          "page": 4
+        }
+      ]
+    },
+    "Legislation_18": {
+      "qid": 18,
+      "topic": "Legislation",
+      "explanation": "The identification number belongs to the pilot, not to the wing. A pilot who owns several wings must use the SAME number on every one of them - and that number must match the one on the liability-insurance certificate carried on every flight.",
+      "guide_chapter": {
+        "id": "p3-legal-framework",
+        "title": "General Legal Framework and OACS"
+      },
+      "workbook_chapter": {
+        "id": "law-01-legal-framework",
+        "title": "Legal framework"
+      },
+      "diagrams": [
+        {
+          "id": "p3-required-documents",
+          "title": "Required markings and documents"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "luftrecht_0",
+          "t_start": 312.8,
+          "t_end": 323.1,
+          "snippet": "Stefan: even if you have several wings, the number on each wing must be exactly the same - your personal SHV number."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "luftrecht",
+          "page": 4
+        }
+      ]
+    },
+    "Legislation_19": {
+      "qid": 19,
+      "topic": "Legislation",
+      "explanation": "The manufacturer's plaque - a small fabric label sewn into the edge or wingtip - must list four data: manufacturer name, type of wing, year of manufacture, and the minimum and maximum loads specified by the manufacturer. Serial numbers or certification class are NOT legally required on the label (although usually present).",
+      "guide_chapter": {
+        "id": "p3-legal-framework",
+        "title": "General Legal Framework and OACS"
+      },
+      "workbook_chapter": {
+        "id": "law-01-legal-framework",
+        "title": "Legal framework"
+      },
+      "diagrams": [
+        {
+          "id": "p3-required-documents",
+          "title": "Required markings and documents"
+        }
+      ],
+      "video_clips": [],
+      "slide_pages": [
+        {
+          "deck_id": "luftrecht",
+          "page": 4
+        }
+      ]
+    },
+    "Legislation_20": {
+      "qid": 20,
+      "topic": "Legislation",
+      "explanation": "The marking obligation applies to ALL users of Swiss airspace - including foreign pilots flying here. There is no exemption: anyone launching a paraglider in Switzerland must have an identification number visible on the underside of the wing.",
+      "guide_chapter": {
+        "id": "p3-legal-framework",
+        "title": "General Legal Framework and OACS"
+      },
+      "workbook_chapter": {
+        "id": "law-01-legal-framework",
+        "title": "Legal framework"
+      },
+      "diagrams": [
+        {
+          "id": "p3-required-documents",
+          "title": "Required markings and documents"
+        }
+      ],
+      "video_clips": [],
+      "slide_pages": [
+        {
+          "deck_id": "luftrecht",
+          "page": 4
+        }
+      ]
+    },
+    "Legislation_21": {
+      "qid": 21,
+      "topic": "Legislation",
+      "explanation": "The OACS sets the minimum age for the Swiss free-flight licence at 16. A student may start instruction at 15, but the licence itself cannot be issued earlier. There is no maximum age and no medical examination is required.",
+      "guide_chapter": {
+        "id": "p3-exam-licensing",
+        "title": "Examination and Licensing of Free Flight Pilots"
+      },
+      "workbook_chapter": {
+        "id": "law-06-exam-licensing",
+        "title": "Examination and licensing"
+      },
+      "diagrams": [],
+      "video_clips": [],
+      "slide_pages": [
+        {
+          "deck_id": "luftrecht",
+          "page": 6
+        }
+      ]
+    },
+    "Legislation_22": {
+      "qid": 22,
+      "topic": "Legislation",
+      "explanation": "On the glider chart, HX next to a CTR or TMA means the airspace has no fixed operating hours - activation is possible at any time. You must therefore assume the airspace may be live and query its status before flying (via DABS, NOTAM or radio). The other activity codes are 9 (permanently active) and temporary zones announced on the DABS.",
+      "guide_chapter": {
+        "id": "p3-airspace-structure",
+        "title": "Airspace Structure"
+      },
+      "workbook_chapter": {
+        "id": "law-03-airspace-structure",
+        "title": "Airspace structure"
+      },
+      "diagrams": [
+        {
+          "id": "p3-ctr-tma-awy",
+          "title": "CTR, TMA and AWY around an airport"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "luftrecht_1",
+          "t_start": 1048.5,
+          "t_end": 1100.0,
+          "snippet": "Stefan: HX means no fixed operating hours - it could be active any time; you have to query the status."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "luftrecht",
+          "page": 41
+        }
+      ]
+    },
+    "Legislation_23": {
+      "qid": 23,
+      "topic": "Legislation",
+      "explanation": "Only foreign pilots domiciled abroad who hold an equivalent foreign licence (or the international IPPI) may fly in Swiss airspace without a Swiss licence. Anyone domiciled in Switzerland - Swiss or foreign - must hold a Swiss SHV licence to fly here, even occasionally.",
+      "guide_chapter": {
+        "id": "p3-legal-framework",
+        "title": "General Legal Framework and OACS"
+      },
+      "workbook_chapter": {
+        "id": "law-01-legal-framework",
+        "title": "Legal framework"
+      },
+      "diagrams": [],
+      "video_clips": [],
+      "slide_pages": [
+        {
+          "deck_id": "luftrecht",
+          "page": 6
+        }
+      ]
+    },
+    "Legislation_24": {
+      "qid": 24,
+      "topic": "Legislation",
+      "explanation": "Flight training of unqualified students is only permitted under the direct supervision of a person holding a valid flight-instructor licence recognised in Switzerland. A regular pilot's licence does not allow you to teach others to fly.",
+      "guide_chapter": {
+        "id": "p3-legal-framework",
+        "title": "General Legal Framework and OACS"
+      },
+      "workbook_chapter": {
+        "id": "law-01-legal-framework",
+        "title": "Legal framework"
+      },
+      "diagrams": [],
+      "video_clips": [],
+      "slide_pages": [
+        {
+          "deck_id": "luftrecht",
+          "page": 6
+        }
+      ]
+    },
+    "Legislation_25": {
+      "qid": 25,
+      "topic": "Legislation",
+      "explanation": "Training flights leading up to the exam must be supervised directly by an instructor whose licence is valid in Switzerland - a foreign instructor without a recognised Swiss licence cannot validly supervise a Swiss exam candidate.",
+      "guide_chapter": {
+        "id": "p3-legal-framework",
+        "title": "General Legal Framework and OACS"
+      },
+      "workbook_chapter": {
+        "id": "law-01-legal-framework",
+        "title": "Legal framework"
+      },
+      "diagrams": [],
+      "video_clips": [],
+      "slide_pages": [
+        {
+          "deck_id": "luftrecht",
+          "page": 6
+        }
+      ]
+    },
+    "Legislation_26": {
+      "qid": 26,
+      "topic": "Legislation",
+      "explanation": "Tandem (two-person) flights may only be performed by a pilot holding the appropriate official tandem licence. A solo pilot's licence does not allow you to carry a passenger - the tandem licence is a distinct qualification.",
+      "guide_chapter": {
+        "id": "p3-legal-framework",
+        "title": "General Legal Framework and OACS"
+      },
+      "workbook_chapter": {
+        "id": "law-01-legal-framework",
+        "title": "Legal framework"
+      },
+      "diagrams": [
+        {
+          "id": "p3-tandem-licenses",
+          "title": "Tandem A vs B licenses"
+        }
+      ],
+      "video_clips": [],
+      "slide_pages": [
+        {
+          "deck_id": "luftrecht",
+          "page": 6
+        }
+      ]
+    },
+    "Legislation_27": {
+      "qid": 27,
+      "topic": "Legislation",
+      "explanation": "Commercial tandem flights with passengers who have no flying knowledge of their own require a tandem 3 / Licence A. The Licence A holder may take any passenger; lower-tier tandem licences are restricted to passengers who themselves hold a pilot certificate in the same category.",
+      "guide_chapter": {
+        "id": "p3-legal-framework",
+        "title": "General Legal Framework and OACS"
+      },
+      "workbook_chapter": {
+        "id": "law-01-legal-framework",
+        "title": "Legal framework"
+      },
+      "diagrams": [
+        {
+          "id": "p3-tandem-licenses",
+          "title": "Tandem A vs B licenses"
+        }
+      ],
+      "video_clips": [],
+      "slide_pages": [
+        {
+          "deck_id": "luftrecht",
+          "page": 6
+        }
+      ]
+    },
+    "Legislation_28": {
+      "qid": 28,
+      "topic": "Legislation",
+      "explanation": "A Tandem 1 licence is the entry-level tandem rating: it allows flights only with passengers who themselves hold a paraglider pilot licence in the same category, as well as flight students under the supervision of an instructor. Carrying a member of the public requires a higher tandem rating.",
+      "guide_chapter": {
+        "id": "p3-legal-framework",
+        "title": "General Legal Framework and OACS"
+      },
+      "workbook_chapter": {
+        "id": "law-01-legal-framework",
+        "title": "Legal framework"
+      },
+      "diagrams": [
+        {
+          "id": "p3-tandem-licenses",
+          "title": "Tandem A vs B licenses"
+        }
+      ],
+      "video_clips": [],
+      "slide_pages": [
+        {
+          "deck_id": "luftrecht",
+          "page": 6
+        }
+      ]
+    },
+    "Legislation_29": {
+      "qid": 29,
+      "topic": "Legislation",
+      "explanation": "Several rules apply simultaneously after licensing: the SHV licence has unlimited validity for solo pilots, no minimum number of flights per year is required, and no medical exam is needed. All of these statements are correct - hence the 'all of the above' answer.",
+      "guide_chapter": {
+        "id": "p3-exam-licensing",
+        "title": "Examination and Licensing of Free Flight Pilots"
+      },
+      "workbook_chapter": {
+        "id": "law-06-exam-licensing",
+        "title": "Examination and licensing"
+      },
+      "diagrams": [],
+      "video_clips": [
+        {
+          "video_id": "luftrecht_0",
+          "t_start": 444.5,
+          "t_end": 471.8,
+          "snippet": "Stefan: no minimum number of flights is required - your brevet doesn't expire."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "luftrecht",
+          "page": 6
+        }
+      ]
+    },
+    "Legislation_30": {
+      "qid": 30,
+      "topic": "Legislation",
+      "explanation": "The detailed programme of the theory and practical exams is laid down in the SHV directives, which are approved by the BAZL/OFAC (Federal Office of Civil Aviation). The Confederation thus retains oversight while delegating the day-to-day content to the federation of pilots.",
+      "guide_chapter": {
+        "id": "p3-exam-licensing",
+        "title": "Examination and Licensing of Free Flight Pilots"
+      },
+      "workbook_chapter": {
+        "id": "law-06-exam-licensing",
+        "title": "Examination and licensing"
+      },
+      "diagrams": [
+        {
+          "id": "p3-authority-hierarchy",
+          "title": "Swiss free-flight authority hierarchy"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "luftrecht_0",
+          "t_start": 184.8,
+          "t_end": 239.8,
+          "snippet": "Stefan: the federal government authorises legislation; the BAZL delegates implementation to the SHV - including the exam regulations."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "luftrecht",
+          "page": 3
+        },
+        {
+          "deck_id": "luftrecht",
+          "page": 6
+        }
+      ]
+    },
+    "Legislation_32": {
+      "qid": 32,
+      "topic": "Legislation",
+      "explanation": "Swiss Air Force operating hours are Monday to Friday, 07:35-12:05 and 13:15-17:05 local time. The five-minute buffers at start and end are deliberate to avoid overlap with civil traffic. Outside these hours - including all weekends and public holidays - MIL OFF applies, and the alpine E ceiling rises from 3950 m to 4550 m AMSL.",
+      "guide_chapter": {
+        "id": "p3-airspace-structure",
+        "title": "Airspace Structure"
+      },
+      "workbook_chapter": {
+        "id": "law-03-airspace-structure",
+        "title": "Airspace structure"
+      },
+      "diagrams": [
+        {
+          "id": "p3-mil-schedule",
+          "title": "MIL-ON/MIL-OFF schedule (Alps)"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "luftrecht_1",
+          "t_start": 252.0,
+          "t_end": 271.7,
+          "snippet": "Stefan: military hours are Monday-Friday 07:35-12:05 and 13:15-17:05 - the 5-minute buffers exclude overlap."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "luftrecht",
+          "page": 50
+        }
+      ]
+    },
+    "Legislation_34": {
+      "qid": 34,
+      "topic": "Legislation",
+      "explanation": "An LS-R-for-Gliders zone with the 'MA' suffix is automatically active during MIL OFF (evenings, weekends, holidays). When the military is active (MIL ON), the zone is normally closed - but you may CALL the responsible authority and request that it be opened, because the military might not actually be using that piece of airspace. The 'MO' suffix, by contrast, is active only during MIL OFF with no possibility of request.",
+      "guide_chapter": {
+        "id": "p3-abbreviations",
+        "title": "Some useful abbreviations"
+      },
+      "workbook_chapter": {
+        "id": "law-02-abbreviations",
+        "title": "Abbreviations every pilot needs"
+      },
+      "diagrams": [
+        {
+          "id": "p3-mil-schedule",
+          "title": "MIL-ON/MIL-OFF schedule (Alps)"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "luftrecht_1",
+          "t_start": 1881.3,
+          "t_end": 1934.1,
+          "snippet": "Stefan: MA means the LSR-for-Gliders is also active when the military is not released - and you can ask for it to be opened on request."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "luftrecht",
+          "page": 55
+        },
+        {
+          "deck_id": "luftrecht",
+          "page": 62
+        }
+      ]
+    },
+    "Legislation_35": {
+      "qid": 35,
+      "topic": "Legislation",
+      "explanation": "Open-air gatherings, buildings, roads, ski pistes, public transport, power lines and cables must be circumnavigated or flown over at a SAFE distance - the OACS does not prescribe a numerical minimum height. The pilot is required to maintain a sufficient safety margin using common sense.",
+      "guide_chapter": {
+        "id": "p3-legal-framework",
+        "title": "General Legal Framework and OACS"
+      },
+      "workbook_chapter": {
+        "id": "law-01-legal-framework",
+        "title": "Legal framework"
+      },
+      "diagrams": [],
+      "video_clips": [],
+      "slide_pages": [
+        {
+          "deck_id": "luftrecht",
+          "page": 7
+        },
+        {
+          "deck_id": "luftrecht",
+          "page": 46
+        }
+      ]
+    },
+    "Legislation_36": {
+      "qid": 36,
+      "topic": "Legislation",
+      "explanation": "Provided you carry no goods and have the required documents (pilot licence, insurance certificate), you may enter and leave Swiss airspace freely under the OACS. Naturally the laws of the country you fly into must also be respected.",
+      "guide_chapter": {
+        "id": "p3-legal-framework",
+        "title": "General Legal Framework and OACS"
+      },
+      "workbook_chapter": {
+        "id": "law-01-legal-framework",
+        "title": "Legal framework"
+      },
+      "diagrams": [],
+      "video_clips": [],
+      "slide_pages": [
+        {
+          "deck_id": "luftrecht",
+          "page": 4
+        }
+      ]
+    },
+    "Legislation_37": {
+      "qid": 37,
+      "topic": "Legislation",
+      "explanation": "Take-offs and landings on public waters require prior authorisation from the cantonal navigation administration. Like other public-property launch sites, the basic federal rule is supplemented by local consent.",
+      "guide_chapter": {
+        "id": "p3-legal-framework",
+        "title": "General Legal Framework and OACS"
+      },
+      "workbook_chapter": {
+        "id": "law-01-legal-framework",
+        "title": "Legal framework"
+      },
+      "diagrams": [],
+      "video_clips": [],
+      "slide_pages": [
+        {
+          "deck_id": "luftrecht",
+          "page": 4
+        }
+      ]
+    },
+    "Legislation_39": {
+      "qid": 39,
+      "topic": "Legislation",
+      "explanation": "You must keep a horizontal distance of 5 km from the runway of any civil or military airfield without an active control zone (CTR), up to 600 m above the aerodrome. For heliports the protective cylinder is smaller: 2.5 km. The 5 km figure is the default - some sites (e.g. Trogen) have local SHV agreements that cut a wedge out of the cylinder.",
+      "guide_chapter": {
+        "id": "p3-legal-framework",
+        "title": "General Legal Framework and OACS"
+      },
+      "workbook_chapter": {
+        "id": "law-01-legal-framework",
+        "title": "Legal framework"
+      },
+      "diagrams": [
+        {
+          "id": "p3-takeoff-distances",
+          "title": "Prohibited take-off/landing distances"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "luftrecht_1",
+          "t_start": 1100.0,
+          "t_end": 1160.3,
+          "snippet": "Stefan: heliports get a 2.5 km radius, civil airfields a 5 km radius - and the protective cylinder only goes up to 600 m above ground."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "luftrecht",
+          "page": 43
+        },
+        {
+          "deck_id": "luftrecht",
+          "page": 44
+        }
+      ]
+    },
+    "Legislation_42": {
+      "qid": 42,
+      "topic": "Legislation",
+      "explanation": "The protective cylinder around aerodromes and heliports only extends 600 m above the aerodrome reference point. Above that the airspace opens up again - so you are NOT violating the distance rule by overflying an airfield at, say, 1000 m AGL. The 5 km / 2.5 km radius and the 600 m vertical cap together form a tin-can shape.",
+      "guide_chapter": {
+        "id": "p3-legal-framework",
+        "title": "General Legal Framework and OACS"
+      },
+      "workbook_chapter": {
+        "id": "law-01-legal-framework",
+        "title": "Legal framework"
+      },
+      "diagrams": [
+        {
+          "id": "p3-takeoff-distances",
+          "title": "Prohibited take-off/landing distances"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "luftrecht_1",
+          "t_start": 1158.1,
+          "t_end": 1213.1,
+          "snippet": "Stefan: the aerodrome protection only goes up to 600 m above the ground - above that you may overfly without violating the rule."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "luftrecht",
+          "page": 43
+        },
+        {
+          "deck_id": "luftrecht",
+          "page": 44
+        }
+      ]
+    },
+    "Legislation_43": {
+      "qid": 43,
+      "topic": "Legislation",
+      "explanation": "Landing a paraglider on or beside a fixed-wing aerodrome runway is only legal with the permission of the aerodrome director (chief). Without that explicit authorisation it is forbidden by the OACS.",
+      "guide_chapter": {
+        "id": "p3-legal-framework",
+        "title": "General Legal Framework and OACS"
+      },
+      "workbook_chapter": {
+        "id": "law-01-legal-framework",
+        "title": "Legal framework"
+      },
+      "diagrams": [],
+      "video_clips": [],
+      "slide_pages": [
+        {
+          "deck_id": "luftrecht",
+          "page": 4
+        }
+      ]
+    },
+    "Legislation_44": {
+      "qid": 44,
+      "topic": "Legislation",
+      "explanation": "No law requires a medical examination for the issue or renewal of a Swiss paraglider licence - neither at the start nor at any later interval. This is unusual compared to motorised aviation; the responsibility for being fit to fly lies with the pilot.",
+      "guide_chapter": {
+        "id": "p3-exam-licensing",
+        "title": "Examination and Licensing of Free Flight Pilots"
+      },
+      "workbook_chapter": {
+        "id": "law-06-exam-licensing",
+        "title": "Examination and licensing"
+      },
+      "diagrams": [],
+      "video_clips": [
+        {
+          "video_id": "luftrecht_0",
+          "t_start": 444.5,
+          "t_end": 471.8,
+          "snippet": "Stefan: no minimum number of flights and no medical exam are required - the brevet doesn't expire."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "luftrecht",
+          "page": 6
+        }
+      ]
+    },
+    "Legislation_45": {
+      "qid": 45,
+      "topic": "Legislation",
+      "explanation": "The Swiss licence has unlimited validity for solo pilots and no minimum number of flights per year is prescribed. The OACS leaves it to the pilot to stay current; a refresher course is recommended after a long break but not legally required.",
+      "guide_chapter": {
+        "id": "p3-exam-licensing",
+        "title": "Examination and Licensing of Free Flight Pilots"
+      },
+      "workbook_chapter": {
+        "id": "law-06-exam-licensing",
+        "title": "Examination and licensing"
+      },
+      "diagrams": [],
+      "video_clips": [
+        {
+          "video_id": "luftrecht_0",
+          "t_start": 444.5,
+          "t_end": 471.8,
+          "snippet": "Stefan: no minimum number of flights is specified for hang-glider flights - the licence doesn't expire."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "luftrecht",
+          "page": 6
+        }
+      ]
+    },
+    "Legislation_46": {
+      "qid": 46,
+      "topic": "Legislation",
+      "explanation": "For solo (Pilot) and Tandem 1/2 the Swiss licence has unlimited validity. For Tandem 3 (commercial tandem) and Flight Instructor the licence must be renewed every 3 years, reflecting the higher responsibility carried by pilots who fly passengers commercially or train others.",
+      "guide_chapter": {
+        "id": "p3-exam-licensing",
+        "title": "Examination and Licensing of Free Flight Pilots"
+      },
+      "workbook_chapter": {
+        "id": "law-06-exam-licensing",
+        "title": "Examination and licensing"
+      },
+      "diagrams": [
+        {
+          "id": "p3-tandem-licenses",
+          "title": "Tandem A vs B licenses"
+        }
+      ],
+      "video_clips": [],
+      "slide_pages": [
+        {
+          "deck_id": "luftrecht",
+          "page": 6
+        }
+      ]
+    },
+    "Legislation_47": {
+      "qid": 47,
+      "topic": "Legislation",
+      "explanation": "The OACS does NOT require pilots to keep a flight logbook. However it is strongly recommended, because to begin instructor training you must later prove 200 flights - which is impossible without contemporaneous records. A logbook is also the simplest way to track the 40+ flights needed for the practical exam.",
+      "guide_chapter": {
+        "id": "p3-exam-licensing",
+        "title": "Examination and Licensing of Free Flight Pilots"
+      },
+      "workbook_chapter": {
+        "id": "law-06-exam-licensing",
+        "title": "Examination and licensing"
+      },
+      "diagrams": [],
+      "video_clips": [],
+      "slide_pages": [
+        {
+          "deck_id": "luftrecht",
+          "page": 6
+        }
+      ]
+    },
+    "Legislation_50": {
+      "qid": 50,
+      "topic": "Legislation",
+      "explanation": "The radio frequency 130.930 MHz is the one specifically reserved for air-to-air communication between hang glider and paraglider pilots in Switzerland. Use of this frequency does NOT require any special radio training. A separate frequency (123.425 MHz) is used for student training.",
+      "guide_chapter": {
+        "id": "p3-legal-framework",
+        "title": "General Legal Framework and OACS"
+      },
+      "workbook_chapter": {
+        "id": "law-01-legal-framework",
+        "title": "Legal framework"
+      },
+      "diagrams": [],
+      "video_clips": [],
+      "slide_pages": [
+        {
+          "deck_id": "luftrecht",
+          "page": 4
+        }
+      ]
+    },
+    "Legislation_51": {
+      "qid": 51,
+      "topic": "Legislation",
+      "explanation": "Operating on the dedicated free-flight frequency 130.930 MHz does NOT require any special radio licence or training. Only when you intend to call air-traffic-control units (controlled airspace) would a separate aeronautical-radio qualification be relevant.",
+      "guide_chapter": {
+        "id": "p3-legal-framework",
+        "title": "General Legal Framework and OACS"
+      },
+      "workbook_chapter": {
+        "id": "law-01-legal-framework",
+        "title": "Legal framework"
+      },
+      "diagrams": [],
+      "video_clips": [],
+      "slide_pages": [
+        {
+          "deck_id": "luftrecht",
+          "page": 4
+        }
+      ]
+    },
+    "Legislation_52": {
+      "qid": 52,
+      "topic": "Legislation",
+      "explanation": "ICAO stands for International Civil Aviation Organization - the UN agency that codifies the standards used worldwide, including the A-G classification of airspace classes that Switzerland uses (only C, D, E and G are applied in practice).",
+      "guide_chapter": {
+        "id": "p3-abbreviations",
+        "title": "Some useful abbreviations"
+      },
+      "workbook_chapter": {
+        "id": "law-02-abbreviations",
+        "title": "Abbreviations every pilot needs"
+      },
+      "diagrams": [],
+      "video_clips": [
+        {
+          "video_id": "luftrecht_0",
+          "t_start": 1394.6,
+          "t_end": 1422.5,
+          "snippet": "Stefan: ICAO is the International Civil Aviation Organisation - they defined the seven airspace classes worldwide."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "luftrecht",
+          "page": 19
+        }
+      ]
+    },
+    "Legislation_54": {
+      "qid": 54,
+      "topic": "Legislation",
+      "explanation": "AIP stands for Aeronautical Information Publication - Skyguide's master document for Swiss aviation. It is the long-form 'pilots' handbook' that contains all general, persistent information on Swiss airspace, navaids, aerodromes and procedures; it is updated monthly.",
+      "guide_chapter": {
+        "id": "p3-airspace-info-sources",
+        "title": "Sources of Information on Airspace"
+      },
+      "workbook_chapter": {
+        "id": "law-04-info-sources",
+        "title": "Sources of airspace information"
+      },
+      "diagrams": [
+        {
+          "id": "p3-info-sources",
+          "title": "Four airspace information sources"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "luftrecht_0",
+          "t_start": 1199.5,
+          "t_end": 1224.7,
+          "snippet": "Stefan: the AIP is the Aeronautical Information Publication - the general, persistent reference for users of Swiss airspace."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "luftrecht",
+          "page": 17
+        }
+      ]
+    },
+    "Legislation_55": {
+      "qid": 55,
+      "topic": "Legislation",
+      "explanation": "The AIP contains the general, persistent information for all users of Swiss airspace - airspace descriptions, aerodrome procedures, navaids and similar reference material that doesn't change daily. Short-term changes go into the NOTAM and DABS instead.",
+      "guide_chapter": {
+        "id": "p3-airspace-info-sources",
+        "title": "Sources of Information on Airspace"
+      },
+      "workbook_chapter": {
+        "id": "law-04-info-sources",
+        "title": "Sources of airspace information"
+      },
+      "diagrams": [
+        {
+          "id": "p3-info-sources",
+          "title": "Four airspace information sources"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "luftrecht_0",
+          "t_start": 1199.5,
+          "t_end": 1224.7,
+          "snippet": "Stefan: the AIP contains generally applicable information for all users of Swiss airspace."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "luftrecht",
+          "page": 17
+        }
+      ]
+    },
+    "Legislation_56": {
+      "qid": 56,
+      "topic": "Legislation",
+      "explanation": "GLDK / GLDC stands for Glider Chart - Skyguide's special VFR map for sailplanes and paragliders. A new edition is published every March; many pilots keep a paper copy for overview and re-check the digital version at map.geo.admin.ch before each flight.",
+      "guide_chapter": {
+        "id": "p3-airspace-info-sources",
+        "title": "Sources of Information on Airspace"
+      },
+      "workbook_chapter": {
+        "id": "law-04-info-sources",
+        "title": "Sources of airspace information"
+      },
+      "diagrams": [
+        {
+          "id": "p3-info-sources",
+          "title": "Four airspace information sources"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "luftrecht_0",
+          "t_start": 1190.5,
+          "t_end": 1224.7,
+          "snippet": "Stefan: GLDC is the Glider Chart - we look more closely at it later."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "luftrecht",
+          "page": 16
+        },
+        {
+          "deck_id": "luftrecht",
+          "page": 17
+        }
+      ]
+    },
+    "Legislation_57": {
+      "qid": 57,
+      "topic": "Legislation",
+      "explanation": "The Glider Chart is a topographical map specially produced for sailplanes and paragliders. It shows airspace classes (C/D/E/G), restricted/danger areas (LS-R/LS-D), prominent obstacles, LS-R for Gliders soaring zones, the Mittelland-Alps dividing line, military flight hours and aerodrome cylinders. It is the single most important map for free-flight planning.",
+      "guide_chapter": {
+        "id": "p3-airspace-info-sources",
+        "title": "Sources of Information on Airspace"
+      },
+      "workbook_chapter": {
+        "id": "law-04-info-sources",
+        "title": "Sources of airspace information"
+      },
+      "diagrams": [
+        {
+          "id": "p3-info-sources",
+          "title": "Four airspace information sources"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "luftrecht_0",
+          "t_start": 1000.1,
+          "t_end": 1032.2,
+          "snippet": "Stefan: the glider chart shows airspace classes, hazards, flight-restriction areas, obstacles, LSR-for-Gliders soaring zones and military hours."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "luftrecht",
+          "page": 16
+        },
+        {
+          "deck_id": "luftrecht",
+          "page": 20
+        }
+      ]
+    },
+    "Legislation_58": {
+      "qid": 58,
+      "topic": "Legislation",
+      "explanation": "NOTAM stands for Notice to Airmen - a daily bulletin used in aviation worldwide that lists short-term changes: airspace restrictions, hazards on the ground, obstacles, etc. For VFR free flight the relevant subset is published as the VFR-NOTAM.",
+      "guide_chapter": {
+        "id": "p3-airspace-info-sources",
+        "title": "Sources of Information on Airspace"
+      },
+      "workbook_chapter": {
+        "id": "law-04-info-sources",
+        "title": "Sources of airspace information"
+      },
+      "diagrams": [
+        {
+          "id": "p3-info-sources",
+          "title": "Four airspace information sources"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "luftrecht_0",
+          "t_start": 1208.5,
+          "t_end": 1224.7,
+          "snippet": "Stefan: the NOTAM is a daily-published source for aviators marking airspace restrictions, hazards and obstacles on the ground."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "luftrecht",
+          "page": 17
+        }
+      ]
+    },
+    "Legislation_59": {
+      "qid": 59,
+      "topic": "Legislation",
+      "explanation": "The NOTAM is the standard short-term aeronautical bulletin listing airspace restrictions, hazards and ground obstacles. (The SHV booklet's 'weekly' wording is a quirk of the question; in practice the NOTAM is published continuously and read daily before flying alongside the DABS.)",
+      "guide_chapter": {
+        "id": "p3-airspace-info-sources",
+        "title": "Sources of Information on Airspace"
+      },
+      "workbook_chapter": {
+        "id": "law-04-info-sources",
+        "title": "Sources of airspace information"
+      },
+      "diagrams": [
+        {
+          "id": "p3-info-sources",
+          "title": "Four airspace information sources"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "luftrecht_0",
+          "t_start": 1208.5,
+          "t_end": 1224.7,
+          "snippet": "Stefan: NOTAM - daily-published source of short-term restrictions and obstacles."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "luftrecht",
+          "page": 17
+        }
+      ]
+    },
+    "Legislation_60": {
+      "qid": 60,
+      "topic": "Legislation",
+      "explanation": "DABS stands for Daily Airspace Bulletin Switzerland - the official Skyguide publication at www.skybriefing.com that gives pilots a graphical, day-by-day overview of which Swiss airspaces are active. Before reading it, ALWAYS verify the displayed date matches the day you intend to fly.",
+      "guide_chapter": {
+        "id": "p3-airspace-info-sources",
+        "title": "Sources of Information on Airspace"
+      },
+      "workbook_chapter": {
+        "id": "law-04-info-sources",
+        "title": "Sources of airspace information"
+      },
+      "diagrams": [
+        {
+          "id": "p3-info-sources",
+          "title": "Four airspace information sources"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "luftrecht_0",
+          "t_start": 1224.7,
+          "t_end": 1253.9,
+          "snippet": "Stefan: the DABS - Daily Airspace Bulletin Switzerland - is the main tool I check before going into the air."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "luftrecht",
+          "page": 17
+        },
+        {
+          "deck_id": "luftrecht",
+          "page": 52
+        }
+      ]
+    },
+    "Legislation_61": {
+      "qid": 61,
+      "topic": "Legislation",
+      "explanation": "The DABS contains daily, up-to-date information on Swiss airspace: active LS-R restrictions, temporary TMA/CTR extensions (Sion and Alpnach being the only two temporaries in Switzerland), MIL ON status, parachute drops, firing ranges and similar short-term activations.",
+      "guide_chapter": {
+        "id": "p3-airspace-info-sources",
+        "title": "Sources of Information on Airspace"
+      },
+      "workbook_chapter": {
+        "id": "law-04-info-sources",
+        "title": "Sources of airspace information"
+      },
+      "diagrams": [
+        {
+          "id": "p3-info-sources",
+          "title": "Four airspace information sources"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "luftrecht_1",
+          "t_start": 1442.4,
+          "t_end": 1528.3,
+          "snippet": "Stefan: the DABS publishes daily which airspaces are currently active, including LSRs and temporary TMAs at Sion/Alpnach."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "luftrecht",
+          "page": 52
+        },
+        {
+          "deck_id": "luftrecht",
+          "page": 53
+        },
+        {
+          "deck_id": "luftrecht",
+          "page": 54
+        }
+      ]
+    },
+    "Legislation_62": {
+      "qid": 62,
+      "topic": "Legislation",
+      "explanation": "IFR stands for Instrument Flight Rules - the regime used by aircraft equipped for instrument flight and flown by pilots holding the corresponding rating. Paragliders cannot fly IFR no matter how much GPS or instrumentation they carry: under Swiss law a paraglider always operates under VFR only.",
+      "guide_chapter": {
+        "id": "p3-abbreviations",
+        "title": "Some useful abbreviations"
+      },
+      "workbook_chapter": {
+        "id": "law-02-abbreviations",
+        "title": "Abbreviations every pilot needs"
+      },
+      "diagrams": [],
+      "video_clips": [
+        {
+          "video_id": "luftrecht_0",
+          "t_start": 1284.2,
+          "t_end": 1320.9,
+          "snippet": "Stefan: IFR is Instrument Flight Rules - only properly equipped aircraft with rated pilots; paragliders only fly VFR."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "luftrecht",
+          "page": 18
+        }
+      ]
+    },
+    "Legislation_63": {
+      "qid": 63,
+      "topic": "Legislation",
+      "explanation": "VFR stands for Visual Flight Rules - the 'fly by sight' regime that applies to any aircraft operating visually. It defines the minimum visibility, the safe distance from cloud and the right-of-way rules. All paragliders fly under VFR at all times.",
+      "guide_chapter": {
+        "id": "p3-abbreviations",
+        "title": "Some useful abbreviations"
+      },
+      "workbook_chapter": {
+        "id": "law-02-abbreviations",
+        "title": "Abbreviations every pilot needs"
+      },
+      "diagrams": [
+        {
+          "id": "p3-cloud-clearances",
+          "title": "VFR cloud clearances"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "luftrecht_0",
+          "t_start": 1273.1,
+          "t_end": 1295.0,
+          "snippet": "Stefan: VFR is Visual Flight Rules - that's the area in which we operate with the paraglider."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "luftrecht",
+          "page": 18
+        }
+      ]
+    },
+    "Legislation_64": {
+      "qid": 64,
+      "topic": "Legislation",
+      "explanation": "IFR flight requires both the right equipment (instruments for blind flight, attitude reference, navigation) AND a pilot with an instrument rating. Without both, you may not file or fly IFR - which is why paragliders are confined to VFR.",
+      "guide_chapter": {
+        "id": "p3-abbreviations",
+        "title": "Some useful abbreviations"
+      },
+      "workbook_chapter": {
+        "id": "law-02-abbreviations",
+        "title": "Abbreviations every pilot needs"
+      },
+      "diagrams": [],
+      "video_clips": [
+        {
+          "video_id": "luftrecht_0",
+          "t_start": 1284.2,
+          "t_end": 1320.9,
+          "snippet": "Stefan: IFR is for aircraft properly equipped for instrument flight and pilots with the corresponding licence."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "luftrecht",
+          "page": 18
+        }
+      ]
+    },
+    "Legislation_66": {
+      "qid": 66,
+      "topic": "Legislation",
+      "explanation": "Hang gliders and paragliders are restricted by law to VFR (Visual Flight Rules). That means visibility minima, distance from cloud, and the inability to fly into or through cloud - regardless of how sophisticated your instruments are.",
+      "guide_chapter": {
+        "id": "p3-flight-rules-vfr",
+        "title": "Flight Rules (VFR)"
+      },
+      "workbook_chapter": {
+        "id": "law-05-vfr-rules",
+        "title": "VFR rules and right of way"
+      },
+      "diagrams": [
+        {
+          "id": "p3-cloud-clearances",
+          "title": "VFR cloud clearances"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "luftrecht_0",
+          "t_start": 1300.9,
+          "t_end": 1320.9,
+          "snippet": "Stefan: with the paraglider no matter how many instruments we strap on, we can't fly IFR - only VFR."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "luftrecht",
+          "page": 18
+        }
+      ]
+    },
+    "Legislation_67": {
+      "qid": 67,
+      "topic": "Legislation",
+      "explanation": "GND on the glider chart simply stands for Ground. It is the lower limit of an airspace whose floor sits on the terrain (a CTR for example, which extends from GND upwards).",
+      "guide_chapter": {
+        "id": "p3-abbreviations",
+        "title": "Some useful abbreviations"
+      },
+      "workbook_chapter": {
+        "id": "law-02-abbreviations",
+        "title": "Abbreviations every pilot needs"
+      },
+      "diagrams": [],
+      "video_clips": [],
+      "slide_pages": [
+        {
+          "deck_id": "luftrecht",
+          "page": 18
+        }
+      ]
+    },
+    "Legislation_68": {
+      "qid": 68,
+      "topic": "Legislation",
+      "explanation": "AMSL stands for Altitude (or 'above') Mean Sea Level - the absolute altitude relative to global sea level (e.g. the elevation written on a summit marker). On the glider chart, AMSL numbers are shown in italic font.",
+      "guide_chapter": {
+        "id": "p3-abbreviations",
+        "title": "Some useful abbreviations"
+      },
+      "workbook_chapter": {
+        "id": "law-02-abbreviations",
+        "title": "Abbreviations every pilot needs"
+      },
+      "diagrams": [],
+      "video_clips": [
+        {
+          "video_id": "luftrecht_1",
+          "t_start": 344.9,
+          "t_end": 358.9,
+          "snippet": "Stefan: on the glider chart italic numbers mean above sea level, upright numbers mean above ground."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "luftrecht",
+          "page": 18
+        }
+      ]
+    },
+    "Legislation_69": {
+      "qid": 69,
+      "topic": "Legislation",
+      "explanation": "AGL stands for Altitude Above Ground Level - your altitude measured relative to the terrain directly below you. AGL ceilings (like the 600 m AGL top of airspace G) therefore rise and fall with topography. On the glider chart AGL numbers are shown in UPRIGHT font, AMSL in italics.",
+      "guide_chapter": {
+        "id": "p3-abbreviations",
+        "title": "Some useful abbreviations"
+      },
+      "workbook_chapter": {
+        "id": "law-02-abbreviations",
+        "title": "Abbreviations every pilot needs"
+      },
+      "diagrams": [],
+      "video_clips": [
+        {
+          "video_id": "luftrecht_1",
+          "t_start": 344.9,
+          "t_end": 358.9,
+          "snippet": "Stefan: upright = above ground, italics = above sea level - the small typographic distinction has huge consequences."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "luftrecht",
+          "page": 18
+        }
+      ]
+    },
+    "Legislation_71": {
+      "qid": 71,
+      "topic": "Legislation",
+      "explanation": "A Flight Level is 100 feet referenced to the standard atmosphere (1013.25 hPa). One foot is 30.48 cm, so FL 30 = 3000 ft = 914 m, which the SHV booklet rounds to 900 m. Quick mental shortcut: multiply the FL number by 30 to get metres.",
+      "guide_chapter": {
+        "id": "p3-abbreviations",
+        "title": "Some useful abbreviations"
+      },
+      "workbook_chapter": {
+        "id": "law-02-abbreviations",
+        "title": "Abbreviations every pilot needs"
+      },
+      "diagrams": [
+        {
+          "id": "p3-fl-to-meters",
+          "title": "Flight levels to meters"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "luftrecht_1",
+          "t_start": 571.5,
+          "t_end": 615.0,
+          "snippet": "Stefan: FL = 100 ft each; FL 100 is 10,000 ft = 3,048 m; from there you can derive any other flight level."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "luftrecht",
+          "page": 30
+        }
+      ]
+    },
+    "Legislation_72": {
+      "qid": 72,
+      "topic": "Legislation",
+      "explanation": "FL 100 = 10,000 ft. One foot = 30.48 cm, so 10,000 ft = 3,048 m, rounded to 3050 m in the booklet. This is exactly the upper limit of airspace E over the Jura and the Mittelland - the boundary at which paragliders enter airspace C.",
+      "guide_chapter": {
+        "id": "p3-abbreviations",
+        "title": "Some useful abbreviations"
+      },
+      "workbook_chapter": {
+        "id": "law-02-abbreviations",
+        "title": "Abbreviations every pilot needs"
+      },
+      "diagrams": [
+        {
+          "id": "p3-fl-to-meters",
+          "title": "Flight levels to meters"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "luftrecht_1",
+          "t_start": 571.5,
+          "t_end": 610.5,
+          "snippet": "Stefan: FL 100 is 10,000 feet = 3,048 m, which is why airspace C starts at 3,050 m in the Jura."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "luftrecht",
+          "page": 30
+        }
+      ]
+    },
+    "Legislation_73": {
+      "qid": 73,
+      "topic": "Legislation",
+      "explanation": "FL 150 = 15,000 ft = 4,572 m, rounded to 4,550 m in the booklet. This is the upper limit of airspace E in the Alps when the military is OFF (evenings, weekends, holidays) - the highest you may fly without entering airspace C.",
+      "guide_chapter": {
+        "id": "p3-abbreviations",
+        "title": "Some useful abbreviations"
+      },
+      "workbook_chapter": {
+        "id": "law-02-abbreviations",
+        "title": "Abbreviations every pilot needs"
+      },
+      "diagrams": [
+        {
+          "id": "p3-fl-to-meters",
+          "title": "Flight levels to meters"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "luftrecht_1",
+          "t_start": 605.0,
+          "t_end": 625.0,
+          "snippet": "Stefan: FL 130 is 3,950 m, FL 150 is 4,550 m - the alpine E ceilings depending on MIL ON or OFF."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "luftrecht",
+          "page": 30
+        }
+      ]
+    },
+    "Legislation_74": {
+      "qid": 74,
+      "topic": "Legislation",
+      "explanation": "FL 195 = 19,500 ft = 5,944 m, rounded to 5,950 m. FL 195 is the upper limit of Swiss airways (AWY); above it sits Class A airspace where free flight is not relevant in practice.",
+      "guide_chapter": {
+        "id": "p3-abbreviations",
+        "title": "Some useful abbreviations"
+      },
+      "workbook_chapter": {
+        "id": "law-02-abbreviations",
+        "title": "Abbreviations every pilot needs"
+      },
+      "diagrams": [
+        {
+          "id": "p3-fl-to-meters",
+          "title": "Flight levels to meters"
+        }
+      ],
+      "video_clips": [],
+      "slide_pages": [
+        {
+          "deck_id": "luftrecht",
+          "page": 30
+        }
+      ]
+    },
+    "Legislation_75": {
+      "qid": 75,
+      "topic": "Legislation",
+      "explanation": "AWY stands for Airway - a controlled corridor connecting TMAs, used by long-distance instrument traffic. Swiss airways extend up to FL 195 with a defined lower limit (often a flight level) and clear lateral boundaries on the glider chart.",
+      "guide_chapter": {
+        "id": "p3-abbreviations",
+        "title": "Some useful abbreviations"
+      },
+      "workbook_chapter": {
+        "id": "law-02-abbreviations",
+        "title": "Abbreviations every pilot needs"
+      },
+      "diagrams": [
+        {
+          "id": "p3-ctr-tma-awy",
+          "title": "CTR, TMA and AWY around an airport"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "luftrecht_0",
+          "t_start": 1346.7,
+          "t_end": 1400.0,
+          "snippet": "Stefan: AWY (airways) are the long airspace corridors that link airports and major route networks."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "luftrecht",
+          "page": 39
+        },
+        {
+          "deck_id": "luftrecht",
+          "page": 40
+        }
+      ]
+    },
+    "Legislation_76": {
+      "qid": 76,
+      "topic": "Legislation",
+      "explanation": "An airway connects various airports along a defined corridor: it has clearly defined lateral and lower limits (the upper limit is generally FL 195). Inside an active AWY only IFR traffic is normally found - paragliders should avoid it.",
+      "guide_chapter": {
+        "id": "p3-abbreviations",
+        "title": "Some useful abbreviations"
+      },
+      "workbook_chapter": {
+        "id": "law-02-abbreviations",
+        "title": "Abbreviations every pilot needs"
+      },
+      "diagrams": [
+        {
+          "id": "p3-ctr-tma-awy",
+          "title": "CTR, TMA and AWY around an airport"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "luftrecht_0",
+          "t_start": 1346.7,
+          "t_end": 1400.0,
+          "snippet": "Stefan: airways are the long airspace corridors linking airports and main traffic routes."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "luftrecht",
+          "page": 39
+        },
+        {
+          "deck_id": "luftrecht",
+          "page": 40
+        }
+      ]
+    },
+    "Legislation_77": {
+      "qid": 77,
+      "topic": "Legislation",
+      "explanation": "CTR stands for Control Zone - controlled airspace (class D in Switzerland) extending from the GROUND around a runway up to a defined altitude. It encircles the aerodrome and is reserved for traffic that has a clearance and, normally, radio contact.",
+      "guide_chapter": {
+        "id": "p3-abbreviations",
+        "title": "Some useful abbreviations"
+      },
+      "workbook_chapter": {
+        "id": "law-02-abbreviations",
+        "title": "Abbreviations every pilot needs"
+      },
+      "diagrams": [
+        {
+          "id": "p3-ctr-tma-awy",
+          "title": "CTR, TMA and AWY around an airport"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "luftrecht_0",
+          "t_start": 1336.0,
+          "t_end": 1356.7,
+          "snippet": "Stefan: a CTR always extends from the ground up to a certain altitude around the airfield."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "luftrecht",
+          "page": 35
+        }
+      ]
+    },
+    "Legislation_78": {
+      "qid": 78,
+      "topic": "Legislation",
+      "explanation": "A CTR encircles the aerodrome runway, starts at the ground and extends to an upper limit defined on the glider chart. Its shape is dictated by topography and approach corridors and is rarely circular - the chart shows the precise boundary.",
+      "guide_chapter": {
+        "id": "p3-airspace-structure",
+        "title": "Airspace Structure"
+      },
+      "workbook_chapter": {
+        "id": "law-03-airspace-structure",
+        "title": "Airspace structure"
+      },
+      "diagrams": [
+        {
+          "id": "p3-ctr-tma-awy",
+          "title": "CTR, TMA and AWY around an airport"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "luftrecht_1",
+          "t_start": 935.2,
+          "t_end": 960.0,
+          "snippet": "Stefan: CTRs are control zones around the major airports - they go from the ground up to a certain altitude; the shape depends on topography."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "luftrecht",
+          "page": 35
+        },
+        {
+          "deck_id": "luftrecht",
+          "page": 40
+        }
+      ]
+    },
+    "Legislation_79": {
+      "qid": 79,
+      "topic": "Legislation",
+      "explanation": "TMA stands for Terminal Maneuvering Area (also called Terminal Control Area) - controlled airspace stacked above the CTR and used by approach and departure traffic. Its lower limit is FIXED (an altitude, not a flight level) because of terrain; its upper limit is a flight level.",
+      "guide_chapter": {
+        "id": "p3-abbreviations",
+        "title": "Some useful abbreviations"
+      },
+      "workbook_chapter": {
+        "id": "law-02-abbreviations",
+        "title": "Abbreviations every pilot needs"
+      },
+      "diagrams": [
+        {
+          "id": "p3-ctr-tma-awy",
+          "title": "CTR, TMA and AWY around an airport"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "luftrecht_0",
+          "t_start": 1340.4,
+          "t_end": 1395.0,
+          "snippet": "Stefan: the TMA are the approach corridors for take-off and landing, sitting above the CTR."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "luftrecht",
+          "page": 36
+        },
+        {
+          "deck_id": "luftrecht",
+          "page": 40
+        }
+      ]
+    },
+    "Legislation_80": {
+      "qid": 80,
+      "topic": "Legislation",
+      "explanation": "A TMA is found in the wider vicinity of larger airports, stacked above the CTR in stepped boxes. Its lateral extent and lower limit are shown on the glider chart - the lower limit is fixed because the box must not cut into terrain.",
+      "guide_chapter": {
+        "id": "p3-airspace-structure",
+        "title": "Airspace Structure"
+      },
+      "workbook_chapter": {
+        "id": "law-03-airspace-structure",
+        "title": "Airspace structure"
+      },
+      "diagrams": [
+        {
+          "id": "p3-ctr-tma-awy",
+          "title": "CTR, TMA and AWY around an airport"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "luftrecht_1",
+          "t_start": 960.0,
+          "t_end": 1024.0,
+          "snippet": "Stefan: TMAs are like boxes stacked on top of each other above the CTR - in the Alps you may fly 300 m under them without clearance."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "luftrecht",
+          "page": 36
+        },
+        {
+          "deck_id": "luftrecht",
+          "page": 40
+        }
+      ]
+    },
+    "Legislation_81": {
+      "qid": 81,
+      "topic": "Legislation",
+      "explanation": "A very practical special rule applies only SOUTH of the Mittelland-Alps dividing line: paragliders may fly UNDER a TMA up to 300 m above ground without clearance. This is essential in alpine valleys (e.g. Meiringen) where a TMA would otherwise box the airspace shut. It is also a frequent exam trap - the rule does NOT apply in the Jura/Mittelland.",
+      "guide_chapter": {
+        "id": "p3-airspace-structure",
+        "title": "Airspace Structure"
+      },
+      "workbook_chapter": {
+        "id": "law-03-airspace-structure",
+        "title": "Airspace structure"
+      },
+      "diagrams": [
+        {
+          "id": "p3-ctr-tma-awy",
+          "title": "CTR, TMA and AWY around an airport"
+        },
+        {
+          "id": "p3-airspace-cross-section",
+          "title": "Swiss airspace cross-section: Mittelland vs. Alps"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "luftrecht_1",
+          "t_start": 972.2,
+          "t_end": 1024.0,
+          "snippet": "Stefan: south of the Mittelland-Alps line you may fly out 300 m below a TMA - a tricky exam question; watch the 300 m."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "luftrecht",
+          "page": 37
+        },
+        {
+          "deck_id": "luftrecht",
+          "page": 65
+        },
+        {
+          "deck_id": "luftrecht",
+          "page": 66
+        }
+      ]
+    },
+    "Legislation_82": {
+      "qid": 82,
+      "topic": "Legislation",
+      "explanation": "The ICAO defined seven airspace classes (A-G). Switzerland only uses four of them in practice: C, D, E and G. The full set worldwide includes A and B (high-altitude IFR-only/limited VFR) and F (advisory) which simply do not exist in Swiss airspace.",
+      "guide_chapter": {
+        "id": "p3-airspace-structure",
+        "title": "Airspace Structure"
+      },
+      "workbook_chapter": {
+        "id": "law-03-airspace-structure",
+        "title": "Airspace structure"
+      },
+      "diagrams": [
+        {
+          "id": "p3-airspace-cross-section",
+          "title": "Swiss airspace cross-section: Mittelland vs. Alps"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "luftrecht_0",
+          "t_start": 1394.6,
+          "t_end": 1422.5,
+          "snippet": "Stefan: ICAO defined seven airspace classes worldwide; only four apply in Switzerland - G, E, C, D."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "luftrecht",
+          "page": 19
+        }
+      ]
+    },
+    "Legislation_84": {
+      "qid": 84,
+      "topic": "Legislation",
+      "explanation": "Of the seven ICAO airspace classes, only C, D, E and G are used in Switzerland - 'Ceiling Defines Every Glide' is the memory aid. E and G are uncontrolled (paragliders may use them freely); C and D are controlled and require clearance.",
+      "guide_chapter": {
+        "id": "p3-airspace-structure",
+        "title": "Airspace Structure"
+      },
+      "workbook_chapter": {
+        "id": "law-03-airspace-structure",
+        "title": "Airspace structure"
+      },
+      "diagrams": [
+        {
+          "id": "p3-airspace-cross-section",
+          "title": "Swiss airspace cross-section: Mittelland vs. Alps"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "luftrecht_0",
+          "t_start": 1410.2,
+          "t_end": 1452.0,
+          "snippet": "Stefan: in Switzerland only G, E, C and D apply; G and E are free, C and D need clearance."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "luftrecht",
+          "page": 19
+        }
+      ]
+    },
+    "Legislation_85": {
+      "qid": 85,
+      "topic": "Legislation",
+      "explanation": "Paragliders may use airspaces E and G without any prior permission - these are the uncontrolled spaces. C and D are controlled and require a clearance (C additionally needs constant radio contact); paragliders normally avoid them entirely.",
+      "guide_chapter": {
+        "id": "p3-airspace-structure",
+        "title": "Airspace Structure"
+      },
+      "workbook_chapter": {
+        "id": "law-03-airspace-structure",
+        "title": "Airspace structure"
+      },
+      "diagrams": [
+        {
+          "id": "p3-airspace-cross-section",
+          "title": "Swiss airspace cross-section: Mittelland vs. Alps"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "luftrecht_0",
+          "t_start": 1410.2,
+          "t_end": 1452.0,
+          "snippet": "Stefan: G and E are free - you may fly in them at any time; C and D need clearance and radio."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "luftrecht",
+          "page": 19
+        },
+        {
+          "deck_id": "luftrecht",
+          "page": 22
+        }
+      ]
+    },
+    "Legislation_86": {
+      "qid": 86,
+      "topic": "Legislation",
+      "explanation": "Permanent radio contact is required in airspace C only. Airspaces E and G are uncontrolled and you fly them without any radio obligation; in D you need clearance but not strictly permanent radio. The simplest memory: only C demands continuous radio.",
+      "guide_chapter": {
+        "id": "p3-airspace-structure",
+        "title": "Airspace Structure"
+      },
+      "workbook_chapter": {
+        "id": "law-03-airspace-structure",
+        "title": "Airspace structure"
+      },
+      "diagrams": [
+        {
+          "id": "p3-airspace-cross-section",
+          "title": "Swiss airspace cross-section: Mittelland vs. Alps"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "luftrecht_0",
+          "t_start": 1419.2,
+          "t_end": 1452.0,
+          "snippet": "Stefan: the C and D need clearance; in C also constant radio contact; only in E and G can we always fly freely."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "luftrecht",
+          "page": 19
+        }
+      ]
+    },
+    "Legislation_87": {
+      "qid": 87,
+      "topic": "Legislation",
+      "explanation": "All aircraft - paragliders included - need clearance to enter Class C or D airspace. Class C additionally requires continuous radio contact; Class D requires clearance even without continuous radio. E and G are uncontrolled and clearance-free.",
+      "guide_chapter": {
+        "id": "p3-airspace-structure",
+        "title": "Airspace Structure"
+      },
+      "workbook_chapter": {
+        "id": "law-03-airspace-structure",
+        "title": "Airspace structure"
+      },
+      "diagrams": [
+        {
+          "id": "p3-airspace-cross-section",
+          "title": "Swiss airspace cross-section: Mittelland vs. Alps"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "luftrecht_0",
+          "t_start": 1416.2,
+          "t_end": 1452.0,
+          "snippet": "Stefan: C and D are only allowed with clearance and radio contact; only in E and G can we always fly freely."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "luftrecht",
+          "page": 19
+        },
+        {
+          "deck_id": "luftrecht",
+          "page": 22
+        }
+      ]
+    },
+    "Legislation_88": {
+      "qid": 88,
+      "topic": "Legislation",
+      "explanation": "Airspace G in Switzerland extends from the ground up to 600 m AGL - a 600-metre 'carpet' laid over the entire topography. Because the upper limit is AGL, the absolute altitude of the G ceiling rises and falls with the terrain underneath.",
+      "guide_chapter": {
+        "id": "p3-airspace-structure",
+        "title": "Airspace Structure"
+      },
+      "workbook_chapter": {
+        "id": "law-03-airspace-structure",
+        "title": "Airspace structure"
+      },
+      "diagrams": [
+        {
+          "id": "p3-airspace-cross-section",
+          "title": "Swiss airspace cross-section: Mittelland vs. Alps"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "luftrecht_1",
+          "t_start": 122.5,
+          "t_end": 175.0,
+          "snippet": "Stefan: picture G as a carpet 600 m thick laid over all of Switzerland - above it sits E."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "luftrecht",
+          "page": 19
+        },
+        {
+          "deck_id": "luftrecht",
+          "page": 27
+        }
+      ]
+    },
+    "Legislation_89": {
+      "qid": 89,
+      "topic": "Legislation",
+      "explanation": "In airspace G the VFR rules split at 300 m AGL. Below 300 m AGL: 1.5 km visibility, OUT of cloud (no numerical distance), ground always in sight, 180-deg turn always possible. Above 300 m AGL (still inside G up to 600 m): the strict 300 m vertical / 1500 m horizontal cloud distance and 5 km visibility apply.",
+      "guide_chapter": {
+        "id": "p3-flight-rules-vfr",
+        "title": "Flight Rules (VFR)"
+      },
+      "workbook_chapter": {
+        "id": "law-05-vfr-rules",
+        "title": "VFR rules and right of way"
+      },
+      "diagrams": [
+        {
+          "id": "p3-cloud-clearances",
+          "title": "VFR cloud clearances"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "luftrecht_1",
+          "t_start": 1714.0,
+          "t_end": 1810.0,
+          "snippet": "Stefan: up to 300 m AGL you just need to be clear of cloud with 1.5 km visibility; above that the strict 300 m / 1500 m cloud distances apply."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "luftrecht",
+          "page": 58
+        },
+        {
+          "deck_id": "luftrecht",
+          "page": 59
+        }
+      ]
+    },
+    "Legislation_90": {
+      "qid": 90,
+      "topic": "Legislation",
+      "explanation": "Over the Jura (and the Mittelland) the upper limit of airspace E is FL 100, i.e. 3050 m AMSL, regardless of military activity. The Jura/Mittelland-vs-Alps dividing line is drawn precisely on the glider chart; on its 'flat' side the E ceiling is always 3050 m.",
+      "guide_chapter": {
+        "id": "p3-airspace-structure",
+        "title": "Airspace Structure"
+      },
+      "workbook_chapter": {
+        "id": "law-03-airspace-structure",
+        "title": "Airspace structure"
+      },
+      "diagrams": [
+        {
+          "id": "p3-airspace-cross-section",
+          "title": "Swiss airspace cross-section: Mittelland vs. Alps"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "luftrecht_1",
+          "t_start": 175.2,
+          "t_end": 220.0,
+          "snippet": "Stefan: in the Jura the boundary sits at 3,050 m; in the Alps at 4,550 m - quite a difference in altitude."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "luftrecht",
+          "page": 21
+        },
+        {
+          "deck_id": "luftrecht",
+          "page": 24
+        }
+      ]
+    },
+    "Legislation_91": {
+      "qid": 91,
+      "topic": "Legislation",
+      "explanation": "In airspace E below 3050 m AMSL the strict VFR cloud distances apply: 5 km visibility, 1500 m horizontal distance from cloud, 300 m vertical distance. Above 3050 m AMSL visibility increases to 8 km because faster IFR traffic can emerge from cloud at high speed.",
+      "guide_chapter": {
+        "id": "p3-flight-rules-vfr",
+        "title": "Flight Rules (VFR)"
+      },
+      "workbook_chapter": {
+        "id": "law-05-vfr-rules",
+        "title": "VFR rules and right of way"
+      },
+      "diagrams": [
+        {
+          "id": "p3-cloud-clearances",
+          "title": "VFR cloud clearances"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "luftrecht_1",
+          "t_start": 1760.0,
+          "t_end": 1808.6,
+          "snippet": "Stefan: above 300 m AGL the strict cloud clearances are 300 m vertical and 1500 m horizontal; visibility 5 km below 3050 m, 8 km above."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "luftrecht",
+          "page": 59
+        }
+      ]
+    },
+    "Legislation_93": {
+      "qid": 93,
+      "topic": "Legislation",
+      "explanation": "Above the Alps (south of the Mittelland-Alps dividing line) outside military operating hours, the upper limit of airspace E is FL 150 = 4550 m AMSL. When the military is ON (Mon-Fri 07:35-12:05 and 13:15-17:05), the ceiling drops to FL 130 = 3950 m AMSL.",
+      "guide_chapter": {
+        "id": "p3-airspace-structure",
+        "title": "Airspace Structure"
+      },
+      "workbook_chapter": {
+        "id": "law-03-airspace-structure",
+        "title": "Airspace structure"
+      },
+      "diagrams": [
+        {
+          "id": "p3-mil-schedule",
+          "title": "MIL-ON/MIL-OFF schedule (Alps)"
+        },
+        {
+          "id": "p3-airspace-cross-section",
+          "title": "Swiss airspace cross-section: Mittelland vs. Alps"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "luftrecht_1",
+          "t_start": 220.9,
+          "t_end": 282.0,
+          "snippet": "Stefan: 4550 m only applies when the military is not active; when MIL ON it comes down to 3950 m."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "luftrecht",
+          "page": 22
+        },
+        {
+          "deck_id": "luftrecht",
+          "page": 27
+        },
+        {
+          "deck_id": "luftrecht",
+          "page": 50
+        }
+      ]
+    },
+    "Legislation_94": {
+      "qid": 94,
+      "topic": "Legislation",
+      "explanation": "The location and times of LS-R-for-Gliders zones are shown on the Glider Chart (GLDK/GLDC) - which is the basic reference - and the VFR-Manual provides additional information on local procedures, daily activity codes and any temporary changes that complement the chart.",
+      "guide_chapter": {
+        "id": "p3-airspace-info-sources",
+        "title": "Sources of Information on Airspace"
+      },
+      "workbook_chapter": {
+        "id": "law-04-info-sources",
+        "title": "Sources of airspace information"
+      },
+      "diagrams": [
+        {
+          "id": "p3-info-sources",
+          "title": "Four airspace information sources"
+        }
+      ],
+      "video_clips": [],
+      "slide_pages": [
+        {
+          "deck_id": "luftrecht",
+          "page": 16
+        },
+        {
+          "deck_id": "luftrecht",
+          "page": 55
+        }
+      ]
+    },
+    "Legislation_97": {
+      "qid": 97,
+      "topic": "Legislation",
+      "explanation": "At 800 m AGL we are well above 300 m AGL, so the strict cloud-clearance rules apply: 1500 m horizontal and 300 m vertical from cloud. Below 3050 m AMSL the visibility minimum is 5 km. The location (Jura) and time (Wed afternoon, MIL ON) do not change these numbers.",
+      "guide_chapter": {
+        "id": "p3-flight-rules-vfr",
+        "title": "Flight Rules (VFR)"
+      },
+      "workbook_chapter": {
+        "id": "law-05-vfr-rules",
+        "title": "VFR rules and right of way"
+      },
+      "diagrams": [
+        {
+          "id": "p3-cloud-clearances",
+          "title": "VFR cloud clearances"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "luftrecht_1",
+          "t_start": 1760.0,
+          "t_end": 1808.6,
+          "snippet": "Stefan: above 300 m AGL the strict rules apply: 300 m vertical, 1500 m horizontal, visibility 5 km below 3050 m AMSL."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "luftrecht",
+          "page": 59
+        }
+      ]
+    },
+    "Legislation_99": {
+      "qid": 99,
+      "topic": "Legislation",
+      "explanation": "Above 3050 m AMSL the visibility minimum jumps to 8 km because faster IFR traffic can emerge from cloud at high speed. The cloud distances (1500 m horizontal, 300 m vertical) and the 'above 300 m AGL' threshold still apply, only the visibility number changes.",
+      "guide_chapter": {
+        "id": "p3-flight-rules-vfr",
+        "title": "Flight Rules (VFR)"
+      },
+      "workbook_chapter": {
+        "id": "law-05-vfr-rules",
+        "title": "VFR rules and right of way"
+      },
+      "diagrams": [
+        {
+          "id": "p3-cloud-clearances",
+          "title": "VFR cloud clearances"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "luftrecht_1",
+          "t_start": 1768.0,
+          "t_end": 1810.0,
+          "snippet": "Stefan: above 3050 m AMSL visibility goes to 8 km because faster IFR traffic comes out of clouds and you need more time to react."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "luftrecht",
+          "page": 59
+        }
+      ]
+    },
+    "Legislation_100": {
+      "qid": 100,
+      "topic": "Legislation",
+      "explanation": "At 200 m AGL you are in the LOWER half of airspace G (below 300 m AGL) - the relaxed rules apply regardless of how high you are above sea level. Required: 1.5 km horizontal visibility, OUT of cloud at all times, ground always in sight. The 3800 m AMSL is irrelevant because the rule is keyed to AGL, not AMSL.",
+      "guide_chapter": {
+        "id": "p3-flight-rules-vfr",
+        "title": "Flight Rules (VFR)"
+      },
+      "workbook_chapter": {
+        "id": "law-05-vfr-rules",
+        "title": "VFR rules and right of way"
+      },
+      "diagrams": [
+        {
+          "id": "p3-cloud-clearances",
+          "title": "VFR cloud clearances"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "luftrecht_1",
+          "t_start": 1714.0,
+          "t_end": 1760.0,
+          "snippet": "Stefan: up to 300 m AGL: 1.5 km visibility, clear of cloud, ground in sight, 180-deg turn possible."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "luftrecht",
+          "page": 58
+        }
+      ]
+    },
+    "Legislation_101": {
+      "qid": 101,
+      "topic": "Legislation",
+      "explanation": "The exact location of the dividing line between the Jura/Swiss Plateau and the Alps is printed precisely on the Glider Chart (GLDK/GLDC). It is also described in the AIP, but the chart is the operational reference the pilot uses pre-flight.",
+      "guide_chapter": {
+        "id": "p3-airspace-info-sources",
+        "title": "Sources of Information on Airspace"
+      },
+      "workbook_chapter": {
+        "id": "law-04-info-sources",
+        "title": "Sources of airspace information"
+      },
+      "diagrams": [
+        {
+          "id": "p3-info-sources",
+          "title": "Four airspace information sources"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "luftrecht_1",
+          "t_start": 68.0,
+          "t_end": 110.0,
+          "snippet": "Stefan: the dividing line runs from Montreux across central Switzerland to the Alpstein and on to Austria - precisely drawn on the chart."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "luftrecht",
+          "page": 21
+        },
+        {
+          "deck_id": "luftrecht",
+          "page": 24
+        }
+      ]
+    },
+    "Legislation_102": {
+      "qid": 102,
+      "topic": "Legislation",
+      "explanation": "At 500 m AGL you are above 300 m AGL but still in airspace G (because G goes up to 600 m AGL). The strict 1500 m horizontal and 300 m vertical cloud distances apply, but the visibility is only 1.5 km because the 5 km visibility only kicks in once you are in airspace E (i.e. above 600 m AGL) below 3050 m AMSL.",
+      "guide_chapter": {
+        "id": "p3-flight-rules-vfr",
+        "title": "Flight Rules (VFR)"
+      },
+      "workbook_chapter": {
+        "id": "law-05-vfr-rules",
+        "title": "VFR rules and right of way"
+      },
+      "diagrams": [
+        {
+          "id": "p3-cloud-clearances",
+          "title": "VFR cloud clearances"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "luftrecht_1",
+          "t_start": 1714.0,
+          "t_end": 1810.0,
+          "snippet": "Stefan: 300 m AGL is the dividing line - upper half of G demands the large cloud clearances but only 1.5 km visibility while still in G."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "luftrecht",
+          "page": 58
+        },
+        {
+          "deck_id": "luftrecht",
+          "page": 59
+        }
+      ]
+    },
+    "Legislation_103": {
+      "qid": 103,
+      "topic": "Legislation",
+      "explanation": "An activated LS-R is a defined area with special rules. Red LS-Rs (the standard kind, restricted areas) are forbidden when active - no entry. Green LS-Rs (LS-R for Gliders, the soaring zones) are open to paragliders/sailplanes with REDUCED cloud distances of 50 m vertical and 100 m horizontal.",
+      "guide_chapter": {
+        "id": "p3-airspace-structure",
+        "title": "Airspace Structure"
+      },
+      "workbook_chapter": {
+        "id": "law-03-airspace-structure",
+        "title": "Airspace structure"
+      },
+      "diagrams": [],
+      "video_clips": [
+        {
+          "video_id": "luftrecht_1",
+          "t_start": 1353.4,
+          "t_end": 1404.8,
+          "snippet": "Stefan: red Rs mean restricted, no flying; LS-D is danger - legally allowed but not recommended."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "luftrecht",
+          "page": 48
+        },
+        {
+          "deck_id": "luftrecht",
+          "page": 55
+        }
+      ]
+    },
+    "Legislation_104": {
+      "qid": 104,
+      "topic": "Legislation",
+      "explanation": "Military operating hours are printed on the Glider Chart (GLDK/GLDC) - the top of the chart shows the standard schedule (Mon-Fri 07:35-12:05 and 13:15-17:05). Activation on a given day is confirmed by 'MIL ON' on the chart and the DABS.",
+      "guide_chapter": {
+        "id": "p3-airspace-info-sources",
+        "title": "Sources of Information on Airspace"
+      },
+      "workbook_chapter": {
+        "id": "law-04-info-sources",
+        "title": "Sources of airspace information"
+      },
+      "diagrams": [
+        {
+          "id": "p3-mil-schedule",
+          "title": "MIL-ON/MIL-OFF schedule (Alps)"
+        },
+        {
+          "id": "p3-info-sources",
+          "title": "Four airspace information sources"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "luftrecht_1",
+          "t_start": 252.0,
+          "t_end": 282.0,
+          "snippet": "Stefan: military hours are Monday to Friday, 07:35-12:05 and 13:15-17:05, printed on the glider chart."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "luftrecht",
+          "page": 50
+        }
+      ]
+    },
+    "Legislation_105": {
+      "qid": 105,
+      "topic": "Legislation",
+      "explanation": "Inside an active LS-R for Gliders the cloud distances are minimised to 100 m horizontal and 50 m vertical. Above 3050 m AMSL the visibility minimum is 8 km (because of fast IFR traffic). 900 m AGL is well above 300 m AGL so we are clearly in the 'upper-half' regime, only with the reduced cloud distances.",
+      "guide_chapter": {
+        "id": "p3-flight-rules-vfr",
+        "title": "Flight Rules (VFR)"
+      },
+      "workbook_chapter": {
+        "id": "law-05-vfr-rules",
+        "title": "VFR rules and right of way"
+      },
+      "diagrams": [
+        {
+          "id": "p3-cloud-clearances",
+          "title": "VFR cloud clearances"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "luftrecht_1",
+          "t_start": 1815.2,
+          "t_end": 1862.0,
+          "snippet": "Stefan: in the glider zone the cloud distance is minimised: 50 m vertical and 100 m horizontal - the visibility numbers stay the same."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "luftrecht",
+          "page": 55
+        },
+        {
+          "deck_id": "luftrecht",
+          "page": 59
+        }
+      ]
+    },
+    "Legislation_106": {
+      "qid": 106,
+      "topic": "Legislation",
+      "explanation": "Inside an active LS-R for Gliders the cloud distances are minimised to 100 m horizontal and 50 m vertical. Below 3050 m AMSL the visibility minimum is 5 km (the 8 km only kicks in above 3050 m). At 900 m AGL we are in the 'above 300 m AGL' regime, just with reduced cloud distances.",
+      "guide_chapter": {
+        "id": "p3-flight-rules-vfr",
+        "title": "Flight Rules (VFR)"
+      },
+      "workbook_chapter": {
+        "id": "law-05-vfr-rules",
+        "title": "VFR rules and right of way"
+      },
+      "diagrams": [
+        {
+          "id": "p3-cloud-clearances",
+          "title": "VFR cloud clearances"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "luftrecht_1",
+          "t_start": 1815.2,
+          "t_end": 1862.0,
+          "snippet": "Stefan: inside the glider zone: 50 m / 100 m cloud clearances; the visibility minima stay unchanged."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "luftrecht",
+          "page": 55
+        },
+        {
+          "deck_id": "luftrecht",
+          "page": 59
+        }
+      ]
+    },
+    "Legislation_107": {
+      "qid": 107,
+      "topic": "Legislation",
+      "explanation": "Below 300 m AGL you are in the LOWER half of airspace G - and the LSR-for-Gliders cloud-clearance rule applies only ABOVE 300 m AGL. So even inside the chart footprint of an LSR-for-Gliders box, at 200 m AGL the standard G-lower rules apply: 1.5 km visibility, clear of cloud, ground in sight.",
+      "guide_chapter": {
+        "id": "p3-flight-rules-vfr",
+        "title": "Flight Rules (VFR)"
+      },
+      "workbook_chapter": {
+        "id": "law-05-vfr-rules",
+        "title": "VFR rules and right of way"
+      },
+      "diagrams": [
+        {
+          "id": "p3-cloud-clearances",
+          "title": "VFR cloud clearances"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "luftrecht_1",
+          "t_start": 1714.0,
+          "t_end": 1760.0,
+          "snippet": "Stefan: up to 300 m AGL the relaxed rule applies - 1.5 km visibility, clear of cloud, ground in sight."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "luftrecht",
+          "page": 58
+        },
+        {
+          "deck_id": "luftrecht",
+          "page": 59
+        }
+      ]
+    },
+    "Legislation_108": {
+      "qid": 108,
+      "topic": "Legislation",
+      "explanation": "An LS-R for Gliders is a defined airspace, active from 1 March to 31 October, where paragliders and sailplanes enjoy REDUCED minimum cloud distances (50 m vertical, 100 m horizontal) compared to the standard 300 m / 1500 m. Outside that season the zone is not in force - a frequent exam trap in winter.",
+      "guide_chapter": {
+        "id": "p3-airspace-structure",
+        "title": "Airspace Structure"
+      },
+      "workbook_chapter": {
+        "id": "law-03-airspace-structure",
+        "title": "Airspace structure"
+      },
+      "diagrams": [
+        {
+          "id": "p3-cloud-clearances",
+          "title": "VFR cloud clearances"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "luftrecht_1",
+          "t_start": 1654.6,
+          "t_end": 1714.0,
+          "snippet": "Stefan: LS-Rs for Gliders are active from 1 March to 31 October; outside that they don't apply - an exam trap."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "luftrecht",
+          "page": 55
+        }
+      ]
+    },
+    "Legislation_109": {
+      "qid": 109,
+      "topic": "Legislation",
+      "explanation": "An active LS-D (danger area) is a defined airspace where dangerous activities for aircraft may be taking place on the ground - typically live firing or military exercises. Entry is NOT strictly forbidden (unlike red LS-Rs), but is discouraged for obvious safety reasons.",
+      "guide_chapter": {
+        "id": "p3-airspace-structure",
+        "title": "Airspace Structure"
+      },
+      "workbook_chapter": {
+        "id": "law-03-airspace-structure",
+        "title": "Airspace structure"
+      },
+      "diagrams": [],
+      "video_clips": [
+        {
+          "video_id": "luftrecht_1",
+          "t_start": 1378.0,
+          "t_end": 1404.8,
+          "snippet": "Stefan: LS-D is Danger - you can in principle fly in, but it's not recommended because shooting exercises may be taking place below."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "luftrecht",
+          "page": 49
+        }
+      ]
+    },
+    "Legislation_110": {
+      "qid": 110,
+      "topic": "Legislation",
+      "explanation": "Switzerland recognises three slope-glider exam categories: paraglider, delta (hang glider) and rigid wing. A pilot may add categories by passing the relevant theory subjects and the practical exam for the new category.",
+      "guide_chapter": {
+        "id": "p3-exam-licensing",
+        "title": "Examination and Licensing of Free Flight Pilots"
+      },
+      "workbook_chapter": {
+        "id": "law-06-exam-licensing",
+        "title": "Examination and licensing"
+      },
+      "diagrams": [],
+      "video_clips": [],
+      "slide_pages": [
+        {
+          "deck_id": "luftrecht",
+          "page": 6
+        }
+      ]
+    },
+    "Legislation_111": {
+      "qid": 111,
+      "topic": "Legislation",
+      "explanation": "The SHV/FSVL is the federation mandated by the BAZL/OFAC to issue the official licences to slope-glider pilots. Although the OFAC retains ultimate authority, the practical issuing of licences is delegated to the SHV.",
+      "guide_chapter": {
+        "id": "p3-exam-licensing",
+        "title": "Examination and Licensing of Free Flight Pilots"
+      },
+      "workbook_chapter": {
+        "id": "law-06-exam-licensing",
+        "title": "Examination and licensing"
+      },
+      "diagrams": [
+        {
+          "id": "p3-authority-hierarchy",
+          "title": "Swiss free-flight authority hierarchy"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "luftrecht_0",
+          "t_start": 204.6,
+          "t_end": 240.0,
+          "snippet": "Stefan: the FOCA delegates implementation of all hang-glider provisions to the SHV, which issues licences."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "luftrecht",
+          "page": 3
+        },
+        {
+          "deck_id": "luftrecht",
+          "page": 6
+        }
+      ]
+    },
+    "Legislation_112": {
+      "qid": 112,
+      "topic": "Legislation",
+      "explanation": "The maximum allowable interval between passing the theory exam and the practical exam is 36 months. Beyond that the theory has to be re-sat - a hard limit set by SHV directives approved by the BAZL.",
+      "guide_chapter": {
+        "id": "p3-exam-licensing",
+        "title": "Examination and Licensing of Free Flight Pilots"
+      },
+      "workbook_chapter": {
+        "id": "law-06-exam-licensing",
+        "title": "Examination and licensing"
+      },
+      "diagrams": [
+        {
+          "id": "p3-exam-timing",
+          "title": "Licensing exam time limits"
+        }
+      ],
+      "video_clips": [],
+      "slide_pages": [
+        {
+          "deck_id": "luftrecht",
+          "page": 6
+        }
+      ]
+    },
+    "Legislation_114": {
+      "qid": 114,
+      "topic": "Legislation",
+      "explanation": "If a candidate believes the examiner's decision was not made in accordance with the rules, the appeal goes to the BAZL first; an unsuccessful appeal there may then be carried to the Swiss Federal Administrative Court (Bundesverwaltungsgericht), which is the answer in the SHV booklet.",
+      "guide_chapter": {
+        "id": "p3-exam-licensing",
+        "title": "Examination and Licensing of Free Flight Pilots"
+      },
+      "workbook_chapter": {
+        "id": "law-06-exam-licensing",
+        "title": "Examination and licensing"
+      },
+      "diagrams": [
+        {
+          "id": "p3-exam-timing",
+          "title": "Licensing exam time limits"
+        }
+      ],
+      "video_clips": [],
+      "slide_pages": [
+        {
+          "deck_id": "luftrecht",
+          "page": 6
+        }
+      ]
+    },
+    "Legislation_115": {
+      "qid": 115,
+      "topic": "Legislation",
+      "explanation": "An appeal against the examiner's decision must be filed within 30 days. The deadline is fixed in the SHV directives and runs from the day the examiner's decision is communicated to the candidate.",
+      "guide_chapter": {
+        "id": "p3-exam-licensing",
+        "title": "Examination and Licensing of Free Flight Pilots"
+      },
+      "workbook_chapter": {
+        "id": "law-06-exam-licensing",
+        "title": "Examination and licensing"
+      },
+      "diagrams": [
+        {
+          "id": "p3-exam-timing",
+          "title": "Licensing exam time limits"
+        }
+      ],
+      "video_clips": [],
+      "slide_pages": [
+        {
+          "deck_id": "luftrecht",
+          "page": 6
+        }
+      ]
+    },
+    "Legislation_117": {
+      "qid": 117,
+      "topic": "Legislation",
+      "explanation": "Before the practical exam a paraglider candidate must have at least 50 high (major) flights verified by a Swiss flight instructor; the minimum is 30 for delta (hang glider) and 20 for rigid wing. These reflect the relative difficulty of each class.",
+      "guide_chapter": {
+        "id": "p3-exam-licensing",
+        "title": "Examination and Licensing of Free Flight Pilots"
+      },
+      "workbook_chapter": {
+        "id": "law-06-exam-licensing",
+        "title": "Examination and licensing"
+      },
+      "diagrams": [
+        {
+          "id": "p3-exam-timing",
+          "title": "Licensing exam time limits"
+        }
+      ],
+      "video_clips": [],
+      "slide_pages": [
+        {
+          "deck_id": "luftrecht",
+          "page": 6
+        }
+      ]
+    },
+    "Legislation_118": {
+      "qid": 118,
+      "topic": "Legislation",
+      "explanation": "The required high flights must be spread over a minimum number of different sites: 5 sites for paragliders, 3 for deltas, 3 for rigid wings. The site where the practical exam itself takes place does not count toward these minimums.",
+      "guide_chapter": {
+        "id": "p3-exam-licensing",
+        "title": "Examination and Licensing of Free Flight Pilots"
+      },
+      "workbook_chapter": {
+        "id": "law-06-exam-licensing",
+        "title": "Examination and licensing"
+      },
+      "diagrams": [
+        {
+          "id": "p3-exam-timing",
+          "title": "Licensing exam time limits"
+        }
+      ],
+      "video_clips": [],
+      "slide_pages": [
+        {
+          "deck_id": "luftrecht",
+          "page": 6
+        }
+      ]
+    },
+    "Legislation_119": {
+      "qid": 119,
+      "topic": "Legislation",
+      "explanation": "To sit the practical exam your wing must be recognised by the SHV as airworthy (with an exception for rigid wings) and bear all the legally required markings - identification number and manufacturer's plaque. An uncertified school wing or a wing without identification cannot be used in the exam.",
+      "guide_chapter": {
+        "id": "p3-exam-licensing",
+        "title": "Examination and Licensing of Free Flight Pilots"
+      },
+      "workbook_chapter": {
+        "id": "law-06-exam-licensing",
+        "title": "Examination and licensing"
+      },
+      "diagrams": [
+        {
+          "id": "p3-required-documents",
+          "title": "Required markings and documents"
+        }
+      ],
+      "video_clips": [],
+      "slide_pages": [
+        {
+          "deck_id": "luftrecht",
+          "page": 4
+        },
+        {
+          "deck_id": "luftrecht",
+          "page": 6
+        }
+      ]
+    },
+    "Legislation_120": {
+      "qid": 120,
+      "topic": "Legislation",
+      "explanation": "The practical exam consists of two flight tasks: a precision landing with two consecutive 360-deg circles to the right (in max 20 s), and a precision landing with a figure-eight (left then right, max 30 s). Three flights are allowed for the two tasks combined.",
+      "guide_chapter": {
+        "id": "p3-exam-licensing",
+        "title": "Examination and Licensing of Free Flight Pilots"
+      },
+      "workbook_chapter": {
+        "id": "law-06-exam-licensing",
+        "title": "Examination and licensing"
+      },
+      "diagrams": [
+        {
+          "id": "p3-exam-structure",
+          "title": "Theory exam structure"
+        }
+      ],
+      "video_clips": [],
+      "slide_pages": [
+        {
+          "deck_id": "luftrecht",
+          "page": 6
+        }
+      ]
+    },
+    "Legislation_121": {
+      "qid": 121,
+      "topic": "Legislation",
+      "explanation": "For the precision landing, paragliders must land in a target circle 30 m in diameter; deltas and rigid wings get 80 m. The larger circle for deltas/rigid reflects the much higher landing speed and smaller flare margin of these aircraft.",
+      "guide_chapter": {
+        "id": "p3-exam-licensing",
+        "title": "Examination and Licensing of Free Flight Pilots"
+      },
+      "workbook_chapter": {
+        "id": "law-06-exam-licensing",
+        "title": "Examination and licensing"
+      },
+      "diagrams": [
+        {
+          "id": "p3-exam-structure",
+          "title": "Theory exam structure"
+        }
+      ],
+      "video_clips": [],
+      "slide_pages": [
+        {
+          "deck_id": "luftrecht",
+          "page": 6
+        }
+      ]
+    },
+    "Legislation_123": {
+      "qid": 123,
+      "topic": "Legislation",
+      "explanation": "Right-of-way is ranked by manoeuvrability: the LESS manoeuvrable aircraft has priority. Paragliders/hang gliders/sailplanes rank above airships, and airships rank above military jets/helicopters because jets are the most manoeuvrable of all. Top of the ladder: aircraft in distress, then balloons.",
+      "guide_chapter": {
+        "id": "p3-flight-rules-vfr",
+        "title": "Flight Rules (VFR)"
+      },
+      "workbook_chapter": {
+        "id": "law-05-vfr-rules",
+        "title": "VFR rules and right of way"
+      },
+      "diagrams": [
+        {
+          "id": "p3-priority-hierarchy",
+          "title": "Aircraft priority hierarchy"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "luftrecht_0",
+          "t_start": 921.0,
+          "t_end": 985.0,
+          "snippet": "Stefan: the priority ladder - in distress first, then balloons, then PG/HG/sailplanes, then airships, towing aircraft, finally powered aircraft and helicopters."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "luftrecht",
+          "page": 13
+        }
+      ]
+    },
+    "Legislation_125": {
+      "qid": 125,
+      "topic": "Legislation",
+      "explanation": "Paragliders, hang gliders and sailplanes share the same priority class (all three are 'unpowered slope/soaring aircraft') and rank ABOVE tow planes, which are powered and more manoeuvrable. The motto: less manoeuvrable = higher priority.",
+      "guide_chapter": {
+        "id": "p3-flight-rules-vfr",
+        "title": "Flight Rules (VFR)"
+      },
+      "workbook_chapter": {
+        "id": "law-05-vfr-rules",
+        "title": "VFR rules and right of way"
+      },
+      "diagrams": [
+        {
+          "id": "p3-priority-hierarchy",
+          "title": "Aircraft priority hierarchy"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "luftrecht_0",
+          "t_start": 956.4,
+          "t_end": 985.0,
+          "snippet": "Stefan: paragliders and sailplanes are in the same priority category; then come zeppelins and towing motorised aircraft."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "luftrecht",
+          "page": 13
+        }
+      ]
+    },
+    "Legislation_126": {
+      "qid": 126,
+      "topic": "Legislation",
+      "explanation": "Balloons sit second on the priority ladder (only behind aircraft in distress); paragliders/hang gliders come next; dirigibles (airships/zeppelins) are below the soaring class. The order reflects manoeuvrability - balloons can barely steer, while a dirigible has engines and rudder.",
+      "guide_chapter": {
+        "id": "p3-flight-rules-vfr",
+        "title": "Flight Rules (VFR)"
+      },
+      "workbook_chapter": {
+        "id": "law-05-vfr-rules",
+        "title": "VFR rules and right of way"
+      },
+      "diagrams": [
+        {
+          "id": "p3-priority-hierarchy",
+          "title": "Aircraft priority hierarchy"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "luftrecht_0",
+          "t_start": 921.0,
+          "t_end": 985.0,
+          "snippet": "Stefan: balloons rank second after an aircraft in distress; paragliders/sailplanes rank above zeppelins/airships."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "luftrecht",
+          "page": 13
+        }
+      ]
+    },
+    "Legislation_127": {
+      "qid": 127,
+      "topic": "Legislation",
+      "explanation": "The OACS sets no numerical minimum distance to other aircraft - the requirement is simply 'sufficient distance to avoid any risk of collision'. Use common sense: stay well clear, especially of balloons and large dirigibles, because they cannot evade you.",
+      "guide_chapter": {
+        "id": "p3-flight-rules-vfr",
+        "title": "Flight Rules (VFR)"
+      },
+      "workbook_chapter": {
+        "id": "law-05-vfr-rules",
+        "title": "VFR rules and right of way"
+      },
+      "diagrams": [
+        {
+          "id": "p3-priority-hierarchy",
+          "title": "Aircraft priority hierarchy"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "luftrecht_0",
+          "t_start": 641.3,
+          "t_end": 690.0,
+          "snippet": "Stefan: the distance isn't numerically defined - just 'sufficient safety distance'. Better a bit more than a bit less."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "luftrecht",
+          "page": 8
+        },
+        {
+          "deck_id": "luftrecht",
+          "page": 13
+        }
+      ]
+    },
+    "Legislation_128": {
+      "qid": 128,
+      "topic": "Legislation",
+      "explanation": "When flight paths cross at the same altitude, the paraglider has priority over a powered aeroplane: the more manoeuvrable aircraft (the powered one) must give way to the less manoeuvrable (the paraglider). The rule is built around manoeuvrability, not size or altitude.",
+      "guide_chapter": {
+        "id": "p3-flight-rules-vfr",
+        "title": "Flight Rules (VFR)"
+      },
+      "workbook_chapter": {
+        "id": "law-05-vfr-rules",
+        "title": "VFR rules and right of way"
+      },
+      "diagrams": [
+        {
+          "id": "p3-priority-hierarchy",
+          "title": "Aircraft priority hierarchy"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "luftrecht_0",
+          "t_start": 938.4,
+          "t_end": 985.0,
+          "snippet": "Stefan: powered aircraft and helicopters - the most manoeuvrable - sit at the bottom of the ladder; they have to give way."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "luftrecht",
+          "page": 13
+        }
+      ]
+    },
+    "Legislation_129": {
+      "qid": 129,
+      "topic": "Legislation",
+      "explanation": "When two aircraft of the same priority class meet head-on in free airspace, BOTH turn right. This is the universal aviation rule, mirroring road traffic in many countries, and it removes any negotiation between the pilots.",
+      "guide_chapter": {
+        "id": "p3-flight-rules-vfr",
+        "title": "Flight Rules (VFR)"
+      },
+      "workbook_chapter": {
+        "id": "law-05-vfr-rules",
+        "title": "VFR rules and right of way"
+      },
+      "diagrams": [
+        {
+          "id": "p3-slope-rules",
+          "title": "Near-slope priority rules"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "luftrecht_0",
+          "t_start": 783.0,
+          "t_end": 800.0,
+          "snippet": "Stefan: when flying head-on we evade to the right; not only at 90 degrees but always head-on, evade to the right."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "luftrecht",
+          "page": 8
+        }
+      ]
+    },
+    "Legislation_130": {
+      "qid": 130,
+      "topic": "Legislation",
+      "explanation": "On a slope, head-on encounters are resolved by manoeuvrability: the pilot with the slope on the LEFT has room to escape (turn right means turning away from the ridge) and must give way; the pilot with the slope on the RIGHT has no room to evade safely and keeps course.",
+      "guide_chapter": {
+        "id": "p3-flight-rules-vfr",
+        "title": "Flight Rules (VFR)"
+      },
+      "workbook_chapter": {
+        "id": "law-05-vfr-rules",
+        "title": "VFR rules and right of way"
+      },
+      "diagrams": [
+        {
+          "id": "p3-slope-rules",
+          "title": "Near-slope priority rules"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "luftrecht_0",
+          "t_start": 781.0,
+          "t_end": 840.0,
+          "snippet": "Stefan: on the slope, head-on you evade to the right - and one wing has no options to the right, so the other gives way early."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "luftrecht",
+          "page": 9
+        },
+        {
+          "deck_id": "luftrecht",
+          "page": 10
+        },
+        {
+          "deck_id": "luftrecht",
+          "page": 11
+        }
+      ]
+    },
+    "Legislation_132": {
+      "qid": 132,
+      "topic": "Legislation",
+      "explanation": "Same rule as for two paragliders meeting head-on: BOTH aircraft turn right. The fact that one is a faster sailplane does not change the priority - same class of priority, same evasive rule.",
+      "guide_chapter": {
+        "id": "p3-flight-rules-vfr",
+        "title": "Flight Rules (VFR)"
+      },
+      "workbook_chapter": {
+        "id": "law-05-vfr-rules",
+        "title": "VFR rules and right of way"
+      },
+      "diagrams": [
+        {
+          "id": "p3-slope-rules",
+          "title": "Near-slope priority rules"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "luftrecht_0",
+          "t_start": 783.0,
+          "t_end": 800.0,
+          "snippet": "Stefan: head-on always evade to the right."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "luftrecht",
+          "page": 8
+        }
+      ]
+    },
+    "Legislation_133": {
+      "qid": 133,
+      "topic": "Legislation",
+      "explanation": "Overtaking another paraglider is allowed in free airspace - to the right, with the overtaken pilot keeping right of way - but is FORBIDDEN next to a slope, where the squeezed pilot has nowhere safe to go. The slope concentrates lift, traffic and terrain, so the rules are stricter.",
+      "guide_chapter": {
+        "id": "p3-flight-rules-vfr",
+        "title": "Flight Rules (VFR)"
+      },
+      "workbook_chapter": {
+        "id": "law-05-vfr-rules",
+        "title": "VFR rules and right of way"
+      },
+      "diagrams": [
+        {
+          "id": "p3-slope-rules",
+          "title": "Near-slope priority rules"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "luftrecht_0",
+          "t_start": 677.0,
+          "t_end": 686.1,
+          "snippet": "Stefan: overtaking in free airspace is allowed; on the slope it's forbidden."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "luftrecht",
+          "page": 10
+        },
+        {
+          "deck_id": "luftrecht",
+          "page": 12
+        }
+      ]
+    },
+    "Legislation_134": {
+      "qid": 134,
+      "topic": "Legislation",
+      "explanation": "Overtaking in free airspace is done to the RIGHT, and the glider being overtaken always has right of way - so you must give them room and absolutely never force the manoeuvre. Overtaking is defined as approaching from within the rear 140-deg arc (i.e. behind the 70-deg-from-tail line on either side).",
+      "guide_chapter": {
+        "id": "p3-flight-rules-vfr",
+        "title": "Flight Rules (VFR)"
+      },
+      "workbook_chapter": {
+        "id": "law-05-vfr-rules",
+        "title": "VFR rules and right of way"
+      },
+      "diagrams": [
+        {
+          "id": "p3-slope-rules",
+          "title": "Near-slope priority rules"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "luftrecht_0",
+          "t_start": 842.0,
+          "t_end": 920.0,
+          "snippet": "Stefan: the one being overtaken always has right-of-way; overtaking is defined by the 140-degree rear arc."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "luftrecht",
+          "page": 12
+        }
+      ]
+    },
+    "Legislation_137": {
+      "qid": 137,
+      "topic": "Legislation",
+      "explanation": "There is no numerical minimum distance to other gliders - the rule is simply that the distance must be such that there is no risk of collision. Stay well clear, anticipate their flight path and turn away early; better excessive caution than a near miss.",
+      "guide_chapter": {
+        "id": "p3-flight-rules-vfr",
+        "title": "Flight Rules (VFR)"
+      },
+      "workbook_chapter": {
+        "id": "law-05-vfr-rules",
+        "title": "VFR rules and right of way"
+      },
+      "diagrams": [
+        {
+          "id": "p3-slope-rules",
+          "title": "Near-slope priority rules"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "luftrecht_0",
+          "t_start": 641.3,
+          "t_end": 690.0,
+          "snippet": "Stefan: distance isn't numerically defined - sufficient safety distance; better a bit more than too little."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "luftrecht",
+          "page": 8
+        }
+      ]
+    },
+    "Legislation_138": {
+      "qid": 138,
+      "topic": "Legislation",
+      "explanation": "Vertical separation is permitted - you may fly above or below another paraglider provided you keep a sufficient safety distance. Be especially aware of wingtip vortices and the lower glider's right of way in landing approach.",
+      "guide_chapter": {
+        "id": "p3-flight-rules-vfr",
+        "title": "Flight Rules (VFR)"
+      },
+      "workbook_chapter": {
+        "id": "law-05-vfr-rules",
+        "title": "VFR rules and right of way"
+      },
+      "diagrams": [
+        {
+          "id": "p3-slope-rules",
+          "title": "Near-slope priority rules"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "luftrecht_0",
+          "t_start": 641.3,
+          "t_end": 690.0,
+          "snippet": "Stefan: distance is just defined as sufficient safety distance - common sense applies."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "luftrecht",
+          "page": 8
+        }
+      ]
+    },
+    "Legislation_140": {
+      "qid": 140,
+      "topic": "Legislation",
+      "explanation": "On landing approach, the LOWER glider has right of way in all situations. The reasoning is practical: the lower pilot is the one closer to the ground and has fewer options to extend the approach, so the higher pilot must adapt.",
+      "guide_chapter": {
+        "id": "p3-flight-rules-vfr",
+        "title": "Flight Rules (VFR)"
+      },
+      "workbook_chapter": {
+        "id": "law-05-vfr-rules",
+        "title": "VFR rules and right of way"
+      },
+      "diagrams": [
+        {
+          "id": "p3-priority-hierarchy",
+          "title": "Aircraft priority hierarchy"
+        }
+      ],
+      "video_clips": [],
+      "slide_pages": [
+        {
+          "deck_id": "luftrecht",
+          "page": 8
+        }
+      ]
+    },
+    "Legislation_141": {
+      "qid": 141,
+      "topic": "Legislation",
+      "explanation": "The OACS does NOT prescribe a minimum distance to a slope - it is left to the pilot's judgement. The relevant rule sets are the right-of-way rules on the slope (slope-on-left gives way) and the prohibition of overtaking near a slope, not a numerical clearance figure.",
+      "guide_chapter": {
+        "id": "p3-flight-rules-vfr",
+        "title": "Flight Rules (VFR)"
+      },
+      "workbook_chapter": {
+        "id": "law-05-vfr-rules",
+        "title": "VFR rules and right of way"
+      },
+      "diagrams": [
+        {
+          "id": "p3-slope-rules",
+          "title": "Near-slope priority rules"
+        }
+      ],
+      "video_clips": [],
+      "slide_pages": [
+        {
+          "deck_id": "luftrecht",
+          "page": 9
+        },
+        {
+          "deck_id": "luftrecht",
+          "page": 10
+        }
+      ]
+    },
+    "Legislation_142": {
+      "qid": 142,
+      "topic": "Legislation",
+      "explanation": "A yellow cross laid out in the middle of a landing field means landing on this field is TEMPORARILY prohibited - typically because of an event on the ground, a competition or temporary works. Pick an alternate landing site.",
+      "guide_chapter": {
+        "id": "p3-flight-rules-vfr",
+        "title": "Flight Rules (VFR)"
+      },
+      "workbook_chapter": {
+        "id": "law-05-vfr-rules",
+        "title": "VFR rules and right of way"
+      },
+      "diagrams": [],
+      "video_clips": [],
+      "slide_pages": [
+        {
+          "deck_id": "luftrecht",
+          "page": 8
+        }
+      ]
+    },
+    "Legislation_144": {
+      "qid": 144,
+      "topic": "Legislation",
+      "explanation": "Whether the Swiss SHV licence is accepted abroad depends on the country - many states accept it (especially neighbouring countries with reciprocal recognition), but it is the pilot's responsibility to check and respect the local laws and procedures of the destination country.",
+      "guide_chapter": {
+        "id": "p3-legal-framework",
+        "title": "General Legal Framework and OACS"
+      },
+      "workbook_chapter": {
+        "id": "law-01-legal-framework",
+        "title": "Legal framework"
+      },
+      "diagrams": [],
+      "video_clips": [],
+      "slide_pages": [
+        {
+          "deck_id": "luftrecht",
+          "page": 4
+        }
+      ]
+    },
+    "Legislation_145": {
+      "qid": 145,
+      "topic": "Legislation",
+      "explanation": "Friday 14:00 in November is MIL ON (Mon-Fri 13:15-17:05). LS-R3 active doesn't affect the X here. In the Jura/Mittelland the E-top sits at 3050 m AMSL regardless of military activity. At 800 m AGL we are well above 300 m AGL, so the strict cloud rule applies: 300 m vertical, 1500 m horizontal, 5 km visibility (below 3050 m).",
+      "guide_chapter": {
+        "id": "p3-flight-rules-vfr",
+        "title": "Flight Rules (VFR)"
+      },
+      "workbook_chapter": {
+        "id": "law-05-vfr-rules",
+        "title": "VFR rules and right of way"
+      },
+      "diagrams": [
+        {
+          "id": "p3-cloud-clearances",
+          "title": "VFR cloud clearances"
+        },
+        {
+          "id": "p3-airspace-cross-section",
+          "title": "Swiss airspace cross-section: Mittelland vs. Alps"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "luftrecht_1",
+          "t_start": 1714.0,
+          "t_end": 1810.0,
+          "snippet": "Stefan: above 300 m AGL the strict cloud distances apply: 300 m vertical, 1500 m horizontal, 5 km visibility below 3050 m."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "luftrecht",
+          "page": 59
+        },
+        {
+          "deck_id": "luftrecht",
+          "page": 63
+        }
+      ]
+    },
+    "Legislation_146": {
+      "qid": 146,
+      "topic": "Legislation",
+      "explanation": "At 200 m AGL you are in the lower half of airspace G (below 300 m AGL), where the relaxed VFR rules apply: 1.5 km horizontal visibility, OUT of cloud at all times, ground always in sight, and a 180-deg turn must always be possible. Day, time and season don't change this.",
+      "guide_chapter": {
+        "id": "p3-flight-rules-vfr",
+        "title": "Flight Rules (VFR)"
+      },
+      "workbook_chapter": {
+        "id": "law-05-vfr-rules",
+        "title": "VFR rules and right of way"
+      },
+      "diagrams": [
+        {
+          "id": "p3-cloud-clearances",
+          "title": "VFR cloud clearances"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "luftrecht_1",
+          "t_start": 1714.0,
+          "t_end": 1760.0,
+          "snippet": "Stefan: up to 300 m AGL: 1.5 km visibility, clear of cloud, ground in sight, 180-deg turn possible."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "luftrecht",
+          "page": 58
+        }
+      ]
+    },
+    "Legislation_147": {
+      "qid": 147,
+      "topic": "Legislation",
+      "explanation": "The X is inside a restricted zone (aerodrome cylinder, CTR or active LS-R) on a Tuesday at 09:00 - during military hours and weekday business. Without special permission flying is prohibited at this location. Knowing where you are on the chart and which zones are active is the precondition for a legal flight.",
+      "guide_chapter": {
+        "id": "p3-flight-rules-vfr",
+        "title": "Flight Rules (VFR)"
+      },
+      "workbook_chapter": {
+        "id": "law-05-vfr-rules",
+        "title": "VFR rules and right of way"
+      },
+      "diagrams": [
+        {
+          "id": "p3-takeoff-distances",
+          "title": "Prohibited take-off/landing distances"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "luftrecht_1",
+          "t_start": 1963.2,
+          "t_end": 2030.0,
+          "snippet": "Stefan: ask yourself the five questions at the launch site - season, time, side of dividing line, altitude, location relative to restricted zones."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "luftrecht",
+          "page": 63
+        }
+      ]
+    },
+    "Legislation_148": {
+      "qid": 148,
+      "topic": "Legislation",
+      "explanation": "Saturday is MIL OFF and March 1st-onwards is inside the LSR-for-Gliders season. The 2750 m AMSL ceiling here is the upper limit of an LSR-for-Gliders box at this point. Above 300 m AGL (we are at 900 m AGL) the strict cloud distances apply (300 m / 1500 m, 5 km visibility below 3050 m) unless you are INSIDE the active glider zone with reduced minima - the answer takes the strict numbers because the question gives the upper limit of the LSR-for-Gliders as the cap.",
+      "guide_chapter": {
+        "id": "p3-flight-rules-vfr",
+        "title": "Flight Rules (VFR)"
+      },
+      "workbook_chapter": {
+        "id": "law-05-vfr-rules",
+        "title": "VFR rules and right of way"
+      },
+      "diagrams": [
+        {
+          "id": "p3-cloud-clearances",
+          "title": "VFR cloud clearances"
+        },
+        {
+          "id": "p3-airspace-cross-section",
+          "title": "Swiss airspace cross-section: Mittelland vs. Alps"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "luftrecht_1",
+          "t_start": 1820.0,
+          "t_end": 1881.3,
+          "snippet": "Stefan: as soon as you climb above the LSR-for-Gliders upper limit, the large cloud distances apply again - a classic exam trap."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "luftrecht",
+          "page": 59
+        },
+        {
+          "deck_id": "luftrecht",
+          "page": 65
+        }
+      ]
+    },
+    "Legislation_150": {
+      "qid": 150,
+      "topic": "Legislation",
+      "explanation": "In the Jura/Mittelland the airspace E ceiling is 3050 m AMSL regardless of MIL status. North of the dividing line a TMA has a sharp lower limit (here 1350 m AMSL) - paragliders may NOT fly under it in the Jura (the 300-m-AGL underflight rule applies only south of the dividing line). At 2000 m AMSL you are between 1350 and 3050 m, so the strict cloud distances apply: 5 km visibility, 1500 m / 300 m clearances.",
+      "guide_chapter": {
+        "id": "p3-flight-rules-vfr",
+        "title": "Flight Rules (VFR)"
+      },
+      "workbook_chapter": {
+        "id": "law-05-vfr-rules",
+        "title": "VFR rules and right of way"
+      },
+      "diagrams": [
+        {
+          "id": "p3-cloud-clearances",
+          "title": "VFR cloud clearances"
+        },
+        {
+          "id": "p3-ctr-tma-awy",
+          "title": "CTR, TMA and AWY around an airport"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "luftrecht_1",
+          "t_start": 972.2,
+          "t_end": 1024.0,
+          "snippet": "Stefan: the 300-m-below-TMA rule applies ONLY south of the Mittelland-Alps line; in the Jura the chart limit is sharp."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "luftrecht",
+          "page": 59
+        },
+        {
+          "deck_id": "luftrecht",
+          "page": 66
+        }
+      ]
+    },
+    "Legislation_152": {
+      "qid": 152,
+      "topic": "Legislation",
+      "explanation": "Monday 15:00 is MIL ON (Mon-Fri 13:15-17:05). LS-R2 active is a restricted area but the X is not inside it. In the Jura/Mittelland the E ceiling stays at 3050 m AMSL regardless of MIL. At 2500 m AMSL (well above 300 m AGL) the strict cloud distances apply: 5 km visibility (below 3050 m), 1500 m horizontal, 300 m vertical.",
+      "guide_chapter": {
+        "id": "p3-flight-rules-vfr",
+        "title": "Flight Rules (VFR)"
+      },
+      "workbook_chapter": {
+        "id": "law-05-vfr-rules",
+        "title": "VFR rules and right of way"
+      },
+      "diagrams": [
+        {
+          "id": "p3-cloud-clearances",
+          "title": "VFR cloud clearances"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "luftrecht_1",
+          "t_start": 1760.0,
+          "t_end": 1810.0,
+          "snippet": "Stefan: above 300 m AGL the strict cloud distances apply: 5 km visibility below 3050, 1500 m horizontal, 300 m vertical."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "luftrecht",
+          "page": 59
+        },
+        {
+          "deck_id": "luftrecht",
+          "page": 64
+        }
+      ]
+    },
+    "Legislation_153": {
+      "qid": 153,
+      "topic": "Legislation",
+      "explanation": "Sunday is MIL OFF and August is inside the LSR-for-Gliders season. At 2700 m AMSL we are above the LSR-for-Gliders upper limit (2450 m at that location) - so even though the chart marks it as a glider zone, you are ABOVE its top: the LARGE cloud clearances (300 m / 1500 m) and 5 km visibility (below 3050 m AMSL) apply. In the Mittelland/Jura the E ceiling sits at 3050 m AMSL.",
+      "guide_chapter": {
+        "id": "p3-flight-rules-vfr",
+        "title": "Flight Rules (VFR)"
+      },
+      "workbook_chapter": {
+        "id": "law-05-vfr-rules",
+        "title": "VFR rules and right of way"
+      },
+      "diagrams": [
+        {
+          "id": "p3-cloud-clearances",
+          "title": "VFR cloud clearances"
+        },
+        {
+          "id": "p3-airspace-cross-section",
+          "title": "Swiss airspace cross-section: Mittelland vs. Alps"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "luftrecht_1",
+          "t_start": 2034.7,
+          "t_end": 2143.5,
+          "snippet": "Stefan walks through the Sunday 14:00 August exam example: you are above the LSR-for-Gliders 2450 m top, so large cloud distances apply."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "luftrecht",
+          "page": 63
+        },
+        {
+          "deck_id": "luftrecht",
+          "page": 64
+        }
+      ]
+    },
+    "Legislation_154": {
+      "qid": 154,
+      "topic": "Legislation",
+      "explanation": "Thursday at 10:00 is MIL ON (Mon-Fri 07:35-12:05). The X is inside a permanently or daily active restricted/controlled zone (an aerodrome cylinder, CTR or active LS-R) at 1500 m AMSL - without special permission flying there is prohibited. Always run the five pre-flight questions: season, MIL status, dividing-line side, altitude, location vs restricted zones.",
+      "guide_chapter": {
+        "id": "p3-flight-rules-vfr",
+        "title": "Flight Rules (VFR)"
+      },
+      "workbook_chapter": {
+        "id": "law-05-vfr-rules",
+        "title": "VFR rules and right of way"
+      },
+      "diagrams": [
+        {
+          "id": "p3-takeoff-distances",
+          "title": "Prohibited take-off/landing distances"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "luftrecht_1",
+          "t_start": 1963.2,
+          "t_end": 2030.0,
+          "snippet": "Stefan: the five pre-flight questions - season, time/military, side of dividing line, altitude, restricted-zone location."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "luftrecht",
+          "page": 63
+        }
+      ]
+    },
+    "Legislation_155": {
+      "qid": 155,
+      "topic": "Legislation",
+      "explanation": "Sunday is MIL OFF, so in the Alps airspace E goes up to 4550 m AMSL. At 4900 m AMSL with only 900 m of ground clearance you are well into airspace C - and the 600 m AGL G ceiling above the peak does NOT extend to 900 m. Without special permission flying is therefore prohibited.",
+      "guide_chapter": {
+        "id": "p3-airspace-structure",
+        "title": "Airspace Structure"
+      },
+      "workbook_chapter": {
+        "id": "law-03-airspace-structure",
+        "title": "Airspace structure"
+      },
+      "diagrams": [
+        {
+          "id": "p3-airspace-cross-section",
+          "title": "Swiss airspace cross-section: Mittelland vs. Alps"
+        },
+        {
+          "id": "p3-mil-schedule",
+          "title": "MIL-ON/MIL-OFF schedule (Alps)"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "luftrecht_1",
+          "t_start": 195.9,
+          "t_end": 220.9,
+          "snippet": "Stefan: above a 4200 m peak you may legally climb to 4800 m - 600 m AGL applies on top of every peak."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "luftrecht",
+          "page": 22
+        },
+        {
+          "deck_id": "luftrecht",
+          "page": 27
+        }
+      ]
+    },
+    "Legislation_156": {
+      "qid": 156,
+      "topic": "Legislation",
+      "explanation": "Monday 15:00 is MIL ON (Mon-Fri 13:15-17:05); in the Alps the E ceiling therefore comes down from 4550 to 3950 m AMSL. LS-D14 active is a DANGER area (live firing below 2200 m AMSL) - it is not legally forbidden to fly in it, but flying below 2200 m AMSL is life-threatening. The cloud distances are the standard 300 m / 1500 m with 5 km visibility (below 3050 m).",
+      "guide_chapter": {
+        "id": "p3-flight-rules-vfr",
+        "title": "Flight Rules (VFR)"
+      },
+      "workbook_chapter": {
+        "id": "law-05-vfr-rules",
+        "title": "VFR rules and right of way"
+      },
+      "diagrams": [
+        {
+          "id": "p3-cloud-clearances",
+          "title": "VFR cloud clearances"
+        },
+        {
+          "id": "p3-mil-schedule",
+          "title": "MIL-ON/MIL-OFF schedule (Alps)"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "luftrecht_1",
+          "t_start": 1378.0,
+          "t_end": 1404.8,
+          "snippet": "Stefan: LS-D is Danger - not legally forbidden, but flying through firing exercises is not recommended."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "luftrecht",
+          "page": 49
+        },
+        {
+          "deck_id": "luftrecht",
+          "page": 50
+        },
+        {
+          "deck_id": "luftrecht",
+          "page": 64
+        }
+      ]
+    },
+    "Legislation_157": {
+      "qid": 157,
+      "topic": "Legislation",
+      "explanation": "This is the classic Meiringen example: south of the dividing line, you may fly under a TMA up to 300 m above ground without clearance. At 150 m AGL you are in the lower half of airspace G - the relaxed VFR rule applies: 1.5 km horizontal visibility, clear of cloud, ground always in sight. Ceiling: 300 m AGL (the TMA's underflight rule), NOT 600 m, because the TMA above you is active.",
+      "guide_chapter": {
+        "id": "p3-airspace-structure",
+        "title": "Airspace Structure"
+      },
+      "workbook_chapter": {
+        "id": "law-03-airspace-structure",
+        "title": "Airspace structure"
+      },
+      "diagrams": [
+        {
+          "id": "p3-ctr-tma-awy",
+          "title": "CTR, TMA and AWY around an airport"
+        },
+        {
+          "id": "p3-cloud-clearances",
+          "title": "VFR cloud clearances"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "luftrecht_1",
+          "t_start": 2160.0,
+          "t_end": 2257.7,
+          "snippet": "Stefan walks through the Meiringen example: south of the line, 150 m AGL is legal under a TMA up to 300 m AGL."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "luftrecht",
+          "page": 37
+        },
+        {
+          "deck_id": "luftrecht",
+          "page": 65
+        }
+      ]
+    },
+    "Legislation_158": {
+      "qid": 158,
+      "topic": "Legislation",
+      "explanation": "Saturday is MIL OFF, so in the Alps the E ceiling is 4550 m AMSL. February is OUTSIDE the LS-R-for-Gliders season (1 Mar-31 Oct), so glider-zone reduced clearances don't apply. LS-R11 inactive: no restriction. At 4100 m AMSL (above 3050 m) visibility must be 8 km, with 300 m / 1500 m cloud distances. The 1600 m of ground clearance means you are in airspace E, not G.",
+      "guide_chapter": {
+        "id": "p3-flight-rules-vfr",
+        "title": "Flight Rules (VFR)"
+      },
+      "workbook_chapter": {
+        "id": "law-05-vfr-rules",
+        "title": "VFR rules and right of way"
+      },
+      "diagrams": [
+        {
+          "id": "p3-cloud-clearances",
+          "title": "VFR cloud clearances"
+        },
+        {
+          "id": "p3-airspace-cross-section",
+          "title": "Swiss airspace cross-section: Mittelland vs. Alps"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "luftrecht_1",
+          "t_start": 1654.6,
+          "t_end": 1714.0,
+          "snippet": "Stefan: LS-Rs for Gliders are active only from 1 March to 31 October - in February they don't apply."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "luftrecht",
+          "page": 22
+        },
+        {
+          "deck_id": "luftrecht",
+          "page": 55
+        },
+        {
+          "deck_id": "luftrecht",
+          "page": 59
+        }
+      ]
+    },
+    "Legislation_162": {
+      "qid": 162,
+      "topic": "Legislation",
+      "explanation": "The tag on the chart shows a lower limit of 2050 m AMSL (italic = above sea level) and an upper limit of 3950 m at standard atmosphere (flight level in blue highlight). 3950 m AMSL is FL 130 - the alpine E ceiling during MIL ON. The 2050 m floor is a fixed AMSL altitude (italics) and does not fluctuate with pressure.",
+      "guide_chapter": {
+        "id": "p3-airspace-structure",
+        "title": "Airspace Structure"
+      },
+      "workbook_chapter": {
+        "id": "law-03-airspace-structure",
+        "title": "Airspace structure"
+      },
+      "diagrams": [
+        {
+          "id": "p3-ctr-tma-awy",
+          "title": "CTR, TMA and AWY around an airport"
+        },
+        {
+          "id": "p3-fl-to-meters",
+          "title": "Flight levels to meters"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "luftrecht_1",
+          "t_start": 343.0,
+          "t_end": 430.0,
+          "snippet": "Stefan: italic = above sea level, upright = above ground; blue background = flight level (standard atmosphere)."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "luftrecht",
+          "page": 27
+        },
+        {
+          "deck_id": "luftrecht",
+          "page": 31
+        },
+        {
+          "deck_id": "luftrecht",
+          "page": 61
+        },
+        {
+          "deck_id": "luftrecht",
+          "page": 62
+        }
+      ]
+    },
+    "Legislation_163": {
+      "qid": 163,
+      "topic": "Legislation",
+      "explanation": "On a Sunday (MIL OFF) in June (inside LSR-for-Gliders season 1 Mar-31 Oct) the marked LSR-for-Gliders box is active. Its lower limit is given as 600 m AGL (upright = above ground), its upper as 3950 m at standard atmosphere (FL 130, blue background). Inside it the reduced cloud clearances of 50 m / 100 m and the standard visibility minima apply.",
+      "guide_chapter": {
+        "id": "p3-airspace-structure",
+        "title": "Airspace Structure"
+      },
+      "workbook_chapter": {
+        "id": "law-03-airspace-structure",
+        "title": "Airspace structure"
+      },
+      "diagrams": [
+        {
+          "id": "p3-ctr-tma-awy",
+          "title": "CTR, TMA and AWY around an airport"
+        },
+        {
+          "id": "p3-cloud-clearances",
+          "title": "VFR cloud clearances"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "luftrecht_1",
+          "t_start": 1654.6,
+          "t_end": 1714.0,
+          "snippet": "Stefan: LSR for Gliders are open from 1 March to 31 October - on a Sunday in June they are active."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "luftrecht",
+          "page": 55
+        },
+        {
+          "deck_id": "luftrecht",
+          "page": 62
+        }
+      ]
+    },
+    "Legislation_164": {
+      "qid": 164,
+      "topic": "Legislation",
+      "explanation": "The marking shows a TMA south of the dividing line whose lower limit allows paragliders to fly underneath up to 300 m AGL without clearance/radio. Above 300 m AGL you enter the controlled airspace and need radio communication (and clearance). Below 300 m AGL you are legal in G without any radio.",
+      "guide_chapter": {
+        "id": "p3-airspace-structure",
+        "title": "Airspace Structure"
+      },
+      "workbook_chapter": {
+        "id": "law-03-airspace-structure",
+        "title": "Airspace structure"
+      },
+      "diagrams": [
+        {
+          "id": "p3-ctr-tma-awy",
+          "title": "CTR, TMA and AWY around an airport"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "luftrecht_1",
+          "t_start": 972.2,
+          "t_end": 1024.0,
+          "snippet": "Stefan: south of the dividing line you may fly 300 m below the TMA without clearance - above that you need radio."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "luftrecht",
+          "page": 37
+        },
+        {
+          "deck_id": "luftrecht",
+          "page": 65
+        }
+      ]
+    },
+    "Legislation_165": {
+      "qid": 165,
+      "topic": "Legislation",
+      "explanation": "The chart symbol shown - a 5 km cylinder with the specific mixed civil/military marking - represents a combined civil and military aerodrome. The 5 km radius applies (the standard for an airfield runway up to 600 m above its reference point), and the field is used by both traffic types.",
+      "guide_chapter": {
+        "id": "p3-airspace-structure",
+        "title": "Airspace Structure"
+      },
+      "workbook_chapter": {
+        "id": "law-03-airspace-structure",
+        "title": "Airspace structure"
+      },
+      "diagrams": [
+        {
+          "id": "p3-takeoff-distances",
+          "title": "Prohibited take-off/landing distances"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "luftrecht_1",
+          "t_start": 1140.8,
+          "t_end": 1173.6,
+          "snippet": "Stefan: heliport with 2.5 km, civil airfield, mixed military/civil airfield, and purely military airfields circled in red."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "luftrecht",
+          "page": 43
+        },
+        {
+          "deck_id": "luftrecht",
+          "page": 44
+        }
+      ]
+    },
+    "Legislation_166": {
+      "qid": 166,
+      "topic": "Legislation",
+      "explanation": "TMA Emmen (LSME) has the activity code HX - 'no fixed hours, must be queried' - so it is on the chart as a permanent box that may activate at any time. TMA Alpnach (LSMA) is a TEMPORARY TMA, activated only via NOTAM/DABS on the day; Sion and Alpnach are the only two such temporary TMAs in Switzerland, hence the visually finer border.",
+      "guide_chapter": {
+        "id": "p3-airspace-structure",
+        "title": "Airspace Structure"
+      },
+      "workbook_chapter": {
+        "id": "law-03-airspace-structure",
+        "title": "Airspace structure"
+      },
+      "diagrams": [
+        {
+          "id": "p3-ctr-tma-awy",
+          "title": "CTR, TMA and AWY around an airport"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "luftrecht_1",
+          "t_start": 1561.0,
+          "t_end": 1610.0,
+          "snippet": "Stefan: Sion and Alpnach are the only temporary TMAs in Switzerland, communicated via the DABS - the chart border is a bit finer."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "luftrecht",
+          "page": 41
+        },
+        {
+          "deck_id": "luftrecht",
+          "page": 54
+        }
+      ]
+    },
+    "Legislation_167": {
+      "qid": 167,
+      "topic": "Legislation",
+      "explanation": "Sunday is MIL OFF, so in the Alps the E ceiling is 4550 m AMSL (= FL 150 / QNE). However, the 600 m AGL G ceiling overrides locally: above a peak you may climb to 600 m above that peak even if it exceeds 4550 m AMSL. The rule is the HIGHER of the two values.",
+      "guide_chapter": {
+        "id": "p3-airspace-structure",
+        "title": "Airspace Structure"
+      },
+      "workbook_chapter": {
+        "id": "law-03-airspace-structure",
+        "title": "Airspace structure"
+      },
+      "diagrams": [
+        {
+          "id": "p3-airspace-cross-section",
+          "title": "Swiss airspace cross-section: Mittelland vs. Alps"
+        },
+        {
+          "id": "p3-mil-schedule",
+          "title": "MIL-ON/MIL-OFF schedule (Alps)"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "luftrecht_1",
+          "t_start": 195.9,
+          "t_end": 220.9,
+          "snippet": "Stefan: above a 4200 m peak you may legally climb to 4800 m - 600 m AGL applies on top of every peak."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "luftrecht",
+          "page": 22
+        },
+        {
+          "deck_id": "luftrecht",
+          "page": 27
+        },
+        {
+          "deck_id": "luftrecht",
+          "page": 50
+        }
+      ]
+    },
+    "Legislation_168": {
+      "qid": 168,
+      "topic": "Legislation",
+      "explanation": "Monday at 14:00 is MIL ON (Mon-Fri 13:15-17:05); in the Alps the E ceiling drops from 4550 to 3950 m AMSL (= FL 130 / QNE). The 600 m AGL G ceiling still overrides locally above a peak. The rule is again the HIGHER of the two values - whichever permits more altitude at that point.",
+      "guide_chapter": {
+        "id": "p3-airspace-structure",
+        "title": "Airspace Structure"
+      },
+      "workbook_chapter": {
+        "id": "law-03-airspace-structure",
+        "title": "Airspace structure"
+      },
+      "diagrams": [
+        {
+          "id": "p3-mil-schedule",
+          "title": "MIL-ON/MIL-OFF schedule (Alps)"
+        },
+        {
+          "id": "p3-airspace-cross-section",
+          "title": "Swiss airspace cross-section: Mittelland vs. Alps"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "luftrecht_1",
+          "t_start": 220.9,
+          "t_end": 275.0,
+          "snippet": "Stefan: when MIL ON, the alpine boundary drops to 3950 m; the 600 m AGL rule above peaks still applies."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "luftrecht",
+          "page": 22
+        },
+        {
+          "deck_id": "luftrecht",
+          "page": 27
+        },
+        {
+          "deck_id": "luftrecht",
+          "page": 50
+        }
+      ]
+    },
+    "Legislation_169": {
+      "qid": 169,
+      "topic": "Legislation",
+      "explanation": "South of the Mittelland-Alps dividing line, paragliders may fly under a TMA up to 300 m above ground without clearance. That is the practical minimum lower limit for a paraglider in the Alps: regardless of what the chart shows as the TMA lower altitude, the rule allows you 300 m AGL underflight.",
+      "guide_chapter": {
+        "id": "p3-airspace-structure",
+        "title": "Airspace Structure"
+      },
+      "workbook_chapter": {
+        "id": "law-03-airspace-structure",
+        "title": "Airspace structure"
+      },
+      "diagrams": [
+        {
+          "id": "p3-ctr-tma-awy",
+          "title": "CTR, TMA and AWY around an airport"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "luftrecht_1",
+          "t_start": 972.2,
+          "t_end": 1024.0,
+          "snippet": "Stefan: south of the dividing line, you may fly out 300 m below the TMA - but only in the Alps."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "luftrecht",
+          "page": 37
+        },
+        {
+          "deck_id": "luftrecht",
+          "page": 65
+        }
+      ]
+    },
+    "Legislation_170": {
+      "qid": 170,
+      "topic": "Legislation",
+      "explanation": "North of the dividing line (Jura/Mittelland) the underflight rule does NOT apply. A paraglider may only ascend to the lower limit indicated on the chart - whatever the chart shows is the hard ceiling. The 300-m-below rule is an alpine-only relaxation.",
+      "guide_chapter": {
+        "id": "p3-airspace-structure",
+        "title": "Airspace Structure"
+      },
+      "workbook_chapter": {
+        "id": "law-03-airspace-structure",
+        "title": "Airspace structure"
+      },
+      "diagrams": [
+        {
+          "id": "p3-ctr-tma-awy",
+          "title": "CTR, TMA and AWY around an airport"
+        },
+        {
+          "id": "p3-airspace-cross-section",
+          "title": "Swiss airspace cross-section: Mittelland vs. Alps"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "luftrecht_1",
+          "t_start": 972.2,
+          "t_end": 1024.0,
+          "snippet": "Stefan: the 300 m below TMA is ONLY south of the Mittelland-Alps line; in the Jura the chart limit applies."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "luftrecht",
+          "page": 65
+        },
+        {
+          "deck_id": "luftrecht",
+          "page": 66
+        }
+      ]
+    },
+    "Legislation_171": {
+      "qid": 171,
+      "topic": "Legislation",
+      "explanation": "The 3050 m Jura E-ceiling is a flight level (FL 100) - it follows the standard atmosphere of 1013.25 hPa. With a high-pressure QNH of 1035 hPa (above standard) the pressure surface FL 100 sits about (1035-1013) x ~8 m/hPa ~ 200 m HIGHER than standard - so you may legally climb slightly above 3050 m AMSL. The trick: boundaries given as flight levels move with the weather.",
+      "guide_chapter": {
+        "id": "p3-airspace-structure",
+        "title": "Airspace Structure"
+      },
+      "workbook_chapter": {
+        "id": "law-03-airspace-structure",
+        "title": "Airspace structure"
+      },
+      "diagrams": [
+        {
+          "id": "p3-fl-to-meters",
+          "title": "Flight levels to meters"
+        },
+        {
+          "id": "p3-airspace-cross-section",
+          "title": "Swiss airspace cross-section: Mittelland vs. Alps"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "luftrecht_1",
+          "t_start": 762.8,
+          "t_end": 825.6,
+          "snippet": "Stefan: at 1037 hPa ground pressure the upper limit shifts about +200 m; in a deep low it's -200 m."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "luftrecht",
+          "page": 28
+        },
+        {
+          "deck_id": "luftrecht",
+          "page": 30
+        },
+        {
+          "deck_id": "luftrecht",
+          "page": 33
+        },
+        {
+          "deck_id": "luftrecht",
+          "page": 34
+        }
+      ]
+    },
+    "Legislation_172": {
+      "qid": 172,
+      "topic": "Legislation",
+      "explanation": "With a low-pressure QNH of 1005 hPa (below standard 1013.25) the FL 100 pressure surface sits about 60-80 m LOWER than standard, so the Jura E ceiling effectively comes down to slightly less than 3050 m AMSL. Flight-level-based boundaries shift down in a low and up in a high.",
+      "guide_chapter": {
+        "id": "p3-airspace-structure",
+        "title": "Airspace Structure"
+      },
+      "workbook_chapter": {
+        "id": "law-03-airspace-structure",
+        "title": "Airspace structure"
+      },
+      "diagrams": [
+        {
+          "id": "p3-fl-to-meters",
+          "title": "Flight levels to meters"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "luftrecht_1",
+          "t_start": 762.8,
+          "t_end": 825.6,
+          "snippet": "Stefan: in a deep low the flight level boundary makes for minus 200 m - flight-level limits move with the weather."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "luftrecht",
+          "page": 28
+        },
+        {
+          "deck_id": "luftrecht",
+          "page": 30
+        },
+        {
+          "deck_id": "luftrecht",
+          "page": 33
+        },
+        {
+          "deck_id": "luftrecht",
+          "page": 34
+        }
+      ]
+    },
+    "Legislation_173": {
+      "qid": 173,
+      "topic": "Legislation",
+      "explanation": "North of the Mittelland-Alps dividing line, the lower limit of a TMA is HARD and matches the value printed on the chart. There is no underflight relaxation here - you cannot legally climb closer than the printed lower limit to the TMA.",
+      "guide_chapter": {
+        "id": "p3-airspace-structure",
+        "title": "Airspace Structure"
+      },
+      "workbook_chapter": {
+        "id": "law-03-airspace-structure",
+        "title": "Airspace structure"
+      },
+      "diagrams": [
+        {
+          "id": "p3-ctr-tma-awy",
+          "title": "CTR, TMA and AWY around an airport"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "luftrecht_1",
+          "t_start": 972.2,
+          "t_end": 1024.0,
+          "snippet": "Stefan: the 300 m-below-TMA rule applies only south of the dividing line; north of it the chart limit is sharp."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "luftrecht",
+          "page": 65
+        },
+        {
+          "deck_id": "luftrecht",
+          "page": 66
+        }
+      ]
+    },
+    "Legislation_174": {
+      "qid": 174,
+      "topic": "Legislation",
+      "explanation": "FIZ stands for Flight Information Zone - an airspace within which a Flight Information Service is provided (information and alerting, but no clearance). It is distinct from RMZ (Radio Mandatory Zone) and TMZ (Transponder Mandatory Zone), all three of which feature on Swiss charts.",
+      "guide_chapter": {
+        "id": "p3-abbreviations",
+        "title": "Some useful abbreviations"
+      },
+      "workbook_chapter": {
+        "id": "law-02-abbreviations",
+        "title": "Abbreviations every pilot needs"
+      },
+      "diagrams": [],
+      "video_clips": [],
+      "slide_pages": [
+        {
+          "deck_id": "luftrecht",
+          "page": 17
+        },
+        {
+          "deck_id": "luftrecht",
+          "page": 18
+        }
+      ]
+    },
+    "Legislation_176": {
+      "qid": 176,
+      "topic": "Legislation",
+      "explanation": "When the tag shows the lower limit 'in accordance with NOTAM/DABS' the box is one of the temporary TMAs (Sion or Alpnach), activated daily. The upper limit 3950 m at standard atmosphere is FL 130 (highlighted in blue). On a day the bulletin marks it as inactive you ignore the box; when active you must avoid it.",
+      "guide_chapter": {
+        "id": "p3-airspace-structure",
+        "title": "Airspace Structure"
+      },
+      "workbook_chapter": {
+        "id": "law-03-airspace-structure",
+        "title": "Airspace structure"
+      },
+      "diagrams": [
+        {
+          "id": "p3-ctr-tma-awy",
+          "title": "CTR, TMA and AWY around an airport"
+        },
+        {
+          "id": "p3-fl-to-meters",
+          "title": "Flight levels to meters"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "luftrecht_1",
+          "t_start": 1561.0,
+          "t_end": 1610.0,
+          "snippet": "Stefan: Sion and Alpnach are the only TMAs activated via the DABS - the chart border is a bit finer to distinguish them."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "luftrecht",
+          "page": 41
+        },
+        {
+          "deck_id": "luftrecht",
+          "page": 54
+        }
+      ]
+    },
+    "Legislation_177": {
+      "qid": 177,
+      "topic": "Legislation",
+      "explanation": "The Jura E-top is FL 100 (referenced to 1013.25 hPa). With QNH 1037 hPa the surface shifts up by approximately (1037-1013) x 8 m/hPa ~ 200 m, putting the actual E ceiling at roughly 3250 m AMSL. Flight-level-based boundaries move with the weather; in a strong high they rise.",
+      "guide_chapter": {
+        "id": "p3-airspace-structure",
+        "title": "Airspace Structure"
+      },
+      "workbook_chapter": {
+        "id": "law-03-airspace-structure",
+        "title": "Airspace structure"
+      },
+      "diagrams": [
+        {
+          "id": "p3-fl-to-meters",
+          "title": "Flight levels to meters"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "luftrecht_1",
+          "t_start": 762.8,
+          "t_end": 850.0,
+          "snippet": "Stefan: at 1037 hPa ground pressure the upper limit can be about +200 m; this is exactly what the exam example asks about."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "luftrecht",
+          "page": 28
+        },
+        {
+          "deck_id": "luftrecht",
+          "page": 33
+        },
+        {
+          "deck_id": "luftrecht",
+          "page": 34
+        }
+      ]
+    },
+    "Legislation_178": {
+      "qid": 178,
+      "topic": "Legislation",
+      "explanation": "February is OUTSIDE the LSR-for-Gliders season, so no glider-zone relaxations apply. Sunday is MIL OFF (but in the Jura that's irrelevant; ceiling is always 3050 m). At 500 m AGL we are above 300 m AGL (so strict cloud distances 300 m / 1500 m apply) but still in airspace G (G goes up to 600 m AGL), so visibility is still 1.5 km - the 5 km only kicks in above G.",
+      "guide_chapter": {
+        "id": "p3-flight-rules-vfr",
+        "title": "Flight Rules (VFR)"
+      },
+      "workbook_chapter": {
+        "id": "law-05-vfr-rules",
+        "title": "VFR rules and right of way"
+      },
+      "diagrams": [
+        {
+          "id": "p3-cloud-clearances",
+          "title": "VFR cloud clearances"
+        },
+        {
+          "id": "p3-airspace-cross-section",
+          "title": "Swiss airspace cross-section: Mittelland vs. Alps"
+        }
+      ],
+      "video_clips": [
+        {
+          "video_id": "luftrecht_1",
+          "t_start": 1714.0,
+          "t_end": 1810.0,
+          "snippet": "Stefan: 300 m AGL is the dividing line - upper half of G needs the large cloud clearances but still only 1.5 km visibility."
+        }
+      ],
+      "slide_pages": [
+        {
+          "deck_id": "luftrecht",
+          "page": 58
+        },
+        {
+          "deck_id": "luftrecht",
+          "page": 59
+        }
+      ]
+    },
+    "Legislation_179": {
+      "qid": 179,
+      "topic": "Legislation",
+      "explanation": "In a Radio Mandatory Zone (RMZ) entry is only permitted with continuous radio monitoring on the published frequency AND so-called 'blind transmissions' - call-outs by which you announce your position even if no ATC unit responds. It is not controlled airspace per se, but compulsory listening watch is the rule.",
+      "guide_chapter": {
+        "id": "p3-abbreviations",
+        "title": "Some useful abbreviations"
+      },
+      "workbook_chapter": {
+        "id": "law-02-abbreviations",
+        "title": "Abbreviations every pilot needs"
+      },
+      "diagrams": [],
+      "video_clips": [],
+      "slide_pages": [
+        {
+          "deck_id": "luftrecht",
+          "page": 18
+        }
+      ]
     }
   }
 }
