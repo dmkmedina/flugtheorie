@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-05-28T15:24:11.164Z",
+  "fetchedAt": "2026-05-28T15:24:42.047Z",
   "questions": {
     "1": {
       "qid": 1,
@@ -6415,6 +6415,118 @@
         "flying close to the ground so that the wild animals can see them."
       ],
       "correct": 0
+    },
+    "Practical Flying_115": {
+      "qid": 115,
+      "topic": "Practical Flying",
+      "pos": 32,
+      "total_in_topic": 169,
+      "text": "Practical Flying From 69 Each diagram shows a standard landing approach in zero wind (dotted line) and a practical approach in accordance with conditions (solid line). Which approach should a pilot take with 10 - 15 km/h wind? 312",
+      "options": [
+        "4",
+        "3",
+        "1",
+        "2"
+      ],
+      "correct": 2
+    },
+    "Practical Flying_67": {
+      "qid": 67,
+      "topic": "Practical Flying",
+      "pos": 34,
+      "total_in_topic": 169,
+      "text": "A pilot is ascending in a thermal with a 10 knot wind from 270º. The thermal",
+      "options": [
+        "deviates with increasing height towards the east.",
+        "deviates with increasing height towards the north.",
+        "deviates with increasing height towards the west.",
+        "rises vertically."
+      ],
+      "correct": 0
+    },
+    "Practical Flying_114": {
+      "qid": 114,
+      "topic": "Practical Flying",
+      "pos": 35,
+      "total_in_topic": 169,
+      "text": "Each diagram shows a standard landing approach in zero wind (dotted line) and a practical approach in accordance with conditions (solid line). Which approach should a pilot take with zero wind when he realises on the base leg that he is too high? 31",
+      "options": [
+        "3",
+        "1",
+        "4",
+        "2"
+      ],
+      "correct": 2
+    },
+    "Practical Flying_17": {
+      "qid": 17,
+      "topic": "Practical Flying",
+      "pos": 36,
+      "total_in_topic": 169,
+      "text": "Amongst other things, which of the following form part of the preparation for flying in a new site?",
+      "options": [
+        "Inspect the landing field, find out about aerial obstacles, register the flight with the chief of the nearest airfield.",
+        "Register the flight with the chief of the nearest airfield, plan the flight according to the conditions, inspect the landing field.",
+        "Find out about aerial obstacles, register the flight with the chief of the nearest airfield, plan the flight according to the conditions.",
+        "Plan the flight according to the conditions, inspect the landing field, find out about air-space and aerial obstacles."
+      ],
+      "correct": 3
+    },
+    "Practical Flying_147": {
+      "qid": 147,
+      "topic": "Practical Flying",
+      "pos": 37,
+      "total_in_topic": 169,
+      "text": "When someone who is injured must be airlifted, before the helicopter arrives you should",
+      "options": [
+        "mark the accident scene with the glider.",
+        "immediately leave the accident scene.",
+        "remove the injured person's helmet and harness and stow them in the backpack.",
+        "immediately stop all flying in the broad vicinity of the accident scene, remove all gliders, jackets and other loose articles from the accident scene and surroundings."
+      ],
+      "correct": 3
+    },
+    "Practical Flying_3": {
+      "qid": 3,
+      "topic": "Practical Flying",
+      "pos": 38,
+      "total_in_topic": 169,
+      "text": "Up until what altitude can a person in a resting state adapt to the different changing atmospheric conditions?",
+      "options": [
+        "approx. 3,000m above sea level.",
+        "approx. 4,000m above sea level.",
+        "approx. 5,000m above sea level.",
+        "approx. 2,000m above sea level."
+      ],
+      "correct": 1
+    },
+    "Practical Flying_76": {
+      "qid": 76,
+      "topic": "Practical Flying",
+      "pos": 40,
+      "total_in_topic": 169,
+      "text": "What are the indications that a glider is in an inflated or parachutal stall?",
+      "options": [
+        "No sensation of wind on face, no pressure in brakes and the underside of the glider is no longer tensioned, ie is concave between the line connection points.",
+        "The glider has a high sink rate and the brake pressure is very high.",
+        "The glider enters a constantly increasing spiral dive.",
+        "Wind in the face, speed over ground is zero and the glider just sinks."
+      ],
+      "correct": 0
+    },
+    "Practical Flying_107": {
+      "qid": 107,
+      "topic": "Practical Flying",
+      "pos": 41,
+      "total_in_topic": 169,
+      "text": "Which part of the approach is #2?",
+      "options": [
+        "Zone for losing altitude.",
+        "Base leg.",
+        "Downwind leg.",
+        "Final approach."
+      ],
+      "correct": 2
     }
   },
   "topics": {
