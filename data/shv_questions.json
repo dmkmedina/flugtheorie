@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-05-28T15:27:20.144Z",
+  "fetchedAt": "2026-05-28T15:27:52.789Z",
   "questions": {
     "1": {
       "qid": 1,
@@ -7127,6 +7127,118 @@
         "1",
         "4",
         "2"
+      ],
+      "correct": 0
+    },
+    "Practical Flying_97": {
+      "qid": 97,
+      "topic": "Practical Flying",
+      "pos": 95,
+      "total_in_topic": 169,
+      "text": "When descending with \"big ears\" it is important to note that",
+      "options": [
+        "the accelerator should not be simultaneously applied, so that the risk of front collapses is kept to a minimum.",
+        "there is a great strain on the body.",
+        "the accelerator can be simultaneously applied to minimise the risk of parachutal stall and to increase the sink rate.",
+        "the glider flies extremely unstably."
+      ],
+      "correct": 2
+    },
+    "Practical Flying_79": {
+      "qid": 79,
+      "topic": "Practical Flying",
+      "pos": 96,
+      "total_in_topic": 169,
+      "text": "What else may cause a stable parachutal stall other than pulling the brakes too hard?",
+      "options": [
+        "Lines out of trim due to aging, which is not noticed due to the lack of an annual check.",
+        "Brakes set too short.",
+        "Answers a, b and c are correct.",
+        "Flying through a rain shower, i.e. wet glider."
+      ],
+      "correct": 2
+    },
+    "Practical Flying_126": {
+      "qid": 126,
+      "topic": "Practical Flying",
+      "pos": 98,
+      "total_in_topic": 169,
+      "text": "On the base leg of an approach with a slight head wind the pilot realizes he is too low. What should he do?",
+      "options": [
+        "Fly the glider with zero brakes until just before ground level then slowly and continuously pull the brakes.",
+        "Brake the glider 50% in order to fly as long as possible.",
+        "An out-landing is unavoidable.",
+        "Brake the glider lightly in order to improve the glide performance."
+      ],
+      "correct": 0
+    },
+    "Practical Flying_99": {
+      "qid": 99,
+      "topic": "Practical Flying",
+      "pos": 99,
+      "total_in_topic": 169,
+      "text": "When descending with a spiral dive it is important to note that",
+      "options": [
+        "only a low sink-rate can be achieved.",
+        "It places great strain on the body over an extended time and is therefore not suited to all pilots.",
+        "there is a risk of parachutal stall when exiting the manoeuvre.",
+        "only by simultaneously applying the accelerator will the sink rate markedly increase."
+      ],
+      "correct": 1
+    },
+    "Practical Flying_6": {
+      "qid": 6,
+      "topic": "Practical Flying",
+      "pos": 101,
+      "total_in_topic": 169,
+      "text": "The oxygen content of the air changes with altitude. The significant effects on the human body can be greatly reduced by",
+      "options": [
+        "regular physical exercise and acclimatisation.",
+        "consciously taking deep breaths at shorter intervals.",
+        "preventative intake of travel sickness preparations.",
+        "regular intake of vitamin C preparations."
+      ],
+      "correct": 0
+    },
+    "Practical Flying_86": {
+      "qid": 86,
+      "topic": "Practical Flying",
+      "pos": 102,
+      "total_in_topic": 169,
+      "text": "What consequences can arise when more than 50% of the glider folds on one side and the pilot lets the glider continue flying without brake input.",
+      "options": [
+        "The wing enters a constantly increasing spiral dive.",
+        "The airflow separates from the wing, resulting in a parachutal stall.",
+        "The glider suffers a front collapse, whereby the wingtips overtake the centre of the glider causing it to collapse together.",
+        "The airflow separates on one side (stalls) resulting in the wing diving over to that side and entering a spin."
+      ],
+      "correct": 0
+    },
+    "Practical Flying_157": {
+      "qid": 157,
+      "topic": "Practical Flying",
+      "pos": 103,
+      "total_in_topic": 169,
+      "text": "What do Chamois and Ibex do in the summer during the day?",
+      "options": [
+        "They graze the entire day on north facing slopes.",
+        "After grazing all morning they move to the shaded cliffs and wind exposed knolls above their pastures and rest.",
+        "They return to the cool mountain forests and rest.",
+        "They stay in the mountain forests and alternately eat and rest."
+      ],
+      "correct": 1
+    },
+    "Practical Flying_69": {
+      "qid": 69,
+      "topic": "Practical Flying",
+      "pos": 105,
+      "total_in_topic": 169,
+      "text": "A pilot is ascending in a thermal with a 10 knot /270º wind. The thermal is deviating to the East at altitude. In order not to lose the thermal, the pilot should",
+      "options": [
+        "fly generally more in the windward side of the thermal.",
+        "fly generally more in the leeward side of the thermal.",
+        "circle to the right whenever possible.",
+        "circle to the left whenever possible."
       ],
       "correct": 0
     }
