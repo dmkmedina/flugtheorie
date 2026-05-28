@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-05-28T16:05:42.048Z",
+  "fetchedAt": "2026-05-28T16:06:15.549Z",
   "questions": {
     "Aerodynamics_1": {
       "qid": 1,
@@ -2190,16 +2190,16 @@
     "Weather_39": {
       "qid": 39,
       "topic": "Weather",
-      "pos": 6,
+      "pos": 74,
       "total_in_topic": 164,
       "text": "The term \"dew point\" is defined in meteorology as",
       "options": [
+        "the moisture content of the air when the condensation temperature is reached.",
         "the temperature of the night-time ground radiation required for condensation on the cold ground to occur.",
-        "the temperature to which air must be cooled in order for the water vapour contained within it to begin to condense.",
         "the relative humidity of the air.",
-        "the moisture content of the air when the condensation temperature is reached."
+        "the temperature to which air must be cooled in order for the water vapour contained within it to begin to condense."
       ],
-      "correct": 1
+      "correct": null
     },
     "Weather_62": {
       "qid": 62,
@@ -2330,16 +2330,16 @@
     "Weather_9": {
       "qid": 9,
       "topic": "Weather",
-      "pos": 1,
+      "pos": 67,
       "total_in_topic": 164,
       "text": "Pressure at a given point at sea level depends on",
       "options": [
+        "the current weather conditions.",
         "the surface characteristics.",
         "the longitude.",
-        "the current weather conditions.",
         "the tides."
       ],
-      "correct": 2
+      "correct": null
     },
     "Weather_84": {
       "qid": 84,
@@ -8114,16 +8114,16 @@
     "Weather_161": {
       "qid": 161,
       "topic": "Weather",
-      "pos": 16,
+      "pos": 72,
       "total_in_topic": 164,
       "text": "What is the cloud distribution in Paris most likely to be?",
       "options": [
-        "8/8 nimbostratus",
         "3/8 - 5/8 cumulus",
+        "5/8 - 7/8 cirrostratus",
         "5/8 - 7/8 cumulonimbus, isolated lenticulars in the east",
-        "5/8 - 7/8 cirrostratus"
+        "8/8 nimbostratus"
       ],
-      "correct": 1
+      "correct": null
     },
     "Weather_68": {
       "qid": 68,
@@ -8240,16 +8240,16 @@
     "Weather_111": {
       "qid": 111,
       "topic": "Weather",
-      "pos": 32,
+      "pos": 78,
       "total_in_topic": 164,
       "text": "What signs indicate south föhn on the north side of the Alps?",
       "options": [
+        "Clouds cover the mountains in the distance, cumulus and lenticular clouds in the blue portion of the sky, changing wind direction on the ground, freshening southwest wind at launch.",
         "Poor visibility, low cloud base, rain, steady wind.",
         "The sky is covered with 5/8 cumulus, gusty increasing winds, strong thermals with large amounts of neighbouring sink.",
-        "Blue sky, no wind, not much turbulence, steady lift at takeoff, smooth, widespread lift, cumulus congestus and cumulonimbus in the distance.",
-        "Clouds cover the mountains in the distance, cumulus and lenticular clouds in the blue portion of the sky, changing wind direction on the ground, freshening southwest wind at launch."
+        "Blue sky, no wind, not much turbulence, steady lift at takeoff, smooth, widespread lift, cumulus congestus and cumulonimbus in the distance."
       ],
-      "correct": 3
+      "correct": null
     },
     "Weather_43": {
       "qid": 43,
@@ -8670,6 +8670,104 @@
         "Incoming warm air in the upper air layers."
       ],
       "correct": 1
+    },
+    "Weather_83": {
+      "qid": 83,
+      "topic": "Weather",
+      "pos": 65,
+      "total_in_topic": 164,
+      "text": "When comparing surface wind to wind at 300m AGL in flat terrain, the wind at 300m altitude is generally",
+      "options": [
+        "stronger and more turbulent.",
+        "weaker and less turbulent.",
+        "weaker and more turbulent.",
+        "stronger and less turbulent."
+      ],
+      "correct": 3
+    },
+    "Weather_136": {
+      "qid": 136,
+      "topic": "Weather",
+      "pos": 68,
+      "total_in_topic": 164,
+      "text": "The term \"lee thermal\" means",
+      "options": [
+        "The downwash on the wind protected side of a thermal rising air masse.",
+        "Thermal rising air in the lee side of other thermal rising air.",
+        "The rising air created by rotor turbulence on the wind protected side of a mountain.",
+        "Thermal rising air which forms on the wind protected side of a mountain."
+      ],
+      "correct": 3
+    },
+    "Weather_145": {
+      "qid": 145,
+      "topic": "Weather",
+      "pos": 69,
+      "total_in_topic": 164,
+      "text": "Where is the centre of the low-pressure system?",
+      "options": [
+        "Near Tunis",
+        "Over the Bay of Biscay (Golf von Biskaya)",
+        "Near Lulea",
+        "Near Stockholm"
+      ],
+      "correct": 2
+    },
+    "Weather_147": {
+      "qid": 147,
+      "topic": "Weather",
+      "pos": 70,
+      "total_in_topic": 164,
+      "text": "Where is the pressure gradient the flattest?",
+      "options": [
+        "Near Lulea",
+        "Near Stockholm",
+        "Over the Bay of Biscay (Golf von Biskaya)",
+        "Near Tunis"
+      ],
+      "correct": 3
+    },
+    "Weather_69": {
+      "qid": 69,
+      "topic": "Weather",
+      "pos": 73,
+      "total_in_topic": 164,
+      "text": "In a high-pressure-system in the northern hemisphere",
+      "options": [
+        "the air masses turn in an anticlockwise direction around their centre and rise over a large area.",
+        "the air masses turn in an anticlockwise direction around their centre and sink over a large area.",
+        "the air masses turn in a clockwise direction around their centre and sink over a large area.",
+        "the air masses turn in a clockwise direction around their centre and rise over a large area."
+      ],
+      "correct": 2
+    },
+    "Weather_155": {
+      "qid": 155,
+      "topic": "Weather",
+      "pos": 75,
+      "total_in_topic": 164,
+      "text": "What is the wind direction in Lisbon (Lissabon)?",
+      "options": [
+        "250°",
+        "190°",
+        "320°",
+        "100°"
+      ],
+      "correct": 2
+    },
+    "Weather_50": {
+      "qid": 50,
+      "topic": "Weather",
+      "pos": 79,
+      "total_in_topic": 164,
+      "text": "What is the name for small cloud clusters with a cloudbase of 4,500m above sea level?",
+      "options": [
+        "Cumulonimbus",
+        "Altostratus",
+        "Cirrocumulus",
+        "Altocumulus"
+      ],
+      "correct": 3
     }
   },
   "topics": {
