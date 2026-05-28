@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-05-28T15:23:08.304Z",
+  "fetchedAt": "2026-05-28T15:23:39.949Z",
   "questions": {
     "1": {
       "qid": 1,
@@ -6191,6 +6191,132 @@
         "The glider is being sucked into a cumulus cloud and is climbing at 8 m/s."
       ],
       "correct": 1
+    },
+    "Practical Flying_66": {
+      "qid": 66,
+      "topic": "Practical Flying",
+      "pos": 11,
+      "total_in_topic": 169,
+      "text": "A pilot is flying in a thermal with zero wind in order to gain altitude as fast as possible. Suddenly he loses the thermal and his vario indicates strong sink. What is generally the best thing to do?",
+      "options": [
+        "Make large diameter turns until the lift reappears.",
+        "A tight 120 - 180º turn to come back as quickly as possible into the thermal.",
+        "Turn 120 - 180º as flat as possible, in order to lose as little height as possible in the sink.",
+        "Fly straight ahead and look for a new area of lift."
+      ],
+      "correct": 1
+    },
+    "Practical Flying_133": {
+      "qid": 133,
+      "topic": "Practical Flying",
+      "pos": 12,
+      "total_in_topic": 169,
+      "text": "In strong wind, a significant decrease in wind (wind gradient) may occur as you approach the ground. If the glider loses pressure briefly,",
+      "options": [
+        "it will result in a collapse in every case.",
+        "it will result in a deep stall in every case.",
+        "this can be absorbed by fully applying the brakes.",
+        "do not brake under any circumstances, or else the glider will stall. Instead the glider should be allowed to fly and, if necessary, the dive lightly checked."
+      ],
+      "correct": 3
+    },
+    "Practical Flying_128": {
+      "qid": 128,
+      "topic": "Practical Flying",
+      "pos": 13,
+      "total_in_topic": 169,
+      "text": "What must you do immediately after landing?",
+      "options": [
+        "Immediately fold the glider and pack it into its backpack.",
+        "Immediately leave the landing area.",
+        "Immediately remove your harness and helmet.",
+        "Record the flight in your logbook."
+      ],
+      "correct": 1
+    },
+    "Practical Flying_156": {
+      "qid": 156,
+      "topic": "Practical Flying",
+      "pos": 14,
+      "total_in_topic": 169,
+      "text": "Which season is the most difficult for Chamois and Ibex, when a lot of them die?",
+      "options": [
+        "After the first snowfall when the animals must acclimatise to the cold and don't find food anymore.",
+        "At the end of the winter (March - April), when the snow still covers the grass and their fat reserves are exhausted.",
+        "In the middle of winter, when any movement in the deep snow is almost impossible.",
+        "During the rutting season, when the males constantly chase the females and none get enough nourishment."
+      ],
+      "correct": 1
+    },
+    "Practical Flying_11": {
+      "qid": 11,
+      "topic": "Practical Flying",
+      "pos": 16,
+      "total_in_topic": 169,
+      "text": "Zürich-Kloten announces a QNH of 1015 hPa, Lugano a QNH of 1007. What does this signify?",
+      "options": [
+        "The pressure drop between Zürich and Lugano results in a very strong north wind across the Alps with cloud congestion on the northern side and north föhn on the southern side of the Alps.",
+        "The pressure drop between Zürich and Lugano results in a very strong south wind across the Alps with cloud congestion on the southern side and south föhn on the northern side of the Alps.",
+        "There is colder, denser air in Zürich-Kloten than in Lugano. Good thermals can be expected in the north side of the Alps.",
+        "As Zürich-Kloten is at a higher altitude than Lugano, the pressure is somewhat higher. When converted to sea level pressure the difference over the alps is small and the resulting wind therefore weak."
+      ],
+      "correct": 0
+    },
+    "Practical Flying_71": {
+      "qid": 71,
+      "topic": "Practical Flying",
+      "pos": 17,
+      "total_in_topic": 169,
+      "text": "What safety measures should be taken when encountering thermal turbulence during ridge soaring?",
+      "options": [
+        "Never fly below the ridge level.",
+        "Increase distance from ridges and adapt speed accordingly.",
+        "Leave the slope, as soaring in thermal turbulence carries too much risk.",
+        "Release the trimmers for a more homogeneous airflow over the glider, thereby reducing the chances of a stall."
+      ],
+      "correct": 1
+    },
+    "Practical Flying_75": {
+      "qid": 75,
+      "topic": "Practical Flying",
+      "pos": 18,
+      "total_in_topic": 169,
+      "text": "What are the possible consequences when a glider flying straight ahead is braked (on both sides) too much or too sharply?",
+      "options": [
+        "The wing enters a constantly increasing spiral dive.",
+        "The airflow separates on one side (stalls) resulting in the wing diving over to that side and entering a spin.",
+        "The airflow separates from the wing, resulting in a parachutal stall, or the wing tips back into a full stall.",
+        "The glider suffers a front collapse, whereby the wingtips overtake the centre of the glider causing it to collapse together."
+      ],
+      "correct": 2
+    },
+    "Practical Flying_104": {
+      "qid": 104,
+      "topic": "Practical Flying",
+      "pos": 19,
+      "total_in_topic": 169,
+      "text": "When landing on a slope the situation does not allow you to approach along it, only up or down the slope. Which of the following is correct with zero wind?",
+      "options": [
+        "It is easier to land more precisely but more difficult to land softly down the slope.",
+        "It is easier to land more precisely and softer down the slope.",
+        "It is easier to land more precisely but more difficult to land softly up the slope.",
+        "It is easier to land more precisely and softer up the slope."
+      ],
+      "correct": 2
+    },
+    "Practical Flying_120": {
+      "qid": 120,
+      "topic": "Practical Flying",
+      "pos": 21,
+      "total_in_topic": 169,
+      "text": "When landing with a headwind, the angle of approach is",
+      "options": [
+        "steeper and the touchdown speed lower.",
+        "shallower and the touchdown speed higher.",
+        "steeper and the touchdown speed higher.",
+        "shallower and the touchdown speed lower."
+      ],
+      "correct": 0
     }
   },
   "topics": {
