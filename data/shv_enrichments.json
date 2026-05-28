@@ -17304,6 +17304,701 @@
         }
       ],
       "subcategory": "wildlife-and-nature"
+    },
+    "Weather_1": {
+      "qid": 1,
+      "topic": "Weather",
+      "subcategory": "atmospheric-basics"
+    },
+    "Weather_3": {
+      "qid": 3,
+      "topic": "Weather",
+      "subcategory": "atmospheric-basics"
+    },
+    "Weather_4": {
+      "qid": 4,
+      "topic": "Weather",
+      "subcategory": "atmospheric-basics"
+    },
+    "Weather_5": {
+      "qid": 5,
+      "topic": "Weather",
+      "subcategory": "atmospheric-basics"
+    },
+    "Weather_6": {
+      "qid": 6,
+      "topic": "Weather",
+      "subcategory": "atmospheric-basics"
+    },
+    "Weather_7": {
+      "qid": 7,
+      "topic": "Weather",
+      "subcategory": "atmospheric-basics"
+    },
+    "Weather_8": {
+      "qid": 8,
+      "topic": "Weather",
+      "subcategory": "atmospheric-basics"
+    },
+    "Weather_9": {
+      "qid": 9,
+      "topic": "Weather",
+      "subcategory": "atmospheric-basics"
+    },
+    "Weather_11": {
+      "qid": 11,
+      "topic": "Weather",
+      "subcategory": "atmospheric-basics"
+    },
+    "Weather_13": {
+      "qid": 13,
+      "topic": "Weather",
+      "subcategory": "temperature-and-lapse-rates"
+    },
+    "Weather_15": {
+      "qid": 15,
+      "topic": "Weather",
+      "subcategory": "temperature-and-lapse-rates"
+    },
+    "Weather_16": {
+      "qid": 16,
+      "topic": "Weather",
+      "subcategory": "temperature-and-lapse-rates"
+    },
+    "Weather_17": {
+      "qid": 17,
+      "topic": "Weather",
+      "subcategory": "temperature-and-lapse-rates"
+    },
+    "Weather_18": {
+      "qid": 18,
+      "topic": "Weather",
+      "subcategory": "temperature-and-lapse-rates"
+    },
+    "Weather_20": {
+      "qid": 20,
+      "topic": "Weather",
+      "subcategory": "inversions-and-stability"
+    },
+    "Weather_21": {
+      "qid": 21,
+      "topic": "Weather",
+      "subcategory": "inversions-and-stability"
+    },
+    "Weather_23": {
+      "qid": 23,
+      "topic": "Weather",
+      "subcategory": "inversions-and-stability"
+    },
+    "Weather_24": {
+      "qid": 24,
+      "topic": "Weather",
+      "subcategory": "inversions-and-stability"
+    },
+    "Weather_25": {
+      "qid": 25,
+      "topic": "Weather",
+      "subcategory": "inversions-and-stability"
+    },
+    "Weather_26": {
+      "qid": 26,
+      "topic": "Weather",
+      "subcategory": "temperature-and-lapse-rates"
+    },
+    "Weather_28": {
+      "qid": 28,
+      "topic": "Weather",
+      "subcategory": "inversions-and-stability"
+    },
+    "Weather_29": {
+      "qid": 29,
+      "topic": "Weather",
+      "subcategory": "inversions-and-stability"
+    },
+    "Weather_32": {
+      "qid": 32,
+      "topic": "Weather",
+      "subcategory": "inversions-and-stability"
+    },
+    "Weather_33": {
+      "qid": 33,
+      "topic": "Weather",
+      "subcategory": "humidity-and-condensation"
+    },
+    "Weather_34": {
+      "qid": 34,
+      "topic": "Weather",
+      "subcategory": "humidity-and-condensation"
+    },
+    "Weather_37": {
+      "qid": 37,
+      "topic": "Weather",
+      "subcategory": "humidity-and-condensation"
+    },
+    "Weather_39": {
+      "qid": 39,
+      "topic": "Weather",
+      "subcategory": "humidity-and-condensation"
+    },
+    "Weather_40": {
+      "qid": 40,
+      "topic": "Weather",
+      "subcategory": "temperature-and-lapse-rates"
+    },
+    "Weather_41": {
+      "qid": 41,
+      "topic": "Weather",
+      "subcategory": "temperature-and-lapse-rates"
+    },
+    "Weather_43": {
+      "qid": 43,
+      "topic": "Weather",
+      "subcategory": "cloud-types-and-formation"
+    },
+    "Weather_44": {
+      "qid": 44,
+      "topic": "Weather",
+      "subcategory": "cloud-types-and-formation"
+    },
+    "Weather_45": {
+      "qid": 45,
+      "topic": "Weather",
+      "subcategory": "cloud-types-and-formation"
+    },
+    "Weather_46": {
+      "qid": 46,
+      "topic": "Weather",
+      "subcategory": "cloud-types-and-formation"
+    },
+    "Weather_47": {
+      "qid": 47,
+      "topic": "Weather",
+      "subcategory": "humidity-and-condensation"
+    },
+    "Weather_48": {
+      "qid": 48,
+      "topic": "Weather",
+      "subcategory": "cloud-types-and-formation"
+    },
+    "Weather_49": {
+      "qid": 49,
+      "topic": "Weather",
+      "subcategory": "cloud-types-and-formation"
+    },
+    "Weather_50": {
+      "qid": 50,
+      "topic": "Weather",
+      "subcategory": "cloud-types-and-formation"
+    },
+    "Weather_52": {
+      "qid": 52,
+      "topic": "Weather",
+      "subcategory": "cloud-types-and-formation"
+    },
+    "Weather_54": {
+      "qid": 54,
+      "topic": "Weather",
+      "subcategory": "cloud-types-and-formation"
+    },
+    "Weather_55": {
+      "qid": 55,
+      "topic": "Weather",
+      "subcategory": "cloud-types-and-formation"
+    },
+    "Weather_57": {
+      "qid": 57,
+      "topic": "Weather",
+      "subcategory": "thunderstorms-and-convective"
+    },
+    "Weather_58": {
+      "qid": 58,
+      "topic": "Weather",
+      "subcategory": "cloud-types-and-formation"
+    },
+    "Weather_59": {
+      "qid": 59,
+      "topic": "Weather",
+      "subcategory": "cloud-types-and-formation"
+    },
+    "Weather_60": {
+      "qid": 60,
+      "topic": "Weather",
+      "subcategory": "thunderstorms-and-convective"
+    },
+    "Weather_61": {
+      "qid": 61,
+      "topic": "Weather",
+      "subcategory": "thunderstorms-and-convective"
+    },
+    "Weather_62": {
+      "qid": 62,
+      "topic": "Weather",
+      "subcategory": "cloud-types-and-formation"
+    },
+    "Weather_64": {
+      "qid": 64,
+      "topic": "Weather",
+      "subcategory": "pressure-systems-and-isobars"
+    },
+    "Weather_65": {
+      "qid": 65,
+      "topic": "Weather",
+      "subcategory": "pressure-systems-and-isobars"
+    },
+    "Weather_66": {
+      "qid": 66,
+      "topic": "Weather",
+      "subcategory": "pressure-systems-and-isobars"
+    },
+    "Weather_67": {
+      "qid": 67,
+      "topic": "Weather",
+      "subcategory": "pressure-systems-and-isobars"
+    },
+    "Weather_68": {
+      "qid": 68,
+      "topic": "Weather",
+      "subcategory": "pressure-systems-and-isobars"
+    },
+    "Weather_69": {
+      "qid": 69,
+      "topic": "Weather",
+      "subcategory": "pressure-systems-and-isobars"
+    },
+    "Weather_70": {
+      "qid": 70,
+      "topic": "Weather",
+      "subcategory": "pressure-systems-and-isobars"
+    },
+    "Weather_71": {
+      "qid": 71,
+      "topic": "Weather",
+      "subcategory": "pressure-systems-and-isobars"
+    },
+    "Weather_72": {
+      "qid": 72,
+      "topic": "Weather",
+      "subcategory": "pressure-systems-and-isobars"
+    },
+    "Weather_73": {
+      "qid": 73,
+      "topic": "Weather",
+      "subcategory": "pressure-systems-and-isobars"
+    },
+    "Weather_74": {
+      "qid": 74,
+      "topic": "Weather",
+      "subcategory": "pressure-systems-and-isobars"
+    },
+    "Weather_75": {
+      "qid": 75,
+      "topic": "Weather",
+      "subcategory": "thermals-and-conditions"
+    },
+    "Weather_76": {
+      "qid": 76,
+      "topic": "Weather",
+      "subcategory": "wind-direction-and-speed"
+    },
+    "Weather_77": {
+      "qid": 77,
+      "topic": "Weather",
+      "subcategory": "wind-direction-and-speed"
+    },
+    "Weather_78": {
+      "qid": 78,
+      "topic": "Weather",
+      "subcategory": "wind-direction-and-speed"
+    },
+    "Weather_79": {
+      "qid": 79,
+      "topic": "Weather",
+      "subcategory": "wind-direction-and-speed"
+    },
+    "Weather_82": {
+      "qid": 82,
+      "topic": "Weather",
+      "subcategory": "wind-direction-and-speed"
+    },
+    "Weather_83": {
+      "qid": 83,
+      "topic": "Weather",
+      "subcategory": "wind-direction-and-speed"
+    },
+    "Weather_84": {
+      "qid": 84,
+      "topic": "Weather",
+      "subcategory": "local-alpine-winds"
+    },
+    "Weather_86": {
+      "qid": 86,
+      "topic": "Weather",
+      "subcategory": "local-alpine-winds"
+    },
+    "Weather_87": {
+      "qid": 87,
+      "topic": "Weather",
+      "subcategory": "local-alpine-winds"
+    },
+    "Weather_88": {
+      "qid": 88,
+      "topic": "Weather",
+      "subcategory": "local-alpine-winds"
+    },
+    "Weather_89": {
+      "qid": 89,
+      "topic": "Weather",
+      "subcategory": "local-alpine-winds"
+    },
+    "Weather_90": {
+      "qid": 90,
+      "topic": "Weather",
+      "subcategory": "local-alpine-winds"
+    },
+    "Weather_91": {
+      "qid": 91,
+      "topic": "Weather",
+      "subcategory": "local-alpine-winds"
+    },
+    "Weather_92": {
+      "qid": 92,
+      "topic": "Weather",
+      "subcategory": "local-alpine-winds"
+    },
+    "Weather_93": {
+      "qid": 93,
+      "topic": "Weather",
+      "subcategory": "local-alpine-winds"
+    },
+    "Weather_94": {
+      "qid": 94,
+      "topic": "Weather",
+      "subcategory": "local-alpine-winds"
+    },
+    "Weather_95": {
+      "qid": 95,
+      "topic": "Weather",
+      "subcategory": "turbulence"
+    },
+    "Weather_96": {
+      "qid": 96,
+      "topic": "Weather",
+      "subcategory": "turbulence"
+    },
+    "Weather_97": {
+      "qid": 97,
+      "topic": "Weather",
+      "subcategory": "turbulence"
+    },
+    "Weather_98": {
+      "qid": 98,
+      "topic": "Weather",
+      "subcategory": "turbulence"
+    },
+    "Weather_100": {
+      "qid": 100,
+      "topic": "Weather",
+      "subcategory": "turbulence"
+    },
+    "Weather_101": {
+      "qid": 101,
+      "topic": "Weather",
+      "subcategory": "turbulence"
+    },
+    "Weather_102": {
+      "qid": 102,
+      "topic": "Weather",
+      "subcategory": "turbulence"
+    },
+    "Weather_103": {
+      "qid": 103,
+      "topic": "Weather",
+      "subcategory": "turbulence"
+    },
+    "Weather_104": {
+      "qid": 104,
+      "topic": "Weather",
+      "subcategory": "fronts-and-air-masses"
+    },
+    "Weather_105": {
+      "qid": 105,
+      "topic": "Weather",
+      "subcategory": "fronts-and-air-masses"
+    },
+    "Weather_106": {
+      "qid": 106,
+      "topic": "Weather",
+      "subcategory": "fronts-and-air-masses"
+    },
+    "Weather_107": {
+      "qid": 107,
+      "topic": "Weather",
+      "subcategory": "fronts-and-air-masses"
+    },
+    "Weather_109": {
+      "qid": 109,
+      "topic": "Weather",
+      "subcategory": "fronts-and-air-masses"
+    },
+    "Weather_110": {
+      "qid": 110,
+      "topic": "Weather",
+      "subcategory": "fronts-and-air-masses"
+    },
+    "Weather_111": {
+      "qid": 111,
+      "topic": "Weather",
+      "subcategory": "foehn-winds"
+    },
+    "Weather_112": {
+      "qid": 112,
+      "topic": "Weather",
+      "subcategory": "foehn-winds"
+    },
+    "Weather_113": {
+      "qid": 113,
+      "topic": "Weather",
+      "subcategory": "foehn-winds"
+    },
+    "Weather_114": {
+      "qid": 114,
+      "topic": "Weather",
+      "subcategory": "foehn-winds"
+    },
+    "Weather_116": {
+      "qid": 116,
+      "topic": "Weather",
+      "subcategory": "fronts-and-air-masses"
+    },
+    "Weather_117": {
+      "qid": 117,
+      "topic": "Weather",
+      "subcategory": "fronts-and-air-masses"
+    },
+    "Weather_118": {
+      "qid": 118,
+      "topic": "Weather",
+      "subcategory": "synoptic-chart-reading"
+    },
+    "Weather_119": {
+      "qid": 119,
+      "topic": "Weather",
+      "subcategory": "synoptic-chart-reading"
+    },
+    "Weather_120": {
+      "qid": 120,
+      "topic": "Weather",
+      "subcategory": "synoptic-chart-reading"
+    },
+    "Weather_121": {
+      "qid": 121,
+      "topic": "Weather",
+      "subcategory": "synoptic-chart-reading"
+    },
+    "Weather_122": {
+      "qid": 122,
+      "topic": "Weather",
+      "subcategory": "thunderstorms-and-convective"
+    },
+    "Weather_123": {
+      "qid": 123,
+      "topic": "Weather",
+      "subcategory": "fronts-and-air-masses"
+    },
+    "Weather_124": {
+      "qid": 124,
+      "topic": "Weather",
+      "subcategory": "thunderstorms-and-convective"
+    },
+    "Weather_125": {
+      "qid": 125,
+      "topic": "Weather",
+      "subcategory": "thunderstorms-and-convective"
+    },
+    "Weather_126": {
+      "qid": 126,
+      "topic": "Weather",
+      "subcategory": "synoptic-chart-reading"
+    },
+    "Weather_127": {
+      "qid": 127,
+      "topic": "Weather",
+      "subcategory": "synoptic-chart-reading"
+    },
+    "Weather_129": {
+      "qid": 129,
+      "topic": "Weather",
+      "subcategory": "thermals-and-conditions"
+    },
+    "Weather_130": {
+      "qid": 130,
+      "topic": "Weather",
+      "subcategory": "inversions-and-stability"
+    },
+    "Weather_131": {
+      "qid": 131,
+      "topic": "Weather",
+      "subcategory": "inversions-and-stability"
+    },
+    "Weather_132": {
+      "qid": 132,
+      "topic": "Weather",
+      "subcategory": "thermals-and-conditions"
+    },
+    "Weather_133": {
+      "qid": 133,
+      "topic": "Weather",
+      "subcategory": "thermals-and-conditions"
+    },
+    "Weather_134": {
+      "qid": 134,
+      "topic": "Weather",
+      "subcategory": "thermals-and-conditions"
+    },
+    "Weather_135": {
+      "qid": 135,
+      "topic": "Weather",
+      "subcategory": "thermals-and-conditions"
+    },
+    "Weather_136": {
+      "qid": 136,
+      "topic": "Weather",
+      "subcategory": "thermals-and-conditions"
+    },
+    "Weather_138": {
+      "qid": 138,
+      "topic": "Weather",
+      "subcategory": "thermals-and-conditions"
+    },
+    "Weather_139": {
+      "qid": 139,
+      "topic": "Weather",
+      "subcategory": "thermals-and-conditions"
+    },
+    "Weather_140": {
+      "qid": 140,
+      "topic": "Weather",
+      "subcategory": "thermals-and-conditions"
+    },
+    "Weather_141": {
+      "qid": 141,
+      "topic": "Weather",
+      "subcategory": "synoptic-chart-reading"
+    },
+    "Weather_142": {
+      "qid": 142,
+      "topic": "Weather",
+      "subcategory": "synoptic-chart-reading"
+    },
+    "Weather_143": {
+      "qid": 143,
+      "topic": "Weather",
+      "subcategory": "synoptic-chart-reading"
+    },
+    "Weather_144": {
+      "qid": 144,
+      "topic": "Weather",
+      "subcategory": "synoptic-chart-reading"
+    },
+    "Weather_145": {
+      "qid": 145,
+      "topic": "Weather",
+      "subcategory": "synoptic-chart-reading"
+    },
+    "Weather_146": {
+      "qid": 146,
+      "topic": "Weather",
+      "subcategory": "synoptic-chart-reading"
+    },
+    "Weather_147": {
+      "qid": 147,
+      "topic": "Weather",
+      "subcategory": "synoptic-chart-reading"
+    },
+    "Weather_148": {
+      "qid": 148,
+      "topic": "Weather",
+      "subcategory": "synoptic-chart-reading"
+    },
+    "Weather_149": {
+      "qid": 149,
+      "topic": "Weather",
+      "subcategory": "synoptic-chart-reading"
+    },
+    "Weather_150": {
+      "qid": 150,
+      "topic": "Weather",
+      "subcategory": "synoptic-chart-reading"
+    },
+    "Weather_151": {
+      "qid": 151,
+      "topic": "Weather",
+      "subcategory": "synoptic-chart-reading"
+    },
+    "Weather_152": {
+      "qid": 152,
+      "topic": "Weather",
+      "subcategory": "synoptic-chart-reading"
+    },
+    "Weather_153": {
+      "qid": 153,
+      "topic": "Weather",
+      "subcategory": "synoptic-chart-reading"
+    },
+    "Weather_154": {
+      "qid": 154,
+      "topic": "Weather",
+      "subcategory": "synoptic-chart-reading"
+    },
+    "Weather_155": {
+      "qid": 155,
+      "topic": "Weather",
+      "subcategory": "synoptic-chart-reading"
+    },
+    "Weather_156": {
+      "qid": 156,
+      "topic": "Weather",
+      "subcategory": "synoptic-chart-reading"
+    },
+    "Weather_157": {
+      "qid": 157,
+      "topic": "Weather",
+      "subcategory": "synoptic-chart-reading"
+    },
+    "Weather_158": {
+      "qid": 158,
+      "topic": "Weather",
+      "subcategory": "synoptic-chart-reading"
+    },
+    "Weather_159": {
+      "qid": 159,
+      "topic": "Weather",
+      "subcategory": "synoptic-chart-reading"
+    },
+    "Weather_160": {
+      "qid": 160,
+      "topic": "Weather",
+      "subcategory": "synoptic-chart-reading"
+    },
+    "Weather_161": {
+      "qid": 161,
+      "topic": "Weather",
+      "subcategory": "synoptic-chart-reading"
+    },
+    "Weather_162": {
+      "qid": 162,
+      "topic": "Weather",
+      "subcategory": "synoptic-chart-reading"
+    },
+    "Weather_163": {
+      "qid": 163,
+      "topic": "Weather",
+      "subcategory": "synoptic-chart-reading"
+    },
+    "Weather_164": {
+      "qid": 164,
+      "topic": "Weather",
+      "subcategory": "synoptic-chart-reading"
     }
   },
   "subcategories": {
@@ -17568,6 +18263,78 @@
         "id": "landing-special-and-emergency",
         "title": "Special-field landings, post-flight and first aid",
         "description": "Slope, water, tree, valley-wind and obstacle-surrounded fields, wind gradient on touchdown, post-landing actions, helicopter rescue conduct and basic first aid."
+      }
+    ],
+    "Weather": [
+      {
+        "id": "atmospheric-basics",
+        "title": "Atmospheric basics and pressure",
+        "description": "Identify atmospheric composition, ICAO standard atmosphere values, and how pressure changes with altitude or air column properties."
+      },
+      {
+        "id": "temperature-and-lapse-rates",
+        "title": "Temperature and adiabatic lapse rates",
+        "description": "Reason about dry and saturated adiabatic processes, vertical temperature gradients, and what drives heating or cooling of rising and sinking air."
+      },
+      {
+        "id": "inversions-and-stability",
+        "title": "Inversions, isotherms, and stability",
+        "description": "Recognise inversions and isotherms from definitions, soundings, and ground-based signs, and explain how they form or dissipate."
+      },
+      {
+        "id": "humidity-and-condensation",
+        "title": "Humidity, dew point, and phase changes",
+        "description": "Apply definitions of dew point and the change-of-state vocabulary linking condensation, evaporation, and latent heat to cloud formation."
+      },
+      {
+        "id": "cloud-types-and-formation",
+        "title": "Cloud types and formation",
+        "description": "Identify cumulus, stratus, cirrus, and lenticular families by height and appearance, and link specific clouds to weather and thermal cues."
+      },
+      {
+        "id": "pressure-systems-and-isobars",
+        "title": "Pressure systems and isobars",
+        "description": "Compare highs and lows, interpret isobar spacing for wind strength, and apply Buys-Ballot-style rules for surface flow."
+      },
+      {
+        "id": "wind-direction-and-speed",
+        "title": "Wind direction, speed, and surface-layer effects",
+        "description": "Convert between compass directions, knots, and km/h, and compare surface wind to wind aloft in flat terrain."
+      },
+      {
+        "id": "local-alpine-winds",
+        "title": "Valley and mountain winds in the Alps",
+        "description": "Explain the drivers, daily timing, and typical thermal coupling of upslope valley winds and nocturnal mountain winds."
+      },
+      {
+        "id": "turbulence",
+        "title": "Mechanical, shear, and thermal turbulence",
+        "description": "Distinguish the three turbulence types and predict which dominates in alpine valleys at given times of day and altitudes."
+      },
+      {
+        "id": "fronts-and-air-masses",
+        "title": "Air masses and fronts",
+        "description": "Define air masses and fronts, recognise warm-front cloud sequences and occlusions, and anticipate weather around frontal passages."
+      },
+      {
+        "id": "foehn-winds",
+        "title": "Foehn winds",
+        "description": "Recognise south and north foehn from pressure setups and visible signs on either side of the Alps."
+      },
+      {
+        "id": "thunderstorms-and-convective",
+        "title": "Thunderstorms and convective hazards",
+        "description": "Spot dangerous cumulonimbus and precipitation cues and reason about timing of thermal versus frontal thunderstorms."
+      },
+      {
+        "id": "thermals-and-conditions",
+        "title": "Thermals and favourable conditions",
+        "description": "Identify the surface, stability, and seasonal conditions that produce strong alpine thermals, including blue, lee, and restitution lift."
+      },
+      {
+        "id": "synoptic-chart-reading",
+        "title": "Synoptic chart reading and forecasting",
+        "description": "Decode weather-map symbols, locate pressure centres and gradients, and read off wind, cloud, and air-mass info for European cities."
       }
     ]
   }
