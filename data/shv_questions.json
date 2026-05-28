@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-05-28T16:06:48.662Z",
+  "fetchedAt": "2026-05-28T16:07:21.009Z",
   "questions": {
     "Aerodynamics_1": {
       "qid": 1,
@@ -2260,16 +2260,16 @@
     "Weather_105": {
       "qid": 105,
       "topic": "Weather",
-      "pos": 12,
+      "pos": 103,
       "total_in_topic": 164,
       "text": "Relating to frontal development, an air mass is defined as warm when its temperature is higher than",
       "options": [
-        "15°C at sea level at 1013,2 hPa.",
-        "the seasonal average temperature.",
         "the temperature of adjacent air masses.",
-        "the temperature where the air mass originated."
+        "15°C at sea level at 1013,2 hPa.",
+        "the temperature where the air mass originated.",
+        "the seasonal average temperature."
       ],
-      "correct": 2
+      "correct": null
     },
     "Weather_28": {
       "qid": 28,
@@ -2554,16 +2554,16 @@
     "Weather_109": {
       "qid": 109,
       "topic": "Weather",
-      "pos": 25,
+      "pos": 105,
       "total_in_topic": 164,
       "text": "Which order of cloud types is typical for the passing of a warm front?",
       "options": [
-        "Cirrus, cirrostratus, altostratus, nimbostratus.",
-        "Lenticulars, cumulus congestus, cirrocumulus, altocumulus.",
         "Altocumulus, stratocumulus, altostratus, nimbostratus.",
-        "Cumulus, cumulus congestus, cumulus calvus, cumulonimbus."
+        "Lenticulars, cumulus congestus, cirrocumulus, altocumulus.",
+        "Cumulus, cumulus congestus, cumulus calvus, cumulonimbus.",
+        "Cirrus, cirrostratus, altostratus, nimbostratus."
       ],
-      "correct": 0
+      "correct": null
     },
     "Weather_34": {
       "qid": 34,
@@ -8880,6 +8880,90 @@
         "Over the Bay of Biscay (Golf von Biskaya)"
       ],
       "correct": 1
+    },
+    "Weather_149": {
+      "qid": 149,
+      "topic": "Weather",
+      "pos": 94,
+      "total_in_topic": 164,
+      "text": "Where is the wind the highest?",
+      "options": [
+        "In north Africa",
+        "In Switzerland",
+        "In Iceland",
+        "In southern Scandinavia"
+      ],
+      "correct": 3
+    },
+    "Weather_152": {
+      "qid": 152,
+      "topic": "Weather",
+      "pos": 96,
+      "total_in_topic": 164,
+      "text": "What is the wind direction in London?",
+      "options": [
+        "310°",
+        "270°",
+        "130°",
+        "190°"
+      ],
+      "correct": 0
+    },
+    "Weather_139": {
+      "qid": 139,
+      "topic": "Weather",
+      "pos": 97,
+      "total_in_topic": 164,
+      "text": "One should expect blue thermals when",
+      "options": [
+        "the temperature - dew point difference of the rising air mass is so great that the dew point is not reached.",
+        "the thermal rising air originates not from the ground but from a higher lying air layer.",
+        "the ground cools so much during the night that it's colder than a neighbouring water body.",
+        "the atmospheric layering is so stable that air does not rise thermally."
+      ],
+      "correct": 0
+    },
+    "Weather_70": {
+      "qid": 70,
+      "topic": "Weather",
+      "pos": 100,
+      "total_in_topic": 164,
+      "text": "An isobar is a line connecting points",
+      "options": [
+        "of equal pressure reduced to sea level.",
+        "of equal height with a pressure of 500 hPa.",
+        "with the highest pressure change.",
+        "of equal temperature reduced to sea level."
+      ],
+      "correct": 0
+    },
+    "Weather_24": {
+      "qid": 24,
+      "topic": "Weather",
+      "pos": 104,
+      "total_in_topic": 164,
+      "text": "An isotherm is an air layer in which the temperature",
+      "options": [
+        "is above freezing level.",
+        "reduces with increasing altitude.",
+        "increases with increasing altitude.",
+        "is constant."
+      ],
+      "correct": 3
+    },
+    "Weather_23": {
+      "qid": 23,
+      "topic": "Weather",
+      "pos": 106,
+      "total_in_topic": 164,
+      "text": "An inversion is an air layer in which the temperature",
+      "options": [
+        "is constant.",
+        "reduces with increasing altitude.",
+        "increases with increasing altitude.",
+        "is above freezing level."
+      ],
+      "correct": 2
     }
   },
   "topics": {
