@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-05-28T15:28:22.989Z",
+  "fetchedAt": "2026-05-28T15:28:53.870Z",
   "questions": {
     "1": {
       "qid": 1,
@@ -7367,6 +7367,118 @@
         "Yes, in all national protected areas."
       ],
       "correct": 2
+    },
+    "Practical Flying_24": {
+      "qid": 24,
+      "topic": "Practical Flying",
+      "pos": 115,
+      "total_in_topic": 169,
+      "text": "At launch you have a head wind of 20km/h. What are the most important criteria for a suitable takeoff spot?",
+      "options": [
+        "The area in front of the glider should be as free from small obstacles or unevenness as possible.",
+        "There must be a windsock on the slope below the launch.",
+        "The terrain must be very steep to facilitate as quick a start as possible.",
+        "The area behind the glider should be as free of small obstacles and unevenness as possible."
+      ],
+      "correct": 3
+    },
+    "Practical Flying_93": {
+      "qid": 93,
+      "topic": "Practical Flying",
+      "pos": 116,
+      "total_in_topic": 169,
+      "text": "Descending with \"big ears\" has the advantage that",
+      "options": [
+        "the manoeuvre is easily entered and achieves a high sink rate without physical strain on the body.",
+        "the wing is not deformed and can achieve a high sink rate.",
+        "the body is not physically strained and during the manoeuvre the glider is able to be steered towards a particular goal.",
+        "a high sink rate can be achieved without problems during exiting the manoeuvre or physical strain on the body."
+      ],
+      "correct": 2
+    },
+    "Practical Flying_85": {
+      "qid": 85,
+      "topic": "Practical Flying",
+      "pos": 118,
+      "total_in_topic": 169,
+      "text": "What happens if a pilot pulls only on the A-risers to provoke acceleration?",
+      "options": [
+        "The glider suffers a front collapse, whereby the wingtips overtake the centre of the glider causing it to collapse together.",
+        "The airflow separates from the wing, resulting in a parachutal stall.",
+        "The airflow separates on one side (stalls) resulting in the wing diving over to that side and entering a spin.",
+        "The wing enters a constantly increasing spiral dive."
+      ],
+      "correct": 0
+    },
+    "Practical Flying_20": {
+      "qid": 20,
+      "topic": "Practical Flying",
+      "pos": 120,
+      "total_in_topic": 169,
+      "text": "What is the most important criterion when choosing a launch site?",
+      "options": [
+        "You should be able to safely stop a takeoff at any time.",
+        "The wind must come from the front.",
+        "The launch should be very steep to facilitate as quick a start as possible.",
+        "The launch should be equipped with a windsock."
+      ],
+      "correct": 0
+    },
+    "Practical Flying_44": {
+      "qid": 44,
+      "topic": "Practical Flying",
+      "pos": 121,
+      "total_in_topic": 169,
+      "text": "Directly after taking off a pilot realizes that the left brake does not function and discovers a knot at the brake line guide on the rear riser. What should he do?",
+      "options": [
+        "Steer to the left with more force so that the knot gives a little.",
+        "Turn to the right in order to immediately execute an emergency landing.",
+        "Pull both brakes for an instant quickly and forcefully to 100% (symmetrical pumping) in order to release the knot.",
+        "Fly the glider to a safe distance away from the hill using the left rear riser instead of the brake when steering, then try to undo the knot."
+      ],
+      "correct": 3
+    },
+    "Practical Flying_43": {
+      "qid": 43,
+      "topic": "Practical Flying",
+      "pos": 122,
+      "total_in_topic": 169,
+      "text": "Directly after taking off a pilot notices a knot between the front lines on the left side of the wing. What are the consequences?",
+      "options": [
+        "The glider has a greater tendency to collapse on the right side, and when turning left the possibility of stalling the glider must be anticipated.",
+        "The A-lines could break due to the friction, resulting in a crash.",
+        "The tendency to go into inflated stalls is higher, and when turning right the possibility of stalling the glider must be anticipated.",
+        "The glider is more susceptible to turbulence and collapses faster on the left side."
+      ],
+      "correct": 3
+    },
+    "Practical Flying_19": {
+      "qid": 19,
+      "topic": "Practical Flying",
+      "pos": 123,
+      "total_in_topic": 169,
+      "text": "Information concerning large cables and where they go are given",
+      "options": [
+        "in the regulations for aircraft in special categories (VLK).",
+        "in the DABS.",
+        "in the Notam.",
+        "on the federal aerial obstacle map and partially on the glider map."
+      ],
+      "correct": 3
+    },
+    "Practical Flying_84": {
+      "qid": 84,
+      "topic": "Practical Flying",
+      "pos": 124,
+      "total_in_topic": 169,
+      "text": "The risk of asymmetric stall can be minimised if",
+      "options": [
+        "the glider is constantly observed and tight turns are avoided.",
+        "the pilot always flies with reserve speed and with lots of feeling.",
+        "an anemometer is carried in flight to reliably control the airspeed.",
+        "some outside brake is always applied in a turn so that the wing cannot stall on one side."
+      ],
+      "correct": 1
     }
   },
   "topics": {
