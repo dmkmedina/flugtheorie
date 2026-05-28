@@ -1631,6 +1631,7 @@ function renderSHVExamLive() {
       <div class="fc-question">
         <span class="lang-tag">Q ${i + 1}</span><span class="ct">${escapeHtml(q.text)}</span>
       </div>
+      ${q.has_image && q.image_path ? `<div class="shv-question-image"><img src="${escapeHtml(q.image_path)}" alt="" loading="lazy" /></div>` : ''}
       <div class="choices">
         ${q.options.map((opt, idx) => {
           const selected = answer === idx;
@@ -1700,6 +1701,7 @@ function renderSHVExamResult(r) {
             <span class="cat-dot" style="background:${meta.color}"></span>${meta.icon} ${escapeHtml(q.topic)}
           </div>
           <div style="margin:6px 0; font-weight:600;">${escapeHtml(q.text)}</div>
+          ${q.has_image && q.image_path ? `<div class="shv-question-image"><img src="${escapeHtml(q.image_path)}" alt="" loading="lazy" /></div>` : ''}
           ${q.options.map((opt, idx) => {
             const isCorrect = idx === q.correct;
             const isPicked = idx === w.picked;

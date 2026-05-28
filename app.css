@@ -2151,3 +2151,21 @@ code, .mono { font-family: "SF Mono", Menlo, Consolas, monospace; font-size: 13p
   font-style: italic;
 }
 
+.shv-question-image {
+  margin: 12px 0;
+  text-align: center;
+  background: #fff;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 12px;
+}
+.shv-question-image img {
+  max-width: 100%;
+  height: auto;
+  display: inline-block;
+  border-radius: 4px;
+}
+[data-theme="dark"] .shv-question-image {
+  background: #f8fafc;
+}
+

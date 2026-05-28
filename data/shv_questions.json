@@ -13,7 +13,9 @@
         "R2",
         "R1"
       ],
-      "correct": 0
+      "correct": 0,
+      "has_image": true,
+      "image_path": "assets/shv_images/aerodynamics_1.jpg"
     },
     "Aerodynamics_2": {
       "qid": 2,
@@ -27,7 +29,9 @@
         "R1",
         "R4"
       ],
-      "correct": 3
+      "correct": 3,
+      "has_image": true,
+      "image_path": "assets/shv_images/aerodynamics_2.jpg"
     },
     "Aerodynamics_3": {
       "qid": 3,
@@ -41,7 +45,9 @@
         "R4",
         "R1"
       ],
-      "correct": 0
+      "correct": 0,
+      "has_image": true,
+      "image_path": "assets/shv_images/aerodynamics_3.jpg"
     },
     "Aerodynamics_4": {
       "qid": 4,
@@ -55,7 +61,9 @@
         "R4",
         "R3"
       ],
-      "correct": 1
+      "correct": 1,
+      "has_image": true,
+      "image_path": "assets/shv_images/aerodynamics_4.jpg"
     },
     "Aerodynamics_5": {
       "qid": 5,
@@ -69,7 +77,9 @@
         "R1",
         "R3"
       ],
-      "correct": 0
+      "correct": 0,
+      "has_image": true,
+      "image_path": "assets/shv_images/aerodynamics_5.jpg"
     },
     "Aerodynamics_6": {
       "qid": 6,
@@ -517,7 +527,9 @@
         "4",
         "2"
       ],
-      "correct": 0
+      "correct": 0,
+      "has_image": true,
+      "image_path": "assets/shv_images/aerodynamics_37.jpg"
     },
     "Aerodynamics_38": {
       "qid": 38,
@@ -531,7 +543,9 @@
         "3",
         "4"
       ],
-      "correct": 3
+      "correct": 3,
+      "has_image": true,
+      "image_path": "assets/shv_images/aerodynamics_38.jpg"
     },
     "Aerodynamics_39": {
       "qid": 39,
@@ -545,7 +559,9 @@
         "1",
         "2"
       ],
-      "correct": 2
+      "correct": 2,
+      "has_image": true,
+      "image_path": "assets/shv_images/aerodynamics_39.jpg"
     },
     "Aerodynamics_40": {
       "qid": 40,
@@ -559,7 +575,9 @@
         "1",
         "4"
       ],
-      "correct": 0
+      "correct": 0,
+      "has_image": true,
+      "image_path": "assets/shv_images/aerodynamics_40.jpg"
     },
     "Aerodynamics_41": {
       "qid": 41,
@@ -587,7 +605,9 @@
         "2",
         "1"
       ],
-      "correct": 2
+      "correct": 2,
+      "has_image": true,
+      "image_path": "assets/shv_images/aerodynamics_42.jpg"
     },
     "Aerodynamics_43": {
       "qid": 43,
@@ -601,7 +621,9 @@
         "2",
         "4"
       ],
-      "correct": 0
+      "correct": 0,
+      "has_image": true,
+      "image_path": "assets/shv_images/aerodynamics_43.jpg"
     },
     "Aerodynamics_44": {
       "qid": 44,
@@ -615,7 +637,9 @@
         "3",
         "4"
       ],
-      "correct": 0
+      "correct": 0,
+      "has_image": true,
+      "image_path": "assets/shv_images/aerodynamics_44.jpg"
     },
     "Aerodynamics_45": {
       "qid": 45,
@@ -629,7 +653,9 @@
         "1",
         "2"
       ],
-      "correct": 3
+      "correct": 3,
+      "has_image": true,
+      "image_path": "assets/shv_images/aerodynamics_45.jpg"
     },
     "Aerodynamics_46": {
       "qid": 46,
@@ -643,7 +669,9 @@
         "3",
         "1"
       ],
-      "correct": 2
+      "correct": 2,
+      "has_image": true,
+      "image_path": "assets/shv_images/aerodynamics_46.jpg"
     },
     "Aerodynamics_47": {
       "qid": 47,
@@ -713,7 +741,9 @@
         "4",
         "2"
       ],
-      "correct": 1
+      "correct": 1,
+      "has_image": true,
+      "image_path": "assets/shv_images/aerodynamics_51.jpg"
     },
     "Aerodynamics_52": {
       "qid": 52,
@@ -727,7 +757,9 @@
         "1",
         "2"
       ],
-      "correct": 3
+      "correct": 3,
+      "has_image": true,
+      "image_path": "assets/shv_images/aerodynamics_52.jpg"
     },
     "Aerodynamics_53": {
       "qid": 53,
@@ -741,7 +773,9 @@
         "2",
         "3"
       ],
-      "correct": 0
+      "correct": 0,
+      "has_image": true,
+      "image_path": "assets/shv_images/aerodynamics_53.jpg"
     },
     "Aerodynamics_54": {
       "qid": 54,
@@ -868,7 +902,9 @@
         "1",
         "3"
       ],
-      "correct": 2
+      "correct": 2,
+      "has_image": true,
+      "image_path": "assets/shv_images/aerodynamics_62.jpg"
     },
     "Aerodynamics_63": {
       "qid": 63,
@@ -882,7 +918,9 @@
         "3",
         "4"
       ],
-      "correct": 2
+      "correct": 2,
+      "has_image": true,
+      "image_path": "assets/shv_images/aerodynamics_63.jpg"
     },
     "Aerodynamics_64": {
       "qid": 64,
@@ -896,7 +934,9 @@
         "4",
         "2"
       ],
-      "correct": 2
+      "correct": 2,
+      "has_image": true,
+      "image_path": "assets/shv_images/aerodynamics_64.jpg"
     },
     "Aerodynamics_65": {
       "qid": 65,
@@ -1498,7 +1538,9 @@
         "4 and 3",
         "1 and 5"
       ],
-      "correct": 0
+      "correct": 0,
+      "has_image": true,
+      "image_path": "assets/shv_images/aerodynamics_107.jpg"
     },
     "Aerodynamics_108": {
       "qid": 108,
@@ -1512,7 +1554,9 @@
         "5 and 6",
         "5 and 3"
       ],
-      "correct": 3
+      "correct": 3,
+      "has_image": true,
+      "image_path": "assets/shv_images/aerodynamics_108.jpg"
     },
     "Aerodynamics_109": {
       "qid": 109,
@@ -1526,7 +1570,9 @@
         "2 and 4",
         "4 and 6"
       ],
-      "correct": 1
+      "correct": 1,
+      "has_image": true,
+      "image_path": "assets/shv_images/aerodynamics_109.jpg"
     },
     "Aerodynamics_110": {
       "qid": 110,
@@ -1540,7 +1586,9 @@
         "2 and 5",
         "6 and 4"
       ],
-      "correct": 3
+      "correct": 3,
+      "has_image": true,
+      "image_path": "assets/shv_images/aerodynamics_110.jpg"
     },
     "Aerodynamics_111": {
       "qid": 111,
@@ -1820,7 +1868,9 @@
         "5.6m/s (20 km/h)",
         "11.3m/s (41 km/s)"
       ],
-      "correct": 0
+      "correct": 0,
+      "has_image": true,
+      "image_path": "assets/shv_images/aerodynamics_130.jpg"
     },
     "Aerodynamics_131": {
       "qid": 131,
@@ -1834,7 +1884,9 @@
         "6.8",
         "5.3"
       ],
-      "correct": 3
+      "correct": 3,
+      "has_image": true,
+      "image_path": "assets/shv_images/aerodynamics_131.jpg"
     },
     "Aerodynamics_132": {
       "qid": 132,
@@ -1848,7 +1900,9 @@
         "11.3 m/s (41 km/h)",
         "9.2 m/s (33 km/h)"
       ],
-      "correct": 1
+      "correct": 1,
+      "has_image": true,
+      "image_path": "assets/shv_images/aerodynamics_132.jpg"
     },
     "Aerodynamics_133": {
       "qid": 133,
@@ -1862,7 +1916,9 @@
         "4.6",
         "5.3"
       ],
-      "correct": 2
+      "correct": 2,
+      "has_image": true,
+      "image_path": "assets/shv_images/aerodynamics_133.jpg"
     },
     "Aerodynamics_134": {
       "qid": 134,
@@ -1876,7 +1932,9 @@
         "7.2 m/s (26 km/h)",
         "9.2 m/s (33 km/h)"
       ],
-      "correct": 0
+      "correct": 0,
+      "has_image": true,
+      "image_path": "assets/shv_images/aerodynamics_134.jpg"
     },
     "Aerodynamics_135": {
       "qid": 135,
@@ -1890,7 +1948,9 @@
         "2.0",
         "3.7"
       ],
-      "correct": 2
+      "correct": 2,
+      "has_image": true,
+      "image_path": "assets/shv_images/aerodynamics_135.jpg"
     },
     "Aerodynamics_136": {
       "qid": 136,
@@ -1904,7 +1964,9 @@
         "5.3",
         "4.6"
       ],
-      "correct": 1
+      "correct": 1,
+      "has_image": true,
+      "image_path": "assets/shv_images/aerodynamics_136.jpg"
     },
     "Aerodynamics_137": {
       "qid": 137,
@@ -1918,7 +1980,9 @@
         "7 m/s (25 km/h)",
         "With its maximum speed"
       ],
-      "correct": 3
+      "correct": 3,
+      "has_image": true,
+      "image_path": "assets/shv_images/aerodynamics_137.jpg"
     },
     "Aerodynamics_138": {
       "qid": 138,
@@ -2157,7 +2221,9 @@
         "Lisbon (Lissabon) and Athens (Athen)",
         "Lulea and St.Petersburg"
       ],
-      "correct": null
+      "correct": null,
+      "has_image": true,
+      "image_path": "assets/shv_images/weather_158.jpg"
     },
     "Weather_59": {
       "qid": 59,
@@ -2227,7 +2293,9 @@
         "190°",
         "310°"
       ],
-      "correct": null
+      "correct": null,
+      "has_image": true,
+      "image_path": "assets/shv_images/weather_153.jpg"
     },
     "Weather_16": {
       "qid": 16,
@@ -2647,7 +2715,9 @@
         "Maximum height 4550 m AMSL, minimum visibility 8 km, distance to clouds 100 m horizontal / 50 m vertical",
         "Maximum height 4550m AMSL, minimum visibility 8 km, out of clouds, ground visibility"
       ],
-      "correct": 1
+      "correct": 1,
+      "has_image": true,
+      "image_path": "assets/shv_images/legislation_158.jpg"
     },
     "Legislation_111": {
       "qid": 111,
@@ -2689,7 +2759,9 @@
         "Maximum height 3950 m AMSL, minimum visibility 5 km, distance to clouds 1500 m horizontal / 300 m vertical",
         "Flying is prohibited"
       ],
-      "correct": 1
+      "correct": 1,
+      "has_image": true,
+      "image_path": "assets/shv_images/legislation_152.jpg"
     },
     "Legislation_169": {
       "qid": 169,
@@ -2773,7 +2845,9 @@
         "Maximum height 3050 m AMSL, minimum visibility 1.5 km, out of clouds, ground visibility",
         "Maximum height 1350 m AMSL, minimum visibility 5 km, distance to clouds 1500 m horizontal / 300 m vertical"
       ],
-      "correct": 1
+      "correct": 1,
+      "has_image": true,
+      "image_path": "assets/shv_images/legislation_150.jpg"
     },
     "Legislation_66": {
       "qid": 66,
@@ -2899,7 +2973,9 @@
         "up to 3950m pressure altitude (QNE) or 600m above ground (whichever is higher)",
         "up to 4550m pressure altitude (QNE)"
       ],
-      "correct": 0
+      "correct": 0,
+      "has_image": true,
+      "image_path": "assets/shv_images/legislation_167.jpg"
     },
     "Legislation_125": {
       "qid": 125,
@@ -3109,7 +3185,9 @@
         "a military aerodrome.",
         "a civil and military aerodrome."
       ],
-      "correct": 3
+      "correct": 3,
+      "has_image": true,
+      "image_path": "assets/shv_images/legislation_165.jpg"
     },
     "Legislation_18": {
       "qid": 18,
@@ -3137,7 +3215,9 @@
         "Maximum height 2750 m AMSL, minimum visibility 5 km, distance to clouds 1500 m horizontal / 300 m vertical",
         "Maximum height 2750 m AMSL, minimum visibility 1.5 km, out of clouds, ground visibility"
       ],
-      "correct": 2
+      "correct": 2,
+      "has_image": true,
+      "image_path": "assets/shv_images/legislation_148.jpg"
     },
     "Legislation_112": {
       "qid": 112,
@@ -3291,7 +3371,9 @@
         "Lower limit 2050m AGL, upper limit 3950m AMSL.",
         "Lower limit 2050m AMSL, upper limit 3950m AMSL at standard atmosphere."
       ],
-      "correct": 3
+      "correct": 3,
+      "has_image": true,
+      "image_path": "assets/shv_images/legislation_162.jpg"
     },
     "Legislation_156": {
       "qid": 156,
@@ -3305,7 +3387,9 @@
         "Flying is prohibited",
         "Maximum height 4550 m AMSL, minimum visibility 8 km, distance to clouds 1500 m horizontal / 300 m vertical, flying below 2200 m AMSL is prohibited"
       ],
-      "correct": 1
+      "correct": 1,
+      "has_image": true,
+      "image_path": "assets/shv_images/legislation_156.jpg"
     },
     "Legislation_141": {
       "qid": 141,
@@ -3473,7 +3557,9 @@
         "Flying is prohibited",
         "Maximum height 3050 m AMSL, minimum visibility 5 km, distance to clouds 1500 m horizontal / 300 m vertical"
       ],
-      "correct": 3
+      "correct": 3,
+      "has_image": true,
+      "image_path": "assets/shv_images/legislation_145.jpg"
     },
     "Legislation_79": {
       "qid": 79,
@@ -3501,7 +3587,9 @@
         "Maximum height 3050m AMSL, minimum visibility 8 km, distance to clouds 1500 m horizontal / 300 m vertical",
         "Maximum height 3050m AMSL, minimum visibility 1.5 km, out of clouds, ground visibility"
       ],
-      "correct": 1
+      "correct": 1,
+      "has_image": true,
+      "image_path": "assets/shv_images/legislation_178.jpg"
     },
     "Legislation_60": {
       "qid": 60,
@@ -3529,7 +3617,9 @@
         "Lower limit in accordance with Notam/DABS, upper limit 3950m AMSL at standard atmosphere.",
         "Lower limit in accordance with Notam/DABS, upper limit 3950m AMSL."
       ],
-      "correct": 2
+      "correct": 2,
+      "has_image": true,
+      "image_path": "assets/shv_images/legislation_176.jpg"
     },
     "Legislation_50": {
       "qid": 50,
@@ -3585,7 +3675,9 @@
         "Maximum height 3950 m AMSL, minimum visibility 8 km, distance to clouds 1500 m horizontal / 300 m vertical",
         "Maximum height 3050 m AMSL, minimum visibility 1.5 km, out of clouds, ground visibility"
       ],
-      "correct": 0
+      "correct": 0,
+      "has_image": true,
+      "image_path": "assets/shv_images/legislation_147.jpg"
     },
     "Legislation_24": {
       "qid": 24,
@@ -3613,7 +3705,9 @@
         "Maximum height 300 m AGL, minimum visibility 5 km, distance to clouds 1500 m horizontal / 300 m vertical",
         "Maximum height 300 m AGL, minimum visibility 1.5 km, out of clouds, ground visibility"
       ],
-      "correct": 3
+      "correct": 3,
+      "has_image": true,
+      "image_path": "assets/shv_images/legislation_157.jpg"
     },
     "Legislation_166": {
       "qid": 166,
@@ -3627,7 +3721,9 @@
         "There is no difference.",
         "The TMA Emmen is a temporary zone, the TMA Alpnach permanent."
       ],
-      "correct": 1
+      "correct": 1,
+      "has_image": true,
+      "image_path": "assets/shv_images/legislation_166.jpg"
     },
     "Legislation_20": {
       "qid": 20,
@@ -3963,7 +4059,9 @@
         "Maximum height 3950 m AMSL, minimum visibility 8 km, distance to clouds 1500 m horizontal / 300 m vertical",
         "Maximum height 3050 m AMSL, minimum visibility 1.5 km, out of clouds, ground visibility"
       ],
-      "correct": 0
+      "correct": 0,
+      "has_image": true,
+      "image_path": "assets/shv_images/legislation_154.jpg"
     },
     "Legislation_6": {
       "qid": 6,
@@ -4005,7 +4103,9 @@
         "up to 3950m pressure altitude (QNE)",
         "up to 4550m pressure altitude (QNE) or 600m above ground (whichever gives the higher altitude)"
       ],
-      "correct": 1
+      "correct": 1,
+      "has_image": true,
+      "image_path": "assets/shv_images/legislation_168.jpg"
     },
     "Legislation_177": {
       "qid": 177,
@@ -4117,7 +4217,9 @@
         "minimum visibility 8 km, distance to clouds 100 m horizontal / 50 m vertical",
         "minimum visibility 8 km, distance to clouds 1500 m horizontal / 300 m vertical"
       ],
-      "correct": 1
+      "correct": 1,
+      "has_image": true,
+      "image_path": "assets/shv_images/legislation_155.jpg"
     },
     "Legislation_163": {
       "qid": 163,
@@ -4131,7 +4233,9 @@
         "Lower limit 600m AGL, upper limit 3950m AMSL at standard atmosphere.",
         "Lower limit 3200m AMSL, upper limit 3950m AMSL at standard atmosphere."
       ],
-      "correct": 2
+      "correct": 2,
+      "has_image": true,
+      "image_path": "assets/shv_images/legislation_163.jpg"
     },
     "Legislation_89": {
       "qid": 89,
@@ -4341,7 +4445,9 @@
         "Higher than 300m AGL.",
         "Higher than 300m AMSL."
       ],
-      "correct": 2
+      "correct": 2,
+      "has_image": true,
+      "image_path": "assets/shv_images/legislation_164.jpg"
     },
     "Legislation_17": {
       "qid": 17,
@@ -4383,7 +4489,9 @@
         "Maximum height 4550 m AMSL, minimum visibility 8 km, distance to clouds 1500 m horizontal / 300 m vertical",
         "Flying is prohibited"
       ],
-      "correct": 0
+      "correct": 0,
+      "has_image": true,
+      "image_path": "assets/shv_images/legislation_153.jpg"
     },
     "Legislation_26": {
       "qid": 26,
@@ -4495,7 +4603,9 @@
         "Minimum visibility 1.5 km, out of clouds, ground visibility",
         "Minimum visibility 5 km, distance to clouds 1500 m horizontal / 300 m vertical"
       ],
-      "correct": 2
+      "correct": 2,
+      "has_image": true,
+      "image_path": "assets/shv_images/legislation_146.jpg"
     },
     "Legislation_74": {
       "qid": 74,
@@ -6106,7 +6216,9 @@
         "Base leg.",
         "Zone for losing altitude."
       ],
-      "correct": 0
+      "correct": 0,
+      "has_image": true,
+      "image_path": "assets/shv_images/practical_flying_109.jpg"
     },
     "Practical Flying_7": {
       "qid": 7,
@@ -6176,7 +6288,9 @@
         "2",
         "1"
       ],
-      "correct": 0
+      "correct": 0,
+      "has_image": true,
+      "image_path": "assets/shv_images/practical_flying_53.jpg"
     },
     "Practical Flying_140": {
       "qid": 140,
@@ -6428,7 +6542,9 @@
         "1",
         "2"
       ],
-      "correct": 2
+      "correct": 2,
+      "has_image": true,
+      "image_path": "assets/shv_images/practical_flying_115.jpg"
     },
     "Practical Flying_67": {
       "qid": 67,
@@ -6456,7 +6572,9 @@
         "4",
         "2"
       ],
-      "correct": 2
+      "correct": 2,
+      "has_image": true,
+      "image_path": "assets/shv_images/practical_flying_114.jpg"
     },
     "Practical Flying_17": {
       "qid": 17,
@@ -6526,7 +6644,9 @@
         "Downwind leg.",
         "Final approach."
       ],
-      "correct": 2
+      "correct": 2,
+      "has_image": true,
+      "image_path": "assets/shv_images/practical_flying_107.jpg"
     },
     "Practical Flying_168": {
       "qid": 168,
@@ -6596,7 +6716,9 @@
         "1",
         "3"
       ],
-      "correct": 3
+      "correct": 3,
+      "has_image": true,
+      "image_path": "assets/shv_images/practical_flying_116.jpg"
     },
     "Practical Flying_13": {
       "qid": 13,
@@ -6680,7 +6802,9 @@
         "Base leg.",
         "Final approach."
       ],
-      "correct": 2
+      "correct": 2,
+      "has_image": true,
+      "image_path": "assets/shv_images/practical_flying_108.jpg"
     },
     "Practical Flying_41": {
       "qid": 41,
@@ -6736,7 +6860,9 @@
         "2",
         "3"
       ],
-      "correct": 2
+      "correct": 2,
+      "has_image": true,
+      "image_path": "assets/shv_images/practical_flying_113.jpg"
     },
     "Practical Flying_167": {
       "qid": 167,
@@ -7100,7 +7226,9 @@
         "4",
         "3"
       ],
-      "correct": 0
+      "correct": 0,
+      "has_image": true,
+      "image_path": "assets/shv_images/practical_flying_55.jpg"
     },
     "Practical Flying_10": {
       "qid": 10,
@@ -7128,7 +7256,9 @@
         "4",
         "2"
       ],
-      "correct": 0
+      "correct": 0,
+      "has_image": true,
+      "image_path": "assets/shv_images/practical_flying_54.jpg"
     },
     "Practical Flying_97": {
       "qid": 97,
@@ -7296,7 +7426,9 @@
         "Zone for losing altitude.",
         "Final approach."
       ],
-      "correct": 2
+      "correct": 2,
+      "has_image": true,
+      "image_path": "assets/shv_images/practical_flying_106.jpg"
     },
     "Practical Flying_64": {
       "qid": 64,
@@ -7520,7 +7652,9 @@
         "1",
         "3"
       ],
-      "correct": 0
+      "correct": 0,
+      "has_image": true,
+      "image_path": "assets/shv_images/practical_flying_111.jpg"
     },
     "Practical Flying_87": {
       "qid": 87,
@@ -8039,7 +8173,9 @@
         "an occlusion.",
         "a cold front."
       ],
-      "correct": null
+      "correct": null,
+      "has_image": true,
+      "image_path": "assets/shv_images/weather_141.jpg"
     },
     "Weather_18": {
       "qid": 18,
@@ -8123,7 +8259,9 @@
         "5/8 - 7/8 cumulonimbus, isolated lenticulars in the east",
         "8/8 nimbostratus"
       ],
-      "correct": null
+      "correct": null,
+      "has_image": true,
+      "image_path": "assets/shv_images/weather_161.jpg"
     },
     "Weather_68": {
       "qid": 68,
@@ -8179,7 +8317,9 @@
         "A warm front.",
         "An occlusion with the characteristics of a cold front."
       ],
-      "correct": null
+      "correct": null,
+      "has_image": true,
+      "image_path": "assets/shv_images/weather_118.jpg"
     },
     "Weather_159": {
       "qid": 159,
@@ -8193,7 +8333,9 @@
         "Lisbon (Lissabon) and Athens (Athen)",
         "Paris and London"
       ],
-      "correct": null
+      "correct": null,
+      "has_image": true,
+      "image_path": "assets/shv_images/weather_159.jpg"
     },
     "Weather_143": {
       "qid": 143,
@@ -8207,7 +8349,9 @@
         "an isobar.",
         "a warm front."
       ],
-      "correct": null
+      "correct": null,
+      "has_image": true,
+      "image_path": "assets/shv_images/weather_143.jpg"
     },
     "Weather_91": {
       "qid": 91,
@@ -8375,7 +8519,9 @@
         "A cold front.",
         "A warm front."
       ],
-      "correct": 0
+      "correct": 0,
+      "has_image": true,
+      "image_path": "assets/shv_images/weather_121.jpg"
     },
     "Weather_73": {
       "qid": 73,
@@ -8445,7 +8591,9 @@
         "Near Stockholm",
         "Near Lulea"
       ],
-      "correct": 1
+      "correct": 1,
+      "has_image": true,
+      "image_path": "assets/shv_images/weather_146.jpg"
     },
     "Weather_98": {
       "qid": 98,
@@ -8711,7 +8859,9 @@
         "Near Lulea",
         "Near Stockholm"
       ],
-      "correct": 2
+      "correct": 2,
+      "has_image": true,
+      "image_path": "assets/shv_images/weather_145.jpg"
     },
     "Weather_147": {
       "qid": 147,
@@ -8725,7 +8875,9 @@
         "Over the Bay of Biscay (Golf von Biskaya)",
         "Near Tunis"
       ],
-      "correct": 3
+      "correct": 3,
+      "has_image": true,
+      "image_path": "assets/shv_images/weather_147.jpg"
     },
     "Weather_69": {
       "qid": 69,
@@ -8753,7 +8905,9 @@
         "320°",
         "100°"
       ],
-      "correct": 2
+      "correct": 2,
+      "has_image": true,
+      "image_path": "assets/shv_images/weather_155.jpg"
     },
     "Weather_50": {
       "qid": 50,
@@ -8781,7 +8935,9 @@
         "In Switzerland",
         "In Iceland"
       ],
-      "correct": 0
+      "correct": 0,
+      "has_image": true,
+      "image_path": "assets/shv_images/weather_150.jpg"
     },
     "Weather_102": {
       "qid": 102,
@@ -8879,7 +9035,9 @@
         "Near Tunis",
         "Over the Bay of Biscay (Golf von Biskaya)"
       ],
-      "correct": 1
+      "correct": 1,
+      "has_image": true,
+      "image_path": "assets/shv_images/weather_148.jpg"
     },
     "Weather_149": {
       "qid": 149,
@@ -8893,7 +9051,9 @@
         "In Iceland",
         "In southern Scandinavia"
       ],
-      "correct": 3
+      "correct": 3,
+      "has_image": true,
+      "image_path": "assets/shv_images/weather_149.jpg"
     },
     "Weather_152": {
       "qid": 152,
@@ -8907,7 +9067,9 @@
         "130°",
         "190°"
       ],
-      "correct": 0
+      "correct": 0,
+      "has_image": true,
+      "image_path": "assets/shv_images/weather_152.jpg"
     },
     "Weather_139": {
       "qid": 139,
@@ -8977,7 +9139,9 @@
         "an occlusion.",
         "a cold front."
       ],
-      "correct": 2
+      "correct": 2,
+      "has_image": true,
+      "image_path": "assets/shv_images/weather_144.jpg"
     },
     "Weather_57": {
       "qid": 57,
@@ -9005,7 +9169,9 @@
         "An occlusion with the characteristics of a warm front.",
         "A warm front."
       ],
-      "correct": 3
+      "correct": 3,
+      "has_image": true,
+      "image_path": "assets/shv_images/weather_120.jpg"
     },
     "Weather_106": {
       "qid": 106,
@@ -9033,7 +9199,9 @@
         "5/8 - 7/8 cirrocumulus",
         "5/8 - 7/8 cirrostratus"
       ],
-      "correct": 1
+      "correct": 1,
+      "has_image": true,
+      "image_path": "assets/shv_images/weather_162.jpg"
     },
     "Weather_37": {
       "qid": 37,
@@ -9103,7 +9271,9 @@
         "5/8 - 7/8 cumulonimbus, isolated lenticulars in the east",
         "3/8 - 5/8 cumulus"
       ],
-      "correct": 0
+      "correct": 0,
+      "has_image": true,
+      "image_path": "assets/shv_images/weather_160.jpg"
     },
     "Weather_151": {
       "qid": 151,
@@ -9117,7 +9287,9 @@
         "100°",
         "320°"
       ],
-      "correct": 1
+      "correct": 1,
+      "has_image": true,
+      "image_path": "assets/shv_images/weather_151.jpg"
     },
     "Weather_163": {
       "qid": 163,
@@ -9131,7 +9303,9 @@
         "5/8 - 7/8 cirrostratus",
         "8/8 nimbostratus"
       ],
-      "correct": 3
+      "correct": 3,
+      "has_image": true,
+      "image_path": "assets/shv_images/weather_163.jpg"
     },
     "Weather_124": {
       "qid": 124,
@@ -9159,7 +9333,9 @@
         "3",
         "1"
       ],
-      "correct": null
+      "correct": null,
+      "has_image": true,
+      "image_path": "assets/shv_images/weather_32.jpg"
     },
     "Weather_110": {
       "qid": 110,
@@ -9215,7 +9391,9 @@
         "An occlusion with the characteristics of a warm front.",
         "A warm front."
       ],
-      "correct": 2
+      "correct": 2,
+      "has_image": true,
+      "image_path": "assets/shv_images/weather_119.jpg"
     },
     "Weather_142": {
       "qid": 142,
@@ -9229,7 +9407,9 @@
         "an occlusion.",
         "an isobar."
       ],
-      "correct": null
+      "correct": null,
+      "has_image": true,
+      "image_path": "assets/shv_images/weather_142.jpg"
     },
     "Weather_130": {
       "qid": 130,
@@ -9271,7 +9451,9 @@
         "Lulea and St.Petersburg",
         "Zurich and Stockholm"
       ],
-      "correct": 1
+      "correct": 1,
+      "has_image": true,
+      "image_path": "assets/shv_images/weather_157.jpg"
     },
     "Weather_54": {
       "qid": 54,
@@ -9383,7 +9565,9 @@
         "210°",
         "100°"
       ],
-      "correct": 2
+      "correct": 2,
+      "has_image": true,
+      "image_path": "assets/shv_images/weather_154.jpg"
     },
     "Weather_156": {
       "qid": 156,
@@ -9397,7 +9581,9 @@
         "Lisbon (Lissabon) and Athens (Athen)",
         "Zürich and Stockholm"
       ],
-      "correct": 3
+      "correct": 3,
+      "has_image": true,
+      "image_path": "assets/shv_images/weather_156.jpg"
     },
     "Weather_64": {
       "qid": 64,
