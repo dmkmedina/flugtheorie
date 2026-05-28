@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-05-28T16:03:28.495Z",
+  "fetchedAt": "2026-05-28T16:04:03.054Z",
   "questions": {
     "Aerodynamics_1": {
       "qid": 1,
@@ -2246,16 +2246,16 @@
     "Weather_7": {
       "qid": 7,
       "topic": "Weather",
-      "pos": 11,
+      "pos": 17,
       "total_in_topic": 164,
       "text": "What is the average sea level pressure (ICAO standard atmosphere) used by meteorologists?",
       "options": [
+        "760.0 hPa",
         "1013.2 hPa",
         "1033.6 hPa",
-        "760.0 hPa",
         "998.7 hPa"
       ],
-      "correct": 0
+      "correct": null
     },
     "Weather_105": {
       "qid": 105,
@@ -2274,16 +2274,16 @@
     "Weather_28": {
       "qid": 28,
       "topic": "Weather",
-      "pos": 13,
+      "pos": 7,
       "total_in_topic": 164,
       "text": "Where can an inversion typically be found?",
       "options": [
-        "Inversions only occur on the ground.",
-        "When there is a temperature - dew point difference of 0°C.",
         "At the base of cumulus clouds.",
-        "At the border between a hazy air layer over the ground and clear air at altitude."
+        "When there is a temperature - dew point difference of 0°C.",
+        "At the border between a hazy air layer over the ground and clear air at altitude.",
+        "Inversions only occur on the ground."
       ],
-      "correct": 3
+      "correct": null
     },
     "Weather_125": {
       "qid": 125,
@@ -7960,16 +7960,16 @@
     "Weather_55": {
       "qid": 55,
       "topic": "Weather",
-      "pos": 1,
+      "pos": 10,
       "total_in_topic": 164,
       "text": "Which of the following cloud types consists mainly of ice crystals?",
       "options": [
-        "Stratocumulus",
-        "Cumulus humilis",
         "Nimbostratus",
+        "Cumulus humilis",
+        "Stratocumulus",
         "Cirrocumulus"
       ],
-      "correct": 3
+      "correct": null
     },
     "Weather_48": {
       "qid": 48,
@@ -8128,16 +8128,16 @@
     "Weather_68": {
       "qid": 68,
       "topic": "Weather",
-      "pos": 19,
+      "pos": 13,
       "total_in_topic": 164,
       "text": "In a low pressure system in the northern hemisphere",
       "options": [
-        "the air masses turn in a clockwise direction around their centre and sink over a large area.",
-        "the air masses turn in an anticlockwise direction around their centre and sink over a large area.",
         "the air masses turn in a clockwise direction around their centre and rise over a large area.",
-        "the air masses turn in an anticlockwise direction around their centre and rise over a large area."
+        "the air masses turn in a clockwise direction around their centre and sink over a large area.",
+        "the air masses turn in an anticlockwise direction around their centre and rise over a large area.",
+        "the air masses turn in an anticlockwise direction around their centre and sink over a large area."
       ],
-      "correct": 3
+      "correct": null
     },
     "Weather_113": {
       "qid": 113,
@@ -8184,16 +8184,16 @@
     "Weather_159": {
       "qid": 159,
       "topic": "Weather",
-      "pos": 24,
+      "pos": 2,
       "total_in_topic": 164,
       "text": "Which of the following cities are under the influence of the high-pressure system?",
       "options": [
-        "Paris and London",
         "Zürich and Stockholm",
+        "Lulea and St.Petersburg",
         "Lisbon (Lissabon) and Athens (Athen)",
-        "Lulea and St.Petersburg"
+        "Paris and London"
       ],
-      "correct": 2
+      "correct": null
     },
     "Weather_143": {
       "qid": 143,
@@ -8264,6 +8264,104 @@
         "Lenticular"
       ],
       "correct": 0
+    },
+    "Weather_92": {
+      "qid": 92,
+      "topic": "Weather",
+      "pos": 3,
+      "total_in_topic": 164,
+      "text": "The valley wind in the Alps",
+      "options": [
+        "is stronger from October till February than from March till July.",
+        "is always the same strength independent of the time of year.",
+        "is stronger from June till August than from December till March.",
+        "is stronger from December till April than from July till September."
+      ],
+      "correct": 2
+    },
+    "Weather_133": {
+      "qid": 133,
+      "topic": "Weather",
+      "pos": 4,
+      "total_in_topic": 164,
+      "text": "What are the best conditions for the creation of good thermals over a given area?",
+      "options": [
+        "Wind exposed and moist.",
+        "Wind exposed and dry.",
+        "Wind protected and moist.",
+        "Wind protected and dry."
+      ],
+      "correct": 3
+    },
+    "Weather_20": {
+      "qid": 20,
+      "topic": "Weather",
+      "pos": 8,
+      "total_in_topic": 164,
+      "text": "On average the air temperature in the troposphere reduces with increasing altitude. However, it can occur that the temperature in a particular layer increases. What is this phenomenon called?",
+      "options": [
+        "Isotherm",
+        "Superadiabatic",
+        "Inversion",
+        "Restitution"
+      ],
+      "correct": 2
+    },
+    "Weather_60": {
+      "qid": 60,
+      "topic": "Weather",
+      "pos": 9,
+      "total_in_topic": 164,
+      "text": "Which of the following is a sign visible from afar, that a culumus congestus or cumulonimbus cloud is creating precipitation?",
+      "options": [
+        "A grey curtain hanging from cloudbase towards the ground.",
+        "The vertical extent of the cloud is greater than the horizontal extent.",
+        "Fog rising upwards between the ground and cloudbase.",
+        "The cloudbase is black in colour."
+      ],
+      "correct": 0
+    },
+    "Weather_61": {
+      "qid": 61,
+      "topic": "Weather",
+      "pos": 11,
+      "total_in_topic": 164,
+      "text": "As soon as precipitation is visible under a culumus congestus or cumulonimbus cloud",
+      "options": [
+        "they become harmless in terms of paragliding because they are in a state of dissipation.",
+        "the air will be cooled due to evaporation and strong, gusty downdrafts will develop.",
+        "electrical discharges between the cloud and ground will always occur.",
+        "it can be assumed that they will produce no more updrafts."
+      ],
+      "correct": 1
+    },
+    "Weather_25": {
+      "qid": 25,
+      "topic": "Weather",
+      "pos": 14,
+      "total_in_topic": 164,
+      "text": "Inversions and isotherms are",
+      "options": [
+        "unstable stratified elements of the troposphere.",
+        "barriers for thermal rising air masses.",
+        "origins and triggers of thermal rising air.",
+        "stable or unstable depending on temperature."
+      ],
+      "correct": 1
+    },
+    "Weather_4": {
+      "qid": 4,
+      "topic": "Weather",
+      "pos": 18,
+      "total_in_topic": 164,
+      "text": "The average altitude of the tropopause at our latitude is",
+      "options": [
+        "5'500m above sea level.",
+        "50'000m above sea level.",
+        "11'000m above sea level.",
+        "4'000m above sea level."
+      ],
+      "correct": 2
     }
   },
   "topics": {
