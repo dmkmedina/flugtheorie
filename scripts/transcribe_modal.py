@@ -36,6 +36,7 @@ image = (
     .pip_install(
         "faster-whisper==1.0.3",
         "huggingface_hub>=0.24",
+        "requests>=2.31",
     )
     .env({"HF_HOME": "/hf-cache"})
 )
