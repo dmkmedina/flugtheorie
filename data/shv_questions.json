@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-05-28T14:45:17.393Z",
+  "fetchedAt": "2026-05-28T14:45:50.492Z",
   "questions": {
     "2": {
       "qid": 2,
@@ -110,6 +110,20 @@
         "about 300 N",
         "about 150 N",
         "about 900 N"
+      ],
+      "correct": 2
+    },
+    "13": {
+      "qid": 13,
+      "topic": "Aerodynamics",
+      "pos": 123,
+      "total_in_topic": 152,
+      "text": "An object with a frontal area of 0.5m² exposed to an airflow of 30km/h produces a drag of 150N (approx. 15kp) at sea level. Under the same conditions, how much drag is produced by an object of similar shape but with a frontal area of 3m²?",
+      "options": [
+        "about 150 N",
+        "about 300 N",
+        "about 900 N",
+        "about 600 N"
       ],
       "correct": 2
     },
@@ -266,6 +280,20 @@
         "there is no change in the drag."
       ],
       "correct": 0
+    },
+    "27": {
+      "qid": 27,
+      "topic": "Aerodynamics",
+      "pos": 121,
+      "total_in_topic": 152,
+      "text": "If a body exposed to an airflow moves further away from the earth's surface,",
+      "options": [
+        "its drag diminishes linearly.",
+        "its drag diminishes faster in the lower layers of the atmosphere than in the higher layers.",
+        "its drag diminishes faster in the higher layers of the atmosphere than in the lower layers.",
+        "its drag diminishes in the lower layers of the atmosphere and increases in the higher layers."
+      ],
+      "correct": 1
     },
     "28": {
       "qid": 28,
@@ -1051,6 +1079,20 @@
       ],
       "correct": 1
     },
+    "97": {
+      "qid": 97,
+      "topic": "Aerodynamics",
+      "pos": 126,
+      "total_in_topic": 152,
+      "text": "Where should we expect to find vortices near a glider when it is flying?",
+      "options": [
+        "up to one wing span above the centre of pressure/thrust.",
+        "behind the trailing edge.",
+        "in the middle of the glider in front of the leading edge.",
+        "at the edges of the wing in front of the leading edge."
+      ],
+      "correct": 1
+    },
     "98": {
       "qid": 98,
       "topic": "Aerodynamics",
@@ -1134,6 +1176,20 @@
         "The lift"
       ],
       "correct": 1
+    },
+    "105": {
+      "qid": 105,
+      "topic": "Aerodynamics",
+      "pos": 120,
+      "total_in_topic": 152,
+      "text": "Which force is acting perpendicular to lift in stable flight?",
+      "options": [
+        "The lift",
+        "The resultant aerodynamic force",
+        "The total weight",
+        "The drag"
+      ],
+      "correct": 3
     },
     "106": {
       "qid": 106,
@@ -1261,6 +1317,20 @@
       ],
       "correct": 2
     },
+    "116": {
+      "qid": 116,
+      "topic": "Aerodynamics",
+      "pos": 122,
+      "total_in_topic": 152,
+      "text": "A paraglider in straight flight which, after releasing the accelerator, automatically returns to normal flight speed, has",
+      "options": [
+        "inverse flight characteristics.",
+        "indifferent flight characteristics.",
+        "unstable flight characteristics.",
+        "stable flight characteristics."
+      ],
+      "correct": 3
+    },
     "117": {
       "qid": 117,
       "topic": "Aerodynamics",
@@ -1331,6 +1401,20 @@
       ],
       "correct": 3
     },
+    "122": {
+      "qid": 122,
+      "topic": "Aerodynamics",
+      "pos": 127,
+      "total_in_topic": 152,
+      "text": "The glide ratio of a glider gives information about the relationship between",
+      "options": [
+        "the speed at best glide and the speed at minimum sink of the glider.",
+        "the minimum and maximum speed.",
+        "the air speed and speed over the ground.",
+        "the horizontal and vertical speed."
+      ],
+      "correct": 3
+    },
     "123": {
       "qid": 123,
       "topic": "Aerodynamics",
@@ -1370,6 +1454,20 @@
         "28.8 km",
         "23.0 km",
         "12.0 km"
+      ],
+      "correct": 1
+    },
+    "127": {
+      "qid": 127,
+      "topic": "Aerodynamics",
+      "pos": 124,
+      "total_in_topic": 152,
+      "text": "If the value of the glide ratio increases, the glide angle",
+      "options": [
+        "first increases, then decreases.",
+        "decreases.",
+        "increases.",
+        "remains the same."
       ],
       "correct": 1
     },
@@ -1638,6 +1736,20 @@
         "6.5"
       ],
       "correct": 0
+    },
+    "149": {
+      "qid": 149,
+      "topic": "Aerodynamics",
+      "pos": 125,
+      "total_in_topic": 152,
+      "text": "The flight-speed for minimum sink is",
+      "options": [
+        "Slightly less in a rising air current and slightly more in a descending air current than in calm air.",
+        "The same in a rising or descending air current as in calm air.",
+        "Slightly less in a rising and a descending air current than in calm air.",
+        "Slightly more in a rising air current and slightly less in a descending air current than in calm air."
+      ],
+      "correct": 1
     },
     "150": {
       "qid": 150,
