@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-05-28T15:16:24.967Z",
+  "fetchedAt": "2026-05-28T15:16:56.615Z",
   "questions": {
     "1": {
       "qid": 1,
@@ -5393,6 +5393,132 @@
         "The pilot feels turbulence less but has less difficulty to lean forward when accelerating at launch."
       ],
       "correct": 1
+    },
+    "Materials_105": {
+      "qid": 105,
+      "topic": "Materials",
+      "pos": 63,
+      "total_in_topic": 125,
+      "text": "Which of the following can shorten the opening time of a reserve chute? 1. Low porosity. 2. Double hang points. 3. Short pack interval. 4. High airflow speed. 5. Easy to grasp reserve handle.",
+      "options": [
+        "2,3,4,5",
+        "1,2,3,4",
+        "1,2,4,5",
+        "1,3,4,5"
+      ],
+      "correct": 3
+    },
+    "Materials_114": {
+      "qid": 114,
+      "topic": "Materials",
+      "pos": 64,
+      "total_in_topic": 125,
+      "text": "During flight a variometer informs a pilot about",
+      "options": [
+        "the horizontal speed.",
+        "the air density.",
+        "the relationship between vertical and horizontal speed.",
+        "vertical speed."
+      ],
+      "correct": 3
+    },
+    "Materials_89": {
+      "qid": 89,
+      "topic": "Materials",
+      "pos": 65,
+      "total_in_topic": 125,
+      "text": "In paragliding terms, a wing loading of 2.0 daN/m² (2.0 Kg/m²) for a modern intermediate glider (calculated using flat surface area) is;",
+      "options": [
+        "normal.",
+        "at the lower limit.",
+        "at the upper limit.",
+        "definitely too low."
+      ],
+      "correct": 3
+    },
+    "Materials_91": {
+      "qid": 91,
+      "topic": "Materials",
+      "pos": 66,
+      "total_in_topic": 125,
+      "text": "In paragliding terms, a wing loading of 4.5 daN/m² (4.5 Kg/m²) for a modern intermediate glider (calculated using flat surface area) is;",
+      "options": [
+        "at the lower limit.",
+        "normal.",
+        "definitely too high.",
+        "at the upper limit."
+      ],
+      "correct": 3
+    },
+    "Materials_100": {
+      "qid": 100,
+      "topic": "Materials",
+      "pos": 67,
+      "total_in_topic": 125,
+      "text": "What factors can reduce the life of a reserve chute?",
+      "options": [
+        "Exposure to cold temperatures and frequent packing.",
+        "UV radiation and exposure to cold temperatures.",
+        "Frequent packing and moisture/dampness.",
+        "Moisture/dampness and UV radiation."
+      ],
+      "correct": 3
+    },
+    "Materials_45": {
+      "qid": 45,
+      "topic": "Materials",
+      "pos": 69,
+      "total_in_topic": 125,
+      "text": "What could cause permanent shortening of suspension lines?",
+      "options": [
+        "Exposure of the lines to moisture and dirt.",
+        "Badly sorting the lines before packing the glider.",
+        "Exposure of the lines to cold temperatures.",
+        "The glider is hardly ever used over a long period of time."
+      ],
+      "correct": 0
+    },
+    "Materials_92": {
+      "qid": 92,
+      "topic": "Materials",
+      "pos": 70,
+      "total_in_topic": 125,
+      "text": "The most important thing to consider when mounting a reserve chute is that",
+      "options": [
+        "the container must be mounted on a load carrying part of the harness.",
+        "the pilot is able to see and reach easily the handle to open it.",
+        "the container must in every case be mounted on the same side as the throwing hand.",
+        "the container must be mounted to the harness as solidly as possible."
+      ],
+      "correct": 1
+    },
+    "Materials_61": {
+      "qid": 61,
+      "topic": "Materials",
+      "pos": 71,
+      "total_in_topic": 125,
+      "text": "The type of loading on a paraglider wing is",
+      "options": [
+        "Pressure.",
+        "Tension.",
+        "Torsion.",
+        "Bending."
+      ],
+      "correct": 1
+    },
+    "Materials_79": {
+      "qid": 79,
+      "topic": "Materials",
+      "pos": 72,
+      "total_in_topic": 125,
+      "text": "If the distance between the riser connection points on the harness is lessened",
+      "options": [
+        "the pilot feels the turbulence more and the danger of a twist is increased.",
+        "the pilot feels the turbulence less and the danger of a twist is reduced.",
+        "the pilot feels the turbulence less and the danger of a twist is increased.",
+        "the pilot feels the turbulence more and the danger of a twist is reduced."
+      ],
+      "correct": 2
     }
   },
   "topics": {
