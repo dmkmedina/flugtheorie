@@ -56,7 +56,7 @@
           "duration_seconds": 3031.2533125,
           "duration_label": "50:31",
           "has_de_vtt": true,
-          "has_en_vtt": false
+          "has_en_vtt": true
         },
         {
           "id": "meteo_1",
@@ -84,7 +84,7 @@
           "duration_seconds": 2143.402,
           "duration_label": "35:43",
           "has_de_vtt": true,
-          "has_en_vtt": false
+          "has_en_vtt": true
         },
         {
           "id": "aa_meteo_teil_2",
@@ -98,7 +98,7 @@
           "duration_seconds": 1501.525,
           "duration_label": "25:01",
           "has_de_vtt": true,
-          "has_en_vtt": false
+          "has_en_vtt": true
         },
         {
           "id": "aa_meteo_teil_3",
@@ -112,7 +112,7 @@
           "duration_seconds": 2260.224,
           "duration_label": "37:40",
           "has_de_vtt": true,
-          "has_en_vtt": false
+          "has_en_vtt": true
         }
       ]
     },
@@ -301,7 +301,7 @@
           "duration_seconds": 344.072993,
           "duration_label": "5:44",
           "has_de_vtt": true,
-          "has_en_vtt": false
+          "has_en_vtt": true
         },
         {
           "id": "aa_p1_doppelkreis_rechts",
@@ -315,7 +315,7 @@
           "duration_seconds": 271.633333,
           "duration_label": "4:31",
           "has_de_vtt": true,
-          "has_en_vtt": false
+          "has_en_vtt": true
         },
         {
           "id": "aa_seitenklapper_50%",
@@ -397,7 +397,7 @@
       "airactive": 15
     },
     "with_de_vtt": 25,
-    "with_en_vtt": 10,
+    "with_en_vtt": 16,
     "total_duration_seconds": 28834.318964000013
   }
 }
