@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-05-28T14:58:42.547Z",
+  "fetchedAt": "2026-05-28T14:58:58.319Z",
   "questions": {
     "1": {
       "qid": 1,
@@ -2256,6 +2256,62 @@
         "998.7 hPa"
       ],
       "correct": 0
+    },
+    "Weather_105": {
+      "qid": 105,
+      "topic": "Weather",
+      "pos": 12,
+      "total_in_topic": 164,
+      "text": "Relating to frontal development, an air mass is defined as warm when its temperature is higher than",
+      "options": [
+        "15°C at sea level at 1013,2 hPa.",
+        "the seasonal average temperature.",
+        "the temperature of adjacent air masses.",
+        "the temperature where the air mass originated."
+      ],
+      "correct": 2
+    },
+    "Weather_28": {
+      "qid": 28,
+      "topic": "Weather",
+      "pos": 13,
+      "total_in_topic": 164,
+      "text": "Where can an inversion typically be found?",
+      "options": [
+        "Inversions only occur on the ground.",
+        "When there is a temperature - dew point difference of 0°C.",
+        "At the base of cumulus clouds.",
+        "At the border between a hazy air layer over the ground and clear air at altitude."
+      ],
+      "correct": 3
+    },
+    "Weather_125": {
+      "qid": 125,
+      "topic": "Weather",
+      "pos": 15,
+      "total_in_topic": 164,
+      "text": "At what time of day are frontal thunderstorms most likely?",
+      "options": [
+        "The time of day has no influence on frontal thunderstorms.",
+        "15:00",
+        "10:00",
+        "20:00"
+      ],
+      "correct": 0
+    },
+    "Weather_40": {
+      "qid": 40,
+      "topic": "Weather",
+      "pos": 17,
+      "total_in_topic": 164,
+      "text": "How high is the temperature gradient of saturated (humid), rising air in Switzerland in the lower layers of the troposphere?",
+      "options": [
+        "1,5°C / 100 m",
+        "> 2°C / 100 m",
+        "1,0°C / 100 m",
+        "< 1°C / 100 m"
+      ],
+      "correct": null
     }
   },
   "topics": {
