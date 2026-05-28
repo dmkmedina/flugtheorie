@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-05-28T16:09:38.939Z",
+  "fetchedAt": "2026-05-28T16:10:19.304Z",
   "questions": {
     "Aerodynamics_1": {
       "qid": 1,
@@ -2428,16 +2428,16 @@
     "Weather_46": {
       "qid": 46,
       "topic": "Weather",
-      "pos": 12,
+      "pos": 114,
       "total_in_topic": 164,
       "text": "For which of the following weather conditions is the development of ground fog (radiation fog) most likely?",
       "options": [
-        "Clear sky, zero wind, large temperature - dew point difference.",
         "Clear sky, zero wind, small temperature - dew point difference.",
+        "Clear sky, zero wind, large temperature - dew point difference.",
         "Covered sky, zero wind, small temperature - dew point difference.",
         "Clear sky, wind 270 deg/10 kt, small temperature - dew point difference."
       ],
-      "correct": 1
+      "correct": null
     },
     "Weather_17": {
       "qid": 17,
@@ -2554,14 +2554,14 @@
     "Weather_109": {
       "qid": 109,
       "topic": "Weather",
-      "pos": 105,
+      "pos": 101,
       "total_in_topic": 164,
       "text": "Which order of cloud types is typical for the passing of a warm front?",
       "options": [
         "Altocumulus, stratocumulus, altostratus, nimbostratus.",
         "Lenticulars, cumulus congestus, cirrocumulus, altocumulus.",
-        "Cumulus, cumulus congestus, cumulus calvus, cumulonimbus.",
-        "Cirrus, cirrostratus, altostratus, nimbostratus."
+        "Cirrus, cirrostratus, altostratus, nimbostratus.",
+        "Cumulus, cumulus congestus, cumulus calvus, cumulonimbus."
       ],
       "correct": null
     },
@@ -8324,16 +8324,16 @@
     "Weather_61": {
       "qid": 61,
       "topic": "Weather",
-      "pos": 11,
+      "pos": 88,
       "total_in_topic": 164,
       "text": "As soon as precipitation is visible under a culumus congestus or cumulonimbus cloud",
       "options": [
-        "they become harmless in terms of paragliding because they are in a state of dissipation.",
         "the air will be cooled due to evaporation and strong, gusty downdrafts will develop.",
         "electrical discharges between the cloud and ground will always occur.",
-        "it can be assumed that they will produce no more updrafts."
+        "it can be assumed that they will produce no more updrafts.",
+        "they become harmless in terms of paragliding because they are in a state of dissipation."
       ],
-      "correct": 1
+      "correct": null
     },
     "Weather_25": {
       "qid": 25,
@@ -9242,6 +9242,62 @@
         "The nightly radiation of heat from the ground when there are clear skies.",
         "Incoming continental air masses in the air layers close to the ground.",
         "Sinking air warming at the unsaturated (dry) adiabatic lapse rate in front of and in the centre of a high-pressure system."
+      ],
+      "correct": 1
+    },
+    "Weather_95": {
+      "qid": 95,
+      "topic": "Weather",
+      "pos": 89,
+      "total_in_topic": 164,
+      "text": "The term \"mechanical turbulence\" describes in meteorological terms the movement of air which occurs when",
+      "options": [
+        "two neighbouring air masses moving in different directions or with different speeds rub against each other.",
+        "an airmass moving close to the ground is disturbed by the terrain, as well as obstacles such as houses, trees, etc.",
+        "warm air bubbles release from the ground and rise.",
+        "technical equipment such as aircraft move forward in the air."
+      ],
+      "correct": 1
+    },
+    "Weather_157": {
+      "qid": 157,
+      "topic": "Weather",
+      "pos": 102,
+      "total_in_topic": 164,
+      "text": "Which cities have post cold front conditions?",
+      "options": [
+        "Lisbon (Lissabon) and Athens (Athen)",
+        "Paris and London",
+        "Lulea and St.Petersburg",
+        "Zurich and Stockholm"
+      ],
+      "correct": 1
+    },
+    "Weather_54": {
+      "qid": 54,
+      "topic": "Weather",
+      "pos": 104,
+      "total_in_topic": 164,
+      "text": "Which of the following cloud types causes rain?",
+      "options": [
+        "Nimbostratus",
+        "Stratocumulus",
+        "Cumulus humilis",
+        "Cirrostratus"
+      ],
+      "correct": 0
+    },
+    "Weather_11": {
+      "qid": 11,
+      "topic": "Weather",
+      "pos": 115,
+      "total_in_topic": 164,
+      "text": "A child releases a balloon with a volume of about 5 dm3 at sea level. What is the volume of the balloon when it reaches an altitude of 5,500m above sea level?",
+      "options": [
+        "2.5 dm³",
+        "10 dm³",
+        "20 dm³",
+        "5 dm³"
       ],
       "correct": 1
     }
