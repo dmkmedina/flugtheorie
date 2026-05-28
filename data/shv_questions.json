@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-05-28T14:43:40.780Z",
+  "fetchedAt": "2026-05-28T14:44:12.996Z",
   "questions": {
     "2": {
       "qid": 2,
@@ -126,6 +126,20 @@
         "the drag will be multiplied by 3."
       ],
       "correct": 1
+    },
+    "17": {
+      "qid": 17,
+      "topic": "Aerodynamics",
+      "pos": 102,
+      "total_in_topic": 152,
+      "text": "If the speed of the airflow to which a body is exposed is quadrupled,",
+      "options": [
+        "the drag will be multiplied by 4.",
+        "the drag will double.",
+        "the drag will be multiplied by 8.",
+        "the drag will be multiplied by 16."
+      ],
+      "correct": 3
     },
     "18": {
       "qid": 18,
@@ -435,6 +449,20 @@
       ],
       "correct": 1
     },
+    "49": {
+      "qid": 49,
+      "topic": "Aerodynamics",
+      "pos": 103,
+      "total_in_topic": 152,
+      "text": "The term \"angle of attack\" represents the angle between",
+      "options": [
+        "the chord of the profile and the relative airflow.",
+        "the chord of the profile and horizontal.",
+        "the upper and lower wing surfaces at the trailing edge.",
+        "horizontal and the relative air flow."
+      ],
+      "correct": 0
+    },
     "52": {
       "qid": 52,
       "topic": "Aerodynamics",
@@ -603,6 +631,20 @@
       ],
       "correct": 2
     },
+    "70": {
+      "qid": 70,
+      "topic": "Aerodynamics",
+      "pos": 96,
+      "total_in_topic": 152,
+      "text": "If the positive angle of attack of a wing in an airflow is decreased, the stagnation point",
+      "options": [
+        "moves towards the leading edge on the wing upper surface.",
+        "moves towards the trailing edge on the wing lower surface.",
+        "remains stationary.",
+        "moves towards the leading edge on the wing lower surface."
+      ],
+      "correct": 3
+    },
     "73": {
       "qid": 73,
       "topic": "Aerodynamics",
@@ -670,6 +712,20 @@
         "a large span and a small average chord",
         "a large span and a large average chord.",
         "a small span and a large average chord."
+      ],
+      "correct": 1
+    },
+    "79": {
+      "qid": 79,
+      "topic": "Aerodynamics",
+      "pos": 98,
+      "total_in_topic": 152,
+      "text": "Wings with a small aspect ratio have",
+      "options": [
+        "a large span and a large average chord.",
+        "a small span and a large average chord.",
+        "a small span and a small average chord.",
+        "a large span and a small average chord."
       ],
       "correct": 1
     },
@@ -841,6 +897,20 @@
       ],
       "correct": 0
     },
+    "99": {
+      "qid": 99,
+      "topic": "Aerodynamics",
+      "pos": 97,
+      "total_in_topic": 152,
+      "text": "If the drag of a glider is reduced",
+      "options": [
+        "the glide ratio decreases to a point and then increases abruptly.",
+        "this has no effect on the glide ratio.",
+        "the glide ratio decreases.",
+        "the glide ratio increases."
+      ],
+      "correct": 3
+    },
     "101": {
       "qid": 101,
       "topic": "Aerodynamics",
@@ -880,6 +950,20 @@
         "stays the same.",
         "is lower in trim speed flight.",
         "only stays the same with an identical glide ratio."
+      ],
+      "correct": 1
+    },
+    "104": {
+      "qid": 104,
+      "topic": "Aerodynamics",
+      "pos": 101,
+      "total_in_topic": 152,
+      "text": "Which force is acting in opposition to the total weight in stable flight?",
+      "options": [
+        "The drag",
+        "The resultant aerodynamic force",
+        "The induced drag",
+        "The lift"
       ],
       "correct": 1
     },
@@ -994,6 +1078,20 @@
         "unstable flight characteristics."
       ],
       "correct": 2
+    },
+    "117": {
+      "qid": 117,
+      "topic": "Aerodynamics",
+      "pos": 100,
+      "total_in_topic": 152,
+      "text": "A paraglider which, without active pilot input, continually yaws in smooth conditions is not",
+      "options": [
+        "roll stable.",
+        "longitudinally stable.",
+        "transverse stable.",
+        "directionally stable."
+      ],
+      "correct": 3
     },
     "118": {
       "qid": 118,
@@ -1302,6 +1400,20 @@
         "150 m"
       ],
       "correct": 2
+    },
+    "147": {
+      "qid": 147,
+      "topic": "Aerodynamics",
+      "pos": 99,
+      "total_in_topic": 152,
+      "text": "A paraglider flies with a glide ratio of 9 in calm air with a sink rate of 1 m/s. What is its forwards speed?",
+      "options": [
+        "43.2 km/h (12 m/s)",
+        "32.4 km/h (9 m/s)",
+        "39.6 km/h (11 m/s)",
+        "36.0 km/h (10 m/s)"
+      ],
+      "correct": 1
     },
     "148": {
       "qid": 148,
