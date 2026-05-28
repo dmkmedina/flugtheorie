@@ -70,7 +70,7 @@
           "duration_seconds": 3080.576,
           "duration_label": "51:20",
           "has_de_vtt": true,
-          "has_en_vtt": false
+          "has_en_vtt": true
         },
         {
           "id": "aa_meteo_teil_1",
@@ -356,7 +356,7 @@
           "poster": "https://static.wixstatic.com/media/f2f7a2_ebbae091dd2448d88d741c18bdeee527f003.jpg/v1/fill/w_200,h_267,q_90,enc_avif,quality_auto/f2f7a2_ebbae091dd2448d88d741c18bdeee527f003.jpg",
           "duration_seconds": 137.670998,
           "duration_label": "2:17",
-          "has_de_vtt": false,
+          "has_de_vtt": true,
           "has_en_vtt": false
         },
         {
@@ -396,8 +396,8 @@
       "freewings": 10,
       "airactive": 15
     },
-    "with_de_vtt": 10,
-    "with_en_vtt": 8,
+    "with_de_vtt": 11,
+    "with_en_vtt": 9,
     "total_duration_seconds": 28834.318964000013
   }
 }

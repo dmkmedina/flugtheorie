@@ -1,0 +1,7864 @@
+{
+  "slug": "meteo_1",
+  "language": "en",
+  "provider": "claude-sub-agent",
+  "model": "manual",
+  "duration": 3080.576,
+  "note": "Whisper base-model source had Swiss-German recognition errors; English is intent-faithful.",
+  "segments": [
+    {
+      "i": 1,
+      "start": 0.46,
+      "end": 3.02,
+      "text": "Thermals — let's start with thermals."
+    },
+    {
+      "i": 2,
+      "start": 3.02,
+      "end": 6.86,
+      "text": "We have the sun, as we've discussed,"
+    },
+    {
+      "i": 3,
+      "start": 6.86,
+      "end": 12.18,
+      "text": "the engine of the weather — the sun shines on the Earth's surface"
+    },
+    {
+      "i": 4,
+      "start": 12.18,
+      "end": 14.66,
+      "text": "and warms the ground."
+    },
+    {
+      "i": 5,
+      "start": 14.66,
+      "end": 18.82,
+      "text": "Accordingly, you get a slightly warmer air layer at the ground."
+    },
+    {
+      "i": 6,
+      "start": 18.82,
+      "end": 21.89,
+      "text": "That's really important for understanding thermals,"
+    },
+    {
+      "i": 7,
+      "start": 21.89,
+      "end": 22.05,
+      "text": "when you're flying"
+    },
+    {
+      "i": 8,
+      "start": 22.05,
+      "end": 24.21,
+      "text": "or when you have to search for thermals,"
+    },
+    {
+      "i": 9,
+      "start": 24.21,
+      "end": 25.17,
+      "text": "you always have to ask yourself:"
+    },
+    {
+      "i": 10,
+      "start": 25.17,
+      "end": 28.45,
+      "text": "which air mass, or which ground, is going to heat up more?"
+    },
+    {
+      "i": 11,
+      "start": 28.73,
+      "end": 30.97,
+      "text": "Different surfaces warm up differently."
+    },
+    {
+      "i": 12,
+      "start": 30.97,
+      "end": 33.49,
+      "text": "It's always about a temperature difference."
+    },
+    {
+      "i": 13,
+      "start": 33.49,
+      "end": 36.89,
+      "text": "It's not as if you can never fly thermals in winter."
+    },
+    {
+      "i": 14,
+      "start": 36.89,
+      "end": 39.73,
+      "text": "If the meadows are snow-free, for example,"
+    },
+    {
+      "i": 15,
+      "start": 39.73,
+      "end": 43.57,
+      "text": "they warm up more than snow-covered fields."
+    },
+    {
+      "i": 16,
+      "start": 43.57,
+      "end": 46.13,
+      "text": "Accordingly, thermals can be found over the woods."
+    },
+    {
+      "i": 17,
+      "start": 46.13,
+      "end": 49.73,
+      "text": "So the temperature difference is always really important."
+    },
+    {
+      "i": 18,
+      "start": 49.73,
+      "end": 52.13,
+      "text": "This also has to do with the albedo effect —"
+    },
+    {
+      "i": 19,
+      "start": 52.13,
+      "end": 57.89,
+      "text": "for example, which surface warms up more strongly than another."
+    },
+    {
+      "i": 20,
+      "start": 57.89,
+      "end": 60.69,
+      "text": "A dry ploughed field,"
+    },
+    {
+      "i": 21,
+      "start": 60.69,
+      "end": 63.69,
+      "text": "freshly harrowed, warms up more than a green meadow,"
+    },
+    {
+      "i": 22,
+      "start": 63.69,
+      "end": 65.49,
+      "text": "which is even better than a wet one."
+    },
+    {
+      "i": 23,
+      "start": 65.49,
+      "end": 68.45,
+      "text": "So you always have to ask: which surface warms up more?"
+    },
+    {
+      "i": 24,
+      "start": 68.45,
+      "end": 70.13,
+      "text": "And there are basic rules for this:"
+    },
+    {
+      "i": 25,
+      "start": 70.13,
+      "end": 73.45,
+      "text": "if you have a reflective surface, like snow,"
+    },
+    {
+      "i": 26,
+      "start": 73.45,
+      "end": 75.45,
+      "text": "it barely warms up at all."
+    },
+    {
+      "i": 27,
+      "start": 75.45,
+      "end": 79.85,
+      "text": "Whereas a black surface, a dark surface,"
+    },
+    {
+      "i": 28,
+      "start": 79.85,
+      "end": 81.69,
+      "text": "naturally warms up a lot more,"
+    },
+    {
+      "i": 29,
+      "start": 81.69,
+      "end": 85.43,
+      "text": "because it absorbs the sun's rays."
+    },
+    {
+      "i": 30,
+      "start": 85.43,
+      "end": 87.31,
+      "text": "What's also really important"
+    },
+    {
+      "i": 31,
+      "start": 87.31,
+      "end": 91.51,
+      "text": "for warming is the angle of incidence."
+    },
+    {
+      "i": 32,
+      "start": 91.51,
+      "end": 95.27,
+      "text": "Ideally the sun hits the surface at a right angle."
+    },
+    {
+      "i": 33,
+      "start": 95.27,
+      "end": 98.71,
+      "text": "Then the surface gets heated much more strongly"
+    },
+    {
+      "i": 34,
+      "start": 98.71,
+      "end": 100.19,
+      "text": "than a tilted surface,"
+    },
+    {
+      "i": 35,
+      "start": 100.19,
+      "end": 103.69,
+      "text": "where the sun's rays only hit at a shallow angle."
+    },
+    {
+      "i": 36,
+      "start": 103.69,
+      "end": 108.97,
+      "text": "Think for example of the polar regions versus the tropics."
+    },
+    {
+      "i": 37,
+      "start": 108.97,
+      "end": 112.73,
+      "text": "That's also purely down to the angle of incidence of the sun."
+    },
+    {
+      "i": 38,
+      "start": 112.73,
+      "end": 114.63,
+      "text": "Exactly."
+    },
+    {
+      "i": 39,
+      "start": 114.63,
+      "end": 115.83,
+      "text": "Accordingly,"
+    },
+    {
+      "i": 40,
+      "start": 115.83,
+      "end": 118.39,
+      "text": "a warm layer of air forms at the ground,"
+    },
+    {
+      "i": 41,
+      "start": 118.39,
+      "end": 121.46,
+      "text": "which starts to bubble a bit."
+    },
+    {
+      "i": 42,
+      "start": 121.46,
+      "end": 124.94,
+      "text": "This warm air layer, once the temperature difference is big enough"
+    },
+    {
+      "i": 43,
+      "start": 124.94,
+      "end": 128.5,
+      "text": "and it gets released by a small trigger,"
+    },
+    {
+      "i": 44,
+      "start": 128.5,
+      "end": 131.38,
+      "text": "it detaches and starts rising."
+    },
+    {
+      "i": 45,
+      "start": 131.38,
+      "end": 132.82,
+      "text": "You can picture it"
+    },
+    {
+      "i": 46,
+      "start": 132.82,
+      "end": 136.06,
+      "text": "like a lava lamp — an air mass that stays together,"
+    },
+    {
+      "i": 47,
+      "start": 136.06,
+      "end": 140.42,
+      "text": "an air mass with uniform properties."
+    },
+    {
+      "i": 48,
+      "start": 140.42,
+      "end": 142.94,
+      "text": "It's warmer than the surrounding air,"
+    },
+    {
+      "i": 49,
+      "start": 142.94,
+      "end": 144.94,
+      "text": "and it rises away."
+    },
+    {
+      "i": 50,
+      "start": 144.98,
+      "end": 147.78,
+      "text": "So we have two air masses with different properties —"
+    },
+    {
+      "i": 51,
+      "start": 147.78,
+      "end": 150.5,
+      "text": "the one that matters has a certain temperature,"
+    },
+    {
+      "i": 52,
+      "start": 150.5,
+      "end": 152.22,
+      "text": "which we'll touch on briefly later."
+    },
+    {
+      "i": 53,
+      "start": 152.22,
+      "end": 155.18,
+      "text": "And that warmer layer that rises, the bubble,"
+    },
+    {
+      "i": 54,
+      "start": 155.18,
+      "end": 157.74,
+      "text": "that's what forms the thermal."
+    },
+    {
+      "i": 55,
+      "start": 157.74,
+      "end": 160.3,
+      "text": "We can also picture a hot-air balloon —"
+    },
+    {
+      "i": 56,
+      "start": 160.3,
+      "end": 163.78,
+      "text": "it also rises because it has warmer air inside,"
+    },
+    {
+      "i": 57,
+      "start": 163.78,
+      "end": 165.54,
+      "text": "which is less dense."
+    },
+    {
+      "i": 58,
+      "start": 165.54,
+      "end": 168.38,
+      "text": "And so the hot-air balloon rises."
+    },
+    {
+      "i": 59,
+      "start": 168.38,
+      "end": 172.66,
+      "text": "It's the same with a thermal, with this thermal bubble"
+    },
+    {
+      "i": 60,
+      "start": 172.66,
+      "end": 176.14,
+      "text": "rising up."
+    },
+    {
+      "i": 61,
+      "start": 176.14,
+      "end": 179.54,
+      "text": "Now, we have a certain air pressure"
+    },
+    {
+      "i": 62,
+      "start": 179.54,
+      "end": 182.38,
+      "text": "in our atmosphere,"
+    },
+    {
+      "i": 63,
+      "start": 182.38,
+      "end": 186.02,
+      "text": "and lower down the air pressure is higher than in the upper layers."
+    },
+    {
+      "i": 64,
+      "start": 186.02,
+      "end": 187.46,
+      "text": "Let's come back to air pressure."
+    },
+    {
+      "i": 65,
+      "start": 187.46,
+      "end": 189.98,
+      "text": "Now we can tie things together here."
+    },
+    {
+      "i": 66,
+      "start": 189.98,
+      "end": 193.5,
+      "text": "So when a balloon like this rises —"
+    },
+    {
+      "i": 67,
+      "start": 193.5,
+      "end": 196.03,
+      "text": "think of those buoyancy bags from diving,"
+    },
+    {
+      "i": 68,
+      "start": 196.03,
+      "end": 199.31,
+      "text": "or a weather balloon, you can see it really clearly."
+    },
+    {
+      "i": 69,
+      "start": 199.31,
+      "end": 200.35,
+      "text": "When it's down low,"
+    },
+    {
+      "i": 70,
+      "start": 200.35,
+      "end": 203.99,
+      "text": "it has a very small volume of gas inside."
+    },
+    {
+      "i": 71,
+      "start": 203.99,
+      "end": 206.75,
+      "text": "When it rises and the air pressure drops,"
+    },
+    {
+      "i": 72,
+      "start": 206.75,
+      "end": 209.47,
+      "text": "the gas can expand more and more."
+    },
+    {
+      "i": 73,
+      "start": 209.47,
+      "end": 215.43,
+      "text": "Accordingly, the volume of the rising air parcel increases."
+    },
+    {
+      "i": 74,
+      "start": 215.43,
+      "end": 218.87,
+      "text": "And from that we can get to the cooling."
+    },
+    {
+      "i": 75,
+      "start": 218.87,
+      "end": 220.79,
+      "text": "When the balloon rises,"
+    },
+    {
+      "i": 76,
+      "start": 220.79,
+      "end": 222.67,
+      "text": "there's a decompression,"
+    },
+    {
+      "i": 77,
+      "start": 222.67,
+      "end": 225.47,
+      "text": "the pressure on the rising air parcel drops."
+    },
+    {
+      "i": 78,
+      "start": 225.47,
+      "end": 227.99,
+      "text": "It expands, the pressure drops."
+    },
+    {
+      "i": 79,
+      "start": 227.99,
+      "end": 230.11,
+      "text": "And when in an air mass, in a gas,"
+    },
+    {
+      "i": 80,
+      "start": 230.11,
+      "end": 231.91,
+      "text": "the overall pressure drops,"
+    },
+    {
+      "i": 81,
+      "start": 231.91,
+      "end": 233.87,
+      "text": "the temperature drops too."
+    },
+    {
+      "i": 82,
+      "start": 233.91,
+      "end": 236.31,
+      "text": "We see this really clearly, for example,"
+    },
+    {
+      "i": 83,
+      "start": 236.31,
+      "end": 238.15,
+      "text": "with compressed-air canisters —"
+    },
+    {
+      "i": 84,
+      "start": 238.15,
+      "end": 241.23,
+      "text": "when you blow air out, it's ice-cold."
+    },
+    {
+      "i": 85,
+      "start": 241.23,
+      "end": 244.75,
+      "text": "That's purely because the compressed air from the compressor"
+    },
+    {
+      "i": 86,
+      "start": 244.75,
+      "end": 248.66,
+      "text": "expands very quickly and cools down."
+    },
+    {
+      "i": 87,
+      "start": 248.66,
+      "end": 251.58,
+      "text": "So an air mass that expands cools down."
+    },
+    {
+      "i": 88,
+      "start": 251.58,
+      "end": 253.3,
+      "text": "And the opposite holds too:"
+    },
+    {
+      "i": 89,
+      "start": 253.3,
+      "end": 257.26,
+      "text": "if an air mass is compressed, it warms up."
+    },
+    {
+      "i": 90,
+      "start": 257.26,
+      "end": 260.94,
+      "text": "You see this in practice, for example, when you pump up a tyre —"
+    },
+    {
+      "i": 91,
+      "start": 260.94,
+      "end": 262.82,
+      "text": "when you inflate a high-pressure tyre,"
+    },
+    {
+      "i": 92,
+      "start": 262.82,
+      "end": 264.46,
+      "text": "it gets quite warm."
+    },
+    {
+      "i": 93,
+      "start": 264.46,
+      "end": 267.5,
+      "text": "That's because you've compressed a lot of air into it."
+    },
+    {
+      "i": 94,
+      "start": 267.5,
+      "end": 270.9,
+      "text": "Keep that image in mind — it's really important for various"
+    },
+    {
+      "i": 95,
+      "start": 270.9,
+      "end": 275.02,
+      "text": "meteorological phenomena, including thermals."
+    },
+    {
+      "i": 96,
+      "start": 275.02,
+      "end": 277.46,
+      "text": "If you put numbers on it, you can imagine"
+    },
+    {
+      "i": 97,
+      "start": 277.46,
+      "end": 280.5,
+      "text": "an air parcel leaving the ground at 20 degrees,"
+    },
+    {
+      "i": 98,
+      "start": 280.5,
+      "end": 283.02,
+      "text": "the sun goes up,"
+    },
+    {
+      "i": 99,
+      "start": 283.02,
+      "end": 287.73,
+      "text": "and the temperature keeps dropping with altitude."
+    },
+    {
+      "i": 100,
+      "start": 287.73,
+      "end": 290.49,
+      "text": "Exactly — it has to do with the compression"
+    },
+    {
+      "i": 101,
+      "start": 290.49,
+      "end": 293.78,
+      "text": "and with rising air masses."
+    },
+    {
+      "i": 102,
+      "start": 293.78,
+      "end": 296.78,
+      "text": "Now, you have to picture this simply:"
+    },
+    {
+      "i": 103,
+      "start": 296.78,
+      "end": 299.98,
+      "text": "in the atmosphere we have a certain temperature gradient."
+    },
+    {
+      "i": 104,
+      "start": 299.98,
+      "end": 302.86,
+      "text": "Ideally it gets colder with altitude."
+    },
+    {
+      "i": 105,
+      "start": 302.86,
+      "end": 306.22,
+      "text": "That's just how the air mass behaves — at night, for example."
+    },
+    {
+      "i": 106,
+      "start": 306.22,
+      "end": 308.22,
+      "text": "At night the air mass sits there,"
+    },
+    {
+      "i": 107,
+      "start": 308.22,
+      "end": 311.34,
+      "text": "and at the ground it's noticeably warmer than up high on Mount Everest."
+    },
+    {
+      "i": 108,
+      "start": 311.34,
+      "end": 314.06,
+      "text": "It's much colder up there than down here at sea level,"
+    },
+    {
+      "i": 109,
+      "start": 314.06,
+      "end": 315.9,
+      "text": "say at the seaside."
+    },
+    {
+      "i": 110,
+      "start": 315.9,
+      "end": 318.14,
+      "text": "And that's the temperature gradient —"
+    },
+    {
+      "i": 111,
+      "start": 318.14,
+      "end": 320.66,
+      "text": "there's a profile, a gradient,"
+    },
+    {
+      "i": 112,
+      "start": 320.68,
+      "end": 322.38,
+      "text": "because the temperature gradient varies with these inversions"
+    },
+    {
+      "i": 113,
+      "start": 322.38,
+      "end": 323.58,
+      "text": "(unclear)"
+    },
+    {
+      "i": 114,
+      "start": 323.58,
+      "end": 325.51,
+      "text": "(unclear)"
+    },
+    {
+      "i": 115,
+      "start": 325.51,
+      "end": 334.99,
+      "text": "and other processes."
+    },
+    {
+      "i": 116,
+      "start": 334.99,
+      "end": 336.55,
+      "text": "(unclear)"
+    },
+    {
+      "i": 117,
+      "start": 336.55,
+      "end": 337.57,
+      "text": "(unclear)"
+    },
+    {
+      "i": 118,
+      "start": 337.57,
+      "end": 349.78,
+      "text": "(unclear)"
+    },
+    {
+      "i": 119,
+      "start": 349.78,
+      "end": 352.34,
+      "text": "The thermal cap is reached at the point"
+    },
+    {
+      "i": 120,
+      "start": 352.34,
+      "end": 354.34,
+      "text": "where the air mass has reached minus 2 degrees."
+    },
+    {
+      "i": 121,
+      "start": 354.34,
+      "end": 355.66,
+      "text": "And the ambient air,"
+    },
+    {
+      "i": 122,
+      "start": 355.66,
+      "end": 357.5,
+      "text": "wherever you are on the day,"
+    },
+    {
+      "i": 123,
+      "start": 357.5,
+      "end": 360.34,
+      "text": "is at some equilibrium point — it's exactly the same"
+    },
+    {
+      "i": 124,
+      "start": 360.34,
+      "end": 362.14,
+      "text": "as the parcel."
+    },
+    {
+      "i": 125,
+      "start": 362.14,
+      "end": 364.1,
+      "text": "Accordingly, the hot-air balloon"
+    },
+    {
+      "i": 126,
+      "start": 364.1,
+      "end": 365.9,
+      "text": "no longer has a heat advantage."
+    },
+    {
+      "i": 127,
+      "start": 365.9,
+      "end": 367.86,
+      "text": "And it won't rise any further."
+    },
+    {
+      "i": 128,
+      "start": 367.86,
+      "end": 370.58,
+      "text": "The thermal stops at an equilibrium point."
+    },
+    {
+      "i": 129,
+      "start": 370.58,
+      "end": 372.92,
+      "text": "Exactly."
+    },
+    {
+      "i": 130,
+      "start": 372.92,
+      "end": 376.29,
+      "text": "It has to do with the atmospheric state curve,"
+    },
+    {
+      "i": 131,
+      "start": 376.29,
+      "end": 378.29,
+      "text": "with the state of the atmosphere."
+    },
+    {
+      "i": 132,
+      "start": 378.41,
+      "end": 380.85,
+      "text": "The profile actually just describes the atmosphere,"
+    },
+    {
+      "i": 133,
+      "start": 380.85,
+      "end": 386.35,
+      "text": "the layering of the air masses as they sit."
+    },
+    {
+      "i": 134,
+      "start": 386.35,
+      "end": 387.87,
+      "text": "The cooling"
+    },
+    {
+      "i": 135,
+      "start": 387.87,
+      "end": 390.07,
+      "text": "that takes place here"
+    },
+    {
+      "i": 136,
+      "start": 390.07,
+      "end": 394.31,
+      "text": "is also described as an adiabatic process,"
+    },
+    {
+      "i": 137,
+      "start": 394.31,
+      "end": 396.51,
+      "text": "or adiabatic cooling."
+    },
+    {
+      "i": 138,
+      "start": 396.51,
+      "end": 397.91,
+      "text": "And there are two kinds."
+    },
+    {
+      "i": 139,
+      "start": 397.91,
+      "end": 400.99,
+      "text": "We'll get to those in a moment with the glider pilot,"
+    },
+    {
+      "i": 140,
+      "start": 400.99,
+      "end": 402.15,
+      "text": "and you can"
+    },
+    {
+      "i": 141,
+      "start": 402.15,
+      "end": 405.03,
+      "text": "picture how the air mass behaves from its starting state."
+    },
+    {
+      "i": 142,
+      "start": 405.03,
+      "end": 406.55,
+      "text": "Just shown another way,"
+    },
+    {
+      "i": 143,
+      "start": 406.55,
+      "end": 407.99,
+      "text": "to imagine"
+    },
+    {
+      "i": 144,
+      "start": 407.99,
+      "end": 409.91,
+      "text": "that we're dealing with two different air masses."
+    },
+    {
+      "i": 145,
+      "start": 409.91,
+      "end": 411.11,
+      "text": "That's really important."
+    },
+    {
+      "i": 146,
+      "start": 411.11,
+      "end": 413.95,
+      "text": "There's very little mixing between them."
+    },
+    {
+      "i": 147,
+      "start": 413.95,
+      "end": 416.79,
+      "text": "And especially for the theory exam, what you learn,"
+    },
+    {
+      "i": 148,
+      "start": 416.79,
+      "end": 419.51,
+      "text": "that's what's relevant."
+    },
+    {
+      "i": 149,
+      "start": 419.51,
+      "end": 422.23,
+      "text": "There's an advanced meteo course"
+    },
+    {
+      "i": 150,
+      "start": 422.23,
+      "end": 425.27,
+      "text": "where you'll learn a lot more about thermal theory."
+    },
+    {
+      "i": 151,
+      "start": 425.27,
+      "end": 426.87,
+      "text": "There are other effects there"
+    },
+    {
+      "i": 152,
+      "start": 426.87,
+      "end": 427.59,
+      "text": "that are relevant,"
+    },
+    {
+      "i": 153,
+      "start": 427.59,
+      "end": 433.86,
+      "text": "but they go too far for the basic theory course."
+    },
+    {
+      "i": 154,
+      "start": 433.86,
+      "end": 434.86,
+      "text": "Exactly."
+    },
+    {
+      "i": 155,
+      "start": 434.86,
+      "end": 436.66,
+      "text": "So now we have the temperature drop"
+    },
+    {
+      "i": 156,
+      "start": 436.66,
+      "end": 439.38,
+      "text": "that the air parcel goes through."
+    },
+    {
+      "i": 157,
+      "start": 439.38,
+      "end": 442.44,
+      "text": "And then a second factor comes in"
+    },
+    {
+      "i": 158,
+      "start": 442.44,
+      "end": 444.84,
+      "text": "that's really important for the pilot,"
+    },
+    {
+      "i": 159,
+      "start": 444.84,
+      "end": 447.24,
+      "text": "and that's humidity."
+    },
+    {
+      "i": 160,
+      "start": 447.24,
+      "end": 449.78,
+      "text": "In an air parcel —"
+    },
+    {
+      "i": 161,
+      "start": 449.78,
+      "end": 451.34,
+      "text": "in this room here too —"
+    },
+    {
+      "i": 162,
+      "start": 451.34,
+      "end": 454.38,
+      "text": "we have a mixture including water vapour."
+    },
+    {
+      "i": 163,
+      "start": 454.38,
+      "end": 457.54,
+      "text": "We don't just have oxygen and nitrogen,"
+    },
+    {
+      "i": 164,
+      "start": 457.54,
+      "end": 457.94,
+      "text": "but a mixture that includes water vapour."
+    },
+    {
+      "i": 165,
+      "start": 458.18,
+      "end": 464.32,
+      "text": "So in this air parcel there's a certain humidity."
+    },
+    {
+      "i": 166,
+      "start": 464.32,
+      "end": 464.92,
+      "text": "(unclear)"
+    },
+    {
+      "i": 167,
+      "start": 465.26,
+      "end": 468.04,
+      "text": "Depending on what kind of air mass it is,"
+    },
+    {
+      "i": 168,
+      "start": 468.04,
+      "end": 469.52,
+      "text": "you can picture it"
+    },
+    {
+      "i": 169,
+      "start": 469.62,
+      "end": 473.28,
+      "text": "with little blue dots representing water vapour"
+    },
+    {
+      "i": 170,
+      "start": 473.28,
+      "end": 474.34,
+      "text": "in there."
+    },
+    {
+      "i": 171,
+      "start": 474.34,
+      "end": 478.46,
+      "text": "And as the air parcel rises"
+    },
+    {
+      "i": 172,
+      "start": 478.46,
+      "end": 480.72,
+      "text": "and cools off,"
+    },
+    {
+      "i": 173,
+      "start": 480.72,
+      "end": 483.28,
+      "text": "at some point the water vapour"
+    },
+    {
+      "i": 174,
+      "start": 483.28,
+      "end": 485.4,
+      "text": "in the air parcel reaches"
+    },
+    {
+      "i": 175,
+      "start": 485.4,
+      "end": 488.3,
+      "text": "(unclear)"
+    },
+    {
+      "i": 176,
+      "start": 488.3,
+      "end": 493.43,
+      "text": "the change point where the air mass can no longer hold the humidity."
+    },
+    {
+      "i": 177,
+      "start": 493.43,
+      "end": 496.43,
+      "text": "And then"
+    },
+    {
+      "i": 178,
+      "start": 496.43,
+      "end": 499.43,
+      "text": "the gaseous water vapour"
+    },
+    {
+      "i": 179,
+      "start": 499.43,
+      "end": 502.43,
+      "text": "starts changing into liquid."
+    },
+    {
+      "i": 180,
+      "start": 502.43,
+      "end": 506.43,
+      "text": "Liquid is relative — we usually see it as clouds."
+    },
+    {
+      "i": 181,
+      "start": 506.43,
+      "end": 508.43,
+      "text": "Every bit of fog and every cloud"
+    },
+    {
+      "i": 182,
+      "start": 508.43,
+      "end": 511.43,
+      "text": "is essentially nothing other than"
+    },
+    {
+      "i": 183,
+      "start": 511.43,
+      "end": 513.43,
+      "text": "water in the air."
+    },
+    {
+      "i": 184,
+      "start": 513.43,
+      "end": 516.43,
+      "text": "Tiny, microscopic water droplets."
+    },
+    {
+      "i": 185,
+      "start": 516.43,
+      "end": 518.43,
+      "text": "You have to say — it's not like rain,"
+    },
+    {
+      "i": 186,
+      "start": 518.43,
+      "end": 520.43,
+      "text": "but really, really tiny droplets"
+    },
+    {
+      "i": 187,
+      "start": 520.43,
+      "end": 522.43,
+      "text": "that look to us, to the naked eye,"
+    },
+    {
+      "i": 188,
+      "start": 522.43,
+      "end": 524.43,
+      "text": "more like gas,"
+    },
+    {
+      "i": 189,
+      "start": 524.43,
+      "end": 527.52,
+      "text": "but they're actually water droplets in the air."
+    },
+    {
+      "i": 190,
+      "start": 527.52,
+      "end": 531.52,
+      "text": "And we talk about the condensation level here —"
+    },
+    {
+      "i": 191,
+      "start": 531.52,
+      "end": 533.52,
+      "text": "the water vapour simply condenses out."
+    },
+    {
+      "i": 192,
+      "start": 533.52,
+      "end": 534.52,
+      "text": "It comes out of the gas."
+    },
+    {
+      "i": 193,
+      "start": 534.52,
+      "end": 536.78,
+      "text": "Another term you'll come across"
+    },
+    {
+      "i": 194,
+      "start": 536.78,
+      "end": 538.78,
+      "text": "is relative humidity,"
+    },
+    {
+      "i": 195,
+      "start": 538.78,
+      "end": 541.39,
+      "text": "expressed as a percentage."
+    },
+    {
+      "i": 196,
+      "start": 541.39,
+      "end": 543.39,
+      "text": "At 100% you've reached the point"
+    },
+    {
+      "i": 197,
+      "start": 543.39,
+      "end": 546.39,
+      "text": "where the air mass can no longer hold any more moisture."
+    },
+    {
+      "i": 198,
+      "start": 548.7,
+      "end": 552.26,
+      "text": "Exactly."
+    },
+    {
+      "i": 199,
+      "start": 552.26,
+      "end": 555.26,
+      "text": "When the condensation process kicks in,"
+    },
+    {
+      "i": 200,
+      "start": 555.26,
+      "end": 558.26,
+      "text": "when the water vapour turns into water,"
+    },
+    {
+      "i": 201,
+      "start": 558.26,
+      "end": 561.26,
+      "text": "when it really becomes tiny water droplets,"
+    },
+    {
+      "i": 202,
+      "start": 561.26,
+      "end": 564.26,
+      "text": "then physically there's also"
+    },
+    {
+      "i": 203,
+      "start": 564.26,
+      "end": 566.26,
+      "text": "a phenomenon —"
+    },
+    {
+      "i": 204,
+      "start": 566.26,
+      "end": 569.26,
+      "text": "when it changes from gas to liquid,"
+    },
+    {
+      "i": 205,
+      "start": 569.26,
+      "end": 571.26,
+      "text": "heat is released."
+    },
+    {
+      "i": 206,
+      "start": 571.26,
+      "end": 573.26,
+      "text": "A little bit of heat is released."
+    },
+    {
+      "i": 207,
+      "start": 573.26,
+      "end": 576.26,
+      "text": "And likewise when it goes from liquid"
+    },
+    {
+      "i": 208,
+      "start": 576.26,
+      "end": 578.26,
+      "text": "to solid,"
+    },
+    {
+      "i": 209,
+      "start": 578.26,
+      "end": 581.26,
+      "text": "more heat is released —"
+    },
+    {
+      "i": 210,
+      "start": 581.26,
+      "end": 584.26,
+      "text": "a bit of energy is released in the process."
+    },
+    {
+      "i": 211,
+      "start": 584.26,
+      "end": 587.26,
+      "text": "The other way around it's reversed:"
+    },
+    {
+      "i": 212,
+      "start": 587.26,
+      "end": 590.26,
+      "text": "when you change states,"
+    },
+    {
+      "i": 213,
+      "start": 590.26,
+      "end": 594.26,
+      "text": "from solid to liquid or from liquid to gas,"
+    },
+    {
+      "i": 214,
+      "start": 594.26,
+      "end": 597.26,
+      "text": "then heat is consumed."
+    },
+    {
+      "i": 215,
+      "start": 597.26,
+      "end": 600.96,
+      "text": "An important point about the condensation process"
+    },
+    {
+      "i": 216,
+      "start": 600.96,
+      "end": 602.96,
+      "text": "is the rough rule of thumb"
+    },
+    {
+      "i": 217,
+      "start": 602.96,
+      "end": 604.96,
+      "text": "we can look at here."
+    },
+    {
+      "i": 218,
+      "start": 604.96,
+      "end": 605.96,
+      "text": "And it's important"
+    },
+    {
+      "i": 219,
+      "start": 605.96,
+      "end": 607.96,
+      "text": "to understand roughly what's happening."
+    },
+    {
+      "i": 220,
+      "start": 607.96,
+      "end": 610.67,
+      "text": "When the air mass rises,"
+    },
+    {
+      "i": 221,
+      "start": 610.67,
+      "end": 612.67,
+      "text": "it cools down."
+    },
+    {
+      "i": 222,
+      "start": 612.67,
+      "end": 613.67,
+      "text": "So as long as,"
+    },
+    {
+      "i": 223,
+      "start": 613.67,
+      "end": 614.67,
+      "text": "following the dry adiabat,"
+    },
+    {
+      "i": 224,
+      "start": 614.67,
+      "end": 615.67,
+      "text": "it rises"
+    },
+    {
+      "i": 225,
+      "start": 615.67,
+      "end": 616.67,
+      "text": "without"
+    },
+    {
+      "i": 226,
+      "start": 616.67,
+      "end": 617.67,
+      "text": "any condensation process"
+    },
+    {
+      "i": 227,
+      "start": 617.67,
+      "end": 618.67,
+      "text": "happening,"
+    },
+    {
+      "i": 228,
+      "start": 618.67,
+      "end": 619.67,
+      "text": "it's quite simple:"
+    },
+    {
+      "i": 229,
+      "start": 619.67,
+      "end": 620.67,
+      "text": "it's just 1 degree"
+    },
+    {
+      "i": 230,
+      "start": 620.67,
+      "end": 622.67,
+      "text": "per 100 metres."
+    },
+    {
+      "i": 231,
+      "start": 622.67,
+      "end": 623.67,
+      "text": "So as it rises,"
+    },
+    {
+      "i": 232,
+      "start": 623.67,
+      "end": 624.67,
+      "text": "it cools by 1 degree"
+    },
+    {
+      "i": 233,
+      "start": 624.67,
+      "end": 626.67,
+      "text": "per 100 metres."
+    },
+    {
+      "i": 234,
+      "start": 626.67,
+      "end": 628.8,
+      "text": "Within this thermal bubble."
+    },
+    {
+      "i": 235,
+      "start": 628.8,
+      "end": 629.8,
+      "text": "It's really simple —"
+    },
+    {
+      "i": 236,
+      "start": 629.8,
+      "end": 630.8,
+      "text": "an easy number to remember."
+    },
+    {
+      "i": 237,
+      "start": 630.8,
+      "end": 631.8,
+      "text": "Easy to remember."
+    },
+    {
+      "i": 238,
+      "start": 631.8,
+      "end": 632.8,
+      "text": "With the moist adiabat,"
+    },
+    {
+      "i": 239,
+      "start": 632.8,
+      "end": 633.8,
+      "text": "the adiabat,"
+    },
+    {
+      "i": 240,
+      "start": 633.8,
+      "end": 634.8,
+      "text": "the number is"
+    },
+    {
+      "i": 241,
+      "start": 634.8,
+      "end": 659.8,
+      "text": "lower,"
+    },
+    {
+      "i": 242,
+      "start": 659.8,
+      "end": 663.02,
+      "text": "(unclear)"
+    },
+    {
+      "i": 243,
+      "start": 663.02,
+      "end": 664.02,
+      "text": "(unclear)"
+    },
+    {
+      "i": 244,
+      "start": 664.02,
+      "end": 669.58,
+      "text": "because a warm air mass can hold more moisture than a cold one."
+    },
+    {
+      "i": 245,
+      "start": 669.58,
+      "end": 672.46,
+      "text": "A warm air mass holds more moisture,"
+    },
+    {
+      "i": 246,
+      "start": 672.46,
+      "end": 677.46,
+      "text": "starts to condense later than a colder air mass, like polar air."
+    },
+    {
+      "i": 247,
+      "start": 677.46,
+      "end": 681.1,
+      "text": "Accordingly the value is a bit higher."
+    },
+    {
+      "i": 248,
+      "start": 681.1,
+      "end": 686.33,
+      "text": "But for us it's enough to know that it's less than one degree."
+    },
+    {
+      "i": 249,
+      "start": 686.33,
+      "end": 691.39,
+      "text": "That's a quick rule of thumb for moist adiabatic cooling."
+    },
+    {
+      "i": 250,
+      "start": 691.51,
+      "end": 693.91,
+      "text": "We can keep the number in mind, and now let's look at"
+    },
+    {
+      "i": 251,
+      "start": 693.91,
+      "end": 698.25,
+      "text": "what this means in practice."
+    },
+    {
+      "i": 252,
+      "start": 698.25,
+      "end": 701.05,
+      "text": "Let's take an air mass that's rising."
+    },
+    {
+      "i": 253,
+      "start": 701.05,
+      "end": 706.09,
+      "text": "In this case, dry adiabatic cooling, one degree"
+    },
+    {
+      "i": 254,
+      "start": 706.09,
+      "end": 707.57,
+      "text": "per 100 metres."
+    },
+    {
+      "i": 255,
+      "start": 707.57,
+      "end": 711.13,
+      "text": "At a certain point the rising air mass reaches"
+    },
+    {
+      "i": 256,
+      "start": 711.13,
+      "end": 716.57,
+      "text": "the condensation level, and the condensation process begins."
+    },
+    {
+      "i": 257,
+      "start": 716.57,
+      "end": 720.01,
+      "text": "From that point the air mass only cools"
+    },
+    {
+      "i": 258,
+      "start": 720.01,
+      "end": 723.89,
+      "text": "in this case by 0.65 degrees per 100 metres."
+    },
+    {
+      "i": 259,
+      "start": 723.89,
+      "end": 726.61,
+      "text": "That's the moist adiabatic process."
+    },
+    {
+      "i": 260,
+      "start": 726.61,
+      "end": 730.13,
+      "text": "It continues until at some point"
+    },
+    {
+      "i": 261,
+      "start": 730.13,
+      "end": 735.51,
+      "text": "the air parcel has the same temperature as the surrounding air —"
+    },
+    {
+      "i": 262,
+      "start": 735.51,
+      "end": 739.23,
+      "text": "those are the two adiabatic cooling processes,"
+    },
+    {
+      "i": 263,
+      "start": 739.23,
+      "end": 745.39,
+      "text": "and that's exactly how it works."
+    },
+    {
+      "i": 264,
+      "start": 745.39,
+      "end": 751.35,
+      "text": "Then we have a picture from real flying."
+    },
+    {
+      "i": 265,
+      "start": 751.35,
+      "end": 752.91,
+      "text": "You see the landscape."
+    },
+    {
+      "i": 266,
+      "start": 752.91,
+      "end": 757.43,
+      "text": "Something triggers up front, where the air mass is best released."
+    },
+    {
+      "i": 267,
+      "start": 757.43,
+      "end": 760.83,
+      "text": "Or where the ground heats up the most."
+    },
+    {
+      "i": 268,
+      "start": 760.83,
+      "end": 763.31,
+      "text": "That's perpendicular solar radiation."
+    },
+    {
+      "i": 269,
+      "start": 763.31,
+      "end": 765.67,
+      "text": "There are a few spots that heat up a bit more"
+    },
+    {
+      "i": 270,
+      "start": 765.67,
+      "end": 766.83,
+      "text": "than the ground in general."
+    },
+    {
+      "i": 271,
+      "start": 766.83,
+      "end": 769.39,
+      "text": "In this case white surfaces, for instance,"
+    },
+    {
+      "i": 272,
+      "start": 769.39,
+      "end": 772.07,
+      "text": "heat up a bit more than the forest."
+    },
+    {
+      "i": 273,
+      "start": 772.07,
+      "end": 775.75,
+      "text": "And here in this scenario my thermal bubble starts up here,"
+    },
+    {
+      "i": 274,
+      "start": 775.75,
+      "end": 777.83,
+      "text": "rises and rises and rises."
+    },
+    {
+      "i": 275,
+      "start": 777.87,
+      "end": 780.15,
+      "text": "And at some point in this case it forms"
+    },
+    {
+      "i": 276,
+      "start": 780.15,
+      "end": 781.91,
+      "text": "a beautiful cumulus cloud"
+    },
+    {
+      "i": 277,
+      "start": 781.91,
+      "end": 785.07,
+      "text": "that marks the thermal bubble."
+    },
+    {
+      "i": 278,
+      "start": 785.07,
+      "end": 787.55,
+      "text": "If you have wind on top of that,"
+    },
+    {
+      "i": 279,
+      "start": 787.55,
+      "end": 790.23,
+      "text": "then it's the same as with a balloon rising —"
+    },
+    {
+      "i": 280,
+      "start": 790.23,
+      "end": 794.23,
+      "text": "it gets drifted by the wind."
+    },
+    {
+      "i": 281,
+      "start": 794.23,
+      "end": 796.99,
+      "text": "So it's a bit of a puzzle game,"
+    },
+    {
+      "i": 282,
+      "start": 796.99,
+      "end": 800.11,
+      "text": "when you get into cross-country flying — flights are always"
+    },
+    {
+      "i": 283,
+      "start": 800.11,
+      "end": 802.07,
+      "text": "a bit of piecing things together,"
+    },
+    {
+      "i": 284,
+      "start": 802.07,
+      "end": 803.59,
+      "text": "asking where the thermal releases"
+    },
+    {
+      "i": 285,
+      "start": 803.59,
+      "end": 806.63,
+      "text": "and where the nice cloud forms."
+    },
+    {
+      "i": 286,
+      "start": 806.63,
+      "end": 808.59,
+      "text": "Another important point —"
+    },
+    {
+      "i": 287,
+      "start": 808.59,
+      "end": 812.44,
+      "text": "the thermal, the rising thermal air mass,"
+    },
+    {
+      "i": 288,
+      "start": 812.44,
+      "end": 816.16,
+      "text": "doesn't always have to form a cumulus cloud."
+    },
+    {
+      "i": 289,
+      "start": 816.16,
+      "end": 819.04,
+      "text": "It can also be that the temperature advantage"
+    },
+    {
+      "i": 290,
+      "start": 819.04,
+      "end": 823.04,
+      "text": "of the thermal bubble, like the balloon, is exhausted —"
+    },
+    {
+      "i": 291,
+      "start": 823.04,
+      "end": 824.64,
+      "text": "that things equalise"
+    },
+    {
+      "i": 292,
+      "start": 824.64,
+      "end": 827.8,
+      "text": "before the condensation process happens."
+    },
+    {
+      "i": 293,
+      "start": 827.8,
+      "end": 829.44,
+      "text": "Then you have exactly the same thing happening,"
+    },
+    {
+      "i": 294,
+      "start": 829.44,
+      "end": 831.72,
+      "text": "the same thermal,"
+    },
+    {
+      "i": 295,
+      "start": 831.72,
+      "end": 833.84,
+      "text": "but it stops rising"
+    },
+    {
+      "i": 296,
+      "start": 833.84,
+      "end": 836.2,
+      "text": "before condensation occurs."
+    },
+    {
+      "i": 297,
+      "start": 836.2,
+      "end": 838.48,
+      "text": "Accordingly we talk about blue thermals."
+    },
+    {
+      "i": 298,
+      "start": 838.48,
+      "end": 841.48,
+      "text": "That's the term — a blue thermal"
+    },
+    {
+      "i": 299,
+      "start": 841.48,
+      "end": 843.04,
+      "text": "is really nothing other than a thermal"
+    },
+    {
+      "i": 300,
+      "start": 843.04,
+      "end": 845.52,
+      "text": "that never condensed."
+    },
+    {
+      "i": 301,
+      "start": 845.52,
+      "end": 849.3,
+      "text": "Exactly."
+    },
+    {
+      "i": 302,
+      "start": 849.3,
+      "end": 850.78,
+      "text": "Another term in thermal theory"
+    },
+    {
+      "i": 303,
+      "start": 850.78,
+      "end": 854.74,
+      "text": "you'll come across is the lee —"
+    },
+    {
+      "i": 304,
+      "start": 854.74,
+      "end": 860.54,
+      "text": "around the lee, sheltered from the wind,"
+    },
+    {
+      "i": 305,
+      "start": 860.54,
+      "end": 863.98,
+      "text": "the wind-sheltered side of the mountain."
+    },
+    {
+      "i": 306,
+      "start": 863.98,
+      "end": 866.02,
+      "text": "The side facing away from the wind on the mountains."
+    },
+    {
+      "i": 307,
+      "start": 866.84,
+      "end": 869.24,
+      "text": "We have sun-exposed slopes,"
+    },
+    {
+      "i": 308,
+      "start": 869.24,
+      "end": 873.0,
+      "text": "and the surfaces that are at the right angle to the sun"
+    },
+    {
+      "i": 309,
+      "start": 873.0,
+      "end": 875.12,
+      "text": "heat up more than the other side."
+    },
+    {
+      "i": 310,
+      "start": 875.12,
+      "end": 878.52,
+      "text": "Accordingly the thermal releases best there."
+    },
+    {
+      "i": 311,
+      "start": 878.52,
+      "end": 880.64,
+      "text": "So we talk about lee thermals,"
+    },
+    {
+      "i": 312,
+      "start": 880.64,
+      "end": 881.44,
+      "text": "thermals that typically come up"
+    },
+    {
+      "i": 313,
+      "start": 881.44,
+      "end": 884.52,
+      "text": "on the wind-sheltered side."
+    },
+    {
+      "i": 314,
+      "start": 884.52,
+      "end": 886.28,
+      "text": "This of course happens mostly"
+    },
+    {
+      "i": 315,
+      "start": 886.28,
+      "end": 889.6,
+      "text": "when you have northerly wind in the Alps for example,"
+    },
+    {
+      "i": 316,
+      "start": 889.6,
+      "end": 892.52,
+      "text": "because in the Alps the south-facing sides of the mountains"
+    },
+    {
+      "i": 317,
+      "start": 892.52,
+      "end": 894.0,
+      "text": "are always best,"
+    },
+    {
+      "i": 318,
+      "start": 894.0,
+      "end": 895.6,
+      "text": "so the side benefits most"
+    },
+    {
+      "i": 319,
+      "start": 895.6,
+      "end": 898.68,
+      "text": "when you have a northerly wind or Bise,"
+    },
+    {
+      "i": 320,
+      "start": 898.68,
+      "end": 900.2,
+      "text": "the wind comes from the north."
+    },
+    {
+      "i": 321,
+      "start": 900.2,
+      "end": 905.62,
+      "text": "Accordingly the lee thermal is very pronounced."
+    },
+    {
+      "i": 322,
+      "start": 905.62,
+      "end": 907.86,
+      "text": "Lee thermals usually have the characteristic"
+    },
+    {
+      "i": 323,
+      "start": 907.86,
+      "end": 910.06,
+      "text": "of being more turbulent."
+    },
+    {
+      "i": 324,
+      "start": 910.06,
+      "end": 913.46,
+      "text": "We've already seen lee or mechanical turbulence."
+    },
+    {
+      "i": 325,
+      "start": 913.46,
+      "end": 914.9,
+      "text": "We'll keep coming back to it."
+    },
+    {
+      "i": 326,
+      "start": 914.9,
+      "end": 916.98,
+      "text": "We have mechanical turbulence"
+    },
+    {
+      "i": 327,
+      "start": 916.98,
+      "end": 919.46,
+      "text": "that of course breaks the thermal up."
+    },
+    {
+      "i": 328,
+      "start": 919.46,
+      "end": 920.86,
+      "text": "It's a leeside rotor"
+    },
+    {
+      "i": 329,
+      "start": 920.86,
+      "end": 925.6,
+      "text": "that, depending on wind strength, makes the thermal more turbulent."
+    },
+    {
+      "i": 330,
+      "start": 925.6,
+      "end": 929.16,
+      "text": "But mostly the lee thermal is also stronger."
+    },
+    {
+      "i": 331,
+      "start": 929.16,
+      "end": 933.2,
+      "text": "Because the air parcel sheltered in the lee, in the wind-protected area,"
+    },
+    {
+      "i": 332,
+      "start": 933.2,
+      "end": 936.0,
+      "text": "has more time to heat up,"
+    },
+    {
+      "i": 333,
+      "start": 936.0,
+      "end": 937.2,
+      "text": "it heats up,"
+    },
+    {
+      "i": 334,
+      "start": 937.2,
+      "end": 938.6,
+      "text": "absorbs much more heat,"
+    },
+    {
+      "i": 335,
+      "start": 938.6,
+      "end": 941.88,
+      "text": "than a windward thermal, for example,"
+    },
+    {
+      "i": 336,
+      "start": 941.88,
+      "end": 945.08,
+      "text": "where, if the wind blows the other way,"
+    },
+    {
+      "i": 337,
+      "start": 945.08,
+      "end": 948.68,
+      "text": "the air parcel keeps getting blown away."
+    },
+    {
+      "i": 338,
+      "start": 948.68,
+      "end": 953.0,
+      "text": "And the air mass in the wind"
+    },
+    {
+      "i": 339,
+      "start": 953.0,
+      "end": 955.88,
+      "text": "doesn't heat up as long as in the lee thermal."
+    },
+    {
+      "i": 340,
+      "start": 955.88,
+      "end": 958.88,
+      "text": "This is something that's more advanced,"
+    },
+    {
+      "i": 341,
+      "start": 958.88,
+      "end": 961.08,
+      "text": "but it's good to know — what's important"
+    },
+    {
+      "i": 342,
+      "start": 961.08,
+      "end": 967.4,
+      "text": "is just to know that there's such a thing as a lee thermal."
+    },
+    {
+      "i": 343,
+      "start": 967.4,
+      "end": 969.56,
+      "text": "Now let's go back to the temperature curve"
+    },
+    {
+      "i": 344,
+      "start": 969.56,
+      "end": 974.2,
+      "text": "we started with — let's go through it again."
+    },
+    {
+      "i": 345,
+      "start": 974.2,
+      "end": 975.2,
+      "text": "It's really important."
+    },
+    {
+      "i": 346,
+      "start": 975.2,
+      "end": 976.2,
+      "text": "There are two air masses."
+    },
+    {
+      "i": 347,
+      "start": 976.2,
+      "end": 978.2,
+      "text": "We're talking about the thermal, the air mass"
+    },
+    {
+      "i": 348,
+      "start": 978.2,
+      "end": 979.32,
+      "text": "that rises."
+    },
+    {
+      "i": 349,
+      "start": 979.32,
+      "end": 982.12,
+      "text": "And we're talking about the air mass"
+    },
+    {
+      "i": 350,
+      "start": 982.12,
+      "end": 985.28,
+      "text": "that just sits there at night,"
+    },
+    {
+      "i": 351,
+      "start": 985.28,
+      "end": 988.12,
+      "text": "which represents the state of the entire air mass"
+    },
+    {
+      "i": 352,
+      "start": 988.12,
+      "end": 990.12,
+      "text": "over Switzerland at that moment."
+    },
+    {
+      "i": 353,
+      "start": 990.12,
+      "end": 992.6,
+      "text": "And from this point on"
+    },
+    {
+      "i": 354,
+      "start": 992.6,
+      "end": 994.6,
+      "text": "we're really only talking about the air mass,"
+    },
+    {
+      "i": 355,
+      "start": 994.6,
+      "end": 995.6,
+      "text": "not the thermal."
+    },
+    {
+      "i": 356,
+      "start": 995.6,
+      "end": 999.4,
+      "text": "There are different scenarios."
+    },
+    {
+      "i": 357,
+      "start": 999.4,
+      "end": 1001.4,
+      "text": "Ideally,"
+    },
+    {
+      "i": 358,
+      "start": 1001.4,
+      "end": 1002.4,
+      "text": "or normally,"
+    },
+    {
+      "i": 359,
+      "start": 1002.4,
+      "end": 1004.4,
+      "text": "the warm air mass —"
+    },
+    {
+      "i": 360,
+      "start": 1004.4,
+      "end": 1005.4,
+      "text": "it gets colder with altitude."
+    },
+    {
+      "i": 361,
+      "start": 1005.4,
+      "end": 1007.4,
+      "text": "So it gets colder the higher you go."
+    },
+    {
+      "i": 362,
+      "start": 1007.4,
+      "end": 1009.4,
+      "text": "Then we talk about an unstable"
+    },
+    {
+      "i": 363,
+      "start": 1009.4,
+      "end": 1010.4,
+      "text": "layering of the air."
+    },
+    {
+      "i": 364,
+      "start": 1010.4,
+      "end": 1012.5,
+      "text": "You can picture this:"
+    },
+    {
+      "i": 365,
+      "start": 1012.5,
+      "end": 1014.5,
+      "text": "as the air balloon rises,"
+    },
+    {
+      "i": 366,
+      "start": 1014.5,
+      "end": 1016.5,
+      "text": "it can hold its temperature advantage for a long time,"
+    },
+    {
+      "i": 367,
+      "start": 1016.5,
+      "end": 1018.5,
+      "text": "because the surroundings get colder,"
+    },
+    {
+      "i": 368,
+      "start": 1018.5,
+      "end": 1020.5,
+      "text": "rather than the other way round."
+    },
+    {
+      "i": 369,
+      "start": 1020.5,
+      "end": 1022.5,
+      "text": "The other case is"
+    },
+    {
+      "i": 370,
+      "start": 1022.5,
+      "end": 1024.5,
+      "text": "a so-called inversion."
+    },
+    {
+      "i": 371,
+      "start": 1024.5,
+      "end": 1026.5,
+      "text": "These come with special weather situations,"
+    },
+    {
+      "i": 372,
+      "start": 1026.5,
+      "end": 1028.5,
+      "text": "for example with high-pressure influence —"
+    },
+    {
+      "i": 373,
+      "start": 1028.5,
+      "end": 1030.5,
+      "text": "you get inversions,"
+    },
+    {
+      "i": 374,
+      "start": 1030.5,
+      "end": 1032.5,
+      "text": "where the opposite is true,"
+    },
+    {
+      "i": 375,
+      "start": 1032.5,
+      "end": 1034.5,
+      "text": "where it's cold in the valley"
+    },
+    {
+      "i": 376,
+      "start": 1034.5,
+      "end": 1036.5,
+      "text": "and up at the mountain summit"
+    },
+    {
+      "i": 377,
+      "start": 1036.5,
+      "end": 1037.5,
+      "text": "it's very warm."
+    },
+    {
+      "i": 378,
+      "start": 1037.5,
+      "end": 1039.5,
+      "text": "You know this in winter perhaps,"
+    },
+    {
+      "i": 379,
+      "start": 1039.5,
+      "end": 1041.5,
+      "text": "maybe,"
+    },
+    {
+      "i": 380,
+      "start": 1041.5,
+      "end": 1043.5,
+      "text": "it's cold,"
+    },
+    {
+      "i": 381,
+      "start": 1043.5,
+      "end": 1045.5,
+      "text": "and up at the mountain summit,"
+    },
+    {
+      "i": 382,
+      "start": 1045.5,
+      "end": 1047.5,
+      "text": "skiing, you have the most beautiful weather,"
+    },
+    {
+      "i": 383,
+      "start": 1047.5,
+      "end": 1049.5,
+      "text": "you're almost in a T-shirt."
+    },
+    {
+      "i": 384,
+      "start": 1049.5,
+      "end": 1051.5,
+      "text": "That's a so-called inversion."
+    },
+    {
+      "i": 385,
+      "start": 1051.5,
+      "end": 1053.53,
+      "text": "And now picture this:"
+    },
+    {
+      "i": 386,
+      "start": 1053.53,
+      "end": 1055.85,
+      "text": "if a thermal rises through into"
+    },
+    {
+      "i": 387,
+      "start": 1055.85,
+      "end": 1056.85,
+      "text": "an inversion,"
+    },
+    {
+      "i": 388,
+      "start": 1056.85,
+      "end": 1058.85,
+      "text": "where suddenly it gets warmer with altitude,"
+    },
+    {
+      "i": 389,
+      "start": 1058.85,
+      "end": 1060.85,
+      "text": "then we no longer have a temperature advantage."
+    },
+    {
+      "i": 390,
+      "start": 1060.85,
+      "end": 1062.85,
+      "text": "Then there's a stop,"
+    },
+    {
+      "i": 391,
+      "start": 1062.85,
+      "end": 1063.85,
+      "text": "the air masses simply can't keep rising."
+    },
+    {
+      "i": 392,
+      "start": 1063.85,
+      "end": 1067.85,
+      "text": "Accordingly we talk about a very stable layering."
+    },
+    {
+      "i": 393,
+      "start": 1067.85,
+      "end": 1068.85,
+      "text": "That's a stable layering."
+    },
+    {
+      "i": 394,
+      "start": 1068.85,
+      "end": 1070.85,
+      "text": "So very little thermal activity is to be expected,"
+    },
+    {
+      "i": 395,
+      "start": 1070.85,
+      "end": 1072.85,
+      "text": "very calm air masses,"
+    },
+    {
+      "i": 396,
+      "start": 1072.85,
+      "end": 1074.85,
+      "text": "and you get really milky conditions."
+    },
+    {
+      "i": 397,
+      "start": 1074.85,
+      "end": 1076.85,
+      "text": "Calm conditions,"
+    },
+    {
+      "i": 398,
+      "start": 1076.85,
+      "end": 1078.85,
+      "text": "beautiful for hike-and-fly and so on,"
+    },
+    {
+      "i": 399,
+      "start": 1078.85,
+      "end": 1080.85,
+      "text": "but not so great for thermal flying."
+    },
+    {
+      "i": 400,
+      "start": 1080.85,
+      "end": 1083.14,
+      "text": "And then in between you have"
+    },
+    {
+      "i": 401,
+      "start": 1083.14,
+      "end": 1085.14,
+      "text": "a so-called isothermal layer."
+    },
+    {
+      "i": 402,
+      "start": 1085.14,
+      "end": 1086.14,
+      "text": "That's the one"
+    },
+    {
+      "i": 403,
+      "start": 1086.14,
+      "end": 1089.27,
+      "text": "where the temperature with altitude"
+    },
+    {
+      "i": 404,
+      "start": 1089.27,
+      "end": 1090.27,
+      "text": "stays exactly the same."
+    },
+    {
+      "i": 405,
+      "start": 1090.27,
+      "end": 1092.27,
+      "text": "So if you have 60 degrees in the valley"
+    },
+    {
+      "i": 406,
+      "start": 1092.27,
+      "end": 1094.27,
+      "text": "and 60 degrees at the summit,"
+    },
+    {
+      "i": 407,
+      "start": 1094.27,
+      "end": 1096.27,
+      "text": "then that's the so-called isothermal,"
+    },
+    {
+      "i": 408,
+      "start": 1096.27,
+      "end": 1099.27,
+      "text": "an unchanging air layer."
+    },
+    {
+      "i": 409,
+      "start": 1099.27,
+      "end": 1100.27,
+      "text": "Exactly."
+    },
+    {
+      "i": 410,
+      "start": 1100.27,
+      "end": 1103.58,
+      "text": "The normal state,"
+    },
+    {
+      "i": 411,
+      "start": 1103.58,
+      "end": 1104.58,
+      "text": "though, in the atmosphere,"
+    },
+    {
+      "i": 412,
+      "start": 1104.58,
+      "end": 1105.58,
+      "text": "is definitely"
+    },
+    {
+      "i": 413,
+      "start": 1105.58,
+      "end": 1106.58,
+      "text": "cooling with altitude,"
+    },
+    {
+      "i": 414,
+      "start": 1106.58,
+      "end": 1107.58,
+      "text": "getting colder and colder."
+    },
+    {
+      "i": 415,
+      "start": 1107.58,
+      "end": 1112.12,
+      "text": "Now there are some exam questions"
+    },
+    {
+      "i": 416,
+      "start": 1112.12,
+      "end": 1115.15,
+      "text": "on these inversions"
+    },
+    {
+      "i": 417,
+      "start": 1115.15,
+      "end": 1117.15,
+      "text": "or unstable stratifications"
+    },
+    {
+      "i": 418,
+      "start": 1117.15,
+      "end": 1120.15,
+      "text": "where you see a temperature gradient written out."
+    },
+    {
+      "i": 419,
+      "start": 1120.15,
+      "end": 1123.15,
+      "text": "The text might say at 500 m it's 50 degrees,"
+    },
+    {
+      "i": 420,
+      "start": 1123.15,
+      "end": 1125.15,
+      "text": "at 800 m it's 40 degrees —"
+    },
+    {
+      "i": 421,
+      "start": 1125.15,
+      "end": 1127.15,
+      "text": "the gradient is listed like that."
+    },
+    {
+      "i": 422,
+      "start": 1127.15,
+      "end": 1129.15,
+      "text": "And then you're asked:"
+    },
+    {
+      "i": 423,
+      "start": 1129.15,
+      "end": 1131.15,
+      "text": "OK, where do we have an inversion?"
+    },
+    {
+      "i": 424,
+      "start": 1131.15,
+      "end": 1133.53,
+      "text": "Then you think it through,"
+    },
+    {
+      "i": 425,
+      "start": 1133.53,
+      "end": 1135.53,
+      "text": "you work through the data,"
+    },
+    {
+      "i": 426,
+      "start": 1135.53,
+      "end": 1137.53,
+      "text": "you look at 500 m, and remember."
+    },
+    {
+      "i": 427,
+      "start": 1137.53,
+      "end": 1139.53,
+      "text": "And remember — an inversion"
+    },
+    {
+      "i": 428,
+      "start": 1139.53,
+      "end": 1141.53,
+      "text": "is the reverse of the air layering."
+    },
+    {
+      "i": 429,
+      "start": 1141.53,
+      "end": 1143.53,
+      "text": "That means it gets warmer with altitude."
+    },
+    {
+      "i": 430,
+      "start": 1143.53,
+      "end": 1145.53,
+      "text": "Then you just have to spot the numbers."
+    },
+    {
+      "i": 431,
+      "start": 1145.53,
+      "end": 1147.53,
+      "text": "In this example,"
+    },
+    {
+      "i": 432,
+      "start": 1147.53,
+      "end": 1149.53,
+      "text": "it would be 50 degrees and at 800 m it's 60 degrees."
+    },
+    {
+      "i": 433,
+      "start": 1149.53,
+      "end": 1151.79,
+      "text": "That would be an inversion."
+    },
+    {
+      "i": 434,
+      "start": 1151.79,
+      "end": 1153.79,
+      "text": "The same with a high-altitude inversion —"
+    },
+    {
+      "i": 435,
+      "start": 1153.79,
+      "end": 1155.79,
+      "text": "the same thing happens,"
+    },
+    {
+      "i": 436,
+      "start": 1155.79,
+      "end": 1157.79,
+      "text": "just at higher altitude."
+    },
+    {
+      "i": 437,
+      "start": 1157.79,
+      "end": 1159.79,
+      "text": "Or an isothermal,"
+    },
+    {
+      "i": 438,
+      "start": 1159.79,
+      "end": 1161.79,
+      "text": "at both altitudes"
+    },
+    {
+      "i": 439,
+      "start": 1161.79,
+      "end": 1163.79,
+      "text": "the same — unchanging air layer."
+    },
+    {
+      "i": 440,
+      "start": 1163.79,
+      "end": 1165.11,
+      "text": "Exactly."
+    },
+    {
+      "i": 441,
+      "start": 1165.11,
+      "end": 1168.2,
+      "text": "There's a little exam-rule example."
+    },
+    {
+      "i": 442,
+      "start": 1168.2,
+      "end": 1170.2,
+      "text": "Then we can move on to the next chapter,"
+    },
+    {
+      "i": 443,
+      "start": 1170.2,
+      "end": 1173.1,
+      "text": "what's important,"
+    },
+    {
+      "i": 444,
+      "start": 1173.1,
+      "end": 1175.1,
+      "text": "we'll do the chapter on"
+    },
+    {
+      "i": 445,
+      "start": 1175.1,
+      "end": 1177.1,
+      "text": "cloud naming,"
+    },
+    {
+      "i": 446,
+      "start": 1177.1,
+      "end": 1179.1,
+      "text": "cloud shapes,"
+    },
+    {
+      "i": 447,
+      "start": 1179.1,
+      "end": 1181.29,
+      "text": "how clouds form and what we need to know."
+    },
+    {
+      "i": 448,
+      "start": 1181.29,
+      "end": 1183.29,
+      "text": "With clouds it's the case"
+    },
+    {
+      "i": 449,
+      "start": 1183.29,
+      "end": 1185.29,
+      "text": "that we're working with a system"
+    },
+    {
+      "i": 450,
+      "start": 1185.29,
+      "end": 1187.29,
+      "text": "of Latin names,"
+    },
+    {
+      "i": 451,
+      "start": 1187.29,
+      "end": 1189.29,
+      "text": "and it's very complicated"
+    },
+    {
+      "i": 452,
+      "start": 1189.29,
+      "end": 1190.29,
+      "text": "to remember and to memorise."
+    },
+    {
+      "i": 453,
+      "start": 1190.29,
+      "end": 1192.29,
+      "text": "And altogether it's a real jungle."
+    },
+    {
+      "i": 454,
+      "start": 1192.29,
+      "end": 1194.29,
+      "text": "So let's try to bring some order to it"
+    },
+    {
+      "i": 455,
+      "start": 1194.29,
+      "end": 1196.29,
+      "text": "and get back to basics."
+    },
+    {
+      "i": 456,
+      "start": 1196.29,
+      "end": 1199.8,
+      "text": "For cloud naming,"
+    },
+    {
+      "i": 457,
+      "start": 1199.8,
+      "end": 1202.12,
+      "text": "in my head,"
+    },
+    {
+      "i": 458,
+      "start": 1202.12,
+      "end": 1204.12,
+      "text": "I picture a two-by-three grid,"
+    },
+    {
+      "i": 459,
+      "start": 1204.12,
+      "end": 1206.12,
+      "text": "and maybe also a separate"
+    },
+    {
+      "i": 460,
+      "start": 1206.12,
+      "end": 1208.12,
+      "text": "box for special clouds"
+    },
+    {
+      "i": 461,
+      "start": 1208.12,
+      "end": 1210.12,
+      "text": "that don't fit into the grid."
+    },
+    {
+      "i": 462,
+      "start": 1210.12,
+      "end": 1212.12,
+      "text": "But the two-by-three grid is a good starting point."
+    },
+    {
+      "i": 463,
+      "start": 1213.96,
+      "end": 1214.96,
+      "text": "And fundamentally"
+    },
+    {
+      "i": 464,
+      "start": 1214.96,
+      "end": 1216.44,
+      "text": "there are two main types"
+    },
+    {
+      "i": 465,
+      "start": 1216.44,
+      "end": 1218.44,
+      "text": "of cloud."
+    },
+    {
+      "i": 466,
+      "start": 1218.44,
+      "end": 1220.44,
+      "text": "One is a cumulus cloud,"
+    },
+    {
+      "i": 467,
+      "start": 1220.44,
+      "end": 1222.44,
+      "text": "a cumulus,"
+    },
+    {
+      "i": 468,
+      "start": 1222.44,
+      "end": 1224.44,
+      "text": "a clumping cloud,"
+    },
+    {
+      "i": 469,
+      "start": 1224.44,
+      "end": 1226.44,
+      "text": "a build-up — a gathering of moisture."
+    },
+    {
+      "i": 470,
+      "start": 1226.44,
+      "end": 1228.44,
+      "text": "Those are heap-clouds —"
+    },
+    {
+      "i": 471,
+      "start": 1228.44,
+      "end": 1230.44,
+      "text": "they're called heap-clouds,"
+    },
+    {
+      "i": 472,
+      "start": 1230.44,
+      "end": 1231.44,
+      "text": "all the ones"
+    },
+    {
+      "i": 473,
+      "start": 1231.44,
+      "end": 1233.44,
+      "text": "with 'cumulus' in the name,"
+    },
+    {
+      "i": 474,
+      "start": 1233.44,
+      "end": 1234.44,
+      "text": "and then there's stratus,"
+    },
+    {
+      "i": 475,
+      "start": 1234.44,
+      "end": 1236.44,
+      "text": "which is a layer cloud."
+    },
+    {
+      "i": 476,
+      "start": 1236.44,
+      "end": 1238.44,
+      "text": "Anything like,"
+    },
+    {
+      "i": 477,
+      "start": 1238.44,
+      "end": 1240.44,
+      "text": "for instance,"
+    },
+    {
+      "i": 478,
+      "start": 1240.44,
+      "end": 1242.44,
+      "text": "fog — that's a real layer cloud."
+    },
+    {
+      "i": 479,
+      "start": 1242.44,
+      "end": 1245.43,
+      "text": "Anything that lies nicely horizontally"
+    },
+    {
+      "i": 480,
+      "start": 1245.43,
+      "end": 1247.43,
+      "text": "in cloud fields."
+    },
+    {
+      "i": 481,
+      "start": 1247.43,
+      "end": 1249.43,
+      "text": "These two cloud types"
+    },
+    {
+      "i": 482,
+      "start": 1271.95,
+      "end": 1273.95,
+      "text": "differ above all"
+    },
+    {
+      "i": 483,
+      "start": 1273.95,
+      "end": 1275.95,
+      "text": "in their formation,"
+    },
+    {
+      "i": 484,
+      "start": 1276.95,
+      "end": 1278.95,
+      "text": "with very strong vertical air-mass exchange taking place."
+    },
+    {
+      "i": 485,
+      "start": 1278.95,
+      "end": 1280.95,
+      "text": "It's a layer cloud,"
+    },
+    {
+      "i": 486,
+      "start": 1280.95,
+      "end": 1283.88,
+      "text": "where everything just sits."
+    },
+    {
+      "i": 487,
+      "start": 1283.88,
+      "end": 1285.88,
+      "text": "Just to give you some understanding"
+    },
+    {
+      "i": 488,
+      "start": 1285.88,
+      "end": 1287.88,
+      "text": "of what happens"
+    },
+    {
+      "i": 489,
+      "start": 1287.88,
+      "end": 1289.88,
+      "text": "with these two cloud types."
+    },
+    {
+      "i": 490,
+      "start": 1289.88,
+      "end": 1291.88,
+      "text": "Then there's the storey,"
+    },
+    {
+      "i": 491,
+      "start": 1291.88,
+      "end": 1293.88,
+      "text": "the different altitudes of the clouds."
+    },
+    {
+      "i": 492,
+      "start": 1293.88,
+      "end": 1295.88,
+      "text": "We have cirrus clouds,"
+    },
+    {
+      "i": 493,
+      "start": 1295.88,
+      "end": 1297.88,
+      "text": "cirrus stands for ice crystal."
+    },
+    {
+      "i": 494,
+      "start": 1297.88,
+      "end": 1301.42,
+      "text": "That's a very high-altitude layer,"
+    },
+    {
+      "i": 495,
+      "start": 1301.42,
+      "end": 1303.42,
+      "text": "clouds made of ice crystals."
+    },
+    {
+      "i": 496,
+      "start": 1303.42,
+      "end": 1304.42,
+      "text": "Then we have the alto"
+    },
+    {
+      "i": 497,
+      "start": 1304.42,
+      "end": 1306.42,
+      "text": "storey."
+    },
+    {
+      "i": 498,
+      "start": 1307.42,
+      "end": 1324.63,
+      "text": "That's the high cloud layers,"
+    },
+    {
+      "i": 499,
+      "start": 1324.63,
+      "end": 1326.87,
+      "text": "and then we have"
+    },
+    {
+      "i": 500,
+      "start": 1326.87,
+      "end": 1328.87,
+      "text": "the altitudes are always relative,"
+    },
+    {
+      "i": 501,
+      "start": 1328.87,
+      "end": 1330.87,
+      "text": "we've talked about this multiple times."
+    },
+    {
+      "i": 502,
+      "start": 1330.87,
+      "end": 1332.87,
+      "text": "We're talking about 3 km to 8 km."
+    },
+    {
+      "i": 503,
+      "start": 1332.87,
+      "end": 1333.87,
+      "text": "That's not a fixed altitude."
+    },
+    {
+      "i": 504,
+      "start": 1365.38,
+      "end": 1367.38,
+      "text": "But what's important"
+    },
+    {
+      "i": 505,
+      "start": 1367.38,
+      "end": 1369.86,
+      "text": "is that these are the cloud names,"
+    },
+    {
+      "i": 506,
+      "start": 1369.86,
+      "end": 1371.86,
+      "text": "then we have the altocumulus"
+    },
+    {
+      "i": 507,
+      "start": 1371.86,
+      "end": 1373.86,
+      "text": "and the altostratus,"
+    },
+    {
+      "i": 508,
+      "start": 1373.86,
+      "end": 1375.86,
+      "text": "lower we have cumulus and stratus."
+    },
+    {
+      "i": 509,
+      "start": 1375.86,
+      "end": 1376.86,
+      "text": "Those are the basic forms."
+    },
+    {
+      "i": 510,
+      "start": 1376.86,
+      "end": 1378.86,
+      "text": "What's also important —"
+    },
+    {
+      "i": 511,
+      "start": 1378.86,
+      "end": 1380.86,
+      "text": "cumulus and altocumulus"
+    },
+    {
+      "i": 512,
+      "start": 1380.86,
+      "end": 1382.86,
+      "text": "differ mainly in that"
+    },
+    {
+      "i": 513,
+      "start": 1382.86,
+      "end": 1384.86,
+      "text": "cumulus is driven by the sun."
+    },
+    {
+      "i": 514,
+      "start": 1384.86,
+      "end": 1386.86,
+      "text": "It's really a thermal updraft,"
+    },
+    {
+      "i": 515,
+      "start": 1386.86,
+      "end": 1387.86,
+      "text": "as we just discussed."
+    },
+    {
+      "i": 516,
+      "start": 1387.86,
+      "end": 1389.86,
+      "text": "Altocumulus doesn't need any sun-driven trigger,"
+    },
+    {
+      "i": 517,
+      "start": 1389.86,
+      "end": 1390.86,
+      "text": "that happens differently."
+    },
+    {
+      "i": 518,
+      "start": 1390.86,
+      "end": 1391.86,
+      "text": "There we simply have,"
+    },
+    {
+      "i": 519,
+      "start": 1391.86,
+      "end": 1393.86,
+      "text": "when a cold mass pushes into the air,"
+    },
+    {
+      "i": 520,
+      "start": 1393.86,
+      "end": 1395.86,
+      "text": "it gets lifted and forms cumulus-like clouds."
+    },
+    {
+      "i": 521,
+      "start": 1395.86,
+      "end": 1398.02,
+      "text": "Everything on the left side"
+    },
+    {
+      "i": 522,
+      "start": 1398.02,
+      "end": 1400.02,
+      "text": "happens with an unstable air layering."
+    },
+    {
+      "i": 523,
+      "start": 1400.02,
+      "end": 1402.02,
+      "text": "The air rises well,"
+    },
+    {
+      "i": 524,
+      "start": 1402.02,
+      "end": 1404.02,
+      "text": "we're back to unstable-stable."
+    },
+    {
+      "i": 525,
+      "start": 1404.02,
+      "end": 1406.5,
+      "text": "And everything on the right side,"
+    },
+    {
+      "i": 526,
+      "start": 1406.5,
+      "end": 1409.5,
+      "text": "if you have a stable air layer pushing into the air,"
+    },
+    {
+      "i": 527,
+      "start": 1409.5,
+      "end": 1411.5,
+      "text": "then it doesn't rise much."
+    },
+    {
+      "i": 528,
+      "start": 1411.5,
+      "end": 1414.5,
+      "text": "And if you hit an inversion too,"
+    },
+    {
+      "i": 529,
+      "start": 1414.5,
+      "end": 1415.5,
+      "text": "you hit it,"
+    },
+    {
+      "i": 530,
+      "start": 1415.5,
+      "end": 1417.5,
+      "text": "then those are the two cloud types"
+    },
+    {
+      "i": 531,
+      "start": 1417.5,
+      "end": 1419.5,
+      "text": "that come together"
+    },
+    {
+      "i": 532,
+      "start": 1419.5,
+      "end": 1421.5,
+      "text": "from both behaviours."
+    },
+    {
+      "i": 533,
+      "start": 1421.5,
+      "end": 1422.5,
+      "text": "It's very easy to recognise,"
+    },
+    {
+      "i": 534,
+      "start": 1422.5,
+      "end": 1424.5,
+      "text": "from the Latin names"
+    },
+    {
+      "i": 535,
+      "start": 1424.5,
+      "end": 1425.5,
+      "text": "in the grid."
+    },
+    {
+      "i": 536,
+      "start": 1425.5,
+      "end": 1426.5,
+      "text": "Now we'll take"
+    },
+    {
+      "i": 537,
+      "start": 1426.5,
+      "end": 1428.5,
+      "text": "a few special clouds —"
+    },
+    {
+      "i": 538,
+      "start": 1428.5,
+      "end": 1430.5,
+      "text": "we have a few special boxes too."
+    },
+    {
+      "i": 539,
+      "start": 1430.5,
+      "end": 1433.24,
+      "text": "The first cloud,"
+    },
+    {
+      "i": 540,
+      "start": 1433.24,
+      "end": 1434.24,
+      "text": "in the stratus range,"
+    },
+    {
+      "i": 541,
+      "start": 1434.24,
+      "end": 1436.24,
+      "text": "is the so-called nimbostratus,"
+    },
+    {
+      "i": 542,
+      "start": 1436.24,
+      "end": 1438.24,
+      "text": "nimbo-strat for rain."
+    },
+    {
+      "i": 543,
+      "start": 1438.24,
+      "end": 1440.24,
+      "text": "Accordingly, a layer cloud"
+    },
+    {
+      "i": 544,
+      "start": 1440.24,
+      "end": 1442.24,
+      "text": "that really rains itself out —"
+    },
+    {
+      "i": 545,
+      "start": 1442.24,
+      "end": 1444.24,
+      "text": "we often have it with a warm front for example,"
+    },
+    {
+      "i": 546,
+      "start": 1444.24,
+      "end": 1446.24,
+      "text": "or in a low-pressure system,"
+    },
+    {
+      "i": 547,
+      "start": 1446.24,
+      "end": 1448.24,
+      "text": "in a situation where it's just pouring,"
+    },
+    {
+      "i": 548,
+      "start": 1448.24,
+      "end": 1449.24,
+      "text": "where it's just raining,"
+    },
+    {
+      "i": 549,
+      "start": 1449.24,
+      "end": 1450.24,
+      "text": "with that grey soup"
+    },
+    {
+      "i": 550,
+      "start": 1450.24,
+      "end": 1451.24,
+      "text": "hanging over you,"
+    },
+    {
+      "i": 551,
+      "start": 1451.24,
+      "end": 1452.24,
+      "text": "and the rain pouring out of it."
+    },
+    {
+      "i": 552,
+      "start": 1452.24,
+      "end": 1454.24,
+      "text": "That's typically a nimbostratus,"
+    },
+    {
+      "i": 553,
+      "start": 1454.24,
+      "end": 1455.24,
+      "text": "yes,"
+    },
+    {
+      "i": 554,
+      "start": 1455.24,
+      "end": 1457.16,
+      "text": "to put it like that."
+    },
+    {
+      "i": 555,
+      "start": 1457.16,
+      "end": 1459.16,
+      "text": "Then we have the cumulonimbus,"
+    },
+    {
+      "i": 556,
+      "start": 1459.16,
+      "end": 1461.16,
+      "text": "(unclear)"
+    },
+    {
+      "i": 557,
+      "start": 1461.16,
+      "end": 1463.16,
+      "text": "where it's no longer simply"
+    },
+    {
+      "i": 558,
+      "start": 1463.16,
+      "end": 1464.16,
+      "text": "(unclear)."
+    },
+    {
+      "i": 559,
+      "start": 1464.16,
+      "end": 1481.16,
+      "text": "(unclear)"
+    },
+    {
+      "i": 560,
+      "start": 1481.16,
+      "end": 1482.16,
+      "text": "(unclear)"
+    },
+    {
+      "i": 561,
+      "start": 1482.16,
+      "end": 1487.23,
+      "text": "What flashes and thunders and rains, and is really dangerous for us, is in this sense the cumulonimbus."
+    },
+    {
+      "i": 562,
+      "start": 1487.23,
+      "end": 1493.23,
+      "text": "The ones that really go from the lower storey all the way up to the tropopause."
+    },
+    {
+      "i": 563,
+      "start": 1493.23,
+      "end": 1496.23,
+      "text": "We'll come back to those in a moment."
+    },
+    {
+      "i": 564,
+      "start": 1496.23,
+      "end": 1500.23,
+      "text": "Logically there are many more special clouds and detailed names,"
+    },
+    {
+      "i": 565,
+      "start": 1500.23,
+      "end": 1505.23,
+      "text": "but for you now, for normal flying,"
+    },
+    {
+      "i": 566,
+      "start": 1505.23,
+      "end": 1507.23,
+      "text": "the rest is really what's relevant."
+    },
+    {
+      "i": 567,
+      "start": 1508.23,
+      "end": 1510.23,
+      "text": "If you want to dig further, look it up."
+    },
+    {
+      "i": 568,
+      "start": 1510.23,
+      "end": 1514.64,
+      "text": "On the topic of clouds, there's also cloud cover,"
+    },
+    {
+      "i": 569,
+      "start": 1514.64,
+      "end": 1518.64,
+      "text": "which you'll read again and again in weather reports or for gliding,"
+    },
+    {
+      "i": 570,
+      "start": 1518.64,
+      "end": 1521.64,
+      "text": "weather reports, etc."
+    },
+    {
+      "i": 571,
+      "start": 1521.64,
+      "end": 1523.64,
+      "text": "It's always expressed in eighths."
+    },
+    {
+      "i": 572,
+      "start": 1523.64,
+      "end": 1527.68,
+      "text": "So eight-eighths cover is a closed cloud cover."
+    },
+    {
+      "i": 573,
+      "start": 1527.68,
+      "end": 1530.68,
+      "text": "You can't see any blue sky, it's completely covered."
+    },
+    {
+      "i": 574,
+      "start": 1530.68,
+      "end": 1534.68,
+      "text": "Zero eighths means logically no clouds — maybe just blue thermals,"
+    },
+    {
+      "i": 575,
+      "start": 1534.68,
+      "end": 1537.68,
+      "text": "perhaps with a few wisps."
+    },
+    {
+      "i": 576,
+      "start": 1537.68,
+      "end": 1539.68,
+      "text": "We always come back to nuances."
+    },
+    {
+      "i": 577,
+      "start": 1539.68,
+      "end": 1546.68,
+      "text": "Accordingly you get different sub-grades — two-eighths means two-eighths of the sky is covered,"
+    },
+    {
+      "i": 578,
+      "start": 1546.68,
+      "end": 1551.12,
+      "text": "and the other six-eighths are blue and clear."
+    },
+    {
+      "i": 579,
+      "start": 1551.12,
+      "end": 1553.12,
+      "text": "And four-eighths is half-covered."
+    },
+    {
+      "i": 580,
+      "start": 1553.12,
+      "end": 1557.12,
+      "text": "Four-eighths is a pretty nice cloud cover for thermal flying."
+    },
+    {
+      "i": 581,
+      "start": 1557.12,
+      "end": 1561.12,
+      "text": "Something between three and four eighths, when you've got nice cumulus clouds."
+    },
+    {
+      "i": 582,
+      "start": 1561.12,
+      "end": 1568.12,
+      "text": "And there's still enough blue sky for the sun to heat the ground, for nice weather, for thermals to develop."
+    },
+    {
+      "i": 583,
+      "start": 1568.12,
+      "end": 1570.12,
+      "text": "That's it for cloud cover."
+    },
+    {
+      "i": 584,
+      "start": 1570.12,
+      "end": 1577.33,
+      "text": "Then a really exciting cloud is the lenticularis,"
+    },
+    {
+      "i": 585,
+      "start": 1577.33,
+      "end": 1581.33,
+      "text": "fairly special, one most pilots know or come across quickly."
+    },
+    {
+      "i": 586,
+      "start": 1581.33,
+      "end": 1587.97,
+      "text": "Lenticularis needs two or three ingredients: it needs a mountain range."
+    },
+    {
+      "i": 587,
+      "start": 1587.97,
+      "end": 1592.42,
+      "text": "The other is very strong wind — so lenticularis clouds"
+    },
+    {
+      "i": 588,
+      "start": 1592.42,
+      "end": 1595.48,
+      "text": "always indicate very, very strong winds aloft."
+    },
+    {
+      "i": 589,
+      "start": 1595.48,
+      "end": 1600.9,
+      "text": "And of course we need a bit of humidity for them to form."
+    },
+    {
+      "i": 590,
+      "start": 1600.9,
+      "end": 1607.9,
+      "text": "It usually happens directly above mountain summits, or on the lee side of a range."
+    },
+    {
+      "i": 591,
+      "start": 1607.9,
+      "end": 1613.09,
+      "text": "Because rotors form there — the air moves in a wave,"
+    },
+    {
+      "i": 592,
+      "start": 1613.09,
+      "end": 1617.09,
+      "text": "what we call a standing wave, because it always moves up the wave,"
+    },
+    {
+      "i": 593,
+      "start": 1617.09,
+      "end": 1620.09,
+      "text": "the air rises, forms a wave shape,"
+    },
+    {
+      "i": 594,
+      "start": 1620.09,
+      "end": 1624.09,
+      "text": "then sinks again, stops condensing, and you get wave clouds."
+    },
+    {
+      "i": 595,
+      "start": 1624.09,
+      "end": 1628.02,
+      "text": "What's important for us to know for flying"
+    },
+    {
+      "i": 596,
+      "start": 1628.02,
+      "end": 1630.08,
+      "text": "is that this means very strong winds."
+    },
+    {
+      "i": 597,
+      "start": 1630.08,
+      "end": 1633.08,
+      "text": "But because the mountain stays in the same place,"
+    },
+    {
+      "i": 598,
+      "start": 1633.08,
+      "end": 1634.08,
+      "text": "it stays."
+    },
+    {
+      "i": 599,
+      "start": 1634.08,
+      "end": 1638.08,
+      "text": "And the wave, the standing wave, more or less always stays in the same place,"
+    },
+    {
+      "i": 600,
+      "start": 1638.08,
+      "end": 1640.08,
+      "text": "the cloud stays stationary."
+    },
+    {
+      "i": 601,
+      "start": 1640.08,
+      "end": 1646.08,
+      "text": "So the air parcel rises, sinks again and stops condensing."
+    },
+    {
+      "i": 602,
+      "start": 1647.08,
+      "end": 1650.08,
+      "text": "And accordingly we get clouds that look"
+    },
+    {
+      "i": 603,
+      "start": 1650.08,
+      "end": 1652.08,
+      "text": "as if humidity is supplied to them."
+    },
+    {
+      "i": 604,
+      "start": 1652.08,
+      "end": 1654.08,
+      "text": "But the cloud always stays in the same place."
+    },
+    {
+      "i": 605,
+      "start": 1654.08,
+      "end": 1656.08,
+      "text": "That's an important thing."
+    },
+    {
+      "i": 606,
+      "start": 1656.08,
+      "end": 1659.08,
+      "text": "So just because a cloud stays still doesn't mean there's no wind."
+    },
+    {
+      "i": 607,
+      "start": 1659.08,
+      "end": 1660.24,
+      "text": "Of course."
+    },
+    {
+      "i": 608,
+      "start": 1660.24,
+      "end": 1663.24,
+      "text": "But the cloud shapes are very striking."
+    },
+    {
+      "i": 609,
+      "start": 1663.24,
+      "end": 1666.24,
+      "text": "And for all paraglider pilots, it's always a bit of an alarm sign"
+    },
+    {
+      "i": 610,
+      "start": 1666.24,
+      "end": 1668.24,
+      "text": "when you see a lenticularis cloud."
+    },
+    {
+      "i": 611,
+      "start": 1668.24,
+      "end": 1670.91,
+      "text": "Exactly."
+    },
+    {
+      "i": 612,
+      "start": 1670.91,
+      "end": 1675.91,
+      "text": "The most important topic for paraglider pilots is always thunderstorms."
+    },
+    {
+      "i": 613,
+      "start": 1675.91,
+      "end": 1680.55,
+      "text": "With thunderstorms, the thing is, a thunderstorm is really nothing other than"
+    },
+    {
+      "i": 614,
+      "start": 1680.55,
+      "end": 1685.55,
+      "text": "a cumulus cloud that has grown and grown and grown and grown."
+    },
+    {
+      "i": 615,
+      "start": 1685.55,
+      "end": 1689.77,
+      "text": "It's really one huge mega-thermal cloud."
+    },
+    {
+      "i": 616,
+      "start": 1689.77,
+      "end": 1691.77,
+      "text": "And that's what makes it so dangerous for us,"
+    },
+    {
+      "i": 617,
+      "start": 1691.77,
+      "end": 1694.77,
+      "text": "because when we fly thermals, we fly exactly on those days"
+    },
+    {
+      "i": 618,
+      "start": 1694.77,
+      "end": 1698.93,
+      "text": "when storms can develop or when there may be storms."
+    },
+    {
+      "i": 619,
+      "start": 1698.93,
+      "end": 1700.93,
+      "text": "And so we really need to know clearly"
+    },
+    {
+      "i": 620,
+      "start": 1700.93,
+      "end": 1703.93,
+      "text": "what the dangers of thunderstorms are, and we need to be careful"
+    },
+    {
+      "i": 621,
+      "start": 1703.93,
+      "end": 1705.93,
+      "text": "when the thunderclouds naturally get bigger."
+    },
+    {
+      "i": 622,
+      "start": 1707.96,
+      "end": 1709.96,
+      "text": "It usually starts in the morning,"
+    },
+    {
+      "i": 623,
+      "start": 1709.96,
+      "end": 1710.96,
+      "text": "the first cumulus clouds,"
+    },
+    {
+      "i": 624,
+      "start": 1710.96,
+      "end": 1712.96,
+      "text": "we go flying around eleven,"
+    },
+    {
+      "i": 625,
+      "start": 1712.96,
+      "end": 1714.96,
+      "text": "everything beautiful, wonderful flying conditions."
+    },
+    {
+      "i": 626,
+      "start": 1714.96,
+      "end": 1720.47,
+      "text": "And then the thunderclouds, or the cumulus clouds, really get a bit bigger."
+    },
+    {
+      "i": 627,
+      "start": 1720.47,
+      "end": 1722.47,
+      "text": "And of course they develop with the sun."
+    },
+    {
+      "i": 628,
+      "start": 1722.47,
+      "end": 1725.79,
+      "text": "We always need the engine of the sun."
+    },
+    {
+      "i": 629,
+      "start": 1725.79,
+      "end": 1727.79,
+      "text": "And the engine slowly starts up like an ignition,"
+    },
+    {
+      "i": 630,
+      "start": 1727.79,
+      "end": 1730.79,
+      "text": "let's say, like an engine that's just being started up."
+    },
+    {
+      "i": 631,
+      "start": 1730.79,
+      "end": 1732.79,
+      "text": "And we have to slowly start being careful,"
+    },
+    {
+      "i": 632,
+      "start": 1732.79,
+      "end": 1734.79,
+      "text": "when the cumulus clouds, the cloud bases,"
+    },
+    {
+      "i": 633,
+      "start": 1734.79,
+      "end": 1736.79,
+      "text": "start joining together."
+    },
+    {
+      "i": 634,
+      "start": 1737.79,
+      "end": 1739.95,
+      "text": "We had small clouds."
+    },
+    {
+      "i": 635,
+      "start": 1739.95,
+      "end": 1742.95,
+      "text": "And for example, two clouds merge."
+    },
+    {
+      "i": 636,
+      "start": 1742.95,
+      "end": 1744.95,
+      "text": "But now we're talking about large surfaces."
+    },
+    {
+      "i": 637,
+      "start": 1744.95,
+      "end": 1746.95,
+      "text": "It's no longer little puffies,"
+    },
+    {
+      "i": 638,
+      "start": 1746.95,
+      "end": 1748.95,
+      "text": "but really large clouds"
+    },
+    {
+      "i": 639,
+      "start": 1748.95,
+      "end": 1750.95,
+      "text": "that have several kilometres' extent."
+    },
+    {
+      "i": 640,
+      "start": 1750.95,
+      "end": 1752.95,
+      "text": "And as soon as the cloud bases,"
+    },
+    {
+      "i": 641,
+      "start": 1766.95,
+      "end": 1768.95,
+      "text": "the water droplets,"
+    },
+    {
+      "i": 642,
+      "start": 1768.95,
+      "end": 1770.95,
+      "text": "and eventually, when the cloud gets really tall,"
+    },
+    {
+      "i": 643,
+      "start": 1770.95,
+      "end": 1772.95,
+      "text": "we can block out the sun's rays."
+    },
+    {
+      "i": 644,
+      "start": 1772.95,
+      "end": 1773.95,
+      "text": "And that's the point"
+    },
+    {
+      "i": 645,
+      "start": 1773.95,
+      "end": 1775.95,
+      "text": "when the cloud slowly starts getting dark."
+    },
+    {
+      "i": 646,
+      "start": 1775.95,
+      "end": 1779.68,
+      "text": "The shadow, underneath, beneath the base, also gets dark."
+    },
+    {
+      "i": 647,
+      "start": 1779.68,
+      "end": 1781.68,
+      "text": "And that's the point"
+    },
+    {
+      "i": 648,
+      "start": 1781.68,
+      "end": 1783.68,
+      "text": "when you have to start paying attention."
+    },
+    {
+      "i": 649,
+      "start": 1783.68,
+      "end": 1785.68,
+      "text": "And of course it has a lot to do with experience —"
+    },
+    {
+      "i": 650,
+      "start": 1785.68,
+      "end": 1786.68,
+      "text": "how long do we still fly,"
+    },
+    {
+      "i": 651,
+      "start": 1786.68,
+      "end": 1788.68,
+      "text": "how long do we stay under this cloud?"
+    },
+    {
+      "i": 652,
+      "start": 1788.68,
+      "end": 1790.68,
+      "text": "Is it already a big cloud or not?"
+    },
+    {
+      "i": 653,
+      "start": 1790.68,
+      "end": 1792.68,
+      "text": "That's really in the area"
+    },
+    {
+      "i": 654,
+      "start": 1792.68,
+      "end": 1794.68,
+      "text": "where as you progress"
+    },
+    {
+      "i": 655,
+      "start": 1794.68,
+      "end": 1795.68,
+      "text": "you learn more and more,"
+    },
+    {
+      "i": 656,
+      "start": 1795.68,
+      "end": 1797.68,
+      "text": "because it really comes down to flying experience."
+    },
+    {
+      "i": 657,
+      "start": 1797.68,
+      "end": 1799.68,
+      "text": "And one basic rule is:"
+    },
+    {
+      "i": 658,
+      "start": 1799.68,
+      "end": 1801.68,
+      "text": "when it starts lifting everywhere,"
+    },
+    {
+      "i": 659,
+      "start": 1801.68,
+      "end": 1803.68,
+      "text": "it's always hard"
+    },
+    {
+      "i": 660,
+      "start": 1803.68,
+      "end": 1806.68,
+      "text": "to find the thermal, to find the local updrafts."
+    },
+    {
+      "i": 661,
+      "start": 1806.68,
+      "end": 1808.68,
+      "text": "And then it starts lifting everywhere,"
+    },
+    {
+      "i": 662,
+      "start": 1808.68,
+      "end": 1809.68,
+      "text": "all over the valley,"
+    },
+    {
+      "i": 663,
+      "start": 1809.68,
+      "end": 1810.68,
+      "text": "no falling air."
+    },
+    {
+      "i": 664,
+      "start": 1810.68,
+      "end": 1812.68,
+      "text": "It rises and the cloud grows,"
+    },
+    {
+      "i": 665,
+      "start": 1812.68,
+      "end": 1814.68,
+      "text": "and that's when you really need to be careful."
+    },
+    {
+      "i": 666,
+      "start": 1814.68,
+      "end": 1817.68,
+      "text": "Then the thunder"
+    },
+    {
+      "i": 667,
+      "start": 1817.68,
+      "end": 1819.68,
+      "text": "from the storm slowly starts."
+    },
+    {
+      "i": 668,
+      "start": 1819.68,
+      "end": 1822.32,
+      "text": "And yes, if"
+    },
+    {
+      "i": 669,
+      "start": 1822.32,
+      "end": 1824.32,
+      "text": "they keep merging more and more,"
+    },
+    {
+      "i": 670,
+      "start": 1824.32,
+      "end": 1825.32,
+      "text": "they come together,"
+    },
+    {
+      "i": 671,
+      "start": 1825.32,
+      "end": 1827.32,
+      "text": "they get higher and higher."
+    },
+    {
+      "i": 672,
+      "start": 1827.32,
+      "end": 1829.32,
+      "text": "And it doesn't really need any more power"
+    },
+    {
+      "i": 673,
+      "start": 1829.32,
+      "end": 1830.32,
+      "text": "from the sun,"
+    },
+    {
+      "i": 674,
+      "start": 1830.32,
+      "end": 1831.32,
+      "text": "because the storm starts of course"
+    },
+    {
+      "i": 675,
+      "start": 1831.32,
+      "end": 1832.32,
+      "text": "to spin a lot more."
+    },
+    {
+      "i": 676,
+      "start": 1832.32,
+      "end": 1834.32,
+      "text": "Because warm air rises,"
+    },
+    {
+      "i": 677,
+      "start": 1834.32,
+      "end": 1835.32,
+      "text": "cools off,"
+    },
+    {
+      "i": 678,
+      "start": 1835.32,
+      "end": 1836.32,
+      "text": "cools further,"
+    },
+    {
+      "i": 679,
+      "start": 1836.32,
+      "end": 1837.32,
+      "text": "and then, when it's cold,"
+    },
+    {
+      "i": 680,
+      "start": 1837.32,
+      "end": 1838.32,
+      "text": "the air sinks,"
+    },
+    {
+      "i": 681,
+      "start": 1838.32,
+      "end": 1839.04,
+      "text": "the warm air"
+    },
+    {
+      "i": 682,
+      "start": 1839.04,
+      "end": 1841.32,
+      "text": "rises even faster, and you get a chain reaction,"
+    },
+    {
+      "i": 683,
+      "start": 1841.32,
+      "end": 1842.32,
+      "text": "a turbo,"
+    },
+    {
+      "i": 684,
+      "start": 1842.32,
+      "end": 1843.32,
+      "text": "that starts running."
+    },
+    {
+      "i": 685,
+      "start": 1843.32,
+      "end": 1845.32,
+      "text": "And the cloud doesn't always grow,"
+    },
+    {
+      "i": 686,
+      "start": 1845.32,
+      "end": 1848.32,
+      "text": "but often grows up to the tropopause."
+    },
+    {
+      "i": 687,
+      "start": 1848.32,
+      "end": 1851.32,
+      "text": "And then you get the beautiful anvil shapes of the cloud."
+    },
+    {
+      "i": 688,
+      "start": 1851.32,
+      "end": 1853.32,
+      "text": "That's when the thundercloud"
+    },
+    {
+      "i": 689,
+      "start": 1853.32,
+      "end": 1854.32,
+      "text": "hits the top,"
+    },
+    {
+      "i": 690,
+      "start": 1854.32,
+      "end": 1855.32,
+      "text": "the tropopause —"
+    },
+    {
+      "i": 691,
+      "start": 1855.32,
+      "end": 1856.32,
+      "text": "you can imagine it"
+    },
+    {
+      "i": 692,
+      "start": 1856.32,
+      "end": 1859.32,
+      "text": "like a plexiglass lid above the cloud,"
+    },
+    {
+      "i": 693,
+      "start": 1859.32,
+      "end": 1861.32,
+      "text": "and then it can only spread sideways"
+    },
+    {
+      "i": 694,
+      "start": 1861.32,
+      "end": 1863.32,
+      "text": "and forms the anvil."
+    },
+    {
+      "i": 695,
+      "start": 1863.32,
+      "end": 1865.41,
+      "text": "And in this phase,"
+    },
+    {
+      "i": 696,
+      "start": 1865.41,
+      "end": 1867.41,
+      "text": "when it's really developed,"
+    },
+    {
+      "i": 697,
+      "start": 1867.41,
+      "end": 1869.41,
+      "text": "there's a lot of friction"
+    },
+    {
+      "i": 698,
+      "start": 1869.41,
+      "end": 1870.41,
+      "text": "in the air masses"
+    },
+    {
+      "i": 699,
+      "start": 1870.41,
+      "end": 1871.41,
+      "text": "as they rise and fall."
+    },
+    {
+      "i": 700,
+      "start": 1871.41,
+      "end": 1873.41,
+      "text": "And in this process"
+    },
+    {
+      "i": 701,
+      "start": 1873.41,
+      "end": 1874.41,
+      "text": "you get lightning sometimes"
+    },
+    {
+      "i": 702,
+      "start": 1874.41,
+      "end": 1876.41,
+      "text": "and above all there's precipitation."
+    },
+    {
+      "i": 703,
+      "start": 1876.41,
+      "end": 1877.41,
+      "text": "Hmm."
+    },
+    {
+      "i": 704,
+      "start": 1877.41,
+      "end": 1879.41,
+      "text": "More on that."
+    },
+    {
+      "i": 705,
+      "start": 1879.41,
+      "end": 1880.41,
+      "text": "And something"
+    },
+    {
+      "i": 706,
+      "start": 1880.41,
+      "end": 1882.41,
+      "text": "I really want to drum in"
+    },
+    {
+      "i": 707,
+      "start": 1882.41,
+      "end": 1883.41,
+      "text": "is:"
+    },
+    {
+      "i": 708,
+      "start": 1883.41,
+      "end": 1884.41,
+      "text": "everyone is scared of a thunderstorm"
+    },
+    {
+      "i": 709,
+      "start": 1884.41,
+      "end": 1885.41,
+      "text": "when they're under it,"
+    },
+    {
+      "i": 710,
+      "start": 1885.41,
+      "end": 1886.41,
+      "text": "and you know the stories"
+    },
+    {
+      "i": 711,
+      "start": 1886.41,
+      "end": 1887.41,
+      "text": "that should never need to be told,"
+    },
+    {
+      "i": 712,
+      "start": 1887.41,
+      "end": 1888.41,
+      "text": "about the pilots and so on."
+    },
+    {
+      "i": 713,
+      "start": 1888.41,
+      "end": 1890.41,
+      "text": "The updraft is also extreme,"
+    },
+    {
+      "i": 714,
+      "start": 1890.41,
+      "end": 1892.41,
+      "text": "so we really need to be careful."
+    },
+    {
+      "i": 715,
+      "start": 1892.41,
+      "end": 1893.41,
+      "text": "Hmm."
+    },
+    {
+      "i": 716,
+      "start": 1893.41,
+      "end": 1895.41,
+      "text": "But what we have to be even more careful of"
+    },
+    {
+      "i": 717,
+      "start": 1895.41,
+      "end": 1896.41,
+      "text": "is the danger"
+    },
+    {
+      "i": 718,
+      "start": 1896.41,
+      "end": 1898.41,
+      "text": "from the outflow of the thunderstorm."
+    },
+    {
+      "i": 719,
+      "start": 1898.41,
+      "end": 1899.48,
+      "text": "The air mass"
+    },
+    {
+      "i": 720,
+      "start": 1899.48,
+      "end": 1901.48,
+      "text": "that rose and got extremely cooled off,"
+    },
+    {
+      "i": 721,
+      "start": 1901.48,
+      "end": 1904.51,
+      "text": "up at 13,000 metres,"
+    },
+    {
+      "i": 722,
+      "start": 1904.51,
+      "end": 1906.51,
+      "text": "cools at some point,"
+    },
+    {
+      "i": 723,
+      "start": 1906.51,
+      "end": 1907.51,
+      "text": "and it's like a bucket"
+    },
+    {
+      "i": 724,
+      "start": 1907.51,
+      "end": 1909.51,
+      "text": "that gets emptied out."
+    },
+    {
+      "i": 725,
+      "start": 1909.51,
+      "end": 1910.51,
+      "text": "And accordingly"
+    },
+    {
+      "i": 726,
+      "start": 1911.67,
+      "end": 1930.67,
+      "text": "it empties out, the warm,"
+    },
+    {
+      "i": 727,
+      "start": 1930.67,
+      "end": 1931.67,
+      "text": "the cold air comes out,"
+    },
+    {
+      "i": 728,
+      "start": 1931.67,
+      "end": 1933.67,
+      "text": "the precipitation,"
+    },
+    {
+      "i": 729,
+      "start": 1933.67,
+      "end": 1934.67,
+      "text": "the released cold."
+    },
+    {
+      "i": 730,
+      "start": 1934.67,
+      "end": 1936.76,
+      "text": "It hits us and"
+    },
+    {
+      "i": 731,
+      "start": 1936.76,
+      "end": 1937.76,
+      "text": "we don't want to be in it,"
+    },
+    {
+      "i": 732,
+      "start": 1937.76,
+      "end": 1939.76,
+      "text": "and these are real examples."
+    },
+    {
+      "i": 733,
+      "start": 1940.76,
+      "end": 1943.76,
+      "text": "And it's very, very unpleasant."
+    },
+    {
+      "i": 734,
+      "start": 1943.76,
+      "end": 1945.76,
+      "text": "This cold air, the outflow,"
+    },
+    {
+      "i": 735,
+      "start": 1945.76,
+      "end": 1946.76,
+      "text": "can in some circumstances,"
+    },
+    {
+      "i": 736,
+      "start": 1946.76,
+      "end": 1948.76,
+      "text": "when the next thunderstorm triggers,"
+    },
+    {
+      "i": 737,
+      "start": 1948.76,
+      "end": 1949.76,
+      "text": "where again warm air masses,"
+    },
+    {
+      "i": 738,
+      "start": 1949.76,
+      "end": 1951.76,
+      "text": "say in the valley floor lying there,"
+    },
+    {
+      "i": 739,
+      "start": 1951.76,
+      "end": 1953.76,
+      "text": "cold air comes down,"
+    },
+    {
+      "i": 740,
+      "start": 1953.76,
+      "end": 1954.76,
+      "text": "the warm rises further"
+    },
+    {
+      "i": 741,
+      "start": 1954.76,
+      "end": 1957.76,
+      "text": "and you get the next storm cell"
+    },
+    {
+      "i": 742,
+      "start": 1957.76,
+      "end": 1959.76,
+      "text": "and even more storms."
+    },
+    {
+      "i": 743,
+      "start": 1959.76,
+      "end": 1961.76,
+      "text": "So we really need to be careful"
+    },
+    {
+      "i": 744,
+      "start": 1961.76,
+      "end": 1963.76,
+      "text": "of these cold outflows from thunderstorms."
+    },
+    {
+      "i": 745,
+      "start": 1963.76,
+      "end": 1965.76,
+      "text": "It's almost as dangerous as being under them."
+    },
+    {
+      "i": 746,
+      "start": 1965.76,
+      "end": 1967.76,
+      "text": "In any case it's dangerous,"
+    },
+    {
+      "i": 747,
+      "start": 1967.76,
+      "end": 1969.76,
+      "text": "but cold outflows are something"
+    },
+    {
+      "i": 748,
+      "start": 1969.76,
+      "end": 1971.76,
+      "text": "that unfortunately many pilots underestimate,"
+    },
+    {
+      "i": 749,
+      "start": 1971.76,
+      "end": 1972.76,
+      "text": "again and again."
+    },
+    {
+      "i": 750,
+      "start": 1972.76,
+      "end": 1975.14,
+      "text": "Now you see,"
+    },
+    {
+      "i": 751,
+      "start": 1975.14,
+      "end": 1976.14,
+      "text": "if you see one here too,"
+    },
+    {
+      "i": 752,
+      "start": 1976.14,
+      "end": 1977.14,
+      "text": "looking like that,"
+    },
+    {
+      "i": 753,
+      "start": 1977.14,
+      "end": 1979.14,
+      "text": "if you of course don't want to be flying out"
+    },
+    {
+      "i": 754,
+      "start": 1979.14,
+      "end": 1980.14,
+      "text": "with a cloud like that,"
+    },
+    {
+      "i": 755,
+      "start": 1980.14,
+      "end": 1982.14,
+      "text": "then it's all over anyway."
+    },
+    {
+      "i": 756,
+      "start": 1982.14,
+      "end": 1984.14,
+      "text": "It's an ultimatum"
+    },
+    {
+      "i": 757,
+      "start": 1984.14,
+      "end": 1985.14,
+      "text": "either to land,"
+    },
+    {
+      "i": 758,
+      "start": 1985.14,
+      "end": 1986.14,
+      "text": "or fly as far away as possible,"
+    },
+    {
+      "i": 759,
+      "start": 1986.14,
+      "end": 1987.14,
+      "text": "and then as fast"
+    },
+    {
+      "i": 760,
+      "start": 1987.14,
+      "end": 1988.14,
+      "text": "as possible, land."
+    },
+    {
+      "i": 761,
+      "start": 1988.14,
+      "end": 1990.14,
+      "text": "But if it actually looks like this,"
+    },
+    {
+      "i": 762,
+      "start": 1990.14,
+      "end": 1991.14,
+      "text": "then it's no longer good for flying at all."
+    },
+    {
+      "i": 763,
+      "start": 1991.14,
+      "end": 1993.14,
+      "text": "It's a real outflow,"
+    },
+    {
+      "i": 764,
+      "start": 1993.14,
+      "end": 1994.14,
+      "text": "you can really see,"
+    },
+    {
+      "i": 765,
+      "start": 1994.14,
+      "end": 1996.14,
+      "text": "how it's like a bucket of water being emptied,"
+    },
+    {
+      "i": 766,
+      "start": 1996.14,
+      "end": 1998.14,
+      "text": "with massive cold air being expelled."
+    },
+    {
+      "i": 767,
+      "start": 1998.14,
+      "end": 2001.14,
+      "text": "And that means a lot of wind."
+    },
+    {
+      "i": 768,
+      "start": 2001.14,
+      "end": 2003.49,
+      "text": "Then again with radar,"
+    },
+    {
+      "i": 769,
+      "start": 2003.49,
+      "end": 2004.49,
+      "text": "as already mentioned,"
+    },
+    {
+      "i": 770,
+      "start": 2004.49,
+      "end": 2005.49,
+      "text": "it's important"
+    },
+    {
+      "i": 771,
+      "start": 2005.49,
+      "end": 2006.49,
+      "text": "to watch the radar,"
+    },
+    {
+      "i": 772,
+      "start": 2006.49,
+      "end": 2007.49,
+      "text": "to see what's happening."
+    },
+    {
+      "i": 773,
+      "start": 2007.49,
+      "end": 2009.49,
+      "text": "Watch the clouds in the surroundings,"
+    },
+    {
+      "i": 774,
+      "start": 2009.49,
+      "end": 2010.49,
+      "text": "whether we're under the cloud"
+    },
+    {
+      "i": 775,
+      "start": 2010.49,
+      "end": 2011.49,
+      "text": "or not, how high it is,"
+    },
+    {
+      "i": 776,
+      "start": 2011.49,
+      "end": 2012.49,
+      "text": "also look elsewhere,"
+    },
+    {
+      "i": 777,
+      "start": 2012.49,
+      "end": 2014.49,
+      "text": "maybe the other clouds 50 km away,"
+    },
+    {
+      "i": 778,
+      "start": 2014.49,
+      "end": 2016.49,
+      "text": "and if there's already a huge tower there,"
+    },
+    {
+      "i": 779,
+      "start": 2016.49,
+      "end": 2017.49,
+      "text": "then we know"
+    },
+    {
+      "i": 780,
+      "start": 2017.49,
+      "end": 2020.52,
+      "text": "that maybe the cloud above us isn't much smaller."
+    },
+    {
+      "i": 781,
+      "start": 2020.52,
+      "end": 2022.52,
+      "text": "So with radar it's really important."
+    },
+    {
+      "i": 782,
+      "start": 2022.52,
+      "end": 2023.52,
+      "text": "Watch the radar,"
+    },
+    {
+      "i": 783,
+      "start": 2023.52,
+      "end": 2024.52,
+      "text": "that's a good thing,"
+    },
+    {
+      "i": 784,
+      "start": 2024.52,
+      "end": 2027.52,
+      "text": "but also keep watching the clouds back there."
+    },
+    {
+      "i": 785,
+      "start": 2058.16,
+      "end": 2060.16,
+      "text": "The zones I want to point out here,"
+    },
+    {
+      "i": 786,
+      "start": 2060.16,
+      "end": 2061.16,
+      "text": "the lookouts,"
+    },
+    {
+      "i": 787,
+      "start": 2061.16,
+      "end": 2063.16,
+      "text": "where you can fly in front of the cloud."
+    },
+    {
+      "i": 788,
+      "start": 2063.16,
+      "end": 2064.16,
+      "text": "But of course with thunderstorms,"
+    },
+    {
+      "i": 789,
+      "start": 2064.16,
+      "end": 2066.16,
+      "text": "really be careful."
+    },
+    {
+      "i": 790,
+      "start": 2066.16,
+      "end": 2068.16,
+      "text": "It has a lot to do with intuition,"
+    },
+    {
+      "i": 791,
+      "start": 2068.16,
+      "end": 2070.16,
+      "text": "and it's often a game with fire"
+    },
+    {
+      "i": 792,
+      "start": 2070.16,
+      "end": 2072.58,
+      "text": "when it really comes to thunderstorms."
+    },
+    {
+      "i": 793,
+      "start": 2072.58,
+      "end": 2073.58,
+      "text": "Exactly."
+    },
+    {
+      "i": 794,
+      "start": 2073.58,
+      "end": 2079.53,
+      "text": "Then we can move to the next important chapter,"
+    },
+    {
+      "i": 795,
+      "start": 2079.53,
+      "end": 2084.11,
+      "text": "the valley wind system."
+    },
+    {
+      "i": 796,
+      "start": 2084.11,
+      "end": 2085.11,
+      "text": "This is a really important phenomenon,"
+    },
+    {
+      "i": 797,
+      "start": 2085.11,
+      "end": 2088.11,
+      "text": "which by the way happens in all regions,"
+    },
+    {
+      "i": 798,
+      "start": 2088.11,
+      "end": 2090.11,
+      "text": "including the Alps."
+    },
+    {
+      "i": 799,
+      "start": 2090.11,
+      "end": 2092.11,
+      "text": "And it goes back and forth."
+    },
+    {
+      "i": 800,
+      "start": 2092.11,
+      "end": 2095.11,
+      "text": "Let's tie things together again."
+    },
+    {
+      "i": 801,
+      "start": 2095.11,
+      "end": 2097.11,
+      "text": "We have solar radiation,"
+    },
+    {
+      "i": 802,
+      "start": 2097.11,
+      "end": 2102.11,
+      "text": "where in mountainous areas much more heat is produced,"
+    },
+    {
+      "i": 803,
+      "start": 2102.11,
+      "end": 2104.11,
+      "text": "or they heat up better,"
+    },
+    {
+      "i": 804,
+      "start": 2104.11,
+      "end": 2106.11,
+      "text": "than the flatlands."
+    },
+    {
+      "i": 805,
+      "start": 2106.11,
+      "end": 2107.11,
+      "text": "Accordingly,"
+    },
+    {
+      "i": 806,
+      "start": 2107.11,
+      "end": 2109.11,
+      "text": "you get heating around the Alps,"
+    },
+    {
+      "i": 807,
+      "start": 2109.11,
+      "end": 2111.11,
+      "text": "in this case,"
+    },
+    {
+      "i": 808,
+      "start": 2111.11,
+      "end": 2115.11,
+      "text": "a lower air pressure forms during the day."
+    },
+    {
+      "i": 809,
+      "start": 2115.11,
+      "end": 2117.11,
+      "text": "And you can have air masses,"
+    },
+    {
+      "i": 810,
+      "start": 2117.11,
+      "end": 2119.11,
+      "text": "because pressure always equalises,"
+    },
+    {
+      "i": 811,
+      "start": 2119.11,
+      "end": 2122.11,
+      "text": "higher pressure in the flatlands,"
+    },
+    {
+      "i": 812,
+      "start": 2122.11,
+      "end": 2125.11,
+      "text": "and lower pressure in the mountains."
+    },
+    {
+      "i": 813,
+      "start": 2125.11,
+      "end": 2129.11,
+      "text": "Accordingly you get equalising flows over the course of the day."
+    },
+    {
+      "i": 814,
+      "start": 2129.11,
+      "end": 2130.24,
+      "text": "Profile."
+    },
+    {
+      "i": 815,
+      "start": 2130.24,
+      "end": 2132.24,
+      "text": "Imagine the cross-section,"
+    },
+    {
+      "i": 816,
+      "start": 2132.24,
+      "end": 2134.24,
+      "text": "with high pressure"
+    },
+    {
+      "i": 817,
+      "start": 2134.24,
+      "end": 2136.24,
+      "text": "as drawn by isobars."
+    },
+    {
+      "i": 818,
+      "start": 2136.24,
+      "end": 2137.24,
+      "text": "You see — it's of course never quite drawn like this,"
+    },
+    {
+      "i": 819,
+      "start": 2137.24,
+      "end": 2138.24,
+      "text": "in isobars in the cold air."
+    },
+    {
+      "i": 820,
+      "start": 2138.24,
+      "end": 2139.24,
+      "text": "But at least higher pressure and lower pressure."
+    },
+    {
+      "i": 821,
+      "start": 2139.24,
+      "end": 2141.24,
+      "text": "But exactly the same weather,"
+    },
+    {
+      "i": 822,
+      "start": 2141.24,
+      "end": 2143.24,
+      "text": "with the pressure equalising,"
+    },
+    {
+      "i": 823,
+      "start": 2143.24,
+      "end": 2144.24,
+      "text": "with the wind system"
+    },
+    {
+      "i": 824,
+      "start": 2144.24,
+      "end": 2145.24,
+      "text": "that arises."
+    },
+    {
+      "i": 825,
+      "start": 2145.24,
+      "end": 2146.24,
+      "text": "Accordingly you get equalising flows"
+    },
+    {
+      "i": 826,
+      "start": 2146.24,
+      "end": 2149.3,
+      "text": "during the day."
+    },
+    {
+      "i": 827,
+      "start": 2149.3,
+      "end": 2151.3,
+      "text": "It's usually strongest"
+    },
+    {
+      "i": 828,
+      "start": 2151.3,
+      "end": 2152.3,
+      "text": "from around eleven it starts."
+    },
+    {
+      "i": 829,
+      "start": 2152.3,
+      "end": 2155.3,
+      "text": "The peak is around three in the afternoon,"
+    },
+    {
+      "i": 830,
+      "start": 2155.3,
+      "end": 2159.3,
+      "text": "and depending on the season,"
+    },
+    {
+      "i": 831,
+      "start": 2159.3,
+      "end": 2161.3,
+      "text": "in spring,"
+    },
+    {
+      "i": 832,
+      "start": 2161.3,
+      "end": 2162.3,
+      "text": "as soon as the summits,"
+    },
+    {
+      "i": 833,
+      "start": 2162.3,
+      "end": 2163.3,
+      "text": "the inner-Alpine areas,"
+    },
+    {
+      "i": 834,
+      "start": 2163.3,
+      "end": 2164.3,
+      "text": "around the Alps,"
+    },
+    {
+      "i": 835,
+      "start": 2164.3,
+      "end": 2165.3,
+      "text": "become slowly snow-free,"
+    },
+    {
+      "i": 836,
+      "start": 2165.3,
+      "end": 2167.3,
+      "text": "then it slowly starts."
+    },
+    {
+      "i": 837,
+      "start": 2167.3,
+      "end": 2169.3,
+      "text": "And likewise"
+    },
+    {
+      "i": 838,
+      "start": 2169.3,
+      "end": 2170.3,
+      "text": "in autumn,"
+    },
+    {
+      "i": 839,
+      "start": 2170.3,
+      "end": 2171.3,
+      "text": "it gets weaker"
+    },
+    {
+      "i": 840,
+      "start": 2171.3,
+      "end": 2172.3,
+      "text": "going from summer"
+    },
+    {
+      "i": 841,
+      "start": 2172.3,
+      "end": 2173.3,
+      "text": "into autumn."
+    },
+    {
+      "i": 842,
+      "start": 2173.3,
+      "end": 2174.3,
+      "text": "But the peak time"
+    },
+    {
+      "i": 843,
+      "start": 2174.3,
+      "end": 2175.3,
+      "text": "is around June,"
+    },
+    {
+      "i": 844,
+      "start": 2175.3,
+      "end": 2177.3,
+      "text": "when thermal activity is at its strongest."
+    },
+    {
+      "i": 845,
+      "start": 2177.3,
+      "end": 2180.3,
+      "text": "So you always need"
+    },
+    {
+      "i": 846,
+      "start": 2180.3,
+      "end": 2181.3,
+      "text": "thermal activity to trigger it."
+    },
+    {
+      "i": 847,
+      "start": 2181.3,
+      "end": 2184.3,
+      "text": "If you have an overcast sky"
+    },
+    {
+      "i": 848,
+      "start": 2184.3,
+      "end": 2186.3,
+      "text": "or inversions"
+    },
+    {
+      "i": 849,
+      "start": 2186.3,
+      "end": 2187.3,
+      "text": "where no thermals trigger,"
+    },
+    {
+      "i": 850,
+      "start": 2187.3,
+      "end": 2189.3,
+      "text": "then you don't get a real valley wind system."
+    },
+    {
+      "i": 851,
+      "start": 2189.3,
+      "end": 2192.3,
+      "text": "Exactly."
+    },
+    {
+      "i": 852,
+      "start": 2192.3,
+      "end": 2195.48,
+      "text": "Exactly."
+    },
+    {
+      "i": 853,
+      "start": 2195.48,
+      "end": 2196.48,
+      "text": "Accordingly at night"
+    },
+    {
+      "i": 854,
+      "start": 2196.48,
+      "end": 2198.48,
+      "text": "you get the opposite,"
+    },
+    {
+      "i": 855,
+      "start": 2198.48,
+      "end": 2200.48,
+      "text": "the mountain wind,"
+    },
+    {
+      "i": 856,
+      "start": 2200.48,
+      "end": 2201.48,
+      "text": "which sets in."
+    },
+    {
+      "i": 857,
+      "start": 2201.48,
+      "end": 2202.6,
+      "text": "It usually starts in the evening,"
+    },
+    {
+      "i": 858,
+      "start": 2202.6,
+      "end": 2204.6,
+      "text": "around six,"
+    },
+    {
+      "i": 859,
+      "start": 2204.6,
+      "end": 2205.6,
+      "text": "it sets in,"
+    },
+    {
+      "i": 860,
+      "start": 2205.6,
+      "end": 2206.67,
+      "text": "suddenly,"
+    },
+    {
+      "i": 861,
+      "start": 2206.67,
+      "end": 2208.67,
+      "text": "higher pressure in the Alps,"
+    },
+    {
+      "i": 862,
+      "start": 2208.67,
+      "end": 2209.67,
+      "text": "because the mountains cool down faster"
+    },
+    {
+      "i": 863,
+      "start": 2209.67,
+      "end": 2211.67,
+      "text": "than the flatlands,"
+    },
+    {
+      "i": 864,
+      "start": 2211.67,
+      "end": 2212.67,
+      "text": "the flatlands recognise this perhaps."
+    },
+    {
+      "i": 865,
+      "start": 2212.67,
+      "end": 2214.67,
+      "text": "If you see,"
+    },
+    {
+      "i": 866,
+      "start": 2214.67,
+      "end": 2215.67,
+      "text": "it stays warm for much longer"
+    },
+    {
+      "i": 867,
+      "start": 2215.67,
+      "end": 2217.67,
+      "text": "than in the mountains,"
+    },
+    {
+      "i": 868,
+      "start": 2217.67,
+      "end": 2218.67,
+      "text": "when the sun goes away slowly."
+    },
+    {
+      "i": 869,
+      "start": 2218.67,
+      "end": 2220.67,
+      "text": "Accordingly we also have,"
+    },
+    {
+      "i": 870,
+      "start": 2220.67,
+      "end": 2222.67,
+      "text": "again, a pressure difference,"
+    },
+    {
+      "i": 871,
+      "start": 2222.67,
+      "end": 2224.67,
+      "text": "higher pressure in the flatlands —"
+    },
+    {
+      "i": 872,
+      "start": 2224.67,
+      "end": 2226.67,
+      "text": "lower pressure in the flatlands, sorry."
+    },
+    {
+      "i": 873,
+      "start": 2226.67,
+      "end": 2228.67,
+      "text": "Accordingly an equalising flow,"
+    },
+    {
+      "i": 874,
+      "start": 2228.67,
+      "end": 2230.67,
+      "text": "starting around six,"
+    },
+    {
+      "i": 875,
+      "start": 2230.67,
+      "end": 2231.67,
+      "text": "in the evening, slowly,"
+    },
+    {
+      "i": 876,
+      "start": 2231.67,
+      "end": 2233.67,
+      "text": "it starts setting in."
+    },
+    {
+      "i": 877,
+      "start": 2233.67,
+      "end": 2235.67,
+      "text": "We're talking about reverse thermals."
+    },
+    {
+      "i": 878,
+      "start": 2235.67,
+      "end": 2237.89,
+      "text": "That's when,"
+    },
+    {
+      "i": 879,
+      "start": 2237.89,
+      "end": 2238.89,
+      "text": "the wind flows down off the mountains."
+    },
+    {
+      "i": 880,
+      "start": 2238.89,
+      "end": 2240.89,
+      "text": "Meanwhile the slightly warmer air"
+    },
+    {
+      "i": 881,
+      "start": 2240.89,
+      "end": 2242.89,
+      "text": "in the valley"
+    },
+    {
+      "i": 882,
+      "start": 2242.89,
+      "end": 2243.89,
+      "text": "starts to rise away,"
+    },
+    {
+      "i": 883,
+      "start": 2243.89,
+      "end": 2244.89,
+      "text": "and you get this reverse thermal."
+    },
+    {
+      "i": 884,
+      "start": 2244.89,
+      "end": 2246.89,
+      "text": "It happens where it forms,"
+    },
+    {
+      "i": 885,
+      "start": 2246.89,
+      "end": 2247.89,
+      "text": "which is usually in the valley middle."
+    },
+    {
+      "i": 886,
+      "start": 2247.89,
+      "end": 2248.89,
+      "text": "And meanwhile,"
+    },
+    {
+      "i": 887,
+      "start": 2248.89,
+      "end": 2250.89,
+      "text": "in special spots,"
+    },
+    {
+      "i": 888,
+      "start": 2250.89,
+      "end": 2251.89,
+      "text": "for example in Interlaken,"
+    },
+    {
+      "i": 889,
+      "start": 2251.89,
+      "end": 2252.89,
+      "text": "for example,"
+    },
+    {
+      "i": 890,
+      "start": 2252.89,
+      "end": 2253.89,
+      "text": "there's a beautiful updraft,"
+    },
+    {
+      "i": 891,
+      "start": 2253.89,
+      "end": 2254.89,
+      "text": "when it comes,"
+    },
+    {
+      "i": 892,
+      "start": 2254.89,
+      "end": 2255.89,
+      "text": "you can fly into the evening,"
+    },
+    {
+      "i": 893,
+      "start": 2255.89,
+      "end": 2256.89,
+      "text": "if you have permission,"
+    },
+    {
+      "i": 894,
+      "start": 2256.89,
+      "end": 2257.89,
+      "text": "there are special weather conditions in places."
+    },
+    {
+      "i": 895,
+      "start": 2257.89,
+      "end": 2259.89,
+      "text": "But that's the mountain wind,"
+    },
+    {
+      "i": 896,
+      "start": 2259.89,
+      "end": 2262.89,
+      "text": "which by the way for landing fields"
+    },
+    {
+      "i": 897,
+      "start": 2262.89,
+      "end": 2263.89,
+      "text": "is sometimes a problem,"
+    },
+    {
+      "i": 898,
+      "start": 2263.89,
+      "end": 2265.89,
+      "text": "when it lies within the flying area,"
+    },
+    {
+      "i": 899,
+      "start": 2265.89,
+      "end": 2266.89,
+      "text": "where you have high mountains,"
+    },
+    {
+      "i": 900,
+      "start": 2266.89,
+      "end": 2267.89,
+      "text": "then sometimes it's"
+    },
+    {
+      "i": 901,
+      "start": 2267.89,
+      "end": 2268.89,
+      "text": "like a switch,"
+    },
+    {
+      "i": 902,
+      "start": 2268.89,
+      "end": 2269.89,
+      "text": "where suddenly the magic,"
+    },
+    {
+      "i": 903,
+      "start": 2269.89,
+      "end": 2270.89,
+      "text": "the mountain wind, comes,"
+    },
+    {
+      "i": 904,
+      "start": 2270.89,
+      "end": 2271.89,
+      "text": "and can blow the landing field away."
+    },
+    {
+      "i": 905,
+      "start": 2271.89,
+      "end": 2272.89,
+      "text": "It's something"
+    },
+    {
+      "i": 906,
+      "start": 2272.89,
+      "end": 2273.89,
+      "text": "you sometimes need to think about,"
+    },
+    {
+      "i": 907,
+      "start": 2273.89,
+      "end": 2274.89,
+      "text": "that the mountain wind can also set in."
+    },
+    {
+      "i": 908,
+      "start": 2274.89,
+      "end": 2275.89,
+      "text": "Exactly."
+    },
+    {
+      "i": 909,
+      "start": 2275.89,
+      "end": 2276.89,
+      "text": "It's really important,"
+    },
+    {
+      "i": 910,
+      "start": 2276.89,
+      "end": 2277.89,
+      "text": "for example,"
+    },
+    {
+      "i": 911,
+      "start": 2277.89,
+      "end": 2280.89,
+      "text": "to know that the valley wind"
+    },
+    {
+      "i": 912,
+      "start": 2280.89,
+      "end": 2281.89,
+      "text": "is a real problem in spring,"
+    },
+    {
+      "i": 913,
+      "start": 2281.89,
+      "end": 2283.31,
+      "text": "because it can get very, very strong."
+    },
+    {
+      "i": 914,
+      "start": 2283.31,
+      "end": 2284.31,
+      "text": "And there's a great valley wind chart"
+    },
+    {
+      "i": 915,
+      "start": 2284.31,
+      "end": 2285.31,
+      "text": "from the SHV,"
+    },
+    {
+      "i": 916,
+      "start": 2285.31,
+      "end": 2287.31,
+      "text": "where it's somewhat about experience —"
+    },
+    {
+      "i": 917,
+      "start": 2287.31,
+      "end": 2289.31,
+      "text": "main valleys, a new feature,"
+    },
+    {
+      "i": 918,
+      "start": 2289.31,
+      "end": 2291.31,
+      "text": "where it's like the roots of a tree"
+    },
+    {
+      "i": 919,
+      "start": 2291.31,
+      "end": 2292.31,
+      "text": "all joining together."
+    },
+    {
+      "i": 920,
+      "start": 2292.31,
+      "end": 2294.31,
+      "text": "Watch out in the main valley,"
+    },
+    {
+      "i": 921,
+      "start": 2294.31,
+      "end": 2295.31,
+      "text": "where the root is,"
+    },
+    {
+      "i": 922,
+      "start": 2295.31,
+      "end": 2296.31,
+      "text": "where the strongest valley wind can come,"
+    },
+    {
+      "i": 923,
+      "start": 2296.31,
+      "end": 2297.31,
+      "text": "really hefty,"
+    },
+    {
+      "i": 924,
+      "start": 2297.31,
+      "end": 2298.31,
+      "text": "let's call it that —"
+    },
+    {
+      "i": 925,
+      "start": 2298.31,
+      "end": 2300.31,
+      "text": "in the Rhine valley for example,"
+    },
+    {
+      "i": 926,
+      "start": 2300.31,
+      "end": 2301.31,
+      "text": "the Rhone valley, and so on,"
+    },
+    {
+      "i": 927,
+      "start": 2301.31,
+      "end": 2302.31,
+      "text": "those are all valleys"
+    },
+    {
+      "i": 928,
+      "start": 2302.31,
+      "end": 2304.31,
+      "text": "where really strong valley winds can come,"
+    },
+    {
+      "i": 929,
+      "start": 2304.31,
+      "end": 2306.31,
+      "text": "be careful."
+    },
+    {
+      "i": 930,
+      "start": 2306.31,
+      "end": 2307.31,
+      "text": "And then you get 50 to 60 km/h,"
+    },
+    {
+      "i": 931,
+      "start": 2307.31,
+      "end": 2308.31,
+      "text": "that's already a valley wind."
+    },
+    {
+      "i": 932,
+      "start": 2308.31,
+      "end": 2310.31,
+      "text": "When you're thermal flying in Valais,"
+    },
+    {
+      "i": 933,
+      "start": 2310.31,
+      "end": 2311.31,
+      "text": "when you go on a flying excursion in Valais,"
+    },
+    {
+      "i": 934,
+      "start": 2311.31,
+      "end": 2313.31,
+      "text": "to do flights,"
+    },
+    {
+      "i": 935,
+      "start": 2313.31,
+      "end": 2314.31,
+      "text": "you have maybe behind you"
+    },
+    {
+      "i": 936,
+      "start": 2314.31,
+      "end": 2315.31,
+      "text": "super nice thermal flying conditions,"
+    },
+    {
+      "i": 937,
+      "start": 2315.31,
+      "end": 2316.31,
+      "text": "but the valley wind,"
+    },
+    {
+      "i": 938,
+      "start": 2316.31,
+      "end": 2318.31,
+      "text": "down in the valley,"
+    },
+    {
+      "i": 939,
+      "start": 2318.31,
+      "end": 2319.31,
+      "text": "down at the valley floor,"
+    },
+    {
+      "i": 940,
+      "start": 2319.31,
+      "end": 2320.31,
+      "text": "at 500 metres above ground,"
+    },
+    {
+      "i": 941,
+      "start": 2320.31,
+      "end": 2321.31,
+      "text": "depending,"
+    },
+    {
+      "i": 942,
+      "start": 2321.31,
+      "end": 2323.31,
+      "text": "we can fly the upper thermals,"
+    },
+    {
+      "i": 943,
+      "start": 2323.31,
+      "end": 2324.31,
+      "text": "and when we land down in the valley"
+    },
+    {
+      "i": 944,
+      "start": 2324.31,
+      "end": 2325.31,
+      "text": "suddenly we get lots of wind there,"
+    },
+    {
+      "i": 945,
+      "start": 2325.31,
+      "end": 2327.31,
+      "text": "and we really have to,"
+    },
+    {
+      "i": 946,
+      "start": 2327.31,
+      "end": 2329.31,
+      "text": "in the main valleys in spring,"
+    },
+    {
+      "i": 947,
+      "start": 2329.31,
+      "end": 2330.31,
+      "text": "we have to think carefully,"
+    },
+    {
+      "i": 948,
+      "start": 2330.31,
+      "end": 2331.31,
+      "text": "about whether we land at all,"
+    },
+    {
+      "i": 949,
+      "start": 2331.31,
+      "end": 2333.31,
+      "text": "or whether we might do a top-landing,"
+    },
+    {
+      "i": 950,
+      "start": 2333.31,
+      "end": 2334.31,
+      "text": "that's something,"
+    },
+    {
+      "i": 951,
+      "start": 2334.31,
+      "end": 2335.31,
+      "text": "to really"
+    },
+    {
+      "i": 952,
+      "start": 2335.31,
+      "end": 2337.31,
+      "text": "watch out for,"
+    },
+    {
+      "i": 953,
+      "start": 2337.31,
+      "end": 2339.34,
+      "text": "when flying in main Alpine valleys."
+    },
+    {
+      "i": 954,
+      "start": 2339.34,
+      "end": 2341.34,
+      "text": "Hmm."
+    },
+    {
+      "i": 955,
+      "start": 2341.34,
+      "end": 2343.34,
+      "text": "There's also a special phenomenon,"
+    },
+    {
+      "i": 956,
+      "start": 2343.34,
+      "end": 2344.34,
+      "text": "like Mallejour,"
+    },
+    {
+      "i": 957,
+      "start": 2344.34,
+      "end": 2345.34,
+      "text": "or Grimsel,"
+    },
+    {
+      "i": 958,
+      "start": 2345.34,
+      "end": 2346.34,
+      "text": "those are valley winds"
+    },
+    {
+      "i": 959,
+      "start": 2346.34,
+      "end": 2348.34,
+      "text": "that spill over,"
+    },
+    {
+      "i": 960,
+      "start": 2348.34,
+      "end": 2350.34,
+      "text": "spill out over a pass,"
+    },
+    {
+      "i": 961,
+      "start": 2350.34,
+      "end": 2352.34,
+      "text": "and then crash down on the other side,"
+    },
+    {
+      "i": 962,
+      "start": 2352.34,
+      "end": 2354.34,
+      "text": "and also very turbulent,"
+    },
+    {
+      "i": 963,
+      "start": 2354.34,
+      "end": 2355.34,
+      "text": "really nasty downflow."
+    },
+    {
+      "i": 964,
+      "start": 2355.34,
+      "end": 2356.34,
+      "text": "Those are very local phenomena"
+    },
+    {
+      "i": 965,
+      "start": 2356.34,
+      "end": 2358.34,
+      "text": "that you need to inform yourself about,"
+    },
+    {
+      "i": 966,
+      "start": 2358.34,
+      "end": 2359.34,
+      "text": "when you fly for example"
+    },
+    {
+      "i": 967,
+      "start": 2359.34,
+      "end": 2360.34,
+      "text": "in the Grimsel area,"
+    },
+    {
+      "i": 968,
+      "start": 2360.34,
+      "end": 2361.34,
+      "text": "or in Mallejour,"
+    },
+    {
+      "i": 969,
+      "start": 2361.34,
+      "end": 2364.34,
+      "text": "you really have to be careful."
+    },
+    {
+      "i": 970,
+      "start": 2364.34,
+      "end": 2366.34,
+      "text": "If you fly there,"
+    },
+    {
+      "i": 971,
+      "start": 2366.34,
+      "end": 2367.34,
+      "text": "find out about the valley wind systems,"
+    },
+    {
+      "i": 972,
+      "start": 2367.34,
+      "end": 2368.34,
+      "text": "what's important for the theory exam is"
+    },
+    {
+      "i": 973,
+      "start": 2368.34,
+      "end": 2369.34,
+      "text": "you should know,"
+    },
+    {
+      "i": 974,
+      "start": 2369.34,
+      "end": 2372.4,
+      "text": "the strength,"
+    },
+    {
+      "i": 975,
+      "start": 2372.4,
+      "end": 2374.4,
+      "text": "and what time they occur,"
+    },
+    {
+      "i": 976,
+      "start": 2374.4,
+      "end": 2376.4,
+      "text": "where they are,"
+    },
+    {
+      "i": 977,
+      "start": 2376.4,
+      "end": 2378.4,
+      "text": "what's there today,"
+    },
+    {
+      "i": 978,
+      "start": 2378.4,
+      "end": 2379.4,
+      "text": "the questions."
+    },
+    {
+      "i": 979,
+      "start": 2379.4,
+      "end": 2380.4,
+      "text": "And something"
+    },
+    {
+      "i": 980,
+      "start": 2380.4,
+      "end": 2382.4,
+      "text": "you always have to factor in."
+    },
+    {
+      "i": 981,
+      "start": 2382.4,
+      "end": 2383.4,
+      "text": "Exactly."
+    },
+    {
+      "i": 982,
+      "start": 2383.4,
+      "end": 2384.4,
+      "text": "Let's move"
+    },
+    {
+      "i": 983,
+      "start": 2384.4,
+      "end": 2385.4,
+      "text": "on to another phenomenon,"
+    },
+    {
+      "i": 984,
+      "start": 2385.4,
+      "end": 2386.4,
+      "text": "which is really important for flying,"
+    },
+    {
+      "i": 985,
+      "start": 2386.4,
+      "end": 2387.4,
+      "text": "and that's the Foehn."
+    },
+    {
+      "i": 986,
+      "start": 2387.4,
+      "end": 2388.4,
+      "text": "I always say,"
+    },
+    {
+      "i": 987,
+      "start": 2388.4,
+      "end": 2390.11,
+      "text": "there are three main hazards for paragliders."
+    },
+    {
+      "i": 988,
+      "start": 2390.11,
+      "end": 2392.17,
+      "text": "It's thunderstorms,"
+    },
+    {
+      "i": 989,
+      "start": 2392.17,
+      "end": 2394.39,
+      "text": "it's the Foehn,"
+    },
+    {
+      "i": 990,
+      "start": 2394.39,
+      "end": 2395.39,
+      "text": "and it's probably strong valley winds,"
+    },
+    {
+      "i": 991,
+      "start": 2395.39,
+      "end": 2397.39,
+      "text": "that's the chapter."
+    },
+    {
+      "i": 992,
+      "start": 2397.39,
+      "end": 2398.9,
+      "text": "Because with all other phenomena,"
+    },
+    {
+      "i": 993,
+      "start": 2398.9,
+      "end": 2400.9,
+      "text": "if there's strong wind at the launch,"
+    },
+    {
+      "i": 994,
+      "start": 2400.9,
+      "end": 2401.9,
+      "text": "say,"
+    },
+    {
+      "i": 995,
+      "start": 2401.9,
+      "end": 2402.9,
+      "text": "with a westerly wind,"
+    },
+    {
+      "i": 996,
+      "start": 2402.9,
+      "end": 2405.9,
+      "text": "you have very strong westerly wind at the launch,"
+    },
+    {
+      "i": 997,
+      "start": 2405.9,
+      "end": 2406.9,
+      "text": "and you notice it well,"
+    },
+    {
+      "i": 998,
+      "start": 2406.9,
+      "end": 2408.9,
+      "text": "it's not a good idea"
+    },
+    {
+      "i": 999,
+      "start": 2408.9,
+      "end": 2410.9,
+      "text": "to launch,"
+    },
+    {
+      "i": 1000,
+      "start": 2410.9,
+      "end": 2411.9,
+      "text": "there's already mega wind."
+    },
+    {
+      "i": 1001,
+      "start": 2411.9,
+      "end": 2412.9,
+      "text": "And it's already been around for a while,"
+    },
+    {
+      "i": 1002,
+      "start": 2412.9,
+      "end": 2415.9,
+      "text": "you've felt it coming in the air."
+    },
+    {
+      "i": 1003,
+      "start": 2415.9,
+      "end": 2416.9,
+      "text": "Foehn,"
+    },
+    {
+      "i": 1004,
+      "start": 2416.9,
+      "end": 2417.9,
+      "text": "thunderstorms"
+    },
+    {
+      "i": 1005,
+      "start": 2417.9,
+      "end": 2418.9,
+      "text": "and valley wind,"
+    },
+    {
+      "i": 1006,
+      "start": 2418.9,
+      "end": 2419.9,
+      "text": "those are really the only weather phenomena"
+    },
+    {
+      "i": 1007,
+      "start": 2419.9,
+      "end": 2420.9,
+      "text": "where on one hand the flying weather"
+    },
+    {
+      "i": 1008,
+      "start": 2420.9,
+      "end": 2421.9,
+      "text": "can change extremely fast,"
+    },
+    {
+      "i": 1009,
+      "start": 2421.9,
+      "end": 2422.9,
+      "text": "it can flip very quickly."
+    },
+    {
+      "i": 1010,
+      "start": 2422.9,
+      "end": 2423.9,
+      "text": "And on the other hand"
+    },
+    {
+      "i": 1011,
+      "start": 2423.9,
+      "end": 2424.9,
+      "text": "they're usually strongest"
+    },
+    {
+      "i": 1012,
+      "start": 2424.9,
+      "end": 2427.16,
+      "text": "at the landing field."
+    },
+    {
+      "i": 1013,
+      "start": 2427.16,
+      "end": 2430.16,
+      "text": "So it can be"
+    },
+    {
+      "i": 1014,
+      "start": 2430.16,
+      "end": 2432.16,
+      "text": "that with valley wind, at the top of the mountain you launch"
+    },
+    {
+      "i": 1015,
+      "start": 2432.16,
+      "end": 2434.16,
+      "text": "in calm conditions,"
+    },
+    {
+      "i": 1016,
+      "start": 2434.16,
+      "end": 2435.16,
+      "text": "and down in the valley it's so strong,"
+    },
+    {
+      "i": 1017,
+      "start": 2435.16,
+      "end": 2437.16,
+      "text": "you suddenly have huge amounts of wind."
+    },
+    {
+      "i": 1018,
+      "start": 2437.16,
+      "end": 2438.16,
+      "text": "With Foehn"
+    },
+    {
+      "i": 1019,
+      "start": 2438.16,
+      "end": 2439.16,
+      "text": "it's exactly the same phenomenon."
+    },
+    {
+      "i": 1020,
+      "start": 2439.16,
+      "end": 2441.16,
+      "text": "On Foehn,"
+    },
+    {
+      "i": 1021,
+      "start": 2441.16,
+      "end": 2443.16,
+      "text": "how does it come about?"
+    },
+    {
+      "i": 1022,
+      "start": 2443.16,
+      "end": 2444.16,
+      "text": "How much?"
+    },
+    {
+      "i": 1023,
+      "start": 2444.16,
+      "end": 2446.16,
+      "text": "What wind system?"
+    },
+    {
+      "i": 1024,
+      "start": 2446.16,
+      "end": 2447.16,
+      "text": "What's needed?"
+    },
+    {
+      "i": 1025,
+      "start": 2447.16,
+      "end": 2449.83,
+      "text": "A pressure equalisation."
+    },
+    {
+      "i": 1026,
+      "start": 2449.83,
+      "end": 2450.83,
+      "text": "We need a pressure difference."
+    },
+    {
+      "i": 1027,
+      "start": 2450.83,
+      "end": 2452.83,
+      "text": "We need two ingredients for Foehn."
+    },
+    {
+      "i": 1028,
+      "start": 2452.83,
+      "end": 2453.83,
+      "text": "We need a pressure difference."
+    },
+    {
+      "i": 1029,
+      "start": 2453.83,
+      "end": 2454.83,
+      "text": "And we need a large mountain range."
+    },
+    {
+      "i": 1030,
+      "start": 2454.83,
+      "end": 2455.83,
+      "text": "So Foehn"
+    },
+    {
+      "i": 1031,
+      "start": 2455.83,
+      "end": 2456.83,
+      "text": "exists in other regions of the world too,"
+    },
+    {
+      "i": 1032,
+      "start": 2457.83,
+      "end": 2458.83,
+      "text": "in the Himalayas,"
+    },
+    {
+      "i": 1033,
+      "start": 2458.83,
+      "end": 2460.83,
+      "text": "in others,"
+    },
+    {
+      "i": 1034,
+      "start": 2460.83,
+      "end": 2462.83,
+      "text": "in the Pyrenees,"
+    },
+    {
+      "i": 1035,
+      "start": 2462.83,
+      "end": 2466.12,
+      "text": "in the Alps."
+    },
+    {
+      "i": 1036,
+      "start": 2466.12,
+      "end": 2467.22,
+      "text": "The Foehn has different names everywhere,"
+    },
+    {
+      "i": 1037,
+      "start": 2467.22,
+      "end": 2468.22,
+      "text": "there isn't really"
+    },
+    {
+      "i": 1038,
+      "start": 2468.22,
+      "end": 2469.22,
+      "text": "one name"
+    },
+    {
+      "i": 1039,
+      "start": 2469.22,
+      "end": 2470.22,
+      "text": "that's used the same around the world,"
+    },
+    {
+      "i": 1040,
+      "start": 2470.22,
+      "end": 2472.22,
+      "text": "but Foehn has become established."
+    },
+    {
+      "i": 1041,
+      "start": 2472.22,
+      "end": 2474.34,
+      "text": "And there's the North Foehn and the South Foehn,"
+    },
+    {
+      "i": 1042,
+      "start": 2474.34,
+      "end": 2476.34,
+      "text": "so it goes in both directions,"
+    },
+    {
+      "i": 1043,
+      "start": 2476.34,
+      "end": 2478.34,
+      "text": "of course back and forth,"
+    },
+    {
+      "i": 1044,
+      "start": 2478.34,
+      "end": 2479.34,
+      "text": "for us on the northern side of the Alps"
+    },
+    {
+      "i": 1045,
+      "start": 2479.34,
+      "end": 2480.34,
+      "text": "it's of course the South Foehn"
+    },
+    {
+      "i": 1046,
+      "start": 2480.34,
+      "end": 2482.34,
+      "text": "that causes problems."
+    },
+    {
+      "i": 1047,
+      "start": 2482.34,
+      "end": 2484.34,
+      "text": "In this case we have on the left side,"
+    },
+    {
+      "i": 1048,
+      "start": 2484.34,
+      "end": 2487.34,
+      "text": "on the right we have the German flatlands,"
+    },
+    {
+      "i": 1049,
+      "start": 2487.34,
+      "end": 2489.34,
+      "text": "or our pre-Alps."
+    },
+    {
+      "i": 1050,
+      "start": 2489.34,
+      "end": 2491.34,
+      "text": "When higher pressure is on the south side of the Alps"
+    },
+    {
+      "i": 1051,
+      "start": 2491.34,
+      "end": 2492.34,
+      "text": "than on the north side,"
+    },
+    {
+      "i": 1052,
+      "start": 2492.34,
+      "end": 2493.34,
+      "text": "accordingly,"
+    },
+    {
+      "i": 1053,
+      "start": 2493.34,
+      "end": 2495.34,
+      "text": "the air masses"
+    },
+    {
+      "i": 1054,
+      "start": 2495.34,
+      "end": 2497.86,
+      "text": "equalise the pressure and flow"
+    },
+    {
+      "i": 1055,
+      "start": 2497.86,
+      "end": 2499.86,
+      "text": "over the mountain crest."
+    },
+    {
+      "i": 1056,
+      "start": 2499.86,
+      "end": 2500.86,
+      "text": "And with Foehn it's important"
+    },
+    {
+      "i": 1057,
+      "start": 2500.86,
+      "end": 2504.34,
+      "text": "that there are situations"
+    },
+    {
+      "i": 1058,
+      "start": 2504.34,
+      "end": 2506.34,
+      "text": "where the Foehn is"
+    },
+    {
+      "i": 1059,
+      "start": 2506.34,
+      "end": 2508.34,
+      "text": "really sucked in from the flatlands."
+    },
+    {
+      "i": 1060,
+      "start": 2508.34,
+      "end": 2510.34,
+      "text": "You can picture it"
+    },
+    {
+      "i": 1061,
+      "start": 2510.34,
+      "end": 2512.34,
+      "text": "like a vacuum cleaner on the north side."
+    },
+    {
+      "i": 1062,
+      "start": 2512.34,
+      "end": 2514.34,
+      "text": "And the air can"
+    },
+    {
+      "i": 1063,
+      "start": 2514.34,
+      "end": 2516.34,
+      "text": "really intensify it,"
+    },
+    {
+      "i": 1064,
+      "start": 2516.34,
+      "end": 2518.34,
+      "text": "and the local conditions"
+    },
+    {
+      "i": 1065,
+      "start": 2518.34,
+      "end": 2519.34,
+      "text": "and meteorological conditions"
+    },
+    {
+      "i": 1066,
+      "start": 2519.34,
+      "end": 2521.34,
+      "text": "can really build it up in the valleys"
+    },
+    {
+      "i": 1067,
+      "start": 2521.34,
+      "end": 2522.34,
+      "text": "and cause really, really strong winds"
+    },
+    {
+      "i": 1068,
+      "start": 2522.34,
+      "end": 2524.34,
+      "text": "in the valleys."
+    },
+    {
+      "i": 1069,
+      "start": 2525.34,
+      "end": 2527.34,
+      "text": "There's also a special weather pattern"
+    },
+    {
+      "i": 1070,
+      "start": 2527.34,
+      "end": 2529.34,
+      "text": "where at the launch there might not be much wind,"
+    },
+    {
+      "i": 1071,
+      "start": 2529.34,
+      "end": 2530.34,
+      "text": "but in the Foehn valleys"
+    },
+    {
+      "i": 1072,
+      "start": 2530.34,
+      "end": 2532.34,
+      "text": "it's extremely strong wind."
+    },
+    {
+      "i": 1073,
+      "start": 2532.34,
+      "end": 2534.34,
+      "text": "That of course makes it dangerous for us on the north side,"
+    },
+    {
+      "i": 1074,
+      "start": 2534.34,
+      "end": 2535.34,
+      "text": "because with Foehn we usually have something to deal with."
+    },
+    {
+      "i": 1075,
+      "start": 2535.34,
+      "end": 2537.34,
+      "text": "Beautiful weather, blue skies,"
+    },
+    {
+      "i": 1076,
+      "start": 2537.34,
+      "end": 2539.34,
+      "text": "everything's gorgeous,"
+    },
+    {
+      "i": 1077,
+      "start": 2539.34,
+      "end": 2541.34,
+      "text": "it would actually be super beautiful to fly,"
+    },
+    {
+      "i": 1078,
+      "start": 2541.34,
+      "end": 2544.14,
+      "text": "where we'd always go out for a great session."
+    },
+    {
+      "i": 1079,
+      "start": 2544.14,
+      "end": 2547.14,
+      "text": "But that's exactly what makes Foehn so dangerous —"
+    },
+    {
+      "i": 1080,
+      "start": 2547.14,
+      "end": 2548.14,
+      "text": "that beautiful weather pattern"
+    },
+    {
+      "i": 1081,
+      "start": 2548.14,
+      "end": 2550.14,
+      "text": "with calm at the launch."
+    },
+    {
+      "i": 1082,
+      "start": 2550.14,
+      "end": 2552.14,
+      "text": "What happens is the air mass rises,"
+    },
+    {
+      "i": 1083,
+      "start": 2552.14,
+      "end": 2553.14,
+      "text": "in this case on the south side of the Alps,"
+    },
+    {
+      "i": 1084,
+      "start": 2553.14,
+      "end": 2554.14,
+      "text": "it condenses,"
+    },
+    {
+      "i": 1085,
+      "start": 2554.14,
+      "end": 2556.14,
+      "text": "as"
+    },
+    {
+      "i": 1086,
+      "start": 2556.14,
+      "end": 2558.14,
+      "text": "the air mass rises further,"
+    },
+    {
+      "i": 1087,
+      "start": 2558.14,
+      "end": 2560.14,
+      "text": "it condenses, forms clouds, sometimes even rains out."
+    },
+    {
+      "i": 1088,
+      "start": 2560.14,
+      "end": 2562.14,
+      "text": "And it goes over the Alpine ridge,"
+    },
+    {
+      "i": 1089,
+      "start": 2562.14,
+      "end": 2565.65,
+      "text": "forming the so-called Foehn wall."
+    },
+    {
+      "i": 1090,
+      "start": 2565.65,
+      "end": 2569.03,
+      "text": "It's a bit like a wall"
+    },
+    {
+      "i": 1091,
+      "start": 2569.03,
+      "end": 2570.03,
+      "text": "approaching the Alpine ridge."
+    },
+    {
+      "i": 1092,
+      "start": 2570.03,
+      "end": 2572.43,
+      "text": "It goes over."
+    },
+    {
+      "i": 1093,
+      "start": 2572.43,
+      "end": 2574.03,
+      "text": "Dries out."
+    },
+    {
+      "i": 1094,
+      "start": 2574.03,
+      "end": 2576.03,
+      "text": "It releases clouds."
+    },
+    {
+      "i": 1095,
+      "start": 2576.03,
+      "end": 2579.03,
+      "text": "And the drier wind,"
+    },
+    {
+      "i": 1096,
+      "start": 2579.03,
+      "end": 2581.03,
+      "text": "in the flatlands,"
+    },
+    {
+      "i": 1097,
+      "start": 2581.03,
+      "end": 2583.03,
+      "text": "in the Alpine valleys,"
+    },
+    {
+      "i": 1098,
+      "start": 2583.03,
+      "end": 2585.03,
+      "text": "creates of course very, very strong turbulence"
+    },
+    {
+      "i": 1099,
+      "start": 2585.03,
+      "end": 2587.03,
+      "text": "and downbursts and gusts."
+    },
+    {
+      "i": 1100,
+      "start": 2587.03,
+      "end": 2589.03,
+      "text": "And also rotors,"
+    },
+    {
+      "i": 1101,
+      "start": 2589.03,
+      "end": 2591.03,
+      "text": "which can sometimes"
+    },
+    {
+      "i": 1102,
+      "start": 2591.03,
+      "end": 2593.03,
+      "text": "also form lenticularis"
+    },
+    {
+      "i": 1103,
+      "start": 2593.03,
+      "end": 2594.03,
+      "text": "clouds."
+    },
+    {
+      "i": 1104,
+      "start": 2594.03,
+      "end": 2595.03,
+      "text": "What's important is,"
+    },
+    {
+      "i": 1105,
+      "start": 2595.03,
+      "end": 2598.03,
+      "text": "with Foehn it doesn't always have to"
+    },
+    {
+      "i": 1106,
+      "start": 2598.03,
+      "end": 2600.03,
+      "text": "rain on top,"
+    },
+    {
+      "i": 1107,
+      "start": 2600.03,
+      "end": 2602.03,
+      "text": "and it doesn't always have to"
+    },
+    {
+      "i": 1108,
+      "start": 2602.03,
+      "end": 2603.03,
+      "text": "form lenticularis clouds."
+    },
+    {
+      "i": 1109,
+      "start": 2603.03,
+      "end": 2605.03,
+      "text": "Sometimes you don't see those"
+    },
+    {
+      "i": 1110,
+      "start": 2605.03,
+      "end": 2606.03,
+      "text": "and the cloud forms don't show."
+    },
+    {
+      "i": 1111,
+      "start": 2606.03,
+      "end": 2607.42,
+      "text": "That's the classic Foehn,"
+    },
+    {
+      "i": 1112,
+      "start": 2607.42,
+      "end": 2609.42,
+      "text": "as it usually arises,"
+    },
+    {
+      "i": 1113,
+      "start": 2609.42,
+      "end": 2610.48,
+      "text": "when there's a stable pattern."
+    },
+    {
+      "i": 1114,
+      "start": 2610.48,
+      "end": 2612.48,
+      "text": "So pressure differential is what's especially important."
+    },
+    {
+      "i": 1115,
+      "start": 2612.48,
+      "end": 2614.48,
+      "text": "(unclear)"
+    },
+    {
+      "i": 1116,
+      "start": 2614.48,
+      "end": 2615.48,
+      "text": "(unclear)"
+    },
+    {
+      "i": 1117,
+      "start": 2615.48,
+      "end": 2617.48,
+      "text": "(unclear)"
+    },
+    {
+      "i": 1118,
+      "start": 2617.48,
+      "end": 2619.48,
+      "text": "(unclear)"
+    },
+    {
+      "i": 1119,
+      "start": 2619.48,
+      "end": 2621.48,
+      "text": "(unclear)"
+    },
+    {
+      "i": 1120,
+      "start": 2621.48,
+      "end": 2624.28,
+      "text": "(unclear)"
+    },
+    {
+      "i": 1121,
+      "start": 2624.28,
+      "end": 2628.59,
+      "text": "(unclear)"
+    },
+    {
+      "i": 1122,
+      "start": 2628.59,
+      "end": 2629.59,
+      "text": "(unclear)"
+    },
+    {
+      "i": 1123,
+      "start": 2629.59,
+      "end": 2631.26,
+      "text": "(unclear)"
+    },
+    {
+      "i": 1124,
+      "start": 2631.26,
+      "end": 2632.26,
+      "text": "(unclear)"
+    },
+    {
+      "i": 1125,
+      "start": 2632.26,
+      "end": 2633.26,
+      "text": "(unclear)"
+    },
+    {
+      "i": 1126,
+      "start": 2633.26,
+      "end": 2634.26,
+      "text": "(unclear)"
+    },
+    {
+      "i": 1127,
+      "start": 2634.26,
+      "end": 2635.26,
+      "text": "(unclear)"
+    },
+    {
+      "i": 1128,
+      "start": 2635.26,
+      "end": 2636.26,
+      "text": "(unclear)"
+    },
+    {
+      "i": 1129,
+      "start": 2636.26,
+      "end": 2637.26,
+      "text": "(unclear)"
+    },
+    {
+      "i": 1130,
+      "start": 2637.26,
+      "end": 2638.26,
+      "text": "(unclear)"
+    },
+    {
+      "i": 1131,
+      "start": 2638.26,
+      "end": 2639.26,
+      "text": "(unclear)"
+    },
+    {
+      "i": 1132,
+      "start": 2639.26,
+      "end": 2640.26,
+      "text": "(unclear)"
+    },
+    {
+      "i": 1133,
+      "start": 2640.26,
+      "end": 2641.26,
+      "text": "(unclear)"
+    },
+    {
+      "i": 1134,
+      "start": 2641.26,
+      "end": 2642.26,
+      "text": "(unclear)"
+    },
+    {
+      "i": 1135,
+      "start": 2642.26,
+      "end": 2643.26,
+      "text": "(unclear)"
+    },
+    {
+      "i": 1136,
+      "start": 2643.26,
+      "end": 2644.26,
+      "text": "(unclear)"
+    },
+    {
+      "i": 1137,
+      "start": 2644.26,
+      "end": 2645.26,
+      "text": "(unclear)"
+    },
+    {
+      "i": 1138,
+      "start": 2645.26,
+      "end": 2646.26,
+      "text": "(unclear)"
+    },
+    {
+      "i": 1139,
+      "start": 2646.26,
+      "end": 2647.26,
+      "text": "Anyway,"
+    },
+    {
+      "i": 1140,
+      "start": 2647.26,
+      "end": 2648.26,
+      "text": "well,"
+    },
+    {
+      "i": 1141,
+      "start": 2648.26,
+      "end": 2649.26,
+      "text": "the mountain ridge,"
+    },
+    {
+      "i": 1142,
+      "start": 2649.26,
+      "end": 2651.26,
+      "text": "the main Alpine ridge,"
+    },
+    {
+      "i": 1143,
+      "start": 2651.26,
+      "end": 2652.26,
+      "text": "and we're talking about the numbers,"
+    },
+    {
+      "i": 1144,
+      "start": 2652.26,
+      "end": 2653.26,
+      "text": "the isobars kink up,"
+    },
+    {
+      "i": 1145,
+      "start": 2653.26,
+      "end": 2655.26,
+      "text": "at the Alpine main ridge,"
+    },
+    {
+      "i": 1146,
+      "start": 2655.26,
+      "end": 2656.26,
+      "text": "that's the so-called Foehn,"
+    },
+    {
+      "i": 1147,
+      "start": 2656.26,
+      "end": 2658.26,
+      "text": "(unclear)"
+    },
+    {
+      "i": 1148,
+      "start": 2658.26,
+      "end": 2660.26,
+      "text": "So if on the isobar map,"
+    },
+    {
+      "i": 1149,
+      "start": 2660.26,
+      "end": 2661.26,
+      "text": "across the mountain range,"
+    },
+    {
+      "i": 1150,
+      "start": 2661.26,
+      "end": 2662.26,
+      "text": "across the kink,"
+    },
+    {
+      "i": 1151,
+      "start": 2662.26,
+      "end": 2663.26,
+      "text": "of course a really massive kink,"
+    },
+    {
+      "i": 1152,
+      "start": 2663.26,
+      "end": 2664.26,
+      "text": "then"
+    },
+    {
+      "i": 1153,
+      "start": 2664.26,
+      "end": 2665.26,
+      "text": "you usually"
+    },
+    {
+      "i": 1154,
+      "start": 2665.26,
+      "end": 2667.26,
+      "text": "have something to do with Foehn —"
+    },
+    {
+      "i": 1155,
+      "start": 2667.26,
+      "end": 2668.78,
+      "text": "watch out."
+    },
+    {
+      "i": 1156,
+      "start": 2668.78,
+      "end": 2669.26,
+      "text": "Some won't agree,"
+    },
+    {
+      "i": 1157,
+      "start": 2669.26,
+      "end": 2670.26,
+      "text": "but the isobars"
+    },
+    {
+      "i": 1158,
+      "start": 2670.26,
+      "end": 2671.26,
+      "text": "compress together,"
+    },
+    {
+      "i": 1159,
+      "start": 2671.26,
+      "end": 2672.26,
+      "text": "in that case in the run-up to the cold front that the Foehn brings."
+    },
+    {
+      "i": 1160,
+      "start": 2672.26,
+      "end": 2677.46,
+      "text": "That's by the way a weather pattern"
+    },
+    {
+      "i": 1161,
+      "start": 2677.46,
+      "end": 2679.46,
+      "text": "that often happens here in Switzerland,"
+    },
+    {
+      "i": 1162,
+      "start": 2679.46,
+      "end": 2682.87,
+      "text": "before the cold front arrives."
+    },
+    {
+      "i": 1163,
+      "start": 2682.87,
+      "end": 2684.87,
+      "text": "But what's really important is,"
+    },
+    {
+      "i": 1164,
+      "start": 2684.87,
+      "end": 2685.87,
+      "text": "it doesn't always have to be in the run-up to a cold front,"
+    },
+    {
+      "i": 1165,
+      "start": 2685.87,
+      "end": 2687.87,
+      "text": "it can also be without a cold front coming."
+    },
+    {
+      "i": 1166,
+      "start": 2687.87,
+      "end": 2690.87,
+      "text": "But the classic case is"
+    },
+    {
+      "i": 1167,
+      "start": 2690.87,
+      "end": 2692.87,
+      "text": "a cold front afterwards washing it out."
+    },
+    {
+      "i": 1168,
+      "start": 2692.87,
+      "end": 2694.87,
+      "text": "A Foehn knee forms,"
+    },
+    {
+      "i": 1169,
+      "start": 2694.87,
+      "end": 2696.87,
+      "text": "there's a Foehn flow,"
+    },
+    {
+      "i": 1170,
+      "start": 2696.87,
+      "end": 2697.87,
+      "text": "and at some turning point,"
+    },
+    {
+      "i": 1171,
+      "start": 2697.87,
+      "end": 2698.87,
+      "text": "the front passes through and then it's gone."
+    },
+    {
+      "i": 1172,
+      "start": 2698.87,
+      "end": 2701.87,
+      "text": "That's a kink — whether equalising flow"
+    },
+    {
+      "i": 1173,
+      "start": 2733.28,
+      "end": 2736.28,
+      "text": "could go to one side or the other."
+    },
+    {
+      "i": 1174,
+      "start": 2736.28,
+      "end": 2738.28,
+      "text": "So as a rule of thumb,"
+    },
+    {
+      "i": 1175,
+      "start": 2738.28,
+      "end": 2741.02,
+      "text": "look at the dashed line,"
+    },
+    {
+      "i": 1176,
+      "start": 2741.02,
+      "end": 2743.02,
+      "text": "we talk about four hectopascals."
+    },
+    {
+      "i": 1177,
+      "start": 2743.02,
+      "end": 2745.02,
+      "text": "If the curve up there bulges out,"
+    },
+    {
+      "i": 1178,
+      "start": 2745.02,
+      "end": 2748.14,
+      "text": "then above four hectopascals"
+    },
+    {
+      "i": 1179,
+      "start": 2748.14,
+      "end": 2751.14,
+      "text": "we talk about South Foehn,"
+    },
+    {
+      "i": 1180,
+      "start": 2751.14,
+      "end": 2752.14,
+      "text": "below we talk about North Foehn,"
+    },
+    {
+      "i": 1181,
+      "start": 2752.14,
+      "end": 2754.14,
+      "text": "say for example on Saturday"
+    },
+    {
+      "i": 1182,
+      "start": 2754.14,
+      "end": 2755.14,
+      "text": "and on Friday night,"
+    },
+    {
+      "i": 1183,
+      "start": 2755.14,
+      "end": 2756.14,
+      "text": "we'd talk about North Foehn."
+    },
+    {
+      "i": 1184,
+      "start": 2756.14,
+      "end": 2758.21,
+      "text": "And this is very unstable weather,"
+    },
+    {
+      "i": 1185,
+      "start": 2758.21,
+      "end": 2760.21,
+      "text": "with these forecasts."
+    },
+    {
+      "i": 1186,
+      "start": 2760.21,
+      "end": 2761.21,
+      "text": "Flying conditions go back and forth extremely,"
+    },
+    {
+      "i": 1187,
+      "start": 2761.21,
+      "end": 2763.21,
+      "text": "it usually means lots of wind,"
+    },
+    {
+      "i": 1188,
+      "start": 2763.21,
+      "end": 2765.21,
+      "text": "lots of movement in the air,"
+    },
+    {
+      "i": 1189,
+      "start": 2765.21,
+      "end": 2767.21,
+      "text": "and as a rule, not good flying weather."
+    },
+    {
+      "i": 1190,
+      "start": 2767.21,
+      "end": 2769.21,
+      "text": "Now it's also important for you to know,"
+    },
+    {
+      "i": 1191,
+      "start": 2769.21,
+      "end": 2771.66,
+      "text": "really read the weather report carefully,"
+    },
+    {
+      "i": 1192,
+      "start": 2771.66,
+      "end": 2773.66,
+      "text": "and be aware"
+    },
+    {
+      "i": 1193,
+      "start": 2773.66,
+      "end": 2775.66,
+      "text": "that Foehn,"
+    },
+    {
+      "i": 1194,
+      "start": 2775.66,
+      "end": 2776.66,
+      "text": "sometimes breaks at four hectopascals."
+    },
+    {
+      "i": 1195,
+      "start": 2776.66,
+      "end": 2778.66,
+      "text": "Sometimes you can still fly at eight hectopascals."
+    },
+    {
+      "i": 1196,
+      "start": 2778.66,
+      "end": 2781.66,
+      "text": "It's never something to recommend,"
+    },
+    {
+      "i": 1197,
+      "start": 2781.66,
+      "end": 2783.66,
+      "text": "and it really has a lot to do with experience,"
+    },
+    {
+      "i": 1198,
+      "start": 2783.66,
+      "end": 2785.66,
+      "text": "and you have to know the area really well."
+    },
+    {
+      "i": 1199,
+      "start": 2785.66,
+      "end": 2788.66,
+      "text": "And I'd really not recommend"
+    },
+    {
+      "i": 1200,
+      "start": 2788.66,
+      "end": 2791.2,
+      "text": "recommending flying in Foehn conditions."
+    },
+    {
+      "i": 1201,
+      "start": 2791.2,
+      "end": 2793.2,
+      "text": "You can't say"
+    },
+    {
+      "i": 1202,
+      "start": 2793.2,
+      "end": 2795.2,
+      "text": "I've still flown at eight hectopascals"
+    },
+    {
+      "i": 1203,
+      "start": 2795.2,
+      "end": 2797.2,
+      "text": "in this flying area,"
+    },
+    {
+      "i": 1204,
+      "start": 2797.2,
+      "end": 2799.2,
+      "text": "and there was no problem at all."
+    },
+    {
+      "i": 1205,
+      "start": 2799.2,
+      "end": 2801.2,
+      "text": "Foehn can vary a lot."
+    },
+    {
+      "i": 1206,
+      "start": 2801.2,
+      "end": 2803.2,
+      "text": "Sometimes it breaks through."
+    },
+    {
+      "i": 1207,
+      "start": 2803.2,
+      "end": 2805.2,
+      "text": "Sometimes it doesn't break through."
+    },
+    {
+      "i": 1208,
+      "start": 2805.2,
+      "end": 2807.2,
+      "text": "It has a lot to do"
+    },
+    {
+      "i": 1209,
+      "start": 2807.2,
+      "end": 2809.2,
+      "text": "with how strong the Foehn really is."
+    },
+    {
+      "i": 1210,
+      "start": 2809.2,
+      "end": 2811.2,
+      "text": "Sometimes overpowering."
+    },
+    {
+      "i": 1211,
+      "start": 2811.2,
+      "end": 2813.2,
+      "text": "Sometimes surprising."
+    },
+    {
+      "i": 1212,
+      "start": 2813.2,
+      "end": 2815.2,
+      "text": "It has to do with the temperature layering in the air."
+    },
+    {
+      "i": 1213,
+      "start": 2815.2,
+      "end": 2817.2,
+      "text": "Then I'd jump to the next slide."
+    },
+    {
+      "i": 1214,
+      "start": 2817.2,
+      "end": 2819.2,
+      "text": "That was two hours to argue and philosophise."
+    },
+    {
+      "i": 1215,
+      "start": 2819.2,
+      "end": 2821.2,
+      "text": "What's important is that in Foehn"
+    },
+    {
+      "i": 1216,
+      "start": 2821.2,
+      "end": 2839.2,
+      "text": "(unclear)"
+    },
+    {
+      "i": 1217,
+      "start": 2839.2,
+      "end": 2842.32,
+      "text": "with a Foehn tendency situation,"
+    },
+    {
+      "i": 1218,
+      "start": 2842.32,
+      "end": 2844.32,
+      "text": "really think it through carefully,"
+    },
+    {
+      "i": 1219,
+      "start": 2844.32,
+      "end": 2846.32,
+      "text": "before you go fly."
+    },
+    {
+      "i": 1220,
+      "start": 2846.32,
+      "end": 2848.32,
+      "text": "Foehn is something for the very experienced."
+    },
+    {
+      "i": 1221,
+      "start": 2879.38,
+      "end": 2881.38,
+      "text": "(unclear)"
+    },
+    {
+      "i": 1222,
+      "start": 2881.38,
+      "end": 2883.38,
+      "text": "whether the Foehn will keep coming."
+    },
+    {
+      "i": 1223,
+      "start": 2883.38,
+      "end": 2885.38,
+      "text": "Accordingly, valleys"
+    },
+    {
+      "i": 1224,
+      "start": 2885.38,
+      "end": 2887.38,
+      "text": "that run from south to north."
+    },
+    {
+      "i": 1225,
+      "start": 2887.38,
+      "end": 2889.38,
+      "text": "A bit of the Rhine valley, lots of Foehn,"
+    },
+    {
+      "i": 1226,
+      "start": 2889.38,
+      "end": 2891.38,
+      "text": "also susceptible,"
+    },
+    {
+      "i": 1227,
+      "start": 2891.38,
+      "end": 2893.38,
+      "text": "as opposed to a valley"
+    },
+    {
+      "i": 1228,
+      "start": 2893.38,
+      "end": 2895.38,
+      "text": "that runs east to west."
+    },
+    {
+      "i": 1229,
+      "start": 2895.38,
+      "end": 2897.38,
+      "text": "The air masses we get from the south,"
+    },
+    {
+      "i": 1230,
+      "start": 2897.38,
+      "end": 2899.38,
+      "text": "yes, that we have on our northern side,"
+    },
+    {
+      "i": 1231,
+      "start": 2899.38,
+      "end": 2901.38,
+      "text": "are at risk in the South Foehn."
+    },
+    {
+      "i": 1232,
+      "start": 2901.38,
+      "end": 2903.38,
+      "text": "Accordingly there are special Foehn areas"
+    },
+    {
+      "i": 1233,
+      "start": 2903.38,
+      "end": 2905.38,
+      "text": "where you have to be especially careful."
+    },
+    {
+      "i": 1234,
+      "start": 2905.38,
+      "end": 2907.38,
+      "text": "Inform yourselves,"
+    },
+    {
+      "i": 1235,
+      "start": 2907.38,
+      "end": 2909.38,
+      "text": "with the clubs,"
+    },
+    {
+      "i": 1236,
+      "start": 2909.38,
+      "end": 2911.38,
+      "text": "on various websites,"
+    },
+    {
+      "i": 1237,
+      "start": 2911.38,
+      "end": 2913.38,
+      "text": "where you find information,"
+    },
+    {
+      "i": 1238,
+      "start": 2913.38,
+      "end": 2915.38,
+      "text": "on whether certain areas are prone to Foehn or not."
+    },
+    {
+      "i": 1239,
+      "start": 2915.38,
+      "end": 2931.75,
+      "text": "And really be conservative"
+    },
+    {
+      "i": 1240,
+      "start": 2931.75,
+      "end": 2936.23,
+      "text": "when it comes to Foehn-prone areas."
+    },
+    {
+      "i": 1241,
+      "start": 2936.23,
+      "end": 2938.23,
+      "text": "Then we have the last slide — Foehn images."
+    },
+    {
+      "i": 1242,
+      "start": 2938.23,
+      "end": 2940.23,
+      "text": "It's a beautiful wall that forms,"
+    },
+    {
+      "i": 1243,
+      "start": 2940.23,
+      "end": 2942.23,
+      "text": "the air mass that sinks here at work,"
+    },
+    {
+      "i": 1244,
+      "start": 2942.23,
+      "end": 2944.23,
+      "text": "presses down,"
+    },
+    {
+      "i": 1245,
+      "start": 2944.23,
+      "end": 2946.23,
+      "text": "and you can really see,"
+    },
+    {
+      "i": 1246,
+      "start": 2946.23,
+      "end": 2948.23,
+      "text": "really clearly,"
+    },
+    {
+      "i": 1247,
+      "start": 2948.23,
+      "end": 2950.23,
+      "text": "that at the main Alpine ridge,"
+    },
+    {
+      "i": 1248,
+      "start": 2950.23,
+      "end": 2952.23,
+      "text": "a real Foehn wall forms."
+    },
+    {
+      "i": 1249,
+      "start": 2952.23,
+      "end": 2954.23,
+      "text": "When you see a cloud like this,"
+    },
+    {
+      "i": 1250,
+      "start": 2954.23,
+      "end": 2956.23,
+      "text": "hovering and sinking,"
+    },
+    {
+      "i": 1251,
+      "start": 2956.23,
+      "end": 2958.23,
+      "text": "it's never a good thing for flying."
+    },
+    {
+      "i": 1252,
+      "start": 2958.23,
+      "end": 2960.71,
+      "text": "It would be inadvisable for motor-paragliding,"
+    },
+    {
+      "i": 1253,
+      "start": 2960.71,
+      "end": 2963.48,
+      "text": "when there's Foehn,"
+    },
+    {
+      "i": 1254,
+      "start": 2963.48,
+      "end": 2965.48,
+      "text": "or it's also hidden, wind."
+    },
+    {
+      "i": 1255,
+      "start": 2965.48,
+      "end": 2966.48,
+      "text": "Important."
+    },
+    {
+      "i": 1256,
+      "start": 2966.48,
+      "end": 2968.48,
+      "text": "Even with a blue sky,"
+    },
+    {
+      "i": 1257,
+      "start": 2968.48,
+      "end": 2969.48,
+      "text": "where you have no cloud to recognise."
+    },
+    {
+      "i": 1258,
+      "start": 2969.48,
+      "end": 2971.48,
+      "text": "That's important for us."
+    },
+    {
+      "i": 1259,
+      "start": 2971.48,
+      "end": 2975.74,
+      "text": "Now we've really discussed the three main hazards."
+    },
+    {
+      "i": 1260,
+      "start": 2975.74,
+      "end": 2978.74,
+      "text": "We've covered the theory,"
+    },
+    {
+      "i": 1261,
+      "start": 2978.74,
+      "end": 2981.74,
+      "text": "as far as it's not important for the theory exam."
+    },
+    {
+      "i": 1262,
+      "start": 2981.74,
+      "end": 2984.74,
+      "text": "We really put our heart into"
+    },
+    {
+      "i": 1263,
+      "start": 2984.74,
+      "end": 2987.74,
+      "text": "meteorology with focus on flying."
+    },
+    {
+      "i": 1264,
+      "start": 2987.74,
+      "end": 2988.66,
+      "text": "You can really get into the topic,"
+    },
+    {
+      "i": 1265,
+      "start": 2988.66,
+      "end": 2990.74,
+      "text": "into meteorology yourselves,"
+    },
+    {
+      "i": 1266,
+      "start": 2990.74,
+      "end": 2992.74,
+      "text": "keep studying the theory"
+    },
+    {
+      "i": 1267,
+      "start": 2992.74,
+      "end": 2994.74,
+      "text": "and really stay engaged with the topic from a flying-practice point of view."
+    },
+    {
+      "i": 1268,
+      "start": 2994.74,
+      "end": 2997.74,
+      "text": "Now how does the cloud arise,"
+    },
+    {
+      "i": 1269,
+      "start": 2997.74,
+      "end": 2999.74,
+      "text": "how come there's a little wind,"
+    },
+    {
+      "i": 1270,
+      "start": 2999.74,
+      "end": 3001.74,
+      "text": "how come it turned out different"
+    },
+    {
+      "i": 1271,
+      "start": 3001.74,
+      "end": 3003.74,
+      "text": "than I expected?"
+    },
+    {
+      "i": 1272,
+      "start": 3003.74,
+      "end": 3005.74,
+      "text": "Look at the meteo forecasts,"
+    },
+    {
+      "i": 1273,
+      "start": 3005.74,
+      "end": 3007.74,
+      "text": "look at other channels for weather forecasting,"
+    },
+    {
+      "i": 1274,
+      "start": 3007.74,
+      "end": 3009.74,
+      "text": "really engage with meteorological forecasting."
+    },
+    {
+      "i": 1275,
+      "start": 3009.74,
+      "end": 3011.74,
+      "text": "Engage with it on different channels,"
+    },
+    {
+      "i": 1276,
+      "start": 3011.74,
+      "end": 3013.74,
+      "text": "so that during flight training you can pick this up well."
+    },
+    {
+      "i": 1277,
+      "start": 3013.74,
+      "end": 3015.74,
+      "text": "Drill it in during your training."
+    },
+    {
+      "i": 1278,
+      "start": 3015.74,
+      "end": 3017.9,
+      "text": "Ask your flying colleagues."
+    },
+    {
+      "i": 1279,
+      "start": 3017.9,
+      "end": 3020.93,
+      "text": "Exchange your know-how."
+    },
+    {
+      "i": 1280,
+      "start": 3020.93,
+      "end": 3022.93,
+      "text": "Ask the locals."
+    },
+    {
+      "i": 1281,
+      "start": 3022.93,
+      "end": 3023.93,
+      "text": "When you travel somewhere, say go fly somewhere,"
+    },
+    {
+      "i": 1282,
+      "start": 3023.93,
+      "end": 3025.93,
+      "text": "to fly cross-country, etc.,"
+    },
+    {
+      "i": 1283,
+      "start": 3025.93,
+      "end": 3027.93,
+      "text": "talk a lot with the locals about weather phenomena."
+    },
+    {
+      "i": 1284,
+      "start": 3027.93,
+      "end": 3029.93,
+      "text": "And you'll see,"
+    },
+    {
+      "i": 1285,
+      "start": 3029.93,
+      "end": 3030.93,
+      "text": "you'll learn lots that way,"
+    },
+    {
+      "i": 1286,
+      "start": 3030.93,
+      "end": 3031.93,
+      "text": "and you'll start to understand the basic principles."
+    },
+    {
+      "i": 1287,
+      "start": 3031.93,
+      "end": 3033.93,
+      "text": "Above all, when you can apply it in practice and use it."
+    },
+    {
+      "i": 1288,
+      "start": 3033.93,
+      "end": 3037.93,
+      "text": "It works more and more,"
+    },
+    {
+      "i": 1289,
+      "start": 3037.93,
+      "end": 3038.93,
+      "text": "that you hit the right forecast."
+    },
+    {
+      "i": 1290,
+      "start": 3038.93,
+      "end": 3040.93,
+      "text": "That you're in the right spot,"
+    },
+    {
+      "i": 1291,
+      "start": 3040.93,
+      "end": 3042.93,
+      "text": "in a flying spot"
+    },
+    {
+      "i": 1292,
+      "start": 3042.93,
+      "end": 3043.93,
+      "text": "where you expect thermals,"
+    },
+    {
+      "i": 1293,
+      "start": 3043.93,
+      "end": 3045.93,
+      "text": "that you've made the right decision."
+    },
+    {
+      "i": 1294,
+      "start": 3045.93,
+      "end": 3047.93,
+      "text": "That's what gives me satisfaction,"
+    },
+    {
+      "i": 1295,
+      "start": 3047.93,
+      "end": 3049.93,
+      "text": "and I think with meteorology especially,"
+    },
+    {
+      "i": 1296,
+      "start": 3049.93,
+      "end": 3051.93,
+      "text": "it's a really motivating topic,"
+    },
+    {
+      "i": 1297,
+      "start": 3051.93,
+      "end": 3053.93,
+      "text": "going from theory"
+    },
+    {
+      "i": 1298,
+      "start": 3053.93,
+      "end": 3054.93,
+      "text": "to applying it in practice, with lots of joy"
+    },
+    {
+      "i": 1299,
+      "start": 3054.93,
+      "end": 3057.93,
+      "text": "and being able to fly safely."
+    },
+    {
+      "i": 1300,
+      "start": 3057.93,
+      "end": 3059.93,
+      "text": "Exactly."
+    },
+    {
+      "i": 1301,
+      "start": 3059.93,
+      "end": 3061.28,
+      "text": "I wish you really beautiful flights now."
+    },
+    {
+      "i": 1302,
+      "start": 3061.28,
+      "end": 3064.28,
+      "text": "Study well,"
+    },
+    {
+      "i": 1303,
+      "start": 3064.28,
+      "end": 3065.28,
+      "text": "watch the three,"
+    },
+    {
+      "i": 1304,
+      "start": 3065.28,
+      "end": 3066.28,
+      "text": "watch the videos as normal."
+    },
+    {
+      "i": 1305,
+      "start": 3066.28,
+      "end": 3067.28,
+      "text": "We're looking forward to your feedback."
+    },
+    {
+      "i": 1306,
+      "start": 3067.28,
+      "end": 3069.28,
+      "text": "We wish you really beautiful flights"
+    },
+    {
+      "i": 1307,
+      "start": 3069.28,
+      "end": 3071.28,
+      "text": "and a great time."
+    },
+    {
+      "i": 1308,
+      "start": 3071.28,
+      "end": 3073.28,
+      "text": "Bye, bye."
+    },
+    {
+      "i": 1309,
+      "start": 3073.28,
+      "end": 3074.28,
+      "text": "Bye."
+    }
+  ]
+}
