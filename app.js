@@ -8,6 +8,8 @@ const LS_KEY = 'flugtheorie-state-v2';
 const DEFAULT_STATE = {
   view: 'dashboard',                    // current view
   theme: 'auto',                        // 'light' | 'dark' | 'auto'
+  legacyOpen: false,                    // Legacy nav group expanded?
+
   cards: {},                            // per-card: { box, reviews, lastSeen, lastResult }
   // flashcards UI
   fc: { category: 'all', mode: 'flashcards', index: 0, shuffle: false, query: '' },
@@ -3098,38 +3100,41 @@ function render() {
     { id: 'cheatsheet', icon: '⚡', label: 'Cheat Sheet' },
     { id: 'tips',       icon: '💡', label: 'Tips' }
   ];
-  // Superseded by the official SHV question pool — kept around but archived in a
-  // permanently-collapsed group so they no longer compete with SHV Practice.
+  // Superseded by the official SHV question pool — kept around but tucked into a
+  // collapsible 'Legacy' group so they no longer compete with SHV Practice.
   const legacyItems = [
     { id: 'flashcards', icon: '📇', label: 'Flashcards' },
     { id: 'quiz',       icon: '📝', label: 'Quiz' },
     { id: 'exam',       icon: '⏱️', label: 'Mock Exam' }
   ];
-  const navHtml = navItems.map(n => `
+  const renderNavItem = n => `
     <button class="nav-item ${state.view === n.id ? 'active' : ''}" data-nav="${n.id}">
       <span class="nav-icon">${n.icon}</span>
       <span>${n.label}</span>
       ${n.badge ? `<span class="nav-badge">${n.badge}</span>` : ''}
     </button>
-  `).join('');
+  `;
+  const navHtml = navItems.map(renderNavItem).join('');
   const legacyHtml = `
-    <div class="nav-group nav-group-locked" title="Replaced by SHV Practice — archived">
-      <div class="nav-section nav-group-header">
+    <div class="nav-group ${state.legacyOpen ? 'open' : ''}">
+      <button class="nav-section nav-group-header" data-legacy-toggle title="Replaced by SHV Practice">
         <span class="nav-group-chevron">▸</span>
         <span>Legacy</span>
-        <span class="nav-group-lock">🔒</span>
-      </div>
+      </button>
       <div class="nav-group-body">
-        ${legacyItems.map(n => `
-          <div class="nav-item nav-item-legacy">
-            <span class="nav-icon">${n.icon}</span>
-            <span>${n.label}</span>
-          </div>
-        `).join('')}
+        ${legacyItems.map(renderNavItem).join('')}
       </div>
     </div>
   `;
   sb.innerHTML = navHtml + legacyHtml;
+
+  // Legacy group expand/collapse
+  const legacyToggle = sb.querySelector('[data-legacy-toggle]');
+  if (legacyToggle) legacyToggle.onclick = () => {
+    state.legacyOpen = !state.legacyOpen;
+    saveState();
+    render();
+  };
 
   // theme indicator
   const themeBtn = document.getElementById('theme-toggle');
