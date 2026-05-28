@@ -35,7 +35,7 @@
           "duration_seconds": 1386.5813125,
           "duration_label": "23:06",
           "has_de_vtt": true,
-          "has_en_vtt": false
+          "has_en_vtt": true
         }
       ]
     },
@@ -168,7 +168,7 @@
           "duration_seconds": 995.0506875,
           "duration_label": "16:35",
           "has_de_vtt": true,
-          "has_en_vtt": false
+          "has_en_vtt": true
         },
         {
           "id": "materialkunde_1",
@@ -182,7 +182,7 @@
           "duration_seconds": 874.2613125,
           "duration_label": "14:34",
           "has_de_vtt": true,
-          "has_en_vtt": false
+          "has_en_vtt": true
         }
       ]
     },
@@ -357,7 +357,7 @@
           "duration_seconds": 137.670998,
           "duration_label": "2:17",
           "has_de_vtt": true,
-          "has_en_vtt": false
+          "has_en_vtt": true
         },
         {
           "id": "aa_bremshaltung",
@@ -371,7 +371,7 @@
           "duration_seconds": 352.2,
           "duration_label": "5:52",
           "has_de_vtt": true,
-          "has_en_vtt": false
+          "has_en_vtt": true
         },
         {
           "id": "aa_beschleunigt_fliegen",
@@ -397,7 +397,7 @@
       "airactive": 15
     },
     "with_de_vtt": 25,
-    "with_en_vtt": 19,
+    "with_en_vtt": 24,
     "total_duration_seconds": 28834.318964000013
   }
 }
