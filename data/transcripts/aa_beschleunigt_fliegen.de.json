@@ -1,0 +1,148 @@
+{
+  "slug": "aa_beschleunigt_fliegen",
+  "language": "de",
+  "duration": 145.5659375,
+  "transcribed_in_sec": 14.8,
+  "model": "large-v3",
+  "settings": {
+    "device": "cuda",
+    "compute_type": "float16",
+    "beam_size": 10,
+    "initial_prompt_chars": 568,
+    "vad_min_silence_ms": 300
+  },
+  "segments": [
+    {
+      "i": 1,
+      "start": 6.46,
+      "end": 15.59,
+      "text": "Beschleunigt fliegen. Beim beschleunigten Flug ist es wichtig, dass ihr probiert, die Hände ganz oben streck zu halten."
+    },
+    {
+      "i": 2,
+      "start": 15.91,
+      "end": 25.67,
+      "text": "Ihr dürft auch, wenn ihr wollt, euch so ein bisschen an den hinteren Tragegurten halten, weil wir können im beschleunigten Flug nur noch mit Gewichtsverlagerung steuern."
+    },
+    {
+      "i": 3,
+      "start": 25.67,
+      "end": 32.07,
+      "text": "Und wenn das eben nicht ausreicht, dann nehmen wir noch einen ganz leichten Zug am hintersten Tragegurt mit."
+    },
+    {
+      "i": 4,
+      "start": 32.07,
+      "end": 39.89,
+      "text": "Also das heißt, Beschleuniger richten, oder wie beschleunigt man, wenn er da, so wie ich, gut in die erste Schlaufe reinkommt,"
+    },
+    {
+      "i": 5,
+      "start": 40.25,
+      "end": 49.23,
+      "text": "geht er mit der Ferse in diese erste Schlaufe, tretet die ein bisschen so weit, dass er mit dem zweiten Fuß auf die nächste Stufe zurücksteigen könnte"
+    },
+    {
+      "i": 6,
+      "start": 49.23,
+      "end": 54.41,
+      "text": "und dann den zweiten Fuß ebenfalls auf diese Stufe zurück holen."
+    },
+    {
+      "i": 7,
+      "start": 54.41,
+      "end": 60.09,
+      "text": "Ihr seht, ich habe da so einen flexiblen, das haben die meisten von euch, wenn ihr Stange habt, geht das ein bisschen einfacher."
+    },
+    {
+      "i": 8,
+      "start": 60.09,
+      "end": 68.62,
+      "text": "Ja, dann suchen wir so ein bisschen die Symmetrie mit den Füßen und dann drücken wir den Beschleuniger ganz langsam voll hoch."
+    },
+    {
+      "i": 9,
+      "start": 68.62,
+      "end": 78.14,
+      "text": "Und im Idealfall ist dann der Beschleuniger, so wie hier rechts, Rolle über Rolle drüber oder zumindest Rolle auf Rolle drauf."
+    },
+    {
+      "i": 10,
+      "start": 78.14,
+      "end": 82.94,
+      "text": "Hier links seht ihr, haben wir noch ein bisschen Distanz zwischen den einzelnen Rollen."
+    },
+    {
+      "i": 11,
+      "start": 82.94,
+      "end": 87.58,
+      "text": "Ist jetzt nicht viel, das kommt halt dadurch, dass wir da eine gewisse Asymmetrie drinnen haben."
+    },
+    {
+      "i": 12,
+      "start": 87.58,
+      "end": 91.16,
+      "text": "Wenn ich die Beine weiter rausnehme, dann seht ihr, haben wir da,"
+    },
+    {
+      "i": 13,
+      "start": 91.18,
+      "end": 93.74,
+      "text": "Symmetrie und die Rollen wirken garantiert."
+    },
+    {
+      "i": 14,
+      "start": 93.74,
+      "end": 99.58,
+      "text": "Das wäre voll beschleunigt und jetzt ist wichtig, steuern nur noch mit Gewichtsverlagerung."
+    },
+    {
+      "i": 15,
+      "start": 99.58,
+      "end": 104.54,
+      "text": "Ja, wenn das nicht ausreicht, dann dürfen wir ganz leicht am hinteren Tragerohr ziehen."
+    },
+    {
+      "i": 16,
+      "start": 104.54,
+      "end": 111.5,
+      "text": "Also ein Zentimeter, höchstens zwei, also da haben wir wenig Arbeitsbereich."
+    },
+    {
+      "i": 17,
+      "start": 111.5,
+      "end": 118.55,
+      "text": "Gut, Beschleuniger ausleiten, einfach neutral hinsetzen oder wenn wir eine Kurve machen auf die andere Seite,"
+    },
+    {
+      "i": 18,
+      "start": 118.55,
+      "end": 122.89,
+      "text": "machen wir die zuerst fertig und dann neutral hinsetzen."
+    },
+    {
+      "i": 19,
+      "start": 122.89,
+      "end": 127.05,
+      "text": "Und langsam zurück aus dem Beschleuniger gehen."
+    },
+    {
+      "i": 20,
+      "start": 127.05,
+      "end": 133.96,
+      "text": "Die letzten paar Zentimeter könnt ihr dann von mir aus ausspicken lassen."
+    },
+    {
+      "i": 21,
+      "start": 133.96,
+      "end": 140.63,
+      "text": "Wichtig ist, während dem beschleunigten Flug dürft ihr nicht mit der Bremse steuern."
+    },
+    {
+      "i": 22,
+      "start": 140.63,
+      "end": 145.18,
+      "text": "Die Erklärung kommt nachher bei der Bremsstiftung."
+    }
+  ]
+}

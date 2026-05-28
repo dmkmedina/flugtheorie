@@ -1,0 +1,262 @@
+{
+  "slug": "aa_p1_doppelkreis_rechts",
+  "language": "de",
+  "duration": 271.6270625,
+  "transcribed_in_sec": 30.1,
+  "model": "large-v3",
+  "settings": {
+    "device": "cuda",
+    "compute_type": "float16",
+    "beam_size": 10,
+    "initial_prompt_chars": 568,
+    "vad_min_silence_ms": 300
+  },
+  "segments": [
+    {
+      "i": 1,
+      "start": 20.15,
+      "end": 30.44,
+      "text": "Doppelkreis oder besser gesagt P1, wie es an der Prüfung benannt wird, sind zwei Kreise aneinander geflogen, also direkt in Verbindung geflogen."
+    },
+    {
+      "i": 2,
+      "start": 31.26,
+      "end": 38.18,
+      "text": "Ein und Ausleitung sind aber auf gleicher Achse bzw. einfach parallel zu der Achse, wo man begonnen hat."
+    },
+    {
+      "i": 3,
+      "start": 38.18,
+      "end": 51.11,
+      "text": "Also ich starte auf der Achse, mache den ersten Kreis, den zweiten Kreis und der Ende vom zweiten Kreis, das Ende muss parallel zum Beginn vor dem ganzen Manöver geflogen werden."
+    },
+    {
+      "i": 4,
+      "start": 51.43,
+      "end": 57.21,
+      "text": "Dann habe ich das Ganze perfekt ausgeleitet und um das geht es auch."
+    },
+    {
+      "i": 5,
+      "start": 57.31,
+      "end": 68.81,
+      "text": "Orientierung im Raum und Einstellung einer gewissen Querlage und Beendigung dieser Querlage, Energiemanagement kann man sagen, pauschalisierend."
+    },
+    {
+      "i": 6,
+      "start": 68.81,
+      "end": 69.45,
+      "text": "Okay."
+    },
+    {
+      "i": 7,
+      "start": 70.02,
+      "end": 75.63,
+      "text": "Ihr könnt das Ganze beginnen mit der Bremse am Steg in der Hand geflogen."
+    },
+    {
+      "i": 8,
+      "start": 76.13,
+      "end": 88.44,
+      "text": "Das heißt, ihr nehmt beide Bremsen ganz locker am Steg in der Hand und probiert dann die Bremsen auf jeden Fall aufs geringste Sinken zu ziehen."
+    },
+    {
+      "i": 9,
+      "start": 89.2,
+      "end": 94.3,
+      "text": "Wir starten bei dem Manöver mit den beiden Bremsen gezogen auch beim geringsten Sinken."
+    },
+    {
+      "i": 10,
+      "start": 95.15,
+      "end": 99.93,
+      "text": "Wir checken immer zuerst, bevor wir dann die Kurve einleiten, ob der Luftraum frei ist."
+    },
+    {
+      "i": 11,
+      "start": 100.05,
+      "end": 101.05,
+      "text": "Wenn das der Fall ist."
+    },
+    {
+      "i": 12,
+      "start": 101.41,
+      "end": 101.83,
+      "text": "Zack."
+    },
+    {
+      "i": 13,
+      "start": 102.54,
+      "end": 104.3,
+      "text": "Dann leiten wir den Rechtskreis ein."
+    },
+    {
+      "i": 14,
+      "start": 104.62,
+      "end": 109.12,
+      "text": "Die Querlage vom Kreis können wir jetzt mit der Innenbremse etwas definieren."
+    },
+    {
+      "i": 15,
+      "start": 109.34,
+      "end": 114.82,
+      "text": "Also haben wir zu wenig Querlage, dann ziehen wir einfach die Innenbremse langsam, gefühlvoll etwas mehr."
+    },
+    {
+      "i": 16,
+      "start": 115.44,
+      "end": 122.26,
+      "text": "Haben wir zu viel Querlage und zwar teilweise auch deutlich zu viel, dann tun wir einfach die Außenbremse ziehen."
+    },
+    {
+      "i": 17,
+      "start": 123.08,
+      "end": 131.83,
+      "text": "Also niemals die Innenbremse einfach lösen, sondern die Innenbremse behalten und die Außenbremse so lange ziehen, bis wir wieder aus dieser Querlage herauskommen."
+    },
+    {
+      "i": 18,
+      "start": 132.39,
+      "end": 139.15,
+      "text": "So, wenn wir jetzt aber in dem Kreis drinnen sind und die Querlage passt, fliegen wir den ersten Kreis zu Ende."
+    },
+    {
+      "i": 19,
+      "start": 139.15,
+      "end": 147.49,
+      "text": "Meistens ist es so, dass nach dem ersten Kreis nochmal ein kurzer Aufstellmoment kommt und der Schirm wie ein bisschen Querlage verliert."
+    },
+    {
+      "i": 20,
+      "start": 147.49,
+      "end": 159.61,
+      "text": "Dann dürft ihr da nochmal zwei, drei Zentimeter ziehen, um die Querlage wieder erneut besser einzustellen und dann kurz bevor wir den zweiten Kreis beendet haben,"
+    },
+    {
+      "i": 21,
+      "start": 159.61,
+      "end": 161.91,
+      "text": "also kurz bevor wir auf unserer Flucht sind,"
+    },
+    {
+      "i": 22,
+      "start": 161.91,
+      "end": 162.68,
+      "text": "gehen wir wieder in den ersten Kreis."
+    },
+    {
+      "i": 23,
+      "start": 162.68,
+      "end": 169.73,
+      "text": "Dann gehen wir mit dem Körper in die Neutralstellung und ziehen dann kurz vor unserer Flucht die Außenbremse nach unten,"
+    },
+    {
+      "i": 24,
+      "start": 169.73,
+      "end": 177.08,
+      "text": "sodass wir theoretisch wieder beim geringsten Sinken landen, so wie wir begonnen haben."
+    },
+    {
+      "i": 25,
+      "start": 177.08,
+      "end": 185.72,
+      "text": "Das ist natürlich eine Sache, wo man trainieren muss, wann kommt die Außenbremse und wie schnell bzw. wie langsam kommt die Außenbremse,"
+    },
+    {
+      "i": 26,
+      "start": 185.72,
+      "end": 190.98,
+      "text": "sodass man perfekt auf Achse ausleitet und möglichst wenig Pendel zum Schluss hat."
+    },
+    {
+      "i": 27,
+      "start": 190.98,
+      "end": 194.74,
+      "text": "Das Gleiche könnt ihr mit halber Wicklung fliegen."
+    },
+    {
+      "i": 28,
+      "start": 194.74,
+      "end": 202.94,
+      "text": "Da müsst ihr halt aufpassen, dass ihr außen wirklich die Hand dann ganz hoch streckt und beim Start natürlich die Bremsen müsst ihr nicht so weit herunter ziehen."
+    },
+    {
+      "i": 29,
+      "start": 202.94,
+      "end": 214.08,
+      "text": "Das heißt, etwas bremsen für das geringste Sinken, dann genau gleich vorgehen, links hoch, Gewicht rechts rein, Querlage einstellen, definieren,"
+    },
+    {
+      "i": 30,
+      "start": 214.08,
+      "end": 223.28,
+      "text": "dann kurz bevor wir auf unserer Flucht sind, beim zweiten Kreis, zack, neutrale Sitzposition, Außenhand runternehmen,"
+    },
+    {
+      "i": 31,
+      "start": 223.28,
+      "end": 225.28,
+      "text": "sodass wir möglichst beidseitig,"
+    },
+    {
+      "i": 32,
+      "start": 225.28,
+      "end": 228.69,
+      "text": "gebremst aus dem Ganzen wieder herauskommen."
+    },
+    {
+      "i": 33,
+      "start": 228.69,
+      "end": 233.98,
+      "text": "Und erst danach, zack, können wir wieder in den Gleitflug übergehen."
+    },
+    {
+      "i": 34,
+      "start": 233.98,
+      "end": 240.62,
+      "text": "Für den Doppelkreis wird eine vorgegebene Flugachse eingenommen."
+    },
+    {
+      "i": 35,
+      "start": 240.62,
+      "end": 250.01,
+      "text": "Durch dosiertes Ziehen der rechten Steuerleine werden zwei rechtsdrehende Kreise ohne Unterbruch innerhalb maximal 20 Sekunden geflogen."
+    },
+    {
+      "i": 36,
+      "start": 250.01,
+      "end": 257.09,
+      "text": "Mit frühzeitigem Verlangsamen der Drehung wird das Manöver auf der ursprünglichen Flugachse ausgeleitet."
+    },
+    {
+      "i": 37,
+      "start": 257.09,
+      "end": 257.29,
+      "text": "Durch dosiertes Anbremsen wird die Flucht wieder in den Gleitflug übergeben."
+    },
+    {
+      "i": 38,
+      "start": 257.29,
+      "end": 257.37,
+      "text": "Durch dosiertes Anbremsen wird die Flucht wieder in den Gleitflug übergeben."
+    },
+    {
+      "i": 39,
+      "start": 257.37,
+      "end": 257.49,
+      "text": "Durch dosiertes Anbremsen wird die Flucht wieder in den Gleitflug übergeben."
+    },
+    {
+      "i": 40,
+      "start": 257.49,
+      "end": 264.86,
+      "text": "Durch dosiertes Anbremsen werden nachfolgende Roll- und Nickbewegungen abgefangen und der Schirm wird stabilisiert."
+    },
+    {
+      "i": 41,
+      "start": 264.86,
+      "end": 272.0,
+      "text": "Die Zeitmessung stoppt erst, wenn der Schirm stabil auf der ursprünglichen Flugachse fliegt."
+    }
+  ]
+}

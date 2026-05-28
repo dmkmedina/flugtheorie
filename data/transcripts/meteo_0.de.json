@@ -1,0 +1,7918 @@
+{
+  "slug": "meteo_0",
+  "language": "de",
+  "duration": 3031.2533125,
+  "transcribed_in_sec": 339.6,
+  "model": "large-v3",
+  "settings": {
+    "device": "cuda",
+    "compute_type": "float16",
+    "beam_size": 10,
+    "initial_prompt_chars": 568,
+    "vad_min_silence_ms": 300
+  },
+  "segments": [
+    {
+      "i": 1,
+      "start": 6.94,
+      "end": 14.34,
+      "text": "Hallo zusammen, ich bin Fabio von Three Wings und wir schauen heute zusammen das Thema Meteo an."
+    },
+    {
+      "i": 2,
+      "start": 15.84,
+      "end": 21.43,
+      "text": "Es geht hier vor allem um eine Prüfungsvorbereitung oder um Meteo-Basics generell."
+    },
+    {
+      "i": 3,
+      "start": 22.53,
+      "end": 26.61,
+      "text": "Es gibt für mich in der Meteorologie zwei Arten, wie man lernen kann."
+    },
+    {
+      "i": 4,
+      "start": 26.75,
+      "end": 31.03,
+      "text": "Das eine ist Minimumaufwand, irgendwie durch die Theorieprüfung durchzukommen."
+    },
+    {
+      "i": 5,
+      "start": 31.03,
+      "end": 36.84,
+      "text": "Und dann gibt es natürlich sehr viel mehr Wetterwissen, das man vermitteln kann und lernen kann."
+    },
+    {
+      "i": 6,
+      "start": 36.84,
+      "end": 42.43,
+      "text": "Und da gibt es eigentlich fast keine Grenzen und da könnte man fünf Tage darüber reden, über Meteorologie."
+    },
+    {
+      "i": 7,
+      "start": 43.14,
+      "end": 46.8,
+      "text": "Dieser Kurs ist jetzt aber so, dass er wirklich auf Basics ausgelegt ist."
+    },
+    {
+      "i": 8,
+      "start": 47.24,
+      "end": 50.54,
+      "text": "Dieser Kurs eignet sich sicher auch für schon präventierte Piloten,"
+    },
+    {
+      "i": 9,
+      "start": 51.18,
+      "end": 56.22,
+      "text": "um vielleicht das Wetterwissen wieder ein bisschen auffrischen, um neue Sachen dazulernen."
+    },
+    {
+      "i": 10,
+      "start": 56.4,
+      "end": 60.38,
+      "text": "Es hat sicher auch viele spannende Gebiete dabei für präventierte Piloten."
+    },
+    {
+      "i": 11,
+      "start": 60.68,
+      "end": 64.8,
+      "text": "Aber dieser Kurs ist natürlich vor allem auch auf Flugschulen ausgelegt,"
+    },
+    {
+      "i": 12,
+      "start": 64.8,
+      "end": 68.81,
+      "text": "so dass wir euch hoffentlich das Wetterwissen gut vermitteln können,"
+    },
+    {
+      "i": 13,
+      "start": 68.81,
+      "end": 74.15,
+      "text": "was im Theoriebuch vielleicht eher trocken ist und viele Sachen ein bisschen schwierig zu verstehen sind."
+    },
+    {
+      "i": 14,
+      "start": 74.15,
+      "end": 81.15,
+      "text": "Und ja, so steigen wir doch jetzt mal ein in das spannende Gebiet des Wetterwissens."
+    },
+    {
+      "i": 15,
+      "start": 81.15,
+      "end": 86.48,
+      "text": "Ein Thema, das mir auch immer ganz am Herzen liegt, vor allem wenn es um Meteorologie geht,"
+    },
+    {
+      "i": 16,
+      "start": 86.48,
+      "end": 89.72,
+      "text": "ist, dass es ein bisschen zwei Bereiche gibt."
+    },
+    {
+      "i": 17,
+      "start": 89.72,
+      "end": 95.7,
+      "text": "Das eine ist das theoretische Wetterwissen, wo man viel lernen kann, viel Theorie verstehen kann."
+    },
+    {
+      "i": 18,
+      "start": 95.7,
+      "end": 98.7,
+      "text": "Aber gerade in der Meteorologie spielt sich ja das Wetter von aussen ab."
+    },
+    {
+      "i": 19,
+      "start": 98.7,
+      "end": 103.7,
+      "text": "Das hat sehr viel mit der Erfahrung zu tun, in der Flugpraxis oder in der Meteorpraxis."
+    },
+    {
+      "i": 20,
+      "start": 103.7,
+      "end": 108.7,
+      "text": "Sehr viel damit zu tun, dass man das Wetter immer wieder beobachtet, analysiert"
+    },
+    {
+      "i": 21,
+      "start": 108.7,
+      "end": 111.7,
+      "text": "und die Theorie mit der Praxis auch immer wieder abgleicht."
+    },
+    {
+      "i": 22,
+      "start": 111.7,
+      "end": 113.7,
+      "text": "Und das ist auch ganz wichtig."
+    },
+    {
+      "i": 23,
+      "start": 113.7,
+      "end": 120.72,
+      "text": "In diesem Bereich geht es aber hauptsächlich um Theorie und um ein gewisses Grundverständnis für das Wetter."
+    },
+    {
+      "i": 24,
+      "start": 120.72,
+      "end": 125.76,
+      "text": "Fangen wir vielleicht gleich beim Grössten an. Wo spielt sich das Wetter ab?"
+    },
+    {
+      "i": 25,
+      "start": 125.76,
+      "end": 128.94,
+      "text": "Das ist in unserer Atmosphäre."
+    },
+    {
+      "i": 26,
+      "start": 128.94,
+      "end": 134.27,
+      "text": "Die Atmosphäre rund um die Welt ist aufteilt in verschiedene Gebiete."
+    },
+    {
+      "i": 27,
+      "start": 134.27,
+      "end": 137.27,
+      "text": "In Stratosphären, Mesosphären, Troposphären."
+    },
+    {
+      "i": 28,
+      "start": 137.27,
+      "end": 142.53,
+      "text": "Für uns aber am relevantesten ist eine Troposphäre,"
+    },
+    {
+      "i": 29,
+      "start": 142.53,
+      "end": 147.67,
+      "text": "die oben dran begrenzt ist mit der sogenannten Tropospause."
+    },
+    {
+      "i": 30,
+      "start": 147.67,
+      "end": 151.75,
+      "text": "Und in dieser Schicht unten befinden sich eigentlich die meisten Luftfeuchtigkeiten,"
+    },
+    {
+      "i": 31,
+      "start": 151.75,
+      "end": 157.31,
+      "text": "der meiste Wasserdampf und somit das, was für uns wetterbestimmend ist."
+    },
+    {
+      "i": 32,
+      "start": 157.31,
+      "end": 162.06,
+      "text": "Diese Troposphäre ist extrem dünn."
+    },
+    {
+      "i": 33,
+      "start": 162.06,
+      "end": 165.06,
+      "text": "Wenn man aus dem Weltraum schaut, aus einer Raumstation heraus,"
+    },
+    {
+      "i": 34,
+      "start": 165.06,
+      "end": 169.06,
+      "text": "dann ist das nur eine ganz dünne Schicht, die man hier erkennt."
+    },
+    {
+      "i": 35,
+      "start": 169.06,
+      "end": 174.06,
+      "text": "Ungefähr vom Massstab ist sie so wie eine Zwiebelschelfe."
+    },
+    {
+      "i": 36,
+      "start": 174.06,
+      "end": 179.06,
+      "text": "Das ist wirklich ein ganz, ganz dünner Bereich, wo sich das Wetter geschehen abspielt"
+    },
+    {
+      "i": 37,
+      "start": 179.06,
+      "end": 181.06,
+      "text": "und wo wir uns natürlich auch bewegen."
+    },
+    {
+      "i": 38,
+      "start": 181.06,
+      "end": 186.06,
+      "text": "Und wir als Gletschernflüger bewegen sich ja sogar nur in der untersten Schicht dieser Troposphäre."
+    },
+    {
+      "i": 39,
+      "start": 186.06,
+      "end": 187.72,
+      "text": "Und ..."
+    },
+    {
+      "i": 40,
+      "start": 187.72,
+      "end": 191.8,
+      "text": "Hier wichtig in der Theorie, das müsst ihr auch für die Theorieprüfung wissen,"
+    },
+    {
+      "i": 41,
+      "start": 191.8,
+      "end": 196.07,
+      "text": "die Zusammensetzung der Gase in dieser Troposphäre."
+    },
+    {
+      "i": 42,
+      "start": 196.07,
+      "end": 202.41,
+      "text": "Zwar sind das die 21% Sauerstoffe, die für uns wichtig sind zum Atmen natürlich,"
+    },
+    {
+      "i": 43,
+      "start": 202.41,
+      "end": 208.41,
+      "text": "die 78% Stickstoffe und dann gibt es noch 1% Edelgas,"
+    },
+    {
+      "i": 44,
+      "start": 208.41,
+      "end": 210.41,
+      "text": "welches zum Beispiel auch dazu gehört."
+    },
+    {
+      "i": 45,
+      "start": 210.41,
+      "end": 214.41,
+      "text": "Das ist aber für uns, für die Meteorologie, nicht von grosser Relevanz,"
+    },
+    {
+      "i": 46,
+      "start": 214.41,
+      "end": 216.41,
+      "text": "die restlichen Edelgase, die da drin sind."
+    },
+    {
+      "i": 47,
+      "start": 216.41,
+      "end": 225.55,
+      "text": "Die Troposphäre ist nicht rund um den Globus gleich dick."
+    },
+    {
+      "i": 48,
+      "start": 225.55,
+      "end": 230.79,
+      "text": "Sie ist an den Polen oben etwas dünner als am Äquator."
+    },
+    {
+      "i": 49,
+      "start": 230.79,
+      "end": 232.79,
+      "text": "Das hat mit der Erdrotation zu tun."
+    },
+    {
+      "i": 50,
+      "start": 232.79,
+      "end": 240.9,
+      "text": "Am Äquator ist sie ungefähr 18 km und am Pol oben ungefähr 8 km."
+    },
+    {
+      "i": 51,
+      "start": 240.9,
+      "end": 246.98,
+      "text": "Bei uns in Europa, von der Breite gerade her, wo wir ja viel am Fliegen sind,"
+    },
+    {
+      "i": 52,
+      "start": 246.98,
+      "end": 251.98,
+      "text": "sind wir ungefähr 11-13 km dick von dieser Troposphäre."
+    },
+    {
+      "i": 53,
+      "start": 251.98,
+      "end": 258.02,
+      "text": "Das müsst ihr euch auch vorstellen, diese 13'000 m."
+    },
+    {
+      "i": 54,
+      "start": 258.02,
+      "end": 261.64,
+      "text": "Dann reden wir von einer Standardatmosphäre."
+    },
+    {
+      "i": 55,
+      "start": 261.64,
+      "end": 266.66,
+      "text": "Das ist immer wieder wichtig im Flugwetter oder vor allem in der Theorieprüfung."
+    },
+    {
+      "i": 56,
+      "start": 266.66,
+      "end": 271.01,
+      "text": "Fragen sie euch immer wieder aus über die Standardatmosphäre."
+    },
+    {
+      "i": 57,
+      "start": 271.01,
+      "end": 277.01,
+      "text": "Das ist diese Atmosphäre, wenn sich das Wetter komplett ausgleichen würde,"
+    },
+    {
+      "i": 58,
+      "start": 277.01,
+      "end": 279.01,
+      "text": "wenn wir keine Hochdruckgebiete hätten, Tiefdruckgebiete"
+    },
+    {
+      "i": 59,
+      "start": 279.01,
+      "end": 282.01,
+      "text": "und verschiedene Faktoren, die unser Wetter beeinflussen,"
+    },
+    {
+      "i": 60,
+      "start": 282.01,
+      "end": 284.01,
+      "text": "die wir jetzt anschauen werden."
+    },
+    {
+      "i": 61,
+      "start": 284.01,
+      "end": 289.01,
+      "text": "Wenn sich da alles ausgleichen würde, dann kommt ihr auf eine sogenannte Standardatmosphäre."
+    },
+    {
+      "i": 62,
+      "start": 289.01,
+      "end": 293.01,
+      "text": "Das ist so wie der Nullpunkt, wo sich alles ausgleichen hat."
+    },
+    {
+      "i": 63,
+      "start": 293.01,
+      "end": 301.09,
+      "text": "Da gibt es ein paar Zahlen und Facts, die ihr an der Theorieprüfung abrufen müsst."
+    },
+    {
+      "i": 64,
+      "start": 301.09,
+      "end": 305.97,
+      "text": "Das Wichtige ist der Temperaturgradient in der Höhe,"
+    },
+    {
+      "i": 65,
+      "start": 305.97,
+      "end": 309.97,
+      "text": "wie sich die Troposphäre abkühlt."
+    },
+    {
+      "i": 66,
+      "start": 309.97,
+      "end": 313.97,
+      "text": "Und zwar reden wir hier von 6,5 Grad pro 1000 Höhenmeter"
+    },
+    {
+      "i": 67,
+      "start": 313.97,
+      "end": 321.97,
+      "text": "oder pro 100 Meter, dementsprechend 0,65 Grad pro 100 Meter."
+    },
+    {
+      "i": 68,
+      "start": 321.97,
+      "end": 328.37,
+      "text": "Dann reden wir an der Erdoberfläche der Standardatmosphäre von 15 Grad"
+    },
+    {
+      "i": 69,
+      "start": 328.37,
+      "end": 332.37,
+      "text": "und an der Troposphäre oben von minus 56 Grad."
+    },
+    {
+      "i": 70,
+      "start": 332.37,
+      "end": 334.74,
+      "text": "Vor allem die unteren zwei Zahlen sind wichtig,"
+    },
+    {
+      "i": 71,
+      "start": 334.74,
+      "end": 338.74,
+      "text": "die ihr lernt für die Theorieprüfung."
+    },
+    {
+      "i": 72,
+      "start": 338.74,
+      "end": 343.73,
+      "text": "Der Temperaturgradient ist natürlich je nach Wetterlage und Situation,"
+    },
+    {
+      "i": 73,
+      "start": 343.73,
+      "end": 347.73,
+      "text": "wie wir später lernen können, natürlich variieren."
+    },
+    {
+      "i": 74,
+      "start": 347.73,
+      "end": 351.73,
+      "text": "Aber in der Standardatmosphäre reden wir, wie gesagt, von 6,5 Grad pro 100 Meter."
+    },
+    {
+      "i": 75,
+      "start": 351.73,
+      "end": 354.26,
+      "text": "Dann haben wir die Temperaturen."
+    },
+    {
+      "i": 76,
+      "start": 354.26,
+      "end": 358.26,
+      "text": "In der Standardatmosphäre reden wir auch von einem Standardluftdruck."
+    },
+    {
+      "i": 77,
+      "start": 358.26,
+      "end": 362.59,
+      "text": "Den Luftdruck können wir nachher noch gar nicht darauf sprechen."
+    },
+    {
+      "i": 78,
+      "start": 362.59,
+      "end": 366.9,
+      "text": "Aber sicher die Zahl, die wir auch immer wieder hören werden,"
+    },
+    {
+      "i": 79,
+      "start": 366.9,
+      "end": 368.9,
+      "text": "sind die 1013,25 Hektopascal."
+    },
+    {
+      "i": 80,
+      "start": 368.9,
+      "end": 370.9,
+      "text": "1013,25 Hektopascal ist der Luftdruck,"
+    },
+    {
+      "i": 81,
+      "start": 370.9,
+      "end": 374.9,
+      "text": "wenn sich, wie gesagt, die ganze Troposphäre ausgleicht."
+    },
+    {
+      "i": 82,
+      "start": 374.9,
+      "end": 380.9,
+      "text": "Dann wäre auf Meereshöhe gerechnet der Luftdruck immer gleich."
+    },
+    {
+      "i": 83,
+      "start": 380.9,
+      "end": 385.14,
+      "text": "Und dann wäre auf diesen 1013,25 Hektopascal."
+    },
+    {
+      "i": 84,
+      "start": 385.14,
+      "end": 389.14,
+      "text": "Und die Troposphärenhöhe, wo die Tropospause dann anfängt,"
+    },
+    {
+      "i": 85,
+      "start": 389.14,
+      "end": 394.27,
+      "text": "ist bei 11 Kilometern in der Standardatmosphäre."
+    },
+    {
+      "i": 86,
+      "start": 394.27,
+      "end": 396.27,
+      "text": "Dann beim Luftdruck auch wichtig ist,"
+    },
+    {
+      "i": 87,
+      "start": 396.27,
+      "end": 398.51,
+      "text": "wie sinkt er in der Höhe."
+    },
+    {
+      "i": 88,
+      "start": 398.51,
+      "end": 400.51,
+      "text": "Das ist nicht linear."
+    },
+    {
+      "i": 89,
+      "start": 400.51,
+      "end": 402.51,
+      "text": "Da kann man sagen,"
+    },
+    {
+      "i": 90,
+      "start": 402.51,
+      "end": 406.51,
+      "text": "dass sich alle 5500 Meter in der Höhe der Luftdruck halbiert."
+    },
+    {
+      "i": 91,
+      "start": 406.51,
+      "end": 415.18,
+      "text": "Also dementsprechend auf 5500 Meter hätten wir noch 506,6 Hektopascal."
+    },
+    {
+      "i": 92,
+      "start": 415.18,
+      "end": 417.18,
+      "text": "Das ist auch ein Wert in 5500 Meter,"
+    },
+    {
+      "i": 93,
+      "start": 417.18,
+      "end": 421.18,
+      "text": "der sehr wichtig ist für die Theorieprüfung, um das zu lernen."
+    },
+    {
+      "i": 94,
+      "start": 421.18,
+      "end": 425.39,
+      "text": "Also der Druck nimmt natürlich in der Höhe ab."
+    },
+    {
+      "i": 95,
+      "start": 425.39,
+      "end": 427.39,
+      "text": "Man kann sich den Luftdruck auch vorstellen."
+    },
+    {
+      "i": 96,
+      "start": 427.39,
+      "end": 429.39,
+      "text": "Das ist wie eine Luftsäule,"
+    },
+    {
+      "i": 97,
+      "start": 429.39,
+      "end": 431.39,
+      "text": "die auch bei uns ist bis zur Tropospause hoch."
+    },
+    {
+      "i": 98,
+      "start": 431.39,
+      "end": 433.39,
+      "text": "Und das ist gleich wie im Wasser zum Beispiel."
+    },
+    {
+      "i": 99,
+      "start": 433.39,
+      "end": 435.39,
+      "text": "Die, die tauchen,"
+    },
+    {
+      "i": 100,
+      "start": 435.39,
+      "end": 437.39,
+      "text": "je tiefer man in dem Wasser geht,"
+    },
+    {
+      "i": 101,
+      "start": 437.39,
+      "end": 441.39,
+      "text": "desto höher ist der Druck durch die Gravitation der Erde."
+    },
+    {
+      "i": 102,
+      "start": 441.39,
+      "end": 445.57,
+      "text": "Und dementsprechend ist natürlich der Luftdruck am höchsten,"
+    },
+    {
+      "i": 103,
+      "start": 445.57,
+      "end": 447.57,
+      "text": "am untersten Punkt auf Meereshöhe"
+    },
+    {
+      "i": 104,
+      "start": 447.57,
+      "end": 449.57,
+      "text": "und nimmt in der Höhe ab."
+    },
+    {
+      "i": 105,
+      "start": 449.57,
+      "end": 451.57,
+      "text": "Das hat mit der Gravitation zu tun"
+    },
+    {
+      "i": 106,
+      "start": 451.57,
+      "end": 453.94,
+      "text": "und mit der Luftsäule,"
+    },
+    {
+      "i": 107,
+      "start": 453.94,
+      "end": 455.94,
+      "text": "die auf uns wirkt"
+    },
+    {
+      "i": 108,
+      "start": 455.94,
+      "end": 457.94,
+      "text": "und dementsprechend einen Luftdruck generiert."
+    },
+    {
+      "i": 109,
+      "start": 457.94,
+      "end": 462.05,
+      "text": "Hier die Zahlen nochmal kurz zusammengefasst."
+    },
+    {
+      "i": 110,
+      "start": 462.05,
+      "end": 464.05,
+      "text": "1013,25, 15 Grad"
+    },
+    {
+      "i": 111,
+      "start": 464.05,
+      "end": 466.05,
+      "text": "und die 0,65 auf 100 Meter."
+    },
+    {
+      "i": 112,
+      "start": 466.05,
+      "end": 468.05,
+      "text": "Das sind die Zahlen,"
+    },
+    {
+      "i": 113,
+      "start": 468.05,
+      "end": 470.05,
+      "text": "die für uns für relevant sind"
+    },
+    {
+      "i": 114,
+      "start": 470.05,
+      "end": 472.05,
+      "text": "für die Standardatmosphäre."
+    },
+    {
+      "i": 115,
+      "start": 472.05,
+      "end": 475.02,
+      "text": "Genau."
+    },
+    {
+      "i": 116,
+      "start": 475.02,
+      "end": 477.2,
+      "text": "Und wenn wir uns überlegen,"
+    },
+    {
+      "i": 117,
+      "start": 477.2,
+      "end": 479.57,
+      "text": "die Standardatmosphäre"
+    },
+    {
+      "i": 118,
+      "start": 479.57,
+      "end": 481.57,
+      "text": "ist natürlich nicht immer gleich,"
+    },
+    {
+      "i": 119,
+      "start": 481.57,
+      "end": 483.57,
+      "text": "wie wir es ja jeden Tag erleben mit dem Wetter."
+    },
+    {
+      "i": 120,
+      "start": 483.57,
+      "end": 485.57,
+      "text": "Da kommt der Motor dazu,"
+    },
+    {
+      "i": 121,
+      "start": 485.57,
+      "end": 487.57,
+      "text": "die Sonne,"
+    },
+    {
+      "i": 122,
+      "start": 487.57,
+      "end": 489.58,
+      "text": "die auf die Erde scheint und wirkt."
+    },
+    {
+      "i": 123,
+      "start": 489.58,
+      "end": 491.58,
+      "text": "Und verschiedene Land- und Meerwasser"
+    },
+    {
+      "i": 124,
+      "start": 491.58,
+      "end": 493.58,
+      "text": "werden verschieden erwärmt."
+    },
+    {
+      "i": 125,
+      "start": 493.58,
+      "end": 495.58,
+      "text": "Verschiedene Jahreszeiten auch."
+    },
+    {
+      "i": 126,
+      "start": 495.58,
+      "end": 497.58,
+      "text": "Mit den verschiedenen Einstrahlwinkeln"
+    },
+    {
+      "i": 127,
+      "start": 497.58,
+      "end": 499.58,
+      "text": "der Sonne je nach Jahreszeit."
+    },
+    {
+      "i": 128,
+      "start": 499.58,
+      "end": 501.58,
+      "text": "Ihr kennt es,"
+    },
+    {
+      "i": 129,
+      "start": 501.58,
+      "end": 503.58,
+      "text": "die Sonne ist ja nicht immer gleich hoch."
+    },
+    {
+      "i": 130,
+      "start": 503.58,
+      "end": 505.58,
+      "text": "Und dementsprechend kommt das ganze"
+    },
+    {
+      "i": 131,
+      "start": 505.58,
+      "end": 507.58,
+      "text": "Gefüge, also die Standardatmosphäre"
+    },
+    {
+      "i": 132,
+      "start": 507.58,
+      "end": 509.58,
+      "text": "aus dem Gleichgewicht"
+    },
+    {
+      "i": 133,
+      "start": 509.58,
+      "end": 511.58,
+      "text": "und es gibt Schwankungen im Luftdruck"
+    },
+    {
+      "i": 134,
+      "start": 511.58,
+      "end": 513.58,
+      "text": "und auch mit den ganzen Wettersystemen."
+    },
+    {
+      "i": 135,
+      "start": 513.58,
+      "end": 515.58,
+      "text": "Also die Sonne ist ein ganz wichtiger Motor,"
+    },
+    {
+      "i": 136,
+      "start": 515.58,
+      "end": 517.58,
+      "text": "der das aus dem Gleichgewicht bringt"
+    },
+    {
+      "i": 137,
+      "start": 517.58,
+      "end": 519.58,
+      "text": "und das Wetter verschieden beeinflusst."
+    },
+    {
+      "i": 138,
+      "start": 519.58,
+      "end": 521.58,
+      "text": "Und das schauen wir uns jetzt zusammen an,"
+    },
+    {
+      "i": 139,
+      "start": 521.58,
+      "end": 523.58,
+      "text": "was das für einen Einfluss gibt."
+    },
+    {
+      "i": 140,
+      "start": 523.58,
+      "end": 526.08,
+      "text": "Die Sonne,"
+    },
+    {
+      "i": 141,
+      "start": 526.08,
+      "end": 529.78,
+      "text": "die auf die Erde scheint,"
+    },
+    {
+      "i": 142,
+      "start": 529.78,
+      "end": 532.02,
+      "text": "erwärmt primär den Boden."
+    },
+    {
+      "i": 143,
+      "start": 532.02,
+      "end": 534.02,
+      "text": "Das ist ganz wichtig."
+    },
+    {
+      "i": 144,
+      "start": 534.02,
+      "end": 536.02,
+      "text": "Eine Sonne erwärmt nie eine Luftmasse,"
+    },
+    {
+      "i": 145,
+      "start": 536.02,
+      "end": 538.02,
+      "text": "die sie durchscheint."
+    },
+    {
+      "i": 146,
+      "start": 538.02,
+      "end": 540.02,
+      "text": "Eine Luft reflektiert ja keine Sonne"
+    },
+    {
+      "i": 147,
+      "start": 540.02,
+      "end": 542.02,
+      "text": "oder kann sich auch nicht erwärmen durch das."
+    },
+    {
+      "i": 148,
+      "start": 542.02,
+      "end": 544.02,
+      "text": "Es erwärmt eigentlich nur"
+    },
+    {
+      "i": 149,
+      "start": 544.02,
+      "end": 546.02,
+      "text": "die bodennahe Luftschicht."
+    },
+    {
+      "i": 150,
+      "start": 546.02,
+      "end": 548.02,
+      "text": "Das ist die Luftschicht,"
+    },
+    {
+      "i": 151,
+      "start": 548.02,
+      "end": 550.02,
+      "text": "die wirklich auf dem Boden aufliegt."
+    },
+    {
+      "i": 152,
+      "start": 550.02,
+      "end": 552.02,
+      "text": "Mit der Abstrahlungswärme,"
+    },
+    {
+      "i": 153,
+      "start": 552.02,
+      "end": 554.02,
+      "text": "die dann entsteht"
+    },
+    {
+      "i": 154,
+      "start": 554.02,
+      "end": 556.42,
+      "text": "und die bodennahe Luftschicht erwärmt sich dann."
+    },
+    {
+      "i": 155,
+      "start": 556.42,
+      "end": 558.42,
+      "text": "Und durch die Erwärmung"
+    },
+    {
+      "i": 156,
+      "start": 558.42,
+      "end": 560.42,
+      "text": "dieser bodennahen Luftschicht"
+    },
+    {
+      "i": 157,
+      "start": 560.42,
+      "end": 562.42,
+      "text": "gibt es Regionen auf der Welt,"
+    },
+    {
+      "i": 158,
+      "start": 562.42,
+      "end": 564.42,
+      "text": "verteilt auf dem Globus,"
+    },
+    {
+      "i": 159,
+      "start": 564.42,
+      "end": 566.5,
+      "text": "die sich verschieden erwärmen."
+    },
+    {
+      "i": 160,
+      "start": 566.5,
+      "end": 568.5,
+      "text": "Regionen am Äquator erwärmen sich"
+    },
+    {
+      "i": 161,
+      "start": 568.5,
+      "end": 570.5,
+      "text": "natürlich mehr als in einer Region"
+    },
+    {
+      "i": 162,
+      "start": 570.5,
+      "end": 572.5,
+      "text": "irgendwo in der Polargegend,"
+    },
+    {
+      "i": 163,
+      "start": 572.5,
+      "end": 574.5,
+      "text": "wo die Sonnenstrahlen"
+    },
+    {
+      "i": 164,
+      "start": 574.5,
+      "end": 576.5,
+      "text": "nur sehr flach aufkommen."
+    },
+    {
+      "i": 165,
+      "start": 576.5,
+      "end": 578.5,
+      "text": "Respektive eine Eisfläche"
+    },
+    {
+      "i": 166,
+      "start": 578.5,
+      "end": 580.5,
+      "text": "erwärmt sich auch weniger,"
+    },
+    {
+      "i": 167,
+      "start": 580.5,
+      "end": 582.5,
+      "text": "z.B. eine Wüste"
+    },
+    {
+      "i": 168,
+      "start": 582.5,
+      "end": 584.5,
+      "text": "oder ein Waldgebiet etc."
+    },
+    {
+      "i": 169,
+      "start": 584.5,
+      "end": 587.34,
+      "text": "Und dadurch"
+    },
+    {
+      "i": 170,
+      "start": 587.34,
+      "end": 589.34,
+      "text": "erwärmen sich verschiedene Gebiete"
+    },
+    {
+      "i": 171,
+      "start": 589.34,
+      "end": 591.49,
+      "text": "auf dem Globus verschieden"
+    },
+    {
+      "i": 172,
+      "start": 591.49,
+      "end": 593.49,
+      "text": "und so entstehen verschiedene"
+    },
+    {
+      "i": 173,
+      "start": 593.49,
+      "end": 595.49,
+      "text": "Luftmassen."
+    },
+    {
+      "i": 174,
+      "start": 595.49,
+      "end": 597.73,
+      "text": "Wenn wir von Luftmassen"
+    },
+    {
+      "i": 175,
+      "start": 597.73,
+      "end": 599.73,
+      "text": "sprechen, das ist auch ein Wort,"
+    },
+    {
+      "i": 176,
+      "start": 599.73,
+      "end": 601.73,
+      "text": "das in der Meteorologie immer wieder vorkommt."
+    },
+    {
+      "i": 177,
+      "start": 601.73,
+      "end": 603.78,
+      "text": "Eine Luftmasse ist"
+    },
+    {
+      "i": 178,
+      "start": 603.78,
+      "end": 605.82,
+      "text": "eigentlich ein Luftvolumen,"
+    },
+    {
+      "i": 179,
+      "start": 605.82,
+      "end": 607.82,
+      "text": "das gleiche Eigenschaften hat."
+    },
+    {
+      "i": 180,
+      "start": 607.82,
+      "end": 609.82,
+      "text": "Also wir haben z.B. eine erwärmere"
+    },
+    {
+      "i": 181,
+      "start": 609.82,
+      "end": 611.82,
+      "text": "Luftmasse und eine kältere."
+    },
+    {
+      "i": 182,
+      "start": 611.82,
+      "end": 613.82,
+      "text": "Und das sind immer Gebiete,"
+    },
+    {
+      "i": 183,
+      "start": 613.82,
+      "end": 615.82,
+      "text": "die über mehrere hundert Kilometer"
+    },
+    {
+      "i": 184,
+      "start": 615.82,
+      "end": 617.82,
+      "text": "gleiche Eigenschaften haben,"
+    },
+    {
+      "i": 185,
+      "start": 617.82,
+      "end": 619.82,
+      "text": "also einen gleichen Luftdruck haben"
+    },
+    {
+      "i": 186,
+      "start": 619.82,
+      "end": 621.82,
+      "text": "oder eine gleiche Temperatur haben"
+    },
+    {
+      "i": 187,
+      "start": 621.82,
+      "end": 623.82,
+      "text": "oder eine ähnliche Temperatur haben,"
+    },
+    {
+      "i": 188,
+      "start": 623.82,
+      "end": 627.9,
+      "text": "eine wärmere Temperatur oder eine kältere Temperatur."
+    },
+    {
+      "i": 189,
+      "start": 627.9,
+      "end": 629.9,
+      "text": "Grundsätzlich ist es so,"
+    },
+    {
+      "i": 190,
+      "start": 629.9,
+      "end": 631.9,
+      "text": "über ein Gebiet, das länger kälter ist"
+    },
+    {
+      "i": 191,
+      "start": 631.9,
+      "end": 633.92,
+      "text": "als die Umgebung,"
+    },
+    {
+      "i": 192,
+      "start": 633.92,
+      "end": 636.06,
+      "text": "wird ein höherer"
+    },
+    {
+      "i": 193,
+      "start": 636.06,
+      "end": 638.11,
+      "text": "Luftdruck entstehen."
+    },
+    {
+      "i": 194,
+      "start": 638.11,
+      "end": 640.11,
+      "text": "Und über ein Gebiet, das länger warm ist"
+    },
+    {
+      "i": 195,
+      "start": 640.11,
+      "end": 642.29,
+      "text": "als die Umgebung,"
+    },
+    {
+      "i": 196,
+      "start": 642.29,
+      "end": 644.5,
+      "text": "entsteht ein tieferer Druck."
+    },
+    {
+      "i": 197,
+      "start": 644.5,
+      "end": 646.5,
+      "text": "Dementsprechend gibt es in den tropischen"
+    },
+    {
+      "i": 198,
+      "start": 646.5,
+      "end": 648.5,
+      "text": "Gebieten z.B. die tropischen"
+    },
+    {
+      "i": 199,
+      "start": 648.5,
+      "end": 650.7,
+      "text": "Tiefdruckgebiete und in den"
+    },
+    {
+      "i": 200,
+      "start": 650.7,
+      "end": 652.7,
+      "text": "polaren Gebieten gibt es die polaren"
+    },
+    {
+      "i": 201,
+      "start": 652.7,
+      "end": 654.82,
+      "text": "Hochdruckgebiete."
+    },
+    {
+      "i": 202,
+      "start": 654.82,
+      "end": 656.82,
+      "text": "So entstehen verschiedene Luftdrücke."
+    },
+    {
+      "i": 203,
+      "start": 656.82,
+      "end": 659.12,
+      "text": "Und dann entstehen eben die Tiefdruckgebiete"
+    },
+    {
+      "i": 204,
+      "start": 659.12,
+      "end": 661.12,
+      "text": "und die Hochdruckgebiete,"
+    },
+    {
+      "i": 205,
+      "start": 661.12,
+      "end": 663.12,
+      "text": "worauf wir jetzt in den nächsten"
+    },
+    {
+      "i": 206,
+      "start": 663.12,
+      "end": 665.12,
+      "text": "Folien eingehen werden,"
+    },
+    {
+      "i": 207,
+      "start": 665.12,
+      "end": 667.26,
+      "text": "was das für einen Einfluss"
+    },
+    {
+      "i": 208,
+      "start": 667.26,
+      "end": 669.98,
+      "text": "auf unser Wetter hat."
+    },
+    {
+      "i": 209,
+      "start": 669.98,
+      "end": 671.98,
+      "text": "Man kann sich vorstellen, dass es so wie"
+    },
+    {
+      "i": 210,
+      "start": 671.98,
+      "end": 673.98,
+      "text": "Gürtel gibt rund um die Welt."
+    },
+    {
+      "i": 211,
+      "start": 673.98,
+      "end": 675.98,
+      "text": "Rund um den Globus gibt es die sogenannten"
+    },
+    {
+      "i": 212,
+      "start": 675.98,
+      "end": 677.98,
+      "text": "Hochdruckzellen."
+    },
+    {
+      "i": 213,
+      "start": 677.98,
+      "end": 679.98,
+      "text": "Das sind die Tiefdruck- und Hochdruckringe."
+    },
+    {
+      "i": 214,
+      "start": 679.98,
+      "end": 682.45,
+      "text": "Da gibt es noch mehr wie auf dieser Grafik."
+    },
+    {
+      "i": 215,
+      "start": 682.45,
+      "end": 684.45,
+      "text": "Grundsätzlich ist es aber so, dass"
+    },
+    {
+      "i": 216,
+      "start": 684.45,
+      "end": 686.45,
+      "text": "in den tropischen Gebieten ein Quartal"
+    },
+    {
+      "i": 217,
+      "start": 686.45,
+      "end": 688.46,
+      "text": "Tiefdruck gibt und in den polaren Gebieten"
+    },
+    {
+      "i": 218,
+      "start": 688.46,
+      "end": 690.74,
+      "text": "Hochdruckgürtel gibt."
+    },
+    {
+      "i": 219,
+      "start": 690.74,
+      "end": 692.74,
+      "text": "Und so gibt es auch tropische"
+    },
+    {
+      "i": 220,
+      "start": 692.74,
+      "end": 694.74,
+      "text": "Luftmassen und polare"
+    },
+    {
+      "i": 221,
+      "start": 694.74,
+      "end": 696.88,
+      "text": "Luftmassen. Und auch da werden wir"
+    },
+    {
+      "i": 222,
+      "start": 696.88,
+      "end": 699.12,
+      "text": "jetzt in den nächsten paar Minuten"
+    },
+    {
+      "i": 223,
+      "start": 699.12,
+      "end": 701.12,
+      "text": "lernen, was das für einen Einfluss"
+    },
+    {
+      "i": 224,
+      "start": 701.12,
+      "end": 703.23,
+      "text": "auf unser Wetter hat."
+    },
+    {
+      "i": 225,
+      "start": 703.23,
+      "end": 706.21,
+      "text": "Das haben wir gerade gehabt."
+    },
+    {
+      "i": 226,
+      "start": 706.21,
+      "end": 708.22,
+      "text": "Es gibt verschiedene Erwärmungen"
+    },
+    {
+      "i": 227,
+      "start": 708.22,
+      "end": 710.22,
+      "text": "von den verschiedenen Gebieten."
+    },
+    {
+      "i": 228,
+      "start": 710.22,
+      "end": 712.22,
+      "text": "Dementsprechend gibt es ein Hochdruckgebiet"
+    },
+    {
+      "i": 229,
+      "start": 712.22,
+      "end": 714.24,
+      "text": "und ein Tiefdruckgebiet."
+    },
+    {
+      "i": 230,
+      "start": 714.24,
+      "end": 716.24,
+      "text": "Und da seht ihr jetzt in der Mitte"
+    },
+    {
+      "i": 231,
+      "start": 716.24,
+      "end": 718.24,
+      "text": "die Zahlen, die wir gerade vorhin hatten"
+    },
+    {
+      "i": 232,
+      "start": 718.24,
+      "end": 720.24,
+      "text": "von dieser Standardatmosphäre,"
+    },
+    {
+      "i": 233,
+      "start": 720.24,
+      "end": 722.24,
+      "text": "die 1013,25."
+    },
+    {
+      "i": 234,
+      "start": 722.24,
+      "end": 724.24,
+      "text": "Und sobald der Luftdruck wieder sinkt"
+    },
+    {
+      "i": 235,
+      "start": 724.24,
+      "end": 726.67,
+      "text": "und tiefer ist,"
+    },
+    {
+      "i": 236,
+      "start": 726.67,
+      "end": 728.67,
+      "text": "reden wir von einem Tiefdruckgebiet."
+    },
+    {
+      "i": 237,
+      "start": 728.67,
+      "end": 730.67,
+      "text": "Bei uns in Europa"
+    },
+    {
+      "i": 238,
+      "start": 730.67,
+      "end": 732.67,
+      "text": "ist es ein sehr ausgeprägtes"
+    },
+    {
+      "i": 239,
+      "start": 732.67,
+      "end": 734.67,
+      "text": "Tiefdruckgebiet von"
+    },
+    {
+      "i": 240,
+      "start": 734.67,
+      "end": 736.67,
+      "text": "955 Hektar Pascal."
+    },
+    {
+      "i": 241,
+      "start": 736.67,
+      "end": 738.67,
+      "text": "Und ein sehr ausgeprägtes"
+    },
+    {
+      "i": 242,
+      "start": 738.67,
+      "end": 740.67,
+      "text": "Tiefdruckgebiet, reden wir mal von"
+    },
+    {
+      "i": 243,
+      "start": 740.67,
+      "end": 742.69,
+      "text": "1035 Hektar Pascal."
+    },
+    {
+      "i": 244,
+      "start": 742.69,
+      "end": 744.69,
+      "text": "Jetzt in der Zeit der globalen Erwärmung"
+    },
+    {
+      "i": 245,
+      "start": 744.69,
+      "end": 746.69,
+      "text": "werden leider die Werte auch immer"
+    },
+    {
+      "i": 246,
+      "start": 746.69,
+      "end": 748.69,
+      "text": "etwas extremer. Es gibt sogar"
+    },
+    {
+      "i": 247,
+      "start": 748.69,
+      "end": 750.69,
+      "text": "Hochdruckgebiete, die zum Beispiel"
+    },
+    {
+      "i": 248,
+      "start": 750.69,
+      "end": 752.69,
+      "text": "bis 1048 Hektar"
+    },
+    {
+      "i": 249,
+      "start": 752.69,
+      "end": 754.69,
+      "text": "Pascal erreichen. Also das sind dann"
+    },
+    {
+      "i": 250,
+      "start": 754.69,
+      "end": 756.69,
+      "text": "sehr starke Druckunterschiede."
+    },
+    {
+      "i": 251,
+      "start": 756.69,
+      "end": 758.69,
+      "text": "Und dementsprechend werden auch"
+    },
+    {
+      "i": 252,
+      "start": 758.69,
+      "end": 760.69,
+      "text": "die meteorologischen Phänomene immer stärker."
+    },
+    {
+      "i": 253,
+      "start": 760.69,
+      "end": 762.69,
+      "text": "Und das ist das, was wir"
+    },
+    {
+      "i": 254,
+      "start": 762.69,
+      "end": 764.69,
+      "text": "leider immer wieder erleben."
+    },
+    {
+      "i": 255,
+      "start": 764.69,
+      "end": 766.69,
+      "text": "Mit diesen Unwetter zum Beispiel"
+    },
+    {
+      "i": 256,
+      "start": 766.69,
+      "end": 768.69,
+      "text": "hat es genau mit diesen"
+    },
+    {
+      "i": 257,
+      "start": 768.69,
+      "end": 770.69,
+      "text": "Druckschwankungen zu tun, die immer stärker werden."
+    },
+    {
+      "i": 258,
+      "start": 770.69,
+      "end": 774.5,
+      "text": "Dann wichtig"
+    },
+    {
+      "i": 259,
+      "start": 774.5,
+      "end": 777.12,
+      "text": "für uns zum Wissen ist,"
+    },
+    {
+      "i": 260,
+      "start": 777.12,
+      "end": 779.12,
+      "text": "da kommen wir auch später noch"
+    },
+    {
+      "i": 261,
+      "start": 779.12,
+      "end": 781.12,
+      "text": "zum Zusammenhang dazu,"
+    },
+    {
+      "i": 262,
+      "start": 781.12,
+      "end": 783.33,
+      "text": "in den Hochdruckgebieten sinken"
+    },
+    {
+      "i": 263,
+      "start": 783.33,
+      "end": 785.63,
+      "text": "die Luftmassen und im Tiefdruckgebiet"
+    },
+    {
+      "i": 264,
+      "start": 785.63,
+      "end": 787.63,
+      "text": "steigen die Luftmassen. Das ist dann später"
+    },
+    {
+      "i": 265,
+      "start": 787.63,
+      "end": 789.63,
+      "text": "ganz wichtig für"
+    },
+    {
+      "i": 266,
+      "start": 789.63,
+      "end": 791.63,
+      "text": "das Flugwetter auch, wo wir"
+    },
+    {
+      "i": 267,
+      "start": 791.63,
+      "end": 793.63,
+      "text": "nachher dazu kommen."
+    },
+    {
+      "i": 268,
+      "start": 793.63,
+      "end": 795.63,
+      "text": "Und grundsätzlich, wie jedes Gas"
+    },
+    {
+      "i": 269,
+      "start": 795.63,
+      "end": 797.63,
+      "text": "oder jede Flüssigkeit"
+    },
+    {
+      "i": 270,
+      "start": 797.63,
+      "end": 799.87,
+      "text": "hat die Luftmassen"
+    },
+    {
+      "i": 271,
+      "start": 799.87,
+      "end": 801.87,
+      "text": "das Bedürfnis, um einen Druck"
+    },
+    {
+      "i": 272,
+      "start": 801.87,
+      "end": 803.95,
+      "text": "auszugleichen. Das heisst,"
+    },
+    {
+      "i": 273,
+      "start": 803.95,
+      "end": 805.95,
+      "text": "eine Luftmasse will immer vom"
+    },
+    {
+      "i": 274,
+      "start": 805.95,
+      "end": 807.95,
+      "text": "Hochdruck ins Tiefdruck fliessen,"
+    },
+    {
+      "i": 275,
+      "start": 807.95,
+      "end": 810.51,
+      "text": "weil sie den Druck ausgleichen will."
+    },
+    {
+      "i": 276,
+      "start": 810.51,
+      "end": 812.51,
+      "text": "Und dementsprechend ist vor allem"
+    },
+    {
+      "i": 277,
+      "start": 812.51,
+      "end": 814.51,
+      "text": "bei uns am Boden oder in den"
+    },
+    {
+      "i": 278,
+      "start": 814.51,
+      "end": 816.51,
+      "text": "tieferen Luftschichten diese"
+    },
+    {
+      "i": 279,
+      "start": 816.51,
+      "end": 818.56,
+      "text": "Luftströmung wichtig, dass"
+    },
+    {
+      "i": 280,
+      "start": 818.56,
+      "end": 820.56,
+      "text": "die Luft vom Hoch ins Tief"
+    },
+    {
+      "i": 281,
+      "start": 820.56,
+      "end": 822.56,
+      "text": "fliesst und dementsprechend"
+    },
+    {
+      "i": 282,
+      "start": 822.56,
+      "end": 824.56,
+      "text": "entstehen auch die Wind,"
+    },
+    {
+      "i": 283,
+      "start": 824.56,
+      "end": 826.56,
+      "text": "die Windsysteme, die wir"
+    },
+    {
+      "i": 284,
+      "start": 826.56,
+      "end": 828.56,
+      "text": "am Boden spüren, wenn der Wind bläst."
+    },
+    {
+      "i": 285,
+      "start": 828.56,
+      "end": 830.77,
+      "text": "Und"
+    },
+    {
+      "i": 286,
+      "start": 830.77,
+      "end": 832.77,
+      "text": "so gibt es eine Ausgleichsströmung,"
+    },
+    {
+      "i": 287,
+      "start": 832.77,
+      "end": 834.77,
+      "text": "die für uns dann wichtig ist,"
+    },
+    {
+      "i": 288,
+      "start": 834.77,
+      "end": 836.88,
+      "text": "um diese Windrichtungen"
+    },
+    {
+      "i": 289,
+      "start": 836.88,
+      "end": 838.88,
+      "text": "zu erkennen und herauszulesen."
+    },
+    {
+      "i": 290,
+      "start": 838.88,
+      "end": 842.86,
+      "text": "Dann kommen wir zu"
+    },
+    {
+      "i": 291,
+      "start": 842.86,
+      "end": 844.86,
+      "text": "den Isoparenkarten, ein Wort, das"
+    },
+    {
+      "i": 292,
+      "start": 844.86,
+      "end": 846.86,
+      "text": "ihr sicher auch schon gehört habt oder im Theoriebuch"
+    },
+    {
+      "i": 293,
+      "start": 846.86,
+      "end": 848.86,
+      "text": "schon gelesen habt. Es gibt"
+    },
+    {
+      "i": 294,
+      "start": 848.86,
+      "end": 850.86,
+      "text": "Wetterkarten, die genau diese"
+    },
+    {
+      "i": 295,
+      "start": 850.86,
+      "end": 852.86,
+      "text": "Wetterphänomene, die wir gerade besprochen haben,"
+    },
+    {
+      "i": 296,
+      "start": 852.86,
+      "end": 855.58,
+      "text": "beschreiben. Diese Wetterkarten"
+    },
+    {
+      "i": 297,
+      "start": 855.58,
+      "end": 857.58,
+      "text": "entstehen einerseits"
+    },
+    {
+      "i": 298,
+      "start": 857.58,
+      "end": 859.58,
+      "text": "aus aktuellen Messwerten,"
+    },
+    {
+      "i": 299,
+      "start": 859.58,
+      "end": 861.58,
+      "text": "wo man mit Barometern den"
+    },
+    {
+      "i": 300,
+      "start": 861.58,
+      "end": 863.58,
+      "text": "Luftdruck misst und"
+    },
+    {
+      "i": 301,
+      "start": 863.58,
+      "end": 865.58,
+      "text": "natürlich auch diese Computermodelle,"
+    },
+    {
+      "i": 302,
+      "start": 865.58,
+      "end": 867.58,
+      "text": "die dann aufgrund dieser Messungen"
+    },
+    {
+      "i": 303,
+      "start": 867.58,
+      "end": 869.58,
+      "text": "das Wetter probieren zu"
+    },
+    {
+      "i": 304,
+      "start": 869.58,
+      "end": 871.58,
+      "text": "prognostizieren und vorauszurechnen."
+    },
+    {
+      "i": 305,
+      "start": 871.58,
+      "end": 873.73,
+      "text": "Und dann entstehen"
+    },
+    {
+      "i": 306,
+      "start": 873.73,
+      "end": 875.73,
+      "text": "diese lustigen Wetterkarten,"
+    },
+    {
+      "i": 307,
+      "start": 875.73,
+      "end": 877.73,
+      "text": "die wir jetzt auch noch genauer"
+    },
+    {
+      "i": 308,
+      "start": 877.73,
+      "end": 879.73,
+      "text": "eingehen, wie man diese herausliest."
+    },
+    {
+      "i": 309,
+      "start": 879.73,
+      "end": 881.9,
+      "text": "Isoparenkarten,"
+    },
+    {
+      "i": 310,
+      "start": 881.9,
+      "end": 883.92,
+      "text": "Isopare"
+    },
+    {
+      "i": 311,
+      "start": 883.92,
+      "end": 886.0,
+      "text": "sind die Linien, die"
+    },
+    {
+      "i": 312,
+      "start": 886.0,
+      "end": 888.72,
+      "text": "man hier sieht. Isopare"
+    },
+    {
+      "i": 313,
+      "start": 888.72,
+      "end": 890.94,
+      "text": "beschreiben Gebiete,"
+    },
+    {
+      "i": 314,
+      "start": 890.94,
+      "end": 892.94,
+      "text": "die den gleichen Luftdruck haben."
+    },
+    {
+      "i": 315,
+      "start": 892.94,
+      "end": 894.94,
+      "text": "Oder wo der gleiche"
+    },
+    {
+      "i": 316,
+      "start": 894.94,
+      "end": 896.99,
+      "text": "Luftdruck vorausgesagt wird."
+    },
+    {
+      "i": 317,
+      "start": 896.99,
+      "end": 898.99,
+      "text": "Also wir haben hier einen Isobar"
+    },
+    {
+      "i": 318,
+      "start": 898.99,
+      "end": 900.99,
+      "text": "zum Beispiel von 1025 Hektopascal,"
+    },
+    {
+      "i": 319,
+      "start": 900.99,
+      "end": 902.99,
+      "text": "das sieht man jetzt auch nicht gut, in der nächsten"
+    },
+    {
+      "i": 320,
+      "start": 902.99,
+      "end": 904.99,
+      "text": "Karte kann man es einfach besser sehen."
+    },
+    {
+      "i": 321,
+      "start": 904.99,
+      "end": 906.99,
+      "text": "Und überall wo diese Linie durchgeht,"
+    },
+    {
+      "i": 322,
+      "start": 906.99,
+      "end": 908.99,
+      "text": "wird auf Meereshöhe, das ist ganz wichtig,"
+    },
+    {
+      "i": 323,
+      "start": 908.99,
+      "end": 910.99,
+      "text": "der Druck wird heruntergerechnet auf"
+    },
+    {
+      "i": 324,
+      "start": 910.99,
+      "end": 912.99,
+      "text": "Meereshöhe, der gleiche Luftdruck"
+    },
+    {
+      "i": 325,
+      "start": 912.99,
+      "end": 915.39,
+      "text": "herrscht. Von dem her kommt der Name"
+    },
+    {
+      "i": 326,
+      "start": 915.39,
+      "end": 917.39,
+      "text": "Isoparenkarten."
+    },
+    {
+      "i": 327,
+      "start": 917.39,
+      "end": 919.39,
+      "text": "Iso gleichbleibend, bar ist Druck."
+    },
+    {
+      "i": 328,
+      "start": 919.39,
+      "end": 921.39,
+      "text": "Also überall wo der gleiche Druck"
+    },
+    {
+      "i": 329,
+      "start": 921.39,
+      "end": 923.41,
+      "text": "herrscht, wird eine solche Linie"
+    },
+    {
+      "i": 330,
+      "start": 923.41,
+      "end": 926.29,
+      "text": "eingezeichnet. Und auf so einer"
+    },
+    {
+      "i": 331,
+      "start": 926.29,
+      "end": 928.29,
+      "text": "Isoparenkarte sind oft auch Fronten"
+    },
+    {
+      "i": 332,
+      "start": 928.29,
+      "end": 930.29,
+      "text": "eingezeichnet natürlich, da kommen wir dann auch später"
+    },
+    {
+      "i": 333,
+      "start": 930.29,
+      "end": 932.29,
+      "text": "in diesem Kurs noch etwas genauer dazu,"
+    },
+    {
+      "i": 334,
+      "start": 932.29,
+      "end": 934.29,
+      "text": "was mit diesen Fronten"
+    },
+    {
+      "i": 335,
+      "start": 934.29,
+      "end": 937.12,
+      "text": "zu sehen ist."
+    },
+    {
+      "i": 336,
+      "start": 937.12,
+      "end": 939.12,
+      "text": "Da sieht man noch etwas grössere Isoparenkarten,"
+    },
+    {
+      "i": 337,
+      "start": 939.12,
+      "end": 941.12,
+      "text": "da sieht man wieder die Hochdruckgebiete,"
+    },
+    {
+      "i": 338,
+      "start": 941.12,
+      "end": 943.12,
+      "text": "Tiefdruckgebiete, die wir jetzt gerade besprochen haben,"
+    },
+    {
+      "i": 339,
+      "start": 943.12,
+      "end": 945.12,
+      "text": "wo dann verschieden Luftdruck entstanden"
+    },
+    {
+      "i": 340,
+      "start": 945.12,
+      "end": 947.12,
+      "text": "ist, durch die Sonne und"
+    },
+    {
+      "i": 341,
+      "start": 947.12,
+      "end": 949.12,
+      "text": "durch auch die Jahreszeiten zum Beispiel."
+    },
+    {
+      "i": 342,
+      "start": 949.12,
+      "end": 951.89,
+      "text": "Und so"
+    },
+    {
+      "i": 343,
+      "start": 951.89,
+      "end": 953.89,
+      "text": "sieht eine etwas grösser dargestellte"
+    },
+    {
+      "i": 344,
+      "start": 953.89,
+      "end": 955.89,
+      "text": "Isoparenkarte aus. Die sehen immer ein bisschen"
+    },
+    {
+      "i": 345,
+      "start": 955.89,
+      "end": 957.89,
+      "text": "anders aus, je nach Zeitung"
+    },
+    {
+      "i": 346,
+      "start": 957.89,
+      "end": 959.89,
+      "text": "oder je nach Meteoservice."
+    },
+    {
+      "i": 347,
+      "start": 959.89,
+      "end": 961.89,
+      "text": "Sie sehen ein bisschen anders aus, aber im Grundsatz"
+    },
+    {
+      "i": 348,
+      "start": 961.89,
+      "end": 963.89,
+      "text": "haben eigentlich alle die gleichen Elemente"
+    },
+    {
+      "i": 349,
+      "start": 963.89,
+      "end": 965.89,
+      "text": "drin. Da sind dann nochmals die Hoch- und"
+    },
+    {
+      "i": 350,
+      "start": 965.89,
+      "end": 967.89,
+      "text": "Tiefdruckgebiete, Isoparen, und"
+    },
+    {
+      "i": 351,
+      "start": 967.89,
+      "end": 969.89,
+      "text": "die farbigen Linien, die"
+    },
+    {
+      "i": 352,
+      "start": 969.89,
+      "end": 975.63,
+      "text": "Fronten. Genau."
+    },
+    {
+      "i": 353,
+      "start": 975.63,
+      "end": 977.63,
+      "text": "So sieht das dann auch aus. Jetzt nochmals"
+    },
+    {
+      "i": 354,
+      "start": 977.63,
+      "end": 979.74,
+      "text": "von einfach gezeigt auf unserem"
+    },
+    {
+      "i": 355,
+      "start": 979.74,
+      "end": 981.74,
+      "text": "Globus die verschiedenen Druckgebiete,"
+    },
+    {
+      "i": 356,
+      "start": 981.74,
+      "end": 983.74,
+      "text": "die entstehen über verschiedene Land- und"
+    },
+    {
+      "i": 357,
+      "start": 983.74,
+      "end": 985.76,
+      "text": "Meeresmassen."
+    },
+    {
+      "i": 358,
+      "start": 985.76,
+      "end": 987.76,
+      "text": "Die haben verschiedene Druck, das sind wieder"
+    },
+    {
+      "i": 359,
+      "start": 987.76,
+      "end": 989.78,
+      "text": "Tiefdruck, und"
+    },
+    {
+      "i": 360,
+      "start": 989.78,
+      "end": 992.37,
+      "text": "durch die Kryoliskraft,"
+    },
+    {
+      "i": 361,
+      "start": 992.37,
+      "end": 994.67,
+      "text": "das ist ein"
+    },
+    {
+      "i": 362,
+      "start": 994.67,
+      "end": 996.67,
+      "text": "physikalisches Phänomen durch"
+    },
+    {
+      "i": 363,
+      "start": 996.67,
+      "end": 998.78,
+      "text": "die Erderotation,"
+    },
+    {
+      "i": 364,
+      "start": 998.78,
+      "end": 1000.8,
+      "text": "werden"
+    },
+    {
+      "i": 365,
+      "start": 1000.8,
+      "end": 1002.8,
+      "text": "verschiedene Luftmassen,"
+    },
+    {
+      "i": 366,
+      "start": 1002.8,
+      "end": 1004.8,
+      "text": "die in Bewegung kommen,"
+    },
+    {
+      "i": 367,
+      "start": 1004.8,
+      "end": 1007.01,
+      "text": "abgelenkt."
+    },
+    {
+      "i": 368,
+      "start": 1007.01,
+      "end": 1009.01,
+      "text": "Und dadurch entstehen"
+    },
+    {
+      "i": 369,
+      "start": 1009.01,
+      "end": 1011.01,
+      "text": "zyklische Bewegungen, also"
+    },
+    {
+      "i": 370,
+      "start": 1011.01,
+      "end": 1013.01,
+      "text": "rotierende Bewegungen."
+    },
+    {
+      "i": 371,
+      "start": 1013.01,
+      "end": 1015.01,
+      "text": "Bildlich gesprochen"
+    },
+    {
+      "i": 372,
+      "start": 1015.01,
+      "end": 1017.01,
+      "text": "ist ein Abfluss zum Beispiel,"
+    },
+    {
+      "i": 373,
+      "start": 1017.01,
+      "end": 1019.01,
+      "text": "durch verschiedene Kräfte"
+    },
+    {
+      "i": 374,
+      "start": 1019.01,
+      "end": 1021.01,
+      "text": "oder die Form des Abflusses entsteht"
+    },
+    {
+      "i": 375,
+      "start": 1021.01,
+      "end": 1023.01,
+      "text": "ein Strudel. Wenn"
+    },
+    {
+      "i": 376,
+      "start": 1023.01,
+      "end": 1025.01,
+      "text": "das Wasser in Abfluss"
+    },
+    {
+      "i": 377,
+      "start": 1025.01,
+      "end": 1027.01,
+      "text": "abfließt, beginnt es zu rotieren."
+    },
+    {
+      "i": 378,
+      "start": 1027.01,
+      "end": 1029.01,
+      "text": "Und so entsteht eine Drehbewegung."
+    },
+    {
+      "i": 379,
+      "start": 1029.01,
+      "end": 1031.01,
+      "text": "In der Luftmasse ist"
+    },
+    {
+      "i": 380,
+      "start": 1031.01,
+      "end": 1033.01,
+      "text": "vor allem die Kryoliskraft ausschlaggebend,"
+    },
+    {
+      "i": 381,
+      "start": 1033.01,
+      "end": 1035.01,
+      "text": "dass die"
+    },
+    {
+      "i": 382,
+      "start": 1035.01,
+      "end": 1037.28,
+      "text": "Luftmassen anfangen"
+    },
+    {
+      "i": 383,
+      "start": 1037.28,
+      "end": 1039.94,
+      "text": "zu rotieren. Und dementsprechend"
+    },
+    {
+      "i": 384,
+      "start": 1039.94,
+      "end": 1041.94,
+      "text": "auf der Nordseite"
+    },
+    {
+      "i": 385,
+      "start": 1041.94,
+      "end": 1044.14,
+      "text": "unseres Globus,"
+    },
+    {
+      "i": 386,
+      "start": 1044.14,
+      "end": 1046.14,
+      "text": "also alles nördlich vom"
+    },
+    {
+      "i": 387,
+      "start": 1046.14,
+      "end": 1048.14,
+      "text": "Äquator, ist es so,"
+    },
+    {
+      "i": 388,
+      "start": 1048.14,
+      "end": 1050.14,
+      "text": "dass in einem Hochdruckgebiet"
+    },
+    {
+      "i": 389,
+      "start": 1050.14,
+      "end": 1052.48,
+      "text": "die Luftmassen im"
+    },
+    {
+      "i": 390,
+      "start": 1052.48,
+      "end": 1054.48,
+      "text": "Uhrzeigersinn drehen und"
+    },
+    {
+      "i": 391,
+      "start": 1054.48,
+      "end": 1056.48,
+      "text": "in einem Tiefdruckgebiet im"
+    },
+    {
+      "i": 392,
+      "start": 1056.48,
+      "end": 1058.48,
+      "text": "Gegenuhrzeigersinn."
+    },
+    {
+      "i": 393,
+      "start": 1058.48,
+      "end": 1060.48,
+      "text": "Ich habe mir hier einen Eselsbruch gebaut,"
+    },
+    {
+      "i": 394,
+      "start": 1060.48,
+      "end": 1062.48,
+      "text": "dass für mich ein Hochdruckgebiet etwas Positives ist,"
+    },
+    {
+      "i": 395,
+      "start": 1062.48,
+      "end": 1064.48,
+      "text": "weil hier die Sonne scheint und schönes"
+    },
+    {
+      "i": 396,
+      "start": 1064.48,
+      "end": 1066.48,
+      "text": "Wetter ist und Flugwetter ist."
+    },
+    {
+      "i": 397,
+      "start": 1066.48,
+      "end": 1068.48,
+      "text": "Dementsprechend ist es etwas Positives."
+    },
+    {
+      "i": 398,
+      "start": 1068.48,
+      "end": 1070.48,
+      "text": "Und für mich ist der Uhrzeigersinn,"
+    },
+    {
+      "i": 399,
+      "start": 1070.48,
+      "end": 1072.48,
+      "text": "die Zeit läuft, im positiven Sinn."
+    },
+    {
+      "i": 400,
+      "start": 1072.48,
+      "end": 1074.48,
+      "text": "Vorwärts habe ich mir einen Eselsbruch gebaut,"
+    },
+    {
+      "i": 401,
+      "start": 1074.48,
+      "end": 1076.48,
+      "text": "im Hochdruckgebiet im"
+    },
+    {
+      "i": 402,
+      "start": 1076.48,
+      "end": 1078.48,
+      "text": "Uhrzeigersinn, im Tiefdruckgebiet im"
+    },
+    {
+      "i": 403,
+      "start": 1078.48,
+      "end": 1080.5,
+      "text": "Gegenuhrzeigersinn, die Rotation."
+    },
+    {
+      "i": 404,
+      "start": 1080.5,
+      "end": 1082.9,
+      "text": "Auf der südlichen"
+    },
+    {
+      "i": 405,
+      "start": 1082.9,
+      "end": 1084.9,
+      "text": "Hemisphäre, also jetzt zum Beispiel"
+    },
+    {
+      "i": 406,
+      "start": 1084.9,
+      "end": 1086.9,
+      "text": "in Australien, funktioniert das"
+    },
+    {
+      "i": 407,
+      "start": 1086.9,
+      "end": 1088.9,
+      "text": "Ganze genau gegengesetzt."
+    },
+    {
+      "i": 408,
+      "start": 1088.9,
+      "end": 1090.9,
+      "text": "Einfach für diejenigen, die in die Ferien"
+    },
+    {
+      "i": 409,
+      "start": 1090.9,
+      "end": 1092.9,
+      "text": "fliegen und in Südamerika fliegen,"
+    },
+    {
+      "i": 410,
+      "start": 1092.9,
+      "end": 1094.9,
+      "text": "oder in Australien fliegen gehen,"
+    },
+    {
+      "i": 411,
+      "start": 1094.9,
+      "end": 1098.67,
+      "text": "dort ist es genau gegengesetzt."
+    },
+    {
+      "i": 412,
+      "start": 1098.67,
+      "end": 1100.67,
+      "text": "Ganz eindrücklich sieht man"
+    },
+    {
+      "i": 413,
+      "start": 1100.67,
+      "end": 1102.67,
+      "text": "das natürlich im Fall von einem"
+    },
+    {
+      "i": 414,
+      "start": 1102.67,
+      "end": 1104.75,
+      "text": "Hurricane. Da sieht man richtig,"
+    },
+    {
+      "i": 415,
+      "start": 1104.75,
+      "end": 1106.75,
+      "text": "wie die Luftmasse rotiert. Ein"
+    },
+    {
+      "i": 416,
+      "start": 1106.75,
+      "end": 1108.75,
+      "text": "Hurricane ist nichts anderes"
+    },
+    {
+      "i": 417,
+      "start": 1108.75,
+      "end": 1110.75,
+      "text": "als ein extremes Tiefdruckgebiet"
+    },
+    {
+      "i": 418,
+      "start": 1110.75,
+      "end": 1112.83,
+      "text": "und dementsprechend sieht man,"
+    },
+    {
+      "i": 419,
+      "start": 1112.83,
+      "end": 1114.83,
+      "text": "das ist jetzt ein Hurricane,"
+    },
+    {
+      "i": 420,
+      "start": 1114.83,
+      "end": 1116.91,
+      "text": "das ist auf der nördlichen"
+    },
+    {
+      "i": 421,
+      "start": 1116.91,
+      "end": 1118.91,
+      "text": "Halbkugel, sieht man, wie das im"
+    },
+    {
+      "i": 422,
+      "start": 1118.91,
+      "end": 1120.91,
+      "text": "Gegenuhrzeigersinn rotiert"
+    },
+    {
+      "i": 423,
+      "start": 1120.91,
+      "end": 1122.96,
+      "text": "und in das Tiefdruckgebiet"
+    },
+    {
+      "i": 424,
+      "start": 1122.96,
+      "end": 1124.98,
+      "text": "hineingesagen wird, diese Luftmasse."
+    },
+    {
+      "i": 425,
+      "start": 1124.98,
+      "end": 1127.12,
+      "text": "Das sieht man"
+    },
+    {
+      "i": 426,
+      "start": 1127.12,
+      "end": 1129.12,
+      "text": "sehr schön auf diesem"
+    },
+    {
+      "i": 427,
+      "start": 1129.12,
+      "end": 1132.61,
+      "text": "Wolkenbild eines Hurricanes."
+    },
+    {
+      "i": 428,
+      "start": 1132.61,
+      "end": 1135.01,
+      "text": "Und dementsprechend, wir haben ja vorhin"
+    },
+    {
+      "i": 429,
+      "start": 1135.01,
+      "end": 1137.01,
+      "text": "in der Folie gesehen, dass die Luftmasse"
+    },
+    {
+      "i": 430,
+      "start": 1137.01,
+      "end": 1139.01,
+      "text": "den Druck ausgleichen möchte, sie fliesst"
+    },
+    {
+      "i": 431,
+      "start": 1139.01,
+      "end": 1141.01,
+      "text": "vom Hochdruck ins Tiefdruckgebiet,"
+    },
+    {
+      "i": 432,
+      "start": 1141.01,
+      "end": 1143.01,
+      "text": "die fliesst aber nicht in einer direkten"
+    },
+    {
+      "i": 433,
+      "start": 1143.01,
+      "end": 1145.01,
+      "text": "Linie vom"
+    },
+    {
+      "i": 434,
+      "start": 1145.01,
+      "end": 1147.01,
+      "text": "Hoch ins Tief, sondern sie wird"
+    },
+    {
+      "i": 435,
+      "start": 1147.01,
+      "end": 1149.01,
+      "text": "eben, wie die Corioliskraft beschrieben,"
+    },
+    {
+      "i": 436,
+      "start": 1149.01,
+      "end": 1151.01,
+      "text": "in eine rotierende Bewegung"
+    },
+    {
+      "i": 437,
+      "start": 1151.01,
+      "end": 1153.01,
+      "text": "in die Gebiete wechseln."
+    },
+    {
+      "i": 438,
+      "start": 1153.01,
+      "end": 1155.01,
+      "text": "Dementsprechend"
+    },
+    {
+      "i": 439,
+      "start": 1155.01,
+      "end": 1157.01,
+      "text": "geht die Luftmasse in so eine"
+    },
+    {
+      "i": 440,
+      "start": 1157.01,
+      "end": 1159.01,
+      "text": "spiralförmige Bewegung"
+    },
+    {
+      "i": 441,
+      "start": 1159.01,
+      "end": 1161.6,
+      "text": "genau in das Tiefdruckgebiet hinein."
+    },
+    {
+      "i": 442,
+      "start": 1161.6,
+      "end": 1168.4,
+      "text": "Um die Windrichtung"
+    },
+    {
+      "i": 443,
+      "start": 1168.4,
+      "end": 1170.4,
+      "text": "dann herauszulesen, das werden wir"
+    },
+    {
+      "i": 444,
+      "start": 1170.4,
+      "end": 1172.4,
+      "text": "nachher auf der Karte anschauen,"
+    },
+    {
+      "i": 445,
+      "start": 1172.4,
+      "end": 1174.4,
+      "text": "werden wir dann noch in ein paar Folien"
+    },
+    {
+      "i": 446,
+      "start": 1174.4,
+      "end": 1176.4,
+      "text": "später nochmal sehen, wie man die"
+    },
+    {
+      "i": 447,
+      "start": 1176.4,
+      "end": 1178.4,
+      "text": "Windrichtung in der isobaren Karte herausliest."
+    },
+    {
+      "i": 448,
+      "start": 1178.4,
+      "end": 1181.23,
+      "text": "Man kann auch"
+    },
+    {
+      "i": 449,
+      "start": 1181.23,
+      "end": 1183.23,
+      "text": "eine Windstärke herauslesen"
+    },
+    {
+      "i": 450,
+      "start": 1183.23,
+      "end": 1185.23,
+      "text": "aus dieser isobaren Karte."
+    },
+    {
+      "i": 451,
+      "start": 1185.23,
+      "end": 1187.23,
+      "text": "Vielleicht noch bildlich gesprochen,"
+    },
+    {
+      "i": 452,
+      "start": 1187.23,
+      "end": 1189.23,
+      "text": "als Vergleich zur isobaren Karte"
+    },
+    {
+      "i": 453,
+      "start": 1189.23,
+      "end": 1191.23,
+      "text": "kann man auch immer ein bisschen wie eine"
+    },
+    {
+      "i": 454,
+      "start": 1191.23,
+      "end": 1193.23,
+      "text": "Topografiekarte lesen."
+    },
+    {
+      "i": 455,
+      "start": 1193.23,
+      "end": 1195.23,
+      "text": "Das sind verschiedene Höhenlinien,"
+    },
+    {
+      "i": 456,
+      "start": 1195.23,
+      "end": 1197.44,
+      "text": "verschiedene Drucklinien und dementsprechend"
+    },
+    {
+      "i": 457,
+      "start": 1197.44,
+      "end": 1199.44,
+      "text": "kann z.B. ein Hochdruckgebiet"
+    },
+    {
+      "i": 458,
+      "start": 1199.44,
+      "end": 1201.55,
+      "text": "verschieden hoch sein."
+    },
+    {
+      "i": 459,
+      "start": 1201.55,
+      "end": 1203.55,
+      "text": "Also ein Hochdruckeinfluss dementsprechend"
+    },
+    {
+      "i": 460,
+      "start": 1203.55,
+      "end": 1205.66,
+      "text": "ist verschieden stark."
+    },
+    {
+      "i": 461,
+      "start": 1205.66,
+      "end": 1207.66,
+      "text": "Wir haben z.B."
+    },
+    {
+      "i": 462,
+      "start": 1207.66,
+      "end": 1209.66,
+      "text": "einen 50er von einem Hochdruckgebiet,"
+    },
+    {
+      "i": 463,
+      "start": 1209.66,
+      "end": 1211.66,
+      "text": "der ist extrem stark, der hat sehr viele"
+    },
+    {
+      "i": 464,
+      "start": 1211.66,
+      "end": 1213.66,
+      "text": "isobare Linien, sehr viele Topografielinien"
+    },
+    {
+      "i": 465,
+      "start": 1213.66,
+      "end": 1215.66,
+      "text": "im Sinne der Landschaft."
+    },
+    {
+      "i": 466,
+      "start": 1215.66,
+      "end": 1217.66,
+      "text": "Oder es kann auch nur ein Hügel sein,"
+    },
+    {
+      "i": 467,
+      "start": 1217.66,
+      "end": 1219.97,
+      "text": "aber der Hoch"
+    },
+    {
+      "i": 468,
+      "start": 1219.97,
+      "end": 1221.98,
+      "text": "beschreibt eigentlich nur den"
+    },
+    {
+      "i": 469,
+      "start": 1221.98,
+      "end": 1223.98,
+      "text": "höchsten Druck, also eigentlich"
+    },
+    {
+      "i": 470,
+      "start": 1223.98,
+      "end": 1225.98,
+      "text": "die höchste Erhebung der Landschaft"
+    },
+    {
+      "i": 471,
+      "start": 1225.98,
+      "end": 1227.98,
+      "text": "oder von diesem Hügel."
+    },
+    {
+      "i": 472,
+      "start": 1227.98,
+      "end": 1229.98,
+      "text": "Dementsprechend kann der höher sein"
+    },
+    {
+      "i": 473,
+      "start": 1229.98,
+      "end": 1232.67,
+      "text": "oder weniger hoch. Dementsprechend"
+    },
+    {
+      "i": 474,
+      "start": 1232.67,
+      "end": 1234.67,
+      "text": "sind auch die Wettereinflüsse,"
+    },
+    {
+      "i": 475,
+      "start": 1234.67,
+      "end": 1236.67,
+      "text": "die wir jetzt gerne noch besprechen,"
+    },
+    {
+      "i": 476,
+      "start": 1236.67,
+      "end": 1240.86,
+      "text": "stärker oder weniger stark."
+    },
+    {
+      "i": 477,
+      "start": 1240.86,
+      "end": 1242.86,
+      "text": "Was wir machen, schauen wir uns rasch an,"
+    },
+    {
+      "i": 478,
+      "start": 1242.86,
+      "end": 1244.86,
+      "text": "wie man aus so einer isobaren Karte"
+    },
+    {
+      "i": 479,
+      "start": 1244.86,
+      "end": 1247.33,
+      "text": "eine Windrichtung herauslässt."
+    },
+    {
+      "i": 480,
+      "start": 1247.33,
+      "end": 1249.33,
+      "text": "Wir haben grundsätzlich,"
+    },
+    {
+      "i": 481,
+      "start": 1249.33,
+      "end": 1251.33,
+      "text": "das ist eine Infografik aus einer"
+    },
+    {
+      "i": 482,
+      "start": 1251.33,
+      "end": 1253.66,
+      "text": "Theorieprüfung, wie sie kommt,"
+    },
+    {
+      "i": 483,
+      "start": 1253.66,
+      "end": 1255.66,
+      "text": "haben wir verschiedene Druckgebiete,"
+    },
+    {
+      "i": 484,
+      "start": 1255.66,
+      "end": 1257.78,
+      "text": "wie wir sie gesehen haben."
+    },
+    {
+      "i": 485,
+      "start": 1257.78,
+      "end": 1259.78,
+      "text": "Jetzt machen sie eure Prüfung natürlich"
+    },
+    {
+      "i": 486,
+      "start": 1259.78,
+      "end": 1261.78,
+      "text": "nicht so einfach, wo sie gleich ein H und ein T"
+    },
+    {
+      "i": 487,
+      "start": 1261.78,
+      "end": 1263.78,
+      "text": "reinsetzen und ihr gleich wisst, wo das"
+    },
+    {
+      "i": 488,
+      "start": 1263.78,
+      "end": 1265.78,
+      "text": "Hoch- und Tiefdruckgebiet ist. Dementsprechend"
+    },
+    {
+      "i": 489,
+      "start": 1265.78,
+      "end": 1267.78,
+      "text": "wollen sie, dass ihr den Druck"
+    },
+    {
+      "i": 490,
+      "start": 1267.78,
+      "end": 1269.78,
+      "text": "von diesen Isobaren herausleset und"
+    },
+    {
+      "i": 491,
+      "start": 1269.78,
+      "end": 1271.78,
+      "text": "ihr seht z.B. hier bei Skandinavien oben,"
+    },
+    {
+      "i": 492,
+      "start": 1271.78,
+      "end": 1273.78,
+      "text": "man kann es relativ schlecht lesen,"
+    },
+    {
+      "i": 493,
+      "start": 1273.78,
+      "end": 1275.78,
+      "text": "80 Hektopascal z.B."
+    },
+    {
+      "i": 494,
+      "start": 1275.78,
+      "end": 1277.78,
+      "text": "Das weiss man, das ist unter"
+    },
+    {
+      "i": 495,
+      "start": 1277.78,
+      "end": 1279.78,
+      "text": "diesen 1013,25."
+    },
+    {
+      "i": 496,
+      "start": 1279.78,
+      "end": 1281.78,
+      "text": "Das muss also ein Tiefdruck sein."
+    },
+    {
+      "i": 497,
+      "start": 1281.78,
+      "end": 1283.78,
+      "text": "Dementsprechend könnt ihr euch dort vorstellen,"
+    },
+    {
+      "i": 498,
+      "start": 1283.78,
+      "end": 1285.78,
+      "text": "ihr könnt auch den T ruhig hineinschreiben,"
+    },
+    {
+      "i": 499,
+      "start": 1285.78,
+      "end": 1287.78,
+      "text": "wenn ihr wollt."
+    },
+    {
+      "i": 500,
+      "start": 1287.78,
+      "end": 1289.78,
+      "text": "Dementsprechend wissen wir, dass die"
+    },
+    {
+      "i": 501,
+      "start": 1289.78,
+      "end": 1291.78,
+      "text": "Luftmasse in diesem Tiefdruckgebiet"
+    },
+    {
+      "i": 502,
+      "start": 1291.78,
+      "end": 1293.79,
+      "text": "im Gegenuhrzeiger rotiert."
+    },
+    {
+      "i": 503,
+      "start": 1293.79,
+      "end": 1296.38,
+      "text": "Und nachher kann man sich"
+    },
+    {
+      "i": 504,
+      "start": 1296.38,
+      "end": 1298.38,
+      "text": "auf diesen Isobaren Linien,"
+    },
+    {
+      "i": 505,
+      "start": 1298.38,
+      "end": 1300.38,
+      "text": "die man hier sieht, wenn man will,"
+    },
+    {
+      "i": 506,
+      "start": 1300.38,
+      "end": 1302.38,
+      "text": "Pfeile hineinzeichnen oder man kann es sich"
+    },
+    {
+      "i": 507,
+      "start": 1302.38,
+      "end": 1304.38,
+      "text": "auch noch vorstellen,"
+    },
+    {
+      "i": 508,
+      "start": 1304.38,
+      "end": 1306.38,
+      "text": "kann man sich den Isobaren Linien"
+    },
+    {
+      "i": 509,
+      "start": 1306.38,
+      "end": 1308.38,
+      "text": "an die Pfeile vorstellen,"
+    },
+    {
+      "i": 510,
+      "start": 1308.38,
+      "end": 1310.94,
+      "text": "jetzt habe ich es hier in Weiss gezeigt"
+    },
+    {
+      "i": 511,
+      "start": 1310.94,
+      "end": 1312.94,
+      "text": "und dementsprechend wird die Windrichtung herausgelesen."
+    },
+    {
+      "i": 512,
+      "start": 1312.94,
+      "end": 1315.06,
+      "text": "Also hier z.B."
+    },
+    {
+      "i": 513,
+      "start": 1315.06,
+      "end": 1317.06,
+      "text": "in England haben wir"
+    },
+    {
+      "i": 514,
+      "start": 1317.06,
+      "end": 1319.49,
+      "text": "eine Westwindströmung."
+    },
+    {
+      "i": 515,
+      "start": 1319.49,
+      "end": 1321.49,
+      "text": "Und im Hochdruckgebiet,"
+    },
+    {
+      "i": 516,
+      "start": 1321.49,
+      "end": 1323.49,
+      "text": "hier haben wir die 1030 Hektopascal,"
+    },
+    {
+      "i": 517,
+      "start": 1323.49,
+      "end": 1325.49,
+      "text": "dort haben wir die höchste Erhebung,"
+    },
+    {
+      "i": 518,
+      "start": 1325.49,
+      "end": 1327.49,
+      "text": "dort ist der Hochdruck, dort rotiert es"
+    },
+    {
+      "i": 519,
+      "start": 1327.49,
+      "end": 1329.49,
+      "text": "im Uhrzeigersinn, dementsprechend"
+    },
+    {
+      "i": 520,
+      "start": 1329.49,
+      "end": 1331.49,
+      "text": "geht der Wind den Isobaren an."
+    },
+    {
+      "i": 521,
+      "start": 1331.49,
+      "end": 1333.49,
+      "text": "Und ihr könnt wirklich"
+    },
+    {
+      "i": 522,
+      "start": 1333.49,
+      "end": 1335.49,
+      "text": "sehen, für die Theorie ist es so,"
+    },
+    {
+      "i": 523,
+      "start": 1335.49,
+      "end": 1337.49,
+      "text": "dass der Wind immer parallel"
+    },
+    {
+      "i": 524,
+      "start": 1337.49,
+      "end": 1339.49,
+      "text": "zu den Isobaren herausgelesen wird."
+    },
+    {
+      "i": 525,
+      "start": 1339.49,
+      "end": 1341.66,
+      "text": "Also ihr nehmt wirklich die Linie"
+    },
+    {
+      "i": 526,
+      "start": 1341.66,
+      "end": 1344.19,
+      "text": "und das ist die Windrichtung,"
+    },
+    {
+      "i": 527,
+      "start": 1344.19,
+      "end": 1346.19,
+      "text": "weil der Druck in einer zirkulierenden Bewegung"
+    },
+    {
+      "i": 528,
+      "start": 1346.19,
+      "end": 1350.21,
+      "text": "ausgeglichen wird."
+    },
+    {
+      "i": 529,
+      "start": 1350.21,
+      "end": 1352.82,
+      "text": "Genau, das ist für die Windrichtung."
+    },
+    {
+      "i": 530,
+      "start": 1352.82,
+      "end": 1354.82,
+      "text": "Ihr könnt euch auch vorstellen,"
+    },
+    {
+      "i": 531,
+      "start": 1354.82,
+      "end": 1356.82,
+      "text": "dass der Hoch- und Tiefdruckgebiet"
+    },
+    {
+      "i": 532,
+      "start": 1356.82,
+      "end": 1358.82,
+      "text": "eigentlich wie ein Zahnradsystem funktioniert."
+    },
+    {
+      "i": 533,
+      "start": 1358.82,
+      "end": 1360.82,
+      "text": "Ihr könnt euch vorstellen,"
+    },
+    {
+      "i": 534,
+      "start": 1360.82,
+      "end": 1362.82,
+      "text": "das sind wie zwei Zahnrädchen,"
+    },
+    {
+      "i": 535,
+      "start": 1362.82,
+      "end": 1364.82,
+      "text": "die ineinander hineingreifen"
+    },
+    {
+      "i": 536,
+      "start": 1364.82,
+      "end": 1366.82,
+      "text": "und man kann sich vielleicht besser vorstellen."
+    },
+    {
+      "i": 537,
+      "start": 1366.82,
+      "end": 1369.26,
+      "text": "Wie man den Wind herauslässt,"
+    },
+    {
+      "i": 538,
+      "start": 1369.26,
+      "end": 1371.26,
+      "text": "schauen wir uns jetzt auf"
+    },
+    {
+      "i": 539,
+      "start": 1371.26,
+      "end": 1373.5,
+      "text": "die nächsten Folien an."
+    },
+    {
+      "i": 540,
+      "start": 1373.5,
+      "end": 1375.81,
+      "text": "Das eine, was für den Wind relevant ist,"
+    },
+    {
+      "i": 541,
+      "start": 1375.81,
+      "end": 1377.81,
+      "text": "ist die Windrichtung."
+    },
+    {
+      "i": 542,
+      "start": 1377.81,
+      "end": 1379.81,
+      "text": "Wir müssen ja wissen, welche Windrichtung erwarten wir,"
+    },
+    {
+      "i": 543,
+      "start": 1379.81,
+      "end": 1381.81,
+      "text": "welchen Startplatz gehen wir,"
+    },
+    {
+      "i": 544,
+      "start": 1381.81,
+      "end": 1383.81,
+      "text": "wo ist vielleicht relevanter,"
+    },
+    {
+      "i": 545,
+      "start": 1383.81,
+      "end": 1385.86,
+      "text": "auch für verschiedene Wetterphänomene."
+    },
+    {
+      "i": 546,
+      "start": 1385.86,
+      "end": 1387.86,
+      "text": "Man kann sich hier vorstellen,"
+    },
+    {
+      "i": 547,
+      "start": 1387.86,
+      "end": 1389.87,
+      "text": "das ist eine Kompassrose mit Norden 0 Grad,"
+    },
+    {
+      "i": 548,
+      "start": 1389.87,
+      "end": 1391.87,
+      "text": "Osten 90 Grad, Süden 180 Grad,"
+    },
+    {
+      "i": 549,
+      "start": 1391.87,
+      "end": 1393.87,
+      "text": "Westen 270 Grad."
+    },
+    {
+      "i": 550,
+      "start": 1393.87,
+      "end": 1395.87,
+      "text": "Dementsprechend wird der Wind"
+    },
+    {
+      "i": 551,
+      "start": 1395.87,
+      "end": 1397.87,
+      "text": "manchmal auch in Grad angegeben,"
+    },
+    {
+      "i": 552,
+      "start": 1397.87,
+      "end": 1399.87,
+      "text": "von diesen 360 Grad."
+    },
+    {
+      "i": 553,
+      "start": 1399.87,
+      "end": 1402.78,
+      "text": "Eine Windrichtung wird immer beschrieben,"
+    },
+    {
+      "i": 554,
+      "start": 1402.78,
+      "end": 1404.78,
+      "text": "von wo der Wind kommt."
+    },
+    {
+      "i": 555,
+      "start": 1404.78,
+      "end": 1406.78,
+      "text": "Wenn der Wind von Süden her kommt,"
+    },
+    {
+      "i": 556,
+      "start": 1406.78,
+      "end": 1408.83,
+      "text": "dann reden wir von Südwind,"
+    },
+    {
+      "i": 557,
+      "start": 1408.83,
+      "end": 1410.83,
+      "text": "Nordwind und Westwind natürlich."
+    },
+    {
+      "i": 558,
+      "start": 1410.83,
+      "end": 1412.83,
+      "text": "Dementsprechend kommt die Luftmasse von Westen her"
+    },
+    {
+      "i": 559,
+      "start": 1412.83,
+      "end": 1414.83,
+      "text": "und dementsprechend ins Westwind."
+    },
+    {
+      "i": 560,
+      "start": 1414.83,
+      "end": 1417.01,
+      "text": "Und dementsprechend werden auch"
+    },
+    {
+      "i": 561,
+      "start": 1417.01,
+      "end": 1419.01,
+      "text": "diese Grad angegeben."
+    },
+    {
+      "i": 562,
+      "start": 1419.01,
+      "end": 1421.01,
+      "text": "Wenn wir einen Wind aus 90 Grad haben,"
+    },
+    {
+      "i": 563,
+      "start": 1421.01,
+      "end": 1423.01,
+      "text": "dann stellt euch diese Kompassrose vor"
+    },
+    {
+      "i": 564,
+      "start": 1423.01,
+      "end": 1425.12,
+      "text": "und der Wind kommt"
+    },
+    {
+      "i": 565,
+      "start": 1425.12,
+      "end": 1427.12,
+      "text": "von 90 Grad von Osten."
+    },
+    {
+      "i": 566,
+      "start": 1427.12,
+      "end": 1429.26,
+      "text": "Das ist ganz wichtig,"
+    },
+    {
+      "i": 567,
+      "start": 1429.26,
+      "end": 1431.26,
+      "text": "weil in der Meteoriterieprüfung"
+    },
+    {
+      "i": 568,
+      "start": 1431.26,
+      "end": 1433.26,
+      "text": "wird der Wind immer wieder mal"
+    },
+    {
+      "i": 569,
+      "start": 1433.26,
+      "end": 1435.26,
+      "text": "in diesen Grad angegeben."
+    },
+    {
+      "i": 570,
+      "start": 1435.26,
+      "end": 1437.26,
+      "text": "Und danach müsst ihr wissen,"
+    },
+    {
+      "i": 571,
+      "start": 1437.26,
+      "end": 1439.38,
+      "text": "von was sie reden."
+    },
+    {
+      "i": 572,
+      "start": 1439.38,
+      "end": 1441.62,
+      "text": "Reden sie von Südwind oder Ostwind usw."
+    },
+    {
+      "i": 573,
+      "start": 1441.62,
+      "end": 1445.06,
+      "text": "Danach gibt es auch noch eine Windstärke."
+    },
+    {
+      "i": 574,
+      "start": 1445.06,
+      "end": 1447.06,
+      "text": "Die Windrichtung hatten wir gerade."
+    },
+    {
+      "i": 575,
+      "start": 1447.06,
+      "end": 1449.06,
+      "text": "Eine Windstärke gibt es"
+    },
+    {
+      "i": 576,
+      "start": 1449.06,
+      "end": 1451.2,
+      "text": "in verschiedenen Masseinheiten."
+    },
+    {
+      "i": 577,
+      "start": 1451.2,
+      "end": 1453.2,
+      "text": "In der Luftfahrt,"
+    },
+    {
+      "i": 578,
+      "start": 1453.2,
+      "end": 1455.2,
+      "text": "da kommt meistens auch aus der Luftfahrt"
+    },
+    {
+      "i": 579,
+      "start": 1455.2,
+      "end": 1457.2,
+      "text": "ein bisschen diese Sache,"
+    },
+    {
+      "i": 580,
+      "start": 1457.2,
+      "end": 1459.2,
+      "text": "wo der Wind in Knoten angegeben wird."
+    },
+    {
+      "i": 581,
+      "start": 1459.2,
+      "end": 1461.2,
+      "text": "Da gibt es eine einfache Formel."
+    },
+    {
+      "i": 582,
+      "start": 1461.2,
+      "end": 1463.2,
+      "text": "Der Wind in Knoten,"
+    },
+    {
+      "i": 583,
+      "start": 1463.2,
+      "end": 1465.25,
+      "text": "also jetzt im oberen Beispiel"
+    },
+    {
+      "i": 584,
+      "start": 1465.25,
+      "end": 1467.25,
+      "text": "die Seeknoten,"
+    },
+    {
+      "i": 585,
+      "start": 1467.25,
+      "end": 1469.36,
+      "text": "mal 2 minus 10%"
+    },
+    {
+      "i": 586,
+      "start": 1469.36,
+      "end": 1471.36,
+      "text": "gibt KmH."
+    },
+    {
+      "i": 587,
+      "start": 1471.36,
+      "end": 1473.36,
+      "text": "Also Kilometer in der Stunde Wind."
+    },
+    {
+      "i": 588,
+      "start": 1473.36,
+      "end": 1475.36,
+      "text": "Wo von uns ja ein bisschen"
+    },
+    {
+      "i": 589,
+      "start": 1475.36,
+      "end": 1477.36,
+      "text": "die gängige Masseinheit ist"
+    },
+    {
+      "i": 590,
+      "start": 1477.36,
+      "end": 1479.36,
+      "text": "für Windgeschwindigkeiten,"
+    },
+    {
+      "i": 591,
+      "start": 1479.36,
+      "end": 1481.36,
+      "text": "können wir uns auch mehr darunter vorstellen."
+    },
+    {
+      "i": 592,
+      "start": 1481.36,
+      "end": 1483.82,
+      "text": "Und in den meisten Wetterstationen"
+    },
+    {
+      "i": 593,
+      "start": 1483.82,
+      "end": 1485.82,
+      "text": "zum Beispiel wird der Wind in KmH angegeben."
+    },
+    {
+      "i": 594,
+      "start": 1485.82,
+      "end": 1487.82,
+      "text": "2 gibt 40 minus 10%,"
+    },
+    {
+      "i": 595,
+      "start": 1487.82,
+      "end": 1489.82,
+      "text": "das sind dann 4,"
+    },
+    {
+      "i": 596,
+      "start": 1489.82,
+      "end": 1491.82,
+      "text": "gibt die 36 KmH Wind."
+    },
+    {
+      "i": 597,
+      "start": 1491.82,
+      "end": 1494.32,
+      "text": "Die Umrechnung ist wichtig,"
+    },
+    {
+      "i": 598,
+      "start": 1494.32,
+      "end": 1496.32,
+      "text": "dass ihr die geläufig habt"
+    },
+    {
+      "i": 599,
+      "start": 1496.32,
+      "end": 1499.68,
+      "text": "und präsent habt für die Theorieprüfung."
+    },
+    {
+      "i": 600,
+      "start": 1499.68,
+      "end": 1501.68,
+      "text": "Dann, was man auch noch so ein bisschen"
+    },
+    {
+      "i": 601,
+      "start": 1501.68,
+      "end": 1503.68,
+      "text": "ins Thema Wind dazu nehmen kann,"
+    },
+    {
+      "i": 602,
+      "start": 1503.68,
+      "end": 1506.11,
+      "text": "ist der Windgradient."
+    },
+    {
+      "i": 603,
+      "start": 1506.11,
+      "end": 1508.11,
+      "text": "Wenn man sich jetzt vorstellt,"
+    },
+    {
+      "i": 604,
+      "start": 1508.11,
+      "end": 1510.11,
+      "text": "dass jetzt hier ein Windsystem kommt,"
+    },
+    {
+      "i": 605,
+      "start": 1510.11,
+      "end": 1512.11,
+      "text": "mit einem Westwind"
+    },
+    {
+      "i": 606,
+      "start": 1512.11,
+      "end": 1514.11,
+      "text": "und der gleitet über die Erdoberfläche,"
+    },
+    {
+      "i": 607,
+      "start": 1514.11,
+      "end": 1516.11,
+      "text": "dementsprechend ist der Wind in der Höhe"
+    },
+    {
+      "i": 608,
+      "start": 1516.11,
+      "end": 1518.48,
+      "text": "meistens stärker,"
+    },
+    {
+      "i": 609,
+      "start": 1518.48,
+      "end": 1520.48,
+      "text": "am Boden unten hat der Wind eine Reibung,"
+    },
+    {
+      "i": 610,
+      "start": 1520.48,
+      "end": 1522.48,
+      "text": "dementsprechend wird er längsamer"
+    },
+    {
+      "i": 611,
+      "start": 1522.48,
+      "end": 1524.48,
+      "text": "und er wird aber auch ein bisschen turbulenter."
+    },
+    {
+      "i": 612,
+      "start": 1524.48,
+      "end": 1526.48,
+      "text": "Also dementsprechend gibt es"
+    },
+    {
+      "i": 613,
+      "start": 1526.48,
+      "end": 1528.48,
+      "text": "so ein bisschen Grundregeln,"
+    },
+    {
+      "i": 614,
+      "start": 1528.48,
+      "end": 1530.48,
+      "text": "dass in tiefen Schichten,"
+    },
+    {
+      "i": 615,
+      "start": 1530.48,
+      "end": 1532.48,
+      "text": "in badenerischen Schichten"
+    },
+    {
+      "i": 616,
+      "start": 1532.48,
+      "end": 1534.48,
+      "text": "der Wind schwächer ist, aber turbulenter"
+    },
+    {
+      "i": 617,
+      "start": 1534.48,
+      "end": 1536.48,
+      "text": "und in höheren Luftschichten"
+    },
+    {
+      "i": 618,
+      "start": 1536.48,
+      "end": 1538.75,
+      "text": "ist er stärker, aber laminarer."
+    },
+    {
+      "i": 619,
+      "start": 1538.75,
+      "end": 1540.75,
+      "text": "Logischerweise gibt es dann noch"
+    },
+    {
+      "i": 620,
+      "start": 1540.75,
+      "end": 1542.75,
+      "text": "verschiedene meteorologische Phänomene,"
+    },
+    {
+      "i": 621,
+      "start": 1542.75,
+      "end": 1544.75,
+      "text": "wo ja vielleicht schon einmal"
+    },
+    {
+      "i": 622,
+      "start": 1544.75,
+      "end": 1546.75,
+      "text": "ein bisschen turbulentere Luftmasse"
+    },
+    {
+      "i": 623,
+      "start": 1546.75,
+      "end": 1548.75,
+      "text": "in der Höhe sein kann, oder der ganze auch"
+    },
+    {
+      "i": 624,
+      "start": 1548.75,
+      "end": 1550.75,
+      "text": "und ein Grundsatz ist ja so,"
+    },
+    {
+      "i": 625,
+      "start": 1550.75,
+      "end": 1552.75,
+      "text": "wenn man eine Windströmung kennt,"
+    },
+    {
+      "i": 626,
+      "start": 1552.75,
+      "end": 1554.9,
+      "text": "ist sie am Boden schwächer und turbulenter."
+    },
+    {
+      "i": 627,
+      "start": 1554.9,
+      "end": 1556.9,
+      "text": "Das zum Windgradient."
+    },
+    {
+      "i": 628,
+      "start": 1556.9,
+      "end": 1558.94,
+      "text": "Ein Gradient ist übrigens immer"
+    },
+    {
+      "i": 629,
+      "start": 1558.94,
+      "end": 1560.94,
+      "text": "ein Verlauf, jetzt in diesem Sinne,"
+    },
+    {
+      "i": 630,
+      "start": 1560.94,
+      "end": 1562.94,
+      "text": "in der Höhe."
+    },
+    {
+      "i": 631,
+      "start": 1562.94,
+      "end": 1564.94,
+      "text": "Wir hören dann auch noch ein Temperaturgradient"
+    },
+    {
+      "i": 632,
+      "start": 1564.94,
+      "end": 1566.94,
+      "text": "später im Theoriekurs."
+    },
+    {
+      "i": 633,
+      "start": 1566.94,
+      "end": 1568.94,
+      "text": "Da geht es immer um einen Verlauf"
+    },
+    {
+      "i": 634,
+      "start": 1568.94,
+      "end": 1570.94,
+      "text": "in der Höhe, wenn man von einem Gradient"
+    },
+    {
+      "i": 635,
+      "start": 1570.94,
+      "end": 1572.94,
+      "text": "redet, oder allgemein von einem Verlauf."
+    },
+    {
+      "i": 636,
+      "start": 1572.94,
+      "end": 1574.94,
+      "text": "Aber in der Meteorologie geht es"
+    },
+    {
+      "i": 637,
+      "start": 1574.94,
+      "end": 1577.15,
+      "text": "vor allem um die Höhe."
+    },
+    {
+      "i": 638,
+      "start": 1577.15,
+      "end": 1580.45,
+      "text": "Beim Thema Wind gehört auch noch"
+    },
+    {
+      "i": 639,
+      "start": 1580.45,
+      "end": 1582.45,
+      "text": "ein Thema dazu, das für uns Gletschernflieger"
+    },
+    {
+      "i": 640,
+      "start": 1582.45,
+      "end": 1584.45,
+      "text": "vor allem wichtig ist, und das sind Turbulenzen."
+    },
+    {
+      "i": 641,
+      "start": 1584.45,
+      "end": 1586.45,
+      "text": "Wir wollen ja möglichst einen ruhigen Flug haben,"
+    },
+    {
+      "i": 642,
+      "start": 1586.45,
+      "end": 1588.45,
+      "text": "respektive, wenn sie einmal Turbulenzen hat,"
+    },
+    {
+      "i": 643,
+      "start": 1588.45,
+      "end": 1590.45,
+      "text": "wollen wir bereit sein und wissen,"
+    },
+    {
+      "i": 644,
+      "start": 1590.45,
+      "end": 1592.45,
+      "text": "warum diese Turbulenzen entstehen"
+    },
+    {
+      "i": 645,
+      "start": 1592.45,
+      "end": 1594.45,
+      "text": "und wie wir diese auch vielleicht"
+    },
+    {
+      "i": 646,
+      "start": 1594.45,
+      "end": 1596.45,
+      "text": "ein bisschen voraussehen können"
+    },
+    {
+      "i": 647,
+      "start": 1596.45,
+      "end": 1598.45,
+      "text": "und in welchen Gebieten wir fliegen"
+    },
+    {
+      "i": 648,
+      "start": 1598.45,
+      "end": 1600.45,
+      "text": "und wenn vielleicht nicht."
+    },
+    {
+      "i": 649,
+      "start": 1600.45,
+      "end": 1602.45,
+      "text": "Und da gibt es so drei Grundtypen"
+    },
+    {
+      "i": 650,
+      "start": 1602.45,
+      "end": 1604.45,
+      "text": "von Turbulenzen, die man unterscheidet,"
+    },
+    {
+      "i": 651,
+      "start": 1604.45,
+      "end": 1606.56,
+      "text": "die auch in der Theorieprüfung abgefragt werden."
+    },
+    {
+      "i": 652,
+      "start": 1606.56,
+      "end": 1608.56,
+      "text": "Zuerst einmal sicher die beste Turbulenz,"
+    },
+    {
+      "i": 653,
+      "start": 1608.56,
+      "end": 1610.56,
+      "text": "die sicher angenehm sein kann,"
+    },
+    {
+      "i": 654,
+      "start": 1610.56,
+      "end": 1612.56,
+      "text": "aber vielleicht auch weniger angenehm,"
+    },
+    {
+      "i": 655,
+      "start": 1612.56,
+      "end": 1614.56,
+      "text": "aber die thermische Turbulenz."
+    },
+    {
+      "i": 656,
+      "start": 1614.56,
+      "end": 1616.56,
+      "text": "Das ist wahrscheinlich die, die wir am meisten"
+    },
+    {
+      "i": 657,
+      "start": 1616.56,
+      "end": 1618.56,
+      "text": "ausgesetzt sind bei der Fliegerei,"
+    },
+    {
+      "i": 658,
+      "start": 1618.56,
+      "end": 1620.56,
+      "text": "weil wir wollen ja thermisch fliegen,"
+    },
+    {
+      "i": 659,
+      "start": 1620.56,
+      "end": 1622.56,
+      "text": "dementsprechend bewegen wir uns immer"
+    },
+    {
+      "i": 660,
+      "start": 1622.56,
+      "end": 1624.56,
+      "text": "in thermische Luftmassen."
+    },
+    {
+      "i": 661,
+      "start": 1624.56,
+      "end": 1626.56,
+      "text": "Und die, die das schon gespürt haben,"
+    },
+    {
+      "i": 662,
+      "start": 1626.56,
+      "end": 1628.93,
+      "text": "wissen, von wem ich rede."
+    },
+    {
+      "i": 663,
+      "start": 1628.93,
+      "end": 1630.93,
+      "text": "Und so geht es darum, wenn eine Luftmasse steigt,"
+    },
+    {
+      "i": 664,
+      "start": 1630.93,
+      "end": 1632.93,
+      "text": "die Luftmasse ist ja grundsätzlich relativ ruhig,"
+    },
+    {
+      "i": 665,
+      "start": 1632.93,
+      "end": 1634.93,
+      "text": "liegt sie hier, und dann steigen die thermischen"
+    },
+    {
+      "i": 666,
+      "start": 1634.93,
+      "end": 1636.93,
+      "text": "Turbulenzen auf, die wir dann später"
+    },
+    {
+      "i": 667,
+      "start": 1636.93,
+      "end": 1638.93,
+      "text": "an der Kneue anschauen werden."
+    },
+    {
+      "i": 668,
+      "start": 1638.93,
+      "end": 1640.93,
+      "text": "Und in dieser steigenden Zone gibt es auch"
+    },
+    {
+      "i": 669,
+      "start": 1640.93,
+      "end": 1642.93,
+      "text": "mehrmals aussen um eine kleine Abwindzone"
+    },
+    {
+      "i": 670,
+      "start": 1642.93,
+      "end": 1644.93,
+      "text": "bei thermischen Aufwind."
+    },
+    {
+      "i": 671,
+      "start": 1644.93,
+      "end": 1646.93,
+      "text": "Dementsprechend gibt es dort Windschärungen"
+    },
+    {
+      "i": 672,
+      "start": 1646.93,
+      "end": 1648.93,
+      "text": "im vertikalen Bereich."
+    },
+    {
+      "i": 673,
+      "start": 1648.93,
+      "end": 1650.93,
+      "text": "Und in diesen Windschärungen"
+    },
+    {
+      "i": 674,
+      "start": 1650.93,
+      "end": 1652.93,
+      "text": "spürt man natürlich die Turbulenzen,"
+    },
+    {
+      "i": 675,
+      "start": 1652.93,
+      "end": 1655.3,
+      "text": "dementsprechend die thermischen Turbulenzen."
+    },
+    {
+      "i": 676,
+      "start": 1655.3,
+      "end": 1657.3,
+      "text": "Dann gibt es die Windschärung in diesem Sinne."
+    },
+    {
+      "i": 677,
+      "start": 1657.3,
+      "end": 1659.3,
+      "text": "Da geht es darum,"
+    },
+    {
+      "i": 678,
+      "start": 1659.3,
+      "end": 1661.92,
+      "text": "wenn wir zwei verschiedene Windrichtungen haben,"
+    },
+    {
+      "i": 679,
+      "start": 1661.92,
+      "end": 1663.92,
+      "text": "wenn wir unten Westwind haben"
+    },
+    {
+      "i": 680,
+      "start": 1663.92,
+      "end": 1665.92,
+      "text": "und oben haben wir, oder nein,"
+    },
+    {
+      "i": 681,
+      "start": 1665.92,
+      "end": 1667.92,
+      "text": "unten haben wir vielleicht noch ein wenig"
+    },
+    {
+      "i": 682,
+      "start": 1667.92,
+      "end": 1669.92,
+      "text": "Beisen drin, also Ostwind."
+    },
+    {
+      "i": 683,
+      "start": 1669.92,
+      "end": 1671.92,
+      "text": "Oben haben wir Westwind."
+    },
+    {
+      "i": 684,
+      "start": 1671.92,
+      "end": 1673.92,
+      "text": "Dann gibt es manchmal eine Mischschicht,"
+    },
+    {
+      "i": 685,
+      "start": 1673.92,
+      "end": 1675.92,
+      "text": "die die zwei Windsysteme aufeinandreffen."
+    },
+    {
+      "i": 686,
+      "start": 1675.92,
+      "end": 1677.92,
+      "text": "Und dementsprechend gibt es genau"
+    },
+    {
+      "i": 687,
+      "start": 1677.92,
+      "end": 1679.92,
+      "text": "in diesen Höhenmeter, in denen die Winde"
+    },
+    {
+      "i": 688,
+      "start": 1679.92,
+      "end": 1681.92,
+      "text": "aufeinandreffen, eine sogenannte Schärwind."
+    },
+    {
+      "i": 689,
+      "start": 1681.92,
+      "end": 1684.06,
+      "text": "Und da nehmen wir auch"
+    },
+    {
+      "i": 690,
+      "start": 1684.06,
+      "end": 1686.06,
+      "text": "eine Turbulenz wahr, oder eine leichte"
+    },
+    {
+      "i": 691,
+      "start": 1686.06,
+      "end": 1689.23,
+      "text": "Turbulenz, je nach Windstärke."
+    },
+    {
+      "i": 692,
+      "start": 1689.23,
+      "end": 1691.23,
+      "text": "Das ist für uns Gleitschirmflüger"
+    },
+    {
+      "i": 693,
+      "start": 1691.23,
+      "end": 1693.23,
+      "text": "jetzt nicht sehr relevant."
+    },
+    {
+      "i": 694,
+      "start": 1693.23,
+      "end": 1695.23,
+      "text": "Manchmal spüren wir aber Phänomene,"
+    },
+    {
+      "i": 695,
+      "start": 1695.23,
+      "end": 1697.23,
+      "text": "dass es eine Schicht gibt, die ein bisschen rumpelt."
+    },
+    {
+      "i": 696,
+      "start": 1697.23,
+      "end": 1699.44,
+      "text": "Zum Beispiel für den Realwind."
+    },
+    {
+      "i": 697,
+      "start": 1699.44,
+      "end": 1702.22,
+      "text": "Darauf kommen wir später noch."
+    },
+    {
+      "i": 698,
+      "start": 1702.22,
+      "end": 1705.3,
+      "text": "Bei der mechanischen Turbulenz,"
+    },
+    {
+      "i": 699,
+      "start": 1705.3,
+      "end": 1707.3,
+      "text": "das ist noch das dritte Themenfeld,"
+    },
+    {
+      "i": 700,
+      "start": 1707.3,
+      "end": 1709.3,
+      "text": "geht es darum, dass wenn eine"
+    },
+    {
+      "i": 701,
+      "start": 1709.3,
+      "end": 1711.3,
+      "text": "Luftmasse über ein Objekt strömt,"
+    },
+    {
+      "i": 702,
+      "start": 1711.3,
+      "end": 1713.3,
+      "text": "zum Beispiel einen Wald, oder ein Haus,"
+    },
+    {
+      "i": 703,
+      "start": 1713.3,
+      "end": 1715.3,
+      "text": "oder irgendetwas, oder sogar,"
+    },
+    {
+      "i": 704,
+      "start": 1715.3,
+      "end": 1717.3,
+      "text": "vor allem für uns vorrelevant,"
+    },
+    {
+      "i": 705,
+      "start": 1717.3,
+      "end": 1719.3,
+      "text": "bei einer Bergkette zum Beispiel,"
+    },
+    {
+      "i": 706,
+      "start": 1719.3,
+      "end": 1721.5,
+      "text": "wenn wir dort starken Wind haben,"
+    },
+    {
+      "i": 707,
+      "start": 1721.5,
+      "end": 1723.5,
+      "text": "und über dieses Objekt strömt,"
+    },
+    {
+      "i": 708,
+      "start": 1723.5,
+      "end": 1725.5,
+      "text": "ihr kennt das vielleicht alle von diesen"
+    },
+    {
+      "i": 709,
+      "start": 1725.5,
+      "end": 1727.5,
+      "text": "Strömungsvideos von irgendwelchen Autos"
+    },
+    {
+      "i": 710,
+      "start": 1727.5,
+      "end": 1729.5,
+      "text": "und dann gibt es hinter dem Objekt"
+    },
+    {
+      "i": 711,
+      "start": 1729.5,
+      "end": 1731.55,
+      "text": "Verwirbelungen,"
+    },
+    {
+      "i": 712,
+      "start": 1731.55,
+      "end": 1733.55,
+      "text": "die sehr unangenehm sein können."
+    },
+    {
+      "i": 713,
+      "start": 1733.55,
+      "end": 1735.55,
+      "text": "Je nach Windstärke"
+    },
+    {
+      "i": 714,
+      "start": 1735.55,
+      "end": 1737.55,
+      "text": "können die sehr unangenehm sein,"
+    },
+    {
+      "i": 715,
+      "start": 1737.55,
+      "end": 1739.55,
+      "text": "oder auch gefährlich."
+    },
+    {
+      "i": 716,
+      "start": 1739.55,
+      "end": 1741.55,
+      "text": "Wenn der Wind aber eher schwach ist,"
+    },
+    {
+      "i": 717,
+      "start": 1741.55,
+      "end": 1743.55,
+      "text": "sind die manchmal auch ganz fein spürbar."
+    },
+    {
+      "i": 718,
+      "start": 1743.55,
+      "end": 1745.55,
+      "text": "Gerade beim Landeplatz ist das natürlich auch wichtig,"
+    },
+    {
+      "i": 719,
+      "start": 1745.55,
+      "end": 1747.55,
+      "text": "wenn man hinter einem Haus landen würde."
+    },
+    {
+      "i": 720,
+      "start": 1747.55,
+      "end": 1749.55,
+      "text": "Wenn man starken Wind hat,"
+    },
+    {
+      "i": 721,
+      "start": 1749.55,
+      "end": 1751.55,
+      "text": "ist das natürlich nicht so viel Vorteil."
+    },
+    {
+      "i": 722,
+      "start": 1751.55,
+      "end": 1754.03,
+      "text": "Hier vielleicht noch zwei Wörter,"
+    },
+    {
+      "i": 723,
+      "start": 1754.03,
+      "end": 1756.03,
+      "text": "die immer wieder aufkommen beim Fliegen,"
+    },
+    {
+      "i": 724,
+      "start": 1756.03,
+      "end": 1758.03,
+      "text": "ist Lauf und Leh."
+    },
+    {
+      "i": 725,
+      "start": 1758.03,
+      "end": 1760.5,
+      "text": "Das ist ein Thema, das wir uns jetzt"
+    },
+    {
+      "i": 726,
+      "start": 1760.5,
+      "end": 1762.5,
+      "text": "auch kurz anschauen."
+    },
+    {
+      "i": 727,
+      "start": 1762.5,
+      "end": 1764.5,
+      "text": "Die Lehseite beschreibt immer die"
+    },
+    {
+      "i": 728,
+      "start": 1764.5,
+      "end": 1766.5,
+      "text": "windabgewandte Seite,"
+    },
+    {
+      "i": 729,
+      "start": 1766.5,
+      "end": 1768.5,
+      "text": "und die Laufseite ist die windzugewandte Seite."
+    },
+    {
+      "i": 730,
+      "start": 1768.5,
+      "end": 1770.8,
+      "text": "Jetzt ist immer die Frage,"
+    },
+    {
+      "i": 731,
+      "start": 1770.8,
+      "end": 1772.8,
+      "text": "von wo aus schauen wir es an?"
+    },
+    {
+      "i": 732,
+      "start": 1772.8,
+      "end": 1774.8,
+      "text": "Schauen wir es von uns aus an?"
+    },
+    {
+      "i": 733,
+      "start": 1774.8,
+      "end": 1776.8,
+      "text": "Schauen wir es von einem Objekt aus an?"
+    },
+    {
+      "i": 734,
+      "start": 1776.8,
+      "end": 1778.8,
+      "text": "Oder, man hört es auch,"
+    },
+    {
+      "i": 735,
+      "start": 1778.8,
+      "end": 1780.8,
+      "text": "man hört sich viel reden am Startplatz,"
+    },
+    {
+      "i": 736,
+      "start": 1780.8,
+      "end": 1782.8,
+      "text": "zum Beispiel auch an Bergkreten."
+    },
+    {
+      "i": 737,
+      "start": 1782.8,
+      "end": 1784.8,
+      "text": "Da unten haben wir eine Lehseite,"
+    },
+    {
+      "i": 738,
+      "start": 1784.8,
+      "end": 1786.8,
+      "text": "und das ist einfach vom Berg aus gesehen,"
+    },
+    {
+      "i": 739,
+      "start": 1786.8,
+      "end": 1788.8,
+      "text": "die Rückseite des Berges,"
+    },
+    {
+      "i": 740,
+      "start": 1788.8,
+      "end": 1790.8,
+      "text": "wenn die Laufmasse auf diesen trifft."
+    },
+    {
+      "i": 741,
+      "start": 1790.8,
+      "end": 1793.04,
+      "text": "Oder jetzt in diesem Sinne vielleicht"
+    },
+    {
+      "i": 742,
+      "start": 1793.04,
+      "end": 1795.04,
+      "text": "ein Haus, eine Lehseite des Hauses"
+    },
+    {
+      "i": 743,
+      "start": 1795.04,
+      "end": 1797.04,
+      "text": "und eine Laufseite des Hauses."
+    },
+    {
+      "i": 744,
+      "start": 1797.04,
+      "end": 1799.04,
+      "text": "In den Landen wollt ihr genau das Gleiche."
+    },
+    {
+      "i": 745,
+      "start": 1799.04,
+      "end": 1801.04,
+      "text": "Wir bauen laufseitig ab,"
+    },
+    {
+      "i": 746,
+      "start": 1801.04,
+      "end": 1803.04,
+      "text": "vom Landeplatz aus gesehen,"
+    },
+    {
+      "i": 747,
+      "start": 1803.04,
+      "end": 1805.04,
+      "text": "auf der Laufseite,"
+    },
+    {
+      "i": 748,
+      "start": 1805.04,
+      "end": 1807.18,
+      "text": "auf der windzugewandten Seite."
+    },
+    {
+      "i": 749,
+      "start": 1807.18,
+      "end": 1809.18,
+      "text": "Hier zum Lauf und Leh."
+    },
+    {
+      "i": 750,
+      "start": 1809.18,
+      "end": 1811.18,
+      "text": "Etwas, das ihr immer wieder hören werdet"
+    },
+    {
+      "i": 751,
+      "start": 1811.18,
+      "end": 1813.18,
+      "text": "in eurer Ausbildung und in der Meteor-Theorie."
+    },
+    {
+      "i": 752,
+      "start": 1813.18,
+      "end": 1816.43,
+      "text": "Dann kommen wir zum letzten"
+    },
+    {
+      "i": 753,
+      "start": 1816.43,
+      "end": 1819.01,
+      "text": "Wetterphänomen,"
+    },
+    {
+      "i": 754,
+      "start": 1819.01,
+      "end": 1821.01,
+      "text": "wo es um den Wind geht,"
+    },
+    {
+      "i": 755,
+      "start": 1821.01,
+      "end": 1823.57,
+      "text": "was für uns auch ganz, ganz wichtig ist"
+    },
+    {
+      "i": 756,
+      "start": 1823.57,
+      "end": 1825.57,
+      "text": "für Gleitschirmflüger."
+    },
+    {
+      "i": 757,
+      "start": 1825.57,
+      "end": 1827.57,
+      "text": "Und zwar geht es hier um das Verständnis"
+    },
+    {
+      "i": 758,
+      "start": 1827.57,
+      "end": 1829.57,
+      "text": "des Venturi-Effekts."
+    },
+    {
+      "i": 759,
+      "start": 1829.57,
+      "end": 1831.57,
+      "text": "Den sogenannten Venturi-Effekt"
+    },
+    {
+      "i": 760,
+      "start": 1831.57,
+      "end": 1833.57,
+      "text": "kennt ihr vielleicht aus der Aerodynamik-Theorie."
+    },
+    {
+      "i": 761,
+      "start": 1833.57,
+      "end": 1835.58,
+      "text": "Das werdet ihr dort auch noch genauer anschauen."
+    },
+    {
+      "i": 762,
+      "start": 1835.58,
+      "end": 1837.76,
+      "text": "Im Venturi-Effekt"
+    },
+    {
+      "i": 763,
+      "start": 1837.76,
+      "end": 1839.76,
+      "text": "geht es darum,"
+    },
+    {
+      "i": 764,
+      "start": 1839.76,
+      "end": 1841.76,
+      "text": "wenn immer eine Windströmung"
+    },
+    {
+      "i": 765,
+      "start": 1841.76,
+      "end": 1843.76,
+      "text": "oder eine Luftmasse"
+    },
+    {
+      "i": 766,
+      "start": 1843.76,
+      "end": 1845.76,
+      "text": "dazu gedrängt wird,"
+    },
+    {
+      "i": 767,
+      "start": 1845.76,
+      "end": 1847.76,
+      "text": "um sich zu verengen,"
+    },
+    {
+      "i": 768,
+      "start": 1847.76,
+      "end": 1849.76,
+      "text": "sind im ersten Beispiel"
+    },
+    {
+      "i": 769,
+      "start": 1849.76,
+      "end": 1851.76,
+      "text": "z.B. ein Tal, wenn wir ein breites Tal haben,"
+    },
+    {
+      "i": 770,
+      "start": 1851.76,
+      "end": 1853.87,
+      "text": "das sich auf das Mal verengt"
+    },
+    {
+      "i": 771,
+      "start": 1853.87,
+      "end": 1855.87,
+      "text": "und der Wind dort durchgedrückt wird,"
+    },
+    {
+      "i": 772,
+      "start": 1855.87,
+      "end": 1857.87,
+      "text": "ein Talwind z.B.,"
+    },
+    {
+      "i": 773,
+      "start": 1857.87,
+      "end": 1859.95,
+      "text": "dann gibt es in der Verengung des Tals"
+    },
+    {
+      "i": 774,
+      "start": 1859.95,
+      "end": 1861.95,
+      "text": "eine Windbeschleunigung."
+    },
+    {
+      "i": 775,
+      "start": 1861.95,
+      "end": 1863.95,
+      "text": "Also dort haben wir deutlich stärkeren Wind"
+    },
+    {
+      "i": 776,
+      "start": 1863.95,
+      "end": 1865.95,
+      "text": "als in der breiten Seite des Tals."
+    },
+    {
+      "i": 777,
+      "start": 1865.95,
+      "end": 1867.97,
+      "text": "Dementsprechend, wenn man natürlich"
+    },
+    {
+      "i": 778,
+      "start": 1867.97,
+      "end": 1869.97,
+      "text": "von Relevanz fliegt, wenn man viel Wind erwartet,"
+    },
+    {
+      "i": 779,
+      "start": 1869.97,
+      "end": 1871.97,
+      "text": "dass man eher in einem offenen Tal landet"
+    },
+    {
+      "i": 780,
+      "start": 1871.97,
+      "end": 1873.97,
+      "text": "als in einem engen Schlitz,"
+    },
+    {
+      "i": 781,
+      "start": 1873.97,
+      "end": 1876.24,
+      "text": "z.B."
+    },
+    {
+      "i": 782,
+      "start": 1876.24,
+      "end": 1879.25,
+      "text": "Das ist der Venturi-Effekt."
+    },
+    {
+      "i": 783,
+      "start": 1879.25,
+      "end": 1881.39,
+      "text": "Wenn man also auf einem Berg"
+    },
+    {
+      "i": 784,
+      "start": 1881.39,
+      "end": 1883.39,
+      "text": "oder auf einem Hügel"
+    },
+    {
+      "i": 785,
+      "start": 1883.39,
+      "end": 1885.39,
+      "text": "mit einer Luftmasse dorthin kommt,"
+    },
+    {
+      "i": 786,
+      "start": 1885.39,
+      "end": 1887.39,
+      "text": "kann man sich vorstellen,"
+    },
+    {
+      "i": 787,
+      "start": 1887.39,
+      "end": 1889.39,
+      "text": "schön parallele Linien dorthin kommen,"
+    },
+    {
+      "i": 788,
+      "start": 1889.39,
+      "end": 1891.57,
+      "text": "der Wind kommt dorthin"
+    },
+    {
+      "i": 789,
+      "start": 1891.57,
+      "end": 1893.57,
+      "text": "und nachher haben wir einen Hügel,"
+    },
+    {
+      "i": 790,
+      "start": 1893.57,
+      "end": 1895.9,
+      "text": "wo die Luftmasse zum Steigen gebracht wird"
+    },
+    {
+      "i": 791,
+      "start": 1895.9,
+      "end": 1897.92,
+      "text": "und dementsprechend führt es zu einer Verengung"
+    },
+    {
+      "i": 792,
+      "start": 1897.92,
+      "end": 1899.92,
+      "text": "auf den Hügel oder auf den Bergkreten oben"
+    },
+    {
+      "i": 793,
+      "start": 1899.92,
+      "end": 1901.92,
+      "text": "und dementsprechend ist die Windgeschwindigkeit"
+    },
+    {
+      "i": 794,
+      "start": 1901.92,
+      "end": 1904.26,
+      "text": "auf dem Berg oben am allerstärksten."
+    },
+    {
+      "i": 795,
+      "start": 1904.26,
+      "end": 1906.26,
+      "text": "Also wenn ihr mal auf einem Berg steht"
+    },
+    {
+      "i": 796,
+      "start": 1906.26,
+      "end": 1908.34,
+      "text": "und startet oder auf einem Hügel"
+    },
+    {
+      "i": 797,
+      "start": 1908.34,
+      "end": 1910.34,
+      "text": "und es hat sehr starken Wind,"
+    },
+    {
+      "i": 798,
+      "start": 1910.34,
+      "end": 1912.34,
+      "text": "steigt doch, wenn ihr könnt,"
+    },
+    {
+      "i": 799,
+      "start": 1912.34,
+      "end": 1914.34,
+      "text": "je nachdem wie das Gelände zulässt,"
+    },
+    {
+      "i": 800,
+      "start": 1914.34,
+      "end": 1916.34,
+      "text": "ein paar hundert Meter ab"
+    },
+    {
+      "i": 801,
+      "start": 1916.34,
+      "end": 1918.34,
+      "text": "und ihr werdet merken, dass in der unteren Schicht"
+    },
+    {
+      "i": 802,
+      "start": 1918.34,
+      "end": 1920.34,
+      "text": "meistens der Wind sehr viel schwächer ist"
+    },
+    {
+      "i": 803,
+      "start": 1920.34,
+      "end": 1922.34,
+      "text": "als wirklich ganz oben,"
+    },
+    {
+      "i": 804,
+      "start": 1922.34,
+      "end": 1924.58,
+      "text": "voll in der Kompression."
+    },
+    {
+      "i": 805,
+      "start": 1924.58,
+      "end": 1926.58,
+      "text": "Ist natürlich auch etwas,"
+    },
+    {
+      "i": 806,
+      "start": 1926.58,
+      "end": 1928.58,
+      "text": "was wir vielleicht beim Soaring"
+    },
+    {
+      "i": 807,
+      "start": 1928.58,
+      "end": 1930.58,
+      "text": "in der Flugpraxis anschauen werden"
+    },
+    {
+      "i": 808,
+      "start": 1930.58,
+      "end": 1932.58,
+      "text": "oder vielleicht schon gemacht haben."
+    },
+    {
+      "i": 809,
+      "start": 1932.58,
+      "end": 1934.58,
+      "text": "Natürlich wichtig ist,"
+    },
+    {
+      "i": 810,
+      "start": 1934.58,
+      "end": 1936.58,
+      "text": "wir wollen ja genau in dem Bereich bleiben,"
+    },
+    {
+      "i": 811,
+      "start": 1936.58,
+      "end": 1938.66,
+      "text": "wo es dann auch den Aufwind gibt,"
+    },
+    {
+      "i": 812,
+      "start": 1938.66,
+      "end": 1940.66,
+      "text": "wo der Wind am Steigen ist."
+    },
+    {
+      "i": 813,
+      "start": 1940.66,
+      "end": 1942.66,
+      "text": "Zu einer Beschleunigung von einem Wind."
+    },
+    {
+      "i": 814,
+      "start": 1942.66,
+      "end": 1944.83,
+      "text": "Wegen dem Venturi-Effekt."
+    },
+    {
+      "i": 815,
+      "start": 1944.83,
+      "end": 1949.01,
+      "text": "Genau."
+    },
+    {
+      "i": 816,
+      "start": 1949.01,
+      "end": 1951.01,
+      "text": "Jetzt haben wir Windsysteme angeschaut,"
+    },
+    {
+      "i": 817,
+      "start": 1951.01,
+      "end": 1953.01,
+      "text": "Tiefdruckgebiete, Hochdruckgebiete."
+    },
+    {
+      "i": 818,
+      "start": 1953.01,
+      "end": 1955.01,
+      "text": "Wir haben gelernt, wie man aus den Isobaren"
+    },
+    {
+      "i": 819,
+      "start": 1955.01,
+      "end": 1957.01,
+      "text": "Wind herauslesen kann,"
+    },
+    {
+      "i": 820,
+      "start": 1957.01,
+      "end": 1959.06,
+      "text": "eine Windstärke vielleicht auch herauslesen kann."
+    },
+    {
+      "i": 821,
+      "start": 1959.06,
+      "end": 1963.14,
+      "text": "Weil je näher die Isobaren zusammen sind,"
+    },
+    {
+      "i": 822,
+      "start": 1963.14,
+      "end": 1965.57,
+      "text": "desto stärker ist der Wind."
+    },
+    {
+      "i": 823,
+      "start": 1965.57,
+      "end": 1967.57,
+      "text": "Und je weiter auseinander die Isobaren sind,"
+    },
+    {
+      "i": 824,
+      "start": 1967.57,
+      "end": 1969.57,
+      "text": "denkt an eine Topografiekarte,"
+    },
+    {
+      "i": 825,
+      "start": 1969.57,
+      "end": 1971.57,
+      "text": "an eine Landschaftskarte,"
+    },
+    {
+      "i": 826,
+      "start": 1971.57,
+      "end": 1973.57,
+      "text": "je weiter auseinander die Isobaren sind,"
+    },
+    {
+      "i": 827,
+      "start": 1973.57,
+      "end": 1975.57,
+      "text": "desto schwächer ist das Druckgefälle,"
+    },
+    {
+      "i": 828,
+      "start": 1975.57,
+      "end": 1977.57,
+      "text": "desto schwächer ist auch"
+    },
+    {
+      "i": 829,
+      "start": 1977.57,
+      "end": 1979.57,
+      "text": "die Ausgleichsströmung zwischen"
+    },
+    {
+      "i": 830,
+      "start": 1979.57,
+      "end": 1981.97,
+      "text": "diesen Druckgebieten."
+    },
+    {
+      "i": 831,
+      "start": 1981.97,
+      "end": 1983.97,
+      "text": "Es ist ganz wichtig, dass wir"
+    },
+    {
+      "i": 832,
+      "start": 1983.97,
+      "end": 1985.97,
+      "text": "die verschiedenen Themenbereiche"
+    },
+    {
+      "i": 833,
+      "start": 1985.97,
+      "end": 1987.97,
+      "text": "zusammensetzen."
+    },
+    {
+      "i": 834,
+      "start": 1987.97,
+      "end": 1989.97,
+      "text": "Je tiefer das Verständnis wird,"
+    },
+    {
+      "i": 835,
+      "start": 1989.97,
+      "end": 1991.97,
+      "text": "was mit diesen Luftmassen passiert,"
+    },
+    {
+      "i": 836,
+      "start": 1991.97,
+      "end": 1993.97,
+      "text": "desto mehr kann man zusammensetzen."
+    },
+    {
+      "i": 837,
+      "start": 1993.97,
+      "end": 1995.97,
+      "text": "Das ist wie ein Puzzlestein,"
+    },
+    {
+      "i": 838,
+      "start": 1995.97,
+      "end": 1997.97,
+      "text": "wo sich das eine ins andere hineinfügt."
+    },
+    {
+      "i": 839,
+      "start": 1997.97,
+      "end": 1999.97,
+      "text": "Dann wird das Flugwetter"
+    },
+    {
+      "i": 840,
+      "start": 1999.97,
+      "end": 2001.97,
+      "text": "zu einem interessanten Feld"
+    },
+    {
+      "i": 841,
+      "start": 2001.97,
+      "end": 2003.97,
+      "text": "und man freut sich daran,"
+    },
+    {
+      "i": 842,
+      "start": 2003.97,
+      "end": 2005.97,
+      "text": "dass man die Grundlagen versteht"
+    },
+    {
+      "i": 843,
+      "start": 2005.97,
+      "end": 2007.97,
+      "text": "und Basics versteht."
+    },
+    {
+      "i": 844,
+      "start": 2007.97,
+      "end": 2009.97,
+      "text": "Deshalb ist der Kurs wichtig,"
+    },
+    {
+      "i": 845,
+      "start": 2009.97,
+      "end": 2011.97,
+      "text": "dass man Basics versteht"
+    },
+    {
+      "i": 846,
+      "start": 2011.97,
+      "end": 2014.02,
+      "text": "und nicht einfach etwas auswendig lernt."
+    },
+    {
+      "i": 847,
+      "start": 2014.02,
+      "end": 2016.02,
+      "text": "Das werden wir weiter anschauen"
+    },
+    {
+      "i": 848,
+      "start": 2016.02,
+      "end": 2019.28,
+      "text": "in den nächsten Folien."
+    },
+    {
+      "i": 849,
+      "start": 2019.28,
+      "end": 2021.28,
+      "text": "Das einzige Thema, das wir"
+    },
+    {
+      "i": 850,
+      "start": 2021.28,
+      "end": 2023.28,
+      "text": "auf der Isobarenkarte"
+    },
+    {
+      "i": 851,
+      "start": 2023.28,
+      "end": 2025.28,
+      "text": "noch nicht angeschaut haben,"
+    },
+    {
+      "i": 852,
+      "start": 2025.28,
+      "end": 2027.28,
+      "text": "sind die Fronten,"
+    },
+    {
+      "i": 853,
+      "start": 2027.28,
+      "end": 2029.28,
+      "text": "die blauen, roten und violetten Linien"
+    },
+    {
+      "i": 854,
+      "start": 2029.28,
+      "end": 2031.87,
+      "text": "mit den verschiedenen Zeichen drauf."
+    },
+    {
+      "i": 855,
+      "start": 2031.87,
+      "end": 2033.87,
+      "text": "Diese führen zu speziellen"
+    },
+    {
+      "i": 856,
+      "start": 2033.87,
+      "end": 2035.87,
+      "text": "meteorologischen Bedingungen,"
+    },
+    {
+      "i": 857,
+      "start": 2035.87,
+      "end": 2037.87,
+      "text": "die für uns als Gleitschirmflüger"
+    },
+    {
+      "i": 858,
+      "start": 2037.87,
+      "end": 2039.87,
+      "text": "ganz wichtig sind,"
+    },
+    {
+      "i": 859,
+      "start": 2039.87,
+      "end": 2041.87,
+      "text": "dass man diese versteht"
+    },
+    {
+      "i": 860,
+      "start": 2041.87,
+      "end": 2043.87,
+      "text": "und dass man die Gefahren dieser Fronten versteht."
+    },
+    {
+      "i": 861,
+      "start": 2043.87,
+      "end": 2047.01,
+      "text": "Aber zum Verstehen der Fronten"
+    },
+    {
+      "i": 862,
+      "start": 2047.01,
+      "end": 2049.01,
+      "text": "nochmals zurück,"
+    },
+    {
+      "i": 863,
+      "start": 2049.01,
+      "end": 2051.01,
+      "text": "wie eine Front überhaupt entsteht."
+    },
+    {
+      "i": 864,
+      "start": 2051.01,
+      "end": 2053.44,
+      "text": "Wie entsteht eine Front?"
+    },
+    {
+      "i": 865,
+      "start": 2053.44,
+      "end": 2055.98,
+      "text": "Die Luftmassen auf dem Globus"
+    },
+    {
+      "i": 866,
+      "start": 2055.98,
+      "end": 2057.98,
+      "text": "erwärmen sich verschieden."
+    },
+    {
+      "i": 867,
+      "start": 2057.98,
+      "end": 2059.98,
+      "text": "Wir haben eine kältere Luftmasse"
+    },
+    {
+      "i": 868,
+      "start": 2059.98,
+      "end": 2061.98,
+      "text": "am Polargebiet oben"
+    },
+    {
+      "i": 869,
+      "start": 2061.98,
+      "end": 2063.98,
+      "text": "und eine wärmere, feuchte Luftmasse"
+    },
+    {
+      "i": 870,
+      "start": 2063.98,
+      "end": 2065.98,
+      "text": "am tropischen oder subtropischen Gebiet."
+    },
+    {
+      "i": 871,
+      "start": 2065.98,
+      "end": 2068.22,
+      "text": "Und wir hatten es vorhin,"
+    },
+    {
+      "i": 872,
+      "start": 2068.22,
+      "end": 2070.22,
+      "text": "eine Luftmasse beschreibt"
+    },
+    {
+      "i": 873,
+      "start": 2070.22,
+      "end": 2072.22,
+      "text": "ein Gebiet, ein Luftvolumen,"
+    },
+    {
+      "i": 874,
+      "start": 2072.22,
+      "end": 2074.22,
+      "text": "das ähnliche Eigenschaften hat."
+    },
+    {
+      "i": 875,
+      "start": 2074.22,
+      "end": 2076.22,
+      "text": "Da haben wir zwei verschiedene Luftmassen"
+    },
+    {
+      "i": 876,
+      "start": 2076.22,
+      "end": 2078.22,
+      "text": "und zwischendrin gibt es eine"
+    },
+    {
+      "i": 877,
+      "start": 2078.22,
+      "end": 2081.23,
+      "text": "Luftmassengrenze."
+    },
+    {
+      "i": 878,
+      "start": 2081.23,
+      "end": 2083.23,
+      "text": "Und diese Luftmassengrenze"
+    },
+    {
+      "i": 879,
+      "start": 2083.23,
+      "end": 2085.28,
+      "text": "wird durch eine Front beschrieben."
+    },
+    {
+      "i": 880,
+      "start": 2085.28,
+      "end": 2087.94,
+      "text": "Wir haben die blauen Dreiecke,"
+    },
+    {
+      "i": 881,
+      "start": 2087.94,
+      "end": 2089.94,
+      "text": "das beschreibt eine Kaltfront"
+    },
+    {
+      "i": 882,
+      "start": 2089.94,
+      "end": 2091.94,
+      "text": "und wir haben die roten Bölen,"
+    },
+    {
+      "i": 883,
+      "start": 2091.94,
+      "end": 2093.94,
+      "text": "also die runden Grafiken"
+    },
+    {
+      "i": 884,
+      "start": 2093.94,
+      "end": 2095.94,
+      "text": "und wir haben die roten Bölen,"
+    },
+    {
+      "i": 885,
+      "start": 2095.94,
+      "end": 2097.95,
+      "text": "das beschreibt eine Warmfront."
+    },
+    {
+      "i": 886,
+      "start": 2097.95,
+      "end": 2099.95,
+      "text": "Unten gibt es noch eine Mischform,"
+    },
+    {
+      "i": 887,
+      "start": 2099.95,
+      "end": 2101.95,
+      "text": "eine Okklusion, auf die wir später"
+    },
+    {
+      "i": 888,
+      "start": 2101.95,
+      "end": 2103.95,
+      "text": "noch zugehen, das ist die dritte Form"
+    },
+    {
+      "i": 889,
+      "start": 2103.95,
+      "end": 2106.35,
+      "text": "einer Front, die es gibt."
+    },
+    {
+      "i": 890,
+      "start": 2106.35,
+      "end": 2108.35,
+      "text": "Jetzt könnt ihr euch vorstellen,"
+    },
+    {
+      "i": 891,
+      "start": 2108.35,
+      "end": 2110.77,
+      "text": "wir haben die verschiedenen Luftmassen"
+    },
+    {
+      "i": 892,
+      "start": 2110.77,
+      "end": 2112.77,
+      "text": "und jetzt haben wir zum Beispiel"
+    },
+    {
+      "i": 893,
+      "start": 2112.77,
+      "end": 2114.77,
+      "text": "ein Tiefdruckgebiet, das einen Wirbel macht."
+    },
+    {
+      "i": 894,
+      "start": 2114.77,
+      "end": 2116.77,
+      "text": "Stellt euch vielleicht im Extremfall"
+    },
+    {
+      "i": 895,
+      "start": 2116.77,
+      "end": 2118.77,
+      "text": "einen Hurricane vor."
+    },
+    {
+      "i": 896,
+      "start": 2118.77,
+      "end": 2120.78,
+      "text": "Das ist wie ein riesiger Wirbel,"
+    },
+    {
+      "i": 897,
+      "start": 2120.78,
+      "end": 2123.02,
+      "text": "das ist ein Mixer, der die Luftmassen"
+    },
+    {
+      "i": 898,
+      "start": 2123.02,
+      "end": 2125.02,
+      "text": "durcheinanderwirbelt und dementsprechend"
+    },
+    {
+      "i": 899,
+      "start": 2125.02,
+      "end": 2127.02,
+      "text": "beginnen sich auch Fronten zu bilden."
+    },
+    {
+      "i": 900,
+      "start": 2127.02,
+      "end": 2129.02,
+      "text": "Eine Luftmasse zieht vielleicht von Norden"
+    },
+    {
+      "i": 901,
+      "start": 2129.02,
+      "end": 2131.02,
+      "text": "Richtung Süden und eine wärmere Luftmasse"
+    },
+    {
+      "i": 902,
+      "start": 2131.02,
+      "end": 2133.02,
+      "text": "zieht von Süden Richtung Norden"
+    },
+    {
+      "i": 903,
+      "start": 2133.02,
+      "end": 2135.02,
+      "text": "und dementsprechend beginnt sich ein Frontensystem"
+    },
+    {
+      "i": 904,
+      "start": 2135.02,
+      "end": 2137.02,
+      "text": "anzubewegen. Eine Luftmasse wird"
+    },
+    {
+      "i": 905,
+      "start": 2137.02,
+      "end": 2139.04,
+      "text": "bewegt und dementsprechend"
+    },
+    {
+      "i": 906,
+      "start": 2139.04,
+      "end": 2141.28,
+      "text": "austauscht."
+    },
+    {
+      "i": 907,
+      "start": 2141.28,
+      "end": 2143.28,
+      "text": "Und so entstehen dann Schritt für Schritt"
+    },
+    {
+      "i": 908,
+      "start": 2143.28,
+      "end": 2145.52,
+      "text": "die Fronten."
+    },
+    {
+      "i": 909,
+      "start": 2145.52,
+      "end": 2147.52,
+      "text": "Da kann man sich jetzt vorstellen,"
+    },
+    {
+      "i": 910,
+      "start": 2147.52,
+      "end": 2149.52,
+      "text": "wir haben zwei Windrichtungen für das Tiefdruckgebiet,"
+    },
+    {
+      "i": 911,
+      "start": 2149.52,
+      "end": 2151.52,
+      "text": "die dortieren beginnen,"
+    },
+    {
+      "i": 912,
+      "start": 2151.52,
+      "end": 2153.52,
+      "text": "wo das ganze Gespann in Rotation"
+    },
+    {
+      "i": 913,
+      "start": 2153.52,
+      "end": 2156.62,
+      "text": "bringt und dementsprechend"
+    },
+    {
+      "i": 914,
+      "start": 2156.62,
+      "end": 2160.85,
+      "text": "diese Fronten bilden."
+    },
+    {
+      "i": 915,
+      "start": 2160.85,
+      "end": 2163.09,
+      "text": "Was man hier vielleicht auch ganz schön sieht,"
+    },
+    {
+      "i": 916,
+      "start": 2163.09,
+      "end": 2165.09,
+      "text": "ist, dass zuerst"
+    },
+    {
+      "i": 917,
+      "start": 2165.09,
+      "end": 2167.09,
+      "text": "eine Warmfront vorausgeht,"
+    },
+    {
+      "i": 918,
+      "start": 2167.09,
+      "end": 2169.2,
+      "text": "die rote Linie,"
+    },
+    {
+      "i": 919,
+      "start": 2169.2,
+      "end": 2171.2,
+      "text": "und wir haben eine Kaltfront,"
+    },
+    {
+      "i": 920,
+      "start": 2171.2,
+      "end": 2173.2,
+      "text": "die nach hinten geht."
+    },
+    {
+      "i": 921,
+      "start": 2173.2,
+      "end": 2175.2,
+      "text": "Wir werden uns das nachher noch anschauen."
+    },
+    {
+      "i": 922,
+      "start": 2175.2,
+      "end": 2177.2,
+      "text": "Eine Kaltfront ist schneller unterwegs"
+    },
+    {
+      "i": 923,
+      "start": 2177.2,
+      "end": 2179.34,
+      "text": "als eine Warmfront."
+    },
+    {
+      "i": 924,
+      "start": 2179.34,
+      "end": 2181.34,
+      "text": "Eine Kaltfront ist fast doppelt so schnell"
+    },
+    {
+      "i": 925,
+      "start": 2181.34,
+      "end": 2183.34,
+      "text": "wie eine Warmfront."
+    },
+    {
+      "i": 926,
+      "start": 2183.34,
+      "end": 2185.34,
+      "text": "Und dementsprechend kommt es dazu,"
+    },
+    {
+      "i": 927,
+      "start": 2185.34,
+      "end": 2187.34,
+      "text": "dass die Kaltfront"
+    },
+    {
+      "i": 928,
+      "start": 2187.34,
+      "end": 2189.34,
+      "text": "die Warmfront aufholt"
+    },
+    {
+      "i": 929,
+      "start": 2189.34,
+      "end": 2191.49,
+      "text": "und man sieht es hier"
+    },
+    {
+      "i": 930,
+      "start": 2191.49,
+      "end": 2193.49,
+      "text": "im Zentrum des Tiefdrucks"
+    },
+    {
+      "i": 931,
+      "start": 2193.49,
+      "end": 2195.49,
+      "text": "bilden sich irgendwann die Okklusionen."
+    },
+    {
+      "i": 932,
+      "start": 2195.49,
+      "end": 2197.49,
+      "text": "Okklusion beschreibt"
+    },
+    {
+      "i": 933,
+      "start": 2197.49,
+      "end": 2199.49,
+      "text": "eine Mischform von diesen zwei Fronten."
+    },
+    {
+      "i": 934,
+      "start": 2199.49,
+      "end": 2201.49,
+      "text": "Wir werden jetzt gerne noch"
+    },
+    {
+      "i": 935,
+      "start": 2201.49,
+      "end": 2203.49,
+      "text": "genauer im Detail darauf eingehen,"
+    },
+    {
+      "i": 936,
+      "start": 2203.49,
+      "end": 2205.49,
+      "text": "was das bedeutet oder wie das aussieht."
+    },
+    {
+      "i": 937,
+      "start": 2205.49,
+      "end": 2208.94,
+      "text": "Wir sehen jetzt hier,"
+    },
+    {
+      "i": 938,
+      "start": 2208.94,
+      "end": 2210.94,
+      "text": "wie die Luftmassen dortieren"
+    },
+    {
+      "i": 939,
+      "start": 2210.94,
+      "end": 2212.94,
+      "text": "und wie die verschiedenen Frontensysteme"
+    },
+    {
+      "i": 940,
+      "start": 2212.94,
+      "end": 2214.94,
+      "text": "entstehen durch die zwei Luftmassen."
+    },
+    {
+      "i": 941,
+      "start": 2214.94,
+      "end": 2217.34,
+      "text": "Jetzt schauen wir uns vielleicht zuerst die Kaltfront an."
+    },
+    {
+      "i": 942,
+      "start": 2217.34,
+      "end": 2219.34,
+      "text": "Das ist eigentlich fast die wichtigste Front"
+    },
+    {
+      "i": 943,
+      "start": 2219.34,
+      "end": 2221.34,
+      "text": "oder die gefährlichste Front"
+    },
+    {
+      "i": 944,
+      "start": 2221.34,
+      "end": 2224.42,
+      "text": "für Gleitschirmflüger."
+    },
+    {
+      "i": 945,
+      "start": 2224.42,
+      "end": 2226.42,
+      "text": "Und zwar kommt eine Kaltfront"
+    },
+    {
+      "i": 946,
+      "start": 2226.42,
+      "end": 2228.42,
+      "text": "man kann sich vorstellen,"
+    },
+    {
+      "i": 947,
+      "start": 2228.42,
+      "end": 2230.56,
+      "text": "die zieht von links nach rechts in dieser Grafik."
+    },
+    {
+      "i": 948,
+      "start": 2230.56,
+      "end": 2232.56,
+      "text": "Die Kaltluftmasse schiebt sich"
+    },
+    {
+      "i": 949,
+      "start": 2232.56,
+      "end": 2234.56,
+      "text": "unten hinein, die ist ja schwerer."
+    },
+    {
+      "i": 950,
+      "start": 2234.56,
+      "end": 2236.56,
+      "text": "Dementsprechend schiebt sie sich unten hinein"
+    },
+    {
+      "i": 951,
+      "start": 2236.56,
+      "end": 2238.56,
+      "text": "und sie kommt so wie in einer Tropfenform"
+    },
+    {
+      "i": 952,
+      "start": 2238.56,
+      "end": 2240.56,
+      "text": "daher. Da könnt ihr euch merken,"
+    },
+    {
+      "i": 953,
+      "start": 2240.56,
+      "end": 2242.56,
+      "text": "die Form dieser Linie"
+    },
+    {
+      "i": 954,
+      "start": 2242.56,
+      "end": 2244.56,
+      "text": "in der Vertikalen ist eine Tropfenform,"
+    },
+    {
+      "i": 955,
+      "start": 2244.56,
+      "end": 2247.06,
+      "text": "die daherkommt."
+    },
+    {
+      "i": 956,
+      "start": 2247.06,
+      "end": 2249.06,
+      "text": "Dementsprechend schiebt sich kalte Luft unten hinein."
+    },
+    {
+      "i": 957,
+      "start": 2249.06,
+      "end": 2251.3,
+      "text": "Die Wärmerluft ist schon leichter"
+    },
+    {
+      "i": 958,
+      "start": 2251.3,
+      "end": 2253.3,
+      "text": "und dementsprechend will sie wegsteigen."
+    },
+    {
+      "i": 959,
+      "start": 2253.3,
+      "end": 2256.46,
+      "text": "Und dementsprechend kommt es zu"
+    },
+    {
+      "i": 960,
+      "start": 2256.46,
+      "end": 2258.54,
+      "text": "einem grossflächigen"
+    },
+    {
+      "i": 961,
+      "start": 2258.54,
+      "end": 2260.54,
+      "text": "Steigen von dieser warmen,"
+    },
+    {
+      "i": 962,
+      "start": 2260.54,
+      "end": 2263.94,
+      "text": "feuchten Luftmasse."
+    },
+    {
+      "i": 963,
+      "start": 2263.94,
+      "end": 2265.94,
+      "text": "Und es bilden sich Wolken in diesem Steigprozess,"
+    },
+    {
+      "i": 964,
+      "start": 2265.94,
+      "end": 2267.94,
+      "text": "welche irgendwann ausregnen"
+    },
+    {
+      "i": 965,
+      "start": 2267.94,
+      "end": 2269.95,
+      "text": "und in Extremform sind dann"
+    },
+    {
+      "i": 966,
+      "start": 2269.95,
+      "end": 2272.03,
+      "text": "natürlich Gewitter."
+    },
+    {
+      "i": 967,
+      "start": 2272.03,
+      "end": 2274.03,
+      "text": "Also bei einer richtig aktiven Kaltfront"
+    },
+    {
+      "i": 968,
+      "start": 2274.03,
+      "end": 2276.03,
+      "text": "kommen immer Gewitter mit her."
+    },
+    {
+      "i": 969,
+      "start": 2276.03,
+      "end": 2279.02,
+      "text": "Und jetzt sind diese Gewitter"
+    },
+    {
+      "i": 970,
+      "start": 2279.02,
+      "end": 2281.02,
+      "text": "natürlich sehr starker Wind"
+    },
+    {
+      "i": 971,
+      "start": 2281.02,
+      "end": 2283.02,
+      "text": "oder sehr starke Böen."
+    },
+    {
+      "i": 972,
+      "start": 2283.02,
+      "end": 2285.02,
+      "text": "Das ist natürlich für das Gleitschirmfliegen"
+    },
+    {
+      "i": 973,
+      "start": 2285.02,
+      "end": 2287.44,
+      "text": "extrem gefährlich."
+    },
+    {
+      "i": 974,
+      "start": 2287.44,
+      "end": 2290.51,
+      "text": "Was bei der Kaltfront natürlich das Problem ist,"
+    },
+    {
+      "i": 975,
+      "start": 2290.51,
+      "end": 2292.51,
+      "text": "im Vorfeld der Kaltfront"
+    },
+    {
+      "i": 976,
+      "start": 2292.51,
+      "end": 2294.51,
+      "text": "haben wir meistens schönes Wetter."
+    },
+    {
+      "i": 977,
+      "start": 2294.51,
+      "end": 2296.62,
+      "text": "Es ist Sonnenschein,"
+    },
+    {
+      "i": 978,
+      "start": 2296.62,
+      "end": 2298.74,
+      "text": "es ist schönes Wetter,"
+    },
+    {
+      "i": 979,
+      "start": 2298.74,
+      "end": 2300.74,
+      "text": "macht einem an zum Fliegen."
+    },
+    {
+      "i": 980,
+      "start": 2300.74,
+      "end": 2302.74,
+      "text": "Vielleicht gibt es auch ein wenig Wind."
+    },
+    {
+      "i": 981,
+      "start": 2302.74,
+      "end": 2304.74,
+      "text": "In der Schweiz ist oft mit Westwind"
+    },
+    {
+      "i": 982,
+      "start": 2304.74,
+      "end": 2306.74,
+      "text": "begleitet oder Südwestwind"
+    },
+    {
+      "i": 983,
+      "start": 2306.74,
+      "end": 2308.98,
+      "text": "oder auch ein bisschen Föhn,"
+    },
+    {
+      "i": 984,
+      "start": 2308.98,
+      "end": 2310.98,
+      "text": "dazu kommen wir später noch."
+    },
+    {
+      "i": 985,
+      "start": 2310.98,
+      "end": 2312.98,
+      "text": "Aber meistens wird es mit ein bisschen Wind"
+    },
+    {
+      "i": 986,
+      "start": 2312.98,
+      "end": 2314.98,
+      "text": "begleitet, aber oft gibt es auch gute"
+    },
+    {
+      "i": 987,
+      "start": 2314.98,
+      "end": 2316.98,
+      "text": "Wetterkarten."
+    },
+    {
+      "i": 988,
+      "start": 2316.98,
+      "end": 2319.34,
+      "text": "Es steigt und das ist eigentlich das,"
+    },
+    {
+      "i": 989,
+      "start": 2319.34,
+      "end": 2321.34,
+      "text": "was wir wollen."
+    },
+    {
+      "i": 990,
+      "start": 2321.34,
+      "end": 2323.34,
+      "text": "Wenn wir jetzt aber auf dieser Wetterkarte"
+    },
+    {
+      "i": 991,
+      "start": 2323.34,
+      "end": 2325.34,
+      "text": "sehen, auf der isobaren Karte,"
+    },
+    {
+      "i": 992,
+      "start": 2325.34,
+      "end": 2327.34,
+      "text": "wo wir ja hoffentlich vor dem Fliegen"
+    },
+    {
+      "i": 993,
+      "start": 2327.34,
+      "end": 2329.34,
+      "text": "immer kurz studieren, dass eine Kaltfront"
+    },
+    {
+      "i": 994,
+      "start": 2329.34,
+      "end": 2331.34,
+      "text": "daherkommt, dann müssen wir wirklich"
+    },
+    {
+      "i": 995,
+      "start": 2331.34,
+      "end": 2333.34,
+      "text": "vorsichtig werden als Gleitschirmflieger,"
+    },
+    {
+      "i": 996,
+      "start": 2333.34,
+      "end": 2335.34,
+      "text": "weil da mit sehr viel Wind zusammenkommt"
+    },
+    {
+      "i": 997,
+      "start": 2335.34,
+      "end": 2337.34,
+      "text": "und auch mit sehr viel steigenden"
+    },
+    {
+      "i": 998,
+      "start": 2337.34,
+      "end": 2339.34,
+      "text": "Luftmassen, wo wir dann wirklich"
+    },
+    {
+      "i": 999,
+      "start": 2339.34,
+      "end": 2341.34,
+      "text": "auch schnell landen müssen."
+    },
+    {
+      "i": 1000,
+      "start": 2341.34,
+      "end": 2343.34,
+      "text": "Bei der Kaltfront ist wirklich angebracht,"
+    },
+    {
+      "i": 1001,
+      "start": 2343.34,
+      "end": 2345.74,
+      "text": "dass der Tagesverlauf hineinkommt."
+    },
+    {
+      "i": 1002,
+      "start": 2345.74,
+      "end": 2347.74,
+      "text": "So eine Kaltfront kommt mit 40 bis 70 kmh,"
+    },
+    {
+      "i": 1003,
+      "start": 2347.74,
+      "end": 2350.08,
+      "text": "also kann relativ schnell sein,"
+    },
+    {
+      "i": 1004,
+      "start": 2350.08,
+      "end": 2352.08,
+      "text": "ganz wichtig. Der Wind kann natürlich"
+    },
+    {
+      "i": 1005,
+      "start": 2352.08,
+      "end": 2354.45,
+      "text": "sehr viel stärker werden in Gewitternähe"
+    },
+    {
+      "i": 1006,
+      "start": 2354.45,
+      "end": 2356.45,
+      "text": "und sie braucht ungefähr 6 bis 12 Stunden,"
+    },
+    {
+      "i": 1007,
+      "start": 2356.45,
+      "end": 2358.45,
+      "text": "bis sie über die Schweiz ausgezogen ist."
+    },
+    {
+      "i": 1008,
+      "start": 2358.45,
+      "end": 2360.45,
+      "text": "Also kann manchmal eine relativ schnelle Sache sein."
+    },
+    {
+      "i": 1009,
+      "start": 2360.45,
+      "end": 2365.28,
+      "text": "Genau."
+    },
+    {
+      "i": 1010,
+      "start": 2365.28,
+      "end": 2367.28,
+      "text": "Also seid vorsichtig"
+    },
+    {
+      "i": 1011,
+      "start": 2367.28,
+      "end": 2369.58,
+      "text": "mit diesen Kaltfronten."
+    },
+    {
+      "i": 1012,
+      "start": 2369.58,
+      "end": 2371.58,
+      "text": "Ganz wichtig ist, wenn ihr jetzt im Vorfeld"
+    },
+    {
+      "i": 1013,
+      "start": 2371.58,
+      "end": 2373.58,
+      "text": "von einer Kaltfront fliegt, dass ihr immer wieder"
+    },
+    {
+      "i": 1014,
+      "start": 2373.58,
+      "end": 2375.58,
+      "text": "den Wetterradar anschaut und vor allem"
+    },
+    {
+      "i": 1015,
+      "start": 2375.58,
+      "end": 2377.58,
+      "text": "auch die Augen am Himmel habt."
+    },
+    {
+      "i": 1016,
+      "start": 2377.58,
+      "end": 2379.58,
+      "text": "Da kommen die Gewitter nachher,"
+    },
+    {
+      "i": 1017,
+      "start": 2379.58,
+      "end": 2381.58,
+      "text": "das sieht dann ungefähr so aus."
+    },
+    {
+      "i": 1018,
+      "start": 2381.58,
+      "end": 2384.53,
+      "text": "Das Thema Gewitter werden wir uns auch"
+    },
+    {
+      "i": 1019,
+      "start": 2384.53,
+      "end": 2386.53,
+      "text": "noch genauer anschauen in diesem Kurs."
+    },
+    {
+      "i": 1020,
+      "start": 2386.53,
+      "end": 2388.53,
+      "text": "Aber für euch auch eine Faustregel,"
+    },
+    {
+      "i": 1021,
+      "start": 2388.53,
+      "end": 2390.53,
+      "text": "wenn so Gewitter in einer Linie nachherkommen"
+    },
+    {
+      "i": 1022,
+      "start": 2390.53,
+      "end": 2392.53,
+      "text": "auf dem Wetterradar, wie es jetzt hier aussieht,"
+    },
+    {
+      "i": 1023,
+      "start": 2392.53,
+      "end": 2394.53,
+      "text": "dann ist es immer extrem gefährlich."
+    },
+    {
+      "i": 1024,
+      "start": 2394.53,
+      "end": 2396.53,
+      "text": "Denn dann ist es wirklich eine sehr aktive Front,"
+    },
+    {
+      "i": 1025,
+      "start": 2396.53,
+      "end": 2398.53,
+      "text": "die Gewitter sind sehr stark und"
+    },
+    {
+      "i": 1026,
+      "start": 2398.53,
+      "end": 2400.53,
+      "text": "die kommen wirklich wie eine Linie nachher."
+    },
+    {
+      "i": 1027,
+      "start": 2400.53,
+      "end": 2402.53,
+      "text": "Und wenn ihr so eine Gewitterlinie"
+    },
+    {
+      "i": 1028,
+      "start": 2402.53,
+      "end": 2404.53,
+      "text": "auf dem Wetterradar seht, dann würde ich"
+    },
+    {
+      "i": 1029,
+      "start": 2404.53,
+      "end": 2406.53,
+      "text": "persönlich wirklich sehr schnell landen,"
+    },
+    {
+      "i": 1030,
+      "start": 2406.53,
+      "end": 2408.53,
+      "text": "auch wenn die Gewitter noch 100 km weg sind,"
+    },
+    {
+      "i": 1031,
+      "start": 2408.53,
+      "end": 2410.53,
+      "text": "und den starken Wind auch vorausschicken."
+    },
+    {
+      "i": 1032,
+      "start": 2410.53,
+      "end": 2412.53,
+      "text": "Und dann kann es Kaltluftausstösse geben"
+    },
+    {
+      "i": 1033,
+      "start": 2412.53,
+      "end": 2414.53,
+      "text": "vom Gewitter, die sehr, sehr gefährlich sind"
+    },
+    {
+      "i": 1034,
+      "start": 2414.53,
+      "end": 2416.53,
+      "text": "für Gleitschirmflüger,"
+    },
+    {
+      "i": 1035,
+      "start": 2416.53,
+      "end": 2418.53,
+      "text": "wo wir nachher im Gewitterbereich"
+    },
+    {
+      "i": 1036,
+      "start": 2418.53,
+      "end": 2420.53,
+      "text": "von diesem Theoriekurs"
+    },
+    {
+      "i": 1037,
+      "start": 2420.53,
+      "end": 2423.12,
+      "text": "dann noch etwas genauer darauf eingehen werden."
+    },
+    {
+      "i": 1038,
+      "start": 2423.12,
+      "end": 2425.84,
+      "text": "Aber hier zum Wetterradar."
+    },
+    {
+      "i": 1039,
+      "start": 2425.84,
+      "end": 2427.84,
+      "text": "Wichtig beim Wetterradar, noch ein Praxistipp,"
+    },
+    {
+      "i": 1040,
+      "start": 2427.84,
+      "end": 2429.95,
+      "text": "schaut nicht nur auf den Radar,"
+    },
+    {
+      "i": 1041,
+      "start": 2429.95,
+      "end": 2431.95,
+      "text": "sondern schaut auch auf den Himmel,"
+    },
+    {
+      "i": 1042,
+      "start": 2431.95,
+      "end": 2433.95,
+      "text": "denn die Radarbilder sind meistens"
+    },
+    {
+      "i": 1043,
+      "start": 2433.95,
+      "end": 2435.95,
+      "text": "eine Viertelstunde alt oder sogar eine halbe Stunde,"
+    },
+    {
+      "i": 1044,
+      "start": 2435.95,
+      "end": 2437.95,
+      "text": "je nachdem, schaut, dass sie aktuell sind."
+    },
+    {
+      "i": 1045,
+      "start": 2437.95,
+      "end": 2439.95,
+      "text": "Aber schaut auch auf den Himmel,"
+    },
+    {
+      "i": 1046,
+      "start": 2439.95,
+      "end": 2441.95,
+      "text": "auf das Telefon, wenn ihr fliegen geht."
+    },
+    {
+      "i": 1047,
+      "start": 2441.95,
+      "end": 2445.17,
+      "text": "Dann noch ein kleiner Zusatz"
+    },
+    {
+      "i": 1048,
+      "start": 2445.17,
+      "end": 2447.17,
+      "text": "zu den Gewittern."
+    },
+    {
+      "i": 1049,
+      "start": 2447.17,
+      "end": 2449.28,
+      "text": "Je näher"
+    },
+    {
+      "i": 1050,
+      "start": 2449.28,
+      "end": 2451.28,
+      "text": "im Zentrum eines Tiefdruckgebietes"
+    },
+    {
+      "i": 1051,
+      "start": 2451.28,
+      "end": 2453.28,
+      "text": "zum Beispiel, dass man sich"
+    },
+    {
+      "i": 1052,
+      "start": 2453.28,
+      "end": 2455.28,
+      "text": "in dieser Front bewegt,"
+    },
+    {
+      "i": 1053,
+      "start": 2455.28,
+      "end": 2457.28,
+      "text": "desto aktiver ist eine Kaltfront."
+    },
+    {
+      "i": 1054,
+      "start": 2457.28,
+      "end": 2459.28,
+      "text": "Wenn man nur ganz, ganz am"
+    },
+    {
+      "i": 1055,
+      "start": 2459.28,
+      "end": 2461.28,
+      "text": "aussersten Zipfel dieser Front gestreift wird,"
+    },
+    {
+      "i": 1056,
+      "start": 2461.28,
+      "end": 2463.28,
+      "text": "wie jetzt hier im Fall von Griechenland,"
+    },
+    {
+      "i": 1057,
+      "start": 2463.28,
+      "end": 2465.28,
+      "text": "kann es sein, dass das ganze Wetterphänomen"
+    },
+    {
+      "i": 1058,
+      "start": 2465.28,
+      "end": 2467.28,
+      "text": "einfach ein bisschen schwächer ist"
+    },
+    {
+      "i": 1059,
+      "start": 2467.28,
+      "end": 2469.28,
+      "text": "und gar nicht so mega schlimm ist,"
+    },
+    {
+      "i": 1060,
+      "start": 2469.28,
+      "end": 2471.28,
+      "text": "um vielleicht zu fliegen. Aber seid vorsichtig,"
+    },
+    {
+      "i": 1061,
+      "start": 2471.28,
+      "end": 2473.28,
+      "text": "das hat damit viel mit Know-how zu tun."
+    },
+    {
+      "i": 1062,
+      "start": 2473.28,
+      "end": 2475.33,
+      "text": "Aber wenn ihr wirklich voll in der Mitte"
+    },
+    {
+      "i": 1063,
+      "start": 2475.33,
+      "end": 2477.33,
+      "text": "einer Kaltfronttreffe getroffen werdet,"
+    },
+    {
+      "i": 1064,
+      "start": 2477.33,
+      "end": 2479.41,
+      "text": "dann ist sie wirklich sehr aktiv"
+    },
+    {
+      "i": 1065,
+      "start": 2479.41,
+      "end": 2481.41,
+      "text": "und dann ist definitiv nichts zu fliegen."
+    },
+    {
+      "i": 1066,
+      "start": 2481.41,
+      "end": 2483.41,
+      "text": "Aber wenn ihr nur so gestreift werdet,"
+    },
+    {
+      "i": 1067,
+      "start": 2483.41,
+      "end": 2485.41,
+      "text": "kann man unter Umständen"
+    },
+    {
+      "i": 1068,
+      "start": 2485.41,
+      "end": 2487.41,
+      "text": "gleich noch fliegen"
+    },
+    {
+      "i": 1069,
+      "start": 2487.41,
+      "end": 2489.41,
+      "text": "und es führt zu einer leichten"
+    },
+    {
+      "i": 1070,
+      "start": 2489.41,
+      "end": 2491.41,
+      "text": "Labilisierung der Luftmasse."
+    },
+    {
+      "i": 1071,
+      "start": 2491.41,
+      "end": 2493.41,
+      "text": "Aber das eher für Fortgeschrittene."
+    },
+    {
+      "i": 1072,
+      "start": 2493.41,
+      "end": 2495.41,
+      "text": "Aber gut zu wissen,"
+    },
+    {
+      "i": 1073,
+      "start": 2495.41,
+      "end": 2497.41,
+      "text": "mit dieser Abstufung, dass eine Front"
+    },
+    {
+      "i": 1074,
+      "start": 2497.41,
+      "end": 2499.41,
+      "text": "im Zentrum immer stärker ist"
+    },
+    {
+      "i": 1075,
+      "start": 2499.41,
+      "end": 2501.41,
+      "text": "als im äussersten Bereich dieser Front."
+    },
+    {
+      "i": 1076,
+      "start": 2501.41,
+      "end": 2504.66,
+      "text": "Dann kommen wir zum"
+    },
+    {
+      "i": 1077,
+      "start": 2504.66,
+      "end": 2506.66,
+      "text": "zweiten Frontenphänomen"
+    },
+    {
+      "i": 1078,
+      "start": 2506.66,
+      "end": 2508.66,
+      "text": "und das ist die Warmfront."
+    },
+    {
+      "i": 1079,
+      "start": 2508.66,
+      "end": 2511.62,
+      "text": "Die Warmfront ist so,"
+    },
+    {
+      "i": 1080,
+      "start": 2511.62,
+      "end": 2513.62,
+      "text": "dass eine wärmere Luftmasse,"
+    },
+    {
+      "i": 1081,
+      "start": 2513.62,
+      "end": 2515.62,
+      "text": "wie wir es vorhin gesehen haben,"
+    },
+    {
+      "i": 1082,
+      "start": 2515.62,
+      "end": 2517.62,
+      "text": "aufgeleitet wird auf eine kältere Luftmasse."
+    },
+    {
+      "i": 1083,
+      "start": 2517.62,
+      "end": 2519.76,
+      "text": "Bei so einer Luftmasse geht es immer darum,"
+    },
+    {
+      "i": 1084,
+      "start": 2519.76,
+      "end": 2521.76,
+      "text": "welche ist kälter oder wärmer."
+    },
+    {
+      "i": 1085,
+      "start": 2521.76,
+      "end": 2523.76,
+      "text": "Das heisst nicht per se, dass eine warm ist."
+    },
+    {
+      "i": 1086,
+      "start": 2523.76,
+      "end": 2525.76,
+      "text": "Man könnte eine Luftmasse haben,"
+    },
+    {
+      "i": 1087,
+      "start": 2525.76,
+      "end": 2527.76,
+      "text": "die minus 20 Grad ist"
+    },
+    {
+      "i": 1088,
+      "start": 2527.76,
+      "end": 2529.76,
+      "text": "und die andere Luftmasse minus 10 Grad."
+    },
+    {
+      "i": 1089,
+      "start": 2529.76,
+      "end": 2531.76,
+      "text": "Das ist ja auch kalt, aber sie ist kälter."
+    },
+    {
+      "i": 1090,
+      "start": 2531.76,
+      "end": 2533.76,
+      "text": "Also kommt eine wärmere Luftmasse"
+    },
+    {
+      "i": 1091,
+      "start": 2533.76,
+      "end": 2535.76,
+      "text": "daher."
+    },
+    {
+      "i": 1092,
+      "start": 2535.76,
+      "end": 2537.76,
+      "text": "Dementsprechend ist die Luftmasse"
+    },
+    {
+      "i": 1093,
+      "start": 2537.76,
+      "end": 2539.81,
+      "text": "weniger dicht, etwas leichter"
+    },
+    {
+      "i": 1094,
+      "start": 2539.81,
+      "end": 2541.81,
+      "text": "und sie gleitet auf"
+    },
+    {
+      "i": 1095,
+      "start": 2541.81,
+      "end": 2543.86,
+      "text": "der kalten Luftmasse auf."
+    },
+    {
+      "i": 1096,
+      "start": 2543.86,
+      "end": 2545.94,
+      "text": "Dementsprechend kommt"
+    },
+    {
+      "i": 1097,
+      "start": 2545.94,
+      "end": 2547.94,
+      "text": "eine Warmfront in einer Keilform"
+    },
+    {
+      "i": 1098,
+      "start": 2547.94,
+      "end": 2549.94,
+      "text": "daher. Da könnt ihr euch merken,"
+    },
+    {
+      "i": 1099,
+      "start": 2549.94,
+      "end": 2551.94,
+      "text": "die Diagonallinie, die Luftmasse"
+    },
+    {
+      "i": 1100,
+      "start": 2551.94,
+      "end": 2554.53,
+      "text": "die aufgeleitet wird, bildet"
+    },
+    {
+      "i": 1101,
+      "start": 2554.53,
+      "end": 2556.8,
+      "text": "eine diagonale Linie."
+    },
+    {
+      "i": 1102,
+      "start": 2556.8,
+      "end": 2558.8,
+      "text": "Das macht es für uns Gleitschirmflieger"
+    },
+    {
+      "i": 1103,
+      "start": 2558.8,
+      "end": 2560.8,
+      "text": "viel weniger gefährlich,"
+    },
+    {
+      "i": 1104,
+      "start": 2560.8,
+      "end": 2562.8,
+      "text": "als eine Tropfenform."
+    },
+    {
+      "i": 1105,
+      "start": 2562.8,
+      "end": 2564.8,
+      "text": "Wenn ich jetzt hier unten auf dem Berg stehe"
+    },
+    {
+      "i": 1106,
+      "start": 2564.8,
+      "end": 2566.8,
+      "text": "und fliegen möchte, dann sehe ich"
+    },
+    {
+      "i": 1107,
+      "start": 2566.8,
+      "end": 2568.8,
+      "text": "sehr viel. Früher, bevor die Front"
+    },
+    {
+      "i": 1108,
+      "start": 2568.8,
+      "end": 2570.8,
+      "text": "überhaupt am Boden ankommt,"
+    },
+    {
+      "i": 1109,
+      "start": 2570.8,
+      "end": 2572.8,
+      "text": "sehe ich hohe Wolkenschichten."
+    },
+    {
+      "i": 1110,
+      "start": 2572.8,
+      "end": 2574.91,
+      "text": "Der Himmel wird immer milchiger."
+    },
+    {
+      "i": 1111,
+      "start": 2574.91,
+      "end": 2577.02,
+      "text": "Es ist eh nicht so schön"
+    },
+    {
+      "i": 1112,
+      "start": 2577.02,
+      "end": 2579.02,
+      "text": "zum Fliegen."
+    },
+    {
+      "i": 1113,
+      "start": 2579.02,
+      "end": 2581.02,
+      "text": "Die Luftmasse kommt immer"
+    },
+    {
+      "i": 1114,
+      "start": 2581.02,
+      "end": 2583.02,
+      "text": "weiter runter und dann merkt man"
+    },
+    {
+      "i": 1115,
+      "start": 2583.02,
+      "end": 2585.2,
+      "text": "dass es nicht so"
+    },
+    {
+      "i": 1116,
+      "start": 2585.2,
+      "end": 2587.2,
+      "text": "gutes Flugwetter ist."
+    },
+    {
+      "i": 1117,
+      "start": 2587.2,
+      "end": 2589.2,
+      "text": "Daher ist die Warmfront viel weniger gefährlich"
+    },
+    {
+      "i": 1118,
+      "start": 2589.2,
+      "end": 2591.2,
+      "text": "als die Kalte Front. Aber logischerweise"
+    },
+    {
+      "i": 1119,
+      "start": 2591.2,
+      "end": 2593.2,
+      "text": "würde sie auch nicht in einer Warmfront fliegen gehen."
+    },
+    {
+      "i": 1120,
+      "start": 2593.2,
+      "end": 2595.2,
+      "text": "Das ist natürlich auch immer mit Wind verbunden."
+    },
+    {
+      "i": 1121,
+      "start": 2595.2,
+      "end": 2597.22,
+      "text": "Was ihr auch seht, ist,"
+    },
+    {
+      "i": 1122,
+      "start": 2597.22,
+      "end": 2599.22,
+      "text": "eine Warmfront kommt sehr viel"
+    },
+    {
+      "i": 1123,
+      "start": 2599.22,
+      "end": 2601.22,
+      "text": "längsamer daher."
+    },
+    {
+      "i": 1124,
+      "start": 2601.22,
+      "end": 2603.22,
+      "text": "Sie kommt mit 15-25 kmh"
+    },
+    {
+      "i": 1125,
+      "start": 2603.22,
+      "end": 2605.87,
+      "text": "daher. Sie braucht 12-24"
+    },
+    {
+      "i": 1126,
+      "start": 2605.87,
+      "end": 2607.87,
+      "text": "manchmal auch mehr Stunden,"
+    },
+    {
+      "i": 1127,
+      "start": 2607.87,
+      "end": 2609.87,
+      "text": "bis sie über die Schweiz ausgezogen ist."
+    },
+    {
+      "i": 1128,
+      "start": 2609.87,
+      "end": 2611.87,
+      "text": "Das ist meistens eine etwas längere Geschichte."
+    },
+    {
+      "i": 1129,
+      "start": 2611.87,
+      "end": 2613.87,
+      "text": "Es kann manchmal auch zwei Tage"
+    },
+    {
+      "i": 1130,
+      "start": 2613.87,
+      "end": 2615.87,
+      "text": "Flugwetter sein in einer Warmfront."
+    },
+    {
+      "i": 1131,
+      "start": 2615.87,
+      "end": 2617.87,
+      "text": "Und es bringt im Vorfeld,"
+    },
+    {
+      "i": 1132,
+      "start": 2617.87,
+      "end": 2619.87,
+      "text": "wie schon besprochen, eine hohe Abschattung,"
+    },
+    {
+      "i": 1133,
+      "start": 2619.87,
+      "end": 2621.87,
+      "text": "die die thermische Aktivität"
+    },
+    {
+      "i": 1134,
+      "start": 2621.87,
+      "end": 2624.11,
+      "text": "schwächt und"
+    },
+    {
+      "i": 1135,
+      "start": 2624.11,
+      "end": 2626.11,
+      "text": "nicht wirklich gutes Flugwetter bringt."
+    },
+    {
+      "i": 1136,
+      "start": 2629.07,
+      "end": 2631.07,
+      "text": "Bei einer Warmfront ist"
+    },
+    {
+      "i": 1137,
+      "start": 2631.07,
+      "end": 2633.07,
+      "text": "das einzige Problem, das es vielleicht gibt,"
+    },
+    {
+      "i": 1138,
+      "start": 2633.07,
+      "end": 2635.07,
+      "text": "auch für Bergsteiger zum Beispiel,"
+    },
+    {
+      "i": 1139,
+      "start": 2635.07,
+      "end": 2637.07,
+      "text": "ist, dass wenn ich hier unten bin,"
+    },
+    {
+      "i": 1140,
+      "start": 2637.07,
+      "end": 2639.07,
+      "text": "dann sehe ich nicht durch die Wolkentüren"
+    },
+    {
+      "i": 1141,
+      "start": 2639.07,
+      "end": 2641.07,
+      "text": "und sehe, was hinten ist."
+    },
+    {
+      "i": 1142,
+      "start": 2641.07,
+      "end": 2643.07,
+      "text": "Auch bei einer Warmfront kann es hinterher"
+    },
+    {
+      "i": 1143,
+      "start": 2643.07,
+      "end": 2645.07,
+      "text": "unter Umständen Gewitter bilden."
+    },
+    {
+      "i": 1144,
+      "start": 2645.07,
+      "end": 2647.07,
+      "text": "Vor allem bei einer Okklusion,"
+    },
+    {
+      "i": 1145,
+      "start": 2647.07,
+      "end": 2649.07,
+      "text": "wo wir jetzt gleich dazukommen,"
+    },
+    {
+      "i": 1146,
+      "start": 2649.07,
+      "end": 2651.07,
+      "text": "kann es hinterher riesige Gewittertürme geben,"
+    },
+    {
+      "i": 1147,
+      "start": 2651.07,
+      "end": 2653.07,
+      "text": "die natürlich sehr gefährlich sind,"
+    },
+    {
+      "i": 1148,
+      "start": 2653.07,
+      "end": 2655.07,
+      "text": "weil sie das Wetter mit sich bringen,"
+    },
+    {
+      "i": 1149,
+      "start": 2655.07,
+      "end": 2657.07,
+      "text": "starker Wind, starke Niederschläge"
+    },
+    {
+      "i": 1150,
+      "start": 2657.07,
+      "end": 2659.07,
+      "text": "und man sieht sie aber gar nicht,"
+    },
+    {
+      "i": 1151,
+      "start": 2659.07,
+      "end": 2662.11,
+      "text": "weil wir ja verdeckte Wolkenschichten haben."
+    },
+    {
+      "i": 1152,
+      "start": 2662.11,
+      "end": 2664.11,
+      "text": "Ihr seht hier übrigens noch die Wolkennamen,"
+    },
+    {
+      "i": 1153,
+      "start": 2664.11,
+      "end": 2666.11,
+      "text": "die mit einer Warmfront kommen."
+    },
+    {
+      "i": 1154,
+      "start": 2666.11,
+      "end": 2668.11,
+      "text": "Die müsst ihr dann auch lernen."
+    },
+    {
+      "i": 1155,
+      "start": 2668.11,
+      "end": 2670.11,
+      "text": "Die Wolkennamen schauen wir nachher noch an."
+    },
+    {
+      "i": 1156,
+      "start": 2670.11,
+      "end": 2672.45,
+      "text": "Aber vielleicht für euch zum Wissen,"
+    },
+    {
+      "i": 1157,
+      "start": 2672.45,
+      "end": 2674.45,
+      "text": "die Warmfront kommt meistens"
+    },
+    {
+      "i": 1158,
+      "start": 2674.45,
+      "end": 2676.45,
+      "text": "mit einer Stratusbewölkung."
+    },
+    {
+      "i": 1159,
+      "start": 2676.45,
+      "end": 2678.45,
+      "text": "Also wir haben den Zirostratus, den Altersstratus,"
+    },
+    {
+      "i": 1160,
+      "start": 2678.45,
+      "end": 2680.45,
+      "text": "den Nimbostratus, das ist immer mit Stratus verbunden."
+    },
+    {
+      "i": 1161,
+      "start": 2680.45,
+      "end": 2682.45,
+      "text": "Was das Stratus bedeutet"
+    },
+    {
+      "i": 1162,
+      "start": 2682.45,
+      "end": 2684.45,
+      "text": "und was das für Wolkennamen sind"
+    },
+    {
+      "i": 1163,
+      "start": 2684.45,
+      "end": 2686.45,
+      "text": "und wie die aussehen,"
+    },
+    {
+      "i": 1164,
+      "start": 2686.45,
+      "end": 2688.45,
+      "text": "hören wir dann auch in einem anderen Kapitel,"
+    },
+    {
+      "i": 1165,
+      "start": 2688.45,
+      "end": 2690.45,
+      "text": "wenn wir die Wolkennamen anschauen."
+    },
+    {
+      "i": 1166,
+      "start": 2690.45,
+      "end": 2692.45,
+      "text": "Aber merkt euch doch,"
+    },
+    {
+      "i": 1167,
+      "start": 2692.45,
+      "end": 2694.45,
+      "text": "Zirostratus, Altersstratus, Nimbostratus"
+    },
+    {
+      "i": 1168,
+      "start": 2694.45,
+      "end": 2696.45,
+      "text": "wird auch an der Theorieprüfung"
+    },
+    {
+      "i": 1169,
+      "start": 2696.45,
+      "end": 2698.45,
+      "text": "sehr wahrscheinlich abgefragt."
+    },
+    {
+      "i": 1170,
+      "start": 2698.45,
+      "end": 2700.45,
+      "text": "Wenn diese Wolkenformen kommen,"
+    },
+    {
+      "i": 1171,
+      "start": 2700.45,
+      "end": 2702.45,
+      "text": "dann kann man grundsätzlich schon mal"
+    },
+    {
+      "i": 1172,
+      "start": 2702.45,
+      "end": 2704.56,
+      "text": "die Warmfront im Hinterkopf behalten."
+    },
+    {
+      "i": 1173,
+      "start": 2704.56,
+      "end": 2708.8,
+      "text": "Hier noch die Bilder,"
+    },
+    {
+      "i": 1174,
+      "start": 2708.8,
+      "end": 2710.8,
+      "text": "wie das herkommt."
+    },
+    {
+      "i": 1175,
+      "start": 2710.8,
+      "end": 2712.8,
+      "text": "Die Wolken sehen so aus,"
+    },
+    {
+      "i": 1176,
+      "start": 2712.8,
+      "end": 2714.8,
+      "text": "das sind Schichtwolken."
+    },
+    {
+      "i": 1177,
+      "start": 2714.8,
+      "end": 2716.8,
+      "text": "Das sind die Wolkenteckner,"
+    },
+    {
+      "i": 1178,
+      "start": 2716.8,
+      "end": 2718.8,
+      "text": "die immer tiefer runter kommen"
+    },
+    {
+      "i": 1179,
+      "start": 2718.8,
+      "end": 2720.88,
+      "text": "im Zeitverlauf der Front."
+    },
+    {
+      "i": 1180,
+      "start": 2720.88,
+      "end": 2722.88,
+      "text": "Und so sehen diese Wolkenformen ungefähr aus."
+    },
+    {
+      "i": 1181,
+      "start": 2722.88,
+      "end": 2729.36,
+      "text": "Dann kommen wir mal"
+    },
+    {
+      "i": 1182,
+      "start": 2729.36,
+      "end": 2731.41,
+      "text": "zum Kapitel Okklusion."
+    },
+    {
+      "i": 1183,
+      "start": 2731.41,
+      "end": 2733.46,
+      "text": "Okklusion"
+    },
+    {
+      "i": 1184,
+      "start": 2733.46,
+      "end": 2735.46,
+      "text": "müsst ihr eigentlich gar nicht"
+    },
+    {
+      "i": 1185,
+      "start": 2735.46,
+      "end": 2737.46,
+      "text": "extrem viel wissen."
+    },
+    {
+      "i": 1186,
+      "start": 2737.46,
+      "end": 2739.46,
+      "text": "An der Theorieprüfung wird es aber trotzdem abgefragt."
+    },
+    {
+      "i": 1187,
+      "start": 2739.46,
+      "end": 2741.46,
+      "text": "Das ist eine Mischform von diesen zwei Fronten."
+    },
+    {
+      "i": 1188,
+      "start": 2741.46,
+      "end": 2743.73,
+      "text": "Und wie besprochen,"
+    },
+    {
+      "i": 1189,
+      "start": 2743.73,
+      "end": 2745.73,
+      "text": "ist natürlich für uns"
+    },
+    {
+      "i": 1190,
+      "start": 2745.73,
+      "end": 2747.73,
+      "text": "in der Praxis vor allem relevant,"
+    },
+    {
+      "i": 1191,
+      "start": 2747.73,
+      "end": 2749.73,
+      "text": "dass bei einer Okklusion oft"
+    },
+    {
+      "i": 1192,
+      "start": 2749.73,
+      "end": 2751.73,
+      "text": "der Himmel verdeckt ist"
+    },
+    {
+      "i": 1193,
+      "start": 2751.73,
+      "end": 2753.73,
+      "text": "und es sogenannte maskierte Gewitter gibt."
+    },
+    {
+      "i": 1194,
+      "start": 2753.73,
+      "end": 2755.73,
+      "text": "Das sind Gewittertürme, die hinten dran sind,"
+    },
+    {
+      "i": 1195,
+      "start": 2755.73,
+      "end": 2757.73,
+      "text": "weil ihr die Warmfront aufholt."
+    },
+    {
+      "i": 1196,
+      "start": 2757.73,
+      "end": 2759.73,
+      "text": "Das ist ja schneller."
+    },
+    {
+      "i": 1197,
+      "start": 2759.73,
+      "end": 2761.73,
+      "text": "Da kann es da hinten Gewitter geben."
+    },
+    {
+      "i": 1198,
+      "start": 2761.73,
+      "end": 2763.73,
+      "text": "Wenn wir aber da vorne sind,"
+    },
+    {
+      "i": 1199,
+      "start": 2763.73,
+      "end": 2765.73,
+      "text": "sehen wir vielleicht die Gewittertürme gar nicht."
+    },
+    {
+      "i": 1200,
+      "start": 2765.73,
+      "end": 2768.38,
+      "text": "Und das ist wirklich wichtig für uns,"
+    },
+    {
+      "i": 1201,
+      "start": 2768.38,
+      "end": 2770.38,
+      "text": "um zu wissen, dass das passieren kann."
+    },
+    {
+      "i": 1202,
+      "start": 2770.38,
+      "end": 2772.38,
+      "text": "Eine sehr detaillierte Frage,"
+    },
+    {
+      "i": 1203,
+      "start": 2772.38,
+      "end": 2774.69,
+      "text": "die nicht extrem viel mit Flugpraxis zu tun hat"
+    },
+    {
+      "i": 1204,
+      "start": 2774.69,
+      "end": 2776.69,
+      "text": "oder für die meisten Gleitschimpiloten"
+    },
+    {
+      "i": 1205,
+      "start": 2776.69,
+      "end": 2778.69,
+      "text": "nicht von grosser Relevanz ist."
+    },
+    {
+      "i": 1206,
+      "start": 2778.69,
+      "end": 2780.69,
+      "text": "Das sind die Charakter von Okklusionen."
+    },
+    {
+      "i": 1207,
+      "start": 2780.69,
+      "end": 2782.69,
+      "text": "Das wird an der Prüfung auch abgefragt."
+    },
+    {
+      "i": 1208,
+      "start": 2782.69,
+      "end": 2784.69,
+      "text": "Es gibt eine sogenannte Okklusion"
+    },
+    {
+      "i": 1209,
+      "start": 2784.69,
+      "end": 2786.69,
+      "text": "mit kaltfronten Charakter"
+    },
+    {
+      "i": 1210,
+      "start": 2786.69,
+      "end": 2788.69,
+      "text": "und eine Okklusion"
+    },
+    {
+      "i": 1211,
+      "start": 2788.69,
+      "end": 2790.69,
+      "text": "mit warmfronten Charakter."
+    },
+    {
+      "i": 1212,
+      "start": 2790.69,
+      "end": 2792.69,
+      "text": "Dementsprechend, wenn ihr so ein Okklusionsbild"
+    },
+    {
+      "i": 1213,
+      "start": 2792.69,
+      "end": 2794.69,
+      "text": "mit den zwei Trennlinien"
+    },
+    {
+      "i": 1214,
+      "start": 2794.69,
+      "end": 2796.69,
+      "text": "der Luftmassen seht,"
+    },
+    {
+      "i": 1215,
+      "start": 2796.69,
+      "end": 2798.69,
+      "text": "schaut einfach, welche Trennlinie den Boden berührt."
+    },
+    {
+      "i": 1216,
+      "start": 2798.69,
+      "end": 2800.74,
+      "text": "Dementsprechend berührt"
+    },
+    {
+      "i": 1217,
+      "start": 2800.74,
+      "end": 2802.78,
+      "text": "in diesem Fall die Linie"
+    },
+    {
+      "i": 1218,
+      "start": 2802.78,
+      "end": 2804.78,
+      "text": "der kaltfronten Boden"
+    },
+    {
+      "i": 1219,
+      "start": 2804.78,
+      "end": 2806.78,
+      "text": "und im anderen Fall"
+    },
+    {
+      "i": 1220,
+      "start": 2806.78,
+      "end": 2808.78,
+      "text": "berührt die Linie"
+    },
+    {
+      "i": 1221,
+      "start": 2808.78,
+      "end": 2810.78,
+      "text": "der warmfronten Boden"
+    },
+    {
+      "i": 1222,
+      "start": 2810.78,
+      "end": 2813.34,
+      "text": "mit kaltfronten Charakter und warmfronten Charakter."
+    },
+    {
+      "i": 1223,
+      "start": 2813.34,
+      "end": 2815.34,
+      "text": "Hier oben in dieser Grafik seht ihr"
+    },
+    {
+      "i": 1224,
+      "start": 2815.34,
+      "end": 2817.84,
+      "text": "einen kaltfronten Charakter."
+    },
+    {
+      "i": 1225,
+      "start": 2817.84,
+      "end": 2820.27,
+      "text": "Das müsst ihr sich für die Theorieprüfung anlernen."
+    },
+    {
+      "i": 1226,
+      "start": 2820.27,
+      "end": 2822.27,
+      "text": "Ist jetzt aber nicht so relevant,"
+    },
+    {
+      "i": 1227,
+      "start": 2822.27,
+      "end": 2824.27,
+      "text": "was da die Unterschiede sind"
+    },
+    {
+      "i": 1228,
+      "start": 2824.27,
+      "end": 2828.72,
+      "text": "für Normalflüger."
+    },
+    {
+      "i": 1229,
+      "start": 2828.72,
+      "end": 2832.14,
+      "text": "Hier möchte ich nochmal ganz kurz"
+    },
+    {
+      "i": 1230,
+      "start": 2832.14,
+      "end": 2834.14,
+      "text": "zusammenfassen, so ein paar Tipps."
+    },
+    {
+      "i": 1231,
+      "start": 2834.14,
+      "end": 2836.14,
+      "text": "Das sind die zwei Karten,"
+    },
+    {
+      "i": 1232,
+      "start": 2836.14,
+      "end": 2838.16,
+      "text": "die in der Theorieprüfung am meisten vorkommen."
+    },
+    {
+      "i": 1233,
+      "start": 2838.16,
+      "end": 2840.16,
+      "text": "Vielleicht auf der Linkkarte nochmal zusammengefasst"
+    },
+    {
+      "i": 1234,
+      "start": 2840.16,
+      "end": 2842.16,
+      "text": "zum Wiederholen."
+    },
+    {
+      "i": 1235,
+      "start": 2842.16,
+      "end": 2844.16,
+      "text": "Wir haben verschiedene Druckgebiete."
+    },
+    {
+      "i": 1236,
+      "start": 2844.16,
+      "end": 2846.16,
+      "text": "Überlegt euch mal, wo ist der Tiefdruck?"
+    },
+    {
+      "i": 1237,
+      "start": 2846.16,
+      "end": 2848.16,
+      "text": "Wo ist der Hochdruck?"
+    },
+    {
+      "i": 1238,
+      "start": 2848.16,
+      "end": 2850.16,
+      "text": "Wie rotieren dementsprechend die Luftmassen?"
+    },
+    {
+      "i": 1239,
+      "start": 2850.16,
+      "end": 2852.16,
+      "text": "Hochdruck sind Uhrzeigersinn,"
+    },
+    {
+      "i": 1240,
+      "start": 2852.16,
+      "end": 2854.16,
+      "text": "Tiefdruck Gegenuhrzeigersinn."
+    },
+    {
+      "i": 1241,
+      "start": 2854.16,
+      "end": 2856.18,
+      "text": "Dann müsst ihr schon mal die Windrichtung."
+    },
+    {
+      "i": 1242,
+      "start": 2856.18,
+      "end": 2858.18,
+      "text": "Stellet euch Kompassrosen vor."
+    },
+    {
+      "i": 1243,
+      "start": 2858.18,
+      "end": 2860.18,
+      "text": "Aus welcher Richtung kommt der Wind?"
+    },
+    {
+      "i": 1244,
+      "start": 2860.18,
+      "end": 2862.18,
+      "text": "Dementsprechend Grad."
+    },
+    {
+      "i": 1245,
+      "start": 2862.18,
+      "end": 2864.18,
+      "text": "Wenn die isobaren Linien nahe zusammen sind,"
+    },
+    {
+      "i": 1246,
+      "start": 2864.18,
+      "end": 2866.18,
+      "text": "haben wir sehr starke Wind,"
+    },
+    {
+      "i": 1247,
+      "start": 2866.18,
+      "end": 2868.18,
+      "text": "wie in diesem Fall von Stockholm."
+    },
+    {
+      "i": 1248,
+      "start": 2868.18,
+      "end": 2870.18,
+      "text": "Wenn sie sehr weit auseinander sind,"
+    },
+    {
+      "i": 1249,
+      "start": 2870.18,
+      "end": 2872.18,
+      "text": "haben wir relativ schwachen Wind."
+    },
+    {
+      "i": 1250,
+      "start": 2872.18,
+      "end": 2874.22,
+      "text": "Ich nehme manchmal die Schweiz als Beispiel."
+    },
+    {
+      "i": 1251,
+      "start": 2874.22,
+      "end": 2876.22,
+      "text": "Wenn die isobaren,"
+    },
+    {
+      "i": 1252,
+      "start": 2876.22,
+      "end": 2878.22,
+      "text": "wenn wir die Schweiz von der Grösse her nehmen,"
+    },
+    {
+      "i": 1253,
+      "start": 2878.22,
+      "end": 2880.34,
+      "text": "gleich nahe zusammen sind,"
+    },
+    {
+      "i": 1254,
+      "start": 2880.34,
+      "end": 2882.34,
+      "text": "das ist bei 5 Hektar-Pascal-Schritt noch wichtig,"
+    },
+    {
+      "i": 1255,
+      "start": 2882.34,
+      "end": 2884.34,
+      "text": "dann haben wir einen relativ starken Wind,"
+    },
+    {
+      "i": 1256,
+      "start": 2884.34,
+      "end": 2886.34,
+      "text": "sobald die isobaren weiter auseinander sind,"
+    },
+    {
+      "i": 1257,
+      "start": 2886.34,
+      "end": 2888.34,
+      "text": "wie die Schweiz vielleicht zweimal,"
+    },
+    {
+      "i": 1258,
+      "start": 2888.34,
+      "end": 2890.34,
+      "text": "dreimal so breit wie die Schweiz,"
+    },
+    {
+      "i": 1259,
+      "start": 2890.34,
+      "end": 2892.34,
+      "text": "dann haben wir eine wirklich schwache Windung."
+    },
+    {
+      "i": 1260,
+      "start": 2892.34,
+      "end": 2894.34,
+      "text": "Dementsprechend haben wir hier im Mittelmeergebiet"
+    },
+    {
+      "i": 1261,
+      "start": 2894.34,
+      "end": 2896.34,
+      "text": "ein sehr schwachwindiges Gebiet"
+    },
+    {
+      "i": 1262,
+      "start": 2896.34,
+      "end": 2898.34,
+      "text": "und auch im Zentrum des Hochdrucks relativ schwachwindig."
+    },
+    {
+      "i": 1263,
+      "start": 2898.34,
+      "end": 2900.96,
+      "text": "Hier zur Windrichtung"
+    },
+    {
+      "i": 1264,
+      "start": 2900.96,
+      "end": 2902.96,
+      "text": "und Windstärke herauslesen."
+    },
+    {
+      "i": 1265,
+      "start": 2902.96,
+      "end": 2904.96,
+      "text": "Dann wird mit diesem Kärtchen hier abgefragt."
+    },
+    {
+      "i": 1266,
+      "start": 2904.96,
+      "end": 2908.06,
+      "text": "Dann haben wir hier die zwei Karten."
+    },
+    {
+      "i": 1267,
+      "start": 2908.06,
+      "end": 2910.06,
+      "text": "Hier seht ihr noch die Fronten."
+    },
+    {
+      "i": 1268,
+      "start": 2910.06,
+      "end": 2912.06,
+      "text": "Dazu müsst ihr vor allem wissen,"
+    },
+    {
+      "i": 1269,
+      "start": 2912.06,
+      "end": 2914.06,
+      "text": "welche Bewölkungsformen"
+    },
+    {
+      "i": 1270,
+      "start": 2914.06,
+      "end": 2916.06,
+      "text": "mit den Fronten dazukommen."
+    },
+    {
+      "i": 1271,
+      "start": 2916.06,
+      "end": 2918.06,
+      "text": "Hier haben wir sicher"
+    },
+    {
+      "i": 1272,
+      "start": 2918.06,
+      "end": 2920.06,
+      "text": "Gewitter in der Kaltfront."
+    },
+    {
+      "i": 1273,
+      "start": 2920.06,
+      "end": 2922.06,
+      "text": "Wir haben vielleicht"
+    },
+    {
+      "i": 1274,
+      "start": 2922.06,
+      "end": 2924.06,
+      "text": "ein bisschen Cumulusbewölkung im Vorfeld."
+    },
+    {
+      "i": 1275,
+      "start": 2924.06,
+      "end": 2926.11,
+      "text": "Und hier,"
+    },
+    {
+      "i": 1276,
+      "start": 2926.11,
+      "end": 2928.11,
+      "text": "Entschuldigung, jetzt habe ich einen Fehler gemacht."
+    },
+    {
+      "i": 1277,
+      "start": 2928.11,
+      "end": 2930.11,
+      "text": "Wir haben hier eine Kaltfront,"
+    },
+    {
+      "i": 1278,
+      "start": 2930.11,
+      "end": 2932.11,
+      "text": "die Dreiecke ist ganz wichtig."
+    },
+    {
+      "i": 1279,
+      "start": 2932.11,
+      "end": 2934.11,
+      "text": "Die Formen der Grafiken sind wichtig."
+    },
+    {
+      "i": 1280,
+      "start": 2934.11,
+      "end": 2936.11,
+      "text": "Also wir haben hier Dreiecke,"
+    },
+    {
+      "i": 1281,
+      "start": 2936.11,
+      "end": 2938.11,
+      "text": "das ist eine Kaltfront."
+    },
+    {
+      "i": 1282,
+      "start": 2938.11,
+      "end": 2940.11,
+      "text": "Hier ist sicher Gewitter ein Thema."
+    },
+    {
+      "i": 1283,
+      "start": 2940.11,
+      "end": 2942.11,
+      "text": "Und hier haben wir eine Warmfront,"
+    },
+    {
+      "i": 1284,
+      "start": 2942.11,
+      "end": 2944.11,
+      "text": "die vorausläuft mit diesen runden Symbolen."
+    },
+    {
+      "i": 1285,
+      "start": 2944.11,
+      "end": 2946.11,
+      "text": "Dementsprechend haben wir"
+    },
+    {
+      "i": 1286,
+      "start": 2946.11,
+      "end": 2948.29,
+      "text": "die Statusbewölkungen, wie wir sie gerade besprochen haben."
+    },
+    {
+      "i": 1287,
+      "start": 2948.29,
+      "end": 2950.29,
+      "text": "Und wir haben einen Hochdruck und einen Tiefdruck."
+    },
+    {
+      "i": 1288,
+      "start": 2950.29,
+      "end": 2952.29,
+      "text": "Natürlich ist im Tiefdruck"
+    },
+    {
+      "i": 1289,
+      "start": 2952.29,
+      "end": 2954.78,
+      "text": "mit diesen scharferen Linien"
+    },
+    {
+      "i": 1290,
+      "start": 2954.78,
+      "end": 2956.78,
+      "text": "geht es immer um Niederschläge."
+    },
+    {
+      "i": 1291,
+      "start": 2956.78,
+      "end": 2958.8,
+      "text": "Hier ist es sicher in Stockholm oben regnet."
+    },
+    {
+      "i": 1292,
+      "start": 2958.8,
+      "end": 2960.8,
+      "text": "Und zum Beispiel in Athen"
+    },
+    {
+      "i": 1293,
+      "start": 2960.8,
+      "end": 2963.46,
+      "text": "haben wir Hochdruck-Einflüsse"
+    },
+    {
+      "i": 1294,
+      "start": 2963.46,
+      "end": 2965.46,
+      "text": "mit schönem Wetter."
+    },
+    {
+      "i": 1295,
+      "start": 2965.46,
+      "end": 2967.46,
+      "text": "Es hat einen Multiple-Choice-Lerner,"
+    },
+    {
+      "i": 1296,
+      "start": 2967.46,
+      "end": 2969.86,
+      "text": "bei dem ihr durchklicken könnt."
+    },
+    {
+      "i": 1297,
+      "start": 2969.86,
+      "end": 2971.87,
+      "text": "Und ihr erinnert euch immer wieder"
+    },
+    {
+      "i": 1298,
+      "start": 2971.87,
+      "end": 2973.87,
+      "text": "an die Grundsätze,"
+    },
+    {
+      "i": 1299,
+      "start": 2973.87,
+      "end": 2975.87,
+      "text": "die wir gerade besprochen haben,"
+    },
+    {
+      "i": 1300,
+      "start": 2975.87,
+      "end": 2978.18,
+      "text": "mit diesen zwei Karten."
+    },
+    {
+      "i": 1301,
+      "start": 2978.18,
+      "end": 2980.18,
+      "text": "Dann seid ihr gut vorbereitet"
+    },
+    {
+      "i": 1302,
+      "start": 2980.18,
+      "end": 2982.18,
+      "text": "auf die Prüfung,"
+    },
+    {
+      "i": 1303,
+      "start": 2982.18,
+      "end": 2986.24,
+      "text": "welche ISO-Barenkarten und Fronten angeht."
+    },
+    {
+      "i": 1304,
+      "start": 2986.24,
+      "end": 2988.35,
+      "text": "Dann kommen wir zu einem riesigen Thema,"
+    },
+    {
+      "i": 1305,
+      "start": 2988.35,
+      "end": 2990.35,
+      "text": "das wichtig ist,"
+    },
+    {
+      "i": 1306,
+      "start": 2990.35,
+      "end": 2992.35,
+      "text": "um in der Tiefe lernen zu verstehen,"
+    },
+    {
+      "i": 1307,
+      "start": 2992.35,
+      "end": 2994.35,
+      "text": "wenn man wirklich gut Gleitschirm fliegen möchte,"
+    },
+    {
+      "i": 1308,
+      "start": 2994.35,
+      "end": 2996.35,
+      "text": "wenn man Strecke fliegen möchte,"
+    },
+    {
+      "i": 1309,
+      "start": 2996.35,
+      "end": 2998.35,
+      "text": "und zwar ist das Thermik."
+    },
+    {
+      "i": 1310,
+      "start": 2998.35,
+      "end": 3000.75,
+      "text": "Ich würde vorschlagen,"
+    },
+    {
+      "i": 1311,
+      "start": 3000.75,
+      "end": 3002.75,
+      "text": "dass wir kurz eine Pause machen,"
+    },
+    {
+      "i": 1312,
+      "start": 3002.75,
+      "end": 3004.75,
+      "text": "damit ihr etwas trinken könnt,"
+    },
+    {
+      "i": 1313,
+      "start": 3004.75,
+      "end": 3006.75,
+      "text": "damit ihr den Kopf auslüftet."
+    },
+    {
+      "i": 1314,
+      "start": 3006.75,
+      "end": 3008.75,
+      "text": "Der Kurs geht nämlich noch richtig lang,"
+    },
+    {
+      "i": 1315,
+      "start": 3008.75,
+      "end": 3010.75,
+      "text": "wir haben noch richtig viel zu besprechen."
+    },
+    {
+      "i": 1316,
+      "start": 3010.75,
+      "end": 3012.75,
+      "text": "Dann wäre das vielleicht ein Zeitpunkt,"
+    },
+    {
+      "i": 1317,
+      "start": 3012.75,
+      "end": 3014.75,
+      "text": "wenn wir das nächste Kapitel anschreiben."
+    }
+  ]
+}

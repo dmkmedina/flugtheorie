@@ -1,0 +1,124 @@
+{
+  "slug": "aa_kurvenfliegen",
+  "language": "de",
+  "duration": 137.671125,
+  "transcribed_in_sec": 12.6,
+  "model": "large-v3",
+  "settings": {
+    "device": "cuda",
+    "compute_type": "float16",
+    "beam_size": 10,
+    "initial_prompt_chars": 568,
+    "vad_min_silence_ms": 300
+  },
+  "segments": [
+    {
+      "i": 1,
+      "start": 6.68,
+      "end": 10.56,
+      "text": "Für alle Erstflieger erkläre ich euch jetzt einmal das Kurvenfliegen."
+    },
+    {
+      "i": 2,
+      "start": 11.0,
+      "end": 18.71,
+      "text": "Am Anfang fliegen wir heraus. Wichtig ist immer nach dem Start erstmal die Richtung behalten, gerade rauskommen."
+    },
+    {
+      "i": 3,
+      "start": 19.62,
+      "end": 23.66,
+      "text": "Gerade weg vom Hang fliegen ist für uns erstmal das Wichtigste."
+    },
+    {
+      "i": 4,
+      "start": 24.28,
+      "end": 32.32,
+      "text": "Und sobald wir weg vom Hang sind, können wir probieren ins Gurtzeug reinzuruppen, Knie anziehen und mit dem Füdle wackeln."
+    },
+    {
+      "i": 5,
+      "start": 32.32,
+      "end": 43.59,
+      "text": "Wenn das nicht reicht, dann stoßen wir uns hier nach hinten in das Gurtzeug rein, sodass wir uns möglichst gemütlich so drinnen setzen, wie das jetzt bei mir der Fall ist."
+    },
+    {
+      "i": 6,
+      "start": 45.99,
+      "end": 53.81,
+      "text": "Dann bei jeder Kurve immer zuerst Blickrichtung Luftraum. Kann ich auf die Seite drehen?"
+    },
+    {
+      "i": 7,
+      "start": 54.85,
+      "end": 61.4,
+      "text": "Ist da frei? Nicht, dass ich da eine Kurve einleite und direkt dem anderen in die Kappe reinfliege."
+    },
+    {
+      "i": 8,
+      "start": 61.4,
+      "end": 64.12,
+      "text": "Das ist immer entscheidend. Also schauen, Luftraum frei."
+    },
+    {
+      "i": 9,
+      "start": 64.12,
+      "end": 70.53,
+      "text": "Und bevor wir jetzt mit der Bremse arbeiten, immer zuerst Gewicht auf diese Seite legen."
+    },
+    {
+      "i": 10,
+      "start": 70.65,
+      "end": 73.42,
+      "text": "Und ihr seht, mit Sitzbrett geht das sehr gut."
+    },
+    {
+      "i": 11,
+      "start": 73.98,
+      "end": 81.01,
+      "text": "Wer die Beine frei hat, der kann das linke Bein über das rechte drüber legen und kriegt so noch mehr Körperverlagerung."
+    },
+    {
+      "i": 12,
+      "start": 81.39,
+      "end": 85.36,
+      "text": "Und erst dann nehmen wir unterstützend die Bremse mit dazu."
+    },
+    {
+      "i": 13,
+      "start": 86.44,
+      "end": 94.38,
+      "text": "Langsam mit der Bremse arbeiten, wenn er merkt, es dürfte noch ein bisschen mehr oder ich sage das auch, zieh nochmal 3 cm, dürfte nochmal 3 cm."
+    },
+    {
+      "i": 14,
+      "start": 94.58,
+      "end": 110.6,
+      "text": "Ausleitung immer neutral mit dem Gurtzug hinsetzen und ich sage euch ja eigentlich alles an, das heißt, ihr startet immer normalerweise beidseitig gebremst."
+    },
+    {
+      "i": 15,
+      "start": 110.6,
+      "end": 119.02,
+      "text": "Blick auf die Kurvenseite, Gewicht und dann kommt die eine Bremse noch mehr, die andere geht vielleicht sogar noch ein bisschen nach oben."
+    },
+    {
+      "i": 16,
+      "start": 119.02,
+      "end": 126.68,
+      "text": "Das sage ich euch alles an und ausleiten, indem wir eigentlich immer zuerst das Gewicht wieder neutral bringen und dann die Außenseite bremsen,"
+    },
+    {
+      "i": 17,
+      "start": 126.68,
+      "end": 129.88,
+      "text": "sodass man immer herausgebremst aus jeglichen Bremsen."
+    },
+    {
+      "i": 18,
+      "start": 130.88,
+      "end": 134.88,
+      "text": "Das heißt, dass die Kurven oder dynamischen Aufbauten herauskommen."
+    }
+  ]
+}

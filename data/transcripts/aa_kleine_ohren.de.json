@@ -1,0 +1,436 @@
+{
+  "slug": "aa_kleine_ohren",
+  "language": "de",
+  "duration": 475.4285625,
+  "transcribed_in_sec": 52.3,
+  "model": "large-v3",
+  "settings": {
+    "device": "cuda",
+    "compute_type": "float16",
+    "beam_size": 10,
+    "initial_prompt_chars": 568,
+    "vad_min_silence_ms": 300
+  },
+  "segments": [
+    {
+      "i": 1,
+      "start": 18.49,
+      "end": 25.82,
+      "text": "Kommen wir zum Ohrenanlegen. Ohrenanlegen, ein sehr, sehr wichtiges Manöver."
+    },
+    {
+      "i": 2,
+      "start": 26.92,
+      "end": 33.63,
+      "text": "Wir können rechts und links Fläche einklappen. Zuallererst einmal kleine Ohren anlegen."
+    },
+    {
+      "i": 3,
+      "start": 34.39,
+      "end": 46.13,
+      "text": "Mit angelegten Ohren und Beschleuniger schaffen wir Sinkgeschwindigkeiten von 3 bis Maximum 3,7 Meter pro Sekunde sinken."
+    },
+    {
+      "i": 4,
+      "start": 46.13,
+      "end": 55.94,
+      "text": "Aber wir fliegen dabei geradeaus. Das heißt, wir haben noch einen Vorwärtsflug und können so beispielsweise aus irgendeinem Bereich, wo wir rauswollen, flüchten."
+    },
+    {
+      "i": 5,
+      "start": 57.39,
+      "end": 61.44,
+      "text": "Also sehr effektiv und sehr gut und sehr einfach. Deshalb so ich."
+    },
+    {
+      "i": 6,
+      "start": 62.74,
+      "end": 71.88,
+      "text": "Durch Anlegen der Ohren, also das könnt ihr euch eh merken, alles was klappt, bremst zuallererst einmal den Schirm."
+    },
+    {
+      "i": 7,
+      "start": 72.32,
+      "end": 78.85,
+      "text": "Wenn wir das von der Seite betrachten, durch Anlegen der Ohren haben wir jetzt Fläche verringert."
+    },
+    {
+      "i": 8,
+      "start": 78.85,
+      "end": 82.93,
+      "text": "Wir bremsen den Schirm rechts und links auf den äußeren Flügeln ein bisschen ab."
+    },
+    {
+      "i": 9,
+      "start": 83.4,
+      "end": 85.6,
+      "text": "Das heißt, unser Anstellwinkel erhöht sich jetzt."
+    },
+    {
+      "i": 10,
+      "start": 87.24,
+      "end": 97.74,
+      "text": "Jetzt ist das für uns ein bisschen schlecht, weil mit dem erhöhten Anstellwinkel sind wir natürlich langsamer geworden."
+    },
+    {
+      "i": 11,
+      "start": 98.78,
+      "end": 103.42,
+      "text": "Wir haben durch die geringere Fläche eine erhöhte Flächenbelastung."
+    },
+    {
+      "i": 12,
+      "start": 104.09,
+      "end": 106.01,
+      "text": "Also unser Gewicht ist immer noch gleich geblieben."
+    },
+    {
+      "i": 13,
+      "start": 106.15,
+      "end": 110.87,
+      "text": "Das heißt, das Gewicht pro Quadratmeter Fläche ist deutlich größer als vorher."
+    },
+    {
+      "i": 14,
+      "start": 110.87,
+      "end": 110.95,
+      "text": "Das bedeutet, dass wir jetzt noch ein bisschen mehr Fläche haben."
+    },
+    {
+      "i": 15,
+      "start": 112.86,
+      "end": 122.28,
+      "text": "Das bedeutet auch, dass der Stallpunkt, also der Punkt, wo wir den Schirm am Vorwärtsflug hindern, dass der auch nach oben gewandert ist."
+    },
+    {
+      "i": 16,
+      "start": 122.58,
+      "end": 124.06,
+      "text": "Also der ist höher geworden."
+    },
+    {
+      "i": 17,
+      "start": 124.34,
+      "end": 130.63,
+      "text": "Ich mache nur ein Beispiel, das stimmt nicht mit der Realität, aber einfach, dass ihr das Ganze ein bisschen nachvollziehen könnt."
+    },
+    {
+      "i": 18,
+      "start": 130.95,
+      "end": 134.87,
+      "text": "Mit geöffnetem Schirm sind wir beim Stallpunkt von 18 bis 20 kmh."
+    },
+    {
+      "i": 19,
+      "start": 134.87,
+      "end": 142.91,
+      "text": "Mit angelegten Ohren und größerer Flächenbelastung sind wir bei 24, 23 bis 25 kmh."
+    },
+    {
+      "i": 20,
+      "start": 143.09,
+      "end": 145.24,
+      "text": "Und bei dieser Fläche sind wir in der Fläche als Flaschenbelastung."
+    },
+    {
+      "i": 21,
+      "start": 145.24,
+      "end": 149.08,
+      "text": "Jetzt sind wir aber langsamer geworden durch den erhöhten Anstellwinkel."
+    },
+    {
+      "i": 22,
+      "start": 149.8,
+      "end": 157.16,
+      "text": "Das bedeutet, unser Fenster, wo vorher so groß war zum Stallpunkt, ist jetzt kleiner geworden."
+    },
+    {
+      "i": 23,
+      "start": 157.44,
+      "end": 160.62,
+      "text": "Also der Abriss ist viel einfacher möglich."
+    },
+    {
+      "i": 24,
+      "start": 161.24,
+      "end": 168.19,
+      "text": "Zudem ist es ja oft so, dass man die Ohren dann noch ein bisschen aufpupfen möchte und der Abriss einfach viel schneller vorhanden ist."
+    },
+    {
+      "i": 25,
+      "start": 168.27,
+      "end": 174.5,
+      "text": "Das kombiniert mit zum Beispiel Thermik wäre dann auch noch fatal."
+    },
+    {
+      "i": 26,
+      "start": 176.13,
+      "end": 182.85,
+      "text": "Grund gibt es bei uns in der Schulung Ohrenanlegen immer nur in Verbindung mit dem Beschleuniger."
+    },
+    {
+      "i": 27,
+      "start": 183.03,
+      "end": 188.62,
+      "text": "Denn durch das Beschleunigen neige ich die Kappe vorne weiter nach unten, ich verringere"
+    },
+    {
+      "i": 28,
+      "start": 188.62,
+      "end": 195.35,
+      "text": "also den Anstellwinkel, ich erhöhe sogar noch mal die Sinkgeschwindigkeit und ich bin"
+    },
+    {
+      "i": 29,
+      "start": 195.35,
+      "end": 200.71,
+      "text": "jetzt mit meinem, oder mein Abrissfenster, das ist jetzt wieder etwas größer geworden."
+    },
+    {
+      "i": 30,
+      "start": 200.89,
+      "end": 207.27,
+      "text": "Also ich habe wieder mehr Distanz zum Stallpunkt. Und deshalb gibt es bei uns Ohrenanlegen immer"
+    },
+    {
+      "i": 31,
+      "start": 207.27,
+      "end": 213.26,
+      "text": "nur in Verbindung mit dem Beschleuniger. Gut, wie machen wir das Ganze? Ohrenanlegen,"
+    },
+    {
+      "i": 32,
+      "start": 214.04,
+      "end": 219.53,
+      "text": "eigentlich sehr simpel, wir behalten die Bremse am Steg in der Hand, wir richten uns den Beschleuniger,"
+    },
+    {
+      "i": 33,
+      "start": 220.05,
+      "end": 223.71,
+      "text": "wer nicht so einfach in den Beschleuniger reinkommt, kann die Bremse auch in eine Hand"
+    },
+    {
+      "i": 34,
+      "start": 223.71,
+      "end": 229.71,
+      "text": "nehmen und sich dann den Beschleuniger richten. Dann gehen die Bremsen aber wieder in die jeweilige"
+    },
+    {
+      "i": 35,
+      "start": 229.71,
+      "end": 234.87,
+      "text": "Hand über. Dann sollen wir mal den Beschleuniger treten, sodass wir mit beiden Beinen schön"
+    },
+    {
+      "i": 36,
+      "start": 234.87,
+      "end": 240.5,
+      "text": "symmetrisch leicht drinnen stehen, 30 bis 40 Prozent. Jetzt versuchen wir uns zu orientieren,"
+    },
+    {
+      "i": 37,
+      "start": 240.62,
+      "end": 249.38,
+      "text": "wir suchen die äußerste A-Leine. Die geht auf der A-Ebene einfach weit nach außen"
+    },
+    {
+      "i": 38,
+      "start": 249.38,
+      "end": 255.26,
+      "text": "zum Schirm, geht aber nicht zum Flügelende vom Schirm. Das wäre die Stabilo-Leine und"
+    },
+    {
+      "i": 39,
+      "start": 255.26,
+      "end": 260.7,
+      "text": "die ist meistens auf der B-Ebene vorzufinden. Hier in meinem Fall hat sie auch eine andere"
+    },
+    {
+      "i": 40,
+      "start": 260.7,
+      "end": 267.58,
+      "text": "Farbe wie die restlichen Leinen auf der B-Ebene. Manchmal jedoch ist es farblich vom Hersteller"
+    },
+    {
+      "i": 41,
+      "start": 267.58,
+      "end": 272.88,
+      "text": "nicht sehr klug gewählt. Wir haben auch schon gehabt, dass die äußerste Stabilo-Leine"
+    },
+    {
+      "i": 42,
+      "start": 273.3,
+      "end": 282.22,
+      "text": "die Farbe passend, also identisch mit der A-Ebene war. Also auf der A-Ebene waren alle"
+    },
+    {
+      "i": 43,
+      "start": 282.22,
+      "end": 289.17,
+      "text": "Leinen rot und die Stabilo-Leine auf der B-Ebene war ebenfalls rot. Also nicht sehr klug gewählt."
+    },
+    {
+      "i": 44,
+      "start": 289.17,
+      "end": 295.66,
+      "text": "Deshalb versucht euch wirklich zu orientieren, es muss die äußerste A-Leine sein. Die ist"
+    },
+    {
+      "i": 45,
+      "start": 295.66,
+      "end": 302.92,
+      "text": "bei A-Schirmen immer einzeln aufgehängt. Schaut daher, ihr seht das, eine Leine hängt"
+    },
+    {
+      "i": 46,
+      "start": 302.92,
+      "end": 304.92,
+      "text": "alleine an einem Leinenschloss dran und eine Leine hängt alleine an einem Schirmschirmschirmschirmschirm."
+    },
+    {
+      "i": 47,
+      "start": 305.18,
+      "end": 312.46,
+      "text": "Und ist sogar alleine an einem Tragegurt geführt. Dieser ist oftmals sogar noch markiert"
+    },
+    {
+      "i": 48,
+      "start": 312.46,
+      "end": 318.72,
+      "text": "mit einem Fähnchen oder einer anderen Farbe. Also sollte auch das euch das Ganze ein bisschen"
+    },
+    {
+      "i": 49,
+      "start": 318.72,
+      "end": 325.95,
+      "text": "vereinfachen, diese Leine zu finden. Dann, um diese Leine zu packen und die Fläche dort"
+    },
+    {
+      "i": 50,
+      "start": 325.95,
+      "end": 333.45,
+      "text": "oben einzuklappen, müsst ihr die so festhalten, dass ihr den Daumen und den Zeigefinger oberhalb"
+    },
+    {
+      "i": 51,
+      "start": 333.45,
+      "end": 335.16,
+      "text": "von diesem Leinenschloss nehmt."
+    },
+    {
+      "i": 52,
+      "start": 335.16,
+      "end": 337.16,
+      "text": "Und jetzt ist es wichtig, ein Koffer zu nehmen."
+    },
+    {
+      "i": 53,
+      "start": 337.16,
+      "end": 343.78,
+      "text": "Im Kopf zählen, wir wollen symmetrisch ziehen, das heißt im Kopf zählen, 21, 22, bam, bei"
+    },
+    {
+      "i": 54,
+      "start": 343.78,
+      "end": 349.18,
+      "text": "23 ziehe ich die Leine nach unten. Und jetzt, damit es mir die Leine nicht unkontrolliert"
+    },
+    {
+      "i": 55,
+      "start": 349.18,
+      "end": 358.06,
+      "text": "wieder hochschnalzt, halten wir diese am Haupttragegurt fest, dort wo wir dann sind. Und wenn wir das"
+    },
+    {
+      "i": 56,
+      "start": 358.06,
+      "end": 363.33,
+      "text": "haben und wir blicken nach oben, sehen, ah jawohl, haben wir sauber angelegt die Ohren,"
+    },
+    {
+      "i": 57,
+      "start": 363.33,
+      "end": 368.1,
+      "text": "dann geben wir Vollgas, das heißt den Beschleuniger voll durchdrehen."
+    },
+    {
+      "i": 58,
+      "start": 368.1,
+      "end": 369.54,
+      "text": "Jetzt können wir"
+    },
+    {
+      "i": 59,
+      "start": 369.66,
+      "end": 375.92,
+      "text": "steuern, nur noch mit Gewichtsverlagerung. Und bei Gurtzeugen mit Sitzbrett geht das sehr,"
+    },
+    {
+      "i": 60,
+      "start": 375.92,
+      "end": 382.7,
+      "text": "sehr gut. Bei Gurtzeugen ohne Sitzbrett können wir, wenn das nicht ausreicht, die Gewichtsverlagerung,"
+    },
+    {
+      "i": 61,
+      "start": 382.7,
+      "end": 389.34,
+      "text": "können wir durch Zug am inneren Traggurt, also so richtig dran ziehen und das Gewicht"
+    },
+    {
+      "i": 62,
+      "start": 389.34,
+      "end": 392.84,
+      "text": "drauf lehnen, können wir den Schirm noch besser ums Eck bringen."
+    },
+    {
+      "i": 63,
+      "start": 392.84,
+      "end": 403.3,
+      "text": "Zum Ausleiten gehen wir einfach in eine neutrale Position, gehen ein bisschen zurück aus dem Gas,"
+    },
+    {
+      "i": 64,
+      "start": 403.54,
+      "end": 410.25,
+      "text": "einfach nicht zu viel, so Maximum 50 Prozent, lassen dann die A-Leinen erst einmal symmetrisch"
+    },
+    {
+      "i": 65,
+      "start": 410.25,
+      "end": 417.3,
+      "text": "nach oben frei. Wenn die Ohren jetzt drinnen sind, deshalb ist wichtig zum Schirm zu schauen,"
+    },
+    {
+      "i": 66,
+      "start": 417.3,
+      "end": 422.5,
+      "text": "wenn die Ohren drinnen sind, immer noch, dann lassen wir den Beschleuniger drinnen und pumpen"
+    },
+    {
+      "i": 67,
+      "start": 422.5,
+      "end": 428.42,
+      "text": "einmal kräftig. Erinnert sich an die Flächenbelastung, deshalb Beschleuniger drinnen bereiten. Dann"
+    },
+    {
+      "i": 68,
+      "start": 428.42,
+      "end": 434.76,
+      "text": "einmal pumpen, wenn die Ohren draußen sind, können wir rausgehen, wenn die Ohren immer"
+    },
+    {
+      "i": 69,
+      "start": 434.76,
+      "end": 441.24,
+      "text": "noch drinnen bleiben, dann zählt dein Kopf, 21, 22 und erst zwei bis drei Sekunden später kommt"
+    },
+    {
+      "i": 70,
+      "start": 441.24,
+      "end": 452.26,
+      "text": "nochmal ein kräftiger Punkt. Dann gehen wir raus. Gut, das zum Ohren anlegen."
+    }
+  ]
+}

@@ -1,0 +1,394 @@
+{
+  "slug": "aa_stallpunkt",
+  "language": "de",
+  "duration": 412.1541875,
+  "transcribed_in_sec": 36.8,
+  "model": "large-v3",
+  "settings": {
+    "device": "cuda",
+    "compute_type": "float16",
+    "beam_size": 10,
+    "initial_prompt_chars": 568,
+    "vad_min_silence_ms": 300
+  },
+  "segments": [
+    {
+      "i": 1,
+      "start": 23.29,
+      "end": 50.69,
+      "text": "Stallpunkt. Stallpunkt ist so eine Sache, ist die zweite Unfallhauptursache beim Gleitschirmfliegen, ist den Schirm am Vorwärtsfliegen hindern, Einflug in die Thermik oder in der Thermik fliegen, einfach zu starkes Andremsen und man ist zu nah an dieser Stallgeschwindigkeit herangekommen und merkt das Ganze nicht und stallt dann unabsichtlich den Schirm."
+    },
+    {
+      "i": 2,
+      "start": 50.69,
+      "end": 59.63,
+      "text": "Das in niedriger Höhe wäre natürlich fatal und in großer Höhe muss man einfach das Ganze vielleicht schon mal durchgespielt haben und kennen."
+    },
+    {
+      "i": 3,
+      "start": 59.69,
+      "end": 82.44,
+      "text": "Wir haben es auch schon oft am Übungshang gesprochen, Stallpunkt ist jetzt der Punkt, ihr kennt das Ganze, also Bremsen ziehen, sehr tief ziehen, bis der Schirm eigentlich nicht mehr vorwärts fliegt, sondern erst einmal in diesen Sackflug übergeht und nachher in den Rückwärtsflug nachläuft."
+    },
+    {
+      "i": 4,
+      "start": 82.52,
+      "end": 85.2,
+      "text": "Und nachher sogar resultierend gehen könnte."
+    },
+    {
+      "i": 5,
+      "start": 86.18,
+      "end": 96.06,
+      "text": "Der Sackflug ist dieser Übergang und jetzt braucht der Schirm am Sackflug angekommen, einfach ein ganz klares Zeichen, soll es wieder nach vorne gehen oder soll es nach hinten rückwärts gehen."
+    },
+    {
+      "i": 6,
+      "start": 97.78,
+      "end": 110.9,
+      "text": "Der Stallpunkt, der kündigt sich natürlich auf verschiedene Art und Weisen an, wir können das Ganze einmal über die Bremse spüren, also über den Druck spüren, je tiefer wir die Bremse ziehen, umso stärker wird der Druck."
+    },
+    {
+      "i": 7,
+      "start": 111.3,
+      "end": 114.1,
+      "text": "Sind wir am Stallpunkt angekommen, lässt der Druck."
+    },
+    {
+      "i": 8,
+      "start": 114.16,
+      "end": 124.94,
+      "text": "Dieser starke Druck, den wir da unten hatten, schlagartig nach, also wie aus der Pistole geschossen, habt ihr plötzlich gar keinen Druck mehr, zack, müsst ihr mit den Händen sofort nach oben gehen."
+    },
+    {
+      "i": 9,
+      "start": 126.48,
+      "end": 139.02,
+      "text": "Oder aber ihr könnt das Ganze visuell betrachten, das heißt, wenn ihr den Schirm anschaut, ist der am Anfang noch schön prall gefüllt, je stärker ihr die Bremse zieht, umso näher kommen wir dann Richtung Stallpunkt."
+    },
+    {
+      "i": 10,
+      "start": 139.02,
+      "end": 145.21,
+      "text": "Wenn wir dort angekommen sind, dann fliegt der Schirm nicht mehr vorwärts, sondern ist im Sackflug."
+    },
+    {
+      "i": 11,
+      "start": 145.65,
+      "end": 166.48,
+      "text": "Aber die Spannweite vom Schirm ist so über Flügelende bis Flügelende noch gegeben, das heißt, die Streckung ist noch da, aber jetzt drückt die Luftmasse von unten auf den Schirm drauf, das heißt, ihr könnt sehen, wie sich das Untersegel so nach oben hin ausbeult, so richtige Bauchungen macht, das ist ein Zeichen dafür, dass ihr am Stallpunkt angekommen seid."
+    },
+    {
+      "i": 12,
+      "start": 166.48,
+      "end": 171.06,
+      "text": "Und diese zwei Faktoren, die muss man so ein bisschen unabhängig voneinander nehmen."
+    },
+    {
+      "i": 13,
+      "start": 171.2,
+      "end": 176.42,
+      "text": "Das kann sein, ihr seht das zuerst visuell am Schirm und spürt es erst eine Sekunde später."
+    },
+    {
+      "i": 14,
+      "start": 176.5,
+      "end": 181.52,
+      "text": "An der Bremse, was zum Beispiel auch schon ein großes Problem sein könnte."
+    },
+    {
+      "i": 15,
+      "start": 181.82,
+      "end": 186.48,
+      "text": "Oder aber umgekehrt, ihr spürt es zuerst auf der Bremse, bevor ihr es am Schirm wahrnehmen könnt."
+    },
+    {
+      "i": 16,
+      "start": 186.9,
+      "end": 188.44,
+      "text": "Diese zwei Faktoren gibt es."
+    },
+    {
+      "i": 17,
+      "start": 189.22,
+      "end": 191.16,
+      "text": "Und da müsst ihr einfach sehr, sehr feinfühlig arbeiten."
+    },
+    {
+      "i": 18,
+      "start": 192.01,
+      "end": 201.77,
+      "text": "Wenn wir das jetzt einmal trainieren, im Sommer machen wir das eigentlich nur über Wasser, in Form von Sicherheitstraining, könnte aber auch sein, dass wir das mal im Winter machen, mit genügend Schnee als Puffer am Boden."
+    },
+    {
+      "i": 19,
+      "start": 203.13,
+      "end": 208.03,
+      "text": "Und dann wäre es mir wichtig, dass ihr versucht, es sehr, sehr kompakt zu machen."
+    },
+    {
+      "i": 20,
+      "start": 208.19,
+      "end": 218.11,
+      "text": "Konzentriert zu sein, sehr aufmerksam und im Zweifelsfall, das gilt immer bei diesem Manöver, im Zweifelsfall gehen die Hände einfach nach oben."
+    },
+    {
+      "i": 21,
+      "start": 218.57,
+      "end": 224.43,
+      "text": "Wenn ihr denkt, jetzt bin ich aber schon eigentlich nah dran oder für mich einfach schon zu nah dran, Hände hoch."
+    },
+    {
+      "i": 22,
+      "start": 225.11,
+      "end": 226.43,
+      "text": "Da verlieren wir dann nichts."
+    },
+    {
+      "i": 23,
+      "start": 226.57,
+      "end": 228.93,
+      "text": "Ich sage euch dann schon, ja, da hat noch ein bisschen was gefehlt."
+    },
+    {
+      "i": 24,
+      "start": 229.29,
+      "end": 230.51,
+      "text": "Dann könnt ihr das abspeichern."
+    },
+    {
+      "i": 25,
+      "start": 230.61,
+      "end": 232.75,
+      "text": "Ja, okay, ein bisschen was hat noch gefehlt."
+    },
+    {
+      "i": 26,
+      "start": 232.75,
+      "end": 238.88,
+      "text": "Also für den Stallpunkt suchen, müssen wir beide Bremsen relativ weit nach unten ziehen."
+    },
+    {
+      "i": 27,
+      "start": 239.78,
+      "end": 245.58,
+      "text": "Und damit wir da ein gutes Gefühl haben, täte ich euch auch empfehlen, die Bremse diesen halben Schlag zu wickeln."
+    },
+    {
+      "i": 28,
+      "start": 246.96,
+      "end": 256.2,
+      "text": "Eventuell sind die Steuerwege so lang, also gerade über dem See meistens, bei so ruhiger Luftmasse, kann es sogar sein, dass wir vielleicht sogar nochmal ein zweites Mal wickeln müssen."
+    },
+    {
+      "i": 29,
+      "start": 256.73,
+      "end": 259.89,
+      "text": "Aber nehmen wir jetzt mal nur diese eine halbe Wicklung rein."
+    },
+    {
+      "i": 30,
+      "start": 259.89,
+      "end": 266.93,
+      "text": "Ihr schaut den Schirmgurt an und ihr zieht die Bremsen ganz langsam symmetrisch weiter nach oben."
+    },
+    {
+      "i": 31,
+      "start": 268.13,
+      "end": 270.43,
+      "text": "Nehmt auch mal wahr, wie dieser Steuerdruck zunimmt."
+    },
+    {
+      "i": 32,
+      "start": 270.45,
+      "end": 280.98,
+      "text": "Also auch schon die ersten 20, 30 Zentimeter langsam ziehen, immer weiter ziehen, aber langsam Schirm anschauen, beobachten."
+    },
+    {
+      "i": 33,
+      "start": 281.24,
+      "end": 284.32,
+      "text": "Und dann merkt ihr, oh, der Steuerdruck, der wird jetzt schon deutlich härter."
+    },
+    {
+      "i": 34,
+      "start": 284.56,
+      "end": 286.54,
+      "text": "Oh, jetzt ziemlich hart."
+    },
+    {
+      "i": 35,
+      "start": 286.62,
+      "end": 288.96,
+      "text": "Und plötzlich macht, bang, zack, dann müsst ihr hoch."
+    },
+    {
+      "i": 36,
+      "start": 289.51,
+      "end": 291.09,
+      "text": "Seid am Stallpunkt angekommen."
+    },
+    {
+      "i": 37,
+      "start": 293.63,
+      "end": 300.89,
+      "text": "Wenn ihr am Stallpunkt pennt und ihr bleibt in dieser Position beharren, dann geht es in den Stall, also in den Flyback über."
+    },
+    {
+      "i": 38,
+      "start": 300.89,
+      "end": 303.01,
+      "text": "Und das geht es natürlich zu vermeiden."
+    },
+    {
+      "i": 39,
+      "start": 303.17,
+      "end": 303.69,
+      "text": "Das wollen wir nicht."
+    },
+    {
+      "i": 40,
+      "start": 303.77,
+      "end": 306.79,
+      "text": "Wir wollen jetzt nur mal diesen Stallpunkt erfüllen."
+    },
+    {
+      "i": 41,
+      "start": 306.87,
+      "end": 307.81,
+      "text": "Wo ist denn etwa?"
+    },
+    {
+      "i": 42,
+      "start": 307.93,
+      "end": 308.63,
+      "text": "Ist der hier?"
+    },
+    {
+      "i": 43,
+      "start": 308.95,
+      "end": 309.61,
+      "text": "Ist der hier?"
+    },
+    {
+      "i": 44,
+      "start": 309.71,
+      "end": 311.73,
+      "text": "Der kann an unterschiedlichen Stellen sein."
+    },
+    {
+      "i": 45,
+      "start": 312.05,
+      "end": 314.83,
+      "text": "Vor allen Dingen, wenn wir Thermik fliegen, dann kann der auch mal da oben sein."
+    },
+    {
+      "i": 46,
+      "start": 315.09,
+      "end": 317.44,
+      "text": "Wichtig ist einfach immer, bang, Hände hoch."
+    },
+    {
+      "i": 47,
+      "start": 317.91,
+      "end": 320.63,
+      "text": "Wenn ihr das Gefühl habt, ich bin dran, bang, Hände hoch."
+    },
+    {
+      "i": 48,
+      "start": 323.48,
+      "end": 325.64,
+      "text": "Wie gesagt, im Zweifelsfall Hände hoch."
+    },
+    {
+      "i": 49,
+      "start": 326.8,
+      "end": 328.3,
+      "text": "Und Schirm dabei anschauen."
+    },
+    {
+      "i": 50,
+      "start": 328.4,
+      "end": 331.38,
+      "text": "Das heißt, vielleicht habt ihr es ja schon visuell ausmachen können."
+    },
+    {
+      "i": 51,
+      "start": 331.44,
+      "end": 335.14,
+      "text": "Ah, okay, ich spüre zwar noch kein Nachlassen auf der Bremse."
+    },
+    {
+      "i": 52,
+      "start": 335.4,
+      "end": 336.56,
+      "text": "Aber ich sehe es visuell."
+    },
+    {
+      "i": 53,
+      "start": 336.88,
+      "end": 342.56,
+      "text": "Da unten am Schirm, da baucht sich das Untersegel aus, bang, Hände hoch, immer zügig hoch."
+    },
+    {
+      "i": 54,
+      "start": 342.76,
+      "end": 344.92,
+      "text": "Was können wir machen, wenn wir im Sackflug drinnen sind?"
+    },
+    {
+      "i": 55,
+      "start": 345.02,
+      "end": 353.2,
+      "text": "Beispielsweise B-Stol zu langsam ausgeleitet, hatte ich einmal mit einem sehr, sehr leichten Mädel."
+    },
+    {
+      "i": 56,
+      "start": 353.4,
+      "end": 357.29,
+      "text": "Die hat den B-Stol sehr langsam ausgeleitet, ist im Sackflug hängen geblieben."
+    },
+    {
+      "i": 57,
+      "start": 357.49,
+      "end": 359.01,
+      "text": "Das heißt, die Hände sind schon oben."
+    },
+    {
+      "i": 58,
+      "start": 359.21,
+      "end": 361.73,
+      "text": "Wir können nach vorne gehen zu den A-Gurten."
+    },
+    {
+      "i": 59,
+      "start": 361.93,
+      "end": 363.9,
+      "text": "Wir ziehen die A-Gurte und lassen sie wieder los."
+    },
+    {
+      "i": 60,
+      "start": 364.1,
+      "end": 366.42,
+      "text": "Das wäre die Ausleitung für den Sackflug."
+    },
+    {
+      "i": 61,
+      "start": 366.62,
+      "end": 367.74,
+      "text": "Also richtig ziehen."
+    },
+    {
+      "i": 62,
+      "start": 367.74,
+      "end": 368.66,
+      "text": "Und wieder lösen."
+    },
+    {
+      "i": 63,
+      "start": 369.68,
+      "end": 371.72,
+      "text": "Und dann sollte der Schirm spätestens anfangen."
+    }
+  ]
+}

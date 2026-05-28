@@ -1,0 +1,3093 @@
+WEBVTT
+
+1
+00:00:04.950 --> 00:00:11.790
+Hallo zusammen, ich bin Stefan von der Flugschule Freewings und ich möchte euch heute etwas über die Aerodynamik erzählen.
+
+2
+00:00:12.330 --> 00:00:16.150
+Aerodynamik im Allgemeinen, aber vor allem gleitschirmspezifisch.
+
+3
+00:00:18.050 --> 00:00:22.730
+Die Frage, die uns sicher alle beschäftigt, ist, wieso ein Gleitschirm überhaupt fliegt.
+
+4
+00:00:23.150 --> 00:00:28.650
+Mir hat es seit dem ersten Moment, als ich als Kind einen Gleitschirm gesehen habe, nicht mehr losgelassen.
+
+5
+00:00:28.650 --> 00:00:41.290
+Ich bin immer fasziniert, wieso ein Gleitschirm aus Stoff und ein paar Leinen aus dem Rucksack uns in die Luft bringt und wieso man mit dem Ding fliegen kann.
+
+6
+00:00:41.730 --> 00:00:50.760
+Wenn man dem auf den Grund geht, findet man schnell heraus, dass ein Gleitschirm genau gleich funktioniert wie jedes Flugzeug, wie jeder Vogel auch.
+
+7
+00:00:50.760 --> 00:00:58.360
+Wir haben eine Tragfläche, die Auftrieb erzeugt und somit eine Kraft erzeugt, die uns in der Luft behaltet.
+
+8
+00:00:58.360 --> 00:01:12.450
+Ich vergleiche es manchmal mit dem Auto, man kann zwar alle Autos fahren, aber ob man jetzt wirklich versteht, wie die Kupplung und der Motor und alles genau funktioniert, ist meistens ja gar nicht so entscheidend.
+
+9
+00:01:12.450 --> 00:01:22.380
+Beim Gleitschirm kann es auch sein, dass man ein super Top-Pilot ist und eigentlich nicht genau weiss, was über sich überhaupt vorgeht.
+
+10
+00:01:22.740 --> 00:01:27.300
+Aber ich bin gleich der Überzeugung, dass es relativ wichtig ist, beim Gleitschirm zu fliegen.
+
+11
+00:01:27.300 --> 00:01:55.070
+Jetzt vielleicht im Vergleich zum Autofahren, dass man gleich die technischen Hintergründe auch ein bisschen versteht, weil es eben der Sicherheit beiträgt und auch, wenn man die Vollleistung aus dem Schirm herausholen will, wenn es dann später mal ein bisschen ambitionierter zur Sache geht, dass man mit einem Hintergrundwissen, was die Aerodynamik angeht, mehr herausholen kann aus seinem Schirm.
+
+12
+00:01:55.070 --> 00:01:57.970
+Angefangen hat das alles vor ganz, ganz langer Zeit.
+
+13
+00:01:58.350 --> 00:01:59.070
+Otto Lilienthal.
+
+14
+00:01:59.530 --> 00:02:12.570
+Hat da im 1891 angefangen zu tüfteln und hat schon die ersten, ja man kann eigentlich fast sagen, Hängegleiter gebastelt und hat auch die ersten erfolgreichen Flüge durchgeführt.
+
+15
+00:02:13.270 --> 00:02:23.060
+Er hat schon früh angefangen, die Vögel beobachten und hat eigentlich gemerkt, dass ja nicht alle Vögel einen Flügelschlag brauchen, um in der Luft zu bleiben.
+
+16
+00:02:23.060 --> 00:02:29.560
+Also er hat vor allem dann die grösseren Vögel angeschaut und gemerkt, dass die ziemlich gut gleiten können, ohne irgendwie etwas zu machen.
+
+17
+00:02:29.580 --> 00:02:45.410
+Und dann hat er angefangen, Störche auseinanderzunehmen, tote Tiere angefangen zu sezieren und hat dann gemerkt, dass eigentlich die Flügel von diesen Tieren alle ein gewisses Profil aufweisen.
+
+18
+00:02:45.410 --> 00:02:59.410
+Und hat dann das Flügelprofil angefangen auf seine Tragflächen zu übertragen und hat dann so herausgefunden, dass man so Auftriebe erzeugen kann, die einen in die Luft befördern, nach ein paar Schritten Anlauf.
+
+19
+00:02:59.990 --> 00:03:09.730
+Also im Allgemeinen gibt es verschiedene Erklärungsversuche oder Gründe, weshalb ein Flügel fliegt.
+
+20
+00:03:09.730 --> 00:03:20.110
+Grundsätzlich sind es drei Ansätze oder drei Grundsätze, weshalb ein Flügel Auftriebe erzeugt und uns in der Luft behaltet.
+
+21
+00:03:20.110 --> 00:03:26.700
+Der erste Ansatz ist die Theorie von Bernoulli und zwar hat das mit der Strömungslehre zu tun.
+
+22
+00:03:26.700 --> 00:03:33.700
+Ihr seht, wir haben hier ein Flügelprofil, welches, wie die meisten Flügelprofile, asymmetrisch ist.
+
+23
+00:03:33.700 --> 00:03:37.700
+Das heisst, obendrauf haben wir eine grössere Wölbung als unten.
+
+24
+00:03:37.700 --> 00:03:49.020
+Das beeinflusst, dass die Luftströmung obendrauf schneller zirkulieren muss, schneller strömen muss und dadurch gibt es einen Unterdruck.
+
+25
+00:03:49.020 --> 00:03:52.020
+Auf der Unterseite des Schirms ist genau das Gegenteil der Fall.
+
+26
+00:03:52.020 --> 00:03:58.660
+Dort ist die Luftströmung langsamer und es entsteht ein Überdruck.
+
+27
+00:03:58.660 --> 00:04:04.660
+Ihr seht, die Unterdrücke und Überdrücke sind aufteilt in unendlich viele Kräfte.
+
+28
+00:04:04.660 --> 00:04:06.660
+Das sind kleine Kraftvektoren.
+
+29
+00:04:06.660 --> 00:04:13.660
+Wenn man diese alle bündelt und alle Kräfte an einem Punkt zusammen nimmt, entsteht eine Kraft.
+
+30
+00:04:13.660 --> 00:04:21.710
+Das ist der Auftrieb, der uns ermöglicht zu fliegen, der eine Kraft gegenüber bewirkt.
+
+31
+00:04:21.710 --> 00:04:26.300
+Die Aufteilung ist noch ein kleiner Input für die Theorieprüfung.
+
+32
+00:04:26.300 --> 00:04:33.300
+Die Aufteilung ist zwei Drittel Unterdruck auf der Oberseite und ein Drittel Überdruck auf der Flügelunterseite.
+
+33
+00:04:33.300 --> 00:04:35.300
+Das ist ein wenig verwirrend von den Wörtern her.
+
+34
+00:04:35.300 --> 00:04:37.300
+Man muss schauen, dass man hier nichts verwechselt.
+
+35
+00:04:37.300 --> 00:04:44.900
+Irgendwo beginnt die Strömung nicht mehr diesem Profil zu folgen und beginnt hier hinten abzureissen.
+
+36
+00:04:44.900 --> 00:04:51.900
+Dem sagt man den Ablösepunkt, der hier hinten so kleine Turbulenzen und ein wenig durmisch die Luft generiert.
+
+37
+00:04:51.900 --> 00:04:54.900
+Zu dem kommen wir später noch im Detail.
+
+38
+00:04:54.900 --> 00:04:56.900
+Also grundsätzlich die Theorie von Bernoulli.
+
+39
+00:04:56.900 --> 00:05:02.940
+Strömungsleer, Unterdruck, Überdruck, der erste Ansatz, wieso der Flügel fliegt.
+
+40
+00:05:02.940 --> 00:05:06.220
+Dann das zweite ist das Rückstossprinzip.
+
+41
+00:05:06.220 --> 00:05:17.620
+Das ist Aktion gleich Reaktion von Newton, der herausgefunden hat, dass auf jeden Körper, der irgendeine Kraft einwirkt, eine Gegenkraft entsteht.
+
+42
+00:05:17.620 --> 00:05:23.620
+Und vielleicht habt ihr es auch schon probiert, wenn ihr die Hand aus dem fahrenden Auto hebt,
+
+43
+00:05:23.620 --> 00:05:30.620
+vielleicht nicht als Fahrer, vielleicht einmal als Beifahrer konzentriert darauf achten, was da genau passiert.
+
+44
+00:05:30.620 --> 00:05:32.620
+Wenn ihr nämlich die Hand geradeaus hebt,
+
+45
+00:05:32.620 --> 00:05:38.620
+dann passiert nicht viel, dann spürt ihr auch nicht den grossen Widerstand, weil die Hand flach im Wind liegt.
+
+46
+00:05:38.620 --> 00:05:44.620
+Wenn ihr die Hand aber so ein wenig schwenkt, in diese Richtung, gibt es eine Kraft, die nach oben zieht.
+
+47
+00:05:44.620 --> 00:05:48.620
+Und wenn ihr auf die andere Seite schwenkt, dann drückt es eure Hand eher runter.
+
+48
+00:05:48.620 --> 00:05:52.620
+Und dieses Rückstossprinzip nutzt eigentlich den Flügel auch,
+
+49
+00:05:52.620 --> 00:05:57.620
+weil auch der Flügel einen gewissen Winkel zu der anströmenden Luft hat.
+
+50
+00:05:57.620 --> 00:06:00.620
+Dem sagt man dann den Anstellwinkel, zu dem kommen wir später noch.
+
+51
+00:06:00.620 --> 00:06:08.990
+Und auch dieser verursacht eine Kraft, die eben nach oben zeigt und uns in der Luft hält.
+
+52
+00:06:08.990 --> 00:06:15.990
+Der dritte Ansatz, wieso das am Flügelauftrieb erzeugt, ist die sogenannte Zirkulationsströmung.
+
+53
+00:06:15.990 --> 00:06:25.620
+An der scharfen Hinterkante des Schirms entsteht ein Anfahrwirbel und diese Strömung wird dann gegen unten abgelenkt.
+
+54
+00:06:25.620 --> 00:06:30.620
+Und auch das wiederum gibt einen Moment oder eine Kraft nach oben,
+
+55
+00:06:30.620 --> 00:06:33.620
+die dann auch zu diesem dynamischen Auftrieb beiträgt.
+
+56
+00:06:33.620 --> 00:06:39.510
+Also das sind die drei Ansätze, die eben den Flügel in der Luft behalten.
+
+57
+00:06:39.510 --> 00:06:46.300
+Dann kommen wir hier zu ein paar Fachbegriffen, was Flügelprofile anbelangt.
+
+58
+00:06:46.300 --> 00:06:50.300
+Wir schauen jetzt den Flügel im Moment noch immer so im Querschnitt an.
+
+59
+00:06:50.300 --> 00:06:56.300
+Später schauen wir dann das Ganze als Gleitschirm, den ganzen Flügel über die Spannweite an,
+
+60
+00:06:56.300 --> 00:07:01.300
+auch die Leine und der Pilot, die Pilotin, die unten dranhängt und was das noch für Einflüsse hat.
+
+61
+00:07:01.300 --> 00:07:04.300
+Im Moment schauen wir uns einfach mal den Querschnitt an.
+
+62
+00:07:04.300 --> 00:07:08.860
+Und bei Gleitschirmen ist das Profil relativ dick.
+
+63
+00:07:08.860 --> 00:07:11.860
+Also ihr seht hier, das Profil dicker ist der Blaubalken.
+
+64
+00:07:11.860 --> 00:07:17.940
+Der ist relativ dick im Vergleich zum Beispiel zu einem schnellen Fluggerät,
+
+65
+00:07:17.940 --> 00:07:24.940
+zu einem Kampfjet, wo dann das Profil ganz flach und eher weniger asymmetrisch wäre und eher etwas dünner.
+
+66
+00:07:24.940 --> 00:07:30.940
+Also langsame Fluggeräte, die eben schon bei einer langsamen Startgeschwindigkeit schon sehr viel Auftrieb haben,
+
+67
+00:07:30.940 --> 00:07:38.300
+ohne dass man da eine riesige Geschwindigkeit zuerst generiert.
+
+68
+00:07:38.300 --> 00:07:41.670
+Die sind vor allem eher dick und asymmetrisch gewählt.
+
+69
+00:07:41.670 --> 00:07:46.780
+Profiltiefe ist eigentlich die Distanz vom vordersten Punkt und dem hintersten Punkt.
+
+70
+00:07:46.780 --> 00:07:50.780
+Im Gleitschirm Eintrittskanten und Austrittskanten, die ihr kennt,
+
+71
+00:07:50.780 --> 00:07:54.780
+die immer Begriffe sind, die man immer wieder mal braucht in der Flugpraxis.
+
+72
+00:07:54.780 --> 00:07:57.780
+Profilsehne ist eher ein theoretischer Begriff.
+
+73
+00:07:57.780 --> 00:08:00.780
+Das ist nämlich die Verbindung vom Vordersten und Hintersten.
+
+74
+00:08:01.780 --> 00:08:04.780
+Also nicht zu verwechseln mit der Profiltiefe.
+
+75
+00:08:04.780 --> 00:08:06.900
+Das selbe ist nur die Distanz.
+
+76
+00:08:06.900 --> 00:08:09.900
+Und Profilsehne ist wirklich die Verbindung von diesen beiden Punkten.
+
+77
+00:08:09.900 --> 00:08:14.480
+Dann kommen wir jetzt zu den Kräften und Vektoren.
+
+78
+00:08:14.480 --> 00:08:23.480
+Ich habe vorhin einmal kurz angesprochen, dass es an so einem Flügel mehrere Kräftevektoren gibt durch diesen Auftrieb.
+
+79
+00:08:23.480 --> 00:08:30.480
+Und diese lassen sich alle zusammenfassen in einen Hauptvektor, diesen Auftriebsvektor.
+
+80
+00:08:30.480 --> 00:08:32.480
+Später lernen wir dann noch,
+
+81
+00:08:32.480 --> 00:08:38.480
+das ist dann die Luftkraftresultierende, die zusammengesetzt wird von Auftrieb und Widerstand.
+
+82
+00:08:38.480 --> 00:08:40.480
+Zu dem aber später noch mehr.
+
+83
+00:08:40.480 --> 00:08:45.040
+Zuerst einmal einfach theoretisch, wie das mit den Vektoren aussieht.
+
+84
+00:08:45.040 --> 00:08:48.040
+Das ist jetzt so eine klassische Theorieprüfungsfrage.
+
+85
+00:08:48.040 --> 00:08:52.040
+Und zwar ist es so, wenn man Kräfte zusammenzählen will,
+
+86
+00:08:52.040 --> 00:08:58.040
+oder wenn auf einen Körper und den gleichen Angriffspunkt zwei verschiedene Kräfte wirken,
+
+87
+00:08:58.040 --> 00:09:01.040
+dann kann man diese Kräfte eigentlich wie aneinander hängen.
+
+88
+00:09:01.040 --> 00:09:02.040
+Ihr seht jetzt hier ein Beispiel.
+
+89
+00:09:03.040 --> 00:09:06.040
+Die Kräfte F1 und F4 wirken auf einen Körper.
+
+90
+00:09:06.040 --> 00:09:08.040
+Sie haben denselben Angriffspunkt.
+
+91
+00:09:08.040 --> 00:09:12.040
+Welches ist die resultierende R der beiden Kräfte?
+
+92
+00:09:12.040 --> 00:09:16.150
+Also links habt ihr das F1 und das F4, das ihr herauspicken müsstet.
+
+93
+00:09:16.150 --> 00:09:21.650
+Dann müsst ihr diese aneinander hängen und schauen, was das Resultat ist.
+
+94
+00:09:21.650 --> 00:09:27.650
+Und wenn man jetzt hier vom Start zum Endpunkt vom F1 noch das F4 hinzufügt
+
+95
+00:09:27.650 --> 00:09:32.700
+und dann den Startpunkt von beiden zum Endpunkt verbindet,
+
+96
+00:09:32.700 --> 00:09:36.700
+dann sehen wir, dass das Resultat so eine diagonale Kraft ist,
+
+97
+00:09:36.700 --> 00:09:39.700
+die dann eben die Richtung etwas geändert hat.
+
+98
+00:09:39.700 --> 00:09:41.700
+Das ist dann die Summe dieser beiden Kräfte.
+
+99
+00:09:41.700 --> 00:09:44.700
+Und somit bei diesem Beispiel das R2.
+
+100
+00:09:44.700 --> 00:09:50.920
+Dann haben wir gleich noch einmal ein Beispiel.
+
+101
+00:09:50.920 --> 00:09:53.920
+Wenn jetzt die Kräfte in die gleiche Richtung wirken,
+
+102
+00:09:53.920 --> 00:09:55.920
+dann ist es natürlich noch einfacher.
+
+103
+00:09:55.920 --> 00:09:57.920
+Dann gibt es nicht eine Diagonale oder so,
+
+104
+00:09:57.920 --> 00:09:59.920
+sondern dann kann man die Kräfte einfach zusammenzählen.
+
+105
+00:09:59.920 --> 00:10:02.920
+An der Prüfung zum Beispiel könnt ihr jetzt hier die Häuschen zählen
+
+106
+00:10:02.920 --> 00:10:04.920
+und dann seht ihr F1 plus F2.
+
+107
+00:10:04.920 --> 00:10:05.920
+Vier Häuschen plus zwei Häuschen.
+
+108
+00:10:06.920 --> 00:10:10.610
+Gibt dann die drei Häuschen beim R3.
+
+109
+00:10:10.610 --> 00:10:13.610
+Dann kann es aber auch mal sein, dass die Kräfte entgegengesetzt wirken.
+
+110
+00:10:13.610 --> 00:10:17.720
+Und dann, jetzt angenommen, die Kräfte sind genau gleich gross,
+
+111
+00:10:17.720 --> 00:10:22.720
+wir haben hier irgendeinen Stein und von beiden Seiten stösst irgendeine Kraft.
+
+112
+00:10:22.720 --> 00:10:26.720
+Wenn die genau gleich gross sind, dann bleibt der Stein genau an Ort und Stelle.
+
+113
+00:10:26.720 --> 00:10:32.460
+Und hier seht ihr jetzt, dass eigentlich das F1, das kleiner ist,
+
+114
+00:10:32.460 --> 00:10:34.460
+wie das F3 ein bisschen abschwächt.
+
+115
+00:10:34.460 --> 00:10:36.460
+Und auch hier wieder die Summe.
+
+116
+00:10:36.460 --> 00:10:40.460
+Dann kann man die Kräfte zusammenzählen und die Summe ist dann das R4.
+
+117
+00:10:40.460 --> 00:10:49.350
+Und dieses Grundwissen ist noch wichtig, um jetzt die nächsten paar Folien zu verstehen.
+
+118
+00:10:49.350 --> 00:10:53.350
+Wir haben hier wieder einen Flügel, die Profilszene, eingezeichnet.
+
+119
+00:10:53.350 --> 00:10:56.350
+Die ist aerodynamisch relativ wichtig.
+
+120
+00:10:56.350 --> 00:10:58.350
+Das sehen wir nachher dann gleich noch.
+
+121
+00:10:58.350 --> 00:11:02.350
+Wir haben die Luftkraftresultierende, die ich vorhin kurz angesprochen habe.
+
+122
+00:11:02.350 --> 00:11:07.000
+Wir haben den Auftrieb und den Widerstand.
+
+123
+00:11:07.000 --> 00:11:09.000
+Der absolute Wunschfall wäre natürlich,
+
+124
+00:11:09.000 --> 00:11:10.000
+dass man einen Flügel bauen könnte,
+
+125
+00:11:10.000 --> 00:11:12.000
+der keinen Widerstand erzeugt.
+
+126
+00:11:12.000 --> 00:11:14.000
+Also keinen Luftwiderstand.
+
+127
+00:11:14.000 --> 00:11:16.000
+Aber das ist halt einfach nicht möglich,
+
+128
+00:11:16.000 --> 00:11:18.000
+weil wir haben eine gewisse Stirnfläche,
+
+129
+00:11:18.000 --> 00:11:21.000
+eine gewisse Fläche, die gegen die Luft ankommen muss.
+
+130
+00:11:21.000 --> 00:11:23.000
+Und das erzeugt immer Widerstand.
+
+131
+00:11:23.000 --> 00:11:26.000
+Da können wir noch so einen perfekten Schirm bauen.
+
+132
+00:11:26.000 --> 00:11:28.000
+Wir wären nie, die kleine Widerstandskraft,
+
+133
+00:11:28.000 --> 00:11:29.000
+die eben dagegen wirkt,
+
+134
+00:11:29.000 --> 00:11:31.000
+wären wir nie ganz los.
+
+135
+00:11:31.000 --> 00:11:34.000
+Und der Auftrieb und der Widerstand kombiniert,
+
+136
+00:11:34.000 --> 00:11:35.000
+sehen wir jetzt hier auch,
+
+137
+00:11:35.000 --> 00:11:37.000
+gibt auch wieder so ein Dreieck.
+
+138
+00:11:37.000 --> 00:11:38.000
+Und die Diagonale davon,
+
+139
+00:11:38.000 --> 00:11:41.560
+das ist dann die Luftkraftresultierende.
+
+140
+00:11:41.560 --> 00:11:43.560
+Noch wichtig, links ist eingeblendet,
+
+141
+00:11:43.560 --> 00:11:45.670
+der Auftrieb und der Widerstand,
+
+142
+00:11:45.670 --> 00:11:48.670
+die sind immer im 90-Grad-Winkel zueinander.
+
+143
+00:11:48.670 --> 00:11:49.670
+Also die variieren nicht,
+
+144
+00:11:49.670 --> 00:11:51.670
+die sind immer genau im 90-Grad-Winkel.
+
+145
+00:11:51.670 --> 00:11:56.690
+Der Widerstand immer genau in der Linie von der Anströmung.
+
+146
+00:11:56.690 --> 00:12:01.150
+Also von der Flugbahn oder auch von der Anströmung.
+
+147
+00:12:01.150 --> 00:12:03.150
+Es kommt ja immer darauf an, wie man es anschaut.
+
+148
+00:12:03.150 --> 00:12:05.150
+Es spielt eigentlich nicht so eine Rolle,
+
+149
+00:12:05.150 --> 00:12:07.150
+ob jetzt der Flügel in einem Windkanal steht,
+
+150
+00:12:07.150 --> 00:12:08.150
+völlig theoretisch,
+
+151
+00:12:08.150 --> 00:12:11.150
+oder ob der Flügel durch stehende Luft gleitet.
+
+152
+00:12:11.150 --> 00:12:13.150
+Also schlussendlich ist es immer relativ
+
+153
+00:12:13.150 --> 00:12:15.150
+der Flügel gegenüber der Luft.
+
+154
+00:12:15.150 --> 00:12:20.620
+Der Druckpunkt ist auch noch wichtig,
+
+155
+00:12:20.620 --> 00:12:21.620
+um nicht zu vergessen,
+
+156
+00:12:21.620 --> 00:12:22.620
+der Druckpunkt ist der Punkt,
+
+157
+00:12:22.620 --> 00:12:25.620
+der die Summe von all diesen Kräften angreift.
+
+158
+00:12:25.620 --> 00:12:27.620
+Und die Gewichtskraft,
+
+159
+00:12:27.620 --> 00:12:28.620
+die ist immer gleich gross
+
+160
+00:12:28.620 --> 00:12:31.620
+wie die Luftkraftresultierende.
+
+161
+00:12:31.620 --> 00:12:33.700
+Also wenn wir schwerer sind,
+
+162
+00:12:33.700 --> 00:12:34.700
+dann brauchen wir auch mehr Auftrieb
+
+163
+00:12:34.700 --> 00:12:35.700
+und mehr Widerstand
+
+164
+00:12:35.700 --> 00:12:39.700
+und die Luftkraftresultierende wächst dann auch.
+
+165
+00:12:39.700 --> 00:12:47.250
+Dann geht es gleich weiter bei dieser Folie
+
+166
+00:12:47.250 --> 00:12:49.250
+mit der Anströmrichtung,
+
+167
+00:12:49.250 --> 00:12:51.250
+die ich vorhin kurz angesprochen habe.
+
+168
+00:12:51.250 --> 00:12:52.250
+Die Anströmrichtung,
+
+169
+00:12:52.250 --> 00:12:54.250
+die genau in der gleichen Richtung verläuft
+
+170
+00:12:54.250 --> 00:12:55.250
+wie der Widerstand.
+
+171
+00:12:55.250 --> 00:12:58.250
+Und da sehen wir jetzt den Anstellwinkel.
+
+172
+00:12:58.250 --> 00:12:59.250
+Da ist jetzt eben die Hand,
+
+173
+00:12:59.250 --> 00:13:01.250
+die quasi etwas schräg,
+
+174
+00:13:01.250 --> 00:13:03.250
+etwas angewinkelt in diesem Luftkanal ist
+
+175
+00:13:03.250 --> 00:13:06.250
+oder in dieser Luftströmung.
+
+176
+00:13:06.250 --> 00:13:07.250
+Und der Anstellwinkel,
+
+177
+00:13:07.250 --> 00:13:09.330
+das ist nicht der Winkel
+
+178
+00:13:09.330 --> 00:13:11.330
+von der Horizontalen zur Luft,
+
+179
+00:13:11.330 --> 00:13:12.330
+sondern immer,
+
+180
+00:13:12.330 --> 00:13:13.330
+ganz wichtig,
+
+181
+00:13:13.330 --> 00:13:14.330
+nicht zu verwechseln,
+
+182
+00:13:14.330 --> 00:13:16.330
+der Anstellwinkel ist immer
+
+183
+00:13:16.330 --> 00:13:17.330
+der Winkel vom Schirm,
+
+184
+00:13:17.330 --> 00:13:19.330
+also von der Profilsehne
+
+185
+00:13:19.330 --> 00:13:22.110
+und der anströmenden Luft.
+
+186
+00:13:22.110 --> 00:13:24.110
+Und die anströmende Luft
+
+187
+00:13:24.110 --> 00:13:26.110
+ist ja eigentlich nicht horizontal,
+
+188
+00:13:26.110 --> 00:13:27.110
+weil beim Gleitschirm
+
+189
+00:13:27.110 --> 00:13:29.110
+hat man ja immer ein leichtes Sinken.
+
+190
+00:13:29.110 --> 00:13:30.110
+Darum ist sie jetzt da auch so
+
+191
+00:13:30.110 --> 00:13:32.110
+leicht von unten eingezeichnet,
+
+192
+00:13:32.110 --> 00:13:34.110
+weil man sinkt ja immer leicht,
+
+193
+00:13:34.110 --> 00:13:37.260
+wenn man jetzt einfach eine neutrale,
+
+194
+00:13:37.260 --> 00:13:44.590
+unbewegte, ruhige Luftmasse anschaut.
+
+195
+00:13:44.590 --> 00:13:45.590
+Dann kommen wir zum Widerstand
+
+196
+00:13:45.590 --> 00:13:47.700
+eines Körpers.
+
+197
+00:13:47.700 --> 00:13:50.010
+Da ist noch interessant,
+
+198
+00:13:50.010 --> 00:13:51.010
+die Formeln für den Widerstand
+
+199
+00:13:51.010 --> 00:13:52.010
+und der Auftrieb,
+
+200
+00:13:52.010 --> 00:13:54.090
+die sind immer genau gleich.
+
+201
+00:13:54.090 --> 00:13:56.090
+Vorne steht jetzt W für Widerstand,
+
+202
+00:13:56.090 --> 00:13:59.330
+nachher haben wir ein paar Faktoren,
+
+203
+00:13:59.330 --> 00:14:01.330
+die dann eben den Widerstand ergänzen.
+
+204
+00:14:01.330 --> 00:14:03.330
+Hier ganz wichtig,
+
+205
+00:14:03.330 --> 00:14:04.330
+bitte nicht zu erschrecken,
+
+206
+00:14:04.330 --> 00:14:06.330
+ihr müsst für die Theorieprüfung,
+
+207
+00:14:06.330 --> 00:14:08.330
+für die SAV-Theorieprüfung
+
+208
+00:14:08.330 --> 00:14:10.330
+keine Formeln auswendig lernen
+
+209
+00:14:10.330 --> 00:14:13.330
+und nichts in diesem Stil berechnen können,
+
+210
+00:14:13.330 --> 00:14:14.330
+also nicht zu erschrecken.
+
+211
+00:14:14.330 --> 00:14:16.330
+Ich habe nur die Formeln aufgezeichnet,
+
+212
+00:14:16.330 --> 00:14:17.330
+um euch zu zeigen,
+
+213
+00:14:17.330 --> 00:14:19.330
+aus welchen Elementen
+
+214
+00:14:19.330 --> 00:14:21.330
+der Widerstand schlussendlich
+
+215
+00:14:21.330 --> 00:14:22.330
+zusammengesetzt wird.
+
+216
+00:14:22.330 --> 00:14:24.980
+Als erstes haben wir den Beiwert,
+
+217
+00:14:24.980 --> 00:14:26.980
+das ist die Form und der Anstellwinkel.
+
+218
+00:14:26.980 --> 00:14:28.980
+Da kommt es gerne darauf an,
+
+219
+00:14:28.980 --> 00:14:29.980
+ob es ein Flügel ist,
+
+220
+00:14:29.980 --> 00:14:30.980
+oder ein Auto,
+
+221
+00:14:30.980 --> 00:14:31.980
+oder irgendein Stein im Wind.
+
+222
+00:14:31.980 --> 00:14:34.980
+Da kommt es sehr auf die Form an,
+
+223
+00:14:34.980 --> 00:14:37.980
+wie ist dieses Gerät
+
+224
+00:14:37.980 --> 00:14:38.980
+oder dieser Gegenstand
+
+225
+00:14:38.980 --> 00:14:40.980
+am Windstrom ausgesetzt.
+
+226
+00:14:40.980 --> 00:14:43.450
+Dann haben wir die Luftdichte,
+
+227
+00:14:43.450 --> 00:14:44.450
+mit diesem Rohr,
+
+228
+00:14:44.450 --> 00:14:45.450
+hier geschrieben P.
+
+229
+00:14:45.450 --> 00:14:46.450
+Die Luftdichte ist natürlich
+
+230
+00:14:46.450 --> 00:14:48.450
+auch ganz wichtig.
+
+231
+00:14:48.450 --> 00:14:49.450
+Auf Meereshöhe haben wir
+
+232
+00:14:49.450 --> 00:14:50.450
+nicht die gleiche Luftdichte
+
+233
+00:14:50.450 --> 00:14:52.450
+wie auf 2'000 Metern oben,
+
+234
+00:14:52.450 --> 00:14:53.450
+was dann natürlich auch
+
+235
+00:14:53.450 --> 00:14:55.450
+den Widerstand beeinflusst.
+
+236
+00:14:55.450 --> 00:14:58.140
+Dann haben wir die Geschwindigkeit.
+
+237
+00:14:58.140 --> 00:14:59.140
+Achtung, die Geschwindigkeit
+
+238
+00:14:59.140 --> 00:15:01.140
+ist immer hoch 2.
+
+239
+00:15:01.140 --> 00:15:04.140
+Sie hat den Einfluss im Quadrat.
+
+240
+00:15:04.140 --> 00:15:05.140
+Zu dem kommen wir dann gleich noch,
+
+241
+00:15:05.140 --> 00:15:07.140
+was das genau bedeutet
+
+242
+00:15:07.140 --> 00:15:09.900
+für uns mit dem Gleitschirm.
+
+243
+00:15:09.900 --> 00:15:10.900
+Und das S ist noch die Grösse,
+
+244
+00:15:10.900 --> 00:15:13.900
+also die Fläche des Objekts.
+
+245
+00:15:13.900 --> 00:15:16.880
+Beim Auftrieb ist es genau das Gleiche,
+
+246
+00:15:16.880 --> 00:15:19.880
+nur der Beiwert verändert sich dort.
+
+247
+00:15:19.880 --> 00:15:20.880
+Die restlichen Faktoren,
+
+248
+00:15:20.880 --> 00:15:22.880
+sind die gleichen.
+
+249
+00:15:22.880 --> 00:15:24.880
+Der Auftrieb hat einen anderen Beiwert
+
+250
+00:15:24.880 --> 00:15:27.760
+und somit beeinflusst es dann
+
+251
+00:15:27.760 --> 00:15:29.760
+auch vorne den Auftrieb
+
+252
+00:15:29.760 --> 00:15:32.540
+oder die Kraft, die entsteht
+
+253
+00:15:32.540 --> 00:15:34.540
+und dann den Auftrieb ergibt.
+
+254
+00:15:34.540 --> 00:15:38.730
+Bei den SFA Prüfungsfragen
+
+255
+00:15:38.730 --> 00:15:39.730
+kommt immer wieder einmal
+
+256
+00:15:39.730 --> 00:15:40.730
+so ein Beispiel.
+
+257
+00:15:40.730 --> 00:15:42.730
+Ja, was passiert denn,
+
+258
+00:15:42.730 --> 00:15:46.870
+wenn wir eine gewisse Fläche haben?
+
+259
+00:15:46.870 --> 00:15:47.870
+Die verursacht einen gewissen
+
+260
+00:15:47.870 --> 00:15:48.870
+Widerstand im Wind.
+
+261
+00:15:48.870 --> 00:15:49.870
+Was passiert, wenn wir jetzt
+
+262
+00:15:49.870 --> 00:15:52.870
+die Fläche verdoppeln oder halbieren?
+
+263
+00:15:52.870 --> 00:15:54.890
+Und dort ist es immer relativ einfach.
+
+264
+00:15:54.890 --> 00:15:55.890
+Es ist immer linear.
+
+265
+00:15:55.890 --> 00:15:56.890
+Also wenn man die Fläche
+
+266
+00:15:56.890 --> 00:15:58.890
+von einem Gegenstand verdoppelt,
+
+267
+00:15:58.890 --> 00:16:00.890
+verdoppelt sich auch der Widerstand.
+
+268
+00:16:00.890 --> 00:16:01.890
+Wenn man sie halbiert,
+
+269
+00:16:01.890 --> 00:16:03.890
+halbiert sich der Widerstand.
+
+270
+00:16:03.890 --> 00:16:05.890
+Wenn sich die Luftdichte halbiert,
+
+271
+00:16:05.890 --> 00:16:06.890
+weil man viel, viel höher oben
+
+272
+00:16:06.890 --> 00:16:08.890
+zum Beispiel starten will
+
+273
+00:16:08.890 --> 00:16:09.890
+mit dem Gleitschirm,
+
+274
+00:16:09.890 --> 00:16:12.420
+dann halbiert sich auch der Widerstand.
+
+275
+00:16:12.420 --> 00:16:15.010
+Ganz, ganz grosses Ausrufezeichen
+
+276
+00:16:15.010 --> 00:16:17.010
+ist bei der Geschwindigkeit.
+
+277
+00:16:17.010 --> 00:16:19.010
+Wenn es um Geschwindigkeit geht,
+
+278
+00:16:19.010 --> 00:16:21.020
+verhalten sich da immer im Quadrat.
+
+279
+00:16:21.020 --> 00:16:23.020
+Also wenn sich die Geschwindigkeit verdoppelt,
+
+280
+00:16:23.020 --> 00:16:25.020
+dann verviert sich alle diese Kräfte.
+
+281
+00:16:25.020 --> 00:16:27.020
+Wenn sich die Geschwindigkeit verdreifacht,
+
+282
+00:16:27.020 --> 00:16:29.020
+verneinfachen sich alle diese Kräfte.
+
+283
+00:16:29.020 --> 00:16:31.020
+Also da müsst ihr immer bei diesen Fragen
+
+284
+00:16:31.020 --> 00:16:32.020
+nicht schauen,
+
+285
+00:16:32.020 --> 00:16:34.020
+dass ihr keine Flüchtigkeitsfehler macht
+
+286
+00:16:34.020 --> 00:16:36.020
+und einfach schnell, schnell anklicken,
+
+287
+00:16:36.020 --> 00:16:38.020
+sondern ganz genau schauen,
+
+288
+00:16:38.020 --> 00:16:40.020
+geht es um irgendeinen Faktor
+
+289
+00:16:40.020 --> 00:16:42.020
+oder geht es um die Geschwindigkeit
+
+290
+00:16:42.020 --> 00:16:43.020
+von dieser Luftströmung.
+
+291
+00:16:43.020 --> 00:16:44.020
+Sehr wichtig,
+
+292
+00:16:44.020 --> 00:16:46.520
+dass man da nicht reingeht.
+
+293
+00:16:46.520 --> 00:16:48.520
+Das ist jetzt gerade so ein Beispiel.
+
+294
+00:16:48.520 --> 00:16:51.110
+Ich lese jetzt nicht die ganze Frage vor,
+
+295
+00:16:51.110 --> 00:16:54.110
+aber wenn man 30 kmh
+
+296
+00:16:54.110 --> 00:16:55.110
+von der Fläche
+
+297
+00:16:55.110 --> 00:16:57.110
+hat,
+
+298
+00:16:57.110 --> 00:16:59.110
+und im zweiten Fall
+
+299
+00:16:59.110 --> 00:17:01.110
+90 kmh,
+
+300
+00:17:01.110 --> 00:17:03.110
+dann ist das eine Verdreifachung
+
+301
+00:17:03.110 --> 00:17:05.110
+der Windgeschwindigkeit
+
+302
+00:17:05.110 --> 00:17:07.110
+und eine Verneinfachung
+
+303
+00:17:07.110 --> 00:17:09.110
+des Widerstandes.
+
+304
+00:17:09.110 --> 00:17:11.110
+Also aus 100 Newton wird dann
+
+305
+00:17:11.110 --> 00:17:13.110
+nicht 300 Newton, wie man es vermuten könnte,
+
+306
+00:17:13.110 --> 00:17:15.110
+sondern die 900.
+
+307
+00:17:15.110 --> 00:17:22.250
+In unserem Meteor-Kurs
+
+308
+00:17:22.250 --> 00:17:24.250
+lernt ihr noch ganz
+
+309
+00:17:24.250 --> 00:17:26.250
+viele wichtige Infos
+
+310
+00:17:26.250 --> 00:17:28.250
+über die Atmosphäre
+
+311
+00:17:28.250 --> 00:17:30.390
+des Gleitschirms.
+
+312
+00:17:30.390 --> 00:17:32.390
+Beim Gleitschirm
+
+313
+00:17:32.390 --> 00:17:34.390
+wirkt sich das aus,
+
+314
+00:17:34.390 --> 00:17:36.390
+indem wir höher oben
+
+315
+00:17:36.390 --> 00:17:38.440
+weniger Luftdichte haben
+
+316
+00:17:38.440 --> 00:17:40.440
+und hier hat es weniger Luftteile
+
+317
+00:17:40.440 --> 00:17:42.440
+und unser Schirm muss sich
+
+318
+00:17:42.440 --> 00:17:44.440
+schneller durch die Luft bewegen,
+
+319
+00:17:44.440 --> 00:17:46.550
+damit er den gleichen Auftrieb erzeugen kann.
+
+320
+00:17:46.550 --> 00:17:48.550
+Das heisst, ganz einfach gesagt,
+
+321
+00:17:48.550 --> 00:17:51.240
+wir brauchen eine höhere Starkgeschwindigkeit.
+
+322
+00:17:51.240 --> 00:17:53.240
+Ihr seht, an dieser Kurve
+
+323
+00:17:53.240 --> 00:17:55.240
+nimmt der Luftdruck mit der Höhe ab.
+
+324
+00:17:55.240 --> 00:17:57.930
+Auf 5500 Meter
+
+325
+00:17:57.930 --> 00:17:59.930
+ist er noch
+
+326
+00:17:59.930 --> 00:18:01.930
+halb so gross
+
+327
+00:18:01.930 --> 00:18:03.930
+und mit dem Luftdruck zusammen
+
+328
+00:18:03.930 --> 00:18:05.930
+nimmt auch die Luftdichte ab,
+
+329
+00:18:05.930 --> 00:18:07.930
+die in unserer Formel vorkommt.
+
+330
+00:18:07.930 --> 00:18:09.930
+Die Luftdichte nimmt erst
+
+331
+00:18:09.930 --> 00:18:11.930
+alle 6600 Meter
+
+332
+00:18:11.930 --> 00:18:13.930
+um die Hälfte ab.
+
+333
+00:18:13.930 --> 00:18:15.930
+Aufpassen, dass ihr es nicht verwechselt.
+
+334
+00:18:15.930 --> 00:18:17.930
+Aber schlussendlich spielt es gerne
+
+335
+00:18:17.930 --> 00:18:19.930
+nicht so eine Rolle, ob es 5500
+
+336
+00:18:19.930 --> 00:18:21.930
+oder 6500 sind,
+
+337
+00:18:21.930 --> 00:18:23.940
+für die Theorieprüfung natürlich schon,
+
+338
+00:18:23.940 --> 00:18:25.940
+aber für die Praxis hat es den gleichen Effekt.
+
+339
+00:18:25.940 --> 00:18:27.940
+Es wirkt aus,
+
+340
+00:18:27.940 --> 00:18:29.940
+dass die Luftdichte abnimmt,
+
+341
+00:18:29.940 --> 00:18:31.940
+es hat weniger Luftteile
+
+342
+00:18:31.940 --> 00:18:33.940
+und irgendwie müssen wir
+
+343
+00:18:33.940 --> 00:18:36.660
+unseren Auftrieb erzeugen,
+
+344
+00:18:36.660 --> 00:18:38.660
+weil das Problem ist,
+
+345
+00:18:38.660 --> 00:18:40.810
+wenn ihr euch die Formel anschaut,
+
+346
+00:18:40.810 --> 00:18:43.050
+der Widerstandsbeiwert bleibt gleich,
+
+347
+00:18:43.050 --> 00:18:45.990
+die Fläche von unserem Schirm
+
+348
+00:18:45.990 --> 00:18:48.230
+bleibt gleich,
+
+349
+00:18:48.230 --> 00:18:50.230
+unser Gewicht bleibt gleich,
+
+350
+00:18:50.230 --> 00:18:52.230
+das heisst, der Auftrieb, den wir erzeugen müssen,
+
+351
+00:18:52.230 --> 00:18:54.310
+damit wir in die Luft kommen,
+
+352
+00:18:54.310 --> 00:18:56.310
+der bleibt gleich, aber unsere Dichte
+
+353
+00:18:56.310 --> 00:18:58.310
+ist nur noch halb so gross
+
+354
+00:18:58.310 --> 00:19:00.310
+und kleiner.
+
+355
+00:19:00.310 --> 00:19:02.310
+Das heisst, dass wir hier vorne beim A
+
+356
+00:19:02.310 --> 00:19:04.310
+beim Auftrieb wieder auf den gleichen Weg kommen,
+
+357
+00:19:04.310 --> 00:19:06.310
+müssen wir irgendwie das kompensieren können
+
+358
+00:19:06.310 --> 00:19:08.310
+und der einzige Weg,
+
+359
+00:19:08.310 --> 00:19:10.310
+wir müssen es über Geschwindigkeit machen.
+
+360
+00:19:10.310 --> 00:19:12.310
+Es kommt uns natürlich zu gut,
+
+361
+00:19:12.310 --> 00:19:14.310
+dass die Geschwindigkeit im Quadrat ist,
+
+362
+00:19:14.310 --> 00:19:16.310
+das heisst, bei halber Luftdichte
+
+363
+00:19:16.310 --> 00:19:18.310
+müssen wir dann nicht doppelt so schnell
+
+364
+00:19:18.310 --> 00:19:20.310
+rennen, sondern nur
+
+365
+00:19:20.310 --> 00:19:22.310
+die Wurzel von 2.
+
+366
+00:19:22.310 --> 00:19:24.310
+Da geht es jetzt aber schon fast wieder
+
+367
+00:19:24.310 --> 00:19:26.310
+etwas zu fest ins Mathematische,
+
+368
+00:19:26.310 --> 00:19:28.310
+das bedeutet, wenn ihr auf einem hohen Berg
+
+369
+00:19:28.310 --> 00:19:30.310
+oben startet, müsst ihr euch bewusst sein,
+
+370
+00:19:30.310 --> 00:19:32.310
+dass ihr viel schneller laufen müsst,
+
+371
+00:19:32.310 --> 00:19:34.310
+was sich ja meistens ein wenig widerspricht,
+
+372
+00:19:34.310 --> 00:19:36.310
+weil man ist vielleicht eh schon müde,
+
+373
+00:19:36.310 --> 00:19:38.310
+wenn man vielleicht zu gerne hoch gelaufen ist,
+
+374
+00:19:38.310 --> 00:19:40.310
+man steht vielleicht im Tiefschnee,
+
+375
+00:19:40.310 --> 00:19:42.310
+vorne geht es vielleicht steil runter,
+
+376
+00:19:42.310 --> 00:19:44.310
+also einfach im Kopf,
+
+377
+00:19:44.310 --> 00:19:46.310
+wir brauchen mehr Geschwindigkeit,
+
+378
+00:19:46.310 --> 00:19:49.030
+mehr Geschwindigkeit bedeutet auch eine weitere Laufstrecke.
+
+379
+00:19:49.030 --> 00:19:51.030
+Auf der anderen Seite sollte man ja auch
+
+380
+00:19:51.030 --> 00:19:53.030
+die Vorteile nicht vergessen.
+
+381
+00:19:53.030 --> 00:19:55.030
+Es mag dafür auch ein bisschen
+
+382
+00:19:55.030 --> 00:19:57.030
+mehr Wind leiden, wenn die Luft
+
+383
+00:19:57.030 --> 00:19:59.030
+abnimmt, also
+
+384
+00:19:59.030 --> 00:20:01.030
+es hat dann auch Vorteile, dass man vielleicht
+
+385
+00:20:01.030 --> 00:20:03.030
+eben bei einem 30er Wind als erfahrener
+
+386
+00:20:03.030 --> 00:20:05.030
+Pilot gleich noch starten kann, wo es
+
+387
+00:20:05.030 --> 00:20:07.030
+dann eben auf 1500 Meter unten
+
+388
+00:20:07.030 --> 00:20:09.030
+mit 30 dann schon ziemlich anspruchsvoll
+
+389
+00:20:09.030 --> 00:20:11.030
+wird und
+
+390
+00:20:11.030 --> 00:20:13.030
+ein Start nicht mehr möglich wäre.
+
+391
+00:20:13.030 --> 00:20:18.440
+Jetzt kommen wir nochmal
+
+392
+00:20:18.440 --> 00:20:20.440
+schnell zu diesen Widerstandsbeiwerten,
+
+393
+00:20:20.440 --> 00:20:22.440
+den CW-Werten.
+
+394
+00:20:22.440 --> 00:20:24.440
+Wie gesagt, es kommt gerne darauf an,
+
+395
+00:20:24.440 --> 00:20:26.440
+was für ein Gegenstand das hier ist,
+
+396
+00:20:26.440 --> 00:20:28.440
+ob es ein Flügel ist oder irgendetwas.
+
+397
+00:20:28.440 --> 00:20:31.160
+Wichtig ist, wenn man
+
+398
+00:20:31.160 --> 00:20:34.460
+die Gegenstände vergleicht,
+
+399
+00:20:34.460 --> 00:20:36.460
+dass man immer von der gleichen
+
+400
+00:20:36.460 --> 00:20:38.460
+Stirnfläche ausgeht.
+
+401
+00:20:38.460 --> 00:20:40.460
+Jetzt hier, wenn man die vergleicht,
+
+402
+00:20:40.460 --> 00:20:43.400
+geben die alle einen gewissen
+
+403
+00:20:43.400 --> 00:20:45.400
+Widerstand, wenn sie mit der Luft angeströmt werden,
+
+404
+00:20:45.400 --> 00:20:47.400
+aber die einen eben viel mehr
+
+405
+00:20:47.400 --> 00:20:49.400
+wie die anderen. Und das kommt eben
+
+406
+00:20:49.400 --> 00:20:51.400
+auf den CW-Wert links an.
+
+407
+00:20:51.400 --> 00:20:53.400
+Ihr seht, also zum Beispiel
+
+408
+00:20:53.400 --> 00:20:55.400
+die Halbschale ist 13 Mal,
+
+409
+00:20:55.400 --> 00:20:57.400
+die macht 13 Mal mehr Widerstand
+
+410
+00:20:57.400 --> 00:20:59.400
+wie dort der Tropfen
+
+411
+00:20:59.400 --> 00:21:01.540
+unten in der Liste,
+
+412
+00:21:01.540 --> 00:21:03.540
+der nur 0,1 CW-Wert hat.
+
+413
+00:21:03.540 --> 00:21:05.540
+Und hier ist auch
+
+414
+00:21:05.540 --> 00:21:07.590
+zum Teil
+
+415
+00:21:07.590 --> 00:21:10.090
+eine Theoriefrage,
+
+416
+00:21:10.090 --> 00:21:12.230
+wie vielmal kleiner ist
+
+417
+00:21:12.230 --> 00:21:14.230
+der CW-Wert 0,1
+
+418
+00:21:14.230 --> 00:21:16.230
+im Vergleich zu einem Gegenstand
+
+419
+00:21:16.230 --> 00:21:18.230
+mit einem CW-Wert 1.
+
+420
+00:21:18.230 --> 00:21:20.230
+Und dann wäre die Antwort, es ist 10 Mal kleiner.
+
+421
+00:21:23.510 --> 00:21:25.510
+Hier finde ich noch spannend,
+
+422
+00:21:25.510 --> 00:21:27.800
+wenn man den Vergleich
+
+423
+00:21:27.800 --> 00:21:29.800
+zu der Natur macht.
+
+424
+00:21:29.800 --> 00:21:32.460
+Die Natur sucht sich ja eigentlich immer
+
+425
+00:21:32.460 --> 00:21:34.460
+den Weg vom geringsten Widerstand.
+
+426
+00:21:34.460 --> 00:21:36.460
+Ob es bei einem Blitzschlag ist
+
+427
+00:21:36.460 --> 00:21:38.460
+oder bei einem Fluss, der sich durch die Landschaft schlängelt.
+
+428
+00:21:38.460 --> 00:21:40.460
+Es geht eigentlich immer so
+
+429
+00:21:40.460 --> 00:21:42.460
+der Gravitation nach und immer
+
+430
+00:21:42.460 --> 00:21:44.460
+dort, wo es halt am ringsten geht.
+
+431
+00:21:44.460 --> 00:21:46.460
+Und wenn ihr das mal ganz genau anschaut,
+
+432
+00:21:46.460 --> 00:21:48.460
+sieht es nämlich aus wie
+
+433
+00:21:48.460 --> 00:21:50.460
+ein Regentropfen. Und der Regentropfen
+
+434
+00:21:50.460 --> 00:21:52.460
+keilt ja auch nicht so vom Himmel
+
+435
+00:21:52.460 --> 00:21:54.460
+irgendwie wie als Brett, sondern
+
+436
+00:21:54.460 --> 00:21:56.460
+der keilt eben so vom Himmel, wie er
+
+437
+00:21:56.460 --> 00:21:58.460
+möglichst wenig Widerstand hat und möglichst
+
+438
+00:21:58.460 --> 00:22:00.460
+Ring zu Boden keilen kann.
+
+439
+00:22:00.460 --> 00:22:02.600
+Und dieses Wissen hat man sich
+
+440
+00:22:02.600 --> 00:22:04.600
+dann schon früh eigentlich
+
+441
+00:22:04.600 --> 00:22:06.600
+zunutze gemacht mit diesen
+
+442
+00:22:06.600 --> 00:22:08.600
+Windmessungen. Da hat man nämlich
+
+443
+00:22:08.600 --> 00:22:10.600
+Halbschalen. Wenn jetzt da alles
+
+444
+00:22:10.600 --> 00:22:12.600
+Kugeln wären oder alles so Scheiben wären
+
+445
+00:22:12.600 --> 00:22:15.190
+bei so einem Windmesser,
+
+446
+00:22:15.190 --> 00:22:17.190
+würde sich der nämlich gerne nicht bewegen.
+
+447
+00:22:17.190 --> 00:22:19.190
+Weil dann wäre die Kraft auf allen Seiten ja gleich gross.
+
+448
+00:22:19.190 --> 00:22:21.190
+Dadurch, dass es aber Halbschalen sind,
+
+449
+00:22:21.190 --> 00:22:23.190
+haben wir den Wind, der da drinnen
+
+450
+00:22:23.190 --> 00:22:25.190
+bläst, hat verursacht viel
+
+451
+00:22:25.190 --> 00:22:27.190
+mehr Widerstand, wie der Wind, der da drinnen
+
+452
+00:22:27.190 --> 00:22:29.190
+bläst. Und dadurch fängt dann
+
+453
+00:22:29.190 --> 00:22:31.190
+der Rädchen auch an zu drehen.
+
+454
+00:22:31.190 --> 00:22:33.190
+Und kann dann umgerechnet werden
+
+455
+00:22:33.190 --> 00:22:35.240
+in eine gewisse
+
+456
+00:22:35.240 --> 00:22:38.760
+Schwierigkeit. Auch hier wieder die Formel
+
+457
+00:22:38.760 --> 00:22:42.120
+unten dran, die dann den Widerstand ergibt.
+
+458
+00:22:42.120 --> 00:22:46.380
+Wenn wir fliegen,
+
+459
+00:22:46.380 --> 00:22:48.380
+haben wir immer wieder gewisse
+
+460
+00:22:48.380 --> 00:22:50.380
+Anstellwinkelveränderungen.
+
+461
+00:22:50.380 --> 00:22:52.380
+Normalerweise, wenn man einfach den Schirm
+
+462
+00:22:52.380 --> 00:22:54.380
+fliegen lässt, dann fliegt er ja
+
+463
+00:22:54.380 --> 00:22:56.380
+im Trim Speed oder in diesem
+
+464
+00:22:56.380 --> 00:22:58.380
+Anstellwinkel, wie der Schirm
+
+465
+00:22:58.380 --> 00:23:00.380
+gebaut ist. Oder eben je nach Alter,
+
+466
+00:23:00.380 --> 00:23:02.380
+wenn er altert und die Leinenlängen nicht mehr
+
+467
+00:23:02.380 --> 00:23:04.380
+ganz stimmen, dann wird der Anstellwinkel
+
+468
+00:23:04.380 --> 00:23:06.380
+vielleicht etwas grösser. Aber man könnte es ja auch
+
+469
+00:23:06.380 --> 00:23:08.380
+beeinflussen, indem man zum Beispiel
+
+470
+00:23:08.380 --> 00:23:10.380
+anbremst oder beschleunigt.
+
+471
+00:23:10.380 --> 00:23:12.380
+Wenn man anbremst, wird der Anstellwinkel
+
+472
+00:23:12.380 --> 00:23:14.380
+grösser, weil man zieht hier hinten
+
+473
+00:23:14.380 --> 00:23:16.380
+die Kante runter und die Verbindungslinie
+
+474
+00:23:16.380 --> 00:23:18.380
+nachher vom hintersten Punkt
+
+475
+00:23:18.380 --> 00:23:20.380
+zum vordersten Punkt
+
+476
+00:23:20.380 --> 00:23:22.380
+die sich dann natürlich
+
+477
+00:23:22.380 --> 00:23:24.380
+massiv verändert.
+
+478
+00:23:24.380 --> 00:23:26.380
+Und auch die Fluggeschwindigkeit
+
+479
+00:23:26.380 --> 00:23:28.380
+sinkt mehr und dadurch wird
+
+480
+00:23:28.380 --> 00:23:31.220
+dann einfach der Anstellwinkel grösser.
+
+481
+00:23:31.220 --> 00:23:33.220
+Das sieht dann ungefähr so aus.
+
+482
+00:23:33.220 --> 00:23:35.220
+Der Schirm fliegt langsamer,
+
+483
+00:23:35.220 --> 00:23:37.220
+CW- und CA-Werte
+
+484
+00:23:37.220 --> 00:23:39.220
+werden grösser. Das ist ganz wichtig
+
+485
+00:23:39.220 --> 00:23:41.220
+auch für die Theorieprüfung, dass ihr euch da
+
+486
+00:23:41.220 --> 00:23:43.220
+merkt, wenn der Anstellwinkel grösser wird,
+
+487
+00:23:43.220 --> 00:23:45.240
+vergrössern sich die Werte.
+
+488
+00:23:45.240 --> 00:23:48.650
+Umgekehrt, wenn wir
+
+489
+00:23:48.650 --> 00:23:50.650
+den Schirm beschleunigen und
+
+490
+00:23:50.650 --> 00:23:52.650
+der Anstellwinkel kleiner wird,
+
+491
+00:23:52.650 --> 00:23:54.650
+dann wird der CW- und CA-Wert
+
+492
+00:23:54.650 --> 00:23:57.460
+kleiner.
+
+493
+00:23:57.460 --> 00:23:59.460
+Ganz wichtig ist zu wissen, wir reden eigentlich
+
+494
+00:23:59.460 --> 00:24:01.460
+immer vom stationären Gleitflug.
+
+495
+00:24:01.460 --> 00:24:03.460
+Also ob wir jetzt stark anbremst sind
+
+496
+00:24:03.460 --> 00:24:05.460
+oder beschleunigt sind, es ist immer
+
+497
+00:24:05.460 --> 00:24:07.460
+stationär und der Schirm fliegt
+
+498
+00:24:07.460 --> 00:24:09.460
+eigentlich auf einer Linie im stabilen
+
+499
+00:24:09.460 --> 00:24:11.460
+Zustand. Und dann im
+
+500
+00:24:11.460 --> 00:24:13.460
+stationären Gleitflug ist der gelbe Pfeil
+
+501
+00:24:13.460 --> 00:24:15.460
+und der violette Pfeil, also unsere Kraft,
+
+502
+00:24:15.460 --> 00:24:17.460
+unsere Luftkraftresultierende
+
+503
+00:24:17.460 --> 00:24:19.460
+und Gewichtskraft
+
+504
+00:24:19.460 --> 00:24:21.580
+immer gleich gross.
+
+505
+00:24:21.580 --> 00:24:23.580
+Wenn wir jetzt aus voller Fahrt kommen
+
+506
+00:24:23.580 --> 00:24:25.580
+und anbremsen, dann wisst ihr ja,
+
+507
+00:24:25.580 --> 00:24:27.580
+dass der Schirm anfängt zu fliehen,
+
+508
+00:24:27.580 --> 00:24:29.580
+Höhe umbaut. In dieser Phase
+
+509
+00:24:29.580 --> 00:24:31.580
+ist unsere Luftkraftresultierende
+
+510
+00:24:31.580 --> 00:24:33.580
+schon einen Moment lang etwas
+
+511
+00:24:33.580 --> 00:24:35.580
+grösser. Dadurch
+
+512
+00:24:35.580 --> 00:24:37.580
+machen wir Auftrieb und gewinnen
+
+513
+00:24:37.580 --> 00:24:39.580
+auch Höhe kurzzeitig. Aber
+
+514
+00:24:39.580 --> 00:24:41.580
+nachher pendelt sich er wieder ein,
+
+515
+00:24:41.580 --> 00:24:43.580
+und dann sind wir wieder in einem
+
+516
+00:24:43.580 --> 00:24:45.580
+stationären Gleitflug. Und dann sind
+
+517
+00:24:45.580 --> 00:24:47.580
+die beiden Pfeile, gelb und violett,
+
+518
+00:24:47.580 --> 00:24:49.580
+wieder gleich gross und wir fliegen
+
+519
+00:24:49.580 --> 00:24:53.800
+ja, stabil und stationär hierher.
+
+520
+00:24:53.800 --> 00:24:55.800
+Dann kommen wir zum Staupunkt.
+
+521
+00:24:55.800 --> 00:24:57.800
+Der Staupunkt ist der Punkt am Schirm,
+
+522
+00:24:57.800 --> 00:24:59.800
+wo sich die Luft
+
+523
+00:24:59.800 --> 00:25:01.800
+entscheiden muss, gehe ich jetzt oben
+
+524
+00:25:01.800 --> 00:25:03.800
+durch oder gehe ich unten durch.
+
+525
+00:25:03.800 --> 00:25:05.800
+Das ist eigentlich so der Scheitelpunkt,
+
+526
+00:25:05.800 --> 00:25:07.800
+wo sich die Strömung aufteilt.
+
+527
+00:25:07.800 --> 00:25:09.800
+Und dieser Punkt verschiebt sich natürlich,
+
+528
+00:25:09.800 --> 00:25:11.800
+der bleibt nicht immer gleich,
+
+529
+00:25:11.800 --> 00:25:13.800
+um wieder mit dem Anstellwinkel
+
+530
+00:25:13.800 --> 00:25:16.490
+zu tun. Diesen Punkt
+
+531
+00:25:16.490 --> 00:25:18.700
+seht ihr, wenn ich hier
+
+532
+00:25:18.700 --> 00:25:20.840
+den Anstellwinkel vergrössere,
+
+533
+00:25:20.840 --> 00:25:22.840
+wandert dieser Punkt Richtung
+
+534
+00:25:22.840 --> 00:25:24.840
+Austrittskante hinterher.
+
+535
+00:25:24.840 --> 00:25:26.840
+Und hier seht ihr auch, wieso
+
+536
+00:25:26.840 --> 00:25:28.840
+beim Gleitschirm Zellöffnungen
+
+537
+00:25:28.840 --> 00:25:30.920
+so im vorderen Bereich
+
+538
+00:25:30.920 --> 00:25:32.920
+unten dran sind und nicht einfach
+
+539
+00:25:32.920 --> 00:25:34.920
+gerade vorne oder oben.
+
+540
+00:25:34.920 --> 00:25:36.970
+Weil in diesem Bereich, in dem wir
+
+541
+00:25:36.970 --> 00:25:39.020
+eigentlich fliegen, haben wir unseren
+
+542
+00:25:39.020 --> 00:25:41.450
+Staupunkt immer ziemlich
+
+543
+00:25:41.450 --> 00:25:43.450
+genau in diesem Bereich, in dem auch
+
+544
+00:25:43.450 --> 00:25:45.450
+Zellöffnungen sind, was absolut Sinn macht.
+
+545
+00:25:45.450 --> 00:25:48.260
+Der Ablösepunkt, der verhält sich
+
+546
+00:25:48.260 --> 00:25:50.260
+genau umgekehrt, also wenn man
+
+547
+00:25:50.260 --> 00:25:52.260
+mehr anbremst, dann wandert
+
+548
+00:25:52.260 --> 00:25:54.260
+der Ablösepunkt, wo eben die Strömung
+
+549
+00:25:54.260 --> 00:25:56.260
+nicht mehr am Profil folgen kann, immer weiter
+
+550
+00:25:56.260 --> 00:25:58.260
+Richtung Eintrittskante hoch.
+
+551
+00:25:58.260 --> 00:26:00.260
+Bis dann die Strömung irgendwann
+
+552
+00:26:00.260 --> 00:26:02.260
+hier oben komplett abreisst,
+
+553
+00:26:02.260 --> 00:26:04.260
+der Schirm keinen Auftrieb mehr erzeugt,
+
+554
+00:26:04.260 --> 00:26:06.260
+sich entleert
+
+555
+00:26:06.260 --> 00:26:08.260
+und wir in einem Full-Stall sind.
+
+556
+00:26:08.260 --> 00:26:12.070
+Genau, das ist schon das,
+
+557
+00:26:12.070 --> 00:26:14.070
+was passiert mit dem Staupunkt und mit dem
+
+558
+00:26:14.070 --> 00:26:16.150
+Ablösepunkt, wenn wir unseren
+
+559
+00:26:16.150 --> 00:26:18.150
+Anstellwinkel verändern und stark
+
+560
+00:26:18.150 --> 00:26:21.510
+anbremsen. Dann kommen wir hier schon
+
+561
+00:26:21.510 --> 00:26:23.530
+zum Randwirbel und
+
+562
+00:26:23.530 --> 00:26:25.530
+zum Widerstand. Wir haben jetzt viel
+
+563
+00:26:25.530 --> 00:26:27.530
+vom Widerstand gesprochen, jetzt schauen wir uns
+
+564
+00:26:27.530 --> 00:26:29.530
+das ganze System an und wie dann der Widerstand
+
+565
+00:26:29.530 --> 00:26:31.530
+ungefähr am Gleitschirm, am fliegenden
+
+566
+00:26:31.530 --> 00:26:34.020
+System verteilt ist.
+
+567
+00:26:34.020 --> 00:26:36.020
+Der Profilwiderstand, wie Sie hier
+
+568
+00:26:36.020 --> 00:26:38.020
+sehen, ist etwa 20%.
+
+569
+00:26:38.020 --> 00:26:40.230
+Die Leine sind etwa 20%,
+
+570
+00:26:40.230 --> 00:26:42.230
+der Pilot, die Pilotin ist etwa
+
+571
+00:26:42.230 --> 00:26:44.230
+20% und der grösste
+
+572
+00:26:44.230 --> 00:26:46.230
+Teil, da kann man sich irgendwie
+
+573
+00:26:46.230 --> 00:26:48.230
+schwierig vorstellen, weil das ist das,
+
+574
+00:26:48.230 --> 00:26:50.230
+was man nicht sieht vom Auge,
+
+575
+00:26:50.230 --> 00:26:52.230
+das ist der induzierte Widerstand.
+
+576
+00:26:52.230 --> 00:26:54.230
+Und der induzierte Widerstand entsteht
+
+577
+00:26:54.230 --> 00:26:56.230
+am Flügelende, weil
+
+578
+00:26:56.230 --> 00:26:58.410
+wir haben ja den Überdruck
+
+579
+00:26:58.410 --> 00:27:01.030
+und den Unterdruck und diese
+
+580
+00:27:01.030 --> 00:27:03.050
+Druckausgleichen wollen sich irgendwie
+
+581
+00:27:03.050 --> 00:27:05.050
+ausgleichen.
+
+582
+00:27:05.050 --> 00:27:07.050
+So ein Ungleichgewicht ist
+
+583
+00:27:07.050 --> 00:27:09.050
+nie gut in der Natur
+
+584
+00:27:09.050 --> 00:27:11.050
+oder in der Physik, das will sich immer
+
+585
+00:27:11.050 --> 00:27:13.050
+irgendwie ausgleichen und das gibt
+
+586
+00:27:13.050 --> 00:27:15.190
+am Flügelende die Verwirbelung,
+
+587
+00:27:15.190 --> 00:27:17.190
+die zum Teil auch relativ stark
+
+588
+00:27:17.190 --> 00:27:19.190
+sein können, also wenn
+
+589
+00:27:19.190 --> 00:27:21.190
+ihr jetzt an einem Gleitschirm
+
+590
+00:27:21.190 --> 00:27:23.190
+ganz nahe hinan fliegt, dann merkt
+
+591
+00:27:23.190 --> 00:27:25.190
+ihr, wie es ein wenig schütteln kann.
+
+592
+00:27:25.190 --> 00:27:27.190
+In der Landung darum auf jeden Fall nicht
+
+593
+00:27:27.190 --> 00:27:29.190
+empfohlen, um nahe aufeinander zu fliegen
+
+594
+00:27:29.190 --> 00:27:31.190
+und lieber etwas Abstand zu halten.
+
+595
+00:27:31.190 --> 00:27:33.190
+Je schwerer das Fluggerät ist,
+
+596
+00:27:33.190 --> 00:27:35.190
+ob es ein Gleitschirm ist oder
+
+597
+00:27:35.190 --> 00:27:37.190
+ein Jumbojet,
+
+598
+00:27:37.190 --> 00:27:39.240
+desto heftiger sind die Randwirbel.
+
+599
+00:27:39.240 --> 00:27:41.800
+Das heisst, wenn ihr jetzt in einer Landung
+
+600
+00:27:41.800 --> 00:27:43.800
+fliegt, hinter einem Tandem
+
+601
+00:27:43.800 --> 00:27:45.800
+fliegt, müsst ihr ganz vorsichtig sein,
+
+602
+00:27:45.800 --> 00:27:47.800
+weil dort sind die Wirbel
+
+603
+00:27:47.800 --> 00:27:49.800
+deutlich grösser, wie bei einem
+
+604
+00:27:49.800 --> 00:27:53.370
+Soloschirm.
+
+605
+00:27:53.370 --> 00:27:55.370
+Unser Ziel, wir haben ja am Anfang gesagt,
+
+606
+00:27:55.370 --> 00:27:57.370
+der Idealfall wäre eigentlich, dass wir
+
+607
+00:27:57.370 --> 00:27:59.370
+gar keinen Widerstand haben und nur Auftrieb.
+
+608
+00:27:59.370 --> 00:28:01.370
+Wie kommen wir dem etwas
+
+609
+00:28:01.370 --> 00:28:03.370
+näher? Beim Profil
+
+610
+00:28:03.370 --> 00:28:05.370
+können wir etwas herausholen,
+
+611
+00:28:05.370 --> 00:28:07.450
+dadurch, dass wir
+
+612
+00:28:07.450 --> 00:28:09.450
+den Schirm sehen,
+
+613
+00:28:09.450 --> 00:28:11.450
+hat durch die Zellen ganz viele
+
+614
+00:28:11.450 --> 00:28:13.450
+Wellen und Hügel, wo
+
+615
+00:28:13.450 --> 00:28:15.450
+eigentlich, wenn man Flugzeuge anschaut,
+
+616
+00:28:15.450 --> 00:28:17.450
+wo die Fläche schön glatt ist, ist das ja
+
+617
+00:28:17.450 --> 00:28:19.450
+eigentlich ineffizient und nicht so günstig.
+
+618
+00:28:19.450 --> 00:28:22.140
+Darum seht ihr auch Hochleistungsschirme
+
+619
+00:28:22.140 --> 00:28:24.140
+oder auch Intermediatschirme,
+
+620
+00:28:24.140 --> 00:28:26.140
+je weiter hoch das geht in der Schwierigkeitsklasse,
+
+621
+00:28:26.140 --> 00:28:28.140
+desto mehr Zellen haben
+
+622
+00:28:28.140 --> 00:28:30.140
+diese Schirme. Und diese Zellen bringen
+
+623
+00:28:30.140 --> 00:28:32.140
+eigentlich hin, dass eben diese Wellen
+
+624
+00:28:32.140 --> 00:28:34.140
+möglichst
+
+625
+00:28:34.140 --> 00:28:36.310
+flach ausfallen, also lieber
+
+626
+00:28:36.310 --> 00:28:38.310
+ganz viele, ganz kleine Wellen, als
+
+627
+00:28:38.310 --> 00:28:40.420
+grosse Hügel. Da kommt man
+
+628
+00:28:40.420 --> 00:28:42.420
+viel näher an den angestrebten
+
+629
+00:28:42.420 --> 00:28:45.140
+Idealprofil. Bedingt aber auch,
+
+630
+00:28:45.140 --> 00:28:47.140
+dass man dann das Gerät wieder beherrschen kann,
+
+631
+00:28:47.140 --> 00:28:49.140
+weil es dann einfach viel schwieriger ist,
+
+632
+00:28:49.140 --> 00:28:51.140
+zu fliegen. Den induzierten Widerstand
+
+633
+00:28:51.140 --> 00:28:53.140
+holt man raus über die Streckung.
+
+634
+00:28:53.140 --> 00:28:55.140
+Bei den Flugzeugen gibt es auch
+
+635
+00:28:55.140 --> 00:28:57.140
+diese Winglets, die man sieht,
+
+636
+00:28:57.140 --> 00:28:59.140
+die am Spitz des Flügels so hochgehen,
+
+637
+00:28:59.140 --> 00:29:01.140
+um diese Verwirbelung zu vermindern.
+
+638
+00:29:01.140 --> 00:29:03.140
+Beim Gleitschirm holt man es vor allem
+
+639
+00:29:03.140 --> 00:29:05.140
+über die Streckung raus.
+
+640
+00:29:05.140 --> 00:29:07.140
+Das heisst, auf die Streckung kommen wir
+
+641
+00:29:07.140 --> 00:29:09.140
+dann später noch, eigentlich
+
+642
+00:29:09.140 --> 00:29:11.140
+einfach eine weitere Spannweite und
+
+643
+00:29:11.140 --> 00:29:13.140
+eine kleinere Flügeltiefe. Also,
+
+644
+00:29:13.140 --> 00:29:15.140
+je mehr der Gleitschirm so wie ein
+
+645
+00:29:15.140 --> 00:29:17.140
+Sichler im Himmel ist und so schön
+
+646
+00:29:17.140 --> 00:29:19.140
+fein aussieht, desto
+
+647
+00:29:19.140 --> 00:29:21.140
+optimierter ist der induzierte Widerstand.
+
+648
+00:29:21.140 --> 00:29:23.740
+Das nächste ist die Leine.
+
+649
+00:29:23.740 --> 00:29:25.740
+Da will man natürlich im Idealfall
+
+650
+00:29:25.740 --> 00:29:27.740
+so wenig wie möglich und möglichst
+
+651
+00:29:27.740 --> 00:29:29.980
+dünne Leinen.
+
+652
+00:29:29.980 --> 00:29:31.980
+Das bringt auch wieder mit sich,
+
+653
+00:29:31.980 --> 00:29:33.980
+dass es mehr Knöpfe gibt, dass es
+
+654
+00:29:33.980 --> 00:29:35.980
+anspruchsvoller ist zum Fliegen bei einer
+
+655
+00:29:35.980 --> 00:29:38.060
+Störung und so weiter.
+
+656
+00:29:38.060 --> 00:29:40.060
+Also, ihr seht, alle diese Faktoren
+
+657
+00:29:40.060 --> 00:29:42.710
+bedeuten eigentlich, dass
+
+658
+00:29:42.710 --> 00:29:44.710
+der Schirm schwieriger wird zum Fliegen
+
+659
+00:29:44.710 --> 00:29:46.710
+und viel mehr Kenntnis braucht.
+
+660
+00:29:46.710 --> 00:29:49.400
+Und zu guter Letzt
+
+661
+00:29:49.400 --> 00:29:51.450
+Pilotin
+
+662
+00:29:51.450 --> 00:29:53.450
+macht natürlich auch ganz viel aus,
+
+663
+00:29:53.450 --> 00:29:55.450
+ob wir aufrecht drinnen sitzen
+
+664
+00:29:55.450 --> 00:29:57.450
+und eine grosse Angriffsfläche
+
+665
+00:29:57.450 --> 00:29:59.450
+für den Wind haben, oder ob wir
+
+666
+00:29:59.450 --> 00:30:01.450
+dünne liegen, möglichst klein sind.
+
+667
+00:30:01.450 --> 00:30:03.450
+Das macht dann auch gleich wieder
+
+668
+00:30:03.450 --> 00:30:05.450
+ein paar Prozent aus, die wir
+
+669
+00:30:05.450 --> 00:30:07.530
+optimieren können. Hier noch schnell
+
+670
+00:30:07.530 --> 00:30:09.530
+aufgezeichnet, wie so ein Liegegurtzeug
+
+671
+00:30:09.530 --> 00:30:11.530
+ungefähr im Windkanal aussehen könnte.
+
+672
+00:30:11.530 --> 00:30:13.530
+Also, auch hier seht ihr vorne
+
+673
+00:30:13.530 --> 00:30:15.530
+möglichst rund, dass
+
+674
+00:30:15.530 --> 00:30:17.530
+die Luft, die aufgeprallt ist,
+
+675
+00:30:17.530 --> 00:30:19.530
+diese Teile schön
+
+676
+00:30:19.530 --> 00:30:21.530
+rundherum strömen, wie ein Regentropfen.
+
+677
+00:30:21.530 --> 00:30:23.530
+Danach läuft es schön hinterher.
+
+678
+00:30:23.530 --> 00:30:26.180
+Im Idealfall
+
+679
+00:30:26.180 --> 00:30:28.330
+läuft das Gurtzeug hinten
+
+680
+00:30:28.330 --> 00:30:30.330
+so in die Spitze aus
+
+681
+00:30:30.330 --> 00:30:32.330
+und ist nicht gleich scharfkantig,
+
+682
+00:30:32.330 --> 00:30:34.330
+wo die Strömung abrisst, sondern
+
+683
+00:30:34.330 --> 00:30:36.330
+läuft wirklich in den Schlitz
+
+684
+00:30:36.330 --> 00:30:38.330
+oder in der Spitze hinterher aus
+
+685
+00:30:38.330 --> 00:30:40.410
+und geht dann hinten wieder zusammen,
+
+686
+00:30:40.410 --> 00:30:42.410
+sodass hier hinten möglichst wenig
+
+687
+00:30:42.410 --> 00:30:44.410
+Verwirbelungen stattfinden.
+
+688
+00:30:44.410 --> 00:30:46.410
+Und so kann man eben auch hier
+
+689
+00:30:46.410 --> 00:30:48.410
+noch das Maximum herausholen.
+
+690
+00:30:48.410 --> 00:30:50.410
+Also, der Beisack ist nicht nur,
+
+691
+00:30:50.410 --> 00:30:52.410
+dass es schön bequem ist und auch warm
+
+692
+00:30:52.410 --> 00:30:54.410
+gibt, es ist wirklich auch
+
+693
+00:30:54.410 --> 00:30:56.410
+aerodynamisch ein ziemlich grosser
+
+694
+00:30:56.410 --> 00:30:59.000
+Unterschied, aber auch wieder
+
+695
+00:30:59.000 --> 00:31:01.780
+anspruchsvoller zum Fliegen.
+
+696
+00:31:01.780 --> 00:31:03.830
+Dann kommen wir jetzt zur Begriffserklärung.
+
+697
+00:31:03.830 --> 00:31:05.830
+Als erstes reden wir
+
+698
+00:31:05.830 --> 00:31:07.830
+über die Spannweite
+
+699
+00:31:07.830 --> 00:31:09.830
+und wichtig ist noch zu wissen, dass
+
+700
+00:31:09.830 --> 00:31:12.380
+alle diese
+
+701
+00:31:12.380 --> 00:31:14.380
+Masse, die wir hier oben
+
+702
+00:31:14.380 --> 00:31:16.380
+sprechen, gibt es beim Gleitschirm
+
+703
+00:31:16.380 --> 00:31:18.380
+immer ausgelegt und projiziert.
+
+704
+00:31:18.380 --> 00:31:20.380
+Weil ausgelegt ist auch ein
+
+705
+00:31:20.380 --> 00:31:22.380
+Schirm ja viel grösser, wie
+
+706
+00:31:22.380 --> 00:31:24.380
+wenn er in der Luft ist.
+
+707
+00:31:24.380 --> 00:31:26.380
+Also, die äussersten beiden Punkte
+
+708
+00:31:26.380 --> 00:31:28.380
+gemessen sind in der Luft etwas kleiner,
+
+709
+00:31:28.380 --> 00:31:30.380
+als wenn der Schirm flach am Boden liegt.
+
+710
+00:31:30.380 --> 00:31:32.380
+Und das, was schlussendlich aerodynamisch
+
+711
+00:31:32.380 --> 00:31:34.380
+interessant ist und diese Fläche,
+
+712
+00:31:34.380 --> 00:31:36.580
+die wir in der Luft gemessen
+
+713
+00:31:36.580 --> 00:31:38.580
+über dem Kopf haben und Auftrieb
+
+714
+00:31:38.580 --> 00:31:40.580
+erzeugt, ist immer die projizierte
+
+715
+00:31:40.580 --> 00:31:42.760
+Fläche. Aber da
+
+716
+00:31:42.760 --> 00:31:44.760
+muss man manchmal aufpassen,
+
+717
+00:31:44.760 --> 00:31:46.760
+dass man vom Gleichen spricht, wenn man
+
+718
+00:31:46.760 --> 00:31:48.760
+sagt, ah ja, hast du den 20m²
+
+719
+00:31:48.760 --> 00:31:50.760
+und der andere
+
+720
+00:31:50.760 --> 00:31:52.760
+sagt, nein, der 18er und wenn es eben nicht
+
+721
+00:31:52.760 --> 00:31:54.760
+von der gleichen Masse spricht,
+
+722
+00:31:54.760 --> 00:31:56.810
+dann ist es unter Umständen
+
+723
+00:31:56.810 --> 00:31:58.810
+eben gleich der Gleichschirm.
+
+724
+00:31:58.810 --> 00:32:01.370
+Weil der eine von der ausgelegten
+
+725
+00:32:01.370 --> 00:32:03.370
+Spannweite oder Fläche und der andere
+
+726
+00:32:03.370 --> 00:32:05.370
+von der projizierten spricht.
+
+727
+00:32:05.370 --> 00:32:07.370
+Dann sind wir hier bei der Flügeltiefe.
+
+728
+00:32:07.370 --> 00:32:09.700
+Hier spricht man eigentlich immer von
+
+729
+00:32:09.700 --> 00:32:11.700
+der mittleren Flügeltiefe, weil
+
+730
+00:32:11.700 --> 00:32:13.700
+die Flügeltiefe beim Stabilo hier
+
+731
+00:32:13.700 --> 00:32:15.700
+ist ja viel minimaler
+
+732
+00:32:15.700 --> 00:32:17.700
+als in der Mitte und darum
+
+733
+00:32:17.700 --> 00:32:19.700
+berechnet man dort einen Durchschnitt
+
+734
+00:32:19.700 --> 00:32:21.700
+und spricht dann eigentlich von dieser
+
+735
+00:32:21.700 --> 00:32:24.650
+mittleren Flügeltiefe.
+
+736
+00:32:24.650 --> 00:32:26.650
+Die Flügeltiefe ist eben da,
+
+737
+00:32:26.650 --> 00:32:28.650
+die einen Schirm schlussendlich effizienter
+
+738
+00:32:28.650 --> 00:32:30.650
+macht, weil, wie wir gesehen haben,
+
+739
+00:32:30.650 --> 00:32:32.650
+ist ja der induzierte Widerstand der
+
+740
+00:32:32.650 --> 00:32:34.650
+grösste Widerstand und mit der Strecke
+
+741
+00:32:34.650 --> 00:32:36.650
+kann man eben den etwas runterholen.
+
+742
+00:32:36.650 --> 00:32:39.370
+Das ist das Verhältnis von der Spannweite
+
+743
+00:32:39.370 --> 00:32:41.450
+zu der mittleren Flügeltiefe.
+
+744
+00:32:41.450 --> 00:32:43.560
+Die mittlere Flügeltiefe kann man
+
+745
+00:32:43.560 --> 00:32:45.560
+nicht einfach heraus messen, da ist
+
+746
+00:32:45.560 --> 00:32:47.560
+ein Wert, der vom Hersteller her
+
+747
+00:32:47.560 --> 00:32:49.560
+gegeben ist. Man kann, wenn ihr
+
+748
+00:32:49.560 --> 00:32:51.560
+hier den Bruch anschaut, obendrauf
+
+749
+00:32:51.560 --> 00:32:53.560
+Spannweite geteilt durch
+
+750
+00:32:53.560 --> 00:32:55.560
+Flügeltiefe, Durchschnitt,
+
+751
+00:32:55.560 --> 00:32:58.220
+kann man den Bruch eben auch
+
+752
+00:32:58.220 --> 00:33:00.220
+erweitern mit Spannweite oben,
+
+753
+00:33:00.220 --> 00:33:02.220
+Spannweite unten und dann
+
+754
+00:33:02.220 --> 00:33:04.220
+gibt es unten daran Spannweite
+
+755
+00:33:04.220 --> 00:33:06.220
+im Quadrat geteilt durch Fläche.
+
+756
+00:33:06.220 --> 00:33:08.220
+Also entweder Spannweite
+
+757
+00:33:08.220 --> 00:33:10.220
+geteilt durch mittlere Flügeltiefe
+
+758
+00:33:10.220 --> 00:33:12.220
+oder Spannweite
+
+759
+00:33:12.220 --> 00:33:14.220
+im Quadrat geteilt durch Fläche.
+
+760
+00:33:14.220 --> 00:33:16.220
+Gibt dann den gleichen Betrag
+
+761
+00:33:16.220 --> 00:33:18.220
+unter dem Strich und da ist dann eure
+
+762
+00:33:18.220 --> 00:33:23.300
+Streckung, die der Schirm hat.
+
+763
+00:33:23.300 --> 00:33:25.300
+Hier nochmal schnell die Erklärung, also
+
+764
+00:33:25.300 --> 00:33:27.350
+projizierte Fläche ist
+
+765
+00:33:27.350 --> 00:33:29.350
+so übertrieben gesagt, wie wenn
+
+766
+00:33:29.350 --> 00:33:31.350
+jemand mit einer Lampenfolge zünden würde
+
+767
+00:33:31.350 --> 00:33:33.350
+oder noch besser zünden würde,
+
+768
+00:33:33.350 --> 00:33:35.350
+die natürlich viel, viel weiter entfernt ist,
+
+769
+00:33:35.350 --> 00:33:37.350
+wenn man jetzt gleich am Landeplatz
+
+770
+00:33:37.350 --> 00:33:39.350
+zum Beispiel am Händler ist, wo man dann
+
+771
+00:33:39.350 --> 00:33:41.350
+schauen kann, wie gross ist der Schatten.
+
+772
+00:33:41.350 --> 00:33:43.350
+Da wäre dann ungefähr so die projizierte
+
+773
+00:33:43.350 --> 00:33:45.350
+Fläche, so noch zum Erklären.

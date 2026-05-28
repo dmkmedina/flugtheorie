@@ -1,0 +1,367 @@
+{
+  "fetchedAt": "2026-05-28T07:02:23.826Z",
+  "source": "https://www.air-active.ch/academy",
+  "auth": {
+    "type": "wix-password-protected",
+    "password": "airAcademy2024",
+    "note": "The password gates only the HTML page. Once you have the MP4 URL, video.wixstatic.com serves it publicly without auth (CORS: *).",
+    "cookies": [
+      {
+        "name": "server-session-bind",
+        "value": "2555c398-8ec2-42aa-a822-e47a9a751e0f",
+        "domain": "www.air-active.ch",
+        "path": "/",
+        "expires": -1,
+        "httpOnly": true,
+        "secure": true,
+        "sameSite": "Lax"
+      },
+      {
+        "name": "XSRF-TOKEN",
+        "value": "1779951572|HaRzmRA75YqC",
+        "domain": ".www.air-active.ch",
+        "path": "/",
+        "expires": -1,
+        "httpOnly": false,
+        "secure": true,
+        "sameSite": "None"
+      },
+      {
+        "name": "hs",
+        "value": "1578163038",
+        "domain": ".www.air-active.ch",
+        "path": "/",
+        "expires": -1,
+        "httpOnly": true,
+        "secure": true,
+        "sameSite": "Lax"
+      },
+      {
+        "name": "svSession",
+        "value": "b46e18bc3983872295dd465c802382f549000d41e3413226a9b599f7604619037bcc265dfb40251d47cd73dfe2da613d1e60994d53964e647acf431e4f798bcdc1f083f4456e54c12ee2ffff45772fcb2f1f364100e9620563983f787d0b265ba447862de64418592dfd80f5600d197161438f9d96ecb68ab0e79a6007f519e5faf568b771ef8e9cb422d83067b3983e",
+        "domain": ".www.air-active.ch",
+        "path": "/",
+        "expires": 1814511572.179539,
+        "httpOnly": true,
+        "secure": true,
+        "sameSite": "None"
+      },
+      {
+        "name": "XSRF-TOKEN",
+        "value": "1779951576|1qRbNuluj5yW",
+        "domain": ".serverless.parastorage.com",
+        "path": "/",
+        "expires": -1,
+        "httpOnly": false,
+        "secure": true,
+        "sameSite": "None"
+      }
+    ]
+  },
+  "domVideos": {
+    "videos": [
+      {
+        "tag": "video",
+        "heading": "Stallpunkt",
+        "src": "https://video.wixstatic.com/video/f2f7a2_8a4f47d3c7f044838aa15f11ec06606c/720p/mp4/file.mp4",
+        "section": "Flugpraxis Videos",
+        "galleryId": "lxqg3iyo",
+        "galleryIndex": 0,
+        "dataId": "566c9898-bb01-4e8c-86dd-18d321081b9d",
+        "poster": "https://static.wixstatic.com/media/f2f7a2_8a4f47d3c7f044838aa15f11ec06606cf003.jpg/v1/fill/w_200,h_267,q_90,enc_avif,quality_auto/f2f7a2_8a4f47d3c7f044838aa15f11ec06606cf003.jpg",
+        "derivedMediaId": "f2f7a2_8a4f47d3c7f044838aa15f11ec06606c",
+        "durationSec": 412.166667,
+        "sizeBytes": 128086270,
+        "probeOk": true,
+        "probeError": null,
+        "capturedDuringLoad": true
+      },
+      {
+        "tag": "video",
+        "heading": "Grosse Ohren",
+        "src": "https://video.wixstatic.com/video/f2f7a2_834427da5d6a481e9af2adbd4955fc94/720p/mp4/file.mp4",
+        "section": "Flugpraxis Videos",
+        "galleryId": "lxqg3iyo",
+        "galleryIndex": 1,
+        "dataId": "f7e4fb7e-b750-42cb-bd0f-132ce4df7eae",
+        "poster": "https://static.wixstatic.com/media/f2f7a2_834427da5d6a481e9af2adbd4955fc94f003.jpg/v1/fill/w_200,h_267,q_90,enc_avif,quality_auto/f2f7a2_834427da5d6a481e9af2adbd4955fc94f003.jpg",
+        "derivedMediaId": "f2f7a2_834427da5d6a481e9af2adbd4955fc94",
+        "durationSec": 268.608005,
+        "sizeBytes": 83475684,
+        "probeOk": true,
+        "probeError": null,
+        "capturedDuringLoad": true
+      },
+      {
+        "tag": "video",
+        "heading": "B-Stall",
+        "src": "https://video.wixstatic.com/video/f2f7a2_438b4ef3c16043719144ddfab222aa1c/720p/mp4/file.mp4",
+        "section": "Flugpraxis Videos",
+        "galleryId": "lxqg3iyo",
+        "galleryIndex": 2,
+        "dataId": "331751b7-384d-4c70-a310-ae2280d476fb",
+        "poster": "https://static.wixstatic.com/media/f2f7a2_438b4ef3c16043719144ddfab222aa1cf003.jpg/v1/fill/w_200,h_267,q_90,enc_avif,quality_auto/f2f7a2_438b4ef3c16043719144ddfab222aa1cf003.jpg",
+        "derivedMediaId": "f2f7a2_438b4ef3c16043719144ddfab222aa1c",
+        "durationSec": 283.376009,
+        "sizeBytes": 85210900,
+        "probeOk": true,
+        "probeError": null,
+        "capturedDuringLoad": true
+      },
+      {
+        "tag": "video",
+        "heading": "Rollen",
+        "src": "https://video.wixstatic.com/video/f2f7a2_c513bf1a031d418b87abbf8903669695/720p/mp4/file.mp4",
+        "section": "Flugpraxis Videos",
+        "galleryId": "lxqg3iyo",
+        "galleryIndex": 3,
+        "dataId": "06052355-9acd-4347-af5d-0e1d7228c58d",
+        "poster": "https://static.wixstatic.com/media/f2f7a2_c513bf1a031d418b87abbf8903669695f003.jpg/v1/fill/w_200,h_267,q_90,enc_avif,quality_auto/f2f7a2_c513bf1a031d418b87abbf8903669695f003.jpg",
+        "derivedMediaId": "f2f7a2_c513bf1a031d418b87abbf8903669695",
+        "durationSec": 404.166667,
+        "sizeBytes": 124842837,
+        "probeOk": true,
+        "probeError": null,
+        "capturedDuringLoad": true
+      },
+      {
+        "tag": "video",
+        "heading": "Kleine Ohren",
+        "src": "https://video.wixstatic.com/video/f2f7a2_49ac01143125424ab4f6541573801f9d/720p/mp4/file.mp4",
+        "section": "Flugpraxis Videos",
+        "galleryId": "lxqg3iyo",
+        "galleryIndex": 4,
+        "dataId": "bae8058e-cc3d-4681-8ad3-a42cf21cb77c",
+        "poster": "https://static.wixstatic.com/media/f2f7a2_49ac01143125424ab4f6541573801f9df003.jpg/v1/fill/w_200,h_267,q_90,enc_avif,quality_auto/f2f7a2_49ac01143125424ab4f6541573801f9df003.jpg",
+        "derivedMediaId": "f2f7a2_49ac01143125424ab4f6541573801f9d",
+        "durationSec": 475.433333,
+        "sizeBytes": 155311064,
+        "probeOk": true,
+        "probeError": null,
+        "capturedDuringLoad": true
+      },
+      {
+        "tag": "video",
+        "heading": "P2 Leitlinien Acht",
+        "src": "https://video.wixstatic.com/video/f2f7a2_dcfae3b8b8324726ad52b976b9843921/720p/mp4/file.mp4",
+        "section": "Flugpraxis Videos",
+        "galleryId": "lxqg3iyo",
+        "galleryIndex": 5,
+        "dataId": "06859d8a-c74b-468f-a474-57d56c296c18",
+        "poster": "https://static.wixstatic.com/media/f2f7a2_dcfae3b8b8324726ad52b976b9843921f003.jpg/v1/fill/w_200,h_267,q_90,enc_avif,quality_auto/f2f7a2_dcfae3b8b8324726ad52b976b9843921f003.jpg",
+        "derivedMediaId": "f2f7a2_dcfae3b8b8324726ad52b976b9843921",
+        "durationSec": 344.072993,
+        "sizeBytes": 108178199,
+        "probeOk": true,
+        "probeError": null,
+        "capturedDuringLoad": true
+      },
+      {
+        "tag": "video",
+        "heading": "P1 Doppelkreis Rechts",
+        "src": "https://video.wixstatic.com/video/f2f7a2_f47a358708e040ad93577b9d86ba429a/720p/mp4/file.mp4",
+        "section": "Flugpraxis Videos",
+        "galleryId": "lxqg3iyo",
+        "galleryIndex": 6,
+        "dataId": "a5c4577f-047c-403f-be5a-fdc8e9379bab",
+        "poster": "https://static.wixstatic.com/media/f2f7a2_f47a358708e040ad93577b9d86ba429af003.jpg/v1/fill/w_200,h_267,q_90,enc_avif,quality_auto/f2f7a2_f47a358708e040ad93577b9d86ba429af003.jpg",
+        "derivedMediaId": "f2f7a2_f47a358708e040ad93577b9d86ba429a",
+        "durationSec": 271.633333,
+        "sizeBytes": 81062359,
+        "probeOk": true,
+        "probeError": null,
+        "capturedDuringLoad": false
+      },
+      {
+        "tag": "video",
+        "heading": "Seitenklapper 50%",
+        "src": "https://video.wixstatic.com/video/f2f7a2_4d433f4bc0414e2fbfe73a252b455c94/720p/mp4/file.mp4",
+        "section": "Flugpraxis Videos",
+        "galleryId": "lxqg3iyo",
+        "galleryIndex": 7,
+        "dataId": "edf9b838-eec1-4c4f-ac59-3dd098876c99",
+        "poster": "https://static.wixstatic.com/media/f2f7a2_4d433f4bc0414e2fbfe73a252b455c94f003.jpg/v1/fill/w_200,h_267,q_90,enc_avif,quality_auto/f2f7a2_4d433f4bc0414e2fbfe73a252b455c94f003.jpg",
+        "derivedMediaId": "f2f7a2_4d433f4bc0414e2fbfe73a252b455c94",
+        "durationSec": 515.4,
+        "sizeBytes": 167742779,
+        "probeOk": true,
+        "probeError": null,
+        "capturedDuringLoad": false
+      },
+      {
+        "tag": "video",
+        "heading": "Nicken",
+        "src": "https://video.wixstatic.com/video/f2f7a2_7a7ad0153796475688e5ba29fd2cc6e0/720p/mp4/file.mp4",
+        "section": "Flugpraxis Videos",
+        "galleryId": "lxqg3iyo",
+        "galleryIndex": 8,
+        "dataId": "adfa9b21-4e02-4642-b0ab-766f765442a3",
+        "poster": "https://static.wixstatic.com/media/f2f7a2_7a7ad0153796475688e5ba29fd2cc6e0f003.jpg/v1/fill/w_200,h_267,q_90,enc_avif,quality_auto/f2f7a2_7a7ad0153796475688e5ba29fd2cc6e0f003.jpg",
+        "derivedMediaId": "f2f7a2_7a7ad0153796475688e5ba29fd2cc6e0",
+        "durationSec": 469.166667,
+        "sizeBytes": 155651354,
+        "probeOk": true,
+        "probeError": null,
+        "capturedDuringLoad": false
+      },
+      {
+        "tag": "video",
+        "heading": "Kurvenfliegen",
+        "src": "https://video.wixstatic.com/video/f2f7a2_ebbae091dd2448d88d741c18bdeee527/720p/mp4/file.mp4",
+        "section": "Flugpraxis Videos",
+        "galleryId": "lxqg3iyo",
+        "galleryIndex": 9,
+        "dataId": "cd9c5fb2-64c1-4379-adcb-faaca11caf14",
+        "poster": "https://static.wixstatic.com/media/f2f7a2_ebbae091dd2448d88d741c18bdeee527f003.jpg/v1/fill/w_200,h_267,q_90,enc_avif,quality_auto/f2f7a2_ebbae091dd2448d88d741c18bdeee527f003.jpg",
+        "derivedMediaId": "f2f7a2_ebbae091dd2448d88d741c18bdeee527",
+        "durationSec": 137.670998,
+        "sizeBytes": 47902016,
+        "probeOk": true,
+        "probeError": null,
+        "capturedDuringLoad": false
+      },
+      {
+        "tag": "video",
+        "heading": "Bremshaltung",
+        "src": "https://video.wixstatic.com/video/f2f7a2_168c695154c0415c8c70e193e48eadfc/720p/mp4/file.mp4",
+        "section": "Flugpraxis Videos",
+        "galleryId": "lxqg3iyo",
+        "galleryIndex": 10,
+        "dataId": "689b9f4a-b34d-420d-b69e-ba153e42f7b9",
+        "poster": "https://static.wixstatic.com/media/f2f7a2_168c695154c0415c8c70e193e48eadfcf003.jpg/v1/fill/w_200,h_267,q_90,enc_avif,quality_auto/f2f7a2_168c695154c0415c8c70e193e48eadfcf003.jpg",
+        "derivedMediaId": "f2f7a2_168c695154c0415c8c70e193e48eadfc",
+        "durationSec": 352.2,
+        "sizeBytes": 118090026,
+        "probeOk": true,
+        "probeError": null,
+        "capturedDuringLoad": false
+      },
+      {
+        "tag": "video",
+        "heading": "Beschleunigt Fliegen",
+        "src": "https://video.wixstatic.com/video/f2f7a2_326733b4f7a64b268de7fe0dc0718149/720p/mp4/file.mp4",
+        "section": "Flugpraxis Videos",
+        "galleryId": "lxqg3iyo",
+        "galleryIndex": 11,
+        "dataId": "662f61d5-57e2-475d-9410-93b4bfcf5e6b",
+        "poster": "https://static.wixstatic.com/media/f2f7a2_326733b4f7a64b268de7fe0dc0718149f003.jpg/v1/fill/w_200,h_267,q_90,enc_avif,quality_auto/f2f7a2_326733b4f7a64b268de7fe0dc0718149f003.jpg",
+        "derivedMediaId": "f2f7a2_326733b4f7a64b268de7fe0dc0718149",
+        "durationSec": 145.566667,
+        "sizeBytes": 50397641,
+        "probeOk": true,
+        "probeError": null,
+        "capturedDuringLoad": false
+      },
+      {
+        "tag": "video",
+        "heading": "Meteo Teil 1",
+        "src": "https://video.wixstatic.com/video/f2f7a2_4a09b26f749040e7af899a247ed8ded9/720p/mp4/file.mp4",
+        "section": "Vorträge",
+        "galleryId": "m5p64s3y2",
+        "galleryIndex": 0,
+        "dataId": "2f492e06-8a60-4998-a630-6fcffe8e1d96",
+        "poster": "https://static.wixstatic.com/media/f2f7a2_4a09b26f749040e7af899a247ed8ded9f003.jpg/v1/fill/w_277,h_370,q_90,enc_avif,quality_auto/f2f7a2_4a09b26f749040e7af899a247ed8ded9f003.jpg",
+        "derivedMediaId": "f2f7a2_4a09b26f749040e7af899a247ed8ded9",
+        "durationSec": 2143.402,
+        "sizeBytes": 493568201,
+        "probeOk": true,
+        "probeError": null,
+        "capturedDuringLoad": true
+      },
+      {
+        "tag": "video",
+        "heading": "Meteo Teil 2",
+        "src": "https://video.wixstatic.com/video/f2f7a2_33c36a6d26cc428b8e38db7048527681/720p/mp4/file.mp4",
+        "section": "Vorträge",
+        "galleryId": "m5p64s3y2",
+        "galleryIndex": 1,
+        "dataId": "408c81d7-14e3-43d4-b6f9-6cec0de34186",
+        "poster": "https://static.wixstatic.com/media/f2f7a2_33c36a6d26cc428b8e38db7048527681f003.jpg/v1/fill/w_278,h_370,q_90,enc_avif,quality_auto/f2f7a2_33c36a6d26cc428b8e38db7048527681f003.jpg",
+        "derivedMediaId": "f2f7a2_33c36a6d26cc428b8e38db7048527681",
+        "durationSec": 1501.525,
+        "sizeBytes": 195253807,
+        "probeOk": true,
+        "probeError": null,
+        "capturedDuringLoad": true
+      },
+      {
+        "tag": "video",
+        "heading": "Meteo Teil 3",
+        "src": "https://video.wixstatic.com/video/f2f7a2_8e4602f8adaa441e855e0626e516578f/720p/mp4/file.mp4",
+        "section": "Vorträge",
+        "galleryId": "m5p64s3y2",
+        "galleryIndex": 2,
+        "dataId": "00ea5fd7-cc7b-497d-91fa-30c9dc7b3468",
+        "poster": "https://static.wixstatic.com/media/f2f7a2_8e4602f8adaa441e855e0626e516578ff003.jpg/v1/fill/w_277,h_370,q_90,enc_avif,quality_auto/f2f7a2_8e4602f8adaa441e855e0626e516578ff003.jpg",
+        "derivedMediaId": "f2f7a2_8e4602f8adaa441e855e0626e516578f",
+        "durationSec": 2260.224,
+        "sizeBytes": 379396691,
+        "probeOk": true,
+        "probeError": null,
+        "capturedDuringLoad": true
+      }
+    ],
+    "sections": [
+      "airActive Academy",
+      "Inhalt",
+      "Die airActive App",
+      "Flugpraxis Videos",
+      "Vorträge",
+      "Alles zur Theorie- Gleitschirmprüfung",
+      "Dokumente",
+      "AlleinflugCheckliste",
+      "Meteo 3x3 Entscheidungsstrategie",
+      "AlleinflugCheckliste Leer",
+      "KarteAlpines Pumpen",
+      "Stallpunkt",
+      "Meteo Teil 1"
+    ]
+  },
+  "mediaRequests": [
+    {
+      "url": "https://video.wixstatic.com/video/f2f7a2_8a4f47d3c7f044838aa15f11ec06606c/720p/mp4/file.mp4",
+      "method": "GET",
+      "tsMs": 1779951595430
+    },
+    {
+      "url": "https://video.wixstatic.com/video/f2f7a2_834427da5d6a481e9af2adbd4955fc94/720p/mp4/file.mp4",
+      "method": "GET",
+      "tsMs": 1779951597750
+    },
+    {
+      "url": "https://video.wixstatic.com/video/f2f7a2_438b4ef3c16043719144ddfab222aa1c/720p/mp4/file.mp4",
+      "method": "GET",
+      "tsMs": 1779951597753
+    },
+    {
+      "url": "https://video.wixstatic.com/video/f2f7a2_c513bf1a031d418b87abbf8903669695/720p/mp4/file.mp4",
+      "method": "GET",
+      "tsMs": 1779951597754
+    },
+    {
+      "url": "https://video.wixstatic.com/video/f2f7a2_49ac01143125424ab4f6541573801f9d/720p/mp4/file.mp4",
+      "method": "GET",
+      "tsMs": 1779951597755
+    },
+    {
+      "url": "https://video.wixstatic.com/video/f2f7a2_dcfae3b8b8324726ad52b976b9843921/720p/mp4/file.mp4",
+      "method": "GET",
+      "tsMs": 1779951597757
+    },
+    {
+      "url": "https://video.wixstatic.com/video/f2f7a2_4a09b26f749040e7af899a247ed8ded9/1080p/mp4/file.mp4",
+      "method": "GET",
+      "tsMs": 1779951703611
+    },
+    {
+      "url": "https://video.wixstatic.com/video/f2f7a2_33c36a6d26cc428b8e38db7048527681/1080p/mp4/file.mp4",
+      "method": "GET",
+      "tsMs": 1779951706026
+    },
+    {
+      "url": "https://video.wixstatic.com/video/f2f7a2_8e4602f8adaa441e855e0626e516578f/1080p/mp4/file.mp4",
+      "method": "GET",
+      "tsMs": 1779951706030
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "slug": "aa_beschleunigt_fliegen",
+  "language": "en",
+  "provider": "claude-sub-agent",
+  "model": "manual",
+  "duration": 145.5659375,
+  "note": "Re-translated from large-v3 GPU transcript.",
+  "segments": [
+    {"i": 1, "start": 6.46, "end": 15.59, "text": "Accelerated flight. In accelerated flight it's important that you try to keep the hands fully stretched up."},
+    {"i": 2, "start": 15.91, "end": 25.67, "text": "You can also, if you want, hold yourself a bit on the rear risers, because in accelerated flight we can only steer with weight shift."},
+    {"i": 3, "start": 25.67, "end": 32.07, "text": "And if that's not enough, then we add a very light pull on the rearmost riser."},
+    {"i": 4, "start": 32.07, "end": 39.89, "text": "So that means, set up the accelerator — or how do you accelerate: if, like me, he gets into the first stirrup well,"},
+    {"i": 5, "start": 40.25, "end": 49.23, "text": "he goes with the heel into this first stirrup, pushes it a bit far enough so that with the second foot he could step back onto the next step,"},
+    {"i": 6, "start": 49.23, "end": 54.41, "text": "and then bring the second foot also onto this step."},
+    {"i": 7, "start": 54.41, "end": 60.09, "text": "You see, I have such a flexible one — most of you have that — if you have a bar, it goes a bit more easily."},
+    {"i": 8, "start": 60.09, "end": 68.62, "text": "Yes, then we look for symmetry with the feet a bit and then we push the accelerator very slowly fully up."},
+    {"i": 9, "start": 68.62, "end": 78.14, "text": "And ideally then the accelerator is, like here on the right, pulley over pulley, or at least pulley on pulley."},
+    {"i": 10, "start": 78.14, "end": 82.94, "text": "Here on the left you see, we still have a bit of distance between the individual pulleys."},
+    {"i": 11, "start": 82.94, "end": 87.58, "text": "It's not much now, that just comes from the fact that we have a certain asymmetry in there."},
+    {"i": 12, "start": 87.58, "end": 91.16, "text": "If I take the legs further out, then you see, we have there,"},
+    {"i": 13, "start": 91.18, "end": 93.74, "text": "symmetry and the pulleys engage guaranteed."},
+    {"i": 14, "start": 93.74, "end": 99.58, "text": "That would be fully accelerated and now it's important, steering only with weight shift."},
+    {"i": 15, "start": 99.58, "end": 104.54, "text": "Yes, if that's not enough, then we may lightly pull on the rear riser."},
+    {"i": 16, "start": 104.54, "end": 111.5, "text": "So one centimetre, at most two, so we have little working area."},
+    {"i": 17, "start": 111.5, "end": 118.55, "text": "Good, exit the accelerator, simply sit neutral or if we're making a turn to the other side,"},
+    {"i": 18, "start": 118.55, "end": 122.89, "text": "we finish that first and then sit neutral."},
+    {"i": 19, "start": 122.89, "end": 127.05, "text": "And slowly come back off the accelerator."},
+    {"i": 20, "start": 127.05, "end": 133.96, "text": "The last few centimetres you can then for all I care let snap out."},
+    {"i": 21, "start": 133.96, "end": 140.63, "text": "What's important is, during accelerated flight you must not steer with the brake."},
+    {"i": 22, "start": 140.63, "end": 145.18, "text": "The explanation comes later in the brake grip section."}
+  ]
+}

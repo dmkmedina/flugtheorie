@@ -1,0 +1,4042 @@
+{
+  "slug": "aa_meteo_teil_3",
+  "language": "de",
+  "duration": 2260.224,
+  "transcribed_in_sec": 223.0,
+  "model": "large-v3",
+  "settings": {
+    "device": "cuda",
+    "compute_type": "float16",
+    "beam_size": 10,
+    "initial_prompt_chars": 568,
+    "vad_min_silence_ms": 300
+  },
+  "segments": [
+    {
+      "i": 1,
+      "start": 6.9,
+      "end": 93.1,
+      "text": "Ja, ich höre dich nicht. Okay, ist das immer noch so, Mario?"
+    },
+    {
+      "i": 2,
+      "start": 93.48,
+      "end": 101.47,
+      "text": "Ah, jetzt ist gut, dann, ich glaube."
+    },
+    {
+      "i": 3,
+      "start": 101.79,
+      "end": 103.05,
+      "text": "Ah, okay, gut, super."
+    },
+    {
+      "i": 4,
+      "start": 103.19,
+      "end": 104.87,
+      "text": "Ja, jetzt hört ich, ja, jetzt ist gut."
+    },
+    {
+      "i": 5,
+      "start": 105.39,
+      "end": 111.94,
+      "text": "Wunderbar, gut, sind jetzt so ziemlich alle da."
+    },
+    {
+      "i": 6,
+      "start": 112.28,
+      "end": 116.82,
+      "text": "Ich würde einfach starten, wie gesagt, ich nehme das auf und ihr könnt es dann auch,"
+    },
+    {
+      "i": 7,
+      "start": 117.3,
+      "end": 123.24,
+      "text": "falls ihr irgendwas verpasst habt, im Nachhinein dann nochmal auf der Homepage anschauen."
+    },
+    {
+      "i": 8,
+      "start": 123.24,
+      "end": 129.98,
+      "text": "Ich glaube, der Nikolaus fehlt noch, aber ich starte jetzt, na, iPhone vielleicht."
+    },
+    {
+      "i": 9,
+      "start": 130.18,
+      "end": 132.66,
+      "text": "Gut, ich starte jetzt einfach weiter, mach weiter."
+    },
+    {
+      "i": 10,
+      "start": 133.95,
+      "end": 140.89,
+      "text": "Wie gesagt, ich habe ja nur begrenzt Zeit, deshalb würde ich gerne weitergehen."
+    },
+    {
+      "i": 11,
+      "start": 142.13,
+      "end": 148.33,
+      "text": "Und mache gerade mit Metro-Paraport weiter."
+    },
+    {
+      "i": 12,
+      "start": 148.33,
+      "end": 156.07,
+      "text": "Wie gesagt, wir haben da die Temperaturkurve und die Tauchungskurve für die Thermik."
+    },
+    {
+      "i": 13,
+      "start": 156.07,
+      "end": 166.27,
+      "text": "Grün ist für uns nutzbar, schwarz ist zu stabil und rot wäre sehr stark, aber auch noch gut für uns."
+    },
+    {
+      "i": 14,
+      "start": 166.63,
+      "end": 168.31,
+      "text": "Also einfach sehr, sehr stark."
+    },
+    {
+      "i": 15,
+      "start": 169.12,
+      "end": 173.42,
+      "text": "Mit dazu haben wir rechts genau nochmal den Wind mit Richtung und Stärke."
+    },
+    {
+      "i": 16,
+      "start": 174.16,
+      "end": 176.52,
+      "text": "Es hat da sogar die Höhe der Thermik."
+    },
+    {
+      "i": 17,
+      "start": 177.1,
+      "end": 185.72,
+      "text": "Auch da hat man sogar, wenn es Niederschlag gibt, wird der auch noch angezeigt."
+    },
+    {
+      "i": 18,
+      "start": 185.72,
+      "end": 188.64,
+      "text": "Also reicht, oder man hat eigentlich alle."
+    },
+    {
+      "i": 19,
+      "start": 188.64,
+      "end": 192.02,
+      "text": "Alle Inputs, wo man braucht als ganz normaler Pilot."
+    },
+    {
+      "i": 20,
+      "start": 193.03,
+      "end": 198.87,
+      "text": "Und auch das natürlich dort unten mit weiter im Voraus."
+    },
+    {
+      "i": 21,
+      "start": 200.81,
+      "end": 205.59,
+      "text": "Also deutlich besser noch von der Planung her, wo man noch ein bisschen weiter gehen kann und schauen kann."
+    },
+    {
+      "i": 22,
+      "start": 206.21,
+      "end": 212.1,
+      "text": "Und eigentlich wie beim anderen Immagramm auch, sobald sich die zwei Kurven berühren,"
+    },
+    {
+      "i": 23,
+      "start": 212.26,
+      "end": 216.36,
+      "text": "gibt es da oder so Wolkenbildung, unabhängig von der thermischen Entwicklung."
+    },
+    {
+      "i": 24,
+      "start": 217.17,
+      "end": 219.7,
+      "text": "Eigentlich sehr, sehr gut sichtbar."
+    },
+    {
+      "i": 25,
+      "start": 219.7,
+      "end": 219.74,
+      "text": "Ja."
+    },
+    {
+      "i": 26,
+      "start": 221.04,
+      "end": 223.62,
+      "text": "Das ist eigentlich schon alles für Meteo Parapo."
+    },
+    {
+      "i": 27,
+      "start": 224.12,
+      "end": 231.26,
+      "text": "Es ist simpel, es ist gut strukturiert und aus meiner Sicht auch hilfreich."
+    },
+    {
+      "i": 28,
+      "start": 232.49,
+      "end": 239.93,
+      "text": "Dann die Technik, die ich nutze, tatsächlich nicht extrem viel."
+    },
+    {
+      "i": 29,
+      "start": 240.78,
+      "end": 244.82,
+      "text": "Es gibt einfach ein paar Sachen, wo ich bei Burn eher recht gut finde."
+    },
+    {
+      "i": 30,
+      "start": 246.51,
+      "end": 253.61,
+      "text": "Es gibt auch ein paar Sachen, wo ich denke, es ist jetzt ein bisschen, ja braucht wie nicht."
+    },
+    {
+      "i": 31,
+      "start": 255.49,
+      "end": 259.45,
+      "text": "Und manchmal sogar, aus meiner Sicht, ein bisschen zu unübersichtlich."
+    },
+    {
+      "i": 32,
+      "start": 259.81,
+      "end": 267.52,
+      "text": "Durch die Fülle an Informationen, denke ich, macht es das manchmal auch ein bisschen zu unübersichtlich."
+    },
+    {
+      "i": 33,
+      "start": 268.2,
+      "end": 275.0,
+      "text": "Aber es ist schon ganz cool, was es da alles zu bieten hat."
+    },
+    {
+      "i": 34,
+      "start": 275.2,
+      "end": 279.24,
+      "text": "Proben, man kann da auswählen, welche Map das eröffnen wollte."
+    },
+    {
+      "i": 35,
+      "start": 280.38,
+      "end": 283.7,
+      "text": "Burn eher Map, da sind da Startplätze und so weiter."
+    },
+    {
+      "i": 36,
+      "start": 283.7,
+      "end": 285.14,
+      "text": "Und dann kann man da herauslesen."
+    },
+    {
+      "i": 37,
+      "start": 285.14,
+      "end": 286.58,
+      "text": "Auch das sehr gut."
+    },
+    {
+      "i": 38,
+      "start": 287.08,
+      "end": 288.98,
+      "text": "Und Talwinde herauslesen."
+    },
+    {
+      "i": 39,
+      "start": 289.1,
+      "end": 294.22,
+      "text": "Es kommt immer darauf an, was ihr da gelöst habt, was freigeschalten ist oder nicht."
+    },
+    {
+      "i": 40,
+      "start": 296.26,
+      "end": 297.94,
+      "text": "Was könnt ihr da auswählen?"
+    },
+    {
+      "i": 41,
+      "start": 298.28,
+      "end": 304.7,
+      "text": "Wenn wir jetzt mal rein auf die Weltprognose, was hier für uns wichtig ist, gehen,"
+    },
+    {
+      "i": 42,
+      "start": 305.44,
+      "end": 310.77,
+      "text": "dann wird es dann gleich einmal doch wieder ein bisschen unübersichtlich."
+    },
+    {
+      "i": 43,
+      "start": 310.77,
+      "end": 315.55,
+      "text": "Ihr habt dann die siebente Reize zur Auswahl,"
+    },
+    {
+      "i": 44,
+      "start": 315.55,
+      "end": 318.63,
+      "text": "mit dem ihr wählen könnt."
+    },
+    {
+      "i": 45,
+      "start": 318.73,
+      "end": 326.23,
+      "text": "Also wenn euch Wolken und Niederschlag mal am Anfang das Ganze eher unübersichtlich gestalten,"
+    },
+    {
+      "i": 46,
+      "start": 326.31,
+      "end": 330.21,
+      "text": "so wie das jetzt der Fall ist, dann könnt ihr das ganz einfach oben links ausstellen."
+    },
+    {
+      "i": 47,
+      "start": 330.31,
+      "end": 331.63,
+      "text": "Dann habt ihr das schon mal weg."
+    },
+    {
+      "i": 48,
+      "start": 332.47,
+      "end": 337.46,
+      "text": "Und dann habt ihr da links die Höhe für den jeweiligen Wind."
+    },
+    {
+      "i": 49,
+      "start": 338.12,
+      "end": 342.08,
+      "text": "50 Meter über Grund, 250 Meter über Grund, was ich gar nicht so schlecht finde."
+    },
+    {
+      "i": 50,
+      "start": 342.08,
+      "end": 346.68,
+      "text": "Die eigenen Höhen, die man durchspielen kann, mit unten die Tage,"
+    },
+    {
+      "i": 51,
+      "start": 346.68,
+      "end": 350.45,
+      "text": "mit den Aktien, was ich eigentlich sehr lässig finde,"
+    },
+    {
+      "i": 52,
+      "start": 351.25,
+      "end": 354.47,
+      "text": "wo man dann ein bisschen weiter in die Zukunft schauen kann."
+    },
+    {
+      "i": 53,
+      "start": 354.93,
+      "end": 362.65,
+      "text": "Und dann habt ihr, das ist eben noch ganz wichtig, da rechts extrem viele Möglichkeiten zur Auswahl."
+    },
+    {
+      "i": 54,
+      "start": 362.79,
+      "end": 368.03,
+      "text": "Zum einen könnt ihr da mal die verschiedensten Hintergründe wählen."
+    },
+    {
+      "i": 55,
+      "start": 368.85,
+      "end": 373.41,
+      "text": "Also ihr könnt da zum Beispiel Satellit Google einwählen,"
+    },
+    {
+      "i": 56,
+      "start": 373.41,
+      "end": 375.73,
+      "text": "dann habt ihr da die Satelliteneinblendung."
+    },
+    {
+      "i": 57,
+      "start": 375.73,
+      "end": 380.06,
+      "text": "Und ihr könnt Google eingeben."
+    },
+    {
+      "i": 58,
+      "start": 380.36,
+      "end": 383.54,
+      "text": "Also ihr könnt euch ein bisschen durchspielen."
+    },
+    {
+      "i": 59,
+      "start": 383.7,
+      "end": 392.76,
+      "text": "Da könnt ihr schauen, was ist für euch die Unterlegung, wo es für euch am übersichtlichsten macht."
+    },
+    {
+      "i": 60,
+      "start": 392.96,
+      "end": 399.16,
+      "text": "Ich finde Turnair-Topo gar nicht so verkehrt, weil ich brauche nicht zu viel Schnörkel drumherum."
+    },
+    {
+      "i": 61,
+      "start": 400.44,
+      "end": 404.58,
+      "text": "Und dann könnt ihr mal eine Zeit lang mitarbeiten."
+    },
+    {
+      "i": 62,
+      "start": 404.76,
+      "end": 408.46,
+      "text": "Dann habt ihr da rechts wirklich wahnsinnig viel Auswahl."
+    },
+    {
+      "i": 63,
+      "start": 408.86,
+      "end": 414.02,
+      "text": "Und das ist halt dann immer abhängig, was ihr zuschalten könnt."
+    },
+    {
+      "i": 64,
+      "start": 414.14,
+      "end": 418.78,
+      "text": "Aber was ich jetzt ganz cool finde, das seht ihr da schon eingeblendet,"
+    },
+    {
+      "i": 65,
+      "start": 418.84,
+      "end": 422.07,
+      "text": "sind bei mir so die Live-Druckwerte."
+    },
+    {
+      "i": 66,
+      "start": 422.37,
+      "end": 424.05,
+      "text": "Müssen wir selber schauen, wo das ist."
+    },
+    {
+      "i": 67,
+      "start": 424.89,
+      "end": 427.97,
+      "text": "Meteo-Live-Differenzen, Druck-Differenzen."
+    },
+    {
+      "i": 68,
+      "start": 429.44,
+      "end": 433.76,
+      "text": "Das sind Sachen, die bei mir jetzt schon mal mit eingeblendet sind."
+    },
+    {
+      "i": 69,
+      "start": 434.22,
+      "end": 436.98,
+      "text": "Live-Windwerte kann man mit einblenden."
+    },
+    {
+      "i": 70,
+      "start": 436.98,
+      "end": 440.26,
+      "text": "Also man kann da sehr, sehr viel einstellen."
+    },
+    {
+      "i": 71,
+      "start": 440.5,
+      "end": 440.86,
+      "text": "Wie gesagt."
+    },
+    {
+      "i": 72,
+      "start": 440.98,
+      "end": 444.28,
+      "text": "Manchmal wird es dann aber auch ein bisschen zu unübersichtlich kommen."
+    },
+    {
+      "i": 73,
+      "start": 444.56,
+      "end": 450.84,
+      "text": "Könnt ihr, wenn ihr zu viel eingestellt habt, alle wieder ausstellen."
+    },
+    {
+      "i": 74,
+      "start": 451.06,
+      "end": 455.44,
+      "text": "Und danach nach und nach reinholen, was ihr wollt, was ihr braucht."
+    },
+    {
+      "i": 75,
+      "start": 456.74,
+      "end": 463.24,
+      "text": "Auch da finde ich eigentlich sehr cool, wenn man am Anfang mal ein bisschen weiter rauszoomt."
+    },
+    {
+      "i": 76,
+      "start": 463.24,
+      "end": 466.44,
+      "text": "Und sich das Ganze von weiter draußen her anschaut."
+    },
+    {
+      "i": 77,
+      "start": 466.9,
+      "end": 470.97,
+      "text": "Wo hat es wirklich Gebiete mit sehr, sehr starkem Wind?"
+    },
+    {
+      "i": 78,
+      "start": 471.05,
+      "end": 472.07,
+      "text": "Und wo ist man vielleicht?"
+    },
+    {
+      "i": 79,
+      "start": 472.53,
+      "end": 474.05,
+      "text": "Eine Nuance geschützter, oder?"
+    },
+    {
+      "i": 80,
+      "start": 474.64,
+      "end": 479.7,
+      "text": "Und kann das Ganze mit den verschiedenen Höhen auch da dann durchspielen."
+    },
+    {
+      "i": 81,
+      "start": 480.42,
+      "end": 487.31,
+      "text": "1.000 und hier gerade bei 1.500 und 2.000 Metern sieht man dann hervorragend."
+    },
+    {
+      "i": 82,
+      "start": 487.55,
+      "end": 488.99,
+      "text": "Das ist jetzt sehr gut."
+    },
+    {
+      "i": 83,
+      "start": 489.07,
+      "end": 490.29,
+      "text": "Auch bei Wind ist es sehr gut."
+    },
+    {
+      "i": 84,
+      "start": 490.39,
+      "end": 492.97,
+      "text": "Aber hier vielleicht einfach noch ein bisschen besser."
+    },
+    {
+      "i": 85,
+      "start": 492.97,
+      "end": 502.37,
+      "text": "Aber aus meiner Sicht klarer dargestellt mit den Farben noch diese Auslöse bei Höhen."
+    },
+    {
+      "i": 86,
+      "start": 503.12,
+      "end": 504.2,
+      "text": "Das ist besser erkennbar."
+    },
+    {
+      "i": 87,
+      "start": 504.48,
+      "end": 509.86,
+      "text": "Also das muss man dem Bernie neidlos zugestehen."
+    },
+    {
+      "i": 88,
+      "start": 509.94,
+      "end": 511.28,
+      "text": "Das hat er sehr gut gemacht."
+    },
+    {
+      "i": 89,
+      "start": 512.03,
+      "end": 517.39,
+      "text": "Man kann wirklich sehr gut so Abflüsse, gerade bei Höhenlagen, erkennen."
+    },
+    {
+      "i": 90,
+      "start": 517.98,
+      "end": 522.12,
+      "text": "Wenn wir jetzt auf 2.000 Meter gehen, wird es noch besser ersichtlich."
+    },
+    {
+      "i": 91,
+      "start": 522.12,
+      "end": 527.52,
+      "text": "Und das finde ich schon, muss ich sagen, auch wiederum von der Darstellung her sehr gut."
+    },
+    {
+      "i": 92,
+      "start": 528.02,
+      "end": 531.34,
+      "text": "Also das muss man ihm lassen."
+    },
+    {
+      "i": 93,
+      "start": 531.44,
+      "end": 532.62,
+      "text": "Das hat er sehr gut gemacht."
+    },
+    {
+      "i": 94,
+      "start": 532.78,
+      "end": 533.14,
+      "text": "Wenn man jetzt..."
+    },
+    {
+      "i": 95,
+      "start": 535.35,
+      "end": 535.91,
+      "text": "Ah, no."
+    },
+    {
+      "i": 96,
+      "start": 535.91,
+      "end": 538.71,
+      "text": "Wenn ich da noch ein bisschen genauer reinblicken möchte,"
+    },
+    {
+      "i": 97,
+      "start": 539.03,
+      "end": 544.52,
+      "text": "dann habe ich hier sogar noch die Previtems mit eingeblendet."
+    },
+    {
+      "i": 98,
+      "start": 545.14,
+      "end": 549.54,
+      "text": "Wenn ich da aufblicke, öffnet sich dort unten..."
+    },
+    {
+      "i": 99,
+      "start": 549.54,
+      "end": 552.28,
+      "text": "Ich muss schauen, dass das nicht zufällig zusammenbricht."
+    },
+    {
+      "i": 100,
+      "start": 553.54,
+      "end": 555.42,
+      "text": "Öffnet sich dort unten."
+    },
+    {
+      "i": 101,
+      "start": 557.95,
+      "end": 563.71,
+      "text": "In muss ich jetzt ehrlich gestehen, finde ich ein bisschen unübersichtlicher."
+    },
+    {
+      "i": 102,
+      "start": 563.99,
+      "end": 567.69,
+      "text": "Also es ist nicht ganz so einfach herauszulesen, wo hat es..."
+    },
+    {
+      "i": 103,
+      "start": 568.13,
+      "end": 571.78,
+      "text": "Vielleicht eine eher stabilere Schichtung drinnen."
+    },
+    {
+      "i": 104,
+      "start": 573.0,
+      "end": 577.4,
+      "text": "Also man kann es gut herauslesen, aber ich finde es einfach so von der Optik her,"
+    },
+    {
+      "i": 105,
+      "start": 578.1,
+      "end": 581.5,
+      "text": "finde ich das jetzt bei Meteo Parapor besser gelöst."
+    },
+    {
+      "i": 106,
+      "start": 581.6,
+      "end": 586.78,
+      "text": "Aber auch hier sieht man halt den Wind in verschiedenen Höhen dargestellt,"
+    },
+    {
+      "i": 107,
+      "start": 586.92,
+      "end": 591.36,
+      "text": "mit dem feinen Richtung und die Stärke, auch dort unten dann so der Mittelwert"
+    },
+    {
+      "i": 108,
+      "start": 592.0,
+      "end": 594.06,
+      "text": "für die jeweilige Höhe."
+    },
+    {
+      "i": 109,
+      "start": 594.18,
+      "end": 597.32,
+      "text": "Man hat da noch die Badeshöhe mit drinnen."
+    },
+    {
+      "i": 110,
+      "start": 599.25,
+      "end": 600.19,
+      "text": "Eigentlich auch da wieder sehr, sehr..."
+    },
+    {
+      "i": 111,
+      "start": 601.03,
+      "end": 602.29,
+      "text": "Viel Informationen."
+    },
+    {
+      "i": 112,
+      "start": 602.95,
+      "end": 609.7,
+      "text": "Ganz oben hat man die Wolkenmenge bzw. im Stockwerk, dass die angesiedelt sind."
+    },
+    {
+      "i": 113,
+      "start": 609.7,
+      "end": 612.32,
+      "text": "Hier sieht man, dass sogar noch ein bisschen Niederschlag aufkommt."
+    },
+    {
+      "i": 114,
+      "start": 612.92,
+      "end": 617.01,
+      "text": "Also auch da kann man sich wirklich sehr viel Infos rausholen."
+    },
+    {
+      "i": 115,
+      "start": 617.11,
+      "end": 619.51,
+      "text": "Was ich jetzt sehr gut finde an dem Ganzen,"
+    },
+    {
+      "i": 116,
+      "start": 620.28,
+      "end": 623.94,
+      "text": "ist, dass man hier mit der Temperatur sehr schnell sieht,"
+    },
+    {
+      "i": 117,
+      "start": 624.73,
+      "end": 627.71,
+      "text": "wie hoch ist die tatsächlich in der Höhe."
+    },
+    {
+      "i": 118,
+      "start": 628.5,
+      "end": 632.48,
+      "text": "Also zum Beispiel, wir waren 2023 im Tessin,"
+    },
+    {
+      "i": 119,
+      "start": 632.5,
+      "end": 635.0,
+      "text": "und es war wirklich arschkalt."
+    },
+    {
+      "i": 120,
+      "start": 635.88,
+      "end": 642.1,
+      "text": "Auf 2.000, 2.500 Metern hat es wirklich minus 8, minus 10 Grad gehabt."
+    },
+    {
+      "i": 121,
+      "start": 642.22,
+      "end": 646.63,
+      "text": "Auf 2.500 waren es dann, ich glaube, schon minus 15 Grad."
+    },
+    {
+      "i": 122,
+      "start": 647.62,
+      "end": 651.45,
+      "text": "Und das hat man da herauslesen können."
+    },
+    {
+      "i": 123,
+      "start": 651.67,
+      "end": 657.7,
+      "text": "Und dann war man auch wirklich in der Luft, sehr schnell zu froh."
+    },
+    {
+      "i": 124,
+      "start": 657.7,
+      "end": 659.02,
+      "text": "Und das sieht man auch hier."
+    },
+    {
+      "i": 125,
+      "start": 661.51,
+      "end": 664.77,
+      "text": "Minus 6,1 Grad."
+    },
+    {
+      "i": 126,
+      "start": 665.19,
+      "end": 667.73,
+      "text": "Die Temperatur herrscht, also sehr kalt ist."
+    },
+    {
+      "i": 127,
+      "start": 668.17,
+      "end": 672.69,
+      "text": "Und die warmen, stabilen Flüchten sind da mit Rot gekennzeichnet."
+    },
+    {
+      "i": 128,
+      "start": 672.89,
+      "end": 674.75,
+      "text": "Man sieht das schon auch gut."
+    },
+    {
+      "i": 129,
+      "start": 675.38,
+      "end": 680.52,
+      "text": "Ich finde halt einfach, die Fülle an Informationen macht für mich ein bisschen unübersichtlicher."
+    },
+    {
+      "i": 130,
+      "start": 681.12,
+      "end": 685.52,
+      "text": "Aber an und für sich, auch da kann man sehr viel herauslesen."
+    },
+    {
+      "i": 131,
+      "start": 687.04,
+      "end": 694.48,
+      "text": "Jetzt meines Wissens nur mit dem entsprechenden Abo."
+    },
+    {
+      "i": 132,
+      "start": 696.95,
+      "end": 698.13,
+      "text": "Wie gesagt, das..."
+    },
+    {
+      "i": 133,
+      "start": 699.08,
+      "end": 700.86,
+      "text": "Für euch ist eigentlich der Wind wichtig."
+    },
+    {
+      "i": 134,
+      "start": 701.16,
+      "end": 707.06,
+      "text": "Und auch hier könnt ihr mit dem Wind wirklich in den verschiedenen Höhen spielen."
+    },
+    {
+      "i": 135,
+      "start": 707.54,
+      "end": 714.95,
+      "text": "Weil ich finde halt nur noch cool, sind die Live-Druckdifferenzen zwischen Nord und Süd."
+    },
+    {
+      "i": 136,
+      "start": 715.46,
+      "end": 717.94,
+      "text": "Und vor allen Dingen ein bisschen besser aufgegeilt."
+    },
+    {
+      "i": 137,
+      "start": 718.08,
+      "end": 722.05,
+      "text": "Das heißt, verschiedenste auch ein bisschen mehr in die Richtung."
+    },
+    {
+      "i": 138,
+      "start": 722.05,
+      "end": 729.7,
+      "text": "Also das ist für mich da schon eine ordentliche Information, die da vorhanden ist."
+    },
+    {
+      "i": 139,
+      "start": 729.76,
+      "end": 733.83,
+      "text": "Und mit dem kann man sich auch sehr gut vorbereiten."
+    },
+    {
+      "i": 140,
+      "start": 734.67,
+      "end": 739.59,
+      "text": "Eine allgemeine Prognose, müsst ihr immer schauen."
+    },
+    {
+      "i": 141,
+      "start": 740.39,
+      "end": 744.75,
+      "text": "Ich würde Maximum drei solche Apps benutzen."
+    },
+    {
+      "i": 142,
+      "start": 746.16,
+      "end": 754.12,
+      "text": "Und dann versuchen herauszufinden, welche für euch vor denen dann noch die zuverlässigste ist."
+    },
+    {
+      "i": 143,
+      "start": 754.38,
+      "end": 759.68,
+      "text": "Und dann vielleicht mit nur zwei sogar arbeiten."
+    },
+    {
+      "i": 144,
+      "start": 760.44,
+      "end": 763.58,
+      "text": "Aber Maximum drei, hätte ich gesagt."
+    },
+    {
+      "i": 145,
+      "start": 763.58,
+      "end": 765.96,
+      "text": "Und das ist halt auch immer gut im Vergleich zu haben."
+    },
+    {
+      "i": 146,
+      "start": 766.06,
+      "end": 774.77,
+      "text": "Dann sieht man sehr, sehr schnell, mit welchem man an deinem Ort gut arbeiten kann."
+    },
+    {
+      "i": 147,
+      "start": 775.25,
+      "end": 781.03,
+      "text": "Wie gesagt, man hat immer die Möglichkeit, den Niederschlag und die Wolken einzublenden."
+    },
+    {
+      "i": 148,
+      "start": 781.91,
+      "end": 783.63,
+      "text": "Und da müsst ihr einfach drauf schauen."
+    },
+    {
+      "i": 149,
+      "start": 783.63,
+      "end": 791.93,
+      "text": "Sobald da ein grafierter Markier ist, dann heißt es, die Wolken berühren da das Gelände."
+    },
+    {
+      "i": 150,
+      "start": 792.59,
+      "end": 794.65,
+      "text": "Also das Detail hier ist alles Wolkenverhalten."
+    },
+    {
+      "i": 151,
+      "start": 795.31,
+      "end": 796.69,
+      "text": "Wolkenverhangen, Wolkenverhangen."
+    },
+    {
+      "i": 152,
+      "start": 796.97,
+      "end": 799.79,
+      "text": "Das sind wiederum sehr, sehr gut gemacht."
+    },
+    {
+      "i": 153,
+      "start": 800.31,
+      "end": 806.53,
+      "text": "Und Niederschlagbereiche werden dann logischerweise hier mit Blau-Grün angezeigt."
+    },
+    {
+      "i": 154,
+      "start": 807.08,
+      "end": 808.9,
+      "text": "Also hier einen ordentlichen Niederschlag."
+    },
+    {
+      "i": 155,
+      "start": 809.54,
+      "end": 819.12,
+      "text": "Und so kann man dann auch noch Wolkenmenge, Wolkenhöhe sogar herauslesen und den Niederschlag."
+    },
+    {
+      "i": 156,
+      "start": 819.28,
+      "end": 821.86,
+      "text": "Das finde ich eigentlich sehr gut gemacht."
+    },
+    {
+      "i": 157,
+      "start": 821.86,
+      "end": 825.18,
+      "text": "Wie gesagt, ihr könnt schauen, es gibt."
+    },
+    {
+      "i": 158,
+      "start": 825.76,
+      "end": 830.75,
+      "text": "Vom Bernie gibt es da jenseits Erklärungen."
+    },
+    {
+      "i": 159,
+      "start": 830.89,
+      "end": 835.07,
+      "text": "Man kann extrem viel mit seinem App herauslesen."
+    },
+    {
+      "i": 160,
+      "start": 835.68,
+      "end": 840.4,
+      "text": "Ich würde es aufs Minimum für euch reduzieren."
+    },
+    {
+      "i": 161,
+      "start": 841.3,
+      "end": 845.74,
+      "text": "Weil auch da habe ich jetzt die Erfahrung gemacht, dass die Prognose,"
+    },
+    {
+      "i": 162,
+      "start": 845.74,
+      "end": 856.7,
+      "text": "es nimmt zwar das Icon-Modell, aber ich finde, die Prognose ist eher auf der deutlich pessimistischeren Seite."
+    },
+    {
+      "i": 163,
+      "start": 857.64,
+      "end": 868.18,
+      "text": "Nur mit Burner arbeiten heißt für mich auch wirklich deutlich weniger fliegen und was nicht grundsätzlich verkehrt ist."
+    },
+    {
+      "i": 164,
+      "start": 868.18,
+      "end": 875.01,
+      "text": "Aber wenn man das weiß, dann kann man da auch vielleicht noch ein anderes App mit dazunehmen."
+    },
+    {
+      "i": 165,
+      "start": 875.01,
+      "end": 878.77,
+      "text": "Und dann hat man vielleicht doch deutlich mehr Flugtage."
+    },
+    {
+      "i": 166,
+      "start": 878.77,
+      "end": 885.82,
+      "text": "Also wenn man sich nur mit Burner vorbereitet, ist meine Ansicht nach ein bisschen zu pessimistisch."
+    },
+    {
+      "i": 167,
+      "start": 885.82,
+      "end": 888.32,
+      "text": "Aber zusätzlich Informationsquelle."
+    },
+    {
+      "i": 168,
+      "start": 888.32,
+      "end": 891.44,
+      "text": "Finde ich extrem wichtig und gut."
+    },
+    {
+      "i": 169,
+      "start": 891.44,
+      "end": 900.32,
+      "text": "Wer da noch kein Abo gelöst hat, ihr könnt das euch nachher noch in den Chat reinsetzen."
+    },
+    {
+      "i": 170,
+      "start": 900.32,
+      "end": 912.23,
+      "text": "Ihr könnt da 10 Franken sparen mit einem Gutschein-Code von mir und auf das jeweilige Abo und euch so noch mal ein bisschen was einsparen."
+    },
+    {
+      "i": 171,
+      "start": 912.23,
+      "end": 920.09,
+      "text": "Aber auch hier auszoomen, reindoomen wirklich sehr gut möglich und macht halt wirklich visuell sichtbar,"
+    },
+    {
+      "i": 172,
+      "start": 920.09,
+      "end": 925.86,
+      "text": "wo hat es mehr Wind, wo hat es vielleicht Bereiche mit weniger Wind, wo kann ich eher fliegen gehen."
+    },
+    {
+      "i": 173,
+      "start": 925.86,
+      "end": 935.32,
+      "text": "Und was halt hier sehr, sehr gut dargestellt ist, hier sieht man wirklich sehr schnell mit 1.500 und 2.000 Metern Höhen"
+    },
+    {
+      "i": 174,
+      "start": 935.32,
+      "end": 938.62,
+      "text": "und macht visuell wirklich gut sichtbar."
+    },
+    {
+      "i": 175,
+      "start": 938.62,
+      "end": 949.16,
+      "text": "Und das finde ich gerade jetzt für den heutigen beziehungsweise morgigen Tag, wo sehr, sehr viel Höhen gemeldet ist, ja, finde ich das sehr gut."
+    },
+    {
+      "i": 176,
+      "start": 949.16,
+      "end": 949.96,
+      "text": "Und es funktioniert."
+    },
+    {
+      "i": 177,
+      "start": 949.96,
+      "end": 953.94,
+      "text": "Funktioniert auch bei schwacheren Höhen sehr gut."
+    },
+    {
+      "i": 178,
+      "start": 953.94,
+      "end": 960.62,
+      "text": "Also das ist meine Erfahrung, finde ich sehr gelungen vor der Darstellung."
+    },
+    {
+      "i": 179,
+      "start": 960.62,
+      "end": 965.73,
+      "text": "Gut, das ist so Wind, Wolken, Niederschlag."
+    },
+    {
+      "i": 180,
+      "start": 965.73,
+      "end": 970.78,
+      "text": "Mit denen drei Apps kann man sich da eigentlich sehr gut durcharbeiten."
+    },
+    {
+      "i": 181,
+      "start": 970.78,
+      "end": 976.54,
+      "text": "Ihr solltet euch immer auch den Bodenbruck anschauen."
+    },
+    {
+      "i": 182,
+      "start": 976.54,
+      "end": 978.6,
+      "text": "Ihr habt das ja bei mir auf dem App sowieso."
+    },
+    {
+      "i": 183,
+      "start": 978.6,
+      "end": 983.1,
+      "text": "Da habt ihr jeweils die Messung und die Prognose vom Meteor Schweiz."
+    },
+    {
+      "i": 184,
+      "start": 983.1,
+      "end": 986.9,
+      "text": "Die ist gerade übereinander liegend, was auch sehr gut ist."
+    },
+    {
+      "i": 185,
+      "start": 986.9,
+      "end": 995.04,
+      "text": "Wer aber noch ein bisschen weiter vorausschauen möchte, haben wir ja gesehen, kann man mit Windy und den Isobaren machen."
+    },
+    {
+      "i": 186,
+      "start": 995.04,
+      "end": 1005.36,
+      "text": "Aber vom Deutschen Wetterdienst, gibt es auch diese die Prognosenkarte, die wird früher vom Wetterdienst erstellt."
+    },
+    {
+      "i": 187,
+      "start": 1005.36,
+      "end": 1011.56,
+      "text": "Aber dort hat man auf der Seite selbst, hat man die Möglichkeit."
+    },
+    {
+      "i": 188,
+      "start": 1011.56,
+      "end": 1013.91,
+      "text": "Da natürlich."
+    },
+    {
+      "i": 189,
+      "start": 1013.91,
+      "end": 1014.75,
+      "text": "In die."
+    },
+    {
+      "i": 190,
+      "start": 1014.75,
+      "end": 1019.1,
+      "text": "Zukunft zu blicken und sieht dann halt trotzdem noch"
+    },
+    {
+      "i": 191,
+      "start": 1019.1,
+      "end": 1022.82,
+      "text": "nicht nur Isobaren, sondern eben auch die dazugehörigen"
+    },
+    {
+      "i": 192,
+      "start": 1022.82,
+      "end": 1025.57,
+      "text": "Kunden. Das ist eigentlich auch noch"
+    },
+    {
+      "i": 193,
+      "start": 1025.57,
+      "end": 1031.17,
+      "text": "für mich, für meine Vorbereitung wichtig. Da kann ich"
+    },
+    {
+      "i": 194,
+      "start": 1031.17,
+      "end": 1035.05,
+      "text": "wirklich bis zu 108 Stunden in die Zukunft blicken und"
+    },
+    {
+      "i": 195,
+      "start": 1035.05,
+      "end": 1038.71,
+      "text": "sehe halt gleich, sind wir eher im Hochdruckeinfluss oder"
+    },
+    {
+      "i": 196,
+      "start": 1038.71,
+      "end": 1043.21,
+      "text": "näher im Tiefdruckeinfluss, wenn wir da mal weiter"
+    },
+    {
+      "i": 197,
+      "start": 1043.21,
+      "end": 1048.2,
+      "text": "auf den Samstag hingehen."
+    },
+    {
+      "i": 198,
+      "start": 1049.32,
+      "end": 1052.88,
+      "text": "Samstag ist dann so der Übergangstag. Der Sonntag sieht, glaube ich, nicht so"
+    },
+    {
+      "i": 199,
+      "start": 1052.88,
+      "end": 1057.04,
+      "text": "schlecht aus, aber halt ziemlich starke Wiese. Genau, kann man"
+    },
+    {
+      "i": 200,
+      "start": 1057.04,
+      "end": 1060.74,
+      "text": "da eigentlich sehen, was uns betrifft."
+    },
+    {
+      "i": 201,
+      "start": 1061.42,
+      "end": 1065.04,
+      "text": "Hingegen, wenn wir sagen, was in der Analyse der Fall ist,"
+    },
+    {
+      "i": 202,
+      "start": 1065.87,
+      "end": 1069.47,
+      "text": "da sind wir voll im Tiefdruckeinfluss, da im"
+    },
+    {
+      "i": 203,
+      "start": 1069.47,
+      "end": 1073.36,
+      "text": "sogenannten Farmsektor. Bischen den einzelnen Fronten"
+    },
+    {
+      "i": 204,
+      "start": 1073.36,
+      "end": 1074.92,
+      "text": "hängen wir da quasi fest."
+    },
+    {
+      "i": 205,
+      "start": 1075.8,
+      "end": 1079.4,
+      "text": "Und das fände ich eigentlich nur eine sehr coole Variante, um"
+    },
+    {
+      "i": 206,
+      "start": 1079.4,
+      "end": 1083.7,
+      "text": "deutlich weiter in die Zukunft zu blicken, was jetzt"
+    },
+    {
+      "i": 207,
+      "start": 1083.7,
+      "end": 1088.87,
+      "text": "die Bodendruckverteilung angeht und die Großwetterlage."
+    },
+    {
+      "i": 208,
+      "start": 1089.59,
+      "end": 1092.51,
+      "text": "Da müsst ihr halt beim deutschen Wettbewerbsdienst"
+    },
+    {
+      "i": 209,
+      "start": 1092.51,
+      "end": 1096.63,
+      "text": "schauen unter Daten, Anleitungen"
+    },
+    {
+      "i": 210,
+      "start": 1096.63,
+      "end": 1099.46,
+      "text": "und Analyse und Prognosen."
+    },
+    {
+      "i": 211,
+      "start": 1099.88,
+      "end": 1105.42,
+      "text": "Ich kann euch da den Link direkt in WhatsApp"
+    },
+    {
+      "i": 212,
+      "start": 1105.42,
+      "end": 1105.94,
+      "text": "rein."
+    },
+    {
+      "i": 213,
+      "start": 1107.44,
+      "end": 1112.89,
+      "text": "Falls ihr euch den abspeichern wollt, finde ich eigentlich ganz cool"
+    },
+    {
+      "i": 214,
+      "start": 1112.89,
+      "end": 1117.16,
+      "text": "und ist eine sehr gute Vorbereitung. Wie gesagt, die"
+    },
+    {
+      "i": 215,
+      "start": 1117.16,
+      "end": 1121.64,
+      "text": "Analyse sowie die Vorherberechnung von"
+    },
+    {
+      "i": 216,
+      "start": 1121.64,
+      "end": 1126.54,
+      "text": "Meteo Schweiz, wo ja auf dem Handy"
+    },
+    {
+      "i": 217,
+      "start": 1126.54,
+      "end": 1128.58,
+      "text": "hat das ja mittlerweile jeder Schweizer,"
+    },
+    {
+      "i": 218,
+      "start": 1131.23,
+      "end": 1137.92,
+      "text": "die Vorherberechnung der Bodendruckkarte"
+    },
+    {
+      "i": 219,
+      "start": 1137.92,
+      "end": 1140.93,
+      "text": "geht dann immer für 13 Uhr Lokalzeit."
+    },
+    {
+      "i": 220,
+      "start": 1140.93,
+      "end": 1143.1,
+      "text": "Das könnt ihr dann immer sehr, sehr gut"
+    },
+    {
+      "i": 221,
+      "start": 1143.12,
+      "end": 1144.32,
+      "text": "miteinander vergleichen."
+    },
+    {
+      "i": 222,
+      "start": 1144.32,
+      "end": 1148.35,
+      "text": "Das gehört für mich eigentlich auch zur Vorbereitung dazu."
+    },
+    {
+      "i": 223,
+      "start": 1148.35,
+      "end": 1155.3,
+      "text": "Noch diejenigen, die angemeldet sind beim"
+    },
+    {
+      "i": 224,
+      "start": 1155.3,
+      "end": 1161.56,
+      "text": "Meteobereich, der auch sehr viele Informationen bietet,"
+    },
+    {
+      "i": 225,
+      "start": 1161.56,
+      "end": 1166.13,
+      "text": "unter anderem noch einmal ein anderes Winddiagramm,"
+    },
+    {
+      "i": 226,
+      "start": 1166.13,
+      "end": 1172.32,
+      "text": "also anders in dem Bezug, das eine andere Skalierung hat."
+    },
+    {
+      "i": 227,
+      "start": 1172.32,
+      "end": 1176.42,
+      "text": "Vom Tag her ist es nochmal ein bisschen besser."
+    },
+    {
+      "i": 228,
+      "start": 1176.42,
+      "end": 1182.02,
+      "text": "Aber sicherlich, ja, ob man da jetzt am Nachmittag noch fliegen kann oder nicht."
+    },
+    {
+      "i": 229,
+      "start": 1183.2,
+      "end": 1187.46,
+      "text": "Was ich nicht ganz so gut finde, ist einfach die Grenze von fünf"
+    },
+    {
+      "i": 230,
+      "start": 1187.46,
+      "end": 1194.21,
+      "text": "Hektar Pascal hat ja doch oft gezeigt, dass vier tatsächlich ab vier"
+    },
+    {
+      "i": 231,
+      "start": 1194.21,
+      "end": 1198.01,
+      "text": "ist es dann wirklich merklich stark geworden."
+    },
+    {
+      "i": 232,
+      "start": 1198.49,
+      "end": 1204.04,
+      "text": "Und drum denke ich, ist vier nach wie vor noch so eine Grenze,"
+    },
+    {
+      "i": 233,
+      "start": 1204.04,
+      "end": 1206.7,
+      "text": "wo man nicht drüber gehen sollte."
+    },
+    {
+      "i": 234,
+      "start": 1206.7,
+      "end": 1208.57,
+      "text": "Aus meiner Sicht."
+    },
+    {
+      "i": 235,
+      "start": 1208.57,
+      "end": 1212.25,
+      "text": "Drum finde ich die Grenze mit fünf nicht ganz so glücklich."
+    },
+    {
+      "i": 236,
+      "start": 1212.25,
+      "end": 1217.21,
+      "text": "Was aber ein bisschen besser darstellt, ist Süden ist dort unten und Norden ist dort oben."
+    },
+    {
+      "i": 237,
+      "start": 1217.21,
+      "end": 1220.9,
+      "text": "Da kommt die Realität schon ein bisschen näher."
+    },
+    {
+      "i": 238,
+      "start": 1220.9,
+      "end": 1228.51,
+      "text": "Möchte ich euch sagen, ich habe da oder es gibt da ebenfalls vom deutschen Wetterdienst,"
+    },
+    {
+      "i": 239,
+      "start": 1228.51,
+      "end": 1231.15,
+      "text": "da sprechen auch noch verschiedene Diagramme."
+    },
+    {
+      "i": 240,
+      "start": 1231.15,
+      "end": 1235.56,
+      "text": "Ihr habt da im linken Bereich auch noch Wiederschlag."
+    },
+    {
+      "i": 241,
+      "start": 1235.56,
+      "end": 1237.3,
+      "text": "Ihr habt Wolken, wo wir abrufen."
+    },
+    {
+      "i": 242,
+      "start": 1237.3,
+      "end": 1242.38,
+      "text": "Könnt und was da ganz cool ist, ist eigentlich Sonnenschein, Dauer,"
+    },
+    {
+      "i": 243,
+      "start": 1242.38,
+      "end": 1249.9,
+      "text": "auch wenn wir da mal kurz draufgehen."
+    },
+    {
+      "i": 244,
+      "start": 1249.9,
+      "end": 1252.22,
+      "text": "Nein, das ist nicht das, was ich wollte."
+    },
+    {
+      "i": 245,
+      "start": 1252.22,
+      "end": 1257.13,
+      "text": "Machen wir das unter die Report der Möglichkeit,"
+    },
+    {
+      "i": 246,
+      "start": 1257.13,
+      "end": 1262.48,
+      "text": "woran abrufen könnt und dann habt ihr unterhalb von der Niederschlag"
+    },
+    {
+      "i": 247,
+      "start": 1262.48,
+      "end": 1266.48,
+      "text": "Karte da die Sonnenschein, Dauer, da kann man eben so genannte"
+    },
+    {
+      "i": 248,
+      "start": 1266.48,
+      "end": 1269.7,
+      "text": "Bühnenfenster auch sehr, sehr gut erkennen."
+    },
+    {
+      "i": 249,
+      "start": 1269.7,
+      "end": 1270.18,
+      "text": "Ja,"
+    },
+    {
+      "i": 250,
+      "start": 1270.9,
+      "end": 1275.52,
+      "text": "da dann auf den morgigen Tag gehen, dann sieht man da das Bühnenfenster,"
+    },
+    {
+      "i": 251,
+      "start": 1275.52,
+      "end": 1278.08,
+      "text": "was dann gegen Abend hin abgebaut wird."
+    },
+    {
+      "i": 252,
+      "start": 1278.08,
+      "end": 1283.6,
+      "text": "Also zum Beispiel auch nur etwas, was ihr sehr, sehr gut nutzen könnt."
+    },
+    {
+      "i": 253,
+      "start": 1283.6,
+      "end": 1287.76,
+      "text": "Beim SRV wird ein Gewunschlecht aufgebaut."
+    },
+    {
+      "i": 254,
+      "start": 1287.76,
+      "end": 1289.48,
+      "text": "Das Modell ist jetzt gewechselt."
+    },
+    {
+      "i": 255,
+      "start": 1289.48,
+      "end": 1292.64,
+      "text": "Nicht mehr das Cosmo Modell, sondern das Icon Modell."
+    },
+    {
+      "i": 256,
+      "start": 1292.64,
+      "end": 1295.92,
+      "text": "Von dem her muss man da jetzt schauen."
+    },
+    {
+      "i": 257,
+      "start": 1295.92,
+      "end": 1299.5,
+      "text": "Sind die Prognosen sicher wieder ein bisschen genauer, weil so Wolkenmenge, Niederschlag,"
+    },
+    {
+      "i": 258,
+      "start": 1299.5,
+      "end": 1305.66,
+      "text": "das hat nicht ganz so hingestongoen in der Vergangenheit."
+    },
+    {
+      "i": 259,
+      "start": 1305.66,
+      "end": 1311.18,
+      "text": "Drum kann man da jetzt mal in der Zukunft schauen, wie sich da die Lage entwickelt."
+    },
+    {
+      "i": 260,
+      "start": 1312.04,
+      "end": 1313.92,
+      "text": "Da gibt es einen allgemeinen Bereich."
+    },
+    {
+      "i": 261,
+      "start": 1313.92,
+      "end": 1318.4,
+      "text": "Geht ein bisschen mehr ins Detail."
+    },
+    {
+      "i": 262,
+      "start": 1318.4,
+      "end": 1325.95,
+      "text": "Die 700 karte beispielsweise sehr gut für umerkennen, wann Fronten reinkommen."
+    },
+    {
+      "i": 263,
+      "start": 1325.95,
+      "end": 1328.2,
+      "text": "Mal schauen, ob da jetzt."
+    },
+    {
+      "i": 264,
+      "start": 1328.2,
+      "end": 1328.8,
+      "text": "Vielleicht mal schauen."
+    },
+    {
+      "i": 265,
+      "start": 1328.8,
+      "end": 1329.2,
+      "text": "Dann können wir da noch etwas nachschauen."
+    },
+    {
+      "i": 266,
+      "start": 1329.2,
+      "end": 1330.44,
+      "text": "Und dann sehen wir uns da mal wieder, wenn es so weitergeht."
+    },
+    {
+      "i": 267,
+      "start": 1330.44,
+      "end": 1330.56,
+      "text": "Dann sehen wir uns dann wieder."
+    },
+    {
+      "i": 268,
+      "start": 1330.56,
+      "end": 1330.66,
+      "text": "Dann sehen wir uns da mal wieder."
+    },
+    {
+      "i": 269,
+      "start": 1330.66,
+      "end": 1331.0,
+      "text": "Dann sehen wir uns dann wieder."
+    },
+    {
+      "i": 270,
+      "start": 1331.0,
+      "end": 1332.98,
+      "text": "schauen, ja, das ist eigentlich schon der"
+    },
+    {
+      "i": 271,
+      "start": 1332.98,
+      "end": 1334.94,
+      "text": "morgige Zack, da sieht man,"
+    },
+    {
+      "i": 272,
+      "start": 1335.1,
+      "end": 1336.58,
+      "text": "wie die restliche Front"
+    },
+    {
+      "i": 273,
+      "start": 1336.58,
+      "end": 1339.0,
+      "text": "da noch reinkommt,"
+    },
+    {
+      "i": 274,
+      "start": 1339.14,
+      "end": 1341.16,
+      "text": "also ich finde es nicht"
+    },
+    {
+      "i": 275,
+      "start": 1341.16,
+      "end": 1343.54,
+      "text": "so schlecht, da fängt es"
+    },
+    {
+      "i": 276,
+      "start": 1343.54,
+      "end": 1345.65,
+      "text": "dann schon an, gibt es schon"
+    },
+    {
+      "i": 277,
+      "start": 1345.65,
+      "end": 1347.65,
+      "text": "gewisse Ausläufer, da ist"
+    },
+    {
+      "i": 278,
+      "start": 1347.65,
+      "end": 1349.13,
+      "text": "dann definitiv der Fall,"
+    },
+    {
+      "i": 279,
+      "start": 1349.53,
+      "end": 1351.67,
+      "text": "also ist auch da nicht"
+    },
+    {
+      "i": 280,
+      "start": 1351.67,
+      "end": 1353.37,
+      "text": "so schlecht für die Vorbereitung,"
+    },
+    {
+      "i": 281,
+      "start": 1353.55,
+      "end": 1356.12,
+      "text": "aber mal noch"
+    },
+    {
+      "i": 282,
+      "start": 1356.12,
+      "end": 1358.58,
+      "text": "auf den deutschen Wetterdienst,"
+    },
+    {
+      "i": 283,
+      "start": 1358.96,
+      "end": 1359.6,
+      "text": "da haben wir"
+    },
+    {
+      "i": 284,
+      "start": 1359.6,
+      "end": 1362.3,
+      "text": "verschiedenste Diagramme, nicht nur"
+    },
+    {
+      "i": 285,
+      "start": 1362.3,
+      "end": 1364.42,
+      "text": "das sogenannte Föhn-Diagramm"
+    },
+    {
+      "i": 286,
+      "start": 1364.42,
+      "end": 1366.1,
+      "text": "und das finde ich eben lästig dort,"
+    },
+    {
+      "i": 287,
+      "start": 1366.68,
+      "end": 1368.38,
+      "text": "man hat dort eben zur Auswahl"
+    },
+    {
+      "i": 288,
+      "start": 1368.38,
+      "end": 1369.92,
+      "text": "auch den Föhn in Österreich,"
+    },
+    {
+      "i": 289,
+      "start": 1370.6,
+      "end": 1372.72,
+      "text": "diese, klar, das haben wir"
+    },
+    {
+      "i": 290,
+      "start": 1372.72,
+      "end": 1374.48,
+      "text": "sowieso, aber eben auch"
+    },
+    {
+      "i": 291,
+      "start": 1374.48,
+      "end": 1376.76,
+      "text": "Wind am Gardasee, hat sehr"
+    },
+    {
+      "i": 292,
+      "start": 1376.76,
+      "end": 1378.8,
+      "text": "gut funktioniert, dann"
+    },
+    {
+      "i": 293,
+      "start": 1378.8,
+      "end": 1381.12,
+      "text": "etwas, was ich in Slowenien"
+    },
+    {
+      "i": 294,
+      "start": 1381.12,
+      "end": 1382.4,
+      "text": "genutzt habe, was"
+    },
+    {
+      "i": 295,
+      "start": 1382.4,
+      "end": 1384.58,
+      "text": "hervorragend funktioniert hat,"
+    },
+    {
+      "i": 296,
+      "start": 1384.66,
+      "end": 1386.7,
+      "text": "war Bora-Diagramm, das"
+    },
+    {
+      "i": 297,
+      "start": 1386.7,
+      "end": 1388.52,
+      "text": "hat mir auch sehr gut geholfen,"
+    },
+    {
+      "i": 298,
+      "start": 1388.66,
+      "end": 1390.81,
+      "text": "dort unten, finde ich also sehr"
+    },
+    {
+      "i": 299,
+      "start": 1390.81,
+      "end": 1392.81,
+      "text": "gut und den Mistfall für Frankreich,"
+    },
+    {
+      "i": 300,
+      "start": 1392.83,
+      "end": 1395.09,
+      "text": "da kann man wirklich"
+    },
+    {
+      "i": 301,
+      "start": 1395.09,
+      "end": 1397.25,
+      "text": "unter verschiedensten Diagrammen"
+    },
+    {
+      "i": 302,
+      "start": 1397.25,
+      "end": 1398.83,
+      "text": "auswählen und"
+    },
+    {
+      "i": 303,
+      "start": 1398.83,
+      "end": 1400.83,
+      "text": "ich finde das halt hervorragend"
+    },
+    {
+      "i": 304,
+      "start": 1401.39,
+      "end": 1403.05,
+      "text": "für die Flugvorbereitung,"
+    },
+    {
+      "i": 305,
+      "start": 1403.17,
+      "end": 1404.95,
+      "text": "da kann man wirklich mit einem"
+    },
+    {
+      "i": 306,
+      "start": 1404.95,
+      "end": 1406.95,
+      "text": "Blick auch sehen, wann passiert"
+    },
+    {
+      "i": 307,
+      "start": 1406.95,
+      "end": 1408.89,
+      "text": "was, wenn wir jetzt bei uns schauen,"
+    },
+    {
+      "i": 308,
+      "start": 1409.37,
+      "end": 1410.81,
+      "text": "sehen wir, dass hier ein starker"
+    },
+    {
+      "i": 309,
+      "start": 1410.81,
+      "end": 1412.85,
+      "text": "Druckabfall vorhanden ist,"
+    },
+    {
+      "i": 310,
+      "start": 1412.97,
+      "end": 1414.39,
+      "text": "das heißt, da irgendwo"
+    },
+    {
+      "i": 311,
+      "start": 1414.39,
+      "end": 1416.65,
+      "text": "kommt dann die Front rein"
+    },
+    {
+      "i": 312,
+      "start": 1416.65,
+      "end": 1419.05,
+      "text": "und auch das ist"
+    },
+    {
+      "i": 313,
+      "start": 1419.05,
+      "end": 1421.09,
+      "text": "eigentlich für die Wettervorbereitung"
+    },
+    {
+      "i": 314,
+      "start": 1421.09,
+      "end": 1423.24,
+      "text": "ja, sehr, sehr wichtig,"
+    },
+    {
+      "i": 315,
+      "start": 1423.26,
+      "end": 1425.46,
+      "text": "aber das hat auch bei mir auf dem App"
+    },
+    {
+      "i": 316,
+      "start": 1425.46,
+      "end": 1426.94,
+      "text": "ja, mit"
+    },
+    {
+      "i": 317,
+      "start": 1426.94,
+      "end": 1429.74,
+      "text": "integriert. Gut,"
+    },
+    {
+      "i": 318,
+      "start": 1430.16,
+      "end": 1431.78,
+      "text": "was vielleicht noch"
+    },
+    {
+      "i": 319,
+      "start": 1431.78,
+      "end": 1433.36,
+      "text": "so ein Zusatzpunkt"
+    },
+    {
+      "i": 320,
+      "start": 1433.36,
+      "end": 1435.6,
+      "text": "Niederschlag und"
+    },
+    {
+      "i": 321,
+      "start": 1435.6,
+      "end": 1437.78,
+      "text": "Wolkenmenge oder"
+    },
+    {
+      "i": 322,
+      "start": 1437.78,
+      "end": 1439.84,
+      "text": "Wolkenradar, das schaue ich"
+    },
+    {
+      "i": 323,
+      "start": 1439.84,
+      "end": 1441.74,
+      "text": "tatsächlich sehr, sehr viel bei"
+    },
+    {
+      "i": 324,
+      "start": 1441.74,
+      "end": 1443.28,
+      "text": "Meteo Schweiz auf dem App,"
+    },
+    {
+      "i": 325,
+      "start": 1443.64,
+      "end": 1445.24,
+      "text": "auf dem Handy, das"
+    },
+    {
+      "i": 326,
+      "start": 1445.24,
+      "end": 1447.6,
+      "text": "funktioniert recht gut, auch da"
+    },
+    {
+      "i": 327,
+      "start": 1447.6,
+      "end": 1448.98,
+      "text": "gibt es hier und da mal"
+    },
+    {
+      "i": 328,
+      "start": 1448.98,
+      "end": 1452.99,
+      "text": "Prognosen, die nicht so"
+    },
+    {
+      "i": 329,
+      "start": 1452.99,
+      "end": 1454.75,
+      "text": "hinkommen, aber Niederschlag,"
+    },
+    {
+      "i": 330,
+      "start": 1454.99,
+      "end": 1456.79,
+      "text": "Prognose finde ich halt da"
+    },
+    {
+      "i": 331,
+      "start": 1456.79,
+      "end": 1457.77,
+      "text": "schon sehr gut"
+    },
+    {
+      "i": 332,
+      "start": 1457.77,
+      "end": 1460.83,
+      "text": "und gehört für mich"
+    },
+    {
+      "i": 333,
+      "start": 1460.83,
+      "end": 1462.61,
+      "text": "dann für den Folgetag"
+    },
+    {
+      "i": 334,
+      "start": 1462.61,
+      "end": 1464.87,
+      "text": "immer mit rein, aber ich denke,"
+    },
+    {
+      "i": 335,
+      "start": 1465.49,
+      "end": 1467.05,
+      "text": "das können die meisten vom App,"
+    },
+    {
+      "i": 336,
+      "start": 1467.33,
+      "end": 1468.85,
+      "text": "vom Handy, also das solltet"
+    },
+    {
+      "i": 337,
+      "start": 1468.85,
+      "end": 1470.55,
+      "text": "ihr auf jeden Fall mit reinnehmen"
+    },
+    {
+      "i": 338,
+      "start": 1470.55,
+      "end": 1472.68,
+      "text": "in eure Prognose."
+    },
+    {
+      "i": 339,
+      "start": 1473.86,
+      "end": 1475.28,
+      "text": "Gut, dann würde"
+    },
+    {
+      "i": 340,
+      "start": 1475.28,
+      "end": 1477.3,
+      "text": "ich einmal so"
+    },
+    {
+      "i": 341,
+      "start": 1477.3,
+      "end": 1479.42,
+      "text": "eine Windprognose schnell"
+    },
+    {
+      "i": 342,
+      "start": 1479.42,
+      "end": 1480.84,
+      "text": "mit euch durchgehen,"
+    },
+    {
+      "i": 343,
+      "start": 1481.75,
+      "end": 1483.83,
+      "text": "einmal eine Wolkenprognose"
+    },
+    {
+      "i": 344,
+      "start": 1483.83,
+      "end": 1486.12,
+      "text": "mit den"
+    },
+    {
+      "i": 345,
+      "start": 1486.12,
+      "end": 1488.37,
+      "text": "verschiedenen Apps"
+    },
+    {
+      "i": 346,
+      "start": 1488.37,
+      "end": 1489.95,
+      "text": "beziehungsweise nur schnell"
+    },
+    {
+      "i": 347,
+      "start": 1489.95,
+      "end": 1491.18,
+      "text": "mit"
+    },
+    {
+      "i": 348,
+      "start": 1491.18,
+      "end": 1494.31,
+      "text": "Burn Air, Meteo,"
+    },
+    {
+      "i": 349,
+      "start": 1494.59,
+      "end": 1495.73,
+      "text": "PowerPo und Windy"
+    },
+    {
+      "i": 350,
+      "start": 1495.73,
+      "end": 1498.5,
+      "text": "und auch da gibt es dann hier noch"
+    },
+    {
+      "i": 351,
+      "start": 1498.5,
+      "end": 1500.5,
+      "text": "ein sogenanntes Wolkenradar, aber das ist"
+    },
+    {
+      "i": 352,
+      "start": 1500.5,
+      "end": 1501.98,
+      "text": "auf dem Handy besser ersichtlich."
+    },
+    {
+      "i": 353,
+      "start": 1503.84,
+      "end": 1505.8,
+      "text": "Gut, dann würde ich schnell mit Windy"
+    },
+    {
+      "i": 354,
+      "start": 1505.8,
+      "end": 1507.9,
+      "text": "starten, gerade für den morgigen"
+    },
+    {
+      "i": 355,
+      "start": 1507.9,
+      "end": 1508.4,
+      "text": "Tag."
+    },
+    {
+      "i": 356,
+      "start": 1509.96,
+      "end": 1512.27,
+      "text": "Wir haben ja nicht mehr so"
+    },
+    {
+      "i": 357,
+      "start": 1512.27,
+      "end": 1514.27,
+      "text": "weit in die Zukunft"
+    },
+    {
+      "i": 358,
+      "start": 1514.27,
+      "end": 1517.05,
+      "text": "blicken müssen, für den morgigen Tag"
+    },
+    {
+      "i": 359,
+      "start": 1517.05,
+      "end": 1519.03,
+      "text": "wechsle ich jetzt hier auf"
+    },
+    {
+      "i": 360,
+      "start": 1519.03,
+      "end": 1520.17,
+      "text": "das Icon D2."
+    },
+    {
+      "i": 361,
+      "start": 1521.36,
+      "end": 1523.62,
+      "text": "Wir sehen allein schon, ohne dass"
+    },
+    {
+      "i": 362,
+      "start": 1523.62,
+      "end": 1525.2,
+      "text": "ich jetzt die Höhe geändert habe,"
+    },
+    {
+      "i": 363,
+      "start": 1525.74,
+      "end": 1527.06,
+      "text": "aber vom europäischen"
+    },
+    {
+      "i": 364,
+      "start": 1527.06,
+      "end": 1530.61,
+      "text": "Icon D2"
+    },
+    {
+      "i": 365,
+      "start": 1530.61,
+      "end": 1531.61,
+      "text": "zum DWD,"
+    },
+    {
+      "i": 366,
+      "start": 1531.61,
+      "end": 1533.49,
+      "text": "haben wir da"
+    },
+    {
+      "i": 367,
+      "start": 1533.49,
+      "end": 1536.05,
+      "text": "über uns"
+    },
+    {
+      "i": 368,
+      "start": 1536.05,
+      "end": 1538.14,
+      "text": "also schon mal eine ganz andere"
+    },
+    {
+      "i": 369,
+      "start": 1538.14,
+      "end": 1539.36,
+      "text": "Geschwindigkeit."
+    },
+    {
+      "i": 370,
+      "start": 1540.22,
+      "end": 1542.32,
+      "text": "44 zu 33,"
+    },
+    {
+      "i": 371,
+      "start": 1542.52,
+      "end": 1544.14,
+      "text": "das sind immerhin 11 kmh"
+    },
+    {
+      "i": 372,
+      "start": 1544.14,
+      "end": 1545.62,
+      "text": "und"
+    },
+    {
+      "i": 373,
+      "start": 1545.62,
+      "end": 1548.64,
+      "text": "da müssen wir dann"
+    },
+    {
+      "i": 374,
+      "start": 1548.64,
+      "end": 1550.54,
+      "text": "die jeweilige Höhe anschauen."
+    },
+    {
+      "i": 375,
+      "start": 1550.86,
+      "end": 1551.92,
+      "text": "Im Moment, im Winter,"
+    },
+    {
+      "i": 376,
+      "start": 1551.94,
+      "end": 1553.66,
+      "text": "empfehle ich euch wirklich"
+    },
+    {
+      "i": 377,
+      "start": 1553.66,
+      "end": 1555.98,
+      "text": "3000er Wind gut anzuschauen."
+    },
+    {
+      "i": 378,
+      "start": 1556.86,
+      "end": 1558.12,
+      "text": "Der kann gut nach unten"
+    },
+    {
+      "i": 379,
+      "start": 1558.12,
+      "end": 1560.13,
+      "text": "kommen, durchbrechen."
+    },
+    {
+      "i": 380,
+      "start": 1560.94,
+      "end": 1562.2,
+      "text": "Wir haben noch nicht so"
+    },
+    {
+      "i": 381,
+      "start": 1562.2,
+      "end": 1564.2,
+      "text": "einen Thermikpolster, dass das Ganze"
+    },
+    {
+      "i": 382,
+      "start": 1564.2,
+      "end": 1566.0,
+      "text": "sehr gut abfedern kann oder"
+    },
+    {
+      "i": 383,
+      "start": 1566.0,
+      "end": 1568.4,
+      "text": "besser gesagt, sehr gut nach oben"
+    },
+    {
+      "i": 384,
+      "start": 1568.4,
+      "end": 1569.6,
+      "text": "wegdrückt und deshalb"
+    },
+    {
+      "i": 385,
+      "start": 1569.6,
+      "end": 1572.12,
+      "text": "immer den 3000er Wind sicher"
+    },
+    {
+      "i": 386,
+      "start": 1572.12,
+      "end": 1574.42,
+      "text": "mit reinnehmen. Vielleicht fangt"
+    },
+    {
+      "i": 387,
+      "start": 1574.42,
+      "end": 1576.06,
+      "text": "er sogar erst einmal noch"
+    },
+    {
+      "i": 388,
+      "start": 1576.06,
+      "end": 1579.01,
+      "text": "weiter oben an. 4000er"
+    },
+    {
+      "i": 389,
+      "start": 1579.01,
+      "end": 1580.75,
+      "text": "Wind geht nochmal ein bisschen raus"
+    },
+    {
+      "i": 390,
+      "start": 1580.75,
+      "end": 1584.52,
+      "text": "und erst nachher"
+    },
+    {
+      "i": 391,
+      "start": 1584.52,
+      "end": 1586.48,
+      "text": "wieder in die Tiefe. Also da haben wir"
+    },
+    {
+      "i": 392,
+      "start": 1586.48,
+      "end": 1587.5,
+      "text": "jetzt für morgen auf"
+    },
+    {
+      "i": 393,
+      "start": 1587.5,
+      "end": 1590.62,
+      "text": "4.074 kmh Weltwind"
+    },
+    {
+      "i": 394,
+      "start": 1590.62,
+      "end": 1592.88,
+      "text": "gemeldet um 12 Uhr."
+    },
+    {
+      "i": 395,
+      "start": 1593.34,
+      "end": 1594.94,
+      "text": "Wir machen jetzt der Einfahrtheit"
+    },
+    {
+      "i": 396,
+      "start": 1594.94,
+      "end": 1596.94,
+      "text": "halber mal nur so um den Mittag rum"
+    },
+    {
+      "i": 397,
+      "start": 1596.94,
+      "end": 1598.96,
+      "text": "und dann wäre wichtig,"
+    },
+    {
+      "i": 398,
+      "start": 1599.12,
+      "end": 1600.28,
+      "text": "dass er morgen auch schaut,"
+    },
+    {
+      "i": 399,
+      "start": 1600.82,
+      "end": 1602.72,
+      "text": "was ist so um den Mittag rum wirklich"
+    },
+    {
+      "i": 400,
+      "start": 1602.72,
+      "end": 1604.22,
+      "text": "für einen Wind vorhanden."
+    },
+    {
+      "i": 401,
+      "start": 1604.88,
+      "end": 1606.56,
+      "text": "Wir haben gewisse Messstationen,"
+    },
+    {
+      "i": 402,
+      "start": 1606.66,
+      "end": 1608.62,
+      "text": "auch auf 3000 Metern in unserer"
+    },
+    {
+      "i": 403,
+      "start": 1608.62,
+      "end": 1610.86,
+      "text": "Umgebung, wo man abrufen kann und schauen kann,"
+    },
+    {
+      "i": 404,
+      "start": 1610.86,
+      "end": 1617.48,
+      "text": "ist das auch wirklich. Gehen wir da wieder"
+    },
+    {
+      "i": 405,
+      "start": 1617.48,
+      "end": 1619.3,
+      "text": "runter, 4000, gehen wir da mal"
+    },
+    {
+      "i": 406,
+      "start": 1619.3,
+      "end": 1621.34,
+      "text": "jetzt wieder auf 3000 runter."
+    },
+    {
+      "i": 407,
+      "start": 1622.14,
+      "end": 1623.4,
+      "text": "3000,"
+    },
+    {
+      "i": 408,
+      "start": 1625.7,
+      "end": 1627.96,
+      "text": "wie gesagt, 45 kmh."
+    },
+    {
+      "i": 409,
+      "start": 1628.04,
+      "end": 1629.4,
+      "text": "Man sieht, dass wir da unten"
+    },
+    {
+      "i": 410,
+      "start": 1629.4,
+      "end": 1632.15,
+      "text": "deutlich weniger"
+    },
+    {
+      "i": 411,
+      "start": 1632.15,
+      "end": 1633.77,
+      "text": "Wind haben, 25"
+    },
+    {
+      "i": 412,
+      "start": 1633.77,
+      "end": 1636.09,
+      "text": "Südwest, also da wäre es vielleicht"
+    },
+    {
+      "i": 413,
+      "start": 1636.09,
+      "end": 1637.07,
+      "text": "sogar auch fliegbar."
+    },
+    {
+      "i": 414,
+      "start": 1638.12,
+      "end": 1640.02,
+      "text": "Bei Föhn, das ist auch so"
+    },
+    {
+      "i": 415,
+      "start": 1640.02,
+      "end": 1642.46,
+      "text": "luftseitig, könnte man vielleicht"
+    },
+    {
+      "i": 416,
+      "start": 1642.46,
+      "end": 1644.62,
+      "text": "fliegen, wenn es keinen Niederschlag"
+    },
+    {
+      "i": 417,
+      "start": 1644.62,
+      "end": 1646.48,
+      "text": "hat und wenn der Wind trotzdem nicht"
+    },
+    {
+      "i": 418,
+      "start": 1646.48,
+      "end": 1648.66,
+      "text": "zu stark ist. Aber"
+    },
+    {
+      "i": 419,
+      "start": 1648.66,
+      "end": 1650.24,
+      "text": "bei so viel,"
+    },
+    {
+      "i": 420,
+      "start": 1651.43,
+      "end": 1652.95,
+      "text": "weil er hat da unten trotzdem"
+    },
+    {
+      "i": 421,
+      "start": 1652.95,
+      "end": 1654.65,
+      "text": "Stauniederschläge und"
+    },
+    {
+      "i": 422,
+      "start": 1654.65,
+      "end": 1657.67,
+      "text": "nicht so gut fliegbar. Genau."
+    },
+    {
+      "i": 423,
+      "start": 1658.01,
+      "end": 1659.53,
+      "text": "Das heißt, für uns,"
+    },
+    {
+      "i": 424,
+      "start": 1659.81,
+      "end": 1661.19,
+      "text": "wenn wir da nochmal ein bisschen"
+    },
+    {
+      "i": 425,
+      "start": 1661.19,
+      "end": 1664.01,
+      "text": "runtergehen, der 2000er"
+    },
+    {
+      "i": 426,
+      "start": 1664.01,
+      "end": 1665.72,
+      "text": "Wind passt im Moment"
+    },
+    {
+      "i": 427,
+      "start": 1665.72,
+      "end": 1667.7,
+      "text": "nicht so gut. Aber gehen wir mal"
+    },
+    {
+      "i": 428,
+      "start": 1667.7,
+      "end": 1669.58,
+      "text": "da runter, dann haben wir"
+    },
+    {
+      "i": 429,
+      "start": 1669.58,
+      "end": 1670.76,
+      "text": "20 kmh,"
+    },
+    {
+      "i": 430,
+      "start": 1671.04,
+      "end": 1673.37,
+      "text": "wo man wirklich auch unsere"
+    },
+    {
+      "i": 431,
+      "start": 1673.37,
+      "end": 1677.08,
+      "text": "20 kmh könnte"
+    },
+    {
+      "i": 432,
+      "start": 1677.08,
+      "end": 1678.61,
+      "text": "in etwa"
+    },
+    {
+      "i": 433,
+      "start": 1678.61,
+      "end": 1680.09,
+      "text": "hinkommen morgen."
+    },
+    {
+      "i": 434,
+      "start": 1682.22,
+      "end": 1683.64,
+      "text": "Unsere Station ist"
+    },
+    {
+      "i": 435,
+      "start": 1683.64,
+      "end": 1687.37,
+      "text": "ja auf 2150 Meter"
+    },
+    {
+      "i": 436,
+      "start": 1687.37,
+      "end": 1689.45,
+      "text": "oder so. Ganz genau kann ich"
+    },
+    {
+      "i": 437,
+      "start": 1689.45,
+      "end": 1691.15,
+      "text": "euch nicht sagen, aber da könnte man dann"
+    },
+    {
+      "i": 438,
+      "start": 1691.15,
+      "end": 1692.43,
+      "text": "morgen schauen, was da an sich"
+    },
+    {
+      "i": 439,
+      "start": 1692.43,
+      "end": 1693.77,
+      "text": "am Startlöchern ist."
+    },
+    {
+      "i": 440,
+      "start": 1694.58,
+      "end": 1696.7,
+      "text": "Meistens ist es eben so, dass der Südwestwind"
+    },
+    {
+      "i": 441,
+      "start": 1696.7,
+      "end": 1698.68,
+      "text": "am Grafen schon selber gar nicht richtig"
+    },
+    {
+      "i": 442,
+      "start": 1698.68,
+      "end": 1701.06,
+      "text": "ankommt, sondern mehr als West-Nordwestwind."
+    },
+    {
+      "i": 443,
+      "start": 1701.72,
+      "end": 1703.16,
+      "text": "Aber schauen wir morgen mal,"
+    },
+    {
+      "i": 444,
+      "start": 1703.56,
+      "end": 1705.52,
+      "text": "ob da auf 2000 Meter"
+    },
+    {
+      "i": 445,
+      "start": 1705.52,
+      "end": 1706.66,
+      "text": "zwischen uns landen kann."
+    },
+    {
+      "i": 446,
+      "start": 1708.92,
+      "end": 1709.82,
+      "text": "Dann können wir vielleicht,"
+    },
+    {
+      "i": 447,
+      "start": 1711.52,
+      "end": 1713.38,
+      "text": "ich habe noch 10 Minuten Zeit,"
+    },
+    {
+      "i": 448,
+      "start": 1714.98,
+      "end": 1716.52,
+      "text": "dann gehen wir gerade auf"
+    },
+    {
+      "i": 449,
+      "start": 1716.52,
+      "end": 1718.06,
+      "text": "den Metroparabol, schauen,"
+    },
+    {
+      "i": 450,
+      "start": 1718.36,
+      "end": 1723.08,
+      "text": "was sagen Sie."
+    },
+    {
+      "i": 451,
+      "start": 1724.75,
+      "end": 1726.23,
+      "text": "Da muss man dann natürlich den"
+    },
+    {
+      "i": 452,
+      "start": 1726.23,
+      "end": 1728.13,
+      "text": "Bereich noch auswählen, nehmen wir"
+    },
+    {
+      "i": 453,
+      "start": 1728.13,
+      "end": 1729.93,
+      "text": "unseren Bereich, Donnerstag,"
+    },
+    {
+      "i": 454,
+      "start": 1730.69,
+      "end": 1732.77,
+      "text": "da unten die Anträge brauchen wir nicht wechseln,"
+    },
+    {
+      "i": 455,
+      "start": 1732.87,
+      "end": 1734.03,
+      "text": "wir sind ja hier,"
+    },
+    {
+      "i": 456,
+      "start": 1734.76,
+      "end": 1737.1,
+      "text": "12 Uhr auf 2000"
+    },
+    {
+      "i": 457,
+      "start": 1737.1,
+      "end": 1738.9,
+      "text": "Meter, die sind sich"
+    },
+    {
+      "i": 458,
+      "start": 1738.9,
+      "end": 1740.5,
+      "text": "zwar"
+    },
+    {
+      "i": 459,
+      "start": 1740.5,
+      "end": 1744.0,
+      "text": "einig, wir haben dort"
+    },
+    {
+      "i": 460,
+      "start": 1744.0,
+      "end": 1748.19,
+      "text": "auch"
+    },
+    {
+      "i": 461,
+      "start": 1748.19,
+      "end": 1750.15,
+      "text": "um die 20 kmh"
+    },
+    {
+      "i": 462,
+      "start": 1750.15,
+      "end": 1752.58,
+      "text": "Wind südwestlicher"
+    },
+    {
+      "i": 463,
+      "start": 1752.58,
+      "end": 1754.16,
+      "text": "Richtung und dann wird"
+    },
+    {
+      "i": 464,
+      "start": 1754.16,
+      "end": 1755.94,
+      "text": "eigentlich da ab 13 Uhr"
+    },
+    {
+      "i": 465,
+      "start": 1755.94,
+      "end": 1758.43,
+      "text": "sehr stark, dann können wir gerade"
+    },
+    {
+      "i": 466,
+      "start": 1758.43,
+      "end": 1758.93,
+      "text": "schnell"
+    },
+    {
+      "i": 467,
+      "start": 1758.93,
+      "end": 1766.05,
+      "text": "auf dem Handy"
+    },
+    {
+      "i": 468,
+      "start": 1766.05,
+      "end": 1767.97,
+      "text": "und schauen, ob es um 13 Uhr"
+    },
+    {
+      "i": 469,
+      "start": 1767.97,
+      "end": 1770.24,
+      "text": "dort auch startet."
+    },
+    {
+      "i": 470,
+      "start": 1772.7,
+      "end": 1775.02,
+      "text": "Dann schauen wir"
+    },
+    {
+      "i": 471,
+      "start": 1775.02,
+      "end": 1780.66,
+      "text": "am 13 Uhr"
+    },
+    {
+      "i": 472,
+      "start": 1780.66,
+      "end": 1781.61,
+      "text": "und"
+    },
+    {
+      "i": 473,
+      "start": 1781.61,
+      "end": 1782.93,
+      "text": "da wird es"
+    },
+    {
+      "i": 474,
+      "start": 1782.93,
+      "end": 1784.77,
+      "text": "genau auf 3000 Meter"
+    },
+    {
+      "i": 475,
+      "start": 1784.77,
+      "end": 1788.7,
+      "text": "einig sein."
+    },
+    {
+      "i": 476,
+      "start": 1788.96,
+      "end": 1790.6,
+      "text": "Die Daten jetzt noch nicht"
+    },
+    {
+      "i": 477,
+      "start": 1790.6,
+      "end": 1792.6,
+      "text": "sehr viel mehr haben, sondern nur"
+    },
+    {
+      "i": 478,
+      "start": 1792.6,
+      "end": 1794.34,
+      "text": "3000 Meter mehr als"
+    },
+    {
+      "i": 479,
+      "start": 1794.34,
+      "end": 1797.7,
+      "text": "das Wind, die das angezeigt hat."
+    },
+    {
+      "i": 480,
+      "start": 1801.2,
+      "end": 1802.58,
+      "text": "Auf Grundlegung sieht man,"
+    },
+    {
+      "i": 481,
+      "start": 1802.86,
+      "end": 1805.0,
+      "text": "okay, kommt starker Wind auf,"
+    },
+    {
+      "i": 482,
+      "start": 1806.0,
+      "end": 1807.46,
+      "text": "hier geht er einfach noch mal deutlich"
+    },
+    {
+      "i": 483,
+      "start": 1807.46,
+      "end": 1809.4,
+      "text": "weiter nach unten bei Windy,"
+    },
+    {
+      "i": 484,
+      "start": 1810.24,
+      "end": 1812.22,
+      "text": "äh, bei Metroparabol als bei Windy."
+    },
+    {
+      "i": 485,
+      "start": 1813.02,
+      "end": 1813.96,
+      "text": "Dann schauen wir, was"
+    },
+    {
+      "i": 486,
+      "start": 1813.96,
+      "end": 1815.68,
+      "text": "sagt der Bernie."
+    },
+    {
+      "i": 487,
+      "start": 1823.21,
+      "end": 1825.07,
+      "text": "Wir müssen auf Metaprognose gehen"
+    },
+    {
+      "i": 488,
+      "start": 1825.07,
+      "end": 1827.17,
+      "text": "und dann blenden wir mal"
+    },
+    {
+      "i": 489,
+      "start": 1827.17,
+      "end": 1828.37,
+      "text": "den Mieterschlag aus."
+    },
+    {
+      "i": 490,
+      "start": 1829.22,
+      "end": 1831.38,
+      "text": "Schauen wir mal auf 1000 Meter"
+    },
+    {
+      "i": 491,
+      "start": 1831.38,
+      "end": 1832.1,
+      "text": "für morgen."
+    },
+    {
+      "i": 492,
+      "start": 1834.56,
+      "end": 1840.83,
+      "text": "Und da hat es auch"
+    },
+    {
+      "i": 493,
+      "start": 1840.83,
+      "end": 1844.06,
+      "text": "21,24 mH"
+    },
+    {
+      "i": 494,
+      "start": 1844.06,
+      "end": 1847.2,
+      "text": "Wind an, also"
+    },
+    {
+      "i": 495,
+      "start": 1847.2,
+      "end": 1848.94,
+      "text": "im Prinzip sind sie sich"
+    },
+    {
+      "i": 496,
+      "start": 1848.94,
+      "end": 1850.84,
+      "text": "recht einig, das heißt"
+    },
+    {
+      "i": 497,
+      "start": 1850.84,
+      "end": 1852.81,
+      "text": "auch wieder, dass das"
+    },
+    {
+      "i": 498,
+      "start": 1852.81,
+      "end": 1854.49,
+      "text": "ziemlich sicher eintreffen"
+    },
+    {
+      "i": 499,
+      "start": 1854.49,
+      "end": 1856.81,
+      "text": "wird, oder je"
+    },
+    {
+      "i": 500,
+      "start": 1856.81,
+      "end": 1858.69,
+      "text": "mehr die Sie da hinziehen,"
+    },
+    {
+      "i": 501,
+      "start": 1858.83,
+      "end": 1861.4,
+      "text": "je höher ist die Trefferquote,"
+    },
+    {
+      "i": 502,
+      "start": 1861.72,
+      "end": 1862.98,
+      "text": "dass das auch passen wird,"
+    },
+    {
+      "i": 503,
+      "start": 1863.18,
+      "end": 1864.98,
+      "text": "13 Uhr, also"
+    },
+    {
+      "i": 504,
+      "start": 1864.98,
+      "end": 1866.66,
+      "text": "gleiches Thema."
+    },
+    {
+      "i": 505,
+      "start": 1866.66,
+      "end": 1868.63,
+      "text": "Dann noch ein paar"
+    },
+    {
+      "i": 506,
+      "start": 1868.63,
+      "end": 1870.23,
+      "text": "Zimmerlehrer,"
+    },
+    {
+      "i": 507,
+      "start": 1870.35,
+      "end": 1871.01,
+      "text": "Einheit,"
+    },
+    {
+      "i": 508,
+      "start": 1871.35,
+      "end": 1872.57,
+      "text": "dann sehen wir, dass es auch"
+    },
+    {
+      "i": 509,
+      "start": 1872.57,
+      "end": 1874.76,
+      "text": "doch stärker"
+    },
+    {
+      "i": 510,
+      "start": 1874.76,
+      "end": 1875.91,
+      "text": "lebt,"
+    },
+    {
+      "i": 511,
+      "start": 1876.58,
+      "end": 1880.71,
+      "text": "also ordentlich"
+    },
+    {
+      "i": 512,
+      "start": 1880.71,
+      "end": 1882.11,
+      "text": "sicher ist für den Preis."
+    },
+    {
+      "i": 513,
+      "start": 1883.01,
+      "end": 1884.17,
+      "text": "Wenn wir das Ganze dann"
+    },
+    {
+      "i": 514,
+      "start": 1884.17,
+      "end": 1886.03,
+      "text": "vergleichen mit"
+    },
+    {
+      "i": 515,
+      "start": 1886.03,
+      "end": 1888.72,
+      "text": "zuerst"
+    },
+    {
+      "i": 516,
+      "start": 1888.72,
+      "end": 1891.36,
+      "text": "mit dem Diagramm,"
+    },
+    {
+      "i": 517,
+      "start": 1897.4,
+      "end": 1898.5,
+      "text": "dann sehen wir, dass da"
+    },
+    {
+      "i": 518,
+      "start": 1898.5,
+      "end": 1899.3,
+      "text": "eben auch"
+    },
+    {
+      "i": 519,
+      "start": 1899.3,
+      "end": 1903.61,
+      "text": "das Diagramm noch bis"
+    },
+    {
+      "i": 520,
+      "start": 1903.61,
+      "end": 1905.79,
+      "text": "ja, irgendwann späte"
+    },
+    {
+      "i": 521,
+      "start": 1905.79,
+      "end": 1907.65,
+      "text": "Nachmittag, Abend, wenn man das"
+    },
+    {
+      "i": 522,
+      "start": 1907.65,
+      "end": 1910.06,
+      "text": "beim SAV anschaut, dann hat man"
+    },
+    {
+      "i": 523,
+      "start": 1910.06,
+      "end": 1911.34,
+      "text": "da noch eine bessere"
+    },
+    {
+      "i": 524,
+      "start": 1911.34,
+      "end": 1914.41,
+      "text": "zeitliche Skala, dann sieht man,"
+    },
+    {
+      "i": 525,
+      "start": 1914.53,
+      "end": 1916.99,
+      "text": "dass da das Ganze"
+    },
+    {
+      "i": 526,
+      "start": 1916.99,
+      "end": 1920.09,
+      "text": "morgen, jeden"
+    },
+    {
+      "i": 527,
+      "start": 1920.09,
+      "end": 1922.66,
+      "text": "Nachmittag trifft das ein,"
+    },
+    {
+      "i": 528,
+      "start": 1923.97,
+      "end": 1925.15,
+      "text": "da irgendwo"
+    },
+    {
+      "i": 529,
+      "start": 1925.15,
+      "end": 1926.59,
+      "text": "kommt dann die Front rein,"
+    },
+    {
+      "i": 530,
+      "start": 1927.16,
+      "end": 1928.26,
+      "text": "gleich an 18 Uhr,"
+    },
+    {
+      "i": 531,
+      "start": 1928.96,
+      "end": 1931.36,
+      "text": "und da fängt es ein, dass die ganze Zeit"
+    },
+    {
+      "i": 532,
+      "start": 1931.36,
+      "end": 1932.76,
+      "text": "da bis dann"
+    },
+    {
+      "i": 533,
+      "start": 1932.76,
+      "end": 1936.2,
+      "text": "vielleicht auch 8 Hektopascal,"
+    },
+    {
+      "i": 534,
+      "start": 1936.2,
+      "end": 1937.88,
+      "text": "hier ist es halt so, dass da"
+    },
+    {
+      "i": 535,
+      "start": 1937.88,
+      "end": 1940.17,
+      "text": "haben wir doch ein bisschen eine Unsicherheit"
+    },
+    {
+      "i": 536,
+      "start": 1940.17,
+      "end": 1941.73,
+      "text": "in der Prognose, also"
+    },
+    {
+      "i": 537,
+      "start": 1941.73,
+      "end": 1944.24,
+      "text": "wo dann auch was tatsächlich"
+    },
+    {
+      "i": 538,
+      "start": 1944.24,
+      "end": 1946.32,
+      "text": "unendlich gemessen wird, aber"
+    },
+    {
+      "i": 539,
+      "start": 1946.32,
+      "end": 1948.21,
+      "text": "es hat einen deutlichen"
+    },
+    {
+      "i": 540,
+      "start": 1948.21,
+      "end": 1950.41,
+      "text": "Programmspiel, bis am"
+    },
+    {
+      "i": 541,
+      "start": 1950.41,
+      "end": 1952.66,
+      "text": "Nachmittag hält es dann"
+    },
+    {
+      "i": 542,
+      "start": 1952.66,
+      "end": 1953.7,
+      "text": "irgendwo, und dann"
+    },
+    {
+      "i": 543,
+      "start": 1953.7,
+      "end": 1956.64,
+      "text": "macht man auch, weil es irgendwo"
+    },
+    {
+      "i": 544,
+      "start": 1956.64,
+      "end": 1958.24,
+      "text": "da kommt, dann die Front rein."
+    },
+    {
+      "i": 545,
+      "start": 1959.66,
+      "end": 1961.44,
+      "text": "Ich denke, wenn man"
+    },
+    {
+      "i": 546,
+      "start": 1961.44,
+      "end": 1963.46,
+      "text": "so versucht, mit dem"
+    },
+    {
+      "i": 547,
+      "start": 1963.46,
+      "end": 1965.56,
+      "text": "direkten Vergleich,"
+    },
+    {
+      "i": 548,
+      "start": 1965.96,
+      "end": 1967.5,
+      "text": "vielleicht auch so aufgebaut,"
+    },
+    {
+      "i": 549,
+      "start": 1967.78,
+      "end": 1970.1,
+      "text": "alle drei nebeneinander,"
+    },
+    {
+      "i": 550,
+      "start": 1971.16,
+      "end": 1972.34,
+      "text": "kann man sich"
+    },
+    {
+      "i": 551,
+      "start": 1972.34,
+      "end": 1974.2,
+      "text": "für den jeweiligen Tag sehr,"
+    },
+    {
+      "i": 552,
+      "start": 1974.34,
+      "end": 1975.34,
+      "text": "sehr gut vorbereiten."
+    },
+    {
+      "i": 553,
+      "start": 1977.0,
+      "end": 1978.88,
+      "text": "Eine grobe Prognose würde ich"
+    },
+    {
+      "i": 554,
+      "start": 1978.88,
+      "end": 1981.7,
+      "text": "also schon auch noch eine"
+    },
+    {
+      "i": 555,
+      "start": 1981.7,
+      "end": 1983.48,
+      "text": "Textprognose mit reinnehmen,"
+    },
+    {
+      "i": 556,
+      "start": 1984.18,
+      "end": 1986.33,
+      "text": "so mit der Schweiz"
+    },
+    {
+      "i": 557,
+      "start": 1986.33,
+      "end": 1987.95,
+      "text": "Textprognose lesen,"
+    },
+    {
+      "i": 558,
+      "start": 1988.37,
+      "end": 1990.09,
+      "text": "finde ich, gehört schon auch noch dazu,"
+    },
+    {
+      "i": 559,
+      "start": 1991.16,
+      "end": 1992.36,
+      "text": "hat man mal mit einem"
+    },
+    {
+      "i": 560,
+      "start": 1992.36,
+      "end": 1994.76,
+      "text": "nicht schnell,"
+    },
+    {
+      "i": 561,
+      "start": 1995.94,
+      "end": 1998.62,
+      "text": "ja, ersichtlich,"
+    },
+    {
+      "i": 562,
+      "start": 1999.14,
+      "end": 2000.8,
+      "text": "vielleicht kommt"
+    },
+    {
+      "i": 563,
+      "start": 2000.8,
+      "end": 2002.72,
+      "text": "Föhn auf, oder"
+    },
+    {
+      "i": 564,
+      "start": 2002.72,
+      "end": 2004.54,
+      "text": "es ist eh Tiefdruckwetter,"
+    },
+    {
+      "i": 565,
+      "start": 2005.1,
+      "end": 2007.3,
+      "text": "Tiefdruckbestimmend mit Niederschlag,"
+    },
+    {
+      "i": 566,
+      "start": 2007.46,
+      "end": 2008.98,
+      "text": "Fronten sind oft"
+    },
+    {
+      "i": 567,
+      "start": 2008.98,
+      "end": 2009.2,
+      "text": "gezwungen,"
+    },
+    {
+      "i": 568,
+      "start": 2009.22,
+      "end": 2011.78,
+      "text": "auch im Wetterbericht"
+    },
+    {
+      "i": 569,
+      "start": 2011.78,
+      "end": 2013.68,
+      "text": "integriert in der"
+    },
+    {
+      "i": 570,
+      "start": 2013.68,
+      "end": 2014.98,
+      "text": "Textprognose, und darum"
+    },
+    {
+      "i": 571,
+      "start": 2014.98,
+      "end": 2017.36,
+      "text": "ist es eigentlich auch immer noch"
+    },
+    {
+      "i": 572,
+      "start": 2017.36,
+      "end": 2019.86,
+      "text": "wichtig, dass das noch mit reingenommen"
+    },
+    {
+      "i": 573,
+      "start": 2019.86,
+      "end": 2023.1,
+      "text": "wird. Im Wetter ist es"
+    },
+    {
+      "i": 574,
+      "start": 2023.1,
+      "end": 2024.74,
+      "text": "auch so, ihr solltet schauen,"
+    },
+    {
+      "i": 575,
+      "start": 2026.18,
+      "end": 2028.04,
+      "text": "man kann da sehr viel"
+    },
+    {
+      "i": 576,
+      "start": 2028.04,
+      "end": 2028.58,
+      "text": "Zeit"
+    },
+    {
+      "i": 577,
+      "start": 2028.58,
+      "end": 2032.1,
+      "text": "verbrauchen,"
+    },
+    {
+      "i": 578,
+      "start": 2032.3,
+      "end": 2034.12,
+      "text": "oder benötigen, darum"
+    },
+    {
+      "i": 579,
+      "start": 2034.12,
+      "end": 2037.25,
+      "text": "muss man immer schauen, wenn man"
+    },
+    {
+      "i": 580,
+      "start": 2037.25,
+      "end": 2038.87,
+      "text": "schon mit einer groben"
+    },
+    {
+      "i": 581,
+      "start": 2038.87,
+      "end": 2040.81,
+      "text": "Ansicht sieht, ja,"
+    },
+    {
+      "i": 582,
+      "start": 2040.81,
+      "end": 2043.11,
+      "text": "Donnerstag, Freitag, Samstag,"
+    },
+    {
+      "i": 583,
+      "start": 2043.41,
+      "end": 2045.66,
+      "text": "ist es eh nichts, dann würde ich"
+    },
+    {
+      "i": 584,
+      "start": 2045.66,
+      "end": 2048.06,
+      "text": "da jetzt auch nicht zu sehr im Detail"
+    },
+    {
+      "i": 585,
+      "start": 2048.06,
+      "end": 2050.38,
+      "text": "meine Propose machen, wenn ich aber sehe,"
+    },
+    {
+      "i": 586,
+      "start": 2050.54,
+      "end": 2052.54,
+      "text": "hm, am Sonntag sieht es"
+    },
+    {
+      "i": 587,
+      "start": 2052.54,
+      "end": 2054.22,
+      "text": "immer gut aus, dann würde ich mir"
+    },
+    {
+      "i": 588,
+      "start": 2054.22,
+      "end": 2056.26,
+      "text": "den Sonntag wirklich genauer anschauen,"
+    },
+    {
+      "i": 589,
+      "start": 2056.36,
+      "end": 2058.12,
+      "text": "und das natürlich halt am Samstag,"
+    },
+    {
+      "i": 590,
+      "start": 2058.22,
+      "end": 2060.76,
+      "text": "auch sagt das nur, jetzt"
+    },
+    {
+      "i": 591,
+      "start": 2060.76,
+      "end": 2063.2,
+      "text": "den Sonntag hinzuschauen,"
+    },
+    {
+      "i": 592,
+      "start": 2063.48,
+      "end": 2065.23,
+      "text": "kann so kommen,"
+    },
+    {
+      "i": 593,
+      "start": 2065.43,
+      "end": 2067.54,
+      "text": "kann aber auch sein, dass es"
+    },
+    {
+      "i": 594,
+      "start": 2067.54,
+      "end": 2068.96,
+      "text": "definitiv"
+    },
+    {
+      "i": 595,
+      "start": 2068.96,
+      "end": 2070.62,
+      "text": "nicht zukommt, und darum"
+    },
+    {
+      "i": 596,
+      "start": 2070.62,
+      "end": 2073.72,
+      "text": "ist es halt eine rechte Spekulation,"
+    },
+    {
+      "i": 597,
+      "start": 2074.72,
+      "end": 2075.5,
+      "text": "aber natürlich,"
+    },
+    {
+      "i": 598,
+      "start": 2075.5,
+      "end": 2077.04,
+      "text": "für die eigene Planung schon mal"
+    },
+    {
+      "i": 599,
+      "start": 2077.04,
+      "end": 2077.9,
+      "text": "wichtig ist."
+    },
+    {
+      "i": 600,
+      "start": 2078.24,
+      "end": 2080.64,
+      "text": "Die sind ja deutlich besser geworden."
+    },
+    {
+      "i": 601,
+      "start": 2081.0,
+      "end": 2082.42,
+      "text": "Darum kann man da schon mal"
+    },
+    {
+      "i": 602,
+      "start": 2082.42,
+      "end": 2084.44,
+      "text": "ein bisschen in die Zukunft blicken."
+    },
+    {
+      "i": 603,
+      "start": 2085.4,
+      "end": 2086.4,
+      "text": "Aber es ist halt doch noch"
+    },
+    {
+      "i": 604,
+      "start": 2086.4,
+      "end": 2087.12,
+      "text": "eine Frage,"
+    },
+    {
+      "i": 605,
+      "start": 2087.42,
+      "end": 2091.44,
+      "text": "ob die Daten mal aufgelistet werden."
+    },
+    {
+      "i": 606,
+      "start": 2092.7,
+      "end": 2093.66,
+      "text": "Das ist ja nur so viel"
+    },
+    {
+      "i": 607,
+      "start": 2093.66,
+      "end": 2096.53,
+      "text": "möglich."
+    },
+    {
+      "i": 608,
+      "start": 2097.46,
+      "end": 2098.3,
+      "text": "Aber bei dem,"
+    },
+    {
+      "i": 609,
+      "start": 2098.3,
+      "end": 2099.5,
+      "text": "kann man da"
+    },
+    {
+      "i": 610,
+      "start": 2099.5,
+      "end": 2101.88,
+      "text": "mit dem entsprechenden Modell"
+    },
+    {
+      "i": 611,
+      "start": 2101.88,
+      "end": 2102.94,
+      "text": "die Modelle einstellen."
+    },
+    {
+      "i": 612,
+      "start": 2104.03,
+      "end": 2105.61,
+      "text": "Das würde ich mir mal so weit"
+    },
+    {
+      "i": 613,
+      "start": 2105.61,
+      "end": 2108.04,
+      "text": "stehen lassen."
+    },
+    {
+      "i": 614,
+      "start": 2108.5,
+      "end": 2114.33,
+      "text": "Eigentlich von meiner Seite her"
+    },
+    {
+      "i": 615,
+      "start": 2114.33,
+      "end": 2116.12,
+      "text": "so weit"
+    },
+    {
+      "i": 616,
+      "start": 2116.12,
+      "end": 2117.4,
+      "text": "den Überblick geschaffen."
+    },
+    {
+      "i": 617,
+      "start": 2117.92,
+      "end": 2119.94,
+      "text": "Einfach mal für Wind."
+    },
+    {
+      "i": 618,
+      "start": 2120.92,
+      "end": 2121.6,
+      "text": "Dann würde ich"
+    },
+    {
+      "i": 619,
+      "start": 2121.6,
+      "end": 2124.26,
+      "text": "das Ganze hier"
+    },
+    {
+      "i": 620,
+      "start": 2124.26,
+      "end": 2126.78,
+      "text": "schnell stoppen."
+    },
+    {
+      "i": 621,
+      "start": 2127.61,
+      "end": 2128.57,
+      "text": "Und nachher noch,"
+    },
+    {
+      "i": 622,
+      "start": 2128.57,
+      "end": 2130.27,
+      "text": "wer Lust hat, Wolken"
+    },
+    {
+      "i": 623,
+      "start": 2130.27,
+      "end": 2131.97,
+      "text": "und Niederschlag anschauen."
+    },
+    {
+      "i": 624,
+      "start": 2133.03,
+      "end": 2134.23,
+      "text": "Wobei bei Wolken"
+    },
+    {
+      "i": 625,
+      "start": 2134.23,
+      "end": 2135.99,
+      "text": "würde ich tatsächlich"
+    },
+    {
+      "i": 626,
+      "start": 2135.99,
+      "end": 2138.51,
+      "text": "mit reinnehmen."
+    },
+    {
+      "i": 627,
+      "start": 2139.01,
+      "end": 2140.11,
+      "text": "Auf dem Handy."
+    },
+    {
+      "i": 628,
+      "start": 2140.35,
+      "end": 2141.05,
+      "text": "Die Animation."
+    },
+    {
+      "i": 629,
+      "start": 2142.26,
+      "end": 2143.06,
+      "text": "Und vor allen Dingen"
+    },
+    {
+      "i": 630,
+      "start": 2143.06,
+      "end": 2144.02,
+      "text": "für den Niederschlag."
+    },
+    {
+      "i": 631,
+      "start": 2144.82,
+      "end": 2147.94,
+      "text": "Gut."
+    },
+    {
+      "i": 632,
+      "start": 2150.08,
+      "end": 2152.72,
+      "text": "Dazu schon mal irgendwelche"
+    },
+    {
+      "i": 633,
+      "start": 2152.72,
+      "end": 2153.34,
+      "text": "Fragen."
+    },
+    {
+      "i": 634,
+      "start": 2157.06,
+      "end": 2159.7,
+      "text": "Wir müssen mal schauen,"
+    },
+    {
+      "i": 635,
+      "start": 2159.82,
+      "end": 2162.14,
+      "text": "ob wir das richtig einnehmen."
+    },
+    {
+      "i": 636,
+      "start": 2162.2,
+      "end": 2163.62,
+      "text": "Ja, du, Dani, eine Frage."
+    },
+    {
+      "i": 637,
+      "start": 2164.0,
+      "end": 2164.2,
+      "text": "Ja."
+    },
+    {
+      "i": 638,
+      "start": 2165.29,
+      "end": 2166.47,
+      "text": "Respektive, ich habe gesehen,"
+    },
+    {
+      "i": 639,
+      "start": 2166.55,
+      "end": 2168.63,
+      "text": "die Station auf dem Grab"
+    },
+    {
+      "i": 640,
+      "start": 2168.63,
+      "end": 2170.09,
+      "text": "ist offline"
+    },
+    {
+      "i": 641,
+      "start": 2170.09,
+      "end": 2172.33,
+      "text": "seit gestern."
+    },
+    {
+      "i": 642,
+      "start": 2173.73,
+      "end": 2174.05,
+      "text": "Ja."
+    },
+    {
+      "i": 643,
+      "start": 2174.05,
+      "end": 2175.39,
+      "text": "Und auf dem Burner"
+    },
+    {
+      "i": 644,
+      "start": 2175.39,
+      "end": 2176.39,
+      "text": "sieht man auch nichts."
+    },
+    {
+      "i": 645,
+      "start": 2176.51,
+      "end": 2177.77,
+      "text": "Man hat das irgendeinen Grund."
+    },
+    {
+      "i": 646,
+      "start": 2178.11,
+      "end": 2178.45,
+      "text": "Ja."
+    },
+    {
+      "i": 647,
+      "start": 2179.33,
+      "end": 2181.41,
+      "text": "Entweder ist die wieder abgebrochen"
+    },
+    {
+      "i": 648,
+      "start": 2181.41,
+      "end": 2184.2,
+      "text": "vom starken Wind, blockiert"
+    },
+    {
+      "i": 649,
+      "start": 2184.2,
+      "end": 2185.75,
+      "text": "oder"
+    },
+    {
+      "i": 650,
+      "start": 2185.75,
+      "end": 2189.7,
+      "text": "hat einen anderen technischen Hintergrund."
+    },
+    {
+      "i": 651,
+      "start": 2191.35,
+      "end": 2193.87,
+      "text": "Aber ich kann es dir aktuell nicht sagen."
+    },
+    {
+      "i": 652,
+      "start": 2194.71,
+      "end": 2195.03,
+      "text": "Okay."
+    },
+    {
+      "i": 653,
+      "start": 2195.77,
+      "end": 2198.65,
+      "text": "Müsste man das jemandem mitteilen oder so?"
+    },
+    {
+      "i": 654,
+      "start": 2200.28,
+      "end": 2201.78,
+      "text": "Ja, es bringt nichts."
+    },
+    {
+      "i": 655,
+      "start": 2202.1,
+      "end": 2204.72,
+      "text": "Nein, da muss man schauen gehen."
+    },
+    {
+      "i": 656,
+      "start": 2207.04,
+      "end": 2208.32,
+      "text": "Die wird wahrscheinlich"
+    },
+    {
+      "i": 657,
+      "start": 2208.32,
+      "end": 2209.76,
+      "text": "vom starken Wind"
+    },
+    {
+      "i": 658,
+      "start": 2209.76,
+      "end": 2210.94,
+      "text": "wieder abgebrochen sein."
+    },
+    {
+      "i": 659,
+      "start": 2210.94,
+      "end": 2211.58,
+      "text": "Das ist das Letzte."
+    },
+    {
+      "i": 660,
+      "start": 2213.02,
+      "end": 2214.19,
+      "text": "Vermutlich."
+    },
+    {
+      "i": 661,
+      "start": 2216.16,
+      "end": 2217.4,
+      "text": "Okay, danke."
+    },
+    {
+      "i": 662,
+      "start": 2217.4,
+      "end": 2222.32,
+      "text": "Aber ja, falls jemand oben ist in Wiefahren,"
+    },
+    {
+      "i": 663,
+      "start": 2222.32,
+      "end": 2225.31,
+      "text": "wäre cool, wenn er da vorbei ist und man kündigt."
+    },
+    {
+      "i": 664,
+      "start": 2228.52,
+      "end": 2229.88,
+      "text": "Okay, gut."
+    },
+    {
+      "i": 665,
+      "start": 2230.24,
+      "end": 2231.6,
+      "text": "Dann haben wir jetzt noch eine Minute."
+    },
+    {
+      "i": 666,
+      "start": 2231.6,
+      "end": 2236.74,
+      "text": "Dann kommt das Ganze da, weil es braucht wieder einen Moment zum Konvertieren und"
+    },
+    {
+      "i": 667,
+      "start": 2236.74,
+      "end": 2242.55,
+      "text": "tut dann nochmal eine neue Sitzung auf mit Wolken und Niederschlag."
+    },
+    {
+      "i": 668,
+      "start": 2242.81,
+      "end": 2249.38,
+      "text": "Und dann würde ich sagen, am Ende noch weitere Fragen beantworten."
+    },
+    {
+      "i": 669,
+      "start": 2249.78,
+      "end": 2250.78,
+      "text": "Vielen Dank für die Aufmerksamkeit."
+    },
+    {
+      "i": 670,
+      "start": 2250.78,
+      "end": 2259.33,
+      "text": "Vielen Dank."
+    },
+    {
+      "i": 671,
+      "start": 2259.33,
+      "end": 2260.21,
+      "text": "Vielen Dank."
+    }
+  ]
+}

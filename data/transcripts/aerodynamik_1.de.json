@@ -1,0 +1,2410 @@
+{
+  "slug": "aerodynamik_1",
+  "language": "de",
+  "duration": 1386.5813125,
+  "transcribed_in_sec": 162.4,
+  "model": "large-v3",
+  "settings": {
+    "device": "cuda",
+    "compute_type": "float16",
+    "beam_size": 10,
+    "initial_prompt_chars": 568,
+    "vad_min_silence_ms": 300
+  },
+  "segments": [
+    {
+      "i": 1,
+      "start": 3.9,
+      "end": 10.3,
+      "text": "Dann haben wir hier nochmal ein paar Fachbegriffe. Zuladung, Gesamtfluggewicht und Flächenbelastung."
+    },
+    {
+      "i": 2,
+      "start": 11.95,
+      "end": 19.98,
+      "text": "Flächenbelastung ist wichtig, um zu wissen, wie das Flugverhalten eures Schirms sein wird."
+    },
+    {
+      "i": 3,
+      "start": 20.24,
+      "end": 25.63,
+      "text": "Wenn man einen Schirm höher beladen macht, dann wird er viel schneller und wendiger."
+    },
+    {
+      "i": 4,
+      "start": 25.93,
+      "end": 33.7,
+      "text": "Wenn man ihn eher tiefer beladen macht, also mit 3 kg pro Quadratmeter, wir rechnen immer in Kilogramm pro Quadratmeter,"
+    },
+    {
+      "i": 5,
+      "start": 33.7,
+      "end": 38.66,
+      "text": "dann wird der Schirm viel langsamer und träger und auch weniger anspruchsvoll zum Fliegen."
+    },
+    {
+      "i": 6,
+      "start": 38.76,
+      "end": 43.14,
+      "text": "Und je nachdem, welche Ansprüche man hat, kann man dann eben auch Flächenbelastung wählen."
+    },
+    {
+      "i": 7,
+      "start": 44.45,
+      "end": 49.21,
+      "text": "Jedoch ist es meistens auch vom Hersteller genau so definiert und empfohlen,"
+    },
+    {
+      "i": 8,
+      "start": 49.47,
+      "end": 55.67,
+      "text": "dass man zwischen dem und dem Abfluggewicht halt die Grösse nimmt und dann ergibt sich eigentlich dann die Flächenbelastung."
+    },
+    {
+      "i": 9,
+      "start": 55.75,
+      "end": 57.27,
+      "text": "Die berechnet man in der Regel nicht selber."
+    },
+    {
+      "i": 10,
+      "start": 58.27,
+      "end": 64.35,
+      "text": "Aber wenn man in einer Zwischengrösse ist, vom Gewicht her, gleich zwischen zwei Grössen,"
+    },
+    {
+      "i": 11,
+      "start": 64.49,
+      "end": 67.27,
+      "text": "und nicht so sicher ist, welchen Schirm man wählen soll,"
+    },
+    {
+      "i": 12,
+      "start": 67.27,
+      "end": 71.67,
+      "text": "dann ist man natürlich mit dem grösseren Schirm eher etwas langsamer unterwegs"
+    },
+    {
+      "i": 13,
+      "start": 71.67,
+      "end": 77.99,
+      "text": "und mit dem kleineren Schirm eher etwas sportlicher, was dann aber auch ein höheres Können verlangt."
+    },
+    {
+      "i": 14,
+      "start": 79.15,
+      "end": 84.03,
+      "text": "Flächenbelastung ist immer das Gesamtfluggewicht, geteilt durch die projizierte Fläche."
+    },
+    {
+      "i": 15,
+      "start": 85.77,
+      "end": 90.95,
+      "text": "Beim Gesamtfluggewicht müsst ihr aufpassen, dass das nicht die Zuladung ist, das ist nicht das Gleiche."
+    },
+    {
+      "i": 16,
+      "start": 90.95,
+      "end": 96.37,
+      "text": "Also die Zuladung ist eigentlich alles ausser den Schirm, also alles, was an einen Gleitschirm hängt."
+    },
+    {
+      "i": 17,
+      "start": 96.63,
+      "end": 99.53,
+      "text": "Bei der Flächenbelastung müsst ihr aber den Schirm einberechnen."
+    },
+    {
+      "i": 18,
+      "start": 99.89,
+      "end": 107.37,
+      "text": "Also der Schirm, obwohl der dort oben ja selbstständig fliegt, der zählt auch zu der Flächenbelastung Kilo pro Quadratmeter."
+    },
+    {
+      "i": 19,
+      "start": 108.13,
+      "end": 114.43,
+      "text": "Und am einfachsten ist es, wenn ihr eigentlich mit dem Rucksack, mit eurer ganzen Flugausrüstung,"
+    },
+    {
+      "i": 20,
+      "start": 114.73,
+      "end": 120.71,
+      "text": "mit dem Sandwich, mit dem Getränk, mit den Wanderschuhen, alles was nachher in diesem Paket in der Luft ist,"
+    },
+    {
+      "i": 21,
+      "start": 120.71,
+      "end": 123.89,
+      "text": "auf die Waage steht und dann habt ihr euer Gesamtfluggewicht."
+    },
+    {
+      "i": 22,
+      "start": 128.04,
+      "end": 129.48,
+      "text": "Dann kommen wir jetzt zu der Gleitzahl."
+    },
+    {
+      "i": 23,
+      "start": 131.18,
+      "end": 135.16,
+      "text": "Ein interessantes Thema, wird auch immer am Startplatz so ein bisschen thematisiert."
+    },
+    {
+      "i": 24,
+      "start": 135.3,
+      "end": 137.22,
+      "text": "Ja, was hat dein Schirm für eine Gleitzahl?"
+    },
+    {
+      "i": 25,
+      "start": 137.46,
+      "end": 139.24,
+      "text": "Und ist immer schwierig."
+    },
+    {
+      "i": 26,
+      "start": 140.38,
+      "end": 143.24,
+      "text": "Die Hersteller lehnen sich da auch nicht allzu fest aus dem Fenster,"
+    },
+    {
+      "i": 27,
+      "start": 143.66,
+      "end": 151.3,
+      "text": "weil es kommt schlussendlich natürlich auch viel mehr darauf an, wie man fliegt und wie man das Potenzial aus dem Schirm rausholt."
+    },
+    {
+      "i": 28,
+      "start": 151.3,
+      "end": 160.68,
+      "text": "Weil meistens in der gleichen Schirmklasse sind die Schirme so ähnlich, in so einem kleinen Bereich unterschiedlich, was die Gleitzahl anbelangt,"
+    },
+    {
+      "i": 29,
+      "start": 161.18,
+      "end": 165.5,
+      "text": "dass es viel wichtiger ist, wie ein Handling ist und wie man sich wohl fühlt mit diesem Schirm,"
+    },
+    {
+      "i": 30,
+      "start": 165.72,
+      "end": 170.23,
+      "text": "als dass man jetzt diesen Schirm hat, welcher er hat noch eine halbe mehr Gleitzahl."
+    },
+    {
+      "i": 31,
+      "start": 170.75,
+      "end": 172.81,
+      "text": "Aber was ist eine Gleitzahl überhaupt?"
+    },
+    {
+      "i": 32,
+      "start": 172.91,
+      "end": 178.81,
+      "text": "Eine Gleitzahl ist ein Verhältnis euer vertikaler Distanz,"
+    },
+    {
+      "i": 33,
+      "start": 178.87,
+      "end": 181.56,
+      "text": "Vertikal habe ich gleich alliance, sorry,"
+    },
+    {
+      "i": 34,
+      "start": 182.02,
+      "end": 184.42,
+      "text": "vertikale Distanz und horizontale Distanz"
+    },
+    {
+      "i": 35,
+      "start": 184.52,
+      "end": 190.93,
+      "text": "und dieses Verhältnis gibt dann bei den meisten modernen Schirmen so zwischen 8 und 10."
+    },
+    {
+      "i": 36,
+      "start": 190.99,
+      "end": 191.67,
+      "text": "Hochleister sind vielleicht ..."
+    },
+    {
+      "i": 37,
+      "start": 191.91,
+      "end": 196.11,
+      "text": "so gerne ein bisschen darüber, wie man einen Schulschirm zwischen 8 und 9 hat."
+    },
+    {
+      "i": 38,
+      "start": 196.11,
+      "end": 197.81,
+      "text": "Ich habe jetzt hier im Beispiel 9 genommen."
+    },
+    {
+      "i": 39,
+      "start": 197.81,
+      "end": 201.71,
+      "text": "Das heisst, mit einem Meter Höhe kommen wir 9 Meter weit."
+    },
+    {
+      "i": 40,
+      "start": 201.71,
+      "end": 209.11,
+      "text": "Mit 1'000 Meter Höhe vom Startplatz zum Landeplatz könnt ihr theoretisch 9 Kilometer weit fliegen."
+    },
+    {
+      "i": 41,
+      "start": 209.11,
+      "end": 212.07,
+      "text": "Und das ist natürlich ein sehr theoretischer Wert."
+    },
+    {
+      "i": 42,
+      "start": 212.07,
+      "end": 215.07,
+      "text": "Da müsst ihr immer bedenken, dass ihr vielleicht einmal noch ein wenig Abwind habt,"
+    },
+    {
+      "i": 43,
+      "start": 215.07,
+      "end": 223.11,
+      "text": "vielleicht habt ihr Gegenwind und dann sieht das Verhältnis der Geschwindigkeiten natürlich wieder ganz anders aus."
+    },
+    {
+      "i": 44,
+      "start": 223.11,
+      "end": 229.51,
+      "text": "Und wenn ich jetzt einen Flug plane, dann gehe ich meistens auch nicht vom 9. oder 10. aus,"
+    },
+    {
+      "i": 45,
+      "start": 229.51,
+      "end": 234.11,
+      "text": "sondern wenn ich jetzt so berechnen möchte, ja, ich mag dort vorne noch über den Wald,"
+    },
+    {
+      "i": 46,
+      "start": 234.11,
+      "end": 240.51,
+      "text": "dann nehme ich vielleicht eine Gleitzahl von 6 oder 5, wenn ich sogar ganz konservativ sein möchte"
+    },
+    {
+      "i": 47,
+      "start": 240.51,
+      "end": 245.32,
+      "text": "und nicht in ein Problem hineinlaufen werde."
+    },
+    {
+      "i": 48,
+      "start": 245.32,
+      "end": 252.12,
+      "text": "Das ist die eine Möglichkeit, die Gleitzahl zu berechnen, also die Distanz, die ihr zurücklegt in beide Achsen."
+    },
+    {
+      "i": 49,
+      "start": 252.12,
+      "end": 253.52,
+      "text": "Das andere ist die Geschwindigkeit."
+    },
+    {
+      "i": 50,
+      "start": 253.52,
+      "end": 254.72,
+      "text": "Ihr könnt auch sagen,"
+    },
+    {
+      "i": 51,
+      "start": 254.72,
+      "end": 262.48,
+      "text": "mein Schirm fliegt 10 Meter pro Sekunde in den Horizontalen und verliert etwa einen Meter in der Sekunde."
+    },
+    {
+      "i": 52,
+      "start": 262.48,
+      "end": 265.08,
+      "text": "Dann seid ihr auch wieder bei einer Gleitzahl von 10."
+    },
+    {
+      "i": 53,
+      "start": 265.08,
+      "end": 269.28,
+      "text": "Ihr könnt aber auch ganz einfach den Auftrieb geteilt durch den Widerstand nehmen"
+    },
+    {
+      "i": 54,
+      "start": 269.28,
+      "end": 272.48,
+      "text": "oder den Auftriebs-Bewert geteilt durch den Widerstands-Bewert"
+    },
+    {
+      "i": 55,
+      "start": 272.48,
+      "end": 277.44,
+      "text": "und ihr werdet immer auf den gleichen Wert kommen, auf die Gleitzahl."
+    },
+    {
+      "i": 56,
+      "start": 277.44,
+      "end": 280.89,
+      "text": "Und da seht ihr jetzt auch wieder zu dem Thema, das wir vorhin hatten,"
+    },
+    {
+      "i": 57,
+      "start": 280.89,
+      "end": 284.5,
+      "text": "wenn natürlich der Widerstand immer kleiner wird, bedeutet das,"
+    },
+    {
+      "i": 58,
+      "start": 284.5,
+      "end": 295.86,
+      "text": "wenn der Auftrieb gleich bleibt, dann bedeutet das, dass unsere Gleitzahl eben wächst und grösser wird."
+    },
+    {
+      "i": 59,
+      "start": 295.86,
+      "end": 299.44,
+      "text": "Noch etwas, was ein bisschen verwirrend ist für die Theorieprüfung."
+    },
+    {
+      "i": 60,
+      "start": 299.44,
+      "end": 302.44,
+      "text": "Der Gleitwinkel ist nicht gleich der Gleitzahl."
+    },
+    {
+      "i": 61,
+      "start": 302.44,
+      "end": 305.44,
+      "text": "Also eine grosse Gleitzahl ist etwas Gutes."
+    },
+    {
+      "i": 62,
+      "start": 305.44,
+      "end": 306.84,
+      "text": "Also wir fliegen weit."
+    },
+    {
+      "i": 63,
+      "start": 306.84,
+      "end": 309.82,
+      "text": "Das heisst aber, dass der Gleitwinkel klein ist."
+    },
+    {
+      "i": 64,
+      "start": 309.82,
+      "end": 313.62,
+      "text": "Und wenn die Gleitzahl kleiner ist, wie jetzt in diesem Beispiel 5,"
+    },
+    {
+      "i": 65,
+      "start": 313.62,
+      "end": 315.62,
+      "text": "dann ist der Gleitwinkel grösser."
+    },
+    {
+      "i": 66,
+      "start": 315.62,
+      "end": 318.82,
+      "text": "Also der Gleitwinkel ist immer der, der die Horizontale ist."
+    },
+    {
+      "i": 67,
+      "start": 319.02,
+      "end": 323.67,
+      "text": "Also wir können jetzt hier den Boden nehmen und unsere Flugbahn."
+    },
+    {
+      "i": 68,
+      "start": 323.67,
+      "end": 327.69,
+      "text": "Und wenn die Gleitzahl besser ist, sprich grösser ist,"
+    },
+    {
+      "i": 69,
+      "start": 327.69,
+      "end": 334.7,
+      "text": "dann nimmt dieser Winkel immer mehr ab und wird immer kleiner."
+    },
+    {
+      "i": 70,
+      "start": 334.7,
+      "end": 337.98,
+      "text": "Dann kommen wir hier zu den Geschwindigkeitspolaren."
+    },
+    {
+      "i": 71,
+      "start": 337.98,
+      "end": 341.84,
+      "text": "Ist natürlich sehr theoretisch jetzt hier."
+    },
+    {
+      "i": 72,
+      "start": 341.84,
+      "end": 345.84,
+      "text": "Wir haben es in der Flugpraxis schon ein bisschen gehört gehabt."
+    },
+    {
+      "i": 73,
+      "start": 345.84,
+      "end": 350.18,
+      "text": "Schlussendlich muss man einfach wissen, was mache ich in welcher Situation."
+    },
+    {
+      "i": 74,
+      "start": 350.18,
+      "end": 354.18,
+      "text": "Weil ihr befindet euch ja nicht immer in absoluten Nullwind-Bedingungen,"
+    },
+    {
+      "i": 75,
+      "start": 354.18,
+      "end": 357.18,
+      "text": "wo die ganze Luft eigentlich still steht."
+    },
+    {
+      "i": 76,
+      "start": 357.18,
+      "end": 360.18,
+      "text": "Sondern wir haben Aufwind, wir haben Abwind, wir haben Gegenwind,"
+    },
+    {
+      "i": 77,
+      "start": 360.18,
+      "end": 362.18,
+      "text": "manchmal haben wir vielleicht Rückenwind."
+    },
+    {
+      "i": 78,
+      "start": 362.18,
+      "end": 366.18,
+      "text": "Und ihr könnt euren Schirm so über die Bremse steuern und über den Beschleuniger,"
+    },
+    {
+      "i": 79,
+      "start": 366.18,
+      "end": 370.18,
+      "text": "dass ihr eben immer das Maximum aus dem Schirm rausholen könnt"
+    },
+    {
+      "i": 80,
+      "start": 370.18,
+      "end": 374.29,
+      "text": "und möglichst weit kommen könnt oder möglichst lang oben bleiben könnt."
+    },
+    {
+      "i": 81,
+      "start": 374.29,
+      "end": 378.29,
+      "text": "Ich probiere jetzt in den nächsten paar Folien euch ein bisschen zu zeigen,"
+    },
+    {
+      "i": 82,
+      "start": 378.29,
+      "end": 382.29,
+      "text": "was eben mit diesen Punkten auf dieser Grafik passiert,"
+    },
+    {
+      "i": 83,
+      "start": 382.29,
+      "end": 384.29,
+      "text": "wenn wir Windeinfluss haben."
+    },
+    {
+      "i": 84,
+      "start": 384.29,
+      "end": 389.55,
+      "text": "Grundsätzlich haben wir ja im Trimflug, das heisst, wenn wir die Bremse einfach sein lassen,"
+    },
+    {
+      "i": 85,
+      "start": 389.55,
+      "end": 393.55,
+      "text": "ist der Gleitschirm genau so gebaut, dass er eben möglichst gut gleitet."
+    },
+    {
+      "i": 86,
+      "start": 393.55,
+      "end": 395.55,
+      "text": "Das heisst, wir sind im besten Gleiten."
+    },
+    {
+      "i": 87,
+      "start": 395.55,
+      "end": 400.76,
+      "text": "Wir haben jetzt die rote Linie, das ist der ganze Geschwindigkeitsverlauf des Gleitschirms."
+    },
+    {
+      "i": 88,
+      "start": 400.76,
+      "end": 403.76,
+      "text": "Von ganz links, vom Stall, also wenn wir dort noch mehr bremsen,"
+    },
+    {
+      "i": 89,
+      "start": 403.76,
+      "end": 407.76,
+      "text": "dann reisst die Strömung ab, dann sind wir zu langsam, dann haben wir nicht mehr genug Auftrieb,"
+    },
+    {
+      "i": 90,
+      "start": 407.76,
+      "end": 410.76,
+      "text": "der Anstellwinkel ist zu gross, wir fliegen nicht mehr."
+    },
+    {
+      "i": 91,
+      "start": 410.76,
+      "end": 413.13,
+      "text": "Von dort an können wir die Bremse lösen."
+    },
+    {
+      "i": 92,
+      "start": 414.13,
+      "end": 417.18,
+      "text": "Der Schirm wird schneller, er geht über."
+    },
+    {
+      "i": 93,
+      "start": 417.18,
+      "end": 419.18,
+      "text": "Hier sind wir beim geringsten Sinken."
+    },
+    {
+      "i": 94,
+      "start": 419.18,
+      "end": 428.26,
+      "text": "Beim geringsten Sinken ist das Verhältnis der Gleitzahl nicht ganz so gut wie beim besten Gleiten."
+    },
+    {
+      "i": 95,
+      "start": 428.26,
+      "end": 430.26,
+      "text": "Wir sinken aber am wenigsten."
+    },
+    {
+      "i": 96,
+      "start": 430.26,
+      "end": 434.26,
+      "text": "Schlussendlich kommt es aber immer darauf an, dass das Verhältnis möglichst gut ist"
+    },
+    {
+      "i": 97,
+      "start": 434.26,
+      "end": 437.26,
+      "text": "und nicht die eine oder andere Geschwindigkeit."
+    },
+    {
+      "i": 98,
+      "start": 437.26,
+      "end": 440.79,
+      "text": "Dann haben wir hier wie gesagt die Trimgeschwindigkeit beim besten Gleiten"
+    },
+    {
+      "i": 99,
+      "start": 440.79,
+      "end": 445.79,
+      "text": "und wenn wir dann noch mehr Gas geben, wenn wir beschleunigen bis zur maximalen Geschwindigkeit,"
+    },
+    {
+      "i": 100,
+      "start": 445.79,
+      "end": 450.92,
+      "text": "Vmax hier angeschrieben, dann sind wir hier bei der schnellsten Geschwindigkeit."
+    },
+    {
+      "i": 101,
+      "start": 450.92,
+      "end": 454.92,
+      "text": "Im Verhältnis, wenn wir jetzt hier die Zahlen herausrechnen würden,"
+    },
+    {
+      "i": 102,
+      "start": 454.92,
+      "end": 458.92,
+      "text": "also 13,5 geteilt durch irgendwie 1,8,"
+    },
+    {
+      "i": 103,
+      "start": 458.92,
+      "end": 468.5,
+      "text": "dann ist dieser Wert eben weniger gross, als wenn wir hier 10,2 geteilt durch 1,2 z.B. rechnen."
+    },
+    {
+      "i": 104,
+      "start": 468.5,
+      "end": 470.5,
+      "text": "Wir müssen es jetzt nicht mit genauen Zahlen durchrechnen,"
+    },
+    {
+      "i": 105,
+      "start": 470.5,
+      "end": 475.5,
+      "text": "aber das Verhältnis ist immer dort am besten, wo die Tangente, die grüne Linie,"
+    },
+    {
+      "i": 106,
+      "start": 475.5,
+      "end": 482.27,
+      "text": "unsere Zustandskurve, also unsere Geschwindigkeitspolare berührt."
+    },
+    {
+      "i": 107,
+      "start": 482.27,
+      "end": 485.27,
+      "text": "Jetzt berechnen wir mal das Ganze mit Gegenwind."
+    },
+    {
+      "i": 108,
+      "start": 485.27,
+      "end": 490.64,
+      "text": "Ihr seht, bei Nullwind fängt die grüne Linie beim Nullpunkt oben an."
+    },
+    {
+      "i": 109,
+      "start": 490.64,
+      "end": 497.49,
+      "text": "Wenn wir jetzt 4 m Gegenwind haben, können wir einfach die Linie weiter vorne anfangen"
+    },
+    {
+      "i": 110,
+      "start": 497.49,
+      "end": 500.66,
+      "text": "und so herunterzeichnen und dann sehen wir,"
+    },
+    {
+      "i": 111,
+      "start": 500.66,
+      "end": 508.21,
+      "text": "von dem zu dem wandern unsere Punkte weiter Richtung Maximalgeschwindigkeit."
+    },
+    {
+      "i": 112,
+      "start": 508.21,
+      "end": 511.21,
+      "text": "Wenn wir noch mehr Wind haben, wie 7-8 m pro Sekunde,"
+    },
+    {
+      "i": 113,
+      "start": 511.21,
+      "end": 514.21,
+      "text": "dann wandern die Tangente immer weiter nach vorne"
+    },
+    {
+      "i": 114,
+      "start": 514.21,
+      "end": 517.21,
+      "text": "und der Punkt vom besten Gleiten ist dann eben irgendwann,"
+    },
+    {
+      "i": 115,
+      "start": 517.21,
+      "end": 520.21,
+      "text": "wenn wir voll im Beschleuniger stehen, beim Vollgas."
+    },
+    {
+      "i": 116,
+      "start": 520.21,
+      "end": 526.64,
+      "text": "Wo das da genau ist und bei wie viel Wind, ist natürlich sehr schirmabhängig."
+    },
+    {
+      "i": 117,
+      "start": 526.64,
+      "end": 530.66,
+      "text": "Also jeder Schirm ist ein bisschen anders, das kommt auf die Zuladung an."
+    },
+    {
+      "i": 118,
+      "start": 530.66,
+      "end": 536.66,
+      "text": "Da sind dann ganz viele Faktoren, die man fast nicht rechnerisch herausfinden kann."
+    },
+    {
+      "i": 119,
+      "start": 536.66,
+      "end": 542.66,
+      "text": "Am besten in der Praxis ist es, wenn ihr irgendein GPS-Gerät habt mit Gleitzahlberechnung."
+    },
+    {
+      "i": 120,
+      "start": 542.66,
+      "end": 547.66,
+      "text": "Wenn ihr mal Gegenwind habt, könnt ihr mit dem Beschleuniger einfach mal ausprobieren."
+    },
+    {
+      "i": 121,
+      "start": 547.66,
+      "end": 550.66,
+      "text": "Was passiert, wenn ich jetzt mal halb beschleunige?"
+    },
+    {
+      "i": 122,
+      "start": 550.66,
+      "end": 552.66,
+      "text": "Die Gleitzahl wird wahrscheinlich ein bisschen besser."
+    },
+    {
+      "i": 123,
+      "start": 552.66,
+      "end": 554.66,
+      "text": "Was passiert, wenn ich voll beschleunige?"
+    },
+    {
+      "i": 124,
+      "start": 554.66,
+      "end": 557.66,
+      "text": "Wenn ihr dann die Gleitzahl abnehmt, geht ihr wieder ein bisschen raus aus dem Beschleuniger."
+    },
+    {
+      "i": 125,
+      "start": 557.66,
+      "end": 561.66,
+      "text": "Und so könnt ihr lernen zu optimieren und herauszufinden,"
+    },
+    {
+      "i": 126,
+      "start": 561.66,
+      "end": 565.66,
+      "text": "bei wie viel Gegenwind muss ich wie viel Gas geben, damit ich möglichst gut gleite."
+    },
+    {
+      "i": 127,
+      "start": 565.66,
+      "end": 574.79,
+      "text": "Da geht jetzt schon sehr ins Detail oder schon sehr ins Advanced-Gleitschirmfliegen hinein."
+    },
+    {
+      "i": 128,
+      "start": 574.79,
+      "end": 578.79,
+      "text": "Für die Theorieprüfung sind sicher die vier Begriffe ganz wichtig,"
+    },
+    {
+      "i": 129,
+      "start": 578.79,
+      "end": 584.03,
+      "text": "damit ihr wisst, wann ihr beschleunigen und wann ihr anbremsen müsst."
+    },
+    {
+      "i": 130,
+      "start": 584.03,
+      "end": 588.59,
+      "text": "Das eher anbremsen kommt jetzt zum Zug mit Rückenwind."
+    },
+    {
+      "i": 131,
+      "start": 588.59,
+      "end": 594.08,
+      "text": "Ihr seht, hier haben wir Nullwind, hier haben wir ein bisschen Rückenwind,"
+    },
+    {
+      "i": 132,
+      "start": 594.08,
+      "end": 598.08,
+      "text": "hier haben wir mehr Rückenwind und der orange Punkt vom besten Gleiter,"
+    },
+    {
+      "i": 133,
+      "start": 598.08,
+      "end": 602.64,
+      "text": "die Tangente, wandert immer mehr hier hoch, zum geringsten Sinken."
+    },
+    {
+      "i": 134,
+      "start": 602.64,
+      "end": 607.75,
+      "text": "Das geringste Sinken ist etwa so 15-20% abgebremst, leicht abgebremst,"
+    },
+    {
+      "i": 135,
+      "start": 607.75,
+      "end": 611.15,
+      "text": "damit ihr eben weniger sinkt."
+    },
+    {
+      "i": 136,
+      "start": 611.15,
+      "end": 615.15,
+      "text": "Weil den Rückenwind, wenn wir ja positiv mitnehmen, also in diesem Rückenwindband,"
+    },
+    {
+      "i": 137,
+      "start": 615.15,
+      "end": 617.2,
+      "text": "wollen wir eigentlich möglichst wenig sinken."
+    },
+    {
+      "i": 138,
+      "start": 617.2,
+      "end": 622.2,
+      "text": "Weil der Wind schiebt uns ja von hinten und somit haben wir automatisch eine gute Gleitzahl."
+    },
+    {
+      "i": 139,
+      "start": 622.2,
+      "end": 627.2,
+      "text": "Und wir wollen eigentlich möglichst leicht oder einfach mit diesem Rückenwind mitschwimmen."
+    },
+    {
+      "i": 140,
+      "start": 627.2,
+      "end": 629.18,
+      "text": "Sozusagen."
+    },
+    {
+      "i": 141,
+      "start": 629.18,
+      "end": 631.18,
+      "text": "Im Aufwind passiert genau das gleiche."
+    },
+    {
+      "i": 142,
+      "start": 631.18,
+      "end": 634.19,
+      "text": "Ihr seht, wenn ich hier runter gehe mit der grünen Linie,"
+    },
+    {
+      "i": 143,
+      "start": 634.19,
+      "end": 638.38,
+      "text": "dann rutscht der orange Punkt auch wieder näher zum geringsten Sinken."
+    },
+    {
+      "i": 144,
+      "start": 638.38,
+      "end": 641.94,
+      "text": "Das heisst auch wieder ein bisschen auf Bremse gehen."
+    },
+    {
+      "i": 145,
+      "start": 641.94,
+      "end": 644.94,
+      "text": "Und wenn man ganz viel Aufwind hat, kann es so gerne sein,"
+    },
+    {
+      "i": 146,
+      "start": 644.94,
+      "end": 648.94,
+      "text": "dass er noch weiter rüber fällt, dass wir es gerne noch mehr anbremsen müssen."
+    },
+    {
+      "i": 147,
+      "start": 648.94,
+      "end": 650.94,
+      "text": "Das ist jetzt sehr, sehr theoretisch."
+    },
+    {
+      "i": 148,
+      "start": 650.94,
+      "end": 655.94,
+      "text": "Weil wenn wir in einem 2-Meter-Thermikschlauch sind zum Beispiel,"
+    },
+    {
+      "i": 149,
+      "start": 655.94,
+      "end": 658.94,
+      "text": "kommt es auch nicht so darauf an, wie gut er gleitet."
+    },
+    {
+      "i": 150,
+      "start": 659.94,
+      "end": 664.94,
+      "text": "Also ihr fliegt dann lieber einfach so, dass ihr den Schirm kontrolliert und im Griff habt,"
+    },
+    {
+      "i": 151,
+      "start": 664.94,
+      "end": 667.94,
+      "text": "weil ihr seid dann wahrscheinlich sowieso am Kreiseln."
+    },
+    {
+      "i": 152,
+      "start": 667.94,
+      "end": 672.94,
+      "text": "Also es gibt selten, dass ihr einfach im Gradausflug einfach so 2 Meter gestiegen habt."
+    },
+    {
+      "i": 153,
+      "start": 672.94,
+      "end": 676.94,
+      "text": "Gibt es schon, aber ich sage jetzt mal, es kommt eher wenig vor."
+    },
+    {
+      "i": 154,
+      "start": 676.94,
+      "end": 683.09,
+      "text": "Und wenn man so stark gestiegen hat, dass eben der Punkt vom besten Gleiten so weit hinten ist,"
+    },
+    {
+      "i": 155,
+      "start": 683.09,
+      "end": 686.09,
+      "text": "dann ist man wahrscheinlich sowieso am Kreiselfliegen und nicht am Distanzfliegen."
+    },
+    {
+      "i": 156,
+      "start": 686.09,
+      "end": 688.09,
+      "text": "Und wenn man kreisfliegt, in so einem schönen Steigen,"
+    },
+    {
+      "i": 157,
+      "start": 688.09,
+      "end": 692.09,
+      "text": "dann ist es auch viel wichtiger, was wir vorher schon gehört haben,"
+    },
+    {
+      "i": 158,
+      "start": 692.09,
+      "end": 695.09,
+      "text": "mit Gewicht zu verlagern in der Flugpraxis"
+    },
+    {
+      "i": 159,
+      "start": 695.09,
+      "end": 698.71,
+      "text": "und die Thermik möglichst gut zu zentrieren,"
+    },
+    {
+      "i": 160,
+      "start": 698.71,
+      "end": 703.71,
+      "text": "ist dann viel effizienter, als genau die richtige Bremsstellung für das beste Gleiten zu verwutschen."
+    },
+    {
+      "i": 161,
+      "start": 703.71,
+      "end": 707.64,
+      "text": "Mit Abwind, im Abwind können wir auch sagen,"
+    },
+    {
+      "i": 162,
+      "start": 707.64,
+      "end": 710.78,
+      "text": "ein Abwind fällt, wenn man eigentlich möglichst schnell verlässt."
+    },
+    {
+      "i": 163,
+      "start": 710.78,
+      "end": 715.78,
+      "text": "Gegenwind ist in der Regel etwas, das ja eher lange dauern kann."
+    },
+    {
+      "i": 164,
+      "start": 715.78,
+      "end": 717.78,
+      "text": "Also wir haben jetzt einfach den Wind, der bis am Boden runter geht,"
+    },
+    {
+      "i": 165,
+      "start": 717.78,
+      "end": 719.78,
+      "text": "aber immer Gegenwind da ist."
+    },
+    {
+      "i": 166,
+      "start": 719.78,
+      "end": 725.78,
+      "text": "Mit dem Abwind kommt noch dazu, in der Praxis findet das meistens ja nur kurzzeitig statt,"
+    },
+    {
+      "i": 167,
+      "start": 725.78,
+      "end": 726.78,
+      "text": "in einem Abwindfeld."
+    },
+    {
+      "i": 168,
+      "start": 726.78,
+      "end": 730.78,
+      "text": "Und dort kann man grundsätzlich einfach mal sagen, einfach mal beschleunigen,"
+    },
+    {
+      "i": 169,
+      "start": 730.78,
+      "end": 732.78,
+      "text": "aus dem Abwindfeld rauskommen"
+    },
+    {
+      "i": 170,
+      "start": 732.78,
+      "end": 736.78,
+      "text": "und dazu kommt eben noch, dass auch die Gleitsalbe im Beschleunigen massiv besser wird."
+    },
+    {
+      "i": 171,
+      "start": 736.78,
+      "end": 744.55,
+      "text": "Das ist eigentlich das Fazit, dass man bei Abwind und Gegenwind beschleunigt."
+    },
+    {
+      "i": 172,
+      "start": 744.55,
+      "end": 747.55,
+      "text": "Wie fest das da ist, das ist sehr schirmabhängig."
+    },
+    {
+      "i": 173,
+      "start": 747.55,
+      "end": 749.55,
+      "text": "Bei Aufwind und Rückenwind fliegen wir leicht."
+    },
+    {
+      "i": 174,
+      "start": 750.55,
+      "end": 752.55,
+      "text": "Wenn man abbremst, könnt ihr euch vorstellen,"
+    },
+    {
+      "i": 175,
+      "start": 752.55,
+      "end": 755.55,
+      "text": "da ist schon ein positiver Schwung, den wir bekommen."
+    },
+    {
+      "i": 176,
+      "start": 755.55,
+      "end": 757.55,
+      "text": "Wir haben Rückenwind, wir haben Aufwind."
+    },
+    {
+      "i": 177,
+      "start": 757.55,
+      "end": 760.55,
+      "text": "In dieser Luftmasse wollen wir eigentlich so lange wie möglich mitschwimmen,"
+    },
+    {
+      "i": 178,
+      "start": 760.55,
+      "end": 762.55,
+      "text": "darum bremsen wir ein wenig ab."
+    },
+    {
+      "i": 179,
+      "start": 762.55,
+      "end": 766.55,
+      "text": "Bei Gegenwind und Abwind wollen wir eigentlich wegkommen und dagegen ankämpfen,"
+    },
+    {
+      "i": 180,
+      "start": 766.55,
+      "end": 768.63,
+      "text": "darum geben wir ein wenig Gas."
+    },
+    {
+      "i": 181,
+      "start": 768.63,
+      "end": 770.63,
+      "text": "Ganz wichtig beim Beschleunigen ist natürlich,"
+    },
+    {
+      "i": 182,
+      "start": 770.63,
+      "end": 773.63,
+      "text": "dass man da nur mit genug Sicherheitsabstand zum Hang macht."
+    },
+    {
+      "i": 183,
+      "start": 773.63,
+      "end": 779.63,
+      "text": "Also auch wenn ihr mal eine Landung habt, wo bis am Boden aber recht viel Wind vorhanden ist,"
+    },
+    {
+      "i": 184,
+      "start": 779.63,
+      "end": 784.9,
+      "text": "lieber aus dem Beschleuniger rausgehen mit genug Sicherheitsreserven"
+    },
+    {
+      "i": 185,
+      "start": 784.9,
+      "end": 789.9,
+      "text": "und halt vielleicht stehend oder sogar rückwärts landen, wenn es den Platz erlaubt."
+    },
+    {
+      "i": 186,
+      "start": 789.9,
+      "end": 794.9,
+      "text": "Wenn man alles richtig geplant hat, hat man irgendwie auch wirklich genug Platz zum Landen,"
+    },
+    {
+      "i": 187,
+      "start": 794.9,
+      "end": 797.9,
+      "text": "als voll beschleunigt bis am Boden weiter zu fliegen."
+    },
+    {
+      "i": 188,
+      "start": 797.9,
+      "end": 801.9,
+      "text": "Weil wenn man beschleunigt fliegt, ist natürlich das Klapperrisiko erhöht"
+    },
+    {
+      "i": 189,
+      "start": 801.9,
+      "end": 804.9,
+      "text": "und die Reaktion vom Schirm auch heftiger."
+    },
+    {
+      "i": 190,
+      "start": 804.9,
+      "end": 808.62,
+      "text": "Darum bei genügend Höhe aus dem Beschleuniger rausgehen"
+    },
+    {
+      "i": 191,
+      "start": 808.62,
+      "end": 809.62,
+      "text": "und dann auf eine Landung konzentrieren."
+    },
+    {
+      "i": 192,
+      "start": 810.62,
+      "end": 818.1,
+      "text": "Da ist nochmal so ein wenig bildlich dargestellt von dem, was ich vorhin erzählt habe."
+    },
+    {
+      "i": 193,
+      "start": 818.1,
+      "end": 824.1,
+      "text": "Wenn wir Gegenwind haben, verstärkt uns unsere Flugbahn natürlich stark."
+    },
+    {
+      "i": 194,
+      "start": 824.1,
+      "end": 827.1,
+      "text": "Also der Winkel wird grösser, die Gleitzahl wird kleiner."
+    },
+    {
+      "i": 195,
+      "start": 827.1,
+      "end": 829.1,
+      "text": "Wenn wir Rückenwind haben, ist es genau das Gegenteil."
+    },
+    {
+      "i": 196,
+      "start": 829.1,
+      "end": 833.1,
+      "text": "Dann wird unsere Gleitzahl grösser und der Winkel wird eher flächer."
+    },
+    {
+      "i": 197,
+      "start": 833.1,
+      "end": 837.1,
+      "text": "Und das ist einfach der Grund, weil wir sinken ja immer gleich schnell."
+    },
+    {
+      "i": 198,
+      "start": 837.1,
+      "end": 842.75,
+      "text": "Also am Gleitschirm ist es eigentlich ziemlich egal, in welcher Luftmasse wir uns befinden."
+    },
+    {
+      "i": 199,
+      "start": 842.75,
+      "end": 847.75,
+      "text": "Der muss einfach eine gewisse Geschwindigkeit, ein gewisses Sinken haben,"
+    },
+    {
+      "i": 200,
+      "start": 847.75,
+      "end": 849.75,
+      "text": "um diesen Auftrieb zu generieren."
+    },
+    {
+      "i": 201,
+      "start": 849.75,
+      "end": 853.75,
+      "text": "Wir sinken immer, sagen wir mal, um einfach zu rechnen, mit einem Meter pro Sekunde."
+    },
+    {
+      "i": 202,
+      "start": 853.75,
+      "end": 859.75,
+      "text": "Wenn wir noch mehr Gegenwind haben, dass der Gegenwind gleich stark ist wie unsere Geschwindigkeit,"
+    },
+    {
+      "i": 203,
+      "start": 859.75,
+      "end": 861.75,
+      "text": "den Meter sinken haben wir genau gleich."
+    },
+    {
+      "i": 204,
+      "start": 861.75,
+      "end": 863.75,
+      "text": "Also das heisst, wir bleiben dann nicht stehen,"
+    },
+    {
+      "i": 205,
+      "start": 863.75,
+      "end": 870.07,
+      "text": "sondern wir kommen eigentlich einfach gerade runter mit einem Meter sinken pro Sekunde."
+    },
+    {
+      "i": 206,
+      "start": 870.07,
+      "end": 872.07,
+      "text": "Das ist das, was man halt nicht wegbringt."
+    },
+    {
+      "i": 207,
+      "start": 872.07,
+      "end": 876.07,
+      "text": "Ausser man ist in einem thermischen Schlauch oder in einem dynamischen Aufwind."
+    },
+    {
+      "i": 208,
+      "start": 876.07,
+      "end": 879.07,
+      "text": "Wir reden jetzt hier von einem horizontalen Gegenwind."
+    },
+    {
+      "i": 209,
+      "start": 879.07,
+      "end": 886.44,
+      "text": "Das ist dieses Beispiel."
+    },
+    {
+      "i": 210,
+      "start": 886.44,
+      "end": 888.44,
+      "text": "Eigentlich, wenn es um Berechnungen geht,"
+    },
+    {
+      "i": 211,
+      "start": 888.44,
+      "end": 893.44,
+      "text": "spricht man physikalisch immer von Metern pro Sekunde und nicht von kmh,"
+    },
+    {
+      "i": 212,
+      "start": 893.44,
+      "end": 895.44,
+      "text": "weil es dann einfach einfacher geht zu rechnen,"
+    },
+    {
+      "i": 213,
+      "start": 895.44,
+      "end": 898.44,
+      "text": "weil die Zeiteinheiten immer in Sekunden sind."
+    },
+    {
+      "i": 214,
+      "start": 898.44,
+      "end": 902.26,
+      "text": "Der Umrechnungsfaktor ist 3,6."
+    },
+    {
+      "i": 215,
+      "start": 902.26,
+      "end": 906.26,
+      "text": "Also von Metern pro Sekunde in kmh ist 3,6."
+    },
+    {
+      "i": 216,
+      "start": 906.26,
+      "end": 910.26,
+      "text": "Und beim Gleitschirm ist es eben noch recht gebig zum Rechnen,"
+    },
+    {
+      "i": 217,
+      "start": 910.26,
+      "end": 917.26,
+      "text": "weil die meisten Gleitschirme ungefähr eine Trimmgeschwindigkeit von 36 oder 35 kmh haben."
+    },
+    {
+      "i": 218,
+      "start": 917.26,
+      "end": 921.27,
+      "text": "Für das Beispiel sagen wir 36 geteilt durch 3,6."
+    },
+    {
+      "i": 219,
+      "start": 921.27,
+      "end": 923.27,
+      "text": "Das ergibt dann eben 10 Meter pro Sekunde."
+    },
+    {
+      "i": 220,
+      "start": 923.27,
+      "end": 928.45,
+      "text": "Wir haben jetzt also einen Gleitschirm, der 10 Meter pro Sekunde nach vorne fliegt"
+    },
+    {
+      "i": 221,
+      "start": 928.45,
+      "end": 930.45,
+      "text": "und einen Meter pro Sekunde sinkt."
+    },
+    {
+      "i": 222,
+      "start": 930.45,
+      "end": 932.45,
+      "text": "Das ergibt uns eine Gleitzahl von 10."
+    },
+    {
+      "i": 223,
+      "start": 932.45,
+      "end": 935.31,
+      "text": "Ein sehr guter Schirm."
+    },
+    {
+      "i": 224,
+      "start": 935.31,
+      "end": 937.31,
+      "text": "Hier erreichen wir ein Abwindfeld,"
+    },
+    {
+      "i": 225,
+      "start": 937.31,
+      "end": 940.31,
+      "text": "wo die Luft zusätzlich auch noch einen Meter sinkt."
+    },
+    {
+      "i": 226,
+      "start": 940.31,
+      "end": 945.31,
+      "text": "Also wir bewegen uns gegenüber der Luft, sinken wir einen Meter,"
+    },
+    {
+      "i": 227,
+      "start": 945.31,
+      "end": 950.31,
+      "text": "aber das ganze Luftpaket sinkt jetzt auch noch einen Meter pro Sekunde ab."
+    },
+    {
+      "i": 228,
+      "start": 950.31,
+      "end": 954.55,
+      "text": "Das heisst, in der Summe haben wir nachher 2 Meter sinken."
+    },
+    {
+      "i": 229,
+      "start": 954.55,
+      "end": 959.55,
+      "text": "Also auf eurem Variometer wirst du da minus 2 Meter pro Sekunde."
+    },
+    {
+      "i": 230,
+      "start": 959.55,
+      "end": 963.55,
+      "text": "Und das bedeutet dann eben, dass dann unsere Gleitzahl massiv abnimmt."
+    },
+    {
+      "i": 231,
+      "start": 963.55,
+      "end": 965.55,
+      "text": "Das bringt dann von 10 auf 5 ab."
+    },
+    {
+      "i": 232,
+      "start": 965.55,
+      "end": 969.55,
+      "text": "Weil wir fliegen dann nur noch 10 Meter nach vorne, haben aber 2 Meter sinken."
+    },
+    {
+      "i": 233,
+      "start": 969.55,
+      "end": 973.55,
+      "text": "10 geteilt durch 2 ergibt dann eine Gleitzahl von 5."
+    },
+    {
+      "i": 234,
+      "start": 973.55,
+      "end": 980.9,
+      "text": "Dann haben wir die Bewegungen um 3 Achsen beim Gleitschirm."
+    },
+    {
+      "i": 235,
+      "start": 980.9,
+      "end": 983.91,
+      "text": "Wir haben Querachsen."
+    },
+    {
+      "i": 236,
+      "start": 983.91,
+      "end": 989.15,
+      "text": "Wenn ein Gleitschirm immer so aufnickt und ein wenig nervös ist,"
+    },
+    {
+      "i": 237,
+      "start": 989.15,
+      "end": 992.15,
+      "text": "dann sagt man, dass er nicht so längsstabil ist,"
+    },
+    {
+      "i": 238,
+      "start": 992.15,
+      "end": 995.15,
+      "text": "weil er um Querachsen hin und her nickt."
+    },
+    {
+      "i": 239,
+      "start": 995.15,
+      "end": 1001.08,
+      "text": "Dann haben wir die Längsachsen."
+    },
+    {
+      "i": 240,
+      "start": 1001.08,
+      "end": 1004.08,
+      "text": "Das ist das Rollen oder das Wingover-Fliegen."
+    },
+    {
+      "i": 241,
+      "start": 1004.08,
+      "end": 1008.08,
+      "text": "Wobei das Wingover-Fliegen eine Kombination von ganz vielen Achsen ist."
+    },
+    {
+      "i": 242,
+      "start": 1008.08,
+      "end": 1012.08,
+      "text": "Aber man sagt, die Bewegung und die Längsachsen rollen."
+    },
+    {
+      "i": 243,
+      "start": 1012.08,
+      "end": 1014.08,
+      "text": "Und das wäre dann Querstabilität."
+    },
+    {
+      "i": 244,
+      "start": 1014.08,
+      "end": 1018.08,
+      "text": "Wenn ein Schirm nicht so stabil geradeaus fliegt, dann ist es Querstabilität."
+    },
+    {
+      "i": 245,
+      "start": 1018.08,
+      "end": 1020.32,
+      "text": "Und dann haben wir noch die richtige Stabilität."
+    },
+    {
+      "i": 246,
+      "start": 1020.32,
+      "end": 1024.32,
+      "text": "Das ist die Hochachse, die eigentlich durch den Piloten durchgeht und durch den Schirm."
+    },
+    {
+      "i": 247,
+      "start": 1024.32,
+      "end": 1028.88,
+      "text": "Bei dieser Bewegung, also wenn der Schirm immer ein wenig so macht in der Luft,"
+    },
+    {
+      "i": 248,
+      "start": 1028.88,
+      "end": 1031.54,
+      "text": "dann sagt man dann Gieren."
+    },
+    {
+      "i": 249,
+      "start": 1032.54,
+      "end": 1035.58,
+      "text": "Man merkt auch die Stabilität."
+    },
+    {
+      "i": 250,
+      "start": 1035.58,
+      "end": 1039.76,
+      "text": "In der Praxis ist es sicher wichtig, wenn man es mal gehört hat,"
+    },
+    {
+      "i": 251,
+      "start": 1039.76,
+      "end": 1041.76,
+      "text": "auch für die Prüfung und so,"
+    },
+    {
+      "i": 252,
+      "start": 1041.76,
+      "end": 1043.76,
+      "text": "aber vor allem jetzt auch für die Theorieprüfung,"
+    },
+    {
+      "i": 253,
+      "start": 1043.76,
+      "end": 1045.76,
+      "text": "müsst ihr einfach die Fachbegriffe kennen."
+    },
+    {
+      "i": 254,
+      "start": 1045.76,
+      "end": 1052.39,
+      "text": "Stabil, labil und indifferent."
+    },
+    {
+      "i": 255,
+      "start": 1052.39,
+      "end": 1055.21,
+      "text": "Wenn man ein Gleitschirm baut,"
+    },
+    {
+      "i": 256,
+      "start": 1055.21,
+      "end": 1057.21,
+      "text": "also jeder Hersteller will eigentlich,"
+    },
+    {
+      "i": 257,
+      "start": 1057.21,
+      "end": 1060.21,
+      "text": "dass man ein Gleitschirm möglichst stabil baut."
+    },
+    {
+      "i": 258,
+      "start": 1060.21,
+      "end": 1062.21,
+      "text": "Weil wenn ein Gleitschirm stabil ist,"
+    },
+    {
+      "i": 259,
+      "start": 1062.21,
+      "end": 1066.21,
+      "text": "dann bedeutet das, dass er nach einer Störung"
+    },
+    {
+      "i": 260,
+      "start": 1066.21,
+      "end": 1070.83,
+      "text": "wieder in die Ausgangslage zurückgeht."
+    },
+    {
+      "i": 261,
+      "start": 1070.83,
+      "end": 1073.85,
+      "text": "Also man kann sich das ein wenig vorstellen wie eine Schale."
+    },
+    {
+      "i": 262,
+      "start": 1073.85,
+      "end": 1076.9,
+      "text": "Und wenn man da jetzt eine Kugel reingehauen lässt,"
+    },
+    {
+      "i": 263,
+      "start": 1076.9,
+      "end": 1080.9,
+      "text": "dann hört sie immer wieder am untersten Punkt aufrollen."
+    },
+    {
+      "i": 264,
+      "start": 1080.9,
+      "end": 1083.9,
+      "text": "Und wenn man dieser wieder einen Schub gibt und sie wieder aufwärts rollt,"
+    },
+    {
+      "i": 265,
+      "start": 1083.9,
+      "end": 1086.9,
+      "text": "dann geht es ein paar Mal hin und her und irgendwann ist sie wieder in der Mitte."
+    },
+    {
+      "i": 266,
+      "start": 1086.9,
+      "end": 1089.9,
+      "text": "Also es ist wie wenn ihr mit dem Gleitschirm geradeaus fliegt"
+    },
+    {
+      "i": 267,
+      "start": 1089.9,
+      "end": 1094.74,
+      "text": "oder beschleunigt, dann löst der Beschleuniger wieder,"
+    },
+    {
+      "i": 268,
+      "start": 1094.74,
+      "end": 1096.74,
+      "text": "der Schirm geht wieder zurück in die Ausgangslage."
+    },
+    {
+      "i": 269,
+      "start": 1097.74,
+      "end": 1101.74,
+      "text": "Von der linken Seite, der Schirm dreht ein wenig nach rechts ab,"
+    },
+    {
+      "i": 270,
+      "start": 1101.74,
+      "end": 1103.74,
+      "text": "es pendelt zwei, drei Mal hin und her"
+    },
+    {
+      "i": 271,
+      "start": 1103.74,
+      "end": 1105.74,
+      "text": "und der Schirm fliegt wieder geradeaus."
+    },
+    {
+      "i": 272,
+      "start": 1105.74,
+      "end": 1107.74,
+      "text": "Also ein super schönes, stabiles System,"
+    },
+    {
+      "i": 273,
+      "start": 1107.74,
+      "end": 1111.95,
+      "text": "das beim Gleitschirm auch dank dem so gut funktioniert,"
+    },
+    {
+      "i": 274,
+      "start": 1111.95,
+      "end": 1113.95,
+      "text": "weil unser Schwerpunkt so weit unten hängt."
+    },
+    {
+      "i": 275,
+      "start": 1113.95,
+      "end": 1116.95,
+      "text": "Aber das ist eigentlich das Ziel eines Gleitschirmherstellers."
+    },
+    {
+      "i": 276,
+      "start": 1116.95,
+      "end": 1119.16,
+      "text": "Labil könnt ihr euch vorstellen,"
+    },
+    {
+      "i": 277,
+      "start": 1119.16,
+      "end": 1121.16,
+      "text": "wie wenn ihr die Schale auf den Kopf stellt"
+    },
+    {
+      "i": 278,
+      "start": 1121.16,
+      "end": 1123.16,
+      "text": "und die Kugel oben drauf drückt."
+    },
+    {
+      "i": 279,
+      "start": 1123.16,
+      "end": 1125.16,
+      "text": "Also da könnt ihr der Kugel einen Schub geben"
+    },
+    {
+      "i": 280,
+      "start": 1125.16,
+      "end": 1127.16,
+      "text": "und es wird eigentlich nur noch schlimmer."
+    },
+    {
+      "i": 281,
+      "start": 1127.16,
+      "end": 1130.16,
+      "text": "Man kann ihn nie mehr selbstständig einfach wieder zurückfinden."
+    },
+    {
+      "i": 282,
+      "start": 1130.16,
+      "end": 1133.16,
+      "text": "Er geht nur einen Huch, einen Windstoss"
+    },
+    {
+      "i": 283,
+      "start": 1133.16,
+      "end": 1135.16,
+      "text": "und sie keilt runter und wird immer schneller."
+    },
+    {
+      "i": 284,
+      "start": 1135.16,
+      "end": 1137.16,
+      "text": "Und beim Schirm auch."
+    },
+    {
+      "i": 285,
+      "start": 1137.16,
+      "end": 1139.16,
+      "text": "Das ist zum Beispiel ein Schirm, den man startet"
+    },
+    {
+      "i": 286,
+      "start": 1139.16,
+      "end": 1141.16,
+      "text": "und der nachher immer schneller wird"
+    },
+    {
+      "i": 287,
+      "start": 1141.16,
+      "end": 1143.16,
+      "text": "bis er einen Frontklapper bekommt."
+    },
+    {
+      "i": 288,
+      "start": 1143.16,
+      "end": 1145.16,
+      "text": "Das sind alles so Sachen,"
+    },
+    {
+      "i": 289,
+      "start": 1145.16,
+      "end": 1147.16,
+      "text": "die man früher in der Gleitschirmentwicklung"
+    },
+    {
+      "i": 290,
+      "start": 1147.16,
+      "end": 1149.16,
+      "text": "in der Praxis feststellen musste."
+    },
+    {
+      "i": 291,
+      "start": 1149.16,
+      "end": 1152.69,
+      "text": "Und da sind dann die Fachbegriffe dazu."
+    },
+    {
+      "i": 292,
+      "start": 1152.69,
+      "end": 1154.83,
+      "text": "Indifferent ist dann noch,"
+    },
+    {
+      "i": 293,
+      "start": 1154.83,
+      "end": 1156.83,
+      "text": "wenn ein Schirm die Fluglage beinhaltet."
+    },
+    {
+      "i": 294,
+      "start": 1157.83,
+      "end": 1159.83,
+      "text": "Also wenn ihr einer Kugel einen Schub gebt"
+    },
+    {
+      "i": 295,
+      "start": 1159.83,
+      "end": 1161.83,
+      "text": "auf einer geraden Fläche"
+    },
+    {
+      "i": 296,
+      "start": 1161.83,
+      "end": 1163.83,
+      "text": "und jetzt angenommen,"
+    },
+    {
+      "i": 297,
+      "start": 1163.83,
+      "end": 1165.83,
+      "text": "die hat keinen Rollwiderstand,"
+    },
+    {
+      "i": 298,
+      "start": 1165.83,
+      "end": 1167.83,
+      "text": "die rollt einfach immer weiter, einfach geradeaus."
+    },
+    {
+      "i": 299,
+      "start": 1167.83,
+      "end": 1169.83,
+      "text": "Sie pendelt sich nicht ein, sie wird nicht schneller,"
+    },
+    {
+      "i": 300,
+      "start": 1169.83,
+      "end": 1171.83,
+      "text": "die rollt einfach geradeaus weiter."
+    },
+    {
+      "i": 301,
+      "start": 1171.83,
+      "end": 1173.83,
+      "text": "Also wie wenn ein Schirm"
+    },
+    {
+      "i": 302,
+      "start": 1173.83,
+      "end": 1175.83,
+      "text": "eine Windböe von links überkommt"
+    },
+    {
+      "i": 303,
+      "start": 1175.83,
+      "end": 1177.94,
+      "text": "und dann anstatt, dass er"
+    },
+    {
+      "i": 304,
+      "start": 1177.94,
+      "end": 1179.94,
+      "text": "zweimal, dreimal hin und her pendelt"
+    },
+    {
+      "i": 305,
+      "start": 1179.94,
+      "end": 1181.94,
+      "text": "und wieder geradeaus fliegt,"
+    },
+    {
+      "i": 306,
+      "start": 1181.94,
+      "end": 1183.94,
+      "text": "geht er einfach in eine Kurve hinein"
+    },
+    {
+      "i": 307,
+      "start": 1183.94,
+      "end": 1185.94,
+      "text": "und behaltet die Kurve einfach bei."
+    },
+    {
+      "i": 308,
+      "start": 1185.94,
+      "end": 1188.94,
+      "text": "Das ist der Unterschied von labil, stabil und indifferent."
+    },
+    {
+      "i": 309,
+      "start": 1188.94,
+      "end": 1190.94,
+      "text": "Ich hoffe, dass ihr es euch vielleicht"
+    },
+    {
+      "i": 310,
+      "start": 1190.94,
+      "end": 1192.94,
+      "text": "mit diesen Schalen und diesen Kugeln"
+    },
+    {
+      "i": 311,
+      "start": 1192.94,
+      "end": 1197.9,
+      "text": "ein bisschen besser merken könnt."
+    },
+    {
+      "i": 312,
+      "start": 1197.9,
+      "end": 1200.72,
+      "text": "Dann kommen wir noch zum Kurvenflug."
+    },
+    {
+      "i": 313,
+      "start": 1200.72,
+      "end": 1202.72,
+      "text": "Im Kurvenflug entsteht"
+    },
+    {
+      "i": 314,
+      "start": 1202.72,
+      "end": 1204.72,
+      "text": "ein Lastenvielfaches."
+    },
+    {
+      "i": 315,
+      "start": 1204.72,
+      "end": 1206.74,
+      "text": "Also ihr seht wieder,"
+    },
+    {
+      "i": 316,
+      "start": 1206.74,
+      "end": 1208.74,
+      "text": "vertikal ist die Gewichtskraft,"
+    },
+    {
+      "i": 317,
+      "start": 1208.74,
+      "end": 1210.75,
+      "text": "die nach unten zieht."
+    },
+    {
+      "i": 318,
+      "start": 1210.75,
+      "end": 1212.75,
+      "text": "Wenn wir geradeaus fliegen,"
+    },
+    {
+      "i": 319,
+      "start": 1212.75,
+      "end": 1214.75,
+      "text": "haben wir 1g, also einmal"
+    },
+    {
+      "i": 320,
+      "start": 1214.75,
+      "end": 1216.75,
+      "text": "unser Körpergewicht."
+    },
+    {
+      "i": 321,
+      "start": 1216.75,
+      "end": 1218.75,
+      "text": "Wenn wir anfangen, die Kurve zu fliegen,"
+    },
+    {
+      "i": 322,
+      "start": 1218.75,
+      "end": 1220.75,
+      "text": "dann nehmen die g-Kräfte zu."
+    },
+    {
+      "i": 323,
+      "start": 1220.75,
+      "end": 1223.12,
+      "text": "Und man kann es berechnen"
+    },
+    {
+      "i": 324,
+      "start": 1223.12,
+      "end": 1225.12,
+      "text": "mit Winkelberechnungen,"
+    },
+    {
+      "i": 325,
+      "start": 1225.12,
+      "end": 1227.12,
+      "text": "man kann es aber auch aufzeichnen."
+    },
+    {
+      "i": 326,
+      "start": 1227.12,
+      "end": 1229.12,
+      "text": "Und wenn ihr es aufzeichnet,"
+    },
+    {
+      "i": 327,
+      "start": 1229.12,
+      "end": 1231.87,
+      "text": "könnt ihr eigentlich heraus messen"
+    },
+    {
+      "i": 328,
+      "start": 1231.87,
+      "end": 1233.87,
+      "text": "und werdet dann feststellen,"
+    },
+    {
+      "i": 329,
+      "start": 1233.87,
+      "end": 1235.87,
+      "text": "wenn ihr hier einen 70 Grad Winkel macht,"
+    },
+    {
+      "i": 330,
+      "start": 1235.87,
+      "end": 1237.87,
+      "text": "dass die Kurvenkraft, die Fk,"
+    },
+    {
+      "i": 331,
+      "start": 1237.87,
+      "end": 1239.87,
+      "text": "bei 70 Grad"
+    },
+    {
+      "i": 332,
+      "start": 1239.87,
+      "end": 1241.87,
+      "text": "genau dreimal so lang ist"
+    },
+    {
+      "i": 333,
+      "start": 1241.87,
+      "end": 1243.87,
+      "text": "wie eure Gewichtskraft."
+    },
+    {
+      "i": 334,
+      "start": 1243.87,
+      "end": 1245.87,
+      "text": "Und bei 60 Grad wäre es dann 2g,"
+    },
+    {
+      "i": 335,
+      "start": 1245.87,
+      "end": 1247.87,
+      "text": "also zweimal länger"
+    },
+    {
+      "i": 336,
+      "start": 1247.87,
+      "end": 1249.87,
+      "text": "und bei 45 Grad wäre es 1,4g."
+    },
+    {
+      "i": 337,
+      "start": 1249.87,
+      "end": 1251.87,
+      "text": "Also 1,4 mal mehr"
+    },
+    {
+      "i": 338,
+      "start": 1251.87,
+      "end": 1253.87,
+      "text": "als euer eigenes Körpergewicht."
+    },
+    {
+      "i": 339,
+      "start": 1253.87,
+      "end": 1257.55,
+      "text": "Im Kurvenflug,"
+    },
+    {
+      "i": 340,
+      "start": 1257.55,
+      "end": 1259.55,
+      "text": "da ist so eine Aussage auch von der Prüfungsfrage,"
+    },
+    {
+      "i": 341,
+      "start": 1259.55,
+      "end": 1261.55,
+      "text": "im Kurvenflug nehmen jetzt"
+    },
+    {
+      "i": 342,
+      "start": 1261.55,
+      "end": 1263.55,
+      "text": "Lastenvielfache zu,"
+    },
+    {
+      "i": 343,
+      "start": 1263.55,
+      "end": 1265.55,
+      "text": "das heisst mehr Belastung auf dem ganzen System"
+    },
+    {
+      "i": 344,
+      "start": 1265.55,
+      "end": 1267.55,
+      "text": "und die Minimalgeschwindigkeit"
+    },
+    {
+      "i": 345,
+      "start": 1267.55,
+      "end": 1269.55,
+      "text": "nimmt auch zu."
+    },
+    {
+      "i": 346,
+      "start": 1269.55,
+      "end": 1271.55,
+      "text": "Ihr könnt es ein wenig vergleichen,"
+    },
+    {
+      "i": 347,
+      "start": 1271.55,
+      "end": 1273.55,
+      "text": "wie wenn ihr einen Schirm höher beladen würdet."
+    },
+    {
+      "i": 348,
+      "start": 1273.55,
+      "end": 1275.55,
+      "text": "Also wenn ihr jetzt einen neuen Soloschirm"
+    },
+    {
+      "i": 349,
+      "start": 1275.55,
+      "end": 1277.55,
+      "text": "als zweiten dranhängen würdet,"
+    },
+    {
+      "i": 350,
+      "start": 1277.55,
+      "end": 1279.55,
+      "text": "hat das die gleichen Auswirkungen"
+    },
+    {
+      "i": 351,
+      "start": 1279.55,
+      "end": 1281.82,
+      "text": "aerodynamisch gesehen,"
+    },
+    {
+      "i": 352,
+      "start": 1281.82,
+      "end": 1283.82,
+      "text": "wie wenn ihr eine Kurve fliegt"
+    },
+    {
+      "i": 353,
+      "start": 1283.82,
+      "end": 1285.82,
+      "text": "von 60 Grad"
+    },
+    {
+      "i": 354,
+      "start": 1285.82,
+      "end": 1287.82,
+      "text": "und auch 2g auf dem Schirm wirkt."
+    },
+    {
+      "i": 355,
+      "start": 1287.82,
+      "end": 1289.82,
+      "text": "Und zwar verschiebt sich eure"
+    },
+    {
+      "i": 356,
+      "start": 1289.82,
+      "end": 1291.82,
+      "text": "ganze Geschwindigkeitspolare"
+    },
+    {
+      "i": 357,
+      "start": 1291.82,
+      "end": 1293.82,
+      "text": "massiv nach vorne,"
+    },
+    {
+      "i": 358,
+      "start": 1293.82,
+      "end": 1295.82,
+      "text": "also"
+    },
+    {
+      "i": 359,
+      "start": 1295.82,
+      "end": 1297.82,
+      "text": "jedes Element dieser Polare"
+    },
+    {
+      "i": 360,
+      "start": 1297.82,
+      "end": 1299.82,
+      "text": "wird einfach schneller."
+    },
+    {
+      "i": 361,
+      "start": 1299.82,
+      "end": 1301.82,
+      "text": "Eure Trimspeed wird schneller,"
+    },
+    {
+      "i": 362,
+      "start": 1301.82,
+      "end": 1303.82,
+      "text": "eure Maximalfluggeschwindigkeit wird schneller,"
+    },
+    {
+      "i": 363,
+      "start": 1303.82,
+      "end": 1305.82,
+      "text": "aber eben auch euer Stall"
+    },
+    {
+      "i": 364,
+      "start": 1305.82,
+      "end": 1307.82,
+      "text": "oder eure Abrissgeschwindigkeit"
+    },
+    {
+      "i": 365,
+      "start": 1307.82,
+      "end": 1309.82,
+      "text": "ist höher."
+    },
+    {
+      "i": 366,
+      "start": 1309.82,
+      "end": 1311.82,
+      "text": "Bei dem Kurvenflug müsst ihr aufpassen,"
+    },
+    {
+      "i": 367,
+      "start": 1311.82,
+      "end": 1314.53,
+      "text": "weil eben die Strömung,"
+    },
+    {
+      "i": 368,
+      "start": 1314.53,
+      "end": 1316.53,
+      "text": "also eine schnelle, extrem schnelle"
+    },
+    {
+      "i": 369,
+      "start": 1316.53,
+      "end": 1318.53,
+      "text": "Kurve ist noch keine Garantie,"
+    },
+    {
+      "i": 370,
+      "start": 1318.53,
+      "end": 1320.53,
+      "text": "dass kein Strömungsabriss passieren kann,"
+    },
+    {
+      "i": 371,
+      "start": 1320.53,
+      "end": 1322.53,
+      "text": "weil bei höherer Flächenbelastung"
+    },
+    {
+      "i": 372,
+      "start": 1322.53,
+      "end": 1324.53,
+      "text": "braucht ihr auch mehr Geschwindigkeit,"
+    },
+    {
+      "i": 373,
+      "start": 1324.53,
+      "end": 1326.53,
+      "text": "damit die Strömung euch nicht abrisst."
+    },
+    {
+      "i": 374,
+      "start": 1326.53,
+      "end": 1328.53,
+      "text": "Passiert in der Praxis"
+    },
+    {
+      "i": 375,
+      "start": 1328.53,
+      "end": 1330.53,
+      "text": "dann aber eher weniger,"
+    },
+    {
+      "i": 376,
+      "start": 1330.53,
+      "end": 1332.53,
+      "text": "weil wir ja auch viel höhere Stördrücke"
+    },
+    {
+      "i": 377,
+      "start": 1332.53,
+      "end": 1334.53,
+      "text": "auf der Bremse haben."
+    },
+    {
+      "i": 378,
+      "start": 1334.53,
+      "end": 1336.53,
+      "text": "Aber trotzdem wichtig zu wissen,"
+    },
+    {
+      "i": 379,
+      "start": 1336.53,
+      "end": 1338.53,
+      "text": "dass Geschwindigkeiten alle zunehmen,"
+    },
+    {
+      "i": 380,
+      "start": 1338.53,
+      "end": 1340.53,
+      "text": "also sowohl die Mindestgeschwindigkeit,"
+    },
+    {
+      "i": 381,
+      "start": 1340.53,
+      "end": 1342.53,
+      "text": "als auch die Trimmgeschwindigkeit"
+    },
+    {
+      "i": 382,
+      "start": 1342.53,
+      "end": 1344.53,
+      "text": "von eurem Schirm,"
+    },
+    {
+      "i": 383,
+      "start": 1344.53,
+      "end": 1349.46,
+      "text": "sobald die Kräfte höher werden."
+    },
+    {
+      "i": 384,
+      "start": 1349.46,
+      "end": 1351.46,
+      "text": "Ja, dann möchte ich mich bedanken"
+    },
+    {
+      "i": 385,
+      "start": 1351.46,
+      "end": 1353.46,
+      "text": "für eure Aufmerksamkeit"
+    },
+    {
+      "i": 386,
+      "start": 1353.46,
+      "end": 1355.46,
+      "text": "und hoffe, dass ich euch in diesem Teil"
+    },
+    {
+      "i": 387,
+      "start": 1355.46,
+      "end": 1357.46,
+      "text": "auch wieder ein wenig weiterhelfen konnte"
+    },
+    {
+      "i": 388,
+      "start": 1357.46,
+      "end": 1359.46,
+      "text": "und dass ihr jetzt motiviert"
+    },
+    {
+      "i": 389,
+      "start": 1359.46,
+      "end": 1361.5,
+      "text": "an die Theorie reingeht,"
+    },
+    {
+      "i": 390,
+      "start": 1361.5,
+      "end": 1363.5,
+      "text": "das Büchlein gut studiert,"
+    },
+    {
+      "i": 391,
+      "start": 1363.5,
+      "end": 1365.5,
+      "text": "die Fragen durchlöst"
+    },
+    {
+      "i": 392,
+      "start": 1365.5,
+      "end": 1367.5,
+      "text": "und dann erfolgreich an die Theorieprüfung gehen"
+    },
+    {
+      "i": 393,
+      "start": 1367.5,
+      "end": 1369.5,
+      "text": "und bestehen werdet."
+    },
+    {
+      "i": 394,
+      "start": 1369.5,
+      "end": 1371.5,
+      "text": "Und dass es euch hoffentlich"
+    },
+    {
+      "i": 395,
+      "start": 1371.5,
+      "end": 1373.5,
+      "text": "auch in der Praxis"
+    },
+    {
+      "i": 396,
+      "start": 1373.5,
+      "end": 1375.5,
+      "text": "das eine oder andere ein wenig mehr Sinn macht"
+    },
+    {
+      "i": 397,
+      "start": 1375.5,
+      "end": 1377.5,
+      "text": "oder euch vielleicht"
+    },
+    {
+      "i": 398,
+      "start": 1377.5,
+      "end": 1379.5,
+      "text": "ein Lämpchen aufgegangen ist in diesem Bereich."
+    },
+    {
+      "i": 399,
+      "start": 1379.5,
+      "end": 1381.5,
+      "text": "Vielen Dank, bis bald."
+    }
+  ]
+}

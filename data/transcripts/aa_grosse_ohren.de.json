@@ -1,0 +1,124 @@
+{
+  "slug": "aa_grosse_ohren",
+  "language": "de",
+  "duration": 268.6084375,
+  "transcribed_in_sec": 18.4,
+  "model": "large-v3",
+  "settings": {
+    "device": "cuda",
+    "compute_type": "float16",
+    "beam_size": 10,
+    "initial_prompt_chars": 568,
+    "vad_min_silence_ms": 300
+  },
+  "segments": [
+    {
+      "i": 1,
+      "start": 21.94,
+      "end": 49.57,
+      "text": "Große Ohren, heißt einfach nochmal mehr Fläche hereinnehmen, anlegen, sehr sehr große Sinkwerte, also wirklich sehr sehr hohe Sinkwerte, schon bereits im gerade Ausflug mit ein bisschen Rollen und Körperverlagerung bringen wir da Werte im zweistelligen Bereich hin, also sehr einfach und das ohne große körperliche Belastung."
+    },
+    {
+      "i": 2,
+      "start": 49.57,
+      "end": 55.66,
+      "text": "Ist aber jetzt eher eine fortgeschrittene Technik, also das machen wir dann erst am Ende der Ausbildung."
+    },
+    {
+      "i": 3,
+      "start": 56.32,
+      "end": 63.72,
+      "text": "Schlussendlich möchte ich euch aber auch das mit auf den Weg geben, weil auch das eine Variante ist und wirklich wird vernichten, wenn es dann unbedingt sein muss."
+    },
+    {
+      "i": 4,
+      "start": 65.38,
+      "end": 73.14,
+      "text": "Die Technik ist praktisch identisch zur kleinen Ohren anlegen, nur dass wir jetzt zwei A-Leinen rechts und links nehmen."
+    },
+    {
+      "i": 5,
+      "start": 73.14,
+      "end": 83.03,
+      "text": "Wir gehen auch wieder her, Bremse bleibt am Steg in der Hand. Warum? Das ist natürlich zum Aufpumpen, also wir müssen immer ein bisschen bereit sein für das."
+    },
+    {
+      "i": 6,
+      "start": 83.07,
+      "end": 104.74,
+      "text": "Deshalb behalten wir die Bremsen in der Hand, nehmt ihr den Beschleuniger her, auch da wieder leicht beschleunigen, symmetrisch und jetzt ist wichtig, jetzt müssen wir probieren die äußerste A-Leine zu nehmen rechts und die daneben stehende A-Leine."
+    },
+    {
+      "i": 7,
+      "start": 104.74,
+      "end": 116.3,
+      "text": "Und wir dürfen jetzt nicht zu weit unten ziehen, also nicht zu nah am Leidenschloss, weil sonst ziehen wir die innerste A-Leine mit und haben einen kompletten Einklapper, also einen Frontklapper."
+    },
+    {
+      "i": 8,
+      "start": 117.22,
+      "end": 129.54,
+      "text": "Und deshalb müssen wir probieren möglichst hoch zu greifen, also hoch über das Leidenschloss, dann können wir zuerst abknicken und dann runterziehen und dann geben wir Gas."
+    },
+    {
+      "i": 9,
+      "start": 130.91,
+      "end": 140.99,
+      "text": "Sollten jetzt die Ohren sogar fest angelegt sein, können wir ein bisschen nach oben gehen und ein bisschen weniger Ohren anlegen und so die Ohrengröße sogar ein bisschen einstellen."
+    },
+    {
+      "i": 10,
+      "start": 141.51,
+      "end": 148.16,
+      "text": "Dann vielleicht sogar festhalten an dem Ort, wo ihr seid oder ihr könnt sie so behalten, je nachdem."
+    },
+    {
+      "i": 11,
+      "start": 148.16,
+      "end": 161.05,
+      "text": "Einfach fixieren am Haupttragegurt so nah wie es geht, dann mit der Körperverlagerung, je nachdem die Sinkgeschwindigkeit erhöhen oder auch nicht, den Gym nur gerade behalten, je nachdem was gewünscht ist."
+    },
+    {
+      "i": 12,
+      "start": 161.05,
+      "end": 173.45,
+      "text": "Und beim Ausleiten ist es jetzt wichtig, wir bleiben voll im Beschleuniger drinnen stehen, geben die A-Leinen symmetrisch nach oben frei und wenn die Ohren drinnen bleiben, pumpen, aber mit vollem Beschleuniger."
+    },
+    {
+      "i": 13,
+      "start": 173.45,
+      "end": 177.08,
+      "text": "Und erst wenn die Ohren draußen sind, gehen wir wieder ganz raus."
+    },
+    {
+      "i": 14,
+      "start": 177.08,
+      "end": 182.79,
+      "text": "Easy, man muss es nur ein paar mal machen."
+    },
+    {
+      "i": 15,
+      "start": 183.31,
+      "end": 197.15,
+      "text": "Nicht erschrecken, am Anfang wird sehr viel Fläche eingeklappt und das kann dazu führen, dass man da ein bisschen schockiert ist am Anfang, aber wir trainieren das Ganze ein paar mal."
+    },
+    {
+      "i": 16,
+      "start": 197.15,
+      "end": 204.45,
+      "text": "Und entscheidend ist einfach, dass man auch versucht nach oben zu blicken und zu schauen, wie viel habe ich jetzt eingeklappt."
+    },
+    {
+      "i": 17,
+      "start": 204.45,
+      "end": 215.2,
+      "text": "Wenn es zu viel wäre und der Schirm praktisch gar nicht richtig geöffnet ist in der Mitte, lassen wir die A-Leinen etwas frei und haben so natürlich nachher ein bisschen..."
+    },
+    {
+      "i": 18,
+      "start": 216.35,
+      "end": 265.13,
+      "text": "...mehr Spielraum, um den Schirm überhaupt zu steuern und auf Richtung und Kurs zu behalten."
+    }
+  ]
+}

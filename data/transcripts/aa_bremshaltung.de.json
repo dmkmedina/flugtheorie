@@ -1,0 +1,484 @@
+{
+  "slug": "aa_bremshaltung",
+  "language": "de",
+  "duration": 352.2003125,
+  "transcribed_in_sec": 30.7,
+  "model": "large-v3",
+  "settings": {
+    "device": "cuda",
+    "compute_type": "float16",
+    "beam_size": 10,
+    "initial_prompt_chars": 568,
+    "vad_min_silence_ms": 300
+  },
+  "segments": [
+    {
+      "i": 1,
+      "start": 7.1,
+      "end": 10.83,
+      "text": "Bremsstellung bzw. Bremshaltung."
+    },
+    {
+      "i": 2,
+      "start": 11.13,
+      "end": 13.19,
+      "text": "Ich muss mich da korrigieren. Bremshaltung."
+    },
+    {
+      "i": 3,
+      "start": 14.2,
+      "end": 17.26,
+      "text": "Die Bremse kann man auf verschiedene Art und Weisen halten."
+    },
+    {
+      "i": 4,
+      "start": 18.96,
+      "end": 23.89,
+      "text": "Bisher, und das ist auch in Ordnung so, könnt ihr auch mal da bleiben,"
+    },
+    {
+      "i": 5,
+      "start": 24.78,
+      "end": 27.92,
+      "text": "bisher habt ihr die Bremse am Steg in der Hand behalten."
+    },
+    {
+      "i": 6,
+      "start": 29.5,
+      "end": 32.78,
+      "text": "So, und habt Kurven aus dem Bereich beflogen."
+    },
+    {
+      "i": 7,
+      "start": 32.9,
+      "end": 34.0,
+      "text": "Das ist völlig in Ordnung."
+    },
+    {
+      "i": 8,
+      "start": 34.0,
+      "end": 42.48,
+      "text": "Jetzt ist es aber so, die Bremse hat 10-12 cm Vorlauf, manchmal auch 15 cm,"
+    },
+    {
+      "i": 9,
+      "start": 42.48,
+      "end": 46.9,
+      "text": "und diesen Vorlauf brauchen wir für den Beschleunigen."
+    },
+    {
+      "i": 10,
+      "start": 48.88,
+      "end": 54.95,
+      "text": "Sobald wir beschleunigen, haben wir die Kappe nach vorne unten geneigt,"
+    },
+    {
+      "i": 11,
+      "start": 55.13,
+      "end": 58.17,
+      "text": "und hinten die Hinterkante etwas höher."
+    },
+    {
+      "i": 12,
+      "start": 59.41,
+      "end": 63.21,
+      "text": "Und wenn wir geradeaus fliegen, und ihr schaut mal nach oben,"
+    },
+    {
+      "i": 13,
+      "start": 63.33,
+      "end": 68.08,
+      "text": "dann ist unsere Bremse so nach hinten ausbauchend."
+    },
+    {
+      "i": 14,
+      "start": 68.08,
+      "end": 71.47,
+      "text": "Macht so einen richtigen Bogen, und das muss sein, oder?"
+    },
+    {
+      "i": 15,
+      "start": 71.99,
+      "end": 77.21,
+      "text": "Weil sobald wir nämlich den beschleunigten Flug haben, ist dann die Bremse hinten gespannt."
+    },
+    {
+      "i": 16,
+      "start": 77.21,
+      "end": 82.4,
+      "text": "Und die Bremse dürfen wir aus dem Grund nicht ziehen, im beschleunigten Flug."
+    },
+    {
+      "i": 17,
+      "start": 82.4,
+      "end": 87.88,
+      "text": "Denn wenn wir jetzt noch zusätzlich die Bremse ziehen,"
+    },
+    {
+      "i": 18,
+      "start": 87.88,
+      "end": 92.58,
+      "text": "erzeugt das in dem Moment hier kurzzeitig mehr Auftrieb,"
+    },
+    {
+      "i": 19,
+      "start": 92.58,
+      "end": 95.38,
+      "text": "und der Schirm könnte frontal einklappen."
+    },
+    {
+      "i": 20,
+      "start": 95.38,
+      "end": 98.7,
+      "text": "Einseitig einklappen, so genau kann man es auch nicht sagen."
+    },
+    {
+      "i": 21,
+      "start": 98.7,
+      "end": 101.5,
+      "text": "Auf jeden Fall Einklappgefahr deutlich erhöht,"
+    },
+    {
+      "i": 22,
+      "start": 101.5,
+      "end": 107.71,
+      "text": "und aus dem Grund tut man nicht mehr steuern im beschleunigten Flug."
+    },
+    {
+      "i": 23,
+      "start": 107.71,
+      "end": 113.22,
+      "text": "Also könnt ihr da ganz leicht an den Hintern mitsteuern."
+    },
+    {
+      "i": 24,
+      "start": 113.22,
+      "end": 119.56,
+      "text": "Jetzt habt ihr bisher die Bremse so am Steg in der Hand behalten."
+    },
+    {
+      "i": 25,
+      "start": 119.56,
+      "end": 125.39,
+      "text": "Und das ist aber gerade beim Thermikfliegen oft das Problem,"
+    },
+    {
+      "i": 26,
+      "start": 125.39,
+      "end": 130.63,
+      "text": "dass man mit den Bremsen irgendwo da unten ziemlich tief arbeiten muss."
+    },
+    {
+      "i": 27,
+      "start": 130.63,
+      "end": 134.27,
+      "text": "Bei starker Thermik muss man auch mal stärker bremsen."
+    },
+    {
+      "i": 28,
+      "start": 134.27,
+      "end": 141.15,
+      "text": "Das heißt, da ist dann der Arbeitsbereich über längeren Zeitraum sehr, sehr kraftaufwendig."
+    },
+    {
+      "i": 29,
+      "start": 141.15,
+      "end": 145.7,
+      "text": "Und deshalb gehen viele Piloten hin und verkürzen,"
+    },
+    {
+      "i": 30,
+      "start": 146.0,
+      "end": 151.0,
+      "text": "sozusagen, diesen Bremsweg, indem sie die Bremse anders halten."
+    },
+    {
+      "i": 31,
+      "start": 151.0,
+      "end": 153.46,
+      "text": "Wir haben den sogenannten Franzosengriff."
+    },
+    {
+      "i": 32,
+      "start": 153.46,
+      "end": 160.64,
+      "text": "Die Franzosen gehen dort oft, nicht alle, aber viele gehen durch den Bremsgriff durch"
+    },
+    {
+      "i": 33,
+      "start": 160.64,
+      "end": 163.83,
+      "text": "und halten jetzt diese Leine, Bremsleine,"
+    },
+    {
+      "i": 34,
+      "start": 163.83,
+      "end": 175.49,
+      "text": "halten diese Bremsleine zwischen Zeigefinger und Daumen."
+    },
+    {
+      "i": 35,
+      "start": 175.49,
+      "end": 182.06,
+      "text": "Man hat durch das ein sehr gutes Gespür."
+    },
+    {
+      "i": 36,
+      "start": 182.06,
+      "end": 187.25,
+      "text": "Man hat die Bremse auch ein bisschen verkürzt."
+    },
+    {
+      "i": 37,
+      "start": 188.75,
+      "end": 193.1,
+      "text": "Nicht mehr ganz da unten, sondern vielleicht jetzt ein bisschen da oben."
+    },
+    {
+      "i": 38,
+      "start": 193.1,
+      "end": 196.1,
+      "text": "Also schon mal etwas angenehmer, mehr Gespür."
+    },
+    {
+      "i": 39,
+      "start": 196.1,
+      "end": 201.18,
+      "text": "Aber der große Nachteil an dem ist, und deshalb auf gar keinen Fall bei mir anwenden,"
+    },
+    {
+      "i": 40,
+      "start": 201.18,
+      "end": 207.86,
+      "text": "wir kommen vermutlich sowieso mit dicken Handschuhen nicht mehr aus dem Bremsgriff heraus."
+    },
+    {
+      "i": 41,
+      "start": 207.86,
+      "end": 211.36,
+      "text": "Es gab schon tödliche Vorfälle, war zwar nicht ganz bewiesen,"
+    },
+    {
+      "i": 42,
+      "start": 211.36,
+      "end": 216.94,
+      "text": "aber viele Piloten haben bestätigt, dass der Pilot so unterwegs war."
+    },
+    {
+      "i": 43,
+      "start": 216.94,
+      "end": 218.94,
+      "text": "Und sie haben gesehen, dass er nicht"
+    },
+    {
+      "i": 44,
+      "start": 218.94,
+      "end": 221.05,
+      "text": "den Notschirm auslösen konnte."
+    },
+    {
+      "i": 45,
+      "start": 221.05,
+      "end": 226.05,
+      "text": "Also könnte es wirklich an dem liegen, dass man da nicht mehr aus dem Bremsgriff heraus."
+    },
+    {
+      "i": 46,
+      "start": 226.05,
+      "end": 230.35,
+      "text": "Das heißt, wenn man das gerne machen möchte, dann kann man das wirklich machen,"
+    },
+    {
+      "i": 47,
+      "start": 230.35,
+      "end": 234.72,
+      "text": "indem man einfach den Daumen draußen lässt."
+    },
+    {
+      "i": 48,
+      "start": 234.72,
+      "end": 240.47,
+      "text": "Und so kommt man noch schneller aus diesem Griff heraus."
+    },
+    {
+      "i": 49,
+      "start": 240.47,
+      "end": 244.54,
+      "text": "Die Ungarn, den Ungarangriff, die Ungarn haben dann gesagt,"
+    },
+    {
+      "i": 50,
+      "start": 244.54,
+      "end": 246.54,
+      "text": "Moment, das ist uns zu riskant."
+    },
+    {
+      "i": 51,
+      "start": 246.54,
+      "end": 251.69,
+      "text": "Wir wollen aber die Bremsleine trotzdem zwischen Zeigefinger und Daumen behalten."
+    },
+    {
+      "i": 52,
+      "start": 251.69,
+      "end": 252.69,
+      "text": "Und deshalb haben die Ungarn gesagt,"
+    },
+    {
+      "i": 53,
+      "start": 253.69,
+      "end": 257.69,
+      "text": "oder sind die Ungarn da zu hingegangen und haben die Bremse einfach so."
+    },
+    {
+      "i": 54,
+      "start": 257.69,
+      "end": 263.51,
+      "text": "So kann man natürlich jederzeit loslassen und den Notschirm greifen."
+    },
+    {
+      "i": 55,
+      "start": 263.51,
+      "end": 270.02,
+      "text": "Aber die Gefahr ist auch größer, dass man die Leine mal wirklich aus Versehen verliert."
+    },
+    {
+      "i": 56,
+      "start": 270.02,
+      "end": 272.49,
+      "text": "Und dann braucht man wieder einen Moment, bis man die gepackt hat."
+    },
+    {
+      "i": 57,
+      "start": 272.49,
+      "end": 277.22,
+      "text": "Von dem her ist jetzt für mich nicht unbedingt eine Variante."
+    },
+    {
+      "i": 58,
+      "start": 277.22,
+      "end": 279.94,
+      "text": "Gefällt mir jetzt nicht persönlich."
+    },
+    {
+      "i": 59,
+      "start": 279.94,
+      "end": 286.17,
+      "text": "Wir gehen dazu her und verkürzen die Bremse wirklich extrem."
+    },
+    {
+      "i": 60,
+      "start": 286.17,
+      "end": 291.22,
+      "text": "Also wir nehmen diese 10 bis 12 cm Leerlauf, die nehmen wir raus,"
+    },
+    {
+      "i": 61,
+      "start": 291.22,
+      "end": 296.29,
+      "text": "indem wir die Bremse ganz normal am Steg in der Hand behalten"
+    },
+    {
+      "i": 62,
+      "start": 296.29,
+      "end": 300.59,
+      "text": "und so nach außen hin eine sogenannte Wicklung machen."
+    },
+    {
+      "i": 63,
+      "start": 300.59,
+      "end": 302.59,
+      "text": "Seht ihr das? Also ich drehe sie nach außen hin"
+    },
+    {
+      "i": 64,
+      "start": 302.59,
+      "end": 307.59,
+      "text": "und jetzt führe ich diese Bremsleine hier so am Handballen vorbei"
+    },
+    {
+      "i": 65,
+      "start": 307.59,
+      "end": 312.99,
+      "text": "und kann sie locker zwischen Zeigefinger und Daumen in der Hand behalten."
+    },
+    {
+      "i": 66,
+      "start": 312.99,
+      "end": 314.99,
+      "text": "Ich habe ein sehr gutes Gespür für den Schirm"
+    },
+    {
+      "i": 67,
+      "start": 314.99,
+      "end": 317.07,
+      "text": "und habe jetzt einen sehr kurzen Steuerweg."
+    },
+    {
+      "i": 68,
+      "start": 318.07,
+      "end": 320.07,
+      "text": "Das heißt, ich arbeite jetzt nur noch hier"
+    },
+    {
+      "i": 69,
+      "start": 320.07,
+      "end": 324.24,
+      "text": "und durch das ist es halt viel weniger kraftaufwendig."
+    },
+    {
+      "i": 70,
+      "start": 324.24,
+      "end": 327.48,
+      "text": "Ich habe eben einen kürzeren Weg, spüre den Schirm besser,"
+    },
+    {
+      "i": 71,
+      "start": 327.48,
+      "end": 330.59,
+      "text": "weniger kraftaufwendig und der Vorteil,"
+    },
+    {
+      "i": 72,
+      "start": 330.59,
+      "end": 333.83,
+      "text": "ich kann die Wicklung jederzeit wieder rausnehmen."
+    },
+    {
+      "i": 73,
+      "start": 333.83,
+      "end": 336.94,
+      "text": "Oder, wenn ich einen mehr brauche,"
+    },
+    {
+      "i": 74,
+      "start": 336.94,
+      "end": 339.58,
+      "text": "nehme ich nochmal einen mehr ein."
+    },
+    {
+      "i": 75,
+      "start": 339.58,
+      "end": 341.58,
+      "text": "Stoll beispielsweise, A-Schirm."
+    },
+    {
+      "i": 76,
+      "start": 341.58,
+      "end": 345.17,
+      "text": "Da muss ich zweimal wickeln."
+    },
+    {
+      "i": 77,
+      "start": 345.17,
+      "end": 347.44,
+      "text": "Also sehr ein großer Vorteil"
+    },
+    {
+      "i": 78,
+      "start": 347.44,
+      "end": 350.44,
+      "text": "und für gewisse Manöver auch eine sehr gute Variante."
+    }
+  ]
+}

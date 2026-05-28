@@ -1,0 +1,28 @@
+{
+  "slug": "aa_kurvenfliegen",
+  "language": "en",
+  "provider": "claude-sub-agent",
+  "model": "manual",
+  "duration": 137.671125,
+  "note": "Re-translated from large-v3 GPU transcript.",
+  "segments": [
+    {"i": 1, "start": 6.68, "end": 10.56, "text": "For all first-flight pilots I'll now explain turn flying to you."},
+    {"i": 2, "start": 11.0, "end": 18.71, "text": "At the beginning we fly out. What's always important after take-off is first to keep direction, come out straight."},
+    {"i": 3, "start": 19.62, "end": 23.66, "text": "Flying straight away from the slope is for us first of all the most important thing."},
+    {"i": 4, "start": 24.28, "end": 32.32, "text": "And as soon as we're away from the slope, we can try to climb into the harness, pull the knees up and wiggle the bum."},
+    {"i": 5, "start": 32.32, "end": 43.59, "text": "If that's not enough, then we push ourselves back here into the harness so that we sit in there as comfortably as possible, as is the case with me now."},
+    {"i": 6, "start": 45.99, "end": 53.81, "text": "Then on every turn always look in the direction of the airspace first. Can I turn to that side?"},
+    {"i": 7, "start": 54.85, "end": 61.4, "text": "Is it clear? So I don't initiate a turn and fly straight into someone else's canopy."},
+    {"i": 8, "start": 61.4, "end": 64.12, "text": "That's always decisive. So look, airspace clear."},
+    {"i": 9, "start": 64.12, "end": 70.53, "text": "And before we now work with the brake, always first put weight on that side."},
+    {"i": 10, "start": 70.65, "end": 73.42, "text": "And you see, with seat board this works very well."},
+    {"i": 11, "start": 73.98, "end": 81.01, "text": "Whoever has their legs free can put the left leg over the right and get even more weight shift that way."},
+    {"i": 12, "start": 81.39, "end": 85.36, "text": "And only then do we take the brake along to support."},
+    {"i": 13, "start": 86.44, "end": 94.38, "text": "Work slowly with the brake; if he feels it could be a bit more, or I'll also say, pull another 3 cm, may be another 3 cm."},
+    {"i": 14, "start": 94.58, "end": 110.6, "text": "Exit always neutral, sit in the harness, and I really announce everything to you — that is, you start normally braked on both sides."},
+    {"i": 15, "start": 110.6, "end": 119.02, "text": "Look to the turn side, weight, and then one brake comes more, the other maybe even goes a bit up."},
+    {"i": 16, "start": 119.02, "end": 126.68, "text": "I'll announce all of that to you, and exit by first bringing the weight back to neutral and then braking the outer side,"},
+    {"i": 17, "start": 126.68, "end": 129.88, "text": "so that you always come out braked out of any braking."},
+    {"i": 18, "start": 130.88, "end": 134.88, "text": "That means that the turns or dynamic build-ups come out."}
+  ]
+}

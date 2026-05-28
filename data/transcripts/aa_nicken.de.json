@@ -1,0 +1,544 @@
+{
+  "slug": "aa_nicken",
+  "language": "de",
+  "duration": 469.1591875,
+  "transcribed_in_sec": 47.0,
+  "model": "large-v3",
+  "settings": {
+    "device": "cuda",
+    "compute_type": "float16",
+    "beam_size": 10,
+    "initial_prompt_chars": 568,
+    "vad_min_silence_ms": 300
+  },
+  "segments": [
+    {
+      "i": 1,
+      "start": 20.82,
+      "end": 34.81,
+      "text": "Gut, kommen wir zum Nicken, Nicken um die Querachse, also die Querachse ist diese Achse durch den Schirm, wir haben einmal die Querachse, wir haben die Längsachse und wir haben die Hochachse."
+    },
+    {
+      "i": 2,
+      "start": 34.81,
+      "end": 51.58,
+      "text": "Die Bewegung um die Querachse, das nennt man Nicken. Ist für das wichtig, dass wenn wir beispielsweise in die Thermik einfliegen, da stellt es uns den Schirm an, da müssen wir darauf achten, dass wir den Schirm wieder über uns bringen,"
+    },
+    {
+      "i": 3,
+      "start": 51.58,
+      "end": 60.3,
+      "text": "oder beim Ausflug aus der Thermik nickt der Schirm nach vorne und wir müssen ihn vielleicht mit Bremsen wieder über unseren Kopf bringen."
+    },
+    {
+      "i": 4,
+      "start": 61.16,
+      "end": 75.88,
+      "text": "Und deshalb ist dieses Manöver so wichtig, auch zu trainieren, dass man diese Bewegung kennenlernt, den Schirm richtig einmal aufschaukeln, auch eher extrem aufschaukeln und aus diesem starken Aufschaukeln wieder mit der Bremse über sich zurücknimmt."
+    },
+    {
+      "i": 5,
+      "start": 75.88,
+      "end": 78.8,
+      "text": "Das ist ein sehr guter Pilot, der das beherrscht."
+    },
+    {
+      "i": 6,
+      "start": 78.8,
+      "end": 87.57,
+      "text": "Beim Nicken immer darauf achten, dass wir mit der Bremse nicht zu früh sind und nicht zu schnell."
+    },
+    {
+      "i": 7,
+      "start": 87.57,
+      "end": 99.61,
+      "text": "Ich führe es euch gleich vor, aber das sind die häufigsten Fehlerquellen, dass man einfach zu schnell und zu tief versucht zu ziehen, um das Nicken stark aufzuschaukeln."
+    },
+    {
+      "i": 8,
+      "start": 99.61,
+      "end": 103.95,
+      "text": "Es geht da mehr um das Timing vor der Bremse als um die Intensität."
+    },
+    {
+      "i": 9,
+      "start": 103.95,
+      "end": 110.29,
+      "text": "Mit höheren Pendeln müssen wir immer mehr Bremse ziehen, das ist logisch, klar, kommen wir nicht drum herum."
+    },
+    {
+      "i": 10,
+      "start": 110.29,
+      "end": 117.78,
+      "text": "Aber am Anfang ist entscheidend, dass wir langsam bremsen und wann wir mit dem Bremsen wieder ein weiteres Mal beginnen."
+    },
+    {
+      "i": 11,
+      "start": 117.78,
+      "end": 133.58,
+      "text": "Okay, also Nicken heißt auch, dass wir versuchen mit dem Körper so ein bisschen Kontakt zum Gurtzeug suchen, also ein bisschen die Knie so auseinander drücken, den Schirm anschauen und die Flugrichtung anschauen."
+    },
+    {
+      "i": 12,
+      "start": 133.58,
+      "end": 140.7,
+      "text": "Also wir starren nicht einfach nur stur zum Schirm, sondern auch so ein bisschen im Blickwechsel."
+    },
+    {
+      "i": 13,
+      "start": 140.7,
+      "end": 144.48,
+      "text": "Alles klar, in die Richtung geht es oder wo geht denn der Schirm überhaupt hin."
+    },
+    {
+      "i": 14,
+      "start": 144.48,
+      "end": 163.96,
+      "text": "Gut, beim Nicken empfehle ich euch die Bremsen nicht zu wickeln, sondern die Bremsen am Steg in der Hand zu behalten, weil wir den Schirm durch Bremsen lösen auch vollständig freigeben können, was beim Reibenschlag wickeln oftmals nicht der Fall ist."
+    },
+    {
+      "i": 15,
+      "start": 163.96,
+      "end": 173.3,
+      "text": "Okay, gut, dann sage ich am Funkgerät, zieh, zieh, zieh, zieh und mit jedem Mal ziehen, zieht ihr so drei bis vier Zentimeter."
+    },
+    {
+      "i": 16,
+      "start": 173.32,
+      "end": 179.67,
+      "text": "Das bedeutet, die ersten 15, 20 Zentimeter, die ziehen wir ziemlich langsam."
+    },
+    {
+      "i": 17,
+      "start": 179.67,
+      "end": 184.97,
+      "text": "Ich sage am Funk, zieh, zieh, zieh, zieh, zieh, zieh, Hände hoch."
+    },
+    {
+      "i": 18,
+      "start": 184.97,
+      "end": 192.45,
+      "text": "Habt ihr das gesehen? Also wirklich langsam beginnen, aber Hände hoch, so schnell wie ihr könnt."
+    },
+    {
+      "i": 19,
+      "start": 192.45,
+      "end": 197.32,
+      "text": "Also zieh, zieh, zieh, zieh, zieh, zieh, Hände hoch, zack, peng, oder?"
+    },
+    {
+      "i": 20,
+      "start": 197.7,
+      "end": 203.5,
+      "text": "Also richtig zügig hoch, versucht vielleicht sogar ein bisschen am Tragegurt entlang zu arbeiten beim Bremsen."
+    },
+    {
+      "i": 21,
+      "start": 203.5,
+      "end": 211.19,
+      "text": "Dass man nicht so mit dem Bremsen so nach außen hingeht, sondern wirklich eine schöne Führung parallel zum Tragegurt hat."
+    },
+    {
+      "i": 22,
+      "start": 211.19,
+      "end": 214.19,
+      "text": "Okay, dann warten. Ganz wichtig, warten."
+    },
+    {
+      "i": 23,
+      "start": 214.19,
+      "end": 219.24,
+      "text": "Und zwar ist es so, durch das Anbremsen pendelt ihr nach vorne."
+    },
+    {
+      "i": 24,
+      "start": 219.24,
+      "end": 223.74,
+      "text": "Jetzt warten wir, bis der Schirm da hinten am Totpunkt ist und dann lassen wir die Bremsen gehen."
+    },
+    {
+      "i": 25,
+      "start": 223.74,
+      "end": 226.24,
+      "text": "Das heißt, der Schirm beschleunigt Vollgas."
+    },
+    {
+      "i": 26,
+      "start": 226.24,
+      "end": 232.24,
+      "text": "Und jetzt müssen wir warten, bis wir hier unter dem Schirm wieder durchgependelt sind."
+    },
+    {
+      "i": 27,
+      "start": 232.24,
+      "end": 234.89,
+      "text": "Wenn wir den Schirm beschleunigen, dann müssen wir den Schirm wieder durchbremsen."
+    },
+    {
+      "i": 28,
+      "start": 234.89,
+      "end": 239.89,
+      "text": "Wenn wir bei der Abwärtsbewegung bremsen, nehmen wir eben die ganze Energie weg, die wir eigentlich gerade aufgebaut haben."
+    },
+    {
+      "i": 29,
+      "start": 239.89,
+      "end": 248.97,
+      "text": "Und deshalb ist es so wichtig, dass wir warten, bis wir die ganze Energie, die ganze Geschwindigkeit mitnehmen und unter dem Schirm vorbei pendeln."
+    },
+    {
+      "i": 30,
+      "start": 248.97,
+      "end": 252.97,
+      "text": "Das heißt, wir sind wie bei der Schaukel auch schon wieder leicht in der Aufwärtsbewegung."
+    },
+    {
+      "i": 31,
+      "start": 252.97,
+      "end": 255.97,
+      "text": "Und erst dann kommt ein weiteres Mal die Bremse."
+    },
+    {
+      "i": 32,
+      "start": 255.97,
+      "end": 260.97,
+      "text": "Jetzt, beim zweiten oder auch beim dritten Mal, einfach ein bisschen tiefer."
+    },
+    {
+      "i": 33,
+      "start": 260.97,
+      "end": 265.6,
+      "text": "Das heißt, bremsen, zieh, zieh, zieh, zieh, zieh, noch tiefer."
+    },
+    {
+      "i": 34,
+      "start": 265.6,
+      "end": 267.6,
+      "text": "Hände hoch, zack, oder?"
+    },
+    {
+      "i": 35,
+      "start": 267.6,
+      "end": 270.6,
+      "text": "Dürfen wir ruhig ein bisschen tiefer ziehen, kein Problem, weil wir haben die Geschwindigkeit."
+    },
+    {
+      "i": 36,
+      "start": 270.6,
+      "end": 277.02,
+      "text": "Wenn dann der Knickwinkel passt, sage ich zu euch, okay, jetzt nochmal ein weiteres Mal bremsen."
+    },
+    {
+      "i": 37,
+      "start": 277.02,
+      "end": 279.39,
+      "text": "Also macht noch einmal."
+    },
+    {
+      "i": 38,
+      "start": 279.39,
+      "end": 281.66,
+      "text": "Das heißt, ihr pendelt unten durch."
+    },
+    {
+      "i": 39,
+      "start": 281.66,
+      "end": 283.66,
+      "text": "Seid ein bisschen in der Steigphase."
+    },
+    {
+      "i": 40,
+      "start": 283.66,
+      "end": 286.66,
+      "text": "Dann nochmal zieh, zieh, zieh, zieh, zieh, Hände hoch."
+    },
+    {
+      "i": 41,
+      "start": 286.66,
+      "end": 289.66,
+      "text": "Und jetzt ist es so, jetzt lassen wir den Schirm nur noch so nach vorne kommen."
+    },
+    {
+      "i": 42,
+      "start": 289.66,
+      "end": 292.66,
+      "text": "Ich sage mal 45 bis 60 Grad."
+    },
+    {
+      "i": 43,
+      "start": 292.66,
+      "end": 294.66,
+      "text": "Und dann wollen wir den dort vorne stoppen."
+    },
+    {
+      "i": 44,
+      "start": 294.66,
+      "end": 297.79,
+      "text": "Das heißt, mit beiden Bremsen, zack, kurz stoppen."
+    },
+    {
+      "i": 45,
+      "start": 297.79,
+      "end": 303.84,
+      "text": "Also den Schirm von da hinten nochmal gehen lassen, nach vorne."
+    },
+    {
+      "i": 46,
+      "start": 303.84,
+      "end": 307.08,
+      "text": "Und hier vorne stoppen."
+    },
+    {
+      "i": 47,
+      "start": 307.08,
+      "end": 310.89,
+      "text": "Und schon sind wir drunter gepennt."
+    },
+    {
+      "i": 48,
+      "start": 310.89,
+      "end": 311.89,
+      "text": "Sehr wichtiges Manöver."
+    },
+    {
+      "i": 49,
+      "start": 311.89,
+      "end": 313.89,
+      "text": "Man muss auch da langsam herangehen."
+    },
+    {
+      "i": 50,
+      "start": 313.89,
+      "end": 315.89,
+      "text": "Ich führe euch immer näher dran."
+    },
+    {
+      "i": 51,
+      "start": 315.89,
+      "end": 319.07,
+      "text": "Es muss nicht am Anfang perfekt sein."
+    },
+    {
+      "i": 52,
+      "start": 319.07,
+      "end": 323.07,
+      "text": "Aber achtet darauf, dass ihr auf meine Kommandos eingeht."
+    },
+    {
+      "i": 53,
+      "start": 323.07,
+      "end": 326.07,
+      "text": "Das heißt, wenn ich sage, zieh, zieh, zieh, zieh, die Bremse, zieh mir."
+    },
+    {
+      "i": 54,
+      "start": 326.07,
+      "end": 328.07,
+      "text": "Ich sage, Hände hoch, wirklich symmetrisch."
+    },
+    {
+      "i": 55,
+      "start": 328.07,
+      "end": 330.12,
+      "text": "Und zücke die Hände hoch."
+    },
+    {
+      "i": 56,
+      "start": 330.12,
+      "end": 332.13,
+      "text": "Und dann sage ich am Funkgerät, warte."
+    },
+    {
+      "i": 57,
+      "start": 332.13,
+      "end": 337.13,
+      "text": "Dann müsst ihr wirklich warten, bis ihr am Schirm vorbei gependelt seid."
+    },
+    {
+      "i": 58,
+      "start": 337.13,
+      "end": 340.13,
+      "text": "Und am Totpunkt durch nach oben hin unterwegs."
+    },
+    {
+      "i": 59,
+      "start": 340.13,
+      "end": 345.15,
+      "text": "Und dann kommt von mir auch erst das Kommando, Bremse, zieh, zieh, zieh, zieh, Hände hoch."
+    },
+    {
+      "i": 60,
+      "start": 345.15,
+      "end": 350.92,
+      "text": "Beim Bremsen immer darauf achten, dass wir symmetrisch beginnen."
+    },
+    {
+      "i": 61,
+      "start": 350.92,
+      "end": 355.92,
+      "text": "Wenn ihr rechts ein bisschen eher zieht als links, dann machen wir eine kleine Rechtskurve."
+    },
+    {
+      "i": 62,
+      "start": 355.92,
+      "end": 359.92,
+      "text": "Oder wenn ihr beim Freigeben die rechte Hand ein bisschen eher als die linke bringt."
+    },
+    {
+      "i": 63,
+      "start": 359.92,
+      "end": 360.92,
+      "text": "Oder umgekehrt."
+    },
+    {
+      "i": 64,
+      "start": 360.92,
+      "end": 362.92,
+      "text": "Dann machen wir auch da eine Kurve auf die eine Seite."
+    },
+    {
+      "i": 65,
+      "start": 362.92,
+      "end": 364.92,
+      "text": "Und das wäre nicht das Ziel."
+    },
+    {
+      "i": 66,
+      "start": 364.92,
+      "end": 372.19,
+      "text": "Jetzt, das ist so eine Fehlerquelle, wo passieren kann beim Nicken."
+    },
+    {
+      "i": 67,
+      "start": 372.19,
+      "end": 376.19,
+      "text": "Deshalb bitte ich euch einfach am Anfang etwas langsamer heranzugehen."
+    },
+    {
+      "i": 68,
+      "start": 376.19,
+      "end": 380.19,
+      "text": "Ich sage euch schon, zieh noch ein bisschen mehr oder noch ein bisschen tiefer."
+    },
+    {
+      "i": 69,
+      "start": 380.19,
+      "end": 386.2,
+      "text": "Wenn ihr zu schnell, zu schnell und zu tief am Anfang zieht, dann könnt ihr den Schirm stolen."
+    },
+    {
+      "i": 70,
+      "start": 386.2,
+      "end": 389.8,
+      "text": "Wichtig wäre, ich sehe das von unten."
+    },
+    {
+      "i": 71,
+      "start": 389.8,
+      "end": 392.1,
+      "text": "Ich sage dann, Hände hoch."
+    },
+    {
+      "i": 72,
+      "start": 392.1,
+      "end": 393.1,
+      "text": "Hände wirklich oben lassen."
+    },
+    {
+      "i": 73,
+      "start": 393.1,
+      "end": 395.1,
+      "text": "Den Schirm anfahren lassen."
+    },
+    {
+      "i": 74,
+      "start": 395.1,
+      "end": 402.1,
+      "text": "Wenn wir den Schirm zu weit in den Stall sozusagen gezogen haben, also der wirklich ein bisschen nach hinten abgekippt ist,"
+    },
+    {
+      "i": 75,
+      "start": 402.1,
+      "end": 406.1,
+      "text": "dann kann es sein, dass da der Schirm nach vorne beschleunigt und vorne einklappt."
+    },
+    {
+      "i": 76,
+      "start": 406.1,
+      "end": 407.1,
+      "text": "Wir lassen das zu."
+    },
+    {
+      "i": 77,
+      "start": 407.1,
+      "end": 409.1,
+      "text": "Wir lassen einfach die Hände oben."
+    },
+    {
+      "i": 78,
+      "start": 409.1,
+      "end": 412.44,
+      "text": "Wir reagieren eventuell nur auf den Klapper."
+    },
+    {
+      "i": 79,
+      "start": 412.44,
+      "end": 418.44,
+      "text": "Das heißt, wenn der Schirm einseitig drinnen verhängt bleibt, dann tun wir das mit der Richtung herausnehmen."
+    },
+    {
+      "i": 80,
+      "start": 418.44,
+      "end": 420.44,
+      "text": "Also Richtung stabilisieren."
+    },
+    {
+      "i": 81,
+      "start": 420.44,
+      "end": 421.44,
+      "text": "Aber das kommt dann von mir."
+    },
+    {
+      "i": 82,
+      "start": 422.44,
+      "end": 424.44,
+      "text": "Linke Bremse ziehen oder rechte Bremse."
+    },
+    {
+      "i": 83,
+      "start": 424.44,
+      "end": 426.77,
+      "text": "Je nachdem, was dann der Fall wird."
+    },
+    {
+      "i": 84,
+      "start": 426.77,
+      "end": 430.77,
+      "text": "In der Regel erholt sich der Schirm von alleine, ohne dass wir was machen müssen."
+    },
+    {
+      "i": 85,
+      "start": 430.77,
+      "end": 435.77,
+      "text": "Deshalb ist es wichtig, sobald wir den Schirm dann doch einmal gestallt haben, Hände oben lassen."
+    },
+    {
+      "i": 86,
+      "start": 435.77,
+      "end": 436.77,
+      "text": "Oben lassen."
+    },
+    {
+      "i": 87,
+      "start": 436.77,
+      "end": 441.17,
+      "text": "Warten, bis der Schirm sich vor dem Ganzen erholt hat."
+    },
+    {
+      "i": 88,
+      "start": 441.17,
+      "end": 447.17,
+      "text": "Falls wir irgendwie eine Klappe, Verhänger, egal was haben, dann reagieren wir erst auf das."
+    }
+  ]
+}

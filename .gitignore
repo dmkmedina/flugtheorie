@@ -1,6 +1,9 @@
 node_modules/
 package-lock.json
 package.json
+
+# Local Whisper / CT2 model caches (large binaries — downloaded on demand)
+models/
 __pycache__/
 *.pyc
 .DS_Store

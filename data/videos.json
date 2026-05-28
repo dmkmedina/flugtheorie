@@ -1,0 +1,222 @@
+{
+  "fetchedAt": "2026-05-28T06:27:00.987Z",
+  "source": "https://www.freewings.ch/shv-theoriekurs",
+  "domVideos": {
+    "videos": [
+      {
+        "tag": "video",
+        "heading": "meteo 0",
+        "id": null,
+        "src": "https://video.wixstatic.com/video/2c6d0a_647e78113f34433a97e060e2be558653/1080p/mp4/file.mp4",
+        "poster": null,
+        "rect": {
+          "top": -1329,
+          "left": 50
+        }
+      },
+      {
+        "tag": "video",
+        "heading": "meteo 1",
+        "id": null,
+        "src": "https://video.wixstatic.com/video/2c6d0a_7bfb4c9a1b144437856a5b04b68e1490/1080p/mp4/file.mp4",
+        "poster": null,
+        "rect": {
+          "top": -1329,
+          "left": 690
+        }
+      },
+      {
+        "tag": "video",
+        "heading": "aerodynamik 0",
+        "id": null,
+        "src": "https://video.wixstatic.com/video/2c6d0a_2b947e967c544c9fb058e7c3232f35ab/1080p/mp4/file.mp4",
+        "poster": null,
+        "rect": {
+          "top": -829,
+          "left": 50
+        }
+      },
+      {
+        "tag": "video",
+        "heading": "aerodynamik 1",
+        "id": null,
+        "src": "https://video.wixstatic.com/video/2c6d0a_5258724a6bd5464b8a4acb42811fabeb/1080p/mp4/file.mp4",
+        "poster": null,
+        "rect": {
+          "top": -829,
+          "left": 690
+        }
+      },
+      {
+        "tag": "video",
+        "heading": "luftrecht 0",
+        "id": null,
+        "src": "https://video.wixstatic.com/video/2c6d0a_cb3ecd1820544f9297facc40ea62b524/1080p/mp4/file.mp4",
+        "poster": null,
+        "rect": {
+          "top": 671,
+          "left": 50
+        }
+      },
+      {
+        "tag": "video",
+        "heading": "luftrecht 1",
+        "id": null,
+        "src": "https://video.wixstatic.com/video/2c6d0a_d46e5f4c7c494f70830d65c8e1c95b57/1080p/mp4/file.mp4",
+        "poster": null,
+        "rect": {
+          "top": 671,
+          "left": 690
+        }
+      },
+      {
+        "tag": "video",
+        "heading": "materialkunde 0",
+        "id": null,
+        "src": "https://video.wixstatic.com/video/2c6d0a_2a0103c5c0284600b2ae375f26b404b7/1080p/mp4/file.mp4",
+        "poster": null,
+        "rect": {
+          "top": -329,
+          "left": 50
+        }
+      },
+      {
+        "tag": "video",
+        "heading": "materialkunde 1",
+        "id": null,
+        "src": "https://video.wixstatic.com/video/2c6d0a_64f8a7acd071464991cb493ddcff3c8b/1080p/mp4/file.mp4",
+        "poster": null,
+        "rect": {
+          "top": -329,
+          "left": 690
+        }
+      },
+      {
+        "tag": "video",
+        "heading": "flugpraxis 0",
+        "id": null,
+        "src": "https://video.wixstatic.com/video/2c6d0a_a303fce189c84f529505ea2b60b33631/1080p/mp4/file.mp4",
+        "poster": null,
+        "rect": {
+          "top": 171,
+          "left": 50
+        }
+      },
+      {
+        "tag": "video",
+        "heading": "flugpraxis 1",
+        "id": null,
+        "src": "https://video.wixstatic.com/video/2c6d0a_bfaa546ecddd447f9269d6ed150d8cec/1080p/mp4/file.mp4",
+        "poster": null,
+        "rect": {
+          "top": 171,
+          "left": 690
+        }
+      }
+    ],
+    "sections": [
+      "shv-theorie",
+      "videos",
+      "meteo 0",
+      "meteo 1",
+      "aerodynamik 0",
+      "aerodynamik 1",
+      "luftrecht 0",
+      "luftrecht 1",
+      "lust auf eine reise mit uns?",
+      "Parakite Portugal",
+      "Lost in Kirgistan",
+      "Chrigel's härtestes X-Alps",
+      "Basiskurs Parakite",
+      "Themenabend Parakite",
+      "Freewings Frauen Power",
+      "Groundhandling- und Skillstraining",
+      "Einsteiger Hike'n'Fly",
+      "Beginner Biwak",
+      "Spontantouren Ski'n'Fly",
+      "Spontantouren Climb'n'Fly",
+      "SIKU September",
+      "FREEWINGS Jubiläum",
+      "Selbständig fliegen",
+      "SIKU Juni",
+      "SIKU Juni",
+      "SIKU Mai",
+      "SIKU Mai",
+      "SIKU April",
+      "XC Training",
+      "XC-Theorie",
+      "Aufbaukurs Meteo",
+      "Themenabend Retter/Notschirm",
+      "Neujahr in Sizilien",
+      "Südafrika",
+      "Abenteuerreise Patagonien",
+      "Namibia",
+      "Frankreich Genussreise",
+      "Griechenland Genussreise",
+      "Dolomiten Biwak",
+      "Kanada Roadtrip",
+      "Knödel'n'fly",
+      "Hütten Hike'n'Fly",
+      "Kärnten Genussreise",
+      "Sail'n'Fly 1916",
+      "Griechenland",
+      "Patagonia",
+      "Hike'n'Fly Dolomiten",
+      "BEO Hike'n'Fly",
+      "Genussreise Tessin",
+      "Madeira",
+      "Neujahr in Sizilien",
+      "Portugal Küstenfliegen",
+      "VolBiv Tour",
+      "Abenteuerreise Kirgistan",
+      "Andalusien",
+      "materialkunde 0",
+      "materialkunde 1",
+      "Freewings flugpost",
+      "flugpraxis 0",
+      "flugpraxis 1"
+    ]
+  },
+  "mediaRequests": [
+    {
+      "url": "https://video.wixstatic.com/video/2c6d0a_647e78113f34433a97e060e2be558653/1080p/mp4/file.mp4",
+      "method": "GET"
+    },
+    {
+      "url": "https://video.wixstatic.com/video/2c6d0a_7bfb4c9a1b144437856a5b04b68e1490/1080p/mp4/file.mp4",
+      "method": "GET"
+    },
+    {
+      "url": "https://video.wixstatic.com/video/2c6d0a_2b947e967c544c9fb058e7c3232f35ab/1080p/mp4/file.mp4",
+      "method": "GET"
+    },
+    {
+      "url": "https://video.wixstatic.com/video/2c6d0a_5258724a6bd5464b8a4acb42811fabeb/1080p/mp4/file.mp4",
+      "method": "GET"
+    },
+    {
+      "url": "https://video.wixstatic.com/video/2c6d0a_cb3ecd1820544f9297facc40ea62b524/1080p/mp4/file.mp4",
+      "method": "GET"
+    },
+    {
+      "url": "https://video.wixstatic.com/video/2c6d0a_d46e5f4c7c494f70830d65c8e1c95b57/1080p/mp4/file.mp4",
+      "method": "GET"
+    },
+    {
+      "url": "https://video.wixstatic.com/video/2c6d0a_2a0103c5c0284600b2ae375f26b404b7/1080p/mp4/file.mp4",
+      "method": "GET"
+    },
+    {
+      "url": "https://video.wixstatic.com/video/2c6d0a_64f8a7acd071464991cb493ddcff3c8b/1080p/mp4/file.mp4",
+      "method": "GET"
+    },
+    {
+      "url": "https://video.wixstatic.com/video/2c6d0a_a303fce189c84f529505ea2b60b33631/1080p/mp4/file.mp4",
+      "method": "GET"
+    },
+    {
+      "url": "https://video.wixstatic.com/video/2c6d0a_bfaa546ecddd447f9269d6ed150d8cec/1080p/mp4/file.mp4",
+      "method": "GET"
+    }
+  ]
+}

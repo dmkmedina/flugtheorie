@@ -1,0 +1,250 @@
+{
+  "slug": "aa_b-stall",
+  "language": "de",
+  "duration": 283.3763125,
+  "transcribed_in_sec": 29.2,
+  "model": "large-v3",
+  "settings": {
+    "device": "cuda",
+    "compute_type": "float16",
+    "beam_size": 10,
+    "initial_prompt_chars": 568,
+    "vad_min_silence_ms": 300
+  },
+  "segments": [
+    {
+      "i": 1,
+      "start": 20.63,
+      "end": 25.57,
+      "text": "B-Stall. Ein sehr gutes Abstiegsmanöver. Leider ein bisschen im Verruf geraten."
+    },
+    {
+      "i": 2,
+      "start": 26.43,
+      "end": 33.52,
+      "text": "B-Stall. Wir ziehen alle B-Gurte und schieben den Schirm so über die B-Ebene zusammen."
+    },
+    {
+      "i": 3,
+      "start": 34.3,
+      "end": 44.28,
+      "text": "Stollen den Schirm. Also er kommt von dem Vorwärtsflug in den Stall über und geht im sogenannten Sackflug dann nach unten."
+    },
+    {
+      "i": 4,
+      "start": 44.58,
+      "end": 50.32,
+      "text": "Aber auch mit dem über die Spannweite geöffneten Schirm nur über die B-Ebene zusammengeschoben."
+    },
+    {
+      "i": 5,
+      "start": 50.32,
+      "end": 55.0,
+      "text": "Wir haben ca. 7 m pro Sekunde sinken, was ziemlich gut ist."
+    },
+    {
+      "i": 6,
+      "start": 55.56,
+      "end": 59.36,
+      "text": "Und das Tolle am B-Stall, ihr habt praktisch keine körperliche Belastung."
+    },
+    {
+      "i": 7,
+      "start": 60.0,
+      "end": 64.78,
+      "text": "Es ist zwar ein bisschen streng am Anfang, aber nachher das Halten, das geht eigentlich recht gut."
+    },
+    {
+      "i": 8,
+      "start": 66.24,
+      "end": 71.2,
+      "text": "Aber ihr habt keine körperliche Belastung und darum könnt ihr das auch gut einmal über längeren Zeitraum machen."
+    },
+    {
+      "i": 9,
+      "start": 71.82,
+      "end": 73.92,
+      "text": "Steilspirale kennt ihr von mir, ist kein Thema."
+    },
+    {
+      "i": 10,
+      "start": 74.44,
+      "end": 78.9,
+      "text": "Ist nicht geeignet, um über längeren Zeitraum Höhe kaputt zu machen."
+    },
+    {
+      "i": 11,
+      "start": 78.9,
+      "end": 81.18,
+      "text": "Vor allem nicht mit den Schirmen, die wir heute haben."
+    },
+    {
+      "i": 12,
+      "start": 81.38,
+      "end": 84.58,
+      "text": "Da habt ihr einfach zu viel Belastung für den Körper."
+    },
+    {
+      "i": 13,
+      "start": 84.58,
+      "end": 95.62,
+      "text": "Wer da Lust und Bock hat, als Akku-Pilot, der kann das natürlich machen, aber es ist kein effektives Manöver, um für jede Höhe nötigenfalls kaputt machen zu können."
+    },
+    {
+      "i": 14,
+      "start": 95.62,
+      "end": 100.57,
+      "text": "B-Stall, da nehmen wir die Bremse einfach locker am Steg in der Hand."
+    },
+    {
+      "i": 15,
+      "start": 100.57,
+      "end": 111.54,
+      "text": "Jetzt, damit uns die B-Gurte nicht unabsichtlich rausrutschen, gehen wir mit den Fingern gespreizt zwischen die B-Leinen, oberhalb der Leinenschlösser."
+    },
+    {
+      "i": 16,
+      "start": 111.54,
+      "end": 112.62,
+      "text": "Und packen diese so."
+    },
+    {
+      "i": 17,
+      "start": 112.62,
+      "end": 116.86,
+      "text": "Symmetrisch, schön oberhalb der Leinenschlösser."
+    },
+    {
+      "i": 18,
+      "start": 116.86,
+      "end": 120.74,
+      "text": "Und so können uns die B-Gurte nicht unabsichtlich entweichen."
+    },
+    {
+      "i": 19,
+      "start": 120.74,
+      "end": 127.3,
+      "text": "Jetzt ist wichtig, machen wir einfach einen langsamen, aber kräftigen Klimmzug dran."
+    },
+    {
+      "i": 20,
+      "start": 127.3,
+      "end": 131.5,
+      "text": "Und diesen halten wir mindestens vier bis fünf Sekunden."
+    },
+    {
+      "i": 21,
+      "start": 131.5,
+      "end": 138.1,
+      "text": "Erst auf mein Kommando, Hände hoch, gehen die Hände hoch für die Ausleitung."
+    },
+    {
+      "i": 22,
+      "start": 138.1,
+      "end": 141.58,
+      "text": "Und jetzt zeige ich euch, warum die Hände mit nach oben gehen müssen."
+    },
+    {
+      "i": 23,
+      "start": 141.58,
+      "end": 143.86,
+      "text": "Wenn wir einfach aus dieser Position,"
+    },
+    {
+      "i": 24,
+      "start": 143.86,
+      "end": 151.06,
+      "text": "die B-Gurte spicken lassen, kommen wir vielleicht zusätzlich auf die Bremse."
+    },
+    {
+      "i": 25,
+      "start": 151.06,
+      "end": 156.23,
+      "text": "Das wäre problematisch, denn wir lassen jetzt den B-Stall wieder gehen."
+    },
+    {
+      "i": 26,
+      "start": 156.23,
+      "end": 161.39,
+      "text": "Der Schirm möchte eigentlich anfahren, ist aber noch einen Moment lang im Sackflug."
+    },
+    {
+      "i": 27,
+      "start": 161.39,
+      "end": 169.71,
+      "text": "Und wenn ich dann auf die Bremse gehe, sage ich ihm eigentlich, zack, hey, geh in den Rückwärtsflug über."
+    },
+    {
+      "i": 28,
+      "start": 169.71,
+      "end": 177.67,
+      "text": "Und deshalb wollen wir da auf gar keinen Fall die Gurte schneizen lassen, sondern wirklich aktiv nach oben führen."
+    },
+    {
+      "i": 29,
+      "start": 177.75,
+      "end": 184.56,
+      "text": "Dann lassen wir schön aus dem B-Stall herauskommen in den Vorwärtsflug."
+    },
+    {
+      "i": 30,
+      "start": 184.56,
+      "end": 191.82,
+      "text": "Bei der Einleitung lassen wir die B-Gurte, deshalb ist diese Kammgriffstellung auch so wichtig,"
+    },
+    {
+      "i": 31,
+      "start": 191.82,
+      "end": 194.94,
+      "text": "auch nicht gerade wieder schneizen, wenn wir am Vorpendeln sind,"
+    },
+    {
+      "i": 32,
+      "start": 194.94,
+      "end": 201.45,
+      "text": "weil dann würde der Schirm aus dieser Position gerade wieder anfangen und ziemlich gut beschleunigen können"
+    },
+    {
+      "i": 33,
+      "start": 201.45,
+      "end": 205.29,
+      "text": "und eventuell sogar zu fest beschleunigen können."
+    },
+    {
+      "i": 34,
+      "start": 205.29,
+      "end": 209.37,
+      "text": "Deshalb ist es wichtig, den B-Stall oder die B-Gurte mindestens drei bis vier Sekunden,"
+    },
+    {
+      "i": 35,
+      "start": 209.37,
+      "end": 210.17,
+      "text": "mindestens drei bis vier Sekunden, mit der Gurte zu bewegen."
+    },
+    {
+      "i": 36,
+      "start": 210.17,
+      "end": 211.17,
+      "text": "mindestens drei bis vier Sekunden, mit der Gurte zu bewegen."
+    },
+    {
+      "i": 37,
+      "start": 211.37,
+      "end": 213.58,
+      "text": "Und dann unten zu behalten."
+    },
+    {
+      "i": 38,
+      "start": 213.58,
+      "end": 220.3,
+      "text": "Also runterziehen, unten behalten, sodass wir wieder zurück unter den Schirm pendeln können."
+    },
+    {
+      "i": 39,
+      "start": 220.3,
+      "end": 224.26,
+      "text": "Und erst dann, wenn wir wieder druntergependelt sind, hängt er hoch für die Ausleitung."
+    }
+  ]
+}

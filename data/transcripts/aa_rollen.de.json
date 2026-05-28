@@ -1,0 +1,322 @@
+{
+  "slug": "aa_rollen",
+  "language": "de",
+  "duration": 404.1665625,
+  "transcribed_in_sec": 71.4,
+  "model": "large-v3",
+  "settings": {
+    "device": "cuda",
+    "compute_type": "float16",
+    "beam_size": 10,
+    "initial_prompt_chars": 568,
+    "vad_min_silence_ms": 300
+  },
+  "segments": [
+    {
+      "i": 1,
+      "start": 20.54,
+      "end": 46.26,
+      "text": "So, Rollen, Rollen nennt man die Bewegung um die Längsachse, sieht dann quasi so aus, entsteht natürlich auch beim Kofenflug, aber auch Einflug in die Thermik seitlich kann der Schirm aus seiner Achse gebracht werden und über die Längsachse anfangen zu rollen und das gilt es natürlich dann zu verhindern, das heißt wir wollen den Schirm wieder über uns stabilisieren."
+    },
+    {
+      "i": 2,
+      "start": 46.26,
+      "end": 75.61,
+      "text": "Damit man sich das Ganze mal vorstellen kann, habe ich diese Skizze hier schnell angefertigt, also wir haben unseren Startpunkt und wir ziehen uns eine gedachte Linie und um diese Linie tun wir eigentlich den Schirm jedes Mal, wenn wir ihn ins Rollen gebracht haben, so weit mit der Bremse wieder ausrichten, sodass er wieder zurück auf diese gedachte Linie fliegend hinkommt."
+    },
+    {
+      "i": 3,
+      "start": 75.61,
+      "end": 77.03,
+      "text": "Das wäre so das Ziel."
+    },
+    {
+      "i": 4,
+      "start": 77.03,
+      "end": 92.61,
+      "text": "Jetzt wichtig beim Rollen ist, Körpereinsatz, Bremse und es kommt immer zuerst der Körper und später die Bremse."
+    },
+    {
+      "i": 5,
+      "start": 94.72,
+      "end": 109.73,
+      "text": "Probiert die Bremse auch nicht zu schnell zu ziehen, sondern so eine gewisse Dynamik in der Bremse drinnen zu haben, also Gewicht, Bremse warten, dann Bremse ziehen, nochmal ein bisschen bis zur Brust und dann freigehen."
+    },
+    {
+      "i": 6,
+      "start": 109.75,
+      "end": 110.13,
+      "text": "Jetzt wichtig beim Rollen ist, Körpereinsatz, Bremse und es kommt immer zuerst der Körper und später die Bremse drinnen zu haben, also Gewicht, Bremse warten, dann Bremse ziehen, nochmal ein bisschen bis zur Brust und dann freigehen."
+    },
+    {
+      "i": 7,
+      "start": 110.13,
+      "end": 119.48,
+      "text": "Das ist eine gewisse Dynamik, Gewicht auf die neue Seite, warten, Bremse ziehen, noch ein bisschen mehr bis zur Brust und wieder freigehen."
+    },
+    {
+      "i": 8,
+      "start": 119.48,
+      "end": 124.31,
+      "text": "Das wäre so ein dynamischer Bremsausschlag, sagt man."
+    },
+    {
+      "i": 9,
+      "start": 124.31,
+      "end": 132.84,
+      "text": "Jetzt, wann kommt der Wechsel? Das ist immer so die Frage, wo viele Piloten und Schüler stehen."
+    },
+    {
+      "i": 10,
+      "start": 132.84,
+      "end": 142.02,
+      "text": "Wir beginnen mit dem Rollen nach links, das heißt wir richten den Schirm nach links herum aus, der Pilot pendelt rechts außen hin."
+    },
+    {
+      "i": 11,
+      "start": 142.5,
+      "end": 142.88,
+      "text": "Wir richten den Schirm nach links herum aus, der Pilot pendelt rechts außen hin."
+    },
+    {
+      "i": 12,
+      "start": 142.88,
+      "end": 159.82,
+      "text": "Jetzt, wenn der Pilot am höchsten Punkt ist, dann kommt bereits der Wechsel auf die neue Seite, das heißt auf die rechte Seite das Gewicht lehnen, sodass wir möglichst noch nicht mit der rechten Bremse arbeiten müssen und den Schirm aber schon ein bisschen auf die neue Seite ausgerichtet."
+    },
+    {
+      "i": 13,
+      "start": 159.82,
+      "end": 168.44,
+      "text": "Dann auch wie beim Nicken, gerade am Anfang, so bei den ersten drei bis vier Nickern, immer warten bis wir unter dem Schirm vorbei gependelt sind."
+    },
+    {
+      "i": 14,
+      "start": 169.14,
+      "end": 173.82,
+      "text": "Und kurz nach dem untersten Totpunkt, nicht so lange warten wie beim Nicken, sondern wirklich kurz warten."
+    },
+    {
+      "i": 15,
+      "start": 174.02,
+      "end": 178.78,
+      "text": "Ein bisschen warten, nachdem wir unten durch sind, dann kommt die Bremse, Entschuldigung, für die neue Seite."
+    },
+    {
+      "i": 16,
+      "start": 179.33,
+      "end": 186.87,
+      "text": "Genau da wieder warten, zack, bis wir unten angekommen, ganz kurz vorbei ist und dann kommt die neue Seite."
+    },
+    {
+      "i": 17,
+      "start": 187.85,
+      "end": 203.82,
+      "text": "Also wirklich kurz nach dem untersten Totpunkt die Bremse ziehen, ich zähle es nochmal schnell vor, das heißt Gewicht reinhängen, dann Bremse ziehen, bis zur Brust, dynamisch ziehen, zack, hoch und Gewicht auf die neue Seite."
+    },
+    {
+      "i": 18,
+      "start": 203.82,
+      "end": 204.68,
+      "text": "Und jetzt warten."
+    },
+    {
+      "i": 19,
+      "start": 205.22,
+      "end": 211.3,
+      "text": "unten vorbei gependelt sind, gerade unmittelbar danach, Bremse ziehen, etwas dynamisch zur"
+    },
+    {
+      "i": 20,
+      "start": 211.3,
+      "end": 216.74,
+      "text": "Brust und wieder wechseln, zack, warten, warten, warten, warten, warten, Bremse ziehen, dynamisch"
+    },
+    {
+      "i": 21,
+      "start": 216.74,
+      "end": 222.4,
+      "text": "ziehen und wechseln, zack, warten, warten, warten, warten, Bremse ziehen, dynamisch ziehen"
+    },
+    {
+      "i": 22,
+      "start": 222.4,
+      "end": 228.46,
+      "text": "und wechseln. Ausleitung, sehr einfach, wenn wir jetzt den letzten Roller gemacht haben,"
+    },
+    {
+      "i": 23,
+      "start": 228.56,
+      "end": 235.16,
+      "text": "rechts, zack, Hand hoch, körperneutral sitzen bleiben, beide Hände oben lassen, warten"
+    },
+    {
+      "i": 24,
+      "start": 235.16,
+      "end": 241.48,
+      "text": "bis wir hochgependelt sind und jetzt kommt der Schirm wieder von hinten nach vorne, das"
+    },
+    {
+      "i": 25,
+      "start": 241.48,
+      "end": 246.16,
+      "text": "heißt da müssen wir ihn einfach mit beiden Bremsen abfangen und dann langsam beide Bremsen"
+    },
+    {
+      "i": 26,
+      "start": 246.16,
+      "end": 251.48,
+      "text": "wieder freigeben, also warten bis der Schirm über uns vorbei kommt, ein bisschen nach"
+    },
+    {
+      "i": 27,
+      "start": 251.48,
+      "end": 255.92,
+      "text": "vorne, dann beide Bremsen ziehen, vielleicht auch ein bisschen asymmetrisch, spielt gar"
+    },
+    {
+      "i": 28,
+      "start": 255.92,
+      "end": 262.35,
+      "text": "keine große Rolle und dann warten und langsam freigeben. Was man auch machen kann, das wäre"
+    },
+    {
+      "i": 29,
+      "start": 262.35,
+      "end": 267.14,
+      "text": "die zweite Ausleitung, man geht mit dem letzten Roller zu Ende, zack,"
+    },
+    {
+      "i": 30,
+      "start": 267.16,
+      "end": 272.82,
+      "text": "zieht die rechte Bremse, zieht die linke mit dazu und geht wieder beidseitig an,"
+    },
+    {
+      "i": 31,
+      "start": 272.82,
+      "end": 276.8,
+      "text": "gebremst aus dem Ganzen heraus. Also einfach warten bis man drunter"
+    },
+    {
+      "i": 32,
+      "start": 276.8,
+      "end": 283.16,
+      "text": "gependelt ist und dann langsam freigeben. Eigentlich so von der Erklärung her sehr, sehr"
+    },
+    {
+      "i": 33,
+      "start": 283.16,
+      "end": 290.82,
+      "text": "einfach, aber es braucht gutes Zeitmanagement, wann kommt der Körper rüber, wie extrem kann"
+    },
+    {
+      "i": 34,
+      "start": 290.82,
+      "end": 295.82,
+      "text": "man den Körper dann auch schnell rüberlegen und wann kommt die Bremse mit. Auch da fangt"
+    },
+    {
+      "i": 35,
+      "start": 295.82,
+      "end": 299.48,
+      "text": "am Anfang lieber langsamer an, wir steigern uns mit jedem Mal"
+    },
+    {
+      "i": 36,
+      "start": 299.64,
+      "end": 303.12,
+      "text": "mehr, ich sage dann, zieh noch ein bisschen mehr oder noch ein bisschen kräftiger, oft"
+    },
+    {
+      "i": 37,
+      "start": 303.12,
+      "end": 309.1,
+      "text": "zieht man die Bremse dann auch ein bisschen zu kurz oder die eine Seite mehr als die andere,"
+    },
+    {
+      "i": 38,
+      "start": 309.1,
+      "end": 313.92,
+      "text": "also da ist wirklich wichtig am Anfang, beide Seiten gleichmäßig, beide Seiten zur gleichen"
+    },
+    {
+      "i": 39,
+      "start": 313.92,
+      "end": 319.69,
+      "text": "Zeit und die Intensität von der Bremse muss auch auf beiden Seiten gleichmäßig sein."
+    },
+    {
+      "i": 40,
+      "start": 319.69,
+      "end": 324.81,
+      "text": "Wenn wir jetzt beispielsweise ein bisschen zu hoch sind, wir machen den Roller auf die"
+    },
+    {
+      "i": 41,
+      "start": 324.81,
+      "end": 329.85,
+      "text": "linke Seite etwas zu hoch, dann kann es sein, uns klappt der Außenflügel ein, wenn das"
+    },
+    {
+      "i": 42,
+      "start": 329.85,
+      "end": 330.85,
+      "text": "passiert, nichts passiert. Wir machen den Roller auf die linke Seite etwas zu hoch, dann kann es sein, uns klappt der Außenflügel ein, wenn das passiert, nichts passiert."
+    },
+    {
+      "i": 43,
+      "start": 331.19,
+      "end": 332.19,
+      "text": "Wir machen den Roller auf die linke Seite etwas zu hoch, dann kann es sein, uns klappt der Außenflügel ein, wenn das passiert, nichts passiert."
+    },
+    {
+      "i": 44,
+      "start": 332.19,
+      "end": 359.91,
+      "text": "Für das Rollmanöver wird eine vorgegebene Flugachse"
+    },
+    {
+      "i": 45,
+      "start": 359.91,
+      "end": 364.32,
+      "text": "eingenommen. Durch dosiertes, abwechselndes Ziehen und Lösen"
+    },
+    {
+      "i": 46,
+      "start": 364.32,
+      "end": 368.92,
+      "text": "der linken und rechten Steuerleine erfolgt ein rhythmisches Schaukeln um die"
+    },
+    {
+      "i": 47,
+      "start": 368.92,
+      "end": 370.96,
+      "text": "Linksachse."
+    },
+    {
+      "i": 48,
+      "start": 370.96,
+      "end": 371.93,
+      "text": "Vorsicht!"
+    },
+    {
+      "i": 49,
+      "start": 371.93,
+      "end": 377.25,
+      "text": "Zu starkes Anbremsen oder falsche Intervalle können zu gefährlichen Flugzuständen führen."
+    },
+    {
+      "i": 50,
+      "start": 379.58,
+      "end": 386.74,
+      "text": "Ab einem regelmäßigen Rollen genügen kleinere Steuerimpulse, um die Schwingungen bis zum richtigen Winkel aufrecht zu erhalten."
+    },
+    {
+      "i": 51,
+      "start": 386.74,
+      "end": 401.75,
+      "text": "Um das Manöver auszuleiten, wird ein einzelner Steuerimpuls ausgelassen und dann das letzte Rollen des Schirms mittels Bremsimpuls und nachfolgend dosiertem Freigeben der Steuerleinen abgefangen."
+    }
+  ]
+}
