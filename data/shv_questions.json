@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-05-28T15:26:15.514Z",
+  "fetchedAt": "2026-05-28T15:26:48.229Z",
   "questions": {
     "1": {
       "qid": 1,
@@ -6877,6 +6877,118 @@
         "Constant front wind of 5 - 10 km/h."
       ],
       "correct": 0
+    },
+    "Practical Flying_68": {
+      "qid": 68,
+      "topic": "Practical Flying",
+      "pos": 73,
+      "total_in_topic": 169,
+      "text": "A pilot is ascending in a thermal with a 10 knot /270º wind. The thermal is deviating to the East at altitude. Which side of the thermal will the sink be at its strongest?",
+      "options": [
+        "On the side facing towards the sun.",
+        "On the windward side.",
+        "On the leeward side.",
+        "On the side facing away from the sun."
+      ],
+      "correct": 2
+    },
+    "Practical Flying_60": {
+      "qid": 60,
+      "topic": "Practical Flying",
+      "pos": 75,
+      "total_in_topic": 169,
+      "text": "The size of the angle of correction for wind drift (crab angle) depends on",
+      "options": [
+        "the speed of the glider, the wind direction and the wind strength.",
+        "the sink rate of the glider, the wind direction and the flight distance.",
+        "the speed of the glider, the wind direction and the flight distance.",
+        "the sink rate of the glider, the wind direction and wind strength."
+      ],
+      "correct": 0
+    },
+    "Practical Flying_21": {
+      "qid": 21,
+      "topic": "Practical Flying",
+      "pos": 76,
+      "total_in_topic": 169,
+      "text": "At launch you have a headwind of 15km/h. What can be expected in terms of distance required and speed of takeoff?",
+      "options": [
+        "The take-off distance is short, the speed is low.",
+        "The take-off distance is long, the speed is high.",
+        "The take-off distance is short, the speed is high.",
+        "The take-off distance is long, the speed is low."
+      ],
+      "correct": 0
+    },
+    "Practical Flying_136": {
+      "qid": 136,
+      "topic": "Practical Flying",
+      "pos": 77,
+      "total_in_topic": 169,
+      "text": "After landing the glider is caught in the crown of a tree. Which retrieval measure will ensure that damage to the glider is minimised?",
+      "options": [
+        "Undo the connection between the harness and risers.",
+        "Recover the glider using a helicopter.",
+        "Undo the quick-links on the risers and the brake line knots.",
+        "Connect a long rope to the harness and pull the glider horizontally off the tree from as far away as possible."
+      ],
+      "correct": 2
+    },
+    "Practical Flying_132": {
+      "qid": 132,
+      "topic": "Practical Flying",
+      "pos": 79,
+      "total_in_topic": 169,
+      "text": "You are forced to land with a 20km/h wind in a field surrounded by buildings. What should you expect?",
+      "options": [
+        "Strong turbulence throughout the whole of the final stage of approach.",
+        "Extended float just above the ground due to the increased ground effect.",
+        "Strong turbulence at roof level, calm air at ground level.",
+        "Ideal landing conditions in a field protected from the wind."
+      ],
+      "correct": 0
+    },
+    "Practical Flying_62": {
+      "qid": 62,
+      "topic": "Practical Flying",
+      "pos": 80,
+      "total_in_topic": 169,
+      "text": "After circling for 10min in a thermal the pilot finds that his position over ground has shifted by 3km. What can we say about the force of wind?",
+      "options": [
+        "It cannot be determined from the information given.",
+        "Strong wind must be anticipated at ground level.",
+        "It is 18 km/h.",
+        "It is 30 km/h."
+      ],
+      "correct": 2
+    },
+    "Practical Flying_158": {
+      "qid": 158,
+      "topic": "Practical Flying",
+      "pos": 81,
+      "total_in_topic": 169,
+      "text": "Chamois and Ibex are most bothered when pilots",
+      "options": [
+        "fly over lush green mountain pastures.",
+        "fly low over the mountain forest treetops, thereby flushing out the animals lying under the trees.",
+        "fly closely along mountain slopes and cliffs above the tree line in uninhabited areas.",
+        "call out and sing in the air, thereby scaring the animals."
+      ],
+      "correct": 2
+    },
+    "Practical Flying_88": {
+      "qid": 88,
+      "topic": "Practical Flying",
+      "pos": 82,
+      "total_in_topic": 169,
+      "text": "A pilot flies through turbulent air the glider begins to pendulum a little about the longitudinal and transverse axes. What is the appropriate reaction?",
+      "options": [
+        "Stabilise the pendulum using immediate and forceful opposite braking.",
+        "Brake the glider 50% and hold the risers in order to stabilise the body position somewhat.",
+        "Fly without brakes and, if need be, accelerate in order to escape the turbulence as fast as possible.",
+        "Sit relaxed in the harness and pull gently to moderately on the brakes without trying to compensate for the pendulum."
+      ],
+      "correct": 3
     }
   },
   "topics": {
