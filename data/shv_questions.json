@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-05-28T15:01:00.425Z",
+  "fetchedAt": "2026-05-28T15:01:30.604Z",
   "questions": {
     "1": {
       "qid": 1,
@@ -2422,6 +2422,104 @@
         "the chance of precipitation.",
         "the prevailing wind direction and the chance of precipitation.",
         "the temperature gradient and the wind strength."
+      ],
+      "correct": 0
+    },
+    "Weather_46": {
+      "qid": 46,
+      "topic": "Weather",
+      "pos": 12,
+      "total_in_topic": 164,
+      "text": "For which of the following weather conditions is the development of ground fog (radiation fog) most likely?",
+      "options": [
+        "Clear sky, zero wind, large temperature - dew point difference.",
+        "Clear sky, zero wind, small temperature - dew point difference.",
+        "Covered sky, zero wind, small temperature - dew point difference.",
+        "Clear sky, wind 270 deg/10 kt, small temperature - dew point difference."
+      ],
+      "correct": 1
+    },
+    "Weather_17": {
+      "qid": 17,
+      "topic": "Weather",
+      "pos": 13,
+      "total_in_topic": 164,
+      "text": "Why does the temperature of a rising bubble of air change?",
+      "options": [
+        "Because the angle of the sun's radiation reduces with increasing altitude, and therefore the air bubble receives less heat than at ground level.",
+        "Because the bubble leaves the source of warmth, i.e. the earths surface, and cools down.",
+        "Because rising air needs to evaporate water, there is a relationship between the increase in altitude and reduction in temperature.",
+        "Because the pressure reduces with increasing altitude, resulting in the air bubble expanding and losing energy in the form of heat."
+      ],
+      "correct": 3
+    },
+    "Weather_140": {
+      "qid": 140,
+      "topic": "Weather",
+      "pos": 15,
+      "total_in_topic": 164,
+      "text": "The term \"restitution lift\" means",
+      "options": [
+        "thermal rising air masses in the middle of the valley after the onset of the mountain (katabatic) breeze.",
+        "sinking air masses next to thermal rising air masses.",
+        "temperature related downdrafts.",
+        "sinking air masses which descend during the day above cold surfaces such as glaciers and lakes."
+      ],
+      "correct": 0
+    },
+    "Weather_44": {
+      "qid": 44,
+      "topic": "Weather",
+      "pos": 16,
+      "total_in_topic": 164,
+      "text": "Altocumulus castellanus clouds two hours after sunrise are an indication of",
+      "options": [
+        "a large region of stability in the lower portion of the troposphere.",
+        "an approaching warm front.",
+        "an unstable layer at the height of the clouds.",
+        "the centre of a high-pressure system."
+      ],
+      "correct": 2
+    },
+    "Weather_138": {
+      "qid": 138,
+      "topic": "Weather",
+      "pos": 18,
+      "total_in_topic": 164,
+      "text": "The term \"blue thermal\" means",
+      "options": [
+        "thermal rising air in which the humidity is so low that it doesn't allow the development of cumulus clouds.",
+        "thermal rising air masses which are raised due to incoming continental cold air.",
+        "thermal rising air over still waters during the night.",
+        "thermal rising air in which the humidity is so high that clouds form which cause precipitation."
+      ],
+      "correct": 0
+    },
+    "Weather_13": {
+      "qid": 13,
+      "topic": "Weather",
+      "pos": 19,
+      "total_in_topic": 164,
+      "text": "The temperature of air layers near the ground is primarily influenced by",
+      "options": [
+        "the relative humidity of the air.",
+        "the angle of the sun's radiation striking the air particles.",
+        "the ground temperature.",
+        "the sun's radiation striking air particles."
+      ],
+      "correct": 2
+    },
+    "Weather_134": {
+      "qid": 134,
+      "topic": "Weather",
+      "pos": 21,
+      "total_in_topic": 164,
+      "text": "In which of the following months in the pre-Alps are the thermals the most pronounced?",
+      "options": [
+        "May",
+        "August",
+        "January",
+        "October"
       ],
       "correct": 0
     }
