@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-05-29T08:52:40.353Z",
+  "fetchedAt": "2026-05-29T08:53:11.968Z",
   "questions": {
     "Fluglehre_152": {
       "qid": 152,
@@ -2674,6 +2674,132 @@
         "welches über längere Zeit trockener ist als seine Umgebung."
       ],
       "correct": 1
+    },
+    "Wetterkunde_5": {
+      "qid": 5,
+      "topic": "Wetterkunde",
+      "pos": 52,
+      "total_in_topic": 164,
+      "text": "Der Luftdruck ist eine Folge",
+      "options": [
+        "der in der Luft schwebenden Wasser- und Staubteilchen.",
+        "der Schwerkraft.",
+        "der Erdrotation.",
+        "der magnetischen Pole."
+      ],
+      "correct": 1
+    },
+    "Wetterkunde_4": {
+      "qid": 4,
+      "topic": "Wetterkunde",
+      "pos": 53,
+      "total_in_topic": 164,
+      "text": "Die mittlere Höhe der Tropopause beträgt in unseren Breiten",
+      "options": [
+        "5'500 m/Meer",
+        "4'000 m/Meer",
+        "11'000 m/Meer",
+        "50'000 m/Meer"
+      ],
+      "correct": 2
+    },
+    "Wetterkunde_143": {
+      "qid": 143,
+      "topic": "Wetterkunde",
+      "pos": 55,
+      "total_in_topic": 164,
+      "text": "Dieses Symbol bedeutet auf der Wetterkarte",
+      "options": [
+        "eine Isobare",
+        "eine Warmfront",
+        "eine Okklusion",
+        "eine Kaltfront"
+      ],
+      "correct": 0
+    },
+    "Wetterkunde_77": {
+      "qid": 77,
+      "topic": "Wetterkunde",
+      "pos": 56,
+      "total_in_topic": 164,
+      "text": "Ein Wind aus Richtung Nordwest entspricht dem Wert",
+      "options": [
+        "225°",
+        "045°",
+        "315°",
+        "135°"
+      ],
+      "correct": 2
+    },
+    "Wetterkunde_114": {
+      "qid": 114,
+      "topic": "Wetterkunde",
+      "pos": 57,
+      "total_in_topic": 164,
+      "text": "Welche Voraussetzung begünstigt das Entstehen einer Föhnlage in den Alpentälern?",
+      "options": [
+        "Ein geringes Druckgefälle zwischen Alpennord- und Alpensüdseite.",
+        "Ein grosses Druckgefälle zwischen Alpennord- und Alpensüdseite.",
+        "Ein ausgeprägtes Tief mit Zentrum über dem Alpenraum.",
+        "Ein ausgeprägtes Hoch mit Zentrum über dem Alpenraum."
+      ],
+      "correct": 1
+    },
+    "Wetterkunde_163": {
+      "qid": 163,
+      "topic": "Wetterkunde",
+      "pos": 58,
+      "total_in_topic": 164,
+      "text": "Welche Bewölkung ist in St.Petersburg am wahrscheinlichsten?",
+      "options": [
+        "3/8 bis 5/8 Cumulus",
+        "5/8 bis 7/8 Cumulonimbus, im Osten vereinzelte Lenticularis",
+        "5/8 bis 7/8 Cirrostratus",
+        "8/8 Nimbostratus"
+      ],
+      "correct": 3
+    },
+    "Wetterkunde_128": {
+      "qid": 128,
+      "topic": "Wetterkunde",
+      "pos": 59,
+      "total_in_topic": 164,
+      "text": "Mit welchem Wind muss in den Alpentälern des Tessins gerechnet werden, wenn sich das Azorenhoch gegen Mitteleuropa ausdehnt?",
+      "options": [
+        "Südwind",
+        "Westwind",
+        "Nordföhn",
+        "Bise"
+      ],
+      "correct": 2
+    },
+    "Wetterkunde_58": {
+      "qid": 58,
+      "topic": "Wetterkunde",
+      "pos": 60,
+      "total_in_topic": 164,
+      "text": "Wolken vom Typ Lenticularis (Linsenwolken) können entstehen, wenn",
+      "options": [
+        "starke thermische Aufwinde feuchtadiabatisch aufsteigen.",
+        "die Thermik einen Föhneffekt hervorruft.",
+        "labile Bodenluft plötzlich grossräumig aufsteigt.",
+        "Luftmassen mit einer gewissen Geschwindigkeit über das Relief strömen."
+      ],
+      "correct": 3
+    },
+    "Wetterkunde_151": {
+      "qid": 151,
+      "topic": "Wetterkunde",
+      "pos": 62,
+      "total_in_topic": 164,
+      "text": "Wie ist die Windrichtung in Algier (Alger)?",
+      "options": [
+        "280°",
+        "190°",
+        "320°",
+        "100°"
+      ],
+      "correct": 0
     }
   },
   "topics": {
