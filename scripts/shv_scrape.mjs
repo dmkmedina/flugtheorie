@@ -179,6 +179,7 @@ async function scrapeOneSubject(targetSubject) {
   let consecutiveDupes = 0;
   let captured = 0;
   let sessionsUsed = 1;
+  let consecutiveZeroSessions = 0;
   let lastSave = Date.now();
 
   for (let step = 0; step < 10000; step++) {
@@ -206,6 +207,18 @@ async function scrapeOneSubject(targetSubject) {
         if (totalForTopic && haveForTopic >= totalForTopic) {
           console.error(`[${labelFor(targetSubject)}] full coverage reached`);
           break;
+        }
+        // Platform ceiling: if 2 sessions in a row yield 0 new questions,
+        // the account simply won't be served the rest of the pool no
+        // matter how many times we re-login. Stop wasting login cycles.
+        if (captured === 0) {
+          consecutiveZeroSessions++;
+          if (consecutiveZeroSessions >= 2) {
+            console.error(`[${labelFor(targetSubject)}] 2 zero-yield sessions — platform ceiling at ${haveForTopic}/${totalForTopic}, moving on`);
+            break;
+          }
+        } else {
+          consecutiveZeroSessions = 0;
         }
         if (sessionsUsed >= 12) {
           console.error(`[${labelFor(targetSubject)}] 12 sessions used — giving up (${haveForTopic}/${totalForTopic})`);
