@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-05-29T08:56:21.595Z",
+  "fetchedAt": "2026-05-29T08:56:53.976Z",
   "questions": {
     "Fluglehre_152": {
       "qid": 152,
@@ -3442,6 +3442,146 @@
         "Die TMA Emmen ist eine temporäre Zone, die TMA Alpnach eine permanente.",
         "Die TMA Emmen ist 24 Stunden aktiv, die TMA Alpnach wird mittels Notam/DABS aktiviert.",
         "Die TMA Emmen ist gemäss HX aktiv, die TMA Alpnach wird mittels Notam/DABS aktiviert."
+      ],
+      "correct": 3
+    },
+    "Gesetzgebung_36": {
+      "qid": 36,
+      "topic": "Gesetzgebung",
+      "pos": 43,
+      "total_in_topic": 180,
+      "text": "Sofern keine Waren, aber die erforderlichen Papiere mitgeführt werden, ist es mit einem Hängegleiter",
+      "options": [
+        "für Inhaber einer Wettkampflizenz gestattet, Landes- und Zollgrenzen zu überfliegen.",
+        "laut VLK gestattet, in den schweizerischen Luftraum einzufliegen oder diesen zu verlassen. Ausländisches Recht bleibt vorbehalten.",
+        "ohne Einschränkung gestattet, Landes- und Zollgrenzen zu überfliegen.",
+        "nach Anmeldung beim eidg. Zollamt in Bern gestattet, Landes- und Zollgrenzen zu überfliegen."
+      ],
+      "correct": 1
+    },
+    "Gesetzgebung_165": {
+      "qid": 165,
+      "topic": "Gesetzgebung",
+      "pos": 44,
+      "total_in_topic": 180,
+      "text": "Dieses Symbol auf der Segelflugkarte steht für",
+      "options": [
+        "Helikopterflugplatz",
+        "militärischer Flugplatz",
+        "ziviler Flugplatz",
+        "zivil- und militärischer Flugplatz"
+      ],
+      "correct": 3
+    },
+    "Gesetzgebung_66": {
+      "qid": 66,
+      "topic": "Gesetzgebung",
+      "pos": 45,
+      "total_in_topic": 180,
+      "text": "Hängegleiter fliegen",
+      "options": [
+        "ausschliesslich unter IFR-Bedingungen.",
+        "weder unter IFR noch unter VFR-Bedingungen, da beide dem berufsmässigen Luftverkehr vorbehalten sind.",
+        "ausschliesslich unter VFR-Bedingungen.",
+        "je nach Sichtverhältnissen unter IFR oder VFR-Bedingungen."
+      ],
+      "correct": 2
+    },
+    "Gesetzgebung_178": {
+      "qid": 178,
+      "topic": "Gesetzgebung",
+      "pos": 46,
+      "total_in_topic": 180,
+      "text": "Welche Regeln gelten für Hängegleiter ohne Transponder am mit x bezeichneten Ort auf 2219 m AMSL resp. 500m AGL an einem Sonntag um 14 Uhr im Februar?",
+      "options": [
+        "Maximalhöhe 3050 m AMSL, minimale Sichtweite 1,5 km, ausserhalb von Wolken mit Bodensicht",
+        "Maximalhöhe 3050 m AMSL, minimale Sichtweite 1,5 km, Wolkenabstände 1500 m horizontal / 300 m vertikal",
+        "Maximalhöhe 3950 m AMSL, minimale Sichtweite 5 km, Wolkenabstände 100 m horizontal / 50 m vertikal",
+        "Maximalhöhe 3050 m AMSL, minimale Sichtweite 8 km, Wolkenabstände 1500 m horizontal / 300 m vertikal"
+      ],
+      "correct": 1
+    },
+    "Gesetzgebung_57": {
+      "qid": 57,
+      "topic": "Gesetzgebung",
+      "pos": 47,
+      "total_in_topic": 180,
+      "text": "Die GLDK",
+      "options": [
+        "enthält allgemeingültige Informationen für Benützer des schweizerischen Luftraums.",
+        "ist eine wöchentliche Zusammenfassung aller für den Sichtflug-Verkehr publizierten Informationen.",
+        "ist eine topographische Karte mit Angaben über die Ausdehnung der verschiedenen Luftraumklassen, über Gefahren- und Flugbeschränkungsgebiete, Lufthindernisse, Segelflugzonen (LS-R for Gliders) und Militärflugdienstzeiten.",
+        "enthält aktuelle Angaben über die örtliche und zeitliche Begrenzung militärischer Schiessübungen und erscheint täglich."
+      ],
+      "correct": 2
+    },
+    "Gesetzgebung_168": {
+      "qid": 168,
+      "topic": "Gesetzgebung",
+      "pos": 48,
+      "total_in_topic": 180,
+      "text": "Bis auf welche Höhe darf in der LS-R24 an einem Montag um 14.00 Uhr im Februar gestiegen werden?",
+      "options": [
+        "bis auf 3950m über Meer STD",
+        "bis auf 4550m über Meer STD oder 600m über Grund (welches die grössere Höhe ergibt)",
+        "bis auf 600m über Grund",
+        "bis auf 3950m über Meer STD oder 600m über Grund (welches die grössere Höhe ergibt)"
+      ],
+      "correct": 3
+    },
+    "Gesetzgebung_78": {
+      "qid": 78,
+      "topic": "Gesetzgebung",
+      "pos": 49,
+      "total_in_topic": 180,
+      "text": "Eine CTR",
+      "options": [
+        "ist der ganze Luftraum über der Schweiz.",
+        "befindet sich in der Regel am Knotenpunkt von ATS-Strecken in der Nähe von einem oder mehreren grösseren Flugplätzen. Ober- und Untergrenze sind in der Segelflugkarte ersichtlich.",
+        "verbindet verschiedene Flughäfen miteinander, hat eine klar definierte Untergrenze und wird nach oben durch FL 195 begrenzt.",
+        "erstreckt sich rund um einen Flughafen. Sie reicht vom Boden bis auf eine in der Segelflugkarte angegebene Höhe über Meer."
+      ],
+      "correct": 3
+    },
+    "Gesetzgebung_30": {
+      "qid": 30,
+      "topic": "Gesetzgebung",
+      "pos": 50,
+      "total_in_topic": 180,
+      "text": "Der Inhalt der Prüfungen zum Erwerb von amtlichen Ausweisen",
+      "options": [
+        "wird allein durch den Schweizerischen Hängegleiter-Verband festgelegt.",
+        "wird durch die vom BAZL anerkannten Sachverständigen bestimmt.",
+        "ist festgelegt in den vom Bundesamt für Zivilluftfahrt genehmigten Weisungen des Schweizerischen Hängegleiter-Verbands.",
+        "wird durch die internationale Luftfahrtbehörde genehmigt."
+      ],
+      "correct": 2
+    },
+    "Gesetzgebung_125": {
+      "qid": 125,
+      "topic": "Gesetzgebung",
+      "pos": 51,
+      "total_in_topic": 180,
+      "text": "Der Luftraum wird von verschiedenen Kategorien von Luftfahrzeugen benützt, die entsprechend ihrer Möglichkeiten Priorität (Vortritt) geniessen. Welche Aussage ist richtig?",
+      "options": [
+        "Hängegleiter und schleppende Motorflugzeuge haben Vortritt vor Segelflugzeugen.",
+        "Segelflugzeuge und Hängegleiter haben Vortritt vor schleppenden Motorflugzeugen.",
+        "Schleppflugzeuge haben Vortritt vor Hängegleitern, Hängegleiter haben Vortritt vor Segelflugzeugen.",
+        "Segelflugzeuge und schleppende Motorflugzeuge haben Vortritt vor Hängegleitern."
+      ],
+      "correct": 1
+    },
+    "Gesetzgebung_15": {
+      "qid": 15,
+      "topic": "Gesetzgebung",
+      "pos": 52,
+      "total_in_topic": 180,
+      "text": "Gemäss Art. 11a der Verordnung über die Kennzeichen der Luftfahrzeuge (VKZ) vom 6. September 1984, SR 748.216.1 muss jeder Hängegleiter unter anderem wie folgt gekennzeichnet werden:",
+      "options": [
+        "sowohl auf der Unter- wie auf der Oberseite der tragenden Fläche mit einer gut erkennbaren Nummer, bestehend aus höchstens fünf Zahlen.",
+        "auf der Oberseite der tragenden Fläche mit einer gut erkennbaren Nummer, bestehend aus höchstens fünf Zahlen.",
+        "auf der Unter- oder auf der Oberseite der tragenden Fläche mit einer gut erkennbaren Nummer, bestehend aus höchstens fünf Zahlen.",
+        "auf der Unterseite der tragenden Fläche mit einer gut erkennbaren Nummer, bestehend aus höchstens fünf Zahlen."
       ],
       "correct": 3
     }
