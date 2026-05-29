@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-05-29T09:00:00.602Z",
+  "fetchedAt": "2026-05-29T09:00:33.236Z",
   "questions": {
     "Fluglehre_152": {
       "qid": 152,
@@ -4256,6 +4256,132 @@
         "Es besteht kein Unterschied, in beide LS-R darf nie eingeflogen werden."
       ],
       "correct": 2
+    },
+    "Gesetzgebung_170": {
+      "qid": 170,
+      "topic": "Gesetzgebung",
+      "pos": 115,
+      "total_in_topic": 180,
+      "text": "Welches ist die minimale Untergrenze einer TMA im Jura?",
+      "options": [
+        "600m AGL",
+        "300m AGL",
+        "die auf der Segelflugkarte angegebene Höhe",
+        "GND"
+      ],
+      "correct": 2
+    },
+    "Gesetzgebung_161": {
+      "qid": 161,
+      "topic": "Gesetzgebung",
+      "pos": 116,
+      "total_in_topic": 180,
+      "text": "Ab welcher Höhe darfst Du im Luftraum mit dieser Kennzeichnung nur mit Funkverbindung fliegen?",
+      "options": [
+        "oberhalb 3050m über Meer",
+        "oberhalb 1750m über Meer",
+        "oberhalb 200m über Grund",
+        "oberhalb 1600m über Meer"
+      ],
+      "correct": 1
+    },
+    "Gesetzgebung_176": {
+      "qid": 176,
+      "topic": "Gesetzgebung",
+      "pos": 118,
+      "total_in_topic": 180,
+      "text": "Welches sind die Unter- und Obergrenzen des Luftraums mit dieser Kennzeichnung?",
+      "options": [
+        "Untergrenze gemäss Notam/DABS, Obergrenze 3950m über Meer bei Standardatmosphäre",
+        "Untergrenze gemäss Notam/DABS, Obergrenze 3950m über Meer",
+        "Untergrenze am Boden, Obergrenze 3950m über Meer",
+        "Untergrenze auf Anfrage auf 119.625, Obergrenze 3950m über Meer"
+      ],
+      "correct": 0
+    },
+    "Gesetzgebung_60": {
+      "qid": 60,
+      "topic": "Gesetzgebung",
+      "pos": 119,
+      "total_in_topic": 180,
+      "text": "Die Abkürzung \"DABS\" steht für",
+      "options": [
+        "die Nachrichten für Luftfahrer.",
+        "das Luftfahrthandbuch der Schweiz.",
+        "die Segelflugkarte.",
+        "\"Daily Airspace Bulletin Switzerland\", eine offizielle Luftfahrtpublikationen der Schweiz mit graphischer Übersicht über die aktuellen Nachrichten für Luftfahrer."
+      ],
+      "correct": 3
+    },
+    "Gesetzgebung_96": {
+      "qid": 96,
+      "topic": "Gesetzgebung",
+      "pos": 121,
+      "total_in_topic": 180,
+      "text": "In der Luftraumklasse E gelten auf 3'800 m AMSL folgende Vorschriften bezüglich Sicht und Wolkenabstände: Sicht / Abstand horizontal / Abstand vertikal",
+      "options": [
+        "8,0 km / 1,5 km / 300 m",
+        "1,5 km und Bodensicht / 100 m / 50 m",
+        "5,0 km / 300 m / 50 m",
+        "5,0 km / 1,5 km / 300 m"
+      ],
+      "correct": 0
+    },
+    "Gesetzgebung_108": {
+      "qid": 108,
+      "topic": "Gesetzgebung",
+      "pos": 122,
+      "total_in_topic": 180,
+      "text": "Ein \"LS-R for Gliders\" ist ein begrenzter Luftraum, in welchem zu bestimmten Zeiten:",
+      "options": [
+        "für Segelflugzeuge und Hängegleiter reduzierte minimale Wolkenabstände gelten.",
+        "Hängegleiter nicht einfliegen dürfen.",
+        "für alle VFR-Flüge reduzierte Wolkenabstände gelten.",
+        "Segelflugzeuge mit entsprechender Ausrüstung und Zulassung in die Wolken einfliegen dürfen."
+      ],
+      "correct": 0
+    },
+    "Gesetzgebung_82": {
+      "qid": 82,
+      "topic": "Gesetzgebung",
+      "pos": 123,
+      "total_in_topic": 180,
+      "text": "Wie viele Luftraumklassen hat die ICAO definiert? 2",
+      "options": [
+        "7",
+        "2",
+        "9",
+        "4"
+      ],
+      "correct": 0
+    },
+    "Gesetzgebung_13": {
+      "qid": 13,
+      "topic": "Gesetzgebung",
+      "pos": 124,
+      "total_in_topic": 180,
+      "text": "Ist ein Schaden grösser als die Garantiesumme der abgeschlossenen Versicherung, so bezahlt",
+      "options": [
+        "die Versicherungsgesellschaft die Differenz.",
+        "der Schweizerischer Hängegleiter-Verband die Differenz.",
+        "der Geschädigte die Differenz.",
+        "der Schadenverursacher die Differenz."
+      ],
+      "correct": 3
+    },
+    "Gesetzgebung_100": {
+      "qid": 100,
+      "topic": "Gesetzgebung",
+      "pos": 125,
+      "total_in_topic": 180,
+      "text": "Welche Distanzen bezüglich Sicht und Wolkenabstand gelten grundsätzlich mittwochs um 14.30 Uhr in den Alpen auf 200 m AGL / 3'800 m AMSL? Sicht / Abstand horizontal / Abstand vertikal",
+      "options": [
+        "8,0 km / 1,5 km / 300 m",
+        "1,5 km / 1,5 km / 300 m",
+        "5,0 km / 1,5 km / 300 m",
+        "1,5 km und Bodensicht / ausserhalb / ausserhalb"
+      ],
+      "correct": 3
     }
   },
   "topics": {
