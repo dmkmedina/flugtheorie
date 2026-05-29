@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-05-29T08:51:07.426Z",
+  "fetchedAt": "2026-05-29T08:51:38.622Z",
   "questions": {
     "Fluglehre_152": {
       "qid": 152,
@@ -2324,6 +2324,132 @@
         "Mit mechanischer Turbulenz."
       ],
       "correct": 1
+    },
+    "Wetterkunde_16": {
+      "qid": 16,
+      "topic": "Wetterkunde",
+      "pos": 21,
+      "total_in_topic": 164,
+      "text": "Wie verändert sich die Temperatur eines Luftpakets, welches sich vom Boden ablöst und in die Höhe steigt ohne eine Wolke zu bilden?",
+      "options": [
+        "Die Temperatur nimmt pro 100 m ca. 0,5°C zu, da die Sonneneinstrahlung intensiver wird.",
+        "Die Temperatur nimmt pro 100 m ca. 1°C ab, da der Druck mit zunehmender Höhe nachlässt.",
+        "Darüber lässt sich keine allgemeine Aussage machen, da der Wert von der Wetterlage abhängt.",
+        "Die Temperatur nimmt pro 100 m ca. 0,65°C ab, da dies in der ganzen Troposphäre der Fall ist."
+      ],
+      "correct": 1
+    },
+    "Wetterkunde_8": {
+      "qid": 8,
+      "topic": "Wetterkunde",
+      "pos": 22,
+      "total_in_topic": 164,
+      "text": "Der Druck auf Meereshöhe",
+      "options": [
+        "kann in seltenen Fällen nach unten vom Mittelwert abweichen.",
+        "kann in seltenen Fällen nach oben vom Mittelwert abweichen.",
+        "ist immer konstant.",
+        "weicht je nach Wetterlage nach oben oder unten vom Mittelwert ab."
+      ],
+      "correct": 3
+    },
+    "Wetterkunde_32": {
+      "qid": 32,
+      "topic": "Wetterkunde",
+      "pos": 24,
+      "total_in_topic": 164,
+      "text": "Wetterkunde von 64 Welche der folgenden nachts um 02.00 Uhr mittels Radiosonde gemessenen Angaben lassen auf eine Isothermie schliessen? 421",
+      "options": [
+        "4",
+        "3",
+        "2",
+        "1"
+      ],
+      "correct": 0
+    },
+    "Wetterkunde_123": {
+      "qid": 123,
+      "topic": "Wetterkunde",
+      "pos": 25,
+      "total_in_topic": 164,
+      "text": "Über der Schweiz liegt schwüle Warmluft. Die Wetterprognosen melden die Zufuhr frischer Polarluft aus Nordwesten im Laufe des Tages. Was für Wetter ist für diesen Tag zu erwarten?",
+      "options": [
+        "Die herannahende Kaltluft wird die Atmosphäre stabilisieren und Thermikflüge für längere Zeit verunmöglichen.",
+        "Eine kontinuierliche Abkühlung der feuchten Warmluft und langsames Einsetzen von Niederschlägen.",
+        "Frontgewitter mit Hagelschlag und stürmischen, böigen Winden.",
+        "Sehr gutes Thermik- und Streckenflugwetter wegen der Kaltluft, die sich am Boden sehr schnell aufheizt."
+      ],
+      "correct": 2
+    },
+    "Wetterkunde_119": {
+      "qid": 119,
+      "topic": "Wetterkunde",
+      "pos": 27,
+      "total_in_topic": 164,
+      "text": "Was stellt die nachfolgende Skizze dar?",
+      "options": [
+        "Eine Okklusion mit Warmfrontcharakter",
+        "Eine Kaltfront",
+        "Eine Warmfront",
+        "Eine Okklusion mit Kaltfrontcharakter"
+      ],
+      "correct": 0
+    },
+    "Wetterkunde_50": {
+      "qid": 50,
+      "topic": "Wetterkunde",
+      "pos": 28,
+      "total_in_topic": 164,
+      "text": "Wie heissen kleine Haufenwolken mit einer Basishöhe von 4'500 m/Meer?",
+      "options": [
+        "Altocumulus",
+        "Cumulonimbus",
+        "Altostratus",
+        "Cirrocumulus"
+      ],
+      "correct": 0
+    },
+    "Wetterkunde_160": {
+      "qid": 160,
+      "topic": "Wetterkunde",
+      "pos": 29,
+      "total_in_topic": 164,
+      "text": "Welche Bewölkung ist in Lulea am wahrscheinlichsten?",
+      "options": [
+        "5/8 bis 7/8 Cirrostratus",
+        "8/8 Nimbostratus",
+        "5/8 bis 7/8 Cumulonimbus, im Osten vereinzelte Lenticularis",
+        "3/8 bis 5/8 Cumulus"
+      ],
+      "correct": 0
+    },
+    "Wetterkunde_31": {
+      "qid": 31,
+      "topic": "Wetterkunde",
+      "pos": 30,
+      "total_in_topic": 164,
+      "text": "Welche der folgenden nachts um 0.00 Uhr mittels Radiosonde gemessenen Angaben lassen auf eine Bodeninversion schliessen? 1432",
+      "options": [
+        "1",
+        "4",
+        "3",
+        "2"
+      ],
+      "correct": 0
+    },
+    "Wetterkunde_140": {
+      "qid": 140,
+      "topic": "Wetterkunde",
+      "pos": 31,
+      "total_in_topic": 164,
+      "text": "Der Begriff \"Umkehrthermik\" steht für",
+      "options": [
+        "die nach Einsetzen des Bergwinds in der Talmitte thermisch aufsteigenden Luftmassen.",
+        "die während des Tages über kalten Oberflächen wie Gletscher und Seen absinkenden Luftmassen.",
+        "die absteigenden Luftmassen neben thermisch aufsteigenden Luftmassen.",
+        "die temperaturbedingten Abwinde."
+      ],
+      "correct": 0
     }
   },
   "topics": {
