@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-05-29T08:36:38.176Z",
+  "fetchedAt": "2026-05-29T08:37:08.323Z",
   "questions": {
     "Fluglehre_152": {
       "qid": 152,
@@ -518,6 +518,132 @@
         "4"
       ],
       "correct": 0
+    },
+    "Fluglehre_30": {
+      "qid": 30,
+      "topic": "Fluglehre",
+      "pos": 41,
+      "total_in_topic": 152,
+      "text": "Auf einer Höhe von 2'200 m über Meer beträgt der Luftwiderstand eines von Luft umströmten Körpers",
+      "options": [
+        "ca. 72% des Luftwiderstandes auf Meereshöhe.",
+        "ca. 90% des Luftwiderstandes auf Meereshöhe.",
+        "ca. 81% des Luftwiderstandes auf Meereshöhe.",
+        "ca. 64% des Luftwiderstandes auf Meereshöhe."
+      ],
+      "correct": 2
+    },
+    "Fluglehre_22": {
+      "qid": 22,
+      "topic": "Fluglehre",
+      "pos": 42,
+      "total_in_topic": 152,
+      "text": "Wird ein Körper mit einer Stirnfläche von 0,75 m² auf Meereshöhe einem Luftstrom von 20 km/h ausgesetzt, erzeugt er einen Widerstand von 100 N (ca. 10 kp). Welchen Widerstand erzeugt derselbe Körper bei einem Luftstrom von 60 km/h?",
+      "options": [
+        "ca. 600 N",
+        "ca. 900 N",
+        "ca. 300 N",
+        "ca. 1'200 N"
+      ],
+      "correct": 1
+    },
+    "Fluglehre_135": {
+      "qid": 135,
+      "topic": "Fluglehre",
+      "pos": 43,
+      "total_in_topic": 152,
+      "text": "Welches ist die Gleitzahl des Hängegleiters mit untenstehender Geschwindigkeitspolare, wenn er mit der minimalen Fluggeschwindigkeit fliegt?",
+      "options": [
+        "5,3",
+        "3,7",
+        "2,0",
+        "4,6"
+      ],
+      "correct": 2
+    },
+    "Fluglehre_31": {
+      "qid": 31,
+      "topic": "Fluglehre",
+      "pos": 45,
+      "total_in_topic": 152,
+      "text": "Auf einer Höhe von 1'100 m über Meer beträgt der Luftwiderstand eines von Luft umströmten Körpers",
+      "options": [
+        "ca. 90% des Luftwiderstandes auf Meereshöhe.",
+        "ca. 81% des Luftwiderstandes auf Meereshöhe.",
+        "ca. 64% des Luftwiderstandes auf Meereshöhe.",
+        "ca. 72% des Luftwiderstandes auf Meereshöhe."
+      ],
+      "correct": 0
+    },
+    "Fluglehre_126": {
+      "qid": 126,
+      "topic": "Fluglehre",
+      "pos": 46,
+      "total_in_topic": 152,
+      "text": "Fluglehre von 12 Ein Hängegleiter hat mit 1'400 m Höhendifferenz bei ruhiger Luft die grösstmögliche Strecke von ,0 km zurückgelegt. Welches ist seine Gleitzahl? 5467",
+      "options": [
+        "5",
+        "4",
+        "6",
+        "7"
+      ],
+      "correct": 0
+    },
+    "Fluglehre_96": {
+      "qid": 96,
+      "topic": "Fluglehre",
+      "pos": 47,
+      "total_in_topic": 152,
+      "text": "Randwirbel entstehen während des Flugs, weil",
+      "options": [
+        "ein Druckunterschied zwischen Flügelober- und Flügelunterseite besteht.",
+        "Kabel und Leinen Wirbel erzeugen, die nach oben abgelenkt werden.",
+        "die Grenzschicht hinter dem Umschlagpunkt turbulent wird.",
+        "die Flügelenden der Hängegleiter schlecht verarbeitet sind."
+      ],
+      "correct": 0
+    },
+    "Fluglehre_25": {
+      "qid": 25,
+      "topic": "Fluglehre",
+      "pos": 48,
+      "total_in_topic": 152,
+      "text": "Halbiert sich die Luftdichte, so",
+      "options": [
+        "verdoppelt sich der Luftwiderstand eines von Luft umströmten Körpers.",
+        "halbiert sich der Luftwiderstand eines von Luft umströmten Körpers.",
+        "verändert sich der Luftwiderstand eines von Luft umströmten Körpers nicht.",
+        "vervierfacht sich der Luftwiderstand eines von Luft umströmten Körpers."
+      ],
+      "correct": 1
+    },
+    "Fluglehre_35": {
+      "qid": 35,
+      "topic": "Fluglehre",
+      "pos": 49,
+      "total_in_topic": 152,
+      "text": "Ein Körper mit dem CW-Wert 0,33 erzeugt im Vergleich zu einem Körper mit dem CW -Wert 1 unter sonst gleichen Bedingungen",
+      "options": [
+        "rund 30 % weniger Luftwiderstand.",
+        "rund 3 mal weniger Luftwiderstand.",
+        "rund 30 % mehr Luftwiderstand.",
+        "rund 3 mal mehr Luftwiderstand."
+      ],
+      "correct": 1
+    },
+    "Fluglehre_134": {
+      "qid": 134,
+      "topic": "Fluglehre",
+      "pos": 50,
+      "total_in_topic": 152,
+      "text": "Welches ist die minimale Fluggeschwindigkeit des Hängegleiters mit untenstehender Geschwindigkeitspolare?",
+      "options": [
+        "9,2 m/s (33 km/h)",
+        "5,6 m/s (20 km/h)",
+        "4,2 m/s (15 km/h)",
+        "7,2 m/s (26 km/h)"
+      ],
+      "correct": 1
     }
   },
   "topics": {
