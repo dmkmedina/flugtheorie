@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-05-29T09:26:47.488Z",
+  "fetchedAt": "2026-05-29T09:27:18.786Z",
   "questions": {
     "Fluglehre_152": {
       "qid": 152,
@@ -2230,16 +2230,16 @@
     "Wetterkunde_162": {
       "qid": 162,
       "topic": "Wetterkunde",
-      "pos": 12,
+      "pos": 78,
       "total_in_topic": 164,
       "text": "Welche Bewölkung ist in der Nordostschweiz am wahrscheinlichsten?",
       "options": [
-        "5/8 bis 7/8 Cumulonimbus, im Osten vereinzelte Lenticularis",
+        "5/8 bis 7/8 Cirrocumulus",
         "5/8 bis 7/8 Cirrostratus",
-        "8/8 Nimbostratus",
-        "5/8 bis 7/8 Cirrocumulus"
+        "5/8 bis 7/8 Cumulonimbus, im Osten vereinzelte Lenticularis",
+        "8/8 Nimbostratus"
       ],
-      "correct": 0
+      "correct": null
     },
     "Wetterkunde_21": {
       "qid": 21,
@@ -2272,16 +2272,16 @@
     "Wetterkunde_99": {
       "qid": 99,
       "topic": "Wetterkunde",
-      "pos": 16,
+      "pos": 80,
       "total_in_topic": 164,
       "text": "In einem Alpental weht im Sommerhalbjahr bei schönem Wetter um 14.00 Uhr in der Talsohle ein Talwind von 25 km/h. Mit welcher Art von Turbulenz muss in der Talmitte auf 20 m/Grund vor allem gerechnet werden?",
       "options": [
-        "Mit mechanischer Turbulenz.",
-        "Mit scherungsbedingter Turbulenz.",
         "Mit Gradientturbulenz.",
-        "Mit thermischer Turbulenz."
+        "Mit thermischer Turbulenz.",
+        "Mit scherungsbedingter Turbulenz.",
+        "Mit mechanischer Turbulenz."
       ],
-      "correct": 0
+      "correct": null
     },
     "Wetterkunde_85": {
       "qid": 85,
@@ -2468,16 +2468,16 @@
     "Wetterkunde_48": {
       "qid": 48,
       "topic": "Wetterkunde",
-      "pos": 33,
+      "pos": 88,
       "total_in_topic": 164,
       "text": "Die Quellwolkenbasis",
       "options": [
-        "ist die Wolkenuntergrenze und befindet sich auf der Höhe, bei der die Temperatur aufsteigender Luft mit der Temperatur der Umgebungsluft identisch ist.",
         "ist die Wolkenobergrenze und befindet sich auf der Höhe, bei der die Temperatur aufsteigender Luft deren Taupunkt erreicht.",
-        "ist die Wolkenuntergrenze und befindet sich auf der Höhe, bei der die Temperatur aufsteigender Luft deren Taupunkt erreicht.",
-        "ist die Wolkenobergrenze und befindet sich auf der Höhe, bei der die Temperatur aufsteigender Luft mit der Temperatur der Umgebungsluft identisch ist."
+        "ist die Wolkenuntergrenze und befindet sich auf der Höhe, bei der die Temperatur aufsteigender Luft mit der Temperatur der Umgebungsluft identisch ist.",
+        "ist die Wolkenobergrenze und befindet sich auf der Höhe, bei der die Temperatur aufsteigender Luft mit der Temperatur der Umgebungsluft identisch ist.",
+        "ist die Wolkenuntergrenze und befindet sich auf der Höhe, bei der die Temperatur aufsteigender Luft deren Taupunkt erreicht."
       ],
-      "correct": 2
+      "correct": null
     },
     "Wetterkunde_96": {
       "qid": 96,
@@ -8834,6 +8834,104 @@
         "Ein Lenticularis."
       ],
       "correct": 0
+    },
+    "Wetterkunde_18": {
+      "qid": 18,
+      "topic": "Wetterkunde",
+      "pos": 76,
+      "total_in_topic": 164,
+      "text": "Wie verändern sich Volumen und Temperatur eines absinkenden Luftpakets?",
+      "options": [
+        "Das Volumen nimmt ab, die Temperatur nimmt ab.",
+        "Das Volumen nimmt zu, die Temperatur nimmt zu.",
+        "Das Volumen nimmt ab, die Temperatur nimmt zu.",
+        "Das Volumen nimmt zu, die Temperatur nimmt ab."
+      ],
+      "correct": 2
+    },
+    "Wetterkunde_134": {
+      "qid": 134,
+      "topic": "Wetterkunde",
+      "pos": 79,
+      "total_in_topic": 164,
+      "text": "In welchem der folgenden Monate sind in den Voralpen die thermisch bedingten Aufwinde am stärksten ausgeprägt?",
+      "options": [
+        "August",
+        "Mai",
+        "Januar",
+        "Oktober"
+      ],
+      "correct": 1
+    },
+    "Wetterkunde_158": {
+      "qid": 158,
+      "topic": "Wetterkunde",
+      "pos": 81,
+      "total_in_topic": 164,
+      "text": "Welche der folgenden Städte spüren bereits die Einflüsse der kommenden Warmfront?",
+      "options": [
+        "Paris und London",
+        "Zürich und Stockholm",
+        "Lulea und St.Petersburg",
+        "Lissabon und Athen"
+      ],
+      "correct": 2
+    },
+    "Wetterkunde_118": {
+      "qid": 118,
+      "topic": "Wetterkunde",
+      "pos": 82,
+      "total_in_topic": 164,
+      "text": "Was stellt die nachfolgende Skizze dar?",
+      "options": [
+        "Eine Kaltfront",
+        "Eine Warmfront",
+        "Eine Okklusion mit Kaltfront-charakter",
+        "Eine Okklusion mit Warmfront-charakter"
+      ],
+      "correct": 0
+    },
+    "Wetterkunde_26": {
+      "qid": 26,
+      "topic": "Wetterkunde",
+      "pos": 85,
+      "total_in_topic": 164,
+      "text": "Der vertikale Temperaturgradient bezeichnet",
+      "options": [
+        "die Temperaturdifferenz pro 100 m Höhendifferenz.",
+        "die Masseinheit der Temperaturmessung, wie dies der Ausdruck sagt Grad(ient).",
+        "den Druckunterschied pro km zwischen zwei verschiedenen geographischen Punkten.",
+        "die Höhendifferenz pro °C einer Luftmasse."
+      ],
+      "correct": 0
+    },
+    "Wetterkunde_108": {
+      "qid": 108,
+      "topic": "Wetterkunde",
+      "pos": 86,
+      "total_in_topic": 164,
+      "text": "Welche Aussage ist richtig?",
+      "options": [
+        "Im Winter bewegt sich die Klatfront schneller, im Sommer die Warmfront.",
+        "Die Kaltfront bewegt sich schneller vorwärts als die Warmfront.",
+        "Warm- und Kaltfront bewegen sich etwa gleich schnell vorwärts.",
+        "Die Warmfront bewegt sich schneller vorwärts als die Kaltfront."
+      ],
+      "correct": 1
+    },
+    "Wetterkunde_111": {
+      "qid": 111,
+      "topic": "Wetterkunde",
+      "pos": 89,
+      "total_in_topic": 164,
+      "text": "Welche Anzeichen deuten auf der Alpennordseite auf Südföhn hin?",
+      "options": [
+        "Der Himmel ist bedeckt mit 5/8 Cumulus, zum Teil böig auffrischender Wind, harte Thermik mit grossem Sinken daneben.",
+        "Die Berge am südlichen Horizont sind mit Wolken verhangen, im blauen Teil des Himmels Cumulus und Lenticularis, in Bodennähe Wind aus wechselnden Richtungen, auffrischender Südwestwind am Startplatz.",
+        "Blauer Himmel, Windstille, wenig Turbulenz, gleichmässiger Aufwind am Start, grossflächig gutes, ruhiges Steigen in der Luft, am Horizont Cumulus congestus und Culmulonimbus.",
+        "Schlechte Sicht, tiefe Wolkenbasis, Regen, gleichmässiger Wind."
+      ],
+      "correct": 1
     }
   },
   "topics": {
