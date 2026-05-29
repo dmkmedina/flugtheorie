@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-05-29T08:40:14.933Z",
+  "fetchedAt": "2026-05-29T08:40:45.065Z",
   "questions": {
     "Fluglehre_152": {
       "qid": 152,
@@ -1342,6 +1342,118 @@
         "7,0.",
         "6,5.",
         "5,5."
+      ],
+      "correct": 0
+    },
+    "Fluglehre_4": {
+      "qid": 4,
+      "topic": "Fluglehre",
+      "pos": 114,
+      "total_in_topic": 152,
+      "text": "Die Kräfte F1 und F5 wirken auf einen Körper. Sie haben denselben Angriffspunkt. Welches ist die Resultierende R der beiden Kräfte?",
+      "options": [
+        "R2",
+        "R3",
+        "R4",
+        "R1"
+      ],
+      "correct": 3
+    },
+    "Fluglehre_1": {
+      "qid": 1,
+      "topic": "Fluglehre",
+      "pos": 115,
+      "total_in_topic": 152,
+      "text": "Die Kräfte F1 und F2 wirken auf einen Körper. Sie haben denselben Angriffspunkt. Welches ist die Resultierende R der beiden Kräfte?",
+      "options": [
+        "R2",
+        "R1",
+        "R4",
+        "R3"
+      ],
+      "correct": 3
+    },
+    "Fluglehre_89": {
+      "qid": 89,
+      "topic": "Fluglehre",
+      "pos": 117,
+      "total_in_topic": 152,
+      "text": "Wie gross ist die Flächenbelastung eines Geräts mit folgenden technischen Daten bei minimaler Zuladung? Spannweite: 10m min.Zuladung: 65kg Gewicht: 35kg Fläche: 12.5m² max.Zuladung: 90kg",
+      "options": [
+        "8 kg/m²",
+        "12 kg/m²",
+        "6 kg/m²",
+        "10 kg/m²"
+      ],
+      "correct": 0
+    },
+    "Fluglehre_113": {
+      "qid": 113,
+      "topic": "Fluglehre",
+      "pos": 118,
+      "total_in_topic": 152,
+      "text": "An einem Hängegleiter heisst eine Bewegung um die Hochachse",
+      "options": [
+        "gieren.",
+        "pendeln.",
+        "nicken.",
+        "rollen."
+      ],
+      "correct": 0
+    },
+    "Fluglehre_40": {
+      "qid": 40,
+      "topic": "Fluglehre",
+      "pos": 119,
+      "total_in_topic": 152,
+      "text": "Die abgebildeten vier Körper haben CW -Werte von ca. 0,08, ca. 0,17, ca. 1 und ca. 1,. Welcher Körper hat einen CW -Wert von 1,3? 123",
+      "options": [
+        "4",
+        "1",
+        "2",
+        "3"
+      ],
+      "correct": 2
+    },
+    "Fluglehre_80": {
+      "qid": 80,
+      "topic": "Fluglehre",
+      "pos": 120,
+      "total_in_topic": 152,
+      "text": "Ein Flügel hat eine Streckung von 5. Welche der folgenden Aussagen über diesen Flügel ist richtig?",
+      "options": [
+        "Die Spannweite des Flügels ist 5 mal grösser als seine Fläche.",
+        "Die Spannweite des Flügels ist 5 mal grösser als seine durchschnittliche (mittlere) Flügeltiefe.",
+        "Die durchschnittliche (mittlere) Flügeltiefe des Flügels ist 5 mal grösser als seine Spannweite.",
+        "Die Fläche des Flügels ist 5 mal grösser als seine Spannweite."
+      ],
+      "correct": 1
+    },
+    "Fluglehre_37": {
+      "qid": 37,
+      "topic": "Fluglehre",
+      "pos": 121,
+      "total_in_topic": 152,
+      "text": "Die abgebildeten vier Körper haben CW -Werte von ca. 0,08, ca. 0,17, ca. 1 und ca. 1,. Welcher Körper hat einen CW -Wert von 0,08? 132",
+      "options": [
+        "1",
+        "3",
+        "4",
+        "2"
+      ],
+      "correct": 1
+    },
+    "Fluglehre_136": {
+      "qid": 136,
+      "topic": "Fluglehre",
+      "pos": 123,
+      "total_in_topic": 152,
+      "text": "Welches ist die Gleitzahl des Hängegleiters mit untenstehender Geschwindigkeitspolare, wenn er mit Maximalfluggeschwindigkeit fliegt?",
+      "options": [
+        "3,7",
+        "5,3",
+        "4,6",
+        "2,0"
       ],
       "correct": 0
     }
