@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-05-29T08:41:17.697Z",
+  "fetchedAt": "2026-05-29T08:41:49.597Z",
   "questions": {
     "Fluglehre_152": {
       "qid": 152,
@@ -1582,6 +1582,132 @@
         "querstabil."
       ],
       "correct": 2
+    },
+    "Fluglehre_53": {
+      "qid": 53,
+      "topic": "Fluglehre",
+      "pos": 134,
+      "total_in_topic": 152,
+      "text": "Fluglehre von 15 Welches der folgenden Profile wird mit einem Anstellwinkel von etwa 0° angeströmt? 2143",
+      "options": [
+        "2",
+        "1",
+        "4",
+        "3"
+      ],
+      "correct": 2
+    },
+    "Fluglehre_21": {
+      "qid": 21,
+      "topic": "Fluglehre",
+      "pos": 135,
+      "total_in_topic": 152,
+      "text": "Wird ein Körper mit einer Stirnfläche von 2 m² auf Meereshöhe einem Luftstrom von 80 km/h ausgesetzt, erzeugt er einen Widerstand von 1'200 N (ca. 120 kp). Welchen Widerstand erzeugt derselbe Körper bei einem Luftstrom von 40 km/h?",
+      "options": [
+        "ca. 600 N",
+        "ca. 1'200 N",
+        "ca. 900 N",
+        "ca. 300 N"
+      ],
+      "correct": 3
+    },
+    "Fluglehre_93": {
+      "qid": 93,
+      "topic": "Fluglehre",
+      "pos": 136,
+      "total_in_topic": 152,
+      "text": "Welcher der folgenden Hängegleiter hat die kleinste Flügelstreckung?",
+      "options": [
+        "Fläche: 24 m², Spannweite: 12 m",
+        "Fläche: 20 m², Spannweite: 10 m",
+        "Fläche: 25 m², Spannweite: 10 m",
+        "Fläche: 32 m², Spannweite: 8 m"
+      ],
+      "correct": 3
+    },
+    "Fluglehre_97": {
+      "qid": 97,
+      "topic": "Fluglehre",
+      "pos": 137,
+      "total_in_topic": 152,
+      "text": "Wo sind in der Umgebung eines fliegenden Hängegleiters Wirbel anzutreffen?",
+      "options": [
+        "In der Flügelmitte vor der Eintrittskante.",
+        "Bis eine Spannweite über dem Druckpunkt.",
+        "An den Flügelenden vor der Eintrittskante.",
+        "Hinter der Austrittskante."
+      ],
+      "correct": 3
+    },
+    "Fluglehre_43": {
+      "qid": 43,
+      "topic": "Fluglehre",
+      "pos": 139,
+      "total_in_topic": 152,
+      "text": "Mit welcher Ziffer ist in der folgenden Skizze eines Profils die Profildicke gekennzeichnet? 312",
+      "options": [
+        "3",
+        "1",
+        "2",
+        "4"
+      ],
+      "correct": 0
+    },
+    "Fluglehre_14": {
+      "qid": 14,
+      "topic": "Fluglehre",
+      "pos": 140,
+      "total_in_topic": 152,
+      "text": "Wovon hängt der Luftwiderstand eines Körpers massgeblich ab?",
+      "options": [
+        "Von der Strömungsgeschwindigkeit.",
+        "Von der Materialbeschaffenheit des Körpers.",
+        "Von der relativen Luftfeuchte.",
+        "Vom Gewicht des Körpers."
+      ],
+      "correct": 0
+    },
+    "Fluglehre_114": {
+      "qid": 114,
+      "topic": "Fluglehre",
+      "pos": 141,
+      "total_in_topic": 152,
+      "text": "Ein Hängegleiter, der im Geradeausflug ohne aktives Zutun des Piloten seine Geschwindigkeit ständig erhöht, hat",
+      "options": [
+        "labile Flugeigenschaften.",
+        "indifferente Flugeigenschaften.",
+        "inverse Flugeigenschaften.",
+        "stabile Flugeigenschaften."
+      ],
+      "correct": 0
+    },
+    "Fluglehre_125": {
+      "qid": 125,
+      "topic": "Fluglehre",
+      "pos": 142,
+      "total_in_topic": 152,
+      "text": "Ein Hängegleiter mit der Gleitzahl 12 fliegt 2'400 m über Grund. Welches ist die weiteste Distanz, die er mit dieser Gleitzahl bei ruhiger Luft zurücklegten kann?",
+      "options": [
+        "28,8 km",
+        "12,0 km",
+        "24,0 km",
+        "23,0 km"
+      ],
+      "correct": 0
+    },
+    "Fluglehre_92": {
+      "qid": 92,
+      "topic": "Fluglehre",
+      "pos": 144,
+      "total_in_topic": 152,
+      "text": "Welcher der folgenden Hängegleiter hat die grösste Flügelstreckung?",
+      "options": [
+        "Fläche: 24 m², Spannweite: 12 m",
+        "Fläche: 20 m², Spannweite: 10 m",
+        "Fläche: 32 m², Spannweite: 8 m",
+        "Fläche: 25 m², Spannweite: 10 m"
+      ],
+      "correct": 0
     }
   },
   "topics": {
