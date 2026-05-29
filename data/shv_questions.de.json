@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-05-29T08:39:10.667Z",
+  "fetchedAt": "2026-05-29T08:39:42.567Z",
   "questions": {
     "Fluglehre_152": {
       "qid": 152,
@@ -1078,6 +1078,132 @@
         "7,2 m/s (26 km/h)"
       ],
       "correct": 3
+    },
+    "Fluglehre_49": {
+      "qid": 49,
+      "topic": "Fluglehre",
+      "pos": 92,
+      "total_in_topic": 152,
+      "text": "Der Begriff \"Anstellwinkel\" steht für den Winkel zwischen",
+      "options": [
+        "der Horizontalen und der Anströmrichtung.",
+        "Flügelober- und Flügelunterseite an der Austrittskante.",
+        "der Profilsehne und der Anströmrichtung.",
+        "der Profilsehne und der Horizontalen."
+      ],
+      "correct": 2
+    },
+    "Fluglehre_102": {
+      "qid": 102,
+      "topic": "Fluglehre",
+      "pos": 93,
+      "total_in_topic": 152,
+      "text": "Während des stabilen Gleitflugs eines Hängegleiters hat die resultierende Luftkraft denselben Wert wie",
+      "options": [
+        "Auftrieb, Widerstand und Gesamtgewichtskraft.",
+        "der Auftrieb.",
+        "der Widerstand.",
+        "die Gesamtgewichtskraft."
+      ],
+      "correct": 3
+    },
+    "Fluglehre_140": {
+      "qid": 140,
+      "topic": "Fluglehre",
+      "pos": 94,
+      "total_in_topic": 152,
+      "text": "Um bei Gegenwind die bestmögliche Gleitleistung gegenüber Grund zu erreichen, fliegt ein Hängegleiterpilot",
+      "options": [
+        "mit der Geschwindigkeit des besten Gleitens in ruhiger Luft.",
+        "schneller als die Geschwindigkeit des besten Gleitens bei ruhiger Luft.",
+        "mit der Geschwindigkeit des geringsten Sinkens.",
+        "mit der Durchschnittsgeschwindigkeit des besten Gleitens und des geringsten Sinkens."
+      ],
+      "correct": 1
+    },
+    "Fluglehre_100": {
+      "qid": 100,
+      "topic": "Fluglehre",
+      "pos": 96,
+      "total_in_topic": 152,
+      "text": "Die projizierte Fläche",
+      "options": [
+        "ist kleiner oder gleich als die effektive Fläche.",
+        "ist grösser als die effektive Fläche.",
+        "ist bei Deltas grösser, bei Gleitschirmen kleiner als die effektive Fläche.",
+        "ist bei Deltas kleiner, bei Gleitschirmen grösser als die effektive Fläche."
+      ],
+      "correct": 0
+    },
+    "Fluglehre_9": {
+      "qid": 9,
+      "topic": "Fluglehre",
+      "pos": 97,
+      "total_in_topic": 152,
+      "text": "Wird ein Körper so verkleinert, dass sich die dem Luftstrom ausgesetzte Stirnfläche halbiert, so",
+      "options": [
+        "halbiert sich dessen Luftwiderstand.",
+        "vervierfacht sich dessen Luftwiderstand.",
+        "verändert sich dessen Luftwiderstand nicht.",
+        "verdoppelt sich dessen Luftwiderstand."
+      ],
+      "correct": 0
+    },
+    "Fluglehre_5": {
+      "qid": 5,
+      "topic": "Fluglehre",
+      "pos": 98,
+      "total_in_topic": 152,
+      "text": "Die Kräfte F4 und F5 wirken auf einen Körper. Sie haben denselben Angriffspunkt. Welches ist die Resultierende R der beiden Kräfte?",
+      "options": [
+        "R4",
+        "R3",
+        "R1",
+        "R2"
+      ],
+      "correct": 0
+    },
+    "Fluglehre_145": {
+      "qid": 145,
+      "topic": "Fluglehre",
+      "pos": 100,
+      "total_in_topic": 152,
+      "text": "Ein Hängegleiter mit der Gleitzahl 10 fliegt in ruhiger Luft mit einer Vorwärtsgeschwindigkeit von 43 km/h (ca. 12 m/s). Seine Sinkgeschwindigkeit beträgt",
+      "options": [
+        "ca. 1,2 m/s.",
+        "ca. 1,0 m/s.",
+        "ca. 1,8 m/s.",
+        "ca. 1,5 m/s."
+      ],
+      "correct": 0
+    },
+    "Fluglehre_55": {
+      "qid": 55,
+      "topic": "Fluglehre",
+      "pos": 101,
+      "total_in_topic": 152,
+      "text": "Welche Aussage über die Auftriebsverteilung auf die Flügeltiefe ist richtig, wenn der Flügel mit gewölbtem Profil mit einem positiven Anstellwinkel von 10° mit Luft angeströmt wird?",
+      "options": [
+        "2/3 des Auftriebs entstehen im vordersten Drittel des Flügels.",
+        "1/2 des Auftriebs entsteht im vordersten Drittel des Flügels.",
+        "2/3 des Auftriebs entstehen im mittleren Drittel des Flügels.",
+        "1/3 des Auftriebs entsteht im vordersten Drittel des Flügels."
+      ],
+      "correct": 0
+    },
+    "Fluglehre_38": {
+      "qid": 38,
+      "topic": "Fluglehre",
+      "pos": 102,
+      "total_in_topic": 152,
+      "text": "Die abgebildeten vier Körper haben CW -Werte von ca. 0,08, ca. 0,17, ca. 1 und ca. 1,. Welcher Körper hat einen CW -Wert von 0,17? 321",
+      "options": [
+        "3",
+        "4",
+        "2",
+        "1"
+      ],
+      "correct": 1
     }
   },
   "topics": {
