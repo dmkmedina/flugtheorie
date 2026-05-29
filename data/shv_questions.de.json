@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-05-29T08:54:44.684Z",
+  "fetchedAt": "2026-05-29T08:55:17.331Z",
   "questions": {
     "Fluglehre_152": {
       "qid": 152,
@@ -3080,6 +3080,118 @@
         "drei Anwendung."
       ],
       "correct": 1
+    },
+    "Gesetzgebung_42": {
+      "qid": 42,
+      "topic": "Gesetzgebung",
+      "pos": 11,
+      "total_in_topic": 180,
+      "text": "Bis in welche Höhe muss der minimale Abstand zu Flugplätzen und Helikopterplätzen gemäss VLK eingehalten werden?",
+      "options": [
+        "300m über dem Flugplatzbezugspunkt",
+        "600m über Grund",
+        "300m über Grund",
+        "600m über dem Flugplatzbezugspunkt"
+      ],
+      "correct": 3
+    },
+    "Gesetzgebung_93": {
+      "qid": 93,
+      "topic": "Gesetzgebung",
+      "pos": 13,
+      "total_in_topic": 180,
+      "text": "Die Obergrenze des Luftraums der Klasse E über den Alpen ausserhalb der militärischen Flugdienstzeiten beträgt im Normalfall bei Standardatmopshäre",
+      "options": [
+        "4‘550m AMSL.",
+        "3‘050 m AMSL.",
+        "3‘950 m AMSL.",
+        "1‘000m AGL."
+      ],
+      "correct": 0
+    },
+    "Gesetzgebung_101": {
+      "qid": 101,
+      "topic": "Gesetzgebung",
+      "pos": 15,
+      "total_in_topic": 180,
+      "text": "Welche Publikation gibt Auskunft über den genauen Verlauf der Trennlinie zwischen den beiden Gebieten Jura/Mittelland und Alpen?",
+      "options": [
+        "Die GLDK",
+        "Das NOTAM",
+        "Das DABS",
+        "Jeder Swissglider"
+      ],
+      "correct": 0
+    },
+    "Gesetzgebung_11": {
+      "qid": 11,
+      "topic": "Gesetzgebung",
+      "pos": 16,
+      "total_in_topic": 180,
+      "text": "Hängegleiter dürfen nur benützt werden, wenn eine Haftpflichtversicherung Schäden deckt,",
+      "options": [
+        "die andern Luftfahrzeugen in der Luft zugefügt werden.",
+        "die Unbeteiligten auf der Erde zugefügt werden.",
+        "die Benutzer während des Hängegleitens erleiden.",
+        "die Unbeteiligten in der Luft und auf der Erde zugefügt werden."
+      ],
+      "correct": 1
+    },
+    "Gesetzgebung_144": {
+      "qid": 144,
+      "topic": "Gesetzgebung",
+      "pos": 17,
+      "total_in_topic": 180,
+      "text": "Kann man mit dem Schweizer Brevet überall im Ausland fliegen?",
+      "options": [
+        "Nein.",
+        "Hängt vom jeweiligen Land ab. Die lokalen Gesetze und Bestimmungen müssen eingehalten werden.",
+        "Ja.",
+        "Nur für gelegentliches Fliegen."
+      ],
+      "correct": 1
+    },
+    "Gesetzgebung_172": {
+      "qid": 172,
+      "topic": "Gesetzgebung",
+      "pos": 19,
+      "total_in_topic": 180,
+      "text": "Bei einem QNH von 1005 hPa darf im Jura bis auf welche Höhe gestiegen werden?",
+      "options": [
+        "etwas weniger als bis auf 3050m.ü.M.",
+        "etwas höher als bis auf 3050m.üM.",
+        "genau auf 3050m.ü.M.",
+        "genau auf 3950m.ü.M."
+      ],
+      "correct": 0
+    },
+    "Gesetzgebung_133": {
+      "qid": 133,
+      "topic": "Gesetzgebung",
+      "pos": 20,
+      "total_in_topic": 180,
+      "text": "Das gegenseitige Überholen zwischen Hängegleitern ist",
+      "options": [
+        "im freien Luftraum gestattet, am Hang verboten.",
+        "grundsätzlich überall gestattet.",
+        "grundsätzlich verboten.",
+        "im freien Luftraum verboten, am Hang gestattet."
+      ],
+      "correct": 0
+    },
+    "Gesetzgebung_171": {
+      "qid": 171,
+      "topic": "Gesetzgebung",
+      "pos": 21,
+      "total_in_topic": 180,
+      "text": "Bei einem QNH von 1035 hPa darf im Jura bis auf welche Höhe gestiegen werden?",
+      "options": [
+        "etwas weniger als bis auf 3050m.ü.M.",
+        "genau auf 3050m.ü.M",
+        "genau auf 3950m.ü.M.",
+        "etwas höher als bis auf 3050m.üM."
+      ],
+      "correct": 3
     }
   },
   "topics": {
