@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-05-29T08:47:13.101Z",
+  "fetchedAt": "2026-05-29T08:47:43.933Z",
   "questions": {
     "Fluglehre_152": {
       "qid": 152,
@@ -284,16 +284,16 @@
     "Fluglehre_61": {
       "qid": 61,
       "topic": "Fluglehre",
-      "pos": 23,
+      "pos": 100,
       "total_in_topic": 152,
       "text": "Das Verhältnis zwischen Auftrieb und Widerstand eines Flügels ist vor allem abhängig",
       "options": [
-        "von der Flügelfläche.",
-        "vom Anstellwinkel.",
         "von der Luftdichte.",
-        "von der Strömungsgeschwindigkeit."
+        "von der Flügelfläche.",
+        "von der Strömungsgeschwindigkeit.",
+        "vom Anstellwinkel."
       ],
-      "correct": 1
+      "correct": null
     },
     "Fluglehre_106": {
       "qid": 106,
@@ -760,16 +760,16 @@
     "Fluglehre_94": {
       "qid": 94,
       "topic": "Fluglehre",
-      "pos": 63,
+      "pos": 108,
       "total_in_topic": 152,
       "text": "Welcher der folgenden Hängegleiter hat die grösste Flügelstreckung?",
       "options": [
+        "Fläche: 12 m², Spannweite: 12 m",
         "Fläche: 16 m², Spannweite: 12 m",
-        "Fläche: 20 m², Spannweite: 10 m",
         "Fläche: 12,5 m², Spannweite: 10 m",
-        "Fläche: 12 m², Spannweite: 12 m"
+        "Fläche: 20 m², Spannweite: 10 m"
       ],
-      "correct": 3
+      "correct": null
     },
     "Fluglehre_124": {
       "qid": 124,
@@ -1974,6 +1974,62 @@
         "halbiert sich der Luftwiderstand eines von Luft umströmten Körpers."
       ],
       "correct": 1
+    },
+    "Fluglehre_128": {
+      "qid": 128,
+      "topic": "Fluglehre",
+      "pos": 93,
+      "total_in_topic": 152,
+      "text": "Wird der Gleitwinkel grösser, so wird die Gleitzahl",
+      "options": [
+        "kleiner.",
+        "zuerst grösser, dann kleiner.",
+        "grösser.",
+        "nicht verändert."
+      ],
+      "correct": 0
+    },
+    "Fluglehre_103": {
+      "qid": 103,
+      "topic": "Fluglehre",
+      "pos": 101,
+      "total_in_topic": 152,
+      "text": "Die Luftkraftresultierende in den beiden stabilen Gleitflugzuständen Trimmflug und voll beschleunigtem Flug",
+      "options": [
+        "ist kleiner im Trimmflug.",
+        "bleibt gleich.",
+        "ist grösser im Trimmflug.",
+        "bleibt nur gleich bei identischer Gleitzahl."
+      ],
+      "correct": 1
+    },
+    "Fluglehre_36": {
+      "qid": 36,
+      "topic": "Fluglehre",
+      "pos": 109,
+      "total_in_topic": 152,
+      "text": "Ein Körper mit dem CW -Wert 0,05 erzeugt im Vergleich zu einem Körper mit dem CW -Wert 1 unter sonst gleichen Bedingungen",
+      "options": [
+        "rund 5 mal mehr Luftwiderstand.",
+        "rund 20 mal weniger Luftwiderstand.",
+        "rund 2 mal mehr Luftwiderstand.",
+        "rund 50 mal weniger Luftwiderstand."
+      ],
+      "correct": 1
+    },
+    "Fluglehre_88": {
+      "qid": 88,
+      "topic": "Fluglehre",
+      "pos": 111,
+      "total_in_topic": 152,
+      "text": "Wie gross ist die Flächenbelastung eines Geräts mit folgenden technischen Daten bei maximaler Zuladung? Spannweite: 10m min.Zuladung: 65kg Gewicht: 35kg Fläche: 12.5m² max.Zuladung: 90kg",
+      "options": [
+        "10 kg/m²",
+        "8 kg/m²",
+        "12 kg/m²",
+        "6 kg/m²"
+      ],
+      "correct": 0
     }
   },
   "topics": {
