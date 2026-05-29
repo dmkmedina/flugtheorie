@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-05-29T08:57:24.842Z",
+  "fetchedAt": "2026-05-29T08:57:55.006Z",
   "questions": {
     "Fluglehre_152": {
       "qid": 152,
@@ -3696,6 +3696,118 @@
         "Seh- und Hörfähigkeit alle 4 Jahre."
       ],
       "correct": 0
+    },
+    "Gesetzgebung_114": {
+      "qid": 114,
+      "topic": "Gesetzgebung",
+      "pos": 64,
+      "total_in_topic": 180,
+      "text": "Wo kann ein Prüfungsteilnehmer rekurrieren, wenn er der Meinung ist, dass der Prüfungsentscheid des Sachverständigen nicht weisungskonform zustande gekommen ist?",
+      "options": [
+        "Beim Bundesverwaltungsgericht.",
+        "Beim Fluglehrer.",
+        "Beim Prüfungssachverständigen.",
+        "Bei der Rekurskommission des SHV."
+      ],
+      "correct": 0
+    },
+    "Gesetzgebung_24": {
+      "qid": 24,
+      "topic": "Gesetzgebung",
+      "pos": 65,
+      "total_in_topic": 180,
+      "text": "Ausbildungsflüge dürfen nur unter der unmittelbaren Aufsicht von Personen ausgeführt werden,",
+      "options": [
+        "die seit mindestens drei Jahren Träger des amtlichen Hängegleiterpilotenausweises sind.",
+        "die bei einer Flugschule angestellt sind.",
+        "die über einen gültigen Fluglehrerausweis verfügen.",
+        "die von einem Träger des amtlichen Fluglehrerausweises mit der Aufsicht betraut sind."
+      ],
+      "correct": 2
+    },
+    "Gesetzgebung_169": {
+      "qid": 169,
+      "topic": "Gesetzgebung",
+      "pos": 67,
+      "total_in_topic": 180,
+      "text": "Welches ist die minimale Untergrenze einer TMA im Alpenraum?",
+      "options": [
+        "300m AGL",
+        "600m AGL",
+        "die auf der Segelflugkarte angegebene Höhe",
+        "GND"
+      ],
+      "correct": 0
+    },
+    "Gesetzgebung_157": {
+      "qid": 157,
+      "topic": "Gesetzgebung",
+      "pos": 68,
+      "total_in_topic": 180,
+      "text": "Welche Regeln gelten für Hängegleiter am mit x bezeichneten Ort auf 150 m AGL (~1850 m AMSL) an einem Freitag um 14 Uhr im September, wobei gemäss Telefonanfrage TMA LSMM 1 HX = aktiv.",
+      "options": [
+        "Maximalhöhe 300 m AGL, minimale Sichtweite 5 km, Wolkenabstände 1500 m horizontal / 300 m vertikal",
+        "Fliegen verboten",
+        "Maximalhöhe 3950 m AMSL, minimale Sichtweite 5 km, Wolkenabstände 1500 m horizontal / 300 m vertikal",
+        "Maximalhöhe 300 m AGL, minimale Sichtweite 1.5 km, ausserhalb von Wolken, Bodensicht"
+      ],
+      "correct": 3
+    },
+    "Gesetzgebung_110": {
+      "qid": 110,
+      "topic": "Gesetzgebung",
+      "pos": 69,
+      "total_in_topic": 180,
+      "text": "In welchen Kategorien kann eine Hängegleiterpilotenprüfung absolviert werden?",
+      "options": [
+        "Kategorie motorisierte Hängegleiter und Kategorie nicht motorisierte Hängegleiter.",
+        "Kategorie Gleitschirm, Kategorie Delta und Kategorie Starrflügler.",
+        "Kategorie Standardgeräte und Kategorie Hochleistungsgeräte.",
+        "Kategorie Sinker und Kategorie Gleiter."
+      ],
+      "correct": 1
+    },
+    "Gesetzgebung_85": {
+      "qid": 85,
+      "topic": "Gesetzgebung",
+      "pos": 70,
+      "total_in_topic": 180,
+      "text": "Welche der in der Schweiz gebräuchlichen Luftraumklassen können durch Hängegleiter ohne vorheriges Einholen einer Bewilligung benützt werden?",
+      "options": [
+        "F und G",
+        "C und E",
+        "D und E",
+        "E und G"
+      ],
+      "correct": 3
+    },
+    "Gesetzgebung_10": {
+      "qid": 10,
+      "topic": "Gesetzgebung",
+      "pos": 71,
+      "total_in_topic": 180,
+      "text": "Welche Art von Versicherung ist während Hängegleiterflügen gesetzlich vorgeschrieben?",
+      "options": [
+        "Unfallversicherung",
+        "Diebstahlversicherung",
+        "Hängegleiterhaftpflichtversicherung",
+        "Privathaftpflichtversicherung"
+      ],
+      "correct": 2
+    },
+    "Gesetzgebung_43": {
+      "qid": 43,
+      "topic": "Gesetzgebung",
+      "pos": 72,
+      "total_in_topic": 180,
+      "text": "Unter welchen Bedingungen ist es gesetzlich erlaubt, mit einem Hängegleiter auf einer Piste für Flächenflugzeuge zu landen?",
+      "options": [
+        "Nie.",
+        "Mit der Einwilligung des Flugplatzchefs.",
+        "Wenn bei einem Streckenflug dringend Landezeugen benötigt werden.",
+        "Wenn sich kein Flugzeug im Anflug befindet und die Piste frei ist."
+      ],
+      "correct": 1
     }
   },
   "topics": {
