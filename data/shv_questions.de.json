@@ -1,0 +1,134 @@
+{
+  "fetchedAt": "2026-05-29T08:35:03.336Z",
+  "questions": {
+    "Fluglehre_152": {
+      "qid": 152,
+      "topic": "Fluglehre",
+      "pos": 152,
+      "total_in_topic": 152,
+      "text": "Beim kontinuierlichen Übergang vom stabilen Geradeausflug in den Kurvenflug",
+      "options": [
+        "verändern sich Flächenbelastung und minimale Fluggeschwindigkeit nicht.",
+        "nehmen Flächenbelastung und minimale Fluggeschwindigkeit zu.",
+        "verändert sich die Flächenbelastung nicht, während die minimale Fluggeschwindigkeit zunimmt.",
+        "nimmt die Flächenbelastung zu, während sich die minimale Fluggeschwindigkeit nicht verändert."
+      ],
+      "correct": null
+    },
+    "Fluglehre_147": {
+      "qid": 147,
+      "topic": "Fluglehre",
+      "pos": 1,
+      "total_in_topic": 152,
+      "text": "Ein Hängegleiter fliegt mit der Gleitzahl 9 in ruhiger Luft mit einem Sinken von 1 m/s. Welches ist seine Vorwärtsgeschwindigkeit?",
+      "options": [
+        "43,2 km/h (12 m/s)",
+        "36,0 km/h (10 m/s)",
+        "39,6 km/h (11 m/s)",
+        "32,4 km/h (9 m/s)"
+      ],
+      "correct": 3
+    },
+    "Fluglehre_86": {
+      "qid": 86,
+      "topic": "Fluglehre",
+      "pos": 3,
+      "total_in_topic": 152,
+      "text": "Welches ist der Wert der Flügelstreckung eines Geräts mit folgenden technischen Daten? Spannweite: m min.Zuladung: 0kg Gewicht: 30kg Fläche: 12.5m² max.Zuladung: 0kg 8106",
+      "options": [
+        "8",
+        "10",
+        "4",
+        "6"
+      ],
+      "correct": 0
+    },
+    "Fluglehre_120": {
+      "qid": 120,
+      "topic": "Fluglehre",
+      "pos": 4,
+      "total_in_topic": 152,
+      "text": "Die Gleitzahl eines Hängegleiters gibt Auskunft über das Verhältnis zwischen",
+      "options": [
+        "Auftrieb und Widerstand.",
+        "Auftrieb und Gesamtgewicht.",
+        "Schub und Widerstand.",
+        "Schub und Gesamtgewicht."
+      ],
+      "correct": 0
+    },
+    "Fluglehre_48": {
+      "qid": 48,
+      "topic": "Fluglehre",
+      "pos": 5,
+      "total_in_topic": 152,
+      "text": "Die Tragflächen langsam fliegender Flugzeuge wie Hängegleiter haben meistens",
+      "options": [
+        "dünne, symmetrische Profile.",
+        "relativ dicke, asymmetrische Profile.",
+        "relativ dicke, symmetrische Profile.",
+        "dünne, asymmetrische Profile."
+      ],
+      "correct": 1
+    },
+    "Fluglehre_6": {
+      "qid": 6,
+      "topic": "Fluglehre",
+      "pos": 6,
+      "total_in_topic": 152,
+      "text": "Wovon hängt der Luftwiderstand eines Körpers massgeblich ab?",
+      "options": [
+        "Von der Materialbeschaffenheit des Körpers.",
+        "Vom Gewicht des Körpers.",
+        "Von der Grösse des Körpers.",
+        "Von der Masse des Körpers."
+      ],
+      "correct": 2
+    },
+    "Fluglehre_76": {
+      "qid": 76,
+      "topic": "Fluglehre",
+      "pos": 8,
+      "total_in_topic": 152,
+      "text": "Der Begriff \"Flügelstreckung\" bezeichnet das Verhältnis zwischen",
+      "options": [
+        "der Spannweite und der durchschnittlichen (mittleren) Flügeltiefe.",
+        "der grössten und der kleinsten Flügeltiefe.",
+        "der Profildicke und der durchschnittlichen (mittleren) Flügeltiefe.",
+        "der Spannweite im Quadrat und der durchschnittlichen (mittleren) Flügeltiefe im Quadrat."
+      ],
+      "correct": 0
+    },
+    "Fluglehre_72": {
+      "qid": 72,
+      "topic": "Fluglehre",
+      "pos": 9,
+      "total_in_topic": 152,
+      "text": "Der Begriff \"Spannweite\" bezeichnet",
+      "options": [
+        "das Verhältnis zwischen Fluggewicht und gesamter Flügelfläche.",
+        "den durchschnittlichen Abstand zwischen Eintritts- und Austrittskante.",
+        "den Abstand zwischen dem linken und dem rechten Flügelende.",
+        "die Anstellwinkelunterschiede verschiedener Flügelabschnitte."
+      ],
+      "correct": 2
+    },
+    "Fluglehre_2": {
+      "qid": 2,
+      "topic": "Fluglehre",
+      "pos": 10,
+      "total_in_topic": 152,
+      "text": "Die Kräfte F1 und F3 wirken auf einen Körper. Sie haben denselben Angriffspunkt. Welches ist die Resultierende R der beiden Kräfte?",
+      "options": [
+        "R2",
+        "R1",
+        "R4",
+        "R3"
+      ],
+      "correct": 2
+    }
+  },
+  "topics": {
+    "Fluglehre": 152
+  }
+}
