@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-05-29T09:28:20.352Z",
+  "fetchedAt": "2026-05-29T09:29:51.216Z",
   "questions": {
     "Fluglehre_152": {
       "qid": 152,
@@ -2384,16 +2384,16 @@
     "Wetterkunde_119": {
       "qid": 119,
       "topic": "Wetterkunde",
-      "pos": 27,
+      "pos": 119,
       "total_in_topic": 164,
       "text": "Was stellt die nachfolgende Skizze dar?",
       "options": [
         "Eine Okklusion mit Warmfrontcharakter",
         "Eine Kaltfront",
-        "Eine Warmfront",
-        "Eine Okklusion mit Kaltfrontcharakter"
+        "Eine Okklusion mit Kaltfrontcharakter",
+        "Eine Warmfront"
       ],
-      "correct": 0
+      "correct": null
     },
     "Wetterkunde_50": {
       "qid": 50,
@@ -2804,7 +2804,7 @@
     "Wetterkunde_59": {
       "qid": 59,
       "topic": "Wetterkunde",
-      "pos": 63,
+      "pos": 38,
       "total_in_topic": 164,
       "text": "Wolken vom Typ Lenticularis",
       "options": [
@@ -2813,7 +2813,7 @@
         "ändern ihre Position trotz hoher Windgeschwindigkeit kaum.",
         "treten in der Schweiz nur bei Südföhn auf."
       ],
-      "correct": 2
+      "correct": null
     },
     "Wetterkunde_130": {
       "qid": 130,
@@ -2860,16 +2860,16 @@
     "Wetterkunde_76": {
       "qid": 76,
       "topic": "Wetterkunde",
-      "pos": 68,
+      "pos": 21,
       "total_in_topic": 164,
       "text": "Ein Wind aus Richtung 135° ist",
       "options": [
-        "ein Südostwind.",
         "ein Südwestwind.",
-        "ein Nordostwind.",
-        "ein Nordwestwind."
+        "ein Nordwestwind.",
+        "ein Südostwind.",
+        "ein Nordostwind."
       ],
-      "correct": 0
+      "correct": null
     },
     "Wetterkunde_139": {
       "qid": 139,
@@ -9076,16 +9076,16 @@
     "Wetterkunde_155": {
       "qid": 155,
       "topic": "Wetterkunde",
-      "pos": 108,
+      "pos": 19,
       "total_in_topic": 164,
       "text": "Wie ist die Windrichtung in Lissabon?",
       "options": [
-        "250°",
         "190°",
         "320°",
+        "250°",
         "100°"
       ],
-      "correct": 2
+      "correct": null
     },
     "Wetterkunde_1": {
       "qid": 1,
@@ -9128,6 +9128,118 @@
         "drehen sich die Luftmassen im Gegenuhrzeigersinn um dessen Zentrum und sinken grossräumig ab."
       ],
       "correct": 0
+    },
+    "Wetterkunde_149": {
+      "qid": 149,
+      "topic": "Wetterkunde",
+      "pos": 120,
+      "total_in_topic": 164,
+      "text": "Wo ist die Windgeschwindigkeit am höchsten?",
+      "options": [
+        "in Island",
+        "in der Schweiz",
+        "in Nordafrika",
+        "in Südskandinavien"
+      ],
+      "correct": 3
+    },
+    "Wetterkunde_81": {
+      "qid": 81,
+      "topic": "Wetterkunde",
+      "pos": 121,
+      "total_in_topic": 164,
+      "text": "Auf welcher Höhe ist aufgrund nachstehender Windangaben des Segelflugwetterberichts mit einer im Flug deutlich spürbaren Windscherung zu rechnen? 1'000 m: 070°/15 kt, 2'000 m: 080°/10 kt, 3000 m: 230°/10 kt, 4'000 m 240°/10 kt",
+      "options": [
+        "zwischen 1'000 und 2'000 m",
+        "zwischen 2'000 und 3'000 m",
+        "zwischen 3'000 und 4'000 m",
+        "in allen Bereichen"
+      ],
+      "correct": 1
+    },
+    "Wetterkunde_115": {
+      "qid": 115,
+      "topic": "Wetterkunde",
+      "pos": 122,
+      "total_in_topic": 164,
+      "text": "Rückseitenwetter ist das Wetter",
+      "options": [
+        "zwischen Warm- und Kaltfront.",
+        "nach dem Durchgang einer Kaltfront.",
+        "nach dem Durchgang einer Niederschlagszone.",
+        "auf der windabgewandten Seite der Alpen bei Nord- und Südföhn."
+      ],
+      "correct": 1
+    },
+    "Wetterkunde_138": {
+      "qid": 138,
+      "topic": "Wetterkunde",
+      "pos": 12,
+      "total_in_topic": 164,
+      "text": "Der Begriff \"Blauthermik\" steht für",
+      "options": [
+        "thermisch aufsteigende Luftmassen, deren Feuchtigkeitsgehalt so gering ist, dass sich keine Cumuluswolke zu bilden vermag.",
+        "die während der Nacht über stehenden Gewässern thermisch aufsteigenden Luftmassen.",
+        "thermisch aufsteigende Luftmassen, die durch Zufuhr kontinentaler Kaltluft angehoben werden.",
+        "thermisch aufsteigende Luftmassen, deren Feuchtigkeitsgehalt so gross ist, dass sich Wolken bilden, die Niederschläge verursachen."
+      ],
+      "correct": 0
+    },
+    "Wetterkunde_125": {
+      "qid": 125,
+      "topic": "Wetterkunde",
+      "pos": 20,
+      "total_in_topic": 164,
+      "text": "Zu welcher Tageszeit sind die Voraussetzungen zur Entstehung von Frontgewittern am günstigsten?",
+      "options": [
+        "20.00 Uhr",
+        "10.00 Uhr",
+        "15.00 Uhr",
+        "Die Tageszeit hat keinen Einfluss auf die Entstehung von Frontgewittern."
+      ],
+      "correct": 3
+    },
+    "Wetterkunde_11": {
+      "qid": 11,
+      "topic": "Wetterkunde",
+      "pos": 22,
+      "total_in_topic": 164,
+      "text": "Ein Kind lässt auf Meereshöhe einen Luftballon mit einem Volumen von ca. steigen. Welches Volumen hätte der Luftballon, wenn er eine Höhe von 5'500 m/Meer erreichen würde? 5 dm³",
+      "options": [
+        "2,5 dm³",
+        "10 dm³",
+        "20 dm³",
+        "5 dm³"
+      ],
+      "correct": 1
+    },
+    "Wetterkunde_124": {
+      "qid": 124,
+      "topic": "Wetterkunde",
+      "pos": 37,
+      "total_in_topic": 164,
+      "text": "Zu welcher Tageszeit sind die Voraussetzungen zur Entstehung thermischer Gewitter am günstigsten?",
+      "options": [
+        "am späten Nachmittag",
+        "Die Tageszeit hat keinen Einfluss auf die Entstehung thermischer Gewitter.",
+        "kurz nach Mittag",
+        "vormittags"
+      ],
+      "correct": 0
+    },
+    "Wetterkunde_82": {
+      "qid": 82,
+      "topic": "Wetterkunde",
+      "pos": 39,
+      "total_in_topic": 164,
+      "text": "Vergleicht man im Flachland den Bodenwind mit demjenigen 300 m/ Grund, so ist der Bodenwind in der Regel",
+      "options": [
+        "schwächer und weniger turbulent.",
+        "stärker und weniger turbulent.",
+        "schwächer und turbulenter.",
+        "stärker und turbulenter."
+      ],
+      "correct": 2
     }
   },
   "topics": {
