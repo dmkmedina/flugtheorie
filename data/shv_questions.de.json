@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-05-29T09:13:43.970Z",
+  "fetchedAt": "2026-05-29T09:14:16.603Z",
   "questions": {
     "Fluglehre_152": {
       "qid": 152,
@@ -6608,6 +6608,132 @@
         "Der Landeplatz muss durch das Gelände, Bäume oder Gebäude möglichst windgeschützt sein."
       ],
       "correct": 0
+    },
+    "Flugpraxis_25": {
+      "qid": 25,
+      "topic": "Flugpraxis",
+      "pos": 11,
+      "total_in_topic": 169,
+      "text": "Bei einem Start aus einer Waldschneise oder Waldlichtung muss unter Umständen damit gerechnet werden, dass",
+      "options": [
+        "beim Überfliegen der ersten Bäume aufgrund des Temperaturunterschieds zwischen Lichtung und Wald starke thermische Abwinde auftreten können.",
+        "sich neben dem besonnten Wald auf der kühlen Lichtung knapp über Boden thermische Abwinde das Wegfliegen erschweren.",
+        "aufgrund des grossen Temperaturunterschieds zwischen Wald und Wiese besonders häufig thermische Ablösungen und entsprechende Turbulenzen auftreten.",
+        "am Boden Windstille herrscht, obwohl auf Wipfelhöhe der Wind weht, was auf Wipfelhöhe entsprechend starke Turbulenz zur Folge hat."
+      ],
+      "correct": 3
+    },
+    "Flugpraxis_46": {
+      "qid": 46,
+      "topic": "Flugpraxis",
+      "pos": 12,
+      "total_in_topic": 169,
+      "text": "Der Startplatz liegt auf 1'600 m über Meer, die Talsohle auf 400 m über Meer. Der Hersteller eines Gleitschirms gibt eine Gleitzahl von 9 an. Welches ist die weiteste Strecke, welche bei Windstille mit diesem Gerät geflogen werden kann?",
+      "options": [
+        "9 km",
+        "14,4 km",
+        "10,8 km",
+        "6 km"
+      ],
+      "correct": 2
+    },
+    "Flugpraxis_91": {
+      "qid": 91,
+      "topic": "Flugpraxis",
+      "pos": 14,
+      "total_in_topic": 169,
+      "text": "Der Begriff \"Wingover\" steht für",
+      "options": [
+        "schnelle Kurvenwechsel, wobei das Gerät zeitweise über 90° Querneigung aufweist.",
+        "ein schnelles Drehen des Geräts um die Hochachse, wobei die eine Flügelhälfte vorwärts, die andere rückwärts dreht.",
+        "sehr enges Kreisen, wobei das Lastenvielfache durch die auftretende Fliehkraft markant zunimmt.",
+        "das Verdrehen der Traggurten und Leinen, hervorgerufen durch schnelles Drehen der Kalotte um die Hochachse, wobei der Pilotwegen der Massenträgheit der Bewegung nicht zu folgen vermag."
+      ],
+      "correct": 0
+    },
+    "Flugpraxis_89": {
+      "qid": 89,
+      "topic": "Flugpraxis",
+      "pos": 15,
+      "total_in_topic": 169,
+      "text": "Der Begriff \"Twist\" steht für",
+      "options": [
+        "das Verdrehen der Traggurten und Leinen, hervorgerufen durch schnelles Drehen der Kalotte um die Hochachse, wobei der Pilot wegen der Massenträgheit der Bewegung nicht zu folgen vermag.",
+        "schnelle Kurvenwechsel, wobei das Gerät zeitweise über 90° Querneigung aufweist.",
+        "ein schnelles Drehen des Geräts um die Hochachse, wobei die eine Flügelhälfte vorwärts, die andere rückwärts dreht.",
+        "sehr enges Kreisen, wobei das Lastenvielfache durch die auftretende Fliehkraft markant zunimmt."
+      ],
+      "correct": 0
+    },
+    "Flugpraxis_152": {
+      "qid": 152,
+      "topic": "Flugpraxis",
+      "pos": 16,
+      "total_in_topic": 169,
+      "text": "Der Steinadler wird durch Hängegleiterpiloten am meisten gestört, wenn sie",
+      "options": [
+        "im Frühling vor dem Horstfelsen durchfliegen und ihn so von den Eiern wegjagen.",
+        "im Frühling an südexponierten Felsen soaren.",
+        "in sein Territorium eindringen und ihn zum Abfliegen und Markieren der Grenzen zwingen.",
+        "im Sommer oberhalb der Waldgrenze fliegen und ihm seine wichtigste Beute, die Murmeltiere, vertreiben."
+      ],
+      "correct": 0
+    },
+    "Flugpraxis_53": {
+      "qid": 53,
+      "topic": "Flugpraxis",
+      "pos": 17,
+      "total_in_topic": 169,
+      "text": "Ein Gleitschirmpilot befindet sich auf dem Flug zum Landeplatz, der genau südlich seiner Position liegt. Er bemerkt, dass ein mässiger Westwind von 0 km/h weht und orientiert das Gerät immer genau Richtung Landeplatz. Welches ist der Flugweg? 21",
+      "options": [
+        "3",
+        "2",
+        "1",
+        "4"
+      ],
+      "correct": 3
+    },
+    "Flugpraxis_1": {
+      "qid": 1,
+      "topic": "Flugpraxis",
+      "pos": 18,
+      "total_in_topic": 169,
+      "text": "Mit welchen Auswirkungen ist beim Fliegen zu rechnen, wenn am Vorabend in grösseren Mengen Alkohol und Nikotin oder andere bewusstseinsverändernde Stoffe zu sich genommen werden?",
+      "options": [
+        "Luftkrankheit (Kinetose).",
+        "Unfähigkeit, Thermik auszufliegen.",
+        "Erhöhter Harndrang.",
+        "Verminderte Leistungsfähigkeit und längere Reaktionszeit."
+      ],
+      "correct": 3
+    },
+    "Flugpraxis_51": {
+      "qid": 51,
+      "topic": "Flugpraxis",
+      "pos": 19,
+      "total_in_topic": 169,
+      "text": "Ein Gleitschirmpilot fliegt in einem grossräumigen Aufwindschlauch, in dem die Luft mit 3 m/s steigt. Wie soll er sich verhalten, um möglichst viel Höhe zu gewinnen?",
+      "options": [
+        "Er soll das Gerät im Trimmspeed fliegen.",
+        "Er soll so schnell wie möglich fliegen, eventuell vorhandene Trimmer öffnen sowie den Beschleuniger betätigen, soweit es Gerät und Turbulenzen erlauben.",
+        "Er soll das Gerät ca. 20 - 30 % angebremst fliegen.",
+        "Er soll das Gerät ca. 50% angebremst fliegen."
+      ],
+      "correct": 2
+    },
+    "Flugpraxis_15": {
+      "qid": 15,
+      "topic": "Flugpraxis",
+      "pos": 20,
+      "total_in_topic": 169,
+      "text": "Ein Pilot plant einen Flug vom Alpenraum bis weit ins Flachland. Welche der folgenden Veröffentlichungen macht Angaben über den Verlauf der Trennlinie Alpen / Mittelland, und der dadurch veränderten Maximalflughöhe ?",
+      "options": [
+        "Das VFR-Manual.",
+        "Das DABS.",
+        "Die Segelflugkarte.",
+        "Das Notam."
+      ],
+      "correct": 2
     }
   },
   "topics": {
