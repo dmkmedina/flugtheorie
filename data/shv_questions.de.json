@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-05-29T09:07:05.968Z",
+  "fetchedAt": "2026-05-29T09:07:37.568Z",
   "questions": {
     "Fluglehre_152": {
       "qid": 152,
@@ -5486,6 +5486,132 @@
         "Er muss das Gerät ersetzen, da das Material zu stark ermüdet ist.",
         "Er muss die A- und B-Leinen etwas verkürzen.",
         "Er muss das Gerät beim Hersteller oder dessen Vertreter überprüfen und neu trimmen lassen."
+      ],
+      "correct": 3
+    },
+    "Materialkunde_53": {
+      "qid": 53,
+      "topic": "Materialkunde",
+      "pos": 40,
+      "total_in_topic": 125,
+      "text": "Wie kann sich das Verhalten eines Geräts verändern, wenn sich die A-Leinen verkürzen oder verkürzt werden?",
+      "options": [
+        "Das Gerät lässt sich schwerer aufziehen, fliegt wegen des grösseren Anstellwinkels langsamer, die Tendenz zu Frontklappern nimmt ab, die Neigung zum Sackflug nimmt zu.",
+        "Das Gerät lässt sich leichter aufziehen, fliegt wegen des kleineren Anstellwinkels langsamer, die Tendenz zu Frontklappern und zum Sackflug nimmt zu.",
+        "Das Gerät lässt sich leichter aufziehen, fliegt wegen des kleineren Anstellwinkels schneller, die Tendenz zu Frontklappern nimmt zu, die Neigung zum Sackflug nimmt ab.",
+        "Das Gerät lässt sich schwerer aufziehen, braucht wegen des tieferen Schwerpunkts grössere aber weniger kraftvolle Steuerausschläge, setzt beim Landen die Geschwindigkeit besser in Höhe um."
+      ],
+      "correct": 2
+    },
+    "Materialkunde_56": {
+      "qid": 56,
+      "topic": "Materialkunde",
+      "pos": 41,
+      "total_in_topic": 125,
+      "text": "Ein Gleitschirm mit 7 m langen Leinen hat gegenüber einem Gleitschirm mit 5 m langen Leinen",
+      "options": [
+        "einen höheren Schwerpunkt und grössere Pendelausschläge bei schnellen Kurvenwechseln.",
+        "einen tieferen Schwerpunkt und kleinere Pendelausschläge bei schnellen Kurvenwechseln.",
+        "einen höheren Schwerpunkt und kleinere Pendelausschläge bei schnellen Kurvenwechseln.",
+        "einen tieferen Schwerpunkt und grössere Pendelausschläge bei schnellen Kurvenwechseln."
+      ],
+      "correct": 3
+    },
+    "Materialkunde_47": {
+      "qid": 47,
+      "topic": "Materialkunde",
+      "pos": 42,
+      "total_in_topic": 125,
+      "text": "Welches sind die Folgen einer Verkürzung der A-Leinen?",
+      "options": [
+        "Der Anstellwinkel bleibt identisch, das Profil und das Flugverhalten werden verändert.",
+        "Der Anstellwinkel wird grösser, das Profil bleibt identisch, das Flugverhalten wird verändert.",
+        "Der Anstellwinkel wird grösser, das Profil und das Flugverhalten werden verändert.",
+        "Der Anstellwinkel wird verkleinert, das Profil und das Flugverhalten werden verändert."
+      ],
+      "correct": 3
+    },
+    "Materialkunde_122": {
+      "qid": 122,
+      "topic": "Materialkunde",
+      "pos": 43,
+      "total_in_topic": 125,
+      "text": "Das Fliegen mit einem gemäss EN-Normen als typengeprüft anerkannten Gerät ist in der Schweiz",
+      "options": [
+        "für beim SHV Haftpflichtversicherte obligatorisch, ansonsten dringend empfohlen.",
+        "während Prüfungen gemäss Weisungen des BAZL obligatorisch, ansonsten dringend empfohlen.",
+        "für SHV-Mitglieder obligatorisch, ansonsten dringend empfohlen.",
+        "von Gesetzes wegen obligatorisch."
+      ],
+      "correct": 1
+    },
+    "Materialkunde_104": {
+      "qid": 104,
+      "topic": "Materialkunde",
+      "pos": 44,
+      "total_in_topic": 125,
+      "text": "Welches Kriterium ist beim Rettungsschirmkauf das wichtigste?",
+      "options": [
+        "Möglichst kleines Packvolumen.",
+        "Konstruktion des Innencontainers.",
+        "Möglichst geringes Rettungsschirmgewicht.",
+        "Genug grosse Fläche."
+      ],
+      "correct": 3
+    },
+    "Materialkunde_116": {
+      "qid": 116,
+      "topic": "Materialkunde",
+      "pos": 46,
+      "total_in_topic": 125,
+      "text": "Das Altimeter erhält seine Information durch das Messen",
+      "options": [
+        "des atmosphärischen Drucks.",
+        "der vertikalen Geschwindigkeit.",
+        "der Höhe über Grund.",
+        "des relativen Winds."
+      ],
+      "correct": 0
+    },
+    "Materialkunde_8": {
+      "qid": 8,
+      "topic": "Materialkunde",
+      "pos": 47,
+      "total_in_topic": 125,
+      "text": "Durch das Beschichten der bei der Gleitschirmkonstruktion verwendeten Tücher wird",
+      "options": [
+        "deren Porosität vergrössert.",
+        "deren mechanische Belastbarkeit verringert.",
+        "deren Elastizität vergrössert.",
+        "deren UV-Empfindlichkeit vermindert."
+      ],
+      "correct": 3
+    },
+    "Materialkunde_100": {
+      "qid": 100,
+      "topic": "Materialkunde",
+      "pos": 48,
+      "total_in_topic": 125,
+      "text": "Welche der folgenden Einflüsse können die Lebensdauer eines Rettungsgeräts vermindern?",
+      "options": [
+        "UV-Strahlung und Kälte",
+        "Häufiges Packen und Feuchtigkeit",
+        "Feuchtigkeit und UV-Strahlung",
+        "Kälte und häufiges Packen"
+      ],
+      "correct": 2
+    },
+    "Materialkunde_92": {
+      "qid": 92,
+      "topic": "Materialkunde",
+      "pos": 49,
+      "total_in_topic": 125,
+      "text": "Wichtigster Grundsatz bei der Platzierung eines Rettungssystems am Gurtzeug ist:",
+      "options": [
+        "Der Container muss in jedem Fall auf der Seite der Wurfhand befestigt werden.",
+        "Der Container muss an einem tragenden Teil, beispielsweise einer Gurte befestigt werden.",
+        "Der Container muss möglichst solid mit dem Gurtzeug verbunden sein.",
+        "Der Auslösegriff muss für den Piloten gut sichtbar und leicht erreichbar sein."
       ],
       "correct": 3
     }
