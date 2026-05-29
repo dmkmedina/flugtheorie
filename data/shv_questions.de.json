@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-05-29T09:29:51.216Z",
+  "fetchedAt": "2026-05-29T09:30:26.480Z",
   "questions": {
     "Fluglehre_152": {
       "qid": 152,
@@ -2734,13 +2734,13 @@
     "Wetterkunde_114": {
       "qid": 114,
       "topic": "Wetterkunde",
-      "pos": 70,
+      "pos": 53,
       "total_in_topic": 164,
       "text": "Welche Voraussetzung begünstigt das Entstehen einer Föhnlage in den Alpentälern?",
       "options": [
         "Ein grosses Druckgefälle zwischen Alpennord- und Alpensüdseite.",
-        "Ein geringes Druckgefälle zwischen Alpennord- und Alpensüdseite.",
         "Ein ausgeprägtes Tief mit Zentrum über dem Alpenraum.",
+        "Ein geringes Druckgefälle zwischen Alpennord- und Alpensüdseite.",
         "Ein ausgeprägtes Hoch mit Zentrum über dem Alpenraum."
       ],
       "correct": null
@@ -8740,16 +8740,16 @@
     "Wetterkunde_64": {
       "qid": 64,
       "topic": "Wetterkunde",
-      "pos": 58,
+      "pos": 69,
       "total_in_topic": 164,
       "text": "Ein hoher Luftdruck kann über einem Gebiet entstehen,",
       "options": [
+        "welches über längere Zeit trockener ist als seine Umgebung.",
         "welches über längere Zeit wärmer ist als seine Umgebung.",
         "welches über längere Zeit von der Sonne intensiver beschienen wird als seine Umgebung.",
-        "welches über längere Zeit kälter ist als seine Umgebung.",
-        "welches über längere Zeit trockener ist als seine Umgebung."
+        "welches über längere Zeit kälter ist als seine Umgebung."
       ],
-      "correct": 2
+      "correct": null
     },
     "Wetterkunde_47": {
       "qid": 47,
@@ -8964,16 +8964,16 @@
     "Wetterkunde_43": {
       "qid": 43,
       "topic": "Wetterkunde",
-      "pos": 94,
+      "pos": 59,
       "total_in_topic": 164,
       "text": "Welche Wolkenform tritt als Folge guter thermischer Aufwinde in Erscheinung?",
       "options": [
-        "Stratus",
-        "Lenticularis",
         "Cirrus",
-        "Cumulus"
+        "Cumulus",
+        "Lenticularis",
+        "Stratus"
       ],
-      "correct": 3
+      "correct": null
     },
     "Wetterkunde_110": {
       "qid": 110,
@@ -8992,16 +8992,16 @@
     "Wetterkunde_45": {
       "qid": 45,
       "topic": "Wetterkunde",
-      "pos": 98,
+      "pos": 57,
       "total_in_topic": 164,
       "text": "Sonniges Wetter in den höheren Lagen bei gleichzeitigem Nebel in den tieferen Lagen ist ein Anzeichen für",
       "options": [
-        "eine gering Stabilität der Schichtung im unteren Bereich der Troposphäre.",
-        "das Zentrum eines Tiefdruckgebietes.",
         "eine herannahende Kaltfront.",
-        "eine grosse Stabilität der Schichtung im unteren Bereich der Troposphäre."
+        "eine grosse Stabilität der Schichtung im unteren Bereich der Troposphäre.",
+        "eine gering Stabilität der Schichtung im unteren Bereich der Troposphäre.",
+        "das Zentrum eines Tiefdruckgebietes."
       ],
-      "correct": 3
+      "correct": null
     },
     "Wetterkunde_2": {
       "qid": 2,
@@ -9240,6 +9240,62 @@
         "stärker und turbulenter."
       ],
       "correct": 2
+    },
+    "Wetterkunde_100": {
+      "qid": 100,
+      "topic": "Wetterkunde",
+      "pos": 54,
+      "total_in_topic": 164,
+      "text": "Mit welcher Art von Turbulenz muss in Alpentälern mit einem ausgeprägten Talwindsystem im Sommerhalbjahr bei schönem Wetter um 13.00 Uhr an einem Südhang auf 2'800 m/Meer gerechnet werden?",
+      "options": [
+        "Mit scherungsbedingter Turbulenz.",
+        "Mit thermischer Turbulenz.",
+        "Mit Luvturbulenz.",
+        "Mit mechanischer Turbulenz."
+      ],
+      "correct": 1
+    },
+    "Wetterkunde_19": {
+      "qid": 19,
+      "topic": "Wetterkunde",
+      "pos": 58,
+      "total_in_topic": 164,
+      "text": "Wie erwärmt sich die Luft 100 m über Grund während des Tages hauptsächlich?",
+      "options": [
+        "Die bodennahe Luftschicht erwärmt sich und gibt die Wärme dank ihrer guten Wärmeleitfähigkeit an die über ihr liegende Luftschicht weiter.",
+        "Die Sonnenstrahlung trifft auf die Erdoberfläche, welche diese im Infrarotbereich reflektiert und die Luft je nach Distanz zur Erdoberfläche mehr oder weniger erwärmt.",
+        "Die einfallenden Sonnenstrahlen durchdringen die Luftteilchen und laden sie mit Energie auf (Ionisierung), welche in Form von Wärme freigesetzt wird.",
+        "Die bodennahe Luftschicht erwärmt sich und steigt auf, während kühle Höhenluft zu Boden sinkt, wo sie aufgeheizt wird."
+      ],
+      "correct": 3
+    },
+    "Wetterkunde_161": {
+      "qid": 161,
+      "topic": "Wetterkunde",
+      "pos": 60,
+      "total_in_topic": 164,
+      "text": "Welche Bewölkung ist in Paris am wahrscheinlichsten?",
+      "options": [
+        "8/8 Nimbostratus",
+        "5/8 bis 7/8 Cirrostratus",
+        "5/8 bis 7/8 Cumulonimbus, im Osten vereinzelte Lenticularis",
+        "3/8 bis 5/8 Cumulus"
+      ],
+      "correct": 3
+    },
+    "Wetterkunde_17": {
+      "qid": 17,
+      "topic": "Wetterkunde",
+      "pos": 70,
+      "total_in_topic": 164,
+      "text": "Warum verändert sich die Temperatur eines aufsteigenden Luftpakets?",
+      "options": [
+        "Weil sich das Luftpaket von der Quelle der Wärme, der Erdoberfläche, entfernt, kühlt es sich ab.",
+        "Weil die Luft beim Aufsteigen ständig Wasser verdunsten muss, ist eine Zunahme der Höhe immer mit einer Temperaturabnahme verbunden.",
+        "Weil der Einfallswinkel der Sonnenstrahlen mit zunehmender Höhe abflacht, wird dem aufsteigenden Luftpaket in der Höhe weniger Wärme zugeführt als am Boden.",
+        "Weil der Druck in der Atmosphäre mit zunehmender Höhe sinkt, dehnt sich das Luftpaket aus, wodurch die Luft Energie in Form von Wärme verliert."
+      ],
+      "correct": 3
     }
   },
   "topics": {
