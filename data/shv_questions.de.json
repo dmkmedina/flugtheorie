@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-05-29T09:18:24.591Z",
+  "fetchedAt": "2026-05-29T09:18:54.740Z",
   "questions": {
     "Fluglehre_152": {
       "qid": 152,
@@ -7616,6 +7616,118 @@
         "insofern, als die Kontrolle der Kalotte entfällt."
       ],
       "correct": 0
+    },
+    "Flugpraxis_76": {
+      "qid": 76,
+      "topic": "Flugpraxis",
+      "pos": 103,
+      "total_in_topic": 169,
+      "text": "Welches sind Anzeichen dafür, dass sich ein Gleitschirm im stabilen Sackflug befindet?",
+      "options": [
+        "Kein Fahrtwind im Gesicht, kein Steuerdruck auf den Bremsleinen, das Untersegel ist nicht mehr gespannt, sondern zwischen den Leinenaufhängungen nach oben eingebaucht.",
+        "Das Gerät sinkt mit grosser Geschwindigkeit, der Steuerdruck auf den Bremsleinen ist sehr gross.",
+        "Fahrtwind im Gesicht, Vorwärtsgeschwindigkeit gegenüber Grund ist gleich null, das Gerät sinkt nur noch.",
+        "Das Gerät geht in eine immer steiler werdende Spirale über."
+      ],
+      "correct": 0
+    },
+    "Flugpraxis_41": {
+      "qid": 41,
+      "topic": "Flugpraxis",
+      "pos": 104,
+      "total_in_topic": 169,
+      "text": "Unmittelbar nach dem Start stellt ein Gleitschirmpilot fest, dass er das Gerät rechts stark anbremsen muss, damit es geradeaus fliegt. Welches könnte die Ursache sein?",
+      "options": [
+        "Knoten zwischen Leinen rechts.",
+        "Knoten zwischen Leinen links.",
+        "Leichter Seitenwind von rechts.",
+        "Starker Seitenwind von links."
+      ],
+      "correct": 1
+    },
+    "Flugpraxis_95": {
+      "qid": 95,
+      "topic": "Flugpraxis",
+      "pos": 106,
+      "total_in_topic": 169,
+      "text": "Beim Einklappen der Ohren gilt es zu beachten, dass",
+      "options": [
+        "Antworten x, y und z sind richtig",
+        "unerfahrene Piloten die Gefahr von Frontklappern vermeiden können, indem sie ein Ohr nach dem anderen einklappen. [z]",
+        "bei grobmotorischer Einleitung die mittleren A-Leinen mitgezogen werden können und dadurch die ganze Front einklappt. [y]",
+        "nur die dafür vorgesehenen A-Leinen resp. separaten A-Gürtchen gezogen werden, ansonsten die ganze Front einklappen kann. [x]"
+      ],
+      "correct": 0
+    },
+    "Flugpraxis_58": {
+      "qid": 58,
+      "topic": "Flugpraxis",
+      "pos": 107,
+      "total_in_topic": 169,
+      "text": "Hängegleiterpilot A fliegt mit 35 km/h, Hängegleiterpilot B mit 50 km/h. Beide fliegen dieselbe Strecke und sind demselben Seitenwind ausgesetzt.",
+      "options": [
+        "A muss einen grösseren Vorhaltewinkel wählen als B.",
+        "Beide wählen denselben Vorhaltewinkel.",
+        "B muss einen grösseren Vorhaltewinkel wählen als A.",
+        "Der Vorhaltewinkel entspricht immer der Winkelhalbierenden zwischen Flugweg und Seitenwind."
+      ],
+      "correct": 0
+    },
+    "Flugpraxis_140": {
+      "qid": 140,
+      "topic": "Flugpraxis",
+      "pos": 108,
+      "total_in_topic": 169,
+      "text": "In welcher der folgenden Situationen muss das Rettungssystem ohne Zögern ausgelöst werden?",
+      "options": [
+        "Die Strömung reisst einseitig ab, und das Gerät geht in die Vrille.",
+        "Das rechte Drittel der Kalotte ist eingeklappt und hat sich zwischen den Leinen festgeklemmt.",
+        "Der Hängegleiter wird von einer Cumuluswolke angesogen und steigt in ihr mit 8 m/s.",
+        "Ein Gleitschirm und ein Delta stossen in der Luft frontal zusammen."
+      ],
+      "correct": 3
+    },
+    "Flugpraxis_150": {
+      "qid": 150,
+      "topic": "Flugpraxis",
+      "pos": 109,
+      "total_in_topic": 169,
+      "text": "Wo bauen Steinadler in den Alpen ihre Horste?",
+      "options": [
+        "Auf alten Bäumen.",
+        "In steilen Felswänden unterhalb der Waldgrenze.",
+        "In steilen Felswänden oberhalb der Waldgrenze.",
+        "Auf unzugänglichen Felsbändern am Boden."
+      ],
+      "correct": 1
+    },
+    "Flugpraxis_3": {
+      "qid": 3,
+      "topic": "Flugpraxis",
+      "pos": 110,
+      "total_in_topic": 169,
+      "text": "Bis zu welcher Höhe vermag sich in der Regel ein gesunder Organismus im Ruhezustand den sich mit zunehmender Höhe ändernden Bedingungen anzupassen?",
+      "options": [
+        "ca. 2'000 m/Meer",
+        "ca. 3'000 m/Meer",
+        "ca. 5'000 m/Meer",
+        "ca. 4'000 m/Meer"
+      ],
+      "correct": 3
+    },
+    "Flugpraxis_124": {
+      "qid": 124,
+      "topic": "Flugpraxis",
+      "pos": 111,
+      "total_in_topic": 169,
+      "text": "Ein Pilot biegt vom Gegen- in den Queranflug ein und stellt fest, dass er eher etwas tief fliegt. Welches Verhalten ist korrekt?",
+      "options": [
+        "Das Gerät leicht anbremsen, um seine Leistung zu verbessern.",
+        "Den Queranflug verkürzen oder ganz darauf verzichten.",
+        "Direkt zum geplanten Landepunkt fliegen und dort bis zur Landung kreisen.",
+        "Den Gegen- als Queranflug betrachten und quer zum Wind landen."
+      ],
+      "correct": 1
     }
   },
   "topics": {
