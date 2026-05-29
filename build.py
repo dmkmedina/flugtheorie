@@ -106,7 +106,7 @@ def main():
         <span class="sub">SHV/FSVL Trainer</span>
       </div>
     </div>
-    <div class="nav-section">Study</div>
+    <div class="nav-section" id="sidebar-study-label">Study</div>
     <div id="sidebar-nav"></div>
     <div class="sidebar-footer">
       <button class="theme-toggle" id="lang-toggle">🇬🇧 English</button>
