@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-05-29T08:47:43.933Z",
+  "fetchedAt": "2026-05-29T08:48:17.398Z",
   "questions": {
     "Fluglehre_152": {
       "qid": 152,
@@ -144,16 +144,16 @@
     "Fluglehre_85": {
       "qid": 85,
       "topic": "Fluglehre",
-      "pos": 12,
+      "pos": 139,
       "total_in_topic": 152,
       "text": "Wie gross ist die Flächenbelastung eines Geräts mit folgenden technischen Daten bei minimaler Zuladung? Spannweite: 10m min.Zuladung: 70kg Gewicht: 5kg Fläche: 25m² max.Zuladung: 95kg",
       "options": [
-        "4,0 kg/m²",
+        "3,5 kg/m²",
         "3,0 kg/m²",
         "4,5 kg/m²",
-        "3,5 kg/m²"
+        "4,0 kg/m²"
       ],
-      "correct": 1
+      "correct": null
     },
     "Fluglehre_138": {
       "qid": 138,
@@ -746,16 +746,16 @@
     "Fluglehre_99": {
       "qid": 99,
       "topic": "Fluglehre",
-      "pos": 62,
+      "pos": 114,
       "total_in_topic": 152,
       "text": "Wird der Widerstand eines Hängegleiters vermindert, so",
       "options": [
-        "vergrössert sich die Gleitzahl.",
         "hat dies keinen Einfluss auf die Gleitzahl.",
-        "verkleinert sich die Gleitzahl bis zu einem bestimmten Punkt und vergrössert sich danach abrupt.",
-        "verkleinert sich die Gleitzahl."
+        "vergrössert sich die Gleitzahl.",
+        "verkleinert sich die Gleitzahl.",
+        "verkleinert sich die Gleitzahl bis zu einem bestimmten Punkt und vergrössert sich danach abrupt."
       ],
-      "correct": 0
+      "correct": null
     },
     "Fluglehre_94": {
       "qid": 94,
@@ -1474,16 +1474,16 @@
     "Fluglehre_78": {
       "qid": 78,
       "topic": "Fluglehre",
-      "pos": 125,
+      "pos": 116,
       "total_in_topic": 152,
       "text": "Geräte mit grosser Flügelstreckung haben",
       "options": [
-        "eine grosse Spannweite und eine kleine durchschnittliche (mittlere) Flügeltiefe.",
-        "eine kleine Spannweite und eine kleine durchschnittliche (mittlere) Flügeltiefe.",
         "eine grosse Spannweite und eine grosse durchschnittliche (mittlere) Flügeltiefe.",
-        "eine kleine Spannweite und eine grosse durchschnittliche (mittlere) Flügeltiefe."
+        "eine kleine Spannweite und eine grosse durchschnittliche (mittlere) Flügeltiefe.",
+        "eine grosse Spannweite und eine kleine durchschnittliche (mittlere) Flügeltiefe.",
+        "eine kleine Spannweite und eine kleine durchschnittliche (mittlere) Flügeltiefe."
       ],
-      "correct": 0
+      "correct": null
     },
     "Fluglehre_17": {
       "qid": 17,
@@ -2028,6 +2028,62 @@
         "8 kg/m²",
         "12 kg/m²",
         "6 kg/m²"
+      ],
+      "correct": 0
+    },
+    "Fluglehre_56": {
+      "qid": 56,
+      "topic": "Fluglehre",
+      "pos": 115,
+      "total_in_topic": 152,
+      "text": "Von welchen vier Faktoren ist die Grösse des Auftriebs an einem Flügel abhängig?",
+      "options": [
+        "Luftdichte, Strömungsgeschwindigkeit, Auftriebsbeiwert, Widerstandsbeiwert",
+        "Flügelfläche, Auftriebsbeiwert, Widerstandsbeiwert, Luftdichte",
+        "Flügelfläche, Auftriebsbeiwert, Luftdichte, Strömungsgeschwindigkeit",
+        "Auftriebsbeiwert, Luftdichte, Strömungsgeschwindigkeit, Gewicht"
+      ],
+      "correct": 2
+    },
+    "Fluglehre_34": {
+      "qid": 34,
+      "topic": "Fluglehre",
+      "pos": 117,
+      "total_in_topic": 152,
+      "text": "Ein Körper mit dem CW-Wert 1,3 erzeugt im Vergleich zu einem Körper mit dem CW-Wert 1 unter sonst gleichen Bedingungen",
+      "options": [
+        "rund 30 % weniger Luftwiderstand.",
+        "rund 3 mal mehr Luftwiderstand.",
+        "rund 3 mal weniger Luftwiderstand.",
+        "rund 30 % mehr Luftwiderstand."
+      ],
+      "correct": 3
+    },
+    "Fluglehre_15": {
+      "qid": 15,
+      "topic": "Fluglehre",
+      "pos": 140,
+      "total_in_topic": 152,
+      "text": "Wird die Strömungsgeschwindigkeit der einen Körper umströmenden Luft verdoppelt, so",
+      "options": [
+        "verdoppelt sich dessen Luftwiderstand.",
+        "versechzehnfacht sich dessen Luftwiderstand.",
+        "vervierfacht sich dessen Luftwiderstand.",
+        "verachtfacht sich dessen Luftwiderstand."
+      ],
+      "correct": 2
+    },
+    "Fluglehre_133": {
+      "qid": 133,
+      "topic": "Fluglehre",
+      "pos": 144,
+      "total_in_topic": 152,
+      "text": "Welches ist die Gleitzahl des Hängegleiters mit untenstehender Geschwindigkeitpolare, wenn er mit der Geschwindigkeit des geringsten Sinkens fliegt?",
+      "options": [
+        "4,6",
+        "2,0",
+        "5,3",
+        "3,7"
       ],
       "correct": 0
     }
