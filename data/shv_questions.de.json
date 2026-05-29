@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-05-29T08:39:42.567Z",
+  "fetchedAt": "2026-05-29T08:40:14.933Z",
   "questions": {
     "Fluglehre_152": {
       "qid": 152,
@@ -1204,6 +1204,146 @@
         "1"
       ],
       "correct": 1
+    },
+    "Fluglehre_20": {
+      "qid": 20,
+      "topic": "Fluglehre",
+      "pos": 103,
+      "total_in_topic": 152,
+      "text": "Wird ein Körper mit einer Stirnfläche von 0,75 m² auf Meereshöhe einem Luftstrom von 30 km/h ausgesetzt, erzeugt er einen Widerstand von 100 N (ca. 10 kp). Welchen Widerstand erzeugt derselbe Körper bei einem Luftstrom von 90 km/h?",
+      "options": [
+        "ca. 300 N",
+        "ca. 1'200 N",
+        "ca. 900 N",
+        "ca. 600 N"
+      ],
+      "correct": 2
+    },
+    "Fluglehre_64": {
+      "qid": 64,
+      "topic": "Fluglehre",
+      "pos": 104,
+      "total_in_topic": 152,
+      "text": "Welches ist in der folgenden Skizze der Ablösepunkt? 142",
+      "options": [
+        "1",
+        "3",
+        "4",
+        "2"
+      ],
+      "correct": 2
+    },
+    "Fluglehre_139": {
+      "qid": 139,
+      "topic": "Fluglehre",
+      "pos": 105,
+      "total_in_topic": 152,
+      "text": "Ein Hängegleiter fliegt in einer Abwindzone. Um die bestmögliche Gleitleistung zu erreichen, fliegt der Pilot",
+      "options": [
+        "mit der Geschwindigkeit des besten Gleitens in ruhiger Luft.",
+        "mit der Durchschnittsgeschwindigkeit des besten Gleitens und des geringsten Sinkens.",
+        "mit der Geschwindigkeit des geringsten Sinkens.",
+        "schneller als die Geschwindigkeit des besten Gleitens bei ruhiger Luft."
+      ],
+      "correct": 3
+    },
+    "Fluglehre_69": {
+      "qid": 69,
+      "topic": "Fluglehre",
+      "pos": 106,
+      "total_in_topic": 152,
+      "text": "Wird der positive Anstellwinkel eines von Luft umströmten Flügels vergrössert, so wandert der Staupunkt",
+      "options": [
+        "auf der Flügelunterseite Richtung Profilnase (Eintrittskante).",
+        "auf der Flügeloberseite Richtung Hinterkante (Austrittskante).",
+        "auf der Flügelunterseite Richtung Hinterkante (Austrittskante).",
+        "auf der Flügeloberseite Richtung Profilnase (Eintrittskante)."
+      ],
+      "correct": 2
+    },
+    "Fluglehre_58": {
+      "qid": 58,
+      "topic": "Fluglehre",
+      "pos": 107,
+      "total_in_topic": 152,
+      "text": "Wird der Anstellwinkel eines mit der Geschwindigkeit für die beste Gleitzahl fliegenden Hängegleiters um 2° verkleinert, so",
+      "options": [
+        "erhöht sich der CA-Wert (Auftriebsbeiwert) des Flügels kurzfristig, um sich danach beim ursprünglichen Wert zu stabilisieren.",
+        "vermindert sich der CA-Wert (Auftriebsbeiwert) des Flügels.",
+        "erhöht sich der CA-Wert (Auftriebsbeiwert) des Flügels.",
+        "verändert sich der CA-Wert (Auftriebsbeiwert) des Flügels nicht."
+      ],
+      "correct": 1
+    },
+    "Fluglehre_123": {
+      "qid": 123,
+      "topic": "Fluglehre",
+      "pos": 108,
+      "total_in_topic": 152,
+      "text": "Die Gleitzahl eines Hängegleiters gibt Auskunft über das Verhältnis zwischen",
+      "options": [
+        "Schub und Gesamtgewicht.",
+        "Horizontaldistanz und Höhendifferenz.",
+        "der Geschwindigkeit des besten Gleitens und der Geschwindigkeit des geringsten Sinkens.",
+        "der Spannweite und der mittleren Flügeltiefe."
+      ],
+      "correct": 1
+    },
+    "Fluglehre_110": {
+      "qid": 110,
+      "topic": "Fluglehre",
+      "pos": 109,
+      "total_in_topic": 152,
+      "text": "Mit welchen Ziffern sind Luftkraftresultierende und Anstellwinkel gekennzeichnet?",
+      "options": [
+        "3 und 4",
+        "6 und 4",
+        "5 und 6",
+        "2 und 5"
+      ],
+      "correct": 1
+    },
+    "Fluglehre_71": {
+      "qid": 71,
+      "topic": "Fluglehre",
+      "pos": 110,
+      "total_in_topic": 152,
+      "text": "Der Begriff \"Druckpunkt\" bezeichnet",
+      "options": [
+        "den Übergang von der laminaren zur turbulenten Grenzschicht.",
+        "den Punkt, an dem sich die anströmende Luft auf Flügelober- und Flügelunterseite aufteilt.",
+        "den Angriffspunkt der Luftkraftresultierenden auf der Profilsehne.",
+        "den Mittelpunkt der gesamten Masse bestehend aus dem Piloten und dem Fluggerät."
+      ],
+      "correct": 2
+    },
+    "Fluglehre_65": {
+      "qid": 65,
+      "topic": "Fluglehre",
+      "pos": 111,
+      "total_in_topic": 152,
+      "text": "Der Begriff \"Ablösepunkt\" bezeichnet",
+      "options": [
+        "den Punkt, an dem sich die anströmende Luft auf Flügelober- und Flügelunterseite aufteilt.",
+        "den Punkt, an dem sich die Strömung vom Flügel löst.",
+        "den Punkt, an dem die Luftströmung der Flügeloberseite wieder auf diejenige auf der Flügelunterseite trifft.",
+        "den Angriffspunkt der Luftkraftresultierenden."
+      ],
+      "correct": 1
+    },
+    "Fluglehre_148": {
+      "qid": 148,
+      "topic": "Fluglehre",
+      "pos": 113,
+      "total_in_topic": 152,
+      "text": "Ein Hängegleiter fliegt in ruhiger Luft mit einer Vorwärtsgeschwindigkeit von 32,4 km/h (9 m/s) und einem Sinken von 1,5 m/s. Seine Gleitzahl ist",
+      "options": [
+        "6,0.",
+        "7,0.",
+        "6,5.",
+        "5,5."
+      ],
+      "correct": 0
     }
   },
   "topics": {
