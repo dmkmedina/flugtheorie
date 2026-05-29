@@ -95,11 +95,20 @@ async function readState(page) {
   return await page.evaluate(() => {
     const text = (s) => (s || '').replace(/\s+/g, ' ').trim();
     const bodyText = text(document.body.innerText);
-    const posMatch = bodyText.match(/([A-Z][A-Za-z ]+?)\s*(\d+)\s+From\s+(\d+)/);
-    const idMatch = bodyText.match(/Question no\.\s*(\d+)/);
+    // "From" (en) | "Von" (de) | "Sur" (fr) | "Da" (it)
+    const posMatch = bodyText.match(/([A-ZÄÖÜ][A-Za-zÄÖÜäöüß ]+?)\s*(\d+)\s+(?:From|Von|Sur|Da)\s+(\d+)/);
+    // "Question no." (en) | "Frage Nr." (de) | "Question no" (fr) | "Domanda n." (it)
+    const idMatch = bodyText.match(/(?:Question no\.|Frage Nr\.|Question no|Domanda n\.)\s*(\d+)/);
+    const skipBtnLabels = new Set([
+      '<', '>', '>>',
+      'Cancel', 'Reload', 'Start...', 'Log out',
+      'Abbrechen', 'Aktualisieren', 'Beenden', 'Abmelden',
+      'Annuler', 'Recharger', 'Démarrer...', 'Déconnexion',
+      'Annulla', 'Ricarica', 'Avvia...', 'Logout',
+    ]);
     const optionBtns = [...document.querySelectorAll('button')].filter(b => {
       const t = text(b.textContent);
-      return t && !['<', '>', '>>', 'Cancel', 'Reload', 'Start...', 'Log out'].includes(t);
+      return t && !skipBtnLabels.has(t);
     });
     return {
       topic: posMatch ? posMatch[1].trim() : null,
@@ -114,12 +123,12 @@ async function readState(page) {
       qText: (() => {
         let t = bodyText;
         for (const b of optionBtns) t = t.replace(text(b.textContent), '');
-        t = t.replace(/[A-Z][A-Za-z ]+?\s*\d+\s+From\s+\d+/, '')
+        t = t.replace(/[A-ZÄÖÜ][A-Za-zÄÖÜäöüß ]+?\s*\d+\s+(?:From|Von|Sur|Da)\s+\d+/, '')
              .replace(/<\s*>\s*>>/, '')
-             .replace(/Question no\.\s*\d+/, '')
-             .replace(/Correct \d+x.*?Incorrect \d+x/, '')
-             .replace(/Cancel/g, '')
-             .replace(/Log out/g, '')
+             .replace(/(?:Question no\.|Frage Nr\.|Question no|Domanda n\.)\s*\d+/, '')
+             .replace(/(?:Correct|Richtig|Correct|Corretto)\s*\d+x.*?(?:Incorrect|Falsch|Incorrect|Errato)\s*\d+x/, '')
+             .replace(/Cancel|Abbrechen|Annuler|Annulla/g, '')
+             .replace(/Log out|Abmelden|Déconnexion|Logout/g, '')
              .replace(/Daniel Medina/g, '')
              .replace(/SHV E-Learning.*$/s, '')
              .replace(/\s+/g, ' ').trim();
@@ -241,7 +250,7 @@ async function scrapeOneSubject(targetSubject) {
           if (await skip.count()) { await skip.click(); await page.waitForTimeout(800); }
         },
         async () => {
-          const cancel = page.locator('button:has-text("Cancel")').first();
+          const cancel = page.locator('button:has-text("Cancel"), button:has-text("Abbrechen"), button:has-text("Annuler"), button:has-text("Annulla")').first();
           if (await cancel.count()) { await cancel.click(); await page.waitForTimeout(2000); }
           const start = page.locator('button:has-text("Start")').first();
           if (await start.count()) { await start.click(); await page.waitForTimeout(2500); }
