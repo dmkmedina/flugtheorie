@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-05-29T09:15:18.331Z",
+  "fetchedAt": "2026-05-29T09:15:48.465Z",
   "questions": {
     "Fluglehre_152": {
       "qid": 152,
@@ -6956,6 +6956,104 @@
         "wenn immer möglich wegen Kollisionsgefahr zu vermeiden.",
         "wegen Behinderung landender Hängegleiter nicht erlaubt.",
         "vorgeschrieben."
+      ],
+      "correct": 0
+    },
+    "Flugpraxis_13": {
+      "qid": 13,
+      "topic": "Flugpraxis",
+      "pos": 42,
+      "total_in_topic": 169,
+      "text": "Ab welcher Druckdifferenz zwischen Zürich und Lugano muss in den Alpentälern in der Regel mit Föhn gerechnet werden?",
+      "options": [
+        "ab 16 hPa",
+        "ab 2 hPa",
+        "ab 4 hPa",
+        "ab 8 hPa"
+      ],
+      "correct": 2
+    },
+    "Flugpraxis_34": {
+      "qid": 34,
+      "topic": "Flugpraxis",
+      "pos": 43,
+      "total_in_topic": 169,
+      "text": "Ein Pilot empfindet das Starten an einem Startplatz bei den gegebenen Verhältnissen als anspruchsvoll. Wie verhält er sich am besten?",
+      "options": [
+        "Er startet, denn an offiziellen Startplätzen muss die Sicherheit gewährleistet sein.",
+        "Er startet nur, wenn er überzeugt ist, dass er dies problemlos schafft.",
+        "Er startet, da er als häufiger Benützer des Startplatzes davon ausgehen kann, dass er es auch diesmal schaffen wird.",
+        "Er lässt andere Piloten zuerst starten und kann davon ausgehen, dass er auch problemlos wegkommt, wenn die anderen es schaffen."
+      ],
+      "correct": 1
+    },
+    "Flugpraxis_110": {
+      "qid": 110,
+      "topic": "Flugpraxis",
+      "pos": 44,
+      "total_in_topic": 169,
+      "text": "Wie ist im Bereich des Landeplatzes überschüssige Höhe vor dem Gegenanflug abzubauen?",
+      "options": [
+        "Mit Rechtskreisen.",
+        "Mittels fliegen von \"S\".",
+        "Mit Kreisen derselben Drehrichtung wie die Landevolte.",
+        "Mit Linkskreisen."
+      ],
+      "correct": 2
+    },
+    "Flugpraxis_109": {
+      "qid": 109,
+      "topic": "Flugpraxis",
+      "pos": 45,
+      "total_in_topic": 169,
+      "text": "Wie heisst der mit (4) gekennzeichnete Bestandteil des Landeanflugs?",
+      "options": [
+        "Queranflug",
+        "Höhenabbauraum",
+        "Gegenanflug",
+        "Endanflug"
+      ],
+      "correct": 3
+    },
+    "Flugpraxis_63": {
+      "qid": 63,
+      "topic": "Flugpraxis",
+      "pos": 46,
+      "total_in_topic": 169,
+      "text": "Ein Hängegleiterpilot trifft auf eine aufsteigende Luftmasse und versucht darin zu kreisen. Nach 90° zeigt das Vario Sinken. Welches ist das beste Manöver?",
+      "options": [
+        "Da die horizontale Ausdehnung der vorgefundenen Luftmasse keinen Vollkreis erlaubt, muss der Pilot eine neue suchen.",
+        "Nach einer Drehung von 180° folgt ein kurzer Geradeausflug, da sich nun die aufsteigende Luftmasse vor dem Hängegleiter befinden muss, danach neuerliches Zentrieren.",
+        "Die Kurve unbedingt mit gleichbleibender Querlage und Geschwindigkeit weiterfliegen.",
+        "Sofort die Drehrichtung wechseln, da der Pilot wahrscheinlich zu früh eingedreht hat."
+      ],
+      "correct": 1
+    },
+    "Flugpraxis_96": {
+      "qid": 96,
+      "topic": "Flugpraxis",
+      "pos": 48,
+      "total_in_topic": 169,
+      "text": "Beim Absteigen mit eingeklappten Ohren gilt es zu beachten, dass das Gerät in dieser Konfiguration",
+      "options": [
+        "mit einem grösseren Anstellwinkel fliegt und daher insbesondere beim Ausleiten erhöhte Sackfluggefahr besteht.",
+        "äusserst instabil fliegt.",
+        "mit einer wesentlich höheren Vorwärtsgeschwindigkeit fliegt und sich dadurch die Gefahr von Frontklappern markant erhöht.",
+        "insbesondere beim Fliegen in turbulenter Luft vom Piloten grosses Können verlangt und seinen Körper über längere Zeit stark belastet."
+      ],
+      "correct": 0
+    },
+    "Flugpraxis_139": {
+      "qid": 139,
+      "topic": "Flugpraxis",
+      "pos": 50,
+      "total_in_topic": 169,
+      "text": "Das Rettungssystem muss ausgelöst werden,",
+      "options": [
+        "immer wenn die Situation als unkontrollierbar erscheint.",
+        "bei einem Seitenklapper im Endanflug.",
+        "wenn der Hängegleiter von einer Cumuluswolke angesogen wird und das Vario dabei über 6 m/s zeigt.",
+        "sobald die Kalotte kollabiert (frontal über die ganze Spannweite hinweg einklappt)."
       ],
       "correct": 0
     }
