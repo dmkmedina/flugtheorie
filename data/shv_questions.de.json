@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-05-29T09:14:16.603Z",
+  "fetchedAt": "2026-05-29T09:14:47.467Z",
   "questions": {
     "Fluglehre_152": {
       "qid": 152,
@@ -6734,6 +6734,118 @@
         "Das Notam."
       ],
       "correct": 2
+    },
+    "Flugpraxis_143": {
+      "qid": 143,
+      "topic": "Flugpraxis",
+      "pos": 21,
+      "total_in_topic": 169,
+      "text": "Ein Pilot ist nach einem äusserst heftigen Bodenkontakt bleich, hat bläuliche Lippen, kalten Schweiss, einen schwachen, schnellen Puls und redet zusammenhangslos.",
+      "options": [
+        "Viel zu trinken geben.",
+        "Schnellstmöglich in eine stabile Seitenlagerung bringen.",
+        "Anzeichen für einen Schock, Lagerung nach Wunsch, vor Witterungseinflüssen geschützt, nichts zu trinken geben.",
+        "Das ist nur der Schreck, wird schon wieder."
+      ],
+      "correct": 2
+    },
+    "Flugpraxis_163": {
+      "qid": 163,
+      "topic": "Flugpraxis",
+      "pos": 22,
+      "total_in_topic": 169,
+      "text": "Nach einem Flugfehler mache ich eine unsanfte Baumlandung ohne Verletzungsfolge. Ich schätze die Höhe des Baums auf rund 30 Meter. Es handelt sich um eine Weisstanne. Wie gehe ich vor",
+      "options": [
+        "Ich löse mich vom Schirm und vom Gurtzeug und beginne vorsichtig mit dem Abstieg.",
+        "Ich prüfe die Stärke der Äste sorgfältig und sichere mich mit der langen Schnur, die ich im Gurtzeug mitgeführt habe.",
+        "Ich schneide einige Leinen ab (wenn möglich Bremsleinen), knüpfe diese zusammen und seile mich mit Hilfe eines Karabiners des Gurtzeugs ab.",
+        "Ich alarmiere die Rettungskräfte per Mobiltelefon und warte auf Hilfe. Dabei bewege ich mich möglichst wenig."
+      ],
+      "correct": 3
+    },
+    "Flugpraxis_47": {
+      "qid": 47,
+      "topic": "Flugpraxis",
+      "pos": 23,
+      "total_in_topic": 169,
+      "text": "Wie soll sich ein Gleitschirmpilot verhalten, um bei Windstille möglichst lang in der Luft bleiben?",
+      "options": [
+        "Er soll das Gerät mit leichtem Steuerdruck fliegen (1% - 10% angebremst).",
+        "Er soll das Gerät ca. 50% angebremst fliegen.",
+        "Er soll so schnell wie möglich fliegen, eventuell vorhandene Trimmer öffnen sowie den Beschleuniger betätigen, soweit es Gerät und Turbulenzen erlauben.",
+        "Er soll das Gerät ca. 20 - 30 % angebremst fliegen."
+      ],
+      "correct": 3
+    },
+    "Flugpraxis_55": {
+      "qid": 55,
+      "topic": "Flugpraxis",
+      "pos": 25,
+      "total_in_topic": 169,
+      "text": "Ein Gleitschirmpilot befindet sich auf dem Flug zum Landeplatz, der genau südlich seiner Position liegt. Er bemerkt, dass ein mässiger Westwind von 20 km/h weht und orientiert das Gerät immer Richtung Südwesten. Welches ist der Flugweg? 12",
+      "options": [
+        "1",
+        "3",
+        "4",
+        "2"
+      ],
+      "correct": 0
+    },
+    "Flugpraxis_72": {
+      "qid": 72,
+      "topic": "Flugpraxis",
+      "pos": 26,
+      "total_in_topic": 169,
+      "text": "Beim Hangsoaring im dynamischen Aufwind erfolgen Kurven immer",
+      "options": [
+        "auf diejenige Seite, auf der der Flügel vom Aufwind angehoben wird.",
+        "unterhalb der Krete vom Hang weg; über der Krete auf diejenige Seite, auf welcher der Flügel vom Aufwind angehoben wird.",
+        "vom Hang weg.",
+        "auf dieselbe Seite, wie das nächst höhere Luftfahrzeug dreht, das denselben Aufwind ausnützt."
+      ],
+      "correct": 2
+    },
+    "Flugpraxis_77": {
+      "qid": 77,
+      "topic": "Flugpraxis",
+      "pos": 27,
+      "total_in_topic": 169,
+      "text": "Ein Gleitschirm befindet sich 500 m über dem Landeplatz im stabilen Sackflug. Wie ist zu reagieren?",
+      "options": [
+        "Eine Bremse abrupt voll durchziehen und sofort wieder lösen.",
+        "Als typengeprüft anerkannte Geräte kommen selbständig aus dem Sackflug. Der Gleitschirmpilot soll deshalb in leicht angebremster Position abwarten, bis es soweit ist.",
+        "A-Gurten nach vorne drücken oder den Beschleuniger betätigen, bis das Gerät wieder in den Normalflug übergeht.",
+        "Beide Bremsen abrupt voll durchziehen und sofort wieder lösen."
+      ],
+      "correct": 2
+    },
+    "Flugpraxis_128": {
+      "qid": 128,
+      "topic": "Flugpraxis",
+      "pos": 28,
+      "total_in_topic": 169,
+      "text": "Was ist als erstes unmittelbar nach der Landung zu unternehmen?",
+      "options": [
+        "Den Flug ins Flugbuch eintragen.",
+        "Sofort Gurtzeug und Helm ausziehen.",
+        "Sofort den Landeraum verlassen.",
+        "Den Gleitschirm sofort zusammenfalten und in den Rucksack packen."
+      ],
+      "correct": 2
+    },
+    "Flugpraxis_84": {
+      "qid": 84,
+      "topic": "Flugpraxis",
+      "pos": 30,
+      "total_in_topic": 169,
+      "text": "Die Wahrscheinlichkeit eines einseitigen Strömungsabrisses lässt sich am besten vermindern, indem",
+      "options": [
+        "immer mit genügend Geschwindigkeitsreserve geflogen und mit Gefühl gesteuert wird.",
+        "das Gerät während des Flugs ständig visuell überwacht und auf enges Kurven verzichtet wird.",
+        "das Gerät in der Kurve auf der Kurvenaussenseite ständig dosiert angebremst wird, damit der Strömungsabriss nicht einseitig erfolgen kann.",
+        "beim Fliegen ein Anemometer mitgeführt wird, welches eine zuverlässige Kontrolle der Fluggeschwindigkeit erlaubt."
+      ],
+      "correct": 0
     }
   },
   "topics": {
