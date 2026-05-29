@@ -364,120 +364,147 @@ function navigate(view) {
 // VIEW: Dashboard
 // ============================================================================
 function renderDashboard() {
-  const total = getCards().length;
-  let seen = 0, mastered = 0, hard = 0;
-  let allReviews = 0, allRight = 0, allWrong = 0;
-  getCards().forEach(c => {
-    const p = state.cards[c.id];
-    if (p) {
-      seen++;
-      if (p.box >= 3) mastered++;
-      if (p.box === 0 && p.reviews > 0) hard++;
-      allReviews += p.reviews;
-      allRight += p.right || 0;
-      allWrong += p.wrong || 0;
+  // --- Workbook progress ---
+  const books = getWorkbook();
+  const totalChapters = books.reduce((a, b) => a + (b.chapters?.length || 0), 0);
+  const readChapters = books.reduce(
+    (a, b) => a + (b.chapters || []).filter(c => state.workbook.completed[c.id]?.readAt).length, 0);
+  const workbookPct = totalChapters > 0 ? Math.round(100 * readChapters / totalChapters) : 0;
+
+  // --- SHV pool + practice history ---
+  const shvPool = getSHVQuestions() || {};
+  const shvTotal = Object.keys(shvPool).length;
+  const shvByTopic = getSHVQuestionsByTopic();
+  const shvTopicsCount = Object.keys(shvByTopic).length;
+  const shvHistory = state.shvExam.history || [];
+  const lastShv = shvHistory[shvHistory.length - 1];
+
+  // Weakest subtopics across past SHV attempts (lowest % across all sessions)
+  const subStats = {};  // key=`topic::subId` → { topic, title, right, total }
+  for (const r of shvHistory) {
+    for (const [k, s] of Object.entries(r.subSections || {})) {
+      const cur = subStats[k] || { topic: s.topic, title: s.title, right: 0, total: 0 };
+      cur.right += s.right;
+      cur.total += s.total;
+      subStats[k] = cur;
     }
-  });
-  const accuracy = allReviews > 0 ? Math.round(100 * allRight / (allRight + allWrong)) : 0;
-  const masteryPct = total > 0 ? Math.round(100 * mastered / total) : 0;
-  const seenPct = total > 0 ? Math.round(100 * seen / total) : 0;
-  const lastExam = state.exam.history[state.exam.history.length - 1];
+  }
+  const weakSubs = Object.values(subStats)
+    .filter(s => s.total >= 2)
+    .map(s => ({ ...s, pct: Math.round(100 * s.right / s.total) }))
+    .sort((a, b) => a.pct - b.pct)
+    .slice(0, 5);
 
-  return `
-    <div class="page-header">
-      <h1>Welcome back 🪂</h1>
-      <p class="page-subtitle">Your training overview for the Swiss SHV/FSVL paragliding theory exam.</p>
-    </div>
+  // --- Video study time ---
+  const videos = getAllVideos();
+  const videoHours = videos.reduce((a, v) => a + (v.duration_seconds || 0), 0) / 3600;
+  const enrichedCount = Object.values(getSHVEnrichments() || {}).filter(e => e.explanation).length;
 
+  const langLabel = state.lang === 'de' ? 'auf Deutsch' : 'in English';
+
+  // --- Stats row ---
+  const statsHtml = `
     <div class="stat-grid">
-      <div class="stat">
-        <div class="stat-label">Total cards</div>
-        <div class="stat-value tabnum">${total}</div>
-        <div class="stat-sub">across 5 categories</div>
-      </div>
       <div class="stat accent">
-        <div class="stat-label">Studied</div>
-        <div class="stat-value tabnum">${seen}/${total}</div>
-        <div class="stat-sub">${seenPct}% covered</div>
-        <div class="progress"><div class="progress-fill" style="width:${seenPct}%"></div></div>
+        <div class="stat-label">SHV question pool</div>
+        <div class="stat-value tabnum">${shvTotal}</div>
+        <div class="stat-sub">${shvTopicsCount} topics · ${enrichedCount} with explanations</div>
       </div>
-      <div class="stat good">
-        <div class="stat-label">Mastered</div>
-        <div class="stat-value tabnum">${mastered}</div>
-        <div class="stat-sub">box 3 or higher</div>
-        <div class="progress good"><div class="progress-fill" style="width:${masteryPct}%"></div></div>
+      <div class="stat ${lastShv ? (lastShv.passed ? 'good' : 'warn') : ''}">
+        <div class="stat-label">Last SHV practice</div>
+        <div class="stat-value tabnum">${lastShv ? lastShv.scorePct + '%' : '—'}</div>
+        <div class="stat-sub">${lastShv ? `${lastShv.totalRight}/${lastShv.totalCount} · ${lastShv.passed ? '✓ Passed' : '✗ Below pass mark'}` : 'No attempts yet — try a 20-question practice'}</div>
       </div>
-      <div class="stat ${accuracy >= 80 ? 'good' : accuracy >= 60 ? 'warn' : 'bad'}">
-        <div class="stat-label">Accuracy</div>
-        <div class="stat-value tabnum">${accuracy}%</div>
-        <div class="stat-sub">${allRight} right · ${allWrong} wrong</div>
+      <div class="stat ${workbookPct >= 80 ? 'good' : workbookPct >= 30 ? 'accent' : ''}">
+        <div class="stat-label">Workbook chapters read</div>
+        <div class="stat-value tabnum">${readChapters}/${totalChapters}</div>
+        <div class="stat-sub">${workbookPct}% of ${books.length} books</div>
+        <div class="progress"><div class="progress-fill" style="width:${workbookPct}%"></div></div>
+      </div>
+      <div class="stat">
+        <div class="stat-label">Video study material</div>
+        <div class="stat-value tabnum">${videoHours.toFixed(1)} h</div>
+        <div class="stat-sub">${videos.length} videos · EN+DE subtitles</div>
       </div>
     </div>
+  `;
 
+  // --- Workbook progress by book ---
+  const workbookHtml = books.length === 0 ? '' : `
     <div class="card" style="margin-bottom:20px;">
       <div class="card-header">
-        <h2 class="card-title">Progress by topic</h2>
-        <a href="#" data-nav="flashcards" class="btn small">Study cards →</a>
+        <h2 class="card-title">Workbook progress ${state.lang === 'de' ? '(Arbeitsbuch)' : ''}</h2>
+        <a href="#" data-nav="workbook" class="btn small">Open workbook →</a>
       </div>
-      ${CATEGORIES.map(cat => {
-        const p = totalProgressFor(cat);
-        const pct = p.total > 0 ? Math.round(100 * p.seen / p.total) : 0;
-        const mpct = p.total > 0 ? Math.round(100 * p.mastered / p.total) : 0;
-        const m = CATEGORY_META[cat];
+      ${books.map(book => {
+        const total = book.chapters?.length || 0;
+        const read = (book.chapters || []).filter(c => state.workbook.completed[c.id]?.readAt).length;
+        const pct = total > 0 ? Math.round(100 * read / total) : 0;
         return `
           <div class="progress-row">
             <div>
-              <div class="pr-label">
-                <span class="cat-dot" style="background:${m.color}"></span>${m.icon} ${cat}
-              </div>
-              <div class="pr-meta">${p.seen}/${p.total} studied · ${p.mastered} mastered (${mpct}%)</div>
+              <div class="pr-label">${escapeHtml(book.title)}</div>
+              <div class="pr-meta">${read}/${total} chapters read</div>
             </div>
-            <div class="badge ${mpct >= 80 ? 'good' : mpct >= 50 ? 'warn' : 'bad'}">${mpct}%</div>
+            <div class="badge ${pct >= 80 ? 'good' : pct >= 30 ? 'warn' : 'bad'}">${pct}%</div>
             <div class="pr-track">
-              <div class="progress ${mpct >= 80 ? 'good' : ''}"><div class="progress-fill" style="width:${pct}%; background:${m.color}; opacity:0.55"></div></div>
-              <div class="progress good" style="margin-top:2px;"><div class="progress-fill" style="width:${mpct}%; background:${m.color}"></div></div>
+              <div class="progress ${pct >= 80 ? 'good' : ''}"><div class="progress-fill" style="width:${pct}%"></div></div>
             </div>
           </div>
         `;
       }).join('')}
     </div>
+  `;
 
-    <div class="stat-grid">
-      <div class="stat warn">
-        <div class="stat-label">Need review</div>
-        <div class="stat-value tabnum">${hard}</div>
-        <div class="stat-sub">cards in box 0 after review</div>
+  // --- Weakest subtopics (only if there's enough history to be meaningful) ---
+  const weakHtml = weakSubs.length === 0 ? '' : `
+    <div class="card" style="margin-bottom:20px;">
+      <div class="card-header">
+        <h2 class="card-title">Where to grind next</h2>
+        <a href="#" data-nav="shv-exam" class="btn small">Start practice →</a>
       </div>
-      <div class="stat">
-        <div class="stat-label">Total reviews</div>
-        <div class="stat-value tabnum">${allReviews}</div>
-        <div class="stat-sub">all-time</div>
-      </div>
-      <div class="stat">
-        <div class="stat-label">Last mock exam</div>
-        <div class="stat-value tabnum">${lastExam ? lastExam.scorePct + '%' : '—'}</div>
-        <div class="stat-sub">${lastExam ? (lastExam.passed ? 'Passed ✓' : 'Failed') : 'not yet attempted'}</div>
-      </div>
+      <p class="muted" style="font-size:13px; margin-top:0;">Subtopics with the lowest scores across your past SHV practice sessions.</p>
+      ${weakSubs.map(s => `
+        <div class="exam-section-row" style="border-bottom:1px solid var(--border);">
+          <div class="name" style="font-size:13px;">
+            <span class="muted" style="font-size:11px;">${escapeHtml(s.topic)}</span> · ${escapeHtml(s.title)}
+          </div>
+          <div class="score">${s.right}/${s.total} (${s.pct}%)</div>
+          <div class="verdict ${s.pct >= 75 ? 'pass' : 'fail'}" style="font-size:11px;">${s.pct >= 75 ? '✓' : '✗'}</div>
+        </div>
+      `).join('')}
     </div>
+  `;
 
+  // --- Quick actions ---
+  const quickActionsHtml = `
     <div class="card">
       <h2 class="card-title" style="margin-bottom:12px;">Quick actions</h2>
-      <div class="row">
-        <button class="btn primary" data-nav="workbook">📒 Open workbook</button>
-        <button class="btn" data-nav="flashcards">📇 Study flashcards</button>
-        <button class="btn" data-nav="quiz">📝 Take a quiz</button>
-        <button class="btn" data-nav="exam">⏱️ Start mock exam</button>
-        <button class="btn" data-nav="shv-exam">🎯 SHV practice exam</button>
+      <div class="row" style="flex-wrap:wrap;">
+        <button class="btn primary" data-nav="shv-exam">🎯 SHV practice exam</button>
         <button class="btn" data-nav="shv-browse">🗂️ Browse SHV pool</button>
+        <button class="btn" data-nav="workbook">📒 Open workbook</button>
         <button class="btn" data-nav="guide">📚 Study guide</button>
+        <button class="btn" data-nav="videos">📺 Videos (EN/DE subs)</button>
         <button class="btn" data-nav="slides">🎬 Slide decks</button>
-        <button class="btn" data-nav="videos">📺 Videos (EN subs)</button>
         <button class="btn" data-nav="cheatsheet">⚡ Cheat sheet</button>
+        <button class="btn ghost" data-nav="tips">💡 Tips</button>
       </div>
-      <div class="muted" style="margin-top:16px; font-size:13px;">
-        Tip: press <span class="kbd">← →</span> to navigate, <span class="kbd">Space</span> to flip a flashcard, <span class="kbd">1-4</span> to grade an SRS card.
+      <div class="muted" style="margin-top:14px; font-size:12px;">
+        Tip: switch between <span class="kbd">🇬🇧 English</span> and <span class="kbd">🇩🇪 Deutsch</span> in the sidebar footer to flip the workbook and SHV pool. The study guide stays English.
       </div>
     </div>
+  `;
+
+  return `
+    <div class="page-header">
+      <h1>Welcome back 🪂</h1>
+      <p class="page-subtitle">SHV/FSVL paragliding theory — practice, browse and study ${langLabel}.</p>
+    </div>
+    ${statsHtml}
+    ${weakHtml}
+    ${workbookHtml}
+    ${quickActionsHtml}
   `;
 }
 
