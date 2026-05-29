@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-05-29T09:15:48.465Z",
+  "fetchedAt": "2026-05-29T09:16:20.795Z",
   "questions": {
     "Fluglehre_152": {
       "qid": 152,
@@ -7056,6 +7056,146 @@
         "sobald die Kalotte kollabiert (frontal über die ganze Spannweite hinweg einklappt)."
       ],
       "correct": 0
+    },
+    "Flugpraxis_18": {
+      "qid": 18,
+      "topic": "Flugpraxis",
+      "pos": 51,
+      "total_in_topic": 169,
+      "text": "Worauf ist bei der Besichtigung des Landeplatzes in einem neuen Fluggebiet besonders zu achten?",
+      "options": [
+        "Wo ist das nächste Telefon, wie sind die Zufahrtsmöglichkeiten.",
+        "Welche Windrichtungen sind möglich, welche Hindernisse sind bei den entsprechenden Landeanflügen zu beachten.",
+        "Wie sind die Zufahrtsmöglichkeiten, wo ist Platz zum Abbauen des Geräts.",
+        "Wo ist die nächste Arztpraxis, wo ist das nächste Telefon."
+      ],
+      "correct": 1
+    },
+    "Flugpraxis_19": {
+      "qid": 19,
+      "topic": "Flugpraxis",
+      "pos": 52,
+      "total_in_topic": 169,
+      "text": "Angaben über das Vorhandensein von fest installierten hohen Kabeln und deren Verlauf sind zu finden",
+      "options": [
+        "in der VLK.",
+        "im Notam.",
+        "auf der Luftfahrthinderniskarte des Bundes und teilweise auf der Segelflugkarte.",
+        "im DABS."
+      ],
+      "correct": 2
+    },
+    "Flugpraxis_43": {
+      "qid": 43,
+      "topic": "Flugpraxis",
+      "pos": 53,
+      "total_in_topic": 169,
+      "text": "Unmittelbar nach dem Start entdeckt ein Gleitschirmpilot auf der linken Flügelseite einen Knoten in den vorderen Leinen. Welches sind die Folgen für den Weiterflug?",
+      "options": [
+        "Die Sackfluganfälligkeit ist gross und bei einer Rechtsdrehung muss mit einem Strömungsabriss gerechnet werden.",
+        "Das Gerät ist anfälliger auf Turbulenzen und klappt links schneller ein.",
+        "Das Gerät hat rechts eine erhöhte Einklapptendenz, während bei Linksdrehungen mit einem Strömungsabriss gerechnet werden muss.",
+        "Durch Reibung können die A-Leinen reissen, was den Absturz zur Folge hat."
+      ],
+      "correct": 1
+    },
+    "Flugpraxis_154": {
+      "qid": 154,
+      "topic": "Flugpraxis",
+      "pos": 54,
+      "total_in_topic": 169,
+      "text": "Wann setzen die meisten Gemsen und Steingeissen ihre Kitze?",
+      "options": [
+        "März",
+        "April",
+        "Oktober",
+        "Mai-Juni"
+      ],
+      "correct": 3
+    },
+    "Flugpraxis_33": {
+      "qid": 33,
+      "topic": "Flugpraxis",
+      "pos": 55,
+      "total_in_topic": 169,
+      "text": "Welche Folgen hat es, wenn die Kalotte nass ist?",
+      "options": [
+        "Start-, Flug- und Landegeschwindigkeit werden entscheidend erhöht.",
+        "Die Gleitleistung des Gleitschirms wird stark vermindert.",
+        "Der Gleitschirm ist imprägniert und kann nicht nass werden.",
+        "Die Kalotte lässt sich schwerer füllen und aufziehen, und die Strömung kann bei weniger Bremseinsatz als üblich abreissen."
+      ],
+      "correct": 3
+    },
+    "Flugpraxis_97": {
+      "qid": 97,
+      "topic": "Flugpraxis",
+      "pos": 56,
+      "total_in_topic": 169,
+      "text": "Beim Absteigen mit eingeklappten Ohren gilt es zu beachten, dass",
+      "options": [
+        "der Körper extremer Belastung ausgesetzt ist.",
+        "das Gerät äusserst instabil fliegt.",
+        "das Gerät nicht gleichzeitig beschleunigt werden sollte, um die Gefahr eines Frontklappers möglichst in Grenzen zu halten.",
+        "durch gleichzeitiges Beschleunigen die Sackfluggefahr minimiert und das Sinken erhöht werden kann."
+      ],
+      "correct": 3
+    },
+    "Flugpraxis_11": {
+      "qid": 11,
+      "topic": "Flugpraxis",
+      "pos": 57,
+      "total_in_topic": 169,
+      "text": "Zürich-Kloten meldet einen QNH von 1'015, Lugano einen QNH von 1'007. Was heisst das?",
+      "options": [
+        "In Zürich-Kloten liegt kältere Luft von grösserer Dichte als in Lugano. Gute thermische Aufwinde sind für diesen Tag vor allem auf der Alpennordseite zu erwarten.",
+        "Das Druckgefälle zwischen Zürich und Lugano erzeugt über den Alpen eine starke Nordströmung mit Staubewölkung auf der Alpennord- und Nordföhn auf der Alpensüdseite.",
+        "Das Druckgefälle zwischen Lugano und Zürich erzeugt über den Alpen eine starke Südströmung mit Staubewölkung auf der Alpensüd- und Südföhn auf der Alpennordseite.",
+        "Da Zürich-Kloten höher liegt als Lugano, ist auch der Druck etwas höher. Auf Meereshöhe umgerechnet ist der Druck über den Alpen flach, der Wind entsprechend schwach."
+      ],
+      "correct": 1
+    },
+    "Flugpraxis_165": {
+      "qid": 165,
+      "topic": "Flugpraxis",
+      "pos": 58,
+      "total_in_topic": 169,
+      "text": "Ich befinde mich am Startplatz und erfahre über Funk, dass sich am Landeplatz ein Unfall ereignet hat und ein Rettungshelikopter aufgeboten wurde. Wie verhalte ich mich richtig?",
+      "options": [
+        "Ich starte möglichst schnell, um noch vor dem Rettungshelikopter landen zu können. Anschliessend helfe ich den Rettungskräften.",
+        "Ich starte und suche sofort nach dem Start einen guten Thermikschlauch, um die Zeit bis zum Abflug des Helikopters sinnvoll zu überbrücken.",
+        "Ich starte und lande auf der Wiese unmittelbar neben dem offiziellen Landeplatz. So lange der Rotor des Helikopters nicht dreht, darf ich auch unmittelbar neben dem Helikopter landen.",
+        "Ich warte mit dem Start, bis die Rettungsaktion vorbei ist und der Rettungshelikopter das Gebiet verlassen hat. Ich informiere andere Piloten am Startplatz über das Ereignis und bitte sie, mit dem Start ebenfalls zu warten."
+      ],
+      "correct": 3
+    },
+    "Flugpraxis_62": {
+      "qid": 62,
+      "topic": "Flugpraxis",
+      "pos": 59,
+      "total_in_topic": 169,
+      "text": "Ein Hängegleiter kreist während 10 min. in der Thermik. Sein Standort gegenüber dem Boden verschiebt sich während dieser Zeit um 3 km. Welche Aussage lässt sich über die Windstärke machen?",
+      "options": [
+        "Sie beträgt 30 km/h.",
+        "Sie beträgt 18 km/h.",
+        "Am Boden muss mit Starkwind gerechnet werden.",
+        "Sie lässt sich aufgrund der Angaben nicht bestimmen."
+      ],
+      "correct": 1
+    },
+    "Flugpraxis_59": {
+      "qid": 59,
+      "topic": "Flugpraxis",
+      "pos": 60,
+      "total_in_topic": 169,
+      "text": "Der Vorhaltewinkel",
+      "options": [
+        "wird von der Fluggeschwindigkeit nicht beeinflusst.",
+        "ist immer die Hälfte des Winkels zwischen Wind und Flugweg.",
+        "wird verkleinert, wenn die Fluggeschwindigkeit erhöht wird.",
+        "wird vergrössert, wenn die Fluggeschwindigkeit erhöht wird."
+      ],
+      "correct": 2
     }
   },
   "topics": {
