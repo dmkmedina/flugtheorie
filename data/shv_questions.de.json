@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-05-29T08:54:02.903Z",
+  "fetchedAt": "2026-05-29T08:54:44.684Z",
   "questions": {
     "Fluglehre_152": {
       "qid": 152,
@@ -2968,10 +2968,123 @@
         "< 1°C / 100 m"
       ],
       "correct": null
+    },
+    "Gesetzgebung_180": {
+      "qid": 180,
+      "topic": "Gesetzgebung",
+      "pos": 180,
+      "total_in_topic": 180,
+      "text": "Hängegleiter mit Elektroantrieb dürfen",
+      "options": [
+        "auf vom SHV bezeichneten und vom BAZL genehmigten Elektrolandefeldern starten.",
+        "nur auf Flugplätzen starten.",
+        "auf jeder Wiese starten.",
+        "nur auf Flugfeldern starten."
+      ],
+      "correct": null
+    },
+    "Gesetzgebung_84": {
+      "qid": 84,
+      "topic": "Gesetzgebung",
+      "pos": 1,
+      "total_in_topic": 180,
+      "text": "In der Schweiz kommen die Luftraumklassen",
+      "options": [
+        "A, C, E und G vor.",
+        "A, D, E und G vor.",
+        "C, D, E und G vor.",
+        "B, C, E und G vor."
+      ],
+      "correct": 2
+    },
+    "Gesetzgebung_126": {
+      "qid": 126,
+      "topic": "Gesetzgebung",
+      "pos": 2,
+      "total_in_topic": 180,
+      "text": "Der Luftraum wird von verschiedenen Kategorien von Luftfahrzeugen benützt, die entsprechend ihrer Möglichkeiten Priorität (Vortritt) geniessen. Welche Aussage ist richtig?",
+      "options": [
+        "Hängegleiter und Luftschiffe haben Vortritt vor Ballonen.",
+        "Ballone und Hängegleiter haben Vortritt vor Luftschiffen.",
+        "Ballone, Hängegleiter und Luftschiffe gehören zur selben Luftfahrzeugkategorie.",
+        "Ballone und Luftschiffe haben Vortritt vor Hängegleitern."
+      ],
+      "correct": 1
+    },
+    "Gesetzgebung_153": {
+      "qid": 153,
+      "topic": "Gesetzgebung",
+      "pos": 4,
+      "total_in_topic": 180,
+      "text": "Welche Regeln gelten für Hängegleiter am mit x bezeichneten Ort auf 2700 m AMSL an einem Sonntag um 14 Uhr im August?",
+      "options": [
+        "Maximalhöhe 3050 m AMSL, minimale Sichtweite 5 km, Wolkenabstände 1500 m horizontal / 300 m vertikal",
+        "Maximalhöhe 3050 m AMSL, minimale Sichtweite 5 km, Wolkenabstände 100 m horizontal / 50 m vertikal",
+        "Maximalhöhe 4550 m AMSL, minimale Sichtweite 8 km, Wolkenabstände 1500 m horizontal / 300 m vertikal",
+        "Fliegen verboten"
+      ],
+      "correct": 0
+    },
+    "Gesetzgebung_156": {
+      "qid": 156,
+      "topic": "Gesetzgebung",
+      "pos": 5,
+      "total_in_topic": 180,
+      "text": "Welche Regeln gelten für Hängegleiter am mit x bezeichneten Ort auf 2800 m AMSL (~1200 m AGL) an einem Montag um 15 Uhr im Februar, wobei gemäss DABS LS-D14 (rot) = aktiv.",
+      "options": [
+        "Maximalhöhe 3950 m AMSL, minimale Sichtweite 5 km, Wolkenabstände 1500 m horizontal / 300 m vertikal, Fliegen unterhalb 2200 m AMSL lebensgefährlich",
+        "Maximalhöhe 4550 m AMSL, minimale Sichtweite 8 km, Wolkenabstände 1500 m horizontal / 300 m vertikal, Fliegen unterhalb 2200 m AMSL verboten",
+        "Fliegen verboten",
+        "Maximalhöhe 2200 m AMSL, minimale Sichtweite 5 km, Wolkenabstände 1500 m horizontal / 300 m vertikal,"
+      ],
+      "correct": 0
+    },
+    "Gesetzgebung_72": {
+      "qid": 72,
+      "topic": "Gesetzgebung",
+      "pos": 7,
+      "total_in_topic": 180,
+      "text": "Auf welcher Höhe befindet sich FL 100 ca.?",
+      "options": [
+        "3'050 m über Meer.",
+        "1'000 m über Grund.",
+        "1'000 m über Meer.",
+        "4'550 m über Meer."
+      ],
+      "correct": 0
+    },
+    "Gesetzgebung_142": {
+      "qid": 142,
+      "topic": "Gesetzgebung",
+      "pos": 9,
+      "total_in_topic": 180,
+      "text": "Aus der Luft ist zu erkennen, dass ein gelbes Kreuz auf rotem Grund mitten auf dem Landeplatz liegt. Dies bedeutet,",
+      "options": [
+        "dass das Landen auf dem Landeplatz zur Zeit verboten ist.",
+        "dass der Landeplatz mit einer Rechtsvolte anzufliegen ist.",
+        "dass alle Piloten in Ausbildung möglichst nahe beim gelben Kreuz landen sollen.",
+        "dass alle Piloten verpflichtet sind, möglichst nahe beim gelben Kreuz zu landen."
+      ],
+      "correct": 0
+    },
+    "Gesetzgebung_83": {
+      "qid": 83,
+      "topic": "Gesetzgebung",
+      "pos": 10,
+      "total_in_topic": 180,
+      "text": "Von den Luftraumklassen, welche die ICAO definiert hat, finden in der Schweiz",
+      "options": [
+        "fünf Anwendung.",
+        "vier Anwendung.",
+        "sechs Anwendung.",
+        "drei Anwendung."
+      ],
+      "correct": 1
     }
   },
   "topics": {
     "Fluglehre": 152,
-    "Wetterkunde": 164
+    "Wetterkunde": 164,
+    "Gesetzgebung": 180
   }
 }
