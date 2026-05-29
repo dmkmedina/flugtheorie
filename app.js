@@ -116,7 +116,7 @@ const STRINGS = {
     'nav.workbook': 'Workbook',
     'nav.shv-exam': 'SHV Practice',
     'nav.shv-browse': 'SHV Browse',
-    'nav.guide': 'Study Guide (EN)',
+    'nav.guide': 'Study Guide',
     'nav.slides': 'Slide Decks',
     'nav.videos': 'Videos (EN subs)',
     'nav.cheatsheet': 'Cheat Sheet',
@@ -170,7 +170,7 @@ const STRINGS = {
     'nav.workbook': 'Arbeitsbuch',
     'nav.shv-exam': 'SHV-Prüfung',
     'nav.shv-browse': 'SHV-Übersicht',
-    'nav.guide': 'Lernführer (EN)',
+    'nav.guide': 'Studienführer',
     'nav.slides': 'Folien',
     'nav.videos': 'Videos (DE-Untertitel)',
     'nav.cheatsheet': 'Spickzettel',
@@ -277,8 +277,16 @@ function getSHVSubcategoryFor(qid) {
   const subs = getSHVSubcategoriesForTopic(e.topic);
   return subs.find(s => s.id === e.subcategory) || { id: e.subcategory, title: e.subcategory };
 }
-function getGuide() { return window.GUIDE || { parts: [] }; }
-function getTipsMd() { return window.TIPS_MD || ''; }
+function getGuide() {
+  if (state.lang === 'de' && window.GUIDE_DE && window.GUIDE_DE.parts && window.GUIDE_DE.parts.length) {
+    return window.GUIDE_DE;
+  }
+  return window.GUIDE || { parts: [] };
+}
+function getTipsMd() {
+  if (state.lang === 'de' && window.TIPS_MD_DE) return window.TIPS_MD_DE;
+  return window.TIPS_MD || '';
+}
 function getDecks() { return (window.DECKS && window.DECKS.decks) || []; }
 function getVideoManifest() { return window.VIDEO_MANIFEST || { decks: [] }; }
 function getVideoDecks() { return getVideoManifest().decks || []; }
@@ -507,7 +515,106 @@ function renderDashboard() {
   const totalSlides = decks.reduce((a, d) => a + (d.slides?.length || 0), 0);
   const shvImageCount = Object.values(shvPool).filter(q => q.has_image).length;
 
-  const sections = [
+  const isDE = state.lang === 'de';
+  const sections = isDE ? [
+    {
+      id: 'shv-exam',
+      icon: '🎯',
+      title: 'SHV-Übungsprüfung',
+      tagline: 'Die echte Prüfung absolvieren — unter Prüfungsbedingungen oder entspannt zum Üben.',
+      bullets: [
+        `<strong>${shvTotal}</strong> Fragen aus dem offiziellen SHV-E-Learning-Pool zu ${shvTopics} Themen`,
+        'Zeitmodus simuliert die echte 90-minütige Prüfung · Lernmodus zeigt Antworten und Erklärungen direkt an',
+        'Auswertung nach Unterthema nach jedem Versuch — so weisst du, woran du arbeiten musst',
+      ],
+      cta: 'Übung starten',
+      primary: true,
+    },
+    {
+      id: 'shv-browse',
+      icon: '🗂️',
+      title: 'SHV-Übersicht',
+      tagline: 'Jede Frage erkunden, ohne eine Prüfung zu starten.',
+      bullets: [
+        `Baumansicht aller <strong>${shvTotal}</strong> Fragen, gegliedert in ${subcats} Unterthemen`,
+        'Jede Frage aufklappbar mit richtiger Antwort, Erklärung, verwandten Lernführer-/Arbeitsbuch-Kapiteln, Videoclips, Diagrammen und Folien',
+        'Volltextsuche über Fragetexte und Antworten',
+      ],
+      cta: 'Übersicht öffnen',
+    },
+    {
+      id: 'workbook',
+      icon: '📒',
+      title: 'Arbeitsbuch',
+      tagline: 'Strukturiertes Lernen Kapitel für Kapitel mit Quizzen.',
+      bullets: [
+        `<strong>${wbChapters}</strong> Kapitel in ${books.length} Büchern${hasGermanWorkbook() ? ' (EN + DE)' : ''}`,
+        'Jedes Kapitel kombiniert Fliesstext, Hinweise, Definitionen, Tabellen und ein Quiz am Ende',
+        'Abgeglichen mit den Videotranskripten von Free Wings und Air Active',
+      ],
+      cta: 'Arbeitsbuch öffnen',
+    },
+    {
+      id: 'guide',
+      icon: '📚',
+      title: 'Studienführer',
+      tagline: 'Fliesstext-Kommentar zur Theorieprüfung — auf Deutsch und Englisch.',
+      bullets: [
+        `<strong>${guideChapters}</strong> Kapitel in ${guideParts} Teilen (Aerodynamik · Meteo · Recht · Ausrüstung · Flugtechnik)`,
+        `${guideDiagrams} eigens erstellte SVG-Diagramme, einzelnen Kapiteln zugeordnet`,
+        'Querverweise auf Fragenummern für schnelles Nachschlagen',
+      ],
+      cta: 'Studienführer öffnen',
+    },
+    {
+      id: 'videos',
+      icon: '📺',
+      title: 'Videolektionen',
+      tagline: 'Schau den Instruktoren mit Untertiteln über die Schulter.',
+      bullets: [
+        `<strong>${videos.length}</strong> Videos · insgesamt rund ${videoHours.toFixed(1)} Stunden von Free Wings und Air Active`,
+        `Zweisprachige Untertitel (${enSubs} EN, ${deSubs} DE) — direkt im Player umschaltbar`,
+        'Klick auf eine Transkript-Zeile springt das Video an diese Stelle',
+      ],
+      cta: 'Videos öffnen',
+    },
+    {
+      id: 'slides',
+      icon: '🎬',
+      title: 'Foliensätze',
+      tagline: 'Die originalen Instruktorenfolien, parallel zum Durchblättern.',
+      bullets: [
+        `<strong>${totalSlides}</strong> Folien in ${decks.length} Foliensätzen`,
+        'EN- und DE-Begleittext im Folienbetrachter nebeneinander',
+        'Verlinkt aus der SHV-Übersicht und dem Lernmodus, sobald eine Frage zu einer Folie passt',
+      ],
+      cta: 'Folien öffnen',
+    },
+    {
+      id: 'cheatsheet',
+      icon: '⚡',
+      title: 'Spickzettel',
+      tagline: 'Hochverdichtete Einzelseite mit den Zahlen, die sitzen müssen.',
+      bullets: [
+        'ISA-Atmosphäre · Wolkenabstand-Tabelle · Föhn-Grenzwerte · Regeln zu Luftraumklassen',
+        'Bestehensgrenzen für das Brevet · wichtige Schweiz-spezifische Werte',
+        'Gedacht für die letzte Repetition am Vorabend der Prüfung',
+      ],
+      cta: 'Spickzettel öffnen',
+    },
+    {
+      id: 'tips',
+      icon: '💡',
+      title: 'Lerntipps',
+      tagline: 'Wie der Stoff wirklich hängenbleibt.',
+      bullets: [
+        'Rhythmus für verteiltes Lernen (Spaced Repetition) und wie du damit den SHV-Pool angehst',
+        'Strategie für den Prüfungstag (Überspringen/Markieren, Zeitbudget, typische Fallen)',
+        'Quellen sind angegeben, damit du tiefer einsteigen kannst',
+      ],
+      cta: 'Tipps lesen',
+    },
+  ] : [
     {
       id: 'shv-exam',
       icon: '🎯',
@@ -549,7 +656,7 @@ function renderDashboard() {
       id: 'guide',
       icon: '📚',
       title: 'Study Guide',
-      tagline: 'Long-form prose for the theory exam (English).',
+      tagline: 'Long-form prose for the theory exam — available in English and German.',
       bullets: [
         `<strong>${guideChapters}</strong> chapters across ${guideParts} parts (Aero · Meteo · Law · Equipment · Skills)`,
         `${guideDiagrams} custom SVG diagrams keyed to specific chapters`,
@@ -607,11 +714,17 @@ function renderDashboard() {
     },
   ];
 
-  const langLine = state.lang === 'de' ? 'auf Deutsch' : 'in English';
+  const langLine = isDE ? 'auf Deutsch' : 'in English';
   const enrichedNote = enrichedCount > 0
-    ? `${enrichedCount} (${enrichedPct}%) carry a written explanation and curated cross-references.`
+    ? (isDE
+        ? `${enrichedCount} (${enrichedPct}%) eine ausführliche Erklärung und kuratierte Querverweise haben.`
+        : `${enrichedCount} (${enrichedPct}%) carry a written explanation and curated cross-references.`)
     : '';
-  const imageNote = shvImageCount > 0 ? ` · ${shvImageCount} include the reference figure.` : '';
+  const imageNote = shvImageCount > 0
+    ? (isDE
+        ? ` · ${shvImageCount} enthalten die Bezugsabbildung.`
+        : ` · ${shvImageCount} include the reference figure.`)
+    : '';
 
   const sectionsHtml = sections.map(s => `
     <div class="dashboard-section ${s.primary ? 'dashboard-section-primary' : ''}">
@@ -629,16 +742,23 @@ function renderDashboard() {
     </div>
   `).join('');
 
+  const subtitle = isDE
+    ? `Lernwerkzeuge für die Theorieprüfung Gleitschirm SHV/FSVL — gerade ${langLine} dargestellt. Umschalten 🇬🇧/🇩🇪 in der Seitenleiste unten.`
+    : `Study tools for the Swiss SHV/FSVL paragliding theory exam — currently rendering ${langLine}. Toggle 🇬🇧/🇩🇪 in the sidebar footer.`;
+  const summary = isDE
+    ? `Die App enthält <strong>${shvTotal}</strong> SHV-Prüfungsfragen${enrichedCount > 0 ? `, von denen ${enrichedNote}` : ''}${imageNote}
+          Dazu kommen: ${wbChapters} Arbeitsbuch-Kapitel, ${guideChapters} Studienführer-Kapitel, ${videos.length} Videolektionen (~${videoHours.toFixed(1)} h) und ${totalSlides} Folien.`
+    : `The app has <strong>${shvTotal}</strong> SHV exam questions${enrichedCount > 0 ? `, of which ${enrichedNote}` : ''}${imageNote}
+          On top of that: ${wbChapters} workbook chapters, ${guideChapters} study-guide chapters, ${videos.length} video lessons (~${videoHours.toFixed(1)} h), and ${totalSlides} slides.`;
   return `
     <div class="page-header">
       <h1>${t('page.dashboard.h1')}</h1>
-      <p class="page-subtitle">Study tools for the Swiss SHV/FSVL paragliding theory exam — currently rendering ${langLine}. Toggle 🇬🇧/🇩🇪 in the sidebar footer.</p>
+      <p class="page-subtitle">${subtitle}</p>
     </div>
     ${shvTotal > 0 ? `
       <div class="card dashboard-summary">
         <p style="margin:0; font-size:14px; line-height:1.5;">
-          The app has <strong>${shvTotal}</strong> SHV exam questions${enrichedCount > 0 ? `, of which ${enrichedNote}` : ''}${imageNote}
-          On top of that: ${wbChapters} workbook chapters, ${guideChapters} study-guide chapters, ${videos.length} video lessons (~${videoHours.toFixed(1)} h), and ${totalSlides} slides.
+          ${summary}
         </p>
       </div>
     ` : ''}
@@ -693,7 +813,7 @@ function renderFlashcards() {
 
   const subtabsHtml = `
     <div class="subtabs">
-      <button class="subtab ${cat === 'all' ? 'active' : ''}" data-fc-cat="all">All <span class="count">${getCards().length}</span></button>
+      <button class="subtab ${cat === 'all' ? 'active' : ''}" data-fc-cat="all">${state.lang === 'de' ? 'Alle' : 'All'} <span class="count">${getCards().length}</span></button>
       ${CATEGORIES.map(c => {
         const list = cardsForCategory(c);
         const m = CATEGORY_META[c];
@@ -701,19 +821,21 @@ function renderFlashcards() {
       }).join('')}
     </div>`;
 
+  const isDELang = state.lang === 'de';
   const modeBar = `
     <div class="controls-bar">
       <div class="left">
         <div class="pill-toggle">
           ${['flashcards','quiz','type','review','browse'].map(m => {
-            const label = { flashcards:'Flashcards', quiz:'Multiple choice', type:'Type answer', review:'Smart review', browse:'Browse' }[m];
-            return `<button class="pill ${mode === m ? 'active' : ''}" data-fc-mode="${m}">${label}</button>`;
+            const labelEn = { flashcards:'Flashcards', quiz:'Multiple choice', type:'Type answer', review:'Smart review', browse:'Browse' }[m];
+            const labelDe = { flashcards:'Lernkarten', quiz:'Multiple Choice', type:'Antwort tippen', review:'Smart Review', browse:'Durchsuchen' }[m];
+            return `<button class="pill ${mode === m ? 'active' : ''}" data-fc-mode="${m}">${isDELang ? labelDe : labelEn}</button>`;
           }).join('')}
         </div>
       </div>
       <div class="right">
         ${mode !== 'browse' && mode !== 'review' ? `
-          <label class="toggle"><input type="checkbox" id="fc-shuffle" ${state.fc.shuffle ? 'checked' : ''}> Shuffle</label>
+          <label class="toggle"><input type="checkbox" id="fc-shuffle" ${state.fc.shuffle ? 'checked' : ''}> ${isDELang ? 'Mischen' : 'Shuffle'}</label>
         ` : ''}
       </div>
     </div>
@@ -730,10 +852,13 @@ function renderFlashcards() {
     body = renderFcType();
   }
 
+  const isDE = state.lang === 'de';
   return `
     <div class="page-header">
-      <h1>Flashcards</h1>
-      <p class="page-subtitle">${getCards().length} cards across ${CATEGORIES.length} categories · 50 m vertical, 100 m horizontal in your head 🌥️</p>
+      <h1>${isDE ? 'Lernkarten' : 'Flashcards'}</h1>
+      <p class="page-subtitle">${isDE
+        ? `${getCards().length} Karten in ${CATEGORIES.length} Kategorien · 50 m vertikal, 100 m horizontal sitzen im Kopf 🌥️`
+        : `${getCards().length} cards across ${CATEGORIES.length} categories · 50 m vertical, 100 m horizontal in your head 🌥️`}</p>
     </div>
     ${subtabsHtml}
     ${modeBar}
@@ -742,20 +867,23 @@ function renderFlashcards() {
 }
 
 function renderFlashcardMode(mode) {
+  const isDE = state.lang === 'de';
   const card = currentFcCard();
-  if (!card) return `<div class="empty"><div class="emoji">🎉</div><div>No cards in this view.</div></div>`;
+  if (!card) return `<div class="empty"><div class="emoji">🎉</div><div>${isDE ? 'Keine Karten in dieser Ansicht.' : 'No cards in this view.'}</div></div>`;
   const i = state.fc.index;
   const total = _fcDeck.length;
   const meta = CATEGORY_META[card.category];
   const prog = cardProgress(card.id);
-  const boxLabel = ['New', 'Learning', 'Familiar', 'Known', 'Mastered'][prog.box];
+  const boxLabel = isDE
+    ? ['Neu', 'Lernen', 'Vertraut', 'Sicher', 'Gemeistert'][prog.box]
+    : ['New', 'Learning', 'Familiar', 'Known', 'Mastered'][prog.box];
   const deck = getDeckByCategory(card.category);
 
   return `
     <div class="flashcard">
       <div class="fc-meta">
-        <div><span class="cat-dot" style="background:${meta.color}"></span>${meta.icon} ${card.category}${mode === 'review' ? ' · Smart Review' : ''}</div>
-        <div>Card ${i + 1} / ${total} · <span class="badge ${prog.box >= 3 ? 'good' : prog.box >= 1 ? 'info' : ''}">${boxLabel}</span></div>
+        <div><span class="cat-dot" style="background:${meta.color}"></span>${meta.icon} ${card.category}${mode === 'review' ? (isDE ? ' · Smart Review' : ' · Smart Review') : ''}</div>
+        <div>${isDE ? 'Karte' : 'Card'} ${i + 1} / ${total} · <span class="badge ${prog.box >= 3 ? 'good' : prog.box >= 1 ? 'info' : ''}">${boxLabel}</span></div>
       </div>
       <div class="fc-question">
         <span class="lang-tag">EN</span><span class="ct">${escapeHtml(card.q_en)}</span>
@@ -766,32 +894,33 @@ function renderFlashcardMode(mode) {
           <span class="lang-tag">A</span><span class="ct">${escapeHtml(card.a_en)}</span>
           <span class="a-de"><span class="lang-tag">DE</span><span class="ct">${escapeHtml(card.a_de)}</span></span>
         </div>
-      ` : `<button class="reveal-btn" id="reveal-btn">Show answer · <span class="kbd" style="color:white; background:rgba(255,255,255,0.2); border-color:transparent;">Space</span></button>`}
+      ` : `<button class="reveal-btn" id="reveal-btn">${isDE ? 'Antwort zeigen' : 'Show answer'} · <span class="kbd" style="color:white; background:rgba(255,255,255,0.2); border-color:transparent;">Space</span></button>`}
       ${_fcReveal && deck ? `
         <div class="flashcard-slides-hint">
-          <span>🎬 Want a visual explanation?</span>
-          <button class="slides-link" data-open-deck="${deck.id}">${deck.icon} ${escapeHtml(deck.title)} deck · ${deckSlideCount(deck)} slides</button>
+          <span>${isDE ? '🎬 Möchtest du eine bildliche Erklärung?' : '🎬 Want a visual explanation?'}</span>
+          <button class="slides-link" data-open-deck="${deck.id}">${deck.icon} ${escapeHtml(deck.title)} ${isDE ? 'Foliensatz' : 'deck'} · ${deckSlideCount(deck)} ${isDE ? 'Folien' : 'slides'}</button>
         </div>
       ` : ''}
       ${_fcReveal ? `
         <div class="srs-controls">
-          <button class="srs-btn srs-again" data-srs="again"><span class="srs-emoji">😵</span>Again<span class="srs-sub">1</span></button>
-          <button class="srs-btn srs-hard" data-srs="hard"><span class="srs-emoji">🤔</span>Hard<span class="srs-sub">2</span></button>
-          <button class="srs-btn srs-good" data-srs="good"><span class="srs-emoji">👍</span>Good<span class="srs-sub">3</span></button>
-          <button class="srs-btn srs-easy" data-srs="easy"><span class="srs-emoji">🎯</span>Easy<span class="srs-sub">4</span></button>
+          <button class="srs-btn srs-again" data-srs="again"><span class="srs-emoji">😵</span>${isDE ? 'Nochmal' : 'Again'}<span class="srs-sub">1</span></button>
+          <button class="srs-btn srs-hard" data-srs="hard"><span class="srs-emoji">🤔</span>${isDE ? 'Schwer' : 'Hard'}<span class="srs-sub">2</span></button>
+          <button class="srs-btn srs-good" data-srs="good"><span class="srs-emoji">👍</span>${isDE ? 'Gut' : 'Good'}<span class="srs-sub">3</span></button>
+          <button class="srs-btn srs-easy" data-srs="easy"><span class="srs-emoji">🎯</span>${isDE ? 'Leicht' : 'Easy'}<span class="srs-sub">4</span></button>
         </div>
       ` : ''}
     </div>
     <div class="nav-controls">
-      <button class="btn" id="prev-btn" ${i === 0 ? 'disabled' : ''}>← Previous</button>
-      <button class="btn primary" id="next-btn">Next →</button>
+      <button class="btn" id="prev-btn" ${i === 0 ? 'disabled' : ''}>${isDE ? '← Zurück' : '← Previous'}</button>
+      <button class="btn primary" id="next-btn">${isDE ? 'Weiter →' : 'Next →'}</button>
     </div>
   `;
 }
 
 function renderFcQuiz() {
+  const isDE = state.lang === 'de';
   const card = currentFcCard();
-  if (!card) return `<div class="empty">No cards.</div>`;
+  if (!card) return `<div class="empty">${isDE ? 'Keine Karten.' : 'No cards.'}</div>`;
   if (!_fcQuiz || _fcQuiz.cardId !== card.id) {
     const distractors = distractorsFor(card);
     _fcQuiz = { cardId: card.id, choices: shuffle([card.a_en, ...distractors]), answer: null };
@@ -805,7 +934,7 @@ function renderFcQuiz() {
     <div class="flashcard">
       <div class="fc-meta">
         <div><span class="cat-dot" style="background:${meta.color}"></span>${meta.icon} ${card.category}</div>
-        <div>Question ${i + 1} / ${total}</div>
+        <div>${isDE ? 'Frage' : 'Question'} ${i + 1} / ${total}</div>
       </div>
       <div class="fc-question">
         <span class="lang-tag">EN</span><span class="ct">${escapeHtml(card.q_en)}</span>
@@ -826,20 +955,21 @@ function renderFcQuiz() {
       </div>
       ${_fcQuiz.answer !== null ? `
         <div class="fc-answer">
-          <span class="lang-tag">DE Answer</span><span class="ct">${escapeHtml(card.a_de)}</span>
+          <span class="lang-tag">${isDE ? 'DE Antwort' : 'DE Answer'}</span><span class="ct">${escapeHtml(card.a_de)}</span>
         </div>
       ` : ''}
     </div>
     <div class="nav-controls">
-      <button class="btn" id="prev-btn" ${i === 0 ? 'disabled' : ''}>← Previous</button>
-      <button class="btn primary" id="next-btn">Next →</button>
+      <button class="btn" id="prev-btn" ${i === 0 ? 'disabled' : ''}>${isDE ? '← Zurück' : '← Previous'}</button>
+      <button class="btn primary" id="next-btn">${isDE ? 'Weiter →' : 'Next →'}</button>
     </div>
   `;
 }
 
 function renderFcType() {
+  const isDE = state.lang === 'de';
   const card = currentFcCard();
-  if (!card) return `<div class="empty">No cards.</div>`;
+  if (!card) return `<div class="empty">${isDE ? 'Keine Karten.' : 'No cards.'}</div>`;
   const i = state.fc.index;
   const total = _fcDeck.length;
   const meta = CATEGORY_META[card.category];
@@ -848,33 +978,36 @@ function renderFcType() {
     <div class="flashcard">
       <div class="fc-meta">
         <div><span class="cat-dot" style="background:${meta.color}"></span>${meta.icon} ${card.category}</div>
-        <div>Card ${i + 1} / ${total}</div>
+        <div>${isDE ? 'Karte' : 'Card'} ${i + 1} / ${total}</div>
       </div>
       <div class="fc-question">
         <span class="lang-tag">EN</span><span class="ct">${escapeHtml(card.q_en)}</span>
         <span class="q-de"><span class="lang-tag">DE</span><span class="ct">${escapeHtml(card.q_de)}</span></span>
       </div>
-      <textarea class="textarea" id="type-input" placeholder="Type your answer in your own words (English or German)…"></textarea>
+      <textarea class="textarea" id="type-input" placeholder="${isDE ? 'Tippe deine Antwort in eigenen Worten (Deutsch oder Englisch)…' : 'Type your answer in your own words (English or German)…'}"></textarea>
       ${_fcTypeFeedback ? `
         <div class="feedback ${_fcTypeFeedback.kind}">
-          ${_fcTypeFeedback.kind === 'good' ? `✓ Looks right (${_fcTypeFeedback.pct}% keyword match)` :
-            _fcTypeFeedback.kind === 'warn' ? `~ Partial (${_fcTypeFeedback.pct}% match) — review correct answer below` :
-            `✗ Not quite (${_fcTypeFeedback.pct}% match) — see correct answer below`}
+          ${_fcTypeFeedback.kind === 'good'
+            ? (isDE ? `✓ Sieht gut aus (${_fcTypeFeedback.pct}% Schlüsselwort-Treffer)` : `✓ Looks right (${_fcTypeFeedback.pct}% keyword match)`)
+            : _fcTypeFeedback.kind === 'warn'
+            ? (isDE ? `~ Teilweise (${_fcTypeFeedback.pct}% Treffer) — schau dir die richtige Antwort unten an` : `~ Partial (${_fcTypeFeedback.pct}% match) — review correct answer below`)
+            : (isDE ? `✗ Nicht ganz (${_fcTypeFeedback.pct}% Treffer) — siehe richtige Antwort unten` : `✗ Not quite (${_fcTypeFeedback.pct}% match) — see correct answer below`)}
         </div>
         <div class="fc-answer">
           <span class="lang-tag">A</span><span class="ct">${escapeHtml(card.a_en)}</span>
           <span class="a-de"><span class="lang-tag">DE</span><span class="ct">${escapeHtml(card.a_de)}</span></span>
         </div>
-      ` : `<button class="reveal-btn" id="check-btn">Check answer</button>`}
+      ` : `<button class="reveal-btn" id="check-btn">${isDE ? 'Antwort prüfen' : 'Check answer'}</button>`}
     </div>
     <div class="nav-controls">
-      <button class="btn" id="prev-btn" ${i === 0 ? 'disabled' : ''}>← Previous</button>
-      <button class="btn primary" id="next-btn">Next →</button>
+      <button class="btn" id="prev-btn" ${i === 0 ? 'disabled' : ''}>${isDE ? '← Zurück' : '← Previous'}</button>
+      <button class="btn primary" id="next-btn">${isDE ? 'Weiter →' : 'Next →'}</button>
     </div>
   `;
 }
 
 function renderBrowse(list) {
+  const isDE = state.lang === 'de';
   const q = state.fc.query.trim().toLowerCase();
   const filtered = q ? list.filter(c =>
     c.q_en.toLowerCase().includes(q) ||
@@ -883,13 +1016,17 @@ function renderBrowse(list) {
     c.a_de.toLowerCase().includes(q)
   ) : list;
   return `
-    <input class="search-input" id="browse-q" type="search" placeholder="Search English or German…" value="${escapeHtml(state.fc.query)}" />
-    <div class="muted" style="margin-bottom:12px; font-size:13px;">Showing <strong>${filtered.length}</strong> of ${list.length} cards</div>
+    <input class="search-input" id="browse-q" type="search" placeholder="${isDE ? 'Deutsch oder Englisch durchsuchen…' : 'Search English or German…'}" value="${escapeHtml(state.fc.query)}" />
+    <div class="muted" style="margin-bottom:12px; font-size:13px;">${isDE
+      ? `Zeige <strong>${filtered.length}</strong> von ${list.length} Karten`
+      : `Showing <strong>${filtered.length}</strong> of ${list.length} cards`}</div>
     <div id="browse-list">
       ${filtered.map(c => {
         const meta = CATEGORY_META[c.category];
         const p = cardProgress(c.id);
-        const boxLabel = ['New', 'Learning', 'Familiar', 'Known', 'Mastered'][p.box];
+        const boxLabel = isDE
+          ? ['Neu', 'Lernen', 'Vertraut', 'Sicher', 'Gemeistert'][p.box]
+          : ['New', 'Learning', 'Familiar', 'Known', 'Mastered'][p.box];
         const badgeCls = p.box >= 3 ? 'good' : p.box >= 1 ? 'info' : '';
         return `
           <div class="browse-card">
@@ -1020,15 +1157,16 @@ function renderQuiz() {
     _quizScore = { right: 0, wrong: 0 };
   }
   const card = _quizQueue[_quizPos];
+  const isDE = state.lang === 'de';
   if (!card) {
     return `
-      <div class="page-header"><h1>Quiz complete</h1></div>
+      <div class="page-header"><h1>${isDE ? 'Quiz abgeschlossen' : 'Quiz complete'}</h1></div>
       <div class="card">
-        <h2 class="card-title">Final score</h2>
+        <h2 class="card-title">${isDE ? 'Endstand' : 'Final score'}</h2>
         <p>${_quizScore.right}/${_quizScore.right + _quizScore.wrong} (${Math.round(100 * _quizScore.right / (_quizScore.right + _quizScore.wrong || 1))}%)</p>
         <div class="row" style="margin-top:14px;">
-          <button class="btn primary" id="quiz-restart">Restart</button>
-          <button class="btn" data-nav="dashboard">Dashboard</button>
+          <button class="btn primary" id="quiz-restart">${isDE ? 'Neustart' : 'Restart'}</button>
+          <button class="btn" data-nav="dashboard">${isDE ? 'Übersicht' : 'Dashboard'}</button>
         </div>
       </div>
     `;
@@ -1043,10 +1181,12 @@ function renderQuiz() {
   return `
     <div class="page-header">
       <h1>Quiz</h1>
-      <p class="page-subtitle">Drill yourself with random multiple-choice questions. Tracks your score for this session.</p>
+      <p class="page-subtitle">${isDE
+        ? 'Übe dich mit zufälligen Multiple-Choice-Fragen. Dein Punktestand wird für diese Sitzung mitgezählt.'
+        : 'Drill yourself with random multiple-choice questions. Tracks your score for this session.'}</p>
     </div>
     <div class="subtabs">
-      <button class="subtab ${_quizCat === 'all' ? 'active' : ''}" data-quiz-cat="all">All <span class="count">${getCards().length}</span></button>
+      <button class="subtab ${_quizCat === 'all' ? 'active' : ''}" data-quiz-cat="all">${isDE ? 'Alle' : 'All'} <span class="count">${getCards().length}</span></button>
       ${CATEGORIES.map(c => `<button class="subtab ${_quizCat === c ? 'active' : ''}" data-quiz-cat="${c}">${CATEGORY_META[c].icon} ${c} <span class="count">${cardsForCategory(c).length}</span></button>`).join('')}
     </div>
     <div class="controls-bar">
@@ -1056,7 +1196,7 @@ function renderQuiz() {
         <span class="muted" style="font-size:12px;">${_quizPos + 1} / ${_quizQueue.length}</span>
       </div>
       <div class="right">
-        <button class="btn ghost small" id="quiz-restart">Restart</button>
+        <button class="btn ghost small" id="quiz-restart">${isDE ? 'Neustart' : 'Restart'}</button>
       </div>
     </div>
     <div class="flashcard">
@@ -1087,8 +1227,8 @@ function renderQuiz() {
       ` : ''}
     </div>
     <div class="nav-controls">
-      <button class="btn" id="quiz-skip">Skip ↷</button>
-      <button class="btn primary" id="quiz-next">${_quizAnswer !== null ? 'Next →' : 'Reveal'}</button>
+      <button class="btn" id="quiz-skip">${isDE ? 'Überspringen ↷' : 'Skip ↷'}</button>
+      <button class="btn primary" id="quiz-next">${_quizAnswer !== null ? (isDE ? 'Weiter →' : 'Next →') : (isDE ? 'Aufdecken' : 'Reveal')}</button>
     </div>
   `;
 }
@@ -1227,34 +1367,45 @@ function renderExam() {
     return renderExamResult(state.exam.lastResult);
   }
   if (!state.exam.active) {
+    const isDE = state.lang === 'de';
     const last = state.exam.history[state.exam.history.length - 1];
     return `
       <div class="page-header">
-        <h1>Mock Exam</h1>
-        <p class="page-subtitle">Simulate the real SHV/FSVL theory exam: 100 questions across all 5 categories, 90 minutes max, 80% per section to pass.</p>
+        <h1>${isDE ? 'Probeprüfung' : 'Mock Exam'}</h1>
+        <p class="page-subtitle">${isDE
+          ? 'Simuliere die echte SHV/FSVL-Theorieprüfung: 100 Fragen aus allen 5 Fachgebieten, höchstens 90 Minuten, mindestens 80 % pro Fachgebiet zum Bestehen.'
+          : 'Simulate the real SHV/FSVL theory exam: 100 questions across all 5 categories, 90 minutes max, 80% per section to pass.'}</p>
       </div>
       <div class="card elevated">
-        <h2 class="card-title">Ready to start?</h2>
+        <h2 class="card-title">${isDE ? 'Bereit zum Start?' : 'Ready to start?'}</h2>
         <ul class="checklist">
-          <li><strong>100 questions</strong> — 20 randomly drawn from each of the 5 categories.</li>
-          <li><strong>90 minutes</strong> — that's 54 seconds per question on average.</li>
-          <li><strong>Pass: ≥16/20 in every section.</strong> Missing even one section means you fail the exam.</li>
-          <li>You can flag questions and return to them — use the question dots at the top.</li>
-          <li>Once you submit you'll see a per-section breakdown.</li>
+          ${isDE ? `
+            <li><strong>100 Fragen</strong> — 20 zufällig gezogene aus jedem der 5 Fachgebiete.</li>
+            <li><strong>90 Minuten</strong> — das sind im Schnitt 54 Sekunden pro Frage.</li>
+            <li><strong>Bestanden: ≥16/20 in jedem Fachgebiet.</strong> Fällt auch nur ein Fachgebiet durch, ist die ganze Prüfung nicht bestanden.</li>
+            <li>Du kannst Fragen markieren und später zu ihnen zurückkehren — über die Punktleiste oben.</li>
+            <li>Nach dem Abgeben siehst du eine Auswertung pro Fachgebiet.</li>
+          ` : `
+            <li><strong>100 questions</strong> — 20 randomly drawn from each of the 5 categories.</li>
+            <li><strong>90 minutes</strong> — that's 54 seconds per question on average.</li>
+            <li><strong>Pass: ≥16/20 in every section.</strong> Missing even one section means you fail the exam.</li>
+            <li>You can flag questions and return to them — use the question dots at the top.</li>
+            <li>Once you submit you'll see a per-section breakdown.</li>
+          `}
         </ul>
         <div class="row" style="margin-top:18px;">
-          <button class="btn primary large" id="exam-start">⏱️ Start exam</button>
-          ${last ? `<button class="btn" id="exam-view-last">View last result</button>` : ''}
+          <button class="btn primary large" id="exam-start">${isDE ? '⏱️ Prüfung starten' : '⏱️ Start exam'}</button>
+          ${last ? `<button class="btn" id="exam-view-last">${isDE ? 'Letztes Ergebnis ansehen' : 'View last result'}</button>` : ''}
         </div>
       </div>
       ${state.exam.history.length > 0 ? `
         <div class="card" style="margin-top:18px;">
-          <h2 class="card-title">Past attempts</h2>
+          <h2 class="card-title">${isDE ? 'Vergangene Versuche' : 'Past attempts'}</h2>
           ${state.exam.history.slice(-5).reverse().map((r, i) => `
             <div class="exam-section-row" style="border-bottom:1px solid var(--border);">
               <div class="name">${new Date(r.finishedAt).toLocaleString()}</div>
               <div class="score">${r.totalRight}/${r.totalCount}</div>
-              <div class="verdict ${r.passed ? 'pass' : 'fail'}">${r.passed ? '✓ Passed' : '✗ Failed'}</div>
+              <div class="verdict ${r.passed ? 'pass' : 'fail'}">${r.passed ? (isDE ? '✓ Bestanden' : '✓ Passed') : (isDE ? '✗ Nicht bestanden' : '✗ Failed')}</div>
             </div>
           `).join('')}
         </div>
@@ -1273,10 +1424,11 @@ function renderExam() {
   const remaining = Math.max(0, state.exam.durationSec - elapsed);
   const answered = state.exam.answers.filter(a => a !== null).length;
 
+  const isDE = state.lang === 'de';
   return `
     <div class="exam-header">
       <div>
-        <strong>Mock Exam</strong> · <span class="muted">${answered}/${state.exam.cards.length} answered</span>
+        <strong>${isDE ? 'Probeprüfung' : 'Mock Exam'}</strong> · <span class="muted">${answered}/${state.exam.cards.length} ${isDE ? 'beantwortet' : 'answered'}</span>
       </div>
       <div class="exam-timer" id="exam-timer">${fmtTime(remaining)}</div>
     </div>
@@ -1293,7 +1445,7 @@ function renderExam() {
       <div class="fc-meta">
         <div><span class="cat-dot" style="background:${meta.color}"></span>${meta.icon} ${card.category}</div>
         <div>
-          <button class="btn small ${state.exam.flagged.includes(i) ? 'primary' : ''}" id="exam-flag">${state.exam.flagged.includes(i) ? '🚩 Flagged' : '🚩 Flag'}</button>
+          <button class="btn small ${state.exam.flagged.includes(i) ? 'primary' : ''}" id="exam-flag">${state.exam.flagged.includes(i) ? (isDE ? '🚩 Markiert' : '🚩 Flagged') : (isDE ? '🚩 Markieren' : '🚩 Flag')}</button>
         </div>
       </div>
       <div class="fc-question">
@@ -1310,25 +1462,28 @@ function renderExam() {
       </div>
     </div>
     <div class="nav-controls">
-      <button class="btn" id="exam-prev" ${i === 0 ? 'disabled' : ''}>← Previous</button>
+      <button class="btn" id="exam-prev" ${i === 0 ? 'disabled' : ''}>${isDE ? '← Zurück' : '← Previous'}</button>
       ${i === state.exam.cards.length - 1
-        ? `<button class="btn primary" id="exam-finish">Finish exam</button>`
-        : `<button class="btn primary" id="exam-next">Next →</button>`}
+        ? `<button class="btn primary" id="exam-finish">${isDE ? 'Prüfung abschliessen' : 'Finish exam'}</button>`
+        : `<button class="btn primary" id="exam-next">${isDE ? 'Weiter →' : 'Next →'}</button>`}
     </div>
     <div class="row" style="margin-top:14px; justify-content:center;">
-      <button class="btn ghost danger small" id="exam-abort">Abort exam</button>
+      <button class="btn ghost danger small" id="exam-abort">${isDE ? 'Prüfung abbrechen' : 'Abort exam'}</button>
     </div>
   `;
 }
 
 function renderExamResult(r) {
+  const isDE = state.lang === 'de';
   const dur = fmtTime(r.duration);
   const circumference = 2 * Math.PI * 60;
   const dashOffset = circumference - circumference * r.scorePct / 100;
   return `
     <div class="page-header">
-      <h1>${r.passed ? '🎉 Exam passed!' : '✗ Exam not passed'}</h1>
-      <p class="page-subtitle">Finished in ${dur}. Score: ${r.totalRight}/${r.totalCount} (${r.scorePct}%)</p>
+      <h1>${r.passed ? (isDE ? '🎉 Prüfung bestanden!' : '🎉 Exam passed!') : (isDE ? '✗ Prüfung nicht bestanden' : '✗ Exam not passed')}</h1>
+      <p class="page-subtitle">${isDE
+        ? `Beendet in ${dur}. Ergebnis: ${r.totalRight}/${r.totalCount} (${r.scorePct}%)`
+        : `Finished in ${dur}. Score: ${r.totalRight}/${r.totalCount} (${r.scorePct}%)`}</p>
     </div>
     <div class="card elevated" style="display:flex; gap:24px; align-items:center; flex-wrap:wrap;">
       <div class="donut">
@@ -1345,7 +1500,7 @@ function renderExamResult(r) {
         </div>
       </div>
       <div style="flex:1; min-width:240px;">
-        <h3 style="margin-top:0;">Per-section breakdown</h3>
+        <h3 style="margin-top:0;">${isDE ? 'Auswertung pro Fachgebiet' : 'Per-section breakdown'}</h3>
         ${CATEGORIES.map(c => {
           const s = r.sections[c];
           const pass = s.right >= 16;
@@ -1353,17 +1508,17 @@ function renderExamResult(r) {
             <div class="exam-section-row">
               <div class="name">${CATEGORY_META[c].icon} ${c}</div>
               <div class="score">${s.right}/${s.total}</div>
-              <div class="verdict ${pass ? 'pass' : 'fail'}">${pass ? '✓' : '✗'} ${pass ? 'Pass' : 'Fail'}</div>
+              <div class="verdict ${pass ? 'pass' : 'fail'}">${pass ? '✓' : '✗'} ${pass ? (isDE ? 'Bestanden' : 'Pass') : (isDE ? 'Nicht bestanden' : 'Fail')}</div>
             </div>
           `;
         }).join('')}
-        <div class="muted" style="font-size:12px; margin-top:10px;">Pass criteria: ≥16/20 (80%) in every section.</div>
+        <div class="muted" style="font-size:12px; margin-top:10px;">${isDE ? 'Bestehensgrenze: ≥16/20 (80 %) in jedem Fachgebiet.' : 'Pass criteria: ≥16/20 (80%) in every section.'}</div>
       </div>
     </div>
     <div class="row" style="margin-top:18px;">
-      <button class="btn primary" id="exam-new">↻ New exam</button>
-      <button class="btn" data-nav="flashcards">📇 Practice weak topics</button>
-      <button class="btn ghost" id="exam-clear">Clear result</button>
+      <button class="btn primary" id="exam-new">${isDE ? '↻ Neue Prüfung' : '↻ New exam'}</button>
+      <button class="btn" data-nav="flashcards">${isDE ? '📇 Schwache Themen üben' : '📇 Practice weak topics'}</button>
+      <button class="btn ghost" id="exam-clear">${isDE ? 'Ergebnis löschen' : 'Clear result'}</button>
     </div>
   `;
 }
@@ -1404,15 +1559,16 @@ function attachExamEvents() {
   };
   const fin = document.getElementById('exam-finish');
   if (fin) fin.onclick = () => {
+    const isDE = state.lang === 'de';
     const unanswered = state.exam.answers.filter(a => a === null).length;
     const msg = unanswered > 0
-      ? `You have ${unanswered} unanswered questions. Finish anyway?`
-      : 'Finish exam and see results?';
+      ? (isDE ? `Du hast ${unanswered} unbeantwortete Fragen. Trotzdem beenden?` : `You have ${unanswered} unanswered questions. Finish anyway?`)
+      : (isDE ? 'Prüfung beenden und Ergebnis ansehen?' : 'Finish exam and see results?');
     if (confirm(msg)) finishExam();
   };
   const abort = document.getElementById('exam-abort');
   if (abort) abort.onclick = () => {
-    if (confirm('Abort the current exam? Progress will be lost.')) {
+    if (confirm(state.lang === 'de' ? 'Aktuelle Prüfung abbrechen? Der Fortschritt geht verloren.' : 'Abort the current exam? Progress will be lost.')) {
       stopExamTimer();
       state.exam.active = false;
       state.exam.lastResult = null;
@@ -1570,7 +1726,7 @@ function finishSHVExam() {
 function renderSHVExam() {
   const pool = getSHVQuestions();
   if (!pool) {
-    return `<div class="empty"><div class="emoji">🎯</div><div>SHV question pool not loaded yet.</div><div class="muted" style="margin-top:8px;">Run <code>node scripts/shv_scrape.mjs</code> and rebuild.</div></div>`;
+    return `<div class="empty"><div class="emoji">🎯</div><div>${state.lang === 'de' ? 'SHV-Fragenpool noch nicht geladen.' : 'SHV question pool not loaded yet.'}</div><div class="muted" style="margin-top:8px;">${state.lang === 'de' ? 'Führe' : 'Run'} <code>node scripts/shv_scrape.mjs</code> ${state.lang === 'de' ? 'aus und baue neu.' : 'and rebuild.'}</div></div>`;
   }
   if (state.shvExam.active) return renderSHVExamLive();
   if (state.shvExam.lastResult) return renderSHVExamResult(state.shvExam.lastResult);
@@ -1602,63 +1758,75 @@ function renderSHVExamSetup() {
         counts[sid] = (counts[sid] || 0) + 1;
       }
       const subOptions = ['all', ...subs.map(s => s.id)].map(sid => {
-        if (sid === 'all') return `<option value="all" ${setup.subcategory === 'all' || !setup.subcategory ? 'selected' : ''}>All subtopics (${byTopic[setup.topic].length})</option>`;
+        if (sid === 'all') return `<option value="all" ${setup.subcategory === 'all' || !setup.subcategory ? 'selected' : ''}>${state.lang === 'de' ? `Alle Unterthemen (${byTopic[setup.topic].length})` : `All subtopics (${byTopic[setup.topic].length})`}</option>`;
         const s = subs.find(x => x.id === sid);
         const n = counts[sid] || 0;
         return `<option value="${escapeHtml(sid)}" ${setup.subcategory === sid ? 'selected' : ''}>${escapeHtml(s.title)} (${n})</option>`;
       }).join('');
       subcategoryFilter = `
         <div style="flex:1; min-width:220px;">
-          <label class="muted" style="font-size:12px;">Subtopic</label>
+          <label class="muted" style="font-size:12px;">${state.lang === 'de' ? 'Unterthema' : 'Subtopic'}</label>
           <select id="shv-setup-subcategory" class="form-select" style="width:100%;">${subOptions}</select>
         </div>
       `;
     }
   }
 
+  const isDE = state.lang === 'de';
   return `
     <div class="page-header">
       <h1>${t('page.shv-exam.h1')}</h1>
-      <p class="page-subtitle">Drawn from the official SHV elearning question pool · ${totalQuestions} questions across ${topics.length} topic${topics.length === 1 ? '' : 's'}.</p>
+      <p class="page-subtitle">${isDE
+        ? `Aus dem offiziellen SHV-E-Learning-Fragenpool · ${totalQuestions} Fragen in ${topics.length} ${topics.length === 1 ? 'Fachgebiet' : 'Fachgebieten'}.`
+        : `Drawn from the official SHV elearning question pool · ${totalQuestions} questions across ${topics.length} topic${topics.length === 1 ? '' : 's'}.`}</p>
     </div>
     <div class="card elevated">
-      <h2 class="card-title">Configure your exam</h2>
+      <h2 class="card-title">${isDE ? 'Prüfung konfigurieren' : 'Configure your exam'}</h2>
       <div class="row" style="flex-wrap:wrap; gap:14px;">
         <div style="flex:1; min-width:240px;">
-          <label class="muted" style="font-size:12px;">Topic</label>
+          <label class="muted" style="font-size:12px;">${isDE ? 'Fachgebiet' : 'Topic'}</label>
           <select id="shv-setup-topic" class="form-select" style="width:100%;">${topicOptions}</select>
         </div>
         ${subcategoryFilter}
         <div style="flex:1; min-width:180px;">
-          <label class="muted" style="font-size:12px;">Question count</label>
+          <label class="muted" style="font-size:12px;">${isDE ? 'Anzahl Fragen' : 'Question count'}</label>
           <select id="shv-setup-count" class="form-select" style="width:100%;">
-            ${[20, 30, 50, 75, 100].map(n => `<option value="${n}" ${setup.count === n ? 'selected' : ''}>${n} questions</option>`).join('')}
+            ${[20, 30, 50, 75, 100].map(n => `<option value="${n}" ${setup.count === n ? 'selected' : ''}>${n} ${isDE ? 'Fragen' : 'questions'}</option>`).join('')}
           </select>
         </div>
       </div>
       <ul class="checklist" style="margin-top:16px;">
-        <li><strong>Timer auto-scales</strong> at ~54 seconds per question (90 minutes for 100, ~18 for 20).</li>
-        <li><strong>Pass ≥ ${state.shvExam.setup.count >= 60 ? 75 : 60} %</strong> in every topic represented in the draw.</li>
-        <li>Flag questions and revisit them via the dot strip at the top.</li>
-        <li>Wrong answers show the correct option on the result screen.</li>
+        ${isDE ? `
+          <li><strong>Timer skaliert automatisch</strong> bei rund 54 Sekunden pro Frage (90 Minuten für 100 Fragen, rund 18 für 20).</li>
+          <li><strong>Bestanden ab ${state.shvExam.setup.count >= 60 ? 75 : 60} %</strong> in jedem im Ziehungsumfang vertretenen Fachgebiet.</li>
+          <li>Markiere Fragen und kehre über die Punktleiste oben zu ihnen zurück.</li>
+          <li>Falsche Antworten zeigen im Ergebnis die korrekte Option.</li>
+        ` : `
+          <li><strong>Timer auto-scales</strong> at ~54 seconds per question (90 minutes for 100, ~18 for 20).</li>
+          <li><strong>Pass ≥ ${state.shvExam.setup.count >= 60 ? 75 : 60} %</strong> in every topic represented in the draw.</li>
+          <li>Flag questions and revisit them via the dot strip at the top.</li>
+          <li>Wrong answers show the correct option on the result screen.</li>
+        `}
       </ul>
       <div class="row" style="margin-top:18px; flex-wrap:wrap;">
-        <button class="btn primary large" id="shv-exam-start">⏱️ Timed exam</button>
-        <button class="btn large" id="shv-study-start" title="No timer · explanations + related content shown inline · free navigation">🎓 Study mode</button>
-        ${last ? `<button class="btn ghost" id="shv-exam-view-last">View last result</button>` : ''}
+        <button class="btn primary large" id="shv-exam-start">${isDE ? '⏱️ Prüfung auf Zeit' : '⏱️ Timed exam'}</button>
+        <button class="btn large" id="shv-study-start" title="${isDE ? 'Kein Timer · Erklärungen und verwandte Inhalte direkt eingeblendet · freie Navigation' : 'No timer · explanations + related content shown inline · free navigation'}">${isDE ? '🎓 Lernmodus' : '🎓 Study mode'}</button>
+        ${last ? `<button class="btn ghost" id="shv-exam-view-last">${isDE ? 'Letztes Ergebnis ansehen' : 'View last result'}</button>` : ''}
       </div>
       <div class="muted" style="font-size:12px; margin-top:10px;">
-        <strong>Timed exam</strong>: realistic conditions, score breakdown at the end · <strong>Study mode</strong>: each question explained inline with links to the guide, workbook, diagrams, video clips, and slides.
+        ${isDE
+          ? '<strong>Prüfung auf Zeit</strong>: realistische Bedingungen, Auswertung am Ende · <strong>Lernmodus</strong>: jede Frage wird direkt erklärt — mit Links zum Studienführer, Arbeitsbuch, Diagrammen, Videoclips und Folien.'
+          : '<strong>Timed exam</strong>: realistic conditions, score breakdown at the end · <strong>Study mode</strong>: each question explained inline with links to the guide, workbook, diagrams, video clips, and slides.'}
       </div>
     </div>
     ${state.shvExam.history.length > 0 ? `
       <div class="card" style="margin-top:18px;">
-        <h2 class="card-title">Past attempts</h2>
+        <h2 class="card-title">${isDE ? 'Vergangene Versuche' : 'Past attempts'}</h2>
         ${state.shvExam.history.slice(-5).reverse().map(r => `
           <div class="exam-section-row" style="border-bottom:1px solid var(--border);">
-            <div class="name">${new Date(r.finishedAt).toLocaleString()} <span class="muted" style="font-size:11px;">· ${escapeHtml(r.setup?.topic || 'all')}</span></div>
+            <div class="name">${new Date(r.finishedAt).toLocaleString()} <span class="muted" style="font-size:11px;">· ${escapeHtml(r.setup?.topic || (isDE ? 'alle' : 'all'))}</span></div>
             <div class="score">${r.totalRight}/${r.totalCount} (${r.scorePct}%)</div>
-            <div class="verdict ${r.passed ? 'pass' : 'fail'}">${r.passed ? '✓ Passed' : '✗ Failed'}</div>
+            <div class="verdict ${r.passed ? 'pass' : 'fail'}">${r.passed ? (isDE ? '✓ Bestanden' : '✓ Passed') : (isDE ? '✗ Nicht bestanden' : '✗ Failed')}</div>
           </div>
         `).join('')}
       </div>
@@ -1670,11 +1838,12 @@ function renderSHVExamSetup() {
 function renderShvEnrichmentPanel(qid, q) {
   const e = getSHVEnrichmentFor(qid);
   if (!e) {
+    const isDE = state.lang === 'de';
     return `<div class="shv-enrichment shv-enrichment-pending">
       <div class="shv-enrichment-pending-icon">📚</div>
       <div>
-        <div style="font-weight:600;">Study material in preparation</div>
-        <div class="muted" style="font-size:12px; margin-top:4px;">Curated explanations and links to the guide, transcripts, diagrams, and slides land here as topics finish processing.</div>
+        <div style="font-weight:600;">${isDE ? 'Lernmaterial in Vorbereitung' : 'Study material in preparation'}</div>
+        <div class="muted" style="font-size:12px; margin-top:4px;">${isDE ? 'Kuratierte Erklärungen und Links zum Studienführer, zu Transkripten, Diagrammen und Folien landen hier, sobald die Themen aufbereitet sind.' : 'Curated explanations and links to the guide, transcripts, diagrams, and slides land here as topics finish processing.'}</div>
       </div>
     </div>`;
   }
@@ -1780,11 +1949,12 @@ function renderShvEnrichmentPanel(qid, q) {
 }
 
 function renderSHVExamLive() {
+  const isDE = state.lang === 'de';
   const pool = getSHVQuestions() || {};
   const i = state.shvExam.current;
   const qid = state.shvExam.qids[i];
   const q = pool[qid];
-  if (!q) return `<div class="empty"><div>Question ${qid} missing from pool.</div></div>`;
+  if (!q) return `<div class="empty"><div>${isDE ? `Frage ${qid} fehlt im Pool.` : `Question ${qid} missing from pool.`}</div></div>`;
   const meta = shvTopicMeta(q.topic);
   const subcat = getSHVSubcategoryFor(qid);
   const markers = ['A', 'B', 'C', 'D'];
@@ -1800,9 +1970,9 @@ function renderSHVExamLive() {
   const studyRevealed = isStudy && answer !== null;
 
   const headerHtml = isStudy
-    ? `<div class="exam-header"><div><strong>🎓 SHV Study Mode</strong> · <span class="muted">Question ${i + 1} of ${state.shvExam.qids.length}</span></div></div>`
+    ? `<div class="exam-header"><div><strong>🎓 ${isDE ? 'SHV-Lernmodus' : 'SHV Study Mode'}</strong> · <span class="muted">${isDE ? `Frage ${i + 1} von ${state.shvExam.qids.length}` : `Question ${i + 1} of ${state.shvExam.qids.length}`}</span></div></div>`
     : `<div class="exam-header">
-        <div><strong>SHV Practice</strong> · <span class="muted">${answered}/${state.shvExam.qids.length} answered</span></div>
+        <div><strong>${isDE ? 'SHV-Übung' : 'SHV Practice'}</strong> · <span class="muted">${answered}/${state.shvExam.qids.length} ${isDE ? 'beantwortet' : 'answered'}</span></div>
         <div class="exam-timer" id="shv-exam-timer">${fmtTime(remaining)}</div>
       </div>`;
 
@@ -1824,7 +1994,7 @@ function renderSHVExamLive() {
           ${subcat ? `<span class="shv-subcat-tag" title="${escapeHtml(subcat.description || '')}">· ${escapeHtml(subcat.title)}</span>` : ''}
         </div>
         <div>
-          ${!isStudy ? `<button class="btn small ${state.shvExam.flagged.includes(i) ? 'primary' : ''}" id="shv-exam-flag">${state.shvExam.flagged.includes(i) ? '🚩 Flagged' : '🚩 Flag'}</button>` : ''}
+          ${!isStudy ? `<button class="btn small ${state.shvExam.flagged.includes(i) ? 'primary' : ''}" id="shv-exam-flag">${state.shvExam.flagged.includes(i) ? (isDE ? '🚩 Markiert' : '🚩 Flagged') : (isDE ? '🚩 Markieren' : '🚩 Flag')}</button>` : ''}
         </div>
       </div>
       <div class="fc-question">
@@ -1858,15 +2028,15 @@ function renderSHVExamLive() {
     </div>
     ${studyRevealed ? renderShvEnrichmentPanel(qid, q) : ''}
     <div class="nav-controls">
-      <button class="btn" id="shv-exam-prev" ${i === 0 ? 'disabled' : ''}>← Previous</button>
+      <button class="btn" id="shv-exam-prev" ${i === 0 ? 'disabled' : ''}>${isDE ? '← Zurück' : '← Previous'}</button>
       ${i === state.shvExam.qids.length - 1
         ? (isStudy
-            ? `<button class="btn primary" id="shv-exam-finish">Finish study session</button>`
-            : `<button class="btn primary" id="shv-exam-finish">Finish exam</button>`)
-        : `<button class="btn primary" id="shv-exam-next">Next →</button>`}
+            ? `<button class="btn primary" id="shv-exam-finish">${isDE ? 'Lernsitzung beenden' : 'Finish study session'}</button>`
+            : `<button class="btn primary" id="shv-exam-finish">${isDE ? 'Prüfung abschliessen' : 'Finish exam'}</button>`)
+        : `<button class="btn primary" id="shv-exam-next">${isDE ? 'Weiter →' : 'Next →'}</button>`}
     </div>
     <div class="row" style="margin-top:14px; justify-content:center;">
-      <button class="btn ghost danger small" id="shv-exam-abort">${isStudy ? 'Exit study mode' : 'Abort exam'}</button>
+      <button class="btn ghost danger small" id="shv-exam-abort">${isStudy ? (isDE ? 'Lernmodus verlassen' : 'Exit study mode') : (isDE ? 'Prüfung abbrechen' : 'Abort exam')}</button>
     </div>
   `;
 }
@@ -1885,12 +2055,12 @@ function renderSHVExamResult(r) {
       <div class="exam-section-row">
         <div class="name">${meta.icon} ${escapeHtml(t)}</div>
         <div class="score">${s.right}/${s.total} (${pct}%)</div>
-        <div class="verdict ${pass ? 'pass' : 'fail'}">${pass ? '✓ Pass' : '✗ Fail'}</div>
+        <div class="verdict ${pass ? 'pass' : 'fail'}">${pass ? (state.lang === 'de' ? '✓ Bestanden' : '✓ Pass') : (state.lang === 'de' ? '✗ Nicht bestanden' : '✗ Fail')}</div>
       </div>
     `;
   }).join('');
   const markers = ['A', 'B', 'C', 'D'];
-  const wrongHtml = r.wrong.length === 0 ? '<div class="muted" style="font-size:13px;">Nothing to review — full marks!</div>' :
+  const wrongHtml = r.wrong.length === 0 ? `<div class="muted" style="font-size:13px;">${state.lang === 'de' ? 'Nichts durchzugehen — volle Punktzahl!' : 'Nothing to review — full marks!'}</div>` :
     r.wrong.slice(0, 100).map(w => {
       const q = pool[w.qid]; if (!q) return '';
       const meta = shvTopicMeta(q.topic);
@@ -1905,7 +2075,7 @@ function renderSHVExamResult(r) {
             const isCorrect = idx === q.correct;
             const isPicked = idx === w.picked;
             const cls = isCorrect ? 'correct' : (isPicked ? 'wrong' : '');
-            const tag = isCorrect ? ' ✓' : (isPicked ? ' ✗ (your pick)' : '');
+            const tag = isCorrect ? ' ✓' : (isPicked ? (state.lang === 'de' ? ' ✗ (deine Wahl)' : ' ✗ (your pick)') : '');
             return `<div class="choice ${cls}" style="cursor:default; ${isCorrect ? 'background:var(--good-soft); border-color:var(--good); color:var(--good);' : ''}${isPicked && !isCorrect ? 'background:var(--bad-soft); border-color:var(--bad); color:var(--bad);' : ''}">
               <span class="marker">${markers[idx]}</span><span class="ct">${escapeHtml(opt)}${tag}</span>
             </div>`;
@@ -1914,10 +2084,13 @@ function renderSHVExamResult(r) {
         </div>
       `;
     }).join('');
+  const isDE = state.lang === 'de';
   return `
     <div class="page-header">
-      <h1>${r.passed ? '🎉 Practice exam passed' : '✗ Practice exam not passed'}</h1>
-      <p class="page-subtitle">Finished in ${dur}. Score ${r.totalRight}/${r.totalCount} (${r.scorePct}%) · Pass threshold ${r.pass_threshold_pct}% per topic</p>
+      <h1>${r.passed ? (isDE ? '🎉 Übungsprüfung bestanden' : '🎉 Practice exam passed') : (isDE ? '✗ Übungsprüfung nicht bestanden' : '✗ Practice exam not passed')}</h1>
+      <p class="page-subtitle">${isDE
+        ? `Beendet in ${dur}. Ergebnis ${r.totalRight}/${r.totalCount} (${r.scorePct}%) · Bestehensgrenze ${r.pass_threshold_pct} % pro Fachgebiet`
+        : `Finished in ${dur}. Score ${r.totalRight}/${r.totalCount} (${r.scorePct}%) · Pass threshold ${r.pass_threshold_pct}% per topic`}</p>
     </div>
     <div class="card elevated" style="display:flex; gap:24px; align-items:center; flex-wrap:wrap;">
       <div class="donut">
@@ -1934,14 +2107,14 @@ function renderSHVExamResult(r) {
         </div>
       </div>
       <div style="flex:1; min-width:240px;">
-        <h3 style="margin-top:0;">Per-topic breakdown</h3>
+        <h3 style="margin-top:0;">${isDE ? 'Auswertung pro Fachgebiet' : 'Per-topic breakdown'}</h3>
         ${sectionsHtml}
       </div>
     </div>
     ${r.subSections && Object.keys(r.subSections).length > 0 ? `
       <div class="card" style="margin-top:18px;">
-        <h3 style="margin-top:0;">Per-subtopic breakdown</h3>
-        <p class="muted" style="font-size:12px; margin:-4px 0 10px;">Where to grind: subtopics you got wrong are likely where you need targeted study.</p>
+        <h3 style="margin-top:0;">${isDE ? 'Auswertung pro Unterthema' : 'Per-subtopic breakdown'}</h3>
+        <p class="muted" style="font-size:12px; margin:-4px 0 10px;">${isDE ? 'Hier ansetzen: Unterthemen mit falschen Antworten sind wahrscheinlich genau die, an denen du gezielt arbeiten solltest.' : 'Where to grind: subtopics you got wrong are likely where you need targeted study.'}</p>
         ${Object.entries(r.subSections).sort(([,a],[,b]) => {
           const aPct = a.right / a.total, bPct = b.right / b.total;
           return aPct - bPct; // weakest first
@@ -1963,11 +2136,11 @@ function renderSHVExamResult(r) {
       </div>
     ` : ''}
     <div class="row" style="margin-top:18px; flex-wrap:wrap;">
-      <button class="btn primary" id="shv-exam-new">↻ New timed exam</button>
-      <button class="btn" id="shv-study-new">🎓 Study mode</button>
-      <button class="btn ghost" id="shv-exam-clear">Clear result</button>
+      <button class="btn primary" id="shv-exam-new">${isDE ? '↻ Neue Prüfung auf Zeit' : '↻ New timed exam'}</button>
+      <button class="btn" id="shv-study-new">${isDE ? '🎓 Lernmodus' : '🎓 Study mode'}</button>
+      <button class="btn ghost" id="shv-exam-clear">${isDE ? 'Ergebnis löschen' : 'Clear result'}</button>
     </div>
-    ${r.wrong.length > 0 ? `<h2 style="margin-top:30px;">Review wrong answers (${r.wrong.length})</h2>${wrongHtml}` : ''}
+    ${r.wrong.length > 0 ? `<h2 style="margin-top:30px;">${isDE ? `Falsche Antworten durchgehen (${r.wrong.length})` : `Review wrong answers (${r.wrong.length})`}</h2>${wrongHtml}` : ''}
   `;
 }
 
@@ -1995,7 +2168,7 @@ function ensureShvBrowseTopic() {
 function renderSHVBrowse() {
   const pool = getSHVQuestions();
   if (!pool) {
-    return `<div class="empty"><div class="emoji">🗂️</div><div>SHV question pool not loaded.</div></div>`;
+    return `<div class="empty"><div class="emoji">🗂️</div><div>${state.lang === 'de' ? 'SHV-Fragenpool nicht geladen.' : 'SHV question pool not loaded.'}</div></div>`;
   }
   ensureShvBrowseTopic();
   const byTopic = getSHVQuestionsByTopic();
@@ -2034,8 +2207,13 @@ function renderSHVBrowse() {
   for (const list of bySub.values()) list.sort((a, b) => a.qid - b.qid);
 
   // Build subcategory list (canonical order from subcats catalog, then any unassigned)
+  const isDE = state.lang === 'de';
   const orderedSubcats = subs.slice();
-  if (bySub.has('_unassigned')) orderedSubcats.push({ id: '_unassigned', title: 'Unsorted', description: 'Not yet assigned to a subcategory' });
+  if (bySub.has('_unassigned')) orderedSubcats.push({
+    id: '_unassigned',
+    title: isDE ? 'Nicht zugeordnet' : 'Unsorted',
+    description: isDE ? 'Noch keinem Unterthema zugeordnet' : 'Not yet assigned to a subcategory'
+  });
 
   // Filter by query if any
   const matches = (qq) => {
@@ -2067,7 +2245,9 @@ function renderSHVBrowse() {
   return `
     <div class="page-header">
       <h1>${t('page.shv-browse.h1')}</h1>
-      <p class="page-subtitle">All ${total} scraped questions, grouped by topic and subtopic — expand to see content, answer, and references inline.</p>
+      <p class="page-subtitle">${isDE
+        ? `Alle ${total} Fragen aus dem Pool, nach Fachgebiet und Unterthema gegliedert — aufklappen, um Inhalt, Antwort und Querverweise direkt zu sehen.`
+        : `All ${total} scraped questions, grouped by topic and subtopic — expand to see content, answer, and references inline.`}</p>
     </div>
     ${tabsHtml}
     <div class="shv-browse-toolbar">
@@ -2077,7 +2257,7 @@ function renderSHVBrowse() {
     </div>
     <div class="shv-browse-topic-header">
       <div><span class="cat-dot" style="background:${meta.color}"></span>${meta.icon} <strong>${escapeHtml(cur)}</strong>
-        <span class="muted"> · ${topicQs.length} questions in ${subs.length} subtopics</span>
+        <span class="muted"> · ${topicQs.length} ${isDE ? 'Fragen in' : 'questions in'} ${subs.length} ${isDE ? 'Unterthemen' : 'subtopics'}</span>
       </div>
     </div>
     <div class="shv-browse-subcats">${subsHtml}</div>
@@ -2098,8 +2278,8 @@ function renderShvBrowseQuestionRow(q) {
         <span class="shv-browse-qid">Q${q.qid}</span>
         <span class="shv-browse-qpreview">${escapeHtml(q.text.slice(0, 140))}${q.text.length > 140 ? '…' : ''}</span>
         <span class="shv-browse-qbadges">
-          ${hasImg ? '<span class="shv-browse-badge" title="Has reference image">🖼</span>' : ''}
-          ${hasEnrich ? '<span class="shv-browse-badge" title="Has explanation + links">💡</span>' : ''}
+          ${hasImg ? `<span class="shv-browse-badge" title="${state.lang === 'de' ? 'Mit Bezugsabbildung' : 'Has reference image'}">🖼</span>` : ''}
+          ${hasEnrich ? `<span class="shv-browse-badge" title="${state.lang === 'de' ? 'Mit Erklärung und Querverweisen' : 'Has explanation + links'}">💡</span>` : ''}
           <span class="shv-browse-chevron">▸</span>
         </span>
       </button>
@@ -2275,13 +2455,16 @@ function attachSHVExamEvents() {
   };
   const fin = document.getElementById('shv-exam-finish');
   if (fin) fin.onclick = () => {
+    const isDE = state.lang === 'de';
     const unanswered = state.shvExam.answers.filter(a => a === null).length;
-    const msg = unanswered > 0 ? `You have ${unanswered} unanswered questions. Finish anyway?` : 'Finish exam and see results?';
+    const msg = unanswered > 0
+      ? (isDE ? `Du hast ${unanswered} unbeantwortete Fragen. Trotzdem beenden?` : `You have ${unanswered} unanswered questions. Finish anyway?`)
+      : (isDE ? 'Prüfung beenden und Ergebnis ansehen?' : 'Finish exam and see results?');
     if (confirm(msg)) finishSHVExam();
   };
   const abort = document.getElementById('shv-exam-abort');
   if (abort) abort.onclick = () => {
-    if (confirm('Abort the practice exam? Progress will be lost.')) {
+    if (confirm(state.lang === 'de' ? 'Übungsprüfung abbrechen? Der Fortschritt geht verloren.' : 'Abort the practice exam? Progress will be lost.')) {
       stopSHVExamTimer();
       state.shvExam.active = false;
       state.shvExam.lastResult = null;
@@ -2327,8 +2510,8 @@ function renderGuide() {
     pages.push({ part: partNum, page: p, url: `assets/pages/${partNum}-${String(p).padStart(2, '0')}.jpg` });
   }
 
-  // Cross-link Question NNN references
-  const textWithLinks = (chapter.text || '').replace(/Question[s]?\s+(\d{1,3})(?:\s*(?:[,–-]|and|to)\s*(\d{1,3}))?/g, (match, q1, q2) => {
+  // Cross-link Question NNN references (EN: "Question(s)", DE: "Frage(n)")
+  const textWithLinks = (chapter.text || '').replace(/(?:Question[s]?|Frage[n]?)\s+(\d{1,3})(?:\s*(?:[,–-]|and|to|und|bis)\s*(\d{1,3}))?/g, (match, q1, q2) => {
     const refs = q2 ? `${q1}–${q2}` : q1;
     return `<span class="q-ref">Q${refs}</span>`;
   });
@@ -2344,7 +2527,7 @@ function renderGuide() {
   const diagrams = allDiagrams.filter(d => d.use_in_chapter === chapter.id);
   const diagramsHtml = diagrams.length === 0 ? '' : `
         <div class="guide-diagrams">
-          <h3 class="guide-section-title">Diagrams</h3>
+          <h3 class="guide-section-title">${state.lang === 'de' ? 'Diagramme' : 'Diagrams'}</h3>
           ${diagrams.map(d => `
             <figure class="guide-diagram">
               <div class="guide-diagram-svg">${d.svg}</div>
@@ -2357,10 +2540,28 @@ function renderGuide() {
         </div>
   `;
 
+  const isDE = state.lang === 'de';
+  const L = {
+    title: isDE ? 'Studienführer' : 'Study Guide',
+    subtitle: isDE
+      ? 'Offizieller SHV/FSVL-Theoriekommentar von J. Oberson & A. Piers — soaringmeteo.org'
+      : 'Official SHV/FSVL theory commentary by J. Oberson & A. Piers — soaringmeteo.org',
+    pages: isDE ? 'Seiten' : 'pages',
+    examQuestions: isDE ? 'Prüfungsfragen behandelt' : 'exam questions covered',
+    keyTakeaways: isDE ? 'Wichtigste Erkenntnisse' : 'Key takeaways',
+    diagrams: isDE ? 'Diagramme' : 'Diagrams',
+    originalPages: isDE ? 'Originalseiten' : 'Original pages',
+    clickToEnlarge: isDE ? 'Klicke zum Vergrössern' : 'click any to enlarge',
+    visualCompanion: isDE ? 'Visuelle Ergänzung — Freewings-Foliensatz' : 'Visual companion — Freewings video deck',
+    deckLabel: isDE ? 'Foliensatz' : 'deck',
+    slidesLabel: isDE ? 'Folien' : 'slides',
+    relatedFlashcards: isDE ? 'Verwandte Lernkarten' : 'Related flashcards',
+    pagePrefix: isDE ? 'S.' : 'p.',
+  };
   return `
     <div class="page-header">
-      <h1>Study Guide</h1>
-      <p class="page-subtitle">Official SHV/FSVL theory commentary by J. Oberson & A. Piers — soaringmeteo.org</p>
+      <h1>${L.title}</h1>
+      <p class="page-subtitle">${L.subtitle}</p>
     </div>
     <div class="guide-layout">
       <aside class="guide-toc">
@@ -2376,11 +2577,11 @@ function renderGuide() {
       <div class="guide-content">
         <div class="guide-chapter-header">
           <div class="guide-chapter-title">${escapeHtml(chapter.title)}</div>
-          <div class="guide-chapter-meta">${escapeHtml(part.title)} · pages ${chapter.startPage}–${chapter.endPage} · ${(chapter.questions || []).length} exam questions covered</div>
+          <div class="guide-chapter-meta">${escapeHtml(part.title)} · ${L.pages} ${chapter.startPage}–${chapter.endPage} · ${(chapter.questions || []).length} ${L.examQuestions}</div>
         </div>
         ${(chapter.key_points && chapter.key_points.length > 0) ? `
           <div class="guide-keypoints">
-            <h4>Key takeaways</h4>
+            <h4>${L.keyTakeaways}</h4>
             <ul>${chapter.key_points.map(kp => `<li>${escapeHtml(kp)}</li>`).join('')}</ul>
           </div>
         ` : ''}
@@ -2390,14 +2591,14 @@ function renderGuide() {
 
         <div class="guide-pages">
           <div class="guide-pages-head">
-            <h3 style="margin:0;">Original pages</h3>
-            <span class="muted" style="font-size:12px;">${pages.length} pages · click any to enlarge</span>
+            <h3 style="margin:0;">${L.originalPages}</h3>
+            <span class="muted" style="font-size:12px;">${pages.length} ${L.pages} · ${L.clickToEnlarge}</span>
           </div>
           <div class="guide-pages-imgs">
             ${pages.map(p => `
               <div class="guide-page-thumb" data-lightbox="${p.url}" data-lb-list="${pages.map(pp => pp.url).join('|')}">
-                <img src="${p.url}" loading="lazy" alt="Page ${p.page}" />
-                <div class="pp-label">p. ${p.page}</div>
+                <img src="${p.url}" loading="lazy" alt="${L.pages} ${p.page}" />
+                <div class="pp-label">${L.pagePrefix} ${p.page}</div>
               </div>
             `).join('')}
           </div>
@@ -2408,14 +2609,14 @@ function renderGuide() {
           const deck = partCat ? getDeckByCategory(partCat) : null;
           return deck ? `
             <div class="guide-related">
-              <h4>Visual companion — Freewings video deck</h4>
-              <button class="flash-link" data-open-deck="${deck.id}">${deck.icon} ${escapeHtml(deck.title)} deck · ${deckSlideCount(deck)} slides</button>
+              <h4>${L.visualCompanion}</h4>
+              <button class="flash-link" data-open-deck="${deck.id}">${deck.icon} ${escapeHtml(deck.title)} ${L.deckLabel} · ${deckSlideCount(deck)} ${L.slidesLabel}</button>
             </div>
           ` : '';
         })()}
         ${related.length > 0 ? `
           <div class="guide-related">
-            <h4>Related flashcards (${related.length})</h4>
+            <h4>${L.relatedFlashcards} (${related.length})</h4>
             ${related.map(c => `<button class="flash-link" data-flash-jump="${c.id}">${CATEGORY_META[c.category].icon} #${c.original_id} · ${escapeHtml(c.q_en.slice(0, 60))}${c.q_en.length > 60 ? '…' : ''}</button>`).join('')}
           </div>
         ` : ''}
@@ -2533,7 +2734,9 @@ function renderWorkbookOverview(books, book) {
   return `
     <div class="page-header">
       <h1>${t('page.workbook.h1')}</h1>
-      <p class="page-subtitle">Guided study paths — read, look, then test yourself. ${getWorkbook().length} books · ${getWorkbook().reduce((a, b) => a + b.chapters.length, 0)} chapters.</p>
+      <p class="page-subtitle">${state.lang === 'de'
+        ? `Begleitete Lernpfade — lesen, anschauen, dann selbst prüfen. ${getWorkbook().length} Bücher · ${getWorkbook().reduce((a, b) => a + b.chapters.length, 0)} Kapitel.`
+        : `Guided study paths — read, look, then test yourself. ${getWorkbook().length} books · ${getWorkbook().reduce((a, b) => a + b.chapters.length, 0)} chapters.`}</p>
     </div>
     <div class="subtabs">${bookTabs}</div>
 
@@ -2544,7 +2747,7 @@ function renderWorkbookOverview(books, book) {
       </div>
       <div class="wb-book-stat">
         <div class="wb-book-stat-num tabnum">${p.done}<span class="muted">/${p.total}</span></div>
-        <div class="wb-book-stat-label">chapters complete</div>
+        <div class="wb-book-stat-label">${state.lang === 'de' ? 'Kapitel abgeschlossen' : 'chapters complete'}</div>
         <div class="progress good"><div class="progress-fill" style="width:${pct}%"></div></div>
       </div>
     </div>
@@ -2557,15 +2760,15 @@ function renderWorkbookOverview(books, book) {
         const statusBadge = done
           ? `<span class="badge good">✓ ${cp.quizScore}/${cp.quizTotal}</span>`
           : partial
-          ? `<span class="badge warn">Read · quiz pending</span>`
-          : `<span class="badge">Not started</span>`;
+          ? `<span class="badge warn">${state.lang === 'de' ? 'Gelesen · Quiz offen' : 'Read · quiz pending'}</span>`
+          : `<span class="badge">${state.lang === 'de' ? 'Noch nicht begonnen' : 'Not started'}</span>`;
         return `
           <button class="wb-chapter-row ${done ? 'done' : ''}" data-wb-open="${c.id}">
             <div class="wb-chapter-num">${String(i + 1).padStart(2, '0')}</div>
             <div class="wb-chapter-info">
               <div class="wb-chapter-title">${escapeHtml(c.title)}</div>
               <div class="wb-chapter-sub">${escapeHtml(c.subtitle || '')}</div>
-              <div class="wb-chapter-meta muted">⏱ ${c.estimated_min || 4} min · ${(c.quiz || []).length} questions</div>
+              <div class="wb-chapter-meta muted">⏱ ${c.estimated_min || 4} min · ${(c.quiz || []).length} ${state.lang === 'de' ? 'Fragen' : 'questions'}</div>
             </div>
             <div class="wb-chapter-status">${statusBadge}</div>
           </button>
@@ -2610,11 +2813,12 @@ function renderWorkbookChapter(book, ch) {
     return '';
   }).join('');
 
+  const isDE = state.lang === 'de';
   return `
     <div class="wb-detail-header">
-      <button class="btn ghost small" data-wb-back>← All chapters</button>
+      <button class="btn ghost small" data-wb-back>${isDE ? '← Alle Kapitel' : '← All chapters'}</button>
       <div class="wb-detail-meta muted">
-        ${book.icon} ${escapeHtml(book.title.replace(/ for .*$/, ''))} · Chapter ${idx + 1} of ${book.chapters.length}
+        ${book.icon} ${escapeHtml(book.title.replace(/ for .*$/, ''))} · ${isDE ? `Kapitel ${idx + 1} von ${book.chapters.length}` : `Chapter ${idx + 1} of ${book.chapters.length}`}
       </div>
     </div>
 
@@ -2622,10 +2826,10 @@ function renderWorkbookChapter(book, ch) {
       <h1 class="wb-detail-title">${escapeHtml(ch.title)}</h1>
       ${ch.subtitle ? `<p class="wb-detail-sub">${escapeHtml(ch.subtitle)}</p>` : ''}
       <div class="wb-detail-meta-row">
-        <span>⏱ ${ch.estimated_min || 4} min read</span>
+        <span>⏱ ${ch.estimated_min || 4} ${isDE ? 'Min. Lesezeit' : 'min read'}</span>
         <span>·</span>
-        <span>${(ch.quiz || []).length} quiz questions</span>
-        ${quizDone ? `<span>·</span><span class="badge good">✓ Completed (${cp.quizScore}/${cp.quizTotal})</span>` : ''}
+        <span>${(ch.quiz || []).length} ${isDE ? 'Quizfragen' : 'quiz questions'}</span>
+        ${quizDone ? `<span>·</span><span class="badge good">✓ ${isDE ? `Abgeschlossen (${cp.quizScore}/${cp.quizTotal})` : `Completed (${cp.quizScore}/${cp.quizTotal})`}</span>` : ''}
       </div>
 
       ${ch.intro ? `<div class="wb-intro">${escapeHtml(ch.intro)}</div>` : ''}
@@ -2636,7 +2840,7 @@ function renderWorkbookChapter(book, ch) {
 
       <div class="wb-nav">
         ${prev ? `<button class="btn" data-wb-open="${prev.id}">← ${escapeHtml(prev.title)}</button>` : '<span></span>'}
-        ${next ? `<button class="btn primary" data-wb-open="${next.id}">${escapeHtml(next.title)} →</button>` : '<button class="btn" data-wb-back>All chapters →</button>'}
+        ${next ? `<button class="btn primary" data-wb-open="${next.id}">${escapeHtml(next.title)} →</button>` : `<button class="btn" data-wb-back>${state.lang === 'de' ? 'Alle Kapitel →' : 'All chapters →'}</button>`}
       </div>
     </div>
   `;
@@ -2682,7 +2886,7 @@ function renderWorkbookQuiz(book, ch) {
     }).join('');
     return `
       <div class="wb-q">
-        <div class="wb-q-num">Question ${i + 1} of ${cards.length}</div>
+        <div class="wb-q-num">${state.lang === 'de' ? `Frage ${i + 1} von ${cards.length}` : `Question ${i + 1} of ${cards.length}`}</div>
         <div class="wb-q-text">${escapeHtml(c.q_en)}</div>
         <div class="choices">${choiceBtns}</div>
         ${picked != null ? `<div class="wb-q-de"><span class="lang-tag">DE</span><span class="ct">${escapeHtml(c.a_de)}</span></div>` : ''}
@@ -2695,16 +2899,18 @@ function renderWorkbookQuiz(book, ch) {
         <div class="wb-quiz-score">${right} / ${cards.length}</div>
         <div class="wb-quiz-label">${right === cards.length ? '🎉 Perfect score!' : right >= cards.length * 0.8 ? '👍 Solid — chapter understood' : '🤔 Worth reviewing the chapter'}</div>
         <div class="wb-quiz-actions">
-          <button class="btn primary" data-wb-complete="${ch.id}">Mark chapter complete</button>
-          <button class="btn" data-wb-reset-quiz="${ch.id}">Try quiz again</button>
+          <button class="btn primary" data-wb-complete="${ch.id}">${state.lang === 'de' ? 'Kapitel abschliessen' : 'Mark chapter complete'}</button>
+          <button class="btn" data-wb-reset-quiz="${ch.id}">${state.lang === 'de' ? 'Quiz erneut versuchen' : 'Try quiz again'}</button>
         </div>
       </div>`
     : '';
 
   return `
     <div class="wb-quiz">
-      <h2 class="wb-h2">Check your understanding</h2>
-      <div class="muted" style="font-size:13px; margin-bottom:14px;">${cards.length} questions drawn from the ${escapeHtml(book.category)} flashcards.</div>
+      <h2 class="wb-h2">${state.lang === 'de' ? 'Verständnis prüfen' : 'Check your understanding'}</h2>
+      <div class="muted" style="font-size:13px; margin-bottom:14px;">${state.lang === 'de'
+        ? `${cards.length} Fragen aus den ${escapeHtml(book.category)}-Lernkarten.`
+        : `${cards.length} questions drawn from the ${escapeHtml(book.category)} flashcards.`}</div>
       ${qsHtml}
       ${summary}
     </div>
@@ -2820,7 +3026,7 @@ let _slidesQuery = '';
 function renderSlides() {
   const decks = getDecks();
   if (decks.length === 0) {
-    return `<div class="empty"><div class="emoji">🎬</div><div>No slide decks loaded.</div></div>`;
+    return `<div class="empty"><div class="emoji">🎬</div><div>${state.lang === 'de' ? 'Keine Foliensätze geladen.' : 'No slide decks loaded.'}</div></div>`;
   }
   ensureSlideSelection();
   const deck = getDeckById(state.slides.deckId);
@@ -2867,18 +3073,22 @@ function renderSlides() {
   return `
     <div class="page-header">
       <h1>${t('page.slides.h1')}</h1>
-      <p class="page-subtitle">Freewings video-course slides — ${totalSlides} slides across ${decks.length} decks. EN/DE side-by-side · click any to expand.</p>
+      <p class="page-subtitle">${state.lang === 'de'
+        ? `Folien aus dem Freewings-Videokurs — ${totalSlides} Folien in ${decks.length} Foliensätzen. EN/DE nebeneinander · für die grosse Ansicht anklicken.`
+        : `Freewings video-course slides — ${totalSlides} slides across ${decks.length} decks. EN/DE side-by-side · click any to expand.`}</p>
     </div>
     ${tabsHtml}
     <div class="deck-header">
       <div>
         <div class="deck-title">${escapeHtml(deck.title)}</div>
-        <div class="deck-meta">${totalPages} slides · Instructor: ${escapeHtml(deck.instructor)} · Maps to <strong>${escapeHtml(deck.category)}</strong> flashcards (${relatedCards.length} cards)</div>
+        <div class="deck-meta">${state.lang === 'de'
+          ? `${totalPages} Folien · Instruktor: ${escapeHtml(deck.instructor)} · Verknüpft mit <strong>${escapeHtml(deck.category)}</strong>-Lernkarten (${relatedCards.length} Karten)`
+          : `${totalPages} slides · Instructor: ${escapeHtml(deck.instructor)} · Maps to <strong>${escapeHtml(deck.category)}</strong> flashcards (${relatedCards.length} cards)`}</div>
       </div>
-      <button class="btn small" data-jump-cards="${deck.category}">Study ${escapeHtml(deck.category)} cards →</button>
+      <button class="btn small" data-jump-cards="${deck.category}">${state.lang === 'de' ? `${escapeHtml(deck.category)}-Karten lernen →` : `Study ${escapeHtml(deck.category)} cards →`}</button>
     </div>
-    <input class="search-input" id="slides-q" type="search" placeholder="Search slide titles (EN/DE)…" value="${escapeHtml(_slidesQuery)}" />
-    ${q ? `<div class="muted" style="margin-bottom:12px; font-size:13px;">Showing <strong>${filtered.length}</strong> of ${slides.length}</div>` : ''}
+    <input class="search-input" id="slides-q" type="search" placeholder="${state.lang === 'de' ? 'Folientitel durchsuchen (EN/DE)…' : 'Search slide titles (EN/DE)…'}" value="${escapeHtml(_slidesQuery)}" />
+    ${q ? `<div class="muted" style="margin-bottom:12px; font-size:13px;">${state.lang === 'de' ? `Zeige <strong>${filtered.length}</strong> von ${slides.length}` : `Showing <strong>${filtered.length}</strong> of ${slides.length}`}</div>` : ''}
     <div class="slide-grid">
       ${slidesHtml}
     </div>
@@ -2951,7 +3161,7 @@ function renderSlideViewer() {
   const root = document.getElementById('slide-viewer-content');
   const hasTrans = !!(slide.en_title || slide.en_body || slide.de_title || slide.de_body);
   root.innerHTML = `
-    <button class="sv-close" id="sv-close">Close ✕</button>
+    <button class="sv-close" id="sv-close">${state.lang === 'de' ? 'Schliessen ✕' : 'Close ✕'}</button>
     <div class="sv-image-wrap">
       <button class="sv-nav prev" id="sv-prev" aria-label="Previous">‹</button>
       <img class="sv-image" src="${url}" alt="Slide ${slide.page}" />
@@ -2973,7 +3183,7 @@ function renderSlideViewer() {
           ${slide.de_title ? `<div class="sv-title">${escapeHtml(slide.de_title)}</div>` : ''}
           ${slide.de_body ? `<div class="sv-body">${escapeHtml(slide.de_body)}</div>` : ''}
         </div>
-      ` : `<div class="muted" style="font-size:13px;">No transcript available for this slide — the diagram speaks for itself.</div>`}
+      ` : `<div class="muted" style="font-size:13px;">${state.lang === 'de' ? 'Kein Transkript für diese Folie — das Diagramm spricht für sich.' : 'No transcript available for this slide — the diagram speaks for itself.'}</div>`}
     </div>
   `;
   document.getElementById('sv-close').onclick = closeSlideViewer;
@@ -3019,7 +3229,7 @@ function ensureVideoSelection() {
 function renderVideos() {
   const decks = getVideoDecks();
   if (decks.length === 0) {
-    return `<div class="empty"><div class="emoji">📺</div><div>No videos loaded.</div></div>`;
+    return `<div class="empty"><div class="emoji">📺</div><div>${state.lang === 'de' ? 'Keine Videos geladen.' : 'No videos loaded.'}</div></div>`;
   }
   ensureVideoSelection();
   const deck = getVideoDeck(state.videos.deckId);
@@ -3058,16 +3268,16 @@ function renderVideos() {
         <div class="video-card-body">
           <div class="video-card-title">${escapeHtml(v.title)}</div>
           <div class="video-card-meta">
-            <span class="chip ${providerClass}" title="Source: ${escapeHtml(v.provider_label)}">${escapeHtml(v.provider_label)}</span>
+            <span class="chip ${providerClass}" title="${state.lang === 'de' ? `Quelle: ${escapeHtml(v.provider_label)}` : `Source: ${escapeHtml(v.provider_label)}`}">${escapeHtml(v.provider_label)}</span>
             ${enReady
-              ? `<span class="chip chip-good" title="English subtitles ready">🇬🇧 EN subs</span>`
-              : `<span class="chip chip-warn" title="Translation pending">🇬🇧 EN — pending</span>`}
+              ? `<span class="chip chip-good" title="${state.lang === 'de' ? 'Englische Untertitel bereit' : 'English subtitles ready'}">🇬🇧 EN subs</span>`
+              : `<span class="chip chip-warn" title="${state.lang === 'de' ? 'Übersetzung ausstehend' : 'Translation pending'}">🇬🇧 EN — ${state.lang === 'de' ? 'ausstehend' : 'pending'}</span>`}
             ${deReady
-              ? `<span class="chip" title="German transcript ready">🇩🇪 DE transcript</span>`
-              : `<span class="chip chip-warn" title="Transcription pending">🇩🇪 DE — transcribing</span>`}
+              ? `<span class="chip" title="${state.lang === 'de' ? 'Deutsches Transkript bereit' : 'German transcript ready'}">🇩🇪 DE ${state.lang === 'de' ? 'Transkript' : 'transcript'}</span>`
+              : `<span class="chip chip-warn" title="${state.lang === 'de' ? 'Transkription läuft' : 'Transcription pending'}">🇩🇪 DE — ${state.lang === 'de' ? 'wird transkribiert' : 'transcribing'}</span>`}
           </div>
           <div class="video-card-actions">
-            <button class="btn small primary" data-play-video="${v.id}">Watch with subtitles</button>
+            <button class="btn small primary" data-play-video="${v.id}">${state.lang === 'de' ? 'Mit Untertiteln ansehen' : 'Watch with subtitles'}</button>
           </div>
         </div>
       </div>
@@ -3077,7 +3287,9 @@ function renderVideos() {
   return `
     <div class="page-header">
       <h1>${t('page.videos.h1')}</h1>
-      <p class="page-subtitle">${total} videos from <strong>Free Wings</strong> (${fwCount}) and <strong>Air Active</strong> (${aaCount}) academies · ${withDe} German transcripts · ${withSubs} English subtitle tracks. Player auto-selects English subs; toggle the language with the buttons below the video.</p>
+      <p class="page-subtitle">${state.lang === 'de'
+        ? `${total} Videos von <strong>Free Wings</strong> (${fwCount}) und <strong>Air Active</strong> (${aaCount}) · ${withDe} deutsche Transkripte · ${withSubs} englische Untertitel. Der Player wählt automatisch die englischen Untertitel; die Sprache lässt sich unten am Player umschalten.`
+        : `${total} videos from <strong>Free Wings</strong> (${fwCount}) and <strong>Air Active</strong> (${aaCount}) academies · ${withDe} German transcripts · ${withSubs} English subtitle tracks. Player auto-selects English subs; toggle the language with the buttons below the video.`}</p>
     </div>
     ${tabsHtml}
     <div class="deck-header">
@@ -3186,15 +3398,15 @@ function renderVideoPlayer() {
           </li>
         `;
       }).join('')
-    : `<li class="muted" style="padding:16px;">Transcript still processing — check back shortly.</li>`;
+    : `<li class="muted" style="padding:16px;">${state.lang === 'de' ? 'Transkript wird noch aufbereitet — bald wieder vorbeischauen.' : 'Transcript still processing — check back shortly.'}</li>`;
 
   host.innerHTML = `
     <div class="vp-header">
       <div>
         <div class="vp-title">${v.deck_icon || '🎬'} ${escapeHtml(v.title)}</div>
-        <div class="vp-sub muted">${v.duration_label || ''} · MP4 from ${escapeHtml(v.provider_label || 'source')} · Subtitles localized for this app</div>
+        <div class="vp-sub muted">${v.duration_label || ''} · ${state.lang === 'de' ? 'MP4 von' : 'MP4 from'} ${escapeHtml(v.provider_label || 'source')} · ${state.lang === 'de' ? 'Untertitel für diese App lokalisiert' : 'Subtitles localized for this app'}</div>
       </div>
-      <button class="vp-close" id="vp-close">Close ✕</button>
+      <button class="vp-close" id="vp-close">${state.lang === 'de' ? 'Schliessen ✕' : 'Close ✕'}</button>
     </div>
     <div class="vp-body">
       <div class="vp-video-wrap">
@@ -3204,10 +3416,10 @@ function renderVideoPlayer() {
           ${deUrl ? `<track id="vp-track-de" kind="subtitles" label="Deutsch" srclang="de" src="${deUrl}" ${initialLang === 'de' ? 'default' : ''} />` : ''}
         </video>
         <div class="vp-controls">
-          <span class="vp-lang-label">Subtitles:</span>
+          <span class="vp-lang-label">${state.lang === 'de' ? 'Untertitel:' : 'Subtitles:'}</span>
           ${enUrl ? `<button class="vp-lang-btn ${initialLang === 'en' ? 'active' : ''}" data-vp-lang="en">🇬🇧 English</button>` : ''}
           ${deUrl ? `<button class="vp-lang-btn ${initialLang === 'de' ? 'active' : ''}" data-vp-lang="de">🇩🇪 Deutsch</button>` : ''}
-          <button class="vp-lang-btn" data-vp-lang="off">Off</button>
+          <button class="vp-lang-btn" data-vp-lang="off">${state.lang === 'de' ? 'Aus' : 'Off'}</button>
         </div>
       </div>
       <aside class="vp-transcript">
@@ -3286,7 +3498,195 @@ function setSubtitleLang(lang) {
 // VIEW: Cheat Sheet
 // ============================================================================
 function renderCheatsheet() {
-  const sections = [
+  const isDE = state.lang === 'de';
+  const sections = isDE ? [
+    {
+      title: 'Standardatmosphäre (ISA)',
+      icon: '🌡️',
+      rows: [
+        ['Druck auf Meereshöhe', '1013,25 hPa'],
+        ['Temperatur auf Meereshöhe', '15 °C'],
+        ['Temperaturgradient', '6,5 °C / 1000 m'],
+        ['1 hPa ≈', '8,3 m / 27 ft'],
+        ['Luftdichte halbiert sich bei', '6600 m AMSL'],
+        ['Luftdruck halbiert sich bei', '5500 m AMSL']
+      ]
+    },
+    {
+      title: 'Einheiten umrechnen',
+      icon: '🔢',
+      rows: [
+        ['FL × 30', '≈ Meter'],
+        ['FL × 100', '= Fuss'],
+        ['1 m', '3,28 ft'],
+        ['1 km/h', '0,54 kt'],
+        ['1 m/s × 3,6', '= km/h'],
+        ['1 ft', '30,5 cm']
+      ]
+    },
+    {
+      title: 'Schweizer Lufträume — Obergrenzen',
+      icon: '🗺️',
+      rows: [
+        ['G (unkontrolliert)', 'GND → 600 m AGL'],
+        ['E Mittelland/Jura', '600 AGL → FL100 (3050 m)'],
+        ['E Alpen MIL-ON', '600 AGL → FL130 (3950 m)'],
+        ['E Alpen MIL-OFF', '600 AGL → FL150 (4550 m)'],
+        ['C über E', 'bis FL195 (5900 m)']
+      ],
+      note: 'Glider Map (GLDK) erscheint jedes Jahr im März neu.'
+    },
+    {
+      title: 'Sicht und Wolkenabstand',
+      icon: '☁️',
+      rows: [
+        ['Unter 300 AGL', '1,5 km Sicht, wolkenfrei'],
+        ['300 AGL – FL100 (Klasse E/G)', '5 km Sicht · 1500 m H · 300 m V'],
+        ['Über FL100 (Klasse E)', '8 km Sicht · 1500 m H · 300 m V'],
+        ['LSR für Segelflieger (März–Okt)', '5–8 km Sicht · 100 m H · 50 m V']
+      ]
+    },
+    {
+      title: 'MIL-ON-Zeiten (Mo–Fr)',
+      icon: '⏰',
+      rows: [
+        ['Vormittag', '07:30 – 12:05 LT'],
+        ['Nachmittag', '13:15 – 17:05 LT'],
+        ['Obergrenze MIL-ON', 'FL130 (3950 m)'],
+        ['Obergrenze MIL-OFF', 'FL150 (4550 m)']
+      ],
+      note: 'Wochenenden und Schweizer Feiertage = MIL-OFF.'
+    },
+    {
+      title: 'Funkfrequenzen',
+      icon: '📻',
+      rows: [
+        ['Notfall / Rega', '161,300 MHz'],
+        ['Gleitschirm zu Gleitschirm', '130,930 MHz'],
+        ['Gleitschirm-Ausbildung', '123,430 MHz'],
+        ['Flugfunkband', '118,000 – 136,975 MHz']
+      ]
+    },
+    {
+      title: 'Versicherung und Dokumente',
+      icon: '📋',
+      rows: [
+        ['Haftpflicht Solopilot mindestens', 'CHF 1\'000\'000'],
+        ['Tandempassagier', 'CHF 5\'000\'000'],
+        ['Max. Lücke Theorie ↔ Praxis', '36 Monate'],
+        ['Frühestens Wiederholung', '12 Tage'],
+        ['Frist für Einsprache', '30 Tage']
+      ]
+    },
+    {
+      title: 'Gefahren: Föhn-Warnzeichen',
+      icon: '💨',
+      rows: [
+        ['Druckdifferenz Lugano–Zürich', '≥ 4 hPa → Föhn erwarten'],
+        ['Himmel', 'Tiefblau, ungewöhnlich klar'],
+        ['Ferne Berge', 'Wolkenverhangen'],
+        ['Wolken', 'Lenticularis an/hinter den Gipfeln'],
+        ['Wind', 'Variabel / auffrischender SW-Wind']
+      ]
+    },
+    {
+      title: 'Polare — wichtige Punkte',
+      icon: '📈',
+      rows: [
+        ['Trimm (Hände hoch)', 'BESTES GLEITEN'],
+        ['20–30 % Bremse', 'GERINGSTES SINKEN'],
+        ['Voll gebremst', 'STRÖMUNGSABRISS'],
+        ['Beschleuniger', 'Bei Gegenwind / Absinken'],
+        ['Leicht gebremst', 'Bei Rückenwind / Steigen']
+      ]
+    },
+    {
+      title: 'Schirm-Zertifizierung (EN)',
+      icon: '🪂',
+      rows: [
+        ['A', 'Schulschirm — selbstständige Stabilität'],
+        ['B', 'Schirm der meisten Pilotinnen'],
+        ['C', 'Mittelklasse, aktives Fliegen nötig'],
+        ['D', 'Fortgeschritten / acro-tauglich']
+      ],
+      note: 'EN-Tests: 8 g Stosslast Minimum (echte Schirme 12–16 g).'
+    },
+    {
+      title: 'Aerodynamik-Faustregeln',
+      icon: '📐',
+      rows: [
+        ['Widerstand ∝ v²', 'Geschwindigkeit verdoppeln → 4× Widerstand'],
+        ['Widerstand ∝ Fläche', 'linear'],
+        ['Widerstand ∝ Luftdichte', 'linear'],
+        ['Luftdichte bei 1100/2200/3300/4400 m', '90/80/70/60 % von MSL'],
+        ['Lastvielfaches bei 70° Schräglage', '≈ 3 g'],
+        ['Abrissgeschwindigkeit × √(Lastvielfaches)', 'in der Kurve']
+      ]
+    },
+    {
+      title: 'Aggregatzustandsänderungen (Energie)',
+      icon: '💧',
+      rows: [
+        ['Schmelzen (fest → flüssig)', 'NIMMT Wärme AUF'],
+        ['Verdunsten (flüssig → gasförmig)', 'NIMMT Wärme AUF'],
+        ['Kondensieren (gasförmig → flüssig)', 'GIBT Wärme AB'],
+        ['Gefrieren (flüssig → fest)', 'GIBT Wärme AB']
+      ]
+    },
+    {
+      title: '5-Punkte-Vorflugcheck',
+      icon: '✅',
+      rows: [
+        ['1', 'Gurtzeug und persönliche Ausrüstung'],
+        ['2', 'Tragegurte / Leinen frei'],
+        ['3', 'Eintrittskante des Schirms offen'],
+        ['4', 'Windrichtung und -stärke'],
+        ['5', 'Startplatz und Luftraum frei']
+      ]
+    },
+    {
+      title: 'Notfallhandeln: Schock',
+      icon: '🆘',
+      rows: [
+        ['Zeichen', 'Blass, blaue Lippen, kalter Schweiss, schwacher schneller Puls'],
+        ['Lagerung', 'So bequem wie möglich'],
+        ['Schützen', 'Vor Witterung'],
+        ['NICHT geben', 'Keine Getränke, keine Nahrung']
+      ],
+      note: 'Rega alarmieren: 1414 (schweizweit) oder Funk 161,300 MHz.'
+    },
+    {
+      title: 'Nützliche Kartensymbole',
+      icon: '🧭',
+      rows: [
+        ['Heliport', 'Violetter Kreis + H · 2,5 km Radius'],
+        ['Ziviler Flugplatz', 'Violetter Kreis + Strich · 5 km'],
+        ['MIL+Zivil', 'Violette Doppelkreise · 5 km'],
+        ['Militär', 'ROTE Doppelkreise · 5 km'],
+        ['Mindestüberflughöhe', '600 m über Bezugspunkt']
+      ]
+    },
+    {
+      title: 'Abkürzungs-Dump',
+      icon: '🔤',
+      rows: [
+        ['AGL / AMSL', 'Über Grund / über Meereshöhe'],
+        ['VFR / IFR', 'Sicht- / Instrumentenflugregeln'],
+        ['FL', 'Flugfläche (×30 ≈ m)'],
+        ['CTR / TMA', 'Kontrollzone / Nahkontrollbezirk'],
+        ['AWY / FIZ / RMZ', 'Luftstrasse / Fluginformationszone / Funkpflichtzone'],
+        ['LS-R / LS-D / LS-P', 'Restricted / Danger / Prohibited'],
+        ['BAZL / OFAC', 'Bundesamt für Zivilluftfahrt'],
+        ['SHV / FSVL', 'Schweizerischer Hängegleiter Verband'],
+        ['VLK / OACS', 'Verordnung über Luftfahrzeuge besonderer Kategorien'],
+        ['NOTAM', 'Notice to Airmen'],
+        ['DABS', 'Daily Airspace Bulletin Switzerland'],
+        ['QNH', 'Druckeinstellung auf Meereshöhe'],
+        ['ISA', 'Internationale Standardatmosphäre'],
+        ['EN-A / B / C / D', 'Zertifizierungsklasse Schirm']
+      ]
+    }
+  ] : [
     {
       title: 'Standard atmosphere (ISA)',
       icon: '🌡️',
@@ -3478,7 +3878,7 @@ function renderCheatsheet() {
   return `
     <div class="page-header">
       <h1>${t('page.cheatsheet.h1')}</h1>
-      <p class="page-subtitle">Must-memorize facts in one place. Print-friendly · use on test day morning.</p>
+      <p class="page-subtitle">${isDE ? 'Pflichtwissen auf einer Seite. Druckfreundlich · für den Prüfungsmorgen.' : 'Must-memorize facts in one place. Print-friendly · use on test day morning.'}</p>
     </div>
     <div class="cheat-grid">
       ${sections.map(s => `
@@ -3490,7 +3890,7 @@ function renderCheatsheet() {
       `).join('')}
     </div>
     <div class="row" style="margin-top:24px; justify-content:center;">
-      <button class="btn" onclick="window.print()">🖨️ Print cheat sheet</button>
+      <button class="btn" onclick="window.print()">${isDE ? '🖨️ Spickzettel drucken' : '🖨️ Print cheat sheet'}</button>
     </div>
   `;
 }
@@ -3499,10 +3899,11 @@ function renderCheatsheet() {
 // VIEW: Tips & Strategy
 // ============================================================================
 function renderTips() {
+  const isDE = state.lang === 'de';
   return `
     <div class="page-header">
       <h1>${t('page.tips.h1')}</h1>
-      <p class="page-subtitle">Research-backed advice for the SHV/FSVL theory exam.</p>
+      <p class="page-subtitle">${isDE ? 'Recherchierte Ratschläge für die SHV/FSVL-Theorieprüfung.' : 'Research-backed advice for the SHV/FSVL theory exam.'}</p>
     </div>
     <div class="tips-content">
       ${renderMarkdown(getTipsMd())}
@@ -3545,9 +3946,9 @@ function render() {
   const navHtml = navItems.map(renderNavItem).join('');
   const legacyHtml = `
     <div class="nav-group ${state.legacyOpen ? 'open' : ''}">
-      <button class="nav-section nav-group-header" data-legacy-toggle title="Replaced by SHV Practice">
+      <button class="nav-section nav-group-header" data-legacy-toggle title="${state.lang === 'de' ? 'Durch SHV-Übung ersetzt' : 'Replaced by SHV Practice'}">
         <span class="nav-group-chevron">▸</span>
-        <span>Legacy</span>
+        <span>${t('nav.legacy')}</span>
       </button>
       <div class="nav-group-body">
         ${legacyItems.map(renderNavItem).join('')}

@@ -32,7 +32,9 @@ def main():
     workbook_de = load_json('data/workbook.de.json') if os.path.exists(os.path.join(ROOT, 'data/workbook.de.json')) else {'books': []}
     shv_questions_de = load_json('data/shv_questions.de.json') if os.path.exists(os.path.join(ROOT, 'data/shv_questions.de.json')) else {'questions': {}, 'topics': {}}
     shv_enrichments_de = load_json('data/shv_enrichments.de.json') if os.path.exists(os.path.join(ROOT, 'data/shv_enrichments.de.json')) else {'enrichments': {}}
+    guide_de = load_json('data/guide.de.json') if os.path.exists(os.path.join(ROOT, 'data/guide.de.json')) else {'parts': []}
     tips_md = load_file('data/study_tips.md')
+    tips_md_de = load_file('data/study_tips.de.md') if os.path.exists(os.path.join(ROOT, 'data/study_tips.de.md')) else ''
 
     # Inline any VTTs that are present so the deployed single-file build can
     # mount them as blob URLs for the <track> elements.
@@ -68,10 +70,12 @@ def main():
     workbook_de_json = json.dumps(workbook_de, ensure_ascii=False, separators=(',', ':'))
     shv_questions_de_json = json.dumps(shv_questions_de, ensure_ascii=False, separators=(',', ':'))
     shv_enrichments_de_json = json.dumps(shv_enrichments_de, ensure_ascii=False, separators=(',', ':'))
+    guide_de_json = json.dumps(guide_de, ensure_ascii=False, separators=(',', ':'))
 
     # Encode tips markdown as a JS string-safe literal
     # Use JSON.parse('...') trick - escape backslashes/quotes/newlines
     tips_js = json.dumps(tips_md, ensure_ascii=False)
+    tips_de_js = json.dumps(tips_md_de, ensure_ascii=False)
 
     total_slides = sum(len(d.get('slides') or d.get('pages') or []) for d in decks['decks'])
 
@@ -155,6 +159,7 @@ def main():
 <script id="data-workbook-de" type="application/json">{workbook_de_json}</script>
 <script id="data-shv-questions-de" type="application/json">{shv_questions_de_json}</script>
 <script id="data-shv-enrichments-de" type="application/json">{shv_enrichments_de_json}</script>
+<script id="data-guide-de" type="application/json">{guide_de_json}</script>
 <script>
 window.CARDS = JSON.parse(document.getElementById('data-cards').textContent);
 window.GUIDE = JSON.parse(document.getElementById('data-guide').textContent);
@@ -169,7 +174,9 @@ window.SHV_ENRICHMENTS = JSON.parse(document.getElementById('data-shv-enrichment
 window.WORKBOOK_DE = JSON.parse(document.getElementById('data-workbook-de').textContent);
 window.SHV_QUESTIONS_DE = JSON.parse(document.getElementById('data-shv-questions-de').textContent);
 window.SHV_ENRICHMENTS_DE = JSON.parse(document.getElementById('data-shv-enrichments-de').textContent);
+window.GUIDE_DE = JSON.parse(document.getElementById('data-guide-de').textContent);
 window.TIPS_MD = {tips_js};
+window.TIPS_MD_DE = {tips_de_js};
 </script>
 
 <script>
