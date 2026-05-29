@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-05-29T09:13:02.504Z",
+  "fetchedAt": "2026-05-29T09:13:43.970Z",
   "questions": {
     "Fluglehre_152": {
       "qid": 152,
@@ -6468,12 +6468,153 @@
         "am unteren Limit."
       ],
       "correct": 1
+    },
+    "Flugpraxis_169": {
+      "qid": 169,
+      "topic": "Flugpraxis",
+      "pos": 169,
+      "total_in_topic": 169,
+      "text": "Ein Flug mit einem Hängegleiter ohne SHV- Nummer ist",
+      "options": [
+        "laut Verordnung über die Kennzeichen der Luftfahrzeuge ein illegaler Flug",
+        "kein Problem, sie sind SHV-intern und freiwillig.",
+        "aufgrund der BAZL-Weisungen nur bei Prüfungsflügen illegal..",
+        "kein Problem, da nur bei kommerziellen Flügen obligatorisch."
+      ],
+      "correct": null
+    },
+    "Flugpraxis_101": {
+      "qid": 101,
+      "topic": "Flugpraxis",
+      "pos": 1,
+      "total_in_topic": 169,
+      "text": "Beim Absteigen mittels Steilspirale gilt es zu beachten, dass",
+      "options": [
+        "wenn man das kurvenäussere Bein über das innere legt und sich damit zur Kurveninnenseite neigt, die Nachdrehtenduenz markant zunehmen kann. [y]",
+        "abhängig von Sitzgeometrie, Körperposition und Schirmeigenschaften, theoretisch jeder Schirm stabil nachdrehen kann. [x]",
+        "Antworten x, y und z sind richtig.",
+        "ein Nachdrehen des Schirmes aktiv, mit Aussenbremse und Gewichtsverlagerung nach aussen, kontrolliert werden muss. [z]"
+      ],
+      "correct": 2
+    },
+    "Flugpraxis_81": {
+      "qid": 81,
+      "topic": "Flugpraxis",
+      "pos": 2,
+      "total_in_topic": 169,
+      "text": "Welche Konsequenzen kann es haben, wenn an einem Gleitschirm im Geradeausflug abrupt eine Kurve eingeleitet wird?",
+      "options": [
+        "Die Strömung reisst ab und das Gerät geht in einen Sackflug über.",
+        "Das Gerät klappt frontal ein, wobei die Flügelenden die Schirmmitte überholen können, so dass das Gerät zusammenklappt.",
+        "Infolge der einseitige Belastung des Geräts können Bauteile der einen Seite gedehnt werden, wodurch das Gerät künftig leicht auf die gedehnte Seite ziehen wird.",
+        "Die Strömung reisst einseitig ab, das Gerät dreht über die abgerissene Seite weg und beginnt zu trudeln."
+      ],
+      "correct": 3
+    },
+    "Flugpraxis_2": {
+      "qid": 2,
+      "topic": "Flugpraxis",
+      "pos": 3,
+      "total_in_topic": 169,
+      "text": "Mit welchen Folgen muss ein stark erkälteter Hängegleiterpilot mit Ohrenentzündung während des Flugs in erster Linie rechnen?",
+      "options": [
+        "Schädigung des Körpers durch Flüssigkeitsmangel",
+        "Starke Beeinträchtigung der Sauerstoffaufnahme durch die Lunge",
+        "Plötzliches Auftreten von starken, stechenden Kopfschmerzen",
+        "Starke Beeinträchtigung des Konzentrationsvermögens, beschränkte Wahrnehmungs- und Urteilsfähigkeit, empfindliche Schwächung der körperlichen Leistungsfähigkeit"
+      ],
+      "correct": 2
+    },
+    "Flugpraxis_104": {
+      "qid": 104,
+      "topic": "Flugpraxis",
+      "pos": 4,
+      "total_in_topic": 169,
+      "text": "Ein Landeplatz befindet sich an einem leicht abfallenden Hang. Aufgrund der Lage besteht nur die Möglichkeit, hangauf- oder hangabwärts zu landen. Bei Windstille trifft folgende Aussage zu:",
+      "options": [
+        "hangaufwärts fällt es leichter, präzis und sanft zu landen.",
+        "hangaufwärts fällt eine präzise Landung leichter, eine sanfte Landung jedoch schwerer.",
+        "hangabwärts fällt eine präzise Landung leichter, eine sanfte Landung jedoch schwerer.",
+        "hangabwärts fällt es leichter, präzis und sanft zu landen."
+      ],
+      "correct": 1
+    },
+    "Flugpraxis_69": {
+      "qid": 69,
+      "topic": "Flugpraxis",
+      "pos": 5,
+      "total_in_topic": 169,
+      "text": "Ein Hängegleiterpilot kreist im thermischen Aufwind. Es herrscht ein Wind von 270°/10 kt, wodurch sich der Aufwindschlauch mit zunehmender Höhe nach Osten neigt. Um den Schlauch nicht zu verlieren, kreist der Hängegleiterpilot im Schlauch",
+      "options": [
+        "möglichst rechtsherum.",
+        "möglichst linksherum.",
+        "eher luvseitig.",
+        "eher leeseitig."
+      ],
+      "correct": 2
+    },
+    "Flugpraxis_127": {
+      "qid": 127,
+      "topic": "Flugpraxis",
+      "pos": 6,
+      "total_in_topic": 169,
+      "text": "Ein Pilot bremst den Gleitschirm im Endanflug 80% an, ohne dass die Strömung abreisst. Wird diese Bremsstellung über längere Zeit gehalten,",
+      "options": [
+        "vermindern sich Vorwärts- und Sinkgeschwindigkeit kontinuierlich.",
+        "fliegt das Gerät durch den hohen Staudruck sicher und stabil.",
+        "besteht die grosse Wahrscheinlichkeit, dass die Strömung nach einer gewissen Zeit abreisst.",
+        "nimmt die Fluggeschwindigkeit des Geräts wieder langsam und kontinuierlich zu."
+      ],
+      "correct": 2
+    },
+    "Flugpraxis_120": {
+      "qid": 120,
+      "topic": "Flugpraxis",
+      "pos": 7,
+      "total_in_topic": 169,
+      "text": "Wird mit Gegenwind gelandet, so",
+      "options": [
+        "ist der Anflugwinkel flacher und die Aufsetzgeschwindigkeit grösser.",
+        "ist der Anflugwinkel steiler und die Aufsetzgeschwindigkeit grösser.",
+        "ist der Anflugwinkel steiler und die Aufsetzgeschwindigkeit kleiner.",
+        "ist der Anflugwinkel flacher und die Aufsetzgeschwindigkeit kleiner."
+      ],
+      "correct": 2
+    },
+    "Flugpraxis_100": {
+      "qid": 100,
+      "topic": "Flugpraxis",
+      "pos": 8,
+      "total_in_topic": 169,
+      "text": "Beim Absteigen mittels Steilspirale gilt es zu beachten, dass",
+      "options": [
+        "beim Ausleiten Sackfluggefahr besteht.",
+        "nur bei gleichzeitiger Beschleunigung des Geräts ein deutlich erhöhtes Sinken resultiert.",
+        "nur die kurveninnere Bremse während dem Manövers betätigt wird",
+        "Geschwindigkeit, Sinken und G-Kräfte aktiv, mit Aussenbremse und Gewichtsverlagerung nach aussen, kontrolliert werden können."
+      ],
+      "correct": 3
+    },
+    "Flugpraxis_131": {
+      "qid": 131,
+      "topic": "Flugpraxis",
+      "pos": 10,
+      "total_in_topic": 169,
+      "text": "In einem Tal bei einem Talwind von 25 km/h muss aus der Luft ein geeigneter Landeplatz ausgewählt werden. Welche der folgenden Anforderungen an den Landeplatz ist die wichtigste, um eine sichere Landung zu gewährleisten?",
+      "options": [
+        "Das luvseitige Gelände muss möglichst eben und frei von Bäumen oder Gebäuden sein.",
+        "Die Leeseite des Platzes muss mindestens 100 m frei von Bäumen oder Gebäuden für Quer- und Endanflug sein.",
+        "Das Gelände darf keinesfalls gegen die Windrichtung hin ansteigen.",
+        "Der Landeplatz muss durch das Gelände, Bäume oder Gebäude möglichst windgeschützt sein."
+      ],
+      "correct": 0
     }
   },
   "topics": {
     "Fluglehre": 152,
     "Wetterkunde": 164,
     "Gesetzgebung": 180,
-    "Materialkunde": 125
+    "Materialkunde": 125,
+    "Flugpraxis": 169
   }
 }
