@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-05-29T08:38:10.389Z",
+  "fetchedAt": "2026-05-29T08:38:40.518Z",
   "questions": {
     "Fluglehre_152": {
       "qid": 152,
@@ -854,6 +854,118 @@
         "dem statischen und dem dynamischen Druck am Profil."
       ],
       "correct": 1
+    },
+    "Fluglehre_91": {
+      "qid": 91,
+      "topic": "Fluglehre",
+      "pos": 72,
+      "total_in_topic": 152,
+      "text": "Welche Flügelstreckung ist an modernen Intermediate-Deltas üblich?",
+      "options": [
+        "ca. 3",
+        "ca. 7",
+        "ca. 20",
+        "ca. 12"
+      ],
+      "correct": 1
+    },
+    "Fluglehre_50": {
+      "qid": 50,
+      "topic": "Fluglehre",
+      "pos": 73,
+      "total_in_topic": 152,
+      "text": "Ob ein Flügel Auftrieb erzeugt oder nicht, hängt massgeblich ab",
+      "options": [
+        "von seinem Widerstandsbeiwert.",
+        "von seiner Flügelfläche.",
+        "seinem Gewicht.",
+        "vom Anstellwinkel."
+      ],
+      "correct": 3
+    },
+    "Fluglehre_13": {
+      "qid": 13,
+      "topic": "Fluglehre",
+      "pos": 74,
+      "total_in_topic": 152,
+      "text": "Wird ein Körper mit einer Stirnfläche von 0,5m² auf Meereshöhe einem Luftstrom von 30 km/h ausgesetzt, erzeugt er einen Widerstand von 150 N (ca. 15 kp). Welchen Widerstand erzeugt ein Körper derselben Form mit einer dem Luftstrom ausgesetzten Stirnfläche von 3m² unter sonst gleichen Bedingungen?",
+      "options": [
+        "ca. 150 N",
+        "ca. 300 N",
+        "ca. 900 N",
+        "ca. 600 N"
+      ],
+      "correct": 2
+    },
+    "Fluglehre_107": {
+      "qid": 107,
+      "topic": "Fluglehre",
+      "pos": 76,
+      "total_in_topic": 152,
+      "text": "Mit welchen Ziffern sind Gleitwinkel und Widerstand gekennzeichnet? (Gleichgewicht der Kräfte im stabilen Gleitflug)",
+      "options": [
+        "1 und 3",
+        "4 und 5",
+        "4 und 3",
+        "1 und 5"
+      ],
+      "correct": 0
+    },
+    "Fluglehre_122": {
+      "qid": 122,
+      "topic": "Fluglehre",
+      "pos": 77,
+      "total_in_topic": 152,
+      "text": "Die Gleitzahl eines Hängegleiters gibt Auskunft über das Verhältnis zwischen",
+      "options": [
+        "Horizontal- und Vertikalgeschwindigkeit.",
+        "der Geschwindigkeit des besten Gleitens und der Geschwindigkeit des geringsten Sinkens.",
+        "der Minimal- und der Höchstgeschwindigkeit",
+        "der Eigengeschwindigkeit und der Geschwindigkeit über Grund."
+      ],
+      "correct": 0
+    },
+    "Fluglehre_16": {
+      "qid": 16,
+      "topic": "Fluglehre",
+      "pos": 78,
+      "total_in_topic": 152,
+      "text": "Wird die Strömungsgeschwindigkeit der einen Körper umströmenden Luft verdreifacht, so",
+      "options": [
+        "versechsfacht sich dessen Luftwiderstand.",
+        "verdreifacht sich dessen Luftwiderstand.",
+        "verneunfacht sich dessen Luftwiderstand.",
+        "verzwölffacht sich dessen Luftwiderstand."
+      ],
+      "correct": 2
+    },
+    "Fluglehre_32": {
+      "qid": 32,
+      "topic": "Fluglehre",
+      "pos": 80,
+      "total_in_topic": 152,
+      "text": "Wovon hängt der Luftwiderstand eines Körpers massgeblich ab?",
+      "options": [
+        "Von der Form des Körpers.",
+        "Von der Materialbeschaffenheit des Körpers.",
+        "Vom Gewicht des Körpers.",
+        "Von der Masse des Körpers."
+      ],
+      "correct": 0
+    },
+    "Fluglehre_8": {
+      "qid": 8,
+      "topic": "Fluglehre",
+      "pos": 81,
+      "total_in_topic": 152,
+      "text": "Wird ein Körper so vergrössert, dass sich die dem Luftstrom ausgesetzte Stirnfläche vervierfacht, so",
+      "options": [
+        "vierteilt sich dessen Luftwiderstand.",
+        "versechzehnfacht sich dessen Luftwiderstand.",
+        "verändert sich dessen Luftwiderstand nicht.",
+        "vervierfacht sich dessen Luftwiderstand."
+      ],
+      "correct": 3
     }
   },
   "topics": {
