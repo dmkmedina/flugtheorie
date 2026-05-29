@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-05-29T08:53:42.115Z",
+  "fetchedAt": "2026-05-29T08:54:02.903Z",
   "questions": {
     "Fluglehre_152": {
       "qid": 152,
@@ -2898,6 +2898,76 @@
         "Steiler Sonneneinfallswinkel, schwache Reflexion der einfallenden Strahlung."
       ],
       "correct": 3
+    },
+    "Wetterkunde_51": {
+      "qid": 51,
+      "topic": "Wetterkunde",
+      "pos": 72,
+      "total_in_topic": 164,
+      "text": "Wie heisst eine geschlossene Wolkendecke mit einer Basishöhe von 1'000 m/Meer, die Niederschläge verursacht?",
+      "options": [
+        "Cirrostratus",
+        "Nimbostratus",
+        "Cumulonimbus",
+        "Altostratus"
+      ],
+      "correct": 1
+    },
+    "Wetterkunde_25": {
+      "qid": 25,
+      "topic": "Wetterkunde",
+      "pos": 73,
+      "total_in_topic": 164,
+      "text": "Inversion und Isothermie sind",
+      "options": [
+        "labil geschichtete Bestandteile der Troposphäre.",
+        "Ursprung und Auslöser thermisch aufsteigender Luft.",
+        "je nach Temperatur stabil oder labil.",
+        "Sperrschichten für thermisch aufsteigende Luftmassen."
+      ],
+      "correct": 3
+    },
+    "Wetterkunde_145": {
+      "qid": 145,
+      "topic": "Wetterkunde",
+      "pos": 74,
+      "total_in_topic": 164,
+      "text": "Wo befindet sich ein Tiefdruckzentrum?",
+      "options": [
+        "bei Tunis",
+        "bei Lulea",
+        "über dem Golf von Biskaya",
+        "bei Stockholm"
+      ],
+      "correct": 1
+    },
+    "Wetterkunde_10": {
+      "qid": 10,
+      "topic": "Wetterkunde",
+      "pos": 75,
+      "total_in_topic": 164,
+      "text": "Das Barometer zeigt auf Meereshöhe einen Druck von . Welches ist die wahrscheinlichste Messung auf einer Höhe von 5'500 m/Meer? 980 hPa",
+      "options": [
+        "650 hPa",
+        "490 hPa",
+        "1'035 hPa",
+        "980 hPa"
+      ],
+      "correct": 1
+    },
+    "Wetterkunde_40": {
+      "qid": 40,
+      "topic": "Wetterkunde",
+      "pos": 77,
+      "total_in_topic": 164,
+      "text": "Wie gross ist der Temperaturgradient feucht aufsteigender Luft in der Schweiz in den unteren Schichten der Troposphäre?",
+      "options": [
+        "1,0°C / 100 m",
+        "1,5°C / 100 m",
+        "> 2°C / 100 m",
+        "< 1°C / 100 m"
+      ],
+      "correct": null
     }
   },
   "topics": {
