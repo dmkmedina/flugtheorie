@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-05-29T09:08:40.049Z",
+  "fetchedAt": "2026-05-29T09:09:11.645Z",
   "questions": {
     "Fluglehre_152": {
       "qid": 152,
@@ -5852,6 +5852,132 @@
         "das Verhältnis zwischen vertikaler und horizontaler Geschwindigkeit."
       ],
       "correct": 2
+    },
+    "Materialkunde_121": {
+      "qid": 121,
+      "topic": "Materialkunde",
+      "pos": 70,
+      "total_in_topic": 125,
+      "text": "Die Typenprüfung eines Gleitschirms gemäss EN-Richtlinien umfasst",
+      "options": [
+        "ein Erfliegen der Geschwindigkeitspolare, einen Dauerbelastungstest (6G) und das Fliegen verschiedener Manöver.",
+        "eine Freifallöffnung aus dem Flugzeug, das Erfliegen der Geschwindigkeitspolare und einen Dauerbelastungstest.",
+        "das Fliegen verschiedener Manöver, einen Öffnungsschlag unter Last (150 daN) und das Erfliegen der Geschwindigkeitspolare.",
+        "Einen Dauerbelastungstest (8G), das Fliegen verschiedener Manöver und einen Öffnungsschlag unter Last (Schocktest zwischen 800 bis 1200 daN)."
+      ],
+      "correct": 3
+    },
+    "Materialkunde_18": {
+      "qid": 18,
+      "topic": "Materialkunde",
+      "pos": 72,
+      "total_in_topic": 125,
+      "text": "Die grösste Belastung eines Gleitschirmsegels erfolgt während des Flugs",
+      "options": [
+        "auf der Flügeloberseite im Bereich der Profilnase.",
+        "auf der Flügelunterseite im Bereich der Profilnase.",
+        "auf der Flügelunterseite im Bereich der Hinterkante.",
+        "auf der Flügeloberseite im Bereich der Hinterkante."
+      ],
+      "correct": 0
+    },
+    "Materialkunde_45": {
+      "qid": 45,
+      "topic": "Materialkunde",
+      "pos": 73,
+      "total_in_topic": 125,
+      "text": "Welche Umstände können insbesondere dazu führen, dass Leinen bleibend schrumpfen?",
+      "options": [
+        "Die Exposition der Leinen gegenüber Kälte.",
+        "Der seltene Gebrauch des Gleitschirms während eines langen Zeitraums.",
+        "Das schlechte Sortieren der Leinen vor dem Verpacken des Gleitschirms.",
+        "Die Exposition der Leinen gegenüber Nässe und Schmutz."
+      ],
+      "correct": 3
+    },
+    "Materialkunde_60": {
+      "qid": 60,
+      "topic": "Materialkunde",
+      "pos": 74,
+      "total_in_topic": 125,
+      "text": "Wird ein Material mit dem Wert seiner maximalen Zugfestigkeit belastet, so kann davon ausgegangen werden, dass",
+      "options": [
+        "das Material die ursprüngliche Dimension und Zugfestigkeit beibehält, sofern der Wert der maximalen Zugfestigkeit nicht überschritten wird.",
+        "sich die Dimension des Materials zwar etwas verändert, dessen Zugfestigkeit aber nicht beeinträchtigt wird.",
+        "das Gerät etwas nachgetrimmt werden muss, um die veränderte Dimension des Materials auszugleichen.",
+        "das Material nach der Belastung bezüglich Dimension und Zugfestigkeit nicht mehr dem ursprünglichen Zustand entspricht."
+      ],
+      "correct": 3
+    },
+    "Materialkunde_110": {
+      "qid": 110,
+      "topic": "Materialkunde",
+      "pos": 75,
+      "total_in_topic": 125,
+      "text": "Der Helm schützt den Kopf des Piloten vor allem im Fall",
+      "options": [
+        "eines Zusammenstosses mit einem andern Luftfahrzeug.",
+        "eines Pilotenfehlers mit nachfolgender Landung auf dem Kopf.",
+        "eines Absturzes aus grosser Höhe.",
+        "eines Sturzes bei Start oder Landung."
+      ],
+      "correct": 3
+    },
+    "Materialkunde_34": {
+      "qid": 34,
+      "topic": "Materialkunde",
+      "pos": 76,
+      "total_in_topic": 125,
+      "text": "Bei der Konstruktion moderner Gleitschirme werden meist Leinen mit ummanteltem Kern verwendet,",
+      "options": [
+        "damit die Leinen durch verschiedene Farbgebung besser unterschieden werden können.",
+        "damit der Kern durch den Mantel vor Einwirkungen des Lichts und der Reibung geschützt werden.",
+        "damit die Tragkraft der Leine durch den Mantel zusätzlich erhöht wird.",
+        "damit der Mantel im Fall eines Kernbruchs die Last für kurze Zeit übernehmen kann."
+      ],
+      "correct": 1
+    },
+    "Materialkunde_51": {
+      "qid": 51,
+      "topic": "Materialkunde",
+      "pos": 77,
+      "total_in_topic": 125,
+      "text": "Wie kann sich das Verhalten eines Geräts verändern, wenn sich die A-Leinen verlängern oder verlängert werden?",
+      "options": [
+        "Das Gerät lässt sich leichter aufziehen, fliegt wegen des kleineren Anstellwinkels schneller, die Tendenz zu Frontklappern nimmt zu, die Neigung zum Sackflug nimmt ab.",
+        "Das Gerät lässt sich leichter aufziehen, fliegt wegen des kleineren Anstellwinkels langsamer, die Tendenz zu Frontklappern und zum Sackflug nimmt zu.",
+        "Das Gerät lässt sich schwerer aufziehen, braucht wegen des tieferen Schwerpunkts grössere aber weniger kraftvolle Steuerausschläge, setzt beim Landen die Geschwindigkeit besser in Höhe um.",
+        "Das Gerät lässt sich schwerer aufziehen, fliegt wegen des grösseren Anstellwinkels langsamer, die Tendenz zu Frontklappern nimmt ab, die Neigung zum Sackflug nimmt zu."
+      ],
+      "correct": 3
+    },
+    "Materialkunde_1": {
+      "qid": 1,
+      "topic": "Materialkunde",
+      "pos": 78,
+      "total_in_topic": 125,
+      "text": "Welche, der folgenden Materialen werden unter anderem zur Herstellung von Gleitschirmtüchern verwendet?",
+      "options": [
+        "Aramid (Kevlar)",
+        "Polyamid (Nylon)",
+        "Polyethylen (Dyneema)",
+        "Polyvinylchlorid (PVC)"
+      ],
+      "correct": 1
+    },
+    "Materialkunde_82": {
+      "qid": 82,
+      "topic": "Materialkunde",
+      "pos": 79,
+      "total_in_topic": 125,
+      "text": "Gurtzeuge mit tiefen Aufhängepunkten lassen die Turbulenzen",
+      "options": [
+        "weniger spüren, behindern aber beim Starten das Beschleunigen mit Vorlage.",
+        "weniger spüren, erleichtern aber beim Starten das Beschleunigen mit Vorlage.",
+        "vermehrt spüren, behindern aber beim Starten das Beschleunigen mit Vorlage.",
+        "vermehrt spüren, erleichtern aber beim Starten das Beschleunigen mit Vorlage."
+      ],
+      "correct": 3
     }
   },
   "topics": {
