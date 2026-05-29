@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-05-29T08:35:34.961Z",
+  "fetchedAt": "2026-05-29T08:36:07.292Z",
   "questions": {
     "Fluglehre_152": {
       "qid": 152,
@@ -252,6 +252,146 @@
         "verändert sich dessen Luftwiderstand nicht."
       ],
       "correct": 1
+    },
+    "Fluglehre_67": {
+      "qid": 67,
+      "topic": "Fluglehre",
+      "pos": 21,
+      "total_in_topic": 152,
+      "text": "Wird ein Hängegleiter mit minimaler Zuladung geflogen, so erfolgt der Strömungsabriss",
+      "options": [
+        "unabhängig von der Zuladung immer bei derselben Geschwindigkeit und demselben Anstellwinkel.",
+        "bei höherer Geschwindigkeit als mit maximaler Zuladung.",
+        "bei einem kleineren Anstellwinkel.",
+        "bei tieferer Geschwindigkeit als mit maximaler Zuladung."
+      ],
+      "correct": 3
+    },
+    "Fluglehre_66": {
+      "qid": 66,
+      "topic": "Fluglehre",
+      "pos": 22,
+      "total_in_topic": 152,
+      "text": "Wird ein Hängegleiter mit maximaler Zuladung geflogen, so erfolgt der Strömungsabriss",
+      "options": [
+        "nie.",
+        "bei höherer Geschwindigkeit als mit minimaler Zuladung.",
+        "unabhängig von der Zuladung immer bei derselben Geschwindigkeit und demselben Anstellwinkel.",
+        "bei tieferer Geschwindigkeit als mit minimaler Zuladung."
+      ],
+      "correct": 1
+    },
+    "Fluglehre_61": {
+      "qid": 61,
+      "topic": "Fluglehre",
+      "pos": 23,
+      "total_in_topic": 152,
+      "text": "Das Verhältnis zwischen Auftrieb und Widerstand eines Flügels ist vor allem abhängig",
+      "options": [
+        "von der Flügelfläche.",
+        "vom Anstellwinkel.",
+        "von der Luftdichte.",
+        "von der Strömungsgeschwindigkeit."
+      ],
+      "correct": 1
+    },
+    "Fluglehre_106": {
+      "qid": 106,
+      "topic": "Fluglehre",
+      "pos": 24,
+      "total_in_topic": 152,
+      "text": "Der Widerstand ist eine Komponente",
+      "options": [
+        "der Gewichtskraft und wirkt der Flugrichtung entgegengesetzt.",
+        "der Luftkraftresultierenden und wirkt in Strömungsrichtung.",
+        "der Gewichtskraft parallel zur Flugbahn und bewirkt die Vorwärtsbewegung des Hängegleiters.",
+        "des Auftriebs und wirkt immer vertikal."
+      ],
+      "correct": 1
+    },
+    "Fluglehre_39": {
+      "qid": 39,
+      "topic": "Fluglehre",
+      "pos": 25,
+      "total_in_topic": 152,
+      "text": "Die abgebildeten vier Körper haben CW -Werte von ca. 0,08, ca. 0,17, ca. 1 und ca. 1,. Welcher Körper hat einen CW -Wert von 1? 213",
+      "options": [
+        "2",
+        "1",
+        "4",
+        "3"
+      ],
+      "correct": 1
+    },
+    "Fluglehre_144": {
+      "qid": 144,
+      "topic": "Fluglehre",
+      "pos": 26,
+      "total_in_topic": 152,
+      "text": "Ein Hängegleiter fliegt mit 54 km/h (15 m/s) und einem Sinken von 2 m/s. Auf seiner Flugroute hat er einen Gegenwind von 18 km/h (5 m/s). Seine Gleitleistung gegenüber Grund beträgt",
+      "options": [
+        "6,0.",
+        "10,0.",
+        "5,0.",
+        "7,5."
+      ],
+      "correct": 2
+    },
+    "Fluglehre_84": {
+      "qid": 84,
+      "topic": "Fluglehre",
+      "pos": 27,
+      "total_in_topic": 152,
+      "text": "Wie gross ist die Flächenbelastung eines Geräts mit folgenden technischen Daten bei maximaler Zuladung? Spannweite: 10m min.Zuladung: 70kg Gewicht: 5kg Fläche: 25m² max.Zuladung: 95kg",
+      "options": [
+        "4,5 kg/m²",
+        "3,0 kg/m²",
+        "3,5 kg/m²",
+        "4,0 kg/m²"
+      ],
+      "correct": 3
+    },
+    "Fluglehre_112": {
+      "qid": 112,
+      "topic": "Fluglehre",
+      "pos": 28,
+      "total_in_topic": 152,
+      "text": "An einem Hängegleiter heisst eine Bewegung um die Querachse",
+      "options": [
+        "trudeln.",
+        "nicken.",
+        "gieren.",
+        "rollen."
+      ],
+      "correct": 1
+    },
+    "Fluglehre_127": {
+      "qid": 127,
+      "topic": "Fluglehre",
+      "pos": 29,
+      "total_in_topic": 152,
+      "text": "Wird die Gleitzahl grösser, so wird der Gleitwinkel",
+      "options": [
+        "nicht verändert.",
+        "zuerst grösser, dann kleiner.",
+        "grösser.",
+        "kleiner."
+      ],
+      "correct": 3
+    },
+    "Fluglehre_73": {
+      "qid": 73,
+      "topic": "Fluglehre",
+      "pos": 30,
+      "total_in_topic": 152,
+      "text": "Der Begriff \"mittlere Flügeltiefe\" bezeichnet",
+      "options": [
+        "den Abstand zwischen den beiden Flügelenden.",
+        "die Anstellwinkelunterschiede verschiedener Flügelabschnitte.",
+        "den durchschnittlichen Abstand zwischen Profilnase und Hinterkante (Eintritts- und Austrittskante).",
+        "das Verhältnis zwischen Fluggewicht und gesamter Flügelfläche."
+      ],
+      "correct": 2
     }
   },
   "topics": {
