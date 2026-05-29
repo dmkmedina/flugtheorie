@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-05-29T08:40:45.065Z",
+  "fetchedAt": "2026-05-29T08:41:17.697Z",
   "questions": {
     "Fluglehre_152": {
       "qid": 152,
@@ -1456,6 +1456,132 @@
         "2,0"
       ],
       "correct": 0
+    },
+    "Fluglehre_23": {
+      "qid": 23,
+      "topic": "Fluglehre",
+      "pos": 124,
+      "total_in_topic": 152,
+      "text": "Wovon hängt der Luftwiderstand eines Körpers massgeblich ab?",
+      "options": [
+        "Von der Luftdichte.",
+        "Von der Temperatur-Taupunkt-Differenz.",
+        "Von der absoluten Luftfeuchte.",
+        "Vom Druckgradienten."
+      ],
+      "correct": 0
+    },
+    "Fluglehre_78": {
+      "qid": 78,
+      "topic": "Fluglehre",
+      "pos": 125,
+      "total_in_topic": 152,
+      "text": "Geräte mit grosser Flügelstreckung haben",
+      "options": [
+        "eine grosse Spannweite und eine kleine durchschnittliche (mittlere) Flügeltiefe.",
+        "eine kleine Spannweite und eine kleine durchschnittliche (mittlere) Flügeltiefe.",
+        "eine grosse Spannweite und eine grosse durchschnittliche (mittlere) Flügeltiefe.",
+        "eine kleine Spannweite und eine grosse durchschnittliche (mittlere) Flügeltiefe."
+      ],
+      "correct": 0
+    },
+    "Fluglehre_17": {
+      "qid": 17,
+      "topic": "Fluglehre",
+      "pos": 126,
+      "total_in_topic": 152,
+      "text": "Wird die Strömungsgeschwindigkeit der einen Körper umströmenden Luft vervierfacht, so",
+      "options": [
+        "verachtfacht sich dessen Luftwiderstand.",
+        "versechzehnfacht sich dessen Luftwiderstand.",
+        "verdoppelt sich dessen Luftwiderstand.",
+        "vervierfacht sich dessen Luftwiderstand."
+      ],
+      "correct": 1
+    },
+    "Fluglehre_33": {
+      "qid": 33,
+      "topic": "Fluglehre",
+      "pos": 127,
+      "total_in_topic": 152,
+      "text": "Welcher Beiwert macht eine Aussage über die Grösse des Luftwiderstands eines Körpers?",
+      "options": [
+        "Der CY-Wert.",
+        "Der CB-Wert.",
+        "Der CA-Wert.",
+        "Der CW-Wert."
+      ],
+      "correct": 3
+    },
+    "Fluglehre_26": {
+      "qid": 26,
+      "topic": "Fluglehre",
+      "pos": 128,
+      "total_in_topic": 152,
+      "text": "Entfernt sich ein von Luft umströmter Körper von der Erdoberfläche, so",
+      "options": [
+        "hat dies keinen Einfluss auf seinen Luftwiderstand.",
+        "vermindert sich sein Luftwiderstand bis zur Tropopause und erhöht sich danach temperaturbedingt wieder.",
+        "vermindert sich sein Luftwiderstand.",
+        "vergrössert sich sein Luftwiderstand."
+      ],
+      "correct": 2
+    },
+    "Fluglehre_59": {
+      "qid": 59,
+      "topic": "Fluglehre",
+      "pos": 129,
+      "total_in_topic": 152,
+      "text": "Wird der Anstellwinkel eines mit der Geschwindigkeit für die beste Gleitzahl fliegenden Hängegleiters um 2° vergrössert, so",
+      "options": [
+        "nimmt die Fluggeschwindigkeit zu.",
+        "erhöht sich die Fluggeschwindigkeit zuerst, um sich danach wieder beim ursprünglichen Wert zu stabilisieren.",
+        "nimmt die Fluggeschwindigkeit ab.",
+        "verändert sich die Fluggeschwindigkeit nicht."
+      ],
+      "correct": 2
+    },
+    "Fluglehre_151": {
+      "qid": 151,
+      "topic": "Fluglehre",
+      "pos": 130,
+      "total_in_topic": 152,
+      "text": "Das Gesamtgewicht eines Hängegleiters beträgt 100 kg. In einer Kurve mit grosser Querlage wird das Gerät mit 0 kg belastet. Wie gross ist das Lastvielfache? 25",
+      "options": [
+        "25",
+        "0.25",
+        "2.5",
+        "250"
+      ],
+      "correct": 2
+    },
+    "Fluglehre_10": {
+      "qid": 10,
+      "topic": "Fluglehre",
+      "pos": 132,
+      "total_in_topic": 152,
+      "text": "Wird ein Körper mit einer Stirnfläche von 2 m² auf Meereshöhe einem Luftstrom von 30 km/h ausgesetzt, erzeugt er einen Widerstand von 300 N (ca. 30 kp). Welchen Widerstand erzeugt ein Körper derselben Form mit einer dem Luftstrom ausgesetzten Stirnfläche von 4 m² unter sonst gleichen Bedingungen?",
+      "options": [
+        "ca. 600 N",
+        "ca. 300 N",
+        "ca. 150 N",
+        "ca. 900 N"
+      ],
+      "correct": 0
+    },
+    "Fluglehre_117": {
+      "qid": 117,
+      "topic": "Fluglehre",
+      "pos": 133,
+      "total_in_topic": 152,
+      "text": "Ein Hängegleiter, der ohne aktives Zutun des Piloten in ruhiger Luft ständig giert, ist nicht",
+      "options": [
+        "rollstabil.",
+        "längsstabil.",
+        "richtungsstabil.",
+        "querstabil."
+      ],
+      "correct": 2
     }
   },
   "topics": {
