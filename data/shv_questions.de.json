@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-05-29T09:06:04.973Z",
+  "fetchedAt": "2026-05-29T09:06:35.838Z",
   "questions": {
     "Fluglehre_152": {
       "qid": 152,
@@ -5278,6 +5278,118 @@
         "der horizontalen Geschwindigkeit."
       ],
       "correct": 1
+    },
+    "Materialkunde_64": {
+      "qid": 64,
+      "topic": "Materialkunde",
+      "pos": 20,
+      "total_in_topic": 125,
+      "text": "Ein Gerät ist mit A-, B-, C- und D-Traggurten versehen. Welche dieser Traggurten werden während des stabilen Geradeausflugs am wenigsten belastet?",
+      "options": [
+        "Die B-Gurten",
+        "Die C-Gurten",
+        "Die D-Gurten",
+        "Die A-Gurten"
+      ],
+      "correct": 2
+    },
+    "Materialkunde_71": {
+      "qid": 71,
+      "topic": "Materialkunde",
+      "pos": 21,
+      "total_in_topic": 125,
+      "text": "Trimmtabs oder Trimmer werden für den Schnellflug",
+      "options": [
+        "angezogen, damit sich der Anstellwinkel vergrössert und sich das Profil im hinteren Bereich nach oben biegt.",
+        "gelöst, damit sich der Anstellwinkel vergrössert und sich das Profil im hinteren Bereich nach oben biegt.",
+        "angezogen, damit sich der Anstellwinkel verkleinert und sich das Profil im hinteren Bereich nach unten biegt.",
+        "gelöst, damit sich der Anstellwinkel verkleinert und sich das Profil im hinteren Bereich nach oben biegt."
+      ],
+      "correct": 3
+    },
+    "Materialkunde_99": {
+      "qid": 99,
+      "topic": "Materialkunde",
+      "pos": 22,
+      "total_in_topic": 125,
+      "text": "Die Grösse der Packintervalle hat bei Rettungsschirmen vor allem einen Einfluss auf",
+      "options": [
+        "die Verschmutzung des Schirms.",
+        "die Porosität des Gewebes.",
+        "die Öffnungsgeschwindigkeit.",
+        "Festigkeit der einzelnen Bauteile."
+      ],
+      "correct": 2
+    },
+    "Materialkunde_119": {
+      "qid": 119,
+      "topic": "Materialkunde",
+      "pos": 23,
+      "total_in_topic": 125,
+      "text": "Eine Typenprüfung nach EN ist",
+      "options": [
+        "eine für jeden in der Schweiz verkauften Hängegleiter obligatorische Überprüfung von dessen Flugtauglichkeit gemäss SHV-Typenprüfrichtlinien.",
+        "eine für jeden in der Schweiz verkauften Hängegleiter freiwillige Überprüfung von dessen Flugtauglichkeit gemäss SHV-Typenprüfrichtlinien.",
+        "eine für jeden in der Schweiz verkauften Hängegleitertyp freiwillige Überprüfung von dessen Flugtauglichkeit gemäss den diesbezüglichen europäischen Normen.",
+        "eine für jeden in der Schweiz verkauften Hängegleitertyp obligatorische Überprüfung von dessen Flugtauglichkeit gemäss SHV-Typenprüfrichtlinien."
+      ],
+      "correct": 2
+    },
+    "Materialkunde_31": {
+      "qid": 31,
+      "topic": "Materialkunde",
+      "pos": 25,
+      "total_in_topic": 125,
+      "text": "Welche Anforderungen werden unter anderem bei der Konstruktion moderner Gleitschirme an die Leinen gestellt?",
+      "options": [
+        "geringe Elastizität, grosse Belastbarkeit bei kleinem Durchmesser",
+        "grosse Elastizität, grosse Belastbarkeit bei kleinem Durchmesser",
+        "geringe Elastizität, kleine Belastbarkeit bei kleinem Durchmesser",
+        "grosse Elastizität, kleine Belastbarkeit bei kleinem Durchmesser"
+      ],
+      "correct": 0
+    },
+    "Materialkunde_35": {
+      "qid": 35,
+      "topic": "Materialkunde",
+      "pos": 26,
+      "total_in_topic": 125,
+      "text": "Muss bei Leinen, deren Kern aus Materialien mit geringer Dehnung besteht, auf längere Zeit mit empfindlichen Veränderungen der Länge gerechnet werden?",
+      "options": [
+        "Nein, Leinen aus Materialien mit geringer Dehnung verändern ihre Länge nie wesentlich.",
+        "Ja, bei Temperaturen über 60°C auf jeden Fall.",
+        "Ja, da alle Materialien unter Dauerbelastung ihre Länge wesentlich verändern.",
+        "Ja, insbesondere weil sich der Leinenmantel zusammenziehen und dadurch die Leine verkürzen kann."
+      ],
+      "correct": 3
+    },
+    "Materialkunde_80": {
+      "qid": 80,
+      "topic": "Materialkunde",
+      "pos": 28,
+      "total_in_topic": 125,
+      "text": "Wird der Abstand zwischen den beiden Aufhängepunkten eines Gurtzeuges vergrössert, so lässt es die Turbulenzen",
+      "options": [
+        "vermehrt spüren und vermindert die Gefahr des Twistens.",
+        "weniger spüren und erhöht die Gefahr des Twistens.",
+        "weniger spüren und vermindert die Gefahr des Twistens.",
+        "vermehrt spüren und erhöht die Gefahr des Twistens."
+      ],
+      "correct": 0
+    },
+    "Materialkunde_120": {
+      "qid": 120,
+      "topic": "Materialkunde",
+      "pos": 30,
+      "total_in_topic": 125,
+      "text": "Die Normen, gemäss welchen der SHV Geräte als typengeprüft anerkennt, werden bestimmt vom",
+      "options": [
+        "CEN (Comité Européen de Normalisation)",
+        "BAZL (Bundesamt für Zivilluftfahrt)",
+        "IHGA (International Hanggliding Association)",
+        "SHV (Schweizerischer Hängegleiter-Verband"
+      ],
+      "correct": 0
     }
   },
   "topics": {
