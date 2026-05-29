@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-05-29T09:19:56.488Z",
+  "fetchedAt": "2026-05-29T09:20:26.619Z",
   "questions": {
     "Fluglehre_152": {
       "qid": 152,
@@ -7966,6 +7966,132 @@
         "Ja, diese Gebiete sind aber bewaldet oder sonst wie nicht geeignet für Starts und Landungen."
       ],
       "correct": 1
+    },
+    "Flugpraxis_144": {
+      "qid": 144,
+      "topic": "Flugpraxis",
+      "pos": 132,
+      "total_in_topic": 169,
+      "text": "Welche Massnahmen sind zu ergreifen, wenn ein Verunfallter nicht antwortet, aber normal atmet und keine offenen Wunden aufweist? Der Verunfallte wird",
+      "options": [
+        "sitzend gelagert und vor allen Witterungseinflüssen (Sonne, Wind, Kälte, Nässe) geschützt.",
+        "auf dem Bauch gelagert und durch Einflössen kühler Getränke zu Bewusstsein gebracht.",
+        "auf den Rücken gelegt, seine Beine werden hoch gelagert.",
+        "in die stabile Seitenlage gebracht, vor allen Witterungseinflüssen (Sonne, Wind, Kälte, Nässe) geschützt und seine Atmung stetig überprüft."
+      ],
+      "correct": 3
+    },
+    "Flugpraxis_64": {
+      "qid": 64,
+      "topic": "Flugpraxis",
+      "pos": 133,
+      "total_in_topic": 169,
+      "text": "Ein Hängegleiterpilot kreist bei Windstille im thermischen Aufwind. Der Aufwindschlauch",
+      "options": [
+        "neigt sich mit zunehmender Höhe Richtung Osten.",
+        "neigt sich mit zunehmender Höhe Richtung Westen.",
+        "neigt sich mit zunehmender Höhe Richtung Norden.",
+        "verläuft senkrecht nach oben."
+      ],
+      "correct": 3
+    },
+    "Flugpraxis_88": {
+      "qid": 88,
+      "topic": "Flugpraxis",
+      "pos": 134,
+      "total_in_topic": 169,
+      "text": "Ein Pilot durchfliegt eine turbulente Zone, wobei der Gleitschirm um Quer- und Längsachse leicht zu pendeln beginnt. Welches ist die richtige Reaktion?",
+      "options": [
+        "Den Schirm 50% anbremsen und sich an den Traggurten festhalten, um die Lage des Körpers etwas zu stabilisieren.",
+        "Locker im Gurtzeug sitzen und das Gerät mit leichtem bis mässigem Bremsdruck fliegen, ohne seine Pendelbewegungen ausgleichen zu wollen.",
+        "Ungebremst fliegen und allenfalls das Gerät mittels A- und B-Leinen beschleunigen, um die turbulente Zone möglichst schnell zu verlassen.",
+        "Die Pendelbewegungen durch sofortiges und kräftiges Gegensteuern stabilisieren."
+      ],
+      "correct": 1
+    },
+    "Flugpraxis_73": {
+      "qid": 73,
+      "topic": "Flugpraxis",
+      "pos": 135,
+      "total_in_topic": 169,
+      "text": "Hängegleiter lassen beim Fliegen",
+      "options": [
+        "im unteren Geschwindigkeitsbereich keine fühlbaren Turbulenzen zurück.",
+        "auf ihrer Flugbahn ein Aufwindband zurück.",
+        "auf ihrer Flugbahn ein Abwindband zurück.",
+        "kurzfristig für andere Hängegleiter spürbare Turbulenzen zurück."
+      ],
+      "correct": 3
+    },
+    "Flugpraxis_42": {
+      "qid": 42,
+      "topic": "Flugpraxis",
+      "pos": 136,
+      "total_in_topic": 169,
+      "text": "Unmittelbar nach dem Start stellt ein Gleitschirmpilot fest, dass er das Gerät rechts stark anbremsen muss, damit es geradeaus fliegt und entdeckt links einen Knoten zwischen den D-Leinen und Bremsleinen. Welches sind die Folgen für den Weiterflug?",
+      "options": [
+        "Das Gerät ist anfälliger auf Turbulenzen und klappt schneller ein.",
+        "Die Sackfluganfälligkeit ist gross und bei einer Rechtsdrehung muss mit einem Strömungsabriss gerechnet werden.",
+        "Das Gerät hat rechts eine erhöhte Einklapptendenz, während bei Linksdrehungen mit einem Strömungsabriss gerechnet werden muss.",
+        "Durch Reibung können die D-Leinen reissen, was den Absturz zur Folge hat."
+      ],
+      "correct": 1
+    },
+    "Flugpraxis_61": {
+      "qid": 61,
+      "topic": "Flugpraxis",
+      "pos": 138,
+      "total_in_topic": 169,
+      "text": "Ein Hängegleiterpilot fliegt gegen den Wind und kommt unter einer Cumuluswolke an. Wo kann er einen aufsteigenden Luftstrom erwarten?",
+      "options": [
+        "Vor allem auf der Luvseite des Cumulus.",
+        "Sobald er sich unter dem Cumulus befindet.",
+        "Im Zentrum des Cumulus.",
+        "Vor allem auf der Leeseite des Cumulus."
+      ],
+      "correct": 0
+    },
+    "Flugpraxis_7": {
+      "qid": 7,
+      "topic": "Flugpraxis",
+      "pos": 139,
+      "total_in_topic": 169,
+      "text": "Fliegt ein Hängegleiter mit 32 km/h in einer Luftmasse mit einer Temperatur von 2°C, so ist unter diesen Bedingungen die kühlende Wirkung des Windes auf den Körper gleich gross wie bei ruhiger Luft mit einer Temperatur von",
+      "options": [
+        "- 11° C",
+        "- 0° C",
+        "+ 8° C",
+        "+ 2° C"
+      ],
+      "correct": 0
+    },
+    "Flugpraxis_8": {
+      "qid": 8,
+      "topic": "Flugpraxis",
+      "pos": 140,
+      "total_in_topic": 169,
+      "text": "Wird der menschliche Körper Temperaturen unterhalb des Behaglichkeitswertes ausgesetzt, so",
+      "options": [
+        "vermindert sich seine Leistungsfähigkeit und erhöht sich sein Sauerstoffbedarf.",
+        "vermindern sich seine Leistungsfähigkeit und sein Sauerstoffbedarf.",
+        "erhöhen sich seine Leistungsfähigkeit und sein Sauerstoffbedarf.",
+        "erhöht sich seine Leistungsfähigkeit und vermindert sich sein Sauerstoffbedarf."
+      ],
+      "correct": 0
+    },
+    "Flugpraxis_45": {
+      "qid": 45,
+      "topic": "Flugpraxis",
+      "pos": 141,
+      "total_in_topic": 169,
+      "text": "Ein Gleitschirmpilot will bei Windstille möglichst weit fliegen. Wie soll er sich verhalten?",
+      "options": [
+        "Er soll so schnell wie möglich fliegen, eventuell vorhandene Trimmer öffnen sowie den Beschleuniger betätigen, soweit es Gerät und Turbulenzen erlauben.",
+        "Er soll das Gerät ca. 50% angebremst fliegen.",
+        "Er soll das Gerät ca. 20 - 30 % angebremst fliegen.",
+        "Er soll ungebremst im Trimmspeed fliegen."
+      ],
+      "correct": 3
     }
   },
   "topics": {
