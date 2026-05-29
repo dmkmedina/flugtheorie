@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-05-29T08:37:40.241Z",
+  "fetchedAt": "2026-05-29T08:38:10.389Z",
   "questions": {
     "Fluglehre_152": {
       "qid": 152,
@@ -756,6 +756,104 @@
         "verkleinert sich die Gleitzahl."
       ],
       "correct": 0
+    },
+    "Fluglehre_94": {
+      "qid": 94,
+      "topic": "Fluglehre",
+      "pos": 63,
+      "total_in_topic": 152,
+      "text": "Welcher der folgenden Hängegleiter hat die grösste Flügelstreckung?",
+      "options": [
+        "Fläche: 16 m², Spannweite: 12 m",
+        "Fläche: 20 m², Spannweite: 10 m",
+        "Fläche: 12,5 m², Spannweite: 10 m",
+        "Fläche: 12 m², Spannweite: 12 m"
+      ],
+      "correct": 3
+    },
+    "Fluglehre_124": {
+      "qid": 124,
+      "topic": "Fluglehre",
+      "pos": 65,
+      "total_in_topic": 152,
+      "text": "Ein Hängegleiter mit der Gleitzahl 8 fliegt 800 m über Grund. Welches ist die weiteste Distanz, die er mit dieser Gleitzahl bei ruhiger Luft zurücklegen kann?",
+      "options": [
+        "6,4 km",
+        "24,0 km",
+        "10,0 km",
+        "8,1 km"
+      ],
+      "correct": 0
+    },
+    "Fluglehre_45": {
+      "qid": 45,
+      "topic": "Fluglehre",
+      "pos": 66,
+      "total_in_topic": 152,
+      "text": "Mit welcher Ziffer ist in der folgenden Skizze eines Profils die Profilnase (Eintrittskante) gekennzeichnet? 12",
+      "options": [
+        "4",
+        "3",
+        "1",
+        "2"
+      ],
+      "correct": 3
+    },
+    "Fluglehre_141": {
+      "qid": 141,
+      "topic": "Fluglehre",
+      "pos": 67,
+      "total_in_topic": 152,
+      "text": "Ein Hängegleiterpilot fliegt mit einer Geschwindigkeit von 36 km/h (10 m/s) und einem Sinken von 1 m/s. Er erreicht ein Abwindfeld, in dem die Luft mit 1 m/s sinkt. Wie hoch sind Vorwärts- und Sinkgeschwindigkeit im Abwind?",
+      "options": [
+        "Vorwärtsgeschwindigkeit: 18 km/h (05 m/s), Sinkgeschwindigkeit: 1 m/s",
+        "Vorwärtsgeschwindigkeit: 36 km/h (10 m/s), Sinkgeschwindigkeit: 0,5 m/s",
+        "Vorwärtsgeschwindigkeit: 36 km/h (10 m/s), Sinkgeschwindigkeit: 2 m/s",
+        "Vorwärtsgeschwindigkeit: 36 km/h (10 m/s), Sinkgeschwindigkeit: 1 m/s"
+      ],
+      "correct": 2
+    },
+    "Fluglehre_28": {
+      "qid": 28,
+      "topic": "Fluglehre",
+      "pos": 68,
+      "total_in_topic": 152,
+      "text": "Auf einer Höhe von 4'400 m über Meer beträgt der Luftwiderstand eines von Luft umströmten Körpers",
+      "options": [
+        "ca. 81% des Luftwiderstandes auf Meereshöhe.",
+        "ca. 90% des Luftwiderstandes auf Meereshöhe.",
+        "ca. 72% des Luftwiderstandes auf Meereshöhe.",
+        "ca. 64% des Luftwiderstandes auf Meereshöhe."
+      ],
+      "correct": 3
+    },
+    "Fluglehre_118": {
+      "qid": 118,
+      "topic": "Fluglehre",
+      "pos": 70,
+      "total_in_topic": 152,
+      "text": "Ein Hängegleiter, der ohne aktives Zutun des Piloten in ruhiger Luft den Anstellwinkel zusehends verkleinert, ist nicht",
+      "options": [
+        "pitch- / nickstabil.",
+        "richtungsstabil.",
+        "rollstabil.",
+        "höhenstabil."
+      ],
+      "correct": 0
+    },
+    "Fluglehre_121": {
+      "qid": 121,
+      "topic": "Fluglehre",
+      "pos": 71,
+      "total_in_topic": 152,
+      "text": "Die Gleitzahl eines Hängegleiters gibt Auskunft über das Verhältnis zwischen",
+      "options": [
+        "dem Auftrieb auf Flügelunter- und Flügeloberseite.",
+        "dem CA- und dem CW-Wert eines Flügels.",
+        "der Spannweite und der mittleren Flügeltiefe.",
+        "dem statischen und dem dynamischen Druck am Profil."
+      ],
+      "correct": 1
     }
   },
   "topics": {
