@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-05-29T08:53:11.968Z",
+  "fetchedAt": "2026-05-29T08:53:42.115Z",
   "questions": {
     "Fluglehre_152": {
       "qid": 152,
@@ -2800,6 +2800,104 @@
         "100°"
       ],
       "correct": 0
+    },
+    "Wetterkunde_59": {
+      "qid": 59,
+      "topic": "Wetterkunde",
+      "pos": 63,
+      "total_in_topic": 164,
+      "text": "Wolken vom Typ Lenticularis",
+      "options": [
+        "bestehen ausschliesslich aus Wasser, nie jedoch aus Eis.",
+        "verursachen Niederschläge.",
+        "ändern ihre Position trotz hoher Windgeschwindigkeit kaum.",
+        "treten in der Schweiz nur bei Südföhn auf."
+      ],
+      "correct": 2
+    },
+    "Wetterkunde_130": {
+      "qid": 130,
+      "topic": "Wetterkunde",
+      "pos": 64,
+      "total_in_topic": 164,
+      "text": "Wodurch wird eine Bodeninversion in der Regel verursacht?",
+      "options": [
+        "Durch absinkende sich trockenadiabatisch erwärmende Luft auf der Vorderseite und im Zentrum eines Hochs.",
+        "Durch die Erwärmung der bodennahen Luftschichten im Laufe des Tages.",
+        "Durch die nächtliche Abstrahlung des Bodens bei klarem Himmel.",
+        "Durch die Zufuhr kontinentaler Luftmassen in den bodennahen Luftschichten."
+      ],
+      "correct": 2
+    },
+    "Wetterkunde_72": {
+      "qid": 72,
+      "topic": "Wetterkunde",
+      "pos": 65,
+      "total_in_topic": 164,
+      "text": "Die Bodenwinde wehen über dem Flachland",
+      "options": [
+        "ungefähr parallel zu den Isobaren vom Tief- ins Hochdruckzentrum.",
+        "ungefähr parallel zu den Isobaren vom Hoch- ins Tiefdruckzentrum.",
+        "auf direktem Weg vom Hoch- ins Tiefdruckzentrum.",
+        "auf direktem Weg vom Tief- ins Hochdruckzentrum."
+      ],
+      "correct": 1
+    },
+    "Wetterkunde_117": {
+      "qid": 117,
+      "topic": "Wetterkunde",
+      "pos": 66,
+      "total_in_topic": 164,
+      "text": "Eine Okklusion zeigt bezüglich Wettergeschehen",
+      "options": [
+        "die Merkmale einer Kaltfront.",
+        "harmlosere Merkmale als Warm- und Kaltfront, da sich die beiden neutralisieren.",
+        "die Merkmale einer Warmfront.",
+        "je nach Temperatur der heranströmenden Kaltluft die Merkmale einer Warm- oder Kaltfront."
+      ],
+      "correct": 3
+    },
+    "Wetterkunde_76": {
+      "qid": 76,
+      "topic": "Wetterkunde",
+      "pos": 68,
+      "total_in_topic": 164,
+      "text": "Ein Wind aus Richtung 135° ist",
+      "options": [
+        "ein Südostwind.",
+        "ein Südwestwind.",
+        "ein Nordostwind.",
+        "ein Nordwestwind."
+      ],
+      "correct": 0
+    },
+    "Wetterkunde_139": {
+      "qid": 139,
+      "topic": "Wetterkunde",
+      "pos": 70,
+      "total_in_topic": 164,
+      "text": "Mit Blauthermik ist zu rechnen, wenn",
+      "options": [
+        "die Temperatur-Taupunkt-Differenz der aufsteigenden Luftmasse so gross ist, dass der Taupunkt nicht erreicht wird.",
+        "sich nachts der Boden so stark abkühlt, dass er kälter ist als angrenzende stehende Gewässer.",
+        "die Luftschichtung so stabil ist, dass keine Luftmassen thermisch aufsteigen.",
+        "die thermisch aufsteigende Luft nicht vom Boden, sondern aus einer höher liegenden Luftschicht stammt."
+      ],
+      "correct": 0
+    },
+    "Wetterkunde_132": {
+      "qid": 132,
+      "topic": "Wetterkunde",
+      "pos": 71,
+      "total_in_topic": 164,
+      "text": "Welches sind die besten Voraussetzungen für das Entstehen guter thermischer Aufwinde über einem bestimmten Stück Land?",
+      "options": [
+        "Steiler Sonneneinfallswinkel, starke Reflexion der einfallenden Strahlung.",
+        "Flacher Sonneneinfallswinkel, starke Reflexion der einfallenden Strahlung.",
+        "Flacher Sonneneinfallswinkel, schwache Reflexion der einfallenden Strahlung.",
+        "Steiler Sonneneinfallswinkel, schwache Reflexion der einfallenden Strahlung."
+      ],
+      "correct": 3
     }
   },
   "topics": {
