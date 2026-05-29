@@ -11,11 +11,14 @@
 import { chromium } from 'playwright';
 import { readFileSync, writeFileSync, existsSync } from 'node:fs';
 
+// Subject labels exactly as the SHV UI shows them per language. The
+// scraper compares `s.topic` from the page against `labelFor(subject)`,
+// so these strings must match the in-page text verbatim.
 const SUBJECTS = [
-  { id: 'S1', label_en: 'Aerodynamics',     label_de: 'Aerodynamik' },
-  { id: 'S2', label_en: 'Weather',          label_de: 'Wetter' },
-  { id: 'S3', label_en: 'Legislation',      label_de: 'Luftrecht' },
-  { id: 'S4', label_en: 'Materials',        label_de: 'Material' },
+  { id: 'S1', label_en: 'Aerodynamics',     label_de: 'Fluglehre' },
+  { id: 'S2', label_en: 'Weather',          label_de: 'Wetterkunde' },
+  { id: 'S3', label_en: 'Legislation',      label_de: 'Gesetzgebung' },
+  { id: 'S4', label_en: 'Materials',        label_de: 'Materialkunde' },
   { id: 'S5', label_en: 'Practical Flying', label_de: 'Flugpraxis' },
 ];
 const labelFor = (subj) => subj[`label_${LANG.toLowerCase()}`] || subj.label_en;
@@ -95,16 +98,16 @@ async function readState(page) {
   return await page.evaluate(() => {
     const text = (s) => (s || '').replace(/\s+/g, ' ').trim();
     const bodyText = text(document.body.innerText);
-    // "From" (en) | "Von" (de) | "Sur" (fr) | "Da" (it)
-    const posMatch = bodyText.match(/([A-ZÄÖÜ][A-Za-zÄÖÜäöüß ]+?)\s*(\d+)\s+(?:From|Von|Sur|Da)\s+(\d+)/);
+    // "From" (en) | "von" (de) | "sur" (fr) | "da" (it) — case-insensitive.
+    const posMatch = bodyText.match(/([A-ZÄÖÜ][A-Za-zÄÖÜäöüß ]+?)\s*(\d+)\s+(?:From|von|sur|da)\s+(\d+)/i);
     // "Question no." (en) | "Frage Nr." (de) | "Question no" (fr) | "Domanda n." (it)
-    const idMatch = bodyText.match(/(?:Question no\.|Frage Nr\.|Question no|Domanda n\.)\s*(\d+)/);
+    const idMatch = bodyText.match(/(?:Question no\.|Frage Nr\.|Question no|Domanda n\.)\s*(\d+)/i);
     const skipBtnLabels = new Set([
       '<', '>', '>>',
       'Cancel', 'Reload', 'Start...', 'Log out',
-      'Abbrechen', 'Aktualisieren', 'Beenden', 'Abmelden',
-      'Annuler', 'Recharger', 'Démarrer...', 'Déconnexion',
-      'Annulla', 'Ricarica', 'Avvia...', 'Logout',
+      'abbrechen', 'Abbrechen', 'aktualisieren', 'starten...', 'Abmelden',
+      'annuler', 'recharger', 'démarrer...', 'Déconnexion',
+      'annulla', 'ricarica', 'avvia...', 'Logout',
     ]);
     const optionBtns = [...document.querySelectorAll('button')].filter(b => {
       const t = text(b.textContent);
@@ -123,11 +126,11 @@ async function readState(page) {
       qText: (() => {
         let t = bodyText;
         for (const b of optionBtns) t = t.replace(text(b.textContent), '');
-        t = t.replace(/[A-ZÄÖÜ][A-Za-zÄÖÜäöüß ]+?\s*\d+\s+(?:From|Von|Sur|Da)\s+\d+/, '')
+        t = t.replace(/[A-ZÄÖÜ][A-Za-zÄÖÜäöüß ]+?\s*\d+\s+(?:From|von|sur|da)\s+\d+/i, '')
              .replace(/<\s*>\s*>>/, '')
-             .replace(/(?:Question no\.|Frage Nr\.|Question no|Domanda n\.)\s*\d+/, '')
-             .replace(/(?:Correct|Richtig|Correct|Corretto)\s*\d+x.*?(?:Incorrect|Falsch|Incorrect|Errato)\s*\d+x/, '')
-             .replace(/Cancel|Abbrechen|Annuler|Annulla/g, '')
+             .replace(/(?:Question no\.|Frage Nr\.|Question no|Domanda n\.)\s*\d+/i, '')
+             .replace(/(?:Correct|Richtig|Corretto)\s*\d+x.*?(?:Incorrect|Falsch|Errato)\s*\d+x/i, '')
+             .replace(/Cancel|abbrechen|Abbrechen|Annuler|Annulla/g, '')
              .replace(/Log out|Abmelden|Déconnexion|Logout/g, '')
              .replace(/Daniel Medina/g, '')
              .replace(/SHV E-Learning.*$/s, '')
