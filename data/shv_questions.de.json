@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-05-29T09:31:37.376Z",
+  "fetchedAt": "2026-05-29T09:32:08.076Z",
   "questions": {
     "Fluglehre_152": {
       "qid": 152,
@@ -2482,16 +2482,16 @@
     "Wetterkunde_96": {
       "qid": 96,
       "topic": "Wetterkunde",
-      "pos": 34,
+      "pos": 147,
       "total_in_topic": 164,
       "text": "Der Begriff \"scherungsbedingte\" Turbulenz bezeichnet in der Meteorologie die Verwirbelung der Luft, wenn",
       "options": [
-        "eine Luftströmung durch ein Hindernis scherförmig geteilt wird.",
-        "sich eine Luftmasse dem Boden entlang verschiebt und das Relief, sowie Hindernisse wie Häuser oder Bäume Wirbel verursachen.",
         "sich zwei benachbarte Luftmassen in verschiedener Richtung und/oder mit verschiedener Geschwindigkeit verschieben und sich dabei aneinander reiben.",
-        "sich Warmluftblasen vom Boden ablösen und aufsteigen."
+        "eine Luftströmung durch ein Hindernis scherförmig geteilt wird.",
+        "sich Warmluftblasen vom Boden ablösen und aufsteigen.",
+        "sich eine Luftmasse dem Boden entlang verschiebt und das Relief, sowie Hindernisse wie Häuser oder Bäume Wirbel verursachen."
       ],
-      "correct": 2
+      "correct": null
     },
     "Wetterkunde_121": {
       "qid": 121,
@@ -8936,16 +8936,16 @@
     "Wetterkunde_78": {
       "qid": 78,
       "topic": "Wetterkunde",
-      "pos": 90,
+      "pos": 157,
       "total_in_topic": 164,
       "text": "Ein Wind mit der Stärke 25 kt weht ungefähr mit",
       "options": [
-        "25 km/h",
+        "45 km/h",
         "35 km/h",
         "15 km/h",
-        "45 km/h"
+        "25 km/h"
       ],
-      "correct": 3
+      "correct": null
     },
     "Wetterkunde_62": {
       "qid": 62,
@@ -9408,6 +9408,104 @@
         "Übergang vom flüssigen in den festen Zustand"
       ],
       "correct": 1
+    },
+    "Wetterkunde_73": {
+      "qid": 73,
+      "topic": "Wetterkunde",
+      "pos": 138,
+      "total_in_topic": 164,
+      "text": "Ist der Abstand der Isobaren klein, so spricht man von",
+      "options": [
+        "einem steilen Druckgefälle, und es ist mit starkem Wind zu rechnen.",
+        "einer flachen Druckverteilung, und es ist mit starkem Wind zu rechnen.",
+        "einer flachen Druckverteilung, und es ist mit schwachen Winden zu rechnen.",
+        "einem steilen Druckgefälle, und es ist mit schwachen Winden zu rechnen."
+      ],
+      "correct": 0
+    },
+    "Wetterkunde_6": {
+      "qid": 6,
+      "topic": "Wetterkunde",
+      "pos": 143,
+      "total_in_topic": 164,
+      "text": "Wie verhält sich der Luftdruck mit zunehmender Höhe?",
+      "options": [
+        "Er halbiert sich bis zur Tropopause und bleibt danach konstant.",
+        "Er halbiert sich ca. alle 11'000 m.",
+        "Er halbiert sich ca. alle 5'500 m.",
+        "Er nimmt pro 100 Höhenmeter um ca. 80 hPa ab."
+      ],
+      "correct": null
+    },
+    "Wetterkunde_74": {
+      "qid": 74,
+      "topic": "Wetterkunde",
+      "pos": 144,
+      "total_in_topic": 164,
+      "text": "Liegen die Isobaren weit auseinander, so spricht man von",
+      "options": [
+        "einem steilen Druckgefälle, und es ist mit schwachen Winden zu rechnen.",
+        "einer flachen Druckverteilung, und es ist mit starkem Wind zu rechnen.",
+        "einer flachen Druckverteilung, und es ist mit schwachen Winden zu rechnen.",
+        "einem steilen Druckgefälle, und es ist mit starkem Wind zu rechnen."
+      ],
+      "correct": 2
+    },
+    "Wetterkunde_144": {
+      "qid": 144,
+      "topic": "Wetterkunde",
+      "pos": 146,
+      "total_in_topic": 164,
+      "text": "Dieses Symbol bedeutet auf der Wetterkarte",
+      "options": [
+        "eine Okklusion",
+        "eine Kaltfront",
+        "eine Warmfront",
+        "eine Isobare"
+      ],
+      "correct": 0
+    },
+    "Wetterkunde_83": {
+      "qid": 83,
+      "topic": "Wetterkunde",
+      "pos": 148,
+      "total_in_topic": 164,
+      "text": "Vergleicht man im Flachland den Bodenwind mit demjenigen 300 m/Grund, so ist der Wind 300 m/Grund in der Regel",
+      "options": [
+        "schwächer und weniger turbulent.",
+        "schwächer und turbulenter.",
+        "stärker und weniger turbulent.",
+        "stärker und turbulenter."
+      ],
+      "correct": 2
+    },
+    "Wetterkunde_71": {
+      "qid": 71,
+      "topic": "Wetterkunde",
+      "pos": 151,
+      "total_in_topic": 164,
+      "text": "Aufgrund des Verlaufs der Isobaren der Bodenwetterkarte kann eine Aussage gemacht werden über",
+      "options": [
+        "die Hauptwindrichtung und die Windstärke.",
+        "die Hauptwindrichtung und die Niederschlagsneigung.",
+        "den Temperaturgradient und die Windstärke.",
+        "die Niederschlagsneigung."
+      ],
+      "correct": 0
+    },
+    "Wetterkunde_46": {
+      "qid": 46,
+      "topic": "Wetterkunde",
+      "pos": 158,
+      "total_in_topic": 164,
+      "text": "Bei welcher der nachfolgend beschriebenen Wetterlagen ist die Bildung von Bodennebel (Strahlungsnebel) am wahrscheinlichsten?",
+      "options": [
+        "Bedeckter Himmel, Windstille, kleine Temperatur-Taupunkt-Differenz",
+        "Klarer Himmel, Wind 270°/10 kt, kleine Temperatur-Taupunktdifferenz",
+        "Klarer Himmel, Windstille, grosse Temperatur-Taupunkt-Differenz",
+        "Klarer Himmel, Windstille, kleine Temperatur-Taupunkt-Differenz"
+      ],
+      "correct": 3
     }
   },
   "topics": {
