@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-05-29T08:35:03.336Z",
+  "fetchedAt": "2026-05-29T08:35:34.961Z",
   "questions": {
     "Fluglehre_152": {
       "qid": 152,
@@ -126,6 +126,132 @@
         "R3"
       ],
       "correct": 2
+    },
+    "Fluglehre_74": {
+      "qid": 74,
+      "topic": "Fluglehre",
+      "pos": 11,
+      "total_in_topic": 152,
+      "text": "Der Begriff \"Flächenbelastung\" bezeichnet",
+      "options": [
+        "die Anstellwinkelunterschiede verschiedener Flügelabschnitte.",
+        "das Verhältnis zwischen Fluggewicht und gesamter Flügelfläche.",
+        "den durchschnittlichen Abstand zwischen Eintritts- und Austrittskante.",
+        "den Abstand zwischen den beiden Flügelenden."
+      ],
+      "correct": 1
+    },
+    "Fluglehre_85": {
+      "qid": 85,
+      "topic": "Fluglehre",
+      "pos": 12,
+      "total_in_topic": 152,
+      "text": "Wie gross ist die Flächenbelastung eines Geräts mit folgenden technischen Daten bei minimaler Zuladung? Spannweite: 10m min.Zuladung: 70kg Gewicht: 5kg Fläche: 25m² max.Zuladung: 95kg",
+      "options": [
+        "4,0 kg/m²",
+        "3,0 kg/m²",
+        "4,5 kg/m²",
+        "3,5 kg/m²"
+      ],
+      "correct": 1
+    },
+    "Fluglehre_138": {
+      "qid": 138,
+      "topic": "Fluglehre",
+      "pos": 13,
+      "total_in_topic": 152,
+      "text": "Hängegleiter X hat eine Gleitzahl von 10, Hängegleiter Y eine Gleitzahl von 5. Diese Aussage lässt folgenden Schluss zu:",
+      "options": [
+        "Y sinkt halb so schnell wie X.",
+        "X fliegt doppelt so weit wie Y.",
+        "X fliegt halb so weit wie Y.",
+        "Y sinkt doppelt so schnell wie X."
+      ],
+      "correct": 1
+    },
+    "Fluglehre_115": {
+      "qid": 115,
+      "topic": "Fluglehre",
+      "pos": 14,
+      "total_in_topic": 152,
+      "text": "Ein Hängegleiter, der nach einer äusseren Störung oder nach einem starken Pilotenimpuls seine neue Fluglage ohne weiteres Zutun des Piloten beibehält, hat",
+      "options": [
+        "labile Flugeigenschaften.",
+        "inverse Flugeigenschaften.",
+        "stabile Flugeigenschaften.",
+        "indifferente Flugeigenschaften."
+      ],
+      "correct": 3
+    },
+    "Fluglehre_57": {
+      "qid": 57,
+      "topic": "Fluglehre",
+      "pos": 15,
+      "total_in_topic": 152,
+      "text": "Wird der Anstellwinkel eines mit der Geschwindigkeit für die beste Gleitzahl fliegenden Hängegleiters um 2° verkleinert, so",
+      "options": [
+        "verändert sich die Fluggeschwindigkeit nicht.",
+        "nimmt die Fluggeschwindigkeit zu.",
+        "nimmt die Fluggeschwindigkeit ab.",
+        "erhöht sich die Fluggeschwindigkeit zuerst, um sich danach wieder beim ursprünglichen Wert zu stabilisieren."
+      ],
+      "correct": 1
+    },
+    "Fluglehre_109": {
+      "qid": 109,
+      "topic": "Fluglehre",
+      "pos": 17,
+      "total_in_topic": 152,
+      "text": "Mit welchen Ziffern sind Gleitwinkel und Gesamtgewicht gekennzeichnet?",
+      "options": [
+        "1 und 2",
+        "1 und 6",
+        "2 und 4",
+        "4 und 6"
+      ],
+      "correct": 0
+    },
+    "Fluglehre_60": {
+      "qid": 60,
+      "topic": "Fluglehre",
+      "pos": 18,
+      "total_in_topic": 152,
+      "text": "Wird der Anstellwinkel eines mit der Geschwindigkeit für die beste Gleitzahl fliegenden Hängegleiters um 2° vergrössert, so",
+      "options": [
+        "vermindert sich der CA-Wert (Auftriebsbeiwert) des Flügels.",
+        "erhöht sich der CA-Wert (Auftriebsbeiwert) des Flügels kurzfristig, um sich danach beim ursprünglichen Wert zu stabilisieren.",
+        "erhöht sich der CA-Wert (Auftriebsbeiwert) des Flügels.",
+        "verändert sich der CA-Wert (Auftriebsbeiwert) des Flügels nicht."
+      ],
+      "correct": 2
+    },
+    "Fluglehre_3": {
+      "qid": 3,
+      "topic": "Fluglehre",
+      "pos": 19,
+      "total_in_topic": 152,
+      "text": "Die Kräfte F1 und F4 wirken auf einen Körper. Sie haben denselben Angriffspunkt. Welches ist die Resultierende R der beiden Kräfte?",
+      "options": [
+        "R3",
+        "R2",
+        "R1",
+        "R4"
+      ],
+      "correct": 1
+    },
+    "Fluglehre_7": {
+      "qid": 7,
+      "topic": "Fluglehre",
+      "pos": 20,
+      "total_in_topic": 152,
+      "text": "Wird ein Körper so vergrössert, dass sich die dem Luftstrom ausgesetzte Stirnfläche verdoppelt, so",
+      "options": [
+        "vervierfacht sich dessen Luftwiderstand.",
+        "verdoppelt sich dessen Luftwiderstand.",
+        "halbiert sich dessen Luftwiderstand.",
+        "verändert sich dessen Luftwiderstand nicht."
+      ],
+      "correct": 1
     }
   },
   "topics": {
