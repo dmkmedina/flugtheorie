@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-05-29T09:23:23.414Z",
+  "fetchedAt": "2026-05-29T09:24:41.761Z",
   "questions": {
     "Fluglehre_152": {
       "qid": 152,
@@ -2174,16 +2174,16 @@
     "Wetterkunde_61": {
       "qid": 61,
       "topic": "Wetterkunde",
-      "pos": 6,
+      "pos": 14,
       "total_in_topic": 164,
       "text": "Sobald unter Cumulus Congestus- oder Cumulonimbuswolken Niederschlag beobachtet werden kann,",
       "options": [
-        "erfolgen immer elektrische Entladungen zwischen Wolke und Erdoberfläche.",
-        "werden sie für die Fliegerei harmlos, da sie sich im Stadium der Auflösung befinden.",
+        "darf davon ausgegangen werden, dass sie keine Aufwinde mehr produzieren.",
         "wird Luft durch Verdunstung abgekühlt, und es entstehen starke, böige Abwinde.",
-        "darf davon ausgegangen werden, dass sie keine Aufwinde mehr produzieren."
+        "erfolgen immer elektrische Entladungen zwischen Wolke und Erdoberfläche.",
+        "werden sie für die Fliegerei harmlos, da sie sich im Stadium der Auflösung befinden."
       ],
-      "correct": 2
+      "correct": null
     },
     "Wetterkunde_107": {
       "qid": 107,
@@ -2748,16 +2748,16 @@
     "Wetterkunde_163": {
       "qid": 163,
       "topic": "Wetterkunde",
-      "pos": 58,
+      "pos": 16,
       "total_in_topic": 164,
       "text": "Welche Bewölkung ist in St.Petersburg am wahrscheinlichsten?",
       "options": [
         "3/8 bis 5/8 Cumulus",
         "5/8 bis 7/8 Cumulonimbus, im Osten vereinzelte Lenticularis",
-        "5/8 bis 7/8 Cirrostratus",
-        "8/8 Nimbostratus"
+        "8/8 Nimbostratus",
+        "5/8 bis 7/8 Cirrostratus"
       ],
-      "correct": 3
+      "correct": null
     },
     "Wetterkunde_128": {
       "qid": 128,
@@ -2888,16 +2888,16 @@
     "Wetterkunde_132": {
       "qid": 132,
       "topic": "Wetterkunde",
-      "pos": 71,
+      "pos": 7,
       "total_in_topic": 164,
       "text": "Welches sind die besten Voraussetzungen für das Entstehen guter thermischer Aufwinde über einem bestimmten Stück Land?",
       "options": [
-        "Steiler Sonneneinfallswinkel, starke Reflexion der einfallenden Strahlung.",
-        "Flacher Sonneneinfallswinkel, starke Reflexion der einfallenden Strahlung.",
+        "Steiler Sonneneinfallswinkel, schwache Reflexion der einfallenden Strahlung.",
         "Flacher Sonneneinfallswinkel, schwache Reflexion der einfallenden Strahlung.",
-        "Steiler Sonneneinfallswinkel, schwache Reflexion der einfallenden Strahlung."
+        "Steiler Sonneneinfallswinkel, starke Reflexion der einfallenden Strahlung.",
+        "Flacher Sonneneinfallswinkel, starke Reflexion der einfallenden Strahlung."
       ],
-      "correct": 3
+      "correct": null
     },
     "Wetterkunde_51": {
       "qid": 51,
@@ -8398,6 +8398,90 @@
         "Durch Alterung vertrimmte Leinen, welche aufgrund fehlendem Jahrescheck nicht bemerkt werden.",
         "Antworten a, b und c sind richtig",
         "Flug durch Regenschauer, nasse Kalotte."
+      ],
+      "correct": 2
+    },
+    "Wetterkunde_90": {
+      "qid": 90,
+      "topic": "Wetterkunde",
+      "pos": 2,
+      "total_in_topic": 164,
+      "text": "Ab welcher Tageszeit ist in den Alpen im Sommer mit Talwind zu rechnen?",
+      "options": [
+        "ca. 11.00 Uhr",
+        "ca. 18.00 Uhr",
+        "ca. 22.00 Uhr",
+        "ca. 08.00 Uhr"
+      ],
+      "correct": 0
+    },
+    "Wetterkunde_63": {
+      "qid": 63,
+      "topic": "Wetterkunde",
+      "pos": 5,
+      "total_in_topic": 164,
+      "text": "Der atmosphärische Druck ist auf Meereshöhe insbesondere nicht immer gleich,",
+      "options": [
+        "weil auf der Erdoberfläche Temperaturschwankungen auftreten, welche eine Erwärmung oder Abkühlung der Luft und damit eine unterschiedliche Luftdichte verursachen.",
+        "weil der Druck mit zunehmender Strömungsgeschwindigkeit der Luftmassen abnimmt und umgekehrt.",
+        "weil kontinentale Luftmassen trockener und damit schwerer sind als maritime und dadurch einen grösseren atmosphärischen Druck bewirken.",
+        "weil maritime Luftmassen feuchter und damit schwerer sind als kontinentale und dadurch einen grösseren atmosphärischen Druck bewirken."
+      ],
+      "correct": 0
+    },
+    "Wetterkunde_93": {
+      "qid": 93,
+      "topic": "Wetterkunde",
+      "pos": 8,
+      "total_in_topic": 164,
+      "text": "Welche der folgenden Aussagen ist richtig?",
+      "options": [
+        "Der Talwind weht in Bodennähe eher schwach und nimmt mit zunehmender Höhe kontinuierlich zu.",
+        "Der Talwind weht auf 50 m über Grund etwa mit derselben Geschwindigkeit wie auf 800 m über Grund.",
+        "Der Talwind weht auf ca. 500 m über Grund am stärksten und nimmt nach oben wie nach unten hin ab.",
+        "Der Talwind nimmt mit abnehmender Höhe zu."
+      ],
+      "correct": 3
+    },
+    "Wetterkunde_150": {
+      "qid": 150,
+      "topic": "Wetterkunde",
+      "pos": 11,
+      "total_in_topic": 164,
+      "text": "Wo ist der Wind am schwächsten?",
+      "options": [
+        "in Nordafrika",
+        "in der Schweiz",
+        "in Südskandinavien",
+        "in Island"
+      ],
+      "correct": 0
+    },
+    "Wetterkunde_136": {
+      "qid": 136,
+      "topic": "Wetterkunde",
+      "pos": 15,
+      "total_in_topic": 164,
+      "text": "Der Begriff \"Leethermik\" steht für",
+      "options": [
+        "thermische Aufwinde im Lee anderer thermischer Aufwinde.",
+        "thermische Aufwinde, die sich auf der windabgewandten Seite eines Berges bilden.",
+        "den Aufwind hervorgerufen durch den Rotor auf der windabgewandten Seite eines Berges.",
+        "den Abwind auf der windabgewandten Seite thermisch aufsteigender Luftmassen."
+      ],
+      "correct": 1
+    },
+    "Wetterkunde_7": {
+      "qid": 7,
+      "topic": "Wetterkunde",
+      "pos": 17,
+      "total_in_topic": 164,
+      "text": "Mit welchem mittleren Druck auf Meereshöhe (ICAO Standardatmosphäre) rechnen die Meteorologen?",
+      "options": [
+        "760,0 hPa",
+        "1033,65 hPa",
+        "1013,25 hPa",
+        "998,75 hPa"
       ],
       "correct": 2
     }
