@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-05-29T09:19:26.339Z",
+  "fetchedAt": "2026-05-29T09:19:56.488Z",
   "questions": {
     "Fluglehre_152": {
       "qid": 152,
@@ -7854,6 +7854,118 @@
         "Ich umfliege den Helikopter grossräumig, halte einen Abstand von mindestens 500 Metern und lande an einem anderen Landeplatz, sofern gefahrlos möglich."
       ],
       "correct": 3
+    },
+    "Flugpraxis_126": {
+      "qid": 126,
+      "topic": "Flugpraxis",
+      "pos": 123,
+      "total_in_topic": 169,
+      "text": "Ein Pilot befindet sich bei leichtem Gegenwind im Endanflug und stellt fest, dass er eher etwas tief fliegt. Welches Verhalten ist korrekt?",
+      "options": [
+        "Das Gerät ungebremst bis in Bodennähe fliegen und dann die Bremsen langsam und kontinuierlich ziehen.",
+        "Das Gerät 50% anbremsen, um möglichst lang zu fliegen.",
+        "Das Gerät leicht anbremsen, um seine Leistung zu verbessern.",
+        "Eine Aussenlandung ist unvermeidlich."
+      ],
+      "correct": 0
+    },
+    "Flugpraxis_94": {
+      "qid": 94,
+      "topic": "Flugpraxis",
+      "pos": 124,
+      "total_in_topic": 169,
+      "text": "Das Absteigen mittels Steilspirale hat den Vorteil, dass",
+      "options": [
+        "die Kalotte nicht deformiert wird und sich hohe Sinkwerte erreichen lassen.",
+        "der Körper nicht belastet wird und sich auch während der Dauer des Manövers ein bestimmtes Ziel anfliegen lässt.",
+        "bei einfachem Einleiten und ohne grosse körperliche Belastung hohe Sinkwerte erzielt werden können.",
+        "sich ohne Probleme beim Ausleiten und ohne grosse körperliche Belastung hohe Sinkwerte erzielen lassen."
+      ],
+      "correct": 0
+    },
+    "Flugpraxis_48": {
+      "qid": 48,
+      "topic": "Flugpraxis",
+      "pos": 125,
+      "total_in_topic": 169,
+      "text": "Kann die Fluggeschwindigkeit durch die Körperhaltung beeinflusst werden?",
+      "options": [
+        "Werden die Beine ausgestreckt, so verschiebt sich der Schwerpunkt nach vorn, der Anstellwinkel wird verkleinert, und das Gerät fliegt schneller.",
+        "Wird mit Vorlage geflogen und dadurch mit den Schultern gegen die Traggurten gedrückt, so wird das Gerät dadurch beschleunigt.",
+        "Wird während des Flugs eine aerodynamisch günstige Position eingenommen, so kann dadurch der Luftwiderstand entscheidend verringert und die Geschwindigkeit geringfügig erhöht werden.",
+        "Nein."
+      ],
+      "correct": 2
+    },
+    "Flugpraxis_118": {
+      "qid": 118,
+      "topic": "Flugpraxis",
+      "pos": 126,
+      "total_in_topic": 169,
+      "text": "Ein Pilot erreicht unmittelbar vor zwei weiteren mit einem horizontalen Abstand von 50 m fliegenden Hängegleitern den Landeplatz. Es herrscht Windstille. Er entscheidet sich für eine Linksvolte mit Landung Richtung Westen. Im Queranflug stellt er fest, dass am Landeplatz ein leichter Ostwind (2 - 5 km/h) herrscht. Was ist zu unternehmen?",
+      "options": [
+        "Den Anflug sofort abbrechen, sich zur Leeseite des Landepunktes begeben und gegen den Wind landen.",
+        "Den Gegenanflug als Queranflug betrachten und quer zum Wind landen.",
+        "Den Anflug wie begonnen fortsetzen und den Endanflugwinkel etwas flacher planen.",
+        "Den Anflug wie begonnen fortsetzen und den Endanflugwinkel etwas steiler planen."
+      ],
+      "correct": 2
+    },
+    "Flugpraxis_52": {
+      "qid": 52,
+      "topic": "Flugpraxis",
+      "pos": 127,
+      "total_in_topic": 169,
+      "text": "Ein Gleitschirmpilot befindet sich auf dem Flug zum Landeplatz, der genau südlich seiner Position liegt. Er bemerkt, dass ein mässiger Westwind von 25 km/h weht. Wie soll er sich verhalten, um möglichst hoch über dem Landeplatz anzukommen?",
+      "options": [
+        "Er soll das Gerät Richtung Landeplatz orientieren und leicht angebremst fliegen.",
+        "Er soll das Gerät Richtung Süden orientieren und so schnell als möglich fliegen.",
+        "Er soll das Gerät Richtung Südwesten orientieren und so schnell als möglich fliegen.",
+        "Er soll das Gerät Richtung Landeplatz orientieren und so schnell als möglich fliegen."
+      ],
+      "correct": 2
+    },
+    "Flugpraxis_26": {
+      "qid": 26,
+      "topic": "Flugpraxis",
+      "pos": 128,
+      "total_in_topic": 169,
+      "text": "Bei welchen Anzeichen muss am ehesten damit gerechnet werden, dass sich ein Startplatz im Lee befindet?",
+      "options": [
+        "Wenn in grosser Höhe die Wolken langsam von vorne über den Startplatz ziehen.",
+        "Ständiger Wechsel zwischen Windstille und Phasen mit warmen Aufwinden unterschiedlicher Stärke.",
+        "Konstanter Abwind von 5 - 10 km/h.",
+        "Abrupte Änderungen von Windgeschwindigkeit und -richtung."
+      ],
+      "correct": 3
+    },
+    "Flugpraxis_142": {
+      "qid": 142,
+      "topic": "Flugpraxis",
+      "pos": 130,
+      "total_in_topic": 169,
+      "text": "Wie hat sich der Pilot unmittelbar nach dem Auslösen des Rettungssystems zu verhalten?",
+      "options": [
+        "Der Pilot nimmt eine aufrechte Position ein und versucht, wenn möglich den Hauptschirm durch symmetrisches Ziehen einer Leinenebene am Fliegen zu hindern.",
+        "Der Gleitschirm muss mit den Bremsen so gesteuert werden, dass der dem Notschirm nicht zu nahe kommen und sich verheddern kann.",
+        "Der Pilot öffnet bereits während des Sinkflugs das Gurtzeug, um sich am Boden möglichst schnell vom Schirm trennen zu können.",
+        "Der Pilot nimmt eine möglichst waagrechte Position ein und zieht Beine und Arme eng an den Körper (Embryostellung)."
+      ],
+      "correct": 0
+    },
+    "Flugpraxis_151": {
+      "qid": 151,
+      "topic": "Flugpraxis",
+      "pos": 131,
+      "total_in_topic": 169,
+      "text": "Gibt es Start- und Landeverbote aus Umweltschutzgründen?",
+      "options": [
+        "Ja, in allen nationalen Schutzgebieten.",
+        "Ja, in nationalen Schutzgebieten gemäss Aussenlandeverordnung des Bundes und gemäss kantonalen Sonderregeln.",
+        "Nein, solange ich die Natur nicht störe, darf ich überall starten und landen.",
+        "Ja, diese Gebiete sind aber bewaldet oder sonst wie nicht geeignet für Starts und Landungen."
+      ],
+      "correct": 1
     }
   },
   "topics": {
