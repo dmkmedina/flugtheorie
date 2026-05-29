@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-05-29T09:02:38.279Z",
+  "fetchedAt": "2026-05-29T09:03:10.184Z",
   "questions": {
     "Fluglehre_152": {
       "qid": 152,
@@ -4858,6 +4858,146 @@
         "Maximalhöhe 1600 m AMSL, minimale Sichtweite 5 km, Wolkenabstände 1500 m horizontal / 300 m vertikal"
       ],
       "correct": 2
+    },
+    "Gesetzgebung_56": {
+      "qid": 56,
+      "topic": "Gesetzgebung",
+      "pos": 166,
+      "total_in_topic": 180,
+      "text": "Die Abkürzung \"GLDK\" steht für",
+      "options": [
+        "das Luftfahrthandbuch der Schweiz.",
+        "die Nachrichten für Luftfahrer.",
+        "die Segelflugkarte.",
+        "die Koordinationsstelle für Schiessen und Flugsicherung."
+      ],
+      "correct": 2
+    },
+    "Gesetzgebung_8": {
+      "qid": 8,
+      "topic": "Gesetzgebung",
+      "pos": 167,
+      "total_in_topic": 180,
+      "text": "Das Mitführen eines Rettungssystems (Rettungsschirm)",
+      "options": [
+        "ist während der Ausbildung für Hängegleiter-Höhenflüge vorgeschrieben.",
+        "ist während Flügen an praktischen Hängegleiterprüfungen vorgeschrieben.",
+        "ist für sämtliche Hängegleiterflüge vorgeschrieben.",
+        "ist nirgends vorgeschrieben."
+      ],
+      "correct": 1
+    },
+    "Gesetzgebung_147": {
+      "qid": 147,
+      "topic": "Gesetzgebung",
+      "pos": 168,
+      "total_in_topic": 180,
+      "text": "Welche allgemeinen Regeln gelten für Hängegleiter ohne Spezialbewilligung am mit x bezeichneten Ort auf 900 m AMSL an einem Dienstag um 09 Uhr im Juni?",
+      "options": [
+        "Maximalhöhe 4550 m AMSL, minimale Sichtweite 8 km, Wolkenabstände 100 m horizontal / 50 m vertikal",
+        "Maximalhöhe 3950 m AMSL, minimale Sichtweite 8 km, Wolkenabstände 1500 m horizontal / 300 m vertikal",
+        "Maximalhöhe 3050 m AMSL, minimale Sichtweite 1.5 km, ausserhalb von Wolken, Bodensicht",
+        "Fliegen verboten"
+      ],
+      "correct": 3
+    },
+    "Gesetzgebung_118": {
+      "qid": 118,
+      "topic": "Gesetzgebung",
+      "pos": 169,
+      "total_in_topic": 180,
+      "text": "Anlässlich der praktischen Teilprüfung muss eine Anzahl durch einen schweizerischen Fluglehrer bestätigte Höhenflüge nachgewiesen werden. Wieviele verschiedene Fluggebiete sind im Rahmen dieser Flüge mindestens zu befliegen?",
+      "options": [
+        "Mindestens: 7 für Gleitschirm, 7 für Delta, 7 für Starrflügler",
+        "Mindestens: 2 für Gleitschirm, 2 für Delta, 2 für Starrflügler",
+        "Mindestens: 3 für Gleitschirm, 5 für Delta, 5 für Starrflügler",
+        "Mindestens: 5 für Gleitschirm, 3 für Delta, 3 für Starrflügler"
+      ],
+      "correct": 3
+    },
+    "Gesetzgebung_124": {
+      "qid": 124,
+      "topic": "Gesetzgebung",
+      "pos": 170,
+      "total_in_topic": 180,
+      "text": "Der Luftraum wird von verschiedenen Kategorien von Luftfahrzeugen benützt, die entsprechend ihrer Möglichkeiten Priorität (Vortritt) geniessen. Welche Aussage ist richtig?",
+      "options": [
+        "Motorflugzeuge haben Vortritt vor Luftschiffen, Luftschiffe haben Vortritt vor Hängegleitern.",
+        "Luftschiffe haben Vortritt vor Hängegleitern, Hängegleiter haben Vortritt vor Motorflugzeugen.",
+        "Hängegleiter haben Vortritt vor Luftschiffen, Luftschiffe haben Vortritt vor Motorflugzeugen.",
+        "Hängegleiter haben Vortritt vor Motorflugzeugen, Motorflugzeuge haben Vortritt vor Luftschiffen."
+      ],
+      "correct": 2
+    },
+    "Gesetzgebung_76": {
+      "qid": 76,
+      "topic": "Gesetzgebung",
+      "pos": 172,
+      "total_in_topic": 180,
+      "text": "Ein AWY",
+      "options": [
+        "verbindet verschiedene Flughäfen miteinander und hat klar definierte Seiten- und Untergrenzen",
+        "befindet sich in der Regel am Knotenpunkt von ATS-Strecken in der Nähe von einem oder mehreren grösseren Flugplätzen. Ober- und Untergrenze sind in der Segelflugkarte ersichtlich.",
+        "ist der ganze Luftraum über der Schweiz.",
+        "erstreckt sich rund um einen Flughafen. Sie wird nach unten durch den Boden, nach oben durch den Nahkontrollbezirk begrenzt."
+      ],
+      "correct": 0
+    },
+    "Gesetzgebung_23": {
+      "qid": 23,
+      "topic": "Gesetzgebung",
+      "pos": 173,
+      "total_in_topic": 180,
+      "text": "Welche Personengruppe darf selbständig gelegentliche Hängegleiterflüge im schweizerischen Luftraum absolvieren, ohne im Besitz des schweizerischen amtlichen Hängegleiterpilotenausweises zu sein?",
+      "options": [
+        "Hängegleiterpiloten mit Wohnsitz im Ausland, welche Inhaber eines gleichwertigen ausländischen Ausweises sind.",
+        "Hängegleiterpiloten mit Wohnsitz im Ausland, welche Inhaber einer APPI Lizenz sind.",
+        "Hängegleiterpiloten, welche Inhaber eines gleichwertigen ausländischen Ausweises sind.",
+        "Hängegleiterpiloten mit Wohnsitz im Ausland, welche Inhaber einer internationalen FAI-Wettkampflizenz sind."
+      ],
+      "correct": 0
+    },
+    "Gesetzgebung_167": {
+      "qid": 167,
+      "topic": "Gesetzgebung",
+      "pos": 174,
+      "total_in_topic": 180,
+      "text": "Bis auf welche Höhe darf in der LS-R24 an einem Sonntag Nachmittag im Juli gestiegen werden?",
+      "options": [
+        "bis auf 4550m über Meer STD oder 600m über Grund (welches die grössere Höhe ergibt)",
+        "bis auf 600m über Grund",
+        "bis auf 3950m über Meer STD oder 600m über Grund (welches die grössere Höhe ergibt)",
+        "bis auf 4550m über Meer STD"
+      ],
+      "correct": 0
+    },
+    "Gesetzgebung_102": {
+      "qid": 102,
+      "topic": "Gesetzgebung",
+      "pos": 175,
+      "total_in_topic": 180,
+      "text": "Welche Distanzen bezüglich Sicht und Wolkenabstand gelten grundsätzlich mittwochs um 15.30 Uhr über dem Jura auf 500 m AGL / 1'400 m AMSL? Sicht / Abstand horizontal / Abstand vertikal",
+      "options": [
+        "1,5 km / 1,5 km / 300 m",
+        "5,0 km / 1,5 km / 300 m",
+        "1,5 km und Bodensicht / ausserhalb / ausserhalb",
+        "8,0 km / 1,5 km / 300 m"
+      ],
+      "correct": 0
+    },
+    "Gesetzgebung_16": {
+      "qid": 16,
+      "topic": "Gesetzgebung",
+      "pos": 176,
+      "total_in_topic": 180,
+      "text": "Wer teilt die Kennzeichen (Nummer) für Hängegleiter zu?",
+      "options": [
+        "Der Schweizerischer Hängegleiter-Verband (SHV).",
+        "Der Fluglehrer.",
+        "Die Haftpflichtversicherungsgesellschaft.",
+        "Das Bundesamt für Zivilluftfahrt (BAZL)."
+      ],
+      "correct": 0
     }
   },
   "topics": {
