@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-05-29T08:41:49.597Z",
+  "fetchedAt": "2026-05-29T08:45:58.506Z",
   "questions": {
     "Fluglehre_152": {
       "qid": 152,
@@ -550,16 +550,16 @@
     "Fluglehre_135": {
       "qid": 135,
       "topic": "Fluglehre",
-      "pos": 43,
+      "pos": 26,
       "total_in_topic": 152,
       "text": "Welches ist die Gleitzahl des Hängegleiters mit untenstehender Geschwindigkeitspolare, wenn er mit der minimalen Fluggeschwindigkeit fliegt?",
       "options": [
         "5,3",
-        "3,7",
         "2,0",
+        "3,7",
         "4,6"
       ],
-      "correct": 2
+      "correct": null
     },
     "Fluglehre_31": {
       "qid": 31,
@@ -718,16 +718,16 @@
     "Fluglehre_11": {
       "qid": 11,
       "topic": "Fluglehre",
-      "pos": 59,
+      "pos": 6,
       "total_in_topic": 152,
       "text": "Wird ein Körper mit einer Stirnfläche von 2 m² auf Meereshöhe einem Luftstrom von 30 km/h ausgesetzt, erzeugt er einen Widerstand von 300 N (ca. 30 kp). Welchen Widerstand erzeugt ein Körper derselben Form mit einer dem Luftstrom ausgesetzten Stirnfläche von 1 m² unter sonst gleichen Bedingungen?",
       "options": [
-        "ca. 150 N",
-        "ca. 600 N",
+        "ca. 900 N",
         "ca. 300 N",
-        "ca. 900 N"
+        "ca. 600 N",
+        "ca. 150 N"
       ],
-      "correct": 0
+      "correct": null
     },
     "Fluglehre_19": {
       "qid": 19,
@@ -1708,6 +1708,90 @@
         "Fläche: 25 m², Spannweite: 10 m"
       ],
       "correct": 0
+    },
+    "Fluglehre_111": {
+      "qid": 111,
+      "topic": "Fluglehre",
+      "pos": 3,
+      "total_in_topic": 152,
+      "text": "An einem Hängegleiter heisst eine Bewegung um die Längsachse",
+      "options": [
+        "rollen.",
+        "nicken.",
+        "gieren.",
+        "trudeln."
+      ],
+      "correct": 0
+    },
+    "Fluglehre_116": {
+      "qid": 116,
+      "topic": "Fluglehre",
+      "pos": 7,
+      "total_in_topic": 152,
+      "text": "Ein Hängegleiter, der im Geradeausflug nach dem Lösen des Beschleunigers selbstständig zur Normalfluggeschwindigkeit zurückkehrt, hat",
+      "options": [
+        "indifferente Flugeigenschaften.",
+        "stabile Flugeigenschaften.",
+        "inverse Flugeigenschaften.",
+        "labile Flugeigenschaften."
+      ],
+      "correct": 1
+    },
+    "Fluglehre_150": {
+      "qid": 150,
+      "topic": "Fluglehre",
+      "pos": 13,
+      "total_in_topic": 152,
+      "text": "Der Begriff \"Lastvielfaches\" bezeichnet",
+      "options": [
+        "das Verhältnis von tatsächlicher Belastung des Hängegleiters im Flug zum Gesamtgewicht am Boden.",
+        "die Flächenbelastung.",
+        "das Verhältnis zwischen Minimal- und Maximalbelastung eines Hängegleiters.",
+        "die konstruktive Sicherheitsreserve bezüglich Belastung an Hängegleitern."
+      ],
+      "correct": 0
+    },
+    "Fluglehre_44": {
+      "qid": 44,
+      "topic": "Fluglehre",
+      "pos": 20,
+      "total_in_topic": 152,
+      "text": "Mit welcher Ziffer ist in der folgenden Skizze eines Profils die Profiltiefe gekennzeichnet? 12",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "correct": 0
+    },
+    "Fluglehre_129": {
+      "qid": 129,
+      "topic": "Fluglehre",
+      "pos": 24,
+      "total_in_topic": 152,
+      "text": "Wie heisst die graphische Darstellung des Verhältnisses zwischen Horizontal- und Sinkgeschwindigkeit über den ganzen Geschwindigkeitsbereich eines Hängegleiters hinweg?",
+      "options": [
+        "Geschwindigkeitspolare",
+        "Barogramm",
+        "Emagramm",
+        "Profilpolare"
+      ],
+      "correct": 0
+    },
+    "Fluglehre_68": {
+      "qid": 68,
+      "topic": "Fluglehre",
+      "pos": 27,
+      "total_in_topic": 152,
+      "text": "Der Begriff \"Staupunkt\" bezeichnet",
+      "options": [
+        "den Angriffspunkt der Luftkraftresultierenden.",
+        "den Punkt, an dem sich die Grenzschicht und damit die Strömung vom Flügel löst.",
+        "den Punkt, an dem sich die anströmende Luft auf Flügelober- und Flügelunterseite aufteilt.",
+        "den Übergang von der laminaren zur turbulenten Grenzschicht."
+      ],
+      "correct": 2
     }
   },
   "topics": {
