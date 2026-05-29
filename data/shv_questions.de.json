@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-05-29T09:01:35.024Z",
+  "fetchedAt": "2026-05-29T09:02:06.680Z",
   "questions": {
     "Fluglehre_152": {
       "qid": 152,
@@ -4606,6 +4606,132 @@
         "Der Schweizerischer Hängegleiter-Verband SHV"
       ],
       "correct": 3
+    },
+    "Gesetzgebung_48": {
+      "qid": 48,
+      "topic": "Gesetzgebung",
+      "pos": 146,
+      "total_in_topic": 180,
+      "text": "Dürfen in der Schweiz mit einem Hängegleiter gleichzeitig mehrere Passagiere transportiert werden?",
+      "options": [
+        "Ja, durch Inhaber eines entsprechenden Ausweises.",
+        "Ja, maximal drei.",
+        "Ja, wenn das Gerät über eine geeignete Aufhängung verfügt und der Wert der maximalen Zuladung nicht überschritten wird.",
+        "Nein."
+      ],
+      "correct": 3
+    },
+    "Gesetzgebung_69": {
+      "qid": 69,
+      "topic": "Gesetzgebung",
+      "pos": 147,
+      "total_in_topic": 180,
+      "text": "Die Abkürzung \"AGL\" steht für",
+      "options": [
+        "Flugfläche.",
+        "Höhe über Grund.",
+        "Grund, Boden.",
+        "Höhe über der mittleren Meereshöhe."
+      ],
+      "correct": 1
+    },
+    "Gesetzgebung_141": {
+      "qid": 141,
+      "topic": "Gesetzgebung",
+      "pos": 148,
+      "total_in_topic": 180,
+      "text": "Welches sind die Vorschriften bezüglich minimalen Hangabstand bei Hängegleiterflügen?",
+      "options": [
+        "30 m",
+        "Es existieren keine Vorschriften.",
+        "Während der militärischen Flugdienstzeiten 150 m, ausserhalb 60 m",
+        "60 m"
+      ],
+      "correct": 1
+    },
+    "Gesetzgebung_50": {
+      "qid": 50,
+      "topic": "Gesetzgebung",
+      "pos": 149,
+      "total_in_topic": 180,
+      "text": "Welche Flugfunkfrequenz ist speziell für die Funkverbindung zwischen Hängegleitern im Flug reserviert?",
+      "options": [
+        "123.430 MHz",
+        "122.955 MHz",
+        "124.855 MHz",
+        "130.930 MHz"
+      ],
+      "correct": 3
+    },
+    "Gesetzgebung_159": {
+      "qid": 159,
+      "topic": "Gesetzgebung",
+      "pos": 150,
+      "total_in_topic": 180,
+      "text": "Welche Regeln gelten für Hängegleiter am mit x bezeichneten Ort auf 3300 m AMSL (~700 m AGL) an einem Sonntag um 09 Uhr im Juni?",
+      "options": [
+        "Maximalhöhe 5950m AMSL, minimale Sichtweite 8 km, Wolkenabstände 100 m horizontal / 50 m vertikal",
+        "Fliegen verboten",
+        "Maximalhöhe 4550m AMSL, minimale Sichtweite 8 km, Wolkenabstände 100 m horizontal / 50 m vertikal",
+        "Maximalhöhe 3950m AMSL, minimale Sichtweite 8 km, Wolkenabstände 100 m horizontal / 50 m vertikal"
+      ],
+      "correct": 3
+    },
+    "Gesetzgebung_109": {
+      "qid": 109,
+      "topic": "Gesetzgebung",
+      "pos": 151,
+      "total_in_topic": 180,
+      "text": "Ein aktives Gefahrengebiet (LS-D) ist ein begrenzter Teil des Luftraums,",
+      "options": [
+        "in welchem die Sport- und Segelfliegerei untersagt ist.",
+        "in welchem für Luftfahrzeuge gefährliche Vorgänge stattfinden können.",
+        "in welchem die grossen Wolkenabstände gelten.",
+        "dessen Benützung für alle Luftfahrzeuge untersagt ist."
+      ],
+      "correct": 1
+    },
+    "Gesetzgebung_12": {
+      "qid": 12,
+      "topic": "Gesetzgebung",
+      "pos": 153,
+      "total_in_topic": 180,
+      "text": "Wie hoch ist die minimale Garantiesumme der zum Betreiben eines Hängegleiters gesetzlich vorgeschriebenen Haftpflichtversicherung?",
+      "options": [
+        "CHF 1'000'000",
+        "CHF 1'500'000",
+        "CHF 500'000",
+        "CHF 2'000'000"
+      ],
+      "correct": 0
+    },
+    "Gesetzgebung_127": {
+      "qid": 127,
+      "topic": "Gesetzgebung",
+      "pos": 154,
+      "total_in_topic": 180,
+      "text": "Wie nahe darf sich ein Hängegleiter einem Luftfahrzeug anderer Kategorie (z.B. Ballon) während des Flugs nähern?",
+      "options": [
+        "Es gelten dieselben Abstände wie bei Wolken.",
+        "50 m",
+        "100 m",
+        "So nahe, dass keine Kollisionsgefahr besteht."
+      ],
+      "correct": 3
+    },
+    "Gesetzgebung_119": {
+      "qid": 119,
+      "topic": "Gesetzgebung",
+      "pos": 155,
+      "total_in_topic": 180,
+      "text": "Welche Voraussetzungen muss das Fluggerät eines Kandidaten anlässlich der praktischen Teilprüfung erfüllen, damit er zur Prüfung zugelassen wird? Das Gerät muss",
+      "options": [
+        "die Gütesiegelklasse 1 haben und gemäss den gesetzlichen Vorschriften gekennzeichnet sein.",
+        "eine Streckung kleiner als 4 haben und gemäss den gesetzlichen Vorschriften gekennzeichnet sein.",
+        "vom SHV als typengeprüft anerkannt (Ausnahme: Starrflügler) und gemäss den gesetzlichen Vorschriften gekennzeichnet sein.",
+        "gemäss den gesetzlichen Vorschriften gekennzeichnet sein."
+      ],
+      "correct": 2
     }
   },
   "topics": {
