@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-05-29T08:38:40.518Z",
+  "fetchedAt": "2026-05-29T08:39:10.667Z",
   "questions": {
     "Fluglehre_152": {
       "qid": 152,
@@ -964,6 +964,118 @@
         "versechzehnfacht sich dessen Luftwiderstand.",
         "verändert sich dessen Luftwiderstand nicht.",
         "vervierfacht sich dessen Luftwiderstand."
+      ],
+      "correct": 3
+    },
+    "Fluglehre_77": {
+      "qid": 77,
+      "topic": "Fluglehre",
+      "pos": 82,
+      "total_in_topic": 152,
+      "text": "Die Flügelstreckung errechnet sich wie folgt:",
+      "options": [
+        "mittlere Flügeltiefe multipliziert mit der Fläche",
+        "Spannweite multipliziert mit der durchschnittlichen (mittleren) Flügeltiefe",
+        "(mittlere Flügeltiefe)² dividiert durch Fläche",
+        "(Spannweite)² dividiert durch Fläche"
+      ],
+      "correct": 3
+    },
+    "Fluglehre_105": {
+      "qid": 105,
+      "topic": "Fluglehre",
+      "pos": 84,
+      "total_in_topic": 152,
+      "text": "Welche Kraft wirkt im stabilen Gleitflug senkrecht zum Auftrieb?",
+      "options": [
+        "Der Widerstand",
+        "Die Gesamtgewichtskraft",
+        "Der Auftrieb",
+        "Die resultierende Luftkraft"
+      ],
+      "correct": 0
+    },
+    "Fluglehre_143": {
+      "qid": 143,
+      "topic": "Fluglehre",
+      "pos": 85,
+      "total_in_topic": 152,
+      "text": "Ein Hängegleiter fliegt mit 54 km/h (15 m/s) und einem Sinken von 2 m/s. Auf seiner Flugroute hat er einen Gegenwind von 18 km/h (5 m/s). Welches sind die Sink- und die Vorwärtsgeschwindigkeit gegenüber Grund?",
+      "options": [
+        "Sinkgeschwindigkeit: 2 m/s, Vorwärtsgeschwindigkeit: 72 km/h (20 m/s)",
+        "Sinkgeschwindigkeit: 2 m/s, Vorwärtsgeschwindigkeit: 36 km/h (10 m/s)",
+        "Sinkgeschwindigkeit: 2 m/s, Vorwärtsgeschwindigkeit: 54 km/h (15 m/s)",
+        "Sinkgeschwindigkeit: 3 m/s, Vorwärtsgeschwindigkeit: 54 km/h (15 m/s)"
+      ],
+      "correct": 1
+    },
+    "Fluglehre_146": {
+      "qid": 146,
+      "topic": "Fluglehre",
+      "pos": 86,
+      "total_in_topic": 152,
+      "text": "Ein Hängegleiter fliegt mit einer Gleitzahl von 8. Wenn er in ruhiger Luft eine Distanz von 1'600 m zurücklegt, muss mit folgendem Höhenverlust gerechnet werden:",
+      "options": [
+        "240 m",
+        "180 m",
+        "200 m",
+        "150 m"
+      ],
+      "correct": 2
+    },
+    "Fluglehre_75": {
+      "qid": 75,
+      "topic": "Fluglehre",
+      "pos": 87,
+      "total_in_topic": 152,
+      "text": "Die Flächenbelastung eines Hängegleiters errechnet sich wie folgt:",
+      "options": [
+        "(Zuladung + Gerätegewicht) : (Spannweite)²",
+        "(Luftdruck : 2) · (Geschwindigkeit)²",
+        "Gesamtgewicht : Fläche",
+        "Zuladung : Fläche"
+      ],
+      "correct": 2
+    },
+    "Fluglehre_52": {
+      "qid": 52,
+      "topic": "Fluglehre",
+      "pos": 89,
+      "total_in_topic": 152,
+      "text": "Welches der folgenden Profile wird mit einem negativen Anstellwinkel von -10° angeströmt? 21",
+      "options": [
+        "2",
+        "4",
+        "3",
+        "1"
+      ],
+      "correct": 0
+    },
+    "Fluglehre_47": {
+      "qid": 47,
+      "topic": "Fluglehre",
+      "pos": 90,
+      "total_in_topic": 152,
+      "text": "Das Profil des Flügels",
+      "options": [
+        "wird für jedes Gerät aufgrund der gewünschten Flugeigenschaften gewählt.",
+        "hat wenig Einfluss auf die Leistung des Geräts, da diese vor allem vom Gesamtgewicht abhängt.",
+        "wird nur durch den Anstellwinkel bestimmt.",
+        "ist praktisch bei allen Luftfahrzeugen ohne motorischen Antrieb dasselbe."
+      ],
+      "correct": 0
+    },
+    "Fluglehre_132": {
+      "qid": 132,
+      "topic": "Fluglehre",
+      "pos": 91,
+      "total_in_topic": 152,
+      "text": "Welche Fluggeschwindigkeit entspricht beim Hängegleiter mit untenstehender Geschwindigkeitspolare seiner geringsten Sinkgeschwindigkeit?",
+      "options": [
+        "11,3 m/s (41 km/h)",
+        "9,2 m/s (33 km/h)",
+        "5,6 m/s (20 km/h)",
+        "7,2 m/s (26 km/h)"
       ],
       "correct": 3
     }
