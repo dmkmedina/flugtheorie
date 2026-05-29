@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-05-29T09:20:57.485Z",
+  "fetchedAt": "2026-05-29T09:21:28.367Z",
   "questions": {
     "Fluglehre_152": {
       "qid": 152,
@@ -8218,6 +8218,118 @@
         "4"
       ],
       "correct": 2
+    },
+    "Flugpraxis_83": {
+      "qid": 83,
+      "topic": "Flugpraxis",
+      "pos": 152,
+      "total_in_topic": 169,
+      "text": "Ein Pilot merkt beim Kreisen, dass die Strömung einseitig am Gleitschirm abreisst. Welches ist die richtige Reaktion?",
+      "options": [
+        "Das Gerät sofort auf der Kurvenaussenseite anbremsen, um die Richtung zu stabilisieren.",
+        "Mit der kurveninneren Bremse pumpen, um den Staudruck zu erhöhen.",
+        "Sofort beide Bremsen lösen und das Gerät Fahrt aufnehmen lassen.",
+        "Sich sofort an den Traggurten festhalten, um die Gefahr eines Twistes zu vermindern."
+      ],
+      "correct": 2
+    },
+    "Flugpraxis_167": {
+      "qid": 167,
+      "topic": "Flugpraxis",
+      "pos": 153,
+      "total_in_topic": 169,
+      "text": "Ein am Gleitschirm-Landeplatz ca. 6 x 6 Meter grosses rotes Tuch das über beide Diagonalen ein gelbes Kreuz aufweist bedeutet:",
+      "options": [
+        "Diese Signalisierung informiert über die Jagd auf Rot- und Steinwild. Im Umkreis von 5 km ist mit Schiesslärm zu rechnen. Keine unmittelbare Gefahr für Gleitschirmpiloten. Die Signalisierung ist rein informativ.",
+        "Eine Praxisprüfung für angehende Fluglehrer findet statt. Weil eine sehr genaue Landung gefordert ist, wird das Landekreuz ausgelegt.",
+        "Diese Markierung ist eine Information für anfliegende Helikopter und signalisiert ein Helipad (Aussenlandeplatz).",
+        "Das ist ein Landeverbot für Luftfahrzeuge, egal ob Flächenflugzeug, Helikopter oder Hängegleiter. Respektiere das Landeverbot und benutze einen alternativen Landeplatz. Ist ein Rettungshelikopter im Anflug soll das Landeverbots-zeichen kurzzeitig eingeholt werden, damit es nicht vom Downwash vom Heli aufgewirbelt werden kann."
+      ],
+      "correct": 3
+    },
+    "Flugpraxis_114": {
+      "qid": 114,
+      "topic": "Flugpraxis",
+      "pos": 154,
+      "total_in_topic": 169,
+      "text": "Die folgenden vier Skizzen zeigen einen Standardlandeanflug bei Windstille (gestrichelt) und eine in der Praxis den Umständen angepasste Landevolte (ausgezogen). Welche Art des Anflugs ist bei Windstille mit überschüssiger Höhe zu wählen, wenn sich im Queranflug zeigt, dass zu hoch geflogen wird? 14",
+      "options": [
+        "3",
+        "2",
+        "1",
+        "4"
+      ],
+      "correct": 3
+    },
+    "Flugpraxis_146": {
+      "qid": 146,
+      "topic": "Flugpraxis",
+      "pos": 156,
+      "total_in_topic": 169,
+      "text": "Welche Anzeichen können bei einer verunfallten Person auf eine Verletzung der Wirbelsäule hindeuten?",
+      "options": [
+        "Sie hat Schmerzen im Rücken, kein Gefühl in Füssen, Beinen, Händen oder Armen.",
+        "Sie ist bleich, hat bläuliche Lippen, kalten Schweiss, einen schwachen, schnellen Puls und redet zusammenhangslos.",
+        "Sie hat starke Schmerzen in den Beinen.",
+        "Sie ist bewusstlos."
+      ],
+      "correct": 0
+    },
+    "Flugpraxis_155": {
+      "qid": 155,
+      "topic": "Flugpraxis",
+      "pos": 157,
+      "total_in_topic": 169,
+      "text": "In meinem Fluggebiet stehen viele Alphütten und Ferienhäuschen.",
+      "options": [
+        "Gleitschirmflieger sind für alle eine Attraktion, je mehr desto besser.",
+        "Ich respektiere Eigentum und Privatsphäre und verhalte mich dementsprechend.",
+        "Alphütten gehören niemandem, deshalb dürfen sie alle nutzen.",
+        "Ich habe eine Startgebühr bezahlt und somit Anrecht an der Nutzung aller Lokalitäten."
+      ],
+      "correct": 1
+    },
+    "Flugpraxis_107": {
+      "qid": 107,
+      "topic": "Flugpraxis",
+      "pos": 159,
+      "total_in_topic": 169,
+      "text": "Wie heisst der mit (2) gekennzeichnete Bestandteil des Landeanflugs?",
+      "options": [
+        "Gegenanflug",
+        "Queranflug",
+        "Endanflug",
+        "Höhenabbauraum"
+      ],
+      "correct": 0
+    },
+    "Flugpraxis_145": {
+      "qid": 145,
+      "topic": "Flugpraxis",
+      "pos": 160,
+      "total_in_topic": 169,
+      "text": "Verunfallte, die bei Bewusstsein sind und bei denen Verdacht auf eine Wirbelsäulenverletzung besteht, sollten",
+      "options": [
+        "auf dem Bauch gelagert und vor allen Witterungseinflüssen geschützt werden.",
+        "sitzend gelagert und vor allen Witterungseinflüssen geschützt werden.",
+        "möglichst schnell aufgerichtet werden, um festzustellen ob sie noch gehen können.",
+        "daran gehindert werden, sich zu bewegen, sich aufzusetzen oder gar Gehversuche zu unternehmen."
+      ],
+      "correct": 3
+    },
+    "Flugpraxis_137": {
+      "qid": 137,
+      "topic": "Flugpraxis",
+      "pos": 161,
+      "total_in_topic": 169,
+      "text": "Aus welcher Position ergibt sich während des Flugs die grösste Kollisionsgefahr zwischen einem Delta und einem Gleitschirm, weil keiner der beiden Piloten den anderen sieht?",
+      "options": [
+        "Ein Delta nähert sich einem Gleitschirm hinten oben.",
+        "Ein Delta nähert sich einem Gleitschirm hinten unten.",
+        "Ein Delta nähert sich einem Gleitschirm vorne oben.",
+        "Ein Delta nähert sich einem Gleitschirm vorne unten."
+      ],
+      "correct": 1
     }
   },
   "topics": {
