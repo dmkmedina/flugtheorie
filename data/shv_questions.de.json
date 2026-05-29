@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-05-29T08:52:10.220Z",
+  "fetchedAt": "2026-05-29T08:52:40.353Z",
   "questions": {
     "Fluglehre_152": {
       "qid": 152,
@@ -2576,6 +2576,104 @@
         "Nimbostratus"
       ],
       "correct": 2
+    },
+    "Wetterkunde_103": {
+      "qid": 103,
+      "topic": "Wetterkunde",
+      "pos": 42,
+      "total_in_topic": 164,
+      "text": "Zu welcher Tageszeit muss in Alpentälern mit einem ausgeprägten Talwindsystem im Juli bei schönem Wetter in der Regel mit thermischen, weniger aber mit mechanischen oder scherungsbedingten Turbulenzen gerechnet werden?",
+      "options": [
+        "ca. 09.00 Uhr",
+        "ca. 15.00 Uhr",
+        "ca. 18.00 Uhr",
+        "ca. 11.00 Uhr"
+      ],
+      "correct": 3
+    },
+    "Wetterkunde_70": {
+      "qid": 70,
+      "topic": "Wetterkunde",
+      "pos": 44,
+      "total_in_topic": 164,
+      "text": "Eine Isobare ist die Verbindungslinie aller Punkte",
+      "options": [
+        "gleichen Luftdrucks reduziert auf Meereshöhe.",
+        "gleicher Temperatur reduziert auf Meereshöhe.",
+        "gleicher Höhe mit einem Druck von 500 hPa.",
+        "mit der stärksten Druckänderung."
+      ],
+      "correct": 0
+    },
+    "Wetterkunde_106": {
+      "qid": 106,
+      "topic": "Wetterkunde",
+      "pos": 45,
+      "total_in_topic": 164,
+      "text": "Der Begriff \"Front\" bezeichnet in der Meteorologie",
+      "options": [
+        "eine Niederschlagszone mit erhöhter Windgeschwindigkeit.",
+        "die Trennlinie zweier verschiedener Luftmassen auf Meereshöhe.",
+        "eine Aneinanderreihung von Niederschlagsgebieten.",
+        "die Trennfläche zweier verschiedener Luftmassen."
+      ],
+      "correct": 3
+    },
+    "Wetterkunde_133": {
+      "qid": 133,
+      "topic": "Wetterkunde",
+      "pos": 47,
+      "total_in_topic": 164,
+      "text": "Welches sind die besten Voraussetzungen für das Entstehen guter thermischer Aufwinde über einem bestimmten Stück Land?",
+      "options": [
+        "Windgeschützt und trocken.",
+        "Windgeschützt und feucht.",
+        "Dem Wind ausgesetzt und trocken.",
+        "Dem Wind ausgesetzt und feucht."
+      ],
+      "correct": 0
+    },
+    "Wetterkunde_33": {
+      "qid": 33,
+      "topic": "Wetterkunde",
+      "pos": 49,
+      "total_in_topic": 164,
+      "text": "Welche Veränderung des Aggregatzustands eines Stoffes heisst Kondensation?",
+      "options": [
+        "Übergang vom gasförmigen in den flüssigen Zustand",
+        "Übergang vom flüssigen in den gasförmigen Zustand",
+        "Übergang vom flüssigen in den festen Zustand",
+        "Übergang vom gasförmigen in den festen Zustand"
+      ],
+      "correct": 0
+    },
+    "Wetterkunde_109": {
+      "qid": 109,
+      "topic": "Wetterkunde",
+      "pos": 50,
+      "total_in_topic": 164,
+      "text": "Welche Wolkenkonstellation ist in ihrer Reihenfolge typisch für den Durchgang einer Warmfront?",
+      "options": [
+        "Cumulus, Cumulus congestus, Cumulus calvus, Cumulonimbus.",
+        "Altocumulus, Stratocumulus, Altostratus, Nimbostratus.",
+        "Cirrus, Cirrostratus, Altostratus, Nimbostratus.",
+        "Lenticularis, Cumulus congestus, Cirrocumulus, Altocumulus."
+      ],
+      "correct": 2
+    },
+    "Wetterkunde_65": {
+      "qid": 65,
+      "topic": "Wetterkunde",
+      "pos": 51,
+      "total_in_topic": 164,
+      "text": "Ein tiefer Luftdruck kann über einem Gebiet entstehen,",
+      "options": [
+        "welches über längere Zeit kälter ist als seine Umgebung.",
+        "welches über längere Zeit wärmer ist als seine Umgebung.",
+        "welches über längere Zeit von der Sonne weniger intensiv beschienen wird als seine Umgebung.",
+        "welches über längere Zeit trockener ist als seine Umgebung."
+      ],
+      "correct": 1
     }
   },
   "topics": {
