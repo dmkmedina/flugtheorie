@@ -26,6 +26,12 @@ def main():
     shv_questions = load_json('data/shv_questions.json') if os.path.exists(os.path.join(ROOT, 'data/shv_questions.json')) else {'questions': {}, 'topics': {}}
     shv_enrichments_path = os.path.join(ROOT, 'data/shv_enrichments.json')
     shv_enrichments = load_json('data/shv_enrichments.json') if os.path.exists(shv_enrichments_path) else {'enrichments': {}}
+    # German parallel datasets (optional — present when those scrape/translate
+    # passes have run). Each falls back to an empty container so the UI knows
+    # German isn't available yet.
+    workbook_de = load_json('data/workbook.de.json') if os.path.exists(os.path.join(ROOT, 'data/workbook.de.json')) else {'books': []}
+    shv_questions_de = load_json('data/shv_questions.de.json') if os.path.exists(os.path.join(ROOT, 'data/shv_questions.de.json')) else {'questions': {}, 'topics': {}}
+    shv_enrichments_de = load_json('data/shv_enrichments.de.json') if os.path.exists(os.path.join(ROOT, 'data/shv_enrichments.de.json')) else {'enrichments': {}}
     tips_md = load_file('data/study_tips.md')
 
     # Inline any VTTs that are present so the deployed single-file build can
@@ -59,6 +65,9 @@ def main():
     video_vtt_json = json.dumps(video_vtt, ensure_ascii=False, separators=(',', ':'))
     shv_questions_json = json.dumps(shv_questions, ensure_ascii=False, separators=(',', ':'))
     shv_enrichments_json = json.dumps(shv_enrichments, ensure_ascii=False, separators=(',', ':'))
+    workbook_de_json = json.dumps(workbook_de, ensure_ascii=False, separators=(',', ':'))
+    shv_questions_de_json = json.dumps(shv_questions_de, ensure_ascii=False, separators=(',', ':'))
+    shv_enrichments_de_json = json.dumps(shv_enrichments_de, ensure_ascii=False, separators=(',', ':'))
 
     # Encode tips markdown as a JS string-safe literal
     # Use JSON.parse('...') trick - escape backslashes/quotes/newlines
@@ -100,6 +109,7 @@ def main():
     <div class="nav-section">Study</div>
     <div id="sidebar-nav"></div>
     <div class="sidebar-footer">
+      <button class="theme-toggle" id="lang-toggle">🇬🇧 English</button>
       <button class="theme-toggle" id="theme-toggle">🖥 Auto theme</button>
       <div style="font-size:11px; color:var(--text-dim); padding:8px 10px;">
         {len(cards)} flashcards · {sum(len(p['chapters']) for p in guide['parts'])} chapters · {total_slides} slides · v1.1
@@ -142,6 +152,9 @@ def main():
 <script id="data-video-vtt" type="application/json">{video_vtt_json}</script>
 <script id="data-shv-questions" type="application/json">{shv_questions_json}</script>
 <script id="data-shv-enrichments" type="application/json">{shv_enrichments_json}</script>
+<script id="data-workbook-de" type="application/json">{workbook_de_json}</script>
+<script id="data-shv-questions-de" type="application/json">{shv_questions_de_json}</script>
+<script id="data-shv-enrichments-de" type="application/json">{shv_enrichments_de_json}</script>
 <script>
 window.CARDS = JSON.parse(document.getElementById('data-cards').textContent);
 window.GUIDE = JSON.parse(document.getElementById('data-guide').textContent);
@@ -153,6 +166,9 @@ window.VIDEO_MANIFEST = JSON.parse(document.getElementById('data-video-manifest'
 window.VIDEO_VTT = JSON.parse(document.getElementById('data-video-vtt').textContent);
 window.SHV_QUESTIONS = JSON.parse(document.getElementById('data-shv-questions').textContent);
 window.SHV_ENRICHMENTS = JSON.parse(document.getElementById('data-shv-enrichments').textContent);
+window.WORKBOOK_DE = JSON.parse(document.getElementById('data-workbook-de').textContent);
+window.SHV_QUESTIONS_DE = JSON.parse(document.getElementById('data-shv-questions-de').textContent);
+window.SHV_ENRICHMENTS_DE = JSON.parse(document.getElementById('data-shv-enrichments-de').textContent);
 window.TIPS_MD = {tips_js};
 </script>
 

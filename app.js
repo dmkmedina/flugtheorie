@@ -107,8 +107,15 @@ const PART_TO_CATEGORY = {
 
 function getCards() { return window.CARDS || []; }
 function getSHVQuestions() {
+  if (state.lang === 'de' && window.SHV_QUESTIONS_DE && window.SHV_QUESTIONS_DE.questions) {
+    const de = window.SHV_QUESTIONS_DE.questions;
+    if (Object.keys(de).length) return de;
+  }
   const pool = window.SHV_QUESTIONS && window.SHV_QUESTIONS.questions;
   return pool && Object.keys(pool).length ? pool : null;
+}
+function hasGermanSHV() {
+  return !!(window.SHV_QUESTIONS_DE && window.SHV_QUESTIONS_DE.questions && Object.keys(window.SHV_QUESTIONS_DE.questions).length);
 }
 function getSHVTopics() {
   const t = (window.SHV_QUESTIONS && window.SHV_QUESTIONS.topics) || {};
@@ -123,6 +130,9 @@ function getSHVQuestionsByTopic() {
   return byTopic;
 }
 function getSHVEnrichments() {
+  if (state.lang === 'de' && window.SHV_ENRICHMENTS_DE && window.SHV_ENRICHMENTS_DE.enrichments) {
+    return window.SHV_ENRICHMENTS_DE.enrichments;
+  }
   return (window.SHV_ENRICHMENTS && window.SHV_ENRICHMENTS.enrichments) || {};
 }
 function getSHVEnrichmentFor(qid) {
@@ -131,6 +141,9 @@ function getSHVEnrichmentFor(qid) {
   return e[qid] || e[String(qid)] || null;
 }
 function getSHVSubcategories() {
+  if (state.lang === 'de' && window.SHV_ENRICHMENTS_DE && window.SHV_ENRICHMENTS_DE.subcategories) {
+    return window.SHV_ENRICHMENTS_DE.subcategories;
+  }
   return (window.SHV_ENRICHMENTS && window.SHV_ENRICHMENTS.subcategories) || {};
 }
 function getSHVSubcategoriesForTopic(topic) {
@@ -151,7 +164,15 @@ function getAllVideos() { return getVideoDecks().flatMap(d => d.videos || []); }
 function getVideoById(id) { return getAllVideos().find(v => v.id === id) || null; }
 function getVideoDeck(deckId) { return getVideoDecks().find(d => d.id === deckId) || null; }
 function getDiagrams() { return (window.DIAGRAMS && window.DIAGRAMS.diagrams) || []; }
-function getWorkbook() { return (window.WORKBOOK && window.WORKBOOK.books) || []; }
+function getWorkbook() {
+  if (state.lang === 'de' && window.WORKBOOK_DE && window.WORKBOOK_DE.books && window.WORKBOOK_DE.books.length) {
+    return window.WORKBOOK_DE.books;
+  }
+  return (window.WORKBOOK && window.WORKBOOK.books) || [];
+}
+function hasGermanWorkbook() {
+  return !!(window.WORKBOOK_DE && window.WORKBOOK_DE.books && window.WORKBOOK_DE.books.length);
+}
 function getBookById(id) { return getWorkbook().find(b => b.id === id); }
 function getChapterById(bookId, chapterId) {
   const b = getBookById(bookId);
@@ -343,120 +364,163 @@ function navigate(view) {
 // VIEW: Dashboard
 // ============================================================================
 function renderDashboard() {
-  const total = getCards().length;
-  let seen = 0, mastered = 0, hard = 0;
-  let allReviews = 0, allRight = 0, allWrong = 0;
-  getCards().forEach(c => {
-    const p = state.cards[c.id];
-    if (p) {
-      seen++;
-      if (p.box >= 3) mastered++;
-      if (p.box === 0 && p.reviews > 0) hard++;
-      allReviews += p.reviews;
-      allRight += p.right || 0;
-      allWrong += p.wrong || 0;
-    }
-  });
-  const accuracy = allReviews > 0 ? Math.round(100 * allRight / (allRight + allWrong)) : 0;
-  const masteryPct = total > 0 ? Math.round(100 * mastered / total) : 0;
-  const seenPct = total > 0 ? Math.round(100 * seen / total) : 0;
-  const lastExam = state.exam.history[state.exam.history.length - 1];
+  // Numbers used in section descriptions — counts of what's inside.
+  const books = getWorkbook();
+  const wbChapters = books.reduce((a, b) => a + (b.chapters?.length || 0), 0);
+  const shvPool = getSHVQuestions() || {};
+  const shvTotal = Object.keys(shvPool).length;
+  const shvTopics = Object.keys(getSHVQuestionsByTopic()).length;
+  const subcats = Object.values(getSHVSubcategories() || {}).reduce((a, s) => a + s.length, 0);
+  const enrichedCount = Object.values(getSHVEnrichments() || {}).filter(e => e.explanation).length;
+  const enrichedPct = shvTotal > 0 ? Math.round(100 * enrichedCount / shvTotal) : 0;
+  const guide = getGuide();
+  const guideChapters = (guide.parts || []).reduce((a, p) => a + (p.chapters?.length || 0), 0);
+  const guideParts = (guide.parts || []).length;
+  const guideDiagrams = getDiagrams().length;
+  const videos = getAllVideos();
+  const videoHours = videos.reduce((a, v) => a + (v.duration_seconds || 0), 0) / 3600;
+  const enSubs = videos.filter(v => v.has_en_vtt).length;
+  const deSubs = videos.filter(v => v.has_de_vtt).length;
+  const decks = getDecks();
+  const totalSlides = decks.reduce((a, d) => a + (d.slides?.length || 0), 0);
+  const shvImageCount = Object.values(shvPool).filter(q => q.has_image).length;
+
+  const sections = [
+    {
+      id: 'shv-exam',
+      icon: '🎯',
+      title: 'SHV Practice Exam',
+      tagline: 'Take the real exam under realistic or no-pressure conditions.',
+      bullets: [
+        `<strong>${shvTotal}</strong> questions from the official SHV elearning pool across ${shvTopics} topics`,
+        'Timed mode mimics the real 90-min exam · Study mode reveals answers and explanations inline',
+        'Per-subtopic breakdown after every attempt so you know what to grind',
+      ],
+      cta: 'Start practice',
+      primary: true,
+    },
+    {
+      id: 'shv-browse',
+      icon: '🗂️',
+      title: 'SHV Browse',
+      tagline: 'Explore every question without taking an exam.',
+      bullets: [
+        `Tree view of all <strong>${shvTotal}</strong> questions, grouped into ${subcats} subtopics`,
+        'Expand any question to see the correct answer, explanation, related guide/workbook chapters, video clips, diagrams, and slides',
+        'Search across question text and answers',
+      ],
+      cta: 'Open browser',
+    },
+    {
+      id: 'workbook',
+      icon: '📒',
+      title: 'Workbook',
+      tagline: 'Structured chapter-by-chapter learning with quizzes.',
+      bullets: [
+        `<strong>${wbChapters}</strong> chapters across ${books.length} books${hasGermanWorkbook() ? ' (EN + DE)' : ''}`,
+        'Each chapter mixes prose, callouts, definitions, tables, and a quiz at the end',
+        'Audited against the Free Wings + Air Active video transcripts',
+      ],
+      cta: 'Open workbook',
+    },
+    {
+      id: 'guide',
+      icon: '📚',
+      title: 'Study Guide',
+      tagline: 'Long-form prose for the theory exam (English).',
+      bullets: [
+        `<strong>${guideChapters}</strong> chapters across ${guideParts} parts (Aero · Meteo · Law · Equipment · Skills)`,
+        `${guideDiagrams} custom SVG diagrams keyed to specific chapters`,
+        'Cross-referenced with question numbers for fast lookup',
+      ],
+      cta: 'Open guide',
+    },
+    {
+      id: 'videos',
+      icon: '📺',
+      title: 'Video Lessons',
+      tagline: 'Watch the instructors explain it, with subtitles.',
+      bullets: [
+        `<strong>${videos.length}</strong> videos · ~${videoHours.toFixed(1)} hours total from Free Wings + Air Active`,
+        `Bilingual subtitle tracks (${enSubs} EN, ${deSubs} DE) — toggle inside the player`,
+        'Click any transcript line to jump the video to that moment',
+      ],
+      cta: 'Open videos',
+    },
+    {
+      id: 'slides',
+      icon: '🎬',
+      title: 'Slide Decks',
+      tagline: 'The original instructor decks, navigable side-by-side.',
+      bullets: [
+        `<strong>${totalSlides}</strong> slides across ${decks.length} decks`,
+        'EN and DE captions side-by-side in the slide viewer',
+        'Linked from SHV Browse and Study mode whenever a question maps to a slide',
+      ],
+      cta: 'Open slides',
+    },
+    {
+      id: 'cheatsheet',
+      icon: '⚡',
+      title: 'Cheat Sheet',
+      tagline: 'High-density single page of must-memorise numbers.',
+      bullets: [
+        'ISA atmosphere · cloud-clearance table · Föhn thresholds · airspace class rules',
+        'Brevet exam pass marks · key Swiss-specific values',
+        'Designed for last-minute review the night before',
+      ],
+      cta: 'Open cheat sheet',
+    },
+    {
+      id: 'tips',
+      icon: '💡',
+      title: 'Study Tips',
+      tagline: 'How to actually retain this stuff.',
+      bullets: [
+        'Spaced repetition cadence and how to use it with the SHV pool',
+        'Exam-day strategy (skip/flag rules, time budget, common traps)',
+        'Sources cited so you can dig further',
+      ],
+      cta: 'Read tips',
+    },
+  ];
+
+  const langLine = state.lang === 'de' ? 'auf Deutsch' : 'in English';
+  const enrichedNote = enrichedCount > 0
+    ? `${enrichedCount} (${enrichedPct}%) carry a written explanation and curated cross-references.`
+    : '';
+  const imageNote = shvImageCount > 0 ? ` · ${shvImageCount} include the reference figure.` : '';
+
+  const sectionsHtml = sections.map(s => `
+    <div class="dashboard-section ${s.primary ? 'dashboard-section-primary' : ''}">
+      <div class="dashboard-section-head">
+        <div class="dashboard-section-icon">${s.icon}</div>
+        <div>
+          <div class="dashboard-section-title">${escapeHtml(s.title)}</div>
+          <div class="dashboard-section-tagline">${escapeHtml(s.tagline)}</div>
+        </div>
+      </div>
+      <ul class="dashboard-section-bullets">
+        ${s.bullets.map(b => `<li>${b}</li>`).join('')}
+      </ul>
+      <button class="btn ${s.primary ? 'primary' : ''} small" data-nav="${s.id}">${escapeHtml(s.cta)} →</button>
+    </div>
+  `).join('');
 
   return `
     <div class="page-header">
-      <h1>Welcome back 🪂</h1>
-      <p class="page-subtitle">Your training overview for the Swiss SHV/FSVL paragliding theory exam.</p>
+      <h1>Welcome to Flugtheorie 🪂</h1>
+      <p class="page-subtitle">Study tools for the Swiss SHV/FSVL paragliding theory exam — currently rendering ${langLine}. Toggle 🇬🇧/🇩🇪 in the sidebar footer.</p>
     </div>
-
-    <div class="stat-grid">
-      <div class="stat">
-        <div class="stat-label">Total cards</div>
-        <div class="stat-value tabnum">${total}</div>
-        <div class="stat-sub">across 5 categories</div>
+    ${shvTotal > 0 ? `
+      <div class="card dashboard-summary">
+        <p style="margin:0; font-size:14px; line-height:1.5;">
+          The app has <strong>${shvTotal}</strong> SHV exam questions${enrichedCount > 0 ? `, of which ${enrichedNote}` : ''}${imageNote}
+          On top of that: ${wbChapters} workbook chapters, ${guideChapters} study-guide chapters, ${videos.length} video lessons (~${videoHours.toFixed(1)} h), and ${totalSlides} slides.
+        </p>
       </div>
-      <div class="stat accent">
-        <div class="stat-label">Studied</div>
-        <div class="stat-value tabnum">${seen}/${total}</div>
-        <div class="stat-sub">${seenPct}% covered</div>
-        <div class="progress"><div class="progress-fill" style="width:${seenPct}%"></div></div>
-      </div>
-      <div class="stat good">
-        <div class="stat-label">Mastered</div>
-        <div class="stat-value tabnum">${mastered}</div>
-        <div class="stat-sub">box 3 or higher</div>
-        <div class="progress good"><div class="progress-fill" style="width:${masteryPct}%"></div></div>
-      </div>
-      <div class="stat ${accuracy >= 80 ? 'good' : accuracy >= 60 ? 'warn' : 'bad'}">
-        <div class="stat-label">Accuracy</div>
-        <div class="stat-value tabnum">${accuracy}%</div>
-        <div class="stat-sub">${allRight} right · ${allWrong} wrong</div>
-      </div>
-    </div>
-
-    <div class="card" style="margin-bottom:20px;">
-      <div class="card-header">
-        <h2 class="card-title">Progress by topic</h2>
-        <a href="#" data-nav="flashcards" class="btn small">Study cards →</a>
-      </div>
-      ${CATEGORIES.map(cat => {
-        const p = totalProgressFor(cat);
-        const pct = p.total > 0 ? Math.round(100 * p.seen / p.total) : 0;
-        const mpct = p.total > 0 ? Math.round(100 * p.mastered / p.total) : 0;
-        const m = CATEGORY_META[cat];
-        return `
-          <div class="progress-row">
-            <div>
-              <div class="pr-label">
-                <span class="cat-dot" style="background:${m.color}"></span>${m.icon} ${cat}
-              </div>
-              <div class="pr-meta">${p.seen}/${p.total} studied · ${p.mastered} mastered (${mpct}%)</div>
-            </div>
-            <div class="badge ${mpct >= 80 ? 'good' : mpct >= 50 ? 'warn' : 'bad'}">${mpct}%</div>
-            <div class="pr-track">
-              <div class="progress ${mpct >= 80 ? 'good' : ''}"><div class="progress-fill" style="width:${pct}%; background:${m.color}; opacity:0.55"></div></div>
-              <div class="progress good" style="margin-top:2px;"><div class="progress-fill" style="width:${mpct}%; background:${m.color}"></div></div>
-            </div>
-          </div>
-        `;
-      }).join('')}
-    </div>
-
-    <div class="stat-grid">
-      <div class="stat warn">
-        <div class="stat-label">Need review</div>
-        <div class="stat-value tabnum">${hard}</div>
-        <div class="stat-sub">cards in box 0 after review</div>
-      </div>
-      <div class="stat">
-        <div class="stat-label">Total reviews</div>
-        <div class="stat-value tabnum">${allReviews}</div>
-        <div class="stat-sub">all-time</div>
-      </div>
-      <div class="stat">
-        <div class="stat-label">Last mock exam</div>
-        <div class="stat-value tabnum">${lastExam ? lastExam.scorePct + '%' : '—'}</div>
-        <div class="stat-sub">${lastExam ? (lastExam.passed ? 'Passed ✓' : 'Failed') : 'not yet attempted'}</div>
-      </div>
-    </div>
-
-    <div class="card">
-      <h2 class="card-title" style="margin-bottom:12px;">Quick actions</h2>
-      <div class="row">
-        <button class="btn primary" data-nav="workbook">📒 Open workbook</button>
-        <button class="btn" data-nav="flashcards">📇 Study flashcards</button>
-        <button class="btn" data-nav="quiz">📝 Take a quiz</button>
-        <button class="btn" data-nav="exam">⏱️ Start mock exam</button>
-        <button class="btn" data-nav="shv-exam">🎯 SHV practice exam</button>
-        <button class="btn" data-nav="shv-browse">🗂️ Browse SHV pool</button>
-        <button class="btn" data-nav="guide">📚 Study guide</button>
-        <button class="btn" data-nav="slides">🎬 Slide decks</button>
-        <button class="btn" data-nav="videos">📺 Videos (EN subs)</button>
-        <button class="btn" data-nav="cheatsheet">⚡ Cheat sheet</button>
-      </div>
-      <div class="muted" style="margin-top:16px; font-size:13px;">
-        Tip: press <span class="kbd">← →</span> to navigate, <span class="kbd">Space</span> to flip a flashcard, <span class="kbd">1-4</span> to grade an SRS card.
-      </div>
-    </div>
+    ` : ''}
+    <div class="dashboard-grid">${sectionsHtml}</div>
   `;
 }
 
@@ -3332,7 +3396,7 @@ function render() {
     { id: 'workbook',   icon: '📒', label: 'Workbook', badge: getWorkbook().reduce((a, b) => a + b.chapters.length, 0) || null },
     { id: 'shv-exam',   icon: '🎯', label: 'SHV Practice', badge: Object.keys(getSHVQuestions() || {}).length || null },
     { id: 'shv-browse', icon: '🗂️', label: 'SHV Browse', badge: Object.keys(getSHVQuestions() || {}).length || null },
-    { id: 'guide',      icon: '📚', label: 'Study Guide' },
+    { id: 'guide',      icon: '📚', label: 'Study Guide (EN)' },
     { id: 'slides',     icon: '🎬', label: 'Slide Decks', badge: getDecks().reduce((a, d) => a + deckSlideCount(d), 0) || null },
     { id: 'videos',     icon: '📺', label: 'Videos (EN subs)', badge: getAllVideos().length || null },
     { id: 'cheatsheet', icon: '⚡', label: 'Cheat Sheet' },
@@ -3377,6 +3441,18 @@ function render() {
   // theme indicator
   const themeBtn = document.getElementById('theme-toggle');
   themeBtn.innerHTML = state.theme === 'dark' ? '🌙 Dark' : state.theme === 'light' ? '☀️ Light' : '🖥 Auto theme';
+
+  // language indicator (disabled when no German data is loaded)
+  const langBtn = document.getElementById('lang-toggle');
+  if (langBtn) {
+    const deAvail = hasGermanSHV() || hasGermanWorkbook();
+    langBtn.innerHTML = state.lang === 'de' ? '🇩🇪 Deutsch' : '🇬🇧 English';
+    langBtn.disabled = !deAvail && state.lang === 'en';
+    langBtn.title = deAvail
+      ? `Switch to ${state.lang === 'de' ? 'English' : 'Deutsch'}`
+      : 'German content not yet loaded — workbook + SHV scrape still in progress';
+    langBtn.style.opacity = (!deAvail && state.lang === 'en') ? '0.55' : '1';
+  }
 
   // content
   const app = document.getElementById('app');
@@ -3433,6 +3509,15 @@ function init() {
   // Theme toggle
   document.getElementById('theme-toggle').onclick = () => {
     state.theme = state.theme === 'auto' ? 'light' : state.theme === 'light' ? 'dark' : 'auto';
+    saveState();
+    render();
+  };
+
+  // Language toggle (en ↔ de) — only does anything when German data is loaded
+  const langBtn = document.getElementById('lang-toggle');
+  if (langBtn) langBtn.onclick = () => {
+    if (!hasGermanSHV() && !hasGermanWorkbook()) return;  // disabled state
+    state.lang = state.lang === 'de' ? 'en' : 'de';
     saveState();
     render();
   };
