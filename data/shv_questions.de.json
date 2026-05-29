@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-05-29T09:25:12.810Z",
+  "fetchedAt": "2026-05-29T09:25:44.873Z",
   "questions": {
     "Fluglehre_152": {
       "qid": 152,
@@ -2300,16 +2300,16 @@
     "Wetterkunde_120": {
       "qid": 120,
       "topic": "Wetterkunde",
-      "pos": 19,
+      "pos": 46,
       "total_in_topic": 164,
       "text": "Was stellt die nachfolgende Skizze dar?",
       "options": [
-        "Eine Okklusion mit Kaltfrontcharakter",
         "Eine Kaltfront",
         "Eine Warmfront",
+        "Eine Okklusion mit Kaltfrontcharakter",
         "Eine Okklusion mit Warmfrontcharakter"
       ],
-      "correct": 2
+      "correct": null
     },
     "Wetterkunde_98": {
       "qid": 98,
@@ -2720,16 +2720,16 @@
     "Wetterkunde_77": {
       "qid": 77,
       "topic": "Wetterkunde",
-      "pos": 56,
+      "pos": 42,
       "total_in_topic": 164,
       "text": "Ein Wind aus Richtung Nordwest entspricht dem Wert",
       "options": [
-        "225°",
         "045°",
+        "135°",
         "315°",
-        "135°"
+        "225°"
       ],
-      "correct": 2
+      "correct": null
     },
     "Wetterkunde_114": {
       "qid": 114,
@@ -2930,16 +2930,16 @@
     "Wetterkunde_145": {
       "qid": 145,
       "topic": "Wetterkunde",
-      "pos": 74,
+      "pos": 36,
       "total_in_topic": 164,
       "text": "Wo befindet sich ein Tiefdruckzentrum?",
       "options": [
-        "bei Tunis",
         "bei Lulea",
         "über dem Golf von Biskaya",
-        "bei Stockholm"
+        "bei Stockholm",
+        "bei Tunis"
       ],
-      "correct": 1
+      "correct": null
     },
     "Wetterkunde_10": {
       "qid": 10,
@@ -8568,6 +8568,90 @@
         "sowohl in der Talmitte als auch im oberen Bereich der Talflanken zu finden."
       ],
       "correct": 0
+    },
+    "Wetterkunde_9": {
+      "qid": 9,
+      "topic": "Wetterkunde",
+      "pos": 34,
+      "total_in_topic": 164,
+      "text": "Der Druck an einem bestimmten Punkt auf Meereshöhe hängt ab",
+      "options": [
+        "von dessen Oberflächenbeschaffenheit.",
+        "von der aktuellen Wetterlage.",
+        "vom jeweiligen Längengrad.",
+        "von den Gezeiten."
+      ],
+      "correct": 1
+    },
+    "Wetterkunde_3": {
+      "qid": 3,
+      "topic": "Wetterkunde",
+      "pos": 37,
+      "total_in_topic": 164,
+      "text": "Um eine einheitliche Höhenmessereinstellung aller Luftraumbenützer zu gewährleisten, wird die Atmosphäre standardisiert (ICAO Standartatmosphäre). Welche Werte haben in der Troposphäre Gültigkeit? (Druck auf Meereshöhe, Temperatur auf Meereshöhe, Temperaturgradient)",
+      "options": [
+        "1033,65 hPa 15°C 0,5°C / 100m",
+        "1033,65 hPa 15°C 1°C / 100m",
+        "1013,25 hPa 15°C 0,65°C / 100m",
+        "1013,25 hPa 15°C 1°C / 100m"
+      ],
+      "correct": 2
+    },
+    "Wetterkunde_23": {
+      "qid": 23,
+      "topic": "Wetterkunde",
+      "pos": 40,
+      "total_in_topic": 164,
+      "text": "Eine Inversion ist eine Luftschicht, in der die Temperatur",
+      "options": [
+        "mit zunehmender Höhe zunimmt.",
+        "konstant ist.",
+        "über dem Gefrierpunkt liegt.",
+        "mit zunehmender Höhe abnimmt."
+      ],
+      "correct": 0
+    },
+    "Wetterkunde_101": {
+      "qid": 101,
+      "topic": "Wetterkunde",
+      "pos": 43,
+      "total_in_topic": 164,
+      "text": "Zu welcher Tageszeit kann in Alpentälern mit einem ausgeprägten Talwindsystem im Juli bei schönem Wetter in der Regel mit den wenigsten Turbulenzen gerechnet werden?",
+      "options": [
+        "ca. 18.00 Uhr",
+        "ca. 11.00 Uhr",
+        "ca. 09.00 Uhr",
+        "ca. 13.00 Uhr"
+      ],
+      "correct": 2
+    },
+    "Wetterkunde_28": {
+      "qid": 28,
+      "topic": "Wetterkunde",
+      "pos": 44,
+      "total_in_topic": 164,
+      "text": "Wo findet sich typischerweise eine Inversion?",
+      "options": [
+        "Inversionen kommen nur am Boden vor.",
+        "An der Grenze zwischen dunstiger Bodenluft und klarer Höhenluft.",
+        "An der Basis der Cumuli.",
+        "Bei einer Temperatur-Taupunkt-Differenz von 0ºC."
+      ],
+      "correct": 1
+    },
+    "Wetterkunde_44": {
+      "qid": 44,
+      "topic": "Wetterkunde",
+      "pos": 47,
+      "total_in_topic": 164,
+      "text": "Altocumulus castellanus-Wolken zwei Stunden nach Sonnenaufgang sind ein Anzeichen für",
+      "options": [
+        "das Zentrum eines Hochdruckgebietes.",
+        "eine herannahende Warmfront.",
+        "eine instabile Schichtung auf der Höhe der Wolken.",
+        "eine grosse Stabilität der Schichtung im unteren Bereich der Troposphäre."
+      ],
+      "correct": 2
     }
   },
   "topics": {
