@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-05-29T09:31:06.113Z",
+  "fetchedAt": "2026-05-29T09:31:37.376Z",
   "questions": {
     "Fluglehre_152": {
       "qid": 152,
@@ -2174,14 +2174,14 @@
     "Wetterkunde_61": {
       "qid": 61,
       "topic": "Wetterkunde",
-      "pos": 14,
+      "pos": 118,
       "total_in_topic": 164,
       "text": "Sobald unter Cumulus Congestus- oder Cumulonimbuswolken Niederschlag beobachtet werden kann,",
       "options": [
-        "darf davon ausgegangen werden, dass sie keine Aufwinde mehr produzieren.",
+        "werden sie für die Fliegerei harmlos, da sie sich im Stadium der Auflösung befinden.",
         "wird Luft durch Verdunstung abgekühlt, und es entstehen starke, böige Abwinde.",
-        "erfolgen immer elektrische Entladungen zwischen Wolke und Erdoberfläche.",
-        "werden sie für die Fliegerei harmlos, da sie sich im Stadium der Auflösung befinden."
+        "darf davon ausgegangen werden, dass sie keine Aufwinde mehr produzieren.",
+        "erfolgen immer elektrische Entladungen zwischen Wolke und Erdoberfläche."
       ],
       "correct": null
     },
@@ -2650,14 +2650,14 @@
     "Wetterkunde_109": {
       "qid": 109,
       "topic": "Wetterkunde",
-      "pos": 106,
+      "pos": 136,
       "total_in_topic": 164,
       "text": "Welche Wolkenkonstellation ist in ihrer Reihenfolge typisch für den Durchgang einer Warmfront?",
       "options": [
-        "Lenticularis, Cumulus congestus, Cirrocumulus, Altocumulus.",
+        "Cumulus, Cumulus congestus, Cumulus calvus, Cumulonimbus.",
         "Cirrus, Cirrostratus, Altostratus, Nimbostratus.",
-        "Altocumulus, Stratocumulus, Altostratus, Nimbostratus.",
-        "Cumulus, Cumulus congestus, Cumulus calvus, Cumulonimbus."
+        "Lenticularis, Cumulus congestus, Cirrocumulus, Altocumulus.",
+        "Altocumulus, Stratocumulus, Altostratus, Nimbostratus."
       ],
       "correct": null
     },
@@ -9366,6 +9366,48 @@
         "Übergang vom gasförmigen in den festen Zustand"
       ],
       "correct": 3
+    },
+    "Wetterkunde_126": {
+      "qid": 126,
+      "topic": "Wetterkunde",
+      "pos": 119,
+      "total_in_topic": 164,
+      "text": "Mit welchem Wind muss im schweizerischen Mittelland gerechnet werden, wenn die Schweiz am Rande eines ausgeprägten Hochs mit Zentrum über Norddeutschland liegt?",
+      "options": [
+        "Südföhn",
+        "Nordwestwind",
+        "Bise",
+        "Westwind"
+      ],
+      "correct": 2
+    },
+    "Wetterkunde_147": {
+      "qid": 147,
+      "topic": "Wetterkunde",
+      "pos": 131,
+      "total_in_topic": 164,
+      "text": "Wo ist die Druckverteilung am flachsten?",
+      "options": [
+        "bei Tunis",
+        "bei Lulea",
+        "bei Stockholm",
+        "über dem Golf von Biskaya"
+      ],
+      "correct": 0
+    },
+    "Wetterkunde_34": {
+      "qid": 34,
+      "topic": "Wetterkunde",
+      "pos": 137,
+      "total_in_topic": 164,
+      "text": "Welche Veränderung des Aggregatzustands eines Stoffes benötigt Energie in Form von Wärme?",
+      "options": [
+        "Übergang vom gasförmigen in den flüssigen Zustand",
+        "Übergang vom festen in den flüssigen Zustand",
+        "Übergang vom gasförmigen in den festen Zustand",
+        "Übergang vom flüssigen in den festen Zustand"
+      ],
+      "correct": 1
     }
   },
   "topics": {
