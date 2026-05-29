@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-05-29T08:56:53.976Z",
+  "fetchedAt": "2026-05-29T08:57:24.842Z",
   "questions": {
     "Fluglehre_152": {
       "qid": 152,
@@ -3584,6 +3584,118 @@
         "auf der Unterseite der tragenden Fläche mit einer gut erkennbaren Nummer, bestehend aus höchstens fünf Zahlen."
       ],
       "correct": 3
+    },
+    "Gesetzgebung_51": {
+      "qid": 51,
+      "topic": "Gesetzgebung",
+      "pos": 53,
+      "total_in_topic": 180,
+      "text": "Zur Benützung des Flugfunks auf der Frequenz 130.930 MHz",
+      "options": [
+        "ist ein Ausweis für Bordradiotelephonisten erforderlich.",
+        "ist ein Fluglehrerausweis erforderlich.",
+        "ist keine spezielle Ausbildung erforderlich.",
+        "ist eine Sprechfunklizenz erforderlich."
+      ],
+      "correct": 2
+    },
+    "Gesetzgebung_86": {
+      "qid": 86,
+      "topic": "Gesetzgebung",
+      "pos": 54,
+      "total_in_topic": 180,
+      "text": "In welchen Luftraumklassen ist kein ständiger Funkkontakt vorgeschrieben?",
+      "options": [
+        "D und E",
+        "E und G",
+        "G und C",
+        "C und D"
+      ],
+      "correct": 1
+    },
+    "Gesetzgebung_1": {
+      "qid": 1,
+      "topic": "Gesetzgebung",
+      "pos": 55,
+      "total_in_topic": 180,
+      "text": "Wer kann gesetzliche Bestimmungen über die Benützung des schweizerischen Luftraums erlassen?",
+      "options": [
+        "Bis 600 m über Grund oder 900 m über Meer die Gemeinden, darüber der Bund.",
+        "Ausschliesslich der Bund.",
+        "Bis 600 m über Grund oder 900 m über Meer die Kantone, darüber der Bund.",
+        "Bis FL 195 der Bund, darüber die Internationale Zivilluftfahrtorganisation ICAO."
+      ],
+      "correct": 1
+    },
+    "Gesetzgebung_32": {
+      "qid": 32,
+      "topic": "Gesetzgebung",
+      "pos": 57,
+      "total_in_topic": 180,
+      "text": "Wie lauten die üblichen Militärflugdientszeiten (MIL-ON)?",
+      "options": [
+        "MO-FR 07.30 - 12.05 und 13.15 bis 17.05 LT",
+        "MO-FR 07.15 - 12.05 und 13.15 bis 17.05 LT",
+        "MO-FR 07.15 - 12.05 und 13.15 bis 17.05 UTC",
+        "MO-FR 07.30 - 12.05 und 13.15 bis 17.05 UTC"
+      ],
+      "correct": 0
+    },
+    "Gesetzgebung_67": {
+      "qid": 67,
+      "topic": "Gesetzgebung",
+      "pos": 58,
+      "total_in_topic": 180,
+      "text": "Die Abkürzung \"GND\" steht wörtlich für",
+      "options": [
+        "Höhe über Grund.",
+        "Grund, Boden.",
+        "Höhe über der mittleren Meereshöhe.",
+        "Flugfläche."
+      ],
+      "correct": 1
+    },
+    "Gesetzgebung_155": {
+      "qid": 155,
+      "topic": "Gesetzgebung",
+      "pos": 60,
+      "total_in_topic": 180,
+      "text": "Welche allgemeinen Regeln gelten für Hängegleiter ohne Spezialbewilligung am mit x bezeichneten Ort auf 4900 m AMSL (~900 m AGL) an einem Sonntag um 16 Uhr im August?",
+      "options": [
+        "Fliegen verboten",
+        "minimale Sichtweite 8 km, Wolkenabstände 100 m horizontal / 50 m vertikal",
+        "minimale Sichtweite 8 km, Wolkenabstände 1500 m horizontal / 300 m vertikal",
+        "minimale Sichtweite 1.5 km, ausserhalb von Wolken, Bodensicht"
+      ],
+      "correct": 0
+    },
+    "Gesetzgebung_25": {
+      "qid": 25,
+      "topic": "Gesetzgebung",
+      "pos": 61,
+      "total_in_topic": 180,
+      "text": "Übungsflüge vor dem Bestehen der Hängegleiterpilotenprüfung",
+      "options": [
+        "sollten nur unter Aufsicht eines erfahrenen Piloten ausgeführt werden.",
+        "dürfen nur unter der unmittelbaren Aufsicht eines Fluglehrers mit gültigem Schweizer Ausweis ausgeführt werden.",
+        "sind nur für SHV-Mitglieder möglich.",
+        "können auch ohne direkte Aufsicht einer Drittperson ausgeführt werden."
+      ],
+      "correct": 1
+    },
+    "Gesetzgebung_44": {
+      "qid": 44,
+      "topic": "Gesetzgebung",
+      "pos": 63,
+      "total_in_topic": 180,
+      "text": "In welchen Intervallen müssen sich Inhaber des Hängegleiterpilotenausweises ärztlich untersuchen lassen?",
+      "options": [
+        "Es bestehen keine diesbezüglichen Vorschriften.",
+        "Alle 5 Jahre.",
+        "Unter 40-Jährige alle 4 Jahre, über 40-Jährige alle 2 Jahre.",
+        "Seh- und Hörfähigkeit alle 4 Jahre."
+      ],
+      "correct": 0
     }
   },
   "topics": {
