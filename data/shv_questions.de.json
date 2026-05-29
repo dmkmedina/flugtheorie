@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-05-29T08:57:55.006Z",
+  "fetchedAt": "2026-05-29T08:58:27.656Z",
   "questions": {
     "Fluglehre_152": {
       "qid": 152,
@@ -3806,6 +3806,118 @@
         "Mit der Einwilligung des Flugplatzchefs.",
         "Wenn bei einem Streckenflug dringend Landezeugen benötigt werden.",
         "Wenn sich kein Flugzeug im Anflug befindet und die Piste frei ist."
+      ],
+      "correct": 1
+    },
+    "Gesetzgebung_39": {
+      "qid": 39,
+      "topic": "Gesetzgebung",
+      "pos": 73,
+      "total_in_topic": 180,
+      "text": "Welcher minimale horizontale Abstand muss zu den Pisten eines für Flugzeuge bestimmten zivilen Flugplatzes ohne Kontrollzone (CTR) und bei Flugplätzen mit CTR, wenn diese inaktiv ist, bis 600 über dem Platz eingehalten werden?",
+      "options": [
+        "10 km",
+        "5 km",
+        "2,5 km",
+        "8 km"
+      ],
+      "correct": 1
+    },
+    "Gesetzgebung_61": {
+      "qid": 61,
+      "topic": "Gesetzgebung",
+      "pos": 75,
+      "total_in_topic": 180,
+      "text": "Das DABS",
+      "options": [
+        "enthält tagesaktuelle Informationen zu Gefahren und Restriktionen im Schweizer Luftraum, sowie Aktivierungen von temporären CTRs und TMAs.",
+        "ist eine wöchentliche Zusammenfassung aller für den Sichtflug-Verkehr publizierten Informationen.",
+        "ist eine topographische Karte mit Angaben über die Ausdehnung der verschiedenen Luftraumklassen, über Gefahrengebiete, Lufthindernisse, Segelflugzonen und Militärflugdienstzeiten.",
+        "enthält allgemeingültige Informationen für Benützer des schweizerischen Luftraums."
+      ],
+      "correct": 0
+    },
+    "Gesetzgebung_179": {
+      "qid": 179,
+      "topic": "Gesetzgebung",
+      "pos": 77,
+      "total_in_topic": 180,
+      "text": "In einer RMZ gelten folgende Regeln",
+      "options": [
+        "Einflug nur mit Hörbereitschaft und Blindmeldungen auf der entsprechenden Frequenz",
+        "Einflug jederzeit ohne Bedingungen erlaubt",
+        "Einflugverbot für Hängegleiter",
+        "Einflug nur nach vorgängig erstelltem Funkkontakt auf der entsprechenden Frequenz"
+      ],
+      "correct": 0
+    },
+    "Gesetzgebung_21": {
+      "qid": 21,
+      "topic": "Gesetzgebung",
+      "pos": 78,
+      "total_in_topic": 180,
+      "text": "Das Mindestalter zum Erwerb des amtlichen Ausweises für Hängegleiter beträgt",
+      "options": [
+        "12 Jahre.",
+        "14 Jahre.",
+        "18 Jahre.",
+        "16 Jahre."
+      ],
+      "correct": 3
+    },
+    "Gesetzgebung_75": {
+      "qid": 75,
+      "topic": "Gesetzgebung",
+      "pos": 80,
+      "total_in_topic": 180,
+      "text": "Die Abkürzung \"AWY\" steht für",
+      "options": [
+        "Luftstrasse.",
+        "Fluginformationsregion.",
+        "Kontrollzone.",
+        "Nahkontrollbezirk."
+      ],
+      "correct": 0
+    },
+    "Gesetzgebung_95": {
+      "qid": 95,
+      "topic": "Gesetzgebung",
+      "pos": 81,
+      "total_in_topic": 180,
+      "text": "Die Obergrenze des Luftraums der Klasse E über den Alpen ausserhalb der militärischen Flugdienstzeiten beträgt bei 1013,2 hPa grundsätzlich",
+      "options": [
+        "keine der vorangehenden Antworten ist richtig.",
+        "3'950 m AMSL.",
+        "3'050 m AMSL.",
+        "600 m AGL."
+      ],
+      "correct": 0
+    },
+    "Gesetzgebung_89": {
+      "qid": 89,
+      "topic": "Gesetzgebung",
+      "pos": 82,
+      "total_in_topic": 180,
+      "text": "In der Luftraumklasse G gelten für Hängegleiter ohne Transponder folgende Vorschriften bezüglich Sicht und Wolkenabstände: Sicht / Abstand horizontal / Abstand vertikal",
+      "options": [
+        "1,5 km und Bodensicht / ausserhalb / ausserhalb",
+        "Bis 300 m AGL: 1,5 km und Bodensicht / ausserhalb / ausserhalb. Oberhalb 300 m AGL: 1,5 km / 1,5 km / 300 m",
+        "5 km / 100 m / 50 m",
+        "5 km / 1,5km / 300 m"
+      ],
+      "correct": 1
+    },
+    "Gesetzgebung_136": {
+      "qid": 136,
+      "topic": "Gesetzgebung",
+      "pos": 83,
+      "total_in_topic": 180,
+      "text": "Welcher Hängegleiter muss während des Überholmanövers nötigenfalls ausweichen?",
+      "options": [
+        "Der höher Fliegende.",
+        "Der Überholende.",
+        "Der Langsamere.",
+        "Der von links Kommende."
       ],
       "correct": 1
     }
