@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-05-29T09:05:34.106Z",
+  "fetchedAt": "2026-05-29T09:06:04.973Z",
   "questions": {
     "Fluglehre_152": {
       "qid": 152,
@@ -5150,6 +5150,132 @@
         "geringeren Luftwiderstand und grössere Tendenz zur Knotenbildung beim Auslegen.",
         "grösseren Luftwiderstand und grössere Tendenz zur Knotenbildung beim Auslegen.",
         "grösseren Luftwiderstand und verminderte Tendenz zur Knotenbildung beim Auslegen."
+      ],
+      "correct": 1
+    },
+    "Materialkunde_49": {
+      "qid": 49,
+      "topic": "Materialkunde",
+      "pos": 10,
+      "total_in_topic": 125,
+      "text": "Welches sind die Folgen einer Verlängerung der D-Leinen?",
+      "options": [
+        "Der Anstellwinkel wird grösser, das Profil und das Flugverhalten werden verändert.",
+        "Der Anstellwinkel bleibt identisch, das Profil und das Flugverhalten werden verändert.",
+        "Der Anstellwinkel wird verkleinert, das Profil und das Flugverhalten werden verändert.",
+        "Der Anstellwinkel wird grösser, das Profil bleibt identisch, das Flugverhalten wird verändert."
+      ],
+      "correct": 2
+    },
+    "Materialkunde_117": {
+      "qid": 117,
+      "topic": "Materialkunde",
+      "pos": 11,
+      "total_in_topic": 125,
+      "text": "Ein Hochdruckgebiet dehnt sich von Spanien Richtung Mitteleuropa aus. In der Schweiz muss damit gerechnet werden, dass die Anzeige eines am Morgen justierten Altimeters am Nachmittag",
+      "options": [
+        "nach wie vor richtig ist.",
+        "je nach Temperatur zu hoch oder zu tief ist.",
+        "zu hoch ist.",
+        "zu tief ist."
+      ],
+      "correct": 3
+    },
+    "Materialkunde_26": {
+      "qid": 26,
+      "topic": "Materialkunde",
+      "pos": 12,
+      "total_in_topic": 125,
+      "text": "Gleitschirm X hat 18 Zellen, Gleitschirm Y 24 Zellen. Beide haben eine Fläche von 24 m² sowie eine Spannweite von 10 m. Sie bestehen aus denselben Materialien und sind sonst nach demselben Prinzip konstruiert. Welche Schlüsse lässt dies zu?",
+      "options": [
+        "X hat ein dickeres Profil und ein grösseres Packvolumen als Y.",
+        "X hat eine kleinere Streckung als Y, aber beide haben dasselbe Packvolumen.",
+        "Y hat eine grössere Streckung und ein grösseres Packvolumen als X.",
+        "Y hat kleinere Abweichungen vom angestrebten Profil und ein grösseres Packvolumen als X."
+      ],
+      "correct": 3
+    },
+    "Materialkunde_48": {
+      "qid": 48,
+      "topic": "Materialkunde",
+      "pos": 14,
+      "total_in_topic": 125,
+      "text": "Welches sind die Folgen einer Verkürzung der B-Leinen an einem Schulschirm?",
+      "options": [
+        "Der Anstellwinkel bleibt in etwa gleich, das Profil und das Flugverhalten werden verändert.",
+        "Der Anstellwinkel wird verkleinert, das Profil und das Flugverhalten werden verändert.",
+        "Der Anstellwinkel wird grösser, das Profil bleibt identisch, das Flugverhalten wird verändert.",
+        "Der Anstellwinkel wird grösser, das Profil und das Flugverhalten werden verändert."
+      ],
+      "correct": 0
+    },
+    "Materialkunde_105": {
+      "qid": 105,
+      "topic": "Materialkunde",
+      "pos": 15,
+      "total_in_topic": 125,
+      "text": "Welche der folgenden Faktoren können die Öffnungszeit des Rettungssystems verkürzen: 1. geringe Porosität des Gewebes, 2. doppelte Aufhängung, 3. kurze Packintervalle, 4. hohe Umströmungsgeschwindigkeit, 5. gut zu fassender Auslösegriff.",
+      "options": [
+        "1, 3, 4, 5",
+        "1, 2, 4, 5",
+        "2, 3, 4, 5",
+        "1, 2, 3, 4"
+      ],
+      "correct": 0
+    },
+    "Materialkunde_63": {
+      "qid": 63,
+      "topic": "Materialkunde",
+      "pos": 16,
+      "total_in_topic": 125,
+      "text": "Die Leinenschlösser sollten",
+      "options": [
+        "nur locker von Hand angezogen werden.",
+        "mit dem Schraubenschlüssel voll angezogen und danach wieder um 1/4 Umdrehung geöffnet werden.",
+        "mit dem Schraubenschlüssel so gut als möglich angezogen werden.",
+        "von Hand angezogen und mit dem Schraubenschlüssel 1/4 Umdrehung nachgezogen werden."
+      ],
+      "correct": 3
+    },
+    "Materialkunde_73": {
+      "qid": 73,
+      "topic": "Materialkunde",
+      "pos": 17,
+      "total_in_topic": 125,
+      "text": "Die Brems- oder Steuerleinen können vor dem Durchscheuern geschützt werden, indem",
+      "options": [
+        "die Bremsstellung nicht allzu oft unnötig variiert wird.",
+        "die Brems- oder Steuerbewegungen nach vorn zur Mitte hin ausgeführt werden.",
+        "die Brems- oder Steuerkraft vom Piloten gut dosiert wird.",
+        "die Brems- oder Steuerleinenführung am Traggurt mittels einer Rolle oder Gleitringes erfolgt."
+      ],
+      "correct": 3
+    },
+    "Materialkunde_4": {
+      "qid": 4,
+      "topic": "Materialkunde",
+      "pos": 18,
+      "total_in_topic": 125,
+      "text": "Unter Porosität versteht man im Zusammenhang mit Hängegleitern",
+      "options": [
+        "die Oberflächenbeschaffenheit eines Gewebes.",
+        "die Luftdurchlässigkeit eines Gewebes.",
+        "die Reissfestigkeit eines Gewebes.",
+        "die Knickbelastbarkeit eines Gewebes."
+      ],
+      "correct": 1
+    },
+    "Materialkunde_115": {
+      "qid": 115,
+      "topic": "Materialkunde",
+      "pos": 19,
+      "total_in_topic": 125,
+      "text": "Das Variometer erhält seine Information durch das Messen",
+      "options": [
+        "der vertikalen Geschwindigkeit.",
+        "des Druckunterschieds.",
+        "des Höhenunterschieds.",
+        "der horizontalen Geschwindigkeit."
       ],
       "correct": 1
     }
