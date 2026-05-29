@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-05-29T08:51:38.622Z",
+  "fetchedAt": "2026-05-29T08:52:10.220Z",
   "questions": {
     "Fluglehre_152": {
       "qid": 152,
@@ -2450,6 +2450,132 @@
         "die temperaturbedingten Abwinde."
       ],
       "correct": 0
+    },
+    "Wetterkunde_13": {
+      "qid": 13,
+      "topic": "Wetterkunde",
+      "pos": 32,
+      "total_in_topic": 164,
+      "text": "Wodurch wird die Temperatur der bodennahen Luft hauptsächlich bestimmt?",
+      "options": [
+        "Durch die auf die Luftteilchen treffende Sonneneinstrahlung.",
+        "Durch die Temperatur des Bodens.",
+        "Durch die in der Luft enthaltene relative Luftfeuchte.",
+        "Durch den Einstrahlungswinkel der auf die Luftteilchen treffenden Sonneneinstrahlung."
+      ],
+      "correct": 1
+    },
+    "Wetterkunde_48": {
+      "qid": 48,
+      "topic": "Wetterkunde",
+      "pos": 33,
+      "total_in_topic": 164,
+      "text": "Die Quellwolkenbasis",
+      "options": [
+        "ist die Wolkenuntergrenze und befindet sich auf der Höhe, bei der die Temperatur aufsteigender Luft mit der Temperatur der Umgebungsluft identisch ist.",
+        "ist die Wolkenobergrenze und befindet sich auf der Höhe, bei der die Temperatur aufsteigender Luft deren Taupunkt erreicht.",
+        "ist die Wolkenuntergrenze und befindet sich auf der Höhe, bei der die Temperatur aufsteigender Luft deren Taupunkt erreicht.",
+        "ist die Wolkenobergrenze und befindet sich auf der Höhe, bei der die Temperatur aufsteigender Luft mit der Temperatur der Umgebungsluft identisch ist."
+      ],
+      "correct": 2
+    },
+    "Wetterkunde_96": {
+      "qid": 96,
+      "topic": "Wetterkunde",
+      "pos": 34,
+      "total_in_topic": 164,
+      "text": "Der Begriff \"scherungsbedingte\" Turbulenz bezeichnet in der Meteorologie die Verwirbelung der Luft, wenn",
+      "options": [
+        "eine Luftströmung durch ein Hindernis scherförmig geteilt wird.",
+        "sich eine Luftmasse dem Boden entlang verschiebt und das Relief, sowie Hindernisse wie Häuser oder Bäume Wirbel verursachen.",
+        "sich zwei benachbarte Luftmassen in verschiedener Richtung und/oder mit verschiedener Geschwindigkeit verschieben und sich dabei aneinander reiben.",
+        "sich Warmluftblasen vom Boden ablösen und aufsteigen."
+      ],
+      "correct": 2
+    },
+    "Wetterkunde_121": {
+      "qid": 121,
+      "topic": "Wetterkunde",
+      "pos": 35,
+      "total_in_topic": 164,
+      "text": "Was stellt die nachfolgende Skizze dar?",
+      "options": [
+        "Eine Okklusion mit Warmfrontcharakter",
+        "Eine Kaltfront",
+        "Eine Warmfront",
+        "Eine Okklusion mit Kaltfrontcharakter"
+      ],
+      "correct": 3
+    },
+    "Wetterkunde_102": {
+      "qid": 102,
+      "topic": "Wetterkunde",
+      "pos": 37,
+      "total_in_topic": 164,
+      "text": "Zu welcher Tageszeit muss in Alpentälern mit einem ausgeprägten Talwindsystem im Juli bei schönem Wetter in der Regel mit den meisten Turbulenzen gerechnet werden?",
+      "options": [
+        "ca. 15.00 Uhr",
+        "ca. 12.00 Uhr",
+        "ca. 19.00 Uhr",
+        "ca. 09.00 Uhr"
+      ],
+      "correct": 0
+    },
+    "Wetterkunde_52": {
+      "qid": 52,
+      "topic": "Wetterkunde",
+      "pos": 38,
+      "total_in_topic": 164,
+      "text": "Welche der folgenden Wolkenarten hat ihre Basis entschieden höher als die anderen drei?",
+      "options": [
+        "Stratocumulus",
+        "Cumulus",
+        "Cirrocumulus",
+        "Cumulonimbus"
+      ],
+      "correct": 2
+    },
+    "Wetterkunde_97": {
+      "qid": 97,
+      "topic": "Wetterkunde",
+      "pos": 39,
+      "total_in_topic": 164,
+      "text": "Der Begriff \"thermische Turbulenz\" bezeichnet in der Meteorologie die Verwirbelung der Luft, wenn",
+      "options": [
+        "sich eine Luftmasse dem Boden entlang verschiebt und das Relief, sowie Hindernisse wie Häuser oder Bäume Wirbel verursachen.",
+        "sich Warmluftblasen vom Boden ablösen und aufsteigen.",
+        "zwei sich aneinander reibende Luftmassen aufheizen und dadurch aufsteigen.",
+        "sich zwei benachbarte Luftmassen in verschiedener Richtung und/oder mit verschiedener Geschwindigkeit verschieben und sich dabei aneinander reiben."
+      ],
+      "correct": 1
+    },
+    "Wetterkunde_152": {
+      "qid": 152,
+      "topic": "Wetterkunde",
+      "pos": 40,
+      "total_in_topic": 164,
+      "text": "Wie ist die Windrichtung in London?",
+      "options": [
+        "190°",
+        "310°",
+        "270°",
+        "130°"
+      ],
+      "correct": 1
+    },
+    "Wetterkunde_55": {
+      "qid": 55,
+      "topic": "Wetterkunde",
+      "pos": 41,
+      "total_in_topic": 164,
+      "text": "Welche der folgenden Wolkenarten besteht meist aus Eiskristallen?",
+      "options": [
+        "Cumulus humilis",
+        "Stratocumulus",
+        "Cirrocumulus",
+        "Nimbostratus"
+      ],
+      "correct": 2
     }
   },
   "topics": {
