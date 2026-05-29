@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-05-29T09:00:33.236Z",
+  "fetchedAt": "2026-05-29T09:01:04.850Z",
   "questions": {
     "Fluglehre_152": {
       "qid": 152,
@@ -4382,6 +4382,132 @@
         "1,5 km und Bodensicht / ausserhalb / ausserhalb"
       ],
       "correct": 3
+    },
+    "Gesetzgebung_121": {
+      "qid": 121,
+      "topic": "Gesetzgebung",
+      "pos": 126,
+      "total_in_topic": 180,
+      "text": "Wie gross ist der Durchmesser des Zielkreises anlässlich der praktischen Teilprüfung zum Erwerb des Hängegleiterpilotenausweis?",
+      "options": [
+        "50 m für Gleitschirm, 50 m für Delta, 50 m für Starrflügler",
+        "30 m für Gleitschirm, 80 m für Delta, 80 m für Starrflügler",
+        "80 m für Gleitschirm, 100 m für Delta, 100 m für Starrflügler",
+        "15 m für Gleitschirm, 30 m für Delta, 30 m für Starrflügler"
+      ],
+      "correct": 1
+    },
+    "Gesetzgebung_73": {
+      "qid": 73,
+      "topic": "Gesetzgebung",
+      "pos": 127,
+      "total_in_topic": 180,
+      "text": "Auf welcher Höhe befindet sich FL 150 ca.?",
+      "options": [
+        "1'500 m über Grund.",
+        "1'500 m über Meer.",
+        "5'950 m über Meer.",
+        "4'550 m über Meer."
+      ],
+      "correct": 3
+    },
+    "Gesetzgebung_123": {
+      "qid": 123,
+      "topic": "Gesetzgebung",
+      "pos": 128,
+      "total_in_topic": 180,
+      "text": "Der Luftraum wird von verschiedenen Kategorien von Luftfahrzeugen benützt, die entsprechend ihrer Möglichkeiten Priorität (Vortritt) geniessen. Welche Aussage ist richtig?",
+      "options": [
+        "Militärjets haben Vortritt vor Hängegleitern, Hängegleiter haben Vortritt vor Hubschraubern.",
+        "Hubschrauber haben Vortritt vor Hängegleitern, Hängegleiter haben Vortritt vor Militärjets.",
+        "Hängegleiter haben Vortritt vor Luftschiffen, Luftschiffe haben Vortritt vor Militärjets.",
+        "Hubschrauber haben Vortritt vor Militärjets, Militärjets haben Vortritt vor Hängegleitern."
+      ],
+      "correct": 2
+    },
+    "Gesetzgebung_20": {
+      "qid": 20,
+      "topic": "Gesetzgebung",
+      "pos": 129,
+      "total_in_topic": 180,
+      "text": "Die vorschriftsgemässe Kennzeichnung des Hängegleiters",
+      "options": [
+        "ist nur für Inhaber eines Hängegleiterpilotenausweises obligatorisch.",
+        "ist nur anlässlich von durch den SHV organisierten Prüfungen obligatorisch.",
+        "ist für jeden in der Schweiz wohnhaften Benutzer des schweizerischen Luftraums obligatorisch.",
+        "ist nur für SHV-Mitglieder obligatorisch."
+      ],
+      "correct": 2
+    },
+    "Gesetzgebung_132": {
+      "qid": 132,
+      "topic": "Gesetzgebung",
+      "pos": 130,
+      "total_in_topic": 180,
+      "text": "Ein Hängegleiter und ein Segelflugzeug fliegen im freien Luftraum frontal aufeinander zu. Wer muss ausweichen?",
+      "options": [
+        "Keiner, aber der Gescheitere gibt nach.",
+        "Beide nach rechts.",
+        "Das Segelflugzeug.",
+        "Der Hängegleiter."
+      ],
+      "correct": 1
+    },
+    "Gesetzgebung_45": {
+      "qid": 45,
+      "topic": "Gesetzgebung",
+      "pos": 131,
+      "total_in_topic": 180,
+      "text": "Welche Mindestanzahl Flüge muss der Inhaber eines Hängegleiterpilotenausweises jährlich absolvieren, damit der Pilotenausweis nicht verfällt?",
+      "options": [
+        "20",
+        "30",
+        "Es besteht keine Vorschrift bezüglich Mindestanzahl.",
+        "40"
+      ],
+      "correct": 2
+    },
+    "Gesetzgebung_99": {
+      "qid": 99,
+      "topic": "Gesetzgebung",
+      "pos": 132,
+      "total_in_topic": 180,
+      "text": "Welche Distanzen bezüglich Sicht und Wolkenabstand gelten grundsätzlich mittwochs um 14.30 Uhr in den Alpen auf 800 m AGL / 3'800 m AMSL? Sicht / Abstand horizontal / Abstand vertikal",
+      "options": [
+        "5,0 km / 100 m / 50 m",
+        "5,0 km / 1,5 km / 300 m",
+        "8,0 km / 1,5 km / 300 m",
+        "1,5 km und Bodensicht / ausserhalb / ausserhalb"
+      ],
+      "correct": 2
+    },
+    "Gesetzgebung_2": {
+      "qid": 2,
+      "topic": "Gesetzgebung",
+      "pos": 134,
+      "total_in_topic": 180,
+      "text": "Durch wen lässt der Bund die direkte Aufsicht über den zivilen Luftverkehr ausüben?",
+      "options": [
+        "Durch das Bundesamt für Zivilluftfahrt BAZL.",
+        "Durch die Sektion Zivilluftfahrt des eidgenössischen Militärdepartementes.",
+        "Durch die Abteilung Zivilluftfahrt der Aeroclubs der Schweiz.",
+        "Durch die Bundespolizeiorgane."
+      ],
+      "correct": 0
+    },
+    "Gesetzgebung_106": {
+      "qid": 106,
+      "topic": "Gesetzgebung",
+      "pos": 135,
+      "total_in_topic": 180,
+      "text": "Auf 900 m AGL / 2'800 m AMSL gelten in einer aktiven \"LS-R für Segelflug\" folgende Vorschriften bezüglich Sicht und Wolkenabstände: Sicht / Abstand horizontal / Abstand vertikal",
+      "options": [
+        "8,0 km / 100 m / 50 m",
+        "8,0 km / 1,5 km / 300 m",
+        "5,0 km / 100 m / 50m",
+        "8,0 km / 300 m / 100 m"
+      ],
+      "correct": 2
     }
   },
   "topics": {
