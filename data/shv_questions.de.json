@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-05-29T08:46:29.638Z",
+  "fetchedAt": "2026-05-29T08:47:13.101Z",
   "questions": {
     "Fluglehre_152": {
       "qid": 152,
@@ -32,16 +32,16 @@
     "Fluglehre_86": {
       "qid": 86,
       "topic": "Fluglehre",
-      "pos": 3,
+      "pos": 83,
       "total_in_topic": 152,
-      "text": "Welches ist der Wert der Flügelstreckung eines Geräts mit folgenden technischen Daten? Spannweite: m min.Zuladung: 0kg Gewicht: 30kg Fläche: 12.5m² max.Zuladung: 0kg 8106",
+      "text": "Welches ist der Wert der Flügelstreckung eines Geräts mit folgenden technischen Daten? Spannweite: m min.Zuladung: 0kg Gewicht: 30kg Fläche: 12.5m² max.Zuladung: 80kg 1086",
       "options": [
-        "8",
         "10",
-        "4",
-        "6"
+        "8",
+        "6",
+        "4"
       ],
-      "correct": 0
+      "correct": null
     },
     "Fluglehre_120": {
       "qid": 120,
@@ -438,7 +438,7 @@
     "Fluglehre_29": {
       "qid": 29,
       "topic": "Fluglehre",
-      "pos": 34,
+      "pos": 60,
       "total_in_topic": 152,
       "text": "Auf einer Höhe von 3'300 m über Meer beträgt der Luftwiderstand eines von Luft umströmten Körpers",
       "options": [
@@ -447,7 +447,7 @@
         "ca. 90% des Luftwiderstandes auf Meereshöhe.",
         "ca. 64% des Luftwiderstandes auf Meereshöhe."
       ],
-      "correct": 1
+      "correct": null
     },
     "Fluglehre_79": {
       "qid": 79,
@@ -522,16 +522,16 @@
     "Fluglehre_30": {
       "qid": 30,
       "topic": "Fluglehre",
-      "pos": 41,
+      "pos": 52,
       "total_in_topic": 152,
       "text": "Auf einer Höhe von 2'200 m über Meer beträgt der Luftwiderstand eines von Luft umströmten Körpers",
       "options": [
-        "ca. 72% des Luftwiderstandes auf Meereshöhe.",
-        "ca. 90% des Luftwiderstandes auf Meereshöhe.",
         "ca. 81% des Luftwiderstandes auf Meereshöhe.",
-        "ca. 64% des Luftwiderstandes auf Meereshöhe."
+        "ca. 64% des Luftwiderstandes auf Meereshöhe.",
+        "ca. 72% des Luftwiderstandes auf Meereshöhe.",
+        "ca. 90% des Luftwiderstandes auf Meereshöhe."
       ],
-      "correct": 2
+      "correct": null
     },
     "Fluglehre_22": {
       "qid": 22,
@@ -676,16 +676,16 @@
     "Fluglehre_101": {
       "qid": 101,
       "topic": "Fluglehre",
-      "pos": 55,
+      "pos": 57,
       "total_in_topic": 152,
       "text": "Die resultierende Luftkraft setzt sich zusammen aus",
       "options": [
-        "Auftrieb und Widerstand.",
-        "Gewicht, Auftrieb und Widerstand.",
+        "Gewicht und Auftrieb.",
         "Gewicht und Widerstand.",
-        "Gewicht und Auftrieb."
+        "Auftrieb und Widerstand.",
+        "Gewicht, Auftrieb und Widerstand."
       ],
-      "correct": 0
+      "correct": null
     },
     "Fluglehre_54": {
       "qid": 54,
@@ -1628,16 +1628,16 @@
     "Fluglehre_97": {
       "qid": 97,
       "topic": "Fluglehre",
-      "pos": 137,
+      "pos": 64,
       "total_in_topic": 152,
       "text": "Wo sind in der Umgebung eines fliegenden Hängegleiters Wirbel anzutreffen?",
       "options": [
         "In der Flügelmitte vor der Eintrittskante.",
-        "Bis eine Spannweite über dem Druckpunkt.",
         "An den Flügelenden vor der Eintrittskante.",
-        "Hinter der Austrittskante."
+        "Hinter der Austrittskante.",
+        "Bis eine Spannweite über dem Druckpunkt."
       ],
-      "correct": 3
+      "correct": null
     },
     "Fluglehre_43": {
       "qid": 43,
@@ -1876,6 +1876,104 @@
         "rollstabil."
       ],
       "correct": 3
+    },
+    "Fluglehre_95": {
+      "qid": 95,
+      "topic": "Fluglehre",
+      "pos": 53,
+      "total_in_topic": 152,
+      "text": "Welcher der folgenden Hängegleiter hat die kleinste Flügelstreckung?",
+      "options": [
+        "Fläche: 12 m², Spannweite: 12 m",
+        "Fläche: 16 m², Spannweite: 12 m",
+        "Fläche: 12,5 m², Spannweite: 10 m",
+        "Fläche: 20 m², Spannweite: 10 m"
+      ],
+      "correct": 3
+    },
+    "Fluglehre_108": {
+      "qid": 108,
+      "topic": "Fluglehre",
+      "pos": 56,
+      "total_in_topic": 152,
+      "text": "Mit welchen Ziffern sind Auftrieb und Widerstand gekennzeichnet?",
+      "options": [
+        "5 und 3",
+        "5 und 6",
+        "2 und 3",
+        "3 und 6"
+      ],
+      "correct": 0
+    },
+    "Fluglehre_27": {
+      "qid": 27,
+      "topic": "Fluglehre",
+      "pos": 58,
+      "total_in_topic": 152,
+      "text": "Entfernt sich ein von Luft umströmter Körper von der Erdoberfläche, so",
+      "options": [
+        "nimmt sein Luftwiderstand in den unteren Luftschichten ab, während er in grosser Höhe zunimmt.",
+        "nimmt sein Luftwiderstand linear ab.",
+        "nimmt sein Luftwiderstand in den unteren Luftschichten schneller ab als in grosser Höhe.",
+        "nimmt sein Luftwiderstand in grosser Höhe schneller ab als in den unteren Luftschichten."
+      ],
+      "correct": 2
+    },
+    "Fluglehre_46": {
+      "qid": 46,
+      "topic": "Fluglehre",
+      "pos": 61,
+      "total_in_topic": 152,
+      "text": "Mit welcher Ziffer ist in der folgenden Skizze eines Profils die Hinterkante (Austrittskante) gekennzeichnet? 12",
+      "options": [
+        "1",
+        "3",
+        "2",
+        "4"
+      ],
+      "correct": 1
+    },
+    "Fluglehre_142": {
+      "qid": 142,
+      "topic": "Fluglehre",
+      "pos": 65,
+      "total_in_topic": 152,
+      "text": "Ein Hängegleiterpilot fliegt mit einer Geschwindigkeit von 36 km/h (10 m/s) und einem Sinken von 1 m/s. Er erreicht ein Abwindfeld, in dem die Luft mit 1 m/s sinkt. Wenn er die Geschwindigkeit beibehält,",
+      "options": [
+        "nehmen das Sinken und die Gleitzahl zu.",
+        "nehmen das Sinken und die Gleitzahl ab",
+        "nimmt seine Gleitzahl von 5 auf 10 zu.",
+        "nimmt seine Gleitzahl von 10 auf 5 ab."
+      ],
+      "correct": 3
+    },
+    "Fluglehre_82": {
+      "qid": 82,
+      "topic": "Fluglehre",
+      "pos": 66,
+      "total_in_topic": 152,
+      "text": "Welches ist der Wert der Flügelstreckung eines Geräts mit folgenden technischen Daten? Spannweite: 10m min.Zuladung: 70kg Gewicht: 5kg Fläche: 25m² max.Zuladung: 95kg",
+      "options": [
+        "4,0",
+        "3,5",
+        "4,5",
+        "2,5"
+      ],
+      "correct": 0
+    },
+    "Fluglehre_24": {
+      "qid": 24,
+      "topic": "Fluglehre",
+      "pos": 84,
+      "total_in_topic": 152,
+      "text": "Verdoppelt sich die Luftdichte, so",
+      "options": [
+        "verändert sich der Luftwiderstand eines von Luft umströmten Körpers nicht.",
+        "verdoppelt sich der Luftwiderstand eines von Luft umströmten Körpers.",
+        "vervierfacht sich der Luftwiderstand eines von Luft umströmten Körpers.",
+        "halbiert sich der Luftwiderstand eines von Luft umströmten Körpers."
+      ],
+      "correct": 1
     }
   },
   "topics": {
