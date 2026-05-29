@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-05-29T09:17:21.826Z",
+  "fetchedAt": "2026-05-29T09:17:52.692Z",
   "questions": {
     "Fluglehre_152": {
       "qid": 152,
@@ -7418,6 +7418,118 @@
         "1. Kalotte liegt wunschgemäss; 2. Windrichtung/-stärke; 3. Start-/Luftraum frei; 4. Gurtzeug, Helm und Rettungsgerät geschlossen und gesichert; 5. Gurten und Leinen verlaufen korrekt.",
         "1. Windrichtung/-stärke; 2. Start-/Luftraum frei; 3. Gurtzeug, Helm und Rettungsgerät geschlossen und gesichert; 4. Gurten und Leinen verlaufen korrekt; 5. Kalotte liegt wunschgemäss.",
         "1. Gurten und Leinen verlaufen korrekt; 2. Kalotte liegt wunschgemäss; 3. Windrichtung/-stärke; 4. Start-/Luftraum frei; 5. Gurtzeug, Helm und Rettungsgerät geschlossen und gesichert."
+      ],
+      "correct": 0
+    },
+    "Flugpraxis_85": {
+      "qid": 85,
+      "topic": "Flugpraxis",
+      "pos": 83,
+      "total_in_topic": 169,
+      "text": "Welche Konsequenzen kann es haben, wenn an einem Gleitschirm zum Beschleunigen nur die A-Traggurten gezogen werden?",
+      "options": [
+        "Das Gerät klappt frontal ein, wobei die Flügelenden die Schirmmitte überholen können, sodass das Gerät zusammenklappt.",
+        "Die Strömung reisst einseitig ab, das Gerät dreht über die abgerissene Seite weg und beginnt zu trudeln.",
+        "Das Gerät geht in eine immer steiler werdende Spirale über.",
+        "Die Strömung reisst ab und das Gerät geht in einen Sackflug über."
+      ],
+      "correct": 0
+    },
+    "Flugpraxis_125": {
+      "qid": 125,
+      "topic": "Flugpraxis",
+      "pos": 84,
+      "total_in_topic": 169,
+      "text": "Ein Pilot befindet sich im Endanflug und stellt fest, dass er geringfügig zu hoch fliegt. Welches Verhalten ist korrekt?",
+      "options": [
+        "Die Fluggeschwindigkeit erhöhen, um den Luftwiderstand zu vergrössern.",
+        "Das Gerät anbremsen, um seine Gleitleistung zu vermindern und sich frühzeitig aufrichten, um den Luftwiderstand zu erhöhen.",
+        "Nochmals einen Kreis in Voltendrehrichtung fliegen.",
+        "Den Endanflug über den Landepunkt hinaus verlängern, eine 180°-Kurve fliegen und aus der entgegengesetzten Richtung landen."
+      ],
+      "correct": 1
+    },
+    "Flugpraxis_122": {
+      "qid": 122,
+      "topic": "Flugpraxis",
+      "pos": 85,
+      "total_in_topic": 169,
+      "text": "Ein Pilot stellt im Gegenanflug fest, dass er eher etwas tief fliegt. Welches Verhalten ist korrekt?",
+      "options": [
+        "Direkt zum geplanten Landepunkt fliegen und dort bis zur Landung kreisen.",
+        "Das Gerät leicht anbremsen, um seine Leistung zu verbessern.",
+        "Den Gegen- als Queranflug betrachten und quer zum Wind landen.",
+        "Alle Elemente des Anflugs kürzer planen."
+      ],
+      "correct": 3
+    },
+    "Flugpraxis_39": {
+      "qid": 39,
+      "topic": "Flugpraxis",
+      "pos": 86,
+      "total_in_topic": 169,
+      "text": "Nach dem Start gelingt es dem Piloten wegen zu lockerer Beingurten nicht, sich bequem ins Gurtzeug zu setzen. Welches Vorgehen ist richtig?",
+      "options": [
+        "Mit den Bremsen in den Händen sofort nach dem Sitzbrett greifen und es unter den Hintern schieben.",
+        "Die Bremsen sofort loslassen, um das Sitzbrett unter den Hintern zu schieben.",
+        "Die Bremsen dürfen während des Flugs keinesfalls losgelassen werden. Falls es nicht gelingt, ohne Hilfe der Hände ins Gurtzeuge zu rutschen, ist eine Notlandung einzuleiten.",
+        "Sich etwas vom Gelände entfernen, beide Bremsen in eine Hand nehmen und mit der freien Hand das Sitzbrett unter den Hintern schieben."
+      ],
+      "correct": 3
+    },
+    "Flugpraxis_153": {
+      "qid": 153,
+      "topic": "Flugpraxis",
+      "pos": 87,
+      "total_in_topic": 169,
+      "text": "Wo leben in den Alpen Gemsen und Steinböcke im Winter und Frühling?",
+      "options": [
+        "In mehrheitlich südexponierten Bergwäldern.",
+        "In den durch den Tourismus wenig gestörten Nordhängen.",
+        "In mehrheitlich südexponierten, steilen Bergflanken.",
+        "Auf den vom Skitourismus unerschlossenen Alpweiden."
+      ],
+      "correct": 2
+    },
+    "Flugpraxis_135": {
+      "qid": 135,
+      "topic": "Flugpraxis",
+      "pos": 88,
+      "total_in_topic": 169,
+      "text": "Wie entstehen im Zusammenhang mit Landungen auf Bäumen am häufigsten schwere Verletzungen?",
+      "options": [
+        "Die Äste geben unter dem Gewicht von Schirm und Pilot nach, der Pilot fällt zu Boden.",
+        "Der Pilot verlässt das Gurtzeug, ohne mit einem Seil genügend gesichert zu sein, die Äste geben unter seinem Gewicht nach, und er fällt vom Baum.",
+        "Der Pilot verletzt sich beim Aufprall im Baum.",
+        "Schirm und Pilot gleiten am Baum ab und fallen zu Boden."
+      ],
+      "correct": 1
+    },
+    "Flugpraxis_66": {
+      "qid": 66,
+      "topic": "Flugpraxis",
+      "pos": 89,
+      "total_in_topic": 169,
+      "text": "Ein Hängegleiterpilot kreist bei Windstille im thermischen Aufwind um möglichst schnell Höhe zu gewinnen. Plötzlich verliert er den Schlauch und das Vario zeigt starkes Sinken. Welche Massnahme ist in der Regel die beste?",
+      "options": [
+        "Geradeausflug und Suche eines neuen Aufwindgebiets.",
+        "Eine möglichst flache 120 - 180°-Kurve, um im Abwind möglichst wenig Höhe zu verlieren.",
+        "Grossflächiges Kreisen, bis sich der Aufwind wieder einstellt.",
+        "Eine enge 120 - 180°-Kurve, um möglichst schnell wieder einzusteigen."
+      ],
+      "correct": 3
+    },
+    "Flugpraxis_148": {
+      "qid": 148,
+      "topic": "Flugpraxis",
+      "pos": 91,
+      "total_in_topic": 169,
+      "text": "Wann brüten Steinadler?",
+      "options": [
+        "März-Mai",
+        "Mai-Juli",
+        "Juni-August",
+        "Januar-März"
       ],
       "correct": 0
     }
