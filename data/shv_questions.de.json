@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-05-29T09:03:10.184Z",
+  "fetchedAt": "2026-05-29T09:04:53.641Z",
   "questions": {
     "Fluglehre_152": {
       "qid": 152,
@@ -4998,6 +4998,34 @@
         "Das Bundesamt für Zivilluftfahrt (BAZL)."
       ],
       "correct": 0
+    },
+    "Gesetzgebung_174": {
+      "qid": 174,
+      "topic": "Gesetzgebung",
+      "pos": 177,
+      "total_in_topic": 180,
+      "text": "FIZ steht für",
+      "options": [
+        "Instrumentenflugzone",
+        "Flugzeugidentifikationszone",
+        "Fluginformationsdienst",
+        "Fluginformationszone"
+      ],
+      "correct": 3
+    },
+    "Gesetzgebung_74": {
+      "qid": 74,
+      "topic": "Gesetzgebung",
+      "pos": 178,
+      "total_in_topic": 180,
+      "text": "Auf welcher Höhe befindet sich FL 195 ca.?",
+      "options": [
+        "1'950 m über Meer.",
+        "5'950 m über Meer.",
+        "1'950 m über Grund.",
+        "4'550 m über Meer."
+      ],
+      "correct": 1
     }
   },
   "topics": {
