@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-05-29T09:17:52.692Z",
+  "fetchedAt": "2026-05-29T09:18:24.591Z",
   "questions": {
     "Fluglehre_152": {
       "qid": 152,
@@ -7530,6 +7530,90 @@
         "Mai-Juli",
         "Juni-August",
         "Januar-März"
+      ],
+      "correct": 0
+    },
+    "Flugpraxis_70": {
+      "qid": 70,
+      "topic": "Flugpraxis",
+      "pos": 93,
+      "total_in_topic": 169,
+      "text": "Ein Hängegleiterpilot kreist im thermischen Aufwind und möchte einen weiten Streckenflug machen. Welches ist der richtige Moment, den Schlauch zu verlassen?",
+      "options": [
+        "Erst, wenn er weiss, welchen Punkt er als nächsten anfliegen will und wenn er über genügend Höhe verfügt, um ihn zu erreichen.",
+        "Erst, wenn das Vario kein nennenswertes Steigen mehr anzeigt.",
+        "Erst, wenn er der Höchste ist.",
+        "Erst, wenn er sich 50 m unterhalb der Wolkenbasis befindet."
+      ],
+      "correct": 0
+    },
+    "Flugpraxis_105": {
+      "qid": 105,
+      "topic": "Flugpraxis",
+      "pos": 95,
+      "total_in_topic": 169,
+      "text": "Wozu dient das Fliegen einer Landevolte?",
+      "options": [
+        "Als für andere Luftverkehrsteilnehmer nachvollziehbares Landeprozedere mit der grössten Wahrscheinlichkeit einer präzisen Landung.",
+        "Als Eselsleiter für Anfänger.",
+        "Als Training zum Bestehen von durch den SHV organisierten Prüfungen.",
+        "Die Landevolte hat für Inhaber des Pilotenausweises keine Bedeutung mehr."
+      ],
+      "correct": 0
+    },
+    "Flugpraxis_121": {
+      "qid": 121,
+      "topic": "Flugpraxis",
+      "pos": 96,
+      "total_in_topic": 169,
+      "text": "Ein Pilot stellt im Gegenanflug fest, dass er entschieden zu hoch fliegt. Welches Verhalten ist korrekt?",
+      "options": [
+        "Nochmals einen Kreis in Voltendrehrichtung fliegen.",
+        "Zum Höhenabbauraum zurückfliegen und den Gegenanflug erneut beginnen.",
+        "Das Gerät anbremsen, um seine Gleitleistung zu vermindern.",
+        "Alle Elemente des Anflugs etwas grossräumiger planen."
+      ],
+      "correct": 3
+    },
+    "Flugpraxis_156": {
+      "qid": 156,
+      "topic": "Flugpraxis",
+      "pos": 98,
+      "total_in_topic": 169,
+      "text": "Welches ist die härteste Jahreszeit für Gemsen und Steinböcke, wo immer wieder viele Tiere sterben?",
+      "options": [
+        "Im Spätwinter, März-April, wenn die Fettreserven aufgebraucht sind und der Schnee immer noch die Nahrung zudeckt.",
+        "Während der Brunft, wenn die Böcke die Geissen anhaltend treiben und so alle Tiere kaum mehr Nahrung aufnehmen können.",
+        "Im Hochwinter, wenn die Fortbewegung im hohen Schnee fast unmöglich ist.",
+        "Nach dem ersten Schneefall, wenn die Tiere sich an die Kälte gewöhnen müssen und keine Nahrung mehr finden."
+      ],
+      "correct": 0
+    },
+    "Flugpraxis_157": {
+      "qid": 157,
+      "topic": "Flugpraxis",
+      "pos": 99,
+      "total_in_topic": 169,
+      "text": "Was tun Gemsen und Steinböcke im Sommer über Tag?",
+      "options": [
+        "Sie bleiben im Bergwald und fressen und ruhen hier abwechselnd.",
+        "Sie ziehen nach der Morgenäsung in die schattigen Felsen und auf die windexponierten Kuppen oberhalb ihrer Weidegebiete und ruhen hier.",
+        "Sie fressen den ganzen Tag in den Nordhängen.",
+        "Sie ziehen sich in den kühlen Bergwald zurück und ruhen hier."
+      ],
+      "correct": 1
+    },
+    "Flugpraxis_29": {
+      "qid": 29,
+      "topic": "Flugpraxis",
+      "pos": 101,
+      "total_in_topic": 169,
+      "text": "Der 5-Punkte- oder Startcheck ändert sich bei einem Start mit Aufziehen rückwärts bei einem konstanten Aufwind von 25 km/h",
+      "options": [
+        "insofern, als nach dem Aufziehen des Schirms nochmals kontrolliert werden muss, ob Start- und Luftraum frei sind.",
+        "insofern, als die Kontrolle von Windrichtung und -stärke entfällt.",
+        "nicht.",
+        "insofern, als die Kontrolle der Kalotte entfällt."
       ],
       "correct": 0
     }
