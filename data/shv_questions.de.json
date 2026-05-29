@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-05-29T09:09:43.243Z",
+  "fetchedAt": "2026-05-29T09:10:13.377Z",
   "questions": {
     "Fluglehre_152": {
       "qid": 152,
@@ -6104,6 +6104,118 @@
         "Mit Fingertreppen (Spleissen)."
       ],
       "correct": 3
+    },
+    "Materialkunde_9": {
+      "qid": 9,
+      "topic": "Materialkunde",
+      "pos": 91,
+      "total_in_topic": 125,
+      "text": "Durch das Beschichten der bei der Gleitschirmkonstruktion verwendeten Tücher wird",
+      "options": [
+        "deren Elastizität verringert.",
+        "deren Porosität vergrössert.",
+        "deren UV-Empfindlichkeit vergrössert.",
+        "deren mechanische Belastbarkeit verringert."
+      ],
+      "correct": 0
+    },
+    "Materialkunde_46": {
+      "qid": 46,
+      "topic": "Materialkunde",
+      "pos": 92,
+      "total_in_topic": 125,
+      "text": "Welches sind die Folgen einer stärkeren bleibenden Dehnung der Leinen der A-Ebene im Vergleich zu den übrigen Leinen?",
+      "options": [
+        "Der Anstellwinkel bleibt identisch, das Profil und das Flugverhalten werden verändert.",
+        "Der Anstellwinkel wird verkleinert, das Profil und das Flugverhalten werden verändert.",
+        "Der Anstellwinkel wird grösser, das Profil und das Flugverhalten werden verändert.",
+        "Der Anstellwinkel wird grösser, das Profil bleibt identisch, das Flugverhalten wird verändert."
+      ],
+      "correct": 2
+    },
+    "Materialkunde_57": {
+      "qid": 57,
+      "topic": "Materialkunde",
+      "pos": 93,
+      "total_in_topic": 125,
+      "text": "Ein Gleitschirm mit 5 m langen Leinen hat gegenüber einem Gleitschirm mit 7 m langen Leinen",
+      "options": [
+        "einen tieferen Schwerpunkt und grössere Pendelausschläge bei schnellen Kurvenwechseln.",
+        "einen tieferen Schwerpunkt und kleinere Pendelausschläge bei schnellen Kurvenwechseln.",
+        "einen höheren Schwerpunkt und grössere Pendelausschläge bei schnellen Kurvenwechseln.",
+        "einen höheren Schwerpunkt und kleinere Pendelausschläge bei schnellen Kurvenwechseln."
+      ],
+      "correct": 3
+    },
+    "Materialkunde_93": {
+      "qid": 93,
+      "topic": "Materialkunde",
+      "pos": 95,
+      "total_in_topic": 125,
+      "text": "Liegt der Befestigungspunkt der Hauptleine eines Rettungsschirmes am Gurtzeug nahe dem Körperschwerpunkt, so",
+      "options": [
+        "muss der Körper vor der Landung bewusst aufgerichtet werden.",
+        "ist die Wahrscheinlichkeit, dass sich Haupt- und Rettungsschirm-leinen verheddern, kleiner.",
+        "ergibt sich bei der Auslösung automatisch eine aufrechtere Körperhaltung.",
+        "hört der Hauptschirm automatisch zu fliegen auf, was ein ruhigeres Sinken ergibt."
+      ],
+      "correct": 0
+    },
+    "Materialkunde_36": {
+      "qid": 36,
+      "topic": "Materialkunde",
+      "pos": 96,
+      "total_in_topic": 125,
+      "text": "Das Nähen der Schlaufen an den Leinenenden,",
+      "options": [
+        "kann insbesondere bei Aramidleinen zu einem Festigkeitsverlust von bis zu 40% führen.",
+        "ist eine sehr schonende Verarbeitungsart, welche die Leine in ihrer Festigkeit nicht merklich beeinträchtigt.",
+        "ist die einzige Verarbeitungsart, welche eine dauerhafte Verbindung von genügender Festigkeit gewährleistet.",
+        "ist eine rein optische Massnahme."
+      ],
+      "correct": 0
+    },
+    "Materialkunde_14": {
+      "qid": 14,
+      "topic": "Materialkunde",
+      "pos": 97,
+      "total_in_topic": 125,
+      "text": "Die Qualität der Beschichtung wird wesentlich in Mitleidenschaft gezogen durch",
+      "options": [
+        "Reinigung des Geräts mit kaltem Wasser.",
+        "Lagern des Geräts in feuchtem Zustand bei grossen Temperaturschwankungen.",
+        "konsequentes Lagern des Geräts an einem dunklen, vor der Sonne geschützten Platz.",
+        "das Fliegen von extremen Flugmanövern und den daraus resultierenden Einklappern."
+      ],
+      "correct": 1
+    },
+    "Materialkunde_72": {
+      "qid": 72,
+      "topic": "Materialkunde",
+      "pos": 98,
+      "total_in_topic": 125,
+      "text": "Werden die Trimmer im stabilen Geradeausflug gelöst, so",
+      "options": [
+        "vermindert sich die Tendenz des Gerät zum Einklappen, und die Steuerwege werden kürzer.",
+        "vergrössert sich die Tendenz des Gerät zum Einklappen, und die Steuerwege werden kürzer.",
+        "vermindert sich die Tendenz des Gerät zum Einklappen, und die Steuerwege werden länger.",
+        "vergrössert sich die Tendenz des Gerät zum Einklappen, und die Steuerwege werden länger."
+      ],
+      "correct": 3
+    },
+    "Materialkunde_41": {
+      "qid": 41,
+      "topic": "Materialkunde",
+      "pos": 99,
+      "total_in_topic": 125,
+      "text": "Welchen Vorteil bringt es mit sich, wenn die Leinen bei den Verbindungen zwischen Leinen und Tuch geschlauft anstatt vernäht sind?",
+      "options": [
+        "Die geschlaufte Verbindung ist aerodynamisch günstiger und findet deshalb vor allem an mondernen Hochleistungsgeräten Verwendung.",
+        "Das Gerät ist einfacher zu warten, da defekte Leinen ohne grossen Aufwand ersetzt werden können.",
+        "Keinen, es handelt sich um eine rein optische Massnahme.",
+        "Die geschlaufte Verbindung hält besser, da die Leine nicht durch eine Naht geschwächt wird."
+      ],
+      "correct": 1
     }
   },
   "topics": {
