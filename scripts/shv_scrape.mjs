@@ -280,7 +280,21 @@ async function scrapeOneSubject(targetSubject) {
         console.error(`  escape ${attempt + 1} did not change qid (still ${after.qid})`);
       }
       if (!escaped) {
-        console.error(`[${labelFor(targetSubject)}] all escapes failed past qid=${stuckQid} — bailing`);
+        // Last resort: a fresh login session usually drops us on a
+        // different question entirely, so we can skip past whatever
+        // was wedged in the current browser state.
+        if (sessionsUsed < 12) {
+          console.error(`[${labelFor(targetSubject)}] all in-page escapes failed past qid=${stuckQid} — rotating session`);
+          await page.close().catch(() => {});
+          await freshCtx.close().catch(() => {});
+          ({ ctx: freshCtx, page } = await startNewSession(targetSubject));
+          sessionsUsed++;
+          consecutiveDupes = 0;
+          captured = 0;
+          consecutiveZeroSessions = 0;
+          continue;
+        }
+        console.error(`[${labelFor(targetSubject)}] all escapes failed past qid=${stuckQid} and out of session budget — bailing`);
         break;
       }
       continue;

@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-05-29T09:21:28.367Z",
+  "fetchedAt": "2026-05-29T09:23:23.414Z",
   "questions": {
     "Fluglehre_152": {
       "qid": 152,
@@ -8330,6 +8330,76 @@
         "Ein Delta nähert sich einem Gleitschirm vorne unten."
       ],
       "correct": 1
+    },
+    "Flugpraxis_30": {
+      "qid": 30,
+      "topic": "Flugpraxis",
+      "pos": 162,
+      "total_in_topic": 169,
+      "text": "In welchem Moment muss kontrolliert werden, ob der Start- und Luftraum frei ist?",
+      "options": [
+        "Bevor der Pilot sich zum Start bereit macht.",
+        "Wenn der Pilot das Gerät fertig ausgelegt hat.",
+        "Unmittelbar vor dem Start.",
+        "Bevor der Pilot das Gerät am Startplatz auslegt."
+      ],
+      "correct": 2
+    },
+    "Flugpraxis_5": {
+      "qid": 5,
+      "topic": "Flugpraxis",
+      "pos": 164,
+      "total_in_topic": 169,
+      "text": "Der Höhenrausch ist vor allem eine Folge",
+      "options": [
+        "des abnehmenden Luft- beziehungsweise Sauerstoffdrucks und der daraus resultierenden mangelnden Sauerstoffversorgung des Körpers.",
+        "der niedrigen Luftfeuchte und der daraus resultierenden Entwässerung des Körpers.",
+        "der in grosser Höhe herrschenden Turbulenzen.",
+        "der tiefen Temperatur und der daraus resultierenden Unterkühlung des Körpers."
+      ],
+      "correct": 0
+    },
+    "Flugpraxis_37": {
+      "qid": 37,
+      "topic": "Flugpraxis",
+      "pos": 165,
+      "total_in_topic": 169,
+      "text": "Am Startplatz an einem Südhang weht ein Wind von 120°/5 kt. Welches ist die korrekte Vorgehensweise?",
+      "options": [
+        "Das Gerät wird gegen den Wind aufgezogen und gegen den Wind diagonal den Hang hinunter beschleunigt.",
+        "Das Gerät wird gegen den Wind aufgezogen, in die Fallinie gedreht und beschleunigt.",
+        "Das Starten ist zu unterlassen, da Seitenwindstarts ein grosses Risiko darstellen.",
+        "Das Gerät wird gegen Süden aufgezogen und dann Richtung Südwesten beschleunigt, um den Seitenwind zu kompensieren."
+      ],
+      "correct": 1
+    },
+    "Flugpraxis_108": {
+      "qid": 108,
+      "topic": "Flugpraxis",
+      "pos": 166,
+      "total_in_topic": 169,
+      "text": "Wie heisst der mit (3) gekennzeichnete Bestandteil des Landeanflugs?",
+      "options": [
+        "Endanflug",
+        "Queranflug",
+        "Höhenabbauraum",
+        "Gegenanflug"
+      ],
+      "correct": 1
+    },
+    "Flugpraxis_79": {
+      "qid": 79,
+      "topic": "Flugpraxis",
+      "pos": 167,
+      "total_in_topic": 169,
+      "text": "Welche anderen Ursachen als zu stark gebremstes Fliegen können zu einem stabilen Sackflug führen?",
+      "options": [
+        "Zu kurz eingestellte Steuerleinen.",
+        "Durch Alterung vertrimmte Leinen, welche aufgrund fehlendem Jahrescheck nicht bemerkt werden.",
+        "Antworten a, b und c sind richtig",
+        "Flug durch Regenschauer, nasse Kalotte."
+      ],
+      "correct": 2
     }
   },
   "topics": {
