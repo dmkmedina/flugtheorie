@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-05-29T09:20:26.619Z",
+  "fetchedAt": "2026-05-29T09:20:57.485Z",
   "questions": {
     "Fluglehre_152": {
       "qid": 152,
@@ -8092,6 +8092,132 @@
         "Er soll ungebremst im Trimmspeed fliegen."
       ],
       "correct": 3
+    },
+    "Flugpraxis_93": {
+      "qid": 93,
+      "topic": "Flugpraxis",
+      "pos": 142,
+      "total_in_topic": 169,
+      "text": "Das Absteigen mittels Einklappen der Ohren hat den Vorteil, dass",
+      "options": [
+        "sich ohne Probleme beim Ausleiten und ohne grosse körperliche Belastung hohe Sinkwerte erzielen lassen.",
+        "bei einfachem Einleiten und ohne grosse körperliche Belastung hohe Sinkwerte erzielt werden können.",
+        "der Körper nicht belastet wird und sich auch während der Dauer des Manövers ein bestimmtes Ziel anfliegen lässt.",
+        "die Kalotte nicht deformiert wird und sich hohe Sinkwerte erreichen lassen."
+      ],
+      "correct": 2
+    },
+    "Flugpraxis_67": {
+      "qid": 67,
+      "topic": "Flugpraxis",
+      "pos": 143,
+      "total_in_topic": 169,
+      "text": "Ein Hängegleiter kreist im thermischen Aufwind. Es herrscht ein Wind von 270°/10 kt. Der Aufwindschlauch",
+      "options": [
+        "verläuft senkrecht nach oben.",
+        "neigt sich mit zunehmender Höhe Richtung Westen.",
+        "neigt sich mit zunehmender Höhe Richtung Norden.",
+        "neigt sich mit zunehmender Höhe Richtung Osten."
+      ],
+      "correct": 3
+    },
+    "Flugpraxis_35": {
+      "qid": 35,
+      "topic": "Flugpraxis",
+      "pos": 144,
+      "total_in_topic": 169,
+      "text": "Ein Gleitschirmstart läuft in drei Phasen ab. Welches sind sie?",
+      "options": [
+        "1. Kontrollphase, 2. Aufziehphase, 3. Beschleunigungsphase",
+        "1. Aufziehphase, 2. Anbremsphase, 3. Beschleunigungsphase",
+        "1. Aufziehphase, 2. Kontroll-/Korrekturphase, 3. Anbremsphase",
+        "1. Aufziehphase, 2. Kontroll-/Korrekturphase, 3. Beschleunigungsphase"
+      ],
+      "correct": 3
+    },
+    "Flugpraxis_31": {
+      "qid": 31,
+      "topic": "Flugpraxis",
+      "pos": 145,
+      "total_in_topic": 169,
+      "text": "Was ist das Schlimmste, das passieren kann, wenn ein Pilot vor dem Start vergisst, die Beinschlaufen zu schliessen?",
+      "options": [
+        "Er kann sich nicht bequem ins Gurtzeug setzen.",
+        "Er muss nach dem Start die Bremsen loslassen, um sich ins Gurtzeug zu setzen.",
+        "Er kann aus dem Gurtzeug rutschen und zu Tode stürzen.",
+        "Der Gleitschirm lässt sich nicht mit Gewichtsverlagerung steuern."
+      ],
+      "correct": 2
+    },
+    "Flugpraxis_12": {
+      "qid": 12,
+      "topic": "Flugpraxis",
+      "pos": 146,
+      "total_in_topic": 169,
+      "text": "Lugano meldet einen QNH von 1'015, Zürich-Kloten einen QNH von 1'007. Was heisst das?",
+      "options": [
+        "Da Zürich-Kloten höher liegt als Lugano, ist auch der Druck etwas tiefer. Auf Meereshöhe umgerechnet ist der Druck über den Alpen flach, der Wind entsprechend schwach.",
+        "Das Druckgefälle zwischen Zürich und Lugano erzeugt über den Alpen eine starke Nordströmung mit Staubewölkung auf der Alpennord- und Nordföhn auf der Alpensüdseite.",
+        "Das Druckgefälle zwischen Lugano und Zürich erzeugt über den Alpen eine starke Südströmung mit Staubewölkung auf der Alpensüd- und Südföhn auf der Alpennordseite.",
+        "In Zürich-Kloten liegt kältere Luft von grösserer Dichte als in Lugano. Gute thermische Aufwinde sind für diesen Tag vor allem auf der Alpennordseite zu erwarten."
+      ],
+      "correct": 2
+    },
+    "Flugpraxis_106": {
+      "qid": 106,
+      "topic": "Flugpraxis",
+      "pos": 148,
+      "total_in_topic": 169,
+      "text": "Wie heisst der mit (1) gekennzeichnete Bestandteil des Landeanflugs?",
+      "options": [
+        "Höhenabbauraum",
+        "Gegenanflug",
+        "Queranflug",
+        "Endanflug"
+      ],
+      "correct": 0
+    },
+    "Flugpraxis_36": {
+      "qid": 36,
+      "topic": "Flugpraxis",
+      "pos": 149,
+      "total_in_topic": 169,
+      "text": "In welcher Phase sollte ein kontrollierter Startabbruch spätestens vorgenommen werden?",
+      "options": [
+        "In der Kontroll-/Korrekturphase",
+        "In keiner Phase",
+        "In der Beschleunigungsphase",
+        "In der Aufziehphase"
+      ],
+      "correct": 0
+    },
+    "Flugpraxis_130": {
+      "qid": 130,
+      "topic": "Flugpraxis",
+      "pos": 150,
+      "total_in_topic": 169,
+      "text": "Bei einer Landung an einem steilen Hang verläuft der Endanflug",
+      "options": [
+        "gegen den Wind.",
+        "hangabwärts.",
+        "hangaufwärts.",
+        "parallel zum Hang."
+      ],
+      "correct": 3
+    },
+    "Flugpraxis_115": {
+      "qid": 115,
+      "topic": "Flugpraxis",
+      "pos": 151,
+      "total_in_topic": 169,
+      "text": "Die folgenden vier Skizzen zeigen einen Standardlandeanflug bei Windstille (gestrichelt) und eine in der Praxis den Umständen angepasste Landevolte (ausgezogen). Welche Art des Anflugs ist bei einem Wind von 10 - 15 km/h zu wählen? 1",
+      "options": [
+        "3",
+        "2",
+        "1",
+        "4"
+      ],
+      "correct": 2
     }
   },
   "topics": {
