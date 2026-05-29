@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-05-29T09:25:44.873Z",
+  "fetchedAt": "2026-05-29T09:26:16.174Z",
   "questions": {
     "Fluglehre_152": {
       "qid": 152,
@@ -2356,16 +2356,16 @@
     "Wetterkunde_32": {
       "qid": 32,
       "topic": "Wetterkunde",
-      "pos": 24,
+      "pos": 57,
       "total_in_topic": 164,
-      "text": "Wetterkunde von 64 Welche der folgenden nachts um 02.00 Uhr mittels Radiosonde gemessenen Angaben lassen auf eine Isothermie schliessen? 421",
+      "text": "Welche der folgenden nachts um 0.00 Uhr mittels Radiosonde gemessenen Angaben lassen auf eine Isothermie schliessen? 412",
       "options": [
-        "4",
         "3",
-        "2",
-        "1"
+        "4",
+        "1",
+        "2"
       ],
-      "correct": 0
+      "correct": null
     },
     "Wetterkunde_123": {
       "qid": 123,
@@ -2496,16 +2496,16 @@
     "Wetterkunde_121": {
       "qid": 121,
       "topic": "Wetterkunde",
-      "pos": 35,
+      "pos": 52,
       "total_in_topic": 164,
       "text": "Was stellt die nachfolgende Skizze dar?",
       "options": [
-        "Eine Okklusion mit Warmfrontcharakter",
+        "Eine Okklusion mit Kaltfrontcharakter",
         "Eine Kaltfront",
-        "Eine Warmfront",
-        "Eine Okklusion mit Kaltfrontcharakter"
+        "Eine Okklusion mit Warmfrontcharakter",
+        "Eine Warmfront"
       ],
-      "correct": 3
+      "correct": null
     },
     "Wetterkunde_102": {
       "qid": 102,
@@ -2608,16 +2608,16 @@
     "Wetterkunde_106": {
       "qid": 106,
       "topic": "Wetterkunde",
-      "pos": 45,
+      "pos": 59,
       "total_in_topic": 164,
       "text": "Der Begriff \"Front\" bezeichnet in der Meteorologie",
       "options": [
+        "die Trennfläche zweier verschiedener Luftmassen.",
         "eine Niederschlagszone mit erhöhter Windgeschwindigkeit.",
         "die Trennlinie zweier verschiedener Luftmassen auf Meereshöhe.",
-        "eine Aneinanderreihung von Niederschlagsgebieten.",
-        "die Trennfläche zweier verschiedener Luftmassen."
+        "eine Aneinanderreihung von Niederschlagsgebieten."
       ],
-      "correct": 3
+      "correct": null
     },
     "Wetterkunde_133": {
       "qid": 133,
@@ -8652,6 +8652,118 @@
         "eine grosse Stabilität der Schichtung im unteren Bereich der Troposphäre."
       ],
       "correct": 2
+    },
+    "Wetterkunde_104": {
+      "qid": 104,
+      "topic": "Wetterkunde",
+      "pos": 48,
+      "total_in_topic": 164,
+      "text": "Was versteht man in der Meteorologie unter Luftmasse?",
+      "options": [
+        "Ort mit hoher Luftkonzentration im Zentrum des Hochs.",
+        "Die spez. Masse pro m³ bei 15°C am Äquator auf Meereshöhe.",
+        "Ein Luftvolumen mit einheitlichen Merkmalen.",
+        "Teil der Atmosphäre mit gleicher Luftdichte."
+      ],
+      "correct": 2
+    },
+    "Wetterkunde_153": {
+      "qid": 153,
+      "topic": "Wetterkunde",
+      "pos": 49,
+      "total_in_topic": 164,
+      "text": "Wie ist die Windrichtung in Athen?",
+      "options": [
+        "310°",
+        "190°",
+        "270°",
+        "130°"
+      ],
+      "correct": 3
+    },
+    "Wetterkunde_141": {
+      "qid": 141,
+      "topic": "Wetterkunde",
+      "pos": 50,
+      "total_in_topic": 164,
+      "text": "Dieses Symbol bedeutet auf der Wetterkarte",
+      "options": [
+        "eine Okklusion",
+        "eine Warmfront",
+        "eine Isobare",
+        "eine Kaltfront"
+      ],
+      "correct": 3
+    },
+    "Wetterkunde_15": {
+      "qid": 15,
+      "topic": "Wetterkunde",
+      "pos": 53,
+      "total_in_topic": 164,
+      "text": "Auf gleicher Höhe über Meer ist",
+      "options": [
+        "warme Luft dichter als kalte Luft.",
+        "warme Luft weniger dicht als kalte Luft.",
+        "warme Luft gleich dicht wie kalte Luft.",
+        "die Luftdichte abhängig vom adiabatischen Gradienten."
+      ],
+      "correct": 1
+    },
+    "Wetterkunde_84": {
+      "qid": 84,
+      "topic": "Wetterkunde",
+      "pos": 54,
+      "total_in_topic": 164,
+      "text": "Der Bergwind weht",
+      "options": [
+        "tagsüber und bergwärts.",
+        "tagsüber und talwärts.",
+        "nachts und bergwärts.",
+        "nachts und talwärts."
+      ],
+      "correct": 3
+    },
+    "Wetterkunde_156": {
+      "qid": 156,
+      "topic": "Wetterkunde",
+      "pos": 56,
+      "total_in_topic": 164,
+      "text": "Welche der folgenden Städte befinden sich im Warmsektor?",
+      "options": [
+        "Zürich und Stockholm",
+        "Lulea und St.Petersburg",
+        "Paris und London",
+        "Lissabon und Athen"
+      ],
+      "correct": 0
+    },
+    "Wetterkunde_64": {
+      "qid": 64,
+      "topic": "Wetterkunde",
+      "pos": 58,
+      "total_in_topic": 164,
+      "text": "Ein hoher Luftdruck kann über einem Gebiet entstehen,",
+      "options": [
+        "welches über längere Zeit wärmer ist als seine Umgebung.",
+        "welches über längere Zeit von der Sonne intensiver beschienen wird als seine Umgebung.",
+        "welches über längere Zeit kälter ist als seine Umgebung.",
+        "welches über längere Zeit trockener ist als seine Umgebung."
+      ],
+      "correct": 2
+    },
+    "Wetterkunde_47": {
+      "qid": 47,
+      "topic": "Wetterkunde",
+      "pos": 60,
+      "total_in_topic": 164,
+      "text": "Wolken entstehen,",
+      "options": [
+        "nur in der Nähe von Tiefdruckgebieten.",
+        "wenn die Luft, meist durch Hebung, bis zum Erreichen des Taupunkts abgekühlt wird.",
+        "wenn die Temperatur steigt und die Verdunstung zunimmt.",
+        "immer wenn ein aufsteigendes Luftpaket auf eine Inversion trifft."
+      ],
+      "correct": 1
     }
   },
   "topics": {
