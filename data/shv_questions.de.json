@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-05-29T09:10:13.377Z",
+  "fetchedAt": "2026-05-29T09:10:44.992Z",
   "questions": {
     "Fluglehre_152": {
       "qid": 152,
@@ -6214,6 +6214,132 @@
         "Das Gerät ist einfacher zu warten, da defekte Leinen ohne grossen Aufwand ersetzt werden können.",
         "Keinen, es handelt sich um eine rein optische Massnahme.",
         "Die geschlaufte Verbindung hält besser, da die Leine nicht durch eine Naht geschwächt wird."
+      ],
+      "correct": 1
+    },
+    "Materialkunde_2": {
+      "qid": 2,
+      "topic": "Materialkunde",
+      "pos": 101,
+      "total_in_topic": 125,
+      "text": "Der Begriff Ripstop-Gewebe bezeichnet",
+      "options": [
+        "die Webtechnik, bei der in regelmässigen Abständen in Kette- und Schussrichtung ein festerer Faden eingewoben wird, um ein eventuelles Einreissen zu stoppen.",
+        "die an stark belasteten Stellen der Kalotte angebrachten Verstärkungen, welche diese vor Ein- und Weiterreissen schützen.",
+        "eine spezielle Beschichtung, welche die Elastizität der Grundstruktur eines Gewebes erhöht und damit dessen Ein- und Weiterreissfestigkeit verbessert.",
+        "die Reissbarrieren, welche verhindern, dass eine Beschädigung von einem Bauteil des Schirms auf den nächsten übergreift."
+      ],
+      "correct": 0
+    },
+    "Materialkunde_21": {
+      "qid": 21,
+      "topic": "Materialkunde",
+      "pos": 102,
+      "total_in_topic": 125,
+      "text": "Die Belastung der Zellwände ist am grössten im Bereich",
+      "options": [
+        "zwischen den Leinenbefestigungspunkten der vorderen Flügelhälfte.",
+        "der Leinenbefestigungspunkte der hinteren Flügelhälfte.",
+        "zwischen den Leinenbefestigungspunkten der hinteren Flügelhälfte.",
+        "der Leinenbefestigungspunkte der vorderen Flügelhälfte."
+      ],
+      "correct": 3
+    },
+    "Materialkunde_113": {
+      "qid": 113,
+      "topic": "Materialkunde",
+      "pos": 103,
+      "total_in_topic": 125,
+      "text": "Welcher der folgenden Befestigungsorte der Messsonde eines Geschwindigkeitsmesser wird die zuverlässigste Messung gewährleisten?",
+      "options": [
+        "Der Oberschenkel des Piloten.",
+        "Ein Meter unterhalb des Pilotenfusses.",
+        "Die A-Leinen auf halber Höhe zwischen dem Piloten und der Kalotte.",
+        "Der vordere Traggurt."
+      ],
+      "correct": 1
+    },
+    "Materialkunde_24": {
+      "qid": 24,
+      "topic": "Materialkunde",
+      "pos": 104,
+      "total_in_topic": 125,
+      "text": "Zu welchem Zweck werden diagonale V-Rippen oder Zellwände in die Gleitschirmkalotte eingebaut?",
+      "options": [
+        "Sie sorgen insbesondere für eine sanfte, kontinuierliche Wiederöffnung der Kalotte nach einem grossen Einklapper.",
+        "Sie gestatten es insbesondere, die Zugkräfte des Obersegels auf weniger Leinen zu übertragen, um den Luftwiderstand klein zu halten.",
+        "Sie verhindern insbesondere eine bleibende Verformung der Kalotte als Folge des sich kriechend dehnenden Tuchs.",
+        "Sie sollen insbesondere ein schnelles Entweichen der Luft aus einzelnen Kalottenpartien und damit Einklapper verhindern."
+      ],
+      "correct": 1
+    },
+    "Materialkunde_32": {
+      "qid": 32,
+      "topic": "Materialkunde",
+      "pos": 105,
+      "total_in_topic": 125,
+      "text": "Welches ist an einem modernen Gleitschirm die tolerierbare Dehnung einer Leine von 6 m Länge bei einer Belastung von 50 N (5 kg)?",
+      "options": [
+        "9 cm",
+        "Keine, die Leinen moderner Gleitschirme sind aus dehnungsfreien Materialien zu fertigen.",
+        "3 cm",
+        "6 cm"
+      ],
+      "correct": 2
+    },
+    "Materialkunde_86": {
+      "qid": 86,
+      "topic": "Materialkunde",
+      "pos": 106,
+      "total_in_topic": 125,
+      "text": "Ein Gurtzeug mit eingebautem Rückenschutz",
+      "options": [
+        "sollte nur benutzt werden, wenn der Pilot dies für eine unabdingbare Notwendigkeit hält, weil er Mühe beim Starten und Landen bekundet.",
+        "verbessert die passive Sicherheit, darf aber keinesfalls dazu verleiten, bei Start, Landeanflug und Landung die diesbezüglichen Grundregeln zu missachten.",
+        "ist obligatorisch für alle Teilnehmer der Pilotenprüfungen.",
+        "ist obligatorisch für die Teilnehmer der vom SHV organisierten Wettkämpfe."
+      ],
+      "correct": 1
+    },
+    "Materialkunde_10": {
+      "qid": 10,
+      "topic": "Materialkunde",
+      "pos": 107,
+      "total_in_topic": 125,
+      "text": "Durch das Beschichten der bei der Gleitschirmkonstruktion verwendeten Tücher wird",
+      "options": [
+        "deren Elastizität vergrössert.",
+        "deren Porosität vergrössert.",
+        "deren UV-Empfindlichkeit vergrössert.",
+        "deren mechanische Belastbarkeit verbessert."
+      ],
+      "correct": 3
+    },
+    "Materialkunde_102": {
+      "qid": 102,
+      "topic": "Materialkunde",
+      "pos": 108,
+      "total_in_topic": 125,
+      "text": "Rettungsschirme müssen im Gütesiegelverfahren einen Sinkwert von < 5.5m erreichen. In der Praxis",
+      "options": [
+        "spielen Testwerte keine Rolle.",
+        "hat sich dieser Wert bestätigt.",
+        "wird dieser Wert problemlos eingehalten.",
+        "muss oft mit einem deutlich höheren Sinkwert gerechnet werden."
+      ],
+      "correct": 3
+    },
+    "Materialkunde_97": {
+      "qid": 97,
+      "topic": "Materialkunde",
+      "pos": 109,
+      "total_in_topic": 125,
+      "text": "Aus welchem Material bestehen die Leinen der gängigen Rettungsschirme?",
+      "options": [
+        "Polyvinylchlorid (PVC)",
+        "Polyamid (Nylon)",
+        "Aramid (Kevlar)",
+        "Polyethylen (Dyneema)"
       ],
       "correct": 1
     }
