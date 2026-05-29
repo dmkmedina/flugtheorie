@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-05-29T09:06:35.838Z",
+  "fetchedAt": "2026-05-29T09:07:05.968Z",
   "questions": {
     "Fluglehre_152": {
       "qid": 152,
@@ -5390,6 +5390,104 @@
         "SHV (Schweizerischer Hängegleiter-Verband"
       ],
       "correct": 0
+    },
+    "Materialkunde_84": {
+      "qid": 84,
+      "topic": "Materialkunde",
+      "pos": 31,
+      "total_in_topic": 125,
+      "text": "Ist ein Gurtzeug so konstruiert beziehungsweise eingestellt, dass der Pilot in liegender Position fliegt, so hat dies insbesondere den Vorteil, dass sich dadurch",
+      "options": [
+        "die Gefahr des Twistens im Fall einer unkontrollierten Fluglage vermindert.",
+        "das Gerät einfacher starten lässt.",
+        "das Gerät leichter mittels Gewichtsverlagerung steuern lässt.",
+        "der Luftwiderstand vermindert und die Gleitleistung verbessert."
+      ],
+      "correct": 3
+    },
+    "Materialkunde_11": {
+      "qid": 11,
+      "topic": "Materialkunde",
+      "pos": 33,
+      "total_in_topic": 125,
+      "text": "Welchen Einfluss hat eine abgenützte, beschädigte oder ungenügende Beschichtung des Tuchs auf das Flugverhalten eines Gleitschirms?",
+      "options": [
+        "Der Strömungsabriss erfolgt bei einer höheren Geschwindigkeit und das Gerät neigt zum Sackflug.",
+        "Der gesamte Geschwindigkeitsbereich des Geräts vermindert sich und die Polare wird flacher.",
+        "Der gesamte Geschwindigkeitsbereich des Geräts erhöht sich und die Einklapptendenz nimmt zu.",
+        "Das Gerät ist schwer steuerbar und neigt zur Labilität um die Längsachse."
+      ],
+      "correct": 0
+    },
+    "Materialkunde_66": {
+      "qid": 66,
+      "topic": "Materialkunde",
+      "pos": 34,
+      "total_in_topic": 125,
+      "text": "Wie funktioniert das Fussbeschleunigungssystem eines Seriengeräts in der Regel?",
+      "options": [
+        "Mittels eines mit den D-Leinen verbundenen Fussstreckers kann die Länge des D-Traggurtes variiert und dadurch sowohl Anstellwinkel wie Geschwindigkeit verändert werden.",
+        "Durch das Strecken der Beine wird der Schwerpunkt des Körpers nach vorne verlagert, was eine Anstellwinkelverkleinerung und damit eine Beschleunigung zur Folge hat.",
+        "Mittels eines mit den A-Leinen verbundenen Fussstreckers können die vordersten Leinen nach unten gezogen werden, wodurch der Anstellwinkel verkleinert und das Gerät beschleunigt wird.",
+        "Mittels eines mit den A- und B-Leinen verbundenen Fussstreckers kann die Länge der A- und B-Gurten variiert und dadurch sowohl Anstellwinkel wie Geschwindigkeit verändert werden."
+      ],
+      "correct": 3
+    },
+    "Materialkunde_62": {
+      "qid": 62,
+      "topic": "Materialkunde",
+      "pos": 35,
+      "total_in_topic": 125,
+      "text": "Die Verbindungsteile zwischen Leinen und Traggurten heissen",
+      "options": [
+        "Leinenkauschen.",
+        "Gurtenkauschen.",
+        "Leinenschlösser.",
+        "Gurtenschlösser."
+      ],
+      "correct": 2
+    },
+    "Materialkunde_16": {
+      "qid": 16,
+      "topic": "Materialkunde",
+      "pos": 37,
+      "total_in_topic": 125,
+      "text": "Die Qualität der Beschichtung wird wesentlich in Mitleidenschaft gezogen durch",
+      "options": [
+        "konsequentes Lagern des Geräts an einem hellen, von der Sonne optimal angestrahlten Platz.",
+        "Reinigung des Geräts mit kaltem Wasser.",
+        "Lagern des Geräts in möglichst trockenem Zustand in einem kühlen Raum.",
+        "das Fliegen von extremen Flugmanövern und den daraus resultierenden Einklappern."
+      ],
+      "correct": 0
+    },
+    "Materialkunde_90": {
+      "qid": 90,
+      "topic": "Materialkunde",
+      "pos": 38,
+      "total_in_topic": 125,
+      "text": "Eine Flächenbelastung von 3,5 daN/m² (3,5 kg/m²) ist im Gleitschirmbereich an modernen Intermediate-Schirmen (bezogen auf die ausgelegte Fläche):",
+      "options": [
+        "entschieden zu tief.",
+        "am oberen Limit.",
+        "normal.",
+        "am unteren Limit."
+      ],
+      "correct": 2
+    },
+    "Materialkunde_58": {
+      "qid": 58,
+      "topic": "Materialkunde",
+      "pos": 39,
+      "total_in_topic": 125,
+      "text": "Ein Pilot stellt nach 200 Flügen mit seinem Gerät fest, dass das Tuch neuerdings zwischen B- und C-Leinen über die ganze Spannweite hinweg Falten wirft.",
+      "options": [
+        "Er muss die B- und C-Leinen etwas verkürzen.",
+        "Er muss das Gerät ersetzen, da das Material zu stark ermüdet ist.",
+        "Er muss die A- und B-Leinen etwas verkürzen.",
+        "Er muss das Gerät beim Hersteller oder dessen Vertreter überprüfen und neu trimmen lassen."
+      ],
+      "correct": 3
     }
   },
   "topics": {
