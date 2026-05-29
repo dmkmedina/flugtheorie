@@ -105,6 +105,128 @@ const PART_TO_CATEGORY = {
   part5: 'Flight Practice'
 };
 
+// ============================================================================
+// i18n — UI strings. The data layer (questions, enrichments, workbook) carries
+// its own German copies; this dictionary is for chrome (nav, headers, labels,
+// buttons) that's not embedded in any data file.
+// ============================================================================
+const STRINGS = {
+  en: {
+    'nav.dashboard': 'Dashboard',
+    'nav.workbook': 'Workbook',
+    'nav.shv-exam': 'SHV Practice',
+    'nav.shv-browse': 'SHV Browse',
+    'nav.guide': 'Study Guide (EN)',
+    'nav.slides': 'Slide Decks',
+    'nav.videos': 'Videos (EN subs)',
+    'nav.cheatsheet': 'Cheat Sheet',
+    'nav.tips': 'Tips',
+    'nav.legacy': 'Legacy',
+    'nav.flashcards': 'Flashcards',
+    'nav.quiz': 'Quiz',
+    'nav.exam': 'Mock Exam',
+    'sidebar.study': 'Study',
+
+    'page.dashboard.h1': 'Welcome to Flugtheorie 🪂',
+    'page.shv-exam.h1': '🎯 SHV Practice Exam',
+    'page.shv-browse.h1': '🗂️ SHV Browse',
+    'page.workbook.h1': 'Workbook',
+    'page.slides.h1': 'Slide Decks',
+    'page.videos.h1': 'Video lessons',
+    'page.cheatsheet.h1': 'Cheat Sheet',
+    'page.tips.h1': 'Exam Tips & Strategy',
+
+    'enrich.why': '💡 Why',
+    'enrich.diagrams': '📐 Diagrams',
+    'enrich.listen': '📺 Listen to the instructor',
+    'enrich.slides': '🎬 Slides',
+    'enrich.readmore': '📖 Read more',
+
+    'shv.pickTopic': 'Pick a topic.',
+    'shv.searchPlaceholder': 'Search {topic} questions and answers…',
+    'shv.correctAnswer': 'Correct answer',
+    'shv.referenceFigure': 'Reference figure',
+    'shv.expandAll': 'Expand all subtopics',
+    'shv.collapseAll': 'Collapse all',
+
+    'btn.start': 'Start',
+    'btn.cancel': 'Cancel',
+    'btn.next': 'Next',
+    'btn.previous': 'Previous',
+    'btn.finish': 'Finish',
+    'btn.continue': 'Continue',
+    'btn.review': 'Review',
+    'btn.retry': 'Try again',
+    'btn.close': 'Close',
+
+    'lang.toggle.de': '🇩🇪 Deutsch',
+    'lang.toggle.en': '🇬🇧 English',
+    'theme.auto': '🖥 Auto theme',
+    'theme.light': '☀️ Light',
+    'theme.dark': '🌙 Dark',
+  },
+  de: {
+    'nav.dashboard': 'Übersicht',
+    'nav.workbook': 'Arbeitsbuch',
+    'nav.shv-exam': 'SHV-Prüfung',
+    'nav.shv-browse': 'SHV-Übersicht',
+    'nav.guide': 'Lernführer (EN)',
+    'nav.slides': 'Folien',
+    'nav.videos': 'Videos (DE-Untertitel)',
+    'nav.cheatsheet': 'Spickzettel',
+    'nav.tips': 'Tipps',
+    'nav.legacy': 'Archiv',
+    'nav.flashcards': 'Lernkarten',
+    'nav.quiz': 'Quiz',
+    'nav.exam': 'Probeprüfung',
+    'sidebar.study': 'Lernen',
+
+    'page.dashboard.h1': 'Willkommen bei Flugtheorie 🪂',
+    'page.shv-exam.h1': '🎯 SHV-Übungsprüfung',
+    'page.shv-browse.h1': '🗂️ SHV-Übersicht',
+    'page.workbook.h1': 'Arbeitsbuch',
+    'page.slides.h1': 'Folien',
+    'page.videos.h1': 'Videolektionen',
+    'page.cheatsheet.h1': 'Spickzettel',
+    'page.tips.h1': 'Prüfungstipps & Strategie',
+
+    'enrich.why': '💡 Warum',
+    'enrich.diagrams': '📐 Diagramme',
+    'enrich.listen': '📺 Hör dem Instruktor zu',
+    'enrich.slides': '🎬 Folien',
+    'enrich.readmore': '📖 Mehr dazu',
+
+    'shv.pickTopic': 'Wähle ein Fachgebiet.',
+    'shv.searchPlaceholder': '{topic} – Fragen und Antworten durchsuchen…',
+    'shv.correctAnswer': 'Richtige Antwort',
+    'shv.referenceFigure': 'Bezugsabbildung',
+    'shv.expandAll': 'Alle Unterthemen ausklappen',
+    'shv.collapseAll': 'Alle einklappen',
+
+    'btn.start': 'Starten',
+    'btn.cancel': 'Abbrechen',
+    'btn.next': 'Weiter',
+    'btn.previous': 'Zurück',
+    'btn.finish': 'Beenden',
+    'btn.continue': 'Weiter',
+    'btn.review': 'Überprüfen',
+    'btn.retry': 'Nochmals versuchen',
+    'btn.close': 'Schliessen',
+
+    'lang.toggle.de': '🇩🇪 Deutsch',
+    'lang.toggle.en': '🇬🇧 English',
+    'theme.auto': '🖥 Auto-Design',
+    'theme.light': '☀️ Hell',
+    'theme.dark': '🌙 Dunkel',
+  },
+};
+function t(key, vars) {
+  const lang = (typeof state !== 'undefined' && state && state.lang) || 'en';
+  let s = (STRINGS[lang] && STRINGS[lang][key]) || (STRINGS.en && STRINGS.en[key]) || key;
+  if (vars) for (const k of Object.keys(vars)) s = s.replace('{' + k + '}', vars[k]);
+  return s;
+}
+
 function getCards() { return window.CARDS || []; }
 function getSHVQuestions() {
   if (state.lang === 'de' && window.SHV_QUESTIONS_DE && window.SHV_QUESTIONS_DE.questions) {
@@ -509,7 +631,7 @@ function renderDashboard() {
 
   return `
     <div class="page-header">
-      <h1>Welcome to Flugtheorie 🪂</h1>
+      <h1>${t('page.dashboard.h1')}</h1>
       <p class="page-subtitle">Study tools for the Swiss SHV/FSVL paragliding theory exam — currently rendering ${langLine}. Toggle 🇬🇧/🇩🇪 in the sidebar footer.</p>
     </div>
     ${shvTotal > 0 ? `
@@ -1310,14 +1432,18 @@ function attachExamEvents() {
 let _shvExamTimer = null;
 
 const SHV_TOPIC_META = {
-  'Aerodynamics':    { color: '#a855f7', icon: '📐' },
-  'Meteo':           { color: '#06b6d4', icon: '🌦️' },
-  'Meteorology':     { color: '#06b6d4', icon: '🌦️' },
-  'Material':        { color: '#f59e0b', icon: '🪂' },
-  'Materials':       { color: '#f59e0b', icon: '🪂' },
-  'Air Law':         { color: '#3b82f6', icon: '⚖️' },
-  'Airlaw':          { color: '#3b82f6', icon: '⚖️' },
-  'Flight Practice': { color: '#10b981', icon: '🛫' },
+  // English topic names (as scraped from the SHV elearning UI in EN mode)
+  'Aerodynamics':     { color: '#a855f7', icon: '📐' },
+  'Weather':          { color: '#06b6d4', icon: '⛅' },
+  'Legislation':      { color: '#3b82f6', icon: '⚖️' },
+  'Materials':        { color: '#f59e0b', icon: '🪂' },
+  'Practical Flying': { color: '#10b981', icon: '🛫' },
+  // German topic names (DE mode) — same colors + icons.
+  'Fluglehre':        { color: '#a855f7', icon: '📐' },
+  'Wetterkunde':      { color: '#06b6d4', icon: '⛅' },
+  'Gesetzgebung':     { color: '#3b82f6', icon: '⚖️' },
+  'Materialkunde':    { color: '#f59e0b', icon: '🪂' },
+  'Flugpraxis':       { color: '#10b981', icon: '🛫' },
 };
 function shvTopicMeta(t) {
   return SHV_TOPIC_META[t] || { color: '#64748b', icon: '🎯' };
@@ -1492,7 +1618,7 @@ function renderSHVExamSetup() {
 
   return `
     <div class="page-header">
-      <h1>🎯 SHV Practice Exam</h1>
+      <h1>${t('page.shv-exam.h1')}</h1>
       <p class="page-subtitle">Drawn from the official SHV elearning question pool · ${totalQuestions} questions across ${topics.length} topic${topics.length === 1 ? '' : 's'}.</p>
     </div>
     <div class="card elevated">
@@ -1560,7 +1686,7 @@ function renderShvEnrichmentPanel(qid, q) {
   // Explanation block
   const explanationHtml = e.explanation ? `
     <div class="shv-enrichment-section">
-      <div class="shv-enrichment-section-title">💡 Why</div>
+      <div class="shv-enrichment-section-title">${t('enrich.why')}</div>
       <div class="shv-enrichment-text">${escapeHtml(e.explanation)}</div>
     </div>
   ` : '';
@@ -1594,7 +1720,7 @@ function renderShvEnrichmentPanel(qid, q) {
   // Diagrams — render the SVGs inline (they're tiny)
   const diagramsHtml = (e.diagrams && e.diagrams.length)
     ? `<div class="shv-enrichment-section">
-        <div class="shv-enrichment-section-title">📐 Diagrams</div>
+        <div class="shv-enrichment-section-title">${t('enrich.diagrams')}</div>
         <div class="shv-enrichment-diagrams">
           ${e.diagrams.map(d => {
             const dd = allDiagrams.find(x => x.id === d.id);
@@ -1610,7 +1736,7 @@ function renderShvEnrichmentPanel(qid, q) {
   // Video clips with click-to-play
   const videoHtml = (e.video_clips && e.video_clips.length)
     ? `<div class="shv-enrichment-section">
-        <div class="shv-enrichment-section-title">📺 Listen to the instructor</div>
+        <div class="shv-enrichment-section-title">${t('enrich.listen')}</div>
         ${e.video_clips.map(vc => {
           const v = getVideoById(vc.video_id);
           if (!v) return '';
@@ -1624,7 +1750,7 @@ function renderShvEnrichmentPanel(qid, q) {
   // Slide pages
   const slidesHtml = (e.slide_pages && e.slide_pages.length)
     ? `<div class="shv-enrichment-section">
-        <div class="shv-enrichment-section-title">🎬 Slides</div>
+        <div class="shv-enrichment-section-title">${t('enrich.slides')}</div>
         <div class="shv-enrichment-slides">
           ${e.slide_pages.map(sp => {
             const deck = decks.find(d => d.id === sp.deck_id);
@@ -1639,7 +1765,7 @@ function renderShvEnrichmentPanel(qid, q) {
 
   const chipsHtml = (guideHtml || workbookHtml) ? `
     <div class="shv-enrichment-section">
-      <div class="shv-enrichment-section-title">📖 Read more</div>
+      <div class="shv-enrichment-section-title">${t('enrich.readmore')}</div>
       <div class="shv-enrichment-chips">${guideHtml}${workbookHtml}</div>
     </div>
   ` : '';
@@ -1889,7 +2015,7 @@ function renderSHVBrowse() {
     </div>`;
 
   if (!cur || !byTopic[cur]) {
-    return `<div class="page-header"><h1>🗂️ SHV Browse</h1></div>${tabsHtml}<div class="empty">Pick a topic.</div>`;
+    return `<div class="page-header"><h1>${t('page.shv-browse.h1')}</h1></div>${tabsHtml}<div class="empty">${t('shv.pickTopic')}</div>`;
   }
 
   const meta = shvTopicMeta(cur);
@@ -1940,14 +2066,14 @@ function renderSHVBrowse() {
 
   return `
     <div class="page-header">
-      <h1>🗂️ SHV Browse</h1>
+      <h1>${t('page.shv-browse.h1')}</h1>
       <p class="page-subtitle">All ${total} scraped questions, grouped by topic and subtopic — expand to see content, answer, and references inline.</p>
     </div>
     ${tabsHtml}
     <div class="shv-browse-toolbar">
-      <input class="search-input" id="shv-browse-q" type="search" placeholder="Search ${escapeHtml(cur)} questions and answers…" value="${escapeHtml(state.shvBrowse.query || '')}" />
-      <button class="btn small" id="shv-browse-expand-all">Expand all subtopics</button>
-      <button class="btn small ghost" id="shv-browse-collapse-all">Collapse all</button>
+      <input class="search-input" id="shv-browse-q" type="search" placeholder="${escapeHtml(t('shv.searchPlaceholder', {topic: cur}))}" value="${escapeHtml(state.shvBrowse.query || '')}" />
+      <button class="btn small" id="shv-browse-expand-all">${t('shv.expandAll')}</button>
+      <button class="btn small ghost" id="shv-browse-collapse-all">${t('shv.collapseAll')}</button>
     </div>
     <div class="shv-browse-topic-header">
       <div><span class="cat-dot" style="background:${meta.color}"></span>${meta.icon} <strong>${escapeHtml(cur)}</strong>
@@ -2406,7 +2532,7 @@ function renderWorkbookOverview(books, book) {
 
   return `
     <div class="page-header">
-      <h1>Workbook</h1>
+      <h1>${t('page.workbook.h1')}</h1>
       <p class="page-subtitle">Guided study paths — read, look, then test yourself. ${getWorkbook().length} books · ${getWorkbook().reduce((a, b) => a + b.chapters.length, 0)} chapters.</p>
     </div>
     <div class="subtabs">${bookTabs}</div>
@@ -2740,7 +2866,7 @@ function renderSlides() {
 
   return `
     <div class="page-header">
-      <h1>Slide Decks</h1>
+      <h1>${t('page.slides.h1')}</h1>
       <p class="page-subtitle">Freewings video-course slides — ${totalSlides} slides across ${decks.length} decks. EN/DE side-by-side · click any to expand.</p>
     </div>
     ${tabsHtml}
@@ -2950,7 +3076,7 @@ function renderVideos() {
 
   return `
     <div class="page-header">
-      <h1>Video lessons</h1>
+      <h1>${t('page.videos.h1')}</h1>
       <p class="page-subtitle">${total} videos from <strong>Free Wings</strong> (${fwCount}) and <strong>Air Active</strong> (${aaCount}) academies · ${withDe} German transcripts · ${withSubs} English subtitle tracks. Player auto-selects English subs; toggle the language with the buttons below the video.</p>
     </div>
     ${tabsHtml}
@@ -3351,7 +3477,7 @@ function renderCheatsheet() {
 
   return `
     <div class="page-header">
-      <h1>Cheat Sheet</h1>
+      <h1>${t('page.cheatsheet.h1')}</h1>
       <p class="page-subtitle">Must-memorize facts in one place. Print-friendly · use on test day morning.</p>
     </div>
     <div class="cheat-grid">
@@ -3375,7 +3501,7 @@ function renderCheatsheet() {
 function renderTips() {
   return `
     <div class="page-header">
-      <h1>Exam Tips & Strategy</h1>
+      <h1>${t('page.tips.h1')}</h1>
       <p class="page-subtitle">Research-backed advice for the SHV/FSVL theory exam.</p>
     </div>
     <div class="tips-content">
@@ -3392,22 +3518,22 @@ function render() {
   // sidebar
   const sb = document.getElementById('sidebar-nav');
   const navItems = [
-    { id: 'dashboard',  icon: '📊', label: 'Dashboard' },
-    { id: 'workbook',   icon: '📒', label: 'Workbook', badge: getWorkbook().reduce((a, b) => a + b.chapters.length, 0) || null },
-    { id: 'shv-exam',   icon: '🎯', label: 'SHV Practice', badge: Object.keys(getSHVQuestions() || {}).length || null },
-    { id: 'shv-browse', icon: '🗂️', label: 'SHV Browse', badge: Object.keys(getSHVQuestions() || {}).length || null },
-    { id: 'guide',      icon: '📚', label: 'Study Guide (EN)' },
-    { id: 'slides',     icon: '🎬', label: 'Slide Decks', badge: getDecks().reduce((a, d) => a + deckSlideCount(d), 0) || null },
-    { id: 'videos',     icon: '📺', label: 'Videos (EN subs)', badge: getAllVideos().length || null },
-    { id: 'cheatsheet', icon: '⚡', label: 'Cheat Sheet' },
-    { id: 'tips',       icon: '💡', label: 'Tips' }
+    { id: 'dashboard',  icon: '📊', label: t('nav.dashboard') },
+    { id: 'workbook',   icon: '📒', label: t('nav.workbook'), badge: getWorkbook().reduce((a, b) => a + b.chapters.length, 0) || null },
+    { id: 'shv-exam',   icon: '🎯', label: t('nav.shv-exam'), badge: Object.keys(getSHVQuestions() || {}).length || null },
+    { id: 'shv-browse', icon: '🗂️', label: t('nav.shv-browse'), badge: Object.keys(getSHVQuestions() || {}).length || null },
+    { id: 'guide',      icon: '📚', label: t('nav.guide') },
+    { id: 'slides',     icon: '🎬', label: t('nav.slides'), badge: getDecks().reduce((a, d) => a + deckSlideCount(d), 0) || null },
+    { id: 'videos',     icon: '📺', label: t('nav.videos'), badge: getAllVideos().length || null },
+    { id: 'cheatsheet', icon: '⚡', label: t('nav.cheatsheet') },
+    { id: 'tips',       icon: '💡', label: t('nav.tips') }
   ];
   // Superseded by the official SHV question pool — kept around but tucked into a
   // collapsible 'Legacy' group so they no longer compete with SHV Practice.
   const legacyItems = [
-    { id: 'flashcards', icon: '📇', label: 'Flashcards' },
-    { id: 'quiz',       icon: '📝', label: 'Quiz' },
-    { id: 'exam',       icon: '⏱️', label: 'Mock Exam' }
+    { id: 'flashcards', icon: '📇', label: t('nav.flashcards') },
+    { id: 'quiz',       icon: '📝', label: t('nav.quiz') },
+    { id: 'exam',       icon: '⏱️', label: t('nav.exam') }
   ];
   const renderNavItem = n => `
     <button class="nav-item ${state.view === n.id ? 'active' : ''}" data-nav="${n.id}">
@@ -3440,19 +3566,23 @@ function render() {
 
   // theme indicator
   const themeBtn = document.getElementById('theme-toggle');
-  themeBtn.innerHTML = state.theme === 'dark' ? '🌙 Dark' : state.theme === 'light' ? '☀️ Light' : '🖥 Auto theme';
+  themeBtn.innerHTML = state.theme === 'dark' ? t('theme.dark') : state.theme === 'light' ? t('theme.light') : t('theme.auto');
 
   // language indicator (disabled when no German data is loaded)
   const langBtn = document.getElementById('lang-toggle');
   if (langBtn) {
     const deAvail = hasGermanSHV() || hasGermanWorkbook();
-    langBtn.innerHTML = state.lang === 'de' ? '🇩🇪 Deutsch' : '🇬🇧 English';
+    langBtn.innerHTML = state.lang === 'de' ? t('lang.toggle.de') : t('lang.toggle.en');
     langBtn.disabled = !deAvail && state.lang === 'en';
     langBtn.title = deAvail
-      ? `Switch to ${state.lang === 'de' ? 'English' : 'Deutsch'}`
+      ? (state.lang === 'de' ? 'Auf Englisch wechseln' : 'Switch to Deutsch')
       : 'German content not yet loaded — workbook + SHV scrape still in progress';
     langBtn.style.opacity = (!deAvail && state.lang === 'en') ? '0.55' : '1';
   }
+
+  // sidebar 'Study' section label
+  const studyLabel = document.getElementById('sidebar-study-label');
+  if (studyLabel) studyLabel.textContent = t('sidebar.study');
 
   // content
   const app = document.getElementById('app');
