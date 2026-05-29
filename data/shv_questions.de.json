@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-05-29T08:36:07.292Z",
+  "fetchedAt": "2026-05-29T08:36:38.176Z",
   "questions": {
     "Fluglehre_152": {
       "qid": 152,
@@ -392,6 +392,132 @@
         "das Verhältnis zwischen Fluggewicht und gesamter Flügelfläche."
       ],
       "correct": 2
+    },
+    "Fluglehre_137": {
+      "qid": 137,
+      "topic": "Fluglehre",
+      "pos": 31,
+      "total_in_topic": 152,
+      "text": "Mit welcher Fluggeschwindigkeit muss der Hängegleiter mit untenstehender Geschwindigkeitspolare bei einem Gegenwind von 8 m/s (29 km/h) fliegen, um unter diesen Bedingungen eine möglichst grosse Strecke zurückzulegen?",
+      "options": [
+        "9 m/s (32 km/h)",
+        "Mit seiner Maximalgeschwindigkeit",
+        "7 m/s (25 km/h)",
+        "11 m/s (40 km/h)"
+      ],
+      "correct": 1
+    },
+    "Fluglehre_51": {
+      "qid": 51,
+      "topic": "Fluglehre",
+      "pos": 32,
+      "total_in_topic": 152,
+      "text": "Fluglehre von 52 Welches der folgenden Profile wird mit dem grössten Anstellwinkel angeströmt? 321",
+      "options": [
+        "3",
+        "2",
+        "4",
+        "1"
+      ],
+      "correct": 3
+    },
+    "Fluglehre_130": {
+      "qid": 130,
+      "topic": "Fluglehre",
+      "pos": 33,
+      "total_in_topic": 152,
+      "text": "Welche Fluggeschwindigkeit entspricht beim Hängegleiter mit untenstehender Geschwindigkeitspolare seinem besten Gleitwinkel?",
+      "options": [
+        "7,2 m/s (26 km/h)",
+        "11,3 m/s (41 km/h)",
+        "5,6 m/s (20 km/h)",
+        "9,2 m/s (33 km/h)"
+      ],
+      "correct": 3
+    },
+    "Fluglehre_29": {
+      "qid": 29,
+      "topic": "Fluglehre",
+      "pos": 34,
+      "total_in_topic": 152,
+      "text": "Auf einer Höhe von 3'300 m über Meer beträgt der Luftwiderstand eines von Luft umströmten Körpers",
+      "options": [
+        "ca. 81% des Luftwiderstandes auf Meereshöhe.",
+        "ca. 72% des Luftwiderstandes auf Meereshöhe.",
+        "ca. 90% des Luftwiderstandes auf Meereshöhe.",
+        "ca. 64% des Luftwiderstandes auf Meereshöhe."
+      ],
+      "correct": 1
+    },
+    "Fluglehre_79": {
+      "qid": 79,
+      "topic": "Fluglehre",
+      "pos": 35,
+      "total_in_topic": 152,
+      "text": "Geräte mit kleiner Flügelstreckung haben",
+      "options": [
+        "eine grosse Spannweite und eine grosse durchschnittliche (mittlere) Flügeltiefe.",
+        "eine grosse Spannweite und eine kleine durchschnittliche (mittlere) Flügeltiefe.",
+        "eine kleine Spannweite und eine kleine durchschnittliche (mittlere) Flügeltiefe.",
+        "eine kleine Spannweite und eine grosse durchschnittliche (mittlere) Flügeltiefe."
+      ],
+      "correct": 3
+    },
+    "Fluglehre_41": {
+      "qid": 41,
+      "topic": "Fluglehre",
+      "pos": 36,
+      "total_in_topic": 152,
+      "text": "Wovon hängt der Luftwiderstand eines stromlinienförmigen Körpers massgeblich ab?",
+      "options": [
+        "Von der Masse des Körpers.",
+        "Vom spezifischen Gewicht des Körpers.",
+        "Von der molekularen Struktur des Körpers.",
+        "Von der Oberflächenbeschaffenheit des Körpers."
+      ],
+      "correct": 3
+    },
+    "Fluglehre_98": {
+      "qid": 98,
+      "topic": "Fluglehre",
+      "pos": 37,
+      "total_in_topic": 152,
+      "text": "Wird der Widerstand eines Hängegleiters erhöht, so",
+      "options": [
+        "hat dies keinen Einfluss auf den Gleitwinkel.",
+        "verkleinert sich der Gleitwinkel bis zu einem bestimmten Punkt und vergrössert sich danach abrupt.",
+        "vergrössert sich der Gleitwinkel.",
+        "verkleinert sich der Gleitwinkel."
+      ],
+      "correct": 2
+    },
+    "Fluglehre_149": {
+      "qid": 149,
+      "topic": "Fluglehre",
+      "pos": 39,
+      "total_in_topic": 152,
+      "text": "Die Fluggeschwindigkeit für das geringste Sinken liegt",
+      "options": [
+        "im Auf- und Abwind bei demselben Wert wie bei ruhiger Luft.",
+        "im Auf- und Abwind etwas tiefer als bei ruhiger Luft.",
+        "im Aufwind etwas höher und im Abwind etwas tiefer als bei ruhiger Luft.",
+        "im Aufwind etwas tiefer und im Abwind etwas höher als bei ruhiger Luft."
+      ],
+      "correct": 0
+    },
+    "Fluglehre_42": {
+      "qid": 42,
+      "topic": "Fluglehre",
+      "pos": 40,
+      "total_in_topic": 152,
+      "text": "Mit welcher Ziffer ist in der folgenden Skizze eines Profils die Profilsehne gekennzeichnet? 214",
+      "options": [
+        "2",
+        "1",
+        "3",
+        "4"
+      ],
+      "correct": 0
     }
   },
   "topics": {
