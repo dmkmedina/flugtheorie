@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-05-29T09:11:17.625Z",
+  "fetchedAt": "2026-05-29T09:13:02.504Z",
   "questions": {
     "Fluglehre_152": {
       "qid": 152,
@@ -6440,6 +6440,34 @@
         "Das Gerät lässt sich schwerer aufziehen, fliegt wegen des grösseren Anstellwinkels langsamer, die Tendenz zu Frontklappern nimmt ab, die Neigung zum Sackflug nimmt zu."
       ],
       "correct": 3
+    },
+    "Materialkunde_76": {
+      "qid": 76,
+      "topic": "Materialkunde",
+      "pos": 122,
+      "total_in_topic": 125,
+      "text": "Wird ein Gerät mässig angebremst geflogen, so kann unter Umständen festgestellt werden, dass die D-Leinen nicht unter Zug sind, also lose durchhängen. Was ist daraus zu schliessen?",
+      "options": [
+        "Die Brems- oder Steuerleinen entlasten die D-Leinen, was im mässig angebremsten Flug normal sein kann.",
+        "Die Brems- oder Steuerleinen sind zu kurz eingestellt und sollten deshalb verlängert werden.",
+        "Die D-Leinen haben sich unter Belastung allmählich gedehnt. Das Gerät muss zur Kontrolle zum Hersteller.",
+        "Das Gerät wurde vom Hersteller mit zu langen D-Leinen bestückt, sie müssen ersetzt werden."
+      ],
+      "correct": 0
+    },
+    "Materialkunde_91": {
+      "qid": 91,
+      "topic": "Materialkunde",
+      "pos": 123,
+      "total_in_topic": 125,
+      "text": "Eine Flächenbelastung von 4.5 daN/m² (4.5 kg/m²) ist im Gleitschirmbereich an modernen Intermediate-Schirmen (bezogen auf die ausgelegte Fläche):",
+      "options": [
+        "entschieden zu hoch.",
+        "am oberen Limit.",
+        "normal.",
+        "am unteren Limit."
+      ],
+      "correct": 1
     }
   },
   "topics": {
