@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-05-29T09:27:18.786Z",
+  "fetchedAt": "2026-05-29T09:27:49.353Z",
   "questions": {
     "Fluglehre_152": {
       "qid": 152,
@@ -2244,16 +2244,16 @@
     "Wetterkunde_21": {
       "qid": 21,
       "topic": "Wetterkunde",
-      "pos": 14,
+      "pos": 92,
       "total_in_topic": 164,
       "text": "Die Lufttemperatur nimmt in der Troposphäre im Durchschnitt mit zunehmender Höhe ab. Es kann aber auch vorkommen, dass sie schichtungsbedingt in einem bestimmten Bereich gleich bleibt. Wie heisst dieses Phänomen?",
       "options": [
         "Isothermie",
-        "Inversion",
         "Überadiabatik",
+        "Inversion",
         "Umkehrthermik"
       ],
-      "correct": 0
+      "correct": null
     },
     "Wetterkunde_53": {
       "qid": 53,
@@ -2818,16 +2818,16 @@
     "Wetterkunde_130": {
       "qid": 130,
       "topic": "Wetterkunde",
-      "pos": 64,
+      "pos": 96,
       "total_in_topic": 164,
       "text": "Wodurch wird eine Bodeninversion in der Regel verursacht?",
       "options": [
+        "Durch die nächtliche Abstrahlung des Bodens bei klarem Himmel.",
         "Durch absinkende sich trockenadiabatisch erwärmende Luft auf der Vorderseite und im Zentrum eines Hochs.",
         "Durch die Erwärmung der bodennahen Luftschichten im Laufe des Tages.",
-        "Durch die nächtliche Abstrahlung des Bodens bei klarem Himmel.",
         "Durch die Zufuhr kontinentaler Luftmassen in den bodennahen Luftschichten."
       ],
-      "correct": 2
+      "correct": null
     },
     "Wetterkunde_72": {
       "qid": 72,
@@ -8930,6 +8930,104 @@
         "Die Berge am südlichen Horizont sind mit Wolken verhangen, im blauen Teil des Himmels Cumulus und Lenticularis, in Bodennähe Wind aus wechselnden Richtungen, auffrischender Südwestwind am Startplatz.",
         "Blauer Himmel, Windstille, wenig Turbulenz, gleichmässiger Aufwind am Start, grossflächig gutes, ruhiges Steigen in der Luft, am Horizont Cumulus congestus und Culmulonimbus.",
         "Schlechte Sicht, tiefe Wolkenbasis, Regen, gleichmässiger Wind."
+      ],
+      "correct": 1
+    },
+    "Wetterkunde_78": {
+      "qid": 78,
+      "topic": "Wetterkunde",
+      "pos": 90,
+      "total_in_topic": 164,
+      "text": "Ein Wind mit der Stärke 25 kt weht ungefähr mit",
+      "options": [
+        "25 km/h",
+        "35 km/h",
+        "15 km/h",
+        "45 km/h"
+      ],
+      "correct": 3
+    },
+    "Wetterkunde_62": {
+      "qid": 62,
+      "topic": "Wetterkunde",
+      "pos": 93,
+      "total_in_topic": 164,
+      "text": "Welche der folgenden Aussagen ist falsch?",
+      "options": [
+        "Cumulus Congestus- und Cumulonimbuswolken können durch Verdunstung Kaltluftsäcke produzieren, die im Umfeld der Wolke mit hoher Geschwindigkeit zu Boden fallen.",
+        "Cumulus Congestus- und Cumulonimbuswolken können Auf- und Abwinde mit Spitzenwerten von über 30 m/s verursachen.",
+        "Cumulus Congestus- und Cumulonimbuswolken verursachen immer Hagelschlag auf der Erdoberfläche.",
+        "Cumulonimbuswolken können bis zu faustgrosse Hagelkörner enthalten."
+      ],
+      "correct": 2
+    },
+    "Wetterkunde_43": {
+      "qid": 43,
+      "topic": "Wetterkunde",
+      "pos": 94,
+      "total_in_topic": 164,
+      "text": "Welche Wolkenform tritt als Folge guter thermischer Aufwinde in Erscheinung?",
+      "options": [
+        "Stratus",
+        "Lenticularis",
+        "Cirrus",
+        "Cumulus"
+      ],
+      "correct": 3
+    },
+    "Wetterkunde_110": {
+      "qid": 110,
+      "topic": "Wetterkunde",
+      "pos": 97,
+      "total_in_topic": 164,
+      "text": "Wie kann das Wetter eine Stunde vor Eintreffen einer Warmfront am Standort des Beobachters sein?",
+      "options": [
+        "Blauer Himmel, Windstille, wenig Turbulenz, gleichmässiger Aufwind am Start, grossflächig gutes, ruhiges Steigen in der Luft, am Horizont Cumulus congestus und Culmulonimbus.",
+        "Schlechte Sicht, tiefe Wolkenbasis, Regen, gleichmässiger Wind.",
+        "Die Berge am Horizont sind mit Wolken verhangen, im blauen Teil des Himmels Cumulus und Lenticularis, in Bodennähe Wind aus wechselnden Richtungen, auffrischender Südwestwind am Startplatz.",
+        "Der Himmel ist bedeckt mit 5/8 Cumulus, zum Teil böig auffrischender Wind, harte Thermik mit grossem Sinken daneben."
+      ],
+      "correct": 1
+    },
+    "Wetterkunde_45": {
+      "qid": 45,
+      "topic": "Wetterkunde",
+      "pos": 98,
+      "total_in_topic": 164,
+      "text": "Sonniges Wetter in den höheren Lagen bei gleichzeitigem Nebel in den tieferen Lagen ist ein Anzeichen für",
+      "options": [
+        "eine gering Stabilität der Schichtung im unteren Bereich der Troposphäre.",
+        "das Zentrum eines Tiefdruckgebietes.",
+        "eine herannahende Kaltfront.",
+        "eine grosse Stabilität der Schichtung im unteren Bereich der Troposphäre."
+      ],
+      "correct": 3
+    },
+    "Wetterkunde_2": {
+      "qid": 2,
+      "topic": "Wetterkunde",
+      "pos": 99,
+      "total_in_topic": 164,
+      "text": "Wie verändert sich in der realen Troposphäre die Lufttemperatur mit zunehmender Höhe?",
+      "options": [
+        "Sie nimmt bis zur Tropopause linear um 0,65°C / 100 m ab.",
+        "Sie nimmt bis zur Tropopause linear um 1°C / 100 m ab.",
+        "Sie nimmt mit zunehmender Höhe immer ab, aber nicht linear, sondern mit schichtungsbedingten Schwankungen zwischen 0,1°C und 1,2°C.",
+        "Sie kann je nach Schichtung abnehmen, gleich bleiben oder zunehmen, nimmt aber im Durchschnitt um 0,65°C / 100 m ab."
+      ],
+      "correct": 3
+    },
+    "Wetterkunde_92": {
+      "qid": 92,
+      "topic": "Wetterkunde",
+      "pos": 100,
+      "total_in_topic": 164,
+      "text": "Der Talwind ist in den Alpen",
+      "options": [
+        "unabhängig der Jahreszeit immer gleich stark.",
+        "von Juni bis August stärker als von Dezember bis März.",
+        "von Oktober bis Februar stärker als von März bis Juli.",
+        "von Dezember bis April stärker als von Juli bis September."
       ],
       "correct": 1
     }
