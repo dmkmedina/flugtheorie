@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-05-29T09:16:50.944Z",
+  "fetchedAt": "2026-05-29T09:17:21.826Z",
   "questions": {
     "Fluglehre_152": {
       "qid": 152,
@@ -7292,6 +7292,132 @@
         "4",
         "3",
         "1"
+      ],
+      "correct": 0
+    },
+    "Flugpraxis_4": {
+      "qid": 4,
+      "topic": "Flugpraxis",
+      "pos": 71,
+      "total_in_topic": 169,
+      "text": "Mit welchen Folgen muss gerechnet werden, wenn sich der Organismus an mit zunehmender Höhe verändernde Bedingungen nicht anzupassen vermag?",
+      "options": [
+        "Atemnot",
+        "Starke, stechende Kopfschmerzen",
+        "Euphorie und Beeinträchtigung der Urteilsfähigkeit (Höhenrausch)",
+        "Übelkeit, Brechreiz"
+      ],
+      "correct": 2
+    },
+    "Flugpraxis_65": {
+      "qid": 65,
+      "topic": "Flugpraxis",
+      "pos": 73,
+      "total_in_topic": 169,
+      "text": "Ein Hängegleiterpilot kreist bei Windstille im thermischen Aufwind. Was geschieht, wenn er sich zu weit vom Zentrum des Schlauchs entfernt?",
+      "options": [
+        "Er fliegt im den Schlauch umgebenden Abwind und verliert dadurch stark an Höhe.",
+        "Das Steigen wird stärker und weniger turbulent.",
+        "Er steigt nicht mehr, sondern fliegt mit der normalen Sinkgeschwindigkeit.",
+        "Das Steigen wird stärker und turbulenter."
+      ],
+      "correct": 0
+    },
+    "Flugpraxis_44": {
+      "qid": 44,
+      "topic": "Flugpraxis",
+      "pos": 74,
+      "total_in_topic": 169,
+      "text": "Unmittelbar nach dem Start bemerkt ein Gleitschirmpilot, dass sich die linke Bremse nicht betätigen lässt und entdeckt an der Bremsleinenführung der hinteren Traggurte einen Knoten. Welches Verhalten ist richtig?",
+      "options": [
+        "Links mit der hintersten Traggurte steuern, bis genügend Sicherheitsabstand zum Gelände erreicht ist, um zu versuchen den Knoten zu lösen.",
+        "Beide Bremsen kurz und entschlossen voll durchziehen (beidseitiges Pumpen), damit sich der Knoten löst.",
+        "Mit einer Rechtskurve unverzüglich eine Notlandung einleiten.",
+        "Links mit grösserer Kraft steuern, damit der Knoten etwas nachgibt."
+      ],
+      "correct": 0
+    },
+    "Flugpraxis_60": {
+      "qid": 60,
+      "topic": "Flugpraxis",
+      "pos": 75,
+      "total_in_topic": 169,
+      "text": "Die Grösse des Vorhaltewinkels hängt ab von",
+      "options": [
+        "der Sinkgeschwindigkeit des Geräts, der Windstärke und der Flugdistanz.",
+        "der Sinkgeschwindigkeit des Geräts, der Windrichtung und der Windstärke.",
+        "der Fluggeschwindigkeit des Geräts, der Windrichtung und der Windstärke.",
+        "der Fluggeschwindigkeit des Geräts, der Windrichtung und der Flugdistanz."
+      ],
+      "correct": 2
+    },
+    "Flugpraxis_87": {
+      "qid": 87,
+      "topic": "Flugpraxis",
+      "pos": 76,
+      "total_in_topic": 169,
+      "text": "Während des Fluges klappt der Gleitschirm plötzlich seitlich ein. Welches ist die richtige Reaktion?",
+      "options": [
+        "Sofort kräftig auf der eingeklappten Seite pumpen, um die eingeklappte Seite möglichst schnell wieder zu füllen und den Höhenverlust in Grenzen zu halten.",
+        "Die Bremse auf der nicht eingeklappten Seite sofort voll durchziehen, um ein Abdrehen auf die eingeklappte Seite zu verhindern.",
+        "Beidseitig die Bremsen voll durchziehen, bis sich das Gerät wieder öffnet.",
+        "Die gewünschte Flugrichtung durch Gewichtsverlagerung und dosiertes Bremsen auf der nicht eingeklappten Seite stabilisieren und, falls noch nötig, mittels Pumpen die eingeklappte Seite öffnen."
+      ],
+      "correct": 3
+    },
+    "Flugpraxis_86": {
+      "qid": 86,
+      "topic": "Flugpraxis",
+      "pos": 77,
+      "total_in_topic": 169,
+      "text": "Welche Konsequenzen kann es haben, wenn ein Gleitschirm über 50% seitlich einklappt und der Pilot das Gerät völlig ungebremst weiterfliegen lässt?",
+      "options": [
+        "Das Gerät klappt frontal ein, wobei die Flügelenden die Schirmmitte überholen können sodass das Gerät zusammenklappt.",
+        "Die Strömung reisst einseitig ab, das Gerät dreht über die abgerissene Seite weg und beginnt zu trudeln.",
+        "Das Gerät geht in eine immer steiler werdende Spirale über.",
+        "Die Strömung reisst ab und das Gerät geht in einen Sackflug über."
+      ],
+      "correct": 2
+    },
+    "Flugpraxis_56": {
+      "qid": 56,
+      "topic": "Flugpraxis",
+      "pos": 78,
+      "total_in_topic": 169,
+      "text": "Der Vorhaltewinkel ist der Winkel zwischen",
+      "options": [
+        "der Längsachse des Geräts und der Windrichtung.",
+        "der Windrichtung und dem Flugweg.",
+        "der Querachse des Geräts und der Windrichtung.",
+        "der Längsachse des Geräts und dem Flugweg."
+      ],
+      "correct": 3
+    },
+    "Flugpraxis_133": {
+      "qid": 133,
+      "topic": "Flugpraxis",
+      "pos": 79,
+      "total_in_topic": 169,
+      "text": "Bei starkem Wind ist mit Bodenannäherung eine deutlichen Abnahme des Windes (Windgradient) möglich. Falls der Schirm dabei kurz durchsackt,",
+      "options": [
+        "führt dies in jedem Fall zu einem Einklapper.",
+        "darf keinesfalls angebremst werden, da sonst die Strömung abreissen kann. Vielmehr sollte man den Schirm anfahren lassen und ggf. das anschliessende Vornicken dosiert kontrollieren.",
+        "führt dies in jedem Fall zu Sackflug.",
+        "wird dies durch maximales Durchziehen der Steuerleinen abgefangen."
+      ],
+      "correct": 1
+    },
+    "Flugpraxis_28": {
+      "qid": 28,
+      "topic": "Flugpraxis",
+      "pos": 81,
+      "total_in_topic": 169,
+      "text": "Wie lautet ein korrekter 5-Punkte- oder Startcheck?",
+      "options": [
+        "1. Gurtzeug, Helm und Rettungsgerät geschlossen und gesichert; 2. Gurten und Leinen verlaufen korrekt; 3. Kalotte liegt wunschgemäss; 4. Windrichtung/-stärke; 5. Start-/Luftraum frei.",
+        "1. Kalotte liegt wunschgemäss; 2. Windrichtung/-stärke; 3. Start-/Luftraum frei; 4. Gurtzeug, Helm und Rettungsgerät geschlossen und gesichert; 5. Gurten und Leinen verlaufen korrekt.",
+        "1. Windrichtung/-stärke; 2. Start-/Luftraum frei; 3. Gurtzeug, Helm und Rettungsgerät geschlossen und gesichert; 4. Gurten und Leinen verlaufen korrekt; 5. Kalotte liegt wunschgemäss.",
+        "1. Gurten und Leinen verlaufen korrekt; 2. Kalotte liegt wunschgemäss; 3. Windrichtung/-stärke; 4. Start-/Luftraum frei; 5. Gurtzeug, Helm und Rettungsgerät geschlossen und gesichert."
       ],
       "correct": 0
     }
