@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-05-29T09:30:26.480Z",
+  "fetchedAt": "2026-05-29T09:31:06.113Z",
   "questions": {
     "Fluglehre_152": {
       "qid": 152,
@@ -2454,16 +2454,16 @@
     "Wetterkunde_13": {
       "qid": 13,
       "topic": "Wetterkunde",
-      "pos": 32,
+      "pos": 75,
       "total_in_topic": 164,
       "text": "Wodurch wird die Temperatur der bodennahen Luft hauptsächlich bestimmt?",
       "options": [
-        "Durch die auf die Luftteilchen treffende Sonneneinstrahlung.",
         "Durch die Temperatur des Bodens.",
-        "Durch die in der Luft enthaltene relative Luftfeuchte.",
-        "Durch den Einstrahlungswinkel der auf die Luftteilchen treffenden Sonneneinstrahlung."
+        "Durch die auf die Luftteilchen treffende Sonneneinstrahlung.",
+        "Durch den Einstrahlungswinkel der auf die Luftteilchen treffenden Sonneneinstrahlung.",
+        "Durch die in der Luft enthaltene relative Luftfeuchte."
       ],
-      "correct": 1
+      "correct": null
     },
     "Wetterkunde_48": {
       "qid": 48,
@@ -2552,16 +2552,16 @@
     "Wetterkunde_152": {
       "qid": 152,
       "topic": "Wetterkunde",
-      "pos": 40,
+      "pos": 106,
       "total_in_topic": 164,
       "text": "Wie ist die Windrichtung in London?",
       "options": [
-        "190°",
         "310°",
-        "270°",
-        "130°"
+        "130°",
+        "190°",
+        "270°"
       ],
-      "correct": 1
+      "correct": null
     },
     "Wetterkunde_55": {
       "qid": 55,
@@ -2846,16 +2846,16 @@
     "Wetterkunde_117": {
       "qid": 117,
       "topic": "Wetterkunde",
-      "pos": 66,
+      "pos": 72,
       "total_in_topic": 164,
       "text": "Eine Okklusion zeigt bezüglich Wettergeschehen",
       "options": [
+        "je nach Temperatur der heranströmenden Kaltluft die Merkmale einer Warm- oder Kaltfront.",
         "die Merkmale einer Kaltfront.",
-        "harmlosere Merkmale als Warm- und Kaltfront, da sich die beiden neutralisieren.",
         "die Merkmale einer Warmfront.",
-        "je nach Temperatur der heranströmenden Kaltluft die Merkmale einer Warm- oder Kaltfront."
+        "harmlosere Merkmale als Warm- und Kaltfront, da sich die beiden neutralisieren."
       ],
-      "correct": 3
+      "correct": null
     },
     "Wetterkunde_76": {
       "qid": 76,
@@ -9294,6 +9294,76 @@
         "Weil die Luft beim Aufsteigen ständig Wasser verdunsten muss, ist eine Zunahme der Höhe immer mit einer Temperaturabnahme verbunden.",
         "Weil der Einfallswinkel der Sonnenstrahlen mit zunehmender Höhe abflacht, wird dem aufsteigenden Luftpaket in der Höhe weniger Wärme zugeführt als am Boden.",
         "Weil der Druck in der Atmosphäre mit zunehmender Höhe sinkt, dehnt sich das Luftpaket aus, wodurch die Luft Energie in Form von Wärme verliert."
+      ],
+      "correct": 3
+    },
+    "Wetterkunde_137": {
+      "qid": 137,
+      "topic": "Wetterkunde",
+      "pos": 73,
+      "total_in_topic": 164,
+      "text": "Leethermik entsteht vor allem",
+      "options": [
+        "an Nordhängen bei Südwind.",
+        "an Südhängen bei Nordwind.",
+        "an Nordhängen bei Nordwind.",
+        "an Südhängen bei Südwind."
+      ],
+      "correct": 1
+    },
+    "Wetterkunde_42": {
+      "qid": 42,
+      "topic": "Wetterkunde",
+      "pos": 76,
+      "total_in_topic": 164,
+      "text": "Weshalb kühlt sich feucht aufsteigende Luft weniger schnell ab als trocken aufsteigende?",
+      "options": [
+        "Weil feuchte Luft schneller steigt und die Abkühlung deshalb leicht verzögert erfolgt.",
+        "Weil die durch die Kondensation freigesetzte Wärme die Temperatur der Luftmasse beeinflusst.",
+        "Weil Wasser sich langsamer abkühlt als Luft.",
+        "Weil Wasserdampf leichter ist als Luft, ist ein feuchtes Luftpaket leichter und verbraucht beim Aufsteigen weniger Energie in Form von Wärme."
+      ],
+      "correct": 1
+    },
+    "Wetterkunde_36": {
+      "qid": 36,
+      "topic": "Wetterkunde",
+      "pos": 89,
+      "total_in_topic": 164,
+      "text": "Welche Veränderung des Aggregatzustands eines Stoffes setzt Energie in Form von Wärme frei?",
+      "options": [
+        "Übergang vom festen in den flüssigen Zustand",
+        "Übergang vom gasförmigen in den flüssigen Zustand",
+        "Übergang vom festen in den gasförmigen Zustand",
+        "Übergang vom flüssigen in den gasförmigen Zustand"
+      ],
+      "correct": null
+    },
+    "Wetterkunde_127": {
+      "qid": 127,
+      "topic": "Wetterkunde",
+      "pos": 90,
+      "total_in_topic": 164,
+      "text": "Mit welchem Wind muss in den Bergen der Schweiz gerechnet werden, wenn sich das Azorenhoch gegen Mitteleuropa ausdehnt?",
+      "options": [
+        "Bise",
+        "Nordwestwind",
+        "Südföhn",
+        "Westwind"
+      ],
+      "correct": 1
+    },
+    "Wetterkunde_38": {
+      "qid": 38,
+      "topic": "Wetterkunde",
+      "pos": 107,
+      "total_in_topic": 164,
+      "text": "Welche Veränderung des Aggregatzustands eines Stoffes setzt Energie in Form von Wärme frei?",
+      "options": [
+        "Übergang vom flüssigen in den gasförmigen Zustand",
+        "Übergang vom festen in den gasförmigen Zustand",
+        "Übergang vom festen in den flüssigen Zustand",
+        "Übergang vom gasförmigen in den festen Zustand"
       ],
       "correct": 3
     }
