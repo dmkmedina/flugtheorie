@@ -3396,7 +3396,7 @@ function render() {
     { id: 'workbook',   icon: '📒', label: 'Workbook', badge: getWorkbook().reduce((a, b) => a + b.chapters.length, 0) || null },
     { id: 'shv-exam',   icon: '🎯', label: 'SHV Practice', badge: Object.keys(getSHVQuestions() || {}).length || null },
     { id: 'shv-browse', icon: '🗂️', label: 'SHV Browse', badge: Object.keys(getSHVQuestions() || {}).length || null },
-    { id: 'guide',      icon: '📚', label: 'Study Guide' },
+    { id: 'guide',      icon: '📚', label: 'Study Guide (EN)' },
     { id: 'slides',     icon: '🎬', label: 'Slide Decks', badge: getDecks().reduce((a, d) => a + deckSlideCount(d), 0) || null },
     { id: 'videos',     icon: '📺', label: 'Videos (EN subs)', badge: getAllVideos().length || null },
     { id: 'cheatsheet', icon: '⚡', label: 'Cheat Sheet' },
