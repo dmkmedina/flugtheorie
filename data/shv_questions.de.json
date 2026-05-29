@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-05-29T08:50:35.493Z",
+  "fetchedAt": "2026-05-29T08:51:07.426Z",
   "questions": {
     "Fluglehre_152": {
       "qid": 152,
@@ -2212,6 +2212,118 @@
         "Nordostwind, 15 km/h"
       ],
       "correct": 0
+    },
+    "Wetterkunde_66": {
+      "qid": 66,
+      "topic": "Wetterkunde",
+      "pos": 10,
+      "total_in_topic": 164,
+      "text": "In Europa kann der Luftdruck auf Meereshöhe im Zentrum eines ausgeprägten Tiefs",
+      "options": [
+        "1'055 hPa betragen.",
+        "915 hPa betragen.",
+        "1'035 hPa betragen.",
+        "965 hPa betragen."
+      ],
+      "correct": 3
+    },
+    "Wetterkunde_162": {
+      "qid": 162,
+      "topic": "Wetterkunde",
+      "pos": 12,
+      "total_in_topic": 164,
+      "text": "Welche Bewölkung ist in der Nordostschweiz am wahrscheinlichsten?",
+      "options": [
+        "5/8 bis 7/8 Cumulonimbus, im Osten vereinzelte Lenticularis",
+        "5/8 bis 7/8 Cirrostratus",
+        "8/8 Nimbostratus",
+        "5/8 bis 7/8 Cirrocumulus"
+      ],
+      "correct": 0
+    },
+    "Wetterkunde_21": {
+      "qid": 21,
+      "topic": "Wetterkunde",
+      "pos": 14,
+      "total_in_topic": 164,
+      "text": "Die Lufttemperatur nimmt in der Troposphäre im Durchschnitt mit zunehmender Höhe ab. Es kann aber auch vorkommen, dass sie schichtungsbedingt in einem bestimmten Bereich gleich bleibt. Wie heisst dieses Phänomen?",
+      "options": [
+        "Isothermie",
+        "Inversion",
+        "Überadiabatik",
+        "Umkehrthermik"
+      ],
+      "correct": 0
+    },
+    "Wetterkunde_53": {
+      "qid": 53,
+      "topic": "Wetterkunde",
+      "pos": 15,
+      "total_in_topic": 164,
+      "text": "Welche der folgenden Wolkenarten hat ihre Obergrenze nicht auf derselben Höhe wie die anderen drei?",
+      "options": [
+        "Cumulus humilis",
+        "Cirrus",
+        "Cirrostratus",
+        "Cirrocumulus"
+      ],
+      "correct": 0
+    },
+    "Wetterkunde_99": {
+      "qid": 99,
+      "topic": "Wetterkunde",
+      "pos": 16,
+      "total_in_topic": 164,
+      "text": "In einem Alpental weht im Sommerhalbjahr bei schönem Wetter um 14.00 Uhr in der Talsohle ein Talwind von 25 km/h. Mit welcher Art von Turbulenz muss in der Talmitte auf 20 m/Grund vor allem gerechnet werden?",
+      "options": [
+        "Mit mechanischer Turbulenz.",
+        "Mit scherungsbedingter Turbulenz.",
+        "Mit Gradientturbulenz.",
+        "Mit thermischer Turbulenz."
+      ],
+      "correct": 0
+    },
+    "Wetterkunde_85": {
+      "qid": 85,
+      "topic": "Wetterkunde",
+      "pos": 18,
+      "total_in_topic": 164,
+      "text": "Der Talwind weht",
+      "options": [
+        "tagsüber und bergwärts.",
+        "nachts und bergwärts.",
+        "tagsüber und talwärts.",
+        "nachts und talwärts."
+      ],
+      "correct": 0
+    },
+    "Wetterkunde_120": {
+      "qid": 120,
+      "topic": "Wetterkunde",
+      "pos": 19,
+      "total_in_topic": 164,
+      "text": "Was stellt die nachfolgende Skizze dar?",
+      "options": [
+        "Eine Okklusion mit Kaltfrontcharakter",
+        "Eine Kaltfront",
+        "Eine Warmfront",
+        "Eine Okklusion mit Warmfrontcharakter"
+      ],
+      "correct": 2
+    },
+    "Wetterkunde_98": {
+      "qid": 98,
+      "topic": "Wetterkunde",
+      "pos": 20,
+      "total_in_topic": 164,
+      "text": "Bei einer Nordwestwindlage nach dem Durchgang einer Kaltfront weht in einem Alpental im Sommerhalbjahr bei schönem Wetter um 14.00 Uhr in der Talsohle ein Talwind von 25 km/h. Mit welcher Art von Turbulenz muss in der Talmitte auf 500 m/Grund vor allem gerechnet werden?",
+      "options": [
+        "Mit keiner Turbulenz.",
+        "Mit scherungsbedingter Turbulenz.",
+        "Mit Föhnturbulenz.",
+        "Mit mechanischer Turbulenz."
+      ],
+      "correct": 1
     }
   },
   "topics": {
