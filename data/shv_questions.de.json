@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-05-29T09:16:20.795Z",
+  "fetchedAt": "2026-05-29T09:16:50.944Z",
   "questions": {
     "Fluglehre_152": {
       "qid": 152,
@@ -7196,6 +7196,104 @@
         "wird vergrössert, wenn die Fluggeschwindigkeit erhöht wird."
       ],
       "correct": 2
+    },
+    "Flugpraxis_168": {
+      "qid": 168,
+      "topic": "Flugpraxis",
+      "pos": 61,
+      "total_in_topic": 169,
+      "text": "Sind lokale Wild- und Waldschutzzonen von Hängegleiterpiloten einzuhalten?",
+      "options": [
+        "Nein, sie sind auch für Streckenflugpiloten nicht von Bedeutung.",
+        "Ja, denn ein Nichtbeachten gefährdet das betreffende Fluggebiet.",
+        "Ja, ein Einfliegen ist illegal und wird bestraft.",
+        "Nein, es sind rein freiwillige Abmachungen und ein Nichtbeachten hat keinerlei Folgen."
+      ],
+      "correct": 1
+    },
+    "Flugpraxis_112": {
+      "qid": 112,
+      "topic": "Flugpraxis",
+      "pos": 62,
+      "total_in_topic": 169,
+      "text": "Wo ist die überschüssige Höhe vor dem Gegenanflug abzubauen, wenn ein Landeplatz mit einer Rechtsvolte angeflogen wird? 21",
+      "options": [
+        "2",
+        "3",
+        "1",
+        "4"
+      ],
+      "correct": 1
+    },
+    "Flugpraxis_16": {
+      "qid": 16,
+      "topic": "Flugpraxis",
+      "pos": 64,
+      "total_in_topic": 169,
+      "text": "Ein Pilot plant einen Flug von Flims Richtung Oberalppass. Der Flugweg führt durch die Gefahrenzone LS-D10. Welche der folgenden Veröffentlichungen macht Angaben darüber, wann diese Gefahrenzone aktiv ist?",
+      "options": [
+        "Das Notam oder das DABS.",
+        "Die Segelflugkarte.",
+        "Sowohl die Segelflugkarte als auch im VFR-Manual.",
+        "Das VFR-Manual."
+      ],
+      "correct": 0
+    },
+    "Flugpraxis_149": {
+      "qid": 149,
+      "topic": "Flugpraxis",
+      "pos": 65,
+      "total_in_topic": 169,
+      "text": "Was bedeutet der Girlandenflug des Steinadlers?",
+      "options": [
+        "Der Adler hat Freude und macht Flugspiele.",
+        "Der Adler verteidigt sein Revier und seine Brut.",
+        "Der Adler wirbt um einen Partner.",
+        "Der Adler jagt nach kleinen Singvögeln."
+      ],
+      "correct": 1
+    },
+    "Flugpraxis_74": {
+      "qid": 74,
+      "topic": "Flugpraxis",
+      "pos": 66,
+      "total_in_topic": 169,
+      "text": "Durch Hängegleiter hervorgerufene Turbulenzen",
+      "options": [
+        "müssen vor allem beim Kreisen im selben Thermikschlauch gemieden werden.",
+        "können nachfolgende Piloten vor allem bei Start und Landung in Schwierigkeiten bringen.",
+        "haben in der Praxis keine Bedeutung.",
+        "gewinnen mit zunehmender Höhe über Grund an Bedeutung."
+      ],
+      "correct": 1
+    },
+    "Flugpraxis_123": {
+      "qid": 123,
+      "topic": "Flugpraxis",
+      "pos": 68,
+      "total_in_topic": 169,
+      "text": "Ein Pilot stellt im Queranflug fest, dass er entschieden zu hoch fliegt. Welches Verhalten ist korrekt?",
+      "options": [
+        "Den Queranflug verlängern und allenfalls wiederholen.",
+        "Nochmals einen Kreis in Voltendrehrichtung fliegen.",
+        "Zum Höhenabbauraum zurückfliegen und den Gegenanflug erneut beginnen.",
+        "Das Gerät anbremsen, um seine Gleitleistung zu vermindern."
+      ],
+      "correct": 0
+    },
+    "Flugpraxis_113": {
+      "qid": 113,
+      "topic": "Flugpraxis",
+      "pos": 70,
+      "total_in_topic": 169,
+      "text": "Die folgenden vier Skizzen zeigen einen Standardlandeanflug bei Windstille (gestrichelt) und eine in der Praxis den Umständen angepasste Landevolte (ausgezogen). Welche Art des Anflugs ist bei Windstille zu wählen, wenn sich beim Übergang vom Gegen- in den Queranflug zeigt, dass eher zu tief geflogen wird? 1",
+      "options": [
+        "2",
+        "4",
+        "3",
+        "1"
+      ],
+      "correct": 0
     }
   },
   "topics": {
