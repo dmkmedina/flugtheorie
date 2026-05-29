@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-05-29T08:49:54.794Z",
+  "fetchedAt": "2026-05-29T08:50:35.493Z",
   "questions": {
     "Fluglehre_152": {
       "qid": 152,
@@ -2086,9 +2086,136 @@
         "3,7"
       ],
       "correct": 0
+    },
+    "Wetterkunde_164": {
+      "qid": 164,
+      "topic": "Wetterkunde",
+      "pos": 164,
+      "total_in_topic": 164,
+      "text": "Die auf der Karte dargestellte Grosswetterlage bedeutet für die Schweiz an diesem Tag folgendes Wetter:",
+      "options": [
+        "In der ganzen Schweiz grösstenteils sonnig mit schwachen Winden aus wechselnden Richtungen.",
+        "Auf der Alpennordseite Staubewölkung, im Tessin unter Nordföhneinfluss sonnig.",
+        "Im Westen und Süden Bewölkungszunahme, im Osten unter Südföhneinfluss grösstenteils sonnig.",
+        "Bisenlage mit Windgeschwindigkeiten bis zu 50 km/h im Genferseegebiet."
+      ],
+      "correct": null
+    },
+    "Wetterkunde_148": {
+      "qid": 148,
+      "topic": "Wetterkunde",
+      "pos": 1,
+      "total_in_topic": 164,
+      "text": "Wo ist das Druckgefälle am grössten?",
+      "options": [
+        "bei Tunis",
+        "bei Lulea",
+        "über dem Golf von Biskaya",
+        "bei Stockholm"
+      ],
+      "correct": 3
+    },
+    "Wetterkunde_129": {
+      "qid": 129,
+      "topic": "Wetterkunde",
+      "pos": 2,
+      "total_in_topic": 164,
+      "text": "Welche der folgenden Wetterlagen begünstigt das Entstehen bis in grosse Höhe reichender thermischer Aufwinde im Alpenraum am meisten?",
+      "options": [
+        "Ein ausgeprägtes Hoch mit Zentrum über Norddeutschland.",
+        "Ein ausgeprägtes Tief mit Zentrum über dem Golf von Genua.",
+        "Ein flaches Hoch mit Zentrum über dem Alpenraum.",
+        "Das Azorenhoch dehnt sich Richtung Mitteleuropa aus."
+      ],
+      "correct": 2
+    },
+    "Wetterkunde_37": {
+      "qid": 37,
+      "topic": "Wetterkunde",
+      "pos": 3,
+      "total_in_topic": 164,
+      "text": "Welche Veränderung des Aggregatzustands eines Stoffes setzt Energie in Form von Wärme frei?",
+      "options": [
+        "Übergang vom flüssigen in den gasförmigen Zustand",
+        "Übergang vom festen in den gasförmigen Zustand",
+        "Übergang vom festen in den flüssigen Zustand",
+        "Übergang vom flüssigen in den festen Zustand"
+      ],
+      "correct": 3
+    },
+    "Wetterkunde_68": {
+      "qid": 68,
+      "topic": "Wetterkunde",
+      "pos": 4,
+      "total_in_topic": 164,
+      "text": "In einem Tiefdruckgebiet auf der nördlichen Halbkugel",
+      "options": [
+        "drehen sich die Luftmassen im Uhrzeigersinn um dessen Zentrum und sinken grossräumig ab.",
+        "drehen sich die Luftmassen im Gegenuhrzeigersinn um dessen Zentrum und steigen grossräumig auf.",
+        "drehen sich die Luftmassen im Gegenuhrzeigersinn um dessen Zentrum und sinken grossräumig ab.",
+        "drehen sich die Luftmassen im Uhrzeigersinn um dessen Zentrum und steigen grossräumig auf."
+      ],
+      "correct": 1
+    },
+    "Wetterkunde_88": {
+      "qid": 88,
+      "topic": "Wetterkunde",
+      "pos": 5,
+      "total_in_topic": 164,
+      "text": "Der Talwind entsteht, weil sich die Luft",
+      "options": [
+        "bei nachlassender Sonneneinstrahlung im Flachland schneller abkühlt als im Gebirge.",
+        "tagsüber im Flachland schneller erwärmt als im Gebirge.",
+        "tagsüber im Gebirge schneller erwärmt als im Flachland.",
+        "bei nachlassender Sonneneinstrahlung im Gebirge schneller abkühlt als im Flachland."
+      ],
+      "correct": 2
+    },
+    "Wetterkunde_61": {
+      "qid": 61,
+      "topic": "Wetterkunde",
+      "pos": 6,
+      "total_in_topic": 164,
+      "text": "Sobald unter Cumulus Congestus- oder Cumulonimbuswolken Niederschlag beobachtet werden kann,",
+      "options": [
+        "erfolgen immer elektrische Entladungen zwischen Wolke und Erdoberfläche.",
+        "werden sie für die Fliegerei harmlos, da sie sich im Stadium der Auflösung befinden.",
+        "wird Luft durch Verdunstung abgekühlt, und es entstehen starke, böige Abwinde.",
+        "darf davon ausgegangen werden, dass sie keine Aufwinde mehr produzieren."
+      ],
+      "correct": 2
+    },
+    "Wetterkunde_107": {
+      "qid": 107,
+      "topic": "Wetterkunde",
+      "pos": 7,
+      "total_in_topic": 164,
+      "text": "Welche Aussage ist richtig?",
+      "options": [
+        "Der Durchzug einer Warmfront erfolgt zuerst am Boden, danach in der Höhe. Der Durchzug einer Kaltfront erfolgt zuerst in der Höhe, danach am Boden.",
+        "Der Durchzug von Warm- und Kaltfront erfolgt zuerst am Boden, danach in der Höhe.",
+        "Der Durchzug von Warm- und Kaltfront erfolgt zuerst in grosser Höhe, danach am Boden.",
+        "Der Durchzug einer Warmfront erfolgt zuerst in der Höhe, danach am Boden. Der Durchzug einer Kaltfront erfolgt zuerst am Boden, danach in der Höhe."
+      ],
+      "correct": 3
+    },
+    "Wetterkunde_80": {
+      "qid": 80,
+      "topic": "Wetterkunde",
+      "pos": 9,
+      "total_in_topic": 164,
+      "text": "Welche Aussage lässt sich aufgrund nachstehender Windangaben des Segelflugwetterberichts über Windrichtung und -geschwindigkeit auf 1'000 m Höhe machen? 1000 m: 050°/15 kt, 2000 m: 080°/10 kt, 3000 m: 230°/10 kt, 4000 m: 240°/10 kt",
+      "options": [
+        "Nordostwind, 28 km/h",
+        "Südwestwind, 15 km/h",
+        "Südwestwind, 28 km/h",
+        "Nordostwind, 15 km/h"
+      ],
+      "correct": 0
     }
   },
   "topics": {
-    "Fluglehre": 152
+    "Fluglehre": 152,
+    "Wetterkunde": 164
   }
 }
