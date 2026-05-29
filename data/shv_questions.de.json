@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-05-29T08:59:30.437Z",
+  "fetchedAt": "2026-05-29T09:00:00.602Z",
   "questions": {
     "Fluglehre_152": {
       "qid": 152,
@@ -4144,6 +4144,118 @@
         "Bundesamt für Zivilluftfahrt."
       ],
       "correct": 0
+    },
+    "Gesetzgebung_29": {
+      "qid": 29,
+      "topic": "Gesetzgebung",
+      "pos": 106,
+      "total_in_topic": 180,
+      "text": "Nach dem Erwerb des schweizerischen amtlichen Hängegleiterpilotenausweises",
+      "options": [
+        "wird empfohlen seine Flüge zu dokumentieren, da für die Fluglehrer-Ausbildung 200 Flüge nachgewiesen werden müssen.",
+        "besteht grundsätzlich keine Pflicht, seine Flüge in einem Flugbuch zu dokumentieren.",
+        "wird empfohlen seine Flüge zu dokumentieren, da zu Beginn der Doppelsitzer-Ausbildung 200 Flüge nachgewiesen werden müssen.",
+        "Die Antworten a, b und c sind richtig."
+      ],
+      "correct": 3
+    },
+    "Gesetzgebung_22": {
+      "qid": 22,
+      "topic": "Gesetzgebung",
+      "pos": 108,
+      "total_in_topic": 180,
+      "text": "Was bedeutet die Abkürzung „HX“",
+      "options": [
+        "keine bestimmten Betriebszeiten, Aktivierung jederzeit möglich",
+        "keine der anderen Antworten ist richtig",
+        "Aktivierung mittels DABS/Notam",
+        "permanent in Betrieb"
+      ],
+      "correct": 0
+    },
+    "Gesetzgebung_7": {
+      "qid": 7,
+      "topic": "Gesetzgebung",
+      "pos": 109,
+      "total_in_topic": 180,
+      "text": "Wer ist in erster Linie verantwortlich für die Lufttüchtigkeit eines Hängegleiters?",
+      "options": [
+        "Der Hängegleiterpilot.",
+        "Der Hersteller des Hängegleiters.",
+        "Die Typenprüfstelle des SHV.",
+        "Das Bundesamt für Zivilluftfahrt."
+      ],
+      "correct": 0
+    },
+    "Gesetzgebung_91": {
+      "qid": 91,
+      "topic": "Gesetzgebung",
+      "pos": 110,
+      "total_in_topic": 180,
+      "text": "In der Luftraumklasse E gelten auf 2'800 m AMSL folgende Vorschriften bezüglich Sicht und Wolkenabstände: Sicht / Abstand horizontal / Abstand vertikal",
+      "options": [
+        "1,5 km und Bodensicht / 100 m / 50 m",
+        "5,0 km / 1,5 km / 300 m",
+        "8,0 km / 1,5 km / 300 m",
+        "5,0 km / 300 m / 50 m"
+      ],
+      "correct": 1
+    },
+    "Gesetzgebung_63": {
+      "qid": 63,
+      "topic": "Gesetzgebung",
+      "pos": 111,
+      "total_in_topic": 180,
+      "text": "\"VFR\" ist die Abkürzung für",
+      "options": [
+        "Visual Flight Region (Sichtflugregion).",
+        "Variabel Flight Rules (Variable Flugregeln).",
+        "Visual Flight Rules (Sichtflugregeln).",
+        "Variabel Flight Region (Variable Flugregion)."
+      ],
+      "correct": 2
+    },
+    "Gesetzgebung_64": {
+      "qid": 64,
+      "topic": "Gesetzgebung",
+      "pos": 112,
+      "total_in_topic": 180,
+      "text": "IFR-Flüge",
+      "options": [
+        "absolvierst Du, sobald die Sicht unter ein gewisses Minimum sinkt, so dass Du auf Deine Instrumente angewiesen bist.",
+        "sind mit einem Hängegleiter möglich, wenn er mit Kompass, Höhenmesser und Flugfunk ausgerüstet ist.",
+        "werden ausschliesslich höher als FL 195 durchgeführt.",
+        "sind reserviert für Luftfahrzeuge mit entsprechender Ausrüstung und Zulassung."
+      ],
+      "correct": 3
+    },
+    "Gesetzgebung_130": {
+      "qid": 130,
+      "topic": "Gesetzgebung",
+      "pos": 113,
+      "total_in_topic": 180,
+      "text": "Ein Delta und ein Gleitschirm fliegen am Hang auf gleicher Höhe frontal aufeinander zu. Welches Verhalten ist korrekt?",
+      "options": [
+        "Der Delta beschleunigt und fliegt unter dem Gleitschirm durch.",
+        "Derjenige Hängegleiter, der den Hang links hat, weicht nach rechts aus.",
+        "Der Delta muss ausweichen, da der Gleitschirm Vortritt geniesst.",
+        "Derjenige Hängegleiter, der den Hang rechts hat, weicht nach links aus."
+      ],
+      "correct": 1
+    },
+    "Gesetzgebung_33": {
+      "qid": 33,
+      "topic": "Gesetzgebung",
+      "pos": 114,
+      "total_in_topic": 180,
+      "text": "Welches ist der Unterschied zwischen grünen und roten LS-R auf der Segelflugkarte?",
+      "options": [
+        "Je nach Aktivierungszustand und Benützungsbedingungen darf in die roten LS-R nicht eingeflogen werden, während in die grünen LS-R nie eingeflogen werden darf.",
+        "In die grünen LS-R darf immer eingeflogen werden, in die roten LS-R nie.",
+        "Je nach Aktivierungszustand und Benützungsbedingungen darf in die roten LS-R nicht eingeflogen werden, während die grünen LS-R je nach Aktivierungszustand eine Erleichterung darstellen.",
+        "Es besteht kein Unterschied, in beide LS-R darf nie eingeflogen werden."
+      ],
+      "correct": 2
     }
   },
   "topics": {
