@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-05-29T09:10:44.992Z",
+  "fetchedAt": "2026-05-29T09:11:17.625Z",
   "questions": {
     "Fluglehre_152": {
       "qid": 152,
@@ -6342,6 +6342,104 @@
         "Polyethylen (Dyneema)"
       ],
       "correct": 1
+    },
+    "Materialkunde_89": {
+      "qid": 89,
+      "topic": "Materialkunde",
+      "pos": 110,
+      "total_in_topic": 125,
+      "text": "Eine Flächenbelastung von 2,0 daN/m² (2,0 kg/m²) ist im Gleitschirmbereich an modernen Intermediate-Schirmen (bezogen auf die ausgelegte Fläche):",
+      "options": [
+        "am oberen Limit.",
+        "zu tief.",
+        "am unteren Limit.",
+        "normal."
+      ],
+      "correct": 1
+    },
+    "Materialkunde_95": {
+      "qid": 95,
+      "topic": "Materialkunde",
+      "pos": 112,
+      "total_in_topic": 125,
+      "text": "Um eine möglichst aufrechte Körperhaltung zu gewährleisten, liegt die Verbindung zwischen Rettungsschirmleine und Gurtzeug",
+      "options": [
+        "auf der Rückseite des Piloten und hoch.",
+        "auf der Vorderseite des Piloten und tief.",
+        "auf der Vorderseite des Piloten und hoch.",
+        "auf der Rückseite des Piloten und tief."
+      ],
+      "correct": 0
+    },
+    "Materialkunde_15": {
+      "qid": 15,
+      "topic": "Materialkunde",
+      "pos": 114,
+      "total_in_topic": 125,
+      "text": "Die Qualität der Beschichtung wird wesentlich in Mitleidenschaft gezogen durch",
+      "options": [
+        "Reibung mit anderen Materialien wie Sand, Steine, Salz usw.",
+        "Lagern des Geräts in möglichst trockenem Zustand in einem kühlen Raum.",
+        "konsequentes Lagern des Geräts an einem dunklen, vor der Sonne geschützten Platz.",
+        "Reinigung des Geräts mit kaltem Wasser."
+      ],
+      "correct": 0
+    },
+    "Materialkunde_55": {
+      "qid": 55,
+      "topic": "Materialkunde",
+      "pos": 116,
+      "total_in_topic": 125,
+      "text": "Ein Pilot stellt am Startplatz fest, dass eine B-Leine des Geräts gerissen ist. Wie verhält er sich richtig? Er",
+      "options": [
+        "sollte nicht mehr fliegen, bevor die defekte Leine ersetzt ist.",
+        "entfernt die gerissene B-Leine und fliegt ohne sie.",
+        "verknüpft die beiden Enden der defekten Leine mit einem Spierenstich.",
+        "verknüpft ein kurzes Stück Leine oder Schnur mit beiden Enden der defekten Leine, so dass die so \"reparierte\" Leine keinesfalls kürzer aber auch nicht merklich länger als die benachbarte B-Leine ist."
+      ],
+      "correct": 0
+    },
+    "Materialkunde_118": {
+      "qid": 118,
+      "topic": "Materialkunde",
+      "pos": 118,
+      "total_in_topic": 125,
+      "text": "Das Hoch über Mitteleuropa wird allmählich flach. In der Schweiz muss damit gerechnet werden, dass die Anzeige eines am Morgen justiertes Altimeter am Nachmittag",
+      "options": [
+        "zu hoch ist.",
+        "zu tief ist.",
+        "je nach Temperatur zu hoch oder zu tief ist.",
+        "nach wie vor richtig ist."
+      ],
+      "correct": 0
+    },
+    "Materialkunde_109": {
+      "qid": 109,
+      "topic": "Materialkunde",
+      "pos": 119,
+      "total_in_topic": 125,
+      "text": "Handschuhe sollten beim Gleitschirmfliegen",
+      "options": [
+        "möglichst dünn sein, um nicht unnötig das Feeling zu vermindern und den Luftwiderstand zu erhöhen.",
+        "nur wenn unbedingt nötig getragen werden, da sie das Gefühl des Piloten für die Bremsstellung vermindern.",
+        "nur im Winter und in grosser Höhe zum Schutz gegen die Kälte getragen werden.",
+        "zum Schutz der Hände vor Verletzungen grundsätzlich immer getragen werden."
+      ],
+      "correct": 3
+    },
+    "Materialkunde_54": {
+      "qid": 54,
+      "topic": "Materialkunde",
+      "pos": 120,
+      "total_in_topic": 125,
+      "text": "Wie kann sich das Verhalten eines Geräts verändern, wenn sich die D-Leinen verkürzen oder verkürzt werden?",
+      "options": [
+        "Das Gerät lässt sich leichter aufziehen, fliegt wegen des kleineren Anstellwinkels langsamer, die Tendenz zu Frontklappern und zum Sackflug nimmt zu.",
+        "Das Gerät lässt sich leichter aufziehen, fliegt wegen des kleineren Anstellwinkels schneller, die Tendenz zu Frontklappern nimmt zu, die Neigung zum Sackflug nimmt ab.",
+        "Das Gerät lässt sich schwerer aufziehen, braucht wegen des tieferen Schwerpunkts grössere aber weniger kraftvolle Steuerausschläge, setzt beim Landen die Geschwindigkeit besser in Höhe um.",
+        "Das Gerät lässt sich schwerer aufziehen, fliegt wegen des grösseren Anstellwinkels langsamer, die Tendenz zu Frontklappern nimmt ab, die Neigung zum Sackflug nimmt zu."
+      ],
+      "correct": 3
     }
   },
   "topics": {
