@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-05-29T09:24:41.761Z",
+  "fetchedAt": "2026-05-29T09:25:12.810Z",
   "questions": {
     "Fluglehre_152": {
       "qid": 152,
@@ -2146,16 +2146,16 @@
     "Wetterkunde_68": {
       "qid": 68,
       "topic": "Wetterkunde",
-      "pos": 4,
+      "pos": 27,
       "total_in_topic": 164,
       "text": "In einem Tiefdruckgebiet auf der nördlichen Halbkugel",
       "options": [
         "drehen sich die Luftmassen im Uhrzeigersinn um dessen Zentrum und sinken grossräumig ab.",
+        "drehen sich die Luftmassen im Uhrzeigersinn um dessen Zentrum und steigen grossräumig auf.",
         "drehen sich die Luftmassen im Gegenuhrzeigersinn um dessen Zentrum und steigen grossräumig auf.",
-        "drehen sich die Luftmassen im Gegenuhrzeigersinn um dessen Zentrum und sinken grossräumig ab.",
-        "drehen sich die Luftmassen im Uhrzeigersinn um dessen Zentrum und steigen grossräumig auf."
+        "drehen sich die Luftmassen im Gegenuhrzeigersinn um dessen Zentrum und sinken grossräumig ab."
       ],
-      "correct": 1
+      "correct": null
     },
     "Wetterkunde_88": {
       "qid": 88,
@@ -2790,16 +2790,16 @@
     "Wetterkunde_151": {
       "qid": 151,
       "topic": "Wetterkunde",
-      "pos": 62,
+      "pos": 19,
       "total_in_topic": 164,
       "text": "Wie ist die Windrichtung in Algier (Alger)?",
       "options": [
+        "100°",
         "280°",
-        "190°",
         "320°",
-        "100°"
+        "190°"
       ],
-      "correct": 0
+      "correct": null
     },
     "Wetterkunde_59": {
       "qid": 59,
@@ -2916,16 +2916,16 @@
     "Wetterkunde_25": {
       "qid": 25,
       "topic": "Wetterkunde",
-      "pos": 73,
+      "pos": 24,
       "total_in_topic": 164,
       "text": "Inversion und Isothermie sind",
       "options": [
         "labil geschichtete Bestandteile der Troposphäre.",
-        "Ursprung und Auslöser thermisch aufsteigender Luft.",
         "je nach Temperatur stabil oder labil.",
+        "Ursprung und Auslöser thermisch aufsteigender Luft.",
         "Sperrschichten für thermisch aufsteigende Luftmassen."
       ],
-      "correct": 3
+      "correct": null
     },
     "Wetterkunde_145": {
       "qid": 145,
@@ -8484,6 +8484,90 @@
         "998,75 hPa"
       ],
       "correct": 2
+    },
+    "Wetterkunde_154": {
+      "qid": 154,
+      "topic": "Wetterkunde",
+      "pos": 20,
+      "total_in_topic": 164,
+      "text": "Wie ist die Windrichtung in Zürich?",
+      "options": [
+        "280°",
+        "030°",
+        "100°",
+        "210°"
+      ],
+      "correct": 3
+    },
+    "Wetterkunde_35": {
+      "qid": 35,
+      "topic": "Wetterkunde",
+      "pos": 25,
+      "total_in_topic": 164,
+      "text": "Welche Veränderung des Aggregatzustands eines Stoffes benötigt Energie in Form von Wärme?",
+      "options": [
+        "Übergang vom gasförmigen in den festen Zustand",
+        "Übergang vom flüssigen in den gasförmigen Zustand",
+        "Übergang vom flüssigen in den festen Zustand",
+        "Übergang vom gasförmigen in den flüssigen Zustand"
+      ],
+      "correct": 1
+    },
+    "Wetterkunde_57": {
+      "qid": 57,
+      "topic": "Wetterkunde",
+      "pos": 28,
+      "total_in_topic": 164,
+      "text": "Welche der folgenden Wolkenarten ist für in ihrer weiteren Umgebung fliegende Hängegleiter die gefährlichste?",
+      "options": [
+        "Cirrocumulus",
+        "Stratocumulus",
+        "Cumulus humilis",
+        "Cumulonimbus"
+      ],
+      "correct": 3
+    },
+    "Wetterkunde_113": {
+      "qid": 113,
+      "topic": "Wetterkunde",
+      "pos": 29,
+      "total_in_topic": 164,
+      "text": "Welches sind die günstigsten Voraussetzungen für eine Nordföhnlage im Tessin?",
+      "options": [
+        "Die Cirrostratusdecke einer herannahenden Warmfront erreicht die Schweiz",
+        "Die Schweiz befindet sich im Warmsektor, eine Kaltfront erreicht den Jura.",
+        "Die Schweiz befindet sich auf der Rückseite einer Kaltfront, aus Nordwesten wird mässig feuchte Kaltluft gegen die Alpen geführt.",
+        "Über einer Bisenströmung wird mit einer südwestlichen Höhenströmung Warmluft zu den Alpen geführt."
+      ],
+      "correct": 2
+    },
+    "Wetterkunde_112": {
+      "qid": 112,
+      "topic": "Wetterkunde",
+      "pos": 30,
+      "total_in_topic": 164,
+      "text": "Bei welcher der folgenden Wetterlagen ist in den Alpentälern am ehesten mit Südföhn zu rechnen?",
+      "options": [
+        "Die Cirrostratusbewölkung einer herannahenden Warmfront beginnt den Himmel über der Schweiz zu überziehen.",
+        "Über einer Bisenströmung wird mit einer südwestlichen Höhenströmung Warmluft zu den Alpen geführt.",
+        "Die Schweiz befindet sich auf der Rückseite einer Kaltfront, aus Nordwesten wird mässig feuchte Kaltluft gegen die Alpen geführt.",
+        "Die Schweiz befindet sich im Warmsektor, eine Kaltfront erreicht den Jura."
+      ],
+      "correct": 3
+    },
+    "Wetterkunde_87": {
+      "qid": 87,
+      "topic": "Wetterkunde",
+      "pos": 33,
+      "total_in_topic": 164,
+      "text": "Bei Bergwind sind thermisch bedingte Aufwinde",
+      "options": [
+        "vor allem in der Talmitte zu finden.",
+        "vor allem im oberen Bereich der Talflanken zu finden.",
+        "weder in der Talmitte noch im oberen Bereich der Talflanken zu finden.",
+        "sowohl in der Talmitte als auch im oberen Bereich der Talflanken zu finden."
+      ],
+      "correct": 0
     }
   },
   "topics": {
