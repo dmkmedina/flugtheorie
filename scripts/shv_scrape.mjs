@@ -1,10 +1,6 @@
-// SHV elearning scraper — iterates the 5 paraglider subjects on the
-// dashboard, scoping each quiz to a single subject by toggling the
-// dashboard checkboxes before clicking Start. For each question:
-// select option 0, click `>` to commit, click `<` to read the
-// btn-success / btn-danger colours, record the correct option, then `>`
-// again to advance. Bails on a topic after 30 consecutive duplicate
-// qids.
+// SHV elearning scraper — supports both --lang En and --lang De passes.
+// English outputs land in data/shv_questions.json, German in
+// data/shv_questions.de.json.
 //
 // Output: data/shv_questions.json (merged across runs).
 // Authorized for personal study use only.
@@ -16,16 +12,20 @@ import { chromium } from 'playwright';
 import { readFileSync, writeFileSync, existsSync } from 'node:fs';
 
 const SUBJECTS = [
-  { id: 'S1', label: 'Aerodynamics' },
-  { id: 'S2', label: 'Weather' },
-  { id: 'S3', label: 'Legislation' },
-  { id: 'S4', label: 'Materials' },
-  { id: 'S5', label: 'Practical Flying' },
+  { id: 'S1', label_en: 'Aerodynamics',     label_de: 'Aerodynamik' },
+  { id: 'S2', label_en: 'Weather',          label_de: 'Wetter' },
+  { id: 'S3', label_en: 'Legislation',      label_de: 'Luftrecht' },
+  { id: 'S4', label_en: 'Materials',        label_de: 'Material' },
+  { id: 'S5', label_en: 'Practical Flying', label_de: 'Flugpraxis' },
 ];
+const labelFor = (subj) => subj[`label_${LANG.toLowerCase()}`] || subj.label_en;
 
 const args = process.argv.slice(2);
 const ONLY_SUBJECT = args.includes('--subject') ? args[args.indexOf('--subject') + 1] : null;
-const OUT = '/home/user/flugtheorie/data/shv_questions.json';
+const LANG = args.includes('--lang') ? args[args.indexOf('--lang') + 1] : 'En';  // 'En' | 'De' | 'Fr' | 'It'
+const OUT = LANG === 'En'
+  ? '/home/user/flugtheorie/data/shv_questions.json'
+  : `/home/user/flugtheorie/data/shv_questions.${LANG.toLowerCase()}.json`;
 
 let dataset = existsSync(OUT)
   ? JSON.parse(readFileSync(OUT, 'utf8'))
@@ -44,7 +44,7 @@ async function login(page) {
   await page.locator('input#shv').fill('72627');
   await page.locator('input#password').fill('3tDWqKYVDxHW');
   await page.locator('label[for="typeParaglider"]').click({ force: true });
-  await page.locator('label[for="lngEn"]').click({ force: true });
+  await page.locator(`label[for="lng${LANG}"]`).click({ force: true });
   await Promise.all([page.waitForLoadState('networkidle').catch(() => {}), page.locator('button[type="submit"]').click()]);
   await page.waitForTimeout(2500);
 }
@@ -161,7 +161,7 @@ async function startNewSession(targetSubject) {
 }
 
 async function scrapeOneSubject(targetSubject) {
-  console.error(`\n=== Scraping ${targetSubject.label} (subject ${targetSubject.id}) ===`);
+  console.error(`\n=== Scraping ${labelFor(targetSubject)} (subject ${targetSubject.id}) ===`);
   let { ctx: freshCtx, page } = await startNewSession(targetSubject);
 
   let consecutiveDupes = 0;
@@ -175,8 +175,8 @@ async function scrapeOneSubject(targetSubject) {
       await page.waitForTimeout(1000);
       continue;
     }
-    if (s.topic !== targetSubject.label && step > 5) {
-      console.error(`[${targetSubject.label}] topic flipped to ${s.topic} unexpectedly — stopping`);
+    if (s.topic !== labelFor(targetSubject) && step > 5) {
+      console.error(`[${labelFor(targetSubject)}] topic flipped to ${s.topic} unexpectedly — stopping`);
       break;
     }
     const key = `${s.topic}#${s.qid}`;
@@ -188,15 +188,15 @@ async function scrapeOneSubject(targetSubject) {
         // open a fresh session (logout + relogin) which resets the
         // "already answered" state and serves the questions we haven't
         // seen yet.
-        const haveForTopic = Object.values(dataset.questions).filter(q => q.topic === targetSubject.label).length;
-        const totalForTopic = dataset.topics[targetSubject.label];
-        console.error(`[${targetSubject.label}] session ${sessionsUsed} exhausted: have ${haveForTopic}/${totalForTopic} after +${captured}`);
+        const haveForTopic = Object.values(dataset.questions).filter(q => q.topic === labelFor(targetSubject)).length;
+        const totalForTopic = dataset.topics[labelFor(targetSubject)];
+        console.error(`[${labelFor(targetSubject)}] session ${sessionsUsed} exhausted: have ${haveForTopic}/${totalForTopic} after +${captured}`);
         if (totalForTopic && haveForTopic >= totalForTopic) {
-          console.error(`[${targetSubject.label}] full coverage reached`);
+          console.error(`[${labelFor(targetSubject)}] full coverage reached`);
           break;
         }
         if (sessionsUsed >= 12) {
-          console.error(`[${targetSubject.label}] 12 sessions used — giving up (${haveForTopic}/${totalForTopic})`);
+          console.error(`[${labelFor(targetSubject)}] 12 sessions used — giving up (${haveForTopic}/${totalForTopic})`);
           break;
         }
         await page.close().catch(() => {});
@@ -205,7 +205,7 @@ async function scrapeOneSubject(targetSubject) {
         sessionsUsed++;
         consecutiveDupes = 0;
         captured = 0;  // reset per-session counter for clarity
-        console.error(`[${targetSubject.label}] opened session ${sessionsUsed}`);
+        console.error(`[${labelFor(targetSubject)}] opened session ${sessionsUsed}`);
         continue;
       }
       await pressForward(page);
@@ -223,7 +223,7 @@ async function scrapeOneSubject(targetSubject) {
     }
     const correctIdx = s.options.findIndex(o => o.isCorrect);
     if (correctIdx === -1) {
-      console.error(`[${targetSubject.label}] qid=${s.qid}: no green — recording unknown, attempting to advance`);
+      console.error(`[${labelFor(targetSubject)}] qid=${s.qid}: no green — recording unknown, attempting to advance`);
       const stuckQid = s.qid;
       dataset.questions[`${s.topic}_${s.qid}`] = {
         qid: s.qid, topic: s.topic, pos: s.pos, total_in_topic: s.total,
@@ -255,7 +255,7 @@ async function scrapeOneSubject(targetSubject) {
         console.error(`  escape ${attempt + 1} did not change qid (still ${after.qid})`);
       }
       if (!escaped) {
-        console.error(`[${targetSubject.label}] all escapes failed past qid=${stuckQid} — bailing`);
+        console.error(`[${labelFor(targetSubject)}] all escapes failed past qid=${stuckQid} — bailing`);
         break;
       }
       continue;
@@ -275,7 +275,7 @@ async function scrapeOneSubject(targetSubject) {
     captured++;
 
     if (captured % 5 === 0) {
-      console.error(`[${targetSubject.label}] +${captured} new · pos=${s.pos}/${s.total} · qid=${s.qid} correct=${correctIdx}`);
+      console.error(`[${labelFor(targetSubject)}] +${captured} new · pos=${s.pos}/${s.total} · qid=${s.qid} correct=${correctIdx}`);
     }
     if (Date.now() - lastSave > 30_000) {
       dataset.fetchedAt = new Date().toISOString();
@@ -293,7 +293,7 @@ async function scrapeOneSubject(targetSubject) {
 
 // --- Main loop
 const toScrape = ONLY_SUBJECT
-  ? SUBJECTS.filter(s => s.label === ONLY_SUBJECT)
+  ? SUBJECTS.filter(s => s.label_en === ONLY_SUBJECT || s.label_de === ONLY_SUBJECT)
   : SUBJECTS;
 
 for (const subj of toScrape) {

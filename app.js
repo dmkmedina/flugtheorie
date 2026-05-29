@@ -107,8 +107,15 @@ const PART_TO_CATEGORY = {
 
 function getCards() { return window.CARDS || []; }
 function getSHVQuestions() {
+  if (state.lang === 'de' && window.SHV_QUESTIONS_DE && window.SHV_QUESTIONS_DE.questions) {
+    const de = window.SHV_QUESTIONS_DE.questions;
+    if (Object.keys(de).length) return de;
+  }
   const pool = window.SHV_QUESTIONS && window.SHV_QUESTIONS.questions;
   return pool && Object.keys(pool).length ? pool : null;
+}
+function hasGermanSHV() {
+  return !!(window.SHV_QUESTIONS_DE && window.SHV_QUESTIONS_DE.questions && Object.keys(window.SHV_QUESTIONS_DE.questions).length);
 }
 function getSHVTopics() {
   const t = (window.SHV_QUESTIONS && window.SHV_QUESTIONS.topics) || {};
@@ -123,6 +130,9 @@ function getSHVQuestionsByTopic() {
   return byTopic;
 }
 function getSHVEnrichments() {
+  if (state.lang === 'de' && window.SHV_ENRICHMENTS_DE && window.SHV_ENRICHMENTS_DE.enrichments) {
+    return window.SHV_ENRICHMENTS_DE.enrichments;
+  }
   return (window.SHV_ENRICHMENTS && window.SHV_ENRICHMENTS.enrichments) || {};
 }
 function getSHVEnrichmentFor(qid) {
@@ -131,6 +141,9 @@ function getSHVEnrichmentFor(qid) {
   return e[qid] || e[String(qid)] || null;
 }
 function getSHVSubcategories() {
+  if (state.lang === 'de' && window.SHV_ENRICHMENTS_DE && window.SHV_ENRICHMENTS_DE.subcategories) {
+    return window.SHV_ENRICHMENTS_DE.subcategories;
+  }
   return (window.SHV_ENRICHMENTS && window.SHV_ENRICHMENTS.subcategories) || {};
 }
 function getSHVSubcategoriesForTopic(topic) {
@@ -151,7 +164,15 @@ function getAllVideos() { return getVideoDecks().flatMap(d => d.videos || []); }
 function getVideoById(id) { return getAllVideos().find(v => v.id === id) || null; }
 function getVideoDeck(deckId) { return getVideoDecks().find(d => d.id === deckId) || null; }
 function getDiagrams() { return (window.DIAGRAMS && window.DIAGRAMS.diagrams) || []; }
-function getWorkbook() { return (window.WORKBOOK && window.WORKBOOK.books) || []; }
+function getWorkbook() {
+  if (state.lang === 'de' && window.WORKBOOK_DE && window.WORKBOOK_DE.books && window.WORKBOOK_DE.books.length) {
+    return window.WORKBOOK_DE.books;
+  }
+  return (window.WORKBOOK && window.WORKBOOK.books) || [];
+}
+function hasGermanWorkbook() {
+  return !!(window.WORKBOOK_DE && window.WORKBOOK_DE.books && window.WORKBOOK_DE.books.length);
+}
 function getBookById(id) { return getWorkbook().find(b => b.id === id); }
 function getChapterById(bookId, chapterId) {
   const b = getBookById(bookId);
@@ -3378,6 +3399,18 @@ function render() {
   const themeBtn = document.getElementById('theme-toggle');
   themeBtn.innerHTML = state.theme === 'dark' ? '🌙 Dark' : state.theme === 'light' ? '☀️ Light' : '🖥 Auto theme';
 
+  // language indicator (disabled when no German data is loaded)
+  const langBtn = document.getElementById('lang-toggle');
+  if (langBtn) {
+    const deAvail = hasGermanSHV() || hasGermanWorkbook();
+    langBtn.innerHTML = state.lang === 'de' ? '🇩🇪 Deutsch' : '🇬🇧 English';
+    langBtn.disabled = !deAvail && state.lang === 'en';
+    langBtn.title = deAvail
+      ? `Switch to ${state.lang === 'de' ? 'English' : 'Deutsch'}`
+      : 'German content not yet loaded — workbook + SHV scrape still in progress';
+    langBtn.style.opacity = (!deAvail && state.lang === 'en') ? '0.55' : '1';
+  }
+
   // content
   const app = document.getElementById('app');
   let html = '';
@@ -3433,6 +3466,15 @@ function init() {
   // Theme toggle
   document.getElementById('theme-toggle').onclick = () => {
     state.theme = state.theme === 'auto' ? 'light' : state.theme === 'light' ? 'dark' : 'auto';
+    saveState();
+    render();
+  };
+
+  // Language toggle (en ↔ de) — only does anything when German data is loaded
+  const langBtn = document.getElementById('lang-toggle');
+  if (langBtn) langBtn.onclick = () => {
+    if (!hasGermanSHV() && !hasGermanWorkbook()) return;  // disabled state
+    state.lang = state.lang === 'de' ? 'en' : 'de';
     saveState();
     render();
   };
