@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-05-29T09:18:54.740Z",
+  "fetchedAt": "2026-05-29T09:19:26.339Z",
   "questions": {
     "Fluglehre_152": {
       "qid": 152,
@@ -7728,6 +7728,132 @@
         "Den Gegen- als Queranflug betrachten und quer zum Wind landen."
       ],
       "correct": 1
+    },
+    "Flugpraxis_78": {
+      "qid": 78,
+      "topic": "Flugpraxis",
+      "pos": 112,
+      "total_in_topic": 169,
+      "text": "Ein Gleitschirm befindet sich im Endanflug 10 m über Grund im stabilen Sackflug. Wie ist zu reagieren?",
+      "options": [
+        "Das Gerät im Sackflug belassen, sich aufrichten und ca. 4 m über Grund beide Bremsen voll durchziehen.",
+        "Das Rettungssystem auslösen.",
+        "Sofort an den vordersten Traggurten ziehen.",
+        "Das Gerät im Sackflug belassen, sich aufrichten und mittels Landefalltechnik landen."
+      ],
+      "correct": 3
+    },
+    "Flugpraxis_80": {
+      "qid": 80,
+      "topic": "Flugpraxis",
+      "pos": 113,
+      "total_in_topic": 169,
+      "text": "Welche Konsequenzen kann es haben, wenn ein Gleitschirm im Kurvenflug zu stark angebremst wird?",
+      "options": [
+        "Das Gerät klappt frontal ein, wobei die Flügelenden die Schirmmitte überholen können, so dass das Gerät zusammenklappt.",
+        "Das Gerät geht in eine immer steiler werdende Spirale über.",
+        "Die Strömung reisst einseitig ab, das Gerät dreht über die abgerissene Seite weg und beginnt zu trudeln.",
+        "Die Strömung reisst ab und das Gerät geht in einen Sackflug über."
+      ],
+      "correct": 2
+    },
+    "Flugpraxis_92": {
+      "qid": 92,
+      "topic": "Flugpraxis",
+      "pos": 114,
+      "total_in_topic": 169,
+      "text": "Der Begriff \"Steilspirale\" steht für",
+      "options": [
+        "schnelle Kurvenwechsel, wobei das Gerät zeitweise über 90° Querneigung aufweist.",
+        "das Verdrehen der Traggurten und Leinen, hervorgerufen durch schnelles Drehen der Kalotte um die Hochachse, wobei der Pilot wegen der Massenträgheit der Bewegung nicht zu folgen vermag.",
+        "ein schnelles Drehen des Geräts um die Hochachse, wobei die eine Flügelhälfte vorwärts, die andere rückwärts dreht.",
+        "sehr enges Kreisen, wobei das Lastenvielfache durch die auftretende Fliehkraft markant zunimmt."
+      ],
+      "correct": 3
+    },
+    "Flugpraxis_136": {
+      "qid": 136,
+      "topic": "Flugpraxis",
+      "pos": 115,
+      "total_in_topic": 169,
+      "text": "Ein Gleitschirm hängt nach einer Baumlandung in der Krone. Auf welche Weise kann vermieden werden, dass das Gerät beim Herunternehmen beschädigt wird?",
+      "options": [
+        "Ein langes Seil am Gurtzeug befestigen und aus möglichst grosser Entfernung vom Baum den Schirm horizontal von der Krone ziehen.",
+        "Die Leinenschlösser und die Knoten der Bremsschlaufen lösen.",
+        "Den Gleitschirm durch einen Hubschrauber bergen lassen.",
+        "Die Verbindung zwischen Gurtzeug und Traggurten lösen."
+      ],
+      "correct": 1
+    },
+    "Flugpraxis_54": {
+      "qid": 54,
+      "topic": "Flugpraxis",
+      "pos": 116,
+      "total_in_topic": 169,
+      "text": "Ein Gleitschirmpilot befindet sich auf dem Flug zum Landeplatz, der genau südlich seiner Position liegt. Er bemerkt, dass ein mässiger Westwind von 0 km/h weht und orientiert das Gerät immer genau Richtung Süden. Welches ist der Flugweg? 12",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "correct": 2
+    },
+    "Flugpraxis_57": {
+      "qid": 57,
+      "topic": "Flugpraxis",
+      "pos": 118,
+      "total_in_topic": 169,
+      "text": "Der Vorhaltewinkel wird",
+      "options": [
+        "mit zunehmendem Seitenwind vergrössert.",
+        "mit zunehmendem Seitenwind verkleinert.",
+        "durch die Stärke nicht aber die Richtung des Seitenwinds beeinflusst.",
+        "durch die Richtung nicht aber die Stärke des Seitenwinds beeinflusst."
+      ],
+      "correct": 0
+    },
+    "Flugpraxis_116": {
+      "qid": 116,
+      "topic": "Flugpraxis",
+      "pos": 119,
+      "total_in_topic": 169,
+      "text": "Die folgenden vier Skizzen zeigen einen Standardlandeanflug bei Windstille (gestrichelt) und eine in der Praxis den Umständen angepasste Landevolte (ausgezogen). Welche Art des Anflugs ist bei einem Wind von 5-0 km/h zu wählen? 123",
+      "options": [
+        "1",
+        "2",
+        "4",
+        "3"
+      ],
+      "correct": 3
+    },
+    "Flugpraxis_21": {
+      "qid": 21,
+      "topic": "Flugpraxis",
+      "pos": 120,
+      "total_in_topic": 169,
+      "text": "Im Startgelände weht ein konstanter Aufwind von 15 km/h. Womit ist bezüglich Startstrecke und -geschwindigkeit zu rechnen?",
+      "options": [
+        "Die Startstrecke ist kurz, die Laufgeschwindigkeit hoch.",
+        "Die Startstrecke ist lang, die Laufgeschwindigkeit niedrig.",
+        "Die Startstrecke ist kurz, die Laufgeschwindigkeit niedrig.",
+        "Die Startstrecke ist lang, die Laufgeschwindigkeit hoch."
+      ],
+      "correct": 2
+    },
+    "Flugpraxis_161": {
+      "qid": 161,
+      "topic": "Flugpraxis",
+      "pos": 121,
+      "total_in_topic": 169,
+      "text": "Nach dem Start bemerke ich einen Helikopter, der in Richtung Landeplatz rund 500 Meter vor mir und leicht tiefer an Ort und Stelle schwebt. Wie verhalte ich mich richtig?",
+      "options": [
+        "Ich mache eine Umkehrkurve von 180° und lande am nächsten geeigneten Ort am Hang.",
+        "Ich mache mich durch Schaukeln des Schirms bemerkbar und behalte meine Flugrichtung bei. Der Helikopter muss mir ausweichen.",
+        "Ich fliege so nah wie möglich, jedoch nicht näher als 100 Meter am Helikopter vorbei, um möglichst wenig Höhe bis zum Landeplatz zu verlieren.",
+        "Ich umfliege den Helikopter grossräumig, halte einen Abstand von mindestens 500 Metern und lande an einem anderen Landeplatz, sofern gefahrlos möglich."
+      ],
+      "correct": 3
     }
   },
   "topics": {
