@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-05-29T09:26:16.174Z",
+  "fetchedAt": "2026-05-29T09:26:47.488Z",
   "questions": {
     "Fluglehre_152": {
       "qid": 152,
@@ -2160,7 +2160,7 @@
     "Wetterkunde_88": {
       "qid": 88,
       "topic": "Wetterkunde",
-      "pos": 5,
+      "pos": 62,
       "total_in_topic": 164,
       "text": "Der Talwind entsteht, weil sich die Luft",
       "options": [
@@ -2169,7 +2169,7 @@
         "tagsüber im Gebirge schneller erwärmt als im Flachland.",
         "bei nachlassender Sonneneinstrahlung im Gebirge schneller abkühlt als im Flachland."
       ],
-      "correct": 2
+      "correct": null
     },
     "Wetterkunde_61": {
       "qid": 61,
@@ -2734,16 +2734,16 @@
     "Wetterkunde_114": {
       "qid": 114,
       "topic": "Wetterkunde",
-      "pos": 57,
+      "pos": 70,
       "total_in_topic": 164,
       "text": "Welche Voraussetzung begünstigt das Entstehen einer Föhnlage in den Alpentälern?",
       "options": [
-        "Ein geringes Druckgefälle zwischen Alpennord- und Alpensüdseite.",
         "Ein grosses Druckgefälle zwischen Alpennord- und Alpensüdseite.",
+        "Ein geringes Druckgefälle zwischen Alpennord- und Alpensüdseite.",
         "Ein ausgeprägtes Tief mit Zentrum über dem Alpenraum.",
         "Ein ausgeprägtes Hoch mit Zentrum über dem Alpenraum."
       ],
-      "correct": 1
+      "correct": null
     },
     "Wetterkunde_163": {
       "qid": 163,
@@ -8764,6 +8764,76 @@
         "immer wenn ein aufsteigendes Luftpaket auf eine Inversion trifft."
       ],
       "correct": 1
+    },
+    "Wetterkunde_60": {
+      "qid": 60,
+      "topic": "Wetterkunde",
+      "pos": 63,
+      "total_in_topic": 164,
+      "text": "Welches ist ein aus der Ferne sichtbares Anzeichen dafür, dass eine Cumulus Congestus- oder Cumulonimbuswolke Niederschläge verursacht?",
+      "options": [
+        "Die vertikale Ausdehnung der Wolke ist grösser als deren horizontale Ausdehnung.",
+        "Die Wolkenbasis ist schwarz gefärbt.",
+        "Von der Wolkenbasis zieht sich ein grauer Vorhang Richtung Erdoberfläche.",
+        "Zwischen der Wolkenbasis und der Erdoberfläche bilden sich graue Nebelfetzen, die nach oben gerichtet sind."
+      ],
+      "correct": 2
+    },
+    "Wetterkunde_39": {
+      "qid": 39,
+      "topic": "Wetterkunde",
+      "pos": 66,
+      "total_in_topic": 164,
+      "text": "Der Begriff \"Taupunkt\" steht in der Meteorologie für",
+      "options": [
+        "die Temperatur, auf welche sich Luft abkühlen muss, damit der enthaltene Wasserdampf zu kondensieren beginnt.",
+        "den relativen Feuchtegehalt der Luft",
+        "den Grad der nächtlichen Bodenabstrahlung, der die Luftfeuchte am kalten Boden kondensieren lässt.",
+        "den Feuchtigkeitsgehalt der Luft beim Erreichen der Kondensationstemperatur."
+      ],
+      "correct": 0
+    },
+    "Wetterkunde_159": {
+      "qid": 159,
+      "topic": "Wetterkunde",
+      "pos": 69,
+      "total_in_topic": 164,
+      "text": "Welche der folgenden Städte befinden sich unter Hochdruckeinfluss?",
+      "options": [
+        "Lissabon und Athen",
+        "Lulea und St.Petersburg",
+        "Zürich und Stockholm",
+        "Paris und London"
+      ],
+      "correct": 0
+    },
+    "Wetterkunde_131": {
+      "qid": 131,
+      "topic": "Wetterkunde",
+      "pos": 71,
+      "total_in_topic": 164,
+      "text": "Wodurch wird eine Bodeninversion zum Verschwinden gebracht?",
+      "options": [
+        "Durch Warmluftzufuhr in den höheren Luftschichten.",
+        "Durch die Erwärmung der bodennahen Luftschichten im Laufe des Tages.",
+        "Durch die nächtliche Abstrahlung des Bodens bei klarem Himmel.",
+        "Durch absinkende Warmluft auf der Vorderseite und im Zentrum eines Hochs."
+      ],
+      "correct": 1
+    },
+    "Wetterkunde_29": {
+      "qid": 29,
+      "topic": "Wetterkunde",
+      "pos": 75,
+      "total_in_topic": 164,
+      "text": "Welches der folgenden Anzeichen lässt auf das Vorhandensein einer Inversion schliessen?",
+      "options": [
+        "Ein Nebelmeer.",
+        "Ein Cumulonimbus.",
+        "Ein Cirrus.",
+        "Ein Lenticularis."
+      ],
+      "correct": 0
     }
   },
   "topics": {
