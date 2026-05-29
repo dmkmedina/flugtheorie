@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-05-29T09:27:49.353Z",
+  "fetchedAt": "2026-05-29T09:28:20.352Z",
   "questions": {
     "Fluglehre_152": {
       "qid": 152,
@@ -2524,16 +2524,16 @@
     "Wetterkunde_52": {
       "qid": 52,
       "topic": "Wetterkunde",
-      "pos": 38,
+      "pos": 112,
       "total_in_topic": 164,
       "text": "Welche der folgenden Wolkenarten hat ihre Basis entschieden höher als die anderen drei?",
       "options": [
-        "Stratocumulus",
-        "Cumulus",
+        "Cumulonimbus",
         "Cirrocumulus",
-        "Cumulonimbus"
+        "Stratocumulus",
+        "Cumulus"
       ],
-      "correct": 2
+      "correct": null
     },
     "Wetterkunde_97": {
       "qid": 97,
@@ -2650,16 +2650,16 @@
     "Wetterkunde_109": {
       "qid": 109,
       "topic": "Wetterkunde",
-      "pos": 50,
+      "pos": 106,
       "total_in_topic": 164,
       "text": "Welche Wolkenkonstellation ist in ihrer Reihenfolge typisch für den Durchgang einer Warmfront?",
       "options": [
-        "Cumulus, Cumulus congestus, Cumulus calvus, Cumulonimbus.",
-        "Altocumulus, Stratocumulus, Altostratus, Nimbostratus.",
+        "Lenticularis, Cumulus congestus, Cirrocumulus, Altocumulus.",
         "Cirrus, Cirrostratus, Altostratus, Nimbostratus.",
-        "Lenticularis, Cumulus congestus, Cirrocumulus, Altocumulus."
+        "Altocumulus, Stratocumulus, Altostratus, Nimbostratus.",
+        "Cumulus, Cumulus congestus, Cumulus calvus, Cumulonimbus."
       ],
-      "correct": 2
+      "correct": null
     },
     "Wetterkunde_65": {
       "qid": 65,
@@ -2762,16 +2762,16 @@
     "Wetterkunde_128": {
       "qid": 128,
       "topic": "Wetterkunde",
-      "pos": 59,
+      "pos": 116,
       "total_in_topic": 164,
       "text": "Mit welchem Wind muss in den Alpentälern des Tessins gerechnet werden, wenn sich das Azorenhoch gegen Mitteleuropa ausdehnt?",
       "options": [
         "Südwind",
-        "Westwind",
+        "Bise",
         "Nordföhn",
-        "Bise"
+        "Westwind"
       ],
-      "correct": 2
+      "correct": null
     },
     "Wetterkunde_58": {
       "qid": 58,
@@ -9030,6 +9030,104 @@
         "von Dezember bis April stärker als von Juli bis September."
       ],
       "correct": 1
+    },
+    "Wetterkunde_14": {
+      "qid": 14,
+      "topic": "Wetterkunde",
+      "pos": 103,
+      "total_in_topic": 164,
+      "text": "Welcher der folgenden Böden ist der beste Wärmespender für die bodennahe Luft, wenn er von der Sonne im gleichen Winkel beschienen wird?",
+      "options": [
+        "Trockenes Wiesland.",
+        "Moorlandschaft.",
+        "Felsiger Grund.",
+        "Junger Laubwald."
+      ],
+      "correct": 0
+    },
+    "Wetterkunde_24": {
+      "qid": 24,
+      "topic": "Wetterkunde",
+      "pos": 105,
+      "total_in_topic": 164,
+      "text": "Eine Isothermie ist eine Luftschicht, in der die Temperatur",
+      "options": [
+        "konstant ist.",
+        "mit zunehmender Höhe abnimmt.",
+        "mit zunehmender Höhe zunimmt.",
+        "über dem Gefrierpunkt liegt."
+      ],
+      "correct": 0
+    },
+    "Wetterkunde_56": {
+      "qid": 56,
+      "topic": "Wetterkunde",
+      "pos": 107,
+      "total_in_topic": 164,
+      "text": "Welche der folgenden Wolkenarten lassen auf für Hängegleiter günstige thermische Aufwinde schliessen?",
+      "options": [
+        "Lenticularis",
+        "Cumulus humilis",
+        "Cirrocumulus",
+        "Cumulonimbus"
+      ],
+      "correct": 1
+    },
+    "Wetterkunde_155": {
+      "qid": 155,
+      "topic": "Wetterkunde",
+      "pos": 108,
+      "total_in_topic": 164,
+      "text": "Wie ist die Windrichtung in Lissabon?",
+      "options": [
+        "250°",
+        "190°",
+        "320°",
+        "100°"
+      ],
+      "correct": 2
+    },
+    "Wetterkunde_1": {
+      "qid": 1,
+      "topic": "Wetterkunde",
+      "pos": 113,
+      "total_in_topic": 164,
+      "text": "Luft ist ein Gemisch verschiedener Gase. Die zwei wichtigsten Bestandteile sind",
+      "options": [
+        "ca. 78% Sauerstoff und ca. 21% Stickstoff.",
+        "ca. 78% Stickstoff und ca. 21% Sauerstoff.",
+        "ca. 78% Kohlendioxid und ca. 21% Sauerstoff.",
+        "ca. 78% Sauerstoff und ca. 21% Wasserdampf."
+      ],
+      "correct": 1
+    },
+    "Wetterkunde_27": {
+      "qid": 27,
+      "topic": "Wetterkunde",
+      "pos": 117,
+      "total_in_topic": 164,
+      "text": "Der Temperaturgradient einer isothermen Schicht beträgt",
+      "options": [
+        "0,65° C / 100 m.",
+        "0,5° C / 100 m.",
+        "1° C / 100 m.",
+        "0° C / 100 m."
+      ],
+      "correct": 3
+    },
+    "Wetterkunde_69": {
+      "qid": 69,
+      "topic": "Wetterkunde",
+      "pos": 118,
+      "total_in_topic": 164,
+      "text": "In einem Hochdruckgebiet auf der nördlichen Halbkugel",
+      "options": [
+        "drehen sich die Luftmassen im Uhrzeigersinn um dessen Zentrum und sinken grossräumig ab.",
+        "drehen sich die Luftmassen im Gegenuhrzeigersinn um dessen Zentrum und steigen grossräumig auf.",
+        "drehen sich die Luftmassen im Uhrzeigersinn um dessen Zentrum und steigen grossräumig auf.",
+        "drehen sich die Luftmassen im Gegenuhrzeigersinn um dessen Zentrum und sinken grossräumig ab."
+      ],
+      "correct": 0
     }
   },
   "topics": {
