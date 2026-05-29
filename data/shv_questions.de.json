@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-05-29T08:58:27.656Z",
+  "fetchedAt": "2026-05-29T08:58:58.538Z",
   "questions": {
     "Fluglehre_152": {
       "qid": 152,
@@ -3920,6 +3920,132 @@
         "Der von links Kommende."
       ],
       "correct": 1
+    },
+    "Gesetzgebung_34": {
+      "qid": 34,
+      "topic": "Gesetzgebung",
+      "pos": 84,
+      "total_in_topic": 180,
+      "text": "Eine LS-R for gliders mit dem Zusatz „MA“ ist von März bis zum 31. Oktober",
+      "options": [
+        "nur am Morgen aktiv.",
+        "bei MIL-OFF aktiv. Bei MIL-ON kann sie auf Anfrage bei der entsprechenden Stelle aktiviert werden.",
+        "permanent aktiv.",
+        "bei MIL-OFF aktiv, bei MIL-ON inaktiv."
+      ],
+      "correct": 1
+    },
+    "Gesetzgebung_79": {
+      "qid": 79,
+      "topic": "Gesetzgebung",
+      "pos": 85,
+      "total_in_topic": 180,
+      "text": "Die Abkürzung \"TMA\" steht für",
+      "options": [
+        "Fluginformationsregion.",
+        "Nahkontrollbezirk.",
+        "Kontrollzone.",
+        "Luftstrasse."
+      ],
+      "correct": 1
+    },
+    "Gesetzgebung_115": {
+      "qid": 115,
+      "topic": "Gesetzgebung",
+      "pos": 87,
+      "total_in_topic": 180,
+      "text": "Innerhalb welcher Frist hat ein Prüfungsteilnehmer das Rekursrecht wahrzunehmen, wenn er der Meinung ist, dass der Prüfungsentscheid des Sachverständigen nicht weisungskonform zustande gekommen ist.",
+      "options": [
+        "30 Tage",
+        "12 Tage",
+        "9 Tage",
+        "14 Tage"
+      ],
+      "correct": 0
+    },
+    "Gesetzgebung_35": {
+      "qid": 35,
+      "topic": "Gesetzgebung",
+      "pos": 88,
+      "total_in_topic": 180,
+      "text": "Menschenansammlungen im Freien, Gebäude, öffentliche Strassen und Skipisten, öffentliche Transportanlagen sowie elektrische Freileitungen und andere Kabel",
+      "options": [
+        "dürfen nicht über, sondern müssen umflogen werden.",
+        "müssen in einem Abstand von mindestens 60 m über- oder umflogen werden.",
+        "müssen in einem Abstand von mindestens 300 m über- oder umflogen werden.",
+        "sind in einem Abstand zu überfliegen oder zu umfliegen, der genügend Sicherheit gewährt."
+      ],
+      "correct": 3
+    },
+    "Gesetzgebung_54": {
+      "qid": 54,
+      "topic": "Gesetzgebung",
+      "pos": 89,
+      "total_in_topic": 180,
+      "text": "Die Abkürzung \"AIP\" steht für",
+      "options": [
+        "die Segelflugkarte.",
+        "das Luftfahrthandbuch der Schweiz.",
+        "die Nachrichten für Luftfahrer.",
+        "die Koordinationsstelle für Schiessen und Flugsicherung."
+      ],
+      "correct": 1
+    },
+    "Gesetzgebung_135": {
+      "qid": 135,
+      "topic": "Gesetzgebung",
+      "pos": 90,
+      "total_in_topic": 180,
+      "text": "Als überholendes Luftfahrzeug gilt dasjenige, das sich einem andern von hinten auf einem Kurs nähert, der mit der Symmetrieebene des vorderen einen Winkel von weniger als",
+      "options": [
+        "90° bildet.",
+        "60° bildet.",
+        "45° bildet.",
+        "70° bildet."
+      ],
+      "correct": 3
+    },
+    "Gesetzgebung_117": {
+      "qid": 117,
+      "topic": "Gesetzgebung",
+      "pos": 91,
+      "total_in_topic": 180,
+      "text": "Wie viele durch einen schweizerischen Fluglehrer bestätigte Höhenflüge muss ein Kandidat anlässlich der praktischen Teilprüfung nachweisen, damit er zur Prüfung zugelassen wird?",
+      "options": [
+        "Keine der vorangehenden Antworten ist richtig.",
+        "Mindestens: 60 für Gleitschirm, 40 für Delta, 30 für Starrflügler",
+        "Mindestens: 50 für Gleitschirm, 30 für Delta, 20 für Starrflügler",
+        "Mindestens: 30 für Gleitschirm, 20 für Delta, 10 für Starrflügler"
+      ],
+      "correct": 2
+    },
+    "Gesetzgebung_17": {
+      "qid": 17,
+      "topic": "Gesetzgebung",
+      "pos": 93,
+      "total_in_topic": 180,
+      "text": "Wie gross müssen gemäss Art. 11a der Verordnung über die Kennzeichen der Luftfahrzeuge (VKZ) vom 6. September 1984, SR 748.216.1 die Zahlen zur Kennzeichnung von Hängegleitern sein?",
+      "options": [
+        "40 cm hoch.",
+        "30 cm hoch.",
+        "50 cm hoch.",
+        "Es gibt keine diesbezügliche Vorschrift."
+      ],
+      "correct": 0
+    },
+    "Gesetzgebung_103": {
+      "qid": 103,
+      "topic": "Gesetzgebung",
+      "pos": 94,
+      "total_in_topic": 180,
+      "text": "Ein aktives Flugbeschränkungsgebiet (Restricted Area, LS-R...) ist ein begrenzter Teil des Luftraums, in welchem:",
+      "options": [
+        "für das Fliegen besondere Regeln gelten (z.B. Flugverbot in rot eingezeichneten LS-Rs oder reduzierte Wolkenabstände in grün eingezeichneten LS-Rs).",
+        "das Fliegen während der militärischen Flugdienstzeiten untersagt ist.",
+        "das Fliegen ausserhalb der militärischen Flugdienstzeiten untersagt ist.",
+        "immer die grossen Wolkenabstände einzuhalten sind."
+      ],
+      "correct": 0
     }
   },
   "topics": {
