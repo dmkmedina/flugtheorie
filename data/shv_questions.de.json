@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-05-29T09:07:37.568Z",
+  "fetchedAt": "2026-05-29T09:08:09.167Z",
   "questions": {
     "Fluglehre_152": {
       "qid": 152,
@@ -5612,6 +5612,132 @@
         "Der Container muss an einem tragenden Teil, beispielsweise einer Gurte befestigt werden.",
         "Der Container muss möglichst solid mit dem Gurtzeug verbunden sein.",
         "Der Auslösegriff muss für den Piloten gut sichtbar und leicht erreichbar sein."
+      ],
+      "correct": 3
+    },
+    "Materialkunde_59": {
+      "qid": 59,
+      "topic": "Materialkunde",
+      "pos": 50,
+      "total_in_topic": 125,
+      "text": "Ein Gleitschirm sollte nach der Landung",
+      "options": [
+        "möglichst schnell runterfallen, damit vermieden werden kann, dass das Gerät auf den Piloten fällt und dieser sich in den Leinen verheddert.",
+        "vorne oder hinten runterfallen, damit kein Gewirr mit den Leinen entsteht.",
+        "auf keinen Fall vorne runterfallen, da die Luft wegen der verschlossenen Eintrittsöffnungen nicht entweichen kann, wodurch sich der Druck im Schirminnern erhöht und die Zellwände reissen können.",
+        "auf keinen Fall seitlich runterfallen, da dauernde einseitige Belastung der Leinen zu deren asymmetrischer Dehnung führen kann."
+      ],
+      "correct": 2
+    },
+    "Materialkunde_98": {
+      "qid": 98,
+      "topic": "Materialkunde",
+      "pos": 52,
+      "total_in_topic": 125,
+      "text": "Welche Anforderungen werden an die Gesamtkonstruktion eines Rettungsschirms gestellt?",
+      "options": [
+        "Hohe Festigkeit und Elastizität in klar umschriebenem Rahmen.",
+        "Absolute Resistenz gegen UV-Strahlung.",
+        "Möglichst geringe Dehnung.",
+        "möglichst niedrige Porosität."
+      ],
+      "correct": 0
+    },
+    "Materialkunde_19": {
+      "qid": 19,
+      "topic": "Materialkunde",
+      "pos": 53,
+      "total_in_topic": 125,
+      "text": "Alterungserscheinungen des Tuchs äussern sich wie folgt:",
+      "options": [
+        "Das Tuch dehnt sich durch die ständige Belastung, das Profil wird dicker, die Geschwindigkeit reduziert sich über den ganzen Bereich der Polare hinweg.",
+        "Das Tuch schrumpft durch die anhaltende UV-Bestrahlung, das Profil wird flacher, die Geschwindigkeit erhöht sich über den ganzen Bereich der Polare hinweg.",
+        "Die Porosität nimmt zu, die Strömung reisst bei einer höheren Geschwindigkeit ab, das Gerät wird sackfluganfälliger.",
+        "Die Elastizität nimmt ab, der Staudruck lässt nach, das Gerät reagiert abrupter auf Steuerbewegungen."
+      ],
+      "correct": 2
+    },
+    "Materialkunde_83": {
+      "qid": 83,
+      "topic": "Materialkunde",
+      "pos": 54,
+      "total_in_topic": 125,
+      "text": "Wird an einem Gleitschirm ein Gurtzeug ohne Diagonalverstrebung durch ein Gurtzeug mit diagonal verstrebter Aufhängung ersetzt, so hat dies unter anderem einen Einfluss auf",
+      "options": [
+        "die Geschwindigkeitspolare des Geräts.",
+        "das Profil und damit den Anstellwinkel des Geräts.",
+        "das Verhalten des Geräts in extremen Flugsituationen.",
+        "die Schränkung des Geräts."
+      ],
+      "correct": 2
+    },
+    "Materialkunde_23": {
+      "qid": 23,
+      "topic": "Materialkunde",
+      "pos": 55,
+      "total_in_topic": 125,
+      "text": "Ein Konstrukteur kann der bleibenden Verformung der Zellwand im Bereich der Leinenbefestigungspunkte entgegenwirken, indem er",
+      "options": [
+        "die Druckausgleichsöffnungen genau über den Leinenbefestigungspunkten anordnet.",
+        "die Anzahl der Leinenbefestigungspunkte möglichst niedrig hält.",
+        "ein relativ dickes Profil wählt.",
+        "den belasteten Teil der Zellwand verstärkt."
+      ],
+      "correct": 3
+    },
+    "Materialkunde_40": {
+      "qid": 40,
+      "topic": "Materialkunde",
+      "pos": 56,
+      "total_in_topic": 125,
+      "text": "Über die Belastung der Leinen während des stabilen Geradeausflugs lässt sich folgende Aussage machen:",
+      "options": [
+        "C- und D-Leinen tragen gemeinsam mehr als doppelt so viel wie A- und B-Leinen.",
+        "A- und B-Leinen tragen gemeinsam mehr als doppelt so viel wie C- und D-Leinen.",
+        "Die Belastung wird an modernen Gleitschirmen gleichmässig auf A-, B-,C- und D-Leinen verteilt.",
+        "A- und C-Leinen tragen die Last, während B- und D-Leinen primär der Profilgebung dienen."
+      ],
+      "correct": 1
+    },
+    "Materialkunde_30": {
+      "qid": 30,
+      "topic": "Materialkunde",
+      "pos": 57,
+      "total_in_topic": 125,
+      "text": "Wo sind die A-Leinen eines Gleitschirms befestigt?",
+      "options": [
+        "Auf der Längsachse.",
+        "An der Hinterkante.",
+        "An der Profilnase.",
+        "An den Stabilos."
+      ],
+      "correct": 2
+    },
+    "Materialkunde_65": {
+      "qid": 65,
+      "topic": "Materialkunde",
+      "pos": 58,
+      "total_in_topic": 125,
+      "text": "Andauerndes Üben von Extremfluglagen kann bei als typengeprüft anerkannten Geräten",
+      "options": [
+        "zu keinen nennenswerten Dehnungserscheinungen des Materials führen.",
+        "die Stabilos so in der Diagonale belasten, dass sich das Profil in der Flügelmitte verändert.",
+        "zur Dehnung verschiedener Bauteile und damit zur Veränderung der Flugeigenschaften des Gleitschirms führen.",
+        "zu schockartigen Belastungen der Leinenschlösser führen, wodurch mit der Zeit Haarrisse entstehen."
+      ],
+      "correct": 2
+    },
+    "Materialkunde_94": {
+      "qid": 94,
+      "topic": "Materialkunde",
+      "pos": 59,
+      "total_in_topic": 125,
+      "text": "Liegt der Befestigungspunkt der Hauptleine eines Rettungsschirmes am Gurtzeug hoch über dem Körperschwerpunkt, so",
+      "options": [
+        "muss der Körper vor der Landung bewusst aufgerichtet werden.",
+        "ist die Wahrscheinlichkeit, dass sich Haupt- und Notschirmleinen verheddern, kleiner.",
+        "hört der Hauptschirm automatisch zu fliegen auf, was ein ruhigeres Sinken ergibt.",
+        "ergibt sich bei der Auslösung automatisch eine aufrechtere Körperhaltung."
       ],
       "correct": 3
     }
