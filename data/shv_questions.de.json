@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-05-29T09:14:47.467Z",
+  "fetchedAt": "2026-05-29T09:15:18.331Z",
   "questions": {
     "Fluglehre_152": {
       "qid": 152,
@@ -6844,6 +6844,118 @@
         "das Gerät während des Flugs ständig visuell überwacht und auf enges Kurven verzichtet wird.",
         "das Gerät in der Kurve auf der Kurvenaussenseite ständig dosiert angebremst wird, damit der Strömungsabriss nicht einseitig erfolgen kann.",
         "beim Fliegen ein Anemometer mitgeführt wird, welches eine zuverlässige Kontrolle der Fluggeschwindigkeit erlaubt."
+      ],
+      "correct": 0
+    },
+    "Flugpraxis_38": {
+      "qid": 38,
+      "topic": "Flugpraxis",
+      "pos": 31,
+      "total_in_topic": 169,
+      "text": "Ein Start auf 3'600 m über Meer unterscheidet sich bei Windstille von einem Start auf 1'400 m über Meer dadurch, dass die Startstrecke auf 3'600 m über Meer",
+      "options": [
+        "kürzer ist, da dank der geringeren Luftdichte schneller beschleunigt werden kann.",
+        "infolge der grösseren Leistungsfähigkeit des menschlichen Organismus in dieser Höhe kürzer ist.",
+        "gleich lang ist - es besteht kein Unterschied.",
+        "länger ist, da die geringere Luftdichte durch eine höhere Startgeschwindigkeit kompensiert werden muss."
+      ],
+      "correct": 3
+    },
+    "Flugpraxis_138": {
+      "qid": 138,
+      "topic": "Flugpraxis",
+      "pos": 33,
+      "total_in_topic": 169,
+      "text": "Ein Gleitschirm fliegt mit einem Delta auf derselben Höhe in demselben Thermikschlauch. Wodurch kann der Gleitschirmpilot sich und den Delta in Gefahr bringen?",
+      "options": [
+        "Durch abruptes Wechseln der Drehrichtung.",
+        "Durch langsames Fliegen.",
+        "Durch sehr enges Kreisen.",
+        "Indem er oder sie in derselben Richtung kreist, wie der Delta."
+      ],
+      "correct": 0
+    },
+    "Flugpraxis_27": {
+      "qid": 27,
+      "topic": "Flugpraxis",
+      "pos": 34,
+      "total_in_topic": 169,
+      "text": "Im Startgelände weht ein konstanter Aufwind von 25 km/h. Welches ist die sicherste Startmethode?",
+      "options": [
+        "Der Pilot zieht das Gerät in stark geneigtem Gelände rückwärts auf, damit er abgehoben wird, sobald die Kalotte steht.",
+        "Der Pilot stellt sich in stark geneigtem Gelände möglichst nah der Austrittskante auf und beschleunigt maximal, um das Gerät energisch aufzuziehen.",
+        "Der Pilot zieht das Gerät in flachem Gelände rückwärts auf und vermeidet unter allen Umständen, dass er unfreiwillig abgehoben wird.",
+        "Solange es die Umstände erlauben, wird immer vorwärts gestartet, da dies mit Abstand die sicherste Startmethode ist."
+      ],
+      "correct": 2
+    },
+    "Flugpraxis_117": {
+      "qid": 117,
+      "topic": "Flugpraxis",
+      "pos": 35,
+      "total_in_topic": 169,
+      "text": "Ein Pilot erreicht unmittelbar vor zwei weiteren mit einem horizontalen Abstand von 50 m fliegenden Hängegleitern den Landeplatz. Es herrscht Windstille, der Anflug ist auf allen Seiten hindernisfrei und es bestehen keine Abmachungen bezüglich Voltendrehrichtung. Wie muss der Landeplatz angeflogen werden?",
+      "options": [
+        "Der zuerst Landende muss eine Linksvolte fliegen und quer zu Talachse landen.",
+        "Der zuerst Landende kann die Voltendrehrichtung frei wählen muss aber quer zur Talachse landen.",
+        "Mit einer Volte, wobei der oder die zuerst Landende sowohl Lande- als auch Voltendrehrichtung frei wählen kann.",
+        "Der zuerst Landende kann die Landerichtung frei wählen, muss aber eine Linksvolte fliegen."
+      ],
+      "correct": 3
+    },
+    "Flugpraxis_20": {
+      "qid": 20,
+      "topic": "Flugpraxis",
+      "pos": 36,
+      "total_in_topic": 169,
+      "text": "Welches ist das wichtigste Kriterium für die Wahl eines geeigneten Startplatzes?",
+      "options": [
+        "Der Startplatz muss recht steil sein, damit ein möglichst schnelles Abheben gewährleistet ist.",
+        "Der Startplatz muss mit einem Windsack oder Spion ausgerüstet sein.",
+        "Ein Startabbruch muss jederzeit gefahrlos möglich sein.",
+        "Der Wind muss konstant von vorne kommen."
+      ],
+      "correct": 2
+    },
+    "Flugpraxis_71": {
+      "qid": 71,
+      "topic": "Flugpraxis",
+      "pos": 37,
+      "total_in_topic": 169,
+      "text": "Welche Vorsichtsmassnahme ist beim Hangsoaring in thermisch turbulenter Luft zu treffen?",
+      "options": [
+        "Die Trimmer lösen, um eine homogenere Umströmung des Flügels zu erreichen und die Wahrscheinlichkeit eines Strömungsabrisses zu reduzieren.",
+        "Den Abstand zum Relief vergrössern und die Geschwindigkeit den Verhältnissen anpassen.",
+        "Den Hang verlassen, da das Soaren in thermisch turbulenter Luft ein zu grosses Risiko darstellt.",
+        "Nie unterhalb der Krete fliegen."
+      ],
+      "correct": 1
+    },
+    "Flugpraxis_119": {
+      "qid": 119,
+      "topic": "Flugpraxis",
+      "pos": 39,
+      "total_in_topic": 169,
+      "text": "Wird mit Rückenwind gelandet, so",
+      "options": [
+        "ist der Anflugwinkel flacher und die Aufsetzgeschwindigkeit grösser.",
+        "ist der Anflugwinkel flacher und die Aufsetzgeschwindigkeit kleiner.",
+        "ist der Anflugwinkel steiler und die Aufsetzgeschwindigkeit kleiner.",
+        "ist der Anflugwinkel steiler und die Aufsetzgeschwindigkeit grösser."
+      ],
+      "correct": 0
+    },
+    "Flugpraxis_102": {
+      "qid": 102,
+      "topic": "Flugpraxis",
+      "pos": 41,
+      "total_in_topic": 169,
+      "text": "Das Überfliegen des Landplatzes unmittelbar vor Höhenabbau und Landevolte ist",
+      "options": [
+        "zwecks Beobachtung des Windsacks zu empfehlen.",
+        "wenn immer möglich wegen Kollisionsgefahr zu vermeiden.",
+        "wegen Behinderung landender Hängegleiter nicht erlaubt.",
+        "vorgeschrieben."
       ],
       "correct": 0
     }
