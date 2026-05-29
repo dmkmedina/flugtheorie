@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-05-29T09:09:11.645Z",
+  "fetchedAt": "2026-05-29T09:09:43.243Z",
   "questions": {
     "Fluglehre_152": {
       "qid": 152,
@@ -5976,6 +5976,132 @@
         "weniger spüren, erleichtern aber beim Starten das Beschleunigen mit Vorlage.",
         "vermehrt spüren, behindern aber beim Starten das Beschleunigen mit Vorlage.",
         "vermehrt spüren, erleichtern aber beim Starten das Beschleunigen mit Vorlage."
+      ],
+      "correct": 3
+    },
+    "Materialkunde_25": {
+      "qid": 25,
+      "topic": "Materialkunde",
+      "pos": 81,
+      "total_in_topic": 125,
+      "text": "Die Druckausgleichsöffnungen (Crossports) in den Zellwänden",
+      "options": [
+        "ermöglichen das Füllen von Zellen, deren Eintrittsöffnung eingeklappt oder nicht vorhanden ist.",
+        "sorgen für einen Ausgleich zwischen statischem Druck auf der Flügelinnenseite und dynamischem Druck auf der Flügelaussenseite.",
+        "sorgen für einen Druckausgleich zwischen Flügelunter- und Flügeloberseite.",
+        "verteilen die durch die Auftriebserzeugung hervorgerufene Belastung gleichmässig auf die ganze Zellwand."
+      ],
+      "correct": 0
+    },
+    "Materialkunde_124": {
+      "qid": 124,
+      "topic": "Materialkunde",
+      "pos": 82,
+      "total_in_topic": 125,
+      "text": "Geräte, die vom SHV nicht als typengeprüft anerkannt sind,",
+      "options": [
+        "unterscheiden sich bezüglich Flugverhalten nicht von als typengeprüft anerkannten Geräten, weisen in der Regel jedoch eine verminderte Belastbarkeit auf.",
+        "können bezüglich Flugverhalten und Belastbarkeit stark von den mit der Typenprüfung angestrebten Sicherheitsstandards abweichen.",
+        "halten zwar die vom BAZL für alle zivilen Luftfahrzeuge vorgeschriebene sechsfache Maximallast, können aber bezüglich Flugverhalten stark von den üblichen Sicherheitsstandards abweichen.",
+        "weisen im Wesentlichen dieselben vom BAZL vorgeschriebenen Sicherheitsstandards auf, es erfolgt aber keine Klassifizierung der einzelnen Flugmanöver."
+      ],
+      "correct": 1
+    },
+    "Materialkunde_28": {
+      "qid": 28,
+      "topic": "Materialkunde",
+      "pos": 83,
+      "total_in_topic": 125,
+      "text": "Werden bei der Verbindung zweier Bauteile die Stiche eng gesetzt, so",
+      "options": [
+        "passt sich die Naht besser den Verformungen des Gewebes an.",
+        "erhöht dies die Reissfestigkeit.",
+        "wird das Gewebe perforiert und verliert an Festigkeit.",
+        "vermindert sich die Porosität."
+      ],
+      "correct": 2
+    },
+    "Materialkunde_87": {
+      "qid": 87,
+      "topic": "Materialkunde",
+      "pos": 84,
+      "total_in_topic": 125,
+      "text": "Vom Fahrtwind gefüllte Airbag-Protektoren haben gegenüber Schaumstoff-Protektoren insbesondere den Vorteil, dass",
+      "options": [
+        "ihr Luftwiderstand geringer ist.",
+        "sie in der Regel das geringere Packvolumen und Gewicht aufweisen.",
+        "sie bereits vom Beginn des Starts weg ihren vollen Schutz entfalten.",
+        "sie dem Piloten bei einer Landung im Wasser optimalen Auftrieb verleihen und damit auch Nichtschwimmer am Ertrinken hindern."
+      ],
+      "correct": 1
+    },
+    "Materialkunde_7": {
+      "qid": 7,
+      "topic": "Materialkunde",
+      "pos": 85,
+      "total_in_topic": 125,
+      "text": "Durch das Beschichten der bei der Gleitschirmkonstruktion verwendeten Tücher wird",
+      "options": [
+        "deren UV-Empfindlichkeit vergrössert.",
+        "deren Porosität verringert.",
+        "deren Elastizität vergrössert.",
+        "deren mechanische Belastbarkeit verringert."
+      ],
+      "correct": 1
+    },
+    "Materialkunde_61": {
+      "qid": 61,
+      "topic": "Materialkunde",
+      "pos": 86,
+      "total_in_topic": 125,
+      "text": "Die Belastung der Bauteile eines Gleitschirms erfolgt in erster Linie",
+      "options": [
+        "auf Torsion.",
+        "auf Zug.",
+        "auf Biegung.",
+        "auf Druck."
+      ],
+      "correct": 1
+    },
+    "Materialkunde_69": {
+      "qid": 69,
+      "topic": "Materialkunde",
+      "pos": 87,
+      "total_in_topic": 125,
+      "text": "Trimmtabs oder Trimmer variieren in der Regel die Länge des",
+      "options": [
+        "zweitvordersten Traggurts.",
+        "vordersten Traggurts.",
+        "zweithintersten Traggurts.",
+        "hintersten Traggurts."
+      ],
+      "correct": 3
+    },
+    "Materialkunde_12": {
+      "qid": 12,
+      "topic": "Materialkunde",
+      "pos": 88,
+      "total_in_topic": 125,
+      "text": "Die Qualität der Beschichtung wird wesentlich in Mitleidenschaft gezogen durch",
+      "options": [
+        "Lagern des Geräts in möglichst trockenem Zustand in einem kühlen Raum.",
+        "konsequentes Lagern des Geräts an einem dunklen, vor der Sonne geschützten Platz.",
+        "das Packen des Geräts auf einer Teer- oder Betonfläche.",
+        "das Fliegen von extremen Flugmanövern und den daraus resultierenden Einklappern."
+      ],
+      "correct": 2
+    },
+    "Materialkunde_37": {
+      "qid": 37,
+      "topic": "Materialkunde",
+      "pos": 89,
+      "total_in_topic": 125,
+      "text": "Mit welcher Technik können die Leinenenden nicht ummantelter Leinen mit Schlaufen versehen werden, ohne die Festigkeit einer Aramid-Leine merklich in Mitleidenschaft zu ziehen?",
+      "options": [
+        "Mit Verschweissen.",
+        "Mit Nähen.",
+        "Mit keiner.",
+        "Mit Fingertreppen (Spleissen)."
       ],
       "correct": 3
     }
