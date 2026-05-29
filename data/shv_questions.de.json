@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-05-29T09:01:04.850Z",
+  "fetchedAt": "2026-05-29T09:01:35.024Z",
   "questions": {
     "Fluglehre_152": {
       "qid": 152,
@@ -4508,6 +4508,104 @@
         "8,0 km / 300 m / 100 m"
       ],
       "correct": 2
+    },
+    "Gesetzgebung_6": {
+      "qid": 6,
+      "topic": "Gesetzgebung",
+      "pos": 137,
+      "total_in_topic": 180,
+      "text": "Gemäss Verordnung über Luftfahrzeuge besonderer Kategorie (VLK) muss die Lufttüchtigkeit eines Hängegleiters",
+      "options": [
+        "von keiner Aufsichtsinstanz geprüft werden.",
+        "durch den Schweizerischer Hängegleiter-Verband überprüft werden.",
+        "durch den Hersteller garantiert werden.",
+        "durch das Bundesamt für Zivilluftfahrt überprüft werden."
+      ],
+      "correct": 0
+    },
+    "Gesetzgebung_107": {
+      "qid": 107,
+      "topic": "Gesetzgebung",
+      "pos": 139,
+      "total_in_topic": 180,
+      "text": "Auf 3'400 m AMSL und 200 m AGL gelten in einer aktiven \"LS-R für Segelflug\" folgende Vorschriften bezüglich Sicht und Wolkenabstände: Sicht / Abstand horizontal / Abstand vertikal",
+      "options": [
+        "Hier befindest Du Dich nicht in der LS-R für Segelflug sondern im Luftraum G unterhalb von 300m AGL, deshalb gelten: 1.5 km und Bodensicht / ausserhalb / ausserhalb",
+        "8,0 km / 300 m / 100 m",
+        "8,0 km / 100 m / 50 m",
+        "5,0 km / 100 m / 50 m"
+      ],
+      "correct": 0
+    },
+    "Gesetzgebung_28": {
+      "qid": 28,
+      "topic": "Gesetzgebung",
+      "pos": 141,
+      "total_in_topic": 180,
+      "text": "Ein Doppelsitzerausweis 1 berechtigt zu Flügen",
+      "options": [
+        "mit brevetierten Hängegleiterpiloten der gleichen Hängegleiterkategorie sowie mit Flugschülern unter Aufsicht eines Fluglehrers.",
+        "mit Passagieren gegen Entgelt mit kommerziellem Hintergrund.",
+        "mit Passagieren, die nicht gegen Entgelt erfolgen.",
+        "mit Passagieren gegen Entgelt mit nicht-kommerziellem Hintergrund."
+      ],
+      "correct": 0
+    },
+    "Gesetzgebung_148": {
+      "qid": 148,
+      "topic": "Gesetzgebung",
+      "pos": 142,
+      "total_in_topic": 180,
+      "text": "Welche Regeln gelten für Hängegleiter am mit x bezeichneten Ort auf 1800 m AMSL (~900 m AGL) an einem Samstag um 12 Uhr im März?",
+      "options": [
+        "Maximalhöhe 5950 m AMSL, minimale Sichtweite 8 km, Wolkenabstände 1500 m horizontal / 300 m vertikal",
+        "Fliegen verboten",
+        "Maximalhöhe 2750 m AMSL, minimale Sichtweite 1.5 km, ausserhalb von Wolken, Bodensicht",
+        "Maximalhöhe 2750 m AMSL, minimale Sichtweite 5 km, Wolkenabstände 1500 m horizontal / 300 m vertikal"
+      ],
+      "correct": 3
+    },
+    "Gesetzgebung_55": {
+      "qid": 55,
+      "topic": "Gesetzgebung",
+      "pos": 143,
+      "total_in_topic": 180,
+      "text": "Das AIP",
+      "options": [
+        "ist eine topographische Karte mit Angaben über die Ausdehnung der verschiedenen Luftraumklassen, über Gefahren- und Flugbeschränkungsgebiete, Lufthindernisse, Segelflugzonen (LS-R for Gliders) und Militärflugdienstzeiten.",
+        "ist eine wöchentliche Zusammenfassung aller für den Sichtflug-Verkehr publizierten Informationen.",
+        "enthält allgemeingültige Informationen für Benützer des schweizerischen Luftraums.",
+        "enthält aktuelle Angaben über die örtliche und zeitliche Begrenzung militärischer Schiessübungen und erscheint täglich."
+      ],
+      "correct": 2
+    },
+    "Gesetzgebung_46": {
+      "qid": 46,
+      "topic": "Gesetzgebung",
+      "pos": 144,
+      "total_in_topic": 180,
+      "text": "Wie lange ist ein Gleitschirmausweis gültig?",
+      "options": [
+        "Alle Kategorien: 3 Jahre.",
+        "Kategorie Pilot, sowie Doppelsitzer 1 und 2: unbeschränkt. Kategorie Doppelsitzer 3 und Fluglehrer: 3 Jahre",
+        "Kategorie Pilot, sowie Doppelsitzer 1 und 2: unbeschränkt. Kategorie Doppelsitzer 3 und Fluglehrer: 5 Jahre",
+        "Alle Kategorien: unbeschränkt."
+      ],
+      "correct": 1
+    },
+    "Gesetzgebung_111": {
+      "qid": 111,
+      "topic": "Gesetzgebung",
+      "pos": 145,
+      "total_in_topic": 180,
+      "text": "Wer ist mit dem Ausstellen des amtlichen Hängegleiterpilotenausweises beauftragt?",
+      "options": [
+        "Der Prüfungssachverständige",
+        "Das Bundesamt für Zivilluftfahrt BAZL",
+        "Das Kantonale Strassenverkehrs- und Luftfahrtsamt",
+        "Der Schweizerischer Hängegleiter-Verband SHV"
+      ],
+      "correct": 3
     }
   },
   "topics": {
