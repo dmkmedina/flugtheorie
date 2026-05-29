@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-05-29T09:08:09.167Z",
+  "fetchedAt": "2026-05-29T09:08:40.049Z",
   "questions": {
     "Fluglehre_152": {
       "qid": 152,
@@ -5740,6 +5740,118 @@
         "ergibt sich bei der Auslösung automatisch eine aufrechtere Körperhaltung."
       ],
       "correct": 3
+    },
+    "Materialkunde_79": {
+      "qid": 79,
+      "topic": "Materialkunde",
+      "pos": 60,
+      "total_in_topic": 125,
+      "text": "Wird der Abstand zwischen den beiden Aufhängepunkten eines Gurtzeuges vermindert, so lässt dies die Turbulenzen",
+      "options": [
+        "weniger spüren und vermindert die Gefahr des Twistens.",
+        "vermehrt spüren und erhöht die Gefahr des Twistens.",
+        "weniger spüren und erhöht die Gefahr des Twistens.",
+        "vermehrt spüren und vermindert die Gefahr des Twistens."
+      ],
+      "correct": 2
+    },
+    "Materialkunde_5": {
+      "qid": 5,
+      "topic": "Materialkunde",
+      "pos": 61,
+      "total_in_topic": 125,
+      "text": "Die Porosität von bei der Gleitschirmkonstruktion verwendeten Tüchern sollte",
+      "options": [
+        "keine entscheidende Rolle spielen, da vor allem die Festigkeit zählt.",
+        "ein gewisses Mass keinesfalls unterschreiten, da sonst die Grenzschicht zu laminar wird.",
+        "möglichst gross sein.",
+        "möglichst klein sein."
+      ],
+      "correct": 3
+    },
+    "Materialkunde_3": {
+      "qid": 3,
+      "topic": "Materialkunde",
+      "pos": 63,
+      "total_in_topic": 125,
+      "text": "Die Weiterreissfestigkeit der für die Gleitschirmkonstruktion verwendeten Gewebe wird verbessert durch",
+      "options": [
+        "die Ripstop-Webtechnik.",
+        "das Beschichten des Tuchs.",
+        "sehr enges Verweben der Fäden.",
+        "das Verweben von Fäden mit grosser Elastizität."
+      ],
+      "correct": 0
+    },
+    "Materialkunde_96": {
+      "qid": 96,
+      "topic": "Materialkunde",
+      "pos": 64,
+      "total_in_topic": 125,
+      "text": "Aus welchem Material bestehen die Kappen der gängigen Rettungsschirme?",
+      "options": [
+        "mylarbeschichtetes Polyester",
+        "Polyethylen Ripstop",
+        "Polyamid (Nylon) Ripstop",
+        "Polyester Ripstop"
+      ],
+      "correct": 2
+    },
+    "Materialkunde_112": {
+      "qid": 112,
+      "topic": "Materialkunde",
+      "pos": 66,
+      "total_in_topic": 125,
+      "text": "Das Anemometer misst während des Flugs",
+      "options": [
+        "die Geschwindigkeit gegenüber der Umgebungsluft.",
+        "die Geschwindigkeit der Abdrift im Verhältnis zur Vorwärtsgeschwindigkeit.",
+        "die Geschwindigkeit über Grund.",
+        "die Windrichtung."
+      ],
+      "correct": 0
+    },
+    "Materialkunde_42": {
+      "qid": 42,
+      "topic": "Materialkunde",
+      "pos": 67,
+      "total_in_topic": 125,
+      "text": "Beim Ersetzen von beschädigten Leinen sollte darauf geachtet werden, dass",
+      "options": [
+        "die neuen Leinen wegen des Luftwiderstands denselben Durchmesser haben.",
+        "in jedem Fall mindestens gleich starke oder stärkere Leinen eingesetzt werden.",
+        "die Leinen vor allem bezüglich Dimension mit den alten übereinstimmen.",
+        "nur vom Hersteller oder dessen Vertreter gelieferte Originalersatzleinen verwendet werden."
+      ],
+      "correct": 3
+    },
+    "Materialkunde_33": {
+      "qid": 33,
+      "topic": "Materialkunde",
+      "pos": 68,
+      "total_in_topic": 125,
+      "text": "Aus welchen Materialien werden Leinen gefertigt, die bei der Konstruktion moderner Gleitschirme Verwendung finden?",
+      "options": [
+        "Aramid (Kevlar) oder Polyester",
+        "Polyethylen (Dyneema) oder Aramid (Kevlar)",
+        "Polyester oder Polyamid (Nylon)",
+        "Polyester oder Polyethylen (Dyneema)"
+      ],
+      "correct": 1
+    },
+    "Materialkunde_114": {
+      "qid": 114,
+      "topic": "Materialkunde",
+      "pos": 69,
+      "total_in_topic": 125,
+      "text": "Das Variometer informiert den Piloten während des Flugs über",
+      "options": [
+        "die Luftdichte.",
+        "die horizontale Geschwindigkeit.",
+        "die vertikale Geschwindigkeit.",
+        "das Verhältnis zwischen vertikaler und horizontaler Geschwindigkeit."
+      ],
+      "correct": 2
     }
   },
   "topics": {
