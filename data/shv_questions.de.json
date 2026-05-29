@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-05-29T08:58:58.538Z",
+  "fetchedAt": "2026-05-29T08:59:30.437Z",
   "questions": {
     "Fluglehre_152": {
       "qid": 152,
@@ -4044,6 +4044,104 @@
         "das Fliegen während der militärischen Flugdienstzeiten untersagt ist.",
         "das Fliegen ausserhalb der militärischen Flugdienstzeiten untersagt ist.",
         "immer die grossen Wolkenabstände einzuhalten sind."
+      ],
+      "correct": 0
+    },
+    "Gesetzgebung_81": {
+      "qid": 81,
+      "topic": "Gesetzgebung",
+      "pos": 95,
+      "total_in_topic": 180,
+      "text": "Eine TMA südlich der Trennlinie Jura-Mittelland/Alpen",
+      "options": [
+        "beginnt immer erst auf 600m über Grund.",
+        "weist keinerlei Unterschiede zu TMAs nördlich dieser Trennlinie auf.",
+        "darf mit 300m AGL unterflogen werden.",
+        "reicht in jedem Fall bis auf die angegebene Untergrenze."
+      ],
+      "correct": 2
+    },
+    "Gesetzgebung_87": {
+      "qid": 87,
+      "topic": "Gesetzgebung",
+      "pos": 97,
+      "total_in_topic": 180,
+      "text": "Für welche Luftraumklassen brauchen alle Luftfahrzeuge eine Freigabe oder eine Einflugbewilligung?",
+      "options": [
+        "C und D",
+        "D und E",
+        "G und C",
+        "E und G"
+      ],
+      "correct": 0
+    },
+    "Gesetzgebung_112": {
+      "qid": 112,
+      "topic": "Gesetzgebung",
+      "pos": 99,
+      "total_in_topic": 180,
+      "text": "Wieviel Zeit darf gemäss den Weisungen über die Fähigkeitsprüfung für Hängegleiterpiloten höchstens zwischen theoretischer und praktischer Teilprüfung liegen?",
+      "options": [
+        "36 Monate",
+        "12 Monate",
+        "24 Monate",
+        "48 Monate"
+      ],
+      "correct": 0
+    },
+    "Gesetzgebung_71": {
+      "qid": 71,
+      "topic": "Gesetzgebung",
+      "pos": 100,
+      "total_in_topic": 180,
+      "text": "Auf welcher Höhe befindet sich FL 30 ca.?",
+      "options": [
+        "900 m über Meer.",
+        "300 m über Meer.",
+        "600 m über Grund.",
+        "3'050 m über Meer."
+      ],
+      "correct": 0
+    },
+    "Gesetzgebung_92": {
+      "qid": 92,
+      "topic": "Gesetzgebung",
+      "pos": 102,
+      "total_in_topic": 180,
+      "text": "Die Obergrenze des Luftraums der Klasse E über den Alpen während der militärischen Flugdienstzeiten beträgt im Normalfall bei Standardatmosphäre",
+      "options": [
+        "3'950 m AMSL.",
+        "3'050 m AMSL.",
+        "4'550 m AMSL.",
+        "1'000 m AGL."
+      ],
+      "correct": 0
+    },
+    "Gesetzgebung_26": {
+      "qid": 26,
+      "topic": "Gesetzgebung",
+      "pos": 103,
+      "total_in_topic": 180,
+      "text": "Hängegleiterflüge mit einer Begleitperson (Doppelsitzerflüge) dürfen nur Personen ausführen,",
+      "options": [
+        "die über eine Spezialbewilligung des BAZL verfügen.",
+        "die Träger eines entsprechenden amtlichen Ausweises sind.",
+        "die seit mindestens drei Jahren Träger des amtlichen Hängegleiterpilotenausweises sind.",
+        "die Träger eines amtlichen Fluglehrerausweises sind."
+      ],
+      "correct": 1
+    },
+    "Gesetzgebung_52": {
+      "qid": 52,
+      "topic": "Gesetzgebung",
+      "pos": 105,
+      "total_in_topic": 180,
+      "text": "Die Abkürzung \"ICAO\" steht für",
+      "options": [
+        "Internationale Zivilluftfahrtorganisation.",
+        "Schweizerischer Hängegleiter-Verband.",
+        "Eidgenössisches Verkehrs- und Energiewirtschaftsdepartement.",
+        "Bundesamt für Zivilluftfahrt."
       ],
       "correct": 0
     }
