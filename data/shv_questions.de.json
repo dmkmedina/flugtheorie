@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-05-29T09:04:53.641Z",
+  "fetchedAt": "2026-05-29T09:05:34.106Z",
   "questions": {
     "Fluglehre_152": {
       "qid": 152,
@@ -5026,11 +5026,138 @@
         "4'550 m über Meer."
       ],
       "correct": 1
+    },
+    "Materialkunde_125": {
+      "qid": 125,
+      "topic": "Materialkunde",
+      "pos": 125,
+      "total_in_topic": 125,
+      "text": "Wer legt fest, in welchen Intervallen der Pilot den Gleitschirm vom Hersteller oder seinem Vertreter überprüfen lassen sollte?",
+      "options": [
+        "Das Bundesamt für Zivilluftfahrt (BAZL).",
+        "Der schweizerische Hängegleiter-Verband (SHV).",
+        "Der Pilot.",
+        "Der Hersteller."
+      ],
+      "correct": null
+    },
+    "Materialkunde_123": {
+      "qid": 123,
+      "topic": "Materialkunde",
+      "pos": 1,
+      "total_in_topic": 125,
+      "text": "Die Anerkennung der Typenprüfung gemäss den EN-Normen lässt eine Aussage zu über",
+      "options": [
+        "Strukturfestigkeit und Dauerhaftigkeit bezüglich Alterung eines bestimmten Gleitschirmmodells.",
+        "SHV-konforme Bauweise und Dauerhaftigkeit bezüglich Alterung eines bestimmten Gleitschirmmodells.",
+        "Flugverhalten und SHV-konforme Bauweise eines bestimmten Gleitschirmmodells im Neuzustand.",
+        "Strukturfestigkeit und Flugverhalten eines bestimmten Gleitschirmmodells im Neuzustand."
+      ],
+      "correct": 3
+    },
+    "Materialkunde_38": {
+      "qid": 38,
+      "topic": "Materialkunde",
+      "pos": 2,
+      "total_in_topic": 125,
+      "text": "Welche Umstände können bei ummantelten Aramid- (Kevlar-) oder Polyethylen- (Dyneema-) leinen zu Weissbrüchen des Kerns und damit zu einer entscheidenden Schwächung der Leine führen?",
+      "options": [
+        "Weissbrüche des Kerns sind immer ein Produktionsfehler und können nicht durch den Gebrauch des Geräts entstehen.",
+        "Starke Belastung einzelner Leinen oder Leinengruppen bei Manövern wie Frontstall, Seitenklapper oder B-Stall.",
+        "Völlige Durchnässung und nachheriges Gefrieren der Leine.",
+        "Andauerndes Fliegen des Geräts mit Belastungen, die im Bereich der maximalen Zuladung oder leicht darüber liegen."
+      ],
+      "correct": 2
+    },
+    "Materialkunde_50": {
+      "qid": 50,
+      "topic": "Materialkunde",
+      "pos": 3,
+      "total_in_topic": 125,
+      "text": "Welches sind die Folgen einer Verkürzung der D-Leinen?",
+      "options": [
+        "Der Anstellwinkel wird verkleinert, das Profil und das Flugverhalten werden verändert.",
+        "Der Anstellwinkel wird grösser, das Profil bleibt identisch, das Flugverhalten wird verändert.",
+        "Der Anstellwinkel wird grösser, das Profil und das Flugverhalten werden verändert.",
+        "Der Anstellwinkel bleibt identisch, das Profil und das Flugverhalten werden verändert."
+      ],
+      "correct": 2
+    },
+    "Materialkunde_52": {
+      "qid": 52,
+      "topic": "Materialkunde",
+      "pos": 5,
+      "total_in_topic": 125,
+      "text": "Wie kann sich das Verhalten eines Geräts verändern, wenn sich die D-Leinen verlängern oder verlängert werden?",
+      "options": [
+        "Das Gerät lässt sich leichter aufziehen, fliegt wegen des kleineren Anstellwinkels schneller, die Tendenz zu Frontklappern nimmt zu, die Neigung zum Sackflug nimmt ab.",
+        "Das Gerät lässt sich leichter aufziehen, fliegt wegen des kleineren Anstellwinkels langsamer, die Tendenz zu Frontklappern und zum Sackflug nimmt zu.",
+        "Das Gerät lässt sich schwerer aufziehen, fliegt wegen des grösseren Anstellwinkels langsamer, die Tendenz zu Frontklappern nimmt ab, die Neigung zum Sackflug nimmt zu.",
+        "Das Gerät lässt sich schwerer aufziehen, braucht wegen des tieferen Schwerpunkts grössere aber weniger kraftvolle Steuerausschläge, setzt beim Landen die Geschwindigkeit besser in Höhe um."
+      ],
+      "correct": 0
+    },
+    "Materialkunde_29": {
+      "qid": 29,
+      "topic": "Materialkunde",
+      "pos": 6,
+      "total_in_topic": 125,
+      "text": "Wie werden die verschiedenen Leinengruppen eines Gleitschirms unterschieden?",
+      "options": [
+        "Aufgrund der Farbe: z.B. gelbe, rote Leinen.",
+        "Aufgrund des Materials: z.B. Polyester, Dyneema, Kevlar, Polyamid.",
+        "Aufgrund des Befestigungsortes an der Kalotte: z.B. A-,B-,C-,D-Leinen.",
+        "Aufgrund des Durchmessers: z.B. 0,9 mm, 1,3 mm, 1,5 mm."
+      ],
+      "correct": 2
+    },
+    "Materialkunde_68": {
+      "qid": 68,
+      "topic": "Materialkunde",
+      "pos": 7,
+      "total_in_topic": 125,
+      "text": "Wird der Fussbeschleuniger moderner Seriengeräte bei einem Gegenwind von 25 km/h maximal betätigt, so",
+      "options": [
+        "verschlechtert sich die Gleitzahl.",
+        "verbessert sich die Gleitzahl.",
+        "ändert sich gar nichts.",
+        "vermindert sich die Sinkgeschwindigkeit."
+      ],
+      "correct": 1
+    },
+    "Materialkunde_22": {
+      "qid": 22,
+      "topic": "Materialkunde",
+      "pos": 8,
+      "total_in_topic": 125,
+      "text": "In welchem Fall können die Zellwände am meisten unter der auftretenden Belastung leiden?",
+      "options": [
+        "In harter Thermik.",
+        "In einer Steilspirale.",
+        "Beim B-Stall.",
+        "Beim Einklappen der Ohren."
+      ],
+      "correct": 2
+    },
+    "Materialkunde_39": {
+      "qid": 39,
+      "topic": "Materialkunde",
+      "pos": 9,
+      "total_in_topic": 125,
+      "text": "1 mm-Leinen mit einer Reissfestikeit von 100 daN (100 kg) unterscheiden sich von 1,5 mm-Leinen mit derselben Reissfestigkeit durch",
+      "options": [
+        "geringeren Luftwiderstand und verminderte Tendenz zur Knotenbildung beim Auslegen.",
+        "geringeren Luftwiderstand und grössere Tendenz zur Knotenbildung beim Auslegen.",
+        "grösseren Luftwiderstand und grössere Tendenz zur Knotenbildung beim Auslegen.",
+        "grösseren Luftwiderstand und verminderte Tendenz zur Knotenbildung beim Auslegen."
+      ],
+      "correct": 1
     }
   },
   "topics": {
     "Fluglehre": 152,
     "Wetterkunde": 164,
-    "Gesetzgebung": 180
+    "Gesetzgebung": 180,
+    "Materialkunde": 125
   }
 }
