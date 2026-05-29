@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-05-29T08:55:48.947Z",
+  "fetchedAt": "2026-05-29T08:56:21.595Z",
   "questions": {
     "Fluglehre_152": {
       "qid": 152,
@@ -3318,6 +3318,132 @@
         "bleiben Trägern des Doppelsitzer 2- Ausweises vorbehalten."
       ],
       "correct": 0
+    },
+    "Gesetzgebung_41": {
+      "qid": 41,
+      "topic": "Gesetzgebung",
+      "pos": 33,
+      "total_in_topic": 180,
+      "text": "Der Betrieb von Hängegleitern ist untersagt in einem Abstand von weniger als",
+      "options": [
+        "2,5 km von Helikopterflugplätzen (bis 600m über dem Platz).",
+        "2,5 km von Helikopterflugplätzen (bis 300m über dem Platz).",
+        "5 km von Helikopterflugplätzen (bis 300m über dem Platz).",
+        "5 km von Helikopterflugplätzen (bis 600m über dem Platz)."
+      ],
+      "correct": 0
+    },
+    "Gesetzgebung_14": {
+      "qid": 14,
+      "topic": "Gesetzgebung",
+      "pos": 34,
+      "total_in_topic": 180,
+      "text": "Jeder Hängegleiter muss in der Schweiz wie folgt beschriftet sein:",
+      "options": [
+        "Vom SHV zugeteiltes Kennzeichen, Herstellerschild.",
+        "Herstellerschild, SHV-Typenprüfplakette.",
+        "SHV-Typenprüfplakette; vom SHV zugeteiltes Kennzeichen.",
+        "Vom SHV zugeteiltes Kennzeichen; Name und Adresse des Halters."
+      ],
+      "correct": 0
+    },
+    "Gesetzgebung_151": {
+      "qid": 151,
+      "topic": "Gesetzgebung",
+      "pos": 35,
+      "total_in_topic": 180,
+      "text": "Welche Regeln gelten für Hängegleiter am mit x bezeichneten Ort auf 1800 m AMSL (~700 m AGL) an einem Sonntag um 09 Uhr im Juni?",
+      "options": [
+        "Fliegen verboten",
+        "Maximalhöhe 3050 m AMSL, minimale Sichtweite 5 km, Wolkenabstände 100 m horizontal / 50 m vertikal, über 1850 m AMSL grosse Wolkenabstände",
+        "Maximalhöhe 1850 m AMSL, minimale Sichtweite 5 km, Wolkenabstände 100 m horizontal / 50 m vertikal",
+        "Maximalhöhe 3050 m AMSL, minimale Sichtweite 1.5 km, ausserhalb von Wolken, Bodensicht"
+      ],
+      "correct": 1
+    },
+    "Gesetzgebung_62": {
+      "qid": 62,
+      "topic": "Gesetzgebung",
+      "pos": 37,
+      "total_in_topic": 180,
+      "text": "\"IFR\" ist die Abkürzung für",
+      "options": [
+        "Instrument Flight Rules (Instrumentenflugregeln).",
+        "International Flight Region (Internationale Flugregion).",
+        "International Flight Rules (Internationale Flugregeln).",
+        "Instrument Flight Region (Instrumentenflugregion)."
+      ],
+      "correct": 0
+    },
+    "Gesetzgebung_70": {
+      "qid": 70,
+      "topic": "Gesetzgebung",
+      "pos": 38,
+      "total_in_topic": 180,
+      "text": "Die Abkürzung \"FL\" steht für",
+      "options": [
+        "Höhe über Grund.",
+        "Höhe über der mittleren Meereshöhe.",
+        "Grund, Boden.",
+        "Flugfläche."
+      ],
+      "correct": 3
+    },
+    "Gesetzgebung_18": {
+      "qid": 18,
+      "topic": "Gesetzgebung",
+      "pos": 39,
+      "total_in_topic": 180,
+      "text": "Ein Pilot ist Halter mehrerer Hängegleiter. Wie muss er diese kennzeichnen?",
+      "options": [
+        "Nur ein Gerät muss gekennzeichnet werden, die übrigen können ohne Kennzeichen geflogen werden.",
+        "Dem Kennzeichen sind jeweils unterschiedliche Grossbuchstaben des Alphabets beizufügen, damit die Geräte unterschieden werden können.",
+        "Alle Geräte werden mit demselben Kennzeichen versehen.",
+        "Für jedes Gerät ist ein eigenes Kennzeichen zu beantragen."
+      ],
+      "correct": 2
+    },
+    "Gesetzgebung_59": {
+      "qid": 59,
+      "topic": "Gesetzgebung",
+      "pos": 40,
+      "total_in_topic": 180,
+      "text": "Das NOTAM",
+      "options": [
+        "ist eine topographische Karte mit Angaben über die Ausdehnung der verschiedenen Luftraumklassen, über Gefahren- und Flugbeschränkungsgebiete, Lufthindernisse, Segelflugzonen (LS-R for Gliders) und Militärflugdienstzeiten.",
+        "enthält allgemeingültige Informationen für Benützer des schweizerischen Luftraums.",
+        "enthält aktuelle Angaben über die örtliche und zeitliche Begrenzung militärischer Schiessübungen und erscheint täglich.",
+        "ist eine tägliche Zusammenfassung aller für den Sichtflug-Verkehr publizierten Informationen."
+      ],
+      "correct": 3
+    },
+    "Gesetzgebung_139": {
+      "qid": 139,
+      "topic": "Gesetzgebung",
+      "pos": 41,
+      "total_in_topic": 180,
+      "text": "Wer bestimmt die Drehrichtung im Thermikschlauch?",
+      "options": [
+        "Das oberste im Schlauch fliegende Luftfahrzeug.",
+        "Das schnellste im Schlauch fliegende Luftfahrzeug.",
+        "Das erste im Schlauch fliegende Luftfahrzeug.",
+        "Das grösste im Schlauch fliegende Luftfahrzeug."
+      ],
+      "correct": 2
+    },
+    "Gesetzgebung_166": {
+      "qid": 166,
+      "topic": "Gesetzgebung",
+      "pos": 42,
+      "total_in_topic": 180,
+      "text": "Weshalb unterscheiden sich die TMA LSME (Emmen) und die TMA LSMA (Alpnach) graphisch auf diesem Kartenausschnitt?",
+      "options": [
+        "Es gibt keinen Unterschied.",
+        "Die TMA Emmen ist eine temporäre Zone, die TMA Alpnach eine permanente.",
+        "Die TMA Emmen ist 24 Stunden aktiv, die TMA Alpnach wird mittels Notam/DABS aktiviert.",
+        "Die TMA Emmen ist gemäss HX aktiv, die TMA Alpnach wird mittels Notam/DABS aktiviert."
+      ],
+      "correct": 3
     }
   },
   "topics": {
