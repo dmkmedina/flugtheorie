@@ -364,147 +364,163 @@ function navigate(view) {
 // VIEW: Dashboard
 // ============================================================================
 function renderDashboard() {
-  // --- Workbook progress ---
+  // Numbers used in section descriptions — counts of what's inside.
   const books = getWorkbook();
-  const totalChapters = books.reduce((a, b) => a + (b.chapters?.length || 0), 0);
-  const readChapters = books.reduce(
-    (a, b) => a + (b.chapters || []).filter(c => state.workbook.completed[c.id]?.readAt).length, 0);
-  const workbookPct = totalChapters > 0 ? Math.round(100 * readChapters / totalChapters) : 0;
-
-  // --- SHV pool + practice history ---
+  const wbChapters = books.reduce((a, b) => a + (b.chapters?.length || 0), 0);
   const shvPool = getSHVQuestions() || {};
   const shvTotal = Object.keys(shvPool).length;
-  const shvByTopic = getSHVQuestionsByTopic();
-  const shvTopicsCount = Object.keys(shvByTopic).length;
-  const shvHistory = state.shvExam.history || [];
-  const lastShv = shvHistory[shvHistory.length - 1];
-
-  // Weakest subtopics across past SHV attempts (lowest % across all sessions)
-  const subStats = {};  // key=`topic::subId` → { topic, title, right, total }
-  for (const r of shvHistory) {
-    for (const [k, s] of Object.entries(r.subSections || {})) {
-      const cur = subStats[k] || { topic: s.topic, title: s.title, right: 0, total: 0 };
-      cur.right += s.right;
-      cur.total += s.total;
-      subStats[k] = cur;
-    }
-  }
-  const weakSubs = Object.values(subStats)
-    .filter(s => s.total >= 2)
-    .map(s => ({ ...s, pct: Math.round(100 * s.right / s.total) }))
-    .sort((a, b) => a.pct - b.pct)
-    .slice(0, 5);
-
-  // --- Video study time ---
+  const shvTopics = Object.keys(getSHVQuestionsByTopic()).length;
+  const subcats = Object.values(getSHVSubcategories() || {}).reduce((a, s) => a + s.length, 0);
+  const enrichedCount = Object.values(getSHVEnrichments() || {}).filter(e => e.explanation).length;
+  const enrichedPct = shvTotal > 0 ? Math.round(100 * enrichedCount / shvTotal) : 0;
+  const guide = getGuide();
+  const guideChapters = (guide.parts || []).reduce((a, p) => a + (p.chapters?.length || 0), 0);
+  const guideParts = (guide.parts || []).length;
+  const guideDiagrams = getDiagrams().length;
   const videos = getAllVideos();
   const videoHours = videos.reduce((a, v) => a + (v.duration_seconds || 0), 0) / 3600;
-  const enrichedCount = Object.values(getSHVEnrichments() || {}).filter(e => e.explanation).length;
+  const enSubs = videos.filter(v => v.has_en_vtt).length;
+  const deSubs = videos.filter(v => v.has_de_vtt).length;
+  const decks = getDecks();
+  const totalSlides = decks.reduce((a, d) => a + (d.slides?.length || 0), 0);
+  const shvImageCount = Object.values(shvPool).filter(q => q.has_image).length;
 
-  const langLabel = state.lang === 'de' ? 'auf Deutsch' : 'in English';
+  const sections = [
+    {
+      id: 'shv-exam',
+      icon: '🎯',
+      title: 'SHV Practice Exam',
+      tagline: 'Take the real exam under realistic or no-pressure conditions.',
+      bullets: [
+        `<strong>${shvTotal}</strong> questions from the official SHV elearning pool across ${shvTopics} topics`,
+        'Timed mode mimics the real 90-min exam · Study mode reveals answers and explanations inline',
+        'Per-subtopic breakdown after every attempt so you know what to grind',
+      ],
+      cta: 'Start practice',
+      primary: true,
+    },
+    {
+      id: 'shv-browse',
+      icon: '🗂️',
+      title: 'SHV Browse',
+      tagline: 'Explore every question without taking an exam.',
+      bullets: [
+        `Tree view of all <strong>${shvTotal}</strong> questions, grouped into ${subcats} subtopics`,
+        'Expand any question to see the correct answer, explanation, related guide/workbook chapters, video clips, diagrams, and slides',
+        'Search across question text and answers',
+      ],
+      cta: 'Open browser',
+    },
+    {
+      id: 'workbook',
+      icon: '📒',
+      title: 'Workbook',
+      tagline: 'Structured chapter-by-chapter learning with quizzes.',
+      bullets: [
+        `<strong>${wbChapters}</strong> chapters across ${books.length} books${hasGermanWorkbook() ? ' (EN + DE)' : ''}`,
+        'Each chapter mixes prose, callouts, definitions, tables, and a quiz at the end',
+        'Audited against the Free Wings + Air Active video transcripts',
+      ],
+      cta: 'Open workbook',
+    },
+    {
+      id: 'guide',
+      icon: '📚',
+      title: 'Study Guide',
+      tagline: 'Long-form prose for the theory exam (English).',
+      bullets: [
+        `<strong>${guideChapters}</strong> chapters across ${guideParts} parts (Aero · Meteo · Law · Equipment · Skills)`,
+        `${guideDiagrams} custom SVG diagrams keyed to specific chapters`,
+        'Cross-referenced with question numbers for fast lookup',
+      ],
+      cta: 'Open guide',
+    },
+    {
+      id: 'videos',
+      icon: '📺',
+      title: 'Video Lessons',
+      tagline: 'Watch the instructors explain it, with subtitles.',
+      bullets: [
+        `<strong>${videos.length}</strong> videos · ~${videoHours.toFixed(1)} hours total from Free Wings + Air Active`,
+        `Bilingual subtitle tracks (${enSubs} EN, ${deSubs} DE) — toggle inside the player`,
+        'Click any transcript line to jump the video to that moment',
+      ],
+      cta: 'Open videos',
+    },
+    {
+      id: 'slides',
+      icon: '🎬',
+      title: 'Slide Decks',
+      tagline: 'The original instructor decks, navigable side-by-side.',
+      bullets: [
+        `<strong>${totalSlides}</strong> slides across ${decks.length} decks`,
+        'EN and DE captions side-by-side in the slide viewer',
+        'Linked from SHV Browse and Study mode whenever a question maps to a slide',
+      ],
+      cta: 'Open slides',
+    },
+    {
+      id: 'cheatsheet',
+      icon: '⚡',
+      title: 'Cheat Sheet',
+      tagline: 'High-density single page of must-memorise numbers.',
+      bullets: [
+        'ISA atmosphere · cloud-clearance table · Föhn thresholds · airspace class rules',
+        'Brevet exam pass marks · key Swiss-specific values',
+        'Designed for last-minute review the night before',
+      ],
+      cta: 'Open cheat sheet',
+    },
+    {
+      id: 'tips',
+      icon: '💡',
+      title: 'Study Tips',
+      tagline: 'How to actually retain this stuff.',
+      bullets: [
+        'Spaced repetition cadence and how to use it with the SHV pool',
+        'Exam-day strategy (skip/flag rules, time budget, common traps)',
+        'Sources cited so you can dig further',
+      ],
+      cta: 'Read tips',
+    },
+  ];
 
-  // --- Stats row ---
-  const statsHtml = `
-    <div class="stat-grid">
-      <div class="stat accent">
-        <div class="stat-label">SHV question pool</div>
-        <div class="stat-value tabnum">${shvTotal}</div>
-        <div class="stat-sub">${shvTopicsCount} topics · ${enrichedCount} with explanations</div>
-      </div>
-      <div class="stat ${lastShv ? (lastShv.passed ? 'good' : 'warn') : ''}">
-        <div class="stat-label">Last SHV practice</div>
-        <div class="stat-value tabnum">${lastShv ? lastShv.scorePct + '%' : '—'}</div>
-        <div class="stat-sub">${lastShv ? `${lastShv.totalRight}/${lastShv.totalCount} · ${lastShv.passed ? '✓ Passed' : '✗ Below pass mark'}` : 'No attempts yet — try a 20-question practice'}</div>
-      </div>
-      <div class="stat ${workbookPct >= 80 ? 'good' : workbookPct >= 30 ? 'accent' : ''}">
-        <div class="stat-label">Workbook chapters read</div>
-        <div class="stat-value tabnum">${readChapters}/${totalChapters}</div>
-        <div class="stat-sub">${workbookPct}% of ${books.length} books</div>
-        <div class="progress"><div class="progress-fill" style="width:${workbookPct}%"></div></div>
-      </div>
-      <div class="stat">
-        <div class="stat-label">Video study material</div>
-        <div class="stat-value tabnum">${videoHours.toFixed(1)} h</div>
-        <div class="stat-sub">${videos.length} videos · EN+DE subtitles</div>
-      </div>
-    </div>
-  `;
+  const langLine = state.lang === 'de' ? 'auf Deutsch' : 'in English';
+  const enrichedNote = enrichedCount > 0
+    ? `${enrichedCount} (${enrichedPct}%) carry a written explanation and curated cross-references.`
+    : '';
+  const imageNote = shvImageCount > 0 ? ` · ${shvImageCount} include the reference figure.` : '';
 
-  // --- Workbook progress by book ---
-  const workbookHtml = books.length === 0 ? '' : `
-    <div class="card" style="margin-bottom:20px;">
-      <div class="card-header">
-        <h2 class="card-title">Workbook progress ${state.lang === 'de' ? '(Arbeitsbuch)' : ''}</h2>
-        <a href="#" data-nav="workbook" class="btn small">Open workbook →</a>
-      </div>
-      ${books.map(book => {
-        const total = book.chapters?.length || 0;
-        const read = (book.chapters || []).filter(c => state.workbook.completed[c.id]?.readAt).length;
-        const pct = total > 0 ? Math.round(100 * read / total) : 0;
-        return `
-          <div class="progress-row">
-            <div>
-              <div class="pr-label">${escapeHtml(book.title)}</div>
-              <div class="pr-meta">${read}/${total} chapters read</div>
-            </div>
-            <div class="badge ${pct >= 80 ? 'good' : pct >= 30 ? 'warn' : 'bad'}">${pct}%</div>
-            <div class="pr-track">
-              <div class="progress ${pct >= 80 ? 'good' : ''}"><div class="progress-fill" style="width:${pct}%"></div></div>
-            </div>
-          </div>
-        `;
-      }).join('')}
-    </div>
-  `;
-
-  // --- Weakest subtopics (only if there's enough history to be meaningful) ---
-  const weakHtml = weakSubs.length === 0 ? '' : `
-    <div class="card" style="margin-bottom:20px;">
-      <div class="card-header">
-        <h2 class="card-title">Where to grind next</h2>
-        <a href="#" data-nav="shv-exam" class="btn small">Start practice →</a>
-      </div>
-      <p class="muted" style="font-size:13px; margin-top:0;">Subtopics with the lowest scores across your past SHV practice sessions.</p>
-      ${weakSubs.map(s => `
-        <div class="exam-section-row" style="border-bottom:1px solid var(--border);">
-          <div class="name" style="font-size:13px;">
-            <span class="muted" style="font-size:11px;">${escapeHtml(s.topic)}</span> · ${escapeHtml(s.title)}
-          </div>
-          <div class="score">${s.right}/${s.total} (${s.pct}%)</div>
-          <div class="verdict ${s.pct >= 75 ? 'pass' : 'fail'}" style="font-size:11px;">${s.pct >= 75 ? '✓' : '✗'}</div>
+  const sectionsHtml = sections.map(s => `
+    <div class="dashboard-section ${s.primary ? 'dashboard-section-primary' : ''}">
+      <div class="dashboard-section-head">
+        <div class="dashboard-section-icon">${s.icon}</div>
+        <div>
+          <div class="dashboard-section-title">${escapeHtml(s.title)}</div>
+          <div class="dashboard-section-tagline">${escapeHtml(s.tagline)}</div>
         </div>
-      `).join('')}
-    </div>
-  `;
-
-  // --- Quick actions ---
-  const quickActionsHtml = `
-    <div class="card">
-      <h2 class="card-title" style="margin-bottom:12px;">Quick actions</h2>
-      <div class="row" style="flex-wrap:wrap;">
-        <button class="btn primary" data-nav="shv-exam">🎯 SHV practice exam</button>
-        <button class="btn" data-nav="shv-browse">🗂️ Browse SHV pool</button>
-        <button class="btn" data-nav="workbook">📒 Open workbook</button>
-        <button class="btn" data-nav="guide">📚 Study guide</button>
-        <button class="btn" data-nav="videos">📺 Videos (EN/DE subs)</button>
-        <button class="btn" data-nav="slides">🎬 Slide decks</button>
-        <button class="btn" data-nav="cheatsheet">⚡ Cheat sheet</button>
-        <button class="btn ghost" data-nav="tips">💡 Tips</button>
       </div>
-      <div class="muted" style="margin-top:14px; font-size:12px;">
-        Tip: switch between <span class="kbd">🇬🇧 English</span> and <span class="kbd">🇩🇪 Deutsch</span> in the sidebar footer to flip the workbook and SHV pool. The study guide stays English.
-      </div>
+      <ul class="dashboard-section-bullets">
+        ${s.bullets.map(b => `<li>${b}</li>`).join('')}
+      </ul>
+      <button class="btn ${s.primary ? 'primary' : ''} small" data-nav="${s.id}">${escapeHtml(s.cta)} →</button>
     </div>
-  `;
+  `).join('');
 
   return `
     <div class="page-header">
-      <h1>Welcome back 🪂</h1>
-      <p class="page-subtitle">SHV/FSVL paragliding theory — practice, browse and study ${langLabel}.</p>
+      <h1>Welcome to Flugtheorie 🪂</h1>
+      <p class="page-subtitle">Study tools for the Swiss SHV/FSVL paragliding theory exam — currently rendering ${langLine}. Toggle 🇬🇧/🇩🇪 in the sidebar footer.</p>
     </div>
-    ${statsHtml}
-    ${weakHtml}
-    ${workbookHtml}
-    ${quickActionsHtml}
+    ${shvTotal > 0 ? `
+      <div class="card dashboard-summary">
+        <p style="margin:0; font-size:14px; line-height:1.5;">
+          The app has <strong>${shvTotal}</strong> SHV exam questions${enrichedCount > 0 ? `, of which ${enrichedNote}` : ''}${imageNote}
+          On top of that: ${wbChapters} workbook chapters, ${guideChapters} study-guide chapters, ${videos.length} video lessons (~${videoHours.toFixed(1)} h), and ${totalSlides} slides.
+        </p>
+      </div>
+    ` : ''}
+    <div class="dashboard-grid">${sectionsHtml}</div>
   `;
 }
 

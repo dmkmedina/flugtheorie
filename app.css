@@ -411,6 +411,93 @@ code, .mono { font-family: "SF Mono", Menlo, Consolas, monospace; font-size: 13p
 .stat.warn .stat-value { color: var(--warn); }
 .stat.bad .stat-value { color: var(--bad); }
 
+/* ============================================================================ Dashboard sections (informational cards) */
+.dashboard-summary {
+  margin-bottom: 20px;
+}
+.dashboard-summary p {
+  margin: 0;
+  line-height: 1.6;
+}
+.dashboard-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 16px;
+  margin-bottom: 24px;
+}
+.dashboard-section {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: 20px 22px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  transition: transform 0.12s, box-shadow 0.12s, border-color 0.12s;
+}
+.dashboard-section:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow);
+  border-color: var(--border-strong);
+}
+.dashboard-section-primary {
+  border-color: var(--accent);
+  box-shadow: 0 0 0 1px var(--accent-soft) inset;
+}
+.dashboard-section-primary:hover {
+  border-color: var(--accent);
+  box-shadow: 0 0 0 1px var(--accent-soft) inset, var(--shadow);
+}
+.dashboard-section-head {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+}
+.dashboard-section-icon {
+  font-size: 28px;
+  line-height: 1;
+  flex-shrink: 0;
+}
+.dashboard-section-title {
+  font-size: 16px;
+  font-weight: 700;
+  margin: 0 0 2px 0;
+  letter-spacing: -0.01em;
+}
+.dashboard-section-tagline {
+  font-size: 13px;
+  color: var(--text-soft);
+  margin: 0;
+}
+.dashboard-section-bullets {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  flex: 1;
+}
+.dashboard-section-bullets li {
+  font-size: 13px;
+  color: var(--text);
+  padding-left: 18px;
+  position: relative;
+  line-height: 1.5;
+}
+.dashboard-section-bullets li::before {
+  content: "›";
+  position: absolute;
+  left: 4px;
+  top: 0;
+  color: var(--accent);
+  font-weight: 700;
+}
+.dashboard-section .btn {
+  align-self: flex-start;
+  margin-top: auto;
+}
+
 /* ============================================================================ Progress bar */
 .progress {
   height: 8px;
