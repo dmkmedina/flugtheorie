@@ -134,21 +134,102 @@ try {
   throw e;
 }
 renderer.setPixelRatio(Math.min(devicePixelRatio || 1, 2));
+renderer.outputEncoding = THREE.sRGBEncoding;
+renderer.toneMapping = THREE.ACESFilmicToneMapping;
+renderer.toneMappingExposure = 1.05;
+renderer.shadowMap.enabled = true;
+renderer.shadowMap.type = THREE.PCFSoftShadowMap;
 document.getElementById('stage').appendChild(renderer.domElement);
 
 const scene = new THREE.Scene();
-scene.background = new THREE.Color(0x87c5ea);
-scene.fog = new THREE.Fog(0x87c5ea, 350, 1400);
+scene.background = new THREE.Color(0xa8d2ef).convertSRGBToLinear();
+scene.fog = new THREE.Fog(new THREE.Color(0xb8d9ef).convertSRGBToLinear(), 350, 1400);
 
-const camera = new THREE.PerspectiveCamera(55, 1, 0.1, 12000);
+const camera = new THREE.PerspectiveCamera(55, 1, 0.1, 14000);
 
-scene.add(new THREE.HemisphereLight(0xeaf6ff, 0x4a6b3f, 0.95));
-const sun = new THREE.DirectionalLight(0xfff3d6, 0.9);
-sun.position.set(180, 320, 120);
+scene.add(new THREE.HemisphereLight(0xdcefff, 0x49653f, 0.85));
+const SUN_DIR = new THREE.Vector3(0.42, 0.75, 0.3).normalize();
+const sun = new THREE.DirectionalLight(0xfff2d8, 1.45);
+sun.castShadow = true;
+sun.shadow.mapSize.set(2048, 2048);
+sun.shadow.bias = -0.0006;
 scene.add(sun);
+scene.add(sun.target);
+function setSun(extent, dist){
+  sun.position.copy(SUN_DIR).multiplyScalar(dist);
+  const c = sun.shadow.camera;
+  c.left = -extent; c.right = extent; c.top = extent; c.bottom = -extent;
+  c.near = dist * 0.25; c.far = dist * 2.4;
+  c.updateProjectionMatrix();
+}
+setSun(240, 450);
+
+/* gradient sky dome + sun glow (scene-level, survives lesson switches) */
+(function makeSky(){
+  const geo = new THREE.SphereGeometry(6800, 28, 18);
+  const pos = geo.attributes.position, cols = [];
+  const zen = new THREE.Color(0x3a7fc4).convertSRGBToLinear(), hor = new THREE.Color(0xcfe6f6).convertSRGBToLinear();
+  for (let i = 0; i < pos.count; i++){
+    const t = Math.max(0, pos.getY(i) / 6800);
+    const c = hor.clone().lerp(zen, Math.pow(t, 0.62));
+    cols.push(c.r, c.g, c.b);
+  }
+  geo.setAttribute('color', new THREE.Float32BufferAttribute(cols, 3));
+  scene.add(new THREE.Mesh(geo, new THREE.MeshBasicMaterial({ vertexColors: true, side: THREE.BackSide, fog: false, depthWrite: false, toneMapped: false })));
+  const cv = document.createElement('canvas');
+  cv.width = cv.height = 128;
+  const g = cv.getContext('2d').createRadialGradient(64, 64, 2, 64, 64, 64);
+  g.addColorStop(0, 'rgba(255,250,235,1)');
+  g.addColorStop(0.18, 'rgba(255,243,205,.95)');
+  g.addColorStop(0.5, 'rgba(255,235,180,.28)');
+  g.addColorStop(1, 'rgba(255,235,180,0)');
+  const ctx = cv.getContext('2d');
+  ctx.fillStyle = g;
+  ctx.fillRect(0, 0, 128, 128);
+  const tex = new THREE.CanvasTexture(cv);
+  tex.encoding = THREE.sRGBEncoding;
+  const glow = new THREE.Sprite(new THREE.SpriteMaterial({ map: tex, fog: false, depthWrite: false, transparent: true, toneMapped: false }));
+  glow.position.copy(SUN_DIR).multiplyScalar(6200);
+  glow.scale.set(2300, 2300, 1);
+  scene.add(glow);
+})();
+
+/* soft cloud puffs (sprite-based) */
+const PUFF_TEX = (function(){
+  const cv = document.createElement('canvas');
+  cv.width = cv.height = 128;
+  const ctx = cv.getContext('2d');
+  const g = ctx.createRadialGradient(64, 66, 6, 64, 66, 60);
+  g.addColorStop(0, 'rgba(255,255,255,.95)');
+  g.addColorStop(0.55, 'rgba(250,252,255,.55)');
+  g.addColorStop(1, 'rgba(250,252,255,0)');
+  ctx.fillStyle = g;
+  ctx.fillRect(0, 0, 128, 128);
+  const tex = new THREE.CanvasTexture(cv);
+  tex.encoding = THREE.sRGBEncoding;
+  return tex;
+})();
+function makePuffCloud(n, w, h, d){
+  const grp = new THREE.Group();
+  for (let i = 0; i < n; i++){
+    const s = new THREE.Sprite(new THREE.SpriteMaterial({ map: PUFF_TEX, transparent: true, opacity: 0.92, depthWrite: false }));
+    s.position.set((Math.random() - 0.5) * w, (Math.random() - 0.45) * h, (Math.random() - 0.5) * d);
+    const sc = (0.55 + Math.random() * 0.75) * Math.max(w, h) * 0.75;
+    s.scale.set(sc, sc * 0.62, 1);
+    grp.add(s);
+  }
+  return grp;
+}
+function addAmbientClouds(y, spread){
+  for (let i = 0; i < 4; i++){
+    const c = makePuffCloud(5, 60, 22, 30);
+    c.position.set((Math.random() - 0.5) * spread, y + Math.random() * y * 0.3, (Math.random() - 0.5) * spread);
+    stage.add(c);
+  }
+}
 
 /* ---------- orbit controls (hand-rolled) ---------- */
-const orbit = { theta: 0.7, phi: 1.18, dist: 32, target: new THREE.Vector3(0, 4, 0) };
+const orbit = { theta: 0.7, phi: 1.18, dist: 32, maxDist: 900, target: new THREE.Vector3(0, 4, 0) };
 function applyCamera(){
   const sp = Math.sin(orbit.phi), cp = Math.cos(orbit.phi);
   camera.position.set(
@@ -171,12 +252,12 @@ function applyCamera(){
   el.addEventListener('pointercancel', () => drag = null);
   el.addEventListener('wheel', e => {
     e.preventDefault();
-    orbit.dist = Math.min(900, Math.max(8, orbit.dist * (1 + Math.sign(e.deltaY) * 0.1)));
+    orbit.dist = Math.min(orbit.maxDist, Math.max(8, orbit.dist * (1 + Math.sign(e.deltaY) * 0.1)));
   }, { passive: false });
   el.addEventListener('touchmove', e => {
     if (e.touches.length === 2){
       const d = Math.hypot(e.touches[0].clientX - e.touches[1].clientX, e.touches[0].clientY - e.touches[1].clientY);
-      if (pinch) orbit.dist = Math.min(900, Math.max(8, orbit.dist * pinch / d));
+      if (pinch) orbit.dist = Math.min(orbit.maxDist, Math.max(8, orbit.dist * pinch / d));
       pinch = d;
       drag = null;
     }
@@ -202,7 +283,8 @@ function makeLabel(text, color, size){
   ctx2.fillText(text, pad, c.height / 2 + 2);
   const tex = new THREE.CanvasTexture(c);
   tex.minFilter = THREE.LinearFilter;
-  const spr = new THREE.Sprite(new THREE.SpriteMaterial({ map: tex, depthTest: false }));
+  tex.encoding = THREE.sRGBEncoding;
+  const spr = new THREE.Sprite(new THREE.SpriteMaterial({ map: tex, depthTest: false, toneMapped: false }));
   const s = size || 3.2;
   spr.scale.set(s * c.width / c.height, s, 1);
   spr.renderOrder = 10;
@@ -233,33 +315,79 @@ function setArrow(a, origin, dir, len){
   if (spr) spr.position.copy(d.clone().multiplyScalar(len + 1.6));
 }
 
-/* terrain: gentle alpine hills, optional flat disc at centre */
+/* terrain: layered-noise alpine hills, optional flat disc at centre */
 function heightAt(x, z){
   return 14 * Math.sin(x * 0.012 + 1.7) * Math.cos(z * 0.014)
        + 30 * Math.sin(x * 0.004 - 0.6) * Math.sin(z * 0.005 + 2.1)
-       + 4 * Math.sin(x * 0.05) * Math.cos(z * 0.045);
+       + 7 * Math.sin(x * 0.021 + z * 0.013 + 3.1) * Math.cos(x * 0.011 - z * 0.024)
+       + 4 * Math.sin(x * 0.05) * Math.cos(z * 0.045)
+       + 1.6 * Math.sin(x * 0.11 + 0.8) * Math.sin(z * 0.13);
+}
+function paintTerrain(geo, hScale){
+  // slope + height colouring: meadow → forest → rock → snow
+  geo.computeVertexNormals();
+  const pos = geo.attributes.position, nor = geo.attributes.normal, colors = [];
+  const meadow = new THREE.Color(0x7cb162).convertSRGBToLinear(), forest = new THREE.Color(0x40703e).convertSRGBToLinear(),
+        rock = new THREE.Color(0x8c8e94).convertSRGBToLinear(), snow = new THREE.Color(0xf3f7fa).convertSRGBToLinear();
+  for (let i = 0; i < pos.count; i++){
+    const x = pos.getX(i), z = pos.getZ(i);
+    const hm = (pos.getY(i) - (geo.userData.base || 0)) * hScale;       // metres above local base
+    const slope = 1 - nor.getY(i);
+    const speck = 0.5 + 0.5 * Math.sin(x * 0.21 + z * 0.17) * Math.sin(x * 0.05 - z * 0.083);
+    let c = meadow.clone().lerp(forest, Math.min(1, speck * 0.9 + hm / 700));
+    if (slope > 0.16) c.lerp(rock, Math.min(1, (slope - 0.16) / 0.22));
+    if (hm > 1450) c.lerp(snow, Math.min(1, (hm - 1450) / 320));
+    else if (hm > 1100) c.lerp(rock, Math.min(1, (hm - 1100) / 350) * 0.8);
+    c.multiplyScalar(0.94 + speck * 0.1);
+    colors.push(c.r, c.g, c.b);
+  }
+  geo.setAttribute('color', new THREE.Float32BufferAttribute(colors, 3));
 }
 function makeTerrain(opts){
   opts = opts || {};
-  const size = opts.size || 2400, seg = 110;
+  const size = opts.size || 2400, seg = 150;
   const geo = new THREE.PlaneGeometry(size, size, seg, seg);
   geo.rotateX(-Math.PI / 2);
   const pos = geo.attributes.position;
-  const colors = [];
-  const cLow = new THREE.Color(0x69a05c), cMid = new THREE.Color(0x4d7d4a), cHigh = new THREE.Color(0x8e9aa5);
   for (let i = 0; i < pos.count; i++){
     const x = pos.getX(i), z = pos.getZ(i);
     let h = heightAt(x, z) * (opts.relief == null ? 1 : opts.relief);
     const d = Math.hypot(x, z);
     if (opts.flatRadius && d < opts.flatRadius) h *= Math.pow(d / opts.flatRadius, 2);
     pos.setY(i, h + (opts.base || 0));
-    const t = Math.min(1, Math.max(0, (h - 8) / 40));
-    const c = h < 12 ? cLow.clone().lerp(cMid, h / 12) : cMid.clone().lerp(cHigh, t);
-    colors.push(c.r, c.g, c.b);
   }
-  geo.setAttribute('color', new THREE.Float32BufferAttribute(colors, 3));
-  geo.computeVertexNormals();
-  return new THREE.Mesh(geo, new THREE.MeshStandardMaterial({ vertexColors: true, roughness: 1, metalness: 0, flatShading: true }));
+  geo.userData.base = opts.base || 0;
+  paintTerrain(geo, opts.hScale == null ? 8 : opts.hScale);   // exaggerate colour bands on small hills
+  const mesh = new THREE.Mesh(geo, new THREE.MeshStandardMaterial({ vertexColors: true, roughness: 1, metalness: 0 }));
+  mesh.receiveShadow = true;
+  const grp = new THREE.Group();
+  grp.add(mesh);
+  if (opts.trees){
+    const n = opts.trees;
+    const trunkM = new THREE.MeshStandardMaterial({ color: new THREE.Color(0x5d4630).convertSRGBToLinear(), roughness: 1 });
+    const crownM = new THREE.MeshStandardMaterial({ color: new THREE.Color(0x2f5d33).convertSRGBToLinear(), roughness: 0.95 });
+    const trunks = new THREE.InstancedMesh(new THREE.CylinderGeometry(0.22, 0.34, 1.6, 5), trunkM, n);
+    const crowns = new THREE.InstancedMesh(new THREE.ConeGeometry(1.9, 5.2, 6), crownM, n);
+    const m = new THREE.Matrix4(), q = new THREE.Quaternion(), s = new THREE.Vector3(), p = new THREE.Vector3();
+    const rel = opts.relief == null ? 1 : opts.relief;
+    for (let i = 0; i < n; i++){
+      const a = Math.random() * Math.PI * 2;
+      const r = (opts.treeMin || 60) + Math.random() * ((opts.treeMax || 480) - (opts.treeMin || 60));
+      p.set(Math.cos(a) * r, 0, Math.sin(a) * r);
+      let h = heightAt(p.x, p.z) * rel;
+      if (opts.flatRadius && r < opts.flatRadius) h *= Math.pow(r / opts.flatRadius, 2);
+      p.y = h + (opts.base || 0);
+      const sc = 0.8 + Math.random() * 0.9;
+      s.set(sc, sc, sc);
+      m.compose(p.clone().add(new THREE.Vector3(0, 0.8 * sc, 0)), q, s);
+      trunks.setMatrixAt(i, m);
+      m.compose(p.clone().add(new THREE.Vector3(0, (1.6 + 2.6) * sc, 0)), q, s);
+      crowns.setMatrixAt(i, m);
+    }
+    crowns.castShadow = true;
+    grp.add(trunks, crowns);
+  }
+  return grp;
 }
 
 /* ---------- the paraglider ---------- */
@@ -271,27 +399,30 @@ function buildGlider(opts){
   wing.position.y = H;
   root.add(wing);
 
-  // canopy: ribbon following an anhedral arc, striped cells
+  // canopy: cambered ribbon following an anhedral arc, striped cells, dark tips
   const SPAN_A = 1.15;                      // half-arc angle (rad)
-  const R = 5.6, CHORD = 2.5, COLS = 30;
-  const rows = [-0.5, -0.1, 0.5];           // chordwise stations (z, fractions of chord); slight camber on mid
+  const R = 5.6, CHORD = 2.5, COLS = 34;
+  const rows = [-0.5, -0.24, 0.02, 0.28, 0.5];          // chordwise stations (fractions of chord)
+  const camber = [0, 0.36, 0.48, 0.30, 0.02];           // airfoil arch per station
+  const NR = rows.length;
   const verts = [], cols = [], idx = [];
-  const cA = new THREE.Color(opts.color || 0xff5a36), cB = new THREE.Color(0xfff4ec);
+  const cA = new THREE.Color(opts.color || 0xff5a36).convertSRGBToLinear(), cB = new THREE.Color(0xfff4ec).convertSRGBToLinear(), cTip = new THREE.Color(0xb51230).convertSRGBToLinear();
   for (let i = 0; i <= COLS; i++){
     const t = i / COLS * 2 - 1;
     const a = t * SPAN_A;
     const x = Math.sin(a) * R;
     const y = Math.cos(a) * R - R;          // arc droop (0 at centre)
-    const cell = Math.floor(i / 2) % 2 ? cA : cB;
-    for (let r = 0; r < 3; r++){
-      const camber = r === 1 ? 0.30 : 0;    // raised mid row → airfoil hint
-      verts.push(x, y + camber, rows[r] * CHORD);
+    const cell = Math.abs(t) > 0.86 ? cTip : (Math.floor(i / 2) % 2 ? cA : cB);
+    for (let r = 0; r < NR; r++){
+      verts.push(x, y + camber[r], rows[r] * CHORD);
       cols.push(cell.r, cell.g, cell.b);
     }
   }
   for (let i = 0; i < COLS; i++){
-    const a = i * 3, b = (i + 1) * 3;
-    idx.push(a, b, a + 1, b, b + 1, a + 1, a + 1, b + 1, a + 2, b + 1, b + 2, a + 2);
+    for (let r = 0; r < NR - 1; r++){
+      const a = i * NR + r, b = (i + 1) * NR + r;
+      idx.push(a, b, a + 1, b, b + 1, a + 1);
+    }
   }
   const geo = new THREE.BufferGeometry();
   geo.setAttribute('position', new THREE.Float32BufferAttribute(verts, 3));
@@ -299,7 +430,8 @@ function buildGlider(opts){
   geo.setIndex(idx);
   geo.computeVertexNormals();
   const canopy = new THREE.Mesh(geo, new THREE.MeshStandardMaterial({
-    vertexColors: true, side: THREE.DoubleSide, roughness: 0.85, metalness: 0, flatShading: true }));
+    vertexColors: true, side: THREE.DoubleSide, roughness: 0.55, metalness: 0 }));
+  canopy.castShadow = true;
   wing.add(canopy);
 
   // cell openings: dark strip just under the leading edge
@@ -360,6 +492,7 @@ function buildGlider(opts){
   pod.rotation.x = Math.PI / 2 - 0.25;
   pod.position.set(0, -0.28, 0.42);
   pilot.add(head, helmet, torso, pod);
+  pilot.traverse(o => { if (o.isMesh) o.castShadow = true; });
   root.add(pilot);
 
   return { root, wing, canopy, intakes, lines: groups, pilot, H };
@@ -448,7 +581,10 @@ const state = {};                          // current param values
 function clearStage(){
   stage.traverse(o => {
     if (o.geometry) o.geometry.dispose();
-    if (o.material){ (Array.isArray(o.material) ? o.material : [o.material]).forEach(m => { if (m.map) m.map.dispose(); m.dispose(); }); }
+    if (o.material){ (Array.isArray(o.material) ? o.material : [o.material]).forEach(m => {
+      if (m.map && m.map !== PUFF_TEX) m.map.dispose();
+      m.dispose();
+    }); }
   });
   while (stage.children.length) stage.remove(stage.children[0]);
 }
@@ -518,9 +654,12 @@ function setLesson(id){
   if (L.insetTitle) document.getElementById('insettitle').textContent = L.insetTitle;
   scene.fog.near = L.fog ? L.fog[0] : 350;
   scene.fog.far = L.fog ? L.fog[1] : 1400;
+  sun.castShadow = L.shadows !== false;
+  setSun(L.shadowExtent || 240, L.sunDist || 450);
   buildPanel();
   L.build();
   Object.assign(orbit, L.camera);
+  orbit.maxDist = L.maxDist || 900;
   document.querySelectorAll('#lessons .chip').forEach(c => c.classList.toggle('on', c.dataset.id === id));
 }
 
@@ -551,6 +690,7 @@ const L1 = {
   ],
   build(){
     stage.add(makeTerrain({ base: -120, flatRadius: 0 }));
+    addAmbientClouds(55, 520);
     const gl = buildGlider();
     stage.add(gl.root);
     this.gl = gl;
@@ -639,6 +779,7 @@ const L2 = {
   toggles: [{ key: 'flow', label: 'Airflow particles', init: true }],
   build(){
     stage.add(makeTerrain({ base: -120 }));
+    addAmbientClouds(65, 420);
     const gl = buildGlider();
     stage.add(gl.root);
     this.gl = gl;
@@ -714,7 +855,8 @@ const L3 = {
       fmt: v => v < -0.02 ? Math.round(-v * 100) + '% bar' : v > 0.02 ? Math.round(v * 100) + '% brake' : 'trim' },
   ],
   build(){
-    stage.add(makeTerrain({ base: -60, relief: 0.5, flatRadius: 200 }));
+    stage.add(makeTerrain({ base: -60, relief: 0.5, flatRadius: 200, trees: 170, treeMin: 210, treeMax: 520 }));
+    addAmbientClouds(95, 680);
     const gl = buildGlider();
     gl.root.position.y = 14;
     stage.add(gl.root);
@@ -792,7 +934,8 @@ const L4 = {
     { key: 'w', label: 'Thermal strength (core)', min: 0.5, max: 5, step: 0.1, init: 2.5, fmt: v => v.toFixed(1) + ' m/s' },
   ],
   build(){
-    stage.add(makeTerrain({ base: 0, relief: 0.7, flatRadius: 120 }));
+    stage.add(makeTerrain({ base: 0, relief: 0.7, flatRadius: 120, trees: 260, treeMin: 130, treeMax: 540 }));
+    addAmbientClouds(165, 820);
     const gl = buildGlider();
     stage.add(gl.root);
     this.gl = gl;
@@ -853,6 +996,8 @@ const L5 = {
   summary: 'G is a 600 m carpet over the terrain. E sits above. C and D are off limits.',
   camera: { theta: 0.55, phi: 1.22, dist: 700, target: new THREE.Vector3(0, 250, 0) },
   fog: [1800, 7000],
+  maxDist: 4200,
+  shadows: false,
   info: `
     <p>Of the seven ICAO classes only <b>C, D, E and G</b> exist in Switzerland — and only the uncontrolled
     <b>E</b> and <b>G</b> are open to paragliders without clearance.</p>
@@ -873,11 +1018,12 @@ const L5 = {
     { key: 'mil', label: 'MIL ON', init: false },
   ],
   build(){
-    const terrain = makeTerrain({ size: 3000, relief: 3.2, base: 0, flatRadius: 260 });
+    const terrain = makeTerrain({ size: 3000, relief: 3.2, base: 0, flatRadius: 260, hScale: 11 });
     stage.add(terrain);
-    // the G "carpet": a translucent copy of the terrain lifted 600 m
-    const carpet = terrain.clone();
-    carpet.material = new THREE.MeshBasicMaterial({ color: 0x4ade80, transparent: true, opacity: 0.13, side: THREE.DoubleSide, depthWrite: false });
+    // the G "carpet": a translucent copy of the terrain surface lifted 600 m
+    const tMesh = terrain.children[0];
+    const carpet = new THREE.Mesh(tMesh.geometry,
+      new THREE.MeshBasicMaterial({ color: 0x4ade80, transparent: true, opacity: 0.13, side: THREE.DoubleSide, depthWrite: false }));
     carpet.position.y = 600;
     stage.add(carpet);
     const carpetLabel = makeLabel('top of G — 600 m AGL', '#4ade80', 26);
@@ -1094,7 +1240,7 @@ const L7 = {
     return 3000;
   },
   build(){
-    stage.add(makeTerrain({ base: 0, relief: 0.6, flatRadius: 220 }));
+    stage.add(makeTerrain({ base: 0, relief: 0.6, flatRadius: 220, trees: 230, treeMin: 240, treeMax: 560 }));
     const D = this.D;
     // inversion slab
     this.slab = new THREE.Mesh(new THREE.BoxGeometry(600, 300 / D, 600),
@@ -1203,21 +1349,21 @@ const L8 = {
   ],
   D: 12,
   build(){
-    stage.add(makeTerrain({ base: 0, relief: 0.6, flatRadius: 220 }));
+    stage.add(makeTerrain({ base: 0, relief: 0.6, flatRadius: 220, trees: 230, treeMin: 240, treeMax: 560 }));
     // sun-baked trigger field
     const field = new THREE.Mesh(new THREE.CircleGeometry(46, 28),
       new THREE.MeshStandardMaterial({ color: 0xc9a24a, roughness: 1 }));
     field.rotation.x = -Math.PI / 2;
     field.position.y = 0.4;
+    field.receiveShadow = true;
     stage.add(field);
-    // cumulus: a cluster of soft spheres
-    this.cloud = new THREE.Group();
-    const cm = new THREE.MeshStandardMaterial({ color: 0xffffff, transparent: true, opacity: 0.88, roughness: 0.95, flatShading: true });
-    for (let i = 0; i < 11; i++){
-      const s = new THREE.Mesh(new THREE.SphereGeometry(13 + Math.random() * 13, 10, 8), cm);
-      s.position.set((Math.random() - 0.5) * 56, Math.random() * 16, (Math.random() - 0.5) * 44);
-      this.cloud.add(s);
-    }
+    // cumulus: layered soft puffs with a flat darker base
+    this.cloud = makePuffCloud(16, 95, 42, 70);
+    const baseDisc = new THREE.Mesh(new THREE.CircleGeometry(46, 24),
+      new THREE.MeshBasicMaterial({ color: 0x9fb4c6, transparent: true, opacity: 0.35, depthWrite: false }));
+    baseDisc.rotation.x = -Math.PI / 2;
+    baseDisc.position.y = -20;
+    this.cloud.add(baseDisc);
     stage.add(this.cloud);
     this.motes = makeParticles(320, 0xffd9a0, 1.5);
     stage.add(this.motes);
@@ -1233,8 +1379,9 @@ const L8 = {
     const spread = t - dp;
     const base = Math.min(spread * 125, 3800);
     const fat = Math.max(0.5, (16 - spread) / 8);          // moist day → fat cloud
-    this.cloud.position.y = base / D + 9;
-    this.cloud.scale.set(1 + fat * 0.5, 0.7 + fat * 0.55, 1 + fat * 0.5);
+    const sy = 0.7 + fat * 0.55;
+    this.cloud.scale.set(1 + fat * 0.5, sy, 1 + fat * 0.5);
+    this.cloud.position.y = base / D + 21 * sy;            // puffs sit on the condensation level
     const pos = this.motes.geometry.attributes.position;
     for (let i = 0; i < pos.count; i++){
       let y = pos.getY(i) + dt * (13 + (i % 6));
@@ -1259,8 +1406,11 @@ const L8 = {
 const L9 = {
   id: 'foehn', icon: '🏔️', title: 'Föhn — over the Alps', insetTitle: null,
   summary: 'Rain on one side, a warm dry storm on the other. Same air, two lapse rates.',
-  camera: { theta: -Math.PI / 2 + 0.22, phi: 1.25, dist: 1150, target: new THREE.Vector3(0, 270, 0) },
-  fog: [2200, 9500],
+  camera: { theta: -Math.PI / 2 + 0.45, phi: 1.12, dist: 2950, target: new THREE.Vector3(0, 240, 0) },
+  fog: [2600, 10500],
+  maxDist: 3800,
+  shadowExtent: 1250,
+  sunDist: 2600,
   D: 2.5,
   ridge(zw){ return 760 * Math.exp(-(zw / 168) * (zw / 168)); },   // world units (D=2.5 → 1900 m crest)
   info: `
@@ -1283,22 +1433,22 @@ const L9 = {
   build(){
     const D = this.D;
     // ridge terrain: a wall along X, flow crosses it along +Z
-    const size = 1600, segs = 90;
-    const geo = new THREE.PlaneGeometry(size, 1000, segs, 60);
+    const size = 3400, segs = 150;
+    const geo = new THREE.PlaneGeometry(size, 2200, segs, 110);
     geo.rotateX(-Math.PI / 2);
-    const pos = geo.attributes.position, colors = [];
-    const cLow = new THREE.Color(0x69a05c), cMid = new THREE.Color(0x77705e), cHigh = new THREE.Color(0xe8eef4);
+    const pos = geo.attributes.position;
     for (let i = 0; i < pos.count; i++){
       const x = pos.getX(i), z = pos.getZ(i);
-      let h = this.ridge(z) * (0.82 + 0.18 * Math.sin(x * 0.011 + 1.3)) + 6 * Math.sin(x * 0.05) * Math.cos(z * 0.07);
+      const h = this.ridge(z) * (0.82 + 0.18 * Math.sin(x * 0.011 + 1.3))
+        + 6 * Math.sin(x * 0.05) * Math.cos(z * 0.07)
+        + 2.5 * Math.sin(x * 0.13 + z * 0.09) * Math.cos(x * 0.07 - z * 0.16);
       pos.setY(i, h);
-      const hm = h * D;
-      const c = hm > 1500 ? cHigh : hm > 850 ? cMid.clone().lerp(cHigh, (hm - 850) / 650) : cLow.clone().lerp(cMid, hm / 850);
-      colors.push(c.r, c.g, c.b);
     }
-    geo.setAttribute('color', new THREE.Float32BufferAttribute(colors, 3));
-    geo.computeVertexNormals();
-    stage.add(new THREE.Mesh(geo, new THREE.MeshStandardMaterial({ vertexColors: true, roughness: 1, flatShading: true })));
+    geo.userData.base = 0;
+    paintTerrain(geo, D);                        // real metres → snow above ~1450 m
+    const ridgeMesh = new THREE.Mesh(geo, new THREE.MeshStandardMaterial({ vertexColors: true, roughness: 1 }));
+    ridgeMesh.receiveShadow = true;
+    stage.add(ridgeMesh);
 
     // streaming air
     this.flow = makeParticles(650, 0xeaf6ff, 2.2);
@@ -1317,8 +1467,8 @@ const L9 = {
     // föhn wall + rain (rebuilt when the base changes)
     this.wall = new THREE.Group();
     stage.add(this.wall);
-    this.wallMat = new THREE.MeshStandardMaterial({ color: 0xf4f8fc, transparent: true, opacity: 0.82, roughness: 1, flatShading: true });
-    this.rain = makeParticles(260, 0x9fd0f2, 1.6);
+    this.wallMat = new THREE.SpriteMaterial({ map: PUFF_TEX, color: new THREE.Color(0xb9c8d8).convertSRGBToLinear(), transparent: true, opacity: 0.94, depthWrite: false });
+    this.rain = makeParticles(340, 0x86b8dd, 2.6);
     stage.add(this.rain);
     const rp = this.rain.geometry.attributes.position;
     for (let i = 0; i < rp.count; i++) rp.setXYZ(i, (Math.random() - 0.5) * 900, 200 + Math.random() * 300, -260 + Math.random() * 200);
@@ -1326,18 +1476,16 @@ const L9 = {
     this.t = 0;
   },
   rebuildWall(baseW){
-    while (this.wall.children.length){
-      const c = this.wall.children[0];
-      this.wall.remove(c);
-      c.geometry.dispose();
-    }
-    for (let i = 0; i < 26; i++){
-      const zw = -250 + Math.random() * 280;
+    while (this.wall.children.length) this.wall.remove(this.wall.children[0]);
+    for (let i = 0; i < 64; i++){
+      const zw = -310 + Math.random() * 350;
       const env = this.ridge(zw);
-      const y = Math.max(baseW, env + 8) + Math.random() * 75;
-      if (y > 900) continue;
-      const s = new THREE.Mesh(new THREE.SphereGeometry(22 + Math.random() * 26, 9, 7), this.wallMat);
-      s.position.set((Math.random() - 0.5) * 1100, y, zw);
+      const y = Math.max(baseW, env + 8) + Math.random() * 95;
+      if (y > 940) continue;
+      const s = new THREE.Sprite(this.wallMat);
+      s.position.set((Math.random() - 0.5) * 1500, y, zw);
+      const sc = 80 + Math.random() * 85;
+      s.scale.set(sc, sc * 0.6, 1);
       this.wall.add(s);
     }
   },
