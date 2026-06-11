@@ -1,0 +1,1437 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Flight Lab · 3D Paragliding Concepts</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🧪</text></svg>">
+<style>
+:root{
+  --panel:#0f2237ee; --panel-line:#27425e; --ink:#e9f4fe; --muted:#9db9d2; --faint:#6f8eaa;
+  --accent:#38bdf8; --accent-deep:#0ea5e9; --amber:#fbbf24; --good:#4ade80; --bad:#f87171;
+}
+*{box-sizing:border-box}
+html,body{margin:0;height:100%;overflow:hidden;background:#0a1c30;
+  font:14.5px/1.5 ui-rounded,-apple-system,"SF Pro Rounded","Segoe UI",Roboto,Arial,sans-serif;color:var(--ink)}
+#stage{position:fixed;inset:0}
+#stage canvas{display:block}
+
+#panel{position:fixed;top:0;right:0;bottom:0;width:380px;max-width:92vw;background:var(--panel);
+  border-left:1px solid var(--panel-line);backdrop-filter:blur(10px);display:flex;flex-direction:column;z-index:10;
+  transition:transform .25s ease}
+#panel.hidden{transform:translateX(100%)}
+#panel-head{padding:16px 18px 10px;border-bottom:1px solid var(--panel-line)}
+.brand{font-weight:850;font-size:18px;letter-spacing:.3px;display:flex;gap:8px;align-items:center}
+.brand small{font-weight:650;color:var(--muted);font-size:11px;display:block;letter-spacing:.6px}
+#lessons{display:flex;gap:6px;flex-wrap:wrap;margin-top:12px}
+.chip{padding:6px 11px;border-radius:999px;border:1.5px solid var(--panel-line);background:transparent;
+  color:var(--muted);font-weight:700;font-size:12.5px;cursor:pointer;font-family:inherit}
+.chip:hover{border-color:var(--accent);color:var(--ink)}
+.chip.on{background:var(--accent);border-color:var(--accent);color:#06283d}
+#panel-body{flex:1;overflow-y:auto;padding:16px 18px 26px}
+#panel-body h2{margin:0 0 4px;font-size:19px}
+#panel-body .summary{color:var(--muted);font-weight:600;margin:0 0 14px}
+.info{font-size:14px;color:#cfe3f5}
+.info p{margin:0 0 10px}
+.info b{color:var(--ink)}
+.refs{margin:14px 0 4px;display:flex;flex-direction:column;gap:6px}
+.refs a,.refs span{font-size:12.5px;font-weight:700;color:var(--accent);text-decoration:none}
+.refs a:hover{text-decoration:underline}
+.refs .wb{color:var(--amber)}
+.controls{margin-top:16px;display:flex;flex-direction:column;gap:14px}
+.ctl label{display:flex;justify-content:space-between;font-weight:750;font-size:13px;color:var(--muted);margin-bottom:4px}
+.ctl label output{color:var(--ink);font-variant-numeric:tabular-nums}
+input[type=range]{width:100%;accent-color:var(--accent);height:26px}
+.toggles{display:flex;flex-wrap:wrap;gap:8px;margin-top:4px}
+.tgl{display:inline-flex;align-items:center;gap:6px;padding:6px 11px;border-radius:10px;border:1.5px solid var(--panel-line);
+  font-weight:700;font-size:12.5px;color:var(--muted);cursor:pointer;user-select:none}
+.tgl input{accent-color:var(--accent);margin:0}
+.tgl.on{color:var(--ink);border-color:var(--accent)}
+.readouts{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-top:16px}
+.ro{background:#0b1c30;border:1px solid var(--panel-line);border-radius:12px;padding:9px 12px}
+.ro .v{font-size:19px;font-weight:850;font-variant-numeric:tabular-nums}
+.ro .v small{font-size:11px;color:var(--muted);font-weight:700}
+.ro .k{font-size:11px;color:var(--faint);font-weight:750;letter-spacing:.4px;text-transform:uppercase}
+.ro.warn .v{color:var(--bad)}
+.ro.good .v{color:var(--good)}
+.note{margin-top:14px;padding:10px 13px;border-radius:11px;background:#11314e;border:1px solid var(--panel-line);
+  font-size:12.5px;color:var(--muted)}
+.note b{color:var(--amber)}
+
+#polarbox{position:fixed;left:14px;bottom:14px;z-index:9;background:var(--panel);border:1px solid var(--panel-line);
+  border-radius:14px;padding:10px 12px 6px;display:none}
+#polarbox .t{font-size:11px;font-weight:800;letter-spacing:.5px;color:var(--muted);margin-bottom:2px}
+#hint{position:fixed;left:14px;top:12px;z-index:9;color:#bcd9ef;font-size:12px;font-weight:700;
+  background:#0f223780;border-radius:999px;padding:6px 13px;backdrop-filter:blur(6px)}
+#togglepanel{position:fixed;top:10px;right:10px;z-index:11;background:var(--accent);color:#06283d;border:none;
+  border-radius:10px;padding:8px 12px;font-weight:800;font-size:13px;cursor:pointer;display:none;font-family:inherit}
+.backlink{display:inline-block;margin-top:8px;color:var(--faint);font-size:12px;font-weight:700;text-decoration:none}
+.backlink:hover{color:var(--accent)}
+#fail{position:fixed;inset:0;display:none;place-items:center;background:#0a1c30;z-index:99;text-align:center;padding:30px}
+
+@media (max-width:760px){
+  #panel{top:auto;height:46vh;width:100%;max-width:none;border-left:none;border-top:1px solid var(--panel-line)}
+  #panel.hidden{transform:translateY(100%)}
+  #togglepanel{display:block}
+  #polarbox{bottom:calc(46vh + 12px);transform:scale(.85);transform-origin:bottom left}
+  #hint{display:none}
+}
+</style>
+</head>
+<body>
+<div id="stage"></div>
+<div id="hint">🖱 drag to orbit · scroll to zoom</div>
+<button id="togglepanel">☰ Lesson</button>
+<aside id="panel">
+  <div id="panel-head">
+    <div class="brand">🧪 Flight Lab <small>INTERACTIVE 3D · SHV THEORY CONCEPTS</small></div>
+    <div id="lessons"></div>
+    <a class="backlink" href="study-english.html">← back to Cloudbase, the question trainer</a>
+  </div>
+  <div id="panel-body"></div>
+</aside>
+<div id="polarbox"><div class="t" id="insettitle">SPEED POLAR</div><canvas id="polar" width="320" height="225"></canvas></div>
+<div id="fail"><div><h2>WebGL not available</h2><p>This 3D lab needs WebGL. Try a current Chrome, Safari or Firefox.</p>
+<p><a href="study-english.html" style="color:#38bdf8">→ back to the Cloudbase trainer</a></p></div></div>
+<script src="assets/vendor/three.min.js"></script>
+<script>
+'use strict';
+/* =================================================================
+   Flight Lab — interactive 3D lessons for the SHV paragliding theory
+   World units are metres. Forward flight = -Z, up = +Y, right = +X.
+   ================================================================= */
+
+/* ---------- flight model (school-wing numbers, workbook-aligned) ---------- */
+const FM = {
+  // control c: -1 = full speed bar … 0 = trim … +1 = full brake
+  airspeed(c){ return 38 - c * 13; },                      // km/h: 51 … 38 … 25
+  sink(v){                                                  // m/s for airspeed v km/h
+    let s = 1.05 + 0.0024 * (v - 33) * (v - 33);
+    if (v < 28) s += (28 - v) * 0.18;                       // stall-side steepening
+    return s;
+  },
+  glide(v){ return (v / 3.6) / this.sink(v); },
+  STALL_V: 26,
+};
+const G = 9.81;
+
+const VIDEOS = {
+  meteo0: 'https://video.wixstatic.com/video/2c6d0a_647e78113f34433a97e060e2be558653/1080p/mp4/file.mp4',
+  aero0:  'https://video.wixstatic.com/video/2c6d0a_2b947e967c544c9fb058e7c3232f35ab/1080p/mp4/file.mp4',
+  aero1:  'https://video.wixstatic.com/video/2c6d0a_5258724a6bd5464b8a4acb42811fabeb/1080p/mp4/file.mp4',
+  meteo1: 'https://video.wixstatic.com/video/2c6d0a_7bfb4c9a1b144437856a5b04b68e1490/1080p/mp4/file.mp4',
+  law0:   'https://video.wixstatic.com/video/2c6d0a_cb3ecd1820544f9297facc40ea62b524/1080p/mp4/file.mp4',
+  mat0:   'https://video.wixstatic.com/video/2c6d0a_2a0103c5c0284600b2ae375f26b404b7/1080p/mp4/file.mp4',
+  prax0:  'https://video.wixstatic.com/video/2c6d0a_a303fce189c84f529505ea2b60b33631/1080p/mp4/file.mp4',
+};
+
+/* ---------- renderer / scene core ---------- */
+let renderer;
+try {
+  renderer = new THREE.WebGLRenderer({ antialias: true });
+} catch (e) {
+  document.getElementById('fail').style.display = 'grid';
+  throw e;
+}
+renderer.setPixelRatio(Math.min(devicePixelRatio || 1, 2));
+document.getElementById('stage').appendChild(renderer.domElement);
+
+const scene = new THREE.Scene();
+scene.background = new THREE.Color(0x87c5ea);
+scene.fog = new THREE.Fog(0x87c5ea, 350, 1400);
+
+const camera = new THREE.PerspectiveCamera(55, 1, 0.1, 12000);
+
+scene.add(new THREE.HemisphereLight(0xeaf6ff, 0x4a6b3f, 0.95));
+const sun = new THREE.DirectionalLight(0xfff3d6, 0.9);
+sun.position.set(180, 320, 120);
+scene.add(sun);
+
+/* ---------- orbit controls (hand-rolled) ---------- */
+const orbit = { theta: 0.7, phi: 1.18, dist: 32, target: new THREE.Vector3(0, 4, 0) };
+function applyCamera(){
+  const sp = Math.sin(orbit.phi), cp = Math.cos(orbit.phi);
+  camera.position.set(
+    orbit.target.x + orbit.dist * sp * Math.sin(orbit.theta),
+    orbit.target.y + orbit.dist * cp,
+    orbit.target.z + orbit.dist * sp * Math.cos(orbit.theta));
+  camera.lookAt(orbit.target);
+}
+(function bindOrbit(){
+  const el = renderer.domElement;
+  let drag = null, pinch = null;
+  el.addEventListener('pointerdown', e => { drag = { x: e.clientX, y: e.clientY }; el.setPointerCapture(e.pointerId); });
+  el.addEventListener('pointermove', e => {
+    if (!drag) return;
+    orbit.theta -= (e.clientX - drag.x) * 0.006;
+    orbit.phi = Math.min(1.52, Math.max(0.15, orbit.phi - (e.clientY - drag.y) * 0.005));
+    drag = { x: e.clientX, y: e.clientY };
+  });
+  el.addEventListener('pointerup', () => drag = null);
+  el.addEventListener('pointercancel', () => drag = null);
+  el.addEventListener('wheel', e => {
+    e.preventDefault();
+    orbit.dist = Math.min(900, Math.max(8, orbit.dist * (1 + Math.sign(e.deltaY) * 0.1)));
+  }, { passive: false });
+  el.addEventListener('touchmove', e => {
+    if (e.touches.length === 2){
+      const d = Math.hypot(e.touches[0].clientX - e.touches[1].clientX, e.touches[0].clientY - e.touches[1].clientY);
+      if (pinch) orbit.dist = Math.min(900, Math.max(8, orbit.dist * pinch / d));
+      pinch = d;
+      drag = null;
+    }
+  }, { passive: true });
+  el.addEventListener('touchend', () => pinch = null);
+})();
+
+/* ---------- helpers ---------- */
+function makeLabel(text, color, size){
+  const pad = 12, fs = 46;
+  const c = document.createElement('canvas');
+  const ctx = c.getContext('2d');
+  ctx.font = `800 ${fs}px ui-rounded, -apple-system, Segoe UI, Arial`;
+  c.width = Math.ceil(ctx.measureText(text).width) + pad * 2;
+  c.height = fs + pad * 2;
+  const ctx2 = c.getContext('2d');
+  ctx2.font = `800 ${fs}px ui-rounded, -apple-system, Segoe UI, Arial`;
+  ctx2.fillStyle = 'rgba(8,30,52,.72)';
+  ctx2.beginPath();
+  ctx2.roundRect ? (ctx2.roundRect(0, 0, c.width, c.height, 18), ctx2.fill()) : ctx2.fillRect(0, 0, c.width, c.height);
+  ctx2.fillStyle = color || '#fff';
+  ctx2.textBaseline = 'middle';
+  ctx2.fillText(text, pad, c.height / 2 + 2);
+  const tex = new THREE.CanvasTexture(c);
+  tex.minFilter = THREE.LinearFilter;
+  const spr = new THREE.Sprite(new THREE.SpriteMaterial({ map: tex, depthTest: false }));
+  const s = size || 3.2;
+  spr.scale.set(s * c.width / c.height, s, 1);
+  spr.renderOrder = 10;
+  return spr;
+}
+
+function makeArrow(hex, label){
+  const g = new THREE.Group();
+  const mat = new THREE.MeshStandardMaterial({ color: hex, roughness: 0.5, metalness: 0 });
+  const shaft = new THREE.Mesh(new THREE.CylinderGeometry(0.13, 0.13, 1, 10), mat);
+  const head = new THREE.Mesh(new THREE.ConeGeometry(0.42, 1.15, 12), mat);
+  g.add(shaft); g.add(head);
+  const spr = label ? makeLabel(label, '#' + hex.toString(16).padStart(6, '0')) : null;
+  if (spr) g.add(spr);
+  g.userData = { shaft, head, spr };
+  g.renderOrder = 5;
+  return g;
+}
+function setArrow(a, origin, dir, len){
+  const d = dir.clone().normalize();
+  a.position.copy(origin);
+  const { shaft, head, spr } = a.userData;
+  shaft.position.copy(d.clone().multiplyScalar(len / 2));
+  shaft.scale.set(1, Math.max(0.01, len), 1);
+  shaft.quaternion.setFromUnitVectors(new THREE.Vector3(0, 1, 0), d);
+  head.position.copy(d.clone().multiplyScalar(len));
+  head.quaternion.copy(shaft.quaternion);
+  if (spr) spr.position.copy(d.clone().multiplyScalar(len + 1.6));
+}
+
+/* terrain: gentle alpine hills, optional flat disc at centre */
+function heightAt(x, z){
+  return 14 * Math.sin(x * 0.012 + 1.7) * Math.cos(z * 0.014)
+       + 30 * Math.sin(x * 0.004 - 0.6) * Math.sin(z * 0.005 + 2.1)
+       + 4 * Math.sin(x * 0.05) * Math.cos(z * 0.045);
+}
+function makeTerrain(opts){
+  opts = opts || {};
+  const size = opts.size || 2400, seg = 110;
+  const geo = new THREE.PlaneGeometry(size, size, seg, seg);
+  geo.rotateX(-Math.PI / 2);
+  const pos = geo.attributes.position;
+  const colors = [];
+  const cLow = new THREE.Color(0x69a05c), cMid = new THREE.Color(0x4d7d4a), cHigh = new THREE.Color(0x8e9aa5);
+  for (let i = 0; i < pos.count; i++){
+    const x = pos.getX(i), z = pos.getZ(i);
+    let h = heightAt(x, z) * (opts.relief == null ? 1 : opts.relief);
+    const d = Math.hypot(x, z);
+    if (opts.flatRadius && d < opts.flatRadius) h *= Math.pow(d / opts.flatRadius, 2);
+    pos.setY(i, h + (opts.base || 0));
+    const t = Math.min(1, Math.max(0, (h - 8) / 40));
+    const c = h < 12 ? cLow.clone().lerp(cMid, h / 12) : cMid.clone().lerp(cHigh, t);
+    colors.push(c.r, c.g, c.b);
+  }
+  geo.setAttribute('color', new THREE.Float32BufferAttribute(colors, 3));
+  geo.computeVertexNormals();
+  return new THREE.Mesh(geo, new THREE.MeshStandardMaterial({ vertexColors: true, roughness: 1, metalness: 0, flatShading: true }));
+}
+
+/* ---------- the paraglider ---------- */
+function buildGlider(opts){
+  opts = opts || {};
+  const root = new THREE.Group();           // origin at the PILOT
+  const wing = new THREE.Group();
+  const H = 7.2;                            // line length pilot→wing
+  wing.position.y = H;
+  root.add(wing);
+
+  // canopy: ribbon following an anhedral arc, striped cells
+  const SPAN_A = 1.15;                      // half-arc angle (rad)
+  const R = 5.6, CHORD = 2.5, COLS = 30;
+  const rows = [-0.5, -0.1, 0.5];           // chordwise stations (z, fractions of chord); slight camber on mid
+  const verts = [], cols = [], idx = [];
+  const cA = new THREE.Color(opts.color || 0xff5a36), cB = new THREE.Color(0xfff4ec);
+  for (let i = 0; i <= COLS; i++){
+    const t = i / COLS * 2 - 1;
+    const a = t * SPAN_A;
+    const x = Math.sin(a) * R;
+    const y = Math.cos(a) * R - R;          // arc droop (0 at centre)
+    const cell = Math.floor(i / 2) % 2 ? cA : cB;
+    for (let r = 0; r < 3; r++){
+      const camber = r === 1 ? 0.30 : 0;    // raised mid row → airfoil hint
+      verts.push(x, y + camber, rows[r] * CHORD);
+      cols.push(cell.r, cell.g, cell.b);
+    }
+  }
+  for (let i = 0; i < COLS; i++){
+    const a = i * 3, b = (i + 1) * 3;
+    idx.push(a, b, a + 1, b, b + 1, a + 1, a + 1, b + 1, a + 2, b + 1, b + 2, a + 2);
+  }
+  const geo = new THREE.BufferGeometry();
+  geo.setAttribute('position', new THREE.Float32BufferAttribute(verts, 3));
+  geo.setAttribute('color', new THREE.Float32BufferAttribute(cols, 3));
+  geo.setIndex(idx);
+  geo.computeVertexNormals();
+  const canopy = new THREE.Mesh(geo, new THREE.MeshStandardMaterial({
+    vertexColors: true, side: THREE.DoubleSide, roughness: 0.85, metalness: 0, flatShading: true }));
+  wing.add(canopy);
+
+  // cell openings: dark strip just under the leading edge
+  const leGeo = new THREE.BufferGeometry();
+  const leV = [];
+  for (let i = 0; i <= COLS; i++){
+    const t = i / COLS * 2 - 1, a = t * SPAN_A;
+    const x = Math.sin(a) * R, y = Math.cos(a) * R - R;
+    leV.push(x, y - 0.06, -0.5 * CHORD, x, y - 0.30, -0.42 * CHORD);
+  }
+  const leI = [];
+  for (let i = 0; i < COLS; i++){ const a = i * 2, b = a + 2; leI.push(a, b, a + 1, b, b + 1, a + 1); }
+  leGeo.setAttribute('position', new THREE.Float32BufferAttribute(leV, 3));
+  leGeo.setIndex(leI);
+  leGeo.computeVertexNormals();
+  const intakes = new THREE.Mesh(leGeo, new THREE.MeshStandardMaterial({ color: 0x27160f, side: THREE.DoubleSide, roughness: 1 }));
+  wing.add(intakes);
+
+  // lines: A / B / C groups + brakes, from wing stations to riser points
+  const riserL = new THREE.Vector3(-0.28, 0.75, 0);
+  const riserR = new THREE.Vector3(0.28, 0.75, 0);
+  const groups = {};
+  const lineDefs = [
+    { key: 'A', zf: -0.42, color: 0xff3b30 },     // red A — school wings
+    { key: 'B', zf: -0.05, color: 0xdfe8f2 },
+    { key: 'C', zf: 0.34, color: 0xdfe8f2 },
+    { key: 'brake', zf: 0.52, color: 0xffb020 },
+  ];
+  const stations = [-0.92, -0.55, 0.55, 0.92];
+  lineDefs.forEach(def => {
+    const v = [];
+    stations.forEach(s => {
+      const a = s * SPAN_A;
+      const wp = new THREE.Vector3(Math.sin(a) * R, Math.cos(a) * R - R + H, def.zf * CHORD);
+      const rp = (s < 0 ? riserL : riserR).clone();
+      if (def.key === 'brake') rp.y -= 0.18;
+      v.push(rp.x, rp.y, rp.z, wp.x, wp.y, wp.z);
+    });
+    const g = new THREE.BufferGeometry();
+    g.setAttribute('position', new THREE.Float32BufferAttribute(v, 3));
+    const mat = new THREE.LineBasicMaterial({ color: def.color, transparent: true, opacity: 0.9 });
+    const lines = new THREE.LineSegments(g, mat);
+    root.add(lines);
+    groups[def.key] = lines;
+  });
+
+  // pilot: head + torso + pod harness
+  const pilot = new THREE.Group();
+  const skin = new THREE.MeshStandardMaterial({ color: 0x2b3f56, roughness: 0.8 });
+  const podM = new THREE.MeshStandardMaterial({ color: opts.podColor || 0x14406b, roughness: 0.7 });
+  const head = new THREE.Mesh(new THREE.SphereGeometry(0.18, 14, 12), new THREE.MeshStandardMaterial({ color: 0xf3c89e, roughness: 0.8 }));
+  head.position.y = 0.55;
+  const helmet = new THREE.Mesh(new THREE.SphereGeometry(0.20, 14, 12, 0, Math.PI * 2, 0, Math.PI * 0.55), new THREE.MeshStandardMaterial({ color: 0xff5a36, roughness: 0.5 }));
+  helmet.position.y = 0.58;
+  const torso = new THREE.Mesh(new THREE.CylinderGeometry(0.16, 0.20, 0.55, 10), skin);
+  torso.position.y = 0.18;
+  const pod = new THREE.Mesh(new THREE.CylinderGeometry(0.23, 0.16, 1.25, 10), podM);
+  pod.rotation.x = Math.PI / 2 - 0.25;
+  pod.position.set(0, -0.28, 0.42);
+  pilot.add(head, helmet, torso, pod);
+  root.add(pilot);
+
+  return { root, wing, canopy, intakes, lines: groups, pilot, H };
+}
+
+/* particles: simple streaming points */
+function makeParticles(n, hex, size){
+  const g = new THREE.BufferGeometry();
+  g.setAttribute('position', new THREE.Float32BufferAttribute(new Float32Array(n * 3), 3));
+  const m = new THREE.PointsMaterial({ color: hex, size: size || 0.6, transparent: true, opacity: 0.8, sizeAttenuation: true });
+  const p = new THREE.Points(g, m);
+  p.frustumCulled = false;
+  return p;
+}
+
+/* ---------- polar inset ---------- */
+const polarBox = document.getElementById('polarbox');
+const polarCv = document.getElementById('polar');
+function drawPolar(op, windKmh){
+  const ctx = polarCv.getContext('2d');
+  const W = polarCv.width, H = polarCv.height;
+  const x0 = 44, y0 = 22, x1 = W - 10, y1 = H - 34;
+  const vMin = 20, vMax = 55, sMax = 2.6;
+  const X = v => x0 + (v - vMin) / (vMax - vMin) * (x1 - x0);
+  const Y = s => y0 + s / sMax * (y1 - y0);
+  ctx.clearRect(0, 0, W, H);
+  ctx.font = '700 10px ui-rounded, -apple-system, Arial';
+  // axes
+  ctx.strokeStyle = '#27425e'; ctx.fillStyle = '#9db9d2'; ctx.lineWidth = 1;
+  for (let v = 20; v <= 55; v += 5){
+    ctx.beginPath(); ctx.moveTo(X(v), y0); ctx.lineTo(X(v), y1); ctx.stroke();
+    ctx.fillText(v, X(v) - 6, y1 + 12);
+  }
+  for (let s = 0; s <= 2.5; s += 0.5){
+    ctx.beginPath(); ctx.moveTo(x0, Y(s)); ctx.lineTo(x1, Y(s)); ctx.stroke();
+    ctx.fillText(s.toFixed(1), 8, Y(s) + 3);
+  }
+  ctx.fillText('km/h →', x1 - 38, y1 + 24);
+  ctx.save(); ctx.translate(12, y0 + 40); ctx.rotate(-Math.PI / 2); ctx.fillText('sink m/s', 0, 0); ctx.restore();
+  // stall zone
+  ctx.fillStyle = 'rgba(248,113,113,.12)';
+  ctx.fillRect(x0, y0, X(FM.STALL_V) - x0, y1 - y0);
+  // curve
+  ctx.strokeStyle = '#38bdf8'; ctx.lineWidth = 2.4; ctx.beginPath();
+  for (let v = 24; v <= 51; v += 0.5){
+    const x = X(v), y = Y(FM.sink(v));
+    v === 24 ? ctx.moveTo(x, y) : ctx.lineTo(x, y);
+  }
+  ctx.stroke();
+  // landmarks: min sink & best glide (tangent from wind-shifted origin)
+  let vms = 24, best = 1e9;
+  for (let v = 24; v <= 51; v += 0.25) if (FM.sink(v) < best){ best = FM.sink(v); vms = v; }
+  const w = windKmh || 0;                                     // headwind > 0
+  let vbg = 24, bg = -1;
+  for (let v = 24; v <= 51; v += 0.25){
+    const overGround = (v - w) / 3.6 / FM.sink(v);
+    if (overGround > bg){ bg = overGround; vbg = v; }
+  }
+  const mark = (v, color, label, dy) => {
+    ctx.fillStyle = color;
+    ctx.beginPath(); ctx.arc(X(v), Y(FM.sink(v)), 3.5, 0, 7); ctx.fill();
+    ctx.fillText(label, X(v) - 18, Y(FM.sink(v)) + (dy || -8));
+  };
+  // tangent line for speed-to-fly
+  if (windKmh != null){
+    ctx.strokeStyle = 'rgba(251,191,36,.8)'; ctx.lineWidth = 1.3;
+    ctx.beginPath(); ctx.moveTo(X(Math.max(vMin, w)), Y(0)); ctx.lineTo(X(vbg), Y(FM.sink(vbg))); ctx.stroke();
+  }
+  mark(vms, '#4ade80', 'min sink');
+  mark(vbg, '#fbbf24', windKmh != null ? 'speed to fly' : 'best glide', 14);
+  // operating point
+  if (op != null){
+    ctx.fillStyle = '#fff'; ctx.strokeStyle = '#fff';
+    ctx.beginPath(); ctx.arc(X(op), Y(FM.sink(op)), 5, 0, 7); ctx.fill();
+  }
+}
+
+/* =================================================================
+   Lesson framework
+   ================================================================= */
+const stage = new THREE.Group();           // per-lesson content, rebuilt on switch
+scene.add(stage);
+let lesson = null;
+const state = {};                          // current param values
+
+function clearStage(){
+  stage.traverse(o => {
+    if (o.geometry) o.geometry.dispose();
+    if (o.material){ (Array.isArray(o.material) ? o.material : [o.material]).forEach(m => { if (m.map) m.map.dispose(); m.dispose(); }); }
+  });
+  while (stage.children.length) stage.remove(stage.children[0]);
+}
+
+const $ = s => document.querySelector(s);
+function fmtNum(x, d){ return (+x).toFixed(d == null ? 0 : d); }
+
+function buildPanel(){
+  const L = lesson;
+  const body = $('#panel-body');
+  const refs = (L.refs || []).map(r =>
+    r.href ? `<a href="${r.href}" target="_blank" rel="noopener">🎬 ${r.label}</a>`
+           : `<span class="wb">📖 ${r.label}</span>`).join('');
+  body.innerHTML = `
+    <h2>${L.icon} ${L.title}</h2>
+    <p class="summary">${L.summary}</p>
+    <div class="info">${L.info}</div>
+    <div class="refs">${refs}</div>
+    <div class="controls">${(L.params || []).map(p => `
+      <div class="ctl">
+        <label>${p.label}<output id="out-${p.key}"></output></label>
+        <input type="range" id="in-${p.key}" min="${p.min}" max="${p.max}" step="${p.step}" value="${state[p.key]}">
+      </div>`).join('')}
+      <div class="toggles">${(L.toggles || []).map(t => `
+        <label class="tgl ${state[t.key] ? 'on' : ''}" id="tg-${t.key}">
+          <input type="checkbox" id="ck-${t.key}" ${state[t.key] ? 'checked' : ''}>${t.label}</label>`).join('')}
+      </div>
+    </div>
+    <div class="readouts" id="readouts"></div>
+    ${L.note ? `<div class="note">${L.note}</div>` : ''}`;
+  (L.params || []).forEach(p => {
+    const inp = $('#in-' + p.key);
+    inp.addEventListener('input', () => { state[p.key] = +inp.value; syncOutputs(); });
+  });
+  (L.toggles || []).forEach(t => {
+    const ck = $('#ck-' + t.key);
+    ck.addEventListener('change', () => {
+      state[t.key] = ck.checked;
+      $('#tg-' + t.key).classList.toggle('on', ck.checked);
+      if (L.onToggle) L.onToggle(t.key);
+    });
+  });
+  syncOutputs();
+}
+function syncOutputs(){
+  (lesson.params || []).forEach(p => {
+    const o = $('#out-' + p.key);
+    if (o) o.textContent = p.fmt ? p.fmt(state[p.key]) : state[p.key];
+  });
+}
+function setReadouts(items){
+  const el = $('#readouts');
+  if (!el) return;
+  el.innerHTML = items.map(i =>
+    `<div class="ro ${i.cls || ''}"><div class="v">${i.v}<small> ${i.u || ''}</small></div><div class="k">${i.k}</div></div>`).join('');
+}
+
+function setLesson(id){
+  const L = LESSONS.find(l => l.id === id);
+  if (!L) return;
+  lesson = L;
+  clearStage();
+  Object.keys(state).forEach(k => delete state[k]);
+  (L.params || []).forEach(p => state[p.key] = p.init);
+  (L.toggles || []).forEach(t => state[t.key] = !!t.init);
+  polarBox.style.display = L.insetTitle ? 'block' : 'none';
+  if (L.insetTitle) document.getElementById('insettitle').textContent = L.insetTitle;
+  scene.fog.near = L.fog ? L.fog[0] : 350;
+  scene.fog.far = L.fog ? L.fog[1] : 1400;
+  buildPanel();
+  L.build();
+  Object.assign(orbit, L.camera);
+  document.querySelectorAll('#lessons .chip').forEach(c => c.classList.toggle('on', c.dataset.id === id));
+}
+
+/* =================================================================
+   LESSON 1 — forces in equilibrium
+   ================================================================= */
+const L1 = {
+  id: 'forces', icon: '⚖️', title: 'Forces on the wing',
+  summary: 'Steady glide = perfect balance. Weight against the total aerodynamic force.',
+  camera: { theta: 0.95, phi: 1.25, dist: 30, target: new THREE.Vector3(0, 5, 0) },
+  info: `
+    <p>In a steady glide exactly <b>two players</b> wrestle: the weight <b>W</b> pulling straight down, and the
+    <b>total aerodynamic force R</b> the air presses onto the wing. When they are equal and opposite, speed and
+    direction stop changing — that is equilibrium, and it is why a paraglider does not need a motor.</p>
+    <p>For analysis we split R into <b>lift L</b> — always <b>perpendicular to the airflow</b> — and
+    <b>drag D</b> — always <b>parallel to the airflow</b>, pointing backwards. Note the glide path: because the
+    flight path is tilted, "lift" is not quite vertical and even drag helps carry a share of the weight.</p>`,
+  refs: [
+    { label: 'Workbook · Vectors and forces / Lift and the profile' },
+    { label: 'Video · Aerodynamics part 1', href: VIDEOS.aero0 },
+  ],
+  toggles: [
+    { key: 'W', label: 'Weight W', init: true },
+    { key: 'L', label: 'Lift L', init: true },
+    { key: 'D', label: 'Drag D', init: true },
+    { key: 'R', label: 'Resultant R', init: false },
+    { key: 'flow', label: 'Airflow', init: true },
+  ],
+  build(){
+    stage.add(makeTerrain({ base: -120, flatRadius: 0 }));
+    const gl = buildGlider();
+    stage.add(gl.root);
+    this.gl = gl;
+    const cg = new THREE.Vector3(0, 2.6, 0);            // system centre of gravity (pilot-heavy)
+    this.arrows = {
+      W: makeArrow(0xff4757, 'W  weight'),
+      L: makeArrow(0x2ecc71, 'L  lift'),
+      D: makeArrow(0xffa502, 'D  drag'),
+      R: makeArrow(0x70a1ff, 'R = L + D'),
+    };
+    Object.values(this.arrows).forEach(a => stage.add(a));
+    this.cg = cg;
+    this.flow = makeParticles(260, 0xeaf6ff, 0.5);
+    stage.add(this.flow);
+    const pos = this.flow.geometry.attributes.position;
+    for (let i = 0; i < pos.count; i++){
+      pos.setXYZ(i, (Math.random() - 0.5) * 70, Math.random() * 22 - 3, (Math.random() - 0.5) * 90);
+    }
+    this.t = 0;
+  },
+  update(dt){
+    const v = FM.airspeed(0), glide = FM.glide(v);
+    const gamma = Math.atan(1 / glide);                  // glide-path angle below horizon
+    const flightDir = new THREE.Vector3(0, -Math.sin(gamma), -Math.cos(gamma));
+    this.t += dt;
+    this.gl.root.position.y = Math.sin(this.t * 0.9) * 0.25;
+    this.gl.root.rotation.x = -gamma * 0.35;
+    const cg = this.cg.clone().add(this.gl.root.position);
+    const Wlen = 8;
+    const a = this.arrows;
+    a.W.visible = state.W;
+    a.L.visible = state.L;
+    a.D.visible = state.D;
+    a.R.visible = state.R;
+    setArrow(a.W, cg, new THREE.Vector3(0, -1, 0), Wlen);
+    // lift is ⊥ to the airflow, in the vertical plane — tilted slightly forward in a glide
+    const lift = flightDir.clone().cross(new THREE.Vector3(1, 0, 0)).negate().normalize();
+    const Llen = Wlen * Math.cos(gamma), Dlen = Wlen * Math.sin(gamma);
+    setArrow(a.L, cg, lift, Llen);
+    setArrow(a.D, cg, flightDir.clone().negate(), Dlen);
+    setArrow(a.R, cg, new THREE.Vector3(0, 1, 0), Wlen);
+    // airflow streams past, parallel to flight path (reversed: relative wind)
+    this.flow.visible = state.flow;
+    if (state.flow){
+      const pos = this.flow.geometry.attributes.position;
+      const wind = flightDir.clone().negate().multiplyScalar(v / 3.6 * dt);
+      for (let i = 0; i < pos.count; i++){
+        let x = pos.getX(i) + wind.x, y = pos.getY(i) + wind.y, z = pos.getZ(i) + wind.z;
+        if (z > 45){ z -= 90; x = (Math.random() - 0.5) * 70; y = Math.random() * 22 - 3; }
+        pos.setXYZ(i, x, y, z);
+      }
+      pos.needsUpdate = true;
+    }
+    setReadouts([
+      { k: 'airspeed', v: fmtNum(v), u: 'km/h' },
+      { k: 'glide ratio', v: fmtNum(glide, 1), u: ': 1' },
+      { k: 'glide-path angle', v: fmtNum(gamma * 180 / Math.PI, 1), u: '°' },
+      { k: 'equilibrium', v: 'R = −W', cls: 'good' },
+    ]);
+  },
+};
+
+/* =================================================================
+   LESSON 2 — angle of attack & the polar
+   ================================================================= */
+const L2 = {
+  id: 'polar', icon: '📐', title: 'Angle of attack & the polar', insetTitle: 'SPEED POLAR',
+  summary: 'One slider — your brakes. Watch speed, sink and the stall point.',
+  camera: { theta: Math.PI / 2 + 0.12, phi: 1.35, dist: 24, target: new THREE.Vector3(0, 5, 0) },
+  info: `
+    <p>The <b>angle of attack</b> — the tilt of the wing against the oncoming air — sets every aerodynamic outcome.
+    Pulling brake increases it: the wing flies <b>slower</b>, and sink first <b>decreases</b>… then rises again.
+    That U-shaped trade-off is the <b>speed polar</b> in the inset.</p>
+    <p>Find the landmarks: <b>trim</b> (hands up), <b>min sink</b> (≈20–30% brake — stay up longest),
+    <b>best glide</b> (furthest in calm air). Pull too far and the <b>separation point</b> walks forward over the
+    upper surface until the flow detaches completely: <b>stall</b>. On the polar that is the red zone — the curve
+    simply ends there.</p>`,
+  refs: [
+    { label: 'Workbook · Angle of attack and the polar of forces' },
+    { label: 'Video · Aerodynamics part 2', href: VIDEOS.aero1 },
+  ],
+  params: [
+    { key: 'c', label: 'Control input — speed bar ⟷ brakes', min: -1, max: 1.04, step: 0.01, init: 0,
+      fmt: v => v < -0.02 ? Math.round(-v * 100) + '% bar' : v > 0.02 ? Math.round(Math.min(v, 1) * 100) + '% brake' : 'trim' },
+  ],
+  toggles: [{ key: 'flow', label: 'Airflow particles', init: true }],
+  build(){
+    stage.add(makeTerrain({ base: -120 }));
+    const gl = buildGlider();
+    stage.add(gl.root);
+    this.gl = gl;
+    this.flow = makeParticles(300, 0xeaf6ff, 0.45);
+    stage.add(this.flow);
+    const pos = this.flow.geometry.attributes.position;
+    for (let i = 0; i < pos.count; i++) pos.setXYZ(i, (Math.random() - 0.5) * 30, 3 + Math.random() * 12, (Math.random() - 0.5) * 60);
+    this.stallT = 0;
+    this.t = 0;
+  },
+  update(dt){
+    const c = Math.min(state.c, 1);
+    const stalled = state.c > 0.97;
+    const v = FM.airspeed(c), sink = FM.sink(v), glide = FM.glide(v);
+    this.t += dt;
+    // wing pitches back as AoA grows; in stall it rocks
+    const aoaVis = 0.06 + c * 0.16;
+    if (stalled){
+      this.stallT += dt;
+      this.gl.wing.rotation.x = 0.45 + Math.sin(this.stallT * 7) * 0.1;
+      this.gl.root.position.y = Math.max(-4, this.gl.root.position.y - dt * 2.4);
+    } else {
+      this.stallT = 0;
+      this.gl.wing.rotation.x += (aoaVis - this.gl.wing.rotation.x) * Math.min(1, dt * 6);
+      this.gl.root.position.y += (Math.sin(this.t) * 0.2 - this.gl.root.position.y) * Math.min(1, dt * 2);
+    }
+    this.flow.visible = state.flow;
+    if (state.flow){
+      const pos = this.flow.geometry.attributes.position;
+      const speed = v / 3.6 * dt;
+      for (let i = 0; i < pos.count; i++){
+        let z = pos.getZ(i) + speed, x = pos.getX(i), y = pos.getY(i);
+        // turbulent wake behind a stalled wing
+        if (stalled && z > -1 && y > 6 && Math.abs(x) < 6){ y += (Math.random() - 0.5) * 0.8; x += (Math.random() - 0.5) * 0.5; }
+        if (z > 30){ z -= 60; x = (Math.random() - 0.5) * 30; y = 3 + Math.random() * 12; }
+        pos.setXYZ(i, x, y, z);
+      }
+      pos.needsUpdate = true;
+    }
+    drawPolar(stalled ? null : v);
+    setReadouts([
+      { k: 'airspeed', v: stalled ? '—' : fmtNum(v), u: 'km/h', cls: stalled ? 'warn' : '' },
+      { k: 'sink', v: stalled ? 'STALL' : fmtNum(sink, 2), u: stalled ? '' : 'm/s', cls: stalled ? 'warn' : (sink < 1.1 ? 'good' : '') },
+      { k: 'glide ratio', v: stalled ? '0' : fmtNum(glide, 1), u: ': 1' },
+      { k: 'angle of attack', v: stalled ? 'past critical' : (c < 0 ? 'low' : c < 0.35 ? 'moderate' : c < 0.8 ? 'high' : 'near critical'), cls: c > 0.8 && !stalled ? 'warn' : '' },
+    ]);
+  },
+};
+
+/* =================================================================
+   LESSON 3 — glide, wind & speed to fly
+   ================================================================= */
+const L3 = {
+  id: 'wind', icon: '🌬️', title: 'Glide, wind & speed to fly', insetTitle: 'SPEED POLAR · SPEED TO FLY',
+  summary: 'The air does not care about the ground — but your landing field does.',
+  camera: { theta: Math.PI / 2, phi: 1.32, dist: 60, target: new THREE.Vector3(0, 14, 0) },
+  info: `
+    <p>Your wing flies in the <b>air mass</b>; the air mass slides over the <b>ground</b>. Ground speed =
+    airspeed − headwind. The white arrow is your motion through the air, the green arrow your motion over
+    the terrain — the gap between them is the wind.</p>
+    <p><b>Speed to fly:</b> in calm air, glide farthest at best-glide speed. Into a headwind, the polar says:
+    <b>fly faster</b> — the amber tangent line in the inset starts at the wind speed and touches the polar at the
+    new optimum. With a tailwind, slow towards min sink. Max distance = glide ratio × height: the workbook's
+    example — glide 6 from 1200 m — reaches 7.2 km.</p>`,
+  refs: [
+    { label: 'Workbook · Range, speed-to-fly and lateral drift' },
+    { label: 'Video · Flight practice part 1', href: VIDEOS.prax0 },
+  ],
+  params: [
+    { key: 'wind', label: 'Wind — tailwind ⟷ headwind', min: -20, max: 25, step: 1, init: 0,
+      fmt: v => v === 0 ? 'calm' : Math.abs(v) + ' km/h ' + (v > 0 ? 'head' : 'tail') },
+    { key: 'c', label: 'Control input — bar ⟷ brakes', min: -1, max: 0.9, step: 0.01, init: 0,
+      fmt: v => v < -0.02 ? Math.round(-v * 100) + '% bar' : v > 0.02 ? Math.round(v * 100) + '% brake' : 'trim' },
+  ],
+  build(){
+    stage.add(makeTerrain({ base: -60, relief: 0.5, flatRadius: 200 }));
+    const gl = buildGlider();
+    gl.root.position.y = 14;
+    stage.add(gl.root);
+    this.gl = gl;
+    this.air = makeArrow(0xffffff, 'through the air');
+    this.gnd = makeArrow(0x2ecc71, 'over the ground');
+    stage.add(this.air, this.gnd);
+    // ground dots that stream past at ground speed
+    this.dots = makeParticles(400, 0x223a26, 1.4);
+    stage.add(this.dots);
+    const pos = this.dots.geometry.attributes.position;
+    for (let i = 0; i < pos.count; i++) pos.setXYZ(i, (Math.random() - 0.5) * 160, -59.0 + Math.random() * 2, (Math.random() - 0.5) * 240);
+    // wind streaks at flight level
+    this.streaks = makeParticles(260, 0xdcefff, 0.5);
+    stage.add(this.streaks);
+    const sp = this.streaks.geometry.attributes.position;
+    for (let i = 0; i < sp.count; i++) sp.setXYZ(i, (Math.random() - 0.5) * 160, 4 + Math.random() * 26, (Math.random() - 0.5) * 240);
+  },
+  update(dt){
+    const v = FM.airspeed(Math.min(state.c, 1));
+    const sink = FM.sink(v);
+    const wind = state.wind;                         // headwind +
+    const vg = v - wind;                             // ground speed km/h
+    const glideG = (vg / 3.6) / sink;
+    const cg = new THREE.Vector3(0, 16.6, 0);
+    setArrow(this.air, cg, new THREE.Vector3(0, -sink * 3.6 / v * 0.6, -1).normalize(), Math.max(2, v * 0.16));
+    setArrow(this.gnd, cg.clone().add(new THREE.Vector3(0, -4, 0)),
+      new THREE.Vector3(0, -sink * 3.6 / Math.max(Math.abs(vg), 4) * 0.6, -(Math.sign(vg) || 0.001)).normalize(),
+      Math.max(2, Math.abs(vg) * 0.16));
+    // stream the world past: ground dots at ground speed, air streaks at airspeed
+    const move = (pts, kmh) => {
+      const pos = pts.geometry.attributes.position;
+      const dz = kmh / 3.6 * dt;
+      for (let i = 0; i < pos.count; i++){
+        let z = pos.getZ(i) + dz;
+        if (z > 120) z -= 240;
+        if (z < -120) z += 240;
+        pos.setZ(i, z);
+      }
+      pos.needsUpdate = true;
+    };
+    move(this.dots, vg);
+    move(this.streaks, v);
+    const dist1200 = glideG * 1200 / 1000;
+    setReadouts([
+      { k: 'airspeed', v: fmtNum(v), u: 'km/h' },
+      { k: 'ground speed', v: fmtNum(vg), u: 'km/h', cls: vg < 8 ? 'warn' : '' },
+      { k: 'glide over ground', v: vg > 0 ? fmtNum(glideG, 1) : '0', u: ': 1' },
+      { k: 'reach from 1200 m', v: vg > 0 ? fmtNum(dist1200, 1) : '0', u: 'km', cls: 'good' },
+    ]);
+    drawPolar(v, wind);
+  },
+};
+
+/* =================================================================
+   LESSON 4 — thermals & circling
+   ================================================================= */
+const L4 = {
+  id: 'thermal', icon: '🌡️', title: 'Thermals & circling',
+  summary: 'Bank to stay in the lift — but every degree of bank costs sink.',
+  camera: { theta: 0.8, phi: 1.05, dist: 120, target: new THREE.Vector3(0, 38, 0) },
+  info: `
+    <p>A <b>thermal</b> is a column or bubble of warmer air rising from sun-heated ground. The lift is strongest in
+    the <b>core</b> and fades outwards — so you bank the wing and circle inside it.</p>
+    <p>The trade-off: a <b>tighter circle</b> keeps you nearer the core (more lift) but needs <b>more bank</b>,
+    which raises the load factor and your own sink rate. Too flat and you drift out of the core; too steep and you
+    sink through the very lift you found. Try to find the radius with the best <b>net climb</b>.
+    In an occupied thermal all gliders <b>circle the same way</b> — the direction set by the first pilot in.</p>`,
+  refs: [
+    { label: 'Workbook · Ridge soaring and thermalling' },
+    { label: 'Video · Meteorology part 2', href: VIDEOS.meteo1 },
+  ],
+  params: [
+    { key: 'r', label: 'Circle radius', min: 12, max: 45, step: 1, init: 25, fmt: v => v + ' m' },
+    { key: 'w', label: 'Thermal strength (core)', min: 0.5, max: 5, step: 0.1, init: 2.5, fmt: v => v.toFixed(1) + ' m/s' },
+  ],
+  build(){
+    stage.add(makeTerrain({ base: 0, relief: 0.7, flatRadius: 120 }));
+    const gl = buildGlider();
+    stage.add(gl.root);
+    this.gl = gl;
+    // thermal column: rising motes in a soft cylinder
+    this.motes = makeParticles(700, 0xffd9a0, 0.9);
+    stage.add(this.motes);
+    const pos = this.motes.geometry.attributes.position;
+    for (let i = 0; i < pos.count; i++){
+      const a = Math.random() * Math.PI * 2, rr = Math.sqrt(Math.random()) * 48;
+      pos.setXYZ(i, Math.cos(a) * rr, Math.random() * 130, Math.sin(a) * rr);
+    }
+    const shell = new THREE.Mesh(
+      new THREE.CylinderGeometry(48, 40, 130, 28, 1, true),
+      new THREE.MeshBasicMaterial({ color: 0xffc46b, transparent: true, opacity: 0.07, side: THREE.DoubleSide, depthWrite: false }));
+    shell.position.y = 65;
+    stage.add(shell);
+    this.ang = 0;
+    this.alt = 32;
+  },
+  update(dt){
+    const v = 35 / 3.6;                               // thermalling speed m/s
+    const r = state.r, W = state.w;
+    const bank = Math.atan(v * v / (G * r));
+    const n = 1 / Math.cos(bank);
+    const sinkTurn = FM.sink(35) * Math.pow(n, 1.5);
+    const liftHere = W * Math.exp(-(r / 48) * (r / 48));
+    const climb = liftHere - sinkTurn;
+    this.ang += (v / r) * dt;
+    this.alt = Math.min(125, Math.max(12, this.alt + climb * dt * 2.2));
+    const gl = this.gl.root;
+    gl.position.set(Math.cos(this.ang) * r, this.alt, Math.sin(this.ang) * r);
+    gl.rotation.y = -this.ang - Math.PI / 2;          // tangent to the circle
+    gl.rotation.z = bank * (this.alt >= 124 ? 0.4 : 1); // bank into the centre
+    // motes rise faster near the core
+    const pos = this.motes.geometry.attributes.position;
+    for (let i = 0; i < pos.count; i++){
+      const x = pos.getX(i), z = pos.getZ(i);
+      const rr = Math.hypot(x, z);
+      let y = pos.getY(i) + W * Math.exp(-(rr / 48) * (rr / 48)) * dt * 1.6;
+      if (y > 130) y = 0;
+      pos.setY(i, y);
+    }
+    pos.needsUpdate = true;
+    setReadouts([
+      { k: 'bank angle', v: fmtNum(bank * 180 / Math.PI), u: '°', cls: bank > 0.62 ? 'warn' : '' },
+      { k: 'load factor', v: fmtNum(n, 2), u: 'g' },
+      { k: 'lift at your radius', v: fmtNum(liftHere, 1), u: 'm/s' },
+      { k: 'net climb', v: (climb >= 0 ? '+' : '') + fmtNum(climb, 1), u: 'm/s', cls: climb > 0 ? 'good' : 'warn' },
+    ]);
+  },
+};
+
+/* =================================================================
+   LESSON 5 — airspace in 3D
+   ================================================================= */
+const L5 = {
+  id: 'airspace', icon: '🗺️', title: 'Swiss airspace in 3D',
+  summary: 'G is a 600 m carpet over the terrain. E sits above. C and D are off limits.',
+  camera: { theta: 0.55, phi: 1.22, dist: 700, target: new THREE.Vector3(0, 250, 0) },
+  fog: [1800, 7000],
+  info: `
+    <p>Of the seven ICAO classes only <b>C, D, E and G</b> exist in Switzerland — and only the uncontrolled
+    <b>E</b> and <b>G</b> are open to paragliders without clearance.</p>
+    <p><b>G</b> is a <b>600 m thick carpet</b> laid over the entire topography — its ceiling follows every hill,
+    because the limit is <b>above ground</b> (AGL). Inside the lower 300 m of G, relaxed cloud-distance minima
+    apply. Above the carpet sits <b>E</b> up to <b>FL100 = 3050 m AMSL</b> over Jura and Plateau; in the Alps the
+    ceiling depends on the Air Force: <b>4550 m</b> when MIL OFF, <b>3950 m</b> when MIL ON. The red cylinder is a
+    <b>CTR (class D)</b> around an airfield: clearance required — stay out. Move yourself with the altitude slider.</p>`,
+  refs: [
+    { label: 'Workbook · Airspace structure' },
+    { label: 'Video · Air law part 1', href: VIDEOS.law0 },
+  ],
+  params: [
+    { key: 'alt', label: 'Your altitude (AMSL)', min: 500, max: 4800, step: 10, init: 900, fmt: v => v + ' m' },
+  ],
+  toggles: [
+    { key: 'alps', label: 'Alps region', init: false },
+    { key: 'mil', label: 'MIL ON', init: false },
+  ],
+  build(){
+    const terrain = makeTerrain({ size: 3000, relief: 3.2, base: 0, flatRadius: 260 });
+    stage.add(terrain);
+    // the G "carpet": a translucent copy of the terrain lifted 600 m
+    const carpet = terrain.clone();
+    carpet.material = new THREE.MeshBasicMaterial({ color: 0x4ade80, transparent: true, opacity: 0.13, side: THREE.DoubleSide, depthWrite: false });
+    carpet.position.y = 600;
+    stage.add(carpet);
+    const carpetLabel = makeLabel('top of G — 600 m AGL', '#4ade80', 26);
+    carpetLabel.position.set(-160, 660, 60);
+    stage.add(carpetLabel);
+    // class E ceiling plane
+    this.eTop = new THREE.Mesh(new THREE.PlaneGeometry(3000, 3000),
+      new THREE.MeshBasicMaterial({ color: 0x38bdf8, transparent: true, opacity: 0.16, side: THREE.DoubleSide, depthWrite: false }));
+    this.eTop.rotation.x = -Math.PI / 2;
+    stage.add(this.eTop);
+    this.eLabel = makeLabel('top of E', '#38bdf8', 30);
+    stage.add(this.eLabel);
+    // CTR class D cylinder around an airfield off to the side
+    const ctr = new THREE.Mesh(new THREE.CylinderGeometry(330, 330, 1100, 40, 1, true),
+      new THREE.MeshBasicMaterial({ color: 0xf87171, transparent: true, opacity: 0.14, side: THREE.DoubleSide, depthWrite: false }));
+    ctr.position.set(950, 550, -550);
+    stage.add(ctr);
+    const runway = new THREE.Mesh(new THREE.BoxGeometry(280, 3, 40), new THREE.MeshStandardMaterial({ color: 0x55606b, roughness: 1 }));
+    runway.position.set(950, 30, -550);
+    stage.add(runway);
+    const ctrLabel = makeLabel('CTR · class D — clearance required', '#f87171', 30);
+    ctrLabel.position.set(950, 1140, -550);
+    stage.add(ctrLabel);
+    // you
+    const gl = buildGlider();
+    const you = new THREE.Group();
+    you.add(gl.root);
+    you.scale.setScalar(6);                            // visible at map scale
+    stage.add(you);
+    this.you = you;
+    this.youLabel = makeLabel('you', '#ffffff', 26);
+    stage.add(this.youLabel);
+    this.groundY = 0;                                   // terrain is flattened at the centre
+  },
+  update(dt){
+    const alps = state.alps, mil = state.mil;
+    const base = 500;                                   // valley floor AMSL at our spot
+    const eTopAlt = alps ? (mil ? 3950 : 4550) : 3050;
+    const yWorld = a => (a - base);                     // world y of an AMSL altitude
+    this.eTop.position.y = yWorld(eTopAlt);
+    if (this._eText !== eTopAlt){
+      this._eText = eTopAlt;
+      stage.remove(this.eLabel);
+      this.eLabel.material.map.dispose();
+      this.eLabel.material.dispose();
+      this.eLabel = makeLabel(`top of E — ${eTopAlt} m AMSL (${alps ? (mil ? 'FL130 · MIL ON' : 'FL150 · MIL OFF') : 'FL100'})`, '#38bdf8', 30);
+      stage.add(this.eLabel);
+    }
+    this.eLabel.position.set(-220, yWorld(eTopAlt) + 60, 0);
+    const y = yWorld(state.alt);
+    this.you.position.set(0, y, 0);
+    this.youLabel.position.set(0, y + 70, 0);
+    const agl = state.alt - base - this.groundY;
+    let cls, txt, warn = false;
+    if (agl <= 0){ cls = 'on the ground'; txt = '—'; }
+    else if (agl <= 600){ cls = 'G'; txt = agl <= 300 ? 'uncontrolled · relaxed minima (lower 300 m)' : 'uncontrolled · standard minima'; }
+    else if (state.alt <= eTopAlt){ cls = 'E'; txt = 'uncontrolled · standard VFR minima'; }
+    else { cls = 'C / controlled'; txt = 'clearance + radio — not for paragliders'; warn = true; }
+    setReadouts([
+      { k: 'altitude AMSL', v: fmtNum(state.alt), u: 'm' },
+      { k: 'height AGL', v: fmtNum(Math.max(0, agl)), u: 'm' },
+      { k: 'airspace class', v: cls, cls: warn ? 'warn' : 'good' },
+      { k: 'rules here', v: `<span style="font-size:12px;font-weight:700">${txt}</span>` },
+    ]);
+  },
+};
+
+/* =================================================================
+   LESSON 6 — wing anatomy (click the parts)
+   ================================================================= */
+const L6 = {
+  id: 'anatomy', icon: '🪂', title: 'Anatomy — click the parts',
+  summary: 'Canopy, cell openings, line cascade, risers, harness — tap to inspect.',
+  camera: { theta: 0.85, phi: 1.15, dist: 16, target: new THREE.Vector3(0, 4.5, 0) },
+  info: `<p>Every part below is clickable — <b>tap the model</b> to learn what it is made of and what it does.
+    The <b>A-lines are red</b>: on school wings the A group is colour-coded so a beginner finds it at a glance
+    (launch, big ears, B-stall orientation).</p><div id="part-info"></div>`,
+  refs: [
+    { label: 'Workbook · The wing / The lines' },
+    { label: 'Video · Equipment part 1', href: VIDEOS.mat0 },
+  ],
+  parts: {
+    canopy: { name: 'Canopy (top & bottom surface)', text: 'Woven polyamide (nylon) ripstop — reinforcing threads at regular intervals stop any tear at the next barrier. Standard cloth ≈ 49 g/m² (office paper: 80 g/m²); hike-and-fly cloth is down to ≈ 17 g/m². The coating seals porosity — as it ages, the wing gets harder to launch and slower.' },
+    intakes: { name: 'Cell openings', text: 'The ram-air intakes on the leading edge. Airflow pressurises the cells and gives the soft wing its profile — there is no rigid structure at all. The stagnation point sits right here and moves with the angle of attack.' },
+    A: { name: 'A-lines (red)', text: 'The front line group, attached nearest the leading edge. Red on school wings so you can identify it instantly — you check the A-risers on launch and use them for big ears. Lines are sheath + core: the braided sheath protects against UV and abrasion, the core carries the load.' },
+    B: { name: 'B-lines', text: 'Middle cascade. Cores are Dyneema (white — strong, UV-resistant, slight creep) or aramid/Kevlar (brown — dimensionally stable but stiffer). Because the rear lines see only ≈ 300–500 g each in flight, Dyneema lines can slowly shrink — one reason wings need periodic line trimming checks.' },
+    C: { name: 'C-lines', text: 'Rear cascade — together with the Bs it shapes the chordwise profile. On many modern wings, rear-riser steering happens through these. Same sheath/core construction as the other groups.' },
+    brake: { name: 'Brake lines (orange)', text: 'Run from the trailing edge to the toggles. Pulling them deflects the trailing edge: more angle of attack, more lift and more drag — your primary speed and turn control, all the way to the flare on landing.' },
+    pilot: { name: 'Pilot & pod harness', text: 'The harness carries you and connects to the risers via carabiners. Modern harnesses include back protection (foam/airbag) and the reserve parachute container with its handle — practise that grip until it is automatic.' },
+  },
+  build(){
+    stage.add(makeTerrain({ base: -120 }));
+    const gl = buildGlider();
+    stage.add(gl.root);
+    this.gl = gl;
+    this.t = 0;
+    this.selected = null;
+    this.ray = new THREE.Raycaster();
+    this.ray.params.Line = { threshold: 0.3 };
+    this._click = (e) => {
+      const r = renderer.domElement.getBoundingClientRect();
+      const p = new THREE.Vector2(((e.clientX - r.left) / r.width) * 2 - 1, -((e.clientY - r.top) / r.height) * 2 + 1);
+      this.ray.setFromCamera(p, camera);
+      const targets = [
+        { obj: this.gl.canopy, key: 'canopy' },
+        { obj: this.gl.intakes, key: 'intakes' },
+        { obj: this.gl.lines.A, key: 'A' },
+        { obj: this.gl.lines.B, key: 'B' },
+        { obj: this.gl.lines.C, key: 'C' },
+        { obj: this.gl.lines.brake, key: 'brake' },
+        { obj: this.gl.pilot, key: 'pilot' },
+      ];
+      let hit = null, dist = 1e9;
+      targets.forEach(t => {
+        const hits = this.ray.intersectObject(t.obj, true);
+        if (hits.length && hits[0].distance < dist){ dist = hits[0].distance; hit = t.key; }
+      });
+      if (hit) this.select(hit);
+    };
+    renderer.domElement.addEventListener('pointerdown', this._click);
+    this.select('canopy');
+  },
+  select(key){
+    this.selected = key;
+    const p = this.parts[key];
+    // highlight: dim everything, brighten selection
+    const setOp = (obj, on) => obj.traverse(o => {
+      if (o.material && o.material.opacity !== undefined){
+        o.material.transparent = true;
+        o.material.opacity = on ? 1 : 0.25;
+      }
+    });
+    ['A', 'B', 'C', 'brake'].forEach(k => setOp(this.gl.lines[k], k === key));
+    setOp(this.gl.canopy, key === 'canopy');
+    setOp(this.gl.intakes, key === 'intakes');
+    setOp(this.gl.pilot, key === 'pilot');
+    const el = document.getElementById('part-info');
+    if (el) el.innerHTML = `<div class="note" style="margin-top:10px"><b>${p.name}</b><br>${p.text}</div>`;
+  },
+  dispose(){
+    renderer.domElement.removeEventListener('pointerdown', this._click);
+  },
+  update(dt){
+    this.t += dt;
+    this.gl.root.position.y = Math.sin(this.t * 0.8) * 0.2;
+    this.gl.root.rotation.y += dt * 0.1;
+    setReadouts([]);
+  },
+};
+
+/* =================================================================
+   LESSON 7 — stability & inversions (weather)
+   ================================================================= */
+function drawEmagram(lapse, inv, invh, top){
+  const ctx = polarCv.getContext('2d');
+  const W = polarCv.width, H = polarCv.height;
+  const x0 = 40, y0 = 14, x1 = W - 12, y1 = H - 30;
+  const tMin = -15, tMax = 25, aMax = 3000;
+  const X = t => x0 + (t - tMin) / (tMax - tMin) * (x1 - x0);
+  const Y = a => y1 - a / aMax * (y1 - y0);
+  ctx.clearRect(0, 0, W, H);
+  ctx.font = '700 10px ui-rounded, -apple-system, Arial';
+  ctx.strokeStyle = '#27425e'; ctx.fillStyle = '#9db9d2'; ctx.lineWidth = 1;
+  for (let t = -10; t <= 25; t += 5){ ctx.beginPath(); ctx.moveTo(X(t), y0); ctx.lineTo(X(t), y1); ctx.stroke(); ctx.fillText(t, X(t) - 6, y1 + 12); }
+  for (let a = 0; a <= 3000; a += 1000){ ctx.beginPath(); ctx.moveTo(x0, Y(a)); ctx.lineTo(x1, Y(a)); ctx.stroke(); ctx.fillText(a / 1000 + 'k', 10, Y(a) + 3); }
+  ctx.fillText('°C →', x1 - 28, y1 + 24);
+  if (inv){
+    ctx.fillStyle = 'rgba(248,113,113,.14)';
+    ctx.fillRect(x0, Y(invh + 300), x1 - x0, Y(invh) - Y(invh + 300));
+  }
+  // environment (blue) and rising parcel (amber, dry adiabatic 1°/100 m)
+  const envT = h => 20 - lapse * h / 100 + (inv ? 2.5 * Math.min(Math.max((h - invh) / 300, 0), 1) : 0);
+  ctx.strokeStyle = '#38bdf8'; ctx.lineWidth = 2.2; ctx.beginPath();
+  for (let h = 0; h <= 3000; h += 30){ const x = X(envT(h)), y = Y(h); h ? ctx.lineTo(x, y) : ctx.moveTo(x, y); }
+  ctx.stroke();
+  ctx.strokeStyle = '#fbbf24'; ctx.setLineDash([5, 4]); ctx.beginPath();
+  for (let h = 0; h <= Math.min(top + 250, 3000); h += 30){ const x = X(22 - h / 100), y = Y(h); h ? ctx.lineTo(x, y) : ctx.moveTo(x, y); }
+  ctx.stroke(); ctx.setLineDash([]);
+  ctx.fillStyle = '#4ade80';
+  ctx.fillRect(x0, Y(top) - 1, x1 - x0, 2);
+  ctx.fillText('thermal top ' + Math.round(top) + ' m', x0 + 6, Y(top) - 5);
+  ctx.fillStyle = '#38bdf8'; ctx.fillText('air', X(envT(2600)) + 6, Y(2600));
+  ctx.fillStyle = '#fbbf24'; ctx.fillText('parcel', X(22 - Math.min(top, 1500) / 100) - 40, Y(Math.min(top, 1500)));
+}
+
+const L7 = {
+  id: 'stability', icon: '📈', title: 'Stability & inversions', insetTitle: 'EMAGRAM — PARCEL VS AIR',
+  summary: 'Will the thermal keep climbing? Race the parcel against the air around it.',
+  camera: { theta: 0.8, phi: 1.22, dist: 340, target: new THREE.Vector3(0, 110, 0) },
+  fog: [900, 4000],
+  info: `
+    <p>A rising thermal parcel always cools at the <b>dry adiabatic rate of 1 °C / 100 m</b>. Whether it keeps
+    rising depends on the air around it: as long as the parcel stays <b>warmer (lighter)</b> than its surroundings,
+    it accelerates upward. An ambient lapse of <b>0.6–0.8 °C / 100 m</b> means good thermals.</p>
+    <p>An <b>inversion</b> — temperature increasing with altitude — is a lid: the parcel arrives colder than the
+    layer, becomes denser than its surroundings, and stops. That is "no thermals beyond this altitude".
+    Valley fog under morning sunshine is the classic picture of a stable layer. Watch the emagram inset:
+    where the amber parcel line crosses the blue air line, the climb is over.</p>`,
+  refs: [
+    { label: 'Workbook · Inversions, isothermal layers and stability' },
+    { label: 'Video · Meteorology part 1', href: VIDEOS.meteo0 },
+  ],
+  params: [
+    { key: 'lapse', label: 'Ambient lapse rate', min: 0.2, max: 1.0, step: 0.05, init: 0.7, fmt: v => v.toFixed(2) + ' °C/100 m' },
+    { key: 'invh', label: 'Inversion base (AGL)', min: 300, max: 2600, step: 50, init: 1400, fmt: v => v + ' m' },
+  ],
+  toggles: [{ key: 'inv', label: 'Inversion layer', init: true }],
+  D: 12,
+  computeTop(){
+    for (let h = 0; h <= 3000; h += 10){
+      const env = 20 - state.lapse * h / 100 + (state.inv ? 2.5 * Math.min(Math.max((h - state.invh) / 300, 0), 1) : 0);
+      if (22 - h / 100 <= env) return h;
+    }
+    return 3000;
+  },
+  build(){
+    stage.add(makeTerrain({ base: 0, relief: 0.6, flatRadius: 220 }));
+    const D = this.D;
+    // inversion slab
+    this.slab = new THREE.Mesh(new THREE.BoxGeometry(600, 300 / D, 600),
+      new THREE.MeshBasicMaterial({ color: 0xf87171, transparent: true, opacity: 0.10, depthWrite: false }));
+    stage.add(this.slab);
+    this.slabLabel = makeLabel('inversion — thermals stop here', '#f87171', 16);
+    stage.add(this.slabLabel);
+    // rising parcel "balloon"
+    this.parcel = new THREE.Mesh(new THREE.SphereGeometry(5, 16, 12),
+      new THREE.MeshStandardMaterial({ color: 0xffa502, transparent: true, opacity: 0.85, roughness: 0.4 }));
+    stage.add(this.parcel);
+    // column of motes
+    this.motes = makeParticles(360, 0xffd9a0, 1.6);
+    stage.add(this.motes);
+    const pos = this.motes.geometry.attributes.position;
+    for (let i = 0; i < pos.count; i++){
+      const a = Math.random() * Math.PI * 2, rr = Math.sqrt(Math.random()) * 26;
+      pos.setXYZ(i, Math.cos(a) * rr, Math.random() * 240, Math.sin(a) * rr);
+    }
+    this.alt = 0; this.hold = 0;
+  },
+  update(dt){
+    const D = this.D;
+    const top = this.computeTop();
+    this._top = top;
+    this.slab.visible = this.slabLabel.visible = state.inv;
+    this.slab.position.y = (state.invh + 150) / D;
+    this.slabLabel.position.set(-180, (state.invh + 380) / D, 40);
+    // parcel rises, pauses at the top, restarts
+    if (this.alt < top){ this.alt = Math.min(top, this.alt + dt * 320); }
+    else { this.hold += dt; if (this.hold > 1.1){ this.hold = 0; this.alt = 0; } }
+    this.parcel.position.y = Math.max(3, this.alt / D);
+    const pos = this.motes.geometry.attributes.position;
+    for (let i = 0; i < pos.count; i++){
+      let y = pos.getY(i) + dt * (14 + (i % 7));
+      if (y > top / D) y = 2;
+      pos.setY(i, y);
+    }
+    pos.needsUpdate = true;
+    const capped = state.inv && top >= state.invh && top < 3000;
+    const cls = state.lapse < 0.5 ? 'stable — weak/no thermals' : state.lapse < 0.65 ? 'weak thermals' : state.lapse < 0.85 ? 'good thermals' : 'very unstable';
+    drawEmagram(state.lapse, state.inv, state.invh, top);
+    setReadouts([
+      { k: 'ambient lapse', v: state.lapse.toFixed(2), u: '°C/100 m' },
+      { k: 'air mass', v: `<span style="font-size:13px;font-weight:750">${cls}</span>`, cls: state.lapse < 0.5 ? 'warn' : state.lapse < 0.85 && state.lapse >= 0.65 ? 'good' : '' },
+      { k: 'thermal top', v: top >= 3000 ? '3000+' : fmtNum(top), u: 'm AGL', cls: 'good' },
+      { k: 'capped by inversion', v: capped ? 'yes' : 'no', cls: capped ? 'warn' : '' },
+    ]);
+  },
+};
+
+/* =================================================================
+   LESSON 8 — cloudbase & the dew point (weather)
+   ================================================================= */
+function drawCondense(t, dp, base){
+  const ctx = polarCv.getContext('2d');
+  const W = polarCv.width, H = polarCv.height;
+  const x0 = 40, y0 = 14, x1 = W - 12, y1 = H - 30;
+  const tMin = -10, tMax = 36, aMax = 4000;
+  const X = v => x0 + (v - tMin) / (tMax - tMin) * (x1 - x0);
+  const Y = a => y1 - a / aMax * (y1 - y0);
+  ctx.clearRect(0, 0, W, H);
+  ctx.font = '700 10px ui-rounded, -apple-system, Arial';
+  ctx.strokeStyle = '#27425e'; ctx.fillStyle = '#9db9d2'; ctx.lineWidth = 1;
+  for (let v = -10; v <= 35; v += 5){ ctx.beginPath(); ctx.moveTo(X(v), y0); ctx.lineTo(X(v), y1); ctx.stroke(); ctx.fillText(v, X(v) - 6, y1 + 12); }
+  for (let a = 0; a <= 4000; a += 1000){ ctx.beginPath(); ctx.moveTo(x0, Y(a)); ctx.lineTo(x1, Y(a)); ctx.stroke(); ctx.fillText(a / 1000 + 'k', 10, Y(a) + 3); }
+  ctx.fillText('°C →', x1 - 28, y1 + 24);
+  // cloud zone above base
+  ctx.fillStyle = 'rgba(233,244,254,.10)';
+  ctx.fillRect(x0, y0, x1 - x0, Math.max(0, Y(base) - y0));
+  // parcel temperature (amber, −1°/100 m) and its dew point (blue, −0.2°/100 m)
+  ctx.strokeStyle = '#fbbf24'; ctx.lineWidth = 2.2; ctx.beginPath();
+  for (let h = 0; h <= Math.min(base + 600, 4000); h += 40){ const x = X(t - h / 100), y = Y(h); h ? ctx.lineTo(x, y) : ctx.moveTo(x, y); }
+  ctx.stroke();
+  ctx.strokeStyle = '#38bdf8'; ctx.beginPath();
+  for (let h = 0; h <= Math.min(base + 600, 4000); h += 40){ const x = X(dp - 0.2 * h / 100), y = Y(h); h ? ctx.lineTo(x, y) : ctx.moveTo(x, y); }
+  ctx.stroke();
+  ctx.fillStyle = '#4ade80';
+  ctx.fillRect(x0, Y(base) - 1, x1 - x0, 2);
+  ctx.fillText('cloudbase ' + Math.round(base) + ' m', x0 + 6, Y(base) - 5);
+  ctx.fillStyle = '#fbbf24'; ctx.fillText('parcel T', X(t) - 30, y1 - 8);
+  ctx.fillStyle = '#38bdf8'; ctx.fillText('dew point', X(dp) - 56, y1 - 8);
+}
+
+const L8 = {
+  id: 'cloudbase', icon: '☁️', title: 'Cloudbase & the dew point', insetTitle: 'CONDENSATION LEVEL',
+  summary: 'Temperature minus dew point, times 125 — there is your cumulus base.',
+  camera: { theta: 0.75, phi: 1.18, dist: 380, target: new THREE.Vector3(0, 130, 0) },
+  fog: [900, 4000],
+  info: `
+    <p>Warm air can hold more water vapour than cold air. A rising parcel cools at <b>1 °C / 100 m</b>, while the
+    dew point inside it falls only ≈ <b>0.2 °C / 100 m</b> — so temperature and dew point close at
+    0.8 °C per 100 m. They meet — saturation, condensation, cloud — after</p>
+    <p style="text-align:center"><b>cloudbase ≈ (temperature − dew point) × 125 m</b></p>
+    <p>A big spread means dry air and a high base (or none at all — "blue" thermals); a small spread means the
+    cloud forms low. Watch the inset: the amber and blue lines converge exactly at the base. The same physics in
+    reverse explains radiation fog: cool the ground air below its dew point on a clear night and the "cloud"
+    forms at zero metres.</p>`,
+  refs: [
+    { label: 'Workbook · Water in the air / Clouds, fog and mist' },
+    { label: 'Video · Meteorology part 1', href: VIDEOS.meteo0 },
+  ],
+  params: [
+    { key: 't', label: 'Ground temperature', min: 10, max: 35, step: 0.5, init: 24, fmt: v => v.toFixed(1) + ' °C' },
+    { key: 'dp', label: 'Dew point', min: 0, max: 30, step: 0.5, init: 14, fmt: v => v.toFixed(1) + ' °C' },
+  ],
+  D: 12,
+  build(){
+    stage.add(makeTerrain({ base: 0, relief: 0.6, flatRadius: 220 }));
+    // sun-baked trigger field
+    const field = new THREE.Mesh(new THREE.CircleGeometry(46, 28),
+      new THREE.MeshStandardMaterial({ color: 0xc9a24a, roughness: 1 }));
+    field.rotation.x = -Math.PI / 2;
+    field.position.y = 0.4;
+    stage.add(field);
+    // cumulus: a cluster of soft spheres
+    this.cloud = new THREE.Group();
+    const cm = new THREE.MeshStandardMaterial({ color: 0xffffff, transparent: true, opacity: 0.88, roughness: 0.95, flatShading: true });
+    for (let i = 0; i < 11; i++){
+      const s = new THREE.Mesh(new THREE.SphereGeometry(13 + Math.random() * 13, 10, 8), cm);
+      s.position.set((Math.random() - 0.5) * 56, Math.random() * 16, (Math.random() - 0.5) * 44);
+      this.cloud.add(s);
+    }
+    stage.add(this.cloud);
+    this.motes = makeParticles(320, 0xffd9a0, 1.5);
+    stage.add(this.motes);
+    const pos = this.motes.geometry.attributes.position;
+    for (let i = 0; i < pos.count; i++){
+      const a = Math.random() * Math.PI * 2, rr = Math.sqrt(Math.random()) * 24;
+      pos.setXYZ(i, Math.cos(a) * rr, Math.random() * 200, Math.sin(a) * rr);
+    }
+  },
+  update(dt){
+    const D = this.D;
+    const t = state.t, dp = Math.min(state.dp, t - 0.5);
+    const spread = t - dp;
+    const base = Math.min(spread * 125, 3800);
+    const fat = Math.max(0.5, (16 - spread) / 8);          // moist day → fat cloud
+    this.cloud.position.y = base / D + 9;
+    this.cloud.scale.set(1 + fat * 0.5, 0.7 + fat * 0.55, 1 + fat * 0.5);
+    const pos = this.motes.geometry.attributes.position;
+    for (let i = 0; i < pos.count; i++){
+      let y = pos.getY(i) + dt * (13 + (i % 6));
+      if (y > base / D) y = 2;
+      pos.setY(i, y);
+    }
+    pos.needsUpdate = true;
+    drawCondense(t, dp, base);
+    const verdict = spread < 2.5 ? 'fog / overcast risk' : spread <= 9 ? 'classic cumulus day' : spread <= 14 ? 'high base' : 'blue — maybe no clouds';
+    setReadouts([
+      { k: 'spread (T − dew point)', v: fmtNum(spread, 1), u: '°C' },
+      { k: 'cloudbase', v: fmtNum(base), u: 'm AGL', cls: 'good' },
+      { k: 'base above sea level', v: fmtNum(base + 500), u: 'm AMSL' },
+      { k: 'day character', v: `<span style="font-size:12.5px;font-weight:750">${verdict}</span>`, cls: spread < 2.5 ? 'warn' : '' },
+    ]);
+  },
+};
+
+/* =================================================================
+   LESSON 9 — Föhn (weather)
+   ================================================================= */
+const L9 = {
+  id: 'foehn', icon: '🏔️', title: 'Föhn — over the Alps', insetTitle: null,
+  summary: 'Rain on one side, a warm dry storm on the other. Same air, two lapse rates.',
+  camera: { theta: -Math.PI / 2 + 0.22, phi: 1.25, dist: 1150, target: new THREE.Vector3(0, 270, 0) },
+  fog: [2200, 9500],
+  D: 2.5,
+  ridge(zw){ return 760 * Math.exp(-(zw / 168) * (zw / 168)); },   // world units (D=2.5 → 1900 m crest)
+  info: `
+    <p>Föhn needs two ingredients: a <b>pressure difference across the chain</b> and a <b>barrier</b> tall enough
+    to wring moisture out of the rising air. Windward, the air cools dry at 1 °C/100 m until it saturates, then
+    only at the <b>moist rate ≈ 0.6 °C/100 m</b> — condensation releases latent heat — while the water falls out
+    as rain. The compact cloud band hugging the crest is the <b>Föhn wall</b>.</p>
+    <p>Past the crest the now-dry air descends, warming the <b>full 1 °C/100 m</b> all the way down. It arrives in
+    the lee valley <b>warmer and drier</b> than it started — and brutally gusty. The same wind is called Chinook
+    in the Rockies and Zonda in the Andes. Beware: a <b>dry Föhn</b> with no wall and no rain is just as violent.
+    For paragliders, Föhn days are <b>no-fly days</b>.</p>`,
+  refs: [
+    { label: 'Workbook · Local winds and Föhn' },
+    { label: 'Video · Meteorology part 2', href: VIDEOS.meteo1 },
+  ],
+  params: [
+    { key: 'spread', label: 'Windward humidity (dew-point spread)', min: 2, max: 14, step: 0.5, init: 5, fmt: v => v.toFixed(1) + ' °C spread' },
+    { key: 'wind', label: 'Wind over the crest', min: 30, max: 120, step: 5, init: 70, fmt: v => v + ' km/h' },
+  ],
+  build(){
+    const D = this.D;
+    // ridge terrain: a wall along X, flow crosses it along +Z
+    const size = 1600, segs = 90;
+    const geo = new THREE.PlaneGeometry(size, 1000, segs, 60);
+    geo.rotateX(-Math.PI / 2);
+    const pos = geo.attributes.position, colors = [];
+    const cLow = new THREE.Color(0x69a05c), cMid = new THREE.Color(0x77705e), cHigh = new THREE.Color(0xe8eef4);
+    for (let i = 0; i < pos.count; i++){
+      const x = pos.getX(i), z = pos.getZ(i);
+      let h = this.ridge(z) * (0.82 + 0.18 * Math.sin(x * 0.011 + 1.3)) + 6 * Math.sin(x * 0.05) * Math.cos(z * 0.07);
+      pos.setY(i, h);
+      const hm = h * D;
+      const c = hm > 1500 ? cHigh : hm > 850 ? cMid.clone().lerp(cHigh, (hm - 850) / 650) : cLow.clone().lerp(cMid, hm / 850);
+      colors.push(c.r, c.g, c.b);
+    }
+    geo.setAttribute('color', new THREE.Float32BufferAttribute(colors, 3));
+    geo.computeVertexNormals();
+    stage.add(new THREE.Mesh(geo, new THREE.MeshStandardMaterial({ vertexColors: true, roughness: 1, flatShading: true })));
+
+    // streaming air
+    this.flow = makeParticles(650, 0xeaf6ff, 2.2);
+    stage.add(this.flow);
+    this.lanes = [];
+    const fp = this.flow.geometry.attributes.position;
+    for (let i = 0; i < fp.count; i++){
+      const lane = { x: (Math.random() - 0.5) * 1200, layer: 14 + Math.random() * 230, z: (Math.random() - 0.5) * 1900 };
+      this.lanes.push(lane);
+      fp.setXYZ(i, lane.x, this.ridge(lane.z) + lane.layer, lane.z);
+    }
+    // wind arrow upstream
+    this.arrow = makeArrow(0xffffff, 'wind');
+    stage.add(this.arrow);
+    setArrow(this.arrow, new THREE.Vector3(0, 420, -880), new THREE.Vector3(0, 0, 1), 130);
+    // föhn wall + rain (rebuilt when the base changes)
+    this.wall = new THREE.Group();
+    stage.add(this.wall);
+    this.wallMat = new THREE.MeshStandardMaterial({ color: 0xf4f8fc, transparent: true, opacity: 0.82, roughness: 1, flatShading: true });
+    this.rain = makeParticles(260, 0x9fd0f2, 1.6);
+    stage.add(this.rain);
+    const rp = this.rain.geometry.attributes.position;
+    for (let i = 0; i < rp.count; i++) rp.setXYZ(i, (Math.random() - 0.5) * 900, 200 + Math.random() * 300, -260 + Math.random() * 200);
+    this._base = -1;
+    this.t = 0;
+  },
+  rebuildWall(baseW){
+    while (this.wall.children.length){
+      const c = this.wall.children[0];
+      this.wall.remove(c);
+      c.geometry.dispose();
+    }
+    for (let i = 0; i < 26; i++){
+      const zw = -250 + Math.random() * 280;
+      const env = this.ridge(zw);
+      const y = Math.max(baseW, env + 8) + Math.random() * 75;
+      if (y > 900) continue;
+      const s = new THREE.Mesh(new THREE.SphereGeometry(22 + Math.random() * 26, 9, 7), this.wallMat);
+      s.position.set((Math.random() - 0.5) * 1100, y, zw);
+      this.wall.add(s);
+    }
+  },
+  update(dt){
+    const D = this.D;
+    this.t += dt;
+    const spread = state.spread;
+    const baseM = 500 + spread * 125;                 // AMSL; windward valley floor = 500 m
+    const baseW = (baseM - 500) / D;
+    const crestM = 2400;
+    const dry = baseM >= crestM;
+    if (this._base !== baseW){ this._base = baseW; this.rebuildWall(baseW); }
+    this.wall.visible = !dry;
+    this.rain.visible = !dry;
+    // particles along the streamline envelope
+    const fp = this.flow.geometry.attributes.position;
+    const speed = state.wind * dt * 1.1;
+    const gust = state.wind / 130;
+    for (let i = 0; i < this.lanes.length; i++){
+      const l = this.lanes[i];
+      l.z += speed;
+      if (l.z > 950) l.z -= 1900;
+      let y = this.ridge(l.z) + l.layer;
+      if (l.z > 60) y += Math.sin(this.t * 6 + i) * 14 * gust;   // lee gust wobble
+      fp.setXYZ(i, l.x, y, l.z);
+    }
+    fp.needsUpdate = true;
+    // rain under the wall
+    if (!dry){
+      const rp = this.rain.geometry.attributes.position;
+      for (let i = 0; i < rp.count; i++){
+        let y = rp.getY(i) - dt * 95;
+        if (y < this.ridge(rp.getZ(i)) + 3) y = baseW + Math.random() * 60;
+        rp.setY(i, y);
+      }
+      rp.needsUpdate = true;
+    }
+    // temperatures: dry to base, moist to crest, dry all the way down
+    const Tv = 15;
+    const Tcrest = Tv - (Math.min(baseM, crestM) - 500) / 100 - (dry ? 0 : (crestM - baseM) / 100 * 0.6);
+    const Tlee = Tcrest + (crestM - 500) / 100;
+    this._lee = Tlee;
+    setReadouts([
+      { k: 'föhn wall base', v: dry ? 'dry föhn' : fmtNum(baseM), u: dry ? '' : 'm AMSL', cls: dry ? 'warn' : '' },
+      { k: 'crest temp (2400 m)', v: fmtNum(Tcrest, 1), u: '°C' },
+      { k: 'lee valley (500 m)', v: fmtNum(Tlee, 1), u: '°C', cls: 'good' },
+      { k: 'vs windward valley', v: '+' + fmtNum(Tlee - Tv, 1) + ' warmer', u: '· gusty', cls: 'warn' },
+    ]);
+  },
+};
+
+/* ---------- registry, loop, boot ---------- */
+const LESSONS = [L1, L2, L3, L4, L7, L8, L9, L5, L6];
+
+const lessonsEl = document.getElementById('lessons');
+const SHORT = { forces: 'Forces', polar: 'Polar', wind: 'Wind', thermal: 'Thermals', stability: 'Stability', cloudbase: 'Cloudbase', foehn: 'Föhn', airspace: 'Airspace', anatomy: 'Anatomy' };
+LESSONS.forEach(L => {
+  const b = document.createElement('button');
+  b.className = 'chip';
+  b.dataset.id = L.id;
+  b.textContent = `${L.icon} ${SHORT[L.id]}`;
+  b.title = L.title;
+  b.addEventListener('click', () => switchLesson(L.id));
+  lessonsEl.appendChild(b);
+});
+function switchLesson(id){
+  if (lesson && lesson.dispose) lesson.dispose();
+  setLesson(id);
+}
+
+document.getElementById('togglepanel').addEventListener('click', () => {
+  document.getElementById('panel').classList.toggle('hidden');
+});
+
+function resize(){
+  const w = innerWidth, h = innerHeight;
+  renderer.setSize(w, h);
+  camera.aspect = w / h;
+  camera.updateProjectionMatrix();
+}
+addEventListener('resize', resize);
+resize();
+
+let last = performance.now();
+function loop(now){
+  requestAnimationFrame(loop);
+  const dt = Math.min(0.05, (now - last) / 1000);
+  last = now;
+  if (lesson && lesson.update) lesson.update(dt);
+  applyCamera();
+  renderer.render(scene, camera);
+}
+setLesson('forces');
+requestAnimationFrame(loop);
+</script>
+</body>
+</html>

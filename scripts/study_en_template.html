@@ -1,0 +1,993 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Cloudbase · SHV Paragliding Theory Trainer</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🪂</text></svg>">
+<style>
+:root{
+  --sky-top:#9fd0f2; --sky-bot:#eaf6ff;
+  --ink:#10304e; --muted:#5b7a96; --faint:#8aa7c0;
+  --card:rgba(255,255,255,.88); --card-solid:#ffffff; --line:#d8e8f6;
+  --accent:#0284c7; --accent-deep:#075985; --accent-soft:#e0f2fe;
+  --amber:#f59e0b; --amber-soft:#fef3c7;
+  --good:#15803d; --good-soft:#dcfce7; --bad:#b91c1c; --bad-soft:#fee2e2;
+  --shadow:0 10px 30px -12px rgba(16,64,108,.25);
+  --r:18px;
+}
+@media (prefers-color-scheme: dark){
+  :root{
+    --sky-top:#0b1c31; --sky-bot:#13304f;
+    --ink:#e8f3fd; --muted:#9db9d2; --faint:#6f8eaa;
+    --card:rgba(18,42,68,.92); --card-solid:#16334f; --line:#274b6e;
+    --accent:#38bdf8; --accent-deep:#7dd3fc; --accent-soft:#0c2f47;
+    --amber:#fbbf24; --amber-soft:#3a2e10;
+    --good:#4ade80; --good-soft:#10311e; --bad:#f87171; --bad-soft:#3d1414;
+    --shadow:0 10px 30px -12px rgba(0,0,0,.5);
+  }
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{
+  margin:0; color:var(--ink);
+  font:16px/1.55 ui-rounded,-apple-system,"SF Pro Rounded","Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+  background:linear-gradient(180deg,var(--sky-top),var(--sky-bot) 420px,var(--sky-bot));
+  min-height:100vh;
+}
+.wrap{max-width:1020px;margin:0 auto;padding:18px 18px 80px}
+button{font:inherit;color:inherit;background:none;border:none;cursor:pointer;padding:0}
+button:focus-visible,summary:focus-visible{outline:3px solid var(--accent);outline-offset:2px;border-radius:8px}
+h1,h2,h3{line-height:1.25;margin:0 0 6px}
+.muted{color:var(--muted)}
+.card{background:var(--card);border:1px solid var(--line);border-radius:var(--r);box-shadow:var(--shadow);backdrop-filter:blur(6px)}
+
+/* ---------- header ---------- */
+.top{display:flex;align-items:center;gap:10px;margin-bottom:18px;flex-wrap:wrap}
+.brand{font-size:20px;font-weight:800;letter-spacing:.2px;display:flex;align-items:center;gap:8px}
+.brand small{font-size:11px;font-weight:600;color:var(--muted);display:block;letter-spacing:.4px}
+.top nav{display:flex;gap:6px;margin-left:auto;flex-wrap:wrap}
+.navbtn{padding:8px 14px;border-radius:999px;font-weight:650;color:var(--muted)}
+.navbtn:hover{background:var(--card);color:var(--ink)}
+.navbtn.on{background:var(--accent);color:#fff}
+@media (prefers-color-scheme: dark){.navbtn.on{color:#06283d}}
+.streakchip{padding:7px 12px;border-radius:999px;background:var(--amber-soft);color:var(--amber);font-weight:800;border:1px solid var(--amber);white-space:nowrap}
+
+/* ---------- hero / altimeter ---------- */
+.hero{display:grid;grid-template-columns:1.1fr .9fr;overflow:hidden}
+.hero-left{padding:26px 28px;display:flex;flex-direction:column;gap:14px}
+.kicker{font-size:12px;font-weight:800;letter-spacing:1.4px;text-transform:uppercase;color:var(--accent)}
+.alt-value{font-size:52px;font-weight:850;line-height:1}
+.alt-value small{font-size:22px;color:var(--muted);font-weight:700}
+.alt-sub{color:var(--muted);font-weight:600}
+.alt-sub b{color:var(--ink)}
+.actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:4px}
+.btn{display:inline-flex;align-items:center;gap:8px;padding:12px 18px;border-radius:14px;font-weight:750;
+  background:var(--accent);color:#fff;box-shadow:0 6px 16px -6px rgba(2,132,199,.55);transition:transform .12s}
+@media (prefers-color-scheme: dark){.btn{color:#06283d}}
+.btn:hover{transform:translateY(-1px)}
+.btn:active{transform:translateY(0)}
+.btn.secondary{background:var(--card-solid);color:var(--ink);border:1.5px solid var(--line);box-shadow:none}
+.btn.secondary:hover{border-color:var(--accent)}
+.btn:disabled{opacity:.45;cursor:default;transform:none}
+.btn .n{background:rgba(255,255,255,.25);border-radius:999px;padding:1px 8px;font-size:13px}
+.btn.secondary .n{background:var(--accent-soft);color:var(--accent)}
+.statline{display:flex;gap:18px;flex-wrap:wrap;color:var(--muted);font-size:13.5px;font-weight:600;margin-top:auto;padding-top:8px}
+.statline b{color:var(--ink);font-size:15px}
+
+.skybox{position:relative;min-height:300px;background:linear-gradient(180deg,#7ec3ee,#bfe2f8 65%,#d8efdf 92%,#9fce8f 92.5%);overflow:hidden}
+@media (prefers-color-scheme: dark){.skybox{background:linear-gradient(180deg,#0d2742,#1a3c5e 65%,#1d3b2f 92%,#274d33 92.5%)}}
+.cb-line{position:absolute;top:34px;left:0;right:0;border-top:2px dashed rgba(255,255,255,.85);font-size:11px;font-weight:800;color:#fff;text-shadow:0 1px 4px rgba(0,40,80,.4)}
+.cb-line span{position:absolute;right:10px;top:3px;letter-spacing:.4px}
+.tick{position:absolute;left:0;right:0;border-top:1px dashed rgba(255,255,255,.35)}
+.tick span{position:absolute;left:8px;top:1px;font-size:10px;font-weight:700;color:rgba(255,255,255,.85);text-shadow:0 1px 3px rgba(0,40,80,.4)}
+.cloud{position:absolute;width:70px;height:24px;background:rgba(255,255,255,.95);border-radius:24px;animation:drift 38s linear infinite}
+.cloud::before,.cloud::after{content:'';position:absolute;background:inherit;border-radius:50%}
+.cloud::before{width:30px;height:30px;top:-14px;left:12px}
+.cloud::after{width:22px;height:22px;top:-9px;right:13px}
+.cloud.c2{transform:scale(.7);animation-duration:55s;animation-delay:-20s;opacity:.85}
+.cloud.c3{transform:scale(1.25);animation-duration:70s;animation-delay:-44s;opacity:.75}
+@keyframes drift{from{left:-90px}to{left:110%}}
+.sun{position:absolute;top:18px;left:22px;width:38px;height:38px;border-radius:50%;
+  background:radial-gradient(circle at 35% 35%,#fff7d6,#ffd75e 60%,#ffb52e);box-shadow:0 0 34px 10px rgba(255,205,80,.5)}
+.glider{position:absolute;left:50%;transform:translateX(-50%);transition:bottom 1s cubic-bezier(.3,1.2,.4,1);animation:bob 4.5s ease-in-out infinite;text-align:center}
+@keyframes bob{0%,100%{margin-bottom:0}50%{margin-bottom:9px}}
+.alt-tag{margin-top:2px;font-size:11px;font-weight:800;color:#fff;background:rgba(8,60,100,.55);border-radius:999px;padding:2px 9px;display:inline-block;backdrop-filter:blur(2px)}
+@media (prefers-reduced-motion: reduce){*{animation:none!important;transition:none!important}}
+
+/* ---------- topic grid ---------- */
+.section-title{margin:26px 4px 12px;font-size:15px;font-weight:800;letter-spacing:.6px;text-transform:uppercase;color:var(--muted)}
+.topics{display:grid;grid-template-columns:repeat(auto-fit,minmax(176px,1fr));gap:12px}
+.topic{padding:16px;text-align:left;display:flex;flex-direction:column;gap:10px;transition:transform .14s, box-shadow .14s}
+.topic:hover{transform:translateY(-3px)}
+.topic-head{display:flex;align-items:center;gap:9px;font-weight:750;font-size:14.5px}
+.topic-head .em{font-size:20px}
+.ringrow{display:flex;align-items:center;gap:12px}
+.ring{transform:rotate(-90deg)}
+.ring .track{stroke:var(--line);fill:none}
+.ring .bar{fill:none;stroke-linecap:round;transition:stroke-dashoffset .8s ease}
+.ringpct{font-weight:850;font-size:18px}
+.topic .sub{font-size:12.5px;color:var(--muted);font-weight:600}
+.topic .go{margin-top:auto;font-size:13px;font-weight:750;color:var(--accent)}
+.first-run{padding:18px 22px;margin-top:14px;display:flex;gap:14px;align-items:flex-start}
+.first-run .em{font-size:26px}
+.lab-banner{display:flex;gap:12px;align-items:center;padding:14px 20px;margin-top:14px;text-decoration:none;color:inherit;font-weight:600}
+.lab-banner .em{font-size:24px}
+.lab-banner .go{margin-left:auto;color:var(--accent);font-weight:800;white-space:nowrap}
+.lab-banner:hover{border-color:var(--accent)}
+
+/* ---------- play (round/review) ---------- */
+.play-head{display:flex;align-items:center;gap:14px;margin-bottom:14px;flex-wrap:wrap}
+.ghost{color:var(--muted);font-weight:700;padding:8px 10px;border-radius:10px}
+.ghost:hover{background:var(--card);color:var(--ink)}
+.dots{display:flex;gap:5px;flex-wrap:wrap;flex:1;justify-content:center}
+.dot{width:10px;height:10px;border-radius:50%;background:var(--line)}
+.dot.cur{background:var(--accent);transform:scale(1.25)}
+.dot.ok{background:var(--good)}
+.dot.bad{background:var(--bad)}
+.play-count{font-weight:800;color:var(--muted)}
+.qcard{padding:24px 26px}
+.qmeta{display:flex;gap:8px;align-items:center;flex-wrap:wrap;margin-bottom:12px}
+.chip{font-size:12px;font-weight:750;padding:3px 11px;border-radius:999px;background:var(--accent-soft);color:var(--accent)}
+.chip.plain{background:var(--card-solid);border:1px solid var(--line);color:var(--muted)}
+.qtext{font-size:19.5px;font-weight:700;margin-bottom:16px}
+.qimg-wrap{margin:0 0 16px;text-align:center}
+.qimg{max-width:100%;max-height:340px;border-radius:12px;border:1px solid var(--line);background:#fff}
+.opts{display:grid;gap:9px}
+.opt{display:flex;align-items:center;gap:12px;text-align:left;padding:13px 15px;border-radius:13px;
+  background:var(--card-solid);border:1.5px solid var(--line);font-weight:600;transition:border-color .12s, transform .12s}
+.opt:not(:disabled):hover{border-color:var(--accent);transform:translateX(3px)}
+.opt .key{flex:none;width:26px;height:26px;border-radius:8px;background:var(--accent-soft);color:var(--accent);
+  display:grid;place-items:center;font-size:13px;font-weight:800}
+.opt.right{border-color:var(--good);background:var(--good-soft)}
+.opt.right .key{background:var(--good);color:#fff}
+.opt.wrong{border-color:var(--bad);background:var(--bad-soft)}
+.opt.wrong .key{background:var(--bad);color:#fff}
+.opt.pick{border-color:var(--accent);background:var(--accent-soft)}
+.opt.dim{opacity:.55}
+.verdict{margin-top:16px;font-weight:800;font-size:17px}
+.verdict.ok{color:var(--good)}
+.verdict.bad{color:var(--bad)}
+.explain{margin-top:10px;padding:14px 16px;border-radius:13px;background:var(--accent-soft);border:1px solid var(--line);font-size:15px}
+.explain .chip{margin-top:8px}
+.nextrow{margin-top:16px;display:flex;justify-content:flex-end;gap:10px}
+.kbd-hint{font-size:12px;color:var(--faint);margin-top:14px;text-align:center}
+kbd{background:var(--card-solid);border:1px solid var(--line);border-bottom-width:2px;border-radius:5px;padding:0 5px;font-size:11.5px;font-family:inherit}
+
+/* ---------- round end ---------- */
+.endcard{padding:30px;text-align:center}
+.end-alt{font-size:42px;font-weight:850;color:var(--accent)}
+.end-meters{font-size:17px;font-weight:750;color:var(--good)}
+.recap{margin-top:18px;text-align:left;display:grid;gap:6px}
+.rq{border:1px solid var(--line);border-radius:12px;background:var(--card-solid);overflow:hidden}
+.rq summary{padding:10px 14px;cursor:pointer;font-weight:650;list-style:none;display:flex;gap:10px;align-items:center}
+.rq summary::-webkit-details-marker{display:none}
+.rq .mark{flex:none;font-weight:900}
+.rq.ok .mark{color:var(--good)}
+.rq.bad .mark{color:var(--bad)}
+.rq-body{padding:4px 16px 14px;border-top:1px solid var(--line);font-size:14.5px}
+.rq-body .ansline{margin:6px 0}
+.rq-body .ansline b{color:var(--good)}
+.rq-body .ansline .you{color:var(--bad);font-weight:700}
+
+/* ---------- exam ---------- */
+.exam-layout{display:grid;grid-template-columns:1fr 270px;gap:16px;align-items:start}
+.exam-side{position:sticky;top:14px;display:flex;flex-direction:column;gap:12px}
+.clockcard{padding:16px;text-align:center}
+.clock{font-size:34px;font-weight:850;font-variant-numeric:tabular-nums}
+.clock.low{color:var(--bad);animation:pulse 1s ease-in-out infinite}
+@keyframes pulse{50%{opacity:.55}}
+.navgrid-topic{font-size:11px;font-weight:800;color:var(--muted);margin:8px 2px 4px;letter-spacing:.4px}
+.navgrid{display:grid;grid-template-columns:repeat(5,1fr);gap:5px}
+.cell{aspect-ratio:1;border-radius:8px;border:1.5px solid var(--line);background:var(--card-solid);
+  font-size:12px;font-weight:750;color:var(--muted);position:relative}
+.cell.done{background:var(--accent-soft);border-color:var(--accent);color:var(--accent)}
+.cell.cur{outline:2.5px solid var(--accent);outline-offset:1px}
+.cell.flagged::after{content:'';position:absolute;top:2px;right:2px;width:7px;height:7px;border-radius:50%;background:var(--amber)}
+.examfoot{display:flex;gap:10px;margin-top:16px;flex-wrap:wrap}
+.flagbtn{margin-left:auto}
+.flagbtn.on{background:var(--amber-soft);border-color:var(--amber);color:var(--amber)}
+
+/* exam result */
+.result-banner{padding:28px;text-align:center}
+.result-banner .big{font-size:40px;font-weight:850}
+.result-banner.pass .big{color:var(--good)}
+.result-banner.fail .big{color:var(--bad)}
+.bars{margin-top:18px;display:grid;gap:10px;text-align:left}
+.bar-row{display:grid;grid-template-columns:160px 1fr 84px;gap:12px;align-items:center;font-weight:650;font-size:14.5px}
+.bar{position:relative;height:14px;border-radius:99px;background:var(--line);overflow:visible}
+.bar .fill{position:absolute;inset:0;right:auto;border-radius:99px;background:var(--good);transition:width .8s ease}
+.bar.fail .fill{background:var(--bad)}
+.bar .thresh{position:absolute;top:-4px;bottom:-4px;left:80%;width:2.5px;background:var(--ink);opacity:.5;border-radius:2px}
+.bar-score{font-variant-numeric:tabular-nums;text-align:right}
+.bar-score .pf{margin-left:5px}
+.histlist{display:grid;gap:7px;margin-top:10px}
+.hist{display:flex;gap:12px;align-items:center;padding:9px 14px;border:1px solid var(--line);border-radius:11px;background:var(--card-solid);font-size:14px;font-weight:600}
+.hist .pf{font-weight:850}
+.pf.pass{color:var(--good)}
+.pf.fail{color:var(--bad)}
+
+/* setup */
+.setup{padding:26px 28px}
+.preset{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px;margin:16px 0}
+.preset .opt{flex-direction:column;align-items:flex-start;gap:4px;padding:16px}
+.preset .opt b{font-size:17px}
+.preset .opt span{font-size:13px;color:var(--muted);font-weight:600}
+.rulebox{font-size:14px;color:var(--muted);background:var(--accent-soft);padding:12px 16px;border-radius:12px;margin-top:14px}
+.rulebox b{color:var(--ink)}
+.resume-banner{display:flex;gap:14px;align-items:center;padding:14px 18px;margin-bottom:16px;border:1.5px solid var(--amber);background:var(--amber-soft)}
+
+/* ---------- flashcards ---------- */
+.cats{display:flex;gap:7px;flex-wrap:wrap;margin-bottom:16px}
+.cat{padding:7px 13px;border-radius:999px;border:1.5px solid var(--line);background:var(--card-solid);font-weight:700;font-size:13.5px;color:var(--muted)}
+.cat.on{background:var(--accent);border-color:var(--accent);color:#fff}
+@media (prefers-color-scheme: dark){.cat.on{color:#06283d}}
+.fc-stage{perspective:1400px;margin:6px auto;max-width:640px}
+.fc{position:relative;width:100%;min-height:300px;cursor:pointer;transform-style:preserve-3d;transition:transform .5s cubic-bezier(.3,1.1,.4,1)}
+.fc.flipped{transform:rotateY(180deg)}
+.fc-face{position:absolute;inset:0;backface-visibility:hidden;-webkit-backface-visibility:hidden;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:14px;padding:30px;text-align:center;border-radius:var(--r)}
+.fc-face .label{font-size:11px;font-weight:800;letter-spacing:1.4px;color:var(--faint)}
+.fc-face .txt{font-size:20px;font-weight:700}
+.fc-back{transform:rotateY(180deg);border:2px solid var(--accent)}
+.fc-back .txt{color:var(--accent-deep)}
+.fc-foot{display:flex;gap:10px;justify-content:center;margin-top:18px}
+.fc-meta{display:flex;justify-content:space-between;max-width:640px;margin:0 auto 10px;color:var(--muted);font-weight:700;font-size:13.5px}
+
+/* ---------- modal & toast ---------- */
+.overlay{position:fixed;inset:0;background:rgba(8,30,50,.45);display:grid;place-items:center;z-index:50;padding:20px}
+.modal{max-width:420px;width:100%;padding:24px;text-align:center}
+.modal .mtitle{font-weight:800;font-size:18px;margin-bottom:6px}
+.modal .actions{justify-content:center;margin-top:18px}
+.toast{position:fixed;left:50%;bottom:26px;transform:translateX(-50%);background:var(--ink);color:var(--sky-bot);
+  padding:11px 20px;border-radius:999px;font-weight:700;box-shadow:var(--shadow);z-index:60;animation:toastin .25s ease}
+@keyframes toastin{from{opacity:0;transform:translateX(-50%) translateY(12px)}}
+
+footer{margin-top:46px;text-align:center;font-size:12.5px;color:var(--faint)}
+
+@media (max-width:840px){
+  .hero{grid-template-columns:1fr}
+  .skybox{min-height:200px;order:-1}
+  .exam-layout{grid-template-columns:1fr}
+  .exam-side{position:static;order:-1}
+  .navgrid{grid-template-columns:repeat(10,1fr)}
+  .bar-row{grid-template-columns:110px 1fr 76px;font-size:13px}
+  .alt-value{font-size:42px}
+}
+</style>
+</head>
+<body>
+<div id="app"></div>
+<script>
+window.QUESTIONS=__QUESTIONS__;
+window.CARDS=__CARDS__;
+</script>
+<script>
+'use strict';
+/* ================= data & constants ================= */
+const QUESTIONS = window.QUESTIONS;
+const CARDS = window.CARDS;
+const TOPICS = ['Aerodynamics','Weather','Legislation','Materials','Practical Flying'];
+const META = {
+  'Aerodynamics':     {em:'🌬️', color:'#0ea5e9', blurb:'Forces, lift & drag, polar curve, speeds'},
+  'Weather':          {em:'⛅', color:'#f59e0b', blurb:'Wind, thermals, clouds, fronts, hazards'},
+  'Legislation':      {em:'⚖️', color:'#8b5cf6', blurb:'Airspace, rules of the air, Swiss law'},
+  'Materials':        {em:'🧰', color:'#10b981', blurb:'Wing, harness, reserve — construction & care'},
+  'Practical Flying': {em:'🪂', color:'#ef4444', blurb:'Takeoff to landing, technique, safety'},
+};
+const CLOUDBASE = 3000;            // metres at 100% readiness
+const PASS_FRACTION = 0.8;         // real SHV rule: ≥80% in every section
+const SECS_PER_Q = 54;             // 100 questions / 90 minutes
+const byTopic = {};
+TOPICS.forEach(t => byTopic[t] = QUESTIONS.filter(q => q.topic === t));
+const byId = {};
+QUESTIONS.forEach(q => byId[q.id] = q);
+
+/* ================= persistence ================= */
+const STORE_KEY = 'cloudbase_en_v1';
+let P;
+try { P = JSON.parse(localStorage.getItem(STORE_KEY)) || null; } catch (e) { P = null; }
+if (!P || P.v !== 1) P = { v:1, q:{}, lastDay:null, streak:0, bestStreak:0, exams:[], live:null };
+function save(){ try { localStorage.setItem(STORE_KEY, JSON.stringify(P)); } catch (e) {} }
+
+function dayStr(d){ return d.getFullYear() + '-' + String(d.getMonth()+1).padStart(2,'0') + '-' + String(d.getDate()).padStart(2,'0'); }
+function bumpDay(){
+  const now = new Date(), today = dayStr(now);
+  if (P.lastDay === today) return;
+  const y = new Date(now); y.setDate(y.getDate() - 1);
+  P.streak = (P.lastDay === dayStr(y)) ? P.streak + 1 : 1;
+  P.bestStreak = Math.max(P.bestStreak || 0, P.streak);
+  P.lastDay = today;
+}
+function qstat(id){ return P.q[id] || { s:0, r:0, w:0, k:0 }; }
+function recordAnswer(id, ok){
+  const st = P.q[id] || (P.q[id] = { s:0, r:0, w:0, k:0 });
+  st.s++;
+  if (ok) { st.r++; st.k++; } else { st.w++; st.k = 0; }
+  bumpDay();
+  save();
+}
+
+/* ================= mastery model ================= */
+function masteryOf(id){ const k = qstat(id).k; return k >= 2 ? 1 : k === 1 ? 0.5 : 0; }
+function topicMastery(t){
+  const qs = byTopic[t];
+  return qs.reduce((a, q) => a + masteryOf(q.id), 0) / qs.length;
+}
+function readiness(){ return TOPICS.reduce((a, t) => a + topicMastery(t), 0) / TOPICS.length; }
+function altitude(){ return Math.round(readiness() * CLOUDBASE / 10) * 10; }
+function reviewQueue(){ return QUESTIONS.filter(q => { const st = qstat(q.id); return st.w > 0 && st.k < 2; }); }
+function masteredCount(t){ return byTopic[t].filter(q => qstat(q.id).k >= 2).length; }
+
+/* ================= helpers ================= */
+function esc(s){ return String(s == null ? '' : s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c])); }
+function fmt(n){ return String(n).replace(/\B(?=(\d{3})+(?!\d))/g, ' '); }
+function shuffle(a){
+  a = a.slice();
+  for (let i = a.length - 1; i > 0; i--){ const j = Math.floor(Math.random() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; }
+  return a;
+}
+function mmss(s){ s = Math.max(0, Math.round(s)); return Math.floor(s/60) + ':' + String(s%60).padStart(2,'0'); }
+function imgHtml(q){
+  return q.img ? `<div class="qimg-wrap"><img class="qimg" src="${esc(q.img)}" alt="Question diagram" loading="lazy" onerror="this.parentNode.style.display='none'"></div>` : '';
+}
+
+/* ================= question picking ================= */
+function prio(q){ const st = qstat(q.id); if (!st.s) return 0; if (st.k === 0) return 1; if (st.k === 1) return 2; return 3; }
+function pickPractice(topic, n){
+  if (topic === 'mix'){
+    const lanes = TOPICS.map(t => shuffle(byTopic[t]).sort((a, b) => prio(a) - prio(b)));
+    const out = [];
+    let i = 0;
+    while (out.length < n && lanes.some(l => l.length)){
+      const lane = lanes[i % lanes.length];
+      if (lane.length) out.push(lane.shift());
+      i++;
+    }
+    return shuffle(out);
+  }
+  return shuffle(byTopic[topic]).sort((a, b) => prio(a) - prio(b)).slice(0, n);
+}
+function pickExam(n){
+  const k = Math.floor(n / TOPICS.length);
+  let out = [];
+  TOPICS.forEach(t => { out = out.concat(shuffle(byTopic[t]).slice(0, k)); });
+  return out;
+}
+
+/* ================= app state ================= */
+let S = { view:'home', round:null, exam:null, examResult:null, cards:null, modal:null };
+let tickId = null;
+let toastId = null;
+
+function toast(msg){
+  document.querySelectorAll('.toast').forEach(t => t.remove());
+  const el = document.createElement('div');
+  el.className = 'toast';
+  el.textContent = msg;
+  document.body.appendChild(el);
+  clearTimeout(toastId);
+  toastId = setTimeout(() => el.remove(), 2600);
+}
+function openModal(title, body, okLabel, onOk){
+  S.modal = { title, body, okLabel, onOk };
+  render(true);
+}
+function closeModal(){ S.modal = null; render(true); }
+
+/* ================= rounds (practice & review) ================= */
+function startRound(mode, topic, qs){
+  if (!qs || !qs.length) return;
+  S.round = { mode, topic, qs, i:0, picked:null, revealed:false, done:[], startAlt: altitude() };
+  S.view = 'round';
+  render();
+}
+function startPractice(topic){ startRound('practice', topic, pickPractice(topic, 10)); }
+function startReview(){
+  const queue = shuffle(reviewQueue()).slice(0, 10);
+  startRound('review', 'review', queue);
+}
+function onAnswer(oi){
+  const r = S.round;
+  if (!r || r.revealed) return;
+  const q = r.qs[r.i];
+  const ok = oi === q.correct;
+  r.picked = oi;
+  r.revealed = true;
+  r.done.push({ q, ok, picked: oi });
+  const wasInQueue = r.mode === 'review';
+  recordAnswer(q.id, ok);
+  if (wasInQueue && ok && qstat(q.id).k >= 2) toast('Graduated — that one leaves the review queue 🎉');
+  render(true);
+}
+function nextQ(){
+  const r = S.round;
+  if (!r || !r.revealed) return;
+  r.i++;
+  r.picked = null;
+  r.revealed = false;
+  if (r.i >= r.qs.length) S.view = 'round-end';
+  render();
+}
+
+/* ================= exam ================= */
+function startExam(n){
+  const begin = () => {
+    const qs = pickExam(n);
+    S.exam = { n, qs, i:0, ans:{}, flags:{}, started: Date.now(), dur: n * SECS_PER_Q };
+    saveLive();
+    S.view = 'exam-live';
+    render();
+  };
+  if (P.live) openModal('Replace saved exam?', 'You have an exam in progress. Starting a new one discards it.', 'Start new exam', () => { P.live = null; save(); begin(); });
+  else begin();
+}
+function saveLive(){
+  const ex = S.exam;
+  if (!ex) return;
+  P.live = { ids: ex.qs.map(q => q.id), ans: ex.ans, flags: ex.flags, started: ex.started, dur: ex.dur, n: ex.n };
+  save();
+}
+function resumeExam(){
+  const L = P.live;
+  if (!L) return;
+  S.exam = { n: L.n, qs: L.ids.map(id => byId[id]).filter(Boolean), i:0, ans: L.ans || {}, flags: L.flags || {}, started: L.started, dur: L.dur };
+  S.view = 'exam-live';
+  render();
+}
+function examRemaining(ex){ return ex.dur - (Date.now() - ex.started) / 1000; }
+function gradeExam(ex){
+  const per = {};
+  TOPICS.forEach(t => per[t] = [0, 0]);
+  ex.qs.forEach((q, i) => {
+    per[q.topic][1]++;
+    if (ex.ans[i] === q.correct) per[q.topic][0]++;
+  });
+  const total = ex.qs.length;
+  const right = TOPICS.reduce((a, t) => a + per[t][0], 0);
+  const pass = TOPICS.every(t => !per[t][1] || per[t][0] / per[t][1] >= PASS_FRACTION);
+  return { per, right, total, pct: Math.round(100 * right / total), pass, secs: Math.min(ex.dur, Math.round((Date.now() - ex.started) / 1000)) };
+}
+function submitExam(auto){
+  const ex = S.exam;
+  if (!ex) return;
+  stopTick();
+  const g = gradeExam(ex);
+  ex.qs.forEach((q, i) => { if (ex.ans[i] != null) recordAnswer(q.id, ex.ans[i] === q.correct); });
+  P.exams.push({ d: new Date().toISOString().slice(0, 10), n: ex.n, pct: g.pct, pass: g.pass });
+  if (P.exams.length > 24) P.exams = P.exams.slice(-24);
+  P.live = null;
+  save();
+  S.examResult = { ex, g, auto: !!auto };
+  S.exam = null;
+  S.view = 'exam-result';
+  render();
+}
+function startTick(){
+  stopTick();
+  tickId = setInterval(() => {
+    const ex = S.exam;
+    if (!ex || S.view !== 'exam-live') { stopTick(); return; }
+    const rem = examRemaining(ex);
+    const el = document.getElementById('clock');
+    if (el){
+      el.textContent = mmss(rem);
+      el.classList.toggle('low', rem < 300);
+    }
+    if (rem <= 0) submitExam(true);
+  }, 1000);
+}
+function stopTick(){ if (tickId) { clearInterval(tickId); tickId = null; } }
+window.addEventListener('beforeunload', e => {
+  if (S.view === 'exam-live'){ saveLive(); e.preventDefault(); e.returnValue = ''; }
+});
+
+/* ================= flashcards ================= */
+function startCards(cat){
+  const pool = cat === 'all' ? CARDS : CARDS.filter(c => c.cat === cat);
+  S.cards = { cat, deck: shuffle(pool), i:0, flipped:false, got:0, again:0 };
+  S.view = 'cards';
+  render();
+}
+function gradeCard(knewIt){
+  const c = S.cards;
+  if (!c || c.i >= c.deck.length) return;
+  if (knewIt) c.got++;
+  else { c.again++; c.deck.push(c.deck[c.i]); }
+  c.i++;
+  c.flipped = false;
+  bumpDay();
+  save();
+  render();
+}
+
+/* ================= views ================= */
+function headerHtml(){
+  const on = v => S.view === v || (v === 'exam' && S.view.startsWith('exam')) ? 'on' : '';
+  return `<header class="top">
+    <button class="brand" data-action="home" aria-label="Cloudbase home">🪂<span>Cloudbase<small>SHV theory · English</small></span></button>
+    <nav>
+      <button class="navbtn ${on('home')}" data-action="home">Home</button>
+      <button class="navbtn ${S.view === 'round' || S.view === 'round-end' ? 'on' : ''}" data-action="quick">Practice</button>
+      <button class="navbtn ${on('exam')}" data-action="exam-setup">Exam</button>
+      <button class="navbtn ${on('cards')}" data-action="cards">Flashcards</button>
+    </nav>
+    <div class="streakchip" title="Days studied in a row (best: ${P.bestStreak || 0})">🔥 ${P.streak || 0} day${P.streak === 1 ? '' : 's'}</div>
+  </header>`;
+}
+
+function skyboxHtml(){
+  const r = readiness();
+  const bottomPct = 7 + r * 76;
+  return `<div class="skybox" aria-hidden="true">
+    <div class="sun"></div>
+    <div class="cb-line"><span>cloudbase · ${fmt(CLOUDBASE)} m</span></div>
+    <div class="tick" style="top:38%"><span>2 000 m</span></div>
+    <div class="tick" style="top:64%"><span>1 000 m</span></div>
+    <div class="cloud" style="top:50px"></div>
+    <div class="cloud c2" style="top:110px"></div>
+    <div class="cloud c3" style="top:22px"></div>
+    <div class="glider" style="bottom:${bottomPct}%">
+      <svg viewBox="0 0 64 44" width="58" height="40">
+        <path d="M5 16 Q32 0 59 16" fill="none" stroke="#e11d48" stroke-width="7" stroke-linecap="round"/>
+        <path d="M12 18 L31 36 M52 18 L33 36" stroke="#334155" stroke-width="1.6"/>
+        <circle cx="32" cy="38" r="4.5" fill="#0f172a"/>
+      </svg>
+      <div class="alt-tag">${fmt(altitude())} m</div>
+    </div>
+  </div>`;
+}
+
+function renderHome(){
+  const seen = Object.keys(P.q).length;
+  const tries = Object.values(P.q).reduce((a, s) => a + s.s, 0);
+  const right = Object.values(P.q).reduce((a, s) => a + s.r, 0);
+  const acc = tries ? Math.round(100 * right / tries) : 0;
+  const rq = reviewQueue().length;
+  const best = P.exams.length ? Math.max(...P.exams.map(e => e.pct)) : null;
+  const r = readiness();
+  const atBase = r >= 0.999;
+
+  let resume = '';
+  if (P.live){
+    const rem = P.live.dur - (Date.now() - P.live.started) / 1000;
+    resume = `<div class="card resume-banner">
+      <div style="flex:1"><b>Exam in progress</b><div class="muted" style="font-size:13.5px">${
+        rem > 5 ? `${mmss(rem)} left on the clock — pick up where you left off.` : 'Time has expired — submit it to see your result.'}</div></div>
+      ${rem > 5
+        ? `<button class="btn" data-action="resume-exam">Resume</button>`
+        : `<button class="btn" data-action="expire-exam">Submit &amp; view result</button>`}
+      <button class="btn secondary" data-action="discard-exam">Discard</button>
+    </div>`;
+  }
+
+  const topics = TOPICS.map(t => {
+    const m = topicMastery(t), pctv = Math.round(m * 100), meta = META[t];
+    const C = 2 * Math.PI * 24;
+    return `<button class="card topic" data-action="topic" data-topic="${esc(t)}" aria-label="Practice ${esc(t)}">
+      <div class="topic-head"><span class="em">${meta.em}</span>${esc(t)}</div>
+      <div class="ringrow">
+        <svg class="ring" width="56" height="56" viewBox="0 0 56 56">
+          <circle class="track" cx="28" cy="28" r="24" stroke-width="6"/>
+          <circle class="bar" cx="28" cy="28" r="24" stroke-width="6" stroke="${meta.color}"
+            stroke-dasharray="${C.toFixed(1)}" stroke-dashoffset="${(C * (1 - m)).toFixed(1)}"/>
+        </svg>
+        <div><div class="ringpct">${pctv}%</div>
+        <div class="sub">${masteredCount(t)}/${byTopic[t].length} mastered</div></div>
+      </div>
+      <div class="sub">${meta.blurb}</div>
+      <div class="go">Practice 10 ▸</div>
+    </button>`;
+  }).join('');
+
+  const firstRun = tries ? '' : `<div class="card first-run">
+    <span class="em">🧭</span>
+    <div><b>How this works</b><div class="muted" style="font-size:14.5px">
+      Answer questions to gain altitude. A question counts as <b>mastered</b> after you get it right twice in a row —
+      mistakes drop it into your review queue. Reach ${fmt(CLOUDBASE)} m (every question mastered) and you're at cloudbase: fully exam-ready.
+      Start with a <b>quick round</b> below.</div></div>
+  </div>`;
+
+  return `${resume}
+  <section class="hero card">
+    <div class="hero-left">
+      <div>
+        <div class="kicker">${atBase ? 'At cloudbase — fully exam-ready 🎉' : 'Your study altitude'}</div>
+        <div class="alt-value">${fmt(altitude())}<small> m</small></div>
+        <div class="alt-sub"><b>${Math.round(r * 100)}% exam-ready</b> · cloudbase at ${fmt(CLOUDBASE)} m</div>
+      </div>
+      <div class="actions">
+        <button class="btn" data-action="quick">▶ Quick round</button>
+        <button class="btn secondary" data-action="exam-setup">🎓 Mock exam</button>
+        <button class="btn secondary" data-action="review" ${rq ? '' : 'disabled'}>🔁 Review misses <span class="n">${rq}</span></button>
+        <button class="btn secondary" data-action="cards">🃏 Flashcards</button>
+      </div>
+      <div class="statline">
+        <span>Seen <b>${seen}</b>/${QUESTIONS.length}</span>
+        <span>Accuracy <b>${acc}%</b></span>
+        <span>Exams <b>${P.exams.length}</b>${best != null ? ` · best <b>${best}%</b>` : ''}</span>
+      </div>
+    </div>
+    ${skyboxHtml()}
+  </section>
+  ${firstRun}
+  <a class="card lab-banner" href="flight-lab.html"><span class="em">🧪</span>
+    <span><b>Flight Lab</b> — forces, the polar, wind, thermals, stability, cloudbase, föhn &amp; airspace as interactive 3D scenes</span>
+    <span class="go">Open ▸</span></a>
+  <div class="section-title">Topics — tap to practice</div>
+  <div class="topics">${topics}</div>
+  <footer>Questions &amp; explanations from the official SHV/FSVL e-learning pool (${QUESTIONS.length} questions) · progress is saved in this browser.</footer>`;
+}
+
+/* ---------- round ---------- */
+function renderRound(){
+  const r = S.round, q = r.qs[r.i];
+  const dots = r.qs.map((_, j) =>
+    `<span class="dot ${j < r.i ? (r.done[j].ok ? 'ok' : 'bad') : j === r.i ? 'cur' : ''}"></span>`).join('');
+  const opts = q.options.map((o, oi) => {
+    let cls = 'opt';
+    if (r.revealed){
+      if (oi === q.correct) cls += ' right';
+      else if (oi === r.picked) cls += ' wrong';
+      else cls += ' dim';
+    }
+    return `<button class="${cls}" data-action="answer" data-i="${oi}" ${r.revealed ? 'disabled' : ''}>
+      <span class="key">${oi + 1}</span><span>${esc(o)}</span></button>`;
+  }).join('');
+
+  let feedback = '';
+  if (r.revealed){
+    const ok = r.picked === q.correct;
+    feedback = `<div class="verdict ${ok ? 'ok' : 'bad'}">${ok ? '✓ Correct!' : '✗ Not quite — the correct answer is highlighted.'}</div>
+      ${q.exp ? `<div class="explain">💡 ${esc(q.exp)}${q.sub ? `<div><span class="chip plain">${esc(q.sub)}</span></div>` : ''}</div>` : ''}
+      <div class="nextrow"><button class="btn" data-action="round-next">${r.i + 1 < r.qs.length ? 'Next question →' : 'Finish round'}</button></div>`;
+  }
+
+  return `<div class="play-head">
+    <button class="ghost" data-action="round-quit">← End round</button>
+    <div class="dots">${dots}</div>
+    <div class="play-count">${r.i + 1}/${r.qs.length}</div>
+  </div>
+  <div class="card qcard">
+    <div class="qmeta">
+      <span class="chip">${META[q.topic].em} ${esc(q.topic)}</span>
+      ${r.mode === 'review' ? '<span class="chip plain">🔁 review</span>' : ''}
+    </div>
+    <div class="qtext">${esc(q.text)}</div>
+    ${imgHtml(q)}
+    <div class="opts">${opts}</div>
+    ${feedback}
+  </div>
+  <div class="kbd-hint"><kbd>1</kbd>–<kbd>${q.options.length}</kbd> answer · <kbd>Enter</kbd> next</div>`;
+}
+
+function renderRoundEnd(){
+  const r = S.round;
+  const right = r.done.filter(d => d.ok).length;
+  const gained = altitude() - r.startAlt;
+  const missed = r.done.filter(d => !d.ok);
+  const recap = r.done.map((d, i) => `
+    <details class="rq ${d.ok ? 'ok' : 'bad'}">
+      <summary><span class="mark">${d.ok ? '✓' : '✗'}</span><span>${esc(d.q.text.length > 90 ? d.q.text.slice(0, 90) + '…' : d.q.text)}</span></summary>
+      <div class="rq-body">
+        ${imgHtml(d.q)}
+        <div class="ansline">${d.ok ? '' : `<span class="you">Your answer: ${esc(d.q.options[d.picked])}</span><br>`}Correct: <b>${esc(d.q.options[d.q.correct])}</b></div>
+        ${d.q.exp ? `<div class="explain">💡 ${esc(d.q.exp)}</div>` : ''}
+      </div>
+    </details>`).join('');
+
+  return `<div class="card endcard">
+    <h2>${right === r.qs.length ? '🎉 Clean sweep!' : right >= r.qs.length * 0.8 ? '👏 Strong round' : '💪 Keep climbing'}</h2>
+    <div class="end-alt">${right}/${r.qs.length}</div>
+    <div class="end-meters">${gained > 0 ? `▲ +${fmt(gained)} m altitude gained` : 'Altitude unchanged — master questions (2× right in a row) to climb'}</div>
+    <div class="actions" style="justify-content:center;margin-top:20px">
+      <button class="btn" data-action="round-again">Another round</button>
+      ${missed.length ? `<button class="btn secondary" data-action="round-retry">Retry the ${missed.length} missed</button>` : ''}
+      <button class="btn secondary" data-action="home">Home</button>
+    </div>
+    <div class="recap">${recap}</div>
+  </div>`;
+}
+
+/* ---------- exam ---------- */
+function renderExamSetup(){
+  const hist = P.exams.slice().reverse().slice(0, 8).map(e =>
+    `<div class="hist"><span>${esc(e.d)}</span><span>${e.n} questions</span>
+     <span style="margin-left:auto">${e.pct}%</span>
+     <span class="pf ${e.pass ? 'pass' : 'fail'}">${e.pass ? 'PASS' : 'FAIL'}</span></div>`).join('');
+
+  return `<div class="card setup">
+    <h2>🎓 Mock exam</h2>
+    <p class="muted">The real SHV/FSVL theory exam: <b>100 questions</b> — 20 per topic — in <b>90 minutes</b>.
+    You pass only if you score <b>≥ 80% in every one of the 5 sections</b>.</p>
+    <div class="preset">
+      <button class="opt" data-action="start-exam" data-n="100"><b>Full simulation</b><span>100 questions · 90:00 · the real thing</span></button>
+      <button class="opt" data-action="start-exam" data-n="50"><b>Half exam</b><span>50 questions · 45:00 · 10 per topic</span></button>
+      <button class="opt" data-action="start-exam" data-n="25"><b>Quick check</b><span>25 questions · 22:30 · 5 per topic</span></button>
+    </div>
+    <div class="rulebox">During the exam there's no feedback — answer, flag anything you're unsure about, and use the
+    map to jump around. <b>Pass rule:</b> at least 80% in each section (e.g. 16/20). The timer runs at the real pace of 54 s per question.
+    Your progress is saved if you close the tab.</div>
+    ${hist ? `<div class="section-title" style="margin-left:0">Past attempts</div><div class="histlist">${hist}</div>` : ''}
+  </div>`;
+}
+
+function renderExamLive(){
+  const ex = S.exam, q = ex.qs[ex.i];
+  const opts = q.options.map((o, oi) =>
+    `<button class="opt ${ex.ans[ex.i] === oi ? 'pick' : ''}" data-action="exam-answer" data-i="${oi}">
+      <span class="key">${oi + 1}</span><span>${esc(o)}</span></button>`).join('');
+
+  let grid = '', idx = 0;
+  TOPICS.forEach(t => {
+    const cells = [];
+    ex.qs.forEach((qq, i) => {
+      if (qq.topic !== t) return;
+      cells.push(`<button class="cell ${ex.ans[i] != null ? 'done' : ''} ${i === ex.i ? 'cur' : ''} ${ex.flags[i] ? 'flagged' : ''}"
+        data-action="exam-jump" data-i="${i}" aria-label="Question ${i + 1}">${i + 1}</button>`);
+    });
+    if (cells.length) grid += `<div class="navgrid-topic">${META[t].em} ${esc(t)}</div><div class="navgrid">${cells.join('')}</div>`;
+  });
+  const answered = Object.keys(ex.ans).length;
+
+  return `<div class="exam-layout">
+    <div>
+      <div class="card qcard">
+        <div class="qmeta">
+          <span class="chip">${META[q.topic].em} ${esc(q.topic)}</span>
+          <span class="chip plain">Question ${ex.i + 1} of ${ex.qs.length}</span>
+          <button class="btn secondary flagbtn ${ex.flags[ex.i] ? 'on' : ''}" data-action="exam-flag" style="padding:7px 13px;font-size:13.5px">
+            ${ex.flags[ex.i] ? '🚩 Flagged' : '⚑ Flag'}</button>
+        </div>
+        <div class="qtext">${esc(q.text)}</div>
+        ${imgHtml(q)}
+        <div class="opts">${opts}</div>
+        <div class="examfoot">
+          <button class="btn secondary" data-action="exam-prev" ${ex.i === 0 ? 'disabled' : ''}>← Previous</button>
+          <button class="btn secondary" data-action="exam-next" ${ex.i >= ex.qs.length - 1 ? 'disabled' : ''}>Next →</button>
+        </div>
+      </div>
+      <div class="kbd-hint"><kbd>1</kbd>–<kbd>${q.options.length}</kbd> answer · <kbd>←</kbd><kbd>→</kbd> move · <kbd>F</kbd> flag</div>
+    </div>
+    <div class="exam-side">
+      <div class="card clockcard">
+        <div class="clock" id="clock">${mmss(examRemaining(ex))}</div>
+        <div class="muted" style="font-size:13px;font-weight:700">${answered}/${ex.qs.length} answered</div>
+      </div>
+      <div class="card" style="padding:12px">${grid}</div>
+      <button class="btn" data-action="exam-submit" style="justify-content:center">Submit exam</button>
+      <button class="ghost" data-action="exam-abort" style="text-align:center">Abandon exam</button>
+    </div>
+  </div>`;
+}
+
+function renderExamResult(){
+  const { ex, g, auto } = S.examResult;
+  const bars = TOPICS.map(t => {
+    const [r, k] = g.per[t];
+    if (!k) return '';
+    const ok = r / k >= PASS_FRACTION;
+    const need = Math.ceil(k * PASS_FRACTION);
+    return `<div class="bar-row">
+      <span>${META[t].em} ${esc(t)}</span>
+      <div class="bar ${ok ? '' : 'fail'}"><div class="fill" style="width:${(100 * r / k).toFixed(1)}%"></div><div class="thresh" title="pass mark"></div></div>
+      <span class="bar-score">${r}/${k}<span class="pf ${ok ? 'pass' : 'fail'}">${ok ? '✓' : '✗'}</span></span>
+    </div>`;
+  }).join('');
+
+  const review = ex.qs.map((q, i) => {
+    const ok = ex.ans[i] === q.correct;
+    if (S.examResult.showAll !== true && ok) return '';
+    return `<details class="rq ${ok ? 'ok' : 'bad'}">
+      <summary><span class="mark">${ok ? '✓' : '✗'}</span><span>Q${i + 1} · ${META[q.topic].em} ${esc(q.text.length > 80 ? q.text.slice(0, 80) + '…' : q.text)}</span></summary>
+      <div class="rq-body">
+        <div style="margin:8px 0 6px;font-weight:700">${esc(q.text)}</div>
+        ${imgHtml(q)}
+        <div class="ansline">${ex.ans[i] == null ? '<span class="you">Not answered.</span><br>' : ok ? '' : `<span class="you">Your answer: ${esc(q.options[ex.ans[i]])}</span><br>`}
+          Correct: <b>${esc(q.options[q.correct])}</b></div>
+        ${q.exp ? `<div class="explain">💡 ${esc(q.exp)}</div>` : ''}
+      </div>
+    </details>`;
+  }).join('');
+  const wrongCount = ex.qs.filter((q, i) => ex.ans[i] !== q.correct).length;
+
+  return `<div class="card result-banner ${g.pass ? 'pass' : 'fail'}">
+    ${auto ? '<div class="chip plain" style="margin-bottom:8px">⏰ time expired — auto-submitted</div>' : ''}
+    <div class="big">${g.pass ? '✅ PASSED' : '❌ Not yet'}</div>
+    <h2 style="margin-top:4px">${g.right}/${g.total} correct · ${g.pct}%</h2>
+    <div class="muted">Time used ${mmss(g.secs)} of ${mmss(ex.dur)} · pass needs ≥ ${Math.round(PASS_FRACTION * 100)}% in every section</div>
+    <div class="bars">${bars}</div>
+    <div class="actions" style="justify-content:center;margin-top:22px">
+      <button class="btn" data-action="exam-setup">Take another</button>
+      ${wrongCount ? `<button class="btn secondary" data-action="review">🔁 Drill the ${wrongCount} missed</button>` : ''}
+      <button class="btn secondary" data-action="home">Home</button>
+    </div>
+  </div>
+  <div class="section-title">${S.examResult.showAll ? 'All questions' : `Missed questions (${wrongCount})`}
+    <button class="ghost" data-action="exam-toggle-all" style="font-size:13px">${S.examResult.showAll ? 'show missed only' : 'show all'}</button>
+  </div>
+  <div class="recap">${review || '<div class="muted" style="padding:10px">Nothing missed — outstanding! 🎉</div>'}</div>`;
+}
+
+/* ---------- flashcards ---------- */
+function renderCards(){
+  const c = S.cards;
+  const cats = ['all', ...new Set(CARDS.map(x => x.cat))];
+  const chips = cats.map(cat =>
+    `<button class="cat ${c.cat === cat ? 'on' : ''}" data-action="cards-cat" data-cat="${esc(cat)}">${cat === 'all' ? `All (${CARDS.length})` : `${esc(cat)} (${CARDS.filter(x => x.cat === cat).length})`}</button>`).join('');
+
+  if (c.i >= c.deck.length){
+    return `<div class="cats">${chips}</div>
+    <div class="card endcard">
+      <h2>🃏 Deck done!</h2>
+      <p class="muted">${c.got} knew it · ${c.again} repeated until they stuck.</p>
+      <div class="actions" style="justify-content:center">
+        <button class="btn" data-action="cards-cat" data-cat="${esc(c.cat)}">Shuffle &amp; go again</button>
+        <button class="btn secondary" data-action="home">Home</button>
+      </div>
+    </div>`;
+  }
+
+  const card = c.deck[c.i];
+  return `<div class="cats">${chips}</div>
+  <div class="fc-meta"><span>Card ${c.i + 1} of ${c.deck.length}</span><span>✓ ${c.got} · ↻ ${c.again}</span></div>
+  <div class="fc-stage">
+    <div class="fc ${c.flipped ? 'flipped' : ''}" data-action="flip" role="button" aria-label="Flip card" tabindex="0">
+      <div class="fc-face card">
+        <span class="label">QUESTION · ${esc(card.cat).toUpperCase()}</span>
+        <span class="txt">${esc(card.q)}</span>
+        <span class="muted" style="font-size:13px">tap or <kbd>Space</kbd> to reveal</span>
+      </div>
+      <div class="fc-face fc-back card">
+        <span class="label">ANSWER</span>
+        <span class="txt">${esc(card.a)}</span>
+      </div>
+    </div>
+  </div>
+  <div class="fc-foot">
+    <button class="btn secondary" data-action="card-again" ${c.flipped ? '' : 'disabled'}>↻ Show again (A)</button>
+    <button class="btn" data-action="card-got" ${c.flipped ? '' : 'disabled'}>✓ Knew it (G)</button>
+  </div>`;
+}
+
+/* ---------- modal ---------- */
+function modalHtml(){
+  if (!S.modal) return '';
+  return `<div class="overlay" data-action="modal-cancel-bg">
+    <div class="card modal">
+      <div class="mtitle">${esc(S.modal.title)}</div>
+      <div class="muted">${esc(S.modal.body)}</div>
+      <div class="actions">
+        <button class="btn" data-action="modal-ok">${esc(S.modal.okLabel)}</button>
+        <button class="btn secondary" data-action="modal-cancel">Cancel</button>
+      </div>
+    </div>
+  </div>`;
+}
+
+/* ================= render & events ================= */
+function render(keepScroll){
+  const y = window.scrollY;
+  let html = '';
+  if (S.view !== 'exam-live') html += headerHtml();
+  switch (S.view){
+    case 'home':        html += renderHome(); break;
+    case 'round':       html += renderRound(); break;
+    case 'round-end':   html += renderRoundEnd(); break;
+    case 'exam-setup':  html += renderExamSetup(); break;
+    case 'exam-live':   html += renderExamLive(); break;
+    case 'exam-result': html += renderExamResult(); break;
+    case 'cards':       html += renderCards(); break;
+  }
+  document.getElementById('app').innerHTML = `<div class="wrap">${html}</div>${modalHtml()}`;
+  if (S.view === 'exam-live') startTick(); else stopTick();
+  window.scrollTo(0, keepScroll ? y : 0);
+}
+
+document.addEventListener('click', e => {
+  const el = e.target.closest('[data-action]');
+  if (!el) return;
+  const act = el.dataset.action;
+  switch (act){
+    case 'home':        S.view = 'home'; render(); break;
+    case 'quick':       startPractice('mix'); break;
+    case 'topic':       startPractice(el.dataset.topic); break;
+    case 'review': {
+      const q = shuffle(reviewQueue()).slice(0, 10);
+      if (q.length) startRound('review', 'review', q);
+      break;
+    }
+    case 'cards':       startCards(S.cards ? S.cards.cat : 'all'); break;
+    case 'exam-setup':  S.view = 'exam-setup'; render(); break;
+
+    case 'answer':      onAnswer(+el.dataset.i); break;
+    case 'round-next':  nextQ(); break;
+    case 'round-quit':
+      if (S.round && S.round.done.length && S.round.i < S.round.qs.length){
+        S.round.qs = S.round.qs.slice(0, S.round.done.length);
+        S.view = 'round-end';
+      } else S.view = 'home';
+      render(); break;
+    case 'round-again': startRound(S.round.mode, S.round.topic,
+        S.round.topic === 'review' ? shuffle(reviewQueue()).slice(0, 10) : pickPractice(S.round.topic, 10)); break;
+    case 'round-retry': startRound('practice', S.round.topic, shuffle(S.round.done.filter(d => !d.ok).map(d => d.q))); break;
+
+    case 'start-exam':  startExam(+el.dataset.n); break;
+    case 'exam-answer': {
+      const ex = S.exam;
+      ex.ans[ex.i] = +el.dataset.i;
+      saveLive();
+      if (ex.i < ex.qs.length - 1) ex.i++;
+      render(true); break;
+    }
+    case 'exam-jump':   S.exam.i = +el.dataset.i; render(true); break;
+    case 'exam-prev':   if (S.exam.i > 0){ S.exam.i--; render(true); } break;
+    case 'exam-next':   if (S.exam.i < S.exam.qs.length - 1){ S.exam.i++; render(true); } break;
+    case 'exam-flag':   S.exam.flags[S.exam.i] = !S.exam.flags[S.exam.i]; saveLive(); render(true); break;
+    case 'exam-submit': {
+      const left = S.exam.qs.length - Object.keys(S.exam.ans).length;
+      if (left) openModal('Submit with gaps?', `${left} question${left === 1 ? ' is' : 's are'} unanswered and will count as wrong.`, 'Submit anyway', () => submitExam(false));
+      else openModal('Submit exam?', 'Lock in your answers and see the result.', 'Submit', () => submitExam(false));
+      break;
+    }
+    case 'exam-abort':  openModal('Abandon exam?', 'This attempt will be discarded — nothing is recorded.', 'Abandon', () => { stopTick(); S.exam = null; P.live = null; save(); S.view = 'home'; render(); }); break;
+    case 'exam-toggle-all': S.examResult.showAll = !S.examResult.showAll; render(true); break;
+
+    case 'resume-exam':  resumeExam(); break;
+    case 'expire-exam': {
+      const L = P.live;
+      S.exam = { n: L.n, qs: L.ids.map(id => byId[id]).filter(Boolean), i:0, ans: L.ans || {}, flags: L.flags || {}, started: L.started, dur: L.dur };
+      submitExam(true); break;
+    }
+    case 'discard-exam': openModal('Discard saved exam?', 'The in-progress exam will be lost.', 'Discard', () => { P.live = null; save(); render(); }); break;
+
+    case 'cards-cat':   startCards(el.dataset.cat); break;
+    case 'flip':        S.cards.flipped = !S.cards.flipped; render(true); break;
+    case 'card-got':    gradeCard(true); break;
+    case 'card-again':  gradeCard(false); break;
+
+    case 'modal-ok': {
+      const fn = S.modal && S.modal.onOk;
+      S.modal = null;
+      if (fn) fn(); else render(true);
+      break;
+    }
+    case 'modal-cancel': closeModal(); break;
+    case 'modal-cancel-bg': if (e.target === el) closeModal(); break;
+  }
+});
+
+document.addEventListener('keydown', e => {
+  if (e.metaKey || e.ctrlKey || e.altKey) return;
+  if (S.modal){
+    if (e.key === 'Enter'){ e.preventDefault(); const fn = S.modal.onOk; S.modal = null; if (fn) fn(); else render(true); }
+    if (e.key === 'Escape') closeModal();
+    return;
+  }
+  if (S.view === 'round'){
+    const r = S.round, q = r.qs[r.i];
+    const d = parseInt(e.key, 10);
+    if (!r.revealed && d >= 1 && d <= q.options.length){ e.preventDefault(); onAnswer(d - 1); }
+    else if (r.revealed && e.key === 'Enter'){ e.preventDefault(); nextQ(); }
+  } else if (S.view === 'exam-live'){
+    const ex = S.exam, q = ex.qs[ex.i];
+    const d = parseInt(e.key, 10);
+    if (d >= 1 && d <= q.options.length){
+      e.preventDefault();
+      ex.ans[ex.i] = d - 1; saveLive();
+      if (ex.i < ex.qs.length - 1) ex.i++;
+      render(true);
+    }
+    else if (e.key === 'ArrowLeft' && ex.i > 0){ ex.i--; render(true); }
+    else if (e.key === 'ArrowRight' && ex.i < ex.qs.length - 1){ ex.i++; render(true); }
+    else if (e.key === 'f' || e.key === 'F'){ ex.flags[ex.i] = !ex.flags[ex.i]; saveLive(); render(true); }
+  } else if (S.view === 'cards'){
+    if (e.key === ' '){ e.preventDefault(); S.cards.flipped = !S.cards.flipped; render(true); }
+    else if ((e.key === 'g' || e.key === 'G') && S.cards.flipped) gradeCard(true);
+    else if ((e.key === 'a' || e.key === 'A') && S.cards.flipped) gradeCard(false);
+  }
+});
+
+render();
+</script>
+</body>
+</html>
