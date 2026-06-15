@@ -311,6 +311,17 @@ h4 { font-size: 14px; font-weight: 700; margin: 14px 0 6px; }
 .page-subtitle { color: var(--text-soft); margin: 0 0 24px; font-size: 14px; }
 .page-header { margin-bottom: 24px; }
 .muted { color: var(--text-soft); }
+
+/* Quick 10 — score + shuffle bar above the random question set */
+.quick-bar {
+  display: flex; align-items: center; justify-content: space-between;
+  gap: 12px; flex-wrap: wrap;
+  margin-bottom: 18px; padding: 12px 16px;
+  background: var(--bg-card); border: 1px solid var(--border); border-radius: 12px;
+}
+.quick-score { font-size: 14px; color: var(--text-soft); }
+.quick-score strong { color: var(--text); font-variant-numeric: tabular-nums; }
+
 .dim { color: var(--text-dim); }
 .tabnum { font-variant-numeric: tabular-nums; }
 code, .mono { font-family: "SF Mono", Menlo, Consolas, monospace; font-size: 13px; }

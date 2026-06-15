@@ -45,6 +45,8 @@ const DEFAULT_STATE = {
     expandedQs: {},                     // { '<topic>_<qid>': true }
     query: ''
   },
+  // Quick 10 — ten random questions drawn from the SHV pool, with a shuffle button
+  quick: { qids: [], answers: {} },
   // guide
   guide: { partId: null, chapterId: null },
   // slide decks (Freewings)
@@ -76,6 +78,7 @@ function loadState() {
       exam: { ...DEFAULT_STATE.exam, ...(parsed.exam || {}) },
       shvExam: { ...DEFAULT_STATE.shvExam, ...(parsed.shvExam || {}), setup: { ...DEFAULT_STATE.shvExam.setup, ...((parsed.shvExam && parsed.shvExam.setup) || {}) } },
       shvBrowse: { ...DEFAULT_STATE.shvBrowse, ...(parsed.shvBrowse || {}) },
+      quick: { ...DEFAULT_STATE.quick, ...(parsed.quick || {}) },
       guide: { ...DEFAULT_STATE.guide, ...(parsed.guide || {}) },
       slides: { ...DEFAULT_STATE.slides, ...(parsed.slides || {}) },
       videos: { ...DEFAULT_STATE.videos, ...(parsed.videos || {}) },
@@ -113,6 +116,7 @@ const PART_TO_CATEGORY = {
 const STRINGS = {
   en: {
     'nav.dashboard': 'Dashboard',
+    'nav.quickquiz': 'Quick 10',
     'nav.workbook': 'Workbook',
     'nav.shv-exam': 'SHV Practice',
     'nav.shv-browse': 'SHV Browse',
@@ -128,6 +132,9 @@ const STRINGS = {
     'sidebar.study': 'Study',
 
     'page.dashboard.h1': 'Welcome to Flugtheorie 🪂',
+    'page.quickquiz.h1': '🎲 Quick 10',
+    'quick.intro': 'Ten questions pulled at random from the full SHV pool. Tap an answer to check it — then shuffle for a fresh ten.',
+    'quick.shuffle': 'Shuffle questions',
     'page.shv-exam.h1': '🎯 SHV Practice Exam',
     'page.shv-browse.h1': '🗂️ SHV Browse',
     'page.workbook.h1': 'Workbook',
@@ -167,6 +174,7 @@ const STRINGS = {
   },
   de: {
     'nav.dashboard': 'Übersicht',
+    'nav.quickquiz': '10 Fragen',
     'nav.workbook': 'Arbeitsbuch',
     'nav.shv-exam': 'SHV-Prüfung',
     'nav.shv-browse': 'SHV-Übersicht',
@@ -182,6 +190,9 @@ const STRINGS = {
     'sidebar.study': 'Lernen',
 
     'page.dashboard.h1': 'Willkommen bei Flugtheorie 🪂',
+    'page.quickquiz.h1': '🎲 10 Fragen',
+    'quick.intro': 'Zehn zufällig aus dem gesamten SHV-Pool gezogene Fragen. Tippe auf eine Antwort, um sie zu prüfen — dann für zehn neue mischen.',
+    'quick.shuffle': 'Fragen mischen',
     'page.shv-exam.h1': '🎯 SHV-Übungsprüfung',
     'page.shv-browse.h1': '🗂️ SHV-Übersicht',
     'page.workbook.h1': 'Arbeitsbuch',
@@ -476,7 +487,7 @@ function applyTheme() {
 }
 
 // ---- Routing ----------------------------------------------------------------
-const VIEWS = ['dashboard', 'flashcards', 'workbook', 'quiz', 'exam', 'shv-exam', 'shv-browse', 'guide', 'slides', 'videos', 'cheatsheet', 'tips'];
+const VIEWS = ['dashboard', 'quickquiz', 'flashcards', 'workbook', 'quiz', 'exam', 'shv-exam', 'shv-browse', 'guide', 'slides', 'videos', 'cheatsheet', 'tips'];
 function navigate(view) {
   if (!VIEWS.includes(view)) view = 'dashboard';
   if (state.view !== view) {
@@ -1721,6 +1732,110 @@ function finishSHVExam() {
   state.shvExam.lastResult = result;
   saveState();
   render();
+}
+
+// ============================================================================
+// VIEW: Quick 10 — ten random questions from the SHV pool, with a shuffle button
+// ============================================================================
+// Only questions we can actually grade: a known correct option and a real
+// options array. The German pool in particular has gaps where the correct
+// answer wasn't captured (correct === null), so those are filtered out.
+function quickQuizPool() {
+  const pool = getSHVQuestions() || {};
+  return Object.keys(pool).filter(k => {
+    const q = pool[k];
+    return q && q.correct != null && Array.isArray(q.options) && q.options.length > 1;
+  });
+}
+
+function drawQuickQuiz() {
+  state.quick.qids = shuffle(quickQuizPool()).slice(0, 10);
+  state.quick.answers = {};
+  saveState();
+}
+
+// Guarantee a valid set of 10 for the *current* language pool. Switching EN↔DE
+// swaps the whole pool (different keys), which invalidates any stored draw, so
+// we redraw whenever a stored qid is missing from the active pool.
+function ensureQuickQuiz() {
+  const pool = getSHVQuestions() || {};
+  const ok = Array.isArray(state.quick.qids) && state.quick.qids.length === 10
+    && state.quick.qids.every(k => pool[k]);
+  if (!ok) drawQuickQuiz();
+}
+
+function renderQuickQuiz() {
+  const isDE = state.lang === 'de';
+  const pool = getSHVQuestions();
+  if (!pool) {
+    return `<div class="empty"><div class="emoji">🎲</div><div>${isDE ? 'SHV-Fragenpool noch nicht geladen.' : 'SHV question pool not loaded yet.'}</div></div>`;
+  }
+  ensureQuickQuiz();
+  const qids = state.quick.qids;
+  const answers = state.quick.answers || {};
+  const markers = ['A', 'B', 'C', 'D', 'E', 'F'];
+  const answered = qids.filter((_, i) => answers[i] != null).length;
+  const correct = qids.filter((k, i) => answers[i] != null && answers[i] === pool[k].correct).length;
+
+  const shuffleBtn = id => `<button class="btn primary" id="${id}">🎲 ${escapeHtml(t('quick.shuffle'))}</button>`;
+
+  const cards = qids.map((key, i) => {
+    const q = pool[key];
+    if (!q) return '';
+    const meta = shvTopicMeta(q.topic);
+    const picked = answers[i];
+    const revealed = picked != null;
+    const choices = q.options.map((opt, idx) => {
+      let cls = '', style = '';
+      if (revealed) {
+        if (idx === q.correct) { cls = 'correct'; style = 'background:var(--good-soft);border-color:var(--good);color:var(--good);'; }
+        else if (idx === picked) { cls = 'wrong'; style = 'background:var(--bad-soft);border-color:var(--bad);color:var(--bad);'; }
+      }
+      return `<button class="choice ${cls}" data-quick-q="${i}" data-quick-choice="${idx}" ${revealed ? 'disabled' : ''} style="${style}">
+        <span class="marker">${markers[idx] || ''}</span><span class="ct">${escapeHtml(opt)}</span>
+      </button>`;
+    }).join('');
+    const verdict = revealed
+      ? (picked === q.correct ? `<span style="color:var(--good)">${isDE ? '✓ Richtig' : '✓ Correct'}</span>` : `<span style="color:var(--bad)">${isDE ? '✗ Falsch' : '✗ Wrong'}</span>`)
+      : '';
+    return `
+      <div class="flashcard">
+        <div class="fc-meta">
+          <div><span class="cat-dot" style="background:${meta.color}"></span>${meta.icon} ${escapeHtml(q.topic)}</div>
+          <div class="muted">${verdict}</div>
+        </div>
+        <div class="fc-question"><span class="lang-tag">Q ${i + 1}</span><span class="ct">${escapeHtml(q.text)}</span></div>
+        ${q.has_image && q.image_path ? `<div class="shv-question-image"><img src="${escapeHtml(q.image_path)}" alt="" loading="lazy" /></div>` : ''}
+        <div class="choices">${choices}</div>
+      </div>`;
+  }).join('');
+
+  return `
+    <div class="page-header"><h1>${t('page.quickquiz.h1')}</h1></div>
+    <p class="muted" style="margin:-8px 0 16px;">${escapeHtml(t('quick.intro'))}</p>
+    <div class="quick-bar">
+      <div class="quick-score">${isDE ? 'Richtig' : 'Correct'}: <strong>${correct}</strong> · ${isDE ? 'Beantwortet' : 'Answered'}: <strong>${answered}/${qids.length}</strong></div>
+      ${shuffleBtn('quick-shuffle')}
+    </div>
+    ${cards}
+    <div class="row" style="justify-content:center; margin:18px 0 8px;">
+      ${shuffleBtn('quick-shuffle-bottom')}
+    </div>`;
+}
+
+function attachQuickQuizEvents() {
+  document.querySelectorAll('[data-quick-choice]').forEach(b => b.onclick = () => {
+    const i = parseInt(b.dataset.quickQ, 10);
+    if (state.quick.answers[i] != null) return;  // lock each question after the first pick
+    state.quick.answers[i] = parseInt(b.dataset.quickChoice, 10);
+    saveState();
+    render();
+  });
+  const reshuffle = () => { drawQuickQuiz(); render(); window.scrollTo(0, 0); };
+  const top = document.getElementById('quick-shuffle');
+  if (top) top.onclick = reshuffle;
+  const bottom = document.getElementById('quick-shuffle-bottom');
+  if (bottom) bottom.onclick = reshuffle;
 }
 
 function renderSHVExam() {
@@ -3920,6 +4035,7 @@ function render() {
   const sb = document.getElementById('sidebar-nav');
   const navItems = [
     { id: 'dashboard',  icon: '📊', label: t('nav.dashboard') },
+    { id: 'quickquiz',  icon: '🎲', label: t('nav.quickquiz') },
     { id: 'workbook',   icon: '📒', label: t('nav.workbook'), badge: getWorkbook().reduce((a, b) => a + b.chapters.length, 0) || null },
     { id: 'shv-exam',   icon: '🎯', label: t('nav.shv-exam'), badge: Object.keys(getSHVQuestions() || {}).length || null },
     { id: 'shv-browse', icon: '🗂️', label: t('nav.shv-browse'), badge: Object.keys(getSHVQuestions() || {}).length || null },
@@ -3990,6 +4106,7 @@ function render() {
   let html = '';
   switch (state.view) {
     case 'dashboard':  html = renderDashboard(); break;
+    case 'quickquiz':  html = renderQuickQuiz(); break;
     case 'workbook':   html = renderWorkbook(); break;
     case 'flashcards': html = renderFlashcards(); break;
     case 'quiz':       html = renderQuiz(); break;
@@ -4011,6 +4128,7 @@ function render() {
   });
 
   // View-specific
+  if (state.view === 'quickquiz') attachQuickQuizEvents();
   if (state.view === 'flashcards') attachFlashcardsEvents();
   if (state.view === 'quiz') attachQuizEvents();
   if (state.view === 'exam') {
