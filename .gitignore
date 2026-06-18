@@ -14,3 +14,7 @@ freewings/*.pdf
 # Personal Claude Code overrides
 .claude/settings.local.json
 .vercel
+
+# Podcast TTS — secrets + render scratch/cache (never commit keys or temp WAVs)
+.env.local
+scripts/.podcast_build/

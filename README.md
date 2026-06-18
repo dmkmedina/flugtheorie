@@ -9,3 +9,33 @@ Swiss paragliding theory (SHV/FSVL) exam study trainer.
 - `flight-lab.html` — **Flight Lab**, an interactive 3D concept explorer (English): forces,
   angle of attack & the polar, wind & speed-to-fly, thermalling, Swiss airspace, wing anatomy.
   Static file; uses `assets/vendor/three.min.js`.
+
+## Podcast episodes
+
+A two-host audio companion per study-guide topic (📐 Aerodynamics · 🌦️ Meteorology ·
+⚖️ Law · 🎒 Equipment · 🛬 Flying Skills), surfaced in the **Podcast** section of the app.
+Scripts are audio-first — every diagram is described out loud.
+
+- `scripts/author_podcasts.py` — the scripts live here as readable Python; run it to
+  (re)generate `data/podcasts.json` (transcript + metadata).
+- `scripts/build_podcasts.py` — renders audio with a **cloud TTS** provider into
+  `assets/podcast/<id>.m4a` and writes per-segment timings to `data/podcast_timing.json`
+  (used for the read-along transcript). No ffmpeg needed (WAV stitch + `afconvert`).
+
+Rendering needs an API key. Put it in a gitignored `.env.local`:
+
+```
+PODCAST_TTS_PROVIDER=openai     # or: elevenlabs
+OPENAI_API_KEY=sk-...
+```
+
+Then:
+
+```
+python3 scripts/build_podcasts.py --dry-run     # preview cost, no API calls
+python3 scripts/build_podcasts.py               # render scripted episodes (cached per segment)
+python3 build.py                                 # fold audio + timings into index.html
+```
+
+The app works without audio — it shows the full transcript and a "not rendered yet" note.
+Audio files in `assets/podcast/` are committed so Vercel serves them statically.

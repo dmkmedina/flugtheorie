@@ -47,6 +47,8 @@ const DEFAULT_STATE = {
   },
   // Quick 10 — ten random questions drawn from the SHV pool, with a shuffle button
   quick: { qids: [], answers: {} },
+  // Podcast — audio episodes per topic; episodeId null = episode list
+  podcast: { episodeId: null },
   // guide
   guide: { partId: null, chapterId: null },
   // slide decks (Freewings)
@@ -79,6 +81,7 @@ function loadState() {
       shvExam: { ...DEFAULT_STATE.shvExam, ...(parsed.shvExam || {}), setup: { ...DEFAULT_STATE.shvExam.setup, ...((parsed.shvExam && parsed.shvExam.setup) || {}) } },
       shvBrowse: { ...DEFAULT_STATE.shvBrowse, ...(parsed.shvBrowse || {}) },
       quick: { ...DEFAULT_STATE.quick, ...(parsed.quick || {}) },
+      podcast: { ...DEFAULT_STATE.podcast, ...(parsed.podcast || {}) },
       guide: { ...DEFAULT_STATE.guide, ...(parsed.guide || {}) },
       slides: { ...DEFAULT_STATE.slides, ...(parsed.slides || {}) },
       videos: { ...DEFAULT_STATE.videos, ...(parsed.videos || {}) },
@@ -123,6 +126,7 @@ const STRINGS = {
     'nav.guide': 'Study Guide',
     'nav.slides': 'Slide Decks',
     'nav.videos': 'Videos (EN subs)',
+    'nav.podcast': 'Podcast',
     'nav.cheatsheet': 'Cheat Sheet',
     'nav.tips': 'Tips',
     'nav.legacy': 'Legacy',
@@ -140,6 +144,15 @@ const STRINGS = {
     'page.workbook.h1': 'Workbook',
     'page.slides.h1': 'Slide Decks',
     'page.videos.h1': 'Video lessons',
+    'page.podcast.h1': '🎧 Podcast',
+    'podcast.intro': 'Audio companions for each topic — two hosts talk you through the theory, made for listening on the move. Every diagram is described out loud.',
+    'podcast.listen': 'Listen',
+    'podcast.transcript': 'Transcript',
+    'podcast.outline': 'In this episode',
+    'podcast.soon': 'Script coming soon',
+    'podcast.back': '← All episodes',
+    'podcast.min': 'min',
+    'podcast.noaudio': 'Audio isn’t rendered yet — the full script is below. Run scripts/build_podcasts.py with a TTS key to generate it.',
     'page.cheatsheet.h1': 'Cheat Sheet',
     'page.tips.h1': 'Exam Tips & Strategy',
 
@@ -181,6 +194,7 @@ const STRINGS = {
     'nav.guide': 'Studienführer',
     'nav.slides': 'Folien',
     'nav.videos': 'Videos (DE-Untertitel)',
+    'nav.podcast': 'Podcast',
     'nav.cheatsheet': 'Spickzettel',
     'nav.tips': 'Tipps',
     'nav.legacy': 'Archiv',
@@ -198,6 +212,15 @@ const STRINGS = {
     'page.workbook.h1': 'Arbeitsbuch',
     'page.slides.h1': 'Folien',
     'page.videos.h1': 'Videolektionen',
+    'page.podcast.h1': '🎧 Podcast',
+    'podcast.intro': 'Audio-Begleiter zu jedem Thema — zwei Hosts führen dich durch die Theorie, fürs Hören unterwegs. Jede Grafik wird laut beschrieben. (Folgen auf Englisch.)',
+    'podcast.listen': 'Anhören',
+    'podcast.transcript': 'Transkript',
+    'podcast.outline': 'In dieser Folge',
+    'podcast.soon': 'Skript folgt',
+    'podcast.back': '← Alle Folgen',
+    'podcast.min': 'Min.',
+    'podcast.noaudio': 'Audio ist noch nicht erzeugt — das vollständige Skript steht unten. scripts/build_podcasts.py mit TTS-Schlüssel ausführen.',
     'page.cheatsheet.h1': 'Spickzettel',
     'page.tips.h1': 'Prüfungstipps & Strategie',
 
@@ -487,7 +510,7 @@ function applyTheme() {
 }
 
 // ---- Routing ----------------------------------------------------------------
-const VIEWS = ['dashboard', 'quickquiz', 'flashcards', 'workbook', 'quiz', 'exam', 'shv-exam', 'shv-browse', 'guide', 'slides', 'videos', 'cheatsheet', 'tips'];
+const VIEWS = ['dashboard', 'quickquiz', 'flashcards', 'workbook', 'quiz', 'exam', 'shv-exam', 'shv-browse', 'guide', 'slides', 'videos', 'podcast', 'cheatsheet', 'tips'];
 function navigate(view) {
   if (!VIEWS.includes(view)) view = 'dashboard';
   if (state.view !== view) {
@@ -1836,6 +1859,155 @@ function attachQuickQuizEvents() {
   if (top) top.onclick = reshuffle;
   const bottom = document.getElementById('quick-shuffle-bottom');
   if (bottom) bottom.onclick = reshuffle;
+}
+
+// ============================================================================
+// VIEW: Podcast — one audio episode per topic, two-host, with read-along transcript
+// ============================================================================
+// window.PODCASTS holds the scripts + metadata (always inlined). window.PODCAST_TIMING
+// is written by scripts/build_podcasts.py once audio is rendered — it carries the
+// audio path, total duration and per-segment start times for transcript sync.
+function getPodcasts() {
+  const data = window.PODCASTS;
+  if (!data || !Array.isArray(data.episodes)) return null;
+  const timing = (window.PODCAST_TIMING && window.PODCAST_TIMING.episodes) || {};
+  return {
+    hosts: data.hosts || {},
+    episodes: data.episodes.map(ep => {
+      const tm = timing[ep.id] || null;
+      return { ...ep, _audio: tm && tm.audio, _duration: tm && tm.duration, _starts: tm && tm.segments };
+    }),
+  };
+}
+
+function renderPodcast() {
+  const isDE = state.lang === 'de';
+  const data = getPodcasts();
+  if (!data || !data.episodes.length) {
+    return `<div class="empty"><div class="emoji">🎧</div><div>${isDE ? 'Noch keine Podcast-Folgen.' : 'No podcast episodes yet.'}</div></div>`;
+  }
+  if (state.podcast.episodeId) {
+    const ep = data.episodes.find(e => e.id === state.podcast.episodeId);
+    if (ep) return renderPodcastEpisode(ep, data.hosts);
+  }
+  const cards = data.episodes.map(ep => {
+    const scripted = ep.segments && ep.segments.length;
+    const durTxt = ep._duration ? `${Math.round(ep._duration / 60)} ${t('podcast.min')}` : `~${ep.est_minutes} ${t('podcast.min')}`;
+    const chip = ep._audio
+      ? `<span class="pod-chip ready">▶ ${t('podcast.listen')} · ${durTxt}</span>`
+      : scripted
+        ? `<span class="pod-chip">📝 ${t('podcast.transcript')} · ${durTxt}</span>`
+        : `<span class="pod-chip soon">${t('podcast.soon')}</span>`;
+    return `
+      <button class="pod-card" data-podcast-open="${escapeHtml(ep.id)}" style="--pod-accent:${ep.color}">
+        <span class="pod-card-icon" style="background:${ep.color}22; color:${ep.color}">${ep.icon}</span>
+        <span class="pod-card-body">
+          <span class="pod-card-title">${escapeHtml(ep.title)}</span>
+          <span class="pod-card-blurb">${escapeHtml(ep.blurb)}</span>
+          <span class="pod-card-foot">${chip}</span>
+        </span>
+      </button>`;
+  }).join('');
+  return `
+    <div class="page-header">
+      <h1>${t('page.podcast.h1')}</h1>
+      <p class="page-subtitle">${escapeHtml(t('podcast.intro'))}</p>
+    </div>
+    <div class="pod-list">${cards}</div>`;
+}
+
+function renderPodcastEpisode(ep, hosts) {
+  const isDE = state.lang === 'de';
+  const hasSegs = ep.segments && ep.segments.length;
+  const starts = ep._starts || null;
+  const hostName = sp => (hosts[sp] && hosts[sp].name) || (sp === 'a' ? 'Host A' : 'Host B');
+  const hostRole = sp => (hosts[sp] && hosts[sp].role) || '';
+
+  const player = ep._audio
+    ? `<audio id="pod-audio" controls preload="metadata" src="${escapeHtml(ep._audio)}"></audio>`
+    : `<div class="pod-noaudio">🎙️ ${escapeHtml(t('podcast.noaudio'))}</div>`;
+
+  let body;
+  if (hasSegs) {
+    body = `
+      <h3 class="pod-section-label">${t('podcast.transcript')}</h3>
+      <div class="pod-transcript" id="pod-transcript">
+        ${ep.segments.map((s, i) => `
+          <div class="pod-seg sp-${escapeHtml(s.speaker)}" data-seg="${i}"${starts && starts[i] != null ? ` data-podcast-seek="${starts[i]}"` : ''}>
+            <span class="pod-seg-speaker">${escapeHtml(hostName(s.speaker))}</span>
+            <span class="pod-seg-text">${escapeHtml(s.text)}</span>
+          </div>`).join('')}
+      </div>`;
+  } else {
+    body = `
+      <h3 class="pod-section-label">${t('podcast.outline')}</h3>
+      <ul class="pod-outline">${(ep.outline || []).map(o => `<li>${escapeHtml(o)}</li>`).join('')}</ul>
+      <p class="muted">${isDE ? 'Vollständiges Skript und Audio folgen.' : 'Full script and audio coming soon.'}</p>`;
+  }
+
+  const hostsLine = hasSegs
+    ? `<div class="pod-hosts">${['a', 'b'].map(sp => `<strong class="sp-${sp}">${escapeHtml(hostName(sp))}</strong>${hostRole(sp) ? ` <span class="muted">${escapeHtml(hostRole(sp))}</span>` : ''}`).join(' · ')}</div>`
+    : '';
+
+  return `
+    <div class="pod-episode">
+      <button class="btn ghost small" data-podcast-back style="margin-bottom:16px;">${t('podcast.back')}</button>
+      <div class="pod-episode-head">
+        <span class="pod-card-icon big" style="background:${ep.color}22; color:${ep.color}">${ep.icon}</span>
+        <div>
+          <h1 class="pod-episode-title">${escapeHtml(ep.title)}</h1>
+          <p class="pod-episode-blurb">${escapeHtml(ep.blurb)}</p>
+          ${hostsLine}
+        </div>
+      </div>
+      <div class="pod-player">${player}</div>
+      ${body}
+    </div>`;
+}
+
+function attachPodcastEvents() {
+  document.querySelectorAll('[data-podcast-open]').forEach(b => b.onclick = () => {
+    state.podcast.episodeId = b.dataset.podcastOpen;
+    saveState();
+    render();
+    window.scrollTo(0, 0);
+  });
+  const back = document.querySelector('[data-podcast-back]');
+  if (back) back.onclick = () => { state.podcast.episodeId = null; saveState(); render(); window.scrollTo(0, 0); };
+
+  const audio = document.getElementById('pod-audio');
+  const segs = Array.from(document.querySelectorAll('#pod-transcript .pod-seg'));
+
+  // Click a transcript line to jump audio to that moment.
+  segs.forEach(el => {
+    if (el.dataset.podcastSeek == null) return;
+    el.classList.add('seekable');
+    el.onclick = () => {
+      if (!audio) return;
+      audio.currentTime = parseFloat(el.dataset.podcastSeek) + 0.01;
+      audio.play().catch(() => {});
+    };
+  });
+
+  // Highlight the current line while the audio plays (read-along).
+  const timed = segs.filter(s => s.dataset.podcastSeek != null);
+  if (audio && timed.length) {
+    const starts = segs.map(s => (s.dataset.podcastSeek != null ? parseFloat(s.dataset.podcastSeek) : -1));
+    let cur = -1;
+    audio.ontimeupdate = () => {
+      const now = audio.currentTime;
+      let idx = -1;
+      for (let i = 0; i < starts.length; i++) {
+        if (starts[i] >= 0 && starts[i] <= now + 0.05) idx = i;
+        else if (starts[i] > now) break;
+      }
+      if (idx !== cur) {
+        if (cur >= 0 && segs[cur]) segs[cur].classList.remove('active');
+        if (idx >= 0 && segs[idx]) segs[idx].classList.add('active');
+        cur = idx;
+      }
+    };
+  }
 }
 
 function renderSHVExam() {
@@ -4042,6 +4214,7 @@ function render() {
     { id: 'guide',      icon: '📚', label: t('nav.guide') },
     { id: 'slides',     icon: '🎬', label: t('nav.slides'), badge: getDecks().reduce((a, d) => a + deckSlideCount(d), 0) || null },
     { id: 'videos',     icon: '📺', label: t('nav.videos'), badge: getAllVideos().length || null },
+    { id: 'podcast',    icon: '🎧', label: t('nav.podcast'), badge: (window.PODCASTS && window.PODCASTS.episodes && window.PODCASTS.episodes.length) || null },
     { id: 'cheatsheet', icon: '⚡', label: t('nav.cheatsheet') },
     { id: 'tips',       icon: '💡', label: t('nav.tips') }
   ];
@@ -4116,6 +4289,7 @@ function render() {
     case 'guide':      html = renderGuide(); break;
     case 'slides':     html = renderSlides(); break;
     case 'videos':     html = renderVideos(); break;
+    case 'podcast':    html = renderPodcast(); break;
     case 'cheatsheet': html = renderCheatsheet(); break;
     case 'tips':       html = renderTips(); break;
     default:           html = renderDashboard();
@@ -4148,6 +4322,7 @@ function render() {
   if (state.view === 'guide') attachGuideEvents();
   if (state.view === 'slides') attachSlidesEvents();
   if (state.view === 'videos') attachVideosEvents();
+  if (state.view === 'podcast') attachPodcastEvents();
   if (state.view === 'workbook') attachWorkbookEvents();
 }
 

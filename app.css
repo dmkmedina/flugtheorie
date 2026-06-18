@@ -322,6 +322,45 @@ h4 { font-size: 14px; font-weight: 700; margin: 14px 0 6px; }
 .quick-score { font-size: 14px; color: var(--text-soft); }
 .quick-score strong { color: var(--text); font-variant-numeric: tabular-nums; }
 
+/* Podcast — episode list, player and read-along transcript */
+.pod-list { display: grid; gap: 14px; }
+@media (min-width: 720px) { .pod-list { grid-template-columns: 1fr 1fr; } }
+.pod-card {
+  display: flex; gap: 14px; align-items: flex-start; text-align: left; width: 100%;
+  padding: 16px; background: var(--bg-card); border: 1px solid var(--border);
+  border-radius: 14px; cursor: pointer; transition: border-color .15s, transform .05s; font: inherit; color: inherit;
+}
+.pod-card:hover { border-color: var(--pod-accent, var(--accent)); }
+.pod-card:active { transform: translateY(1px); }
+.pod-card-icon { flex: 0 0 auto; width: 46px; height: 46px; border-radius: 12px; display: inline-flex; align-items: center; justify-content: center; font-size: 24px; }
+.pod-card-icon.big { width: 60px; height: 60px; font-size: 32px; border-radius: 15px; }
+.pod-card-body { min-width: 0; display: flex; flex-direction: column; }
+.pod-card-title { font-weight: 700; font-size: 16px; margin-bottom: 4px; }
+.pod-card-blurb { font-size: 13px; color: var(--text-soft); line-height: 1.45; margin-bottom: 11px; }
+.pod-chip { display: inline-block; font-size: 12px; font-weight: 600; padding: 3px 10px; border-radius: 999px; background: var(--accent-soft); color: var(--accent); }
+.pod-chip.soon { background: var(--bg-hover); color: var(--text-dim); }
+.pod-episode-head { display: flex; gap: 16px; align-items: flex-start; margin-bottom: 18px; }
+.pod-episode-title { margin: 0 0 5px; font-size: 24px; }
+.pod-episode-blurb { margin: 0 0 8px; color: var(--text-soft); font-size: 14px; line-height: 1.5; }
+.pod-hosts { font-size: 13px; color: var(--text-soft); }
+.pod-hosts .sp-a { color: var(--accent); }
+.pod-hosts .sp-b { color: var(--good); }
+.pod-player { margin: 4px 0 24px; }
+.pod-player audio { width: 100%; }
+.pod-noaudio { padding: 13px 15px; background: var(--bg-soft); border: 1px dashed var(--border-strong); border-radius: 12px; color: var(--text-soft); font-size: 13px; line-height: 1.5; }
+.pod-section-label { font-size: 12px; text-transform: uppercase; letter-spacing: .07em; color: var(--text-dim); margin: 0 0 12px; }
+.pod-transcript { display: flex; flex-direction: column; gap: 2px; }
+.pod-seg { padding: 9px 12px; border-radius: 10px; border-left: 3px solid transparent; transition: background .1s; }
+.pod-seg-speaker { font-weight: 700; font-size: 13px; margin-right: 8px; }
+.pod-seg.sp-a .pod-seg-speaker { color: var(--accent); }
+.pod-seg.sp-b .pod-seg-speaker { color: var(--good); }
+.pod-seg-text { font-size: 15px; line-height: 1.6; }
+.pod-seg.seekable { cursor: pointer; }
+.pod-seg.seekable:hover { background: var(--bg-hover); }
+.pod-seg.active { background: var(--accent-soft); border-left-color: var(--accent); }
+.pod-outline { line-height: 1.7; font-size: 15px; padding-left: 20px; }
+.pod-outline li { margin-bottom: 6px; }
+
 .dim { color: var(--text-dim); }
 .tabnum { font-variant-numeric: tabular-nums; }
 code, .mono { font-family: "SF Mono", Menlo, Consolas, monospace; font-size: 13px; }
