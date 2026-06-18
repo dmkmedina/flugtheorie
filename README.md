@@ -16,8 +16,12 @@ A two-host audio companion per study-guide topic (📐 Aerodynamics · 🌦️ M
 ⚖️ Law · 🎒 Equipment · 🛬 Flying Skills), surfaced in the **Podcast** section of the app.
 Scripts are audio-first — every diagram is described out loud.
 
-- `scripts/author_podcasts.py` — the scripts live here as readable Python; run it to
-  (re)generate `data/podcasts.json` (transcript + metadata).
+- `data/podcast_scripts/<id>.txt` — each episode's two-host script (one `Maya:`/`Theo:`
+  turn per line), written audio-first from the topic's study-guide part, workbook book,
+  and instructor video transcripts. `scripts/dump_topic_sources.py <id>` bundles those
+  three sources into one file for authoring.
+- `scripts/author_podcasts.py` — assembles the scripts into `data/podcasts.json`
+  (transcript + metadata).
 - `scripts/build_podcasts.py` — renders audio with a **cloud TTS** provider into
   `assets/podcast/<id>.m4a` and writes per-segment timings to `data/podcast_timing.json`
   (used for the read-along transcript). No ffmpeg needed (WAV stitch + `afconvert`).

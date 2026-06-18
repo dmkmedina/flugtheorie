@@ -1,0 +1,94 @@
+# Aerodynamics & Flight Mechanics
+# One turn per line as 'Name: text'. Lines starting with # are ignored.
+# Hosts: Maya (instructor) and Theo (curious learner).
+
+Theo: Okay Maya, I'll be honest. When someone says a paraglider just flies, my brain kind of accepts it and moves on. But the exam wants me to actually understand the forces. So where do we even start?
+Maya: We start with the most boring-sounding word in aerodynamics, which is secretly the key to everything. Vectors.
+Theo: Vectors. Great. Sounds like homework.
+Maya: Stay with me, it's simpler than it sounds. A vector is just an arrow. It has three things: a length, which tells you how big the force is; a direction, which way the arrow points; and an origin, the point where it pushes. That's the whole idea.
+Theo: So when you draw a force as an arrow, a longer arrow means a bigger force.
+Maya: Exactly. If one centimetre of arrow means ten kilograms, then a three-centimetre arrow is thirty kilograms of force. And here's the rule examiners love: when two forces act on the same point, you can't just add the numbers. You have to add the arrows, tip to tail, because direction matters.
+Theo: Give me the picture.
+Maya: Picture two people pushing a shopping trolley. If they both push the same way, the pushes add up, full speed ahead. If they push directly against each other with equal strength, the trolley doesn't move at all. Same length arrows, opposite directions, they cancel.
+Theo: And if they push at an angle to each other?
+Maya: Then the trolley rolls off in a compromise direction, somewhere between the two. That combined arrow is called the resultant. Hold onto that word, because the entire flight of a paraglider is just a handful of arrows adding up to a resultant.
+Theo: One catch I'd guess: you can't add a speed arrow to a force arrow.
+Maya: Correct, and that's a classic trick question. Only add vectors of the same type. Forces with forces, speeds with speeds. Never mix the two.
+Theo: Alright, arrows. So what's the first real force acting on us up there?
+Maya: Drag. Stick your hand out of a moving car window. That push backwards on your hand, that's drag. It always points the same way the air is flowing.
+Theo: And what decides how strong it is?
+Maya: Four things, and only four. One: how much surface you stick into the wind. Two: the wind speed. Three: the air density, how thick the air is. And four: the shape of the object.
+Theo: Let me guess what is not on the list, because that feels like exam bait.
+Maya: It absolutely is. Weight is not on the list. Temperature, humidity, the material it's made of, none of them matter for drag. If a question throws those at you, ignore them.
+Theo: Okay, surface area first. If I double the area facing the wind?
+Maya: Drag doubles. It's a straight-line relationship. Triple the area, triple the drag. Halve it, halve the drag. Same story with air density: double the density, double the drag.
+Theo: And wind speed? I have a feeling speed isn't so polite.
+Maya: Speed is the dangerous one. Drag grows with the square of the speed. Double your speed and drag doesn't double, it quadruples. Triple the speed, and drag is nine times bigger.
+Theo: Nine times. So a gust that's three times stronger hits like nine times the force.
+Maya: That single fact, drag goes with the square of speed, explains why flying fast in rough air is so much more violent. Burn it in.
+Theo: You mentioned air density changes with height. Do we have to memorise that?
+Maya: There's a lovely memory trick. At eleven hundred, twenty-two hundred, thirty-three hundred and forty-four hundred metres, the density drops to ninety, eighty, seventy and sixty percent of sea level. Think of it in tens: ten and ninety, twenty and eighty, thirty and seventy, forty and sixty. Each pair adds up to a hundred.
+Theo: Neat. And those are the numbers they'll ask for.
+Maya: They are. And keep two other halving heights separate in your mind: air pressure halves at around five thousand five hundred metres, but air density halves a bit higher, around six thousand six hundred metres. Examiners love to swap those two.
+Theo: Pressure halves at fifty-five hundred, density at sixty-six hundred. Got it.
+Maya: And the fourth factor, shape, is captured by a number called the drag coefficient. A flat plate is about one. A curved, cupped shape facing the wind is worse, about one point three. A smooth teardrop is wonderfully low, under a tenth.
+Theo: So far drag just pushes us backwards. When does flying actually happen?
+Maya: The moment you tilt a flat, stretched shape, a wing, into the wind at a slight angle. Now you get a second force, at right angles to the wind, called lift.
+Theo: Right angles to the wind, not straight up?
+Maya: Important distinction. Lift is perpendicular to the airflow, pointing toward the upper surface, not perpendicular to the ground. Hold that thought, it matters later.
+Theo: So why does a wing make lift? I've heard three different explanations and I never know which one is right.
+Maya: Here's the secret: they're all right, at the same time. Explanation one, Bernoulli: the curved top makes the air on top speed up, and faster air has lower pressure, so the wing gets sucked upward. Explanation two, Newton: the wing tilts the air downward, and every action has an equal and opposite reaction, so the air pushes the wing up. That's the hand-out-the-car-window feeling. Explanation three, circulation: the sharp trailing edge spins up a little vortex that sets up a circulation around the wing and helps deflect the wake downward.
+Theo: Three lenses, one phenomenon.
+Maya: And one vivid detail for the exam: the suction on top is about twice as strong as the push from below. At a typical angle, roughly two thirds of your lift comes from the top surface being sucked up, and only one third from below pushing.
+Theo: So the wing is mostly being pulled up from above, like a vacuum cleaner lying on its back.
+Maya: Lovely way to picture it. And most of that lift, about two thirds of it, is generated by the front third of the wing. The leading edge does the heavy lifting, literally.
+Theo: Let's talk about that angle you keep mentioning. The angle of attack.
+Maya: Picture the wing's cross-section, the profile. It's like a long teardrop: fat and rounded at the front, tapering to a sharp tail. Now draw an imaginary line from the leading edge straight back to the trailing edge. That line is the chord. The angle of attack is the angle between that chord and the oncoming air.
+Theo: Between the chord and the air, not the chord and the horizon?
+Maya: That's the trap, and you just dodged it. Always measured against the oncoming air. And because a paraglider is always sinking gently through the air mass, that air actually meets you slightly from below.
+Theo: So what happens as I increase the angle of attack, as I pull the brakes and tilt the wing up?
+Maya: Walk up a ladder with me. Around ten degrees, the wing is at its sweet spot, the most lift for the least drag. That's your best glide. Push to around twenty degrees and you make the most lift of all, but drag is piling up. That's minimum sink, where you fall the slowest. Then around twenty-five degrees, it all collapses. The air can't follow the top of the wing anymore, it detaches, and the wing stops flying. That's the stall.
+Theo: Ten, twenty, twenty-five. Best glide, minimum sink, stall.
+Maya: That ladder is one of the most useful things you'll ever memorise. Best glide near ten degrees, minimum sink near twenty, stall around twenty-five.
+Theo: You said fall the slowest and glide the farthest like they're different things. Aren't they the same?
+Maya: They're genuinely different, and it's one of the deepest ideas in the sport. Imagine a graph. Speed across the bottom, sink rate going down the side. Plot every flying speed and you get a curve. We call it the polar curve.
+Theo: I can't see a graph. Paint it for me.
+Maya: Picture a hill-shaped curve that sags downward. The very top of the sag, the highest point of the curve, is where you're sinking the slowest. That's minimum sink, perfect for staying up in a thermal. But the farthest you can glide is not the top of the hill. It's the point where a straight line drawn from the origin just barely kisses the curve. That touch point is your best glide speed, and it's a bit faster than minimum sink.
+Theo: So to stay up, fly slow at minimum sink. To get somewhere, speed up a touch to best glide.
+Maya: Exactly. Slowest sink and farthest distance are two different speeds. That one distinction wins exam questions and saves real flights.
+Theo: Let's put a number on how far. That's glide ratio, right?
+Maya: Glide ratio is just how far forward you travel for every unit you drop. A glide of eight means eight metres forward for every metre down. It's the same as lift divided by drag, and the same as horizontal speed divided by sink rate. Four ways to say one thing: efficiency.
+Theo: And modern wings are what, eight to ten?
+Maya: School wings around eight or nine, hot ships a bit above ten. But here's the rule every instructor hammers home: never plan a real crossing on that number.
+Theo: Why not? It's the wing's glide ratio.
+Maya: Because it assumes perfectly still air, perfect speed, and zero mistakes. To decide whether you can clear a ridge or reach a field, plan with a conservative glide of five or six. If you arrive high, wonderful. If you needed the full ten to make it, you wouldn't have made it.
+Theo: Plan with five or six, not nine or ten. That's a keeper.
+Maya: And wind bends all of this. Your glide through the air never changes, but your glide over the ground does.
+Theo: Headwind eats my distance.
+Maya: It does, and the fix is counterintuitive. Into a headwind, or in sinking air, you speed up. You push some accelerator. It feels wrong to dive when you're worried about reaching a field, but flying faster gives you the best possible glide over the ground.
+Theo: And with the wind behind me?
+Maya: Then ease off, fly slower, closer to minimum sink, and let the wind carry you. One more clean fact: a horizontal headwind changes your ground speed but not your sink rate. Sinking air, on the other hand, adds directly to your sink.
+Theo: Okay, let's talk about the wing behaving itself, or not. Stability.
+Maya: Three axes to name first. Yaw is the nose swinging left and right, turning about a vertical axis. Roll is the wingtips rocking up and down. Pitch is the wing surging forward and back in front of you, like when you punch into a thermal and the wing pitches back, then dives forward as you pop out the other side.
+Theo: And a stable wing does what after a bump?
+Maya: Comes home by itself. The picture is a ball in a bowl: nudge it and it always rolls back to the bottom. An unstable wing is a ball balanced on top of an upturned bowl, the smallest nudge and it runs away. And an indifferent wing is a ball on a flat table: shove it, and it just sits wherever it stops.
+Theo: So release the speedbar and a stable wing settles back to normal trim on its own.
+Maya: Right. And one sobering note: most modern wings are indifferent in a tight spiral. They won't necessarily come out on their own. You have to actively fly them out.
+Theo: That sounds like exactly the kind of thing that gets people hurt.
+Maya: It has. Which leads to one rule I want you to never forget. When you're on the speedbar, flying fast, do not steer with the brakes.
+Theo: Why not? Brakes are how I steer.
+Maya: Because on bar, the wing is at a low angle of attack and the trailing edge is already tight. Yank a brake and you spike the angle of attack right where the wing is most likely to tuck, and you can trigger a frontal collapse. On bar, steer with your weight, or at most a centimetre or two of rear riser. Save the brakes for when the bar is back off.
+Theo: Last stop. Turning. Why does a hard turn feel so heavy?
+Maya: Because turning adds a new arrow. In a steady turn, centrifugal force pulls you outward, horizontally. Add that to your weight pulling straight down, and the resultant, your effective weight, points down and outward, and it's bigger than your real weight.
+Theo: How much bigger?
+Maya: We measure it in G, the load factor. At thirty degrees of bank it's barely more than normal. At forty-five degrees you're pulling about one point four G. At sixty degrees of bank it's a full two G. Your effective weight has doubled.
+Theo: Two G at sixty degrees. And it keeps climbing fast after that?
+Maya: Frighteningly fast. Seventy degrees is roughly three G, and eighty degrees is around six G. And here's the sting in the tail: as the load goes up, your whole speed range shifts up too, including your stall speed.
+Theo: So in a hard turn I can stall at a speed that would be perfectly safe in straight flight.
+Maya: That's the headline. A heavily banked wing flies faster, loads up, and stalls earlier. Respect the load factor.
+Theo: Okay, let me try to land this. Give me the through-line.
+Maya: Everything is arrows adding up. Drag pushes back and grows with the square of speed. Tilt a wing and you get lift, two thirds of it suction on top, mostly from the front third. The angle of attack sets everything: ten degrees best glide, twenty minimum sink, twenty-five stall. Glide ratio is your efficiency, but plan with five or six, not ten. Into wind or sink, fly faster. A stable wing comes home like a ball in a bowl. And in a turn, your weight multiplies and your stall speed climbs.
+Theo: Arrows, the square of speed, the angle-of-attack ladder, conservative glide, and respect the turn. I can actually hold those five in my head.
+Maya: Then you've got the spine of the whole aerodynamics paper. Everything else is just detail hanging off those bones.
+Theo: That actually made sense out loud. Thanks Maya.
+Maya: That's the whole idea. Catch you in the next episode, meteorology, where the air itself starts fighting back.
