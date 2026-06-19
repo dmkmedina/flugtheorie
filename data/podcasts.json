@@ -1,0 +1,2006 @@
+{
+  "version": 1,
+  "description": "Two-host audio companions, one per study-guide topic. Audio is rendered separately by scripts/build_podcasts.py.",
+  "hosts": {
+    "a": {
+      "name": "Maya",
+      "role": "instructor",
+      "openai_voice": "shimmer",
+      "elevenlabs_voice": "Rachel"
+    },
+    "b": {
+      "name": "Theo",
+      "role": "learner",
+      "openai_voice": "onyx",
+      "elevenlabs_voice": "Adam"
+    }
+  },
+  "episodes": [
+    {
+      "id": "aerodynamics",
+      "part": "part1",
+      "topic": "Aerodynamics",
+      "title": "Aerodynamics & Flight Mechanics",
+      "icon": "📐",
+      "color": "#a855f7",
+      "est_minutes": 15,
+      "blurb": "How a wing actually flies — vectors, drag and the square-of-speed rule, the three explanations of lift, the angle-of-attack ladder, the polar curve, glide ratio, stability, and load factor in turns.",
+      "sources": {
+        "guide": "part1",
+        "workbook": "aero",
+        "videos": [
+          "aerodynamik_0",
+          "aerodynamik_1"
+        ]
+      },
+      "outline": [],
+      "segments": [
+        {
+          "speaker": "b",
+          "text": "Okay Maya, I'll be honest. When someone says a paraglider just flies, my brain kind of accepts it and moves on. But the exam wants me to actually understand the forces. So where do we even start?"
+        },
+        {
+          "speaker": "a",
+          "text": "We start with the most boring-sounding word in aerodynamics, which is secretly the key to everything. Vectors."
+        },
+        {
+          "speaker": "b",
+          "text": "Vectors. Great. Sounds like homework."
+        },
+        {
+          "speaker": "a",
+          "text": "Stay with me, it's simpler than it sounds. A vector is just an arrow. It has three things: a length, which tells you how big the force is; a direction, which way the arrow points; and an origin, the point where it pushes. That's the whole idea."
+        },
+        {
+          "speaker": "b",
+          "text": "So when you draw a force as an arrow, a longer arrow means a bigger force."
+        },
+        {
+          "speaker": "a",
+          "text": "Exactly. If one centimetre of arrow means ten kilograms, then a three-centimetre arrow is thirty kilograms of force. And here's the rule examiners love: when two forces act on the same point, you can't just add the numbers. You have to add the arrows, tip to tail, because direction matters."
+        },
+        {
+          "speaker": "b",
+          "text": "Give me the picture."
+        },
+        {
+          "speaker": "a",
+          "text": "Picture two people pushing a shopping trolley. If they both push the same way, the pushes add up, full speed ahead. If they push directly against each other with equal strength, the trolley doesn't move at all. Same length arrows, opposite directions, they cancel."
+        },
+        {
+          "speaker": "b",
+          "text": "And if they push at an angle to each other?"
+        },
+        {
+          "speaker": "a",
+          "text": "Then the trolley rolls off in a compromise direction, somewhere between the two. That combined arrow is called the resultant. Hold onto that word, because the entire flight of a paraglider is just a handful of arrows adding up to a resultant."
+        },
+        {
+          "speaker": "b",
+          "text": "One catch I'd guess: you can't add a speed arrow to a force arrow."
+        },
+        {
+          "speaker": "a",
+          "text": "Correct, and that's a classic trick question. Only add vectors of the same type. Forces with forces, speeds with speeds. Never mix the two."
+        },
+        {
+          "speaker": "b",
+          "text": "Alright, arrows. So what's the first real force acting on us up there?"
+        },
+        {
+          "speaker": "a",
+          "text": "Drag. Stick your hand out of a moving car window. That push backwards on your hand, that's drag. It always points the same way the air is flowing."
+        },
+        {
+          "speaker": "b",
+          "text": "And what decides how strong it is?"
+        },
+        {
+          "speaker": "a",
+          "text": "Four things, and only four. One: how much surface you stick into the wind. Two: the wind speed. Three: the air density, how thick the air is. And four: the shape of the object."
+        },
+        {
+          "speaker": "b",
+          "text": "Let me guess what is not on the list, because that feels like exam bait."
+        },
+        {
+          "speaker": "a",
+          "text": "It absolutely is. Weight is not on the list. Temperature, humidity, the material it's made of, none of them matter for drag. If a question throws those at you, ignore them."
+        },
+        {
+          "speaker": "b",
+          "text": "Okay, surface area first. If I double the area facing the wind?"
+        },
+        {
+          "speaker": "a",
+          "text": "Drag doubles. It's a straight-line relationship. Triple the area, triple the drag. Halve it, halve the drag. Same story with air density: double the density, double the drag."
+        },
+        {
+          "speaker": "b",
+          "text": "And wind speed? I have a feeling speed isn't so polite."
+        },
+        {
+          "speaker": "a",
+          "text": "Speed is the dangerous one. Drag grows with the square of the speed. Double your speed and drag doesn't double, it quadruples. Triple the speed, and drag is nine times bigger."
+        },
+        {
+          "speaker": "b",
+          "text": "Nine times. So a gust that's three times stronger hits like nine times the force."
+        },
+        {
+          "speaker": "a",
+          "text": "That single fact, drag goes with the square of speed, explains why flying fast in rough air is so much more violent. Burn it in."
+        },
+        {
+          "speaker": "b",
+          "text": "You mentioned air density changes with height. Do we have to memorise that?"
+        },
+        {
+          "speaker": "a",
+          "text": "There's a lovely memory trick. At eleven hundred, twenty-two hundred, thirty-three hundred and forty-four hundred metres, the density drops to ninety, eighty, seventy and sixty percent of sea level. Think of it in tens: ten and ninety, twenty and eighty, thirty and seventy, forty and sixty. Each pair adds up to a hundred."
+        },
+        {
+          "speaker": "b",
+          "text": "Neat. And those are the numbers they'll ask for."
+        },
+        {
+          "speaker": "a",
+          "text": "They are. And keep two other halving heights separate in your mind: air pressure halves at around five thousand five hundred metres, but air density halves a bit higher, around six thousand six hundred metres. Examiners love to swap those two."
+        },
+        {
+          "speaker": "b",
+          "text": "Pressure halves at fifty-five hundred, density at sixty-six hundred. Got it."
+        },
+        {
+          "speaker": "a",
+          "text": "And the fourth factor, shape, is captured by a number called the drag coefficient. A flat plate is about one. A curved, cupped shape facing the wind is worse, about one point three. A smooth teardrop is wonderfully low, under a tenth."
+        },
+        {
+          "speaker": "b",
+          "text": "So far drag just pushes us backwards. When does flying actually happen?"
+        },
+        {
+          "speaker": "a",
+          "text": "The moment you tilt a flat, stretched shape, a wing, into the wind at a slight angle. Now you get a second force, at right angles to the wind, called lift."
+        },
+        {
+          "speaker": "b",
+          "text": "Right angles to the wind, not straight up?"
+        },
+        {
+          "speaker": "a",
+          "text": "Important distinction. Lift is perpendicular to the airflow, pointing toward the upper surface, not perpendicular to the ground. Hold that thought, it matters later."
+        },
+        {
+          "speaker": "b",
+          "text": "So why does a wing make lift? I've heard three different explanations and I never know which one is right."
+        },
+        {
+          "speaker": "a",
+          "text": "Here's the secret: they're all right, at the same time. Explanation one, Bernoulli: the curved top makes the air on top speed up, and faster air has lower pressure, so the wing gets sucked upward. Explanation two, Newton: the wing tilts the air downward, and every action has an equal and opposite reaction, so the air pushes the wing up. That's the hand-out-the-car-window feeling. Explanation three, circulation: the sharp trailing edge spins up a little vortex that sets up a circulation around the wing and helps deflect the wake downward."
+        },
+        {
+          "speaker": "b",
+          "text": "Three lenses, one phenomenon."
+        },
+        {
+          "speaker": "a",
+          "text": "And one vivid detail for the exam: the suction on top is about twice as strong as the push from below. At a typical angle, roughly two thirds of your lift comes from the top surface being sucked up, and only one third from below pushing."
+        },
+        {
+          "speaker": "b",
+          "text": "So the wing is mostly being pulled up from above, like a vacuum cleaner lying on its back."
+        },
+        {
+          "speaker": "a",
+          "text": "Lovely way to picture it. And most of that lift, about two thirds of it, is generated by the front third of the wing. The leading edge does the heavy lifting, literally."
+        },
+        {
+          "speaker": "b",
+          "text": "Let's talk about that angle you keep mentioning. The angle of attack."
+        },
+        {
+          "speaker": "a",
+          "text": "Picture the wing's cross-section, the profile. It's like a long teardrop: fat and rounded at the front, tapering to a sharp tail. Now draw an imaginary line from the leading edge straight back to the trailing edge. That line is the chord. The angle of attack is the angle between that chord and the oncoming air."
+        },
+        {
+          "speaker": "b",
+          "text": "Between the chord and the air, not the chord and the horizon?"
+        },
+        {
+          "speaker": "a",
+          "text": "That's the trap, and you just dodged it. Always measured against the oncoming air. And because a paraglider is always sinking gently through the air mass, that air actually meets you slightly from below."
+        },
+        {
+          "speaker": "b",
+          "text": "So what happens as I increase the angle of attack, as I pull the brakes and tilt the wing up?"
+        },
+        {
+          "speaker": "a",
+          "text": "Walk up a ladder with me. Around ten degrees, the wing is at its sweet spot, the most lift for the least drag. That's your best glide. Push to around twenty degrees and you make the most lift of all, but drag is piling up. That's minimum sink, where you fall the slowest. Then around twenty-five degrees, it all collapses. The air can't follow the top of the wing anymore, it detaches, and the wing stops flying. That's the stall."
+        },
+        {
+          "speaker": "b",
+          "text": "Ten, twenty, twenty-five. Best glide, minimum sink, stall."
+        },
+        {
+          "speaker": "a",
+          "text": "That ladder is one of the most useful things you'll ever memorise. Best glide near ten degrees, minimum sink near twenty, stall around twenty-five."
+        },
+        {
+          "speaker": "b",
+          "text": "You said fall the slowest and glide the farthest like they're different things. Aren't they the same?"
+        },
+        {
+          "speaker": "a",
+          "text": "They're genuinely different, and it's one of the deepest ideas in the sport. Imagine a graph. Speed across the bottom, sink rate going down the side. Plot every flying speed and you get a curve. We call it the polar curve."
+        },
+        {
+          "speaker": "b",
+          "text": "I can't see a graph. Paint it for me."
+        },
+        {
+          "speaker": "a",
+          "text": "Picture a hill-shaped curve that sags downward. The very top of the sag, the highest point of the curve, is where you're sinking the slowest. That's minimum sink, perfect for staying up in a thermal. But the farthest you can glide is not the top of the hill. It's the point where a straight line drawn from the origin just barely kisses the curve. That touch point is your best glide speed, and it's a bit faster than minimum sink."
+        },
+        {
+          "speaker": "b",
+          "text": "So to stay up, fly slow at minimum sink. To get somewhere, speed up a touch to best glide."
+        },
+        {
+          "speaker": "a",
+          "text": "Exactly. Slowest sink and farthest distance are two different speeds. That one distinction wins exam questions and saves real flights."
+        },
+        {
+          "speaker": "b",
+          "text": "Let's put a number on how far. That's glide ratio, right?"
+        },
+        {
+          "speaker": "a",
+          "text": "Glide ratio is just how far forward you travel for every unit you drop. A glide of eight means eight metres forward for every metre down. It's the same as lift divided by drag, and the same as horizontal speed divided by sink rate. Four ways to say one thing: efficiency."
+        },
+        {
+          "speaker": "b",
+          "text": "And modern wings are what, eight to ten?"
+        },
+        {
+          "speaker": "a",
+          "text": "School wings around eight or nine, hot ships a bit above ten. But here's the rule every instructor hammers home: never plan a real crossing on that number."
+        },
+        {
+          "speaker": "b",
+          "text": "Why not? It's the wing's glide ratio."
+        },
+        {
+          "speaker": "a",
+          "text": "Because it assumes perfectly still air, perfect speed, and zero mistakes. To decide whether you can clear a ridge or reach a field, plan with a conservative glide of five or six. If you arrive high, wonderful. If you needed the full ten to make it, you wouldn't have made it."
+        },
+        {
+          "speaker": "b",
+          "text": "Plan with five or six, not nine or ten. That's a keeper."
+        },
+        {
+          "speaker": "a",
+          "text": "And wind bends all of this. Your glide through the air never changes, but your glide over the ground does."
+        },
+        {
+          "speaker": "b",
+          "text": "Headwind eats my distance."
+        },
+        {
+          "speaker": "a",
+          "text": "It does, and the fix is counterintuitive. Into a headwind, or in sinking air, you speed up. You push some accelerator. It feels wrong to dive when you're worried about reaching a field, but flying faster gives you the best possible glide over the ground."
+        },
+        {
+          "speaker": "b",
+          "text": "And with the wind behind me?"
+        },
+        {
+          "speaker": "a",
+          "text": "Then ease off, fly slower, closer to minimum sink, and let the wind carry you. One more clean fact: a horizontal headwind changes your ground speed but not your sink rate. Sinking air, on the other hand, adds directly to your sink."
+        },
+        {
+          "speaker": "b",
+          "text": "Okay, let's talk about the wing behaving itself, or not. Stability."
+        },
+        {
+          "speaker": "a",
+          "text": "Three axes to name first. Yaw is the nose swinging left and right, turning about a vertical axis. Roll is the wingtips rocking up and down. Pitch is the wing surging forward and back in front of you, like when you punch into a thermal and the wing pitches back, then dives forward as you pop out the other side."
+        },
+        {
+          "speaker": "b",
+          "text": "And a stable wing does what after a bump?"
+        },
+        {
+          "speaker": "a",
+          "text": "Comes home by itself. The picture is a ball in a bowl: nudge it and it always rolls back to the bottom. An unstable wing is a ball balanced on top of an upturned bowl, the smallest nudge and it runs away. And an indifferent wing is a ball on a flat table: shove it, and it just sits wherever it stops."
+        },
+        {
+          "speaker": "b",
+          "text": "So release the speedbar and a stable wing settles back to normal trim on its own."
+        },
+        {
+          "speaker": "a",
+          "text": "Right. And one sobering note: most modern wings are indifferent in a tight spiral. They won't necessarily come out on their own. You have to actively fly them out."
+        },
+        {
+          "speaker": "b",
+          "text": "That sounds like exactly the kind of thing that gets people hurt."
+        },
+        {
+          "speaker": "a",
+          "text": "It has. Which leads to one rule I want you to never forget. When you're on the speedbar, flying fast, do not steer with the brakes."
+        },
+        {
+          "speaker": "b",
+          "text": "Why not? Brakes are how I steer."
+        },
+        {
+          "speaker": "a",
+          "text": "Because on bar, the wing is at a low angle of attack and the trailing edge is already tight. Yank a brake and you spike the angle of attack right where the wing is most likely to tuck, and you can trigger a frontal collapse. On bar, steer with your weight, or at most a centimetre or two of rear riser. Save the brakes for when the bar is back off."
+        },
+        {
+          "speaker": "b",
+          "text": "Last stop. Turning. Why does a hard turn feel so heavy?"
+        },
+        {
+          "speaker": "a",
+          "text": "Because turning adds a new arrow. In a steady turn, centrifugal force pulls you outward, horizontally. Add that to your weight pulling straight down, and the resultant, your effective weight, points down and outward, and it's bigger than your real weight."
+        },
+        {
+          "speaker": "b",
+          "text": "How much bigger?"
+        },
+        {
+          "speaker": "a",
+          "text": "We measure it in G, the load factor. At thirty degrees of bank it's barely more than normal. At forty-five degrees you're pulling about one point four G. At sixty degrees of bank it's a full two G. Your effective weight has doubled."
+        },
+        {
+          "speaker": "b",
+          "text": "Two G at sixty degrees. And it keeps climbing fast after that?"
+        },
+        {
+          "speaker": "a",
+          "text": "Frighteningly fast. Seventy degrees is roughly three G, and eighty degrees is around six G. And here's the sting in the tail: as the load goes up, your whole speed range shifts up too, including your stall speed."
+        },
+        {
+          "speaker": "b",
+          "text": "So in a hard turn I can stall at a speed that would be perfectly safe in straight flight."
+        },
+        {
+          "speaker": "a",
+          "text": "That's the headline. A heavily banked wing flies faster, loads up, and stalls earlier. Respect the load factor."
+        },
+        {
+          "speaker": "b",
+          "text": "Okay, let me try to land this. Give me the through-line."
+        },
+        {
+          "speaker": "a",
+          "text": "Everything is arrows adding up. Drag pushes back and grows with the square of speed. Tilt a wing and you get lift, two thirds of it suction on top, mostly from the front third. The angle of attack sets everything: ten degrees best glide, twenty minimum sink, twenty-five stall. Glide ratio is your efficiency, but plan with five or six, not ten. Into wind or sink, fly faster. A stable wing comes home like a ball in a bowl. And in a turn, your weight multiplies and your stall speed climbs."
+        },
+        {
+          "speaker": "b",
+          "text": "Arrows, the square of speed, the angle-of-attack ladder, conservative glide, and respect the turn. I can actually hold those five in my head."
+        },
+        {
+          "speaker": "a",
+          "text": "Then you've got the spine of the whole aerodynamics paper. Everything else is just detail hanging off those bones."
+        },
+        {
+          "speaker": "b",
+          "text": "That actually made sense out loud. Thanks Maya."
+        },
+        {
+          "speaker": "a",
+          "text": "That's the whole idea. Catch you in the next episode, meteorology, where the air itself starts fighting back."
+        }
+      ]
+    },
+    {
+      "id": "meteorology",
+      "part": "part2",
+      "topic": "Meteorology",
+      "title": "Meteorology",
+      "icon": "🌦️",
+      "color": "#06b6d4",
+      "est_minutes": 22,
+      "blurb": "The invisible engine: why air rises, how thermals form and where to find them, clouds as billboards in the sky, wind gradient and the venturi effect, inversions and Föhn, and the signs that tell you to stay on the ground.",
+      "sources": {
+        "guide": "part2",
+        "workbook": "meteo",
+        "videos": [
+          "meteo_0",
+          "meteo_1",
+          "aa_meteo_teil_1",
+          "aa_meteo_teil_2",
+          "aa_meteo_teil_3"
+        ]
+      },
+      "outline": [
+        "Heating and convection — why the ground builds thermals, and the daily rhythm of a flyable day",
+        "Reading clouds out loud — cumulus as thermal markers, over-development, and the danger signs",
+        "Wind: gradient near the ground, venturi compression through gaps, rotor and lee-side turbulence",
+        "Inversions, Föhn, fronts and the forecasts that decide whether you fly"
+      ],
+      "segments": [
+        {
+          "speaker": "b",
+          "text": "Last episode you signed off with a threat. You said meteorology was where the air starts fighting back. So go on, scare me."
+        },
+        {
+          "speaker": "a",
+          "text": "I'd rather equip you. The honest truth instructors tell every student: three things hurt paraglider pilots, weather-wise. Thunderstorms, the Föhn, and the valley wind. And all three tend to show up on a beautiful-looking day."
+        },
+        {
+          "speaker": "b",
+          "text": "So the sky lies to you."
+        },
+        {
+          "speaker": "a",
+          "text": "The sky tells the truth, you just have to learn its language. This whole episode is about reading it well enough to decide when not to fly. That decision is the real exam."
+        },
+        {
+          "speaker": "b",
+          "text": "Alright. Where do we start?"
+        },
+        {
+          "speaker": "a",
+          "text": "At the top. All our weather happens in an astonishingly thin shell of air, a band about as thin, seen from space, as the skin of an onion. It's layered, but the only one we care about is the lowest, the troposphere. It holds almost all the water vapour, so it makes the weather, and it's the only layer we fly in, reaching up to around eleven thousand metres before it hits a ceiling called the tropopause. The air itself is roughly seventy-eight percent nitrogen, twenty-one percent oxygen, and a last percent of leftovers. Learn seventy-eight and twenty-one."
+        },
+        {
+          "speaker": "b",
+          "text": "Now air pressure. I never had a clean picture for that."
+        },
+        {
+          "speaker": "a",
+          "text": "It's the weight of the whole column of air above you pressing down, like water getting heavier the deeper a diver goes. Highest at sea level, and it drops fast low down, slower up high. The standard sea-level value is one thousand and thirteen point two hectopascals. Two points to memorise: at five thousand five hundred metres it's about half of sea level, at eleven thousand about a quarter. So nine hundred and eighty at sea level becomes four hundred and ninety at five thousand five hundred."
+        },
+        {
+          "speaker": "b",
+          "text": "And temperature does the same?"
+        },
+        {
+          "speaker": "a",
+          "text": "It cools too, on average about zero point six five degrees per hundred metres, the standard lapse rate. But the real atmosphere bends that rule constantly, and those bends are the whole story of a flying day."
+        },
+        {
+          "speaker": "b",
+          "text": "So the air's just sitting in this thin shell. What stirs it up?"
+        },
+        {
+          "speaker": "a",
+          "text": "One engine. The sun. And here's the most important sentence in the episode: the sun does not heat the air directly. The radiation pours straight through the air and heats the ground, and the ground heats the thin layer of air on top of it. Indirect, ground first, air second."
+        },
+        {
+          "speaker": "b",
+          "text": "Why does that detail matter so much?"
+        },
+        {
+          "speaker": "a",
+          "text": "Because not every patch of ground heats the air equally, and that's where thermals are born. Dark, dry, rough ground, a ploughed field, rock, asphalt, warms the air strongly. Wet ground, swamp or forest, wastes the energy evaporating water, and bright snow just bounces the sunlight back. So it's never about warm in absolute terms, it's which surface is warmer than its neighbours, and in winter the thermal might be over the bare forest, not the snowy meadow. Angle matters too: morning thermals favour east faces, midday the south slopes, late afternoon the west."
+        },
+        {
+          "speaker": "b",
+          "text": "So a warm layer builds on the ground. Then what?"
+        },
+        {
+          "speaker": "a",
+          "text": "Something nudges it loose, a gust, a passing car, a cloud shadow, and a pocket of warm, light air detaches and rises, like a blob in a lava lamp, or a hot-air balloon. That rising bubble is a thermal, and cool air sinking to replace it completes the loop, the whole motion we call convection."
+        },
+        {
+          "speaker": "b",
+          "text": "And how high does the bubble climb? Give me the number."
+        },
+        {
+          "speaker": "a",
+          "text": "As it rises it cools at a perfectly constant rate, one degree for every hundred metres. The dry adiabatic lapse rate, and it never changes, however warm or cold the day. It expands into thinner air, and expanding uses up its energy, so it cools, like the ice-cold blast from a compressed-air can. Push it down and it warms, like a bike pump getting hot."
+        },
+        {
+          "speaker": "b",
+          "text": "One degree per hundred going up. How does that tell me where it stops?"
+        },
+        {
+          "speaker": "a",
+          "text": "Compare it to the air around it. The bubble keeps rising while it stays warmer, and lighter, than its surroundings. The moment its temperature matches the air around it, the buoyancy is gone and it stops dead."
+        },
+        {
+          "speaker": "b",
+          "text": "So the day's ceiling is wherever it runs out of being warmer."
+        },
+        {
+          "speaker": "a",
+          "text": "Precisely. We plot the surrounding air's temperature against height on a chart called an emagram, and unlike that clean one-degree line it's messy and unpredictable. In Switzerland just one station launches the sounding balloons for it, at Payerne. A healthy day cools nicely, roughly zero point six to zero point eight degrees per hundred metres up to around three thousand metres. What kills it are two kinds of layer: an isothermal layer, where the temperature holds steady, and an inversion, where it gets warmer with height. Your bubble rises in, finds itself colder and denser than its surroundings, and stops. Inversions and isothermal layers are the invisible ceilings of the sky."
+        },
+        {
+          "speaker": "b",
+          "text": "Where do those ceilings come from?"
+        },
+        {
+          "speaker": "a",
+          "text": "The commonest forms overnight: the ground radiates its heat away, cools faster than the air above, and by dawn a shallow cold layer caps thermals until the morning sun burns it off. That's the fog-in-the-valley, sun-on-the-peaks morning, cold at the lake in Zürich while the skiers up top sit in shirtsleeves. Beautiful, but dead for thermals until it lifts."
+        },
+        {
+          "speaker": "b",
+          "text": "You keep mentioning water. Let's do water properly."
+        },
+        {
+          "speaker": "a",
+          "text": "First, the fact that surprises everyone: water vapour is completely invisible. Every cloud, every wisp of fog, even what we call steam, isn't vapour, it's countless tiny droplets of liquid water. So a cloud is just water that's stopped being invisible."
+        },
+        {
+          "speaker": "b",
+          "text": "So how does it stop being invisible?"
+        },
+        {
+          "speaker": "a",
+          "text": "Warm air holds a lot of vapour. Cool it and at some point it can't hold it all, and the surplus condenses. The temperature where that begins is the dew point. An air parcel at seventeen degrees with five grams of water per cubic metre is fairly dry, but cool it to about minus seven and that same five grams is now the maximum it can hold, a hundred percent humidity, and cloud forms."
+        },
+        {
+          "speaker": "b",
+          "text": "And how does this hook back into thermals?"
+        },
+        {
+          "speaker": "a",
+          "text": "Here's the lovely twist. Once a rising bubble cools to its dew point and water condenses inside it, that condensation releases a little hidden heat, which partly fights the cooling. So a cloudy thermal cools slower, around zero point six per hundred metres instead of one, often giving a second wind right at cloudbase. That same effect is the secret engine of the Föhn later."
+        },
+        {
+          "speaker": "b",
+          "text": "And the cloud on top of the thermal is the famous cumulus?"
+        },
+        {
+          "speaker": "a",
+          "text": "Your best friend in the sky. Cumulus is the cauliflower cloud. The small flat-bottomed and medium ones are flags planted on working thermals, base usually between one thousand and four thousand metres. You read the field of them like a map."
+        },
+        {
+          "speaker": "b",
+          "text": "And when does that friend turn into a foe?"
+        },
+        {
+          "speaker": "a",
+          "text": "When the day keeps feeding them and they grow. A small cumulus swells into a towering cumulus congestus, dark-based, and that boils up into the monster, the cumulonimbus, the thunderstorm cloud. It towers up to the tropopause, around ten thousand metres, where it flattens into an anvil because it can't punch higher. Inside, the currents are far faster than any paraglider. Hail, lightning, violence."
+        },
+        {
+          "speaker": "b",
+          "text": "Are there other clouds I actually need to name?"
+        },
+        {
+          "speaker": "a",
+          "text": "A whole zoo, but here's the trick: two families and a prefix. Cumulus means heaped, unstable air that wants to rise; stratus means a flat layer, stable air settling in. Then the prefix gives height, cirro- is very high, six to ten thousand metres, thin and icy; alto- is mid-level; no prefix means low; and nimbo- means it's raining. So you bolt them together: cirrostratus is that thin high milky veil that puts a coloured halo round the sun."
+        },
+        {
+          "speaker": "b",
+          "text": "Any clouds that are outright warning signs?"
+        },
+        {
+          "speaker": "a",
+          "text": "Two. Altocumulus castellanus, little turrets like castle battlements in the morning, mean unstable humid air aloft and often forecast afternoon thunderstorms. And lenticular clouds, smooth lens shapes that sit perfectly still above the mountains while a gale roars through them. They're stationary because strong wind over a mountain sets up a standing wave, and the cloud condenses rising on the wave and evaporates sinking down it, holding its shape while the air pours through. A lenticular means powerful wind aloft, and for us it's a flat-out alarm bell."
+        },
+        {
+          "speaker": "b",
+          "text": "Let's zoom out. The highs and lows, where do those come from?"
+        },
+        {
+          "speaker": "a",
+          "text": "Same engine, continental scale. Ground that stays colder than its surroundings, Siberia, a continent in winter, chills the air dense and gives high pressure. Ground that stays warmer, the Sahara in summer, lets it rise and gives low pressure, a depression. On maps these are drawn with isobars, lines joining equal pressure, always corrected to sea level so you can compare a mountain town with a coast."
+        },
+        {
+          "speaker": "b",
+          "text": "How should I picture an isobar map, and how do I get wind out of it?"
+        },
+        {
+          "speaker": "a",
+          "text": "Like a hiking map of hills and valleys, but the contours are pressure. A big high is a tall hill, the H marks its summit, with average pressure around one thousand and fifteen, a strong winter high thirty to forty above that, a deep depression nine hundred and fifty-five. And air flows from high to low to even things out, faster the bigger the difference, so packed isobars mean strong wind and widely spaced ones mean light wind. You read strength straight off the spacing."
+        },
+        {
+          "speaker": "b",
+          "text": "I'd expect it to blow straight from high to low."
+        },
+        {
+          "speaker": "a",
+          "text": "You'd think so, but the spinning Earth bends moving air to the right up here, the Coriolis effect, so it runs parallel to the isobars instead, like the swirl when a bath drains. Clockwise around a high, anti-clockwise around a low. A trick: a high is positive, good flying weather, and clockwise is the clock running forward. So to read a wind, decide high or low and lay arrows along the isobars in that rotation. And wind is named for where it comes from: north is zero degrees, east ninety, south one eighty, west two seventy, so one thirty-five is a south-easterly. For speed, double the knots and knock off ten percent, so twenty-five knots is forty-five kilometres an hour."
+        },
+        {
+          "speaker": "b",
+          "text": "Do a high and a low feel different to fly in?"
+        },
+        {
+          "speaker": "a",
+          "text": "Very. In a high the air sinks, warms and dries, stable, often an inversion around fifteen hundred to two thousand metres. In a low it rises, cooling and moistening, unsettled. And between them is the pilot's sweet spot, the barometric swamp, a wide zone of in-between pressure with isobars spread far apart. Almost no wind, but unstable and moist, so lovely thermals with a high ceiling, the catch being afternoon thunderstorms."
+        },
+        {
+          "speaker": "b",
+          "text": "That's the big synoptic wind. But inside the Alps the local winds take over."
+        },
+        {
+          "speaker": "a",
+          "text": "They often dominate, and the chief one is the daily valley wind. On a sunny day the narrow upper parts of a valley heat faster than the broad main valley, so pressure drops up there and air flows up the valley to fill in. It kicks in around eleven, peaks mid-afternoon, then fades, and after sunset the slopes cool and the mountain wind drains back down, around six or seven. Strongest in July and August."
+        },
+        {
+          "speaker": "b",
+          "text": "Is it dangerous, or just useful?"
+        },
+        {
+          "speaker": "a",
+          "text": "Both, and this is where pilots get caught. The big alpine valleys, Rhône, Rhine, Reuss, gather the flow from dozens of side valleys like the trunk of a tree, and in spring the Rhône valley floor can run fifty to sixty kilometres an hour by mid-afternoon while a few hundred metres up it's calm. Sink into that floor late and it's hammering, so it's often safer to top-land than commit to a screaming valley landing. The valley wind strengthens with height until around two thousand metres, where the prevailing wind takes over."
+        },
+        {
+          "speaker": "b",
+          "text": "Right, you've stalled long enough. Tell me about the Föhn."
+        },
+        {
+          "speaker": "a",
+          "text": "Warm, dry, gusty, one of the deadliest winds we have. Two ingredients: a strong pressure difference across the Alps, and a barrier tall enough to wring the moisture out of the air. Walk over the mountain with me. On the windward side moist air is forced up, cools, condenses, and dumps its water as rain, cooling slowly at that moist rate, around zero point six per hundred metres, piling against the crest into the Föhn wall. Then it spills over, and now the menace: it's lost its water, so pouring down the lee side it's dry, and dry air warms fast, the full one degree per hundred. So it arrives much warmer, drier, stronger and brutally gusty."
+        },
+        {
+          "speaker": "b",
+          "text": "Like a vacuum cleaner pulling air down into the valleys."
+        },
+        {
+          "speaker": "a",
+          "text": "The very image instructors use. It wedges into the lee valleys with ferocious wind at the floor even when your launch feels calm. That's why it kills: with Föhn you get blue sky and gorgeous weather that begs you to fly."
+        },
+        {
+          "speaker": "b",
+          "text": "How do I know it's a Föhn day and not just a nice one?"
+        },
+        {
+          "speaker": "a",
+          "text": "The Föhn wall on the upwind ridge, lenticulars sitting still in the lee, suddenly crystal-clear air, lee valleys warming fast, and on the map a sharp kink in the isobars over the main ridge, the Föhnknie. It comes two ways: South Föhn, rain on the southern slopes and deceptive sun in the north; North Föhn, the mirror, sun down in Ticino."
+        },
+        {
+          "speaker": "b",
+          "text": "Is there a hard number that says don't fly?"
+        },
+        {
+          "speaker": "a",
+          "text": "Yes, and carry this one: the sea-level pressure difference between Zürich and Lugano. The practical Swiss threshold is four hectopascals. The exam may quote five, but in the real world four is the conservative cut-off, because at four the Föhn already breaks through reliably. Eight is the absolute outer limit only a few very experienced locals touch. So the rule: more than four across the Alps, or a Föhn wall, or sudden warmth and clarity in the valleys, and you do not fly, even if it looks perfect. And beware the dry Föhn, clear blue sky, no wall, no lenticular, just as turbulent. Don't wait for the wall to give you permission."
+        },
+        {
+          "speaker": "b",
+          "text": "This keeps coming back to turbulence. Nail down the types."
+        },
+        {
+          "speaker": "a",
+          "text": "Three, by where they're born, and one golden rule: the stronger the wind, the more turbulence, and the more violent. Mechanical is wind hitting solid obstacles, like those wind-tunnel videos of air breaking up behind a car. Downwind, on the lee side, it tumbles into rotor reaching out up to ten times the obstacle's height. Never fly the lee side of a ridge, never land behind a building."
+        },
+        {
+          "speaker": "b",
+          "text": "And the other two?"
+        },
+        {
+          "speaker": "a",
+          "text": "The Venturi effect is the same family: where wind squeezes, over a ridge or into a narrowing valley, it speeds up, fiercest right on a windy peak and gentler a couple of hundred metres lower. So if you fear strong wind, land in an open valley, never a gorge."
+        },
+        {
+          "speaker": "b",
+          "text": "And shear and thermal?"
+        },
+        {
+          "speaker": "a",
+          "text": "Shear is the boundary between two layers moving differently, a north-easterly low and a south-westerly aloft, rumbling where they meet, and friction does the same near the ground on take-off and landing. Thermal turbulence is the chop at the edges of bubbles. On a sunny summer afternoon you meet all three in one hour, worst roughly one to five when convection and the valley wind are both fired up."
+        },
+        {
+          "speaker": "b",
+          "text": "Let's talk fronts. What even is a front?"
+        },
+        {
+          "speaker": "a",
+          "text": "First, an air mass: a huge region with roughly uniform temperature and humidity, polar maritime cold and wet, or tropical continental hot and dry. They don't mix easily, so where two meet there's a sharp boundary, the front."
+        },
+        {
+          "speaker": "b",
+          "text": "Warm versus cold?"
+        },
+        {
+          "speaker": "a",
+          "text": "In both the warmer air rides up over the colder, it's the manner that differs. A warm front slides up gently, so you see it coming from far off and high: wispy cirrus, then thickening cirrostratus and altostratus, the sky going milkier, finally low nimbostratus and steady rain. It ambles across Switzerland at fifteen to twenty-five kilometres an hour over twelve to twenty-four hours. That cloud sequence is your exam giveaway."
+        },
+        {
+          "speaker": "b",
+          "text": "And the cold front is the nasty one."
+        },
+        {
+          "speaker": "a",
+          "text": "The cold front shoves. Cold dense air rams in underneath and throws the warm air violently up, picture the cross-section as a teardrop pushing in low. The cloud is narrower but much taller, a barrier of cumulonimbus marching in from the west, thunder, gusts, hail. It comes at forty to seventy kilometres an hour, twice the speed of a warm front, and the cruel part is the hours ahead can be sunny and tempting, often with a South Föhn running out front. Then the wall arrives."
+        },
+        {
+          "speaker": "b",
+          "text": "So what's the rule when I see one coming?"
+        },
+        {
+          "speaker": "a",
+          "text": "One eye on the radar, one on the sky. And if you see a line of storms strung along it, a squall line, that's a categorical no-fly, land immediately even a hundred kilometres away."
+        },
+        {
+          "speaker": "b",
+          "text": "A hundred kilometres? That feels like overkill."
+        },
+        {
+          "speaker": "a",
+          "text": "It isn't, and here's the most underestimated killer in the sport. As a storm matures, cold air dumps out of the cloud like a bucket of water tipped over, and spreads along the ground in every direction. That's the gust front, and it can race twenty to fifty kilometres ahead of the visible storm, into air that looks perfectly calm. It has killed experienced pilots. So the line is simple: any cumulonimbus on the radar within about fifty kilometres, land, and trust your eyes over your phone, because the radar is always fifteen to thirty minutes old."
+        },
+        {
+          "speaker": "b",
+          "text": "And when that fast cold front catches the warm one?"
+        },
+        {
+          "speaker": "a",
+          "text": "They merge into an occlusion. The danger there is masked thunderstorms, hidden behind the warm front's grey deck, invisible from below yet still firing out their gusts as they pass."
+        },
+        {
+          "speaker": "b",
+          "text": "Heat storms versus front storms, different things?"
+        },
+        {
+          "speaker": "a",
+          "text": "Different drivers and timing. A heat storm is local, sun-fuelled, a humid afternoon where convection grows a cumulus through congestus into a cumulonimbus right over you, so usually late afternoon after the ground's cooked. A front storm is tied to the front, not the clock, so a cold front can fire day or night, and summer cold fronts are especially violent. When a forecast says fresh polar air into hot stuffy summer, read it as thunderstorms, hail, gusts."
+        },
+        {
+          "speaker": "b",
+          "text": "Give me the watch-the-sky checklist for a storm building."
+        },
+        {
+          "speaker": "a",
+          "text": "Watch the cumulus field. Friendly little puffs early, then the warning sequence: bases merge into one big dark base spanning kilometres, the base darkens as the tower blocks the sun, and then the big one, suddenly everything starts lifting, the whole valley going up at once."
+        },
+        {
+          "speaker": "b",
+          "text": "That sounds like it should feel great, lift everywhere."
+        },
+        {
+          "speaker": "a",
+          "text": "It feels great and it means the door is closing, that widespread lift is the storm organising its inflow. See a grey curtain of rain reaching from cloudbase to the ground and it's fully developed, land at once, well clear of the storm."
+        },
+        {
+          "speaker": "b",
+          "text": "One more. There's a thermal that makes no cloud?"
+        },
+        {
+          "speaker": "a",
+          "text": "The blue thermal. Convection that never makes a cumulus, because the air's so dry that the bubble runs out of buoyancy before it ever reaches its dew point. Good lift, no cloud marker, so you read the ground and your variometer. And the season: thermals are best April to August, and the snowmelt staggers it, the pre-Alps peaking around May, the high Alps not until August."
+        },
+        {
+          "speaker": "b",
+          "text": "And Switzerland has a greatest-hits list of weather patterns?"
+        },
+        {
+          "speaker": "a",
+          "text": "Six. A high on the Alps, stable and often ideal, though watch winter stratus on the plateau and summer storms. The barometric swamp, light wind and great thermals with afternoon storm risk. The Bise, a pronounced north-easterly on the plateau, thirty to fifty kilometres an hour, whose trick is high fog shoved up to fifteen or eighteen hundred metres, leaving the plateau under grey stratus while the Alps bask above. A westerly flow with a low over Scandinavia, good weather in short bursts. And the two Föhn situations we've pulled apart."
+        },
+        {
+          "speaker": "b",
+          "text": "Alright Maya, land the glider. Give me the spine of all this."
+        },
+        {
+          "speaker": "a",
+          "text": "The sun heats the ground, the ground heats the air, and warm bubbles rise as thermals, cooling at a steady one degree per hundred metres. They climb until they hit air as warm as themselves, which is why inversions and isothermal layers are the sky's invisible ceilings. Cumulus marks the good thermals, the cumulonimbus is the monster. Highs spin clockwise, lows anti-clockwise, wind parallel to the isobars. The valley wind builds through the afternoon, and the Föhn comes dressed as beautiful weather."
+        },
+        {
+          "speaker": "b",
+          "text": "And the three killers wearing that beautiful weather: thunderstorms, the Föhn, the valley wind."
+        },
+        {
+          "speaker": "a",
+          "text": "Those three. Thunderstorms, with that gust front reaching fifty kilometres into clear air. The Föhn, more than four hectopascals between Zürich and Lugano, don't fly. And the valley wind, calm up top, hammering on the valley floor."
+        },
+        {
+          "speaker": "b",
+          "text": "So the real skill isn't knowing the clouds. It's deciding when to keep the wing in the bag."
+        },
+        {
+          "speaker": "a",
+          "text": "That's the whole episode in one sentence. Reading the sky is exam knowledge. Choosing not to fly on a gorgeous-looking day is airmanship, and the good pilots are the ones who keep matching theory to the real sky until the right call becomes instinct."
+        },
+        {
+          "speaker": "b",
+          "text": "Onion-skin atmosphere, ground-up heating, the invisible ceilings, isobars like a hiking map, and three killers in disguise. That I can carry."
+        },
+        {
+          "speaker": "a",
+          "text": "Then you can read a flying day. Catch you in the next episode, where we leave the sky and come back to the rules, the airspace and the law."
+        }
+      ]
+    },
+    {
+      "id": "legislation",
+      "part": "part3",
+      "topic": "Legislation / Airspace",
+      "title": "Law & Airspace",
+      "icon": "⚖️",
+      "color": "#3b82f6",
+      "est_minutes": 22,
+      "blurb": "The rules that keep everyone alive: airspace classes and where free-flight is allowed, right-of-way and priority, distances and no-fly zones, and the pilot's legal responsibilities.",
+      "sources": {
+        "guide": "part3",
+        "workbook": "law",
+        "videos": [
+          "luftrecht_0",
+          "luftrecht_1"
+        ]
+      },
+      "outline": [
+        "Airspace classes painted as a layer cake — what each one means for a paraglider",
+        "Right-of-way: who yields to whom, ridge rules, and converging gliders",
+        "Where you may not fly — protected zones, clouds, and minimum distances",
+        "Insurance, licensing and the pilot-in-command's responsibilities"
+      ],
+      "segments": [
+        {
+          "speaker": "b",
+          "text": "Confession, Maya. The legislation chapter sits at the back of the booklet, and that's exactly where my brain files it. Boring, skippable, cram it the night before. Tell me why I'm wrong."
+        },
+        {
+          "speaker": "a",
+          "text": "Because these rules aren't bureaucracy. They're a collision-avoidance system written in plain language. Every altitude, every distance, every who-yields-to-whom exists because somewhere, sometime, two aircraft nearly met. Learn it as safety, not paperwork, and it gets interesting."
+        },
+        {
+          "speaker": "b",
+          "text": "Fair. So who actually makes the rules I'm flying under?"
+        },
+        {
+          "speaker": "a",
+          "text": "In Switzerland, only the Confederation, the federal state itself, can legislate on the use of the airspace. But it delegates the day-to-day to one federal office. You'll meet it in three languages on the exam, so let's say all three: in English, the Federal Office of Civil Aviation; in French, OFAC; in German, BAZL. The Confederation writes the law, that office enforces it."
+        },
+        {
+          "speaker": "b",
+          "text": "And the specific law that covers paragliders?"
+        },
+        {
+          "speaker": "a",
+          "text": "The OACS, the Ordinance on Aircraft of Special Categories, in force since nineteen ninety-four. It governs the whole family of foot-launched wings: deltas, rigid wings, paragliders. Legally we're slope gliders, and the definition is simple: a machine you launch on foot at running speed, used right after launch for gliding and soaring near a slope."
+        },
+        {
+          "speaker": "b",
+          "text": "Here's what surprises me. My car has a number plate and a roadworthiness test. My wing has neither?"
+        },
+        {
+          "speaker": "a",
+          "text": "Almost nothing, and that's genuinely unusual in aviation. Your wing is in no aircraft register, and there's no compulsory airworthiness inspection. A check every couple of years is recommended, never required, and the pilot carries primary responsibility for the wing's airworthiness. Even a helmet and reserve parachute are mandatory only for your practical exam flights, never for everyday flying."
+        },
+        {
+          "speaker": "b",
+          "text": "So what is actually compulsory?"
+        },
+        {
+          "speaker": "a",
+          "text": "Three things, and each hides an exam trap. One, liability insurance. Two, an identification number on the wing. Three, a manufacturer's plate. Insurance first: at least one million Swiss francs covering damage to uninvolved third parties on the ground. Picture it, you land, your lines drag a branch down onto a parked car. Your private liability won't pay that. This will."
+        },
+        {
+          "speaker": "b",
+          "text": "One million, third parties, on the ground. And if the damage costs more?"
+        },
+        {
+          "speaker": "a",
+          "text": "You personally pay the difference, it's a floor, not a ceiling on your responsibility. And here's the trap examiners love: damage to another aircraft in flight is not covered by that minimum. Only ground damage. That's why the Federation offers an enhanced policy up to two million that does include in-flight damage. If you ever leave the Federation, read what the cover includes, don't just chase the cheapest premium."
+        },
+        {
+          "speaker": "b",
+          "text": "Noted. Now the wing number."
+        },
+        {
+          "speaker": "a",
+          "text": "Five or more digits, easily recognisable, on the underside of the wing, and here's the figure that sticks: each digit forty centimetres tall. The Federation allocates them, and it's usually the same as your licence number. Every wing you fly carries that same personal number, and it must match the number on your insurance certificate. Examiners test that match."
+        },
+        {
+          "speaker": "b",
+          "text": "And the manufacturer's plate? What's on it?"
+        },
+        {
+          "speaker": "a",
+          "text": "A small patch sewn into an edge or wingtip. Four items: the maker's name, the type of wing, the year of manufacture, and the minimum and maximum loads. That's the lot. The serial number and the certification class are not mandatory, that's the trap there."
+        },
+        {
+          "speaker": "b",
+          "text": "Good. So what must I physically carry every flight?"
+        },
+        {
+          "speaker": "a",
+          "text": "Two documents: your insurance certificate, number matching the wing, and your pilot licence. And know who can demand them, officials of the Federal Office of Civil Aviation, the police, and aerodrome managers."
+        },
+        {
+          "speaker": "b",
+          "text": "Quick licensing question while we're here. How old, and does the licence expire?"
+        },
+        {
+          "speaker": "a",
+          "text": "Minimum sixteen to hold it, school from fifteen. And it has unlimited duration. No medical exam, ever, no upper age limit, no minimum flights per year. Once you have your brevet, it doesn't lapse, though a refresher after a long break is just common sense."
+        },
+        {
+          "speaker": "b",
+          "text": "One more before we climb. Tandems."
+        },
+        {
+          "speaker": "a",
+          "text": "Two licences. Tandem A lets you take any passenger, even someone with no licence. Tandem B is narrower: your passenger must already hold a solo licence in the same category, so a tandem paraglider B pilot can't take a licensed delta pilot. And never more than one passenger."
+        },
+        {
+          "speaker": "b",
+          "text": "Right. Now take me up. The airspace genuinely scares me on the chart."
+        },
+        {
+          "speaker": "a",
+          "text": "It scared every instructor too. The trick they all teach: build it from the ground up, one layer at a time. Worldwide, the body called ICAO, the International Civil Aviation Organization, defined seven airspace classes, A through G. Switzerland uses four: C, D, E and G. A phrase to remember them, Ceiling Defines Every Glide."
+        },
+        {
+          "speaker": "b",
+          "text": "And the big difference between them?"
+        },
+        {
+          "speaker": "a",
+          "text": "E and G are uncontrolled, the only spaces where a paraglider flies freely, no clearance, no radio. C and D are controlled: C needs clearance and continuous radio, D needs clearance though radio isn't strictly required. We stay out of both. The only realistic case is clipping an approach corridor on a long cross-country, where you might radio in and sometimes be granted a transit."
+        },
+        {
+          "speaker": "b",
+          "text": "So I basically live in E and G. Start at the bottom."
+        },
+        {
+          "speaker": "a",
+          "text": "Picture a carpet laid over the whole of Switzerland, draped over every valley and peak. That's airspace G, six hundred metres thick. And because it's measured above the ground, Above Ground Level, AGL, its ceiling rises and falls with the land underneath. Hold that thought, it pays off shortly."
+        },
+        {
+          "speaker": "b",
+          "text": "Above the carpet?"
+        },
+        {
+          "speaker": "a",
+          "text": "You step into airspace E, still uncontrolled, still ours. How high E reaches before it meets controlled airspace depends on where you stand, because of one line across the country. It runs from Lake Geneva, around Montreux, across central Switzerland to the Alpstein and on into Austria. North and west: the Jura and the Mittelland, the low plateau. South: the Alps, where everything sits higher, including the ceilings."
+        },
+        {
+          "speaker": "b",
+          "text": "So give me those ceilings."
+        },
+        {
+          "speaker": "a",
+          "text": "In the Jura and Mittelland, the top of E is three thousand and fifty metres above sea level, and it doesn't care whether the military flies. Fixed. In the Alps it depends on the military: when the military is off, four thousand five hundred and fifty metres; when it's active, it drops to three thousand nine hundred and fifty. The chart shows MIL ON at the top when the air force is up."
+        },
+        {
+          "speaker": "b",
+          "text": "When's the military on?"
+        },
+        {
+          "speaker": "a",
+          "text": "Precise hours, Monday to Friday, oh seven thirty-five to twelve oh five, and thirteen fifteen to seventeen oh five. The odd five-minute buffers are deliberate, to stop overlap with civil traffic. And holidays count as military off, so the alpine ceiling stays high."
+        },
+        {
+          "speaker": "b",
+          "text": "Jura three thousand and fifty always, Alps four five five oh off, three nine five oh on. Now, that carpet trick."
+        },
+        {
+          "speaker": "a",
+          "text": "Here it is, a favourite exam question. Because G is six hundred metres thick above the ground, the carpet rides up over every summit. Take a peak four thousand two hundred metres high. Six hundred metres of carpet on top means you may legally climb to four thousand eight hundred metres above it."
+        },
+        {
+          "speaker": "b",
+          "text": "But that's above the four five five oh alpine ceiling."
+        },
+        {
+          "speaker": "a",
+          "text": "It is, and it's still legal, as long as your ground clearance never exceeds six hundred metres, you're in the G carpet the whole way up. The instant the terrain drops away and you're more than six hundred metres above ground, the four five five oh limit snaps back."
+        },
+        {
+          "speaker": "b",
+          "text": "Sneaky but logical. Now those numbers, three thousand and fifty, three nine five oh. You called them flight levels."
+        },
+        {
+          "speaker": "a",
+          "text": "Altitude in hundreds of feet measured against a fixed standard pressure, one thousand and thirteen point two five hectopascals. It exists because real pressure changes daily, so altimeters drift, and above a certain height everyone agrees to fly by the same standard instead. What matters is that aircraft are separated, not their exact metres. Flight level one hundred is ten thousand feet, and since a foot is thirty point four eight centimetres, that's three thousand and forty-eight metres, rounded to three thousand and fifty. Your Jura ceiling. Quick trick, multiply the flight level by thirty for rough metres."
+        },
+        {
+          "speaker": "b",
+          "text": "So the alpine ceilings are just flight levels too. And on the chart, how do I tell a true height from a standard-pressure one?"
+        },
+        {
+          "speaker": "a",
+          "text": "Three clues that carry enormous weight. Upright numbers are above the ground, AGL. Italic numbers are above sea level, AMSL. And a number highlighted in blue is a flight level, standard pressure, the one that can drift, up to roughly two hundred metres either way in extreme pressure. Good news, in a strong high the boundaries move up, giving us more room. A question might throw a monstrous high at you and bait you to calculate the Jura ceiling, but don't, it shifts at most about two hundred metres."
+        },
+        {
+          "speaker": "b",
+          "text": "Upright is ground, italic is sea level, blue is standard pressure. Now airspace D, where's that?"
+        },
+        {
+          "speaker": "a",
+          "text": "Mainly around airfields. The control zone, the CTR, sits as airspace D from the ground up around a runway. Above it, terminal manoeuvring areas, TMAs, stack like boxes. A structural detail examiners probe: a TMA's lower limit is a fixed altitude, because of the terrain underneath, while its upper limit floats as a flight level."
+        },
+        {
+          "speaker": "b",
+          "text": "Why fixed at the bottom, floating at the top?"
+        },
+        {
+          "speaker": "a",
+          "text": "Picture a TMA over a valley. If its floor drifted with the pressure, on a low day it could sink into the mountains and an airliner would meet rock. So the floor is nailed to a true altitude; up high there are no obstacles, so it can float. Above the TMAs, airways, the AWYs, connect the airports, upper limit flight level one ninety-five. And these zones have three activity states: the digit nine means permanently active, like Zurich; the letters HX mean no fixed hours, query before you go near; and temporary zones are announced daily, only Sion and Alpnach in all of Switzerland."
+        },
+        {
+          "speaker": "b",
+          "text": "You hinted there's a relief for us around TMAs."
+        },
+        {
+          "speaker": "a",
+          "text": "A precious one, and a classic trap. South of the dividing line only, in the Alps, you may fly underneath a TMA up to three hundred metres above the ground without clearance. That keeps valleys like Meiringen flyable, where the TMA floor would otherwise seal the airspace shut. North, in the Mittelland, the relief doesn't exist. So a question might box you under a TMA in Meiringen, tempting you to tick forbidden, but you're in the Alps at a hundred and fifty metres above ground, perfectly legal, just follow the terrain and stay within three hundred metres of it."
+        },
+        {
+          "speaker": "b",
+          "text": "Now airfields and heliports. How far must I stay?"
+        },
+        {
+          "speaker": "a",
+          "text": "Without other information, five kilometres from an airfield runway, civil or military, with no control zone, and two and a half kilometres from a heliport. But that protective cylinder is only six hundred metres tall above the ground, so higher than that you may overfly an airfield, no violation. And some sites have local agreements, a wedge cut out, like Trogen, not on the chart. If your route grazes a heliport, check the Federation's local-agreements list, it can make an illegal line legal."
+        },
+        {
+          "speaker": "b",
+          "text": "There were coloured zones too, red and green."
+        },
+        {
+          "speaker": "a",
+          "text": "Two different LS-R meanings that confusingly share the letters. Plain LS-R, red on the chart, is restricted, forbidden to enter when active. LS-D is a danger area, entering isn't strictly forbidden but it's discouraged, because something hazardous like live firing may be happening below. The green outline is the gift: LS-R for Gliders, restricted only to instrument-flight airline traffic but open to us, with much smaller cloud clearances inside. But mind the calendar, the green zones are active only from the first of March to the thirty-first of October."
+        },
+        {
+          "speaker": "b",
+          "text": "And outside those dates?"
+        },
+        {
+          "speaker": "a",
+          "text": "No effect, which is exactly what a winter examiner exploits, a beautiful February thermal day where you assume the green zone helps and it isn't even switched on. Lock the dates."
+        },
+        {
+          "speaker": "b",
+          "text": "This all assumes I can find out a zone's status. Where do I look?"
+        },
+        {
+          "speaker": "a",
+          "text": "Four publications at four timescales. First, the Glider Chart, the GLDC, a topographical map made for us, showing the airspace classes, hazard zones, obstacles, the green soaring zones, the dividing line and the military hours. New edition every March. Keep a paper copy for overview, but always re-check the digital version before flying, on the federal viewer, map dot geo dot admin dot ch, with its legend. Second, the AIP, the Aeronautical Information Publication, the master long-form reference describing every airspace and aerodrome in full, updated monthly."
+        },
+        {
+          "speaker": "b",
+          "text": "So the chart is the picture, the AIP the full text. What about right now, today?"
+        },
+        {
+          "speaker": "a",
+          "text": "That's the third, and the single most important pre-flight check: the DABS, the Daily Airspace Bulletin Switzerland, published every day at skybriefing dot com. It lists what's actually active today, the real military status, live restricted zones, the temporary TMAs, parachute drops, firing ranges. Two rookie mistakes: first, check the displayed date is the day you intend to fly; second, the times are in UTC, so for Swiss local time add one hour in winter, two in summer. Forget that and a zone you thought opened at oh seven hundred actually opens at oh nine hundred."
+        },
+        {
+          "speaker": "b",
+          "text": "Date first, then UTC plus one or two. And the fourth source?"
+        },
+        {
+          "speaker": "a",
+          "text": "The NOTAM, the Notice to Airmen, a daily source of short-term changes, airspace activations, hazards, ground obstacles. For us the relevant slice is the VFR-NOTAM. And military shooting times have their own daily bulletin, the KOSIF in German, COTSENA in French."
+        },
+        {
+          "speaker": "b",
+          "text": "Good. Now the part that's really about not dying. First, what rules am I flying under?"
+        },
+        {
+          "speaker": "a",
+          "text": "Visual Flight Rules, VFR, always. You fly by sight. The alternative, Instrument Flight Rules, IFR, needs an instrument-equipped aircraft and a specially rated pilot. No matter how many instruments you strap to your harness, a paraglider can never fly IFR, and never into cloud. For us, VFR, full stop."
+        },
+        {
+          "speaker": "b",
+          "text": "And VFR sets how far I see and stay from cloud?"
+        },
+        {
+          "speaker": "a",
+          "text": "Yes, and it changes with height above ground. Below three hundred metres above the ground, that's only the lower half of the G carpet, not the full six hundred, the rule is gentle: one and a half kilometres horizontal visibility, outside cloud at all times, ground always in sight, and you must always be able to make a one-hundred-and-eighty-degree turn. No numerical cloud distance at all."
+        },
+        {
+          "speaker": "b",
+          "text": "And above three hundred metres?"
+        },
+        {
+          "speaker": "a",
+          "text": "The strict rule bites, throughout the upper half of G and all of airspace E: three hundred metres vertically and one thousand five hundred metres horizontally from any cloud. Visibility five kilometres below three thousand and fifty metres, eight kilometres above. The higher visibility is because faster traffic can burst out of cloud up there, and you need more time to see and avoid."
+        },
+        {
+          "speaker": "b",
+          "text": "And the green glider zones change that?"
+        },
+        {
+          "speaker": "a",
+          "text": "Inside an active LS-R for Gliders the cloud distances shrink to fifty metres vertical and one hundred horizontal, but the visibility minima, five and eight, and the see-the-ground rule stay. And here's a favourite trap. Say the zone's upper limit is two thousand four hundred and fifty metres and a thermal carries you to two thousand seven hundred. You may keep climbing, the altitude isn't a wall, but you're now above the zone, so the large cloud distances return. People trip thinking the upper limit caps the flying, it only caps the reduced clearances."
+        },
+        {
+          "speaker": "b",
+          "text": "Is there a checklist to tie this together at launch?"
+        },
+        {
+          "speaker": "a",
+          "text": "The instructors give five questions on takeoff. One, season, am I between the first of March and the thirty-first of October so the green zones are live? Two, day and time, is the military on, and how high may I climb? Three, which side of the dividing line am I, Mittelland or Alps? Four, my altitude right now, both above ground and above sea level? Five, am I inside the radius of any restricted, danger or aerodrome zone? Answer those, and you can answer almost any exam question."
+        },
+        {
+          "speaker": "b",
+          "text": "Season, military, side of the line, altitude, location. Now right-of-way, the heart of it."
+        },
+        {
+          "speaker": "a",
+          "text": "The whole system ranks aircraft by manoeuvrability, and the rule is humane: the less manoeuvrable aircraft has priority, because it can't easily get out of the way. Picture a ladder, top down. An aircraft in distress at the very top. Then a balloon. Then us, paragliders, hang gliders and sailplanes, all equal. Then an airship, then a towing motor aircraft, and at the bottom, the most manoeuvrable, powered aircraft and helicopters."
+        },
+        {
+          "speaker": "b",
+          "text": "So a helicopter yields to me?"
+        },
+        {
+          "speaker": "a",
+          "text": "When you're where you belong, yes. But a sharp caveat: asserting right-of-way over an airliner inside a TMA is no defence in court. Priority only protects you in airspace you're entitled to use."
+        },
+        {
+          "speaker": "b",
+          "text": "Two of us, same class, paths crossing?"
+        },
+        {
+          "speaker": "a",
+          "text": "Same as the road, the one on the right has priority. And head-on, both of you turn right. Overtaking is its own rule: it's defined by an angle, approaching from within the rear one-hundred-and-forty-degree arc, seventy degrees from the tail on each side, counts as overtaking, and the overtaking aircraft never has priority, because the one ahead can't easily see behind. Overtaking is allowed in free airspace but forbidden on a slope."
+        },
+        {
+          "speaker": "b",
+          "text": "Now the thermal. Two of us circling, which way?"
+        },
+        {
+          "speaker": "a",
+          "text": "The first glider into the core sets the direction, not the lowest, not the highest, the first one in. Everyone joining turns the same way. Why it matters: a faster wing can climb up from below and catch you, and circling opposite ways you'd meet head-on at a huge combined speed. The instructors extend it charmingly, turn the same way as the birds too, they've learned to circle peacefully with us, and turning against them frightens them out of their own home."
+        },
+        {
+          "speaker": "b",
+          "text": "First into the core sets the turn, follow the birds. And on a ridge, head-on along a slope?"
+        },
+        {
+          "speaker": "a",
+          "text": "Both turn away from the slope, both turn right when orientation allows. The key is who has no escape: the pilot with the slope on their left has nowhere to go, so the pilot with the slope on the right gives way, turning out from the hill. Signal early, turn away visibly so the other sees you've seen them, don't leave it to the last few metres just because the lift is better near the rock. And landing, the lowest glider has priority, they have least room to wait. A yellow cross laid on a field means the landing is closed."
+        },
+        {
+          "speaker": "b",
+          "text": "Last area. The exam itself. What does it take?"
+        },
+        {
+          "speaker": "a",
+          "text": "Two parts, theory and practical. The theory is one hundred multiple-choice questions across five subjects, aerodynamics, meteorology, law, flying skills and equipment. You need sixteen out of twenty in each, eighty percent. Fail one or two subjects, you re-sit only those; fail more than two, the whole theory again. The Federation issues the licence, mandated by the Federal Office of Civil Aviation, and you appeal an examiner's decision in writing to that office, within thirty days."
+        },
+        {
+          "speaker": "b",
+          "text": "And the practical?"
+        },
+        {
+          "speaker": "a",
+          "text": "You arrive with at least forty major flights logged on at least five different sites, certified by an instructor, and the exam launch site doesn't count toward the five. The test is two flights: first, two continuous full circles to the right, in and out on a given line, within twenty seconds; second, a figure of eight, left then right, within thirty seconds. Each, you land within thirty metres of a target, with three attempts. And this is the one place helmet and reserve become compulsory, plus a certified wing matching your registration."
+        },
+        {
+          "speaker": "b",
+          "text": "Forty flights, five sites, two right circles, a figure-eight. One last thing, the responsibilities on the ground."
+        },
+        {
+          "speaker": "a",
+          "text": "The OACS makes us responsible for the wildlife too: keep clear of the reserves shown on that federal viewer, give golden eagles space March to May when they're raising young, and spare chamois and ibex on south slopes in winter. And the plain rules, don't fly over outdoor crowds, don't fly low over roads or ski slopes, don't take off or land on water. The pilot in command carries all of it."
+        },
+        {
+          "speaker": "b",
+          "text": "Alright, land this for me. The spine of the whole legislation paper."
+        },
+        {
+          "speaker": "a",
+          "text": "The Confederation makes the law, the Federal Office of Civil Aviation enforces it, the OACS governs us. Three things are compulsory, insurance, the wing number, the maker's plate, and you carry your certificate and licence every flight. The airspace is a stack, a six-hundred-metre G carpet, then E up to three thousand and fifty in the lowlands or four thousand five hundred and fifty in the Alps, with C and D the controlled zones we stay out of. Check four sources, and the DABS every single day, date and UTC. Fly VFR, with relaxed cloud rules only in the lowest three hundred metres. And right-of-way always favours the wing that can't get out of the way."
+        },
+        {
+          "speaker": "b",
+          "text": "G carpet, the ceilings by region, the daily DABS, VFR cloud clearances, and the less-manoeuvrable wins. I can hold those."
+        },
+        {
+          "speaker": "a",
+          "text": "Then the back of the booklet just became the part that keeps you alive. Catch you in the next episode."
+        }
+      ]
+    },
+    {
+      "id": "equipment",
+      "part": "part4",
+      "topic": "Equipment",
+      "title": "Equipment",
+      "icon": "🎒",
+      "color": "#f59e0b",
+      "est_minutes": 20,
+      "blurb": "Your gear, from canopy to carabiner: how a wing is built, lines and risers, the harness and reserve parachute, certification classes, and the pre-flight check that catches problems on the ground.",
+      "sources": {
+        "guide": "part4",
+        "workbook": "equip",
+        "videos": [
+          "materialkunde_0",
+          "materialkunde_1"
+        ]
+      },
+      "outline": [
+        "Anatomy of the wing — cells, internal structure, line cascade and risers",
+        "Harness, reserve and connectors — how the safety system fits together",
+        "Certification classes (A to D) and what they really say about a wing",
+        "The pre-flight check, daily care, and when to retire a wing"
+      ],
+      "segments": [
+        {
+          "speaker": "b",
+          "text": "So Maya, I've got this bag of gear in my hallway. A wing, a harness, a tangle of lines, a thing called a reserve. And honestly, I treat it like a phone I don't understand. It works, I don't ask questions."
+        },
+        {
+          "speaker": "a",
+          "text": "That's the habit we're breaking. Every part of this kit is keeping you alive up there. Picture it as a chain from the sky: at the top the wing, below it the lines, the lines gather into risers, and the risers clip to the harness, which is you."
+        },
+        {
+          "speaker": "b",
+          "text": "Wing, lines, risers, harness. That's the four main parts?"
+        },
+        {
+          "speaker": "a",
+          "text": "That's the bones. Some books split the reserve out and call it five, but those four are the spine. Start at the top, the canopy. It's woven nylon, properly polyamide, in a special pattern called ripstop."
+        },
+        {
+          "speaker": "b",
+          "text": "Ripstop, like on tents. What's it doing?"
+        },
+        {
+          "speaker": "a",
+          "text": "They weave a stronger, thicker thread in at intervals, in two directions at right angles. So the cloth looks finely squared, and if a hole starts it can't run, it hits the next thick thread and stops within a few millimetres. Little fences so a tear can't escape. And it's astonishingly light: about forty-nine grams per square metre, where the paper you print on is around eighty, and the lightest hike-and-fly cloth is down near seventeen."
+        },
+        {
+          "speaker": "b",
+          "text": "So the wing's lighter than printer paper. What stops it leaking air?"
+        },
+        {
+          "speaker": "a",
+          "text": "A coating, because the bare weave would leak like a sieve. Usually polyurethane, sometimes silicone or Mylar. That lowers the porosity, stiffens the cloth so the profile holds shape, and shields against ultraviolet. The nice surprise is a good coating can even make the cloth stronger."
+        },
+        {
+          "speaker": "b",
+          "text": "Porosity is the air-leakiness, and I'm guessing you want it low."
+        },
+        {
+          "speaker": "a",
+          "text": "As low as possible. Because when the coating wears out and the fabric goes porous, air leaks through instead of pressurising the wing, and here's the catch that gets everyone: it stalls earlier, meaning at a higher airspeed than a fresh wing. And it can drop into a parachutal stall, where the wing keeps its shape but stops moving forward: high sink rate, almost no airspeed."
+        },
+        {
+          "speaker": "b",
+          "text": "So a worn coating is a real safety issue. What destroys it?"
+        },
+        {
+          "speaker": "a",
+          "text": "The exam loves this list. Strong detergents, which attack the coating directly. Damp storage, which grows mould. Friction with sand or salt. Ultraviolet and heat. Seawater, fuel. And, I promise this is in the book, cow dung."
+        },
+        {
+          "speaker": "b",
+          "text": "Cow dung."
+        },
+        {
+          "speaker": "a",
+          "text": "You land in a field, collect a souvenir, and the acid eats the coating. Rinse with lukewarm water, dry in the shade. The single worst thing, though, is a wet wing in a hot car: in summer it's an oven, and heat plus moisture wrecks the cloth. But notice what's safe: extreme manoeuvres don't hurt it, plain lukewarm water is fine, and cool dark storage is fine. The enemies are heat, chemicals, friction and trapped moisture, not flying and not the dark."
+        },
+        {
+          "speaker": "b",
+          "text": "Got it. Now open up the inside of the wing for me. You keep saying cells."
+        },
+        {
+          "speaker": "a",
+          "text": "Picture a row of long tubes running front to back across the span. Each tube is a cell, and at the leading edge it has a mouth, so as you fly, air rams in and inflates it. That pressure turns a floppy bag of cloth into a firm wing. Between the cells are walls called ribs, holding the profile. More cells means a more accurate shape, but more fabric, so more weight and bulk. Always a trade."
+        },
+        {
+          "speaker": "b",
+          "text": "And if every cell is walled off, how does air reach the closed cells at the tips?"
+        },
+        {
+          "speaker": "a",
+          "text": "A neat trick: crossports, holes cut in the ribs so air flows sideways inside the wing. Near the tip the cell mouths are often closed, so those cells only fill through the crossports. And they do one more thing that can save your life: after a partial collapse, they let air rush back in so the wing re-inflates quickly."
+        },
+        {
+          "speaker": "b",
+          "text": "Anything reinforcing the structure?"
+        },
+        {
+          "speaker": "a",
+          "text": "Along the leading edge you'll find Mylar reinforcement, stiff shiny plastic that holds the front in shape on the ground. The catch: Mylar is brittle. Fold it sharply over and over and it cracks, so never pack the wing with hard creases at the leading edge."
+        },
+        {
+          "speaker": "b",
+          "text": "And where's the stress highest? I'd guess evenly spread."
+        },
+        {
+          "speaker": "a",
+          "text": "The front half. Remember from aerodynamics, lift sits on the front third. So the front of the canopy, and the cells where the lines attach, carry the most load. Which takes us straight to the lines."
+        },
+        {
+          "speaker": "b",
+          "text": "Right, front carries the load. Trace the lines for me."
+        },
+        {
+          "speaker": "a",
+          "text": "From the wing down, they attach to the underside in groups. At the very front, holding the leading edge, the A lines. Then back: B, C, and on many wings D. And separately, to the trailing edge, the brake lines. They're often colour-coded, school wings often putting red on the A group, but that's not a universal standard, so don't rely on colour."
+        },
+        {
+          "speaker": "b",
+          "text": "And which lines take the load?"
+        },
+        {
+          "speaker": "a",
+          "text": "Because lift sits forward, the A and B lines together carry roughly eighty percent of the load. The C and D, only about twenty. That eighty-twenty split comes back again and again, so lock it in."
+        },
+        {
+          "speaker": "b",
+          "text": "Eighty on A and B. And what's a line actually made of?"
+        },
+        {
+          "speaker": "a",
+          "text": "Two parts. An inner core that carries all the load, and around it a braided sheath. The sheath carries nothing; it shields the core from ultraviolet and abrasion, and lets the maker colour-separate the groups. The downside is it thickens the line and adds drag, so high-performance wings increasingly go unsheathed, with a coating on the bare core instead."
+        },
+        {
+          "speaker": "b",
+          "text": "And the core itself, the bit doing the work?"
+        },
+        {
+          "speaker": "a",
+          "text": "Two materials. First, Dyneema, oriented polyethylene, white. Great strength for its weight, easy to sew, good against ultraviolet. Its quirk: under load it stretches a little, and unloaded it shrinks a little, worse when wet. The second is aramid, brand names Kevlar or Technora, light brown. Barely stretches, high melting point, but kink-sensitive and more sensitive to ultraviolet."
+        },
+        {
+          "speaker": "b",
+          "text": "One stretches and shrinks, the other hates kinks. So how does a maker choose?"
+        },
+        {
+          "speaker": "a",
+          "text": "They don't, they mix. Typically Dyneema in the lightly-loaded upper wing, aramid in the heavily-loaded lower lines, so it flies like new as long as possible."
+        },
+        {
+          "speaker": "b",
+          "text": "Now the ends. If a line's a bit long, can I just tie a knot?"
+        },
+        {
+          "speaker": "a",
+          "text": "Absolutely not, one of the hardest rules in the sport. A single knot cuts a line's strength by more than half. Loops are made by sewing, or better by splicing, weaving the core back through itself; on bare aramid, sewing can cut strength up to forty percent, so there you splice. The rule is absolute: never knot, never shorten, never modify. A damaged line, especially a loaded A or B, gets replaced with the original part through a service centre, never a homemade fix. And one nasty trap: the core hides inside the sheath, so it can break internally while the sheath looks perfect."
+        },
+        {
+          "speaker": "b",
+          "text": "So why does a line's length matter so much anyway?"
+        },
+        {
+          "speaker": "a",
+          "text": "Because line lengths set the angle of attack, the whole thing from aerodynamics. Lengthen the A lines, or shorten the D, and the angle goes up: harder to inflate, slower, more parachutal-stall risk. Shorten the A, or lengthen the D, and it drops: faster, but more prone to a front collapse. So when lines stretch over time, the workshop measures them against spec and re-trims, usually adding tiny tubes to lengthen a centimetre or two. Never you, never with string."
+        },
+        {
+          "speaker": "b",
+          "text": "Okay, the lines gather. Into what?"
+        },
+        {
+          "speaker": "a",
+          "text": "The risers. Strong webbing straps, lettered A at the front through D at the back to match the lines. They join to your karabiners through little screw-locking metal loops called quick links. One number: tighten by hand, then add a final quarter turn with a wrench."
+        },
+        {
+          "speaker": "b",
+          "text": "Now the fun part. How do I actually go faster?"
+        },
+        {
+          "speaker": "a",
+          "text": "The speed system, the accelerator. A pulley worked by your feet, the speed bar. Push it and it shortens the A risers most, the B less, sometimes the C. That drops the angle of attack without much changing the profile, and the wing speeds up. Feet-only, because on a solo wing your legs are free."
+        },
+        {
+          "speaker": "b",
+          "text": "And on a tandem?"
+        },
+        {
+          "speaker": "a",
+          "text": "The passenger blocks your legs, so tandems use a hand system, trimmers. Same job, on the rear risers. The difference: a foot bar springs straight back when you lift your foot; a trimmer you reach up and release by hand. And trimmers engaged, slow, the wing is less prone to front collapses; released, fast, more prone."
+        },
+        {
+          "speaker": "b",
+          "text": "And the brakes, that's how I steer."
+        },
+        {
+          "speaker": "a",
+          "text": "The brake lines run from the trailing edge of each half-wing, down through a pulley on the rear riser, to a handle in each hand. Pull one, you raise the angle of attack that side, slowing it and turning that way. Factory-set length, never modify it. And there's a check: arms all the way up, they should still hang in a slight rearward arc, pushed back by the airflow. If they fall straight down, they're too short, the wing's permanently braked, and you risk stalling in turbulence."
+        },
+        {
+          "speaker": "b",
+          "text": "Good one. Any trick to holding the handle?"
+        },
+        {
+          "speaker": "a",
+          "text": "A favourite tip. Pass it once around your wrist, but never push your whole hand through the loop. Picture an emergency where you must drop the brake and grab your reserve, fast, in winter, with gloves. A hand shoved through the loop is shackled to it. And for best glide: arms fully up, no speed bar. Both brakes and bar cost glide, except that into a headwind a touch of bar actually improves your glide over the ground."
+        },
+        {
+          "speaker": "b",
+          "text": "Right, fly faster into wind, we did that in aerodynamics. Now the part I sit in, the harness."
+        },
+        {
+          "speaker": "a",
+          "text": "Think of it as the cabin of your aircraft, comfortable for hours: a seat, and straps around your thighs, chest and shoulders, all converging on two karabiners that clip to the risers. And one pair matters most, the leg straps. Forget to fasten them, and a strong pitch-up after launch can let you slide straight out through the leg openings. That is fatal, so leg straps get checked every single flight."
+        },
+        {
+          "speaker": "b",
+          "text": "Noted, grimly. There's padding in the back, right?"
+        },
+        {
+          "speaker": "a",
+          "text": "Back protection, and the two main types trade off. Foam protects you from the very first second, on launch, in flight, on landing, but it's heavy and bulky. An airbag is light and packs small, but only fills once you're flying and the airflow blows in, so on a botched take-off it gives almost nothing. And the lightest hike-and-fly harnesses are just a band of webbing, no protection at all, with the reserve carried separately."
+        },
+        {
+          "speaker": "b",
+          "text": "And lying down, the prone harness?"
+        },
+        {
+          "speaker": "a",
+          "text": "The pod harness. You lie almost flat: lower drag, better glide, shelter from the wind, room for a cockpit. But you can't look directly up, you don't sit upright, and twist risk is higher in a collapse. For a student, a sitting harness every time."
+        },
+        {
+          "speaker": "b",
+          "text": "Alright, the piece I hope I never use. The reserve."
+        },
+        {
+          "speaker": "a",
+          "text": "And yet every pilot carries one and must know exactly how their own deploys. It's saved even the very best. Most modern ones are cross-cell canopies, semi-square shapes woven loose, and they're pendulum-stable, so you come down vertically without swinging. Older round ones tend to swing, adding energy at touchdown, so they're being replaced. For a student, the cross-cell: you throw it, come down stable, fly nothing."
+        },
+        {
+          "speaker": "b",
+          "text": "And where does it live, where does it attach?"
+        },
+        {
+          "speaker": "a",
+          "text": "It lives in a pouch on the harness, handle visible and reachable while seated. But the crucial bit: the bridle must attach high, up on the shoulder straps, so when it opens it pulls you upright under the canopy. Attach it at the riser karabiners instead and you stay sitting, the wrong position to land."
+        },
+        {
+          "speaker": "b",
+          "text": "And the fabric, same nylon as the wing?"
+        },
+        {
+          "speaker": "a",
+          "text": "Same nylon, but woven much finer and looser. And here's the twist: unlike the wing, the reserve is allowed to stretch, fabric and lines both, because that stretch is what absorbs the shock of opening and protects your spine."
+        },
+        {
+          "speaker": "b",
+          "text": "How hard does it actually land me?"
+        },
+        {
+          "speaker": "a",
+          "text": "The target sink rate is about five and a half metres per second, in energy terms like jumping from one and a half metres. But with the harness, wing, helmet and clothes attached, it feels more like two to three. And the certified figure flatters you: reserves are tested by dropping from a bridge or helicopter with just a weight, without the paraglider. In real life the wing's still attached, interferes with the canopy, swings the system and pushes the sink rate higher."
+        },
+        {
+          "speaker": "b",
+          "text": "So what do I do on landing?"
+        },
+        {
+          "speaker": "a",
+          "text": "The single most important thing: land on your feet. Your legs are a far better shock absorber than any foam or airbag. Feet first, knees flexed, and roll through your body. Don't sit down onto the protector at impact, it's a backup, not a target."
+        },
+        {
+          "speaker": "b",
+          "text": "Feet, not seat. And what keeps it opening reliably?"
+        },
+        {
+          "speaker": "a",
+          "text": "Two big things: low fabric porosity, and short repack intervals. Repack every four to six months, airing it twenty-four hours first and checking the whole system. Leave it too long and the folds compress, and moisture or static cling makes them stick, the classic cause of slow openings. And you don't do it yourself, it takes training, so use someone certified by the SHV, the Swiss hang-gliding and paragliding federation."
+        },
+        {
+          "speaker": "b",
+          "text": "Walk me through throwing it."
+        },
+        {
+          "speaker": "a",
+          "text": "Five steps. Locate the handle. Grasp it firmly. Pull it out wide, away from the pouch. Identify free air to the rear. Throw with full force. The lines pay out first, then the pouch opens and releases the canopy. And one more job once it's open: your main wing is still attached and can interfere, so you neutralise it, pulling it in toward you on the B or C risers so it stops flying."
+        },
+        {
+          "speaker": "b",
+          "text": "B or C to kill the main wing. Now gadgets. Which instrument earns its place?"
+        },
+        {
+          "speaker": "a",
+          "text": "The variometer, the vario, easily the most useful. It tells you your vertical speed, climb or sink, by measuring how fast the air pressure changes over time. That's how you find a thermal. For a recreational pilot, an acoustic one that beeps is plenty: rising pitch for lift, falling for sink."
+        },
+        {
+          "speaker": "b",
+          "text": "And an altimeter?"
+        },
+        {
+          "speaker": "a",
+          "text": "It reads altitude from the air pressure, your tool for respecting airspace limits. But because pressure changes with the weather, you recalibrate before every flight. Calibrate in the morning, and if a high-pressure system builds, the altimeter reads too low in the afternoon. If the high weakens, it reads too high."
+        },
+        {
+          "speaker": "b",
+          "text": "High building, reads too low later. And GPS, and the wind one?"
+        },
+        {
+          "speaker": "a",
+          "text": "A GPS fixes your position from satellites, handy for ground speed, and essential for competition, where the recorded track proves you flew the course. The wind one is the anemometer, the least useful in flight, since an experienced pilot reads airspeed from the wind on the face and the noise. And note: none gives airspeed directly; on a paraglider you infer it from the wing's feel. Plus the basics, a helmet, ideally full-face, strong gloves, rigid shoes, all passive safety, which never replaces active safety, good piloting and weather decisions."
+        },
+        {
+          "speaker": "b",
+          "text": "Last big topic. Those letters, EN A, EN B. What do they really mean?"
+        },
+        {
+          "speaker": "a",
+          "text": "How demanding the wing is, how much it expects of you. It's the EN certification, the standard worldwide, except Germany, which still uses the older LTF system. Switzerland accepts both. Four classes, A to D. EN A is the school wing, the most forgiving: disturb it, let go, and it returns to straight flight on its own. EN B is the intermediate, where most pilots end up after their licence, a few hundred flights in. And by EN C and especially EN D, competition class, the pilot must react instantly, intuitively, no time to think about what the wing's doing."
+        },
+        {
+          "speaker": "b",
+          "text": "Is the safer wing also the slower one? What's it cost me?"
+        },
+        {
+          "speaker": "a",
+          "text": "Here's the trade in real numbers. Launch from a thousand metres above the valley in calm air. A modern school wing reaches a field about eight kilometres away, a competition wing about twelve. But that school-wing eight used to be six or seven and a half just a few years ago. So today's wings are both safer and better gliders."
+        },
+        {
+          "speaker": "b",
+          "text": "How does a wing earn its letter?"
+        },
+        {
+          "speaker": "a",
+          "text": "A multi-stage test. A shock load, towed behind a vehicle with a deliberate weak link. Then a ramped pull to at least eight G of static load, though modern wings often reach twelve, acro wings sixteen. Then a test pilot flies twenty-four manoeuvres, collapses, stalls, spirals, scored across ninety points. They also measure brake travel: up to fifty centimetres on a school wing, only thirty on a competition wing. But the scoring is a judgement call, not a hard measurement, which is why the real advice is to ask a flight school before you buy, they know each wing's personality far better than the letter does."
+        },
+        {
+          "speaker": "b",
+          "text": "Before we finish, the care rules in one breath."
+        },
+        {
+          "speaker": "a",
+          "text": "Minimise friction, don't drag it. Pack it into the shade the moment you land. Dry a wet wing the same day, never bag it wet, never bake it in a hot car. Clean only with lukewarm water, never detergents. And on landing, let it fall to the side or rear, never forward."
+        },
+        {
+          "speaker": "b",
+          "text": "Why not forward?"
+        },
+        {
+          "speaker": "a",
+          "text": "If it drops forward, the air trapped in the cells can't escape fast enough, and the sudden pressure can damage the cell walls. And get the wing checked on the maker's schedule, typically every twenty-four months or two hundred flight hours, or you void the certification and your insurance."
+        },
+        {
+          "speaker": "b",
+          "text": "And there's a pre-flight check, the thing that catches problems on the ground."
+        },
+        {
+          "speaker": "a",
+          "text": "The most important habit you'll build, every flight, going through the chain. Wing laid out clean, no tears. Lines free from riser to wing, no knots. Risers untwisted, quick links closed. Both karabiners screwed shut. Leg straps and chest strap buckled. Reserve handle in place. Helmet on."
+        },
+        {
+          "speaker": "b",
+          "text": "Okay. Land this for me. Give me the spine of the whole thing."
+        },
+        {
+          "speaker": "a",
+          "text": "Four parts in a chain: wing, lines, risers, harness. The wing is ripstop nylon with a coating, and worn coating means early stalls, so keep it cool, dry and clean. The lines carry eighty percent of the load on A and B; you never knot or modify them, you replace them. The speed bar makes you fast, the brakes steer and slow you, both factory-set. Leg straps always fastened. The reserve lives high on your shoulders and you land on your feet. And the letter tells you how much the wing expects: A forgives, D demands."
+        },
+        {
+          "speaker": "b",
+          "text": "Chain of four, coating keeps the wing honest, never touch the lines, leg straps, reserve up high, land on your feet, and the letter sets the bar. That I can hold."
+        },
+        {
+          "speaker": "a",
+          "text": "Then you've got the whole equipment paper. And the pre-flight check is where it all earns its keep, the thirty seconds on the ground that buys you the flight."
+        },
+        {
+          "speaker": "b",
+          "text": "That actually clicked out loud. Thanks Maya."
+        },
+        {
+          "speaker": "a",
+          "text": "That's the idea. Pack it in the shade, check it every time, and I'll catch you in the next episode."
+        }
+      ]
+    },
+    {
+      "id": "flying-skills",
+      "part": "part5",
+      "topic": "Flying Skills",
+      "title": "Flying Skills",
+      "icon": "🛬",
+      "color": "#10b981",
+      "est_minutes": 25,
+      "blurb": "Putting it together in the air: launch technique, active flying to keep the wing overhead, planning the approach and landing, and recognising and recovering from collapses when the air turns rough.",
+      "sources": {
+        "guide": "part5",
+        "workbook": "skills",
+        "videos": [
+          "flugpraxis_0",
+          "flugpraxis_1",
+          "aa_stallpunkt",
+          "aa_grosse_ohren",
+          "aa_kleine_ohren",
+          "aa_b-stall",
+          "aa_nicken",
+          "aa_rollen",
+          "aa_kurvenfliegen",
+          "aa_bremshaltung",
+          "aa_beschleunigt_fliegen",
+          "aa_seitenklapper_50%"
+        ]
+      },
+      "outline": [
+        "Launch — forward and reverse, the wall, and aborting safely",
+        "Active flying — feeling the wing and keeping it loaded over your head",
+        "The approach: circuit planning, the aiming point and flaring to land",
+        "When it goes wrong — collapses, big-ears, B-stall and the calm recovery sequence"
+      ],
+      "segments": [
+        {
+          "speaker": "b",
+          "text": "Okay Maya, the aerodynamics episode was all forces and arrows. This one's the doing part, right? Actually flying the thing."
+        },
+        {
+          "speaker": "a",
+          "text": "It is. And here's the frame to carry the whole way through: a flight doesn't start at the launch site. It starts at your kitchen table the night before."
+        },
+        {
+          "speaker": "b",
+          "text": "The kitchen table? That feels like a stretch."
+        },
+        {
+          "speaker": "a",
+          "text": "Half of flying safely is decisions you make before you ever clip in. We'll take the journey in order: prepare, launch, manage the air, deal with trouble, land. And the first question at that table is about you, not the weather. Are you fit to fly? Clear-headed, slept well, no painkiller masking some injury. Your body is part of the aircraft, and up high it gets tested."
+        },
+        {
+          "speaker": "b",
+          "text": "Tested how? What actually goes wrong with the body up there?"
+        },
+        {
+          "speaker": "a",
+          "text": "The big one is lack of oxygen, hypoxia. The air is always one fifth oxygen, but as you climb the pressure drops, so every breath delivers less. Two kinds matter. Instantaneous hypoxia starts from around four thousand metres, and the cruel part is the first symptom: euphoria. You feel wonderful just as your judgement falls apart, then fatigue, confusion, and by seven thousand metres, convulsions and worse. The other is acute mountain sickness, building slowly over hours from about two thousand eight hundred metres. But the treatment for any of it is one thing: lose altitude, fast."
+        },
+        {
+          "speaker": "b",
+          "text": "Good to know it's one simple fix. What else does the body throw at us?"
+        },
+        {
+          "speaker": "a",
+          "text": "Cold, sneakier than you'd think, because moving air steals heat far faster than still air. The number the exam loves: flying at thirty-two kilometres an hour in air that's two degrees feels like minus eleven on your skin. That costs you energy and sharpness, so dress warm and drink, because airflow dries you out too."
+        },
+        {
+          "speaker": "b",
+          "text": "Suppose the worst has happened and I come across a crashed pilot. What's the drill?"
+        },
+        {
+          "speaker": "a",
+          "text": "Three letters: A, B, C. Airway, Breathing, Circulation. Is the airway clear, are they breathing, is there bleeding or a pulse. Unconscious but breathing, roll them into the recovery position so they can't choke. But one case is the opposite of helping: a suspected spine injury, with back pain or limb numbness. Because we land seated, straight onto the spine, it's sadly common, and you do not move them, don't sit them up, don't even give a drink, because wrong handling can mean permanent paralysis. Keep them still, call mountain rescue. And when the helicopter comes, stop all flying and weight down loose fabric with stones, or the downwash flings it into the rotor."
+        },
+        {
+          "speaker": "b",
+          "text": "Right, back to the kitchen table. Weather. There's a memory hook, isn't there?"
+        },
+        {
+          "speaker": "a",
+          "text": "The F-F-G rule. Three hazards: Föhn, that dry violent alpine wind. Front, a weather front. And Gewitter, the German for thunderstorm. If any one shows up in the forecast, your ears grow very big, because all three bring the single biggest killer in this sport, strong wind and turbulence. We fly slowly, so wind hurts us more than almost anything."
+        },
+        {
+          "speaker": "b",
+          "text": "So weather's hazard one of the home checklist. What are the others?"
+        },
+        {
+          "speaker": "a",
+          "text": "Four in total. Weather, then the legal and airspace picture, then obstacles and terrain, then wildlife. For airspace you check the DABS, the daily bulletin, every flying day, because restrictions change, and a big event like the World Economic Forum can close huge volumes of sky. And wildlife is heavily on the exam: spring is when we fly highest, exactly when animals raise their young. Eagles are on the nest March to May, chamois have their young in May, ibex in June. See animals beneath you, fly away. Don't tell yourself the thermal's too good."
+        },
+        {
+          "speaker": "b",
+          "text": "Fair. I drive to the hill. Where do I look first?"
+        },
+        {
+          "speaker": "a",
+          "text": "Counterintuitively, the landing field, ideally before you even go up. That's where the ground is closest and the dangers most immediate. Walk it, find the cables, the big trees, learn the pattern, usually left-hand but check the sign or ask a local. And always have a plan B landing in mind in case the main field gets closed."
+        },
+        {
+          "speaker": "b",
+          "text": "Now the launch. There's one golden rule, isn't there?"
+        },
+        {
+          "speaker": "a",
+          "text": "One above all others: from any launch site, at any moment, you must be able to abort the take-off safely. A cliff with three steps of run and then a drop breaks that rule, and it's the wrong site."
+        },
+        {
+          "speaker": "b",
+          "text": "How do I picture \"able to abort\"? It feels vague."
+        },
+        {
+          "speaker": "a",
+          "text": "Two imaginary lines on the slope. The decision line: if the wing isn't perfect by the time you reach it, you stop, and it's usually less than ten metres in front of where you start inflating. Further down, the point of no return, which the instructors bluntly call the life line. Past it, you simply must already be flying."
+        },
+        {
+          "speaker": "b",
+          "text": "Decision line, then life line. And before all that, the famous check."
+        },
+        {
+          "speaker": "a",
+          "text": "The five-point check, in order, every flight, and you remember it because it radiates outward from your body. One, equipment: leg straps and chest strap closed, helmet on, reserve handle in place. Two, risers and lines, untwisted, brakes in hand. Three, the wing, open and facing the wind. Four, the wind itself, direction and strength. Five, furthest out, the airspace and your launch path, clear of pilots and clear of children or cattle."
+        },
+        {
+          "speaker": "b",
+          "text": "Equipment, risers, wing, wind, airspace. And there's a tip about laying the wing out?"
+        },
+        {
+          "speaker": "a",
+          "text": "Lay it in a shallow arc, not a straight line. That way the central lines come tight a hair before the tips, and the wing inflates evenly, instead of one corner snapping up first."
+        },
+        {
+          "speaker": "b",
+          "text": "Now the run. People talk about a three-phase launch."
+        },
+        {
+          "speaker": "a",
+          "text": "Three phases, and the discipline is to treat them as separate. Phase one, inflation: you pull the A risers and bring the wing up overhead. Phase two, check and correct: is it square, level, fully open, no knots? Phase three, accelerate: you commit forward, build speed, and let it lift you off. The mistake is mentally skipping ahead, already flying in your head before the wing's even up."
+        },
+        {
+          "speaker": "b",
+          "text": "So when exactly is it too late to abort?"
+        },
+        {
+          "speaker": "a",
+          "text": "The decision to go is always made before phase three. Aborting in phase one or two is clean, no problem, even in the exam. Aborting in phase three means you didn't check properly, and that's where it gets dangerous, because once you're accelerating you're committed."
+        },
+        {
+          "speaker": "b",
+          "text": "Walk me through what the hands and weight actually do through those phases."
+        },
+        {
+          "speaker": "a",
+          "text": "In phase one you lean forward to keep the lines tight and let the wing rise behind you, easing the energy a touch so you can feel it come up. In phase two the hands come onto the brakes, roughly half way, to stop it overshooting, and you glance up to check it. Phase three, lean forward again, accelerate hard, legs down ready to cushion you if you touch back. You only sit into the harness once you've got plenty of air beneath you."
+        },
+        {
+          "speaker": "b",
+          "text": "And if the wing comes up crooked, leaning to one side?"
+        },
+        {
+          "speaker": "a",
+          "text": "Fix it in phase two with two combined actions. Say it rises tilted left. You apply the right brake to level the wing, and you also step across to the left, back underneath it, as you run. Brake the high side, move under the wing."
+        },
+        {
+          "speaker": "b",
+          "text": "What about wind that isn't a nice headwind on the nose?"
+        },
+        {
+          "speaker": "a",
+          "text": "The ideal is a steady headwind around fifteen kilometres an hour, which slows your groundspeed and shortens your run. A tailwind is the dangerous one: more than five and you abort, because you can't get enough air over the wing. A crosswind, you inflate facing into the wind, then pivot toward the slope before accelerating. And really strong wind, twenty to twenty-five, you switch to a reverse launch, facing the wing. The point people forget there: check what's behind you, because strong wind can drag you backward, so a cliff behind your launch is a disaster waiting to happen."
+        },
+        {
+          "speaker": "b",
+          "text": "Reverse launch confuses me. Walk me through the body."
+        },
+        {
+          "speaker": "a",
+          "text": "It's choreography. You clip in with the wing behind you, rotate to face it, leaning back, lifting one set of risers over your head so the lines cross cleanly at riser height, brake handles in the matching hands. Five-point check facing the wing, then pull the A risers, leaning back against the wind, and the big advantage is you watch the whole wing come up. When it's overhead, drop the risers onto the brakes, turn back to the slope, accelerate. And the instructor stressed: after the check, repeat point five just before you commit, because you've turned around and the airspace might have changed."
+        },
+        {
+          "speaker": "b",
+          "text": "Say the wing's up but I'm drifting toward the hill. What's the priority?"
+        },
+        {
+          "speaker": "a",
+          "text": "This is the most important reflex in the whole launch, what the instructor calls the unofficial fourth point. Before you diagnose anything, stabilise your direction: weight firmly to the correct side, opposite brake enough to fly straight, and fly out, away from terrain, building distance. First fly the wing, then solve the problem. Never turn back toward the slope to investigate."
+        },
+        {
+          "speaker": "b",
+          "text": "Why does distance matter so much?"
+        },
+        {
+          "speaker": "a",
+          "text": "Distance is time. The bigger the gap, the calmer you work the problem. Say you've got a knot you missed. A knot shortens that side and deforms the profile, so the wing pulls toward the knotted side and you hold straight with opposite brake."
+        },
+        {
+          "speaker": "b",
+          "text": "Can I clear a knot in the air?"
+        },
+        {
+          "speaker": "a",
+          "text": "Sometimes, in order. First, an impulse on the brake on the knot side. If that fails, pull the stabilo line, the thin outermost trim line. If that fails, induce a controlled fifty percent collapse on that side to shake it loose. And if none of it works and you can't guarantee a safe landing, then while you can still steer, fly out over a big open meadow, not woods, and throw the reserve. Better that than wrestling an unsteerable wing toward the ground."
+        },
+        {
+          "speaker": "b",
+          "text": "Let's say it's a clean flight. Now I'm up. How do I fly to go far versus stay up long? I always mix those."
+        },
+        {
+          "speaker": "a",
+          "text": "Different speeds, just like in aerodynamics. To go farthest in calm air, fly best glide, hands almost all the way up, maybe five to fifteen centimetres of brake. To stay airborne longest, fly minimum sink, twenty to thirty percent brake. Slowest down, not furthest forward. And wind shifts all of it over the ground. Four rules: into headwind or sinking air, speed up, push accelerator, or you'll never make it. Picture flying thirty into a thirty headwind, you're standing still until you accelerate and claw back ten. With a tailwind, ease off and let it carry you. In lift, fly minimum sink to milk the climb."
+        },
+        {
+          "speaker": "b",
+          "text": "There's also this crab thing for crosswind."
+        },
+        {
+          "speaker": "a",
+          "text": "Yes, and the trap is what the instructor calls the dog-leg. If a crosswind pushes you sideways and you just point your nose at the target, you get blown off, swing wide, arrive low. Instead you set a wind-correction angle: aim the wing's nose slightly upwind so your track over the ground runs straight to the goal. Stronger crosswind, bigger angle; faster you fly, smaller angle. Set it once, don't keep chasing the target."
+        },
+        {
+          "speaker": "b",
+          "text": "Now staying up. You mentioned ridge soaring and thermals."
+        },
+        {
+          "speaker": "a",
+          "text": "Two ways. Ridge soaring first: wind hits a slope, gets forced up, and that band of lift holds you as you fly back and forth along the ridge. The rule that keeps you alive: always turn away from the ridge, into the wind, never toward it, or you lose height with a tailwind and sink from the turn and end up in the rock or rotor. The mantra for all soaring is three words: terrain clearance, terrain clearance, terrain clearance."
+        },
+        {
+          "speaker": "b",
+          "text": "Because you're flying right next to the hill the whole time."
+        },
+        {
+          "speaker": "a",
+          "text": "With other pilots, in air that can suddenly roughen. Now thermals, the real art: a column of warm air rising off the ground that you bank into and circle to climb. To centre it, feel the climb rate around your circle: increasing, ease the turn; decreasing, tighten. Fall out entirely, and a sharp one-eighty back usually finds it again."
+        },
+        {
+          "speaker": "b",
+          "text": "Any reflex people get wrong in a thermal?"
+        },
+        {
+          "speaker": "a",
+          "text": "Most pilots over-use the brakes and under-use their weight. Lead with the body, shift onto the turn side first, only then add brake. Before any turn, check the airspace you're turning toward. Wind tilts the column downwind, so the best lift sits upwind of the cloud above it, sink lurks downwind. And don't leave a climb until you've picked your next target and have the height to reach it. Mountain thermals especially are crisp, narrow and rough off a steep face, so match your bank angle to the width of the core."
+        },
+        {
+          "speaker": "b",
+          "text": "Okay, the part I'm nervous about. When the wing misbehaves."
+        },
+        {
+          "speaker": "a",
+          "text": "Let's build it up calmly, because calm is the whole skill. First, posture in rough air: stay supple, keep a little brake on to feel the wing and firm it up, and don't over-react. The wing surges and rolls, you damp it gently."
+        },
+        {
+          "speaker": "b",
+          "text": "Start with the most common scare. A collapse."
+        },
+        {
+          "speaker": "a",
+          "text": "An asymmetric collapse, where one side tucks. Say half the wing folds. It looks violent but it's not dangerous if you respond right. The danger is doing nothing, because a collapsed side creates drag and turns toward the collapse, and left alone it winds up into a spiral."
+        },
+        {
+          "speaker": "b",
+          "text": "So what do my hands and body do the instant it folds?"
+        },
+        {
+          "speaker": "a",
+          "text": "First stabilise, then react. Weight immediately to the open, flying side, a little brake with the opposite hand, just enough to hold your heading straight. Don't fix the collapse yet, fix your direction. Once you're tracking straight and away from the hill, let the folded side re-open, pumping gently if you must. And a subtlety on leaning: in theory and on the exam, you weight the open side, that's the answer to give. In practice with a big collapse the instructor's tip is to just let your body weight fall naturally, because gravity loads the side that's still flying, which helps it re-inflate."
+        },
+        {
+          "speaker": "b",
+          "text": "Now the deliberate stuff. People intentionally fold the wing to come down. Big ears."
+        },
+        {
+          "speaker": "a",
+          "text": "You reach up and pull the outermost A lines down on each side, and the tips fold in. The wing keeps flying forward and level, no extra G, but your sink jumps, three to nearly four metres a second for little ears, even more for big. There's one rule that's non-negotiable: you must do it on the accelerator, pushing the bar at the same time."
+        },
+        {
+          "speaker": "b",
+          "text": "Why is the bar so important?"
+        },
+        {
+          "speaker": "a",
+          "text": "A lovely bit of physics. Folding the tips shrinks your wing area, which raises your wing loading and pushes your stall point up, maybe from eighteen kilometres an hour to twenty-five. And the folded ears raise your angle of attack and slow you down, so your margin to the stall collapses from both ends. Pushing the bar tilts the nose down, speeds you up, restores the gap. Ears and bar go together, always. To get out, come off the bar a little, no more than half, release the A lines, and if the ears stay tucked, pump them, still on the bar, only coming fully off once they're open."
+        },
+        {
+          "speaker": "b",
+          "text": "Why pick ears over other ways down?"
+        },
+        {
+          "speaker": "a",
+          "text": "Because you keep flying forward, so you can escape a band of lift while you sink. Compare the B-stall, where you pull both B risers down together, breaking the airflow over the top. The wing stops flying forward and sinks almost straight down, about seven metres a second, barely any effort, but you come down on the spot, can't fly out of anything. There's a grip detail, the comb grip: spread your fingers between the B lines, above the line-locks, so the risers can't slip out. Pull slowly but firmly, hold at least three or four seconds."
+        },
+        {
+          "speaker": "b",
+          "text": "And the exit?"
+        },
+        {
+          "speaker": "a",
+          "text": "This is where people get hurt. You must not let the risers snap up. If they fly up and you accidentally catch the brakes while the wing's still stalled, you command it straight into backward flight. So you actively guide the risers up, let the wing return to forward flight, and only then hands fully up."
+        },
+        {
+          "speaker": "b",
+          "text": "This keeps coming back to the stall. Tell me about the stall point itself."
+        },
+        {
+          "speaker": "a",
+          "text": "One of the most important things in the sport, because mishandling it is the second most common cause of accidents. The stall point is where you've pulled the brakes so deep the wing stops flying forward. It announces itself two ways, and you react to whichever you notice first."
+        },
+        {
+          "speaker": "b",
+          "text": "Two ways?"
+        },
+        {
+          "speaker": "a",
+          "text": "One is pressure. As you pull deeper the brake pressure rises and rises, then suddenly drops, the instructor calls it like a pistol shot, bang, the pressure's gone. The other is visual: the wing's underside, taut as you pull, suddenly bulges upward as air pushes from below. They don't always happen at the same instant."
+        },
+        {
+          "speaker": "b",
+          "text": "So the moment I feel either one?"
+        },
+        {
+          "speaker": "a",
+          "text": "Hands up, briskly. The golden rule the instructor repeats: when in doubt, hands up. You lose nothing by easing off too early, and everything by stalling near the ground. And if you get stuck back there in a deep stall, move your hands forward onto the A risers, pull, and release, which forces the wing back into forward flight."
+        },
+        {
+          "speaker": "b",
+          "text": "Let me get two words straight that I always confuse. Spin and twist."
+        },
+        {
+          "speaker": "a",
+          "text": "Different things entirely. A spin is when you over-brake one side, usually the inside of a turn, and that half of the wing flies backward while the other flies forward. The warning sign is the brake suddenly going slack on the inside. You recover by bringing both hands fully up. A twist is when you, the pilot, get rotated and your risers cross above you. The wing's fine, you just can't steer until you untwist."
+        },
+        {
+          "speaker": "b",
+          "text": "There are training manoeuvres named after the axes too. Pitch and roll."
+        },
+        {
+          "speaker": "a",
+          "text": "They teach you to manage the wing's swing. Pitching is the fore-and-aft surge: into a thermal the wing pitches back, and leaving it, it dives forward, and you bring it back over your head. The secret is timing, not strength. After it surges forward you wait, let it swing through the bottom and start climbing on the far side before braking again, because brake on the down-swing and you kill the energy you built. Rolling is the same idea side to side, but the order is the headline: weight first, brake later. Your body crosses to the new side before the brake follows."
+        },
+        {
+          "speaker": "b",
+          "text": "Okay, the absolute last resort. The reserve."
+        },
+        {
+          "speaker": "a",
+          "text": "First thing to burn in: it is completely useless unless you pull it. We have no automatic system like skydivers. The instructor calls it the second chance. Pull it when the situation is uncontrollable and won't settle within two or three seconds. Or when you're low and have a problem, immediately. Or after any collision, because you may not know your wing's damaged until you're on final and it's too late."
+        },
+        {
+          "speaker": "b",
+          "text": "And after I throw it?"
+        },
+        {
+          "speaker": "a",
+          "text": "Pull in the B or C lines on your main wing so it stops flying and tangling with the reserve. Then sit up, knees bent and together, ready to land with a roll, because you'll come down around five to six metres a second. And a habit for every flight: touch the reserve handle with a flat hand so you know exactly where it is without looking."
+        },
+        {
+          "speaker": "b",
+          "text": "Bring me home, literally. The landing."
+        },
+        {
+          "speaker": "a",
+          "text": "The landing pattern, the volte, a U-shape, and we all fly the same shape so we can predict each other near the ground where there's no time to react. Four phases. One, descending three-sixties beside or upwind of the field, bleeding height to about fifty to seventy metres. Two, the downwind leg, parallel to the field. Three, the crosswind base, across. Four, final, straight into the wind to your spot."
+        },
+        {
+          "speaker": "b",
+          "text": "Any detail people get wrong?"
+        },
+        {
+          "speaker": "a",
+          "text": "Your descending circles in phase one must turn the same direction as your pattern. Left-hand pattern, left-hand circles. And throughout the whole approach, eyes fixed on your landing target, only quick glances at obstacles. Staring at an obstacle is dangerous, because the wing drifts to wherever you're looking."
+        },
+        {
+          "speaker": "b",
+          "text": "What if I misjudge my height? Too high on the downwind?"
+        },
+        {
+          "speaker": "a",
+          "text": "Enlarge the base leg, more room to bleed it off. Too low, shorten it. On final, too high, make yourself big, sit up out of the harness, legs ready, to add drag, but careful, more than eighty percent brake risks a stall right by the ground. Too low on final, hands up for max glide, brake only just before you touch. And if the wind isn't on the nose like you expected, commit to the pattern you chose, don't change it late. With a tailwind you come in faster and flatter, so you brake more decisively, a bit higher, building the flare so the wing stands you up just as you touch."
+        },
+        {
+          "speaker": "b",
+          "text": "Strong wind landings scare me. What's different there?"
+        },
+        {
+          "speaker": "a",
+          "text": "Twenty-five and up, the priority is the moment after you touch. You immediately turn one-eighty to face the wing, run downwind toward it, and pull the B or C risers to kill its lift so it can't drag you. And whatever you do, do not brake, because braking increases lift and the wing can pluck you back off the ground."
+        },
+        {
+          "speaker": "b",
+          "text": "What about landing somewhere awkward, like a slope?"
+        },
+        {
+          "speaker": "a",
+          "text": "On a slope you never land straight up the hill, that's far too brutal a contact. You land parallel to the slope contour, or across it, and you can flare normally. And steer clear of obstacles upwind of your field, because a building or a line of trees throws mechanical turbulence a long way downwind."
+        },
+        {
+          "speaker": "b",
+          "text": "Worst case. I can't reach a field at all. What do I aim for?"
+        },
+        {
+          "speaker": "a",
+          "text": "A priority order, best to worst: a tree, then a sloped roof, then water. Water is last, because of drowning, lines tangling, cold. If water's unavoidable, unclip your harness before you touch it, but never jump out early, because in the adrenaline you can't judge whether you're five metres up or twenty."
+        },
+        {
+          "speaker": "b",
+          "text": "And a tree, since it's the best of the bad options?"
+        },
+        {
+          "speaker": "a",
+          "text": "Pick a conifer, protect your head with your arms, bleed off speed with the brakes on the way in. Then, the key bit, once you're hung up there, stay put, roped or waiting for rescue. The number one injury in tree landings is people unclipping in shock, thinking it's a short drop, and falling much further than they judged."
+        },
+        {
+          "speaker": "b",
+          "text": "That was a lot of ground. Can you tie the whole thing together?"
+        },
+        {
+          "speaker": "a",
+          "text": "Here's the spine. Flying starts at the kitchen table: are you fit, what's the weather, the airspace, the terrain, the wildlife. On the hill, you must always be able to abort, so respect the decision line; check five points in order, launch in three phases, never commit before the wing is right. In the air, first fly the wing, then solve the problem, every time. Speed up into headwind and sink, slow down with a tailwind, minimum sink in lift. When trouble comes, stabilise your direction before you fix the wing, and when in doubt, hands up. And land by flying a disciplined pattern with your eyes locked on your spot."
+        },
+        {
+          "speaker": "b",
+          "text": "First fly the wing, then fix the problem. When in doubt, hands up. Always be able to abort. I think those three alone would keep me out of most trouble. That actually all connects now. Thanks Maya."
+        },
+        {
+          "speaker": "a",
+          "text": "They genuinely would. Everything else is detail hanging off those bones, exactly like the aerodynamics. Knowledge first, then training, then skill, never skipping a step. Fly the wing, make the decision early, stay calm. Catch you in the next episode."
+        }
+      ]
+    }
+  ]
+}

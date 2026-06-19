@@ -26,6 +26,11 @@ def main():
     shv_questions = load_json('data/shv_questions.json') if os.path.exists(os.path.join(ROOT, 'data/shv_questions.json')) else {'questions': {}, 'topics': {}}
     shv_enrichments_path = os.path.join(ROOT, 'data/shv_enrichments.json')
     shv_enrichments = load_json('data/shv_enrichments.json') if os.path.exists(shv_enrichments_path) else {'enrichments': {}}
+    # Podcast scripts (always present) + render timing (present only after
+    # scripts/build_podcasts.py has produced audio). Audio itself is served from
+    # assets/podcast/ — only the manifest + timing are inlined.
+    podcasts = load_json('data/podcasts.json') if os.path.exists(os.path.join(ROOT, 'data/podcasts.json')) else {'episodes': []}
+    podcast_timing = load_json('data/podcast_timing.json') if os.path.exists(os.path.join(ROOT, 'data/podcast_timing.json')) else {'episodes': {}}
     # German parallel datasets (optional — present when those scrape/translate
     # passes have run). Each falls back to an empty container so the UI knows
     # German isn't available yet.
@@ -67,6 +72,8 @@ def main():
     video_vtt_json = json.dumps(video_vtt, ensure_ascii=False, separators=(',', ':'))
     shv_questions_json = json.dumps(shv_questions, ensure_ascii=False, separators=(',', ':'))
     shv_enrichments_json = json.dumps(shv_enrichments, ensure_ascii=False, separators=(',', ':'))
+    podcasts_json = json.dumps(podcasts, ensure_ascii=False, separators=(',', ':'))
+    podcast_timing_json = json.dumps(podcast_timing, ensure_ascii=False, separators=(',', ':'))
     workbook_de_json = json.dumps(workbook_de, ensure_ascii=False, separators=(',', ':'))
     shv_questions_de_json = json.dumps(shv_questions_de, ensure_ascii=False, separators=(',', ':'))
     shv_enrichments_de_json = json.dumps(shv_enrichments_de, ensure_ascii=False, separators=(',', ':'))
@@ -156,6 +163,8 @@ def main():
 <script id="data-video-vtt" type="application/json">{video_vtt_json}</script>
 <script id="data-shv-questions" type="application/json">{shv_questions_json}</script>
 <script id="data-shv-enrichments" type="application/json">{shv_enrichments_json}</script>
+<script id="data-podcasts" type="application/json">{podcasts_json}</script>
+<script id="data-podcast-timing" type="application/json">{podcast_timing_json}</script>
 <script id="data-workbook-de" type="application/json">{workbook_de_json}</script>
 <script id="data-shv-questions-de" type="application/json">{shv_questions_de_json}</script>
 <script id="data-shv-enrichments-de" type="application/json">{shv_enrichments_de_json}</script>
@@ -171,6 +180,8 @@ window.VIDEO_MANIFEST = JSON.parse(document.getElementById('data-video-manifest'
 window.VIDEO_VTT = JSON.parse(document.getElementById('data-video-vtt').textContent);
 window.SHV_QUESTIONS = JSON.parse(document.getElementById('data-shv-questions').textContent);
 window.SHV_ENRICHMENTS = JSON.parse(document.getElementById('data-shv-enrichments').textContent);
+window.PODCASTS = JSON.parse(document.getElementById('data-podcasts').textContent);
+window.PODCAST_TIMING = JSON.parse(document.getElementById('data-podcast-timing').textContent);
 window.WORKBOOK_DE = JSON.parse(document.getElementById('data-workbook-de').textContent);
 window.SHV_QUESTIONS_DE = JSON.parse(document.getElementById('data-shv-questions-de').textContent);
 window.SHV_ENRICHMENTS_DE = JSON.parse(document.getElementById('data-shv-enrichments-de').textContent);
@@ -199,6 +210,10 @@ window.TIPS_MD_DE = {tips_de_js};
     print(f"  Cards: {len(cards)} · Guide chapters: {sum(len(p['chapters']) for p in guide['parts'])} · Slides: {total_slides} across {len(decks['decks'])} decks · Workbook: {wb_chapters} chapters across {len(workbook.get('books', []))} books")
     print(f"  Videos: {video_count} ({de_vtt} DE / {en_vtt} EN VTTs inlined)")
     print(f"  SHV pool: {len(shv_questions.get('questions') or {})} questions across {len(shv_questions.get('topics') or {})} topics")
+    pod_eps = podcasts.get('episodes') or []
+    pod_scripted = sum(1 for e in pod_eps if e.get('segments'))
+    pod_audio = len(podcast_timing.get('episodes') or {})
+    print(f"  Podcast: {len(pod_eps)} episodes ({pod_scripted} scripted, {pod_audio} with audio)")
 
 if __name__ == '__main__':
     main()

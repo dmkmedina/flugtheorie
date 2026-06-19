@@ -1,0 +1,94 @@
+# Equipment
+# One turn per line as 'Name: text'. Lines starting with # are ignored.
+# Hosts: Maya (instructor) and Theo (curious learner).
+
+Theo: So Maya, I've got this bag of gear in my hallway. A wing, a harness, a tangle of lines, a thing called a reserve. And honestly, I treat it like a phone I don't understand. It works, I don't ask questions.
+Maya: That's the habit we're breaking. Every part of this kit is keeping you alive up there. Picture it as a chain from the sky: at the top the wing, below it the lines, the lines gather into risers, and the risers clip to the harness, which is you.
+Theo: Wing, lines, risers, harness. That's the four main parts?
+Maya: That's the bones. Some books split the reserve out and call it five, but those four are the spine. Start at the top, the canopy. It's woven nylon, properly polyamide, in a special pattern called ripstop.
+Theo: Ripstop, like on tents. What's it doing?
+Maya: They weave a stronger, thicker thread in at intervals, in two directions at right angles. So the cloth looks finely squared, and if a hole starts it can't run, it hits the next thick thread and stops within a few millimetres. Little fences so a tear can't escape. And it's astonishingly light: about forty-nine grams per square metre, where the paper you print on is around eighty, and the lightest hike-and-fly cloth is down near seventeen.
+Theo: So the wing's lighter than printer paper. What stops it leaking air?
+Maya: A coating, because the bare weave would leak like a sieve. Usually polyurethane, sometimes silicone or Mylar. That lowers the porosity, stiffens the cloth so the profile holds shape, and shields against ultraviolet. The nice surprise is a good coating can even make the cloth stronger.
+Theo: Porosity is the air-leakiness, and I'm guessing you want it low.
+Maya: As low as possible. Because when the coating wears out and the fabric goes porous, air leaks through instead of pressurising the wing, and here's the catch that gets everyone: it stalls earlier, meaning at a higher airspeed than a fresh wing. And it can drop into a parachutal stall, where the wing keeps its shape but stops moving forward: high sink rate, almost no airspeed.
+Theo: So a worn coating is a real safety issue. What destroys it?
+Maya: The exam loves this list. Strong detergents, which attack the coating directly. Damp storage, which grows mould. Friction with sand or salt. Ultraviolet and heat. Seawater, fuel. And, I promise this is in the book, cow dung.
+Theo: Cow dung.
+Maya: You land in a field, collect a souvenir, and the acid eats the coating. Rinse with lukewarm water, dry in the shade. The single worst thing, though, is a wet wing in a hot car: in summer it's an oven, and heat plus moisture wrecks the cloth. But notice what's safe: extreme manoeuvres don't hurt it, plain lukewarm water is fine, and cool dark storage is fine. The enemies are heat, chemicals, friction and trapped moisture, not flying and not the dark.
+Theo: Got it. Now open up the inside of the wing for me. You keep saying cells.
+Maya: Picture a row of long tubes running front to back across the span. Each tube is a cell, and at the leading edge it has a mouth, so as you fly, air rams in and inflates it. That pressure turns a floppy bag of cloth into a firm wing. Between the cells are walls called ribs, holding the profile. More cells means a more accurate shape, but more fabric, so more weight and bulk. Always a trade.
+Theo: And if every cell is walled off, how does air reach the closed cells at the tips?
+Maya: A neat trick: crossports, holes cut in the ribs so air flows sideways inside the wing. Near the tip the cell mouths are often closed, so those cells only fill through the crossports. And they do one more thing that can save your life: after a partial collapse, they let air rush back in so the wing re-inflates quickly.
+Theo: Anything reinforcing the structure?
+Maya: Along the leading edge you'll find Mylar reinforcement, stiff shiny plastic that holds the front in shape on the ground. The catch: Mylar is brittle. Fold it sharply over and over and it cracks, so never pack the wing with hard creases at the leading edge.
+Theo: And where's the stress highest? I'd guess evenly spread.
+Maya: The front half. Remember from aerodynamics, lift sits on the front third. So the front of the canopy, and the cells where the lines attach, carry the most load. Which takes us straight to the lines.
+Theo: Right, front carries the load. Trace the lines for me.
+Maya: From the wing down, they attach to the underside in groups. At the very front, holding the leading edge, the A lines. Then back: B, C, and on many wings D. And separately, to the trailing edge, the brake lines. They're often colour-coded, school wings often putting red on the A group, but that's not a universal standard, so don't rely on colour.
+Theo: And which lines take the load?
+Maya: Because lift sits forward, the A and B lines together carry roughly eighty percent of the load. The C and D, only about twenty. That eighty-twenty split comes back again and again, so lock it in.
+Theo: Eighty on A and B. And what's a line actually made of?
+Maya: Two parts. An inner core that carries all the load, and around it a braided sheath. The sheath carries nothing; it shields the core from ultraviolet and abrasion, and lets the maker colour-separate the groups. The downside is it thickens the line and adds drag, so high-performance wings increasingly go unsheathed, with a coating on the bare core instead.
+Theo: And the core itself, the bit doing the work?
+Maya: Two materials. First, Dyneema, oriented polyethylene, white. Great strength for its weight, easy to sew, good against ultraviolet. Its quirk: under load it stretches a little, and unloaded it shrinks a little, worse when wet. The second is aramid, brand names Kevlar or Technora, light brown. Barely stretches, high melting point, but kink-sensitive and more sensitive to ultraviolet.
+Theo: One stretches and shrinks, the other hates kinks. So how does a maker choose?
+Maya: They don't, they mix. Typically Dyneema in the lightly-loaded upper wing, aramid in the heavily-loaded lower lines, so it flies like new as long as possible.
+Theo: Now the ends. If a line's a bit long, can I just tie a knot?
+Maya: Absolutely not, one of the hardest rules in the sport. A single knot cuts a line's strength by more than half. Loops are made by sewing, or better by splicing, weaving the core back through itself; on bare aramid, sewing can cut strength up to forty percent, so there you splice. The rule is absolute: never knot, never shorten, never modify. A damaged line, especially a loaded A or B, gets replaced with the original part through a service centre, never a homemade fix. And one nasty trap: the core hides inside the sheath, so it can break internally while the sheath looks perfect.
+Theo: So why does a line's length matter so much anyway?
+Maya: Because line lengths set the angle of attack, the whole thing from aerodynamics. Lengthen the A lines, or shorten the D, and the angle goes up: harder to inflate, slower, more parachutal-stall risk. Shorten the A, or lengthen the D, and it drops: faster, but more prone to a front collapse. So when lines stretch over time, the workshop measures them against spec and re-trims, usually adding tiny tubes to lengthen a centimetre or two. Never you, never with string.
+Theo: Okay, the lines gather. Into what?
+Maya: The risers. Strong webbing straps, lettered A at the front through D at the back to match the lines. They join to your karabiners through little screw-locking metal loops called quick links. One number: tighten by hand, then add a final quarter turn with a wrench.
+Theo: Now the fun part. How do I actually go faster?
+Maya: The speed system, the accelerator. A pulley worked by your feet, the speed bar. Push it and it shortens the A risers most, the B less, sometimes the C. That drops the angle of attack without much changing the profile, and the wing speeds up. Feet-only, because on a solo wing your legs are free.
+Theo: And on a tandem?
+Maya: The passenger blocks your legs, so tandems use a hand system, trimmers. Same job, on the rear risers. The difference: a foot bar springs straight back when you lift your foot; a trimmer you reach up and release by hand. And trimmers engaged, slow, the wing is less prone to front collapses; released, fast, more prone.
+Theo: And the brakes, that's how I steer.
+Maya: The brake lines run from the trailing edge of each half-wing, down through a pulley on the rear riser, to a handle in each hand. Pull one, you raise the angle of attack that side, slowing it and turning that way. Factory-set length, never modify it. And there's a check: arms all the way up, they should still hang in a slight rearward arc, pushed back by the airflow. If they fall straight down, they're too short, the wing's permanently braked, and you risk stalling in turbulence.
+Theo: Good one. Any trick to holding the handle?
+Maya: A favourite tip. Pass it once around your wrist, but never push your whole hand through the loop. Picture an emergency where you must drop the brake and grab your reserve, fast, in winter, with gloves. A hand shoved through the loop is shackled to it. And for best glide: arms fully up, no speed bar. Both brakes and bar cost glide, except that into a headwind a touch of bar actually improves your glide over the ground.
+Theo: Right, fly faster into wind, we did that in aerodynamics. Now the part I sit in, the harness.
+Maya: Think of it as the cabin of your aircraft, comfortable for hours: a seat, and straps around your thighs, chest and shoulders, all converging on two karabiners that clip to the risers. And one pair matters most, the leg straps. Forget to fasten them, and a strong pitch-up after launch can let you slide straight out through the leg openings. That is fatal, so leg straps get checked every single flight.
+Theo: Noted, grimly. There's padding in the back, right?
+Maya: Back protection, and the two main types trade off. Foam protects you from the very first second, on launch, in flight, on landing, but it's heavy and bulky. An airbag is light and packs small, but only fills once you're flying and the airflow blows in, so on a botched take-off it gives almost nothing. And the lightest hike-and-fly harnesses are just a band of webbing, no protection at all, with the reserve carried separately.
+Theo: And lying down, the prone harness?
+Maya: The pod harness. You lie almost flat: lower drag, better glide, shelter from the wind, room for a cockpit. But you can't look directly up, you don't sit upright, and twist risk is higher in a collapse. For a student, a sitting harness every time.
+Theo: Alright, the piece I hope I never use. The reserve.
+Maya: And yet every pilot carries one and must know exactly how their own deploys. It's saved even the very best. Most modern ones are cross-cell canopies, semi-square shapes woven loose, and they're pendulum-stable, so you come down vertically without swinging. Older round ones tend to swing, adding energy at touchdown, so they're being replaced. For a student, the cross-cell: you throw it, come down stable, fly nothing.
+Theo: And where does it live, where does it attach?
+Maya: It lives in a pouch on the harness, handle visible and reachable while seated. But the crucial bit: the bridle must attach high, up on the shoulder straps, so when it opens it pulls you upright under the canopy. Attach it at the riser karabiners instead and you stay sitting, the wrong position to land.
+Theo: And the fabric, same nylon as the wing?
+Maya: Same nylon, but woven much finer and looser. And here's the twist: unlike the wing, the reserve is allowed to stretch, fabric and lines both, because that stretch is what absorbs the shock of opening and protects your spine.
+Theo: How hard does it actually land me?
+Maya: The target sink rate is about five and a half metres per second, in energy terms like jumping from one and a half metres. But with the harness, wing, helmet and clothes attached, it feels more like two to three. And the certified figure flatters you: reserves are tested by dropping from a bridge or helicopter with just a weight, without the paraglider. In real life the wing's still attached, interferes with the canopy, swings the system and pushes the sink rate higher.
+Theo: So what do I do on landing?
+Maya: The single most important thing: land on your feet. Your legs are a far better shock absorber than any foam or airbag. Feet first, knees flexed, and roll through your body. Don't sit down onto the protector at impact, it's a backup, not a target.
+Theo: Feet, not seat. And what keeps it opening reliably?
+Maya: Two big things: low fabric porosity, and short repack intervals. Repack every four to six months, airing it twenty-four hours first and checking the whole system. Leave it too long and the folds compress, and moisture or static cling makes them stick, the classic cause of slow openings. And you don't do it yourself, it takes training, so use someone certified by the SHV, the Swiss hang-gliding and paragliding federation.
+Theo: Walk me through throwing it.
+Maya: Five steps. Locate the handle. Grasp it firmly. Pull it out wide, away from the pouch. Identify free air to the rear. Throw with full force. The lines pay out first, then the pouch opens and releases the canopy. And one more job once it's open: your main wing is still attached and can interfere, so you neutralise it, pulling it in toward you on the B or C risers so it stops flying.
+Theo: B or C to kill the main wing. Now gadgets. Which instrument earns its place?
+Maya: The variometer, the vario, easily the most useful. It tells you your vertical speed, climb or sink, by measuring how fast the air pressure changes over time. That's how you find a thermal. For a recreational pilot, an acoustic one that beeps is plenty: rising pitch for lift, falling for sink.
+Theo: And an altimeter?
+Maya: It reads altitude from the air pressure, your tool for respecting airspace limits. But because pressure changes with the weather, you recalibrate before every flight. Calibrate in the morning, and if a high-pressure system builds, the altimeter reads too low in the afternoon. If the high weakens, it reads too high.
+Theo: High building, reads too low later. And GPS, and the wind one?
+Maya: A GPS fixes your position from satellites, handy for ground speed, and essential for competition, where the recorded track proves you flew the course. The wind one is the anemometer, the least useful in flight, since an experienced pilot reads airspeed from the wind on the face and the noise. And note: none gives airspeed directly; on a paraglider you infer it from the wing's feel. Plus the basics, a helmet, ideally full-face, strong gloves, rigid shoes, all passive safety, which never replaces active safety, good piloting and weather decisions.
+Theo: Last big topic. Those letters, EN A, EN B. What do they really mean?
+Maya: How demanding the wing is, how much it expects of you. It's the EN certification, the standard worldwide, except Germany, which still uses the older LTF system. Switzerland accepts both. Four classes, A to D. EN A is the school wing, the most forgiving: disturb it, let go, and it returns to straight flight on its own. EN B is the intermediate, where most pilots end up after their licence, a few hundred flights in. And by EN C and especially EN D, competition class, the pilot must react instantly, intuitively, no time to think about what the wing's doing.
+Theo: Is the safer wing also the slower one? What's it cost me?
+Maya: Here's the trade in real numbers. Launch from a thousand metres above the valley in calm air. A modern school wing reaches a field about eight kilometres away, a competition wing about twelve. But that school-wing eight used to be six or seven and a half just a few years ago. So today's wings are both safer and better gliders.
+Theo: How does a wing earn its letter?
+Maya: A multi-stage test. A shock load, towed behind a vehicle with a deliberate weak link. Then a ramped pull to at least eight G of static load, though modern wings often reach twelve, acro wings sixteen. Then a test pilot flies twenty-four manoeuvres, collapses, stalls, spirals, scored across ninety points. They also measure brake travel: up to fifty centimetres on a school wing, only thirty on a competition wing. But the scoring is a judgement call, not a hard measurement, which is why the real advice is to ask a flight school before you buy, they know each wing's personality far better than the letter does.
+Theo: Before we finish, the care rules in one breath.
+Maya: Minimise friction, don't drag it. Pack it into the shade the moment you land. Dry a wet wing the same day, never bag it wet, never bake it in a hot car. Clean only with lukewarm water, never detergents. And on landing, let it fall to the side or rear, never forward.
+Theo: Why not forward?
+Maya: If it drops forward, the air trapped in the cells can't escape fast enough, and the sudden pressure can damage the cell walls. And get the wing checked on the maker's schedule, typically every twenty-four months or two hundred flight hours, or you void the certification and your insurance.
+Theo: And there's a pre-flight check, the thing that catches problems on the ground.
+Maya: The most important habit you'll build, every flight, going through the chain. Wing laid out clean, no tears. Lines free from riser to wing, no knots. Risers untwisted, quick links closed. Both karabiners screwed shut. Leg straps and chest strap buckled. Reserve handle in place. Helmet on.
+Theo: Okay. Land this for me. Give me the spine of the whole thing.
+Maya: Four parts in a chain: wing, lines, risers, harness. The wing is ripstop nylon with a coating, and worn coating means early stalls, so keep it cool, dry and clean. The lines carry eighty percent of the load on A and B; you never knot or modify them, you replace them. The speed bar makes you fast, the brakes steer and slow you, both factory-set. Leg straps always fastened. The reserve lives high on your shoulders and you land on your feet. And the letter tells you how much the wing expects: A forgives, D demands.
+Theo: Chain of four, coating keeps the wing honest, never touch the lines, leg straps, reserve up high, land on your feet, and the letter sets the bar. That I can hold.
+Maya: Then you've got the whole equipment paper. And the pre-flight check is where it all earns its keep, the thirty seconds on the ground that buys you the flight.
+Theo: That actually clicked out loud. Thanks Maya.
+Maya: That's the idea. Pack it in the shade, check it every time, and I'll catch you in the next episode.
