@@ -321,6 +321,8 @@ h4 { font-size: 14px; font-weight: 700; margin: 14px 0 6px; }
 }
 .quick-score { font-size: 14px; color: var(--text-soft); }
 .quick-score strong { color: var(--text); font-variant-numeric: tabular-nums; }
+/* Each Quick 10 question (card + its context panel) is a .quick-item; space them apart. */
+.quick-item { margin-bottom: 20px; }
 
 /* Podcast — episode list, player and read-along transcript */
 .pod-list { display: grid; gap: 14px; }
