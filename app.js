@@ -1830,7 +1830,8 @@ function renderQuickQuiz() {
         <div class="fc-question"><span class="lang-tag">Q ${i + 1}</span><span class="ct">${escapeHtml(q.text)}</span></div>
         ${q.has_image && q.image_path ? `<div class="shv-question-image"><img src="${escapeHtml(q.image_path)}" alt="" loading="lazy" /></div>` : ''}
         <div class="choices">${choices}</div>
-      </div>`;
+      </div>
+      ${revealed ? renderShvEnrichmentPanel(key, q) : ''}`;
   }).join('');
 
   return `
@@ -1859,6 +1860,8 @@ function attachQuickQuizEvents() {
   if (top) top.onclick = reshuffle;
   const bottom = document.getElementById('quick-shuffle-bottom');
   if (bottom) bottom.onclick = reshuffle;
+  // After answering, each card shows the study-mode context panel — wire its chips.
+  attachShvEnrichmentEvents();
 }
 
 // ============================================================================
@@ -2233,6 +2236,37 @@ function renderShvEnrichmentPanel(qid, q) {
     ${diagramsHtml}
     ${slidesHtml}
   </div>`;
+}
+
+// Wire the clickable chips inside any renderShvEnrichmentPanel output (guide /
+// workbook / video clip / slide). Used by the SHV study view, the SHV browse
+// view, and the Quick 10 view — all three embed the same panel.
+function attachShvEnrichmentEvents() {
+  document.querySelectorAll('[data-shv-goto-guide]').forEach(b => b.onclick = () => {
+    state.guide.partId = b.dataset.shvGotoPart;
+    state.guide.chapterId = b.dataset.shvGotoGuide;
+    saveState();
+    navigate('guide');
+  });
+  document.querySelectorAll('[data-shv-goto-workbook]').forEach(b => b.onclick = () => {
+    state.workbook.bookId = b.dataset.shvGotoBook;
+    state.workbook.chapterId = b.dataset.shvGotoWorkbook;
+    saveState();
+    navigate('workbook');
+  });
+  document.querySelectorAll('[data-shv-play-clip]').forEach(b => b.onclick = () => {
+    const [videoId, tStart] = b.dataset.shvPlayClip.split('|');
+    openVideoPlayer(videoId);
+    // Seek to the timestamp once the video has loaded
+    setTimeout(() => {
+      const v = document.getElementById('vp-video');
+      if (v) { v.currentTime = parseFloat(tStart); v.play().catch(() => {}); }
+    }, 600);
+  });
+  document.querySelectorAll('[data-shv-open-slide]').forEach(b => b.onclick = () => {
+    const [deckId, page] = b.dataset.shvOpenSlide.split('|');
+    openSlideViewer(deckId, parseInt(page, 10));
+  });
 }
 
 function renderSHVExamLive() {
@@ -2636,32 +2670,8 @@ function attachShvBrowseEvents() {
     render();
   };
   // Click-into-app handlers also work in browse view (chips → guide/workbook, video clips, slides)
-  // The chips are produced by renderShvEnrichmentPanel and pick up the same data-shv-* attributes
-  // bound by attachSHVExamEvents — re-bind here:
-  document.querySelectorAll('[data-shv-goto-guide]').forEach(b => b.onclick = () => {
-    state.guide.partId = b.dataset.shvGotoPart;
-    state.guide.chapterId = b.dataset.shvGotoGuide;
-    saveState();
-    navigate('guide');
-  });
-  document.querySelectorAll('[data-shv-goto-workbook]').forEach(b => b.onclick = () => {
-    state.workbook.bookId = b.dataset.shvGotoBook;
-    state.workbook.chapterId = b.dataset.shvGotoWorkbook;
-    saveState();
-    navigate('workbook');
-  });
-  document.querySelectorAll('[data-shv-play-clip]').forEach(b => b.onclick = () => {
-    const [videoId, tStart] = b.dataset.shvPlayClip.split('|');
-    openVideoPlayer(videoId);
-    setTimeout(() => {
-      const v = document.getElementById('vp-video');
-      if (v) { v.currentTime = parseFloat(tStart); v.play().catch(() => {}); }
-    }, 600);
-  });
-  document.querySelectorAll('[data-shv-open-slide]').forEach(b => b.onclick = () => {
-    const [deckId, page] = b.dataset.shvOpenSlide.split('|');
-    openSlideViewer(deckId, parseInt(page, 10));
-  });
+  // The enrichment chips are produced by renderShvEnrichmentPanel; bind them.
+  attachShvEnrichmentEvents();
 }
 
 function attachSHVExamEvents() {
@@ -2691,31 +2701,7 @@ function attachSHVExamEvents() {
   if (viewLast) viewLast.onclick = () => { state.shvExam.lastResult = state.shvExam.history[state.shvExam.history.length - 1]; render(); };
 
   // Enrichment chip clicks: jump to guide / workbook / video / slide
-  document.querySelectorAll('[data-shv-goto-guide]').forEach(b => b.onclick = () => {
-    state.guide.partId = b.dataset.shvGotoPart;
-    state.guide.chapterId = b.dataset.shvGotoGuide;
-    saveState();
-    navigate('guide');
-  });
-  document.querySelectorAll('[data-shv-goto-workbook]').forEach(b => b.onclick = () => {
-    state.workbook.bookId = b.dataset.shvGotoBook;
-    state.workbook.chapterId = b.dataset.shvGotoWorkbook;
-    saveState();
-    navigate('workbook');
-  });
-  document.querySelectorAll('[data-shv-play-clip]').forEach(b => b.onclick = () => {
-    const [videoId, tStart] = b.dataset.shvPlayClip.split('|');
-    openVideoPlayer(videoId);
-    // Seek to the timestamp once the video has loaded
-    setTimeout(() => {
-      const v = document.getElementById('vp-video');
-      if (v) { v.currentTime = parseFloat(tStart); v.play().catch(() => {}); }
-    }, 600);
-  });
-  document.querySelectorAll('[data-shv-open-slide]').forEach(b => b.onclick = () => {
-    const [deckId, page] = b.dataset.shvOpenSlide.split('|');
-    openSlideViewer(deckId, parseInt(page, 10));
-  });
+  attachShvEnrichmentEvents();
 
   document.querySelectorAll('[data-shv-choice]').forEach(b => b.onclick = () => {
     state.shvExam.answers[state.shvExam.current] = parseInt(b.dataset.shvChoice, 10);
