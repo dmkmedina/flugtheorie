@@ -2221,7 +2221,7 @@
         "Lisbon (Lissabon) and Athens (Athen)",
         "Lulea and St.Petersburg"
       ],
-      "correct": null,
+      "correct": 3,
       "has_image": true,
       "image_path": "assets/shv_images/weather_158.jpg"
     },
@@ -2237,7 +2237,7 @@
         "consist exclusively of water, never of ice.",
         "cause precipitation."
       ],
-      "correct": null
+      "correct": 1
     },
     "Weather_29": {
       "qid": 29,
@@ -2265,7 +2265,7 @@
         "the relative humidity of the air.",
         "the temperature to which air must be cooled in order for the water vapour contained within it to begin to condense."
       ],
-      "correct": null
+      "correct": 3
     },
     "Weather_62": {
       "qid": 62,
@@ -2293,7 +2293,7 @@
         "190°",
         "310°"
       ],
-      "correct": null,
+      "correct": 1,
       "has_image": true,
       "image_path": "assets/shv_images/weather_153.jpg"
     },
@@ -2323,7 +2323,7 @@
         "1013.2 hPa",
         "998.7 hPa"
       ],
-      "correct": null
+      "correct": 2
     },
     "Weather_105": {
       "qid": 105,
@@ -2337,7 +2337,7 @@
         "the temperature where the air mass originated.",
         "the seasonal average temperature."
       ],
-      "correct": null
+      "correct": 0
     },
     "Weather_28": {
       "qid": 28,
@@ -2351,7 +2351,7 @@
         "At the border between a hazy air layer over the ground and clear air at altitude.",
         "Inversions only occur on the ground."
       ],
-      "correct": null
+      "correct": 2
     },
     "Weather_125": {
       "qid": 125,
@@ -2379,7 +2379,7 @@
         "1,0°C / 100 m",
         "< 1°C / 100 m"
       ],
-      "correct": null
+      "correct": 3
     },
     "Weather_164": {
       "qid": 164,
@@ -2393,7 +2393,7 @@
         "generally sunny throughout the whole of Switzerland with light and variable winds.",
         "increasing cloud in the west and south, and mainly sunny in the east due to the influence of south föhn."
       ],
-      "correct": null
+      "correct": 3
     },
     "Weather_9": {
       "qid": 9,
@@ -2407,7 +2407,7 @@
         "the longitude.",
         "the tides."
       ],
-      "correct": null
+      "correct": 0
     },
     "Weather_84": {
       "qid": 84,
@@ -2421,7 +2421,7 @@
         "during the day and uphill.",
         "at night and down the valley."
       ],
-      "correct": null
+      "correct": 3
     },
     "Weather_127": {
       "qid": 127,
@@ -2449,7 +2449,7 @@
         "January",
         "May"
       ],
-      "correct": null
+      "correct": 0
     },
     "Weather_107": {
       "qid": 107,
@@ -2463,7 +2463,7 @@
         "The passing of a warm front occurs first at altitude, then at ground level. The passing of a cold front occurs first at ground level, then at altitude.",
         "The passing of warm and cold fronts occurs first at high altitude and then at ground level."
       ],
-      "correct": null
+      "correct": 2
     },
     "Weather_65": {
       "qid": 65,
@@ -2477,7 +2477,7 @@
         "which is warmer than its surroundings over a long period.",
         "which is drier than its surroundings over a long period."
       ],
-      "correct": null
+      "correct": 2
     },
     "Weather_71": {
       "qid": 71,
@@ -2491,7 +2491,7 @@
         "the prevailing wind strength and direction.",
         "the chance of precipitation."
       ],
-      "correct": null
+      "correct": 2
     },
     "Weather_46": {
       "qid": 46,
@@ -2505,7 +2505,7 @@
         "Covered sky, zero wind, small temperature - dew point difference.",
         "Clear sky, wind 270 deg/10 kt, small temperature - dew point difference."
       ],
-      "correct": null
+      "correct": 0
     },
     "Weather_17": {
       "qid": 17,
@@ -2519,7 +2519,7 @@
         "Because rising air needs to evaporate water, there is a relationship between the increase in altitude and reduction in temperature.",
         "Because the angle of the sun's radiation reduces with increasing altitude, and therefore the air bubble receives less heat than at ground level."
       ],
-      "correct": null
+      "correct": 1
     },
     "Weather_140": {
       "qid": 140,
@@ -2561,7 +2561,7 @@
         "thermal rising air in which the humidity is so high that clouds form which cause precipitation.",
         "thermal rising air masses which are raised due to incoming continental cold air."
       ],
-      "correct": null
+      "correct": 0
     },
     "Weather_13": {
       "qid": 13,
@@ -2589,7 +2589,7 @@
         "August",
         "January"
       ],
-      "correct": null
+      "correct": 1
     },
     "Weather_15": {
       "qid": 15,
@@ -2631,7 +2631,7 @@
         "Cirrus, cirrostratus, altostratus, nimbostratus.",
         "Cumulus, cumulus congestus, cumulus calvus, cumulonimbus."
       ],
-      "correct": null
+      "correct": 2
     },
     "Weather_34": {
       "qid": 34,
@@ -8103,7 +8103,7 @@
         "Stratocumulus",
         "Cirrocumulus"
       ],
-      "correct": null
+      "correct": 3
     },
     "Weather_48": {
       "qid": 48,
@@ -8173,7 +8173,7 @@
         "an occlusion.",
         "a cold front."
       ],
-      "correct": null,
+      "correct": 3,
       "has_image": true,
       "image_path": "assets/shv_images/weather_141.jpg"
     },
@@ -8203,7 +8203,7 @@
         "When rising air meets an inversion.",
         "only in the vicinity of a low-pressure system."
       ],
-      "correct": null
+      "correct": 0
     },
     "Weather_1": {
       "qid": 1,
@@ -8217,7 +8217,7 @@
         "approx. 78% oxygen and approx. 21% carbon dioxide.",
         "approx. 78% oxygen and approx. 21% nitrogen."
       ],
-      "correct": null
+      "correct": 0
     },
     "Weather_132": {
       "qid": 132,
@@ -8259,7 +8259,7 @@
         "5/8 - 7/8 cumulonimbus, isolated lenticulars in the east",
         "8/8 nimbostratus"
       ],
-      "correct": null,
+      "correct": 0,
       "has_image": true,
       "image_path": "assets/shv_images/weather_161.jpg"
     },
@@ -8275,7 +8275,7 @@
         "the air masses turn in an anticlockwise direction around their centre and rise over a large area.",
         "the air masses turn in an anticlockwise direction around their centre and sink over a large area."
       ],
-      "correct": null
+      "correct": 2
     },
     "Weather_113": {
       "qid": 113,
@@ -8289,7 +8289,7 @@
         "Switzerland is behind a cold front, and moderately humid, cold air approaches the Alps from the northwest.",
         "The cirrostratus clouds of an approaching warm front begin to cover the sky above Switzerland."
       ],
-      "correct": null
+      "correct": 2
     },
     "Weather_100": {
       "qid": 100,
@@ -8333,7 +8333,7 @@
         "Lisbon (Lissabon) and Athens (Athen)",
         "Paris and London"
       ],
-      "correct": null,
+      "correct": 2,
       "has_image": true,
       "image_path": "assets/shv_images/weather_159.jpg"
     },
@@ -8349,7 +8349,7 @@
         "an isobar.",
         "a warm front."
       ],
-      "correct": null,
+      "correct": 2,
       "has_image": true,
       "image_path": "assets/shv_images/weather_143.jpg"
     },
@@ -8393,7 +8393,7 @@
         "Poor visibility, low cloud base, rain, steady wind.",
         "Clouds cover the mountains in the distance, cumulus and lenticular clouds in the blue portion of the sky, changing wind direction on the ground, freshening southwest wind at launch."
       ],
-      "correct": null
+      "correct": 3
     },
     "Weather_43": {
       "qid": 43,
@@ -8421,7 +8421,7 @@
         "is stronger from October till February than from March till July.",
         "is stronger from December till April than from July till September."
       ],
-      "correct": null
+      "correct": 1
     },
     "Weather_133": {
       "qid": 133,
@@ -8449,7 +8449,7 @@
         "Inversion",
         "Restitution"
       ],
-      "correct": null
+      "correct": 2
     },
     "Weather_60": {
       "qid": 60,
@@ -8477,7 +8477,7 @@
         "it can be assumed that they will produce no more updrafts.",
         "they become harmless in terms of paragliding because they are in a state of dissipation."
       ],
-      "correct": null
+      "correct": 0
     },
     "Weather_25": {
       "qid": 25,
@@ -8607,7 +8607,7 @@
         "Shear turbulence.",
         "Mechanical turbulence."
       ],
-      "correct": null
+      "correct": 2
     },
     "Weather_77": {
       "qid": 77,
@@ -8817,7 +8817,7 @@
         "Incoming warm air in the upper air layers.",
         "The heating of the air layers close to the ground during the course of the day."
       ],
-      "correct": null
+      "correct": 3
     },
     "Weather_83": {
       "qid": 83,
@@ -9007,7 +9007,7 @@
         "cools quicker in the mountains than in the flatlands when the sun's radiation weakens.",
         "warms up faster in the flatlands than in the mountains during the day."
       ],
-      "correct": null
+      "correct": 1
     },
     "Weather_75": {
       "qid": 75,
@@ -9185,7 +9185,7 @@
         "a line of zones of precipitation.",
         "the boundary between two different air masses."
       ],
-      "correct": null
+      "correct": 3
     },
     "Weather_162": {
       "qid": 162,
@@ -9215,7 +9215,7 @@
         "Transformation from solid to gaseous state.",
         "Transformation from liquid to gaseous state."
       ],
-      "correct": null
+      "correct": 0
     },
     "Weather_8": {
       "qid": 8,
@@ -9333,7 +9333,7 @@
         "3",
         "1"
       ],
-      "correct": null,
+      "correct": 1,
       "has_image": true,
       "image_path": "assets/shv_images/weather_32.jpg"
     },
@@ -9407,7 +9407,7 @@
         "an occlusion.",
         "an isobar."
       ],
-      "correct": null,
+      "correct": 0,
       "has_image": true,
       "image_path": "assets/shv_images/weather_142.jpg"
     },
@@ -9481,7 +9481,7 @@
         "20 dm³",
         "5 dm³"
       ],
-      "correct": null
+      "correct": 0
     },
     "Weather_129": {
       "qid": 129,
@@ -9597,7 +9597,7 @@
         "which is drier than its surroundings over a long period.",
         "which is warmer than its surroundings over a long period."
       ],
-      "correct": null
+      "correct": 1
     },
     "Weather_76": {
       "qid": 76,
