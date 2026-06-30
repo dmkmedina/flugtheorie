@@ -1822,6 +1822,7 @@ function renderQuickQuiz() {
       ? (picked === q.correct ? `<span style="color:var(--good)">${isDE ? '✓ Richtig' : '✓ Correct'}</span>` : `<span style="color:var(--bad)">${isDE ? '✗ Falsch' : '✗ Wrong'}</span>`)
       : '';
     return `
+      <div class="quick-item">
       <div class="flashcard">
         <div class="fc-meta">
           <div><span class="cat-dot" style="background:${meta.color}"></span>${meta.icon} ${escapeHtml(q.topic)}</div>
@@ -1831,7 +1832,8 @@ function renderQuickQuiz() {
         ${q.has_image && q.image_path ? `<div class="shv-question-image"><img src="${escapeHtml(q.image_path)}" alt="" loading="lazy" /></div>` : ''}
         <div class="choices">${choices}</div>
       </div>
-      ${revealed ? renderShvEnrichmentPanel(key, q) : ''}`;
+      ${revealed ? renderShvEnrichmentPanel(key, q) : ''}
+      </div>`;
   }).join('');
 
   return `
