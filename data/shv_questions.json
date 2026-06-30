@@ -8317,7 +8317,7 @@
         "A warm front.",
         "An occlusion with the characteristics of a cold front."
       ],
-      "correct": null,
+      "correct": 0,
       "has_image": true,
       "image_path": "assets/shv_images/weather_118.jpg"
     },
