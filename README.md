@@ -10,6 +10,26 @@ Swiss paragliding theory (SHV/FSVL) exam study trainer.
   angle of attack & the polar, wind & speed-to-fly, thermalling, Swiss airspace, wing anatomy.
   Static file; uses `assets/vendor/three.min.js`.
 
+## SHV question images
+
+Some questions in the SHV pool carry a diagram (profiles, airspace charts, weather
+maps). `scripts/shv_scrape_images.mjs` pulls them out of the elearning tool's
+English session into `assets/shv_images/<topic>_<qid>.jpg`.
+
+The figures are language-neutral — SHV serves the same file to the DE and EN
+sessions, and the question number is stable across both — so both pools point at
+the same images. `scripts/attach_question_images.py` derives the `has_image` /
+`image_path` refs for `data/shv_questions.json` *and*
+`data/shv_questions.de.json` from what is on disk:
+
+```
+python3 scripts/attach_question_images.py            # sync both pools
+python3 scripts/attach_question_images.py --check    # CI-style: exit 1 if stale
+python3 build.py                                     # fold into index.html
+```
+
+Idempotent — re-run it after every image scrape.
+
 ## Podcast episodes
 
 A two-host audio companion per study-guide topic (📐 Aerodynamics · 🌦️ Meteorology ·
